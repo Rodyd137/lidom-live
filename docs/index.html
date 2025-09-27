@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>LIDOM Live (demo)</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 20px; }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .card { border: 1px solid #e5e7eb; border-radius: 14px; padding: 12px; box-shadow: 0 1px 6px rgba(0,0,0,.04); }
+    .hdr { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
+    .team { display:flex; gap:8px; align-items:center; }
+    .team img { width:22px; height:22px; object-fit:contain; }
+    .score { font-weight:700; }
+    .meta { color:#6b7280; font-size:12px; }
+    .pill { font-size:12px; padding:2px 8px; border-radius:999px; background:#eef2ff; color:#3730a3; }
+    .live { background:#fee2e2; color:#991b1b; }
+    .controls { display:flex; gap:10px; align-items:center; margin-bottom:16px; }
+  </style>
+</head>
+<body>
+  <h1>LIDOM Live (demo)</h1>
+  <div class="controls">
+    <button id="refresh">Refrescar JSON</button>
+    <label><input type="checkbox" id="live"> Modo LIVE (WebSocket)</label>
+    <span id="stamp" class="meta"></span>
+  </div>
+  <div id="grid" class="row"></div>
+
+  <script>
+    const state = {
+      league: null,
+      todayGames: [],
+      nearestGames: [],
+      previousGames: [],
+      mapById: new Map(),
+      ws: null,
+      live: false,
+    };
+
+    function fmtStatus(g) {
+      const STATUS = {1:'No iniciado',2:'En vivo',3:'Previa',4:'Retrasado',5:'Suspendido',6:'Final',7:'Pospuesto'};
+      return STATUS[g.status] || String(g.status);
+    }
+
+    function gameKey(g){ return g.id; }
+
+    function render() {
+      const grid = document.getElementById('grid');
+      grid.innerHTML = '';
+
+      const games = (state.todayGames && state.todayGames.length) ? state.todayGames
+                    : (state.nearestGames || []);
+
+      games.forEach(g => {
+        const live = g.status === 2 || g.status === 4;
+        const card = document.createElement('div');
+        card.className = 'card';
+
+        card.innerHTML = `
+          <div class="hdr">
+            <div>
+              <div class="meta">${new Date(g.date.replace(' ', 'T')).toLocaleString()}</div>
+              <div class="meta">${fmtStatus(g)} ${g.roundText ? '• ' + g.roundText : ''}</div>
+            </div>
+            <div class="pill ${live ? 'live' : ''}">${live ? 'EN VIVO' : 'Juego'}</div>
+          </div>
+
+          <div class="team">
+            <img src="${g.awayTeam.logo}" alt="${g.awayTeam.name}"/>
+            <div>${g.awayTeam.name}</div>
+            <div class="score"> ${g.awayTeam.runs ?? 0}</div>
+          </div>
+          <div class="team">
+            <img src="${g.homeTeam.logo}" alt="${g.homeTeam.name}"/>
+            <div>${g.homeTeam.name}</div>
+            <div class="score"> ${g.homeTeam.runs ?? 0}</div>
+          </div>
+
+          <div class="meta" style="margin-top:8px;">
+            B:${g.balls||0} S:${g.strikes||0} O:${g.outs||0}
+            ${g.lastPlayByPlay ? ' • Últ. jugada: ' + g.lastPlayByPlay : ''}
+          </div>
+        `;
+        card.id = 'game-' + g.id;
+        grid.appendChild(card);
+      });
+    }
+
+    async function loadJSON() {
+      const res = await fetch('latest.json', {cache:'no-store'});
+      if (!res.ok) throw new Error('No se pudo leer latest.json');
+      const data = await res.json();
+      const s = data.series || {};
+      state.league = s.league || null;
+      state.todayGames = (s.todayGames || []).map(x => typeof x === 'object' && x.id ? x : (x()||{}));
+      state.nearestGames = (s.nearestGames || []).map(x => typeof x === 'object' && x.id ? x : (x()||{}));
+      state.previousGames = (s.previousGames || []).map(x => typeof x === 'object' && x.id ? x : (x()||{}));
+
+      state.mapById.clear();
+      [...state.todayGames, ...state.nearestGames].forEach(g => state.mapById.set(gameKey(g), g));
+
+      document.getElementById('stamp').textContent = `Generado: ${new Date(data.generated_at_utc).toLocaleString()}`;
+      render();
+    }
+
+    function ensureWS(on) {
+      if (on && !state.ws) {
+        try {
+          const ws = new WebSocket('wss://s.pelotainvernal.com');
+          ws.onopen = () => console.log('WS conectado');
+          ws.onclose = () => { console.log('WS cerrado'); state.ws = null; if (state.live) setTimeout(()=>ensureWS(true), 2000); };
+          ws.onerror = (e) => console.warn('WS error', e);
+          ws.onmessage = (evt) => {
+            try {
+              const msg = JSON.parse(evt.data);
+              if (msg.g) {
+                const g = msg.g;
+                const id = g.id;
+                const local = state.mapById.get(id);
+                if (local) { Object.assign(local, g); render(); }
+              }
+              if (msg.c === 'reload') {
+                loadJSON().catch(console.error);
+              }
+            } catch(e) {}
+          };
+          state.ws = ws;
+        } catch (e) {
+          console.warn('No se pudo abrir WS', e);
+        }
+      } else if (!on && state.ws) {
+        state.ws.close();
+        state.ws = null;
+      }
+    }
+
+    document.getElementById('refresh').onclick = () => loadJSON().catch(console.error);
+    document.getElementById('live').onchange = (e) => { state.live = !!e.target.checked; ensureWS(state.live); };
+
+    loadJSON().catch(console.error);
+    setInterval(() => { if (!state.live) loadJSON().catch(()=>{}); }, 30000);
+  </script>
+</body>
+</html>
