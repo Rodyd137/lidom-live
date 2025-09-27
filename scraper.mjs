@@ -9,42 +9,27 @@ const OUT_DIR = resolve('docs');
 const OUT_FILE = resolve(OUT_DIR, 'latest.json');
 
 function extractFirstArgArrayOfViewModel(html) {
-  // Busca "new ViewModel(" y toma el PRIMER argumento que empieza con '[' con balance de corchetes
   const marker = 'new ViewModel(';
   const i = html.indexOf(marker);
   if (i < 0) throw new Error('No se encontró new ViewModel(');
-  // Desde el primer '[' después del marcador
   const start = html.indexOf('[', i);
   if (start < 0) throw new Error('No se encontró inicio de array para el primer argumento');
 
-  let idx = start;
-  let depth = 0;
-  let inStr = false;
-  let quote = null;
-  let escape = false;
+  let idx = start, depth = 0, inStr = false, quote = null, escape = false;
 
   while (idx < html.length) {
     const ch = html[idx];
 
     if (inStr) {
-      if (escape) {
-        escape = false;
-      } else if (ch === '\\') {
-        escape = true;
-      } else if (ch === quote) {
-        inStr = false;
-        quote = null;
-      }
+      if (escape) { escape = false; }
+      else if (ch === '\\') { escape = true; }
+      else if (ch === quote) { inStr = false; quote = null; }
     } else {
-      if (ch === '"' || ch === "'") {
-        inStr = true;
-        quote = ch;
-      } else if (ch === '[') {
-        depth++;
-      } else if (ch === ']') {
+      if (ch === '"' || ch === "'") { inStr = true; quote = ch; }
+      else if (ch === '[') { depth++; }
+      else if (ch === ']') {
         depth--;
         if (depth === 0) {
-          // cerró el array del primer argumento
           const jsonText = html.slice(start, idx + 1);
           return JSON.parse(jsonText);
         }
@@ -56,13 +41,12 @@ function extractFirstArgArrayOfViewModel(html) {
 }
 
 function pickUseful(series0) {
-  // Normaliza un payload compacto con lo que más interesa
   const { league, standings = [], todayGames = [], nearestGames = [], previousGames = [], previousRoundGames = [] } = series0;
   return { league, standings, todayGames, nearestGames, previousGames, previousRoundGames };
 }
 
 async function main() {
-  const res = await fetch(SRC_URL, { headers: { 'user-agent': 'Mozilla/5.0 (+github.com template)'} });
+  const res = await fetch(SRC_URL, { headers: { 'user-agent': 'Mozilla/5.0 (+github.com template)' } });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const html = await res.text();
 
@@ -80,12 +64,9 @@ async function main() {
 
   if (!existsSync(OUT_DIR)) await mkdir(OUT_DIR, { recursive: true });
 
-  // Evita commits vacíos: solo escribe si cambia
   let prev = null;
   if (existsSync(OUT_FILE)) {
-    try {
-      prev = JSON.parse(await readFile(OUT_FILE, 'utf8'));
-    } catch {}
+    try { prev = JSON.parse(await readFile(OUT_FILE, 'utf8')); } catch {}
   }
   const nextStr = JSON.stringify(payload, null, 2);
   const prevStr = prev ? JSON.stringify(prev) : '';
@@ -96,12 +77,8 @@ async function main() {
     process.exitCode = 0;
   } else {
     console.log('Sin cambios.');
-    // Señal no-cambios para el job (no fallar, pero tampoco commit)
     process.exitCode = 0;
   }
 }
 
-main().catch((e) => {
-  console.error('ERROR:', e);
-  process.exitCode = 1;
-});
+main().catch((e) => { console.error('ERROR:', e); process.exitCode = 1; });
