@@ -3,7 +3,7 @@ name: scrape-lidom
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "*/2 * * * *"  # cada 2 min (UTC)
+    - cron: "*/2 * * * *"
 
 permissions:
   contents: write
@@ -25,37 +25,27 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Re-auth remote with token (redundante pero seguro)
-        run: |
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+      - name: Re-auth remote with token
+        run: git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
-      # Si NO hay package.json, elimina este bloque.
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
-      - name: Install deps
-        if: hashFiles('package-lock.json') != ''
-        run: npm ci
+          node-version: '20'   # 👈 sin cache
 
       - name: Run scraper
         run: node scraper.mjs
 
       - name: Validate JSON
         run: |
-          jq . docs/latest.json > /dev/null
-          # valida también el último snapshot si existe
+          jq . docs/latest.json > /dev/null || (echo "latest.json inválido" && exit 1)
           ls -1 docs/history/*.json 2>/dev/null | tail -n1 | xargs -r jq . > /dev/null
 
       - name: Commit changes if any
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          # Trae cambios remotos por si se solapó otra ejecución
           git pull --rebase origin main || true
-
           if ! git diff --quiet -- docs/; then
             git add docs/
             TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
