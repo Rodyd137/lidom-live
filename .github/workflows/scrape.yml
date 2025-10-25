@@ -3,11 +3,18 @@ name: scrape-lidom
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "*/2 * * * *"   # cada 2 minutos (UTC)
+    - cron: "*/2 * * * *"  # cada 2 min (UTC)
 
-# 🔑 Dale permisos de escritura al token en este workflow
 permissions:
   contents: write
+
+concurrency:
+  group: scrape-lidom
+  cancel-in-progress: true
+
+env:
+  TZ: America/Santo_Domingo
+  SOURCE_HOME: https://pelotainvernal.com/
 
 jobs:
   run:
@@ -16,28 +23,43 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          # aseguramos que use nuestro token para push
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Re-auth remote with token
+      - name: Re-auth remote with token (redundante pero seguro)
         run: |
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
+      # Si NO hay package.json, elimina este bloque.
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
+      - name: Install deps
+        if: hashFiles('package-lock.json') != ''
+        run: npm ci
 
       - name: Run scraper
         run: node scraper.mjs
 
+      - name: Validate JSON
+        run: |
+          jq . docs/latest.json > /dev/null
+          # valida también el último snapshot si existe
+          ls -1 docs/history/*.json 2>/dev/null | tail -n1 | xargs -r jq . > /dev/null
+
       - name: Commit changes if any
         run: |
-          if [ -n "$(git status --porcelain docs/latest.json)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add docs/latest.json
-            git commit -m "chore: update latest.json [skip ci]"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Trae cambios remotos por si se solapó otra ejecución
+          git pull --rebase origin main || true
+
+          if ! git diff --quiet -- docs/; then
+            git add docs/
+            TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+            git commit -m "chore: update LIDOM data ${TS} [skip ci]"
             git push origin HEAD:main
           else
             echo "No changes to commit."
