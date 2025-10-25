@@ -1,84 +1,184 @@
 // scraper.mjs
-// Node 20+ (fetch global). Ejecuta: node scraper.mjs
-import { writeFile, mkdir, readFile } from 'node:fs/promises';
-import { existsSync } from 'node:fs';
-import { resolve } from 'node:path';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const SRC_URL = 'https://pelotainvernal.com/liga/dominicana-lidom';
-const OUT_DIR = resolve('docs');
-const OUT_FILE = resolve(OUT_DIR, 'latest.json');
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const OUT_DIR = path.join(__dirname, 'docs');
+const HISTORY_DIR = path.join(OUT_DIR, 'history');
+const SOURCE_HOME = process.env.SOURCE_HOME || 'https://pelotainvernal.com/';
+const TZ = process.env.TZ || 'America/Santo_Domingo';
 
-function extractFirstArgArrayOfViewModel(html) {
-  const marker = 'new ViewModel(';
-  const i = html.indexOf(marker);
-  if (i < 0) throw new Error('No se encontró new ViewModel(');
-  const start = html.indexOf('[', i);
-  if (start < 0) throw new Error('No se encontró inicio de array para el primer argumento');
+// Util: fecha ISO zulu
+function nowISO() {
+  return new Date().toISOString();
+}
 
-  let idx = start, depth = 0, inStr = false, quote = null, escape = false;
+// Extrae el primer argumento de new ViewModel(...) buscando balance de [] / {}
+function extractFirstArgOfViewModel(html) {
+  const marker = 'ko.applyBindings(new ViewModel(';
+  const idx = html.indexOf(marker);
+  if (idx === -1) throw new Error('ViewModel call not found');
 
-  while (idx < html.length) {
-    const ch = html[idx];
+  let i = idx + marker.length;
+  // Salta espacios
+  while (/\s/.test(html[i])) i++;
+
+  const open = html[i];
+  const close = open === '[' ? ']' : open === '{' ? '}' : null;
+  if (!close) throw new Error('Unexpected first-argument opener: ' + open);
+
+  let depth = 0;
+  let j = i;
+  let inStr = false;
+  let esc = false;
+
+  while (j < html.length) {
+    const ch = html[j];
 
     if (inStr) {
-      if (escape) { escape = false; }
-      else if (ch === '\\') { escape = true; }
-      else if (ch === quote) { inStr = false; quote = null; }
+      if (esc) {
+        esc = false;
+      } else if (ch === '\\') {
+        esc = true;
+      } else if (ch === '"') {
+        inStr = false;
+      }
+      j++;
+      continue;
     } else {
-      if (ch === '"' || ch === "'") { inStr = true; quote = ch; }
-      else if (ch === '[') { depth++; }
-      else if (ch === ']') {
+      if (ch === '"') {
+        inStr = true;
+        j++;
+        continue;
+      }
+      if (ch === open) depth++;
+      if (ch === close) {
         depth--;
         if (depth === 0) {
-          const jsonText = html.slice(start, idx + 1);
-          return JSON.parse(jsonText);
+          // j inclusive
+          const jsonText = html.slice(i, j + 1);
+          return jsonText;
         }
       }
     }
-    idx++;
+    j++;
   }
-  throw new Error('No se pudo cerrar el array del primer argumento');
+  throw new Error('Unbalanced brackets while parsing first arg');
 }
 
-function pickUseful(series0) {
-  const { league, standings = [], todayGames = [], nearestGames = [], previousGames = [], previousRoundGames = [] } = series0;
-  return { league, standings, todayGames, nearestGames, previousGames, previousRoundGames };
+// Normaliza equipos / juegos mínimamente
+function normalize(data) {
+  // data es array con un único objeto de serie (home)
+  // Estructura esperada: [ { league: {...}, standings: [...], todayGames: [...], nearestGames: [...], upcomingGames: [...], previousGames: [...] } , ...ads, translations]
+  if (!Array.isArray(data) || data.length === 0) throw new Error('Unexpected data root');
+
+  const series = data[0];
+
+  const league = series.league ?? {};
+  const pkg = {
+    source: {
+      homepage: SOURCE_HOME,
+      scraped_at: nowISO(),
+      tz: TZ
+    },
+    league: {
+      id: league.id ?? null,
+      name: league.name ?? null,
+      seo_url: league.seo_url ?? null,
+      season_id: league.season_id ?? null,
+      round_name: league.round_name ?? null,
+      date_start: league.date_start ?? null,
+      date_end: league.date_end ?? null
+    },
+    standings: (series.standings ?? []).map(s => ({
+      team: {
+        id: s.team?.id ?? null,
+        name: s.team?.name ?? null,
+        abbreviation: s.team?.abbreviation ?? null,
+        logo: s.team?.logo ?? null,
+        permalink: s.team?.permalink ?? null,
+        color: s.team?.color ?? null
+      },
+      wins: s.wins ?? 0,
+      loses: s.loses ?? 0,
+      gb: s.gb,
+      pct: s.pct,
+      wins_home: s.wins_home ?? null,
+      loses_home: s.loses_home ?? null,
+      wins_visitor: s.wins_visitor ?? null,
+      loses_visitor: s.loses_visitor ?? null
+    })),
+    games: {
+      today: series.todayGames ?? [],
+      upcoming: series.upcomingGames ?? series.nearestGames ?? [],
+      previous: series.previousGames ?? series.previousRoundGames ?? []
+    }
+  };
+
+  // Ordena standings por pct desc si viene como string ".800"
+  const pctNum = v => (typeof v === 'string' ? Number(v) : Number(v || 0));
+  pkg.standings.sort((a, b) => pctNum(b.pct) - pctNum(a.pct));
+
+  // Ordena juegos por fecha asc
+  const byDate = (a, b) => new Date(a.date) - new Date(b.date);
+  pkg.games.today.sort(byDate);
+  pkg.games.upcoming.sort(byDate);
+  pkg.games.previous.sort(byDate);
+
+  return pkg;
+}
+
+async function fetchText(url) {
+  const res = await fetch(url, {
+    headers: {
+      'user-agent': 'scrape-lidom-bot/1.0 (+github actions)',
+      'accept': 'text/html,application/xhtml+xml'
+    }
+  });
+  if (!res.ok) throw new Error(`GET ${url} -> ${res.status}`);
+  return res.text();
 }
 
 async function main() {
-  const res = await fetch(SRC_URL, { headers: { 'user-agent': 'Mozilla/5.0 (+github.com template)' } });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  const html = await res.text();
+  const html = await fetchText(SOURCE_HOME);
+  const firstArgText = extractFirstArgOfViewModel(html);
 
-  const arr = extractFirstArgArrayOfViewModel(html);
-  if (!Array.isArray(arr) || !arr.length) throw new Error('Array vacío del ViewModel');
+  // Convierte a JSON válido
+  // Nota: El payload ya es JSON-like con comillas dobles/booleanos, debería parsear directo.
+  const data = JSON.parse(firstArgText);
 
-  const series0 = pickUseful(arr[0]);
+  const out = normalize(data);
 
-  const payload = {
-    generated_at_utc: new Date().toISOString(),
-    source: 'pelotainvernal.com',
-    url: SRC_URL,
-    series: series0,
-  };
+  // Asegura carpetas
+  fs.mkdirSync(OUT_DIR, { recursive: true });
+  fs.mkdirSync(HISTORY_DIR, { recursive: true });
 
-  if (!existsSync(OUT_DIR)) await mkdir(OUT_DIR, { recursive: true });
+  const latestPath = path.join(OUT_DIR, 'latest.json');
+  const tmpPath = path.join(OUT_DIR, 'latest.tmp.json');
 
-  let prev = null;
-  if (existsSync(OUT_FILE)) {
-    try { prev = JSON.parse(await readFile(OUT_FILE, 'utf8')); } catch {}
-  }
-  const nextStr = JSON.stringify(payload, null, 2);
-  const prevStr = prev ? JSON.stringify(prev) : '';
+  fs.writeFileSync(tmpPath, JSON.stringify(out, null, 2) + '\n', 'utf8');
 
-  if (nextStr !== prevStr) {
-    await writeFile(OUT_FILE, nextStr);
-    console.log('Escrito:', OUT_FILE);
-    process.exitCode = 0;
+  // Evita escribir si no cambió (para reducir ruido)
+  const old = fs.existsSync(latestPath) ? fs.readFileSync(latestPath, 'utf8') : null;
+  const neu = fs.readFileSync(tmpPath, 'utf8');
+
+  if (old !== neu) {
+    fs.renameSync(tmpPath, latestPath);
+
+    // Snapshot histórico
+    const iso = nowISO().replace(/[:]/g, '').replace(/\..+/, 'Z'); // YYYY-MM-DDTHHMMSSZ
+    const snapPath = path.join(HISTORY_DIR, `${iso}.json`);
+    fs.writeFileSync(snapPath, neu, 'utf8');
+
+    console.log('Updated docs/latest.json and history snapshot.');
   } else {
-    console.log('Sin cambios.');
-    process.exitCode = 0;
+    fs.unlinkSync(tmpPath);
+    console.log('No content changes.');
   }
 }
 
-main().catch((e) => { console.error('ERROR:', e); process.exitCode = 1; });
+main().catch(err => {
+  console.error(err);
+  process.exit(1);
+});
