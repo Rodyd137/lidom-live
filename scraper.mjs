@@ -27,7 +27,7 @@ function nowISO() {
 async function fetchText(url) {
   const res = await fetch(url, {
     headers: {
-      'user-agent': 'scrape-lidom-bot/1.1 (+github actions)',
+      'user-agent': 'scrape-lidom-bot/1.2 (+github actions)',
       'accept': 'text/html,application/xhtml+xml',
     },
   });
@@ -39,7 +39,7 @@ async function fetchJsonPOST(url, bodyObj) {
   const res = await fetch(url, {
     method: 'POST',
     headers: {
-      'user-agent': 'scrape-lidom-bot/1.1 (+github actions)',
+      'user-agent': 'scrape-lidom-bot/1.2 (+github actions)',
       'accept': 'application/json, text/javascript, */*; q=0.01',
       'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
       'x-requested-with': 'XMLHttpRequest',
@@ -92,127 +92,108 @@ function daysBetweenYMD(a, b) {
   return Math.round((da - db) / 86400000);
 }
 
-// ---------- Parse ViewModel ----------
-function extractViewModelArgs(html) {
-  const marker = 'ko.applyBindings(new ViewModel(';
-  const start = html.indexOf(marker);
-  if (start === -1) throw new Error('ViewModel call not found');
+// ---------- Parser genérico de new ViewModel(...) ----------
+function extractAllNewViewModelArgs(html) {
+  const marker = 'new ViewModel(';
+  const results = [];
+  let start = html.indexOf(marker);
+  while (start !== -1) {
+    let i = start + marker.length;
+    const args = [];
 
-  let i = start + marker.length;
-  const args = [];
+    function readArg() {
+      while (/\s|,/.test(html[i])) i++;
+      const ch = html[i];
 
-  function readArg() {
-    while (/\s|,/.test(html[i])) i++;
-    const ch = html[i];
+      if (ch === '{' || ch === '[') {
+        const open = ch, close = ch === '{' ? '}' : ']';
+        let depth = 0, j = i, inStr = false, esc = false;
+        while (j < html.length) {
+          const c = html[j];
+          if (inStr) {
+            if (esc) esc = false;
+            else if (c === '\\') esc = true;
+            else if (c === '"') inStr = false;
+          } else {
+            if (c === '"') inStr = true;
+            else if (c === open) depth++;
+            else if (c === close) { depth--; if (depth === 0) { j++; break; } }
+            else if (c === ')' && depth === 0) break;
+          }
+          j++;
+        }
+        const text = html.slice(i, j);
+        i = j;
+        return JSON.parse(text);
+      }
 
-    if (ch === '{' || ch === '[') {
-      const open = ch, close = ch === '{' ? '}' : ']';
-      let depth = 0, j = i, inStr = false, esc = false;
-      while (j < html.length) {
-        const c = html[j];
-        if (inStr) {
+      if (ch === '"' || ch === "'") {
+        const quote = ch;
+        let j = i + 1, esc = false;
+        while (j < html.length) {
+          const c = html[j];
           if (esc) esc = false;
           else if (c === '\\') esc = true;
-          else if (c === '"') inStr = false;
-        } else {
-          if (c === '"') inStr = true;
-          else if (c === open) depth++;
-          else if (c === close) { depth--; if (depth === 0) { j++; break; } }
+          else if (c === quote) { j++; break; }
+          j++;
         }
-        j++;
+        const text = html.slice(i, j);
+        i = j;
+        return JSON.parse(text);
       }
-      const text = html.slice(i, j);
+
+      let j = i;
+      while (j < html.length && !/[,\)]/.test(html[j])) j++;
+      const raw = html.slice(i, j).trim();
       i = j;
-      return JSON.parse(text);
+      if (raw === 'null') return null;
+      if (raw === 'true') return true;
+      if (raw === 'false') return false;
+      const num = Number(raw);
+      if (!Number.isNaN(num)) return num;
+      return raw;
     }
 
-    if (ch === '"' || ch === "'") {
-      const quote = ch;
-      let j = i + 1, esc = false;
-      while (j < html.length) {
-        const c = html[j];
-        if (esc) esc = false;
-        else if (c === '\\') esc = true;
-        else if (c === quote) { j++; break; }
-        j++;
-      }
-      const text = html.slice(i, j);
-      i = j;
-      return JSON.parse(text);
+    // Leer hasta ')'
+    while (true) {
+      const peek = html.slice(i).trimStart();
+      if (peek[0] === ')') { i += html.slice(i).indexOf(')') + 1; break; }
+      args.push(readArg());
+      if (html[i] === ',') i++;
     }
 
-    let j = i;
-    while (j < html.length && !/[,\)]/.test(html[j])) j++;
-    const raw = html.slice(i, j).trim();
-    i = j;
-    if (raw === 'null') return null;
-    if (raw === 'true') return true;
-    if (raw === 'false') return false;
-    const num = Number(raw);
-    if (!Number.isNaN(num)) return num;
-    return raw;
+    results.push(args);
+    start = html.indexOf(marker, i);
   }
+  return results;
+}
 
-  while (args.length < 5) {
-    const peek = html.slice(i).trimStart();
-    if (peek.startsWith(')')) break;
-    args.push(readArg());
-    if (html[i] === ',') i++;
-  }
-
-  return args;
+function extractFirstNewViewModelArgs(html) {
+  const all = extractAllNewViewModelArgs(html);
+  if (!all.length) throw new Error('new ViewModel(...) not found');
+  // Preferimos la invocación con más argumentos por seguridad
+  all.sort((a, b) => b.length - a.length);
+  return all[0];
 }
 
 // ---------- Normalización HOME ----------
-function normalizeHomePayload(data) {
-  if (!Array.isArray(data) || data.length === 0) throw new Error('Unexpected data root');
-  const series = data[0];
-  const league = series.league ?? {};
-
+function normalizeHomePayload(series) {
+  // series: objeto principal pasado como 1er arg al ViewModel de la home (si existe)
+  const league = series?.league ?? {};
   const pkg = {
     source: { homepage: SOURCE_HOME, scraped_at: nowISO(), tz: TZ },
     league: {
-      id: league.id ?? null,
-      name: league.name ?? null,
-      seo_url: league.seo_url ?? null,
-      season_id: league.season_id ?? null,
-      round_name: league.round_name ?? null,
-      date_start: league.date_start ?? null,
-      date_end: league.date_end ?? null,
+      id: league.id ?? series?.id ?? null,
+      name: league.name ?? series?.name ?? null,
+      seo_url: league.seo_url ?? series?.seo_url ?? null,
+      season_id: league.season_id ?? series?.season_id ?? null,
+      round_name: league.round_name ?? series?.round_name ?? null,
+      date_start: league.date_start ?? series?.date_start ?? null,
+      date_end: league.date_end ?? series?.date_end ?? null,
     },
-    standings: (series.standings ?? []).map(s => ({
-      team: {
-        id: s.team?.id ?? null,
-        name: s.team?.name ?? null,
-        abbreviation: s.team?.abbreviation ?? null,
-        logo: s.team?.logo ?? null,
-        permalink: s.team?.permalink ?? null,
-        color: s.team?.color ?? null,
-      },
-      wins: s.wins ?? 0,
-      loses: s.loses ?? 0,
-      gb: s.gb,
-      pct: s.pct,
-      wins_home: s.wins_home ?? null,
-      loses_home: s.loses_home ?? null,
-      wins_visitor: s.wins_visitor ?? null,
-      loses_visitor: s.loses_visitor ?? null,
-    })),
-    games: {
-      today: series.todayGames ?? [],
-      upcoming: series.upcomingGames ?? series.nearestGames ?? [],
-      previous: series.previousGames ?? series.previousRoundGames ?? [],
-    },
+    standings: [],
+    games: { today: [], upcoming: [], previous: [] },
   };
-
-  const pctNum = v => (typeof v === 'string' ? Number(v) : Number(v || 0));
-  pkg.standings.sort((a, b) => pctNum(b.pct) - pctNum(a.pct));
-
-  const byDate = sortByDateStrAsc;
-  pkg.games.today.sort(byDate);
-  pkg.games.upcoming.sort(byDate);
-  pkg.games.previous.sort(byDate);
-
   return pkg;
 }
 
@@ -220,7 +201,9 @@ function normalizeHomePayload(data) {
 async function fetchFullCalendarForLeague(seo_url) {
   const calendarUrl = new URL(`/liga/${seo_url}/calendario`, SOURCE_HOME).href;
   const html = await fetchText(calendarUrl);
-  const [_seriesObj, _translations, _teams, months] = extractViewModelArgs(html);
+  const args = extractFirstNewViewModelArgs(html);
+  // esperado: [seriesObj, translations, teams, months]
+  const months = args[3] || [];
 
   const all = [];
   for (const m of months || []) {
@@ -240,7 +223,6 @@ async function fetchFullCalendarForLeague(seo_url) {
 
 async function fetchFullResultsForLeague(seo_url) {
   const resultsUrl = new URL(`/liga/${seo_url}/resultados`, SOURCE_HOME).href;
-
   let page = 1, pageCount = 1;
   const all = [];
   do {
@@ -254,122 +236,168 @@ async function fetchFullResultsForLeague(seo_url) {
   return { games, pageCount, resultsUrl };
 }
 
-// ---------- Detalle de Juego ----------
-function normalizeGameDetails(data, logs, siblingGames) {
-  // data = objeto principal del juego (ya viene con innings, equipos, contadores, etc.)
-  // logs = [{ inning: "Alta 1ra", play_by_play: [{reference_id, message, scored, is_primary, date}, ...] }, ...]
-  const base = {
-    id: data.id,
-    season_id: data.season_id ?? null,
-    status: data.status,
-    date: data.date,
-    part: data.part ?? null,
-    roundText: data.roundText ?? null,
-    currentInningNum: data.currentInningNum ?? null,
-    lastPlayByPlay: data.lastPlayByPlay ?? null,
-    balls: data.balls ?? null,
-    strikes: data.strikes ?? null,
-    outs: data.outs ?? null,
-    moneyline_g: data.moneyline_g ?? null,
-    moneyline_h: data.moneyline_h ?? null,
-    handicap_g: data.handicap_g ?? null,
-    handicap_h: data.handicap_h ?? null,
-    over_under: data.over_under ?? null,
-    winningPitcher: data.winningPitcher ?? null,
-    losingPitcher: data.losingPitcher ?? null,
-    savingPitcher: data.savingPitcher ?? null,
-    battingTeam: data.battingTeam ?? null,
-    base: data.base ?? null,
-    comment: data.comment ?? '',
-    awayTeam: data.awayTeam ? {
-      id: data.awayTeam.id,
-      name: data.awayTeam.name,
-      abbreviation: data.awayTeam.abbreviation,
-      color: data.awayTeam.color,
-      logo: data.awayTeam.logo,
-      permalink: data.awayTeam.permalink,
-      runs: data.awayTeam.runs ?? null,
-      hits: data.awayTeam.hits ?? null,
-      errors: data.awayTeam.errors ?? null,
-      runs_half: data.awayTeam.runs_half ?? null,
-      pitcher: data.awayTeam.pitcher ?? null,
-      era: data.awayTeam.era ?? null,
-      record: data.awayTeam.record ?? null,
-      debut: data.awayTeam.debut ?? null,
-      players: Array.isArray(data.awayTeam.players) ? data.awayTeam.players : [],
-    } : null,
-    homeTeam: data.homeTeam ? {
-      id: data.homeTeam.id,
-      name: data.homeTeam.name,
-      abbreviation: data.homeTeam.abbreviation,
-      color: data.homeTeam.color,
-      logo: data.homeTeam.logo,
-      permalink: data.homeTeam.permalink,
-      runs: data.homeTeam.runs ?? null,
-      hits: data.homeTeam.hits ?? null,
-      errors: data.homeTeam.errors ?? null,
-      runs_half: data.homeTeam.runs_half ?? null,
-      pitcher: data.homeTeam.pitcher ?? null,
-      era: data.homeTeam.era ?? null,
-      record: data.homeTeam.record ?? null,
-      debut: data.homeTeam.debut ?? null,
-      players: Array.isArray(data.homeTeam.players) ? data.homeTeam.players : [],
-    } : null,
-    innings: Array.isArray(data.innings) ? data.innings.map(i => ({
-      num: i.num,
-      part: i.part,
-      is_last: i.is_last,
-      awayTeamRuns: i.awayTeamRuns,
-      homeTeamRuns: i.homeTeamRuns,
-    })) : [],
-    logs: Array.isArray(logs) ? logs.map(g => ({
-      inning: g.inning,
-      play_by_play: Array.isArray(g.play_by_play) ? g.play_by_play.map(p => ({
+// ---------- Helpers de detalle ----------
+function buildLineScore(inningsArr = [], awayTotals, homeTotals) {
+  // inningsArr: [{num, awayTeamRuns, homeTeamRuns}, ...]
+  const innings = [];
+  let maxNum = 0;
+  for (const inn of inningsArr) {
+    const num = Number(inn.num);
+    if (!num) continue;
+    maxNum = Math.max(maxNum, num);
+  }
+  // Ordenar por num asc
+  const sorted = [...inningsArr].sort((a, b) => a.num - b.num);
+  for (const inn of sorted) {
+    innings.push({
+      num: inn.num,
+      away: typeof inn.awayTeamRuns === 'number' ? inn.awayTeamRuns : null,
+      home: typeof inn.homeTeamRuns === 'number' ? inn.homeTeamRuns : null,
+    });
+  }
+  const totals = {
+    away: { R: awayTotals?.runs ?? null, H: awayTotals?.hits ?? null, E: awayTotals?.errors ?? null },
+    home: { R: homeTotals?.runs ?? null, H: homeTotals?.hits ?? null, E: homeTotals?.errors ?? null },
+  };
+  return {
+    innings,
+    extras: maxNum > 9,
+    totals,
+  };
+}
+
+function parseInningLabel(label = '') {
+  // Ejemplos: "Alta 9na", "Baja 4ta", "Alta 10ma"
+  const m = label.match(/^\s*(Alta|Baja)\s+(\d+)\s*(?:ra|da|ta|ma|va|na)?/i);
+  if (!m) return { half: null, num: null, label };
+  const half = m[1].toLowerCase().startsWith('alta') ? 'top' : 'bottom';
+  const num = Number(m[2]);
+  return { half, num, label };
+}
+
+function groupPlayByPlay(logs = []) {
+  // logs: [{ inning: "Baja 4ta", play_by_play: [{reference_id, message, scored, is_primary, date}, ...] }, ...]
+  // Los logs suelen venir en orden descendente (lo último primero). Normalizamos 1..N asc, top antes de bottom.
+  const bucket = new Map(); // key "num-top" / "num-bottom"
+  for (const blk of logs) {
+    const meta = parseInningLabel(blk.inning);
+    const key = `${meta.num}-${meta.half}`;
+    if (!bucket.has(key)) {
+      bucket.set(key, { num: meta.num, half: meta.half, label: meta.label, plays: [] });
+    }
+    for (const p of blk.play_by_play || []) {
+      bucket.get(key).plays.push({
         reference_id: p.reference_id,
-        message: p.message,
-        scored: p.scored,
-        is_primary: p.is_primary,
-        date: p.date,
-      })) : [],
+        text: p.message,
+        scored: p.scored === 1,
+        is_primary: !!p.is_primary,
+        ts: p.date ?? null,
+      });
+    }
+  }
+  // Orden: num asc, top antes que bottom
+  const order = Array.from(bucket.values()).sort((a, b) => {
+    if (a.num !== b.num) return a.num - b.num;
+    const h = (x) => (x.half === 'top' ? 0 : 1);
+    return h(a) - h(b);
+  });
+  return order;
+}
+
+// ---------- Detalle de Juego ----------
+function normalizeGameDetails(rawGame, rawLogs, siblingGames) {
+  const awayT = rawGame.awayTeam || {};
+  const homeT = rawGame.homeTeam || {};
+
+  // Linescore (carreras por inning + totales R/H/E)
+  const linescore = buildLineScore(rawGame.innings || [], { runs: awayT.runs, hits: awayT.hits, errors: awayT.errors },
+                                                    { runs: homeT.runs, hits: homeT.hits, errors: homeT.errors });
+
+  // Play-by-play agrupado por inning/mitad
+  const plays_by_inning = groupPlayByPlay(rawLogs || []);
+
+  // Estructura final de detalle
+  return {
+    id: rawGame.id,
+    season_id: rawGame.season_id ?? null,
+    status: rawGame.status,
+    date: rawGame.date,
+    roundText: rawGame.roundText ?? null,
+    currentInningNum: rawGame.currentInningNum ?? null,
+    lastPlayByPlay: rawGame.lastPlayByPlay ?? null,
+    counts: { balls: rawGame.balls ?? null, strikes: rawGame.strikes ?? null, outs: rawGame.outs ?? null },
+    betting: {
+      moneyline: { away: rawGame.moneyline_g ?? null, home: rawGame.moneyline_h ?? null },
+      handicap: { away: rawGame.handicap_g ?? null, home: rawGame.handicap_h ?? null },
+      over_under: rawGame.over_under ?? null,
+    },
+    pitchers: {
+      winning: rawGame.winningPitcher ?? null,
+      losing: rawGame.losingPitcher ?? null,
+      save: rawGame.savingPitcher ?? null,
+    },
+    teams: {
+      away: {
+        id: awayT.id, name: awayT.name, abbr: awayT.abbreviation, color: awayT.color, logo: awayT.logo, permalink: awayT.permalink,
+        totals: { R: awayT.runs ?? null, H: awayT.hits ?? null, E: awayT.errors ?? null, H2: awayT.runs_half ?? null },
+        probables: { pitcher: awayT.pitcher ?? null, era: awayT.era ?? null, record: awayT.record ?? null, debut: !!awayT.debut },
+        players: Array.isArray(awayT.players) ? awayT.players : [],
+      },
+      home: {
+        id: homeT.id, name: homeT.name, abbr: homeT.abbreviation, color: homeT.color, logo: homeT.logo, permalink: homeT.permalink,
+        totals: { R: homeT.runs ?? null, H: homeT.hits ?? null, E: homeT.errors ?? null, H2: homeT.runs_half ?? null },
+        probables: { pitcher: homeT.pitcher ?? null, era: homeT.era ?? null, record: homeT.record ?? null, debut: !!homeT.debut },
+        players: Array.isArray(homeT.players) ? homeT.players : [],
+      },
+    },
+    base_state: { battingTeam: rawGame.battingTeam ?? null, base: rawGame.base ?? null },
+    comment: rawGame.comment ?? '',
+    linescore,
+    plays_by_inning,
+    // Conservamos el arreglo "innings" tal como viene por si lo quieres usar crudo:
+    innings_raw: Array.isArray(rawGame.innings) ? rawGame.innings.map(i => ({
+      num: i.num, part: i.part, is_last: i.is_last,
+      awayTeamRuns: i.awayTeamRuns, homeTeamRuns: i.homeTeamRuns,
     })) : [],
+    // Otros juegos del día (para navegación)
     siblingGames: Array.isArray(siblingGames) ? siblingGames.map(s => ({
       id: s.id,
       date: s.date,
       status: s.status,
       roundText: s.roundText ?? null,
       awayTeam: s.awayTeam ? {
-        id: s.awayTeam.id, name: s.awayTeam.name, abbreviation: s.awayTeam.abbreviation,
+        id: s.awayTeam.id, name: s.awayTeam.name, abbr: s.awayTeam.abbreviation,
         logo: s.awayTeam.logo, runs: s.awayTeam.runs ?? null, hits: s.awayTeam.hits ?? null, errors: s.awayTeam.errors ?? null,
         permalink: s.awayTeam.permalink ?? null
       } : null,
       homeTeam: s.homeTeam ? {
-        id: s.homeTeam.id, name: s.homeTeam.name, abbreviation: s.homeTeam.abbreviation,
+        id: s.homeTeam.id, name: s.homeTeam.name, abbr: s.homeTeam.abbreviation,
         logo: s.homeTeam.logo, runs: s.homeTeam.runs ?? null, hits: s.homeTeam.hits ?? null, errors: s.homeTeam.errors ?? null,
         permalink: s.homeTeam.permalink ?? null
       } : null,
     })) : [],
   };
-
-  return base;
 }
 
 async function fetchGameDetails(gameId) {
   const url = new URL(`/${gameId}`, SOURCE_HOME).href;
   const html = await fetchText(url);
-  const [gameData, siblingGames, logs /* , translations */] = extractViewModelArgs(html);
+  // Detalle: new ViewModel(gameData, siblingGames, logs, translations)
+  const args = extractFirstNewViewModelArgs(html);
+  const gameData = args[0];
+  const siblingGames = args[1] || [];
+  const logs = args[2] || [];
   const normalized = normalizeGameDetails(gameData, logs, siblingGames);
   return { url, data: normalized };
 }
 
+// ---------- Selección de detalles ----------
 function pickWhichDetailsToFetch(allGames) {
   if (DETAILS_FETCH === 'none') return [];
-
   const todayYMD = formatYMDInTZ(new Date(), TZ);
-
   if (DETAILS_FETCH === 'all') {
     return Array.from(new Set(allGames.map(g => g.id))).filter(Boolean);
   }
-
   // recent: +- DETAILS_DAYS
   const ids = [];
   for (const g of allGames) {
@@ -407,10 +435,22 @@ async function main() {
   fs.mkdirSync(HISTORY_DIR, { recursive: true });
   fs.mkdirSync(GAMES_DIR, { recursive: true });
 
-  // 1) HOME
-  const homeHtml = await fetchText(SOURCE_HOME);
-  const homeArgs = extractViewModelArgs(homeHtml);
-  const out = normalizeHomePayload(homeArgs[0]);
+  // 1) Intentar home (si existiera un ViewModel ahí)
+  let out = {
+    source: { homepage: SOURCE_HOME, scraped_at: nowISO(), tz: TZ },
+    league: { id: null, name: null, seo_url: null, season_id: null, round_name: null, date_start: null, date_end: null },
+    standings: [],
+    games: { today: [], upcoming: [], previous: [] },
+  };
+
+  try {
+    const homeHtml = await fetchText(SOURCE_HOME);
+    const homeArgs = extractFirstNewViewModelArgs(homeHtml);
+    out = normalizeHomePayload(homeArgs[0]);
+  } catch {
+    // Si la home no tiene ViewModel, seguimos con las rutas de liga directamente
+    // (de todos modos completaremos out más abajo al fusionar calendario y resultados)
+  }
 
   // 2) Calendario completo
   let calendarGames = [];
@@ -420,6 +460,15 @@ async function main() {
       calendarGames = fullCal.games;
     } catch (e) {
       console.warn('Full calendar fetch failed:', e.message);
+    }
+  } else {
+    // fallback: intenta LIDOM por defecto
+    try {
+      const fullCal = await fetchFullCalendarForLeague('dominicana-lidom');
+      out.league.seo_url = 'dominicana-lidom';
+      calendarGames = fullCal.games;
+    } catch (e) {
+      console.warn('Fallback calendar fetch failed:', e.message);
     }
   }
 
@@ -451,7 +500,7 @@ async function main() {
   out.by_date = indexByDate(allGames);
   out.calendar_days = Object.keys(out.by_date).sort();
 
-  // 5) Detalles de juegos (opcional, controlado por env)
+  // 5) Detalles de juegos (con linescore + PBP)
   const targetIds = pickWhichDetailsToFetch(allGames);
 
   const tasks = targetIds.map(id => async () => {
@@ -460,7 +509,7 @@ async function main() {
       const filePath = path.join(GAMES_DIR, `${id}.json`);
       const payload = {
         source: { url, scraped_at: nowISO(), tz: TZ },
-        game: data,
+        game: data, // <-- incluye linescore & plays_by_inning
       };
       fs.writeFileSync(filePath, JSON.stringify(payload, null, 2) + '\n', 'utf8');
       return { id, ok: true, file: `games/${id}.json` };
