@@ -15,6 +15,10 @@ concurrency:
 env:
   TZ: America/Santo_Domingo
   SOURCE_HOME: https://pelotainvernal.com/
+  # Control de detalle:
+  DETAILS_FETCH: recent   # recent | all | none
+  DETAILS_DAYS: "14"
+  DETAILS_CONCURRENCY: "4"
 
 jobs:
   run:
@@ -31,15 +35,17 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'   # 👈 sin cache
+          node-version: '20'
 
       - name: Run scraper
         run: node scraper.mjs
 
       - name: Validate JSON
         run: |
-          jq . docs/latest.json > /dev/null || (echo "latest.json inválido" && exit 1)
-          ls -1 docs/history/*.json 2>/dev/null | tail -n1 | xargs -r jq . > /dev/null
+          jq . docs/latest.json > /dev/null
+          # valida alguno de los detalles si existen
+          f=$(ls -1 docs/games/*.json 2>/dev/null | head -n1 || true)
+          if [ -n "$f" ]; then jq . "$f" > /dev/null; fi
 
       - name: Commit changes if any
         run: |
@@ -54,4 +60,3 @@ jobs:
           else
             echo "No changes to commit."
           fi
-          
