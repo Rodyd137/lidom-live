@@ -1,4 +1,6 @@
 // scraper.mjs
+// Node 20+ (usa fetch nativo)
+
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -6,10 +8,16 @@ import { fileURLToPath } from 'node:url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = path.join(__dirname, 'docs');
 const HISTORY_DIR = path.join(OUT_DIR, 'history');
+const GAMES_DIR = path.join(OUT_DIR, 'games');
 const LATEST_PATH = path.join(OUT_DIR, 'latest.json');
 
 const SOURCE_HOME = process.env.SOURCE_HOME || 'https://pelotainvernal.com/';
 const TZ = process.env.TZ || 'America/Santo_Domingo';
+
+// Control de detalles
+const DETAILS_FETCH = (process.env.DETAILS_FETCH || 'recent').toLowerCase(); // recent | all | none
+const DETAILS_DAYS = Number(process.env.DETAILS_DAYS || 14);
+const DETAILS_CONCURRENCY = Math.max(1, Number(process.env.DETAILS_CONCURRENCY || 4));
 
 // ---------- Utils ----------
 function nowISO() {
@@ -19,26 +27,40 @@ function nowISO() {
 async function fetchText(url) {
   const res = await fetch(url, {
     headers: {
-      'user-agent': 'scrape-lidom-bot/1.0 (+github actions)',
-      'accept': 'text/html,application/xhtml+xml'
-    }
+      'user-agent': 'scrape-lidom-bot/1.1 (+github actions)',
+      'accept': 'text/html,application/xhtml+xml',
+    },
   });
   if (!res.ok) throw new Error(`GET ${url} -> ${res.status}`);
   return res.text();
 }
 
+async function fetchJsonPOST(url, bodyObj) {
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: {
+      'user-agent': 'scrape-lidom-bot/1.1 (+github actions)',
+      'accept': 'application/json, text/javascript, */*; q=0.01',
+      'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+      'x-requested-with': 'XMLHttpRequest',
+    },
+    body: new URLSearchParams(bodyObj).toString(),
+  });
+  if (!res.ok) throw new Error(`POST ${url} -> ${res.status}`);
+  const pageCount = Number(res.headers.get('X-Pagination-Page-Count') || '1') || 1;
+  const data = await res.json();
+  return { data, pageCount };
+}
+
 function formatYMDInTZ(date, tz) {
-  // 'en-CA' => YYYY-MM-DD
   return new Intl.DateTimeFormat('en-CA', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' }).format(date);
 }
 
 function gameYMD(g) {
-  // asumen 'YYYY-MM-DD hh:mm:ss'
   return (g?.date ?? '').slice(0, 10);
 }
 
 function sortByDateStrAsc(a, b) {
-  // comparando cadenas YYYY-MM-DD y fallback a Date si trae hora
   const da = gameYMD(a), db = gameYMD(b);
   if (da && db && da !== db) return da < db ? -1 : 1;
   return new Date(a.date) - new Date(b.date);
@@ -62,38 +84,15 @@ function indexByDate(games) {
   return out;
 }
 
-// ---------- Parsers ----------
-function extractFirstArgOfViewModel(html) {
-  const marker = 'ko.applyBindings(new ViewModel(';
-  const idx = html.indexOf(marker);
-  if (idx === -1) throw new Error('ViewModel call not found');
-
-  let i = idx + marker.length;
-  while (/\s/.test(html[i])) i++;
-
-  const open = html[i];
-  const close = open === '[' ? ']' : open === '{' ? '}' : null;
-  if (!close) throw new Error('Unexpected first-argument opener: ' + open);
-
-  let depth = 0, j = i, inStr = false, esc = false;
-  while (j < html.length) {
-    const ch = html[j];
-    if (inStr) {
-      if (esc) esc = false;
-      else if (ch === '\\') esc = true;
-      else if (ch === '"') inStr = false;
-    } else {
-      if (ch === '"') inStr = true;
-      else if (ch === open) depth++;
-      else if (ch === close) { depth--; if (depth === 0) { j++; break; } }
-    }
-    j++;
-  }
-  const jsonText = html.slice(i, j);
-  return jsonText;
+function daysBetweenYMD(a, b) {
+  const [ay, am, ad] = a.split('-').map(Number);
+  const [by, bm, bd] = b.split('-').map(Number);
+  const da = Date.UTC(ay, am - 1, ad);
+  const db = Date.UTC(by, bm - 1, bd);
+  return Math.round((da - db) / 86400000);
 }
 
-// Genérico: lee los 2–4 args del ViewModel (serie, translations, teams?, months?)
+// ---------- Parse ViewModel ----------
 function extractViewModelArgs(html) {
   const marker = 'ko.applyBindings(new ViewModel(';
   const start = html.indexOf(marker);
@@ -106,7 +105,7 @@ function extractViewModelArgs(html) {
     while (/\s|,/.test(html[i])) i++;
     const ch = html[i];
 
-    if (ch === '{' || ch === '[') { // objetos/arreglos
+    if (ch === '{' || ch === '[') {
       const open = ch, close = ch === '{' ? '}' : ']';
       let depth = 0, j = i, inStr = false, esc = false;
       while (j < html.length) {
@@ -127,7 +126,7 @@ function extractViewModelArgs(html) {
       return JSON.parse(text);
     }
 
-    if (ch === '"' || ch === "'") { // string literal
+    if (ch === '"' || ch === "'") {
       const quote = ch;
       let j = i + 1, esc = false;
       while (j < html.length) {
@@ -142,7 +141,6 @@ function extractViewModelArgs(html) {
       return JSON.parse(text);
     }
 
-    // literales simples
     let j = i;
     while (j < html.length && !/[,\)]/.test(html[j])) j++;
     const raw = html.slice(i, j).trim();
@@ -155,11 +153,10 @@ function extractViewModelArgs(html) {
     return raw;
   }
 
-  while (args.length < 4) {
+  while (args.length < 5) {
     const peek = html.slice(i).trimStart();
     if (peek.startsWith(')')) break;
     args.push(readArg());
-    // salto coma si quedó
     if (html[i] === ',') i++;
   }
 
@@ -181,7 +178,7 @@ function normalizeHomePayload(data) {
       season_id: league.season_id ?? null,
       round_name: league.round_name ?? null,
       date_start: league.date_start ?? null,
-      date_end: league.date_end ?? null
+      date_end: league.date_end ?? null,
     },
     standings: (series.standings ?? []).map(s => ({
       team: {
@@ -190,7 +187,7 @@ function normalizeHomePayload(data) {
         abbreviation: s.team?.abbreviation ?? null,
         logo: s.team?.logo ?? null,
         permalink: s.team?.permalink ?? null,
-        color: s.team?.color ?? null
+        color: s.team?.color ?? null,
       },
       wins: s.wins ?? 0,
       loses: s.loses ?? 0,
@@ -199,20 +196,18 @@ function normalizeHomePayload(data) {
       wins_home: s.wins_home ?? null,
       loses_home: s.loses_home ?? null,
       wins_visitor: s.wins_visitor ?? null,
-      loses_visitor: s.loses_visitor ?? null
+      loses_visitor: s.loses_visitor ?? null,
     })),
     games: {
       today: series.todayGames ?? [],
       upcoming: series.upcomingGames ?? series.nearestGames ?? [],
-      previous: series.previousGames ?? series.previousRoundGames ?? []
-    }
+      previous: series.previousGames ?? series.previousRoundGames ?? [],
+    },
   };
 
-  // ordenar standings por pct
   const pctNum = v => (typeof v === 'string' ? Number(v) : Number(v || 0));
   pkg.standings.sort((a, b) => pctNum(b.pct) - pctNum(a.pct));
 
-  // ordenar juegos por fecha
   const byDate = sortByDateStrAsc;
   pkg.games.today.sort(byDate);
   pkg.games.upcoming.sort(byDate);
@@ -221,26 +216,7 @@ function normalizeHomePayload(data) {
   return pkg;
 }
 
-// ---------- Calendario (por mes/página) ----------
-async function fetchCalendarPage(url, { month, page = 1, team_id = '' }) {
-  const body = new URLSearchParams({ month, page: String(page), team_id: String(team_id || '') }).toString();
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: {
-      'user-agent': 'scrape-lidom-bot/1.0 (+github actions)',
-      'accept': 'application/json, text/javascript, */*; q=0.01',
-      'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-      'x-requested-with': 'XMLHttpRequest'
-    },
-    body
-  });
-  if (!res.ok) throw new Error(`POST ${url} -> ${res.status}`);
-
-  const pageCount = Number(res.headers.get('X-Pagination-Page-Count') || '1') || 1;
-  const data = await res.json();
-  return { data, pageCount };
-}
-
+// ---------- Calendario y Resultados ----------
 async function fetchFullCalendarForLeague(seo_url) {
   const calendarUrl = new URL(`/liga/${seo_url}/calendario`, SOURCE_HOME).href;
   const html = await fetchText(calendarUrl);
@@ -251,7 +227,7 @@ async function fetchFullCalendarForLeague(seo_url) {
     const monthKey = m.date; // "10-2025"
     let page = 1, pageCount = 1;
     do {
-      const { data, pageCount: pc } = await fetchCalendarPage(calendarUrl, { month: monthKey, page });
+      const { data, pageCount: pc } = await fetchJsonPOST(calendarUrl, { month: monthKey, page, team_id: '' });
       pageCount = pc;
       if (Array.isArray(data)) all.push(...data);
       page++;
@@ -262,37 +238,13 @@ async function fetchFullCalendarForLeague(seo_url) {
   return { games, months, calendarUrl };
 }
 
-// ---------- Resultados (paginado) ----------
-async function fetchResultsPage(url, page = 1) {
-  const body = new URLSearchParams({ page: String(page) }).toString();
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: {
-      'user-agent': 'scrape-lidom-bot/1.0 (+github actions)',
-      'accept': 'application/json, text/javascript, */*; q=0.01',
-      'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-      'x-requested-with': 'XMLHttpRequest'
-    },
-    body
-  });
-  if (!res.ok) throw new Error(`POST ${url} -> ${res.status}`);
-
-  const pageCount = Number(res.headers.get('X-Pagination-Page-Count') || '1') || 1;
-  const data = await res.json(); // array de juegos finalizados (y suspendidos/postpuestos)
-  return { data, pageCount };
-}
-
 async function fetchFullResultsForLeague(seo_url) {
   const resultsUrl = new URL(`/liga/${seo_url}/resultados`, SOURCE_HOME).href;
-
-  // (opcional) leer HTML por si quieres validar ViewModel, no es estrictamente necesario para el POST
-  // const _html = await fetchText(resultsUrl);
-  // const [_series, _translations] = extractViewModelArgs(_html);
 
   let page = 1, pageCount = 1;
   const all = [];
   do {
-    const { data, pageCount: pc } = await fetchResultsPage(resultsUrl, page);
+    const { data, pageCount: pc } = await fetchJsonPOST(resultsUrl, { page });
     pageCount = pc;
     if (Array.isArray(data)) all.push(...data);
     page++;
@@ -302,13 +254,163 @@ async function fetchFullResultsForLeague(seo_url) {
   return { games, pageCount, resultsUrl };
 }
 
+// ---------- Detalle de Juego ----------
+function normalizeGameDetails(data, logs, siblingGames) {
+  // data = objeto principal del juego (ya viene con innings, equipos, contadores, etc.)
+  // logs = [{ inning: "Alta 1ra", play_by_play: [{reference_id, message, scored, is_primary, date}, ...] }, ...]
+  const base = {
+    id: data.id,
+    season_id: data.season_id ?? null,
+    status: data.status,
+    date: data.date,
+    part: data.part ?? null,
+    roundText: data.roundText ?? null,
+    currentInningNum: data.currentInningNum ?? null,
+    lastPlayByPlay: data.lastPlayByPlay ?? null,
+    balls: data.balls ?? null,
+    strikes: data.strikes ?? null,
+    outs: data.outs ?? null,
+    moneyline_g: data.moneyline_g ?? null,
+    moneyline_h: data.moneyline_h ?? null,
+    handicap_g: data.handicap_g ?? null,
+    handicap_h: data.handicap_h ?? null,
+    over_under: data.over_under ?? null,
+    winningPitcher: data.winningPitcher ?? null,
+    losingPitcher: data.losingPitcher ?? null,
+    savingPitcher: data.savingPitcher ?? null,
+    battingTeam: data.battingTeam ?? null,
+    base: data.base ?? null,
+    comment: data.comment ?? '',
+    awayTeam: data.awayTeam ? {
+      id: data.awayTeam.id,
+      name: data.awayTeam.name,
+      abbreviation: data.awayTeam.abbreviation,
+      color: data.awayTeam.color,
+      logo: data.awayTeam.logo,
+      permalink: data.awayTeam.permalink,
+      runs: data.awayTeam.runs ?? null,
+      hits: data.awayTeam.hits ?? null,
+      errors: data.awayTeam.errors ?? null,
+      runs_half: data.awayTeam.runs_half ?? null,
+      pitcher: data.awayTeam.pitcher ?? null,
+      era: data.awayTeam.era ?? null,
+      record: data.awayTeam.record ?? null,
+      debut: data.awayTeam.debut ?? null,
+      players: Array.isArray(data.awayTeam.players) ? data.awayTeam.players : [],
+    } : null,
+    homeTeam: data.homeTeam ? {
+      id: data.homeTeam.id,
+      name: data.homeTeam.name,
+      abbreviation: data.homeTeam.abbreviation,
+      color: data.homeTeam.color,
+      logo: data.homeTeam.logo,
+      permalink: data.homeTeam.permalink,
+      runs: data.homeTeam.runs ?? null,
+      hits: data.homeTeam.hits ?? null,
+      errors: data.homeTeam.errors ?? null,
+      runs_half: data.homeTeam.runs_half ?? null,
+      pitcher: data.homeTeam.pitcher ?? null,
+      era: data.homeTeam.era ?? null,
+      record: data.homeTeam.record ?? null,
+      debut: data.homeTeam.debut ?? null,
+      players: Array.isArray(data.homeTeam.players) ? data.homeTeam.players : [],
+    } : null,
+    innings: Array.isArray(data.innings) ? data.innings.map(i => ({
+      num: i.num,
+      part: i.part,
+      is_last: i.is_last,
+      awayTeamRuns: i.awayTeamRuns,
+      homeTeamRuns: i.homeTeamRuns,
+    })) : [],
+    logs: Array.isArray(logs) ? logs.map(g => ({
+      inning: g.inning,
+      play_by_play: Array.isArray(g.play_by_play) ? g.play_by_play.map(p => ({
+        reference_id: p.reference_id,
+        message: p.message,
+        scored: p.scored,
+        is_primary: p.is_primary,
+        date: p.date,
+      })) : [],
+    })) : [],
+    siblingGames: Array.isArray(siblingGames) ? siblingGames.map(s => ({
+      id: s.id,
+      date: s.date,
+      status: s.status,
+      roundText: s.roundText ?? null,
+      awayTeam: s.awayTeam ? {
+        id: s.awayTeam.id, name: s.awayTeam.name, abbreviation: s.awayTeam.abbreviation,
+        logo: s.awayTeam.logo, runs: s.awayTeam.runs ?? null, hits: s.awayTeam.hits ?? null, errors: s.awayTeam.errors ?? null,
+        permalink: s.awayTeam.permalink ?? null
+      } : null,
+      homeTeam: s.homeTeam ? {
+        id: s.homeTeam.id, name: s.homeTeam.name, abbreviation: s.homeTeam.abbreviation,
+        logo: s.homeTeam.logo, runs: s.homeTeam.runs ?? null, hits: s.homeTeam.hits ?? null, errors: s.homeTeam.errors ?? null,
+        permalink: s.homeTeam.permalink ?? null
+      } : null,
+    })) : [],
+  };
+
+  return base;
+}
+
+async function fetchGameDetails(gameId) {
+  const url = new URL(`/${gameId}`, SOURCE_HOME).href;
+  const html = await fetchText(url);
+  const [gameData, siblingGames, logs /* , translations */] = extractViewModelArgs(html);
+  const normalized = normalizeGameDetails(gameData, logs, siblingGames);
+  return { url, data: normalized };
+}
+
+function pickWhichDetailsToFetch(allGames) {
+  if (DETAILS_FETCH === 'none') return [];
+
+  const todayYMD = formatYMDInTZ(new Date(), TZ);
+
+  if (DETAILS_FETCH === 'all') {
+    return Array.from(new Set(allGames.map(g => g.id))).filter(Boolean);
+  }
+
+  // recent: +- DETAILS_DAYS
+  const ids = [];
+  for (const g of allGames) {
+    const d = gameYMD(g);
+    if (!d) continue;
+    const diff = Math.abs(daysBetweenYMD(d, todayYMD));
+    if (diff <= DETAILS_DAYS) ids.push(g.id);
+  }
+  return Array.from(new Set(ids)).filter(Boolean);
+}
+
+async function pLimit(concurrency, tasks) {
+  const results = [];
+  let i = 0, running = 0;
+  return new Promise((resolve) => {
+    const startNext = () => {
+      if (i >= tasks.length && running === 0) return resolve(results);
+      while (running < concurrency && i < tasks.length) {
+        const idx = i++;
+        running++;
+        tasks[idx]()
+          .then((res) => { results[idx] = res; })
+          .catch((err) => { results[idx] = { error: err?.message || String(err) }; })
+          .finally(() => { running--; startNext(); });
+      }
+    };
+    startNext();
+  });
+}
+
 // ---------- Main ----------
 async function main() {
-  // 1) HOME: standings + ventana mínima
-  const html = await fetchText(SOURCE_HOME);
-  const firstArgText = extractFirstArgOfViewModel(html);
-  const data = JSON.parse(firstArgText);
-  const out = normalizeHomePayload(data);
+  // 0) Preparar carpetas
+  fs.mkdirSync(OUT_DIR, { recursive: true });
+  fs.mkdirSync(HISTORY_DIR, { recursive: true });
+  fs.mkdirSync(GAMES_DIR, { recursive: true });
+
+  // 1) HOME
+  const homeHtml = await fetchText(SOURCE_HOME);
+  const homeArgs = extractViewModelArgs(homeHtml);
+  const out = normalizeHomePayload(homeArgs[0]);
 
   // 2) Calendario completo
   let calendarGames = [];
@@ -321,7 +423,7 @@ async function main() {
     }
   }
 
-  // 3) Resultados completos (paginado)
+  // 3) Resultados completos
   let resultsGames = [];
   if (out?.league?.seo_url) {
     try {
@@ -332,7 +434,7 @@ async function main() {
     }
   }
 
-  // 4) Fusionar para construir today/upcoming/previous con respecto a TZ
+  // 4) Fusión, clasificaciones por fecha
   const allGames = dedupeGames([...calendarGames, ...resultsGames]).sort(sortByDateStrAsc);
 
   const todayYMD = formatYMDInTZ(new Date(), TZ);
@@ -342,17 +444,47 @@ async function main() {
 
   out.games = {
     today: allGames.filter(isToday),
-    upcoming: allGames.filter(isFuture),    // futuro completo
-    previous: allGames.filter(isPast)       // histórico completo
+    upcoming: allGames.filter(isFuture),
+    previous: allGames.filter(isPast),
   };
 
   out.by_date = indexByDate(allGames);
   out.calendar_days = Object.keys(out.by_date).sort();
 
-  // 5) Persistencia con snapshot si cambió
-  fs.mkdirSync(OUT_DIR, { recursive: true });
-  fs.mkdirSync(HISTORY_DIR, { recursive: true });
+  // 5) Detalles de juegos (opcional, controlado por env)
+  const targetIds = pickWhichDetailsToFetch(allGames);
 
+  const tasks = targetIds.map(id => async () => {
+    try {
+      const { url, data } = await fetchGameDetails(id);
+      const filePath = path.join(GAMES_DIR, `${id}.json`);
+      const payload = {
+        source: { url, scraped_at: nowISO(), tz: TZ },
+        game: data,
+      };
+      fs.writeFileSync(filePath, JSON.stringify(payload, null, 2) + '\n', 'utf8');
+      return { id, ok: true, file: `games/${id}.json` };
+    } catch (err) {
+      return { id, ok: false, error: err?.message || String(err) };
+    }
+  });
+
+  const detailResults = await pLimit(DETAILS_CONCURRENCY, tasks);
+
+  // 6) Índice de detalles disponibles
+  const files = {};
+  for (const r of detailResults) {
+    if (r?.ok && r?.file) files[r.id] = r.file;
+  }
+  out.details_index = {
+    mode: DETAILS_FETCH,
+    days_window: DETAILS_DAYS,
+    concurrency: DETAILS_CONCURRENCY,
+    count: Object.keys(files).length,
+    files,
+  };
+
+  // 7) Persistencia con snapshot si cambió latest.json
   const tmpPath = path.join(OUT_DIR, 'latest.tmp.json');
   fs.writeFileSync(tmpPath, JSON.stringify(out, null, 2) + '\n', 'utf8');
 
@@ -361,13 +493,13 @@ async function main() {
 
   if (old !== neu) {
     fs.renameSync(tmpPath, LATEST_PATH);
-    const iso = nowISO().replace(/[:]/g, '').replace(/\..+/, 'Z'); // YYYY-MM-DDTHHMMSSZ
+    const iso = nowISO().replace(/[:]/g, '').replace(/\..+/, 'Z');
     const snapPath = path.join(HISTORY_DIR, `${iso}.json`);
     fs.writeFileSync(snapPath, neu, 'utf8');
-    console.log('Updated docs/latest.json and history snapshot.');
+    console.log(`Updated docs/latest.json (${out.calendar_days.length} days) and ${Object.keys(files).length} game details.`);
   } else {
     fs.unlinkSync(tmpPath);
-    console.log('No content changes.');
+    console.log('No content changes on latest.json.');
   }
 }
 
