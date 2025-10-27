@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1931",
-    "scraped_at": "2025-10-27T02:51:19.245Z",
+    "scraped_at": "2025-10-27T03:02:54.753Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -16,6 +16,10 @@
       "balls": 0,
       "strikes": 0,
       "outs": 0
+    },
+    "base_state": {
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "betting": {
       "moneyline": {
@@ -76,10 +80,6 @@
         },
         "players": []
       }
-    },
-    "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 1
     },
     "comment": "",
     "linescore": {
@@ -142,9 +142,88 @@
           "H": 0,
           "E": 0
         }
+      },
+      "cumulative": {
+        "away": [
+          {
+            "num": 1,
+            "R": 0
+          },
+          {
+            "num": 2,
+            "R": 0
+          },
+          {
+            "num": 3,
+            "R": 0
+          },
+          {
+            "num": 4,
+            "R": 0
+          },
+          {
+            "num": 5,
+            "R": 0
+          },
+          {
+            "num": 6,
+            "R": 0
+          },
+          {
+            "num": 7,
+            "R": 0
+          },
+          {
+            "num": 8,
+            "R": 0
+          },
+          {
+            "num": 9,
+            "R": 0
+          }
+        ],
+        "home": [
+          {
+            "num": 1,
+            "R": 0
+          },
+          {
+            "num": 2,
+            "R": 0
+          },
+          {
+            "num": 3,
+            "R": 0
+          },
+          {
+            "num": 4,
+            "R": 0
+          },
+          {
+            "num": 5,
+            "R": 0
+          },
+          {
+            "num": 6,
+            "R": 0
+          },
+          {
+            "num": 7,
+            "R": 0
+          },
+          {
+            "num": 8,
+            "R": 0
+          },
+          {
+            "num": 9,
+            "R": 0
+          }
+        ]
       }
     },
     "plays_by_inning": [],
+    "plays_summary_by_inning": [],
     "innings_raw": [
       {
         "num": 1,
@@ -287,6 +366,38 @@
           "hits": 0,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
+        }
+      }
+    ],
+    "stats_tables": [
+      {
+        "title": "Estadísticas Generales",
+        "round": "Temporada Regular (5 Juegos)",
+        "columns": [
+          "G",
+          "P",
+          "CA",
+          "CP",
+          "H",
+          "E"
+        ],
+        "teams": {
+          "Leones LE": {
+            "G": 1,
+            "P": 4,
+            "CA": 3.4,
+            "CP": 4.8,
+            "H": 7,
+            "E": 0.8
+          },
+          "Aguilas AC": {
+            "G": 3,
+            "P": 1,
+            "CA": 6.5,
+            "CP": 5.3,
+            "H": 10,
+            "E": 0.5
+          }
         }
       }
     ]

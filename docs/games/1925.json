@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1925",
-    "scraped_at": "2025-10-27T02:51:18.217Z",
+    "scraped_at": "2025-10-27T03:02:54.407Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -16,6 +16,10 @@
       "balls": 0,
       "strikes": 0,
       "outs": 3
+    },
+    "base_state": {
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "betting": {
       "moneyline": {
@@ -266,10 +270,6 @@
         ]
       }
     },
-    "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 1
-    },
     "comment": "",
     "linescore": {
       "innings": [
@@ -331,6 +331,84 @@
           "H": 5,
           "E": 0
         }
+      },
+      "cumulative": {
+        "away": [
+          {
+            "num": 1,
+            "R": 2
+          },
+          {
+            "num": 2,
+            "R": 2
+          },
+          {
+            "num": 3,
+            "R": 2
+          },
+          {
+            "num": 4,
+            "R": 3
+          },
+          {
+            "num": 5,
+            "R": 3
+          },
+          {
+            "num": 6,
+            "R": 4
+          },
+          {
+            "num": 7,
+            "R": 4
+          },
+          {
+            "num": 8,
+            "R": 4
+          },
+          {
+            "num": 9,
+            "R": 4
+          }
+        ],
+        "home": [
+          {
+            "num": 1,
+            "R": 1
+          },
+          {
+            "num": 2,
+            "R": 1
+          },
+          {
+            "num": 3,
+            "R": 4
+          },
+          {
+            "num": 4,
+            "R": 9
+          },
+          {
+            "num": 5,
+            "R": 9
+          },
+          {
+            "num": 6,
+            "R": 9
+          },
+          {
+            "num": 7,
+            "R": 9
+          },
+          {
+            "num": 8,
+            "R": 9
+          },
+          {
+            "num": 9,
+            "R": 9
+          }
+        ]
       }
     },
     "plays_by_inning": [
@@ -340,46 +418,11 @@
         "label": "Alta 1ra",
         "plays": [
           {
-            "reference_id": "17531-1-8",
-            "text": "Wilmer Difo Ponche (K) ",
+            "reference_id": "17531-1-1",
+            "text": "Melvi Mercedes  Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760908676
-          },
-          {
-            "reference_id": "17531-1-7",
-            "text": "Hanser Alberto Robo de Base ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760908607
-          },
-          {
-            "reference_id": "17531-1-6",
-            "text": "Hanser Alberto Sencillo y 1 Carrera Impulsada ",
-            "scored": true,
-            "is_primary": true,
-            "ts": 1760908495
-          },
-          {
-            "reference_id": "17531-1-5",
-            "text": "Nomar Mazara Sencillo y 1 Carrera Impulsada ",
-            "scored": true,
-            "is_primary": true,
-            "ts": 1760908333
-          },
-          {
-            "reference_id": "17531-1-4",
-            "text": "Gary Sanchez Ponche (K) ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760908272
-          },
-          {
-            "reference_id": "17531-1-3",
-            "text": "Kelvin Gutiérrez Base por Bolas ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760908193
+            "ts": 1760907994
           },
           {
             "reference_id": "17531-1-2",
@@ -389,11 +432,46 @@
             "ts": 1760908052
           },
           {
-            "reference_id": "17531-1-1",
-            "text": "Melvi Mercedes  Ponche (K) ",
+            "reference_id": "17531-1-3",
+            "text": "Kelvin Gutiérrez Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760907994
+            "ts": 1760908193
+          },
+          {
+            "reference_id": "17531-1-4",
+            "text": "Gary Sanchez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760908272
+          },
+          {
+            "reference_id": "17531-1-5",
+            "text": "Nomar Mazara Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1760908333
+          },
+          {
+            "reference_id": "17531-1-6",
+            "text": "Hanser Alberto Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1760908495
+          },
+          {
+            "reference_id": "17531-1-7",
+            "text": "Hanser Alberto Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760908607
+          },
+          {
+            "reference_id": "17531-1-8",
+            "text": "Wilmer Difo Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760908676
           }
         ]
       },
@@ -403,32 +481,11 @@
         "label": "Baja 1ra",
         "plays": [
           {
-            "reference_id": "17531-2-14",
-            "text": "Raimel Tapia al bate",
+            "reference_id": "17531-2-9",
+            "text": "Eguy Rosario  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1760909309
-          },
-          {
-            "reference_id": "17531-2-13",
-            "text": "Wilfred Veras Ponche (K) ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760909305
-          },
-          {
-            "reference_id": "17531-2-12",
-            "text": "Miguel Sano Base por Bolas ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760909166
-          },
-          {
-            "reference_id": "17531-2-11",
-            "text": "Josh Lester Out: Elevado al Jardinero Izquierdo",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760909048
+            "ts": 1760908946
           },
           {
             "reference_id": "17531-2-10",
@@ -438,11 +495,32 @@
             "ts": 1760908988
           },
           {
-            "reference_id": "17531-2-9",
-            "text": "Eguy Rosario  Out: Rodado al Segunda Base - Primera Base",
+            "reference_id": "17531-2-11",
+            "text": "Josh Lester Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1760908946
+            "ts": 1760909048
+          },
+          {
+            "reference_id": "17531-2-12",
+            "text": "Miguel Sano Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760909166
+          },
+          {
+            "reference_id": "17531-2-13",
+            "text": "Wilfred Veras Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760909305
+          },
+          {
+            "reference_id": "17531-2-14",
+            "text": "Raimel Tapia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760909309
           }
         ]
       },
@@ -452,11 +530,11 @@
         "label": "Alta 2da",
         "plays": [
           {
-            "reference_id": "17532-1-17",
-            "text": "Melvi Mercedes  Out: Elevado al Jardinero Izquierdo",
+            "reference_id": "17532-1-15",
+            "text": "Cooper Johnson  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1760909669
+            "ts": 1760909508
           },
           {
             "reference_id": "17532-1-16",
@@ -466,11 +544,11 @@
             "ts": 1760909545
           },
           {
-            "reference_id": "17532-1-15",
-            "text": "Cooper Johnson  Out: Rodado al Tercera Base - Primera Base",
+            "reference_id": "17532-1-17",
+            "text": "Melvi Mercedes  Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1760909508
+            "ts": 1760909669
           }
         ]
       },
@@ -480,18 +558,11 @@
         "label": "Baja 2da",
         "plays": [
           {
-            "reference_id": "17532-2-21",
-            "text": "Junior Perez Out: Elevado al Jardinero Central",
+            "reference_id": "17532-2-18",
+            "text": "Raimel Tapia Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760910185
-          },
-          {
-            "reference_id": "17532-2-20",
-            "text": "Coco Montes Ponche (K) ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760910123
+            "ts": 1760909928
           },
           {
             "reference_id": "17532-2-19",
@@ -501,11 +572,18 @@
             "ts": 1760910041
           },
           {
-            "reference_id": "17532-2-18",
-            "text": "Raimel Tapia Base por Bolas ",
+            "reference_id": "17532-2-20",
+            "text": "Coco Montes Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760909928
+            "ts": 1760910123
+          },
+          {
+            "reference_id": "17532-2-21",
+            "text": "Junior Perez Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760910185
           }
         ]
       },
@@ -515,11 +593,11 @@
         "label": "Alta 3ra",
         "plays": [
           {
-            "reference_id": "17533-1-24",
-            "text": "Gary Sanchez Out: Elevado al Jardinero Izquierdo",
+            "reference_id": "17533-1-22",
+            "text": "Pablo Reyes  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1760910622
+            "ts": 1760910434
           },
           {
             "reference_id": "17533-1-23",
@@ -529,11 +607,11 @@
             "ts": 1760910581
           },
           {
-            "reference_id": "17533-1-22",
-            "text": "Pablo Reyes  Out: Rodado al Tercera Base - Primera Base",
+            "reference_id": "17533-1-24",
+            "text": "Gary Sanchez Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1760910434
+            "ts": 1760910622
           }
         ]
       },
@@ -543,46 +621,11 @@
         "label": "Baja 3ra",
         "plays": [
           {
-            "reference_id": "17533-2-32",
-            "text": "Raimel Tapia Out Robando Base! Lanzador - Receptor",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760911918
-          },
-          {
-            "reference_id": "17533-2-31",
-            "text": "Carlos Mario Martinez Elevado de Sacrificio Carrera Empujada",
+            "reference_id": "17533-2-25",
+            "text": "Eguy Rosario Cuadrangular! ",
             "scored": true,
             "is_primary": true,
-            "ts": 1760911734
-          },
-          {
-            "reference_id": "17533-2-30",
-            "text": "Raimel Tapia Sencillo y 2 Carreras Impulsadas ",
-            "scored": true,
-            "is_primary": true,
-            "ts": 1760911678
-          },
-          {
-            "reference_id": "17533-2-29",
-            "text": "Wilfred Veras Base por Bolas ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760911278
-          },
-          {
-            "reference_id": "17533-2-28",
-            "text": "Miguel Sano Base por Bolas ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760911149
-          },
-          {
-            "reference_id": "17533-2-27",
-            "text": "Josh Lester Base por Bolas ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760910990
+            "ts": 1760910865
           },
           {
             "reference_id": "17533-2-26",
@@ -592,11 +635,46 @@
             "ts": 1760910876
           },
           {
-            "reference_id": "17533-2-25",
-            "text": "Eguy Rosario Cuadrangular! ",
+            "reference_id": "17533-2-27",
+            "text": "Josh Lester Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760910990
+          },
+          {
+            "reference_id": "17533-2-28",
+            "text": "Miguel Sano Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760911149
+          },
+          {
+            "reference_id": "17533-2-29",
+            "text": "Wilfred Veras Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760911278
+          },
+          {
+            "reference_id": "17533-2-30",
+            "text": "Raimel Tapia Sencillo y 2 Carreras Impulsadas ",
             "scored": true,
             "is_primary": true,
-            "ts": 1760910865
+            "ts": 1760911678
+          },
+          {
+            "reference_id": "17533-2-31",
+            "text": "Carlos Mario Martinez Elevado de Sacrificio Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1760911734
+          },
+          {
+            "reference_id": "17533-2-32",
+            "text": "Raimel Tapia Out Robando Base! Lanzador - Receptor",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760911918
           }
         ]
       },
@@ -606,32 +684,11 @@
         "label": "Alta 4ta",
         "plays": [
           {
-            "reference_id": "17534-1-39",
-            "text": "Melvi Mercedes  Ponche (K) ",
+            "reference_id": "17534-1-34",
+            "text": "Nomar Mazara Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760912856
-          },
-          {
-            "reference_id": "17534-1-38",
-            "text": "Diego Hernández  Out: Rodado al Lanzador - Primera Base",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760912706
-          },
-          {
-            "reference_id": "17534-1-37",
-            "text": "Cooper Johnson  Out: Rodado al Tercera Base - Primera Base",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760912648
-          },
-          {
-            "reference_id": "17534-1-36",
-            "text": "Wilmer Difo Doble! 1 Carrera Impulsada ",
-            "scored": true,
-            "is_primary": true,
-            "ts": 1760912341
+            "ts": 1760912177
           },
           {
             "reference_id": "17534-1-35",
@@ -641,11 +698,32 @@
             "ts": 1760912220
           },
           {
-            "reference_id": "17534-1-34",
-            "text": "Nomar Mazara Sencillo ",
+            "reference_id": "17534-1-36",
+            "text": "Wilmer Difo Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1760912341
+          },
+          {
+            "reference_id": "17534-1-37",
+            "text": "Cooper Johnson  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1760912177
+            "ts": 1760912648
+          },
+          {
+            "reference_id": "17534-1-38",
+            "text": "Diego Hernández  Out: Rodado al Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760912706
+          },
+          {
+            "reference_id": "17534-1-39",
+            "text": "Melvi Mercedes  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760912856
           }
         ]
       },
@@ -655,53 +733,11 @@
         "label": "Baja 4ta",
         "plays": [
           {
-            "reference_id": "17534-2-48",
-            "text": "Raimel Tapia Ponche (K) ",
+            "reference_id": "17534-2-40",
+            "text": "Coco Montes Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760914373
-          },
-          {
-            "reference_id": "17534-2-47",
-            "text": "Wilfred Veras Elevado de Sacrificio Carrera Empujada",
-            "scored": true,
-            "is_primary": true,
-            "ts": 1760914194
-          },
-          {
-            "reference_id": "17534-2-46",
-            "text": "Miguel Sano Doble! 2 Carreras Impulsadas ",
-            "scored": true,
-            "is_primary": true,
-            "ts": 1760914111
-          },
-          {
-            "reference_id": "17534-2-45",
-            "text": "Josh Lester Base por Bolas ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760913977
-          },
-          {
-            "reference_id": "17534-2-44",
-            "text": "Rodolfo Castro Robo de Base ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760913969
-          },
-          {
-            "reference_id": "17534-2-43",
-            "text": "Rodolfo Castro se embasa por Error del Campo Corto - Carrera Empujada",
-            "scored": true,
-            "is_primary": true,
-            "ts": 1760913723
-          },
-          {
-            "reference_id": "17534-2-42",
-            "text": "Eguy Rosario Sencillo ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760913460
+            "ts": 1760913133
           },
           {
             "reference_id": "17534-2-41",
@@ -711,11 +747,53 @@
             "ts": 1760913309
           },
           {
-            "reference_id": "17534-2-40",
-            "text": "Coco Montes Sencillo ",
+            "reference_id": "17534-2-42",
+            "text": "Eguy Rosario Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760913133
+            "ts": 1760913460
+          },
+          {
+            "reference_id": "17534-2-43",
+            "text": "Rodolfo Castro se embasa por Error del Campo Corto - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1760913723
+          },
+          {
+            "reference_id": "17534-2-44",
+            "text": "Rodolfo Castro Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760913969
+          },
+          {
+            "reference_id": "17534-2-45",
+            "text": "Josh Lester Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760913977
+          },
+          {
+            "reference_id": "17534-2-46",
+            "text": "Miguel Sano Doble! 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1760914111
+          },
+          {
+            "reference_id": "17534-2-47",
+            "text": "Wilfred Veras Elevado de Sacrificio Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1760914194
+          },
+          {
+            "reference_id": "17534-2-48",
+            "text": "Raimel Tapia Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760914373
           }
         ]
       },
@@ -725,18 +803,11 @@
         "label": "Alta 5ta",
         "plays": [
           {
-            "reference_id": "17535-1-52",
-            "text": "Nomar Mazara  Out: Rodado al Primera Base",
+            "reference_id": "17535-1-49",
+            "text": "Pablo Reyes  Out: Rodado al Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1760914942
-          },
-          {
-            "reference_id": "17535-1-51",
-            "text": "Gary Sanchez Out: Elevado al Jardinero Central",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760914858
+            "ts": 1760914594
           },
           {
             "reference_id": "17535-1-50",
@@ -746,11 +817,18 @@
             "ts": 1760914720
           },
           {
-            "reference_id": "17535-1-49",
-            "text": "Pablo Reyes  Out: Rodado al Primera Base",
+            "reference_id": "17535-1-51",
+            "text": "Gary Sanchez Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1760914594
+            "ts": 1760914858
+          },
+          {
+            "reference_id": "17535-1-52",
+            "text": "Nomar Mazara  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760914942
           }
         ]
       },
@@ -760,11 +838,11 @@
         "label": "Baja 5ta",
         "plays": [
           {
-            "reference_id": "17535-2-55",
-            "text": "Junior Perez Ponche (K) ",
+            "reference_id": "17535-2-53",
+            "text": "Carlos Mario Martinez  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1760915266
+            "ts": 1760915140
           },
           {
             "reference_id": "17535-2-54",
@@ -774,11 +852,11 @@
             "ts": 1760915200
           },
           {
-            "reference_id": "17535-2-53",
-            "text": "Carlos Mario Martinez  Out: Rodado al Tercera Base - Primera Base",
+            "reference_id": "17535-2-55",
+            "text": "Junior Perez Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760915140
+            "ts": 1760915266
           }
         ]
       },
@@ -788,25 +866,11 @@
         "label": "Alta 6ta",
         "plays": [
           {
-            "reference_id": "17536-1-60",
-            "text": "Pablo Reyes Ponche (K) ",
+            "reference_id": "17536-1-56",
+            "text": "Hanser Alberto  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1760916213
-          },
-          {
-            "reference_id": "17536-1-59",
-            "text": "Diego Hernández Sencillo y 1 Carrera Impulsada ",
-            "scored": true,
-            "is_primary": true,
-            "ts": 1760916061
-          },
-          {
-            "reference_id": "17536-1-58",
-            "text": "Cooper Johnson Base por Bolas ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760915781
+            "ts": 1760915514
           },
           {
             "reference_id": "17536-1-57",
@@ -816,11 +880,25 @@
             "ts": 1760915663
           },
           {
-            "reference_id": "17536-1-56",
-            "text": "Hanser Alberto  Out: Rodado al Campo Corto - Primera Base",
+            "reference_id": "17536-1-58",
+            "text": "Cooper Johnson Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760915514
+            "ts": 1760915781
+          },
+          {
+            "reference_id": "17536-1-59",
+            "text": "Diego Hernández Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1760916061
+          },
+          {
+            "reference_id": "17536-1-60",
+            "text": "Pablo Reyes Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760916213
           }
         ]
       },
@@ -830,18 +908,11 @@
         "label": "Baja 6ta",
         "plays": [
           {
-            "reference_id": "17536-2-64",
-            "text": "Josh Lester  Out: Rodado al Segunda Base - Primera Base",
+            "reference_id": "17536-2-61",
+            "text": "Eguy Rosario Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760916593
-          },
-          {
-            "reference_id": "17536-2-63",
-            "text": "Rodolfo Castro  Out: Rodado al Lanzador - Primera Base",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760916524
+            "ts": 1760916461
           },
           {
             "reference_id": "17536-2-62",
@@ -851,11 +922,18 @@
             "ts": 1760916464
           },
           {
-            "reference_id": "17536-2-61",
-            "text": "Eguy Rosario Ponche (K) ",
+            "reference_id": "17536-2-63",
+            "text": "Rodolfo Castro  Out: Rodado al Lanzador - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1760916461
+            "ts": 1760916524
+          },
+          {
+            "reference_id": "17536-2-64",
+            "text": "Josh Lester  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760916593
           }
         ]
       },
@@ -865,11 +943,11 @@
         "label": "Alta 7ma",
         "plays": [
           {
-            "reference_id": "17537-1-67",
-            "text": "Nomar Mazara Ponche (K) ",
+            "reference_id": "17537-1-65",
+            "text": "Kelvin Gutiérrez  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1760916913
+            "ts": 1760916790
           },
           {
             "reference_id": "17537-1-66",
@@ -879,11 +957,11 @@
             "ts": 1760916838
           },
           {
-            "reference_id": "17537-1-65",
-            "text": "Kelvin Gutiérrez  Out: Rodado al Campo Corto - Primera Base",
+            "reference_id": "17537-1-67",
+            "text": "Nomar Mazara Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760916790
+            "ts": 1760916913
           }
         ]
       },
@@ -893,11 +971,11 @@
         "label": "Baja 7ma",
         "plays": [
           {
-            "reference_id": "17537-2-70",
-            "text": "Raimel Tapia Ponche (K) ",
+            "reference_id": "17537-2-68",
+            "text": "Miguel Sano  Out: Rodado al Lanzador - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1760917341
+            "ts": 1760917142
           },
           {
             "reference_id": "17537-2-69",
@@ -907,11 +985,11 @@
             "ts": 1760917225
           },
           {
-            "reference_id": "17537-2-68",
-            "text": "Miguel Sano  Out: Rodado al Lanzador - Primera Base",
+            "reference_id": "17537-2-70",
+            "text": "Raimel Tapia Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760917142
+            "ts": 1760917341
           }
         ]
       },
@@ -921,18 +999,11 @@
         "label": "Alta 8va",
         "plays": [
           {
-            "reference_id": "17538-1-74",
-            "text": "Diego Hernández Ponche (K) ",
+            "reference_id": "17538-1-71",
+            "text": "Hanser Alberto  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1760917918
-          },
-          {
-            "reference_id": "17538-1-73",
-            "text": "Geraldi Díaz  Out: Rodado al Segunda Base - Campo Corto",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760917818
+            "ts": 1760917563
           },
           {
             "reference_id": "17538-1-72",
@@ -942,11 +1013,18 @@
             "ts": 1760917665
           },
           {
-            "reference_id": "17538-1-71",
-            "text": "Hanser Alberto  Out: Rodado al Segunda Base - Primera Base",
+            "reference_id": "17538-1-73",
+            "text": "Geraldi Díaz  Out: Rodado al Segunda Base - Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1760917563
+            "ts": 1760917818
+          },
+          {
+            "reference_id": "17538-1-74",
+            "text": "Diego Hernández Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760917918
           }
         ]
       },
@@ -956,11 +1034,11 @@
         "label": "Baja 8va",
         "plays": [
           {
-            "reference_id": "17538-2-77",
-            "text": "Junior Perez Ponche (K) ",
+            "reference_id": "17538-2-75",
+            "text": "Carlos Mario Martinez Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760918505
+            "ts": 1760918233
           },
           {
             "reference_id": "17538-2-76",
@@ -970,11 +1048,11 @@
             "ts": 1760918370
           },
           {
-            "reference_id": "17538-2-75",
-            "text": "Carlos Mario Martinez Ponche (K) ",
+            "reference_id": "17538-2-77",
+            "text": "Junior Perez Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760918233
+            "ts": 1760918505
           }
         ]
       },
@@ -984,11 +1062,11 @@
         "label": "Alta 9na",
         "plays": [
           {
-            "reference_id": "17539-1-80",
-            "text": "Kelvin Gutiérrez Ponche (K) ",
+            "reference_id": "17539-1-78",
+            "text": "Melvi Mercedes   Out: Rodado al Primera Base - Lanzador",
             "scored": false,
             "is_primary": true,
-            "ts": 1760918871
+            "ts": 1760918712
           },
           {
             "reference_id": "17539-1-79",
@@ -998,13 +1076,134 @@
             "ts": 1760918788
           },
           {
-            "reference_id": "17539-1-78",
-            "text": "Melvi Mercedes   Out: Rodado al Primera Base - Lanzador",
+            "reference_id": "17539-1-80",
+            "text": "Kelvin Gutiérrez Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760918712
+            "ts": 1760918871
           }
         ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 8,
+        "scoring_plays": 2
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 6,
+        "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 8,
+        "scoring_plays": 3
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 6,
+        "scoring_plays": 1
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 9,
+        "scoring_plays": 3
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 5,
+        "scoring_plays": 1
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1149,6 +1348,65 @@
           "hits": 0,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
+        }
+      }
+    ],
+    "stats_tables": [
+      {
+        "title": "Gigantes vs Estrellas",
+        "round": "Temporada Regular (1 Juegos)",
+        "columns": [
+          "G",
+          "P",
+          "C",
+          "H",
+          "E"
+        ],
+        "teams": {
+          "Gigantes GC": {
+            "G": 0,
+            "P": 1,
+            "C": 4,
+            "H": 8,
+            "E": 1
+          },
+          "Estrellas EO": {
+            "G": 1,
+            "P": 0,
+            "C": 9,
+            "H": 5,
+            "E": 0
+          }
+        }
+      },
+      {
+        "title": "Estadísticas Generales",
+        "round": "Temporada Regular (3 Juegos)",
+        "columns": [
+          "G",
+          "P",
+          "CA",
+          "CP",
+          "H",
+          "E"
+        ],
+        "teams": {
+          "Gigantes GC": {
+            "G": 0,
+            "P": 3,
+            "CA": 3.7,
+            "CP": 6.7,
+            "H": 7,
+            "E": 0.7
+          },
+          "Estrellas EO": {
+            "G": 4,
+            "P": 1,
+            "CA": 6.2,
+            "CP": 3.8,
+            "H": 8.4,
+            "E": 1.4
+          }
         }
       }
     ]

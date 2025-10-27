@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1914",
-    "scraped_at": "2025-10-27T02:51:17.762Z",
+    "scraped_at": "2025-10-27T03:02:54.013Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -16,6 +16,10 @@
       "balls": 0,
       "strikes": 0,
       "outs": 2
+    },
+    "base_state": {
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "betting": {
       "moneyline": {
@@ -277,10 +281,6 @@
         ]
       }
     },
-    "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 1
-    },
     "comment": "",
     "linescore": {
       "innings": [
@@ -342,6 +342,84 @@
           "H": 9,
           "E": 2
         }
+      },
+      "cumulative": {
+        "away": [
+          {
+            "num": 1,
+            "R": 0
+          },
+          {
+            "num": 2,
+            "R": 1
+          },
+          {
+            "num": 3,
+            "R": 1
+          },
+          {
+            "num": 4,
+            "R": 1
+          },
+          {
+            "num": 5,
+            "R": 1
+          },
+          {
+            "num": 6,
+            "R": 1
+          },
+          {
+            "num": 7,
+            "R": 1
+          },
+          {
+            "num": 8,
+            "R": 3
+          },
+          {
+            "num": 9,
+            "R": 7
+          }
+        ],
+        "home": [
+          {
+            "num": 1,
+            "R": 0
+          },
+          {
+            "num": 2,
+            "R": 0
+          },
+          {
+            "num": 3,
+            "R": 0
+          },
+          {
+            "num": 4,
+            "R": 5
+          },
+          {
+            "num": 5,
+            "R": 7
+          },
+          {
+            "num": 6,
+            "R": 7
+          },
+          {
+            "num": 7,
+            "R": 7
+          },
+          {
+            "num": 8,
+            "R": 7
+          },
+          {
+            "num": 9,
+            "R": 8
+          }
+        ]
       }
     },
     "plays_by_inning": [
@@ -351,11 +429,11 @@
         "label": "Alta 1ra",
         "plays": [
           {
-            "reference_id": "17432-1-3",
-            "text": "Alexander Canario Out: Elevado al Segunda Base",
+            "reference_id": "17432-1-1",
+            "text": "Junior Lake Out: Elevado al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760744355
+            "ts": 1760744245
           },
           {
             "reference_id": "17432-1-2",
@@ -365,11 +443,11 @@
             "ts": 1760744298
           },
           {
-            "reference_id": "17432-1-1",
-            "text": "Junior Lake Out: Elevado al Jardinero Derecho ",
+            "reference_id": "17432-1-3",
+            "text": "Alexander Canario Out: Elevado al Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1760744245
+            "ts": 1760744355
           }
         ]
       },
@@ -379,18 +457,11 @@
         "label": "Baja 1ra",
         "plays": [
           {
-            "reference_id": "17432-2-6",
-            "text": "Josh Lester Ponche (K) ",
+            "reference_id": "17432-2-4",
+            "text": "Magneuris Sierra  Out: Rodado al Lanzador - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1760744948
-          },
-          {
-            "reference_id": "17432-2-5-250735",
-            "text": "Eguy Rosario Out Robando Base! ",
-            "scored": false,
-            "is_primary": false,
-            "ts": 1760744936
+            "ts": 1760744536
           },
           {
             "reference_id": "17432-2-5",
@@ -400,11 +471,18 @@
             "ts": 1760744649
           },
           {
-            "reference_id": "17432-2-4",
-            "text": "Magneuris Sierra  Out: Rodado al Lanzador - Primera Base",
+            "reference_id": "17432-2-5-250735",
+            "text": "Eguy Rosario Out Robando Base! ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1760744936
+          },
+          {
+            "reference_id": "17432-2-6",
+            "text": "Josh Lester Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760744536
+            "ts": 1760744948
           }
         ]
       },
@@ -414,25 +492,11 @@
         "label": "Alta 2da",
         "plays": [
           {
-            "reference_id": "17433-1-11",
-            "text": "Erik Gonzalez Out: Elevado al Jardinero Central",
+            "reference_id": "17433-1-7",
+            "text": "Socrates Brito se embasa por Error del Lanzador",
             "scored": false,
             "is_primary": true,
-            "ts": 1760745662
-          },
-          {
-            "reference_id": "17433-1-10",
-            "text": "Luis De Los Santos Sencillo ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760745465
-          },
-          {
-            "reference_id": "17433-1-9",
-            "text": "Zoilo Almonte Out: Elevado al Jardinero Derecho ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760745360
+            "ts": 1760745152
           },
           {
             "reference_id": "17433-1-8",
@@ -442,11 +506,25 @@
             "ts": 1760745323
           },
           {
-            "reference_id": "17433-1-7",
-            "text": "Socrates Brito se embasa por Error del Lanzador",
+            "reference_id": "17433-1-9",
+            "text": "Zoilo Almonte Out: Elevado al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760745152
+            "ts": 1760745360
+          },
+          {
+            "reference_id": "17433-1-10",
+            "text": "Luis De Los Santos Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760745465
+          },
+          {
+            "reference_id": "17433-1-11",
+            "text": "Erik Gonzalez Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760745662
           }
         ]
       },
@@ -456,18 +534,11 @@
         "label": "Baja 2da",
         "plays": [
           {
-            "reference_id": "17433-2-15",
-            "text": "Rodolfo Castro  Out: Rodado al Segunda Base - Primera Base",
+            "reference_id": "17433-2-12",
+            "text": "Miguel Sano Base por Bolas Out en Tercera Base ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760746227
-          },
-          {
-            "reference_id": "17433-2-14",
-            "text": "Raimel Tapia  Out: Rodado al Campo Corto - Primera Base",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760746162
+            "ts": 1760745976
           },
           {
             "reference_id": "17433-2-13",
@@ -477,11 +548,18 @@
             "ts": 1760746077
           },
           {
-            "reference_id": "17433-2-12",
-            "text": "Miguel Sano Base por Bolas Out en Tercera Base ",
+            "reference_id": "17433-2-14",
+            "text": "Raimel Tapia  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1760745976
+            "ts": 1760746162
+          },
+          {
+            "reference_id": "17433-2-15",
+            "text": "Rodolfo Castro  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760746227
           }
         ]
       },
@@ -491,32 +569,11 @@
         "label": "Alta 3ra",
         "plays": [
           {
-            "reference_id": "17434-1-20",
-            "text": "Socrates Brito Ponche (K) ",
+            "reference_id": "17434-1-16",
+            "text": "Martin Maldonado Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760746890
-          },
-          {
-            "reference_id": "17434-1-19",
-            "text": "Alexander Canario Base por Bolas ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760746793
-          },
-          {
-            "reference_id": "17434-1-18-250788",
-            "text": "Cesar Prieto Robo de Base ",
-            "scored": false,
-            "is_primary": false,
-            "ts": 1760746744
-          },
-          {
-            "reference_id": "17434-1-18",
-            "text": "Cesar Prieto Sencillo ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760746641
+            "ts": 1760746498
           },
           {
             "reference_id": "17434-1-17",
@@ -526,11 +583,32 @@
             "ts": 1760746595
           },
           {
-            "reference_id": "17434-1-16",
-            "text": "Martin Maldonado Ponche (K) ",
+            "reference_id": "17434-1-18",
+            "text": "Cesar Prieto Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760746498
+            "ts": 1760746641
+          },
+          {
+            "reference_id": "17434-1-18-250788",
+            "text": "Cesar Prieto Robo de Base ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1760746744
+          },
+          {
+            "reference_id": "17434-1-19",
+            "text": "Alexander Canario Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760746793
+          },
+          {
+            "reference_id": "17434-1-20",
+            "text": "Socrates Brito Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760746890
           }
         ]
       },
@@ -540,11 +618,11 @@
         "label": "Baja 3ra",
         "plays": [
           {
-            "reference_id": "17434-2-23",
-            "text": "Magneuris Sierra Ponche (K) ",
+            "reference_id": "17434-2-21",
+            "text": "Euribiel Angeles Out: Elevado al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760747335
+            "ts": 1760747116
           },
           {
             "reference_id": "17434-2-22",
@@ -554,11 +632,11 @@
             "ts": 1760747238
           },
           {
-            "reference_id": "17434-2-21",
-            "text": "Euribiel Angeles Out: Elevado al Jardinero Derecho ",
+            "reference_id": "17434-2-23",
+            "text": "Magneuris Sierra Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760747116
+            "ts": 1760747335
           }
         ]
       },
@@ -568,18 +646,11 @@
         "label": "Alta 4ta",
         "plays": [
           {
-            "reference_id": "17435-1-27",
-            "text": "Erik Gonzalez  Out: Rodado al Campo Corto - Primera Base",
+            "reference_id": "17435-1-24",
+            "text": "Yamaico Navarro Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760747793
-          },
-          {
-            "reference_id": "17435-1-26",
-            "text": "Luis De Los Santos Sencillo ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760747691
+            "ts": 1760747666
           },
           {
             "reference_id": "17435-1-25",
@@ -589,11 +660,18 @@
             "ts": 1760747680
           },
           {
-            "reference_id": "17435-1-24",
-            "text": "Yamaico Navarro Ponche (K) ",
+            "reference_id": "17435-1-26",
+            "text": "Luis De Los Santos Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760747666
+            "ts": 1760747691
+          },
+          {
+            "reference_id": "17435-1-27",
+            "text": "Erik Gonzalez  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760747793
           }
         ]
       },
@@ -603,53 +681,11 @@
         "label": "Baja 4ta",
         "plays": [
           {
-            "reference_id": "17435-2-36",
-            "text": "Francisco Peña Doble Play! Jardinero Izquierdo - Primera Base",
+            "reference_id": "17435-2-28",
+            "text": "Eguy Rosario Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760749227
-          },
-          {
-            "reference_id": "17435-2-35",
-            "text": "Francisco Peña Out: Elevado al Jardinero Izquierdo",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760749149
-          },
-          {
-            "reference_id": "17435-2-34",
-            "text": "Euribiel Angeles Sencillo y 1 Carrera Impulsada ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760749071
-          },
-          {
-            "reference_id": "17435-2-33",
-            "text": "Rodolfo Castro Golpeado por Pelota ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760748938
-          },
-          {
-            "reference_id": "17435-2-32",
-            "text": "Raimel Tapia Triple! ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760748727
-          },
-          {
-            "reference_id": "17435-2-31",
-            "text": "Nelson Velasquez Out: Elevado al Jardinero Central",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760748649
-          },
-          {
-            "reference_id": "17435-2-30",
-            "text": "Miguel Sano Cuadrangular! 3 Carreras Impulsadas ",
-            "scored": true,
-            "is_primary": true,
-            "ts": 1760748423
+            "ts": 1760748145
           },
           {
             "reference_id": "17435-2-29",
@@ -659,11 +695,53 @@
             "ts": 1760748411
           },
           {
-            "reference_id": "17435-2-28",
-            "text": "Eguy Rosario Base por Bolas ",
+            "reference_id": "17435-2-30",
+            "text": "Miguel Sano Cuadrangular! 3 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1760748423
+          },
+          {
+            "reference_id": "17435-2-31",
+            "text": "Nelson Velasquez Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1760748145
+            "ts": 1760748649
+          },
+          {
+            "reference_id": "17435-2-32",
+            "text": "Raimel Tapia Triple! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760748727
+          },
+          {
+            "reference_id": "17435-2-33",
+            "text": "Rodolfo Castro Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760748938
+          },
+          {
+            "reference_id": "17435-2-34",
+            "text": "Euribiel Angeles Sencillo y 1 Carrera Impulsada ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760749071
+          },
+          {
+            "reference_id": "17435-2-35",
+            "text": "Francisco Peña Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760749149
+          },
+          {
+            "reference_id": "17435-2-36",
+            "text": "Francisco Peña Doble Play! Jardinero Izquierdo - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760749227
           }
         ]
       },
@@ -673,11 +751,11 @@
         "label": "Alta 5ta",
         "plays": [
           {
-            "reference_id": "17436-1-39",
-            "text": "Cesar Prieto Out: Elevado al Tercera Base",
+            "reference_id": "17436-1-37",
+            "text": "Martin Maldonado Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760749573
+            "ts": 1760749408
           },
           {
             "reference_id": "17436-1-38",
@@ -687,11 +765,11 @@
             "ts": 1760749478
           },
           {
-            "reference_id": "17436-1-37",
-            "text": "Martin Maldonado Ponche (K) ",
+            "reference_id": "17436-1-39",
+            "text": "Cesar Prieto Out: Elevado al Tercera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1760749408
+            "ts": 1760749573
           }
         ]
       },
@@ -701,32 +779,11 @@
         "label": "Baja 5ta",
         "plays": [
           {
-            "reference_id": "17436-2-45",
-            "text": "Raimel Tapia  Out: Rodado al Campo Corto",
+            "reference_id": "17436-2-40",
+            "text": "Magneuris Sierra Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1760750213
-          },
-          {
-            "reference_id": "17436-2-44",
-            "text": "Nelson Velasquez Out: Elevado al Jardinero Derecho ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760750121
-          },
-          {
-            "reference_id": "17436-2-43",
-            "text": "Miguel Sano Sencillo y 1 Carrera Impulsada ",
-            "scored": true,
-            "is_primary": true,
-            "ts": 1760750077
-          },
-          {
-            "reference_id": "17436-2-42",
-            "text": "Josh Lester Sencillo y 1 Carrera Impulsada ",
-            "scored": true,
-            "is_primary": true,
-            "ts": 1760750031
+            "ts": 1760749887
           },
           {
             "reference_id": "17436-2-41",
@@ -736,11 +793,32 @@
             "ts": 1760749916
           },
           {
-            "reference_id": "17436-2-40",
-            "text": "Magneuris Sierra Out: Elevado al Jardinero Central",
+            "reference_id": "17436-2-42",
+            "text": "Josh Lester Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1760750031
+          },
+          {
+            "reference_id": "17436-2-43",
+            "text": "Miguel Sano Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1760750077
+          },
+          {
+            "reference_id": "17436-2-44",
+            "text": "Nelson Velasquez Out: Elevado al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760749887
+            "ts": 1760750121
+          },
+          {
+            "reference_id": "17436-2-45",
+            "text": "Raimel Tapia  Out: Rodado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760750213
           }
         ]
       },
@@ -750,25 +828,11 @@
         "label": "Alta 6ta",
         "plays": [
           {
-            "reference_id": "17437-1-51",
-            "text": "Luis De Los Santos Out: Elevado al Campo Corto",
+            "reference_id": "17437-1-46",
+            "text": "Alexander Canario Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760751227
-          },
-          {
-            "reference_id": "17437-1-50",
-            "text": "Zoilo Almonte Ponche (K) ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760750985
-          },
-          {
-            "reference_id": "17437-1-49",
-            "text": "Yamaico Navarro Base por Bolas ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760750812
+            "ts": 1760750434
           },
           {
             "reference_id": "17437-1-47",
@@ -778,11 +842,25 @@
             "ts": 1760750563
           },
           {
-            "reference_id": "17437-1-46",
-            "text": "Alexander Canario Base por Bolas ",
+            "reference_id": "17437-1-49",
+            "text": "Yamaico Navarro Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760750434
+            "ts": 1760750812
+          },
+          {
+            "reference_id": "17437-1-50",
+            "text": "Zoilo Almonte Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760750985
+          },
+          {
+            "reference_id": "17437-1-51",
+            "text": "Luis De Los Santos Out: Elevado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760751227
           }
         ]
       },
@@ -792,11 +870,11 @@
         "label": "Baja 6ta",
         "plays": [
           {
-            "reference_id": "17437-2-54",
-            "text": "Francisco Peña Doble Play! Campo Corto - Segunda Base - Primera Base",
+            "reference_id": "17437-2-52",
+            "text": "Rodolfo Castro  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1760751617
+            "ts": 1760751470
           },
           {
             "reference_id": "17437-2-53",
@@ -806,11 +884,11 @@
             "ts": 1760751523
           },
           {
-            "reference_id": "17437-2-52",
-            "text": "Rodolfo Castro  Out: Rodado al Campo Corto - Primera Base",
+            "reference_id": "17437-2-54",
+            "text": "Francisco Peña Doble Play! Campo Corto - Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1760751470
+            "ts": 1760751617
           }
         ]
       },
@@ -820,11 +898,11 @@
         "label": "Alta 7ma",
         "plays": [
           {
-            "reference_id": "17438-1-57",
-            "text": "Junior Lake Doble Play! Campo Corto - Segunda Base - Primera Base",
+            "reference_id": "17438-1-55",
+            "text": "Erik Gonzalez Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760752002
+            "ts": 1760751834
           },
           {
             "reference_id": "17438-1-56",
@@ -834,11 +912,11 @@
             "ts": 1760751921
           },
           {
-            "reference_id": "17438-1-55",
-            "text": "Erik Gonzalez Sencillo ",
+            "reference_id": "17438-1-57",
+            "text": "Junior Lake Doble Play! Campo Corto - Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1760751834
+            "ts": 1760752002
           }
         ]
       },
@@ -848,32 +926,11 @@
         "label": "Baja 7ma",
         "plays": [
           {
-            "reference_id": "17438-2-63",
-            "text": "Raimel Tapia  Out: Rodado al Segunda Base - Primera Base",
+            "reference_id": "17438-2-58",
+            "text": "Magneuris Sierra Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760753090
-          },
-          {
-            "reference_id": "17438-2-62",
-            "text": "Nelson Velasquez Out: Elevado al Primera Base",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760752967
-          },
-          {
-            "reference_id": "17438-2-61",
-            "text": "Miguel Sano Out: Elevado al Primera Base",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760752893
-          },
-          {
-            "reference_id": "17438-2-60",
-            "text": "Josh Lester Sencillo ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760752566
+            "ts": 1760752257
           },
           {
             "reference_id": "17438-2-59",
@@ -883,11 +940,32 @@
             "ts": 1760752465
           },
           {
-            "reference_id": "17438-2-58",
-            "text": "Magneuris Sierra Base por Bolas ",
+            "reference_id": "17438-2-60",
+            "text": "Josh Lester Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760752257
+            "ts": 1760752566
+          },
+          {
+            "reference_id": "17438-2-61",
+            "text": "Miguel Sano Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760752893
+          },
+          {
+            "reference_id": "17438-2-62",
+            "text": "Nelson Velasquez Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760752967
+          },
+          {
+            "reference_id": "17438-2-63",
+            "text": "Raimel Tapia  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760753090
           }
         ]
       },
@@ -897,25 +975,11 @@
         "label": "Alta 8va",
         "plays": [
           {
-            "reference_id": "17439-1-68",
-            "text": "Erik Gonzalez Ponche (K) ",
+            "reference_id": "17439-1-64",
+            "text": "Cesar Prieto Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760753971
-          },
-          {
-            "reference_id": "17439-1-67",
-            "text": "Yamaico Navarro Ponche (K) ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760753673
-          },
-          {
-            "reference_id": "17439-1-66",
-            "text": "Socrates Brito Sencillo y 2 Carreras Impulsadas ",
-            "scored": true,
-            "is_primary": true,
-            "ts": 1760753538
+            "ts": 1760753357
           },
           {
             "reference_id": "17439-1-65",
@@ -925,11 +989,25 @@
             "ts": 1760753479
           },
           {
-            "reference_id": "17439-1-64",
-            "text": "Cesar Prieto Sencillo ",
+            "reference_id": "17439-1-66",
+            "text": "Socrates Brito Sencillo y 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1760753538
+          },
+          {
+            "reference_id": "17439-1-67",
+            "text": "Yamaico Navarro Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760753357
+            "ts": 1760753673
+          },
+          {
+            "reference_id": "17439-1-68",
+            "text": "Erik Gonzalez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760753971
           }
         ]
       },
@@ -939,11 +1017,11 @@
         "label": "Baja 8va",
         "plays": [
           {
-            "reference_id": "17439-2-71",
-            "text": "Francisco Peña Out: Elevado al Segunda Base",
+            "reference_id": "17439-2-69",
+            "text": "Rodolfo Castro  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1760754321
+            "ts": 1760754231
           },
           {
             "reference_id": "17439-2-70",
@@ -953,11 +1031,11 @@
             "ts": 1760754270
           },
           {
-            "reference_id": "17439-2-69",
-            "text": "Rodolfo Castro  Out: Rodado al Campo Corto - Primera Base",
+            "reference_id": "17439-2-71",
+            "text": "Francisco Peña Out: Elevado al Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1760754231
+            "ts": 1760754321
           }
         ]
       },
@@ -967,46 +1045,11 @@
         "label": "Alta 9na",
         "plays": [
           {
-            "reference_id": "17440-1-79",
-            "text": "Zoilo Almonte Ponche (K) ",
+            "reference_id": "17440-1-72",
+            "text": "Erik Gonzalez Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760756095
-          },
-          {
-            "reference_id": "17440-1-78",
-            "text": "Yamaico Navarro Sencillo y 1 Carrera Impulsada ",
-            "scored": true,
-            "is_primary": true,
-            "ts": 1760755796
-          },
-          {
-            "reference_id": "17440-1-77",
-            "text": "Socrates Brito  Out: Rodado al Segunda Base - Primera Base",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760755645
-          },
-          {
-            "reference_id": "17440-1-76",
-            "text": "Alexander Canario Base por Bolas ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760755122
-          },
-          {
-            "reference_id": "17440-1-75",
-            "text": "Cesar Prieto Sencillo y 1 Carrera Impulsada ",
-            "scored": true,
-            "is_primary": true,
-            "ts": 1760754847
-          },
-          {
-            "reference_id": "17440-1-74",
-            "text": "Carlos Jimenez Sencillo ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760754740
+            "ts": 1760754545
           },
           {
             "reference_id": "17440-1-73",
@@ -1016,11 +1059,46 @@
             "ts": 1760754678
           },
           {
-            "reference_id": "17440-1-72",
-            "text": "Erik Gonzalez Sencillo ",
+            "reference_id": "17440-1-74",
+            "text": "Carlos Jimenez Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760754545
+            "ts": 1760754740
+          },
+          {
+            "reference_id": "17440-1-75",
+            "text": "Cesar Prieto Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1760754847
+          },
+          {
+            "reference_id": "17440-1-76",
+            "text": "Alexander Canario Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760755122
+          },
+          {
+            "reference_id": "17440-1-77",
+            "text": "Socrates Brito  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760755645
+          },
+          {
+            "reference_id": "17440-1-78",
+            "text": "Yamaico Navarro Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1760755796
+          },
+          {
+            "reference_id": "17440-1-79",
+            "text": "Zoilo Almonte Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760756095
           }
         ]
       },
@@ -1030,32 +1108,11 @@
         "label": "Baja 9na",
         "plays": [
           {
-            "reference_id": "17440-2-84",
-            "text": "Nelson Velasquez al bate",
+            "reference_id": "17440-2-80",
+            "text": "Magneuris Sierra Sencillo Anota por Wild-Pitch",
             "scored": false,
             "is_primary": true,
-            "ts": 1760757046
-          },
-          {
-            "reference_id": "17440-2-83",
-            "text": "Miguel Sano Ponche (K) ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760757040
-          },
-          {
-            "reference_id": "17440-2-82",
-            "text": "Josh Lester Toque de Sacrificio ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760756911
-          },
-          {
-            "reference_id": "17440-2-81",
-            "text": "Eguy Rosario Base por Bolas ",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1760756802
+            "ts": 1760756439
           },
           {
             "reference_id": "17440-2-80-251061",
@@ -1065,13 +1122,162 @@
             "ts": 1760756694
           },
           {
-            "reference_id": "17440-2-80",
-            "text": "Magneuris Sierra Sencillo Anota por Wild-Pitch",
+            "reference_id": "17440-2-81",
+            "text": "Eguy Rosario Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1760756439
+            "ts": 1760756802
+          },
+          {
+            "reference_id": "17440-2-82",
+            "text": "Josh Lester Toque de Sacrificio ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760756911
+          },
+          {
+            "reference_id": "17440-2-83",
+            "text": "Miguel Sano Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760757040
+          },
+          {
+            "reference_id": "17440-2-84",
+            "text": "Nelson Velasquez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1760757046
           }
         ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 9,
+        "scoring_plays": 1
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 6,
+        "scoring_plays": 2
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 5,
+        "scoring_plays": 1
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 8,
+        "scoring_plays": 2
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 6,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1216,6 +1422,65 @@
           "hits": 0,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
+        }
+      }
+    ],
+    "stats_tables": [
+      {
+        "title": "Leones vs Estrellas",
+        "round": "Temporada Regular (2 Juegos)",
+        "columns": [
+          "G",
+          "P",
+          "C",
+          "H",
+          "E"
+        ],
+        "teams": {
+          "Leones LE": {
+            "G": 1,
+            "P": 1,
+            "C": 4.5,
+            "H": 6.5,
+            "E": 0.5
+          },
+          "Estrellas EO": {
+            "G": 1,
+            "P": 1,
+            "C": 4,
+            "H": 8,
+            "E": 2
+          }
+        }
+      },
+      {
+        "title": "Estadísticas Generales",
+        "round": "Temporada Regular (5 Juegos)",
+        "columns": [
+          "G",
+          "P",
+          "CA",
+          "CP",
+          "H",
+          "E"
+        ],
+        "teams": {
+          "Leones LE": {
+            "G": 1,
+            "P": 4,
+            "CA": 3.4,
+            "CP": 4.8,
+            "H": 7,
+            "E": 0.8
+          },
+          "Estrellas EO": {
+            "G": 4,
+            "P": 1,
+            "CA": 6.2,
+            "CP": 3.8,
+            "H": 8.4,
+            "E": 1.4
+          }
         }
       }
     ]
