@@ -1,5 +1,5 @@
 // scraper.mjs
-// Node 20+ (usa fetch nativo)
+// Node 20+ (fetch nativo)
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -14,22 +14,17 @@ const LATEST_PATH = path.join(OUT_DIR, 'latest.json');
 const SOURCE_HOME = process.env.SOURCE_HOME || 'https://pelotainvernal.com/';
 const TZ = process.env.TZ || 'America/Santo_Domingo';
 
-// Control de detalles
-const DETAILS_FETCH = (process.env.DETAILS_FETCH || 'recent').toLowerCase(); // recent | all | none
+// Detalle: recent | all | none
+const DETAILS_FETCH = (process.env.DETAILS_FETCH || 'recent').toLowerCase();
 const DETAILS_DAYS = Number(process.env.DETAILS_DAYS || 14);
 const DETAILS_CONCURRENCY = Math.max(1, Number(process.env.DETAILS_CONCURRENCY || 4));
 
-// ---------- Utils ----------
-function nowISO() {
-  return new Date().toISOString();
-}
+/* ============ Utils ============ */
+function nowISO() { return new Date().toISOString(); }
 
 async function fetchText(url) {
   const res = await fetch(url, {
-    headers: {
-      'user-agent': 'scrape-lidom-bot/1.2 (+github actions)',
-      'accept': 'text/html,application/xhtml+xml',
-    },
+    headers: { 'user-agent': 'lidom-scraper/1.3', 'accept': 'text/html,application/xhtml+xml' }
   });
   if (!res.ok) throw new Error(`GET ${url} -> ${res.status}`);
   return res.text();
@@ -39,7 +34,7 @@ async function fetchJsonPOST(url, bodyObj) {
   const res = await fetch(url, {
     method: 'POST',
     headers: {
-      'user-agent': 'scrape-lidom-bot/1.2 (+github actions)',
+      'user-agent': 'lidom-scraper/1.3',
       'accept': 'application/json, text/javascript, */*; q=0.01',
       'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
       'x-requested-with': 'XMLHttpRequest',
@@ -56,9 +51,7 @@ function formatYMDInTZ(date, tz) {
   return new Intl.DateTimeFormat('en-CA', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' }).format(date);
 }
 
-function gameYMD(g) {
-  return (g?.date ?? '').slice(0, 10);
-}
+function gameYMD(g) { return (g?.date ?? '').slice(0, 10); }
 
 function sortByDateStrAsc(a, b) {
   const da = gameYMD(a), db = gameYMD(b);
@@ -92,12 +85,16 @@ function daysBetweenYMD(a, b) {
   return Math.round((da - db) / 86400000);
 }
 
-// ---------- Parser genérico de new ViewModel(...) ----------
+function stripTags(s='') { return s.replace(/<[^>]*>/g, '').replace(/\s+/g,' ').trim(); }
+
+/* ============ Parser de new ViewModel(...) robusto ============ */
 function extractAllNewViewModelArgs(html) {
   const marker = 'new ViewModel(';
   const results = [];
-  let start = html.indexOf(marker);
-  while (start !== -1) {
+  let pos = 0;
+  while (true) {
+    const start = html.indexOf(marker, pos);
+    if (start === -1) break;
     let i = start + marker.length;
     const args = [];
 
@@ -105,6 +102,7 @@ function extractAllNewViewModelArgs(html) {
       while (/\s|,/.test(html[i])) i++;
       const ch = html[i];
 
+      // objetos/arrays JSON
       if (ch === '{' || ch === '[') {
         const open = ch, close = ch === '{' ? '}' : ']';
         let depth = 0, j = i, inStr = false, esc = false;
@@ -118,7 +116,6 @@ function extractAllNewViewModelArgs(html) {
             if (c === '"') inStr = true;
             else if (c === open) depth++;
             else if (c === close) { depth--; if (depth === 0) { j++; break; } }
-            else if (c === ')' && depth === 0) break;
           }
           j++;
         }
@@ -127,6 +124,7 @@ function extractAllNewViewModelArgs(html) {
         return JSON.parse(text);
       }
 
+      // strings
       if (ch === '"' || ch === "'") {
         const quote = ch;
         let j = i + 1, esc = false;
@@ -142,6 +140,7 @@ function extractAllNewViewModelArgs(html) {
         return JSON.parse(text);
       }
 
+      // literales
       let j = i;
       while (j < html.length && !/[,\)]/.test(html[j])) j++;
       const raw = html.slice(i, j).trim();
@@ -154,33 +153,41 @@ function extractAllNewViewModelArgs(html) {
       return raw;
     }
 
-    // Leer hasta ')'
     while (true) {
-      const peek = html.slice(i).trimStart();
-      if (peek[0] === ')') { i += html.slice(i).indexOf(')') + 1; break; }
+      const ahead = html.slice(i).trimStart();
+      if (ahead[0] === ')') { i += html.slice(i).indexOf(')') + 1; break; }
       args.push(readArg());
       if (html[i] === ',') i++;
     }
 
     results.push(args);
-    start = html.indexOf(marker, i);
+    pos = i;
   }
   return results;
+}
+
+function pickViewModelForDetails(allCalls) {
+  // Detalle: 4 args: [gameData, siblingGames, logs, translations]
+  // Calendario/Resultados: 2 args típicamente
+  // Escogemos la que tenga gameData con keys de juego (awayTeam/homeTeam/innings)
+  for (const args of allCalls) {
+    const g = args[0];
+    if (g && typeof g === 'object' && (g.awayTeam && g.homeTeam)) return args;
+  }
+  // fallback: la de mayor número de args
+  return allCalls.sort((a,b)=>b.length-a.length)[0];
 }
 
 function extractFirstNewViewModelArgs(html) {
   const all = extractAllNewViewModelArgs(html);
   if (!all.length) throw new Error('new ViewModel(...) not found');
-  // Preferimos la invocación con más argumentos por seguridad
-  all.sort((a, b) => b.length - a.length);
-  return all[0];
+  return pickViewModelForDetails(all);
 }
 
-// ---------- Normalización HOME ----------
+/* ============ Normalizadores básicos ============ */
 function normalizeHomePayload(series) {
-  // series: objeto principal pasado como 1er arg al ViewModel de la home (si existe)
   const league = series?.league ?? {};
-  const pkg = {
+  return {
     source: { homepage: SOURCE_HOME, scraped_at: nowISO(), tz: TZ },
     league: {
       id: league.id ?? series?.id ?? null,
@@ -194,20 +201,17 @@ function normalizeHomePayload(series) {
     standings: [],
     games: { today: [], upcoming: [], previous: [] },
   };
-  return pkg;
 }
 
-// ---------- Calendario y Resultados ----------
 async function fetchFullCalendarForLeague(seo_url) {
   const calendarUrl = new URL(`/liga/${seo_url}/calendario`, SOURCE_HOME).href;
   const html = await fetchText(calendarUrl);
-  const args = extractFirstNewViewModelArgs(html);
-  // esperado: [seriesObj, translations, teams, months]
+  const args = extractFirstNewViewModelArgs(html); // [series, translations, teams, months]
   const months = args[3] || [];
 
   const all = [];
   for (const m of months || []) {
-    const monthKey = m.date; // "10-2025"
+    const monthKey = m.date;
     let page = 1, pageCount = 1;
     do {
       const { data, pageCount: pc } = await fetchJsonPOST(calendarUrl, { month: monthKey, page, team_id: '' });
@@ -216,7 +220,6 @@ async function fetchFullCalendarForLeague(seo_url) {
       page++;
     } while (page <= pageCount);
   }
-
   const games = dedupeGames(all).sort(sortByDateStrAsc);
   return { games, months, calendarUrl };
 }
@@ -236,38 +239,40 @@ async function fetchFullResultsForLeague(seo_url) {
   return { games, pageCount, resultsUrl };
 }
 
-// ---------- Helpers de detalle ----------
+/* ============ Linescore y PBP ============ */
 function buildLineScore(inningsArr = [], awayTotals, homeTotals) {
-  // inningsArr: [{num, awayTeamRuns, homeTeamRuns}, ...]
-  const innings = [];
-  let maxNum = 0;
-  for (const inn of inningsArr) {
-    const num = Number(inn.num);
-    if (!num) continue;
-    maxNum = Math.max(maxNum, num);
-  }
-  // Ordenar por num asc
-  const sorted = [...inningsArr].sort((a, b) => a.num - b.num);
-  for (const inn of sorted) {
-    innings.push({
-      num: inn.num,
-      away: typeof inn.awayTeamRuns === 'number' ? inn.awayTeamRuns : null,
-      home: typeof inn.homeTeamRuns === 'number' ? inn.homeTeamRuns : null,
-    });
-  }
+  const sorted = [...inningsArr]
+    .filter(i => i && typeof i.num !== 'undefined')
+    .sort((a, b) => Number(a.num) - Number(b.num));
+
+  const innings = sorted.map(inn => ({
+    num: Number(inn.num),
+    away: (typeof inn.awayTeamRuns === 'number') ? inn.awayTeamRuns : null,
+    home: (typeof inn.homeTeamRuns === 'number') ? inn.homeTeamRuns : null,
+  }));
+
+  const maxNum = innings.reduce((m, i) => Math.max(m, i.num), 0);
   const totals = {
     away: { R: awayTotals?.runs ?? null, H: awayTotals?.hits ?? null, E: awayTotals?.errors ?? null },
     home: { R: homeTotals?.runs ?? null, H: homeTotals?.hits ?? null, E: homeTotals?.errors ?? null },
   };
+
+  // acumulado por inning (útil para gráficas)
+  const cumulative = { away: [], home: [] };
+  let ca = 0, ch = 0;
+  for (const i of innings) { ca += i.away ?? 0; cumulative.away.push({ num: i.num, R: ca }); }
+  let hb = 0;
+  for (const i of innings) { hb += i.home ?? 0; cumulative.home.push({ num: i.num, R: hb }); }
+
   return {
     innings,
     extras: maxNum > 9,
     totals,
+    cumulative,
   };
 }
 
 function parseInningLabel(label = '') {
-  // Ejemplos: "Alta 9na", "Baja 4ta", "Alta 10ma"
   const m = label.match(/^\s*(Alta|Baja)\s+(\d+)\s*(?:ra|da|ta|ma|va|na)?/i);
   if (!m) return { half: null, num: null, label };
   const half = m[1].toLowerCase().startsWith('alta') ? 'top' : 'bottom';
@@ -276,47 +281,119 @@ function parseInningLabel(label = '') {
 }
 
 function groupPlayByPlay(logs = []) {
-  // logs: [{ inning: "Baja 4ta", play_by_play: [{reference_id, message, scored, is_primary, date}, ...] }, ...]
-  // Los logs suelen venir en orden descendente (lo último primero). Normalizamos 1..N asc, top antes de bottom.
-  const bucket = new Map(); // key "num-top" / "num-bottom"
+  // logs: [{ inning: "Baja 4ta", play_by_play: [{reference_id,message,scored,is_primary,date}, ...] }, ...]
+  const bucket = new Map(); // key `${num}-${half}`
   for (const blk of logs) {
     const meta = parseInningLabel(blk.inning);
     const key = `${meta.num}-${meta.half}`;
-    if (!bucket.has(key)) {
-      bucket.set(key, { num: meta.num, half: meta.half, label: meta.label, plays: [] });
-    }
+    if (!bucket.has(key)) bucket.set(key, { num: meta.num, half: meta.half, label: meta.label, plays: [] });
     for (const p of blk.play_by_play || []) {
       bucket.get(key).plays.push({
         reference_id: p.reference_id,
         text: p.message,
         scored: p.scored === 1,
         is_primary: !!p.is_primary,
-        ts: p.date ?? null,
+        ts: typeof p.date === 'number' ? p.date : null,
       });
     }
   }
-  // Orden: num asc, top antes que bottom
+  // Orden por inning y mitad; dentro, por timestamp asc (cuando exista)
   const order = Array.from(bucket.values()).sort((a, b) => {
     if (a.num !== b.num) return a.num - b.num;
-    const h = (x) => (x.half === 'top' ? 0 : 1);
-    return h(a) - h(b);
+    const ord = x => x.half === 'top' ? 0 : 1;
+    return ord(a) - ord(b);
   });
+
+  for (const half of order) {
+    half.plays.sort((x, y) => {
+      if (x.ts != null && y.ts != null && x.ts !== y.ts) return x.ts - y.ts;
+      if (x.is_primary !== y.is_primary) return (x.is_primary ? -1 : 1); // primarias primero
+      return 0;
+    });
+  }
   return order;
 }
 
-// ---------- Detalle de Juego ----------
-function normalizeGameDetails(rawGame, rawLogs, siblingGames) {
+function summarizeInningPlays(playsByInning = []) {
+  // Por mitad: conteo de jugadas y carreras detectadas por flag 'scored'
+  return playsByInning.map(h => ({
+    num: h.num,
+    half: h.half,
+    label: h.label,
+    total_plays: h.plays.length,
+    scoring_plays: h.plays.filter(p => p.scored).length,
+  }));
+}
+
+/* ============ Parseo de tablas de estadísticas (HTML) ============ */
+function extractStatsTablesFromHTML(html) {
+  // Busca bloques: <h4>...</h4><table class="stats-table"> ... </table>
+  const tables = [];
+  const re = /<h4[^>]*>([\s\S]*?)<\/h4>\s*<table[^>]*class="stats-table"[^>]*>([\s\S]*?)<\/table>/gi;
+  let m;
+  while ((m = re.exec(html)) !== null) {
+    const title = stripTags(m[1]);
+    const tbody = m[2];
+
+    // Título de ronda dentro del thead (si existe)
+    const rn = /<tr[^>]*class="round-name"[^>]*>[\s\S]*?<th[^>]*colspan="[^"]*"[^>]*>([\s\S]*?)<\/th>[\s\S]*?<\/tr>/i.exec(tbody);
+    const round = rn ? stripTags(rn[1]) : null;
+
+    // Cabeceras
+    const headerMatch = /<tr>\s*<th[^>]*>[\s\S]*?<\/th>([\s\S]*?)<\/tr>/i.exec(tbody.replace(/<tr[^>]*class="round-name"[\s\S]*?<\/tr>/i,''));
+    let columns = [];
+    if (headerMatch) {
+      columns = Array.from(headerMatch[1].matchAll(/<th[^>]*>([\s\S]*?)<\/th>/gi)).map(x => stripTags(x[1]));
+    }
+
+    // Filas de equipo (<tr><th>Equipo</th><td>...</td>...</tr>)
+    const teamRows = [];
+    const rowRe = /<tr>\s*<th[^>]*>([\s\S]*?)<\/th>([\s\S]*?)<\/tr>/gi;
+    // saltar la cabecera
+    const tbodyNoRound = tbody.replace(/<thead>[\s\S]*?<\/thead>/gi, '').replace(/<\/?tbody>/gi,'');
+    let row;
+    while ((row = rowRe.exec(tbodyNoRound)) !== null) {
+      const name = stripTags(row[1]);
+      const tds = Array.from(row[2].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/gi)).map(x => stripTags(x[1]));
+      if (!tds.length) continue;
+      const numbers = tds.map(v => {
+        const n = Number(v.replace(',', '.'));
+        return Number.isNaN(n) ? v : n;
+      });
+      teamRows.push({ team: name, values: numbers });
+    }
+
+    // Armar objeto estructurado (mapear columnas->valores)
+    const teams = {};
+    for (const r of teamRows) {
+      const obj = {};
+      for (let i = 0; i < Math.min(columns.length, r.values.length); i++) {
+        obj[columns[i]] = r.values[i];
+      }
+      teams[r.team] = obj;
+    }
+
+    tables.push({ title, round, columns, teams });
+  }
+  return tables;
+}
+
+/* ============ Normalizador de Detalle ============ */
+function normalizeGameDetails(rawGame, rawLogs, siblingGames, htmlForTables='') {
   const awayT = rawGame.awayTeam || {};
   const homeT = rawGame.homeTeam || {};
 
-  // Linescore (carreras por inning + totales R/H/E)
-  const linescore = buildLineScore(rawGame.innings || [], { runs: awayT.runs, hits: awayT.hits, errors: awayT.errors },
-                                                    { runs: homeT.runs, hits: homeT.hits, errors: homeT.errors });
+  const linescore = buildLineScore(
+    rawGame.innings || [],
+    { runs: awayT.runs, hits: awayT.hits, errors: awayT.errors },
+    { runs: homeT.runs, hits: homeT.hits, errors: homeT.errors }
+  );
 
-  // Play-by-play agrupado por inning/mitad
   const plays_by_inning = groupPlayByPlay(rawLogs || []);
+  const plays_summary = summarizeInningPlays(plays_by_inning);
 
-  // Estructura final de detalle
+  const stats_tables = extractStatsTablesFromHTML(htmlForTables); // “Estrellas vs Leones”, “Estadísticas Generales”, etc.
+
   return {
     id: rawGame.id,
     season_id: rawGame.season_id ?? null,
@@ -326,6 +403,7 @@ function normalizeGameDetails(rawGame, rawLogs, siblingGames) {
     currentInningNum: rawGame.currentInningNum ?? null,
     lastPlayByPlay: rawGame.lastPlayByPlay ?? null,
     counts: { balls: rawGame.balls ?? null, strikes: rawGame.strikes ?? null, outs: rawGame.outs ?? null },
+    base_state: { battingTeam: rawGame.battingTeam ?? null, base: rawGame.base ?? null },
     betting: {
       moneyline: { away: rawGame.moneyline_g ?? null, home: rawGame.moneyline_h ?? null },
       handicap: { away: rawGame.handicap_g ?? null, home: rawGame.handicap_h ?? null },
@@ -350,35 +428,24 @@ function normalizeGameDetails(rawGame, rawLogs, siblingGames) {
         players: Array.isArray(homeT.players) ? homeT.players : [],
       },
     },
-    base_state: { battingTeam: rawGame.battingTeam ?? null, base: rawGame.base ?? null },
     comment: rawGame.comment ?? '',
-    linescore,
-    plays_by_inning,
-    // Conservamos el arreglo "innings" tal como viene por si lo quieres usar crudo:
+    linescore,                 // ← carreras por inning + totales + acumulado
+    plays_by_inning,           // ← jugadas detalladas por mitad
+    plays_summary_by_inning: plays_summary, // ← conteo de jugadas/carreras por mitad
     innings_raw: Array.isArray(rawGame.innings) ? rawGame.innings.map(i => ({
       num: i.num, part: i.part, is_last: i.is_last,
       awayTeamRuns: i.awayTeamRuns, homeTeamRuns: i.homeTeamRuns,
     })) : [],
-    // Otros juegos del día (para navegación)
     siblingGames: Array.isArray(siblingGames) ? siblingGames.map(s => ({
-      id: s.id,
-      date: s.date,
-      status: s.status,
-      roundText: s.roundText ?? null,
-      awayTeam: s.awayTeam ? {
-        id: s.awayTeam.id, name: s.awayTeam.name, abbr: s.awayTeam.abbreviation,
-        logo: s.awayTeam.logo, runs: s.awayTeam.runs ?? null, hits: s.awayTeam.hits ?? null, errors: s.awayTeam.errors ?? null,
-        permalink: s.awayTeam.permalink ?? null
-      } : null,
-      homeTeam: s.homeTeam ? {
-        id: s.homeTeam.id, name: s.homeTeam.name, abbr: s.homeTeam.abbreviation,
-        logo: s.homeTeam.logo, runs: s.homeTeam.runs ?? null, hits: s.homeTeam.hits ?? null, errors: s.homeTeam.errors ?? null,
-        permalink: s.homeTeam.permalink ?? null
-      } : null,
+      id: s.id, date: s.date, status: s.status, roundText: s.roundText ?? null,
+      awayTeam: s.awayTeam ? { id: s.awayTeam.id, name: s.awayTeam.name, abbr: s.awayTeam.abbreviation, logo: s.awayTeam.logo, runs: s.awayTeam.runs ?? null, hits: s.awayTeam.hits ?? null, errors: s.awayTeam.errors ?? null, permalink: s.awayTeam.permalink ?? null } : null,
+      homeTeam: s.homeTeam ? { id: s.homeTeam.id, name: s.homeTeam.name, abbr: s.homeTeam.abbreviation, logo: s.homeTeam.logo, runs: s.homeTeam.runs ?? null, hits: s.homeTeam.hits ?? null, errors: s.homeTeam.errors ?? null, permalink: s.homeTeam.permalink ?? null } : null,
     })) : [],
+    stats_tables,              // ← tablas parseadas del HTML (“vs” y “generales”)
   };
 }
 
+/* ============ Detalles de juego ============ */
 async function fetchGameDetails(gameId) {
   const url = new URL(`/${gameId}`, SOURCE_HOME).href;
   const html = await fetchText(url);
@@ -387,18 +454,19 @@ async function fetchGameDetails(gameId) {
   const gameData = args[0];
   const siblingGames = args[1] || [];
   const logs = args[2] || [];
-  const normalized = normalizeGameDetails(gameData, logs, siblingGames);
+
+  const normalized = normalizeGameDetails(gameData, logs, siblingGames, html);
   return { url, data: normalized };
 }
 
-// ---------- Selección de detalles ----------
+/* ============ Selector de detalles a bajar ============ */
 function pickWhichDetailsToFetch(allGames) {
   if (DETAILS_FETCH === 'none') return [];
   const todayYMD = formatYMDInTZ(new Date(), TZ);
   if (DETAILS_FETCH === 'all') {
     return Array.from(new Set(allGames.map(g => g.id))).filter(Boolean);
   }
-  // recent: +- DETAILS_DAYS
+  // recent: ±DETAILS_DAYS desde hoy (útil para no pedir detalles de juegos muy lejanos)
   const ids = [];
   for (const g of allGames) {
     const d = gameYMD(g);
@@ -428,14 +496,13 @@ async function pLimit(concurrency, tasks) {
   });
 }
 
-// ---------- Main ----------
+/* ============ Main ============ */
 async function main() {
-  // 0) Preparar carpetas
   fs.mkdirSync(OUT_DIR, { recursive: true });
   fs.mkdirSync(HISTORY_DIR, { recursive: true });
   fs.mkdirSync(GAMES_DIR, { recursive: true });
 
-  // 1) Intentar home (si existiera un ViewModel ahí)
+  // Base del índice
   let out = {
     source: { homepage: SOURCE_HOME, scraped_at: nowISO(), tz: TZ },
     league: { id: null, name: null, seo_url: null, season_id: null, round_name: null, date_start: null, date_end: null },
@@ -443,74 +510,57 @@ async function main() {
     games: { today: [], upcoming: [], previous: [] },
   };
 
+  // Intento de home (si la home trae ViewModel)
   try {
     const homeHtml = await fetchText(SOURCE_HOME);
     const homeArgs = extractFirstNewViewModelArgs(homeHtml);
     out = normalizeHomePayload(homeArgs[0]);
-  } catch {
-    // Si la home no tiene ViewModel, seguimos con las rutas de liga directamente
-    // (de todos modos completaremos out más abajo al fusionar calendario y resultados)
-  }
+  } catch { /* ok */ }
 
-  // 2) Calendario completo
+  // Calendario
   let calendarGames = [];
   if (out?.league?.seo_url) {
     try {
       const fullCal = await fetchFullCalendarForLeague(out.league.seo_url);
       calendarGames = fullCal.games;
-    } catch (e) {
-      console.warn('Full calendar fetch failed:', e.message);
-    }
+    } catch (e) { console.warn('Full calendar fetch failed:', e.message); }
   } else {
-    // fallback: intenta LIDOM por defecto
     try {
       const fullCal = await fetchFullCalendarForLeague('dominicana-lidom');
       out.league.seo_url = 'dominicana-lidom';
       calendarGames = fullCal.games;
-    } catch (e) {
-      console.warn('Fallback calendar fetch failed:', e.message);
-    }
+    } catch (e) { console.warn('Fallback calendar fetch failed:', e.message); }
   }
 
-  // 3) Resultados completos
+  // Resultados
   let resultsGames = [];
   if (out?.league?.seo_url) {
     try {
       const fullRes = await fetchFullResultsForLeague(out.league.seo_url);
       resultsGames = fullRes.games;
-    } catch (e) {
-      console.warn('Full results fetch failed:', e.message);
-    }
+    } catch (e) { console.warn('Full results fetch failed:', e.message); }
   }
 
-  // 4) Fusión, clasificaciones por fecha
+  // Fusión
   const allGames = dedupeGames([...calendarGames, ...resultsGames]).sort(sortByDateStrAsc);
-
   const todayYMD = formatYMDInTZ(new Date(), TZ);
-  const isToday = g => gameYMD(g) === todayYMD;
-  const isFuture = g => gameYMD(g) > todayYMD;
-  const isPast   = g => gameYMD(g) < todayYMD;
 
   out.games = {
-    today: allGames.filter(isToday),
-    upcoming: allGames.filter(isFuture),
-    previous: allGames.filter(isPast),
+    today: allGames.filter(g => gameYMD(g) === todayYMD),
+    upcoming: allGames.filter(g => gameYMD(g) >  todayYMD),
+    previous: allGames.filter(g => gameYMD(g) <  todayYMD),
   };
 
   out.by_date = indexByDate(allGames);
   out.calendar_days = Object.keys(out.by_date).sort();
 
-  // 5) Detalles de juegos (con linescore + PBP)
+  // Detalles
   const targetIds = pickWhichDetailsToFetch(allGames);
-
   const tasks = targetIds.map(id => async () => {
     try {
       const { url, data } = await fetchGameDetails(id);
       const filePath = path.join(GAMES_DIR, `${id}.json`);
-      const payload = {
-        source: { url, scraped_at: nowISO(), tz: TZ },
-        game: data, // <-- incluye linescore & plays_by_inning
-      };
+      const payload = { source: { url, scraped_at: nowISO(), tz: TZ }, game: data };
       fs.writeFileSync(filePath, JSON.stringify(payload, null, 2) + '\n', 'utf8');
       return { id, ok: true, file: `games/${id}.json` };
     } catch (err) {
@@ -519,12 +569,9 @@ async function main() {
   });
 
   const detailResults = await pLimit(DETAILS_CONCURRENCY, tasks);
-
-  // 6) Índice de detalles disponibles
   const files = {};
-  for (const r of detailResults) {
-    if (r?.ok && r?.file) files[r.id] = r.file;
-  }
+  for (const r of detailResults) if (r?.ok && r.file) files[r.id] = r.file;
+
   out.details_index = {
     mode: DETAILS_FETCH,
     days_window: DETAILS_DAYS,
@@ -533,7 +580,7 @@ async function main() {
     files,
   };
 
-  // 7) Persistencia con snapshot si cambió latest.json
+  // Persistencia
   const tmpPath = path.join(OUT_DIR, 'latest.tmp.json');
   fs.writeFileSync(tmpPath, JSON.stringify(out, null, 2) + '\n', 'utf8');
 
@@ -545,14 +592,11 @@ async function main() {
     const iso = nowISO().replace(/[:]/g, '').replace(/\..+/, 'Z');
     const snapPath = path.join(HISTORY_DIR, `${iso}.json`);
     fs.writeFileSync(snapPath, neu, 'utf8');
-    console.log(`Updated docs/latest.json (${out.calendar_days.length} days) and ${Object.keys(files).length} game details.`);
+    console.log(`Updated docs/latest.json and ${Object.keys(files).length} game details.`);
   } else {
     fs.unlinkSync(tmpPath);
-    console.log('No content changes on latest.json.');
+    console.log('No changes.');
   }
 }
 
-main().catch(err => {
-  console.error(err);
-  process.exit(1);
-});
+main().catch(err => { console.error(err); process.exit(1); });
