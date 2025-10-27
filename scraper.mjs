@@ -18,30 +18,47 @@ const TZ = process.env.TZ || 'America/Santo_Domingo';
 const DETAILS_FETCH = (process.env.DETAILS_FETCH || 'recent').toLowerCase();
 const DETAILS_DAYS = Number(process.env.DETAILS_DAYS || 14);
 const DETAILS_CONCURRENCY = Math.max(1, Number(process.env.DETAILS_CONCURRENCY || 4));
+const DETAILS_EMBED = String(process.env.DETAILS_EMBED || '0') === '1'; // ← embed en latest.json
+const SAVE_HTML = String(process.env.SAVE_HTML || '0') === '1';         // ← guardar snapshot HTML
 
 /* ============ Utils ============ */
 function nowISO() { return new Date().toISOString(); }
 
+function sleep(ms){ return new Promise(r => setTimeout(r, ms)); }
+
+async function fetchWithRetry(url, opts = {}, { retries = 3, baseDelay = 400 } = {}) {
+  let lastErr;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const res = await fetch(url, opts);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return res;
+    } catch (err) {
+      lastErr = err;
+      if (attempt < retries) await sleep(baseDelay * Math.pow(2, attempt));
+    }
+  }
+  throw lastErr;
+}
+
 async function fetchText(url) {
-  const res = await fetch(url, {
-    headers: { 'user-agent': 'lidom-scraper/1.3', 'accept': 'text/html,application/xhtml+xml' }
+  const res = await fetchWithRetry(url, {
+    headers: { 'user-agent': 'lidom-scraper/1.4', 'accept': 'text/html,application/xhtml+xml' }
   });
-  if (!res.ok) throw new Error(`GET ${url} -> ${res.status}`);
   return res.text();
 }
 
 async function fetchJsonPOST(url, bodyObj) {
-  const res = await fetch(url, {
+  const res = await fetchWithRetry(url, {
     method: 'POST',
     headers: {
-      'user-agent': 'lidom-scraper/1.3',
+      'user-agent': 'lidom-scraper/1.4',
       'accept': 'application/json, text/javascript, */*; q=0.01',
       'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
       'x-requested-with': 'XMLHttpRequest',
     },
     body: new URLSearchParams(bodyObj).toString(),
   });
-  if (!res.ok) throw new Error(`POST ${url} -> ${res.status}`);
   const pageCount = Number(res.headers.get('X-Pagination-Page-Count') || '1') || 1;
   const data = await res.json();
   return { data, pageCount };
@@ -168,13 +185,10 @@ function extractAllNewViewModelArgs(html) {
 
 function pickViewModelForDetails(allCalls) {
   // Detalle: 4 args: [gameData, siblingGames, logs, translations]
-  // Calendario/Resultados: 2 args típicamente
-  // Escogemos la que tenga gameData con keys de juego (awayTeam/homeTeam/innings)
   for (const args of allCalls) {
     const g = args[0];
     if (g && typeof g === 'object' && (g.awayTeam && g.homeTeam)) return args;
   }
-  // fallback: la de mayor número de args
   return allCalls.sort((a,b)=>b.length-a.length)[0];
 }
 
@@ -245,13 +259,17 @@ function buildLineScore(inningsArr = [], awayTotals, homeTotals) {
     .filter(i => i && typeof i.num !== 'undefined')
     .sort((a, b) => Number(a.num) - Number(b.num));
 
-  const innings = sorted.map(inn => ({
-    num: Number(inn.num),
-    away: (typeof inn.awayTeamRuns === 'number') ? inn.awayTeamRuns : null,
-    home: (typeof inn.homeTeamRuns === 'number') ? inn.homeTeamRuns : null,
-  }));
+  const innings = sorted.map(inn => {
+    const away = (typeof inn.awayTeamRuns === 'number') ? inn.awayTeamRuns : null;
+    const home = (typeof inn.homeTeamRuns === 'number') ? inn.homeTeamRuns : null;
+    return {
+      num: Number(inn.num),
+      away, home,
+      top: away,    // alias semántico
+      bottom: home, // alias semántico
+    };
+  });
 
-  const maxNum = innings.reduce((m, i) => Math.max(m, i.num), 0);
   const totals = {
     away: { R: awayTotals?.runs ?? null, H: awayTotals?.hits ?? null, E: awayTotals?.errors ?? null },
     home: { R: homeTotals?.runs ?? null, H: homeTotals?.hits ?? null, E: homeTotals?.errors ?? null },
@@ -259,20 +277,19 @@ function buildLineScore(inningsArr = [], awayTotals, homeTotals) {
 
   // acumulado por inning (útil para gráficas)
   const cumulative = { away: [], home: [] };
-  let ca = 0, ch = 0;
-  for (const i of innings) { ca += i.away ?? 0; cumulative.away.push({ num: i.num, R: ca }); }
-  let hb = 0;
-  for (const i of innings) { hb += i.home ?? 0; cumulative.home.push({ num: i.num, R: hb }); }
+  let ca = 0; for (const i of innings) { ca += i.away ?? 0; cumulative.away.push({ num: i.num, R: ca }); }
+  let ch = 0; for (const i of innings) { ch += i.home ?? 0; cumulative.home.push({ num: i.num, R: ch }); }
 
   return {
     innings,
-    extras: maxNum > 9,
+    extras: innings.length > 9,
     totals,
     cumulative,
   };
 }
 
 function parseInningLabel(label = '') {
+  // soporta: "Alta 7ma", "Baja 10ma", "Alta 9na", etc.
   const m = label.match(/^\s*(Alta|Baja)\s+(\d+)\s*(?:ra|da|ta|ma|va|na)?/i);
   if (!m) return { half: null, num: null, label };
   const half = m[1].toLowerCase().startsWith('alta') ? 'top' : 'bottom';
@@ -285,6 +302,7 @@ function groupPlayByPlay(logs = []) {
   const bucket = new Map(); // key `${num}-${half}`
   for (const blk of logs) {
     const meta = parseInningLabel(blk.inning);
+    if (!meta.num || !meta.half) continue;
     const key = `${meta.num}-${meta.half}`;
     if (!bucket.has(key)) bucket.set(key, { num: meta.num, half: meta.half, label: meta.label, plays: [] });
     for (const p of blk.play_by_play || []) {
@@ -305,9 +323,11 @@ function groupPlayByPlay(logs = []) {
   });
 
   for (const half of order) {
+    // estabiliza orden: ts asc -> primary primero -> por referencia
     half.plays.sort((x, y) => {
       if (x.ts != null && y.ts != null && x.ts !== y.ts) return x.ts - y.ts;
-      if (x.is_primary !== y.is_primary) return (x.is_primary ? -1 : 1); // primarias primero
+      if (x.is_primary !== y.is_primary) return (x.is_primary ? -1 : 1);
+      if (x.reference_id && y.reference_id && x.reference_id !== y.reference_id) return String(x.reference_id).localeCompare(String(y.reference_id));
       return 0;
     });
   }
@@ -315,7 +335,7 @@ function groupPlayByPlay(logs = []) {
 }
 
 function summarizeInningPlays(playsByInning = []) {
-  // Por mitad: conteo de jugadas y carreras detectadas por flag 'scored'
+  // Por mitad: conteo de jugadas y jugadas que anotan (flag 'scored')
   return playsByInning.map(h => ({
     num: h.num,
     half: h.half,
@@ -333,44 +353,37 @@ function extractStatsTablesFromHTML(html) {
   let m;
   while ((m = re.exec(html)) !== null) {
     const title = stripTags(m[1]);
-    const tbody = m[2];
+    const tableHtml = m[2];
 
-    // Título de ronda dentro del thead (si existe)
-    const rn = /<tr[^>]*class="round-name"[^>]*>[\s\S]*?<th[^>]*colspan="[^"]*"[^>]*>([\s\S]*?)<\/th>[\s\S]*?<\/tr>/i.exec(tbody);
+    // Título de ronda (si existe)
+    const rn = /<tr[^>]*class="round-name"[^>]*>[\s\S]*?<th[^>]*colspan="[^"]*"[^>]*>([\s\S]*?)<\/th>[\s\S]*?<\/tr>/i.exec(tableHtml);
     const round = rn ? stripTags(rn[1]) : null;
 
-    // Cabeceras
-    const headerMatch = /<tr>\s*<th[^>]*>[\s\S]*?<\/th>([\s\S]*?)<\/tr>/i.exec(tbody.replace(/<tr[^>]*class="round-name"[\s\S]*?<\/tr>/i,''));
+    // Cabeceras (omitir round-name)
+    const headerBlock = tableHtml
+      .replace(/<tr[^>]*class="round-name"[\s\S]*?<\/tr>/i,'')
+      .match(/<tr>\s*<th[^>]*>[\s\S]*?<\/th>([\s\S]*?)<\/tr>/i);
     let columns = [];
-    if (headerMatch) {
-      columns = Array.from(headerMatch[1].matchAll(/<th[^>]*>([\s\S]*?)<\/th>/gi)).map(x => stripTags(x[1]));
+    if (headerBlock) {
+      columns = Array.from(headerBlock[1].matchAll(/<th[^>]*>([\s\S]*?)<\/th>/gi)).map(x => stripTags(x[1]));
     }
 
-    // Filas de equipo (<tr><th>Equipo</th><td>...</td>...</tr>)
-    const teamRows = [];
+    // Filas: <tr><th>Equipo</th><td>...</td>...</tr>
+    const teams = {};
+    const bodyNoThead = tableHtml.replace(/<thead>[\s\S]*?<\/thead>/gi, '').replace(/<\/?tbody>/gi,'');
     const rowRe = /<tr>\s*<th[^>]*>([\s\S]*?)<\/th>([\s\S]*?)<\/tr>/gi;
-    // saltar la cabecera
-    const tbodyNoRound = tbody.replace(/<thead>[\s\S]*?<\/thead>/gi, '').replace(/<\/?tbody>/gi,'');
     let row;
-    while ((row = rowRe.exec(tbodyNoRound)) !== null) {
+    while ((row = rowRe.exec(bodyNoThead)) !== null) {
       const name = stripTags(row[1]);
       const tds = Array.from(row[2].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/gi)).map(x => stripTags(x[1]));
       if (!tds.length) continue;
-      const numbers = tds.map(v => {
-        const n = Number(v.replace(',', '.'));
-        return Number.isNaN(n) ? v : n;
-      });
-      teamRows.push({ team: name, values: numbers });
-    }
-
-    // Armar objeto estructurado (mapear columnas->valores)
-    const teams = {};
-    for (const r of teamRows) {
       const obj = {};
-      for (let i = 0; i < Math.min(columns.length, r.values.length); i++) {
-        obj[columns[i]] = r.values[i];
+      for (let i = 0; i < Math.min(columns.length, tds.length); i++) {
+        const raw = tds[i];
+        const num = Number(raw.replace(',', '.'));
+        obj[columns[i]] = Number.isNaN(num) ? raw : num;
       }
-      teams[r.team] = obj;
+      teams[name] = obj;
     }
 
     tables.push({ title, round, columns, teams });
@@ -392,7 +405,7 @@ function normalizeGameDetails(rawGame, rawLogs, siblingGames, htmlForTables='') 
   const plays_by_inning = groupPlayByPlay(rawLogs || []);
   const plays_summary = summarizeInningPlays(plays_by_inning);
 
-  const stats_tables = extractStatsTablesFromHTML(htmlForTables); // “Estrellas vs Leones”, “Estadísticas Generales”, etc.
+  const stats_tables = extractStatsTablesFromHTML(htmlForTables); // “X vs Y”, “Estadísticas Generales”, etc.
 
   return {
     id: rawGame.id,
@@ -431,6 +444,10 @@ function normalizeGameDetails(rawGame, rawLogs, siblingGames, htmlForTables='') 
     comment: rawGame.comment ?? '',
     linescore,                 // ← carreras por inning + totales + acumulado
     plays_by_inning,           // ← jugadas detalladas por mitad
+    plays_flat: plays_by_inning.flatMap(h => h.plays.map(p => ({
+      inning_num: h.num, half: h.half, label: h.label,
+      reference_id: p.reference_id, text: p.text, scored: p.scored, is_primary: p.is_primary, ts: p.ts
+    }))),
     plays_summary_by_inning: plays_summary, // ← conteo de jugadas/carreras por mitad
     innings_raw: Array.isArray(rawGame.innings) ? rawGame.innings.map(i => ({
       num: i.num, part: i.part, is_last: i.is_last,
@@ -449,6 +466,7 @@ function normalizeGameDetails(rawGame, rawLogs, siblingGames, htmlForTables='') 
 async function fetchGameDetails(gameId) {
   const url = new URL(`/${gameId}`, SOURCE_HOME).href;
   const html = await fetchText(url);
+
   // Detalle: new ViewModel(gameData, siblingGames, logs, translations)
   const args = extractFirstNewViewModelArgs(html);
   const gameData = args[0];
@@ -456,6 +474,14 @@ async function fetchGameDetails(gameId) {
   const logs = args[2] || [];
 
   const normalized = normalizeGameDetails(gameData, logs, siblingGames, html);
+
+  // Guardar HTML si se pide (debug)
+  if (SAVE_HTML) {
+    try {
+      fs.writeFileSync(path.join(GAMES_DIR, `${gameId}.html`), html, 'utf8');
+    } catch { /* ignore */ }
+  }
+
   return { url, data: normalized };
 }
 
@@ -465,8 +491,8 @@ function pickWhichDetailsToFetch(allGames) {
   const todayYMD = formatYMDInTZ(new Date(), TZ);
   if (DETAILS_FETCH === 'all') {
     return Array.from(new Set(allGames.map(g => g.id))).filter(Boolean);
-  }
-  // recent: ±DETAILS_DAYS desde hoy (útil para no pedir detalles de juegos muy lejanos)
+    }
+  // recent: ±DETAILS_DAYS desde hoy
   const ids = [];
   for (const g of allGames) {
     const d = gameYMD(g);
@@ -562,7 +588,7 @@ async function main() {
       const filePath = path.join(GAMES_DIR, `${id}.json`);
       const payload = { source: { url, scraped_at: nowISO(), tz: TZ }, game: data };
       fs.writeFileSync(filePath, JSON.stringify(payload, null, 2) + '\n', 'utf8');
-      return { id, ok: true, file: `games/${id}.json` };
+      return { id, ok: true, file: `games/${id}.json`, data };
     } catch (err) {
       return { id, ok: false, error: err?.message || String(err) };
     }
@@ -570,7 +596,13 @@ async function main() {
 
   const detailResults = await pLimit(DETAILS_CONCURRENCY, tasks);
   const files = {};
-  for (const r of detailResults) if (r?.ok && r.file) files[r.id] = r.file;
+  const embedMap = {};
+  for (const r of detailResults) {
+    if (r?.ok && r.file) {
+      files[r.id] = r.file;
+      embedMap[r.id] = r.data;
+    }
+  }
 
   out.details_index = {
     mode: DETAILS_FETCH,
@@ -579,6 +611,22 @@ async function main() {
     count: Object.keys(files).length,
     files,
   };
+
+  // (Opcional) Embed de detalles para juegos recientes
+  if (DETAILS_EMBED) {
+    const idsRecent = new Set(targetIds);
+    function attachDetailsInList(list) {
+      return list.map(g => {
+        if (idsRecent.has(g.id) && embedMap[g.id]) {
+          return { ...g, __details: embedMap[g.id] }; // se marca como embed para el consumer
+        }
+        return g;
+      });
+    }
+    out.games.today    = attachDetailsInList(out.games.today);
+    out.games.upcoming = attachDetailsInList(out.games.upcoming);
+    out.games.previous = attachDetailsInList(out.games.previous);
+  }
 
   // Persistencia
   const tmpPath = path.join(OUT_DIR, 'latest.tmp.json');
@@ -592,7 +640,7 @@ async function main() {
     const iso = nowISO().replace(/[:]/g, '').replace(/\..+/, 'Z');
     const snapPath = path.join(HISTORY_DIR, `${iso}.json`);
     fs.writeFileSync(snapPath, neu, 'utf8');
-    console.log(`Updated docs/latest.json and ${Object.keys(files).length} game details.`);
+    console.log(`Updated docs/latest.json, ${Object.keys(files).length} game details${SAVE_HTML ? ' (HTML saved)' : ''}.`);
   } else {
     fs.unlinkSync(tmpPath);
     console.log('No changes.');
