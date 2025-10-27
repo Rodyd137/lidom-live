@@ -1,85 +1,43 @@
 // scraper.mjs
-// Node 20+, sin dependencias externas
-
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-
 const OUT_DIR = path.join(__dirname, 'docs');
 const HISTORY_DIR = path.join(OUT_DIR, 'history');
-
+const LATEST_PATH = path.join(OUT_DIR, 'latest.json');
+const SOURCE_HOME = process.env.SOURCE_HOME || 'https://pelotainvernal.com/';
 const TZ = process.env.TZ || 'America/Santo_Domingo';
-const SOURCE_HOME = (process.env.SOURCE_HOME || 'https://pelotainvernal.com/').replace(/\/+$/, '') + '/';
-const LEAGUE_SEO = process.env.LEAGUE_SEO || 'dominicana-lidom';
 
-// Páginas a raspar (en orden). Puedes agregar más si hace falta.
-const PAGES = [
-  '', // home
-  `liga/${LEAGUE_SEO}`,
-  `liga/${LEAGUE_SEO}/resultados`,
-  `liga/${LEAGUE_SEO}/calendario`,
-  `liga/${LEAGUE_SEO}/tabla-de-posiciones`,
-];
-
-const FETCH_DETAILS = (process.env.FETCH_DETAILS || 'false').toLowerCase() === 'true';
-const DETAILS_LIMIT = Number(process.env.DETAILS_LIMIT || 20); // para no abusar
-
-// ------------------------------ Utils generales ------------------------------
-
+// ---- Utilidades ----
 function nowISO() {
   return new Date().toISOString();
 }
 
-function sleep(ms) {
-  return new Promise(r => setTimeout(r, ms));
-}
-
-async function fetchText(url, tries = 3) {
-  const hdrs = {
-    'user-agent': 'scrape-lidom-bot/1.1 (+github actions)',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-    'accept-language': 'es-DO,es;q=0.9,en;q=0.8',
-    'cache-control': 'no-cache',
-    'pragma': 'no-cache',
-  };
-
-  let lastErr;
-  for (let k = 0; k < tries; k++) {
-    try {
-      const res = await fetch(url, { headers: hdrs, redirect: 'follow' });
-      if (!res.ok) throw new Error(`GET ${url} -> ${res.status}`);
-      return await res.text();
-    } catch (err) {
-      lastErr = err;
-      await sleep(500 * (k + 1));
+async function fetchText(url) {
+  const res = await fetch(url, {
+    headers: {
+      'user-agent': 'scrape-lidom-bot/1.0 (+github actions)',
+      'accept': 'text/html,application/xhtml+xml'
     }
-  }
-  throw lastErr;
+  });
+  if (!res.ok) throw new Error(`GET ${url} -> ${res.status}`);
+  return res.text();
 }
 
-// ------------------------------ Parser ViewModel ------------------------------
-//
-// Las páginas de Pelota Invernal usan Knockout. Hemos visto dos firmas:
-//   1) Home:    ko.applyBindings(new ViewModel([ <series>, <ads>, <i18n> ]));
-//   2) Otras:   ko.applyBindings(new ViewModel(<series>, <i18n>));
-//
-// Necesitamos extraer SIEMPRE el *primer argumento* de ese new ViewModel(...).
-// El primer argumento puede ser un Array (home) o un Object (otras).
-//
-
+// Extrae SOLO el 1er argumento de new ViewModel(...) (home)
 function extractFirstArgOfViewModel(html) {
   const marker = 'ko.applyBindings(new ViewModel(';
   const idx = html.indexOf(marker);
   if (idx === -1) throw new Error('ViewModel call not found');
 
   let i = idx + marker.length;
-  while (/\s/.test(html[i])) i++; // espacios
+  while (/\s/.test(html[i])) i++;
 
-  const opener = html[i];
-  const closer = opener === '[' ? ']' : opener === '{' ? '}' : null;
-  if (!closer) throw new Error('Unexpected first-argument opener: ' + opener);
+  const open = html[i];
+  const close = open === '[' ? ']' : open === '{' ? '}' : null;
+  if (!close) throw new Error('Unexpected first-argument opener: ' + open);
 
   let depth = 0;
   let j = i;
@@ -101,343 +59,269 @@ function extractFirstArgOfViewModel(html) {
       continue;
     } else {
       if (ch === '"') {
-        inStr = true; j++; continue;
+        inStr = true;
+        j++;
+        continue;
       }
-      if (ch === opener) depth++;
-      if (ch === closer) {
+      if (ch === open) depth++;
+      if (ch === close) {
         depth--;
         if (depth === 0) {
-          return html.slice(i, j + 1);
+          const jsonText = html.slice(i, j + 1);
+          return jsonText;
         }
       }
     }
     j++;
   }
-  throw new Error('Unbalanced JSON while parsing first arg');
+  throw new Error('Unbalanced brackets while parsing first arg');
 }
 
-function safeParse(jsonText, urlHint = '') {
-  try {
-    return JSON.parse(jsonText);
-  } catch (e) {
-    const snippet = jsonText.slice(0, 200);
-    throw new Error(`JSON parse error (${urlHint}): ${e.message}\nSnippet: ${snippet}`);
-  }
-}
+// ---- NUEVO: parsea los 4 args del ViewModel del calendario ----
+function extractViewModelArgs(html) {
+  const marker = 'ko.applyBindings(new ViewModel(';
+  const start = html.indexOf(marker);
+  if (start === -1) throw new Error('ViewModel call not found (calendar)');
 
-// Detección de shape y “normalización” mínima a un objeto tipo serie
-// - Si llega array (home), tomamos data[0] como “serie compuesta”
-// - Si llega object (otras), usamos ese object directo
-function extractSeriesShape(arg) {
-  if (Array.isArray(arg)) {
-    // Home suele venir: [ { league, standings, todayGames, nearestGames/upcomingGames, previousGames/previousRoundGames }, ADS, I18N ]
-    // Tomamos el primer elemento con pinta de serie
-    const firstObj = arg.find(x => x && typeof x === 'object' && (x.league || x.todayGames || x.upcomingGames || x.previousGames));
-    return firstObj || {};
-  }
-  // Otras páginas: objeto directo
-  return arg || {};
-}
+  let i = start + marker.length;
+  const args = [];
 
-// ------------------------------ Normalización/Acopio ------------------------------
+  function readArg() {
+    // saltar espacios y comas iniciales
+    while (/\s|,/.test(html[i])) i++;
+    const ch = html[i];
 
-// Limpieza básica de un juego
-function cleanGame(g) {
-  if (!g || typeof g !== 'object') return null;
-  const date = g.date || g.datetime || null;
-  const id = g.id ?? null;
+    // objetos o arreglos
+    if (ch === '{' || ch === '[') {
+      const open = ch;
+      const close = ch === '{' ? '}' : ']';
+      let depth = 0, j = i, inStr = false, esc = false;
+      while (j < html.length) {
+        const c = html[j];
+        if (inStr) {
+          if (esc) esc = false;
+          else if (c === '\\') esc = true;
+          else if (c === '"') inStr = false;
+        } else {
+          if (c === '"') inStr = true;
+          else if (c === open) depth++;
+          else if (c === close) { depth--; if (depth === 0) { j++; break; } }
+        }
+        j++;
+      }
+      const text = html.slice(i, j);
+      i = j;
+      return JSON.parse(text);
+    }
 
-  const teamShape = t => {
-    if (!t) return null;
-    return {
-      id: t.id ?? null,
-      name: t.name ?? null,
-      abbreviation: t.abbreviation ?? null,
-      logo: t.logo ?? null,
-      permalink: t.permalink ?? null,
-      color: t.color ?? null,
-      runs: t.runs ?? null,
-      hits: t.hits ?? null,
-      errors: t.errors ?? null,
-      pitcher: t.pitcher ?? null,
-      era: t.era ?? null,
-      record: t.record ?? null,
-      debut: t.debut ?? null,
-      runs_half: t.runs_half ?? null,
-    };
-  };
+    // strings
+    if (ch === '"' || ch === "'") {
+      const quote = ch;
+      let j = i + 1, esc = false;
+      while (j < html.length) {
+        const c = html[j];
+        if (esc) esc = false;
+        else if (c === '\\') esc = true;
+        else if (c === quote) { j++; break; }
+        j++;
+      }
+      const text = html.slice(i, j);
+      i = j;
+      return JSON.parse(text);
+    }
 
-  return {
-    id,
-    season_id: g.season_id ?? null,
-    status: g.status ?? null,
-    date,
-    part: g.part ?? null,
-    roundText: g.roundText ?? null,
-    currentInningNum: g.currentInningNum ?? null,
-    battingTeam: g.battingTeam ?? null,
-    base: g.base ?? null,
-    balls: g.balls ?? null,
-    strikes: g.strikes ?? null,
-    outs: g.outs ?? null,
-    moneyline_g: g.moneyline_g ?? null,
-    moneyline_h: g.moneyline_h ?? null,
-    handicap_g: g.handicap_g ?? null,
-    handicap_h: g.handicap_h ?? null,
-    over_under: g.over_under ?? null,
-    lastPlayByPlay: g.lastPlayByPlay ?? null,
-    atBat: g.atBat ?? null,
-    comment: g.comment ?? null,
-    winningPitcher: g.winningPitcher ?? null,
-    losingPitcher: g.losingPitcher ?? null,
-    savingPitcher: g.savingPitcher ?? null,
-    adImage: g.adImage ?? null,
-    adLink: g.adLink ?? null,
-    banner: g.banner ?? null,
-    gameAlert: g.gameAlert ?? null,
-    awayTeam: teamShape(g.awayTeam),
-    homeTeam: teamShape(g.homeTeam),
-  };
-}
-
-function pctNum(v) {
-  if (v == null) return 0;
-  if (typeof v === 'string') return Number(v.replace(',', '.')) || 0;
-  return Number(v) || 0;
-}
-
-function sortByDateAsc(a, b) {
-  const da = new Date(a.date || 0).getTime();
-  const db = new Date(b.date || 0).getTime();
-  return da - db;
-}
-
-// Funde standings (elige el más “completo” y ordenado)
-function mergeStandings(cur = [], incoming = []) {
-  const best = incoming.length > cur.length ? incoming : cur;
-  const sorted = [...best].sort((a, b) => pctNum(b.pct) - pctNum(a.pct));
-  return sorted;
-}
-
-// Index por fecha: YYYY-MM-DD -> juegos[]
-function indexByDate(gamesArr) {
-  const byDate = {};
-  for (const g of gamesArr) {
-    if (!g?.date) continue;
-    const d = new Date(g.date);
-    if (isNaN(+d)) continue;
-    const key = d.toISOString().slice(0, 10);
-    (byDate[key] = byDate[key] || []).push(g);
-  }
-  for (const k of Object.keys(byDate)) {
-    byDate[k].sort(sortByDateAsc);
-  }
-  return byDate;
-}
-
-// ------------------------------ Raspar páginas y unificar ------------------------------
-
-async function parseSeriesFromURL(url) {
-  const html = await fetchText(url);
-  const argText = extractFirstArgOfViewModel(html);
-  const arg = safeParse(argText, url);
-  const series = extractSeriesShape(arg);
-  return series;
-}
-
-function collectFromSeries(series, acc) {
-  // league / metadatos
-  if (series.league && !acc.league) {
-    acc.league = {
-      id: series.league.id ?? null,
-      name: series.league.name ?? null,
-      seo_url: series.league.seo_url ?? null,
-      season_id: series.league.season_id ?? null,
-      round_name: series.league.round_name ?? null,
-      date_start: series.league.date_start ?? null,
-      date_end: series.league.date_end ?? null,
-    };
+    // literales (número/true/false/null) hasta , o )
+    let j = i;
+    while (j < html.length && !/[,\)]/.test(html[j])) j++;
+    const raw = html.slice(i, j).trim();
+    i = j;
+    if (raw === 'null') return null;
+    if (raw === 'true') return true;
+    if (raw === 'false') return false;
+    const num = Number(raw);
+    if (!Number.isNaN(num)) return num;
+    return raw;
   }
 
-  // standings si trae
-  if (Array.isArray(series.standings) && series.standings.length) {
-    const cleaned = series.standings.map(s => ({
+  while (args.length < 4) args.push(readArg());
+  return args; // [serie, translations, teams, months]
+}
+
+// ---- Normalización de home ----
+function normalize(data) {
+  if (!Array.isArray(data) || data.length === 0) throw new Error('Unexpected data root');
+  const series = data[0];
+
+  const league = series.league ?? {};
+  const pkg = {
+    source: {
+      homepage: SOURCE_HOME,
+      scraped_at: nowISO(),
+      tz: TZ
+    },
+    league: {
+      id: league.id ?? null,
+      name: league.name ?? null,
+      seo_url: league.seo_url ?? null,
+      season_id: league.season_id ?? null,
+      round_name: league.round_name ?? null,
+      date_start: league.date_start ?? null,
+      date_end: league.date_end ?? null
+    },
+    standings: (series.standings ?? []).map(s => ({
       team: {
         id: s.team?.id ?? null,
         name: s.team?.name ?? null,
         abbreviation: s.team?.abbreviation ?? null,
         logo: s.team?.logo ?? null,
         permalink: s.team?.permalink ?? null,
-        color: s.team?.color ?? null,
+        color: s.team?.color ?? null
       },
       wins: s.wins ?? 0,
       loses: s.loses ?? 0,
-      gb: s.gb ?? null,
-      pct: s.pct ?? null,
+      gb: s.gb,
+      pct: s.pct,
       wins_home: s.wins_home ?? null,
       loses_home: s.loses_home ?? null,
       wins_visitor: s.wins_visitor ?? null,
-      loses_visitor: s.loses_visitor ?? null,
-    }));
-    acc.standings = mergeStandings(acc.standings, cleaned);
-  }
-
-  // posibles claves de juegos en diferentes páginas
-  const GAME_KEYS = [
-    'todayGames',
-    'nearestGames',
-    'upcomingGames',
-    'previousGames',
-    'previousRoundGames',
-    'games',          // por si alguna variante usa `games`
-  ];
-
-  for (const key of GAME_KEYS) {
-    const arr = series[key];
-    if (!Array.isArray(arr)) continue;
-    for (const raw of arr) {
-      const g = cleanGame(raw);
-      if (!g) continue;
-      const keyId = g.id ?? `${g.date}::${g?.awayTeam?.id ?? '?'}@${g?.homeTeam?.id ?? '?'}`;
-      // desduplicar (preferimos el que tenga más info)
-      const prev = acc.mapGames.get(keyId);
-      if (!prev) {
-        acc.mapGames.set(keyId, g);
-      } else {
-        // merge superficial prefiriendo campos no-nulos del nuevo
-        const merged = { ...prev, ...Object.fromEntries(Object.entries(g).filter(([, v]) => v != null)) };
-        // merge teams superficial
-        merged.awayTeam = { ...(prev.awayTeam || {}), ...(g.awayTeam || {}) };
-        merged.homeTeam = { ...(prev.homeTeam || {}), ...(g.homeTeam || {}) };
-        acc.mapGames.set(keyId, merged);
-      }
-    }
-  }
-}
-
-async function maybeEnrichGameDetails(acc) {
-  if (!FETCH_DETAILS) return;
-  const games = [...acc.mapGames.values()].sort(sortByDateAsc);
-  const subset = games.slice(0, DETAILS_LIMIT);
-
-  for (const g of subset) {
-    if (!g.id) continue;
-    const url = SOURCE_HOME + String(g.id);
-    try {
-      const html = await fetchText(url, 2);
-      // En páginas de detalle deben aplicar también ko.applyBindings(new ViewModel(...))
-      const argText = extractFirstArgOfViewModel(html);
-      const arg = safeParse(argText, url);
-      const series = extractSeriesShape(arg);
-
-      // A veces el detalle viene como un solo juego "game" o arrays similares:
-      const candidate =
-        series?.game ||
-        (Array.isArray(series?.todayGames) && series.todayGames.find(x => (x?.id ?? null) === g.id)) ||
-        (Array.isArray(series?.previousGames) && series.previousGames.find(x => (x?.id ?? null) === g.id)) ||
-        null;
-
-      if (candidate) {
-        const det = cleanGame(candidate);
-        const merged = { ...g, ...Object.fromEntries(Object.entries(det).filter(([, v]) => v != null)) };
-        merged.awayTeam = { ...(g.awayTeam || {}), ...(det.awayTeam || {}) };
-        merged.homeTeam = { ...(g.homeTeam || {}), ...(det.homeTeam || {}) };
-        // update in map
-        const keyId = g.id ?? `${g.date}::${g?.awayTeam?.id ?? '?'}@${g?.homeTeam?.id ?? '?'}`;
-        acc.mapGames.set(keyId, merged);
-      }
-    } catch {
-      // Silencioso: si falla detalle, seguimos
-    }
-  }
-}
-
-// ------------------------------ Salida final ------------------------------
-
-function buildOutput(acc) {
-  const allGames = [...acc.mapGames.values()].sort(sortByDateAsc);
-
-  // “ventanas” aproximadas para compat retro
-  const now = Date.now();
-  const startOfToday = new Date(new Date().toISOString().slice(0, 10)).getTime();
-  const endOfToday = startOfToday + 24 * 60 * 60 * 1000 - 1;
-
-  const isToday = g => {
-    const t = new Date(g.date || 0).getTime();
-    return t >= startOfToday && t <= endOfToday;
-  };
-  const isFuture = g => new Date(g.date || 0).getTime() > endOfToday;
-  const isPast = g => new Date(g.date || 0).getTime() < startOfToday;
-
-  const today = allGames.filter(isToday);
-  const upcoming = allGames.filter(isFuture);
-  const previous = allGames.filter(isPast);
-
-  return {
-    source: {
-      homepage: SOURCE_HOME,
-      scraped_at: nowISO(),
-      tz: TZ,
-    },
-    league: acc.league || {
-      id: null, name: null, seo_url: LEAGUE_SEO, season_id: null,
-      round_name: null, date_start: null, date_end: null
-    },
-    standings: acc.standings || [],
+      loses_visitor: s.loses_visitor ?? null
+    })),
     games: {
-      today,
-      upcoming,
-      previous,
-    },
-    by_date: indexByDate(allGames),
+      today: series.todayGames ?? [],
+      upcoming: series.upcomingGames ?? series.nearestGames ?? [],
+      previous: series.previousGames ?? series.previousRoundGames ?? []
+    }
   };
+
+  const pctNum = v => (typeof v === 'string' ? Number(v) : Number(v || 0));
+  pkg.standings.sort((a, b) => pctNum(b.pct) - pctNum(a.pct));
+
+  const byDate = (a, b) => new Date(a.date) - new Date(b.date);
+  pkg.games.today.sort(byDate);
+  pkg.games.upcoming.sort(byDate);
+  pkg.games.previous.sort(byDate);
+
+  return pkg;
 }
 
-// ------------------------------ Main ------------------------------
+// ---- NUEVO: POST del calendario por mes/página ----
+async function fetchCalendarPage(url, { month, page = 1, team_id = '' }) {
+  const body = new URLSearchParams({
+    month,
+    page: String(page),
+    team_id: String(team_id || '')
+  }).toString();
 
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: {
+      'user-agent': 'scrape-lidom-bot/1.0 (+github actions)',
+      'accept': 'application/json, text/javascript, */*; q=0.01',
+      'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+      'x-requested-with': 'XMLHttpRequest'
+    },
+    body
+  });
+  if (!res.ok) throw new Error(`POST ${url} -> ${res.status}`);
+
+  const pageCount = Number(res.headers.get('X-Pagination-Page-Count') || '1') || 1;
+  const data = await res.json(); // array de juegos
+  return { data, pageCount };
+}
+
+// ---- NUEVO: trae y concatena TODO el calendario disponible ----
+async function fetchFullCalendarForLeague(seo_url) {
+  const calendarUrl = new URL(`/liga/${seo_url}/calendario`, SOURCE_HOME).href;
+  const html = await fetchText(calendarUrl);
+
+  const [seriesObj, _translations, _teams, months] = extractViewModelArgs(html);
+
+  const all = [];
+  for (const m of months || []) {
+    const monthKey = m.date; // "10-2025"
+    let page = 1;
+    let pageCount = 1;
+    do {
+      const { data, pageCount: pc } = await fetchCalendarPage(calendarUrl, { month: monthKey, page });
+      pageCount = pc;
+      if (Array.isArray(data)) all.push(...data);
+      page++;
+    } while (page <= pageCount);
+  }
+
+  // De-dupe por id o por clave derivada
+  const map = new Map();
+  const kf = g => g?.id != null ? `id:${g.id}` : `key:${g?.date}|${g?.awayTeam?.id ?? '?'}@${g?.homeTeam?.id ?? '?'}`;
+  for (const g of all) map.set(kf(g), g);
+
+  const games = Array.from(map.values());
+  games.sort((a, b) => new Date(a.date) - new Date(b.date));
+  return { games, months, calendarUrl, seriesObj };
+}
+
+// ---- NUEVO: indexa por YYYY-MM-DD ----
+function indexByDate(games) {
+  const out = {};
+  for (const g of games) {
+    const d = (g.date || '').slice(0, 10);
+    if (!d) continue;
+    (out[d] ||= []).push(g);
+  }
+  for (const k of Object.keys(out)) out[k].sort((a, b) => new Date(a.date) - new Date(b.date));
+  return out;
+}
+
+// ---- Main ----
 async function main() {
-  const acc = {
-    league: null,
-    standings: [],
-    mapGames: new Map(),
-  };
+  // 1) Home para standings + ventana corta
+  const html = await fetchText(SOURCE_HOME);
+  const firstArgText = extractFirstArgOfViewModel(html);
+  const data = JSON.parse(firstArgText); // payload JSON-like
+  const out = normalize(data);
 
-  // 1) Recoger series de varias páginas
-  for (const rel of PAGES) {
-    const url = SOURCE_HOME + rel.replace(/^\//, '');
+  // 2) Calendario completo por meses/páginas (si existe seo_url)
+  if (out?.league?.seo_url) {
     try {
-      const series = await parseSeriesFromURL(url);
-      collectFromSeries(series, acc);
+      const full = await fetchFullCalendarForLeague(out.league.seo_url);
+      const allGames = full.games;
+
+      // reconstruir hoy / próximos / previos de forma robusta
+      const now = new Date();
+      const todayYMD = now.toISOString().slice(0, 10);
+      const startOfToday = new Date(`${todayYMD}T00:00:00`);
+      const isToday = g => (g.date || '').startsWith(todayYMD);
+      const isFuture = g => new Date(g.date) > now && !isToday(g);
+      const isPast = g => new Date(g.date) < startOfToday;
+
+      out.games = {
+        today: allGames.filter(isToday),
+        upcoming: allGames.filter(isFuture).slice(0, 200),
+        previous: allGames.filter(isPast).slice(-200)
+      };
+
+      // Añadidos útiles para el consumidor
+      out.by_date = indexByDate(allGames);
+      out.calendar_days = Object.keys(out.by_date).sort();
     } catch (e) {
-      console.warn(`WARN: no se pudo parsear ${url}: ${e.message}`);
+      console.warn('Full calendar fetch failed, keeping narrow window:', e.message);
     }
   }
 
-  // 2) (Opcional) enriquecer con páginas de detalle /<id>
-  await maybeEnrichGameDetails(acc);
-
-  // 3) Ensamblar salida
-  const out = buildOutput(acc);
-
-  // 4) Persistir (solo si cambia)
+  // 3) Persistencia (solo si cambió)
   fs.mkdirSync(OUT_DIR, { recursive: true });
   fs.mkdirSync(HISTORY_DIR, { recursive: true });
 
-  const latestPath = path.join(OUT_DIR, 'latest.json');
   const tmpPath = path.join(OUT_DIR, 'latest.tmp.json');
-
   fs.writeFileSync(tmpPath, JSON.stringify(out, null, 2) + '\n', 'utf8');
 
-  const old = fs.existsSync(latestPath) ? fs.readFileSync(latestPath, 'utf8') : null;
+  const old = fs.existsSync(LATEST_PATH) ? fs.readFileSync(LATEST_PATH, 'utf8') : null;
   const neu = fs.readFileSync(tmpPath, 'utf8');
 
   if (old !== neu) {
-    fs.renameSync(tmpPath, latestPath);
-
-    const iso = nowISO().replace(/[:]/g, '').replace(/\..+/, 'Z');
+    fs.renameSync(tmpPath, LATEST_PATH);
+    const iso = nowISO().replace(/[:]/g, '').replace(/\..+/, 'Z'); // YYYY-MM-DDTHHMMSSZ
     const snapPath = path.join(HISTORY_DIR, `${iso}.json`);
     fs.writeFileSync(snapPath, neu, 'utf8');
-
     console.log('Updated docs/latest.json and history snapshot.');
   } else {
     fs.unlinkSync(tmpPath);
@@ -449,4 +333,3 @@ main().catch(err => {
   console.error(err);
   process.exit(1);
 });
-
