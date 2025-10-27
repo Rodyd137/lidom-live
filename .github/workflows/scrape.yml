@@ -3,7 +3,7 @@ name: scrape-lidom
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "*/2 * * * *"   # cada 2 minutos
+    - cron: "*/2 * * * *"
 
 permissions:
   contents: write
@@ -15,9 +15,6 @@ concurrency:
 env:
   TZ: America/Santo_Domingo
   SOURCE_HOME: https://pelotainvernal.com/
-  LEAGUE_SEO: dominicana-lidom
-  FETCH_DETAILS: "false"          # pon "true" si quieres abrir /<id> (costo en requests)
-  DETAILS_LIMIT: "20"
 
 jobs:
   run:
@@ -34,7 +31,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'   # sin cache -> no exige lockfile
+          node-version: '20'   # 👈 sin cache
 
       - name: Run scraper
         run: node scraper.mjs
