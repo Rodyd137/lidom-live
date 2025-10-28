@@ -75,7 +75,7 @@ function sortByDateStrAsc(a, b) {
 function dedupeGames(list) {
   const map = new Map();
   const key = g => (g?.id != null) ? `id:${g.id}` : `key:${g?.date}|${g?.awayTeam?.id ?? '?'}@${g?.homeTeam?.id ?? '?'}`;
-  for (const g of list) map.set(key(g), g);
+  for (const g of list) if (g) map.set(key(g), g);
   return Array.from(map.values());
 }
 
@@ -181,8 +181,6 @@ function extractAllNewViewModelArgs(html) {
 
 function pickViewModelForDetails(allCalls) {
   // Detalle: 4 args: [gameData, siblingGames, logs, translations]
-  // Calendario/Resultados: 2 args típicamente
-  // Escogemos la que tenga gameData con keys de juego (awayTeam/homeTeam/innings)
   for (const args of allCalls) {
     const g = args[0];
     if (g && typeof g === 'object' && (g.awayTeam && g.homeTeam)) return args;
@@ -197,9 +195,17 @@ function extractFirstNewViewModelArgs(html) {
   return pickViewModelForDetails(all);
 }
 
-/* ============ Normalizadores básicos ============ */
-function normalizeHomePayload(series) {
+/* ============ Normalizadores básicos (home) ============ */
+function _firstSeries(seriesLike) {
+  // HOME puede traer un objeto o un array [series]
+  return Array.isArray(seriesLike) ? (seriesLike[0] || {}) : (seriesLike || {});
+}
+
+function normalizeHomePayload(seriesLike) {
+  const series = _firstSeries(seriesLike);
   const league = series?.league ?? {};
+  // standings si vienen en el home
+  const standings = Array.isArray(series?.standings) ? series.standings : [];
   return {
     source: { homepage: SOURCE_HOME, scraped_at: nowISO(), tz: TZ },
     league: {
@@ -211,15 +217,28 @@ function normalizeHomePayload(series) {
       date_start: league.date_start ?? series?.date_start ?? null,
       date_end: league.date_end ?? series?.date_end ?? null,
     },
-    standings: [],
+    standings,
     games: { today: [], upcoming: [], previous: [] },
   };
 }
 
+// Unión de juegos del HOME: today/upcoming/previous y nearestGames (si existe)
+function collectHomeGamesUnion(seriesLike) {
+  const s = _firstSeries(seriesLike);
+  const pool = [];
+  const pushArr = (arr) => Array.isArray(arr) && pool.push(...arr);
+  pushArr(s?.todayGames);
+  pushArr(s?.upcomingGames);
+  pushArr(s?.previousGames);
+  pushArr(s?.nearestGames); // algunas plantillas lo traen
+  return dedupeGames(pool).sort(sortByDateStrAsc);
+}
+
+/* ============ Calendario / Resultados ============ */
 async function fetchFullCalendarForLeague(seo_url) {
   const calendarUrl = new URL(`/liga/${seo_url}/calendario`, SOURCE_HOME).href;
   const html = await fetchText(calendarUrl);
-  const args = extractFirstNewViewModelArgs(html); // [series, translations, teams, months]
+  const args = extractFirstNewViewModelArgs(html); // [series, translations, teams, months] (varía, pero el 4to suele ser months)
   const months = args[3] || [];
 
   const all = [];
@@ -270,19 +289,13 @@ function buildLineScore(inningsArr = [], awayTotals, homeTotals) {
     home: { R: homeTotals?.runs ?? null, H: homeTotals?.hits ?? null, E: homeTotals?.errors ?? null },
   };
 
-  // acumulado por inning (útil para gráficas)
   const cumulative = { away: [], home: [] };
   let ca = 0;
   for (const i of innings) { ca += i.away ?? 0; cumulative.away.push({ num: i.num, R: ca }); }
   let hb = 0;
   for (const i of innings) { hb += i.home ?? 0; cumulative.home.push({ num: i.num, R: hb }); }
 
-  return {
-    innings,
-    extras: maxNum > 9,
-    totals,
-    cumulative,
-  };
+  return { innings, extras: maxNum > 9, totals, cumulative };
 }
 
 function parseInningLabel(label = '') {
@@ -294,7 +307,6 @@ function parseInningLabel(label = '') {
 }
 
 function groupPlayByPlay(logs = []) {
-  // logs: [{ inning: "Baja 4ta", play_by_play: [{reference_id,message,scored,is_primary,date}, ...] }, ...]
   const bucket = new Map(); // key `${num}-${half}`
   for (const blk of logs) {
     const meta = parseInningLabel(blk.inning);
@@ -310,7 +322,6 @@ function groupPlayByPlay(logs = []) {
       });
     }
   }
-  // Orden por inning y mitad; dentro, por timestamp asc (cuando exista)
   const order = Array.from(bucket.values()).sort((a, b) => {
     if (a.num !== b.num) return a.num - b.num;
     const ord = x => x.half === 'top' ? 0 : 1;
@@ -320,7 +331,7 @@ function groupPlayByPlay(logs = []) {
   for (const half of order) {
     half.plays.sort((x, y) => {
       if (x.ts != null && y.ts != null && x.ts !== y.ts) return x.ts - y.ts;
-      if (x.is_primary !== y.is_primary) return (x.is_primary ? -1 : 1); // primarias primero
+      if (x.is_primary !== y.is_primary) return (x.is_primary ? -1 : 1);
       return 0;
     });
   }
@@ -328,7 +339,6 @@ function groupPlayByPlay(logs = []) {
 }
 
 function summarizeInningPlays(playsByInning = []) {
-  // Por mitad: conteo de jugadas y carreras detectadas por flag 'scored'
   return playsByInning.map(h => ({
     num: h.num,
     half: h.half,
@@ -340,7 +350,6 @@ function summarizeInningPlays(playsByInning = []) {
 
 /* ============ Parseo de tablas de estadísticas (HTML) ============ */
 function extractStatsTablesFromHTML(html) {
-  // Busca bloques: <h4>...</h4><table class="stats-table"> ... </table>
   const tables = [];
   const re = /<h4[^>]*>([\s\S]*?)<\/h4>\s*<table[^>]*class="stats-table"[^>]*>([\s\S]*?)<\/table>/gi;
   let m;
@@ -348,21 +357,17 @@ function extractStatsTablesFromHTML(html) {
     const title = stripTags(m[1]);
     const tbody = m[2];
 
-    // Título de ronda dentro del thead (si existe)
     const rn = /<tr[^>]*class="round-name"[^>]*>[\s\S]*?<th[^>]*colspan="[^"]*"[^>]*>([\s\S]*?)<\/th>[\s\S]*?<\/tr>/i.exec(tbody);
     const round = rn ? stripTags(rn[1]) : null;
 
-    // Cabeceras
     const headerMatch = /<tr>\s*<th[^>]*>[\s\S]*?<\/th>([\s\S]*?)<\/tr>/i.exec(tbody.replace(/<tr[^>]*class="round-name"[\s\S]*?<\/tr>/i,''));
     let columns = [];
     if (headerMatch) {
       columns = Array.from(headerMatch[1].matchAll(/<th[^>]*>([\s\S]*?)<\/th>/gi)).map(x => stripTags(x[1]));
     }
 
-    // Filas de equipo (<tr><th>Equipo</th><td>...</td>...</tr>)
     const teamRows = [];
     const rowRe = /<tr>\s*<th[^>]*>([\s\S]*?)<\/th>([\s\S]*?)<\/tr>/gi;
-    // saltar la cabecera
     const tbodyNoRound = tbody.replace(/<thead>[\s\S]*?<\/thead>/gi, '').replace(/<\/?tbody>/gi,'');
     let row;
     while ((row = rowRe.exec(tbodyNoRound)) !== null) {
@@ -376,7 +381,6 @@ function extractStatsTablesFromHTML(html) {
       teamRows.push({ team: name, values: numbers });
     }
 
-    // Armar objeto estructurado (mapear columnas->valores)
     const teams = {};
     for (const r of teamRows) {
       const obj = {};
@@ -404,8 +408,7 @@ function normalizeGameDetails(rawGame, rawLogs, siblingGames, htmlForTables='') 
 
   const plays_by_inning = groupPlayByPlay(rawLogs || []);
   const plays_summary = summarizeInningPlays(plays_by_inning);
-
-  const stats_tables = extractStatsTablesFromHTML(htmlForTables); // “Estrellas vs Leones”, “Estadísticas Generales”, etc.
+  const stats_tables = extractStatsTablesFromHTML(htmlForTables);
 
   return {
     id: rawGame.id,
@@ -442,9 +445,9 @@ function normalizeGameDetails(rawGame, rawLogs, siblingGames, htmlForTables='') 
       },
     },
     comment: rawGame.comment ?? '',
-    linescore,                 // ← carreras por inning + totales + acumulado
-    plays_by_inning,           // ← jugadas detalladas por mitad
-    plays_summary_by_inning: plays_summary, // ← conteo de jugadas/carreras por mitad
+    linescore,
+    plays_by_inning,
+    plays_summary_by_inning: plays_summary,
     innings_raw: Array.isArray(rawGame.innings) ? rawGame.innings.map(i => ({
       num: i.num, part: i.part, is_last: i.is_last,
       awayTeamRuns: i.awayTeamRuns, homeTeamRuns: i.homeTeamRuns,
@@ -454,7 +457,7 @@ function normalizeGameDetails(rawGame, rawLogs, siblingGames, htmlForTables='') 
       awayTeam: s.awayTeam ? { id: s.awayTeam.id, name: s.awayTeam.name, abbr: s.awayTeam.abbreviation, logo: s.awayTeam.logo, runs: s.awayTeam.runs ?? null, hits: s.awayTeam.hits ?? null, errors: s.awayTeam.errors ?? null, permalink: s.awayTeam.permalink ?? null } : null,
       homeTeam: s.homeTeam ? { id: s.homeTeam.id, name: s.homeTeam.name, abbr: s.homeTeam.abbreviation, logo: s.homeTeam.logo, runs: s.homeTeam.runs ?? null, hits: s.homeTeam.hits ?? null, errors: s.homeTeam.errors ?? null, permalink: s.homeTeam.permalink ?? null } : null,
     })) : [],
-    stats_tables,              // ← tablas parseadas del HTML (“vs” y “generales”)
+    stats_tables,
   };
 }
 
@@ -485,7 +488,7 @@ function pickWhichDetailsToFetch(sourceGames) {
     return Array.from(new Set(candidates.map(g => g.id))).filter(Boolean);
   }
 
-  // recent: ±DETAILS_DAYS desde hoy (útil para no pedir detalles de juegos muy lejanos)
+  // recent: ±DETAILS_DAYS desde hoy
   const ids = [];
   for (const g of candidates) {
     const d = gameYMD(g);
@@ -529,11 +532,15 @@ async function main() {
     games: { today: [], upcoming: [], previous: [] },
   };
 
-  // Intento de home (si la home trae ViewModel)
+  // HOME (puede venir objeto o array en el primer arg de ViewModel)
+  let homeSeriesArg = null;
+  let homeGames = [];
   try {
     const homeHtml = await fetchText(SOURCE_HOME);
     const homeArgs = extractFirstNewViewModelArgs(homeHtml);
-    out = normalizeHomePayload(homeArgs[0]);
+    homeSeriesArg = homeArgs[0];                         // <- puede ser objeto o array [series]
+    out = normalizeHomePayload(homeSeriesArg);           // <- ahora soporta array
+    homeGames = collectHomeGamesUnion(homeSeriesArg);    // <- unión home (incluye LIVE aunque /resultados falle)
   } catch { /* ok */ }
 
   // Calendario
@@ -560,8 +567,8 @@ async function main() {
     } catch (e) { console.warn('Full results fetch failed:', e.message); }
   }
 
-  // Fusión
-  const allGames = dedupeGames([...calendarGames, ...resultsGames]).sort(sortByDateStrAsc);
+  // Fusión (HOME union + calendario + resultados)
+  const allGames = dedupeGames([...homeGames, ...calendarGames, ...resultsGames]).sort(sortByDateStrAsc);
   const todayYMD = formatYMDInTZ(new Date(), TZ);
 
   out.games = {
@@ -573,7 +580,7 @@ async function main() {
   out.by_date = indexByDate(allGames);
   out.calendar_days = Object.keys(out.by_date).sort();
 
-  // Detalles: preferimos SIEMPRE los id que vienen de /resultados
+  // Detalles: preferimos SIEMPRE los id que vienen de /resultados; si no hay, usamos el total (que ya incluye HOME)
   const detailSourceGames = resultsGames.length ? resultsGames : allGames;
   const targetIds = pickWhichDetailsToFetch(detailSourceGames);
 
