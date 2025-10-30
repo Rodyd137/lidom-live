@@ -24,9 +24,7 @@ const STATUS = { NOT_STARTED:1, LIVE:2, PREVIEW:3, DELAYED:4, SUSPENDED:5, FINAL
 // Por defecto, solo bajamos detalles de juegos que suelen tener PBP/linescore listo
 const DETAILS_STATUS_SET = new Set(
   (process.env.DETAILS_STATUSES || '2,4,5,6')  // LIVE, DELAYED, SUSPENDED, FINAL
-    .split(',')
-    .map(n => Number(n.trim()))
-    .filter(Boolean)
+    .split(',').map(n => Number(n.trim())).filter(Boolean)
 );
 
 /* ============ Utils ============ */
@@ -35,7 +33,7 @@ function nowISO() { return new Date().toISOString(); }
 async function fetchText(url) {
   const res = await fetch(url, {
     headers: {
-      'user-agent': 'lidom-scraper/1.3',
+      'user-agent': 'lidom-scraper/1.4',
       'accept': 'text/html,application/xhtml+xml'
     }
   });
@@ -47,7 +45,7 @@ async function fetchJsonPOST(url, bodyObj) {
   const res = await fetch(url, {
     method: 'POST',
     headers: {
-      'user-agent': 'lidom-scraper/1.3',
+      'user-agent': 'lidom-scraper/1.4',
       'accept': 'application/json, text/javascript, */*; q=0.01',
       'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
       'x-requested-with': 'XMLHttpRequest',
@@ -72,10 +70,119 @@ function sortByDateStrAsc(a, b) {
   return new Date(a.date) - new Date(b.date);
 }
 
-function dedupeGames(list) {
+function daysBetweenYMD(a, b) {
+  const [ay, am, ad] = a.split('-').map(Number);
+  const [by, bm, bd] = b.split('-').map(Number);
+  const da = Date.UTC(ay, am - 1, ad);
+  const db = Date.UTC(by, bm - 1, bd);
+  return Math.round((da - db) / 86400000);
+}
+
+function stripTags(s='') { return s.replace(/<[^>]*>/g, '').replace(/\s+/g,' ').trim(); }
+
+/* ====== Dedupe con prioridad a payload más RICO (LIVE/FINAL + stats) ====== */
+function keyFor(g) {
+  return (g?.id != null)
+    ? `id:${g.id}`
+    : `key:${gameYMD(g)}|${g?.awayTeam?.id ?? '?'}@${g?.homeTeam?.id ?? '?'}`;
+}
+
+function richnessScore(g = {}) {
+  const st = Number(g.status) || 0;
+  let s = 0;
+  // Prioriza estado
+  if (st === STATUS.LIVE) s += 120;
+  else if (st === STATUS.FINAL) s += 90;
+  else if (st === STATUS.DELAYED || st === STATUS.SUSPENDED) s += 70;
+  else if (st === STATUS.PREVIEW) s += 40;
+  else if (st === STATUS.NOT_STARTED) s += 20;
+
+  // Más datos => más score
+  const at = g.awayTeam || {}, ht = g.homeTeam || {};
+  const hasRuns = (x) => Number.isFinite(x?.runs);
+  const hasHits = (x) => Number.isFinite(x?.hits);
+  const hasErrs = (x) => Number.isFinite(x?.errors);
+
+  if (hasRuns(at)) s += 10;
+  if (hasRuns(ht)) s += 10;
+  if (hasHits(at)) s += 6;
+  if (hasHits(ht)) s += 6;
+  if (hasErrs(at)) s += 4;
+  if (hasErrs(ht)) s += 4;
+
+  if (Array.isArray(g.innings) && g.innings.length) s += 12;
+  if (g.lastPlayByPlay) s += 8;
+  if (g.roundText) s += 5;
+  if (g.currentInningNum) s += 3;
+
+  return s;
+}
+
+function mergeTeamsRich(a = {}, b = {}) {
+  const pick = (x, y) => (x === null || x === undefined || x === '') ? y : x;
+  return {
+    id: a.id ?? b.id,
+    name: a.name ?? b.name,
+    abbreviation: a.abbreviation ?? b.abbreviation,
+    color: a.color ?? b.color,
+    logo: a.logo ?? b.logo,
+    permalink: a.permalink ?? b.permalink,
+    runs: pick(a.runs, b.runs),
+    runs_half: pick(a.runs_half, b.runs_half),
+    errors: pick(a.errors, b.errors),
+    hits: pick(a.hits, b.hits),
+    pitcher: a.pitcher ?? b.pitcher,
+    era: a.era ?? b.era,
+    debut: a.debut ?? b.debut,
+    record: a.record ?? b.record,
+    players: Array.isArray(a.players) ? a.players : (Array.isArray(b.players) ? b.players : undefined),
+  };
+}
+
+function mergeGamesRich(a, b) {
+  if (!a) return b;
+  if (!b) return a;
+  const sa = richnessScore(a), sb = richnessScore(b);
+  const base = sb > sa ? b : a;
+  const other = sb > sa ? a : b;
+
+  // Rellenar faltantes del “otro”
+  const pick = (x, y) => (x === null || x === undefined || x === '') ? y : x;
+
+  return {
+    ...base,
+    status: pick(base.status, other.status),
+    date: pick(base.date, other.date),
+    part: pick(base.part, other.part),
+    lastPlayByPlay: pick(base.lastPlayByPlay, other.lastPlayByPlay),
+    atBat: pick(base.atBat, other.atBat),
+    comment: pick(base.comment, other.comment),
+    winningPitcher: pick(base.winningPitcher, other.winningPitcher),
+    losingPitcher: pick(base.losingPitcher, other.losingPitcher),
+    savingPitcher: pick(base.savingPitcher, other.savingPitcher),
+    roundText: pick(base.roundText, other.roundText),
+    currentInningNum: pick(base.currentInningNum, other.currentInningNum),
+    battingTeam: pick(base.battingTeam, other.battingTeam),
+    adImage: pick(base.adImage, other.adImage),
+    adLink: pick(base.adLink, other.adLink),
+    banner: pick(base.banner, other.banner),
+    gameAlert: pick(base.gameAlert, other.gameAlert),
+    balls: pick(base.balls, other.balls),
+    outs: pick(base.outs, other.outs),
+    strikes: pick(base.strikes, other.strikes),
+    innings: Array.isArray(base.innings) && base.innings.length ? base.innings : other.innings,
+    awayTeam: mergeTeamsRich(base.awayTeam, other.awayTeam),
+    homeTeam: mergeTeamsRich(base.homeTeam, other.homeTeam),
+  };
+}
+
+function dedupePreferRicher(list) {
   const map = new Map();
-  const key = g => (g?.id != null) ? `id:${g.id}` : `key:${g?.date}|${g?.awayTeam?.id ?? '?'}@${g?.homeTeam?.id ?? '?'}`;
-  for (const g of list) if (g) map.set(key(g), g);
+  for (const g of list || []) {
+    const k = keyFor(g);
+    if (!map.has(k)) map.set(k, g);
+    else map.set(k, mergeGamesRich(map.get(k), g));
+  }
   return Array.from(map.values());
 }
 
@@ -89,16 +196,6 @@ function indexByDate(games) {
   for (const d of Object.keys(out)) out[d].sort(sortByDateStrAsc);
   return out;
 }
-
-function daysBetweenYMD(a, b) {
-  const [ay, am, ad] = a.split('-').map(Number);
-  const [by, bm, bd] = b.split('-').map(Number);
-  const da = Date.UTC(ay, am - 1, ad);
-  const db = Date.UTC(by, bm - 1, bd);
-  return Math.round((da - db) / 86400000);
-}
-
-function stripTags(s='') { return s.replace(/<[^>]*>/g, '').replace(/\s+/g,' ').trim(); }
 
 /* ============ Parser de new ViewModel(...) robusto ============ */
 function extractAllNewViewModelArgs(html) {
@@ -115,7 +212,6 @@ function extractAllNewViewModelArgs(html) {
       while (/\s|,/.test(html[i])) i++;
       const ch = html[i];
 
-      // objetos/arrays JSON
       if (ch === '{' || ch === '[') {
         const open = ch, close = ch === '{' ? '}' : ']';
         let depth = 0, j = i, inStr = false, esc = false;
@@ -137,7 +233,6 @@ function extractAllNewViewModelArgs(html) {
         return JSON.parse(text);
       }
 
-      // strings
       if (ch === '"' || ch === "'") {
         const quote = ch;
         let j = i + 1, esc = false;
@@ -153,7 +248,6 @@ function extractAllNewViewModelArgs(html) {
         return JSON.parse(text);
       }
 
-      // literales
       let j = i;
       while (j < html.length && !/[,\)]/.test(html[j])) j++;
       const raw = html.slice(i, j).trim();
@@ -180,12 +274,10 @@ function extractAllNewViewModelArgs(html) {
 }
 
 function pickViewModelForDetails(allCalls) {
-  // Detalle: 4 args: [gameData, siblingGames, logs, translations]
   for (const args of allCalls) {
     const g = args[0];
     if (g && typeof g === 'object' && (g.awayTeam && g.homeTeam)) return args;
   }
-  // fallback: la de mayor número de args
   return allCalls.sort((a,b)=>b.length-a.length)[0];
 }
 
@@ -197,14 +289,12 @@ function extractFirstNewViewModelArgs(html) {
 
 /* ============ Normalizadores básicos (home) ============ */
 function _firstSeries(seriesLike) {
-  // HOME puede traer un objeto o un array [series]
   return Array.isArray(seriesLike) ? (seriesLike[0] || {}) : (seriesLike || {});
 }
 
 function normalizeHomePayload(seriesLike) {
   const series = _firstSeries(seriesLike);
   const league = series?.league ?? {};
-  // standings si vienen en el home
   const standings = Array.isArray(series?.standings) ? series.standings : [];
   return {
     source: { homepage: SOURCE_HOME, scraped_at: nowISO(), tz: TZ },
@@ -222,7 +312,6 @@ function normalizeHomePayload(seriesLike) {
   };
 }
 
-// Unión de juegos del HOME: today/upcoming/previous y nearestGames (si existe)
 function collectHomeGamesUnion(seriesLike) {
   const s = _firstSeries(seriesLike);
   const pool = [];
@@ -230,15 +319,15 @@ function collectHomeGamesUnion(seriesLike) {
   pushArr(s?.todayGames);
   pushArr(s?.upcomingGames);
   pushArr(s?.previousGames);
-  pushArr(s?.nearestGames); // algunas plantillas lo traen
-  return dedupeGames(pool).sort(sortByDateStrAsc);
+  pushArr(s?.nearestGames);
+  return dedupePreferRicher(pool).sort(sortByDateStrAsc);
 }
 
 /* ============ Calendario / Resultados ============ */
 async function fetchFullCalendarForLeague(seo_url) {
   const calendarUrl = new URL(`/liga/${seo_url}/calendario`, SOURCE_HOME).href;
   const html = await fetchText(calendarUrl);
-  const args = extractFirstNewViewModelArgs(html); // [series, translations, teams, months] (varía, pero el 4to suele ser months)
+  const args = extractFirstNewViewModelArgs(html);
   const months = args[3] || [];
 
   const all = [];
@@ -252,7 +341,7 @@ async function fetchFullCalendarForLeague(seo_url) {
       page++;
     } while (page <= pageCount);
   }
-  const games = dedupeGames(all).sort(sortByDateStrAsc);
+  const games = dedupePreferRicher(all).sort(sortByDateStrAsc);
   return { games, months, calendarUrl };
 }
 
@@ -267,7 +356,7 @@ async function fetchFullResultsForLeague(seo_url) {
     page++;
   } while (page <= pageCount);
 
-  const games = dedupeGames(all).sort(sortByDateStrAsc);
+  const games = dedupePreferRicher(all).sort(sortByDateStrAsc);
   return { games, pageCount, resultsUrl };
 }
 
@@ -307,7 +396,7 @@ function parseInningLabel(label = '') {
 }
 
 function groupPlayByPlay(logs = []) {
-  const bucket = new Map(); // key `${num}-${half}`
+  const bucket = new Map();
   for (const blk of logs) {
     const meta = parseInningLabel(blk.inning);
     const key = `${meta.num}-${meta.half}`;
@@ -465,8 +554,7 @@ function normalizeGameDetails(rawGame, rawLogs, siblingGames, htmlForTables='') 
 async function fetchGameDetails(gameId) {
   const url = new URL(`/${gameId}`, SOURCE_HOME).href;
   const html = await fetchText(url);
-  // Detalle: new ViewModel(gameData, siblingGames, logs, translations)
-  const args = extractFirstNewViewModelArgs(html);
+  const args = extractFirstNewViewModelArgs(html); // [gameData, siblingGames, logs, translations]
   const gameData = args[0];
   const siblingGames = args[1] || [];
   const logs = args[2] || [];
@@ -480,15 +568,12 @@ function pickWhichDetailsToFetch(sourceGames) {
   if (DETAILS_FETCH === 'none') return [];
 
   const todayYMD = formatYMDInTZ(new Date(), TZ);
-
-  // Solo juegos con estados que suelen exponer detalle (PBP/linescore)
   const candidates = (sourceGames || []).filter(g => DETAILS_STATUS_SET.has(Number(g?.status)));
 
   if (DETAILS_FETCH === 'all') {
     return Array.from(new Set(candidates.map(g => g.id))).filter(Boolean);
   }
 
-  // recent: ±DETAILS_DAYS desde hoy
   const ids = [];
   for (const g of candidates) {
     const d = gameYMD(g);
@@ -538,9 +623,9 @@ async function main() {
   try {
     const homeHtml = await fetchText(SOURCE_HOME);
     const homeArgs = extractFirstNewViewModelArgs(homeHtml);
-    homeSeriesArg = homeArgs[0];                         // <- puede ser objeto o array [series]
-    out = normalizeHomePayload(homeSeriesArg);           // <- ahora soporta array
-    homeGames = collectHomeGamesUnion(homeSeriesArg);    // <- unión home (incluye LIVE aunque /resultados falle)
+    homeSeriesArg = homeArgs[0];
+    out = normalizeHomePayload(homeSeriesArg);
+    homeGames = collectHomeGamesUnion(homeSeriesArg); // trae LIVE con runs/hits
   } catch { /* ok */ }
 
   // Calendario
@@ -567,22 +652,25 @@ async function main() {
     } catch (e) { console.warn('Full results fetch failed:', e.message); }
   }
 
-  // Fusión (HOME union + calendario + resultados)
-  const allGames = dedupeGames([...homeGames, ...calendarGames, ...resultsGames]).sort(sortByDateStrAsc);
-  const todayYMD = formatYMDInTZ(new Date(), TZ);
+  // Fusión con preferencia por payload rico (LIVE/FINAL + stats)
+  const allGames = dedupePreferRicher([
+    ...calendarGames,   // base
+    ...resultsGames,    // finales suelen traer más datos
+    ...homeGames        // HOME trae LIVE con runs/hits: al fusionar rellena y puede ganar por score
+  ]).sort(sortByDateStrAsc);
 
+  const todayYMD = formatYMDInTZ(new Date(), TZ);
   out.games = {
     today: allGames.filter(g => gameYMD(g) === todayYMD),
     upcoming: allGames.filter(g => gameYMD(g) >  todayYMD),
     previous: allGames.filter(g => gameYMD(g) <  todayYMD),
   };
-
   out.by_date = indexByDate(allGames);
   out.calendar_days = Object.keys(out.by_date).sort();
 
-  // Detalles: preferimos SIEMPRE los id que vienen de /resultados; si no hay, usamos el total (que ya incluye HOME)
-  const detailSourceGames = resultsGames.length ? resultsGames : allGames;
-  const targetIds = pickWhichDetailsToFetch(detailSourceGames);
+  // Detalles: usar UNIÓN (results+home+calendar) para incluir LIVE de hoy
+  const unionForDetails = dedupePreferRicher([...resultsGames, ...homeGames, ...calendarGames]);
+  const targetIds = pickWhichDetailsToFetch(unionForDetails);
 
   const tasks = targetIds.map(id => async () => {
     try {
@@ -620,7 +708,7 @@ async function main() {
     const iso = nowISO().replace(/[:]/g, '').replace(/\..+/, 'Z');
     const snapPath = path.join(HISTORY_DIR, `${iso}.json`);
     fs.writeFileSync(snapPath, neu, 'utf8');
-    console.log(`Updated docs/latest.json and ${Object.keys(files).length} game details.`);
+    console.log(`Updated docs/latest.json (${out.games.today.length} today, ${out.games.previous.length} prev, ${out.games.upcoming.length} upc) and ${Object.keys(files).length} detail files.`);
   } else {
     fs.unlinkSync(tmpPath);
     console.log('No changes.');
