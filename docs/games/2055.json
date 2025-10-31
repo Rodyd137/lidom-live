@@ -1,25 +1,25 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2055",
-    "scraped_at": "2025-10-31T22:49:36.183Z",
+    "scraped_at": "2025-10-31T23:10:18.745Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2055,
     "season_id": 20,
-    "status": 1,
+    "status": 2,
     "date": "2025-10-31 19:00:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Eguy Rosario  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 4
     },
     "betting": {
       "moneyline": {
@@ -47,7 +47,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -57,7 +57,41 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5425,
+            "team_id": 7,
+            "name": "Ismael Munguia",
+            "abbreviation": "I. Munguia",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5351,
+            "team_id": 7,
+            "name": "Eguy Rosario",
+            "abbreviation": "E. Rosario",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5355,
+            "team_id": 7,
+            "name": "Josh Lester",
+            "abbreviation": "J. Lester",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       },
       "home": {
         "id": 5,
@@ -134,7 +168,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -222,8 +256,52 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "18701-1-1",
+            "text": "Player al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761952062
+          },
+          {
+            "reference_id": "18701-1-2",
+            "text": "Ismael Munguia Triple! Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761952128
+          },
+          {
+            "reference_id": "18701-1-3",
+            "text": "Eguy Rosario  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761952149
+          },
+          {
+            "reference_id": "18701-1-4",
+            "text": "Josh Lester al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761952158
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 4,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
