@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2055",
-    "scraped_at": "2025-10-31T23:28:25.089Z",
+    "scraped_at": "2025-10-31T23:40:13.281Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,15 +11,15 @@
     "date": "2025-10-31 19:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ismael Munguia Golpeado por Pelota ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 2,
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 5
     },
     "betting": {
       "moneyline": {
@@ -47,7 +47,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 0,
           "H2": 0
         },
@@ -290,7 +290,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 0
         },
         "home": {
@@ -476,6 +476,55 @@
             "ts": 1761953252
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18702-1-13",
+            "text": "Abraham Almonte  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761953551
+          },
+          {
+            "reference_id": "18702-1-14",
+            "text": "Euribiel Angeles Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761953592
+          },
+          {
+            "reference_id": "18702-1-15",
+            "text": "Ismael Munguia Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761953807
+          },
+          {
+            "reference_id": "18702-1-16",
+            "text": "Francisco Peña Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761953828
+          },
+          {
+            "reference_id": "18702-1-17",
+            "text": "Ismael Munguia Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761953834
+          },
+          {
+            "reference_id": "18702-1-18",
+            "text": "Eguy Rosario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761953835
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -492,6 +541,13 @@
         "label": "Baja 1ra",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 6,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -563,15 +619,15 @@
       {
         "id": 2056,
         "date": "2025-10-31 19:30:00",
-        "status": 3,
-        "roundText": "Alta 1ra",
+        "status": 2,
+        "roundText": "Baja 1ra",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         },
@@ -589,7 +645,7 @@
       {
         "id": 2057,
         "date": "2025-10-31 19:30:00",
-        "status": 3,
+        "status": 2,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 4,
@@ -597,7 +653,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
