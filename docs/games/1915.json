@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1915",
-    "scraped_at": "2025-11-01T21:59:50.654Z",
+    "scraped_at": "2025-11-01T22:25:54.248Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-01 16:00:00",
-    "roundText": "Baja 6ta",
-    "currentInningNum": 6,
-    "lastPlayByPlay": "Luis De Los Santos Out: Elevado al Jardinero Derecho ",
+    "roundText": "Baja 7ma",
+    "currentInningNum": 7,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 1,
-          "H": 5,
+          "R": 3,
+          "H": 8,
           "E": 0,
           "H2": 1
         },
@@ -180,7 +180,7 @@
           "H2": 6
         },
         "probables": {
-          "pitcher": "Phillips Valdez",
+          "pitcher": "Henry Sosa",
           "era": "0.00",
           "record": "0-0",
           "debut": false
@@ -323,7 +323,7 @@
         },
         {
           "num": 7,
-          "away": 0,
+          "away": 2,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 1,
-          "H": 5,
+          "R": 3,
+          "H": 8,
           "E": 0
         },
         "home": {
@@ -378,15 +378,15 @@
           },
           {
             "num": 7,
-            "R": 1
+            "R": 3
           },
           {
             "num": 8,
-            "R": 1
+            "R": 3
           },
           {
             "num": 9,
-            "R": 1
+            "R": 3
           }
         ],
         "home": [
@@ -871,10 +871,80 @@
           },
           {
             "reference_id": "17446-2-50",
-            "text": "Martin Maldonado al bate",
+            "text": "Martin Maldonado Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762034333
+            "ts": 1762034498
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "17447-1-51",
+            "text": "Felix Reyes Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762034701
+          },
+          {
+            "reference_id": "17447-1-52",
+            "text": "Yairo Munoz Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762034736
+          },
+          {
+            "reference_id": "17447-1-53",
+            "text": "Ramon Torres  Out: Línea al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762034828
+          },
+          {
+            "reference_id": "17447-1-54",
+            "text": "Ronaldo Hernández Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762034939
+          },
+          {
+            "reference_id": "17447-1-55",
+            "text": "Gilberto Celestino Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762035092
+          },
+          {
+            "reference_id": "17447-1-56",
+            "text": "Bryan de la Cruz Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762035362
+          },
+          {
+            "reference_id": "17447-1-57",
+            "text": "Jhonkensy Noel Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762035707
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "17447-2-58",
+            "text": "Cesar Prieto al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762035930
           }
         ]
       }
@@ -963,6 +1033,20 @@
         "label": "Baja 6ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 7,
+        "scoring_plays": 2
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1004,15 +1088,15 @@
       {
         "num": 6,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 7,
-        "part": 1,
-        "is_last": 0,
-        "awayTeamRuns": 0,
+        "part": 2,
+        "is_last": 1,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
@@ -1034,15 +1118,15 @@
       {
         "id": 1916,
         "date": "2025-11-01 18:00:00",
-        "status": 3,
-        "roundText": "Alta 1ra",
+        "status": 2,
+        "roundText": "Alta 2da",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         },
