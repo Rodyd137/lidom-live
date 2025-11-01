@@ -3,7 +3,7 @@ name: scrape-lidom
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "*/2 * * * *"
+    - cron: "*/2 * * * *"   # Ojo: GitHub Actions usa UTC, no el TZ de abajo.
 
 permissions:
   contents: write
@@ -15,14 +15,16 @@ concurrency:
 env:
   TZ: America/Santo_Domingo
   SOURCE_HOME: https://pelotainvernal.com/
-  # Control de detalle:
-  DETAILS_FETCH: recent   # recent | all | none
+  # Control de detalle para scraper.mjs
+  DETAILS_FETCH: recent         # recent | all | none
   DETAILS_DAYS: "14"
   DETAILS_CONCURRENCY: "4"
+  DETAILS_STATUSES: "2,4,5,6"   # LIVE, DELAYED, SUSPENDED, FINAL
 
 jobs:
-  run:
+  scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -43,7 +45,6 @@ jobs:
       - name: Validate JSON
         run: |
           jq . docs/latest.json > /dev/null
-          # valida alguno de los detalles si existen
           f=$(ls -1 docs/games/*.json 2>/dev/null | head -n1 || true)
           if [ -n "$f" ]; then jq . "$f" > /dev/null; fi
 
@@ -59,4 +60,57 @@ jobs:
             git push origin HEAD:main
           else
             echo "No changes to commit."
+          fi
+
+  live:
+    needs: scrape
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout (HEAD después del scrape)
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # (Opcional) Limitar a ventana horaria local de juegos
+      # - name: Skip fuera de ventana 17:00-23:59 AST
+      #   run: |
+      #     H=$(TZ=America/Santo_Domingo date +%H)
+      #     if [ "$H" -lt 17 ] || [ "$H" -gt 23 ]; then
+      #       echo "Fuera de ventana de juego -> skip live"; exit 78
+      #     fi
+
+      - name: Run live ticker si hay juegos live/delayed/suspended
+        run: |
+          if [ ! -f docs/latest.json ]; then
+            echo "No latest.json; skip live"; exit 0
+          fi
+          # ¿Hay juegos en estado 2/4/5 hoy?
+          if jq -e '
+            ((.games.today // []) | map(.status) | map(tonumber))
+            | any(. == 2 or . == 4 or . == 5)
+          ' docs/latest.json > /dev/null; then
+            echo "Hay juegos en vivo -> corriendo live.mjs"
+            node live.mjs
+          else
+            echo "Sin juegos en vivo ahora mismo."
+          fi
+
+      - name: Commit live updates if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
+          if ! git diff --quiet -- docs/; then
+            git add docs/
+            TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+            git commit -m "chore: live tick ${TS} [skip ci]"
+            git push origin HEAD:main
+          else
+            echo "No live changes to commit."
           fi
