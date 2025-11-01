@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1915",
-    "scraped_at": "2025-11-01T20:48:23.745Z",
+    "scraped_at": "2025-11-01T21:00:19.004Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,7 +9,7 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-01 16:00:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
     "lastPlayByPlay": "",
     "counts": {
@@ -18,7 +18,7 @@
       "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -180,8 +180,8 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Jonathan Bermudez ",
-          "era": "7.36",
+          "pitcher": "Jose Espada",
+          "era": "0.00",
           "record": "0-0",
           "debut": false
         },
@@ -590,6 +590,41 @@
             "ts": 1762029978
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "17443-1-19",
+            "text": "Gilberto Celestino  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762030178
+          },
+          {
+            "reference_id": "17443-1-20",
+            "text": "Bryan de la Cruz Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762030281
+          },
+          {
+            "reference_id": "17443-1-21",
+            "text": "Jhonkensy Noel Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762030507
+          },
+          {
+            "reference_id": "17443-1-22",
+            "text": "Mickey Gasper Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762030687
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -620,6 +655,13 @@
         "label": "Baja 2da",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 4,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -639,7 +681,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
