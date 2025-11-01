@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1915",
-    "scraped_at": "2025-11-01T19:54:57.298Z",
+    "scraped_at": "2025-11-01T20:16:58.311Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1915,
     "season_id": 20,
-    "status": 3,
+    "status": 2,
     "date": "2025-11-01 16:00:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Mickey Gasper Ponche (K) ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": false,
+      "on1B": true,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -429,8 +429,66 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "17441-1-1",
+            "text": "Gilberto Celestino Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762027683
+          },
+          {
+            "reference_id": "17441-1-1-254023",
+            "text": "Gilberto Celestino Robo de Base ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1762027770
+          },
+          {
+            "reference_id": "17441-1-2",
+            "text": "Bryan de la Cruz Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762027889
+          },
+          {
+            "reference_id": "17441-1-3",
+            "text": "Jhonkensy Noel Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762028019
+          },
+          {
+            "reference_id": "17441-1-4",
+            "text": "Mickey Gasper Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762028164
+          },
+          {
+            "reference_id": "17441-1-5",
+            "text": "Eloy Jimenez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762028169
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 6,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
