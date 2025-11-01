@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1916",
-    "scraped_at": "2025-11-01T22:40:53.201Z",
+    "scraped_at": "2025-11-01T22:52:39.970Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-01 18:00:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Leody Taveras Doble! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 1
+      "battingTeam": "homeTeam",
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -262,6 +262,28 @@
             "height": "",
             "image": null,
             "position": ""
+          },
+          {
+            "id": 5321,
+            "team_id": 3,
+            "name": "Webster Rivas",
+            "abbreviation": "W. Rivas",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5324,
+            "team_id": 3,
+            "name": "Angel Genao",
+            "abbreviation": "A. Genao",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
           }
         ]
       }
@@ -324,7 +346,7 @@
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         }
       },
@@ -547,6 +569,69 @@
             "ts": 1762036723
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "17452-1-17",
+            "text": "Emilio Bonifacio Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762036979
+          },
+          {
+            "reference_id": "17452-1-18",
+            "text": "Gustavo Nuñez  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762037049
+          },
+          {
+            "reference_id": "17452-1-19",
+            "text": "Mel Rojas Jr. Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762037118
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "17452-2-20",
+            "text": "Webster Rivas  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762037369
+          },
+          {
+            "reference_id": "17452-2-21",
+            "text": "Angel Genao  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762037440
+          },
+          {
+            "reference_id": "17452-2-22",
+            "text": "Leody Taveras Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762037533
+          },
+          {
+            "reference_id": "17452-2-23",
+            "text": "Ezequiel Duran al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762037542
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -577,6 +662,20 @@
         "label": "Baja 2da",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 4,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -596,7 +695,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0

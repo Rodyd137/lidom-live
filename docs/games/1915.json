@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1915",
-    "scraped_at": "2025-11-01T22:40:53.161Z",
+    "scraped_at": "2025-11-01T22:52:39.940Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-01 16:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Yairo Munoz Base por Bolas ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "strikes": 2,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 6
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on3B": true,
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -180,7 +180,7 @@
           "H2": 6
         },
         "probables": {
-          "pitcher": "Henry Sosa",
+          "pitcher": "",
           "era": "0.00",
           "record": "0-0",
           "debut": false
@@ -990,10 +990,38 @@
         "plays": [
           {
             "reference_id": "17448-1-63",
-            "text": "Mickey Gasper al bate",
+            "text": "Mickey Gasper Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762036842
+            "ts": 1762036942
+          },
+          {
+            "reference_id": "17448-1-64",
+            "text": "Eloy Jimenez   Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762037051
+          },
+          {
+            "reference_id": "17448-1-65",
+            "text": "Felix Reyes Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762037183
+          },
+          {
+            "reference_id": "17448-1-66",
+            "text": "Yairo Munoz Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762037301
+          },
+          {
+            "reference_id": "17448-1-67",
+            "text": "Ramon Torres  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762037305
           }
         ]
       }
@@ -1101,7 +1129,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 1,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -1175,7 +1203,7 @@
         "id": 1916,
         "date": "2025-11-01 18:00:00",
         "status": 2,
-        "roundText": "Alta 3ra",
+        "roundText": "Baja 3ra",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -1192,7 +1220,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }
