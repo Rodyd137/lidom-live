@@ -1,12 +1,11 @@
 // live.mjs
 // Node 20+. Realtime LIDOM from PelotaInvernal WS.
-// deps: npm i ws
+// deps opcional: npm i ws   (si no está, el script hace exit 0)
 
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
-import WebSocket from 'ws';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = path.join(__dirname, 'docs');
@@ -17,12 +16,12 @@ const LATEST_PATH = path.join(OUT_DIR, 'latest.json');
 const SOURCE_HOME = process.env.SOURCE_HOME || 'https://pelotainvernal.com/';
 const TZ = process.env.TZ || 'America/Santo_Domingo';
 
-// Control de ejecución en CI
+// Control en CI
 const MAX_RUN_MS  = Number(process.env.LIVE_MAX_MS   || 8 * 60_000);  // 8 min
-const MAX_IDLE_MS = Number(process.env.LIVE_IDLE_MS  || 90_000);      // 90 s sin mensajes => exit
+const MAX_IDLE_MS = Number(process.env.LIVE_IDLE_MS  || 90_000);      // 90 s sin mensajes
 const SUMMARY_THROTTLE_MS = Number(process.env.LIVE_SUMMARY_THROTTLE_MS || 1500);
 
-// Estados “en vivo” que nos interesan (igual al scraper)
+// Estados
 const STATUS = { NOT_STARTED:1, LIVE:2, PREVIEW:3, DELAYED:4, SUSPENDED:5, FINAL:6, POSTPONED:7 };
 const LIVELIKE = new Set([STATUS.LIVE, STATUS.DELAYED, STATUS.SUSPENDED]);
 
@@ -33,7 +32,7 @@ safeMkdir(OUT_DIR); safeMkdir(LIVE_DIR);
 
 function sha1(s){ return crypto.createHash('sha1').update(s).digest('hex'); }
 
-/** Carga IDs permitidos desde docs/latest.json (solo juegos de HOY con estados live/delayed/suspended) */
+/** Carga IDs de hoy con estados live/delayed/suspended desde latest.json */
 function loadAllowlistFromLatest() {
   try {
     const raw = fs.readFileSync(LATEST_PATH, 'utf8');
@@ -45,11 +44,11 @@ function loadAllowlistFromLatest() {
       .filter(Boolean);
     return new Set(ids);
   } catch {
-    return null; // si no existe, no filtramos (aceptamos todo)
+    return null; // no latest.json => aceptar todo
   }
 }
 
-// Base runners mask a 1B/2B/3B
+// Bases -> flags
 function decodeBases(baseCode) {
   const c = Number(baseCode) || 0;
   const on1B = [2,5,6,8].includes(c);
@@ -59,7 +58,7 @@ function decodeBases(baseCode) {
   return { on1B, on2B, on3B, runners, mask: c };
 }
 
-// Run Expectancy aproximada (proxy MLB)
+// Run Expectancy (proxy)
 const RE = {
   0: { 0:0.50, 2:0.86, 3:1.10, 4:1.30, 5:1.60, 6:1.65, 7:1.95, 8:2.25 },
   1: { 0:0.27, 2:0.50, 3:0.70, 4:0.95, 5:1.05, 6:1.15, 7:1.40, 8:1.60 },
@@ -132,7 +131,7 @@ function writeSummary(force=false) {
 
   const content = JSON.stringify(payload, null, 2) + '\n';
   const h = sha1(content);
-  if (!force && h === lastSummaryHash) return; // sin cambios reales
+  if (!force && h === lastSummaryHash) return;
 
   writeFileAtomic(LIVE_SUMMARY, content);
   lastSummaryHash = h;
@@ -180,9 +179,10 @@ function onGameUpdate(g) {
 }
 
 /* ===== WS client con backoff e idle-exit ===== */
+let WebSocket; // <- dinámico
 let ws = null;
 let pingTimer = null;
-let hbTimer = null; // replica del heartbeat que hace la web (send timestamp)
+let hbTimer = null; // heartbeat de la web (send timestamp)
 let idleTimer = null;
 let startTime = Date.now();
 let lastMsgTs = Date.now();
@@ -224,7 +224,7 @@ function startWS() {
         try { ws.ping(); } catch {}
       }
     }, 10_000);
-    // Heartbeat como la web (envía timestamp)
+    // Heartbeat (envía timestamp)
     hbTimer = setInterval(() => {
       if (ws && ws.readyState === WebSocket.OPEN) {
         try { ws.send(Date.now().toString()); } catch {}
@@ -241,7 +241,6 @@ function startWS() {
       const msg = JSON.parse(buf.toString('utf8'));
       if (msg?.g) onGameUpdate(msg.g);
       if (msg?.c === 'reload') {
-        // refrescar allowlist (por si cambió latest con el scrape)
         allowlist = loadAllowlistFromLatest() || allowlist;
       }
     } catch { /* ignore parse */ }
@@ -256,15 +255,25 @@ function startWS() {
   });
 
   ws.on('error', () => {
-    // silencio; el 'close' hará el backoff
+    // silencio; el 'close' hace backoff
   });
 }
 
 /* ===== Bootstrap ===== */
-allowlist = loadAllowlistFromLatest(); // primer allowlist
-startWS();
-console.log(`[live] escribiendo ${LIVE_SUMMARY} + docs/live/*.ndjson (allowlist: ${allowlist ? allowlist.size : 'all'})`);
+(async () => {
+  try {
+    const m = await import('ws');
+    WebSocket = m.default || m.WebSocket || m;
+  } catch {
+    console.log('[live] paquete "ws" no instalado; skip sin error.');
+    process.exit(0);
+  }
 
-// Salida limpia en señales
-process.on('SIGINT',  () => shutdown(0, 'SIGINT'));
-process.on('SIGTERM', () => shutdown(0, 'SIGTERM'));
+  allowlist = loadAllowlistFromLatest(); // allowlist inicial
+  startWS();
+  console.log(`[live] escribiendo ${LIVE_SUMMARY} + docs/live/*.ndjson (allowlist: ${allowlist ? allowlist.size : 'all'})`);
+
+  // Salida limpia
+  process.on('SIGINT',  () => shutdown(0, 'SIGINT'));
+  process.on('SIGTERM', () => shutdown(0, 'SIGTERM'));
+})();
