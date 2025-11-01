@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2055",
-    "scraped_at": "2025-10-31T23:52:00.917Z",
+    "scraped_at": "2025-11-01T00:13:32.818Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,8 +9,8 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-10-31 19:00:00",
-    "roundText": "Alta 3ra",
-    "currentInningNum": 3,
+    "roundText": "Alta 4ta",
+    "currentInningNum": 4,
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
@@ -20,6 +20,13 @@
     "base_state": {
       "battingTeam": "awayTeam",
       "base": 1
+    },
+    "base_runners": {
+      "on1B": false,
+      "on2B": false,
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -46,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 0,
-          "H": 2,
+          "R": 1,
+          "H": 3,
           "E": 0,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
           "pitcher": "Oscar de la Cruz",
@@ -168,7 +175,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 1,
-          "H": 2,
+          "H": 3,
           "E": 0,
           "H2": 1
         },
@@ -266,6 +273,17 @@
             "height": "",
             "image": null,
             "position": ""
+          },
+          {
+            "id": 5251,
+            "team_id": 5,
+            "name": "Julio Carreras",
+            "abbreviation": "J. Carreras",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
           }
         ]
       }
@@ -285,7 +303,7 @@
         },
         {
           "num": 3,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -322,13 +340,13 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 2,
+          "R": 1,
+          "H": 3,
           "E": 0
         },
         "home": {
           "R": 1,
-          "H": 2,
+          "H": 3,
           "E": 0
         }
       },
@@ -344,31 +362,31 @@
           },
           {
             "num": 3,
-            "R": 0
+            "R": 1
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ],
         "home": [
@@ -594,10 +612,80 @@
         "plays": [
           {
             "reference_id": "18703-1-22",
-            "text": "Eguy Rosario al bate",
+            "text": "Eguy Rosario  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1761954645
+            "ts": 1761954798
+          },
+          {
+            "reference_id": "18703-1-23",
+            "text": "Josh Lester Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761954927
+          },
+          {
+            "reference_id": "18703-1-24",
+            "text": "Miguel Sano Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761955081
+          },
+          {
+            "reference_id": "18703-1-25",
+            "text": "Rodolfo Castro Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1761955172
+          },
+          {
+            "reference_id": "18703-1-26",
+            "text": "Raimel Tapia Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761955346
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "18703-2-27",
+            "text": "Julio Carreras Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761955488
+          },
+          {
+            "reference_id": "18703-2-28",
+            "text": "Leury García Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761955630
+          },
+          {
+            "reference_id": "18703-2-29",
+            "text": "Johan Rojas  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761955691
+          },
+          {
+            "reference_id": "18703-2-30",
+            "text": "Kelvin Gutiérrez Out: Elevado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761955827
+          },
+          {
+            "reference_id": "18703-2-31",
+            "text": "Johan Rojas  Out Robando Base! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761955939
           }
         ]
       }
@@ -635,7 +723,14 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 1,
+        "total_plays": 5,
+        "scoring_plays": 1
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -656,15 +751,15 @@
       },
       {
         "num": 3,
-        "part": 1,
-        "is_last": 1,
-        "awayTeamRuns": 0,
+        "part": 2,
+        "is_last": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 4,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -709,7 +804,7 @@
         "id": 2056,
         "date": "2025-10-31 19:30:00",
         "status": 2,
-        "roundText": "Alta 2da",
+        "roundText": "Baja 2da",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -727,7 +822,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 0,
           "hits": 0,
-          "errors": 0,
+          "errors": 1,
           "permalink": "/equipo/tigres-del-licey"
         }
       },
@@ -735,7 +830,7 @@
         "id": 2057,
         "date": "2025-10-31 19:30:00",
         "status": 2,
-        "roundText": "Baja 1ra",
+        "roundText": "Baja 2da",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -751,8 +846,8 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 0,
-          "hits": 1,
+          "runs": 2,
+          "hits": 2,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
         }

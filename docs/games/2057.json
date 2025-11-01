@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2057",
-    "scraped_at": "2025-10-31T23:52:00.967Z",
+    "scraped_at": "2025-11-01T00:13:32.874Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,17 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-10-31 19:30:00",
-    "roundText": "Baja 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "Gilberto Celestino Sencillo ",
+    "roundText": "Baja 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
+    },
+    "base_runners": {
+      "on1B": false,
+      "on2B": false,
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -167,10 +174,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 0,
-          "H": 1,
+          "R": 2,
+          "H": 2,
           "E": 1,
-          "H2": 0
+          "H2": 2
         },
         "probables": {
           "pitcher": "Aaron Brooks",
@@ -287,7 +294,7 @@
         {
           "num": 1,
           "away": 1,
-          "home": 0
+          "home": 2
         },
         {
           "num": 2,
@@ -338,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 0,
-          "H": 1,
+          "R": 2,
+          "H": 2,
           "E": 1
         }
       },
@@ -385,39 +392,39 @@
         "home": [
           {
             "num": 1,
-            "R": 0
+            "R": 2
           },
           {
             "num": 2,
-            "R": 0
+            "R": 2
           },
           {
             "num": 3,
-            "R": 0
+            "R": 2
           },
           {
             "num": 4,
-            "R": 0
+            "R": 2
           },
           {
             "num": 5,
-            "R": 0
+            "R": 2
           },
           {
             "num": 6,
-            "R": 0
+            "R": 2
           },
           {
             "num": 7,
-            "R": 0
+            "R": 2
           },
           {
             "num": 8,
-            "R": 0
+            "R": 2
           },
           {
             "num": 9,
-            "R": 0
+            "R": 2
           }
         ]
       }
@@ -479,10 +486,66 @@
           },
           {
             "reference_id": "18719-2-7",
-            "text": "Bryan Torres al bate",
+            "text": "Bryan Torres Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1761954582
+            "ts": 1761954761
+          },
+          {
+            "reference_id": "18719-2-8",
+            "text": "Bryan de la Cruz Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761954938
+          },
+          {
+            "reference_id": "18719-2-9",
+            "text": "Jhonkensy Noel Cuadrangular! 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1761955036
+          },
+          {
+            "reference_id": "18719-2-10",
+            "text": "Mickey Gasper Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761955099
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18720-1-11",
+            "text": "Jonathan Arauz  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761955318
+          },
+          {
+            "reference_id": "18720-1-12",
+            "text": "Alexander Canario Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761955505
+          },
+          {
+            "reference_id": "18720-1-13",
+            "text": "Jimmy Paredes Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761955537
+          },
+          {
+            "reference_id": "18720-1-14",
+            "text": "Martin Maldonado  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761955782
           }
         ]
       }
@@ -499,7 +562,14 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 2,
+        "total_plays": 5,
+        "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -507,14 +577,14 @@
       {
         "num": 1,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 2
       },
       {
         "num": 2,
-        "part": 1,
-        "is_last": 0,
+        "part": 2,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -573,14 +643,14 @@
         "id": 2055,
         "date": "2025-10-31 19:00:00",
         "status": 2,
-        "roundText": "Alta 3ra",
+        "roundText": "Alta 4ta",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 0,
-          "hits": 2,
+          "runs": 1,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         },
@@ -590,7 +660,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 1,
-          "hits": 2,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
@@ -599,7 +669,7 @@
         "id": 2056,
         "date": "2025-10-31 19:30:00",
         "status": 2,
-        "roundText": "Alta 2da",
+        "roundText": "Baja 2da",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -617,7 +687,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 0,
           "hits": 0,
-          "errors": 0,
+          "errors": 1,
           "permalink": "/equipo/tigres-del-licey"
         }
       }
