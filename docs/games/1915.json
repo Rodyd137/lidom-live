@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1915",
-    "scraped_at": "2025-11-01T23:29:45.440Z",
+    "scraped_at": "2025-11-01T23:42:07.539Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1915,
     "season_id": 20,
-    "status": 2,
+    "status": 6,
     "date": "2025-11-01 16:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Ismael Alcantara Sencillo ",
+    "lastPlayByPlay": "Luis Valdez al bate",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -40,9 +40,9 @@
       "over_under": null
     },
     "pitchers": {
-      "winning": null,
-      "losing": null,
-      "save": null
+      "winning": "Phillips Valdez",
+      "losing": "Richelson Peña",
+      "save": ""
     },
     "teams": {
       "away": {
@@ -88,10 +88,10 @@
             "position": ""
           },
           {
-            "id": 5405,
+            "id": 5407,
             "team_id": 6,
-            "name": "Jhonkensy Noel",
-            "abbreviation": "J. Noel",
+            "name": "Luis Valdez",
+            "abbreviation": "L. Valdez",
             "number": null,
             "dob": null,
             "height": "",
@@ -1116,10 +1116,17 @@
           },
           {
             "reference_id": "17449-1-79",
-            "text": "Bryan de la Cruz al bate",
+            "text": "Bryan de la Cruz  Out: Rodado al Primera Base - Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1762039726
+            "ts": 1762039795
+          },
+          {
+            "reference_id": "17449-1-80",
+            "text": "Luis Valdez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762039827
           }
         ]
       }
@@ -1241,7 +1248,7 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -1315,14 +1322,14 @@
         "id": 1916,
         "date": "2025-11-01 18:00:00",
         "status": 2,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 0,
-          "hits": 4,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         },
@@ -1333,7 +1340,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 2,
           "hits": 4,
-          "errors": 0,
+          "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
         }
       },
