@@ -105,7 +105,7 @@ function daysBetweenYMD(a, b) {
 
 function stripTags(s='') { return s.replace(/<[^>]*>/g, '').replace(/\s+/g,' ').trim(); }
 
-/* === NEW: Decodificar bases a estructura útil para UI/analytics === */
+/* === Decodificar bases a estructura útil para UI/analytics === */
 function decodeBases(baseCode) {
   const c = Number(baseCode) || 0;
   const on1B = [2,5,6,8].includes(c);
@@ -113,6 +113,88 @@ function decodeBases(baseCode) {
   const on3B = [4,6,7,8].includes(c);
   const runners = (on1B?1:0) + (on2B?1:0) + (on3B?1:0);
   return { on1B, on2B, on3B, runners, mask: c };
+}
+
+/* === LIVE helpers (amenaza + writeIfChanged + builder) === */
+
+// Run Expectancy (aprox MLB como proxy LIDOM) para calcular "amenaza"
+const RE = {
+  0: { 0:0.50, 2:0.86, 3:1.10, 4:1.30, 5:1.60, 6:1.65, 7:1.95, 8:2.25 },
+  1: { 0:0.27, 2:0.50, 3:0.70, 4:0.95, 5:1.05, 6:1.15, 7:1.40, 8:1.60 },
+  2: { 0:0.10, 2:0.25, 3:0.35, 4:0.40, 5:0.50, 6:0.55, 7:0.65, 8:0.80 },
+};
+function runExpectancy(outs, baseMask) {
+  const o = Math.min(Math.max(Number(outs)||0, 0), 2);
+  const row = RE[o] || RE[0];
+  return row[baseMask] ?? row[0];
+}
+function threatScore(outs, baseMask) {
+  const re = runExpectancy(outs, baseMask);
+  return Math.round(Math.max(0, Math.min(100, (re / 2.25) * 100)));
+}
+
+// Escribir archivo solo si cambió (evita commits vacíos)
+function writeIfChanged(targetPath, contents) {
+  const tmp = targetPath + '.tmp';
+  fs.writeFileSync(tmp, contents, 'utf8');
+  const old = fs.existsSync(targetPath) ? fs.readFileSync(targetPath, 'utf8') : null;
+  const neu = fs.readFileSync(tmp, 'utf8');
+  if (old !== neu) fs.renameSync(tmp, targetPath);
+  else fs.unlinkSync(tmp);
+}
+
+// Construye docs/live.json a partir de out + today_details
+function buildLiveSummary(out) {
+  const today = Array.isArray(out?.games?.today) ? out.games.today : [];
+  const details = out?.today_details || {};
+  const liveStatuses = new Set([2,4,5]); // LIVE, DELAYED, SUSPENDED
+
+  const arr = [];
+  for (const g of today) {
+    const det = details[g?.id] || { ...g }; // si no hubo detalle, usar metadatos del home
+    const status = Number(det?.status ?? g?.status ?? 0);
+    if (!liveStatuses.has(status)) continue;
+
+    const baseMask = Number(det?.base_state?.base ?? det?.base ?? g?.base ?? 0) || 0;
+    const balls   = det?.counts?.balls ?? det?.balls ?? null;
+    const strikes = det?.counts?.strikes ?? det?.strikes ?? null;
+    const outs    = det?.counts?.outs ?? det?.outs ?? null;
+
+    arr.push({
+      id: det?.id ?? g?.id,
+      status,
+      roundText: det?.roundText ?? g?.roundText ?? null,
+      currentInningNum: det?.currentInningNum ?? null,
+      atBat: det?.atBat ?? null,
+      lastPlayByPlay: det?.lastPlayByPlay ?? null,
+      counts: { balls, strikes, outs },
+      base: decodeBases(baseMask),
+      battingTeam: det?.base_state?.battingTeam ?? det?.battingTeam ?? null,
+      score: {
+        away: {
+          name: det?.teams?.away?.name ?? g?.awayTeam?.name ?? null,
+          abbr: det?.teams?.away?.abbr ?? g?.awayTeam?.abbreviation ?? null,
+          R: det?.teams?.away?.totals?.R ?? g?.awayTeam?.runs ?? null,
+          H: det?.teams?.away?.totals?.H ?? g?.awayTeam?.hits ?? null,
+          E: det?.teams?.away?.totals?.E ?? g?.awayTeam?.errors ?? null,
+        },
+        home: {
+          name: det?.teams?.home?.name ?? g?.homeTeam?.name ?? null,
+          abbr: det?.teams?.home?.abbr ?? g?.homeTeam?.abbreviation ?? null,
+          R: det?.teams?.home?.totals?.R ?? g?.homeTeam?.runs ?? null,
+          H: det?.teams?.home?.totals?.H ?? g?.homeTeam?.hits ?? null,
+          E: det?.teams?.home?.totals?.E ?? g?.homeTeam?.errors ?? null,
+        },
+      },
+      threat: threatScore(outs ?? 0, baseMask),
+      updated_at: nowISO(),
+    });
+  }
+
+  return {
+    source: { homepage: SOURCE_HOME, scraped_at: nowISO(), tz: TZ },
+    live: arr
+  };
 }
 
 /* ============ Parser de new ViewModel(...) robusto ============ */
@@ -430,7 +512,7 @@ function normalizeGameDetails(rawGame, rawLogs, siblingGames, htmlForTables='') 
   const plays_summary = summarizeInningPlays(plays_by_inning);
   const stats_tables = extractStatsTablesFromHTML(htmlForTables);
 
-  /* === NEW: bases decodificadas para consumo inmediato en UI === */
+  /* === bases decodificadas para consumo inmediato en UI === */
   const base_runners = decodeBases(rawGame.base);
 
   return {
@@ -443,7 +525,7 @@ function normalizeGameDetails(rawGame, rawLogs, siblingGames, htmlForTables='') 
     lastPlayByPlay: rawGame.lastPlayByPlay ?? null,
     counts: { balls: rawGame.balls ?? null, strikes: rawGame.strikes ?? null, outs: rawGame.outs ?? null },
     base_state: { battingTeam: rawGame.battingTeam ?? null, base: rawGame.base ?? null },
-    base_runners, // <<<< --- agregado
+    base_runners,
     betting: {
       moneyline: { away: rawGame.moneyline_g ?? null, home: rawGame.moneyline_h ?? null },
       handicap: { away: rawGame.handicap_g ?? null, home: rawGame.handicap_h ?? null },
@@ -651,7 +733,16 @@ async function main() {
   // *** Embebemos detalles de los juegos de HOY (si existieron) ***
   out.today_details = today_details;
 
-  // Persistencia
+  // ========= LIVE SUMMARY (solo si hay juegos live/delayed/suspended) =========
+  const liveSummary = buildLiveSummary(out);
+  const LIVE_PATH = path.join(OUT_DIR, 'live.json');
+  if (Array.isArray(liveSummary.live) && liveSummary.live.length) {
+    writeIfChanged(LIVE_PATH, JSON.stringify(liveSummary, null, 2) + '\n');
+  } else if (fs.existsSync(LIVE_PATH)) {
+    fs.unlinkSync(LIVE_PATH); // elimina si ya no hay juegos en vivo
+  }
+
+  // Persistencia (latest + snapshot si cambia)
   const tmpPath = path.join(OUT_DIR, 'latest.tmp.json');
   fs.writeFileSync(tmpPath, JSON.stringify(out, null, 2) + '\n', 'utf8');
 
@@ -671,4 +762,3 @@ async function main() {
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
-
