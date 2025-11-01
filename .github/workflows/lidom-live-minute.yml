@@ -3,14 +3,15 @@ name: lidom-live-minute
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "*/5 * * * *"   # GitHub ejecuta como mínimo cada ~5 min (UTC)
+    - cron: "*/5 * * * *"   # GitHub despierta cada ~5 min (UTC). Si hay juegos live, entra en loop 1/min.
 
 permissions:
   contents: write
 
+# No canceles una corrida por otra; así el loop no se corta al llegar el próximo schedule.
 concurrency:
   group: lidom-live-minute
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 env:
   TZ: America/Santo_Domingo
@@ -19,11 +20,13 @@ env:
   DETAILS_DAYS: "14"
   DETAILS_CONCURRENCY: "4"
   DETAILS_STATUSES: "2,4,5,6"   # LIVE, DELAYED, SUSPENDED, FINAL
+  LIVE_SLEEP_SECONDS: "60"      # intervalo entre ticks
+  LIVE_MAX_MINUTES: "240"       # tope de seguridad (4h)
 
 jobs:
   live_tick_loop:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 300        # margen para cubrir el loop largo (hasta 4–5h)
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -43,38 +46,58 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Minute loop (5 ticks de 60s)
+      # Loop de 1 minuto mientras haya juegos en vivo.
+      - name: While-live minute loop
         shell: bash
         run: |
           set -euo pipefail
-          ticks=5
-          for i in $(seq 1 $ticks); do
-            echo "== Tick $i/$ticks =="
+          start_ts=$(date +%s)
+          max_secs=$(( ${LIVE_MAX_MINUTES:-240} * 60 ))
+
+          # Primer tick para generar base
+          node scraper.mjs || true
+
+          # Si no hay juegos live ahora mismo -> salida temprana. El próximo schedule volverá a chequear.
+          if [ -f docs/live.json ] && jq -e '.live | length == 0' docs/live.json >/dev/null 2>&1; then
+            echo "No hay juegos en vivo ahora mismo. Salida temprana."
+            exit 0
+          fi
+
+          tick=0
+          while :; do
+            tick=$((tick+1))
+            echo "== Tick $tick = $(date -u +"%Y-%m-%dT%H:%M:%SZ") =="
+
             node scraper.mjs || true
 
-            # Valida archivos si existen
-            if [ -f docs/live.json ]; then jq . docs/live.json > /dev/null || true; fi
-            if [ -f docs/latest.json ]; then jq . docs/latest.json > /dev/null || true; fi
+            # Validaciones si existen
+            if [ -f docs/live.json ]; then jq . docs/live.json >/dev/null 2>&1 || true; fi
+            if [ -f docs/latest.json ]; then jq . docs/latest.json >/dev/null 2>&1 || true; fi
 
-            # Commit/push solo si hubo cambios en docs/
-            if ! git diff --quiet -- docs/; then
-              git add docs/
+            # Commit/push solo si cambió live.json o algún detalle en docs/games/
+            if ! git diff --quiet -- docs/live.json docs/games/ 2>/dev/null; then
+              git add docs/live.json 2>/dev/null || true
+              git add docs/games 2>/dev/null || true
               TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-              git commit -m "chore: live minute tick ${TS} [skip ci]"
+              git commit -m "chore: live minute tick ${TS} [skip ci]" || true
               git pull --rebase origin main || true
-              git push origin HEAD:main
+              git push origin HEAD:main || true
             else
-              echo "No changes to commit (tick $i)."
+              echo "Sin cambios (live/games)."
             fi
 
-            # Si no hay juegos live, salimos antes de tiempo
-            if [ -f docs/live.json ] && jq -e '.live | length == 0' docs/live.json > /dev/null 2>&1; then
-              echo "No hay juegos en vivo; fin temprano."
+            # Si ya no hay juegos live -> terminamos el loop
+            if [ -f docs/live.json ] && jq -e '.live | length == 0' docs/live.json >/dev/null 2>&1; then
+              echo "Se acabaron los juegos en vivo -> fin del loop."
               break
             fi
 
-            # Dormimos 60s a menos que sea el último tick
-            if [ "$i" -lt "$ticks" ]; then
-              sleep 60
+            # Tope de seguridad
+            now=$(date +%s)
+            if [ $((now - start_ts)) -ge $max_secs ]; then
+              echo "Max runtime alcanzado (${LIVE_MAX_MINUTES} min) -> fin."
+              break
             fi
+
+            sleep ${LIVE_SLEEP_SECONDS:-60}
           done
