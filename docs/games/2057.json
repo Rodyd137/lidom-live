@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2057",
-    "scraped_at": "2025-11-01T02:08:01.580Z",
+    "scraped_at": "2025-11-01T02:09:05.221Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-10-31 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Yairo Munoz Out: Elevado al Jardinero Derecho ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -919,6 +919,27 @@
             "ts": 1761962694
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "18725-2-58",
+            "text": "Yairo Munoz Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761962915
+          },
+          {
+            "reference_id": "18725-2-59",
+            "text": "Manuel Peña al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761962918
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1011,6 +1032,13 @@
         "half": "top",
         "label": "Alta 7ma",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1110,7 +1138,7 @@
         "id": 2056,
         "date": "2025-10-31 19:30:00",
         "status": 2,
-        "roundText": "Baja 7ma",
+        "roundText": "Alta 8va",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
