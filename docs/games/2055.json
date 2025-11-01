@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2055",
-    "scraped_at": "2025-11-01T00:27:06.989Z",
+    "scraped_at": "2025-11-01T00:56:16.586Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-10-31 19:00:00",
-    "roundText": "Alta 4ta",
-    "currentInningNum": 4,
-    "lastPlayByPlay": "Abraham Almonte Sencillo ",
+    "roundText": "Baja 5ta",
+    "currentInningNum": 5,
+    "lastPlayByPlay": "Leury García Ponche (K) ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 2
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -180,7 +180,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Jake Faria ",
+          "pitcher": "Yaqui Rivera ",
           "era": "",
           "record": "",
           "debut": false
@@ -717,10 +717,122 @@
           },
           {
             "reference_id": "18704-1-36",
-            "text": "Euribiel Angeles al bate",
+            "text": "Euribiel Angeles  Out: Rodado al Primera Base - Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1761956620
+            "ts": 1761956920
+          },
+          {
+            "reference_id": "18704-1-37",
+            "text": "Euribiel Angeles Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761957041
+          },
+          {
+            "reference_id": "18704-1-38",
+            "text": "Francisco Peña Out: Elevado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761957076
+          },
+          {
+            "reference_id": "18704-1-39",
+            "text": "Ismael Munguia Out: Línea al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761957122
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "18704-2-40",
+            "text": "Nomar Mazara Out: Elevado al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761957340
+          },
+          {
+            "reference_id": "18704-2-41",
+            "text": "Carlos Jorge Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761957451
+          },
+          {
+            "reference_id": "18704-2-42",
+            "text": "Cooper Johnson Out: Elevado al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761957495
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "18705-1-43",
+            "text": "Eguy Rosario Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761957707
+          },
+          {
+            "reference_id": "18705-1-44",
+            "text": "Josh Lester  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761957918
+          },
+          {
+            "reference_id": "18705-1-45",
+            "text": "Miguel Sano Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761957932
+          },
+          {
+            "reference_id": "18705-1-46",
+            "text": "Rodolfo Castro Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761958060
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "18705-2-47",
+            "text": "Julio Carreras  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761958244
+          },
+          {
+            "reference_id": "18705-2-48",
+            "text": "Leury García Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761958443
+          },
+          {
+            "reference_id": "18705-2-49",
+            "text": "Johan Rojas  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761958447
           }
         ]
       }
@@ -772,7 +884,28 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
+        "total_plays": 7,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -800,15 +933,15 @@
       },
       {
         "num": 4,
-        "part": 1,
-        "is_last": 1,
+        "part": 2,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 5,
-        "part": 1,
-        "is_last": 0,
+        "part": 2,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -846,14 +979,14 @@
         "id": 2056,
         "date": "2025-10-31 19:30:00",
         "status": 2,
-        "roundText": "Baja 3ra",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 0,
-          "hits": 1,
+          "runs": 2,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         },
@@ -863,7 +996,7 @@
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 1,
           "permalink": "/equipo/tigres-del-licey"
         }
@@ -872,14 +1005,14 @@
         "id": 2057,
         "date": "2025-10-31 19:30:00",
         "status": 2,
-        "roundText": "Alta 3ra",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 1,
-          "hits": 2,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },

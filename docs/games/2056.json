@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2056",
-    "scraped_at": "2025-11-01T00:27:07.001Z",
+    "scraped_at": "2025-11-01T00:56:16.625Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-10-31 19:30:00",
-    "roundText": "Baja 3ra",
-    "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "roundText": "Baja 4ta",
+    "currentInningNum": 4,
+    "lastPlayByPlay": "Sergio Alcantara Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": false,
+      "on1B": true,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -53,13 +53,13 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 0,
-          "H": 1,
+          "R": 2,
+          "H": 3,
           "E": 0,
-          "H2": 0
+          "H2": 2
         },
         "probables": {
-          "pitcher": "Triston Mckenzie",
+          "pitcher": "Jhordany Mezquita",
           "era": "",
           "record": "",
           "debut": false
@@ -175,7 +175,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 1,
           "H2": 0
         },
@@ -308,7 +308,7 @@
         },
         {
           "num": 4,
-          "away": 0,
+          "away": 2,
           "home": 0
         },
         {
@@ -340,13 +340,13 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 1,
+          "R": 2,
+          "H": 3,
           "E": 0
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 1
         }
       },
@@ -366,27 +366,27 @@
           },
           {
             "num": 4,
-            "R": 0
+            "R": 2
           },
           {
             "num": 5,
-            "R": 0
+            "R": 2
           },
           {
             "num": 6,
-            "R": 0
+            "R": 2
           },
           {
             "num": 7,
-            "R": 0
+            "R": 2
           },
           {
             "num": 8,
-            "R": 0
+            "R": 2
           },
           {
             "num": 9,
-            "R": 0
+            "R": 2
           }
         ],
         "home": [
@@ -612,10 +612,122 @@
         "plays": [
           {
             "reference_id": "18712-2-21",
-            "text": "Emilio Bonifacio al bate",
+            "text": "Emilio Bonifacio Out: Línea al Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1761956780
+            "ts": 1761956842
+          },
+          {
+            "reference_id": "18712-2-22",
+            "text": "Gustavo Nuñez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761956966
+          },
+          {
+            "reference_id": "18712-2-23",
+            "text": "Mel Rojas Jr. Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761957078
+          },
+          {
+            "reference_id": "18712-2-24",
+            "text": "Griffin Conine Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761957159
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "18713-1-25",
+            "text": "Leody Taveras Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761957387
+          },
+          {
+            "reference_id": "18713-1-26",
+            "text": "JC Escarra Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761957489
+          },
+          {
+            "reference_id": "18713-1-27",
+            "text": "Aderlin Rodríguez Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761957605
+          },
+          {
+            "reference_id": "18713-1-28",
+            "text": "Carter Jensen Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1761957693
+          },
+          {
+            "reference_id": "18713-1-29",
+            "text": "Adael Amador  Out: Rodado al Segunda Base - Primera Base",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1761957837
+          },
+          {
+            "reference_id": "18713-1-30",
+            "text": "Juan Lagares  Out: Rodado al Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761957868
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "18713-2-31",
+            "text": "Jordan Lawlar Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761958083
+          },
+          {
+            "reference_id": "18713-2-32",
+            "text": "Yunior Severino Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761958131
+          },
+          {
+            "reference_id": "18713-2-32-253784",
+            "text": "Jordan Lawlar Robo de Base ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1761958283
+          },
+          {
+            "reference_id": "18713-2-33",
+            "text": "Sergio Alcantara Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761958327
+          },
+          {
+            "reference_id": "18713-2-34",
+            "text": "Liover Peguero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761958518
           }
         ]
       }
@@ -660,7 +772,21 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 6,
+        "scoring_plays": 2
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -682,15 +808,15 @@
       {
         "num": 3,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 4,
-        "part": 1,
-        "is_last": 0,
-        "awayTeamRuns": 0,
+        "part": 2,
+        "is_last": 1,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
@@ -734,7 +860,7 @@
         "id": 2055,
         "date": "2025-10-31 19:00:00",
         "status": 2,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 5ta",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -760,14 +886,14 @@
         "id": 2057,
         "date": "2025-10-31 19:30:00",
         "status": 2,
-        "roundText": "Alta 3ra",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 1,
-          "hits": 2,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
