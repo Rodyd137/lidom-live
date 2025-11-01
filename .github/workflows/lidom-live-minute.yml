@@ -25,7 +25,7 @@ env:
 jobs:
   live_minutely:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 2
     steps:
       - name: Checkout
         uses: actions/checkout@v4
