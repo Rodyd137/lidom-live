@@ -3,7 +3,7 @@ name: scrape-lidom
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "*/2 * * * *"   # Ojo: GitHub Actions usa UTC, no el TZ de abajo.
+    - cron: "*/2 * * * *"   # GitHub Actions corre en UTC
 
 permissions:
   contents: write
@@ -45,6 +45,7 @@ jobs:
       - name: Validate JSON
         run: |
           jq . docs/latest.json > /dev/null
+          jq . docs/live.json > /dev/null
           f=$(ls -1 docs/games/*.json 2>/dev/null | head -n1 || true)
           if [ -n "$f" ]; then jq . "$f" > /dev/null; fi
 
@@ -61,53 +62,3 @@ jobs:
           else
             echo "No changes to commit."
           fi
-
-  live:
-    needs: scrape
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - name: Checkout (HEAD después del scrape)
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      # 👇 Instala ws sólo para esta corrida (sin tocar package.json)
-      - name: Install runtime deps (ws)
-        run: npm i --no-save ws@8
-
-      - name: Run live ticker si hay juegos live/delayed/suspended
-        run: |
-          if [ ! -f docs/latest.json ]; then
-            echo "No latest.json; skip live"; exit 0
-          fi
-          # ¿Hay juegos en estado 2/4/5 hoy?
-          if jq -e '
-            ((.games.today // []) | map(.status) | map(tonumber))
-            | any(. == 2 or . == 4 or . == 5)
-          ' docs/latest.json > /dev/null; then
-            echo "Hay juegos en vivo -> corriendo live.mjs"
-            node live.mjs
-          else
-            echo "Sin juegos en vivo ahora mismo."
-          fi
-
-      - name: Commit live updates if any
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main || true
-          if ! git diff --quiet -- docs/; then
-            git add docs/
-            TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-            git commit -m "chore: live tick ${TS} [skip ci]"
-            git push origin HEAD:main
-          else
-            echo "No live changes to commit."
-          fi
-
