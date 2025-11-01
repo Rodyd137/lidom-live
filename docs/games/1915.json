@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1915",
-    "scraped_at": "2025-11-01T21:48:06.572Z",
+    "scraped_at": "2025-11-01T21:59:50.654Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-01 16:00:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Luis De Los Santos Out: Elevado al Jardinero Derecho ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 1
+      "battingTeam": "homeTeam",
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "José Adames",
           "era": "2.25",
           "record": "0-1",
           "debut": false
@@ -175,7 +175,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 6,
-          "H": 8,
+          "H": 9,
           "E": 1,
           "H2": 6
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 6,
-          "H": 8,
+          "H": 9,
           "E": 1
         }
       },
@@ -822,10 +822,59 @@
         "plays": [
           {
             "reference_id": "17446-1-44",
-            "text": "Jhonkensy Noel al bate",
+            "text": "Jhonkensy Noel Out: Elevado al Receptor",
             "scored": false,
             "is_primary": true,
-            "ts": 1762033678
+            "ts": 1762033717
+          },
+          {
+            "reference_id": "17446-1-45",
+            "text": "Mickey Gasper Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762033780
+          },
+          {
+            "reference_id": "17446-1-46",
+            "text": "Eloy Jimenez  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762033892
+          }
+        ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "17446-2-47",
+            "text": "Junior Lake Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762034132
+          },
+          {
+            "reference_id": "17446-2-48",
+            "text": "Jimmy Paredes Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762034199
+          },
+          {
+            "reference_id": "17446-2-49",
+            "text": "Luis De Los Santos Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762034328
+          },
+          {
+            "reference_id": "17446-2-50",
+            "text": "Martin Maldonado al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762034333
           }
         ]
       }
@@ -905,7 +954,14 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 1,
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -947,7 +1003,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -978,7 +1034,7 @@
       {
         "id": 1916,
         "date": "2025-11-01 18:00:00",
-        "status": 1,
+        "status": 3,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 1,
