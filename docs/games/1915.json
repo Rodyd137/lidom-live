@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1915",
-    "scraped_at": "2025-11-01T22:52:39.940Z",
+    "scraped_at": "2025-11-01T23:14:57.026Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-01 16:00:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Yairo Munoz Base por Bolas ",
+    "lastPlayByPlay": "Carlos Jimenez al bate",
     "counts": {
-      "balls": 0,
-      "strikes": 2,
-      "outs": 2
+      "balls": 2,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 6
+      "battingTeam": "homeTeam",
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
-      "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "on1B": false,
+      "on2B": true,
+      "on3B": false,
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Jarlin García",
           "era": "2.25",
           "record": "0-1",
           "debut": false
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 7,
-          "H": 10,
+          "R": 12,
+          "H": 11,
           "E": 1,
           "H2": 6
         },
@@ -220,10 +220,10 @@
             "position": ""
           },
           {
-            "id": 5305,
+            "id": 5309,
             "team_id": 4,
-            "name": "Franchy Cordero",
-            "abbreviation": "F. Cordero",
+            "name": "Carlos Jimenez",
+            "abbreviation": "C. Jimenez",
             "number": null,
             "dob": null,
             "height": "",
@@ -329,7 +329,7 @@
         {
           "num": 8,
           "away": 0,
-          "home": 0
+          "home": 5
         },
         {
           "num": 9,
@@ -345,8 +345,8 @@
           "E": 1
         },
         "home": {
-          "R": 7,
-          "H": 10,
+          "R": 12,
+          "H": 11,
           "E": 1
         }
       },
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 7
+            "R": 12
           },
           {
             "num": 9,
-            "R": 7
+            "R": 12
           }
         ]
       }
@@ -1018,10 +1018,73 @@
           },
           {
             "reference_id": "17448-1-67",
-            "text": "Ramon Torres  al bate",
+            "text": "Ramon Torres  Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762037305
+            "ts": 1762037599
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "17448-2-68",
+            "text": "Junior Lake Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762037881
+          },
+          {
+            "reference_id": "17448-2-69",
+            "text": "Jimmy Paredes Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762038045
+          },
+          {
+            "reference_id": "17448-2-70",
+            "text": "Luis De Los Santos Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762038257
+          },
+          {
+            "reference_id": "17448-2-71",
+            "text": "Martin Maldonado Golpeado y Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762038322
+          },
+          {
+            "reference_id": "17448-2-72",
+            "text": "Cesar Prieto Base por Bolas y Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762038595
+          },
+          {
+            "reference_id": "17448-2-73",
+            "text": "Erik Gonzalez  Out: Rodado al Campo Corto - Receptor",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762038710
+          },
+          {
+            "reference_id": "17448-2-74",
+            "text": "Socrates Brito Doble! 3 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762038796
+          },
+          {
+            "reference_id": "17448-2-75",
+            "text": "Carlos Jimenez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762038852
           }
         ]
       }
@@ -1131,6 +1194,13 @@
         "label": "Alta 8va",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 8,
+        "scoring_plays": 3
       }
     ],
     "innings_raw": [
@@ -1185,10 +1255,10 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 5
       },
       {
         "num": 9,
@@ -1203,14 +1273,14 @@
         "id": 1916,
         "date": "2025-11-01 18:00:00",
         "status": 2,
-        "roundText": "Baja 3ra",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 0,
-          "hits": 2,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         },
@@ -1219,8 +1289,8 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 0,
-          "hits": 1,
+          "runs": 2,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }
