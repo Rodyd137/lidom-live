@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2055",
-    "scraped_at": "2025-11-01T01:50:21.313Z",
+    "scraped_at": "2025-11-01T02:02:43.434Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-10-31 19:00:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Pablo Reyes Ponche (K) ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 3
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Eddy Yean",
+          "pitcher": "Ty Adcock",
           "era": "",
           "record": "",
           "debut": false
@@ -990,10 +990,52 @@
         "plays": [
           {
             "reference_id": "18708-1-67",
-            "text": "Miguel Sano al bate",
+            "text": "Miguel Sano Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1761961678
+            "ts": 1761961961
+          },
+          {
+            "reference_id": "18708-1-68",
+            "text": "Rodolfo Castro Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761961993
+          },
+          {
+            "reference_id": "18708-1-69",
+            "text": "Raimel Tapia Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761962077
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "18708-2-70",
+            "text": "Kelvin Gutiérrez Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761962323
+          },
+          {
+            "reference_id": "18708-2-71",
+            "text": "Carlos Franco Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761962385
+          },
+          {
+            "reference_id": "18708-2-72",
+            "text": "Pablo Reyes Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761962539
           }
         ]
       }
@@ -1101,7 +1143,14 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 1,
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -1157,7 +1206,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -1175,14 +1224,14 @@
         "id": 2056,
         "date": "2025-10-31 19:30:00",
         "status": 2,
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 3,
-          "hits": 5,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         },
