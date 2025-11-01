@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1915",
-    "scraped_at": "2025-11-01T21:35:52.815Z",
+    "scraped_at": "2025-11-01T21:48:06.572Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-01 16:00:00",
-    "roundText": "Baja 5ta",
-    "currentInningNum": 5,
+    "roundText": "Alta 6ta",
+    "currentInningNum": 6,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 6,
-          "H": 6,
+          "H": 8,
           "E": 1,
           "H2": 6
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 6,
-          "H": 6,
+          "H": 8,
           "E": 1
         }
       },
@@ -772,6 +772,62 @@
             "ts": 1762032884
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "17445-2-40",
+            "text": "Erik Gonzalez Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762033084
+          },
+          {
+            "reference_id": "17445-2-40-254102",
+            "text": "Erik Gonzalez Out Robando Base! ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1762033287
+          },
+          {
+            "reference_id": "17445-2-41",
+            "text": "Socrates Brito  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762033301
+          },
+          {
+            "reference_id": "17445-2-42",
+            "text": "Franchy Cordero Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762033394
+          },
+          {
+            "reference_id": "17445-2-43",
+            "text": "Yamaico Navarro Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762033468
+          }
+        ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "17446-1-44",
+            "text": "Jhonkensy Noel al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762033678
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -837,6 +893,20 @@
         "label": "Alta 5ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -871,14 +941,14 @@
       {
         "num": 5,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 6,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
