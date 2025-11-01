@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1915",
-    "scraped_at": "2025-11-01T22:25:54.248Z",
+    "scraped_at": "2025-11-01T22:40:53.161Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-01 16:00:00",
-    "roundText": "Baja 7ma",
-    "currentInningNum": 7,
+    "roundText": "Alta 8va",
+    "currentInningNum": 8,
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -55,11 +55,11 @@
         "totals": {
           "R": 3,
           "H": 8,
-          "E": 0,
+          "E": 1,
           "H2": 1
         },
         "probables": {
-          "pitcher": "José Adames",
+          "pitcher": "",
           "era": "2.25",
           "record": "0-1",
           "debut": false
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 6,
-          "H": 9,
+          "R": 7,
+          "H": 10,
           "E": 1,
           "H2": 6
         },
@@ -324,7 +324,7 @@
         {
           "num": 7,
           "away": 2,
-          "home": 0
+          "home": 1
         },
         {
           "num": 8,
@@ -342,11 +342,11 @@
         "away": {
           "R": 3,
           "H": 8,
-          "E": 0
+          "E": 1
         },
         "home": {
-          "R": 6,
-          "H": 9,
+          "R": 7,
+          "H": 10,
           "E": 1
         }
       },
@@ -416,15 +416,15 @@
           },
           {
             "num": 7,
-            "R": 6
+            "R": 7
           },
           {
             "num": 8,
-            "R": 6
+            "R": 7
           },
           {
             "num": 9,
-            "R": 6
+            "R": 7
           }
         ]
       }
@@ -941,10 +941,59 @@
         "plays": [
           {
             "reference_id": "17447-2-58",
-            "text": "Cesar Prieto al bate",
+            "text": "Cesar Prieto Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762035930
+            "ts": 1762035955
+          },
+          {
+            "reference_id": "17447-2-59",
+            "text": "Erik Gonzalez Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762036118
+          },
+          {
+            "reference_id": "17447-2-60",
+            "text": "Socrates Brito Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762036214
+          },
+          {
+            "reference_id": "17447-2-60-254169",
+            "text": "Socrates Brito Robo de Base ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1762036310
+          },
+          {
+            "reference_id": "17447-2-61",
+            "text": "Franchy Cordero  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762036396
+          },
+          {
+            "reference_id": "17447-2-62",
+            "text": "Yamaico Navarro Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762036692
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "17448-1-63",
+            "text": "Mickey Gasper al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762036842
           }
         ]
       }
@@ -1045,6 +1094,13 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
+        "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
         "total_plays": 1,
         "scoring_plays": 0
       }
@@ -1095,14 +1151,14 @@
       {
         "num": 7,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 2,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 8,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -1119,14 +1175,14 @@
         "id": 1916,
         "date": "2025-11-01 18:00:00",
         "status": 2,
-        "roundText": "Alta 2da",
+        "roundText": "Alta 3ra",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 0,
-          "hits": 1,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         },
