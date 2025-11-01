@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2056",
-    "scraped_at": "2025-11-01T01:18:55.345Z",
+    "scraped_at": "2025-11-01T01:33:07.167Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,9 +9,9 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-10-31 19:30:00",
-    "roundText": "Baja 5ta",
-    "currentInningNum": 5,
-    "lastPlayByPlay": "Emilio Bonifacio Sencillo ",
+    "roundText": "Baja 6ta",
+    "currentInningNum": 6,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 3,
-          "H": 4,
+          "H": 5,
           "E": 0,
           "H2": 3
         },
@@ -175,7 +175,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 0,
-          "H": 2,
+          "H": 3,
           "E": 1,
           "H2": 0
         },
@@ -341,12 +341,12 @@
       "totals": {
         "away": {
           "R": 3,
-          "H": 4,
+          "H": 5,
           "E": 0
         },
         "home": {
           "R": 0,
-          "H": 2,
+          "H": 3,
           "E": 1
         }
       },
@@ -801,10 +801,52 @@
           },
           {
             "reference_id": "18714-2-43",
-            "text": "Gustavo Nuñez al bate",
+            "text": "Gustavo Nuñez Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1761959914
+            "ts": 1761959961
+          },
+          {
+            "reference_id": "18714-2-44",
+            "text": "Mel Rojas Jr. Doble Play!  Out: Rodado al - Campo Corto - Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761960173
+          },
+          {
+            "reference_id": "18714-2-45",
+            "text": "Griffin Conine Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761960328
+          }
+        ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "18715-1-46",
+            "text": "Carter Jensen Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761960552
+          },
+          {
+            "reference_id": "18715-1-47",
+            "text": "Adael Amador Doble Play!  Out: Rodado al - Campo Corto - Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761960625
+          },
+          {
+            "reference_id": "18715-1-48",
+            "text": "Juan Lagares Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761960702
           }
         ]
       }
@@ -877,7 +919,14 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 2,
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -913,14 +962,14 @@
       {
         "num": 5,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 6,
-        "part": 1,
-        "is_last": 0,
+        "part": 2,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -951,14 +1000,14 @@
         "id": 2055,
         "date": "2025-10-31 19:00:00",
         "status": 2,
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 1,
-          "hits": 3,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         },
@@ -977,14 +1026,14 @@
         "id": 2057,
         "date": "2025-10-31 19:30:00",
         "status": 2,
-        "roundText": "Baja 5ta",
+        "roundText": "Alta 6ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 1,
-          "hits": 5,
+          "runs": 2,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
