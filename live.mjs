@@ -277,4 +277,3 @@ function startWS() {
   process.on('SIGINT',  () => shutdown(0, 'SIGINT'));
   process.on('SIGTERM', () => shutdown(0, 'SIGTERM'));
 })();
-
