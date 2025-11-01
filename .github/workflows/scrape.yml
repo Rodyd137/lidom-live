@@ -77,13 +77,9 @@ jobs:
         with:
           node-version: '20'
 
-      # (Opcional) Limitar a ventana horaria local de juegos
-      # - name: Skip fuera de ventana 17:00-23:59 AST
-      #   run: |
-      #     H=$(TZ=America/Santo_Domingo date +%H)
-      #     if [ "$H" -lt 17 ] || [ "$H" -gt 23 ]; then
-      #       echo "Fuera de ventana de juego -> skip live"; exit 78
-      #     fi
+      # 👇 Instala ws sólo para esta corrida (sin tocar package.json)
+      - name: Install runtime deps (ws)
+        run: npm i --no-save ws@8
 
       - name: Run live ticker si hay juegos live/delayed/suspended
         run: |
