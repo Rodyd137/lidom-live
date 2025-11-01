@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2056",
-    "scraped_at": "2025-11-01T00:13:32.849Z",
+    "scraped_at": "2025-11-01T00:21:45.022Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-10-31 19:30:00",
-    "roundText": "Baja 2da",
-    "currentInningNum": 2,
-    "lastPlayByPlay": "Sergio Alcantara Base por Bolas ",
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
+    "lastPlayByPlay": "Angel Genao Ponche (K) ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 1
+      "balls": 0,
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 5
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -136,6 +136,28 @@
             "team_id": 3,
             "name": "Juan Lagares",
             "abbreviation": "J. Lagares",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5333,
+            "team_id": 3,
+            "name": "Emmanuel Rodríguez",
+            "abbreviation": "E. Rodríguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5324,
+            "team_id": 3,
+            "name": "Angel Genao",
+            "abbreviation": "A. Genao",
             "number": null,
             "dob": null,
             "height": "",
@@ -541,10 +563,45 @@
           },
           {
             "reference_id": "18711-2-16",
-            "text": "Liover Peguero al bate",
+            "text": "Liover Peguero Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1761955875
+            "ts": 1761956063
+          },
+          {
+            "reference_id": "18711-2-17",
+            "text": "Michael De La Cruz  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761956177
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "18712-1-18",
+            "text": "Emmanuel Rodríguez  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761956382
+          },
+          {
+            "reference_id": "18712-1-19",
+            "text": "Angel Genao Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761956463
+          },
+          {
+            "reference_id": "18712-1-20",
+            "text": "Raynel Delgado al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761956467
           }
         ]
       }
@@ -575,7 +632,14 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 4,
+        "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -590,14 +654,14 @@
       {
         "num": 2,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -691,8 +755,8 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 2,
-          "hits": 2,
+          "runs": 3,
+          "hits": 4,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
         }
