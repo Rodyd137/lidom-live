@@ -105,6 +105,16 @@ function daysBetweenYMD(a, b) {
 
 function stripTags(s='') { return s.replace(/<[^>]*>/g, '').replace(/\s+/g,' ').trim(); }
 
+/* === NEW: Decodificar bases a estructura útil para UI/analytics === */
+function decodeBases(baseCode) {
+  const c = Number(baseCode) || 0;
+  const on1B = [2,5,6,8].includes(c);
+  const on2B = [3,5,7,8].includes(c);
+  const on3B = [4,6,7,8].includes(c);
+  const runners = (on1B?1:0) + (on2B?1:0) + (on3B?1:0);
+  return { on1B, on2B, on3B, runners, mask: c };
+}
+
 /* ============ Parser de new ViewModel(...) robusto ============ */
 function extractAllNewViewModelArgs(html) {
   const marker = 'new ViewModel(';
@@ -420,6 +430,9 @@ function normalizeGameDetails(rawGame, rawLogs, siblingGames, htmlForTables='') 
   const plays_summary = summarizeInningPlays(plays_by_inning);
   const stats_tables = extractStatsTablesFromHTML(htmlForTables);
 
+  /* === NEW: bases decodificadas para consumo inmediato en UI === */
+  const base_runners = decodeBases(rawGame.base);
+
   return {
     id: rawGame.id,
     season_id: rawGame.season_id ?? null,
@@ -430,6 +443,7 @@ function normalizeGameDetails(rawGame, rawLogs, siblingGames, htmlForTables='') 
     lastPlayByPlay: rawGame.lastPlayByPlay ?? null,
     counts: { balls: rawGame.balls ?? null, strikes: rawGame.strikes ?? null, outs: rawGame.outs ?? null },
     base_state: { battingTeam: rawGame.battingTeam ?? null, base: rawGame.base ?? null },
+    base_runners, // <<<< --- agregado
     betting: {
       moneyline: { away: rawGame.moneyline_g ?? null, home: rawGame.moneyline_h ?? null },
       handicap: { away: rawGame.handicap_g ?? null, home: rawGame.handicap_h ?? null },
@@ -657,4 +671,3 @@ async function main() {
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
-
