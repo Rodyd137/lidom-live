@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2057",
-    "scraped_at": "2025-11-01T00:56:16.658Z",
+    "scraped_at": "2025-11-01T01:11:07.949Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-10-31 19:30:00",
-    "roundText": "Baja 4ta",
-    "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "roundText": "Alta 5ta",
+    "currentInningNum": 5,
+    "lastPlayByPlay": "Socrates Brito Sencillo ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 1
+      "battingTeam": "awayTeam",
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 1,
-          "H": 4,
+          "H": 5,
           "E": 0,
           "H2": 1
         },
@@ -180,7 +180,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Aaron Brooks",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 1,
-          "H": 4,
+          "H": 5,
           "E": 0
         },
         "home": {
@@ -702,6 +702,69 @@
             "ts": 1761958313
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "18722-2-33",
+            "text": "Eloy Jimenez  Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761958588
+          },
+          {
+            "reference_id": "18722-2-34",
+            "text": "Yairo Munoz  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761958779
+          },
+          {
+            "reference_id": "18722-2-35",
+            "text": "Manuel Peña Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761958986
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "18723-1-36",
+            "text": "Cesar Prieto  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761959222
+          },
+          {
+            "reference_id": "18723-1-37",
+            "text": "Erik Gonzalez  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761959274
+          },
+          {
+            "reference_id": "18723-1-38",
+            "text": "Socrates Brito Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761959317
+          },
+          {
+            "reference_id": "18723-1-39",
+            "text": "Franchy Cordero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761959321
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -753,6 +816,20 @@
         "label": "Alta 4ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 4,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -780,14 +857,14 @@
       {
         "num": 4,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 5,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -825,7 +902,7 @@
         "id": 2055,
         "date": "2025-10-31 19:00:00",
         "status": 2,
-        "roundText": "Baja 5ta",
+        "roundText": "Baja 6ta",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -851,14 +928,14 @@
         "id": 2056,
         "date": "2025-10-31 19:30:00",
         "status": 2,
-        "roundText": "Baja 4ta",
+        "roundText": "Alta 5ta",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 2,
-          "hits": 3,
+          "runs": 3,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         },
