@@ -10,6 +10,7 @@ const OUT_DIR = path.join(__dirname, 'docs');
 const HISTORY_DIR = path.join(OUT_DIR, 'history');
 const GAMES_DIR = path.join(OUT_DIR, 'games');
 const LATEST_PATH = path.join(OUT_DIR, 'latest.json');
+const LIVE_PATH = path.join(OUT_DIR, 'live.json');
 
 const SOURCE_HOME = process.env.SOURCE_HOME || 'https://pelotainvernal.com/';
 const TZ = process.env.TZ || 'America/Santo_Domingo';
@@ -21,6 +22,7 @@ const DETAILS_CONCURRENCY = Math.max(1, Number(process.env.DETAILS_CONCURRENCY |
 
 // Estados del sitio
 const STATUS = { NOT_STARTED:1, LIVE:2, PREVIEW:3, DELAYED:4, SUSPENDED:5, FINAL:6, POSTPONED:7 };
+const LIVELIKE = new Set([STATUS.LIVE, STATUS.DELAYED, STATUS.SUSPENDED]);
 
 // Por defecto, solo bajamos detalles de juegos que suelen tener PBP/linescore listo;
 // PERO ahora forzaremos SIEMPRE los detalles de hoy, independiente del status
@@ -71,7 +73,6 @@ function gameYMD(g) { return (g?.date ?? '').slice(0, 10); }
 function sortByDateStrAsc(a, b) {
   const da = gameYMD(a), db = gameYMD(b);
   if (da && db && da !== db) return da < db ? -1 : 1;
-  // evitar parseos raros: normalizamos a ISO sin zona (YYYY-MM-DDTHH:mm:ss)
   const isoA = (a?.date || '').replace(' ', 'T');
   const isoB = (b?.date || '').replace(' ', 'T');
   return new Date(isoA) - new Date(isoB);
@@ -105,7 +106,7 @@ function daysBetweenYMD(a, b) {
 
 function stripTags(s='') { return s.replace(/<[^>]*>/g, '').replace(/\s+/g,' ').trim(); }
 
-/* === Decodificar bases a estructura útil para UI/analytics === */
+/* === Bases & “Threat” para live.json === */
 function decodeBases(baseCode) {
   const c = Number(baseCode) || 0;
   const on1B = [2,5,6,8].includes(c);
@@ -114,10 +115,6 @@ function decodeBases(baseCode) {
   const runners = (on1B?1:0) + (on2B?1:0) + (on3B?1:0);
   return { on1B, on2B, on3B, runners, mask: c };
 }
-
-/* === LIVE helpers (amenaza + writeIfChanged + builder) === */
-
-// Run Expectancy (aprox MLB como proxy LIDOM) para calcular "amenaza"
 const RE = {
   0: { 0:0.50, 2:0.86, 3:1.10, 4:1.30, 5:1.60, 6:1.65, 7:1.95, 8:2.25 },
   1: { 0:0.27, 2:0.50, 3:0.70, 4:0.95, 5:1.05, 6:1.15, 7:1.40, 8:1.60 },
@@ -131,70 +128,6 @@ function runExpectancy(outs, baseMask) {
 function threatScore(outs, baseMask) {
   const re = runExpectancy(outs, baseMask);
   return Math.round(Math.max(0, Math.min(100, (re / 2.25) * 100)));
-}
-
-// Escribir archivo solo si cambió (evita commits vacíos)
-function writeIfChanged(targetPath, contents) {
-  const tmp = targetPath + '.tmp';
-  fs.writeFileSync(tmp, contents, 'utf8');
-  const old = fs.existsSync(targetPath) ? fs.readFileSync(targetPath, 'utf8') : null;
-  const neu = fs.readFileSync(tmp, 'utf8');
-  if (old !== neu) fs.renameSync(tmp, targetPath);
-  else fs.unlinkSync(tmp);
-}
-
-// Construye docs/live.json a partir de out + today_details
-function buildLiveSummary(out) {
-  const today = Array.isArray(out?.games?.today) ? out.games.today : [];
-  const details = out?.today_details || {};
-  const liveStatuses = new Set([2,4,5]); // LIVE, DELAYED, SUSPENDED
-
-  const arr = [];
-  for (const g of today) {
-    const det = details[g?.id] || { ...g }; // si no hubo detalle, usar metadatos del home
-    const status = Number(det?.status ?? g?.status ?? 0);
-    if (!liveStatuses.has(status)) continue;
-
-    const baseMask = Number(det?.base_state?.base ?? det?.base ?? g?.base ?? 0) || 0;
-    const balls   = det?.counts?.balls ?? det?.balls ?? null;
-    const strikes = det?.counts?.strikes ?? det?.strikes ?? null;
-    const outs    = det?.counts?.outs ?? det?.outs ?? null;
-
-    arr.push({
-      id: det?.id ?? g?.id,
-      status,
-      roundText: det?.roundText ?? g?.roundText ?? null,
-      currentInningNum: det?.currentInningNum ?? null,
-      atBat: det?.atBat ?? null,
-      lastPlayByPlay: det?.lastPlayByPlay ?? null,
-      counts: { balls, strikes, outs },
-      base: decodeBases(baseMask),
-      battingTeam: det?.base_state?.battingTeam ?? det?.battingTeam ?? null,
-      score: {
-        away: {
-          name: det?.teams?.away?.name ?? g?.awayTeam?.name ?? null,
-          abbr: det?.teams?.away?.abbr ?? g?.awayTeam?.abbreviation ?? null,
-          R: det?.teams?.away?.totals?.R ?? g?.awayTeam?.runs ?? null,
-          H: det?.teams?.away?.totals?.H ?? g?.awayTeam?.hits ?? null,
-          E: det?.teams?.away?.totals?.E ?? g?.awayTeam?.errors ?? null,
-        },
-        home: {
-          name: det?.teams?.home?.name ?? g?.homeTeam?.name ?? null,
-          abbr: det?.teams?.home?.abbr ?? g?.homeTeam?.abbreviation ?? null,
-          R: det?.teams?.home?.totals?.R ?? g?.homeTeam?.runs ?? null,
-          H: det?.teams?.home?.totals?.H ?? g?.homeTeam?.hits ?? null,
-          E: det?.teams?.home?.totals?.E ?? g?.homeTeam?.errors ?? null,
-        },
-      },
-      threat: threatScore(outs ?? 0, baseMask),
-      updated_at: nowISO(),
-    });
-  }
-
-  return {
-    source: { homepage: SOURCE_HOME, scraped_at: nowISO(), tz: TZ },
-    live: arr
-  };
 }
 
 /* ============ Parser de new ViewModel(...) robusto ============ */
@@ -211,8 +144,6 @@ function extractAllNewViewModelArgs(html) {
     function readArg() {
       while (/\s|,/.test(html[i])) i++;
       const ch = html[i];
-
-      // objetos/arrays JSON
       if (ch === '{' || ch === '[') {
         const open = ch, close = ch === '{' ? '}' : ']';
         let depth = 0, j = i, inStr = false, esc = false;
@@ -234,7 +165,6 @@ function extractAllNewViewModelArgs(html) {
         return JSON.parse(text);
       }
 
-      // strings
       if (ch === '"' || ch === "'") {
         const quote = ch;
         let j = i + 1, esc = false;
@@ -250,7 +180,6 @@ function extractAllNewViewModelArgs(html) {
         return JSON.parse(text);
       }
 
-      // literales
       let j = i;
       while (j < html.length && !/[,\)]/.test(html[j])) j++;
       const raw = html.slice(i, j).trim();
@@ -277,12 +206,10 @@ function extractAllNewViewModelArgs(html) {
 }
 
 function pickViewModelForDetails(allCalls) {
-  // Detalle: 4 args: [gameData, siblingGames, logs, translations]
   for (const args of allCalls) {
     const g = args[0];
     if (g && typeof g === 'object' && (g.awayTeam && g.homeTeam)) return args;
   }
-  // fallback: la de mayor número de args
   return allCalls.sort((a,b)=>b.length-a.length)[0];
 }
 
@@ -294,7 +221,6 @@ function extractFirstNewViewModelArgs(html) {
 
 /* ============ Normalizadores básicos (home) ============ */
 function _firstSeries(seriesLike) {
-  // HOME puede traer un objeto o un array [series]
   return Array.isArray(seriesLike) ? (seriesLike[0] || {}) : (seriesLike || {});
 }
 
@@ -318,7 +244,7 @@ function normalizeHomePayload(seriesLike) {
   };
 }
 
-// Unión de juegos del HOME: today/upcoming/previous y nearestGames (si existe)
+// Unión de juegos del HOME
 function collectHomeGamesUnion(seriesLike) {
   const s = _firstSeries(seriesLike);
   const pool = [];
@@ -326,10 +252,9 @@ function collectHomeGamesUnion(seriesLike) {
   pushArr(s?.todayGames);
   pushArr(s?.upcomingGames);
   pushArr(s?.previousGames);
-  pushArr(s?.nearestGames); // algunas plantillas lo traen
+  pushArr(s?.nearestGames);
   return dedupeGames(pool).sort(sortByDateStrAsc);
 }
-
 function getHomeTodayGames(seriesLike) {
   const s = _firstSeries(seriesLike);
   const arr = Array.isArray(s?.todayGames) ? s.todayGames : [];
@@ -409,7 +334,7 @@ function parseInningLabel(label = '') {
 }
 
 function groupPlayByPlay(logs = []) {
-  const bucket = new Map(); // key `${num}-${half}`
+  const bucket = new Map();
   for (const blk of logs) {
     const meta = parseInningLabel(blk.inning);
     const key = `${meta.num}-${meta.half}`;
@@ -512,7 +437,6 @@ function normalizeGameDetails(rawGame, rawLogs, siblingGames, htmlForTables='') 
   const plays_summary = summarizeInningPlays(plays_by_inning);
   const stats_tables = extractStatsTablesFromHTML(htmlForTables);
 
-  /* === bases decodificadas para consumo inmediato en UI === */
   const base_runners = decodeBases(rawGame.base);
 
   return {
@@ -571,7 +495,6 @@ function normalizeGameDetails(rawGame, rawLogs, siblingGames, htmlForTables='') 
 async function fetchGameDetails(gameId) {
   const url = new URL(`/${gameId}`, SOURCE_HOME).href;
   const html = await fetchText(url);
-  // Detalle: new ViewModel(gameData, siblingGames, logs, translations)
   const args = extractFirstNewViewModelArgs(html);
   const gameData = args[0];
   const siblingGames = args[1] || [];
@@ -586,15 +509,12 @@ function pickWhichDetailsToFetch(sourceGames) {
   if (DETAILS_FETCH === 'none') return [];
 
   const todayYMD = formatYMDInTZ(new Date(), TZ);
-
-  // Solo juegos con estados que suelen exponer detalle (PBP/linescore)
   const candidates = (sourceGames || []).filter(g => DETAILS_STATUS_SET.has(Number(g?.status)));
 
   if (DETAILS_FETCH === 'all') {
     return Array.from(new Set(candidates.map(g => g.id))).filter(Boolean);
   }
 
-  // recent: ±DETAILS_DAYS desde hoy
   const ids = [];
   for (const g of candidates) {
     const d = gameYMD(g);
@@ -624,6 +544,78 @@ async function pLimit(concurrency, tasks) {
   });
 }
 
+/* === Helper: escribir archivo solo si cambió (evita commits vacíos) === */
+function writeIfChanged(pathname, content) {
+  const neu = typeof content === 'string' ? content : JSON.stringify(content, null, 2) + '\n';
+  const old = fs.existsSync(pathname) ? fs.readFileSync(pathname, 'utf8') : null;
+  if (old !== neu) fs.writeFileSync(pathname, neu, 'utf8');
+}
+
+/* === Construye live.json a partir de today + detalles === */
+function buildLiveSummary(todayList = [], todayDetailsMap = {}) {
+  const trackedIds = [];
+  const liveArr = [];
+
+  for (const g of todayList) {
+    const status = Number(g?.status);
+    if (!LIVELIKE.has(status)) continue;
+    const id = g?.id;
+    if (!id) continue;
+    trackedIds.push(id);
+
+    const det = todayDetailsMap[id] || null;
+
+    // Preferimos datos del detalle (tienen counts/base/lastPlayByPlay confiables)
+    if (det) {
+      const baseMask = Number(det?.base_state?.base) || 0;
+      liveArr.push({
+        id,
+        status: det.status,
+        roundText: det.roundText,
+        currentInningNum: det.currentInningNum,
+        atBat: det.atBat || null,
+        lastPlayByPlay: det.lastPlayByPlay || null,
+        counts: { balls: det.counts?.balls ?? null, strikes: det.counts?.strikes ?? null, outs: det.counts?.outs ?? null },
+        base: decodeBases(baseMask),
+        battingTeam: det.base_state?.battingTeam ?? null,
+        score: {
+          away: { name: det.teams?.away?.name, abbr: det.teams?.away?.abbr, R: det.teams?.away?.totals?.R, H: det.teams?.away?.totals?.H, E: det.teams?.away?.totals?.E },
+          home: { name: det.teams?.home?.name, abbr: det.teams?.home?.abbr, R: det.teams?.home?.totals?.R, H: det.teams?.home?.totals?.H, E: det.teams?.home?.totals?.E },
+        },
+        threat: threatScore(det.counts?.outs ?? 0, baseMask),
+        updated_at: nowISO(),
+      });
+      continue;
+    }
+
+    // Fallback al objeto "shallow" del home/resultados si el detalle falló
+    const baseMask = Number(g?.base) || 0;
+    liveArr.push({
+      id,
+      status,
+      roundText: g.roundText ?? null,
+      currentInningNum: g.currentInningNum ?? null,
+      atBat: g.atBat || null,
+      lastPlayByPlay: g.lastPlayByPlay || null,
+      counts: { balls: g.balls ?? null, strikes: g.strikes ?? null, outs: g.outs ?? null },
+      base: decodeBases(baseMask),
+      battingTeam: g.battingTeam ?? null,
+      score: {
+        away: { name: g.awayTeam?.name, abbr: g.awayTeam?.abbreviation, R: g.awayTeam?.runs, H: g.awayTeam?.hits, E: g.awayTeam?.errors },
+        home: { name: g.homeTeam?.name, abbr: g.homeTeam?.abbreviation, R: g.homeTeam?.runs, H: g.homeTeam?.hits, E: g.homeTeam?.errors },
+      },
+      threat: threatScore(g.outs ?? 0, baseMask),
+      updated_at: nowISO(),
+    });
+  }
+
+  return {
+    source: { mode: 'scraper', homepage: SOURCE_HOME, scraped_at: nowISO(), tz: TZ },
+    tracked_ids: trackedIds,
+    live: liveArr,
+  };
+}
+
 /* ============ Main ============ */
 async function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
@@ -638,22 +630,22 @@ async function main() {
     games: { today: [], upcoming: [], previous: [] },
   };
 
-  // HOME (puede venir objeto o array en el primer arg de ViewModel)
+  // HOME
   let homeSeriesArg = null;
   let homeGames = [];
   let homeToday = [];
   try {
     const homeHtml = await fetchText(SOURCE_HOME);
     const homeArgs = extractFirstNewViewModelArgs(homeHtml);
-    homeSeriesArg = homeArgs[0];                         // [ series ] o {series}
-    out = normalizeHomePayload(homeSeriesArg);           // liga + standings
-    homeGames = collectHomeGamesUnion(homeSeriesArg);    // unión home
-    homeToday = getHomeTodayGames(homeSeriesArg);        // *** HOY directo del home ***
+    homeSeriesArg = homeArgs[0];
+    out = normalizeHomePayload(homeSeriesArg);
+    homeGames = collectHomeGamesUnion(homeSeriesArg);
+    homeToday = getHomeTodayGames(homeSeriesArg);
   } catch (e) {
     console.warn('Home fetch/parse failed:', e.message);
   }
 
-  // Calendario
+  // Calendario (o fallback)
   let calendarGames = [];
   if (out?.league?.seo_url) {
     try {
@@ -680,8 +672,6 @@ async function main() {
   // Fusión (HOME union + calendario + resultados)
   const allGames = dedupeGames([...homeGames, ...calendarGames, ...resultsGames]).sort(sortByDateStrAsc);
   const todayYMD = formatYMDInTZ(new Date(), TZ);
-
-  // *** IMPORTANTE: "hoy" viene del HOME; si vacío, caemos al fallback por fecha ***
   const todayFromHome = homeToday && homeToday.length ? homeToday : allGames.filter(g => gameYMD(g) === todayYMD);
 
   out.games = {
@@ -694,11 +684,10 @@ async function main() {
   out.calendar_days = Object.keys(out.by_date).sort();
 
   // ====== DETALLES ======
-  // Preferimos /resultados para estados "detallables", pero añadimos SIEMPRE los IDs de HOY
   const detailSourceGames = resultsGames.length ? resultsGames : allGames;
   const baseTargetIds = pickWhichDetailsToFetch(detailSourceGames);
 
-  // *** Forzar detalles de todos los juegos de 'today' ***
+  // Forzar detalles de HOY
   const todayIds = (out.games.today || []).map(g => g?.id).filter(Boolean);
   const targetIds = Array.from(new Set([...baseTargetIds, ...todayIds]));
 
@@ -719,7 +708,7 @@ async function main() {
   const today_details = {};
   for (const r of detailResults) {
     if (r?.ok && r.file) files[r.id] = r.file;
-    if (r?.ok && todayIds.includes(r.id)) today_details[r.id] = r.detail; // embed para hoy
+    if (r?.ok && todayIds.includes(r.id)) today_details[r.id] = r.detail;
   }
 
   out.details_index = {
@@ -730,19 +719,14 @@ async function main() {
     files,
   };
 
-  // *** Embebemos detalles de los juegos de HOY (si existieron) ***
+  // Embebemos detalles de HOY
   out.today_details = today_details;
 
-  // ========= LIVE SUMMARY (solo si hay juegos live/delayed/suspended) =========
-  const liveSummary = buildLiveSummary(out);
-  const LIVE_PATH = path.join(OUT_DIR, 'live.json');
-  if (Array.isArray(liveSummary.live) && liveSummary.live.length) {
-    writeIfChanged(LIVE_PATH, JSON.stringify(liveSummary, null, 2) + '\n');
-  } else if (fs.existsSync(LIVE_PATH)) {
-    fs.unlinkSync(LIVE_PATH); // elimina si ya no hay juegos en vivo
-  }
+  // ====== LIVE SUMMARY cada corrida (para “near-realtime” de 2 min) ======
+  const livePayload = buildLiveSummary(out.games.today || [], today_details || {});
+  writeIfChanged(LIVE_PATH, livePayload);
 
-  // Persistencia (latest + snapshot si cambia)
+  // ====== Persistencia de latest + snapshot si cambió ======
   const tmpPath = path.join(OUT_DIR, 'latest.tmp.json');
   fs.writeFileSync(tmpPath, JSON.stringify(out, null, 2) + '\n', 'utf8');
 
@@ -754,10 +738,10 @@ async function main() {
     const iso = nowISO().replace(/[:]/g, '').replace(/\..+/, 'Z');
     const snapPath = path.join(HISTORY_DIR, `${iso}.json`);
     fs.writeFileSync(snapPath, neu, 'utf8');
-    console.log(`Updated docs/latest.json and ${Object.keys(files).length} game details. (today embedded: ${Object.keys(today_details).length})`);
+    console.log(`Updated docs/latest.json, docs/live.json and ${Object.keys(files).length} game details. (today embedded: ${Object.keys(today_details).length})`);
   } else {
     fs.unlinkSync(tmpPath);
-    console.log('No changes.');
+    console.log('No changes (latest). Live summary may still have updated if needed.');
   }
 }
 
