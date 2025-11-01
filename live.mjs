@@ -1,9 +1,10 @@
 // live.mjs
 // Node 20+. Realtime LIDOM from PelotaInvernal WS.
-// npm i ws
+// deps: npm i ws
 
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import WebSocket from 'ws';
 
@@ -11,26 +12,44 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = path.join(__dirname, 'docs');
 const LIVE_DIR = path.join(OUT_DIR, 'live');
 const LIVE_SUMMARY = path.join(OUT_DIR, 'live.json');
+const LATEST_PATH = path.join(OUT_DIR, 'latest.json');
 
 const SOURCE_HOME = process.env.SOURCE_HOME || 'https://pelotainvernal.com/';
 const TZ = process.env.TZ || 'America/Santo_Domingo';
 
-// ===== Helpers =====
+// Control de ejecución en CI
+const MAX_RUN_MS  = Number(process.env.LIVE_MAX_MS   || 8 * 60_000);  // 8 min
+const MAX_IDLE_MS = Number(process.env.LIVE_IDLE_MS  || 90_000);      // 90 s sin mensajes => exit
+const SUMMARY_THROTTLE_MS = Number(process.env.LIVE_SUMMARY_THROTTLE_MS || 1500);
+
+// Estados “en vivo” que nos interesan (igual al scraper)
+const STATUS = { NOT_STARTED:1, LIVE:2, PREVIEW:3, DELAYED:4, SUSPENDED:5, FINAL:6, POSTPONED:7 };
+const LIVELIKE = new Set([STATUS.LIVE, STATUS.DELAYED, STATUS.SUSPENDED]);
+
+/* ===== Helpers ===== */
 function nowISO() { return new Date().toISOString(); }
 function safeMkdir(p) { fs.mkdirSync(p, { recursive: true }); }
 safeMkdir(OUT_DIR); safeMkdir(LIVE_DIR);
 
-// Base mask del sitio (por HTML):
-// Activa celda 1B con [2,5,6,8], 2B con [3,5,7,8], 3B con [4,6,7,8]
-// => Mapeo:
-//  0: vacías
-//  2: 1B
-//  3: 2B
-//  4: 3B
-//  5: 1B+2B
-//  6: 1B+3B
-//  7: 2B+3B
-//  8: bases llenas
+function sha1(s){ return crypto.createHash('sha1').update(s).digest('hex'); }
+
+/** Carga IDs permitidos desde docs/latest.json (solo juegos de HOY con estados live/delayed/suspended) */
+function loadAllowlistFromLatest() {
+  try {
+    const raw = fs.readFileSync(LATEST_PATH, 'utf8');
+    const j = JSON.parse(raw);
+    const today = Array.isArray(j?.games?.today) ? j.games.today : [];
+    const ids = today
+      .filter(g => LIVELIKE.has(Number(g?.status)))
+      .map(g => g?.id)
+      .filter(Boolean);
+    return new Set(ids);
+  } catch {
+    return null; // si no existe, no filtramos (aceptamos todo)
+  }
+}
+
+// Base runners mask a 1B/2B/3B
 function decodeBases(baseCode) {
   const c = Number(baseCode) || 0;
   const on1B = [2,5,6,8].includes(c);
@@ -40,9 +59,7 @@ function decodeBases(baseCode) {
   return { on1B, on2B, on3B, runners, mask: c };
 }
 
-// Tabla RE (run expectancy) simplificada (aprox MLB, sirve de proxy LIDOM).
-// Índice by outs (0..2) y mask (0..8 con los valores que usa la web).
-// Los valores son aproximaciones útiles para features "amenaza de carrera".
+// Run Expectancy aproximada (proxy MLB)
 const RE = {
   0: { 0:0.50, 2:0.86, 3:1.10, 4:1.30, 5:1.60, 6:1.65, 7:1.95, 8:2.25 },
   1: { 0:0.27, 2:0.50, 3:0.70, 4:0.95, 5:1.05, 6:1.15, 7:1.40, 8:1.60 },
@@ -53,15 +70,11 @@ function runExpectancy(outs, baseMask) {
   const row = RE[o] || RE[0];
   return row[baseMask] ?? row[0];
 }
-
-// Score Threat simple (0..100) — combina RE y outs:
 function threatScore(outs, baseMask) {
   const re = runExpectancy(outs, baseMask);
-  // Normalizamos aprox: 0..2.25 => 0..100
   return Math.round(Math.max(0, Math.min(100, (re / 2.25) * 100)));
 }
 
-// Pequeña utilidad de merge profundo (sin arrays):
 function deepMerge(dst, src) {
   for (const k of Object.keys(src || {})) {
     if (src[k] && typeof src[k] === 'object' && !Array.isArray(src[k])) {
@@ -74,18 +87,25 @@ function deepMerge(dst, src) {
   return dst;
 }
 
-// ===== Estado runtime =====
-const games = new Map(); // id -> state
+/* ===== Estado runtime ===== */
+const games = new Map(); // id -> last state
 let lastSummaryWrite = 0;
+let lastSummaryHash = '';
+let allowlist = loadAllowlistFromLatest();
 
-function writeSummary() {
+function writeFileAtomic(filePath, content) {
+  const tmp = filePath + '.tmp';
+  fs.writeFileSync(tmp, content, 'utf8');
+  fs.renameSync(tmp, filePath);
+}
+
+function writeSummary(force=false) {
   const now = Date.now();
-  if (now - lastSummaryWrite < 1200) return; // throttle
-  lastSummaryWrite = now;
+  if (!force && (now - lastSummaryWrite < SUMMARY_THROTTLE_MS)) return;
 
   const arr = [];
   for (const [id, g] of games) {
-    const s = {
+    arr.push({
       id,
       status: g.status,
       roundText: g.roundText,
@@ -101,11 +121,22 @@ function writeSummary() {
       },
       threat: threatScore(g.outs ?? 0, Number(g.base)||0),
       updated_at: nowISO(),
-    };
-    arr.push(s);
+    });
   }
-  const payload = { source:{ ws:'wss://s.pelotainvernal.com', scraped_at: nowISO(), tz: TZ }, live: arr };
-  fs.writeFileSync(LIVE_SUMMARY, JSON.stringify(payload, null, 2) + '\n', 'utf8');
+
+  const payload = {
+    source:{ ws:'wss://s.pelotainvernal.com', scraped_at: nowISO(), tz: TZ },
+    tracked_ids: allowlist ? Array.from(allowlist) : 'all',
+    live: arr
+  };
+
+  const content = JSON.stringify(payload, null, 2) + '\n';
+  const h = sha1(content);
+  if (!force && h === lastSummaryHash) return; // sin cambios reales
+
+  writeFileAtomic(LIVE_SUMMARY, content);
+  lastSummaryHash = h;
+  lastSummaryWrite = now;
 }
 
 function appendEvent(id, evt) {
@@ -115,8 +146,9 @@ function appendEvent(id, evt) {
 
 function onGameUpdate(g) {
   if (!g?.id) return;
+  if (allowlist && !allowlist.has(g.id)) return; // ignorar juegos fuera de hoy/live
+
   const prev = games.get(g.id) || {};
-  // Detectar “cambios” interesantes (para eventos)
   const prevKey = `${prev.roundText}|${prev.currentInningNum}|${prev.balls}|${prev.strikes}|${prev.outs}|${prev.base}|${prev.lastPlayByPlay}`;
   const nextKey = `${g.roundText}|${g.currentInningNum}|${g.balls}|${g.strikes}|${g.outs}|${g.base}|${g.lastPlayByPlay}`;
 
@@ -147,39 +179,92 @@ function onGameUpdate(g) {
   writeSummary();
 }
 
-// ===== WebSocket client =====
+/* ===== WS client con backoff e idle-exit ===== */
+let ws = null;
+let pingTimer = null;
+let hbTimer = null; // replica del heartbeat que hace la web (send timestamp)
+let idleTimer = null;
+let startTime = Date.now();
+let lastMsgTs = Date.now();
+let backoffMs = 2000;
+
+function clearTimers() {
+  if (pingTimer) { clearInterval(pingTimer); pingTimer = null; }
+  if (hbTimer)   { clearInterval(hbTimer);   hbTimer = null; }
+  if (idleTimer) { clearInterval(idleTimer); idleTimer = null; }
+}
+
+function shutdown(code=0, reason='') {
+  try { writeSummary(true); } catch {}
+  clearTimers();
+  if (ws && ws.readyState === WebSocket.OPEN) { try { ws.close(); } catch {} }
+  if (reason) console.log(`[live] exit: ${reason}`);
+  process.exit(code);
+}
+
+function scheduleIdleWatch() {
+  if (idleTimer) clearInterval(idleTimer);
+  idleTimer = setInterval(() => {
+    const now = Date.now();
+    if (now - startTime > MAX_RUN_MS) shutdown(0, 'max runtime');
+    if (now - lastMsgTs > MAX_IDLE_MS) shutdown(0, 'idle timeout');
+  }, 5000);
+}
+
 function startWS() {
   const url = 'wss://s.pelotainvernal.com';
-  const ws = new WebSocket(url, { headers: { 'user-agent': 'lidom-live/1.0' } });
+  ws = new WebSocket(url, { headers: { 'user-agent': 'lidom-live/1.1' } });
 
-  let hb = null;
   ws.on('open', () => {
-    // Heartbeat cada 10s (igual que la web)
-    hb = setInterval(() => { try { ws.send(Date.now().toString()); } catch (_) {} }, 10_000);
+    console.log(`[live] conectado -> ${url}`);
+    backoffMs = 2000; // reset backoff
+    // Ping nativo cada 10s
+    pingTimer = setInterval(() => {
+      if (ws && ws.readyState === WebSocket.OPEN) {
+        try { ws.ping(); } catch {}
+      }
+    }, 10_000);
+    // Heartbeat como la web (envía timestamp)
+    hbTimer = setInterval(() => {
+      if (ws && ws.readyState === WebSocket.OPEN) {
+        try { ws.send(Date.now().toString()); } catch {}
+      }
+    }, 10_000);
+    scheduleIdleWatch();
   });
 
+  ws.on('pong', () => { /* opcional: medir RTT */ });
+
   ws.on('message', (buf) => {
+    lastMsgTs = Date.now();
     try {
       const msg = JSON.parse(buf.toString('utf8'));
       if (msg?.g) onGameUpdate(msg.g);
       if (msg?.c === 'reload') {
-        // opcional: marcar en summary
-        // appendEvent('meta', { ts: nowISO(), type:'reload' })
+        // refrescar allowlist (por si cambió latest con el scrape)
+        allowlist = loadAllowlistFromLatest() || allowlist;
       }
-    } catch (e) {
-      // ignore
-    }
+    } catch { /* ignore parse */ }
   });
 
   ws.on('close', () => {
-    if (hb) clearInterval(hb);
-    setTimeout(startWS, 2000); // reconectar
+    clearTimers();
+    const ms = Math.min(backoffMs, 30_000);
+    console.log(`[live] close -> reconectar en ${ms}ms`);
+    setTimeout(startWS, ms);
+    backoffMs = Math.min(backoffMs * 2, 30_000);
   });
 
   ws.on('error', () => {
-    // silencio y que reconecte
+    // silencio; el 'close' hará el backoff
   });
 }
 
+/* ===== Bootstrap ===== */
+allowlist = loadAllowlistFromLatest(); // primer allowlist
 startWS();
-console.log(`[live] conectado a WS y escribiendo ${LIVE_SUMMARY} + docs/live/*.ndjson`);
+console.log(`[live] escribiendo ${LIVE_SUMMARY} + docs/live/*.ndjson (allowlist: ${allowlist ? allowlist.size : 'all'})`);
+
+// Salida limpia en señales
+process.on('SIGINT',  () => shutdown(0, 'SIGINT'));
+process.on('SIGTERM', () => shutdown(0, 'SIGTERM'));
