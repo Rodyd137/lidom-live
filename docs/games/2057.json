@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2057",
-    "scraped_at": "2025-11-01T02:22:51.180Z",
+    "scraped_at": "2025-11-01T02:23:54.697Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-10-31 19:30:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Bryan Torres  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 2
     },
     "base_state": {
@@ -975,6 +975,34 @@
             "ts": 1761963473
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "18726-2-66",
+            "text": "Gilberto Celestino Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761963779
+          },
+          {
+            "reference_id": "18726-2-67",
+            "text": "Bryan Torres  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761963787
+          },
+          {
+            "reference_id": "18726-2-68",
+            "text": "Bryan de la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761963792
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1080,6 +1108,13 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
         "total_plays": 3,
         "scoring_plays": 0
       }
