@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2056",
-    "scraped_at": "2025-11-01T01:11:07.925Z",
+    "scraped_at": "2025-11-01T01:18:55.345Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-10-31 19:30:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Leody Taveras Ponche (K) ",
+    "lastPlayByPlay": "Emilio Bonifacio Sencillo ",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 3
+      "battingTeam": "homeTeam",
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": true,
+      "on1B": true,
+      "on2B": false,
       "on3B": false,
       "runners": 1,
-      "mask": 3
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 1,
           "H2": 0
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 1
         }
       },
@@ -773,10 +773,38 @@
           },
           {
             "reference_id": "18714-1-40",
-            "text": "JC Escarra al bate",
+            "text": "JC Escarra Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1761959383
+            "ts": 1761959487
+          },
+          {
+            "reference_id": "18714-1-41",
+            "text": "Aderlin Rodríguez Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761959683
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "18714-2-42",
+            "text": "Emilio Bonifacio Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761959910
+          },
+          {
+            "reference_id": "18714-2-43",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761959914
           }
         ]
       }
@@ -842,7 +870,14 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 5,
+        "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -877,7 +912,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
@@ -916,7 +951,7 @@
         "id": 2055,
         "date": "2025-10-31 19:00:00",
         "status": 2,
-        "roundText": "Baja 6ta",
+        "roundText": "Alta 7ma",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -932,8 +967,8 @@
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 1,
-          "hits": 3,
+          "runs": 2,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
@@ -942,7 +977,7 @@
         "id": 2057,
         "date": "2025-10-31 19:30:00",
         "status": 2,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -959,7 +994,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 3,
-          "hits": 4,
+          "hits": 5,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
         }

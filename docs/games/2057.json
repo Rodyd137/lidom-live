@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2057",
-    "scraped_at": "2025-11-01T01:11:07.949Z",
+    "scraped_at": "2025-11-01T01:18:55.362Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-10-31 19:30:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Socrates Brito Sencillo ",
+    "lastPlayByPlay": "Bryan Torres Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
       "outs": 2
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 2
     },
     "base_runners": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 3,
-          "H": 4,
+          "H": 5,
           "E": 1,
           "H2": 3
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 3,
-          "H": 4,
+          "H": 5,
           "E": 1
         }
       },
@@ -759,10 +759,45 @@
           },
           {
             "reference_id": "18723-1-39",
-            "text": "Franchy Cordero al bate",
+            "text": "Franchy Cordero Out: Elevado al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1761959321
+            "ts": 1761959546
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "18723-2-40",
+            "text": "Ivan Castillo Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761959750
+          },
+          {
+            "reference_id": "18723-2-41",
+            "text": "Gilberto Celestino Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761959853
+          },
+          {
+            "reference_id": "18723-2-42",
+            "text": "Bryan Torres Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761959928
+          },
+          {
+            "reference_id": "18723-2-43",
+            "text": "Bryan de la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761959934
           }
         ]
       }
@@ -830,6 +865,13 @@
         "label": "Alta 5ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 4,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -863,7 +905,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -902,7 +944,7 @@
         "id": 2055,
         "date": "2025-10-31 19:00:00",
         "status": 2,
-        "roundText": "Baja 6ta",
+        "roundText": "Alta 7ma",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -918,8 +960,8 @@
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 1,
-          "hits": 3,
+          "runs": 2,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
@@ -928,7 +970,7 @@
         "id": 2056,
         "date": "2025-10-31 19:30:00",
         "status": 2,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -945,7 +987,7 @@
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 0,
-          "hits": 1,
+          "hits": 2,
           "errors": 1,
           "permalink": "/equipo/tigres-del-licey"
         }
