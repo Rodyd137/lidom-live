@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1915",
-    "scraped_at": "2025-11-01T20:35:58.513Z",
+    "scraped_at": "2025-11-01T20:48:23.745Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,8 +9,8 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-01 16:00:00",
-    "roundText": "Alta 2da",
-    "currentInningNum": 2,
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 0,
-          "H": 1,
+          "R": 1,
+          "H": 3,
           "E": 0,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
           "pitcher": "Richelson Peña",
@@ -298,7 +298,7 @@
         },
         {
           "num": 2,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 1,
+          "R": 1,
+          "H": 3,
           "E": 0
         },
         "home": {
@@ -358,35 +358,35 @@
           },
           {
             "num": 2,
-            "R": 0
+            "R": 1
           },
           {
             "num": 3,
-            "R": 0
+            "R": 1
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ],
         "home": [
@@ -527,6 +527,69 @@
             "ts": 1762029130
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "17442-1-12",
+            "text": "Felix Reyes Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762029389
+          },
+          {
+            "reference_id": "17442-1-13",
+            "text": "Yairo Munoz Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762029398
+          },
+          {
+            "reference_id": "17442-1-14",
+            "text": "Ramon Torres  Doble Play! Campo Corto - Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762029456
+          },
+          {
+            "reference_id": "17442-1-15",
+            "text": "Ronaldo Hernández Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762029533
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "17442-2-16",
+            "text": "Jimmy Paredes Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762029800
+          },
+          {
+            "reference_id": "17442-2-17",
+            "text": "Luis De Los Santos  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762029868
+          },
+          {
+            "reference_id": "17442-2-18",
+            "text": "Martin Maldonado Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762029978
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -543,6 +606,20 @@
         "label": "Baja 1ra",
         "total_plays": 6,
         "scoring_plays": 2
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -555,15 +632,15 @@
       },
       {
         "num": 2,
-        "part": 1,
-        "is_last": 1,
-        "awayTeamRuns": 0,
+        "part": 2,
+        "is_last": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
