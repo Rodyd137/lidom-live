@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2055",
-    "scraped_at": "2025-11-01T01:33:07.130Z",
+    "scraped_at": "2025-11-01T01:43:15.365Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-10-31 19:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Cooper Johnson Doble! 1 Carrera Impulsada ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Eddy Yean",
           "era": "",
           "record": "",
           "debut": false
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 2,
-          "H": 4,
+          "R": 3,
+          "H": 5,
           "E": 0,
           "H2": 1
         },
@@ -324,7 +324,7 @@
         {
           "num": 7,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 8,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 2,
-          "H": 4,
+          "R": 3,
+          "H": 5,
           "E": 0
         }
       },
@@ -416,15 +416,15 @@
           },
           {
             "num": 7,
-            "R": 2
+            "R": 3
           },
           {
             "num": 8,
-            "R": 2
+            "R": 3
           },
           {
             "num": 9,
-            "R": 2
+            "R": 3
           }
         ]
       }
@@ -941,10 +941,24 @@
         "plays": [
           {
             "reference_id": "18707-2-61",
-            "text": "Carlos Jorge al bate",
+            "text": "Carlos Jorge Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1761960613
+            "ts": 1761960836
+          },
+          {
+            "reference_id": "18707-2-62",
+            "text": "Cooper Johnson Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1761961262
+          },
+          {
+            "reference_id": "18707-2-63",
+            "text": "Julio Carreras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761961265
           }
         ]
       }
@@ -1045,8 +1059,8 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 1,
-        "scoring_plays": 0
+        "total_plays": 3,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1097,7 +1111,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 8,
@@ -1136,7 +1150,7 @@
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 0,
-          "hits": 3,
+          "hits": 4,
           "errors": 1,
           "permalink": "/equipo/tigres-del-licey"
         }
@@ -1145,7 +1159,7 @@
         "id": 2057,
         "date": "2025-10-31 19:30:00",
         "status": 2,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",

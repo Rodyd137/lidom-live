@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2057",
-    "scraped_at": "2025-11-01T01:33:07.165Z",
+    "scraped_at": "2025-11-01T01:43:15.436Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-10-31 19:30:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Alexander Canario Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 2
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -822,17 +822,38 @@
           },
           {
             "reference_id": "18724-1-46",
-            "text": "Alexander Canario Sencillo y 1 Carrera Impulsada ",
-            "scored": true,
+            "text": "Alexander Canario Sencillo",
+            "scored": false,
             "is_primary": true,
             "ts": 1761960658
           },
           {
             "reference_id": "18724-1-47",
-            "text": "Jimmy Paredes al bate",
+            "text": "Jimmy Paredes Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1761960846
+          },
+          {
+            "reference_id": "18724-1-48",
+            "text": "Martin Maldonado Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1761960664
+            "ts": 1761960997
+          },
+          {
+            "reference_id": "18724-1-49",
+            "text": "Cesar Prieto Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761961178
+          },
+          {
+            "reference_id": "18724-1-50",
+            "text": "Erik Gonzalez Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1761961304
           }
         ]
       }
@@ -912,7 +933,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 4,
+        "total_plays": 7,
         "scoring_plays": 1
       }
     ],
@@ -954,7 +975,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
@@ -1002,8 +1023,8 @@
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 2,
-          "hits": 4,
+          "runs": 3,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
@@ -1029,7 +1050,7 @@
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 0,
-          "hits": 3,
+          "hits": 4,
           "errors": 1,
           "permalink": "/equipo/tigres-del-licey"
         }
