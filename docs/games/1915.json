@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1915",
-    "scraped_at": "2025-11-01T21:00:19.004Z",
+    "scraped_at": "2025-11-01T21:22:34.409Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-01 16:00:00",
-    "roundText": "Baja 3ra",
-    "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "roundText": "Baja 4ta",
+    "currentInningNum": 4,
+    "lastPlayByPlay": "Jimmy Paredes Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 1,
-          "H": 3,
+          "H": 4,
           "E": 0,
           "H2": 1
         },
@@ -175,12 +175,12 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 3,
-          "H": 3,
-          "E": 0,
+          "H": 5,
+          "E": 1,
           "H2": 3
         },
         "probables": {
-          "pitcher": "Jose Espada",
+          "pitcher": "Phillips Valdez",
           "era": "0.00",
           "record": "0-0",
           "debut": false
@@ -341,13 +341,13 @@
       "totals": {
         "away": {
           "R": 1,
-          "H": 3,
+          "H": 4,
           "E": 0
         },
         "home": {
           "R": 3,
-          "H": 3,
-          "E": 0
+          "H": 5,
+          "E": 1
         }
       },
       "cumulative": {
@@ -625,6 +625,111 @@
             "ts": 1762030687
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "17443-2-23",
+            "text": "Cesar Prieto  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762030920
+          },
+          {
+            "reference_id": "17443-2-24",
+            "text": "Erik Gonzalez Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762030980
+          },
+          {
+            "reference_id": "17443-2-25",
+            "text": "Socrates Brito Out: Elevado al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762031090
+          },
+          {
+            "reference_id": "17443-2-26",
+            "text": "Franchy Cordero Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762031216
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "17444-1-27",
+            "text": "Eloy Jimenez  Error",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762031406
+          },
+          {
+            "reference_id": "17444-1-28",
+            "text": "Felix Reyes  Out: Rodado al Primera Base - Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762031438
+          },
+          {
+            "reference_id": "17444-1-29",
+            "text": "Yairo Munoz Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762031510
+          },
+          {
+            "reference_id": "17444-1-30",
+            "text": "Ramon Torres  Doble Play! Lanzador - Campo Corto - Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762031641
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "17444-2-31",
+            "text": "Yamaico Navarro Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762031915
+          },
+          {
+            "reference_id": "17444-2-32",
+            "text": "Junior Lake Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762032034
+          },
+          {
+            "reference_id": "17444-2-33",
+            "text": "Jimmy Paredes Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762032076
+          },
+          {
+            "reference_id": "17444-2-34",
+            "text": "Luis De Los Santos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762032090
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -662,6 +767,27 @@
         "label": "Alta 3ra",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 4,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -682,14 +808,14 @@
       {
         "num": 3,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 4,
-        "part": 1,
-        "is_last": 0,
+        "part": 2,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
