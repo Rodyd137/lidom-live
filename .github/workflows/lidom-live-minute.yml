@@ -1,85 +1,80 @@
 name: lidom-live-minute
 
 on:
-  schedule:
-    - cron: "* * * * *"   # cada 1 minuto (UTC)
   workflow_dispatch: {}
+  schedule:
+    - cron: "*/5 * * * *"   # GitHub ejecuta como mínimo cada ~5 min (UTC)
 
 permissions:
   contents: write
 
-# Un solo “canal” de ejecución para evitar pisarnos con el otro workflow
 concurrency:
-  group: lidom-data
+  group: lidom-live-minute
   cancel-in-progress: true
 
 env:
   TZ: America/Santo_Domingo
   SOURCE_HOME: https://pelotainvernal.com/
-  # Igual que el scraper normal
   DETAILS_FETCH: recent
   DETAILS_DAYS: "14"
   DETAILS_CONCURRENCY: "4"
   DETAILS_STATUSES: "2,4,5,6"   # LIVE, DELAYED, SUSPENDED, FINAL
 
 jobs:
-  live_minutely:
+  live_tick_loop:
     runs-on: ubuntu-latest
-    timeout-minutes: 2
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Re-auth remote with token
+        run: git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      # Gate 1 (opcional): ventana horaria local típica (reduce ejecuciones innecesarias)
-      - name: Skip fuera de 16:00-23:59 AST
+      - name: Configure git
         run: |
-          H=$(TZ=America/Santo_Domingo date +%H)
-          if [ "$H" -lt 16 ] || [ "$H" -gt 23 ]; then
-            echo "Fuera de ventana habitual -> skip"; exit 78
-          fi
-
-      # Gate 2: si ya tenemos latest.json y NO hay juegos live-like, salimos rápido
-      - name: Saltar si no hay juegos en vivo según el último snapshot
-        run: |
-          if [ -f docs/latest.json ]; then
-            if jq -e '
-              ((.games.today // []) | map(.status) | map(tonumber))
-              | any(. == 2 or . == 4 or . == 5)
-            ' docs/latest.json > /dev/null; then
-              echo "Hay juegos live/delayed/suspended -> actualizamos"
-            else
-              echo "Sin juegos live en el último snapshot -> skip"; exit 78
-            fi
-          else
-            echo "No existe docs/latest.json aún -> corremos para generarlo"
-          fi
-
-      # Ejecuta el mismo scraper: este ya escribe docs/live.json en cada corrida
-      - name: Run scraper (minutely)
-        run: node scraper.mjs
-
-      - name: Validate live.json
-        run: |
-          jq . docs/live.json > /dev/null
-          jq . docs/latest.json > /dev/null
-
-      - name: Commit changes if any
-        run: |
-          git config user.name "github-actions[bot]"
+          git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main || true
-          if ! git diff --quiet -- docs/; then
-            git add docs/
-            TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-            git commit -m "chore: live minute tick ${TS} [skip ci]"
-            git push origin HEAD:main
-          else
-            echo "No changes to commit."
-          fi
+
+      - name: Minute loop (5 ticks de 60s)
+        shell: bash
+        run: |
+          set -euo pipefail
+          ticks=5
+          for i in $(seq 1 $ticks); do
+            echo "== Tick $i/$ticks =="
+            node scraper.mjs || true
+
+            # Valida archivos si existen
+            if [ -f docs/live.json ]; then jq . docs/live.json > /dev/null || true; fi
+            if [ -f docs/latest.json ]; then jq . docs/latest.json > /dev/null || true; fi
+
+            # Commit/push solo si hubo cambios en docs/
+            if ! git diff --quiet -- docs/; then
+              git add docs/
+              TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+              git commit -m "chore: live minute tick ${TS} [skip ci]"
+              git pull --rebase origin main || true
+              git push origin HEAD:main
+            else
+              echo "No changes to commit (tick $i)."
+            fi
+
+            # Si no hay juegos live, salimos antes de tiempo
+            if [ -f docs/live.json ] && jq -e '.live | length == 0' docs/live.json > /dev/null 2>&1; then
+              echo "No hay juegos en vivo; fin temprano."
+              break
+            fi
+
+            # Dormimos 60s a menos que sea el último tick
+            if [ "$i" -lt "$ticks" ]; then
+              sleep 60
+            fi
+          done
