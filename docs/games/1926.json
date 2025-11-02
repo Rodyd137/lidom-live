@@ -1,24 +1,24 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1926",
-    "scraped_at": "2025-11-02T21:11:36.653Z",
+    "scraped_at": "2025-11-02T21:27:29.591Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1926,
     "season_id": 20,
-    "status": 4,
+    "status": 2,
     "date": "2025-11-02 17:00:00",
-    "roundText": "Alta 1ra",
-    "currentInningNum": 1,
+    "roundText": "Baja 2da",
+    "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -330,7 +330,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -418,20 +418,162 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "17540-1-1",
+            "text": "Gilberto Celestino Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762118127
+          },
+          {
+            "reference_id": "17540-1-2",
+            "text": "Felix Reyes  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762118140
+          },
+          {
+            "reference_id": "17540-1-3",
+            "text": "Bryan de la Cruz Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762118154
+          }
+        ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "17540-2-4",
+            "text": "Ismael Munguia Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762118165
+          },
+          {
+            "reference_id": "17540-2-5",
+            "text": "Ismael Munguia Out Robando Base! Lanzador - Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762118181
+          },
+          {
+            "reference_id": "17540-2-6",
+            "text": "Eguy Rosario Out: Línea al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762118198
+          },
+          {
+            "reference_id": "17540-2-7",
+            "text": "Josh Lester Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762118231
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "17541-1-8",
+            "text": "Jhonkensy Noel Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762118364
+          },
+          {
+            "reference_id": "17541-1-9",
+            "text": "Mickey Gasper Out: Línea al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762118449
+          },
+          {
+            "reference_id": "17541-1-10",
+            "text": "Eloy Jimenez  Sencillo Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762118516
+          },
+          {
+            "reference_id": "17541-1-11",
+            "text": "Yairo Munoz Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762118644
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "17541-2-12",
+            "text": "Miguel Sano al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762118828
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
-        "is_last": 1,
+        "part": 2,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 2,
-        "part": 1,
-        "is_last": 0,
+        "part": 2,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
