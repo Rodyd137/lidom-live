@@ -15,6 +15,12 @@ const LIVE_PATH = path.join(OUT_DIR, 'live.json');
 const SOURCE_HOME = process.env.SOURCE_HOME || 'https://pelotainvernal.com/';
 const TZ = process.env.TZ || 'America/Santo_Domingo';
 
+// === NUEVO: loop “mientras hay juegos” ===
+const LIVE_WHILE_GAMES = (process.env.LIVE_WHILE_GAMES || '0') === '1';
+const LIVE_SLEEP_SECONDS = Math.max(5, Number(process.env.LIVE_SLEEP_SECONDS || 300)); // 5 min por defecto
+const LIVE_MAX_MINUTES = Math.max(5, Number(process.env.LIVE_MAX_MINUTES || 240));    // 4h tope
+const sleep = (ms) => new Promise(res => setTimeout(res, ms));
+
 // Detalle: recent | all | none
 const DETAILS_FETCH = (process.env.DETAILS_FETCH || 'recent').toLowerCase();
 const DETAILS_DAYS = Number(process.env.DETAILS_DAYS || 14);
@@ -39,7 +45,7 @@ function nowISO() { return new Date().toISOString(); }
 async function fetchText(url) {
   const res = await fetch(url, {
     headers: {
-      'user-agent': 'lidom-scraper/1.4',
+      'user-agent': 'lidom-scraper/1.5',
       'accept': 'text/html,application/xhtml+xml'
     }
   });
@@ -51,7 +57,7 @@ async function fetchJsonPOST(url, bodyObj) {
   const res = await fetch(url, {
     method: 'POST',
     headers: {
-      'user-agent': 'lidom-scraper/1.4',
+      'user-agent': 'lidom-scraper/1.5',
       'accept': 'application/json, text/javascript, */*; q=0.01',
       'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
       'x-requested-with': 'XMLHttpRequest',
@@ -144,6 +150,8 @@ function extractAllNewViewModelArgs(html) {
     function readArg() {
       while (/\s|,/.test(html[i])) i++;
       const ch = html[i];
+
+      // objetos/arrays JSON
       if (ch === '{' || ch === '[') {
         const open = ch, close = ch === '{' ? '}' : ']';
         let depth = 0, j = i, inStr = false, esc = false;
@@ -165,6 +173,7 @@ function extractAllNewViewModelArgs(html) {
         return JSON.parse(text);
       }
 
+      // strings
       if (ch === '"' || ch === "'") {
         const quote = ch;
         let j = i + 1, esc = false;
@@ -180,6 +189,7 @@ function extractAllNewViewModelArgs(html) {
         return JSON.parse(text);
       }
 
+      // literales
       let j = i;
       while (j < html.length && !/[,\)]/.test(html[j])) j++;
       const raw = html.slice(i, j).trim();
@@ -206,10 +216,12 @@ function extractAllNewViewModelArgs(html) {
 }
 
 function pickViewModelForDetails(allCalls) {
+  // Detalle: 4 args: [gameData, siblingGames, logs, translations]
   for (const args of allCalls) {
     const g = args[0];
     if (g && typeof g === 'object' && (g.awayTeam && g.homeTeam)) return args;
   }
+  // fallback: la de mayor número de args
   return allCalls.sort((a,b)=>b.length-a.length)[0];
 }
 
@@ -221,6 +233,7 @@ function extractFirstNewViewModelArgs(html) {
 
 /* ============ Normalizadores básicos (home) ============ */
 function _firstSeries(seriesLike) {
+  // HOME puede traer un objeto o un array [series]
   return Array.isArray(seriesLike) ? (seriesLike[0] || {}) : (seriesLike || {});
 }
 
@@ -244,7 +257,7 @@ function normalizeHomePayload(seriesLike) {
   };
 }
 
-// Unión de juegos del HOME
+// Unión de juegos del HOME: today/upcoming/previous y nearestGames (si existe)
 function collectHomeGamesUnion(seriesLike) {
   const s = _firstSeries(seriesLike);
   const pool = [];
@@ -252,7 +265,7 @@ function collectHomeGamesUnion(seriesLike) {
   pushArr(s?.todayGames);
   pushArr(s?.upcomingGames);
   pushArr(s?.previousGames);
-  pushArr(s?.nearestGames);
+  pushArr(s?.nearestGames); // algunas plantillas lo traen
   return dedupeGames(pool).sort(sortByDateStrAsc);
 }
 function getHomeTodayGames(seriesLike) {
@@ -334,7 +347,7 @@ function parseInningLabel(label = '') {
 }
 
 function groupPlayByPlay(logs = []) {
-  const bucket = new Map();
+  const bucket = new Map(); // key `${num}-${half}`
   for (const blk of logs) {
     const meta = parseInningLabel(blk.inning);
     const key = `${meta.num}-${meta.half}`;
@@ -495,6 +508,7 @@ function normalizeGameDetails(rawGame, rawLogs, siblingGames, htmlForTables='') 
 async function fetchGameDetails(gameId) {
   const url = new URL(`/${gameId}`, SOURCE_HOME).href;
   const html = await fetchText(url);
+  // Detalle: new ViewModel(gameData, siblingGames, logs, translations)
   const args = extractFirstNewViewModelArgs(html);
   const gameData = args[0];
   const siblingGames = args[1] || [];
@@ -616,8 +630,8 @@ function buildLiveSummary(todayList = [], todayDetailsMap = {}) {
   };
 }
 
-/* ============ Main ============ */
-async function main() {
+/* ============ Una corrida de scrape (retorna cantidad de juegos live) ============ */
+async function scrapeOnce() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
   fs.mkdirSync(HISTORY_DIR, { recursive: true });
   fs.mkdirSync(GAMES_DIR, { recursive: true });
@@ -630,22 +644,22 @@ async function main() {
     games: { today: [], upcoming: [], previous: [] },
   };
 
-  // HOME
+  // HOME (puede venir objeto o array en el primer arg de ViewModel)
   let homeSeriesArg = null;
   let homeGames = [];
   let homeToday = [];
   try {
     const homeHtml = await fetchText(SOURCE_HOME);
     const homeArgs = extractFirstNewViewModelArgs(homeHtml);
-    homeSeriesArg = homeArgs[0];
-    out = normalizeHomePayload(homeSeriesArg);
-    homeGames = collectHomeGamesUnion(homeSeriesArg);
-    homeToday = getHomeTodayGames(homeSeriesArg);
+    homeSeriesArg = homeArgs[0];                         // [ series ] o {series}
+    out = normalizeHomePayload(homeSeriesArg);           // liga + standings
+    homeGames = collectHomeGamesUnion(homeSeriesArg);    // unión home
+    homeToday = getHomeTodayGames(homeSeriesArg);        // HOY directo del home
   } catch (e) {
     console.warn('Home fetch/parse failed:', e.message);
   }
 
-  // Calendario (o fallback)
+  // Calendario
   let calendarGames = [];
   if (out?.league?.seo_url) {
     try {
@@ -672,6 +686,8 @@ async function main() {
   // Fusión (HOME union + calendario + resultados)
   const allGames = dedupeGames([...homeGames, ...calendarGames, ...resultsGames]).sort(sortByDateStrAsc);
   const todayYMD = formatYMDInTZ(new Date(), TZ);
+
+  // “Hoy” preferimos lo que trae el HOME; si vacío, caemos a filtro por fecha
   const todayFromHome = homeToday && homeToday.length ? homeToday : allGames.filter(g => gameYMD(g) === todayYMD);
 
   out.games = {
@@ -708,7 +724,7 @@ async function main() {
   const today_details = {};
   for (const r of detailResults) {
     if (r?.ok && r.file) files[r.id] = r.file;
-    if (r?.ok && todayIds.includes(r.id)) today_details[r.id] = r.detail;
+    if (r?.ok && todayIds.includes(r.id)) today_details[r.id] = r.detail; // embed para hoy
   }
 
   out.details_index = {
@@ -722,7 +738,7 @@ async function main() {
   // Embebemos detalles de HOY
   out.today_details = today_details;
 
-  // ====== LIVE SUMMARY cada corrida (para “near-realtime” de 2 min) ======
+  // ====== LIVE SUMMARY (para “near-realtime”) ======
   const livePayload = buildLiveSummary(out.games.today || [], today_details || {});
   writeIfChanged(LIVE_PATH, livePayload);
 
@@ -743,7 +759,28 @@ async function main() {
     fs.unlinkSync(tmpPath);
     console.log('No changes (latest). Live summary may still have updated if needed.');
   }
+
+  return { liveCount: (livePayload?.live?.length || 0) };
+}
+
+/* ============ Main con loop opcional ============ */
+async function main() {
+  const t0 = Date.now();
+  const maxMs = LIVE_MAX_MINUTES * 60_000;
+
+  let iter = 0;
+  while (true) {
+    iter++;
+    console.log(`\n===== SCRAPE ITERATION ${iter} @ ${nowISO()} =====`);
+    const { liveCount } = await scrapeOnce();
+
+    if (!LIVE_WHILE_GAMES) break;          // modo tradicional: una sola corrida
+    if (liveCount <= 0) break;             // no hay juegos live -> salir
+    if (Date.now() - t0 >= maxMs) break;   // tope de seguridad
+
+    console.log(`Hay ${liveCount} juego(s) en vivo. Próximo tick en ${LIVE_SLEEP_SECONDS}s...`);
+    await sleep(LIVE_SLEEP_SECONDS * 1000);
+  }
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
-
