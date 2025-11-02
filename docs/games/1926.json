@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1926",
-    "scraped_at": "2025-11-02T21:40:03.223Z",
+    "scraped_at": "2025-11-02T21:52:24.376Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-02 17:00:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Gilberto Celestino Base por Bolas ",
+    "lastPlayByPlay": "Euribiel Angeles  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 1
+      "strikes": 2,
+      "outs": 2
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 5
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 0,
-          "H": 1,
+          "R": 2,
+          "H": 2,
           "E": 0,
-          "H2": 0
+          "H2": 2
         },
         "probables": {
           "pitcher": "Aaron Sanchez",
@@ -175,7 +175,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -303,7 +303,7 @@
         },
         {
           "num": 3,
-          "away": 0,
+          "away": 2,
           "home": 0
         },
         {
@@ -340,13 +340,13 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 1,
+          "R": 2,
+          "H": 2,
           "E": 0
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         }
       },
@@ -362,31 +362,31 @@
           },
           {
             "num": 3,
-            "R": 0
+            "R": 2
           },
           {
             "num": 4,
-            "R": 0
+            "R": 2
           },
           {
             "num": 5,
-            "R": 0
+            "R": 2
           },
           {
             "num": 6,
-            "R": 0
+            "R": 2
           },
           {
             "num": 7,
-            "R": 0
+            "R": 2
           },
           {
             "num": 8,
-            "R": 0
+            "R": 2
           },
           {
             "num": 9,
-            "R": 0
+            "R": 2
           }
         ],
         "home": [
@@ -584,10 +584,52 @@
           },
           {
             "reference_id": "17542-1-18",
-            "text": "Felix Reyes al bate",
+            "text": "Felix Reyes  Out: Rodado al Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1762119560
+            "ts": 1762119698
+          },
+          {
+            "reference_id": "17542-1-19",
+            "text": "Bryan de la Cruz Sencillo y 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762119729
+          },
+          {
+            "reference_id": "17542-1-20",
+            "text": "Jhonkensy Noel Out: Línea al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762119791
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "17542-2-21",
+            "text": "Nelson Velasquez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762120171
+          },
+          {
+            "reference_id": "17542-2-22",
+            "text": "Euribiel Angeles  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762120209
+          },
+          {
+            "reference_id": "17542-2-23",
+            "text": "Josh Lester al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762120217
           }
         ]
       }
@@ -625,7 +667,14 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 4,
+        "total_plays": 6,
+        "scoring_plays": 1
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -646,9 +695,9 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
@@ -699,7 +748,7 @@
         "id": 1921,
         "date": "2025-11-02 17:00:00",
         "status": 2,
-        "roundText": "Alta 2da",
+        "roundText": "Alta 3ra",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -715,8 +764,8 @@
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 4,
-          "hits": 2,
+          "runs": 5,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         }
