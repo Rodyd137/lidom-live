@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1926",
-    "scraped_at": "2025-11-02T22:44:46.207Z",
+    "scraped_at": "2025-11-02T22:56:37.862Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-02 17:00:00",
-    "roundText": "Baja 6ta",
-    "currentInningNum": 6,
-    "lastPlayByPlay": "Ismael Munguia Out: Elevado al Jardinero Central",
+    "roundText": "Alta 7ma",
+    "currentInningNum": 7,
+    "lastPlayByPlay": "Rafael Lantigua  Cuadrangular! 2 Carreras Impulsadas ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 1,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 3,
-          "H": 3,
+          "R": 5,
+          "H": 5,
           "E": 0,
           "H2": 2
         },
@@ -312,7 +312,7 @@
         },
         {
           "num": 7,
-          "away": 0,
+          "away": 2,
           "home": 0
         },
         {
@@ -329,8 +329,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 3,
-          "H": 3,
+          "R": 5,
+          "H": 5,
           "E": 0
         },
         "home": {
@@ -367,15 +367,15 @@
           },
           {
             "num": 7,
-            "R": 3
+            "R": 5
           },
           {
             "num": 8,
-            "R": 3
+            "R": 5
           },
           {
             "num": 9,
-            "R": 3
+            "R": 5
           }
         ],
         "home": [
@@ -804,10 +804,52 @@
           },
           {
             "reference_id": "17545-2-45",
-            "text": "Eguy Rosario al bate",
+            "text": "Eguy Rosario  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1762123304
+            "ts": 1762123559
+          },
+          {
+            "reference_id": "17545-2-46",
+            "text": "Josh Lester Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762123721
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "17546-1-47",
+            "text": "Eloy Jimenez   Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762123912
+          },
+          {
+            "reference_id": "17546-1-48",
+            "text": "Yairo Munoz Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762123983
+          },
+          {
+            "reference_id": "17546-1-49",
+            "text": "Rafael Lantigua  Cuadrangular! 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762124139
+          },
+          {
+            "reference_id": "17546-1-50",
+            "text": "Ronaldo Hernández al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762124143
           }
         ]
       }
@@ -894,8 +936,15 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -937,15 +986,15 @@
       {
         "num": 6,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 7,
         "part": 1,
-        "is_last": 0,
-        "awayTeamRuns": 0,
+        "is_last": 1,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
@@ -968,14 +1017,14 @@
         "id": 1921,
         "date": "2025-11-02 17:00:00",
         "status": 2,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 6,
-          "hits": 8,
+          "runs": 8,
+          "hits": 9,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
