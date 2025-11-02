@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1921",
-    "scraped_at": "2025-11-02T22:56:37.857Z",
+    "scraped_at": "2025-11-02T23:22:44.265Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-02 17:00:00",
-    "roundText": "Baja 4ta",
-    "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "roundText": "Baja 5ta",
+    "currentInningNum": 5,
+    "lastPlayByPlay": "Armando Alvarez Robo de Base ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 3,
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 8
         },
         "probables": {
-          "pitcher": "Luis Santos",
+          "pitcher": "Kenny Hernández",
           "era": "",
           "record": "",
           "debut": false
@@ -175,8 +175,8 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 5,
-          "H": 6,
-          "E": 0,
+          "H": 7,
+          "E": 2,
           "H2": 5
         },
         "probables": {
@@ -346,8 +346,8 @@
         },
         "home": {
           "R": 5,
-          "H": 6,
-          "E": 0
+          "H": 7,
+          "E": 2
         }
       },
       "cumulative": {
@@ -772,6 +772,111 @@
             "ts": 1762124098
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "17498-2-42",
+            "text": "Victor Labrada Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762124347
+          },
+          {
+            "reference_id": "17498-2-43",
+            "text": "Emilio Bonifacio  Out: Rodado al Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762124459
+          },
+          {
+            "reference_id": "17498-2-44",
+            "text": "Gustavo Nuñez  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762124683
+          },
+          {
+            "reference_id": "17498-2-45",
+            "text": "Mel Rojas Jr. Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762124847
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "17499-1-46",
+            "text": "Jonathan Arauz Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762125089
+          },
+          {
+            "reference_id": "17499-1-47",
+            "text": "Alexander Canario Out: Elevado al Receptor",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762125135
+          },
+          {
+            "reference_id": "17499-1-48",
+            "text": "Martin Maldonado  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762125232
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "17499-2-49",
+            "text": "Jordan Lawlar Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762125479
+          },
+          {
+            "reference_id": "17499-2-50",
+            "text": "Domingo Leyba Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762125554
+          },
+          {
+            "reference_id": "17499-2-51",
+            "text": "Armando Alvarez Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762125589
+          },
+          {
+            "reference_id": "17499-2-52",
+            "text": "Sergio Alcantara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762125595
+          },
+          {
+            "reference_id": "17499-2-51-254756",
+            "text": "Armando Alvarez Robo de Base ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1762125716
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -823,6 +928,27 @@
         "label": "Alta 4ta",
         "total_plays": 13,
         "scoring_plays": 4
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 5,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -850,14 +976,14 @@
       {
         "num": 4,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 8,
         "homeTeamRuns": 0
       },
       {
         "num": 5,
-        "part": 1,
-        "is_last": 0,
+        "part": 2,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -921,7 +1047,7 @@
         "id": 1926,
         "date": "2025-11-02 17:00:00",
         "status": 2,
-        "roundText": "Alta 7ma",
+        "roundText": "Alta 8va",
         "awayTeam": {
           "id": 6,
           "name": "Toros",

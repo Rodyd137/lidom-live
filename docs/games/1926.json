@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1926",
-    "scraped_at": "2025-11-02T22:56:37.862Z",
+    "scraped_at": "2025-11-02T23:22:44.275Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-02 17:00:00",
-    "roundText": "Alta 7ma",
-    "currentInningNum": 7,
-    "lastPlayByPlay": "Rafael Lantigua  Cuadrangular! 2 Carreras Impulsadas ",
+    "roundText": "Alta 8va",
+    "currentInningNum": 8,
+    "lastPlayByPlay": "Mickey Gasper Golpeado por Pelota ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 8
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on1B": true,
+      "on2B": true,
+      "on3B": true,
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Aaron Sanchez",
+          "pitcher": "Jesus Liranzo",
           "era": "",
           "record": "",
           "debut": false
@@ -70,6 +70,17 @@
             "team_id": 6,
             "name": "Gilberto Celestino",
             "abbreviation": "G. Celestino",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5461,
+            "team_id": 6,
+            "name": "Guztavo Campero",
+            "abbreviation": "G. Campero",
             "number": null,
             "dob": null,
             "height": "",
@@ -169,7 +180,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Enny Romero",
+          "pitcher": "Raffi Vizcaíno",
           "era": "",
           "record": "",
           "debut": false
@@ -846,10 +857,94 @@
           },
           {
             "reference_id": "17546-1-50",
-            "text": "Ronaldo Hernández al bate",
+            "text": "Ronaldo Hernández Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762124143
+            "ts": 1762124244
+          },
+          {
+            "reference_id": "17546-1-51",
+            "text": "Gilberto Celestino Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762124296
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "17546-2-52",
+            "text": "Miguel Sano  Out: Rodado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762124637
+          },
+          {
+            "reference_id": "17546-2-53",
+            "text": "Raimel Tapia Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762124698
+          },
+          {
+            "reference_id": "17546-2-54",
+            "text": "Coco Montes Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762124824
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "17547-1-55",
+            "text": "Felix Reyes Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762125007
+          },
+          {
+            "reference_id": "17547-1-56",
+            "text": "Bryan de la Cruz Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762125204
+          },
+          {
+            "reference_id": "17547-1-57",
+            "text": "Guztavo Campero Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762125268
+          },
+          {
+            "reference_id": "17547-1-58",
+            "text": "Jhonkensy Noel Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762125548
+          },
+          {
+            "reference_id": "17547-1-59",
+            "text": "Mickey Gasper Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762125609
+          },
+          {
+            "reference_id": "17547-1-60",
+            "text": "Eloy Jimenez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762125615
           }
         ]
       }
@@ -943,8 +1038,22 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 6,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -992,15 +1101,15 @@
       },
       {
         "num": 7,
-        "part": 1,
-        "is_last": 1,
+        "part": 2,
+        "is_last": 0,
         "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
         "num": 8,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -1017,7 +1126,7 @@
         "id": 1921,
         "date": "2025-11-02 17:00:00",
         "status": 2,
-        "roundText": "Baja 4ta",
+        "roundText": "Baja 5ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -1034,8 +1143,8 @@
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 5,
-          "hits": 6,
-          "errors": 0,
+          "hits": 7,
+          "errors": 2,
           "permalink": "/equipo/tigres-del-licey"
         }
       },
