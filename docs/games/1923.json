@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1923",
-    "scraped_at": "2025-10-27T03:16:17.623Z",
+    "scraped_at": "2025-11-02T07:22:42.102Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -20,6 +20,13 @@
     "base_state": {
       "battingTeam": "awayTeam",
       "base": 1
+    },
+    "base_runners": {
+      "on1B": false,
+      "on2B": false,
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -87,65 +94,47 @@
         {
           "num": 1,
           "away": 0,
-          "home": 0,
-          "top": 0,
-          "bottom": 0
+          "home": 0
         },
         {
           "num": 2,
           "away": 0,
-          "home": 0,
-          "top": 0,
-          "bottom": 0
+          "home": 0
         },
         {
           "num": 3,
           "away": 0,
-          "home": 0,
-          "top": 0,
-          "bottom": 0
+          "home": 0
         },
         {
           "num": 4,
           "away": 0,
-          "home": 0,
-          "top": 0,
-          "bottom": 0
+          "home": 0
         },
         {
           "num": 5,
           "away": 0,
-          "home": 0,
-          "top": 0,
-          "bottom": 0
+          "home": 0
         },
         {
           "num": 6,
           "away": 0,
-          "home": 0,
-          "top": 0,
-          "bottom": 0
+          "home": 0
         },
         {
           "num": 7,
           "away": 0,
-          "home": 0,
-          "top": 0,
-          "bottom": 0
+          "home": 0
         },
         {
           "num": 8,
           "away": 0,
-          "home": 0,
-          "top": 0,
-          "bottom": 0
+          "home": 0
         },
         {
           "num": 9,
           "away": 0,
-          "home": 0,
-          "top": 0,
-          "bottom": 0
+          "home": 0
         }
       ],
       "extras": false,
@@ -241,7 +230,6 @@
       }
     },
     "plays_by_inning": [],
-    "plays_flat": [],
     "plays_summary_by_inning": [],
     "innings_raw": [
       {
@@ -310,19 +298,19 @@
     ],
     "siblingGames": [
       {
-        "id": 2045,
-        "date": "2025-10-26 17:00:00",
-        "status": 7,
+        "id": 1921,
+        "date": "2025-11-02 17:00:00",
+        "status": 1,
         "roundText": "Alta 1ra",
         "awayTeam": {
-          "id": 3,
-          "name": "Aguilas",
-          "abbr": "AC",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
+          "id": 4,
+          "name": "Leones",
+          "abbr": "LE",
+          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 0,
           "hits": 0,
           "errors": 0,
-          "permalink": "/equipo/aguilas-cibaenas"
+          "permalink": "/equipo/leones-del-escogido"
         },
         "homeTeam": {
           "id": 1,
@@ -336,47 +324,11 @@
         }
       },
       {
-        "id": 2047,
-        "date": "2025-10-26 17:00:00",
-        "status": 7,
+        "id": 1926,
+        "date": "2025-11-02 17:00:00",
+        "status": 1,
         "roundText": "Alta 1ra",
         "awayTeam": {
-          "id": 7,
-          "name": "Estrellas",
-          "abbr": "EO",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 0,
-          "hits": 0,
-          "errors": 0,
-          "permalink": "/equipo/estrellas-orientales"
-        },
-        "homeTeam": {
-          "id": 5,
-          "name": "Gigantes",
-          "abbr": "GC",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 0,
-          "hits": 0,
-          "errors": 0,
-          "permalink": "/equipo/gigantes-del-cibao"
-        }
-      },
-      {
-        "id": 2048,
-        "date": "2025-10-26 17:00:00",
-        "status": 7,
-        "roundText": "Alta 1ra",
-        "awayTeam": {
-          "id": 4,
-          "name": "Leones",
-          "abbr": "LE",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 0,
-          "hits": 0,
-          "errors": 0,
-          "permalink": "/equipo/leones-del-escogido"
-        },
-        "homeTeam": {
           "id": 6,
           "name": "Toros",
           "abbr": "TE",
@@ -385,6 +337,16 @@
           "hits": 0,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
+        },
+        "homeTeam": {
+          "id": 7,
+          "name": "Estrellas",
+          "abbr": "EO",
+          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
+          "runs": 0,
+          "hits": 0,
+          "errors": 0,
+          "permalink": "/equipo/estrellas-orientales"
         }
       }
     ],
@@ -418,7 +380,7 @@
       },
       {
         "title": "Estadísticas Generales",
-        "round": "Temporada Regular (4 Juegos)",
+        "round": "Temporada Regular (9 Juegos)",
         "columns": [
           "G",
           "P",
@@ -429,20 +391,20 @@
         ],
         "teams": {
           "Aguilas AC": {
-            "G": 3,
+            "G": 8,
             "P": 1,
-            "CA": 6.5,
-            "CP": 5.3,
-            "H": 10,
-            "E": 0.5
+            "CA": 7,
+            "CP": 5,
+            "H": 10.2,
+            "E": 1.1
           },
           "Gigantes GC": {
-            "G": 0,
-            "P": 3,
-            "CA": 3.7,
-            "CP": 6.7,
-            "H": 7,
-            "E": 0.7
+            "G": 2,
+            "P": 5,
+            "CA": 4.1,
+            "CP": 6.4,
+            "H": 7.4,
+            "E": 1.1
           }
         }
       }
