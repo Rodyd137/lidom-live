@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1926",
-    "scraped_at": "2025-11-02T23:22:44.275Z",
+    "scraped_at": "2025-11-02T23:36:19.250Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-02 17:00:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Mickey Gasper Golpeado por Pelota ",
+    "lastPlayByPlay": "Ismael Munguia Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 8
+      "battingTeam": "homeTeam",
+      "base": 2
     },
     "base_runners": {
       "on1B": true,
-      "on2B": true,
-      "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "on2B": false,
+      "on3B": false,
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -53,13 +53,13 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 5,
-          "H": 5,
+          "R": 7,
+          "H": 6,
           "E": 0,
           "H2": 2
         },
         "probables": {
-          "pitcher": "Jesus Liranzo",
+          "pitcher": "José Adames",
           "era": "",
           "record": "",
           "debut": false
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 1,
-          "H": 3,
+          "R": 2,
+          "H": 4,
           "E": 0,
           "H2": 1
         },
@@ -328,8 +328,8 @@
         },
         {
           "num": 8,
-          "away": 0,
-          "home": 0
+          "away": 2,
+          "home": 1
         },
         {
           "num": 9,
@@ -340,13 +340,13 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 5,
-          "H": 5,
+          "R": 7,
+          "H": 6,
           "E": 0
         },
         "home": {
-          "R": 1,
-          "H": 3,
+          "R": 2,
+          "H": 4,
           "E": 0
         }
       },
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 5
+            "R": 7
           },
           {
             "num": 9,
-            "R": 5
+            "R": 7
           }
         ],
         "home": [
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 1
+            "R": 2
           },
           {
             "num": 9,
-            "R": 1
+            "R": 2
           }
         ]
       }
@@ -941,10 +941,66 @@
           },
           {
             "reference_id": "17547-1-60",
-            "text": "Eloy Jimenez  al bate",
+            "text": "Eloy Jimenez  Elevado de Sacrificio Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762125864
+          },
+          {
+            "reference_id": "17547-1-61",
+            "text": "Yairo Munoz Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762125926
+          },
+          {
+            "reference_id": "17547-1-62",
+            "text": "Rafael Lantigua  Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762125615
+            "ts": 1762126063
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "17547-2-63",
+            "text": "Nelson Velasquez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762126370
+          },
+          {
+            "reference_id": "17547-2-64",
+            "text": "Euribiel Angeles Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762126428
+          },
+          {
+            "reference_id": "17547-2-65",
+            "text": "Carlos Mario Martinez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762126518
+          },
+          {
+            "reference_id": "17547-2-66",
+            "text": "Ismael Munguia Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762126535
+          },
+          {
+            "reference_id": "17547-2-67",
+            "text": "Eguy Rosario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762126538
           }
         ]
       }
@@ -1052,8 +1108,15 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 6,
-        "scoring_plays": 0
+        "total_plays": 8,
+        "scoring_plays": 2
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1108,10 +1171,10 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
-        "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "awayTeamRuns": 2,
+        "homeTeamRuns": 1
       },
       {
         "num": 9,
@@ -1126,7 +1189,7 @@
         "id": 1921,
         "date": "2025-11-02 17:00:00",
         "status": 2,
-        "roundText": "Baja 5ta",
+        "roundText": "Alta 6ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",

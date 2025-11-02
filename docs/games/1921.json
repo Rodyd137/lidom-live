@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1921",
-    "scraped_at": "2025-11-02T23:22:44.265Z",
+    "scraped_at": "2025-11-02T23:36:19.249Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-02 17:00:00",
-    "roundText": "Baja 5ta",
-    "currentInningNum": 5,
-    "lastPlayByPlay": "Armando Alvarez Robo de Base ",
+    "roundText": "Alta 6ta",
+    "currentInningNum": 6,
+    "lastPlayByPlay": "Erik Gonzalez  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 3
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 8
         },
         "probables": {
-          "pitcher": "Kenny Hernández",
+          "pitcher": "Henry Sosa",
           "era": "",
           "record": "",
           "debut": false
@@ -264,10 +264,10 @@
             "position": ""
           },
           {
-            "id": 5267,
+            "id": 5268,
             "team_id": 1,
-            "name": "Michael De La Cruz",
-            "abbreviation": "M. De La Cruz",
+            "name": "Christian Bethancourt",
+            "abbreviation": "C. Bethancourt",
             "number": null,
             "dob": null,
             "height": "",
@@ -863,18 +863,53 @@
             "ts": 1762125589
           },
           {
-            "reference_id": "17499-2-52",
-            "text": "Sergio Alcantara al bate",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1762125595
-          },
-          {
             "reference_id": "17499-2-51-254756",
             "text": "Armando Alvarez Robo de Base ",
             "scored": false,
             "is_primary": false,
             "ts": 1762125716
+          },
+          {
+            "reference_id": "17499-2-52",
+            "text": "Sergio Alcantara Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762125771
+          },
+          {
+            "reference_id": "17499-2-53",
+            "text": "Christian Bethancourt Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762126052
+          }
+        ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "17500-1-54",
+            "text": "Cesar Prieto Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762126273
+          },
+          {
+            "reference_id": "17500-1-55",
+            "text": "Erik Gonzalez  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762126418
+          },
+          {
+            "reference_id": "17500-1-56",
+            "text": "Socrates Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762126424
           }
         ]
       }
@@ -947,7 +982,14 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 5,
+        "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -983,14 +1025,14 @@
       {
         "num": 5,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 6,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -1047,14 +1089,14 @@
         "id": 1926,
         "date": "2025-11-02 17:00:00",
         "status": 2,
-        "roundText": "Alta 8va",
+        "roundText": "Baja 8va",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 5,
-          "hits": 5,
+          "runs": 7,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         },
@@ -1063,8 +1105,8 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 1,
-          "hits": 3,
+          "runs": 2,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
