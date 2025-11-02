@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1921",
-    "scraped_at": "2025-11-02T21:27:29.576Z",
+    "scraped_at": "2025-11-02T21:40:03.182Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-02 17:00:00",
-    "roundText": "Baja 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "Domingo Leyba Base por Bolas ",
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "Yamaico Navarro Sencillo ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 2
+      "balls": 2,
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 8
+      "battingTeam": "awayTeam",
+      "base": 2
     },
     "base_runners": {
       "on1B": true,
-      "on2B": true,
-      "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "on2B": false,
+      "on3B": false,
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,12 +54,12 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
         "probables": {
-          "pitcher": "Grant Gavin",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -174,10 +174,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
-          "R": 0,
-          "H": 0,
+          "R": 4,
+          "H": 2,
           "E": 0,
-          "H2": 0
+          "H2": 4
         },
         "probables": {
           "pitcher": "Paolo Espino",
@@ -294,7 +294,7 @@
         {
           "num": 1,
           "away": 0,
-          "home": 0
+          "home": 4
         },
         {
           "num": 2,
@@ -341,12 +341,12 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
-          "R": 0,
-          "H": 0,
+          "R": 4,
+          "H": 2,
           "E": 0
         }
       },
@@ -392,39 +392,39 @@
         "home": [
           {
             "num": 1,
-            "R": 0
+            "R": 4
           },
           {
             "num": 2,
-            "R": 0
+            "R": 4
           },
           {
             "num": 3,
-            "R": 0
+            "R": 4
           },
           {
             "num": 4,
-            "R": 0
+            "R": 4
           },
           {
             "num": 5,
-            "R": 0
+            "R": 4
           },
           {
             "num": 6,
-            "R": 0
+            "R": 4
           },
           {
             "num": 7,
-            "R": 0
+            "R": 4
           },
           {
             "num": 8,
-            "R": 0
+            "R": 4
           },
           {
             "num": 9,
-            "R": 0
+            "R": 4
           }
         ]
       }
@@ -514,10 +514,45 @@
           },
           {
             "reference_id": "17495-2-10",
-            "text": "Armando Alvarez al bate",
+            "text": "Armando Alvarez Cuadrangular! 4 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762118974
+          },
+          {
+            "reference_id": "17495-2-11",
+            "text": "Sergio Alcantara Doble! ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762118770
+            "ts": 1762119076
+          },
+          {
+            "reference_id": "17495-2-12",
+            "text": "Michael De La Cruz Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762119318
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "17496-1-13",
+            "text": "Yamaico Navarro Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762119527
+          },
+          {
+            "reference_id": "17496-1-14",
+            "text": "Junior Lake al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762119530
           }
         ]
       }
@@ -534,7 +569,14 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 7,
+        "total_plays": 9,
+        "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -542,14 +584,14 @@
       {
         "num": 1,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 4
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -634,7 +676,7 @@
         "id": 1926,
         "date": "2025-11-02 17:00:00",
         "status": 2,
-        "roundText": "Baja 2da",
+        "roundText": "Alta 3ra",
         "awayTeam": {
           "id": 6,
           "name": "Toros",

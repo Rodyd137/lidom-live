@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1926",
-    "scraped_at": "2025-11-02T21:27:29.591Z",
+    "scraped_at": "2025-11-02T21:40:03.223Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-02 17:00:00",
-    "roundText": "Baja 2da",
-    "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
+    "lastPlayByPlay": "Gilberto Celestino Base por Bolas ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 1
+      "battingTeam": "awayTeam",
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": false,
+      "on1B": true,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -136,6 +136,17 @@
             "team_id": 6,
             "name": "Yairo Munoz",
             "abbreviation": "Y. Munoz",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5459,
+            "team_id": 6,
+            "name": "Rafael Lantigua ",
+            "abbreviation": "R. Lantigua",
             "number": null,
             "dob": null,
             "height": "",
@@ -524,10 +535,59 @@
         "plays": [
           {
             "reference_id": "17541-2-12",
-            "text": "Miguel Sano al bate",
+            "text": "Miguel Sano  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1762118828
+            "ts": 1762118894
+          },
+          {
+            "reference_id": "17541-2-13",
+            "text": "Raimel Tapia Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762119025
+          },
+          {
+            "reference_id": "17541-2-14",
+            "text": "Coco Montes Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762119136
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "17542-1-15",
+            "text": "Rafael Lantigua  Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762119318
+          },
+          {
+            "reference_id": "17542-1-16",
+            "text": "Ronaldo Hernández Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762119404
+          },
+          {
+            "reference_id": "17542-1-17",
+            "text": "Gilberto Celestino Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762119558
+          },
+          {
+            "reference_id": "17542-1-18",
+            "text": "Felix Reyes al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762119560
           }
         ]
       }
@@ -558,7 +618,14 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -573,14 +640,14 @@
       {
         "num": 2,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -632,14 +699,14 @@
         "id": 1921,
         "date": "2025-11-02 17:00:00",
         "status": 2,
-        "roundText": "Baja 1ra",
+        "roundText": "Alta 2da",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
@@ -648,8 +715,8 @@
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 0,
-          "hits": 0,
+          "runs": 4,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         }
