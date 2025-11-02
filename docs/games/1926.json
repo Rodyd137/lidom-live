@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1926",
-    "scraped_at": "2025-11-02T22:32:57.708Z",
+    "scraped_at": "2025-11-02T22:44:46.207Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-02 17:00:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ismael Munguia Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 2,
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 2,
-          "H": 2,
+          "R": 3,
+          "H": 3,
           "E": 0,
           "H2": 2
         },
@@ -70,17 +70,6 @@
             "team_id": 6,
             "name": "Gilberto Celestino",
             "abbreviation": "G. Celestino",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 5388,
-            "team_id": 6,
-            "name": "Felix Reyes",
-            "abbreviation": "F. Reyes",
             "number": null,
             "dob": null,
             "height": "",
@@ -318,7 +307,7 @@
         },
         {
           "num": 6,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +329,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 2,
-          "H": 2,
+          "R": 3,
+          "H": 3,
           "E": 0
         },
         "home": {
@@ -374,19 +363,19 @@
           },
           {
             "num": 6,
-            "R": 2
+            "R": 3
           },
           {
             "num": 7,
-            "R": 2
+            "R": 3
           },
           {
             "num": 8,
-            "R": 2
+            "R": 3
           },
           {
             "num": 9,
-            "R": 2
+            "R": 3
           }
         ],
         "home": [
@@ -780,10 +769,45 @@
         "plays": [
           {
             "reference_id": "17545-1-41",
-            "text": "Felix Reyes al bate",
+            "text": "Felix Reyes Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762122863
+          },
+          {
+            "reference_id": "17545-1-42",
+            "text": "Bryan de la Cruz  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1762122686
+            "ts": 1762122918
+          },
+          {
+            "reference_id": "17545-1-43",
+            "text": "Jhonkensy Noel Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762122986
+          }
+        ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "17545-2-44",
+            "text": "Ismael Munguia Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762123295
+          },
+          {
+            "reference_id": "17545-2-45",
+            "text": "Eguy Rosario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762123304
           }
         ]
       }
@@ -863,7 +887,14 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 1,
+        "total_plays": 3,
+        "scoring_plays": 1
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -905,9 +936,9 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
@@ -943,8 +974,8 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 4,
-          "hits": 6,
+          "runs": 6,
+          "hits": 8,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
@@ -962,7 +993,7 @@
       {
         "id": 1923,
         "date": "2025-11-02 18:00:00",
-        "status": 3,
+        "status": 7,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 3,
