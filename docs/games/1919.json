@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1919",
-    "scraped_at": "2025-11-02T03:07:09.215Z",
+    "scraped_at": "2025-11-02T03:52:26.411Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-01 19:30:00",
-    "roundText": "Alta 7ma",
-    "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "roundText": "Baja 9na",
+    "currentInningNum": 9,
+    "lastPlayByPlay": "Euribiel Angeles  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 3,
+      "strikes": 2,
+      "outs": 2
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -40,9 +40,9 @@
       "over_under": null
     },
     "pitchers": {
-      "winning": null,
-      "losing": null,
-      "save": null
+      "winning": "Reymín Guduán",
+      "losing": "Yefry Yan",
+      "save": "Chris Ellis"
     },
     "teams": {
       "away": {
@@ -53,13 +53,13 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 7,
-          "H": 10,
+          "R": 8,
+          "H": 12,
           "E": 2,
           "H2": 7
         },
         "probables": {
-          "pitcher": "Anderson Pilar",
+          "pitcher": "Chris Ellis",
           "era": "7.36",
           "record": "0-1",
           "debut": false
@@ -99,10 +99,10 @@
             "position": ""
           },
           {
-            "id": 5246,
+            "id": 5243,
             "team_id": 5,
-            "name": "Carlos Franco",
-            "abbreviation": "C. Franco",
+            "name": "Hanser Alberto",
+            "abbreviation": "H. Alberto",
             "number": null,
             "dob": null,
             "height": "",
@@ -154,10 +154,10 @@
             "position": ""
           },
           {
-            "id": 5251,
+            "id": 5254,
             "team_id": 5,
-            "name": "Julio Carreras",
-            "abbreviation": "J. Carreras",
+            "name": "Nomar Mazara",
+            "abbreviation": "N. Mazara",
             "number": null,
             "dob": null,
             "height": "",
@@ -176,11 +176,11 @@
         "totals": {
           "R": 7,
           "H": 10,
-          "E": 2,
+          "E": 3,
           "H2": 6
         },
         "probables": {
-          "pitcher": "Jhan Mariñez",
+          "pitcher": "Payton Gray",
           "era": "",
           "record": "",
           "debut": false
@@ -275,10 +275,10 @@
             "position": ""
           },
           {
-            "id": 5350,
+            "id": 5441,
             "team_id": 7,
-            "name": "Rodolfo Durán",
-            "abbreviation": "R. Durán",
+            "name": "Abraham Almonte",
+            "abbreviation": "A Almonte",
             "number": null,
             "dob": null,
             "height": "",
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,14 +340,14 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 7,
-          "H": 10,
+          "R": 8,
+          "H": 12,
           "E": 2
         },
         "home": {
           "R": 7,
           "H": 10,
-          "E": 2
+          "E": 3
         }
       },
       "cumulative": {
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 7
+            "R": 8
           },
           {
             "num": 9,
-            "R": 7
+            "R": 8
           }
         ],
         "home": [
@@ -1011,10 +1011,171 @@
         "plays": [
           {
             "reference_id": "17483-1-74",
-            "text": "Leury García al bate",
+            "text": "Leury García Out: Elevado al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762052695
+            "ts": 1762052894
+          },
+          {
+            "reference_id": "17483-1-75",
+            "text": "Cooper Johnson Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762052959
+          },
+          {
+            "reference_id": "17483-1-77",
+            "text": "Nomar Mazara  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762053111
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "17483-2-78",
+            "text": "Rodolfo Castro Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762053428
+          },
+          {
+            "reference_id": "17483-2-79",
+            "text": "Josh Lester  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762053489
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "17484-1-80",
+            "text": "Carlos Jorge Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762053777
+          },
+          {
+            "reference_id": "17484-1-81",
+            "text": "Johan Rojas  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762053870
+          },
+          {
+            "reference_id": "17484-1-82",
+            "text": "Kelvin Gutiérrez Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762053960
+          },
+          {
+            "reference_id": "17484-1-84",
+            "text": "Hanser Alberto Toque de Sacrificio Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762054105
+          },
+          {
+            "reference_id": "17484-1-85",
+            "text": "Marco Hernández Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762054238
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "17484-2-86",
+            "text": "Miguel Sano Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762054484
+          },
+          {
+            "reference_id": "17484-2-87",
+            "text": "Raimel Tapia  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762054599
+          },
+          {
+            "reference_id": "17484-2-88",
+            "text": "Rainer Nuñez  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762054647
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "17485-1-89",
+            "text": "Deyvinson de los Santos Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762054858
+          },
+          {
+            "reference_id": "17485-1-90",
+            "text": "Leury García  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762054921
+          },
+          {
+            "reference_id": "17485-1-92",
+            "text": "Cooper Johnson  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762055103
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "17485-2-93",
+            "text": "Nelson Velasquez Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762055300
+          },
+          {
+            "reference_id": "17485-2-94",
+            "text": "Euribiel Angeles  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762055478
+          },
+          {
+            "reference_id": "17485-2-96",
+            "text": "Abraham Almonte al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762055501
           }
         ]
       }
@@ -1108,7 +1269,42 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 1,
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 2,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 5,
+        "scoring_plays": 1
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -1157,22 +1353,22 @@
       },
       {
         "num": 7,
-        "part": 1,
-        "is_last": 1,
+        "part": 2,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 0,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 9,
-        "part": 1,
-        "is_last": 0,
+        "part": 2,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       }
