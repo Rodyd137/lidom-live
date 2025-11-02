@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1926",
-    "scraped_at": "2025-11-02T23:36:19.250Z",
+    "scraped_at": "2025-11-02T23:48:44.412Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-02 17:00:00",
-    "roundText": "Baja 8va",
-    "currentInningNum": 8,
-    "lastPlayByPlay": "Ismael Munguia Golpeado por Pelota ",
+    "roundText": "Alta 9na",
+    "currentInningNum": 9,
+    "lastPlayByPlay": "Guztavo Campero Ponche (K) Robo de Base",
     "counts": {
-      "balls": 0,
+      "balls": 2,
       "strikes": 0,
       "outs": 2
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 2
+      "battingTeam": "awayTeam",
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -176,11 +176,11 @@
         "totals": {
           "R": 2,
           "H": 4,
-          "E": 0,
+          "E": 1,
           "H2": 1
         },
         "probables": {
-          "pitcher": "Raffi Vizcaíno",
+          "pitcher": "Patrick Weigel",
           "era": "",
           "record": "",
           "debut": false
@@ -347,7 +347,7 @@
         "home": {
           "R": 2,
           "H": 4,
-          "E": 0
+          "E": 1
         }
       },
       "cumulative": {
@@ -997,10 +997,45 @@
           },
           {
             "reference_id": "17547-2-67",
-            "text": "Eguy Rosario al bate",
+            "text": "Eguy Rosario Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762126538
+            "ts": 1762126735
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "17548-1-68",
+            "text": "Ronaldo Hernández se embasa por Error del Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762127038
+          },
+          {
+            "reference_id": "17548-1-69",
+            "text": "Gilberto Celestino Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762127110
+          },
+          {
+            "reference_id": "17548-1-70",
+            "text": "Guztavo Campero Ponche (K) Robo de Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762127287
+          },
+          {
+            "reference_id": "17548-1-71",
+            "text": "Bryan de la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762127293
           }
         ]
       }
@@ -1117,6 +1152,13 @@
         "label": "Baja 8va",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 4,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1172,14 +1214,14 @@
       {
         "num": 8,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 2,
         "homeTeamRuns": 1
       },
       {
         "num": 9,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       }
@@ -1189,14 +1231,14 @@
         "id": 1921,
         "date": "2025-11-02 17:00:00",
         "status": 2,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 8,
-          "hits": 9,
+          "runs": 10,
+          "hits": 12,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
