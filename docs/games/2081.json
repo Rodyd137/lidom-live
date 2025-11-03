@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2081",
-    "scraped_at": "2025-11-03T23:25:46.832Z",
+    "scraped_at": "2025-11-03T23:40:44.602Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-03 19:00:00",
-    "roundText": "Baja 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "Jake Holton Sencillo ",
+    "roundText": "Baja 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -54,8 +54,8 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 1,
-          "H": 2,
-          "E": 1,
+          "H": 3,
+          "E": 2,
           "H2": 1
         },
         "probables": {
@@ -180,7 +180,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Daniel Mengden",
+          "pitcher": "Willy Peralta",
           "era": "",
           "record": "",
           "debut": false
@@ -341,8 +341,8 @@
       "totals": {
         "away": {
           "R": 1,
-          "H": 2,
-          "E": 1
+          "H": 3,
+          "E": 2
         },
         "home": {
           "R": 3,
@@ -514,10 +514,59 @@
           },
           {
             "reference_id": "18937-2-11",
-            "text": "Pablo Reyes al bate",
+            "text": "Jake Holton Robo de Base ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762212263
+            "ts": 1762212394
+          },
+          {
+            "reference_id": "18937-2-12",
+            "text": "Pablo Reyes Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762212409
+          },
+          {
+            "reference_id": "18937-2-13",
+            "text": "Leury García Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762212508
+          },
+          {
+            "reference_id": "18937-2-14",
+            "text": "Cooper Johnson Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762212736
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18938-1-15",
+            "text": "Euribiel Angeles Doble! Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762212982
+          },
+          {
+            "reference_id": "18938-1-16",
+            "text": "Rodolfo Castro Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762213093
+          },
+          {
+            "reference_id": "18938-1-17",
+            "text": "Coco Montes Doble Play! Out: Elevado al - Jardinero Derecho  - Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762213177
           }
         ]
       }
@@ -534,22 +583,29 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 6,
+        "total_plays": 9,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
       {
         "num": 1,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 3
       },
       {
         "num": 2,
-        "part": 1,
-        "is_last": 0,
+        "part": 2,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -607,7 +663,7 @@
       {
         "id": 2082,
         "date": "2025-11-03 19:30:00",
-        "status": 1,
+        "status": 7,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 3,
