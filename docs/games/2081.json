@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2081",
-    "scraped_at": "2025-11-04T01:33:26.617Z",
+    "scraped_at": "2025-11-04T01:34:29.812Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-03 19:00:00",
-    "roundText": "Baja 6ta",
-    "currentInningNum": 6,
-    "lastPlayByPlay": "Kelvin Gutiérrez Doble Play! Segunda Base - Campo Corto - Primera Base",
+    "roundText": "Alta 7ma",
+    "currentInningNum": 7,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -927,10 +927,24 @@
           },
           {
             "reference_id": "18942-2-60",
-            "text": "Carlos Franco al bate",
+            "text": "Carlos Franco  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1762219939
+            "ts": 1762220045
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "18943-1-61",
+            "text": "Ismael Munguia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762220058
           }
         ]
       }
@@ -1019,6 +1033,13 @@
         "label": "Baja 6ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1060,14 +1081,14 @@
       {
         "num": 6,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 7,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
