@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2081",
-    "scraped_at": "2025-11-04T01:57:32.577Z",
+    "scraped_at": "2025-11-04T01:58:35.536Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-03 19:00:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Euribiel Angeles se embasa por Error del Segunda Base - Carrera Empujada",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -983,10 +983,24 @@
           },
           {
             "reference_id": "18943-1-67",
-            "text": "Rodolfo Castro al bate",
+            "text": "Rodolfo Castro Out: Línea al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1762221056
+            "ts": 1762221456
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "18943-2-68",
+            "text": "Jake Holton al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762221469
           }
         ]
       }
@@ -1082,6 +1096,13 @@
         "label": "Alta 7ma",
         "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1129,7 +1150,7 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 2,
         "homeTeamRuns": 0
