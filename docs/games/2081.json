@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2081",
-    "scraped_at": "2025-11-04T01:10:18.334Z",
+    "scraped_at": "2025-11-04T01:11:21.425Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-03 19:00:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Euribiel Angeles  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "Jake Holton Doble! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 1
+      "battingTeam": "homeTeam",
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 7,
-          "H": 5,
+          "H": 6,
           "E": 0,
           "H2": 7
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 7,
-          "H": 5,
+          "H": 6,
           "E": 0
         }
       },
@@ -828,6 +828,27 @@
             "ts": 1762218442
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "18941-2-49",
+            "text": "Jake Holton Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762218652
+          },
+          {
+            "reference_id": "18941-2-50",
+            "text": "Pablo Reyes al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762218655
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -893,6 +914,13 @@
         "label": "Alta 5ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -926,7 +954,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
