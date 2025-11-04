@@ -2,9 +2,91 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2025-11-04T23:31:47.156Z",
+    "scraped_at": "2025-11-04T23:44:46.140Z",
     "tz": "America/Santo_Domingo"
   },
-  "tracked_ids": [],
-  "live": []
+  "tracked_ids": [
+    1927,
+    1933
+  ],
+  "live": [
+    {
+      "id": 1927,
+      "status": 2,
+      "roundText": "Alta 1ra",
+      "currentInningNum": 1,
+      "atBat": null,
+      "lastPlayByPlay": "Josh Lester Out: Elevado al Jardinero Izquierdo",
+      "counts": {
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
+      },
+      "base": {
+        "on1B": true,
+        "on2B": false,
+        "on3B": false,
+        "runners": 1,
+        "mask": 2
+      },
+      "battingTeam": "awayTeam",
+      "score": {
+        "away": {
+          "name": "Estrellas",
+          "abbr": "EO",
+          "R": 0,
+          "H": 0,
+          "E": 0
+        },
+        "home": {
+          "name": "Tigres",
+          "abbr": "TL",
+          "R": 0,
+          "H": 0,
+          "E": 0
+        }
+      },
+      "threat": 11,
+      "updated_at": "2025-11-04T23:44:46.140Z"
+    },
+    {
+      "id": 1933,
+      "status": 2,
+      "roundText": "Baja 1ra",
+      "currentInningNum": 1,
+      "atBat": null,
+      "lastPlayByPlay": null,
+      "counts": {
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0
+      },
+      "base": {
+        "on1B": false,
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
+      },
+      "battingTeam": "homeTeam",
+      "score": {
+        "away": {
+          "name": "Gigantes",
+          "abbr": "GC",
+          "R": 0,
+          "H": 0,
+          "E": 0
+        },
+        "home": {
+          "name": "Toros",
+          "abbr": "TE",
+          "R": 0,
+          "H": 0,
+          "E": 0
+        }
+      },
+      "threat": 22,
+      "updated_at": "2025-11-04T23:44:46.140Z"
+    }
+  ]
 }
