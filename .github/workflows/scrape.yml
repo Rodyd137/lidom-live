@@ -3,7 +3,7 @@ name: scrape-lidom
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "*/2 * * * *"   # GitHub Actions corre en UTC
+    - cron: "*/5 * * * *"   # GitHub acciona cada ~5 min (UTC). El loop interno cubre el 1 min.
 
 permissions:
   contents: write
@@ -15,16 +15,18 @@ concurrency:
 env:
   TZ: America/Santo_Domingo
   SOURCE_HOME: https://pelotainvernal.com/
-  # Control de detalle para scraper.mjs
   DETAILS_FETCH: recent         # recent | all | none
   DETAILS_DAYS: "14"
   DETAILS_CONCURRENCY: "4"
   DETAILS_STATUSES: "2,4,5,6"   # LIVE, DELAYED, SUSPENDED, FINAL
+  # === Control del loop en vivo ===
+  LIVE_SLEEP_SECONDS: "60"      # frecuencia del tick (1 min)
+  LIVE_MAX_MINUTES: "240"       # tope de seguridad (4h)
 
 jobs:
-  scrape:
+  scrape_and_live:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 250        # mayor que LIVE_MAX_MINUTES
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -39,26 +41,54 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Run scraper
-        run: node scraper.mjs
-
-      - name: Validate JSON
+      - name: Configure git
         run: |
-          jq . docs/latest.json > /dev/null
-          jq . docs/live.json > /dev/null
-          f=$(ls -1 docs/games/*.json 2>/dev/null | head -n1 || true)
-          if [ -n "$f" ]; then jq . "$f" > /dev/null; fi
-
-      - name: Commit changes if any
-        run: |
-          git config user.name "github-actions[bot]"
+          git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main || true
-          if ! git diff --quiet -- docs/; then
-            git add docs/
-            TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-            git commit -m "chore: update LIDOM data ${TS} [skip ci]"
-            git push origin HEAD:main
-          else
-            echo "No changes to commit."
-          fi
+
+      - name: Tick loop mientras haya juegos en vivo
+        shell: bash
+        run: |
+          set -euo pipefail
+          start=$(date +%s)
+          max=$(( ${LIVE_MAX_MINUTES} * 60 ))
+          i=0
+          while true; do
+            i=$((i+1))
+            echo "== Tick $i @ $(date -u +%Y-%m-%dT%H:%M:%SZ) =="
+
+            # Ejecuta el scraper (construye latest.json + live.json)
+            node scraper.mjs || true
+
+            # Valida si existen
+            [ -f docs/latest.json ] && jq . docs/latest.json >/dev/null || true
+            [ -f docs/live.json   ] && jq . docs/live.json   >/dev/null || true
+
+            # Commit/push solo si hubo cambios
+            if ! git diff --quiet -- docs/; then
+              git add docs/
+              TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+              git commit -m "chore: live tick ${TS} [skip ci]"
+              git pull --rebase origin main || true
+              git push origin HEAD:main
+            else
+              echo "No changes (tick $i)."
+            fi
+
+            # Si no hay juegos live, salimos
+            if [ -f docs/live.json ] && jq -e '.live | length == 0' docs/live.json >/dev/null 2>&1; then
+              echo "Sin juegos en vivo; fin temprano."
+              break
+            fi
+
+            # Respeta tope de seguridad
+            now=$(date +%s)
+            elapsed=$(( now - start ))
+            if [ "$elapsed" -ge "$max" ]; then
+              echo "Se alcanzó LIVE_MAX_MINUTES=${LIVE_MAX_MINUTES}; fin."
+              break
+            fi
+
+            echo "Dormir ${LIVE_SLEEP_SECONDS}s..."
+            sleep "${LIVE_SLEEP_SECONDS}"
+          done
