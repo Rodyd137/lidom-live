@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2081",
-    "scraped_at": "2025-11-04T01:23:57.926Z",
+    "scraped_at": "2025-11-04T01:25:01.023Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-03 19:00:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Coco Montes Sencillo Jardinero Central",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 3,
-          "H": 4,
+          "H": 5,
           "E": 2,
           "H2": 3
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 3,
-          "H": 4,
+          "H": 5,
           "E": 2
         },
         "home": {
@@ -885,10 +885,24 @@
         "plays": [
           {
             "reference_id": "18942-1-55",
-            "text": "Rodolfo Castro al bate",
+            "text": "Rodolfo Castro  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1762219250
+            "ts": 1762219448
+          },
+          {
+            "reference_id": "18942-1-56",
+            "text": "Coco Montes Sencillo Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762219489
+          },
+          {
+            "reference_id": "18942-1-57",
+            "text": "Francisco Peña al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762219497
           }
         ]
       }
@@ -968,7 +982,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
