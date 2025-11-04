@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2081",
-    "scraped_at": "2025-11-04T01:50:12.849Z",
+    "scraped_at": "2025-11-04T01:51:15.707Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-03 19:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Raimel Tapia Base por Bolas ",
+    "lastPlayByPlay": "Euribiel Angeles se embasa por Error del Segunda Base - Carrera Empujada",
     "counts": {
       "balls": 0,
-      "strikes": 2,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 8
+      "base": 6
     },
     "base_runners": {
       "on1B": true,
-      "on2B": true,
+      "on2B": false,
       "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 3,
+          "R": 5,
           "H": 6,
           "E": 2,
           "H2": 3
@@ -323,7 +323,7 @@
         },
         {
           "num": 7,
-          "away": 0,
+          "away": 2,
           "home": 0
         },
         {
@@ -340,7 +340,7 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 3,
+          "R": 5,
           "H": 6,
           "E": 2
         },
@@ -378,15 +378,15 @@
           },
           {
             "num": 7,
-            "R": 3
+            "R": 5
           },
           {
             "num": 8,
-            "R": 3
+            "R": 5
           },
           {
             "num": 9,
-            "R": 3
+            "R": 5
           }
         ],
         "home": [
@@ -976,10 +976,17 @@
           },
           {
             "reference_id": "18943-1-66",
-            "text": "Euribiel Angeles al bate",
+            "text": "Euribiel Angeles se embasa por Error del Segunda Base - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762221047
+          },
+          {
+            "reference_id": "18943-1-67",
+            "text": "Rodolfo Castro al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1762220785
+            "ts": 1762221056
           }
         ]
       }
@@ -1073,8 +1080,8 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 6,
-        "scoring_plays": 0
+        "total_plays": 7,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1124,7 +1131,7 @@
         "num": 7,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
