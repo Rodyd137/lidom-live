@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1933",
-    "scraped_at": "2025-11-05T01:36:37.638Z",
+    "scraped_at": "2025-11-05T01:37:39.876Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-04 19:30:00",
-    "roundText": "Baja 6ta",
-    "currentInningNum": 6,
-    "lastPlayByPlay": "Guztavo Campero Elevado de Sacrificio Jardinero Central - Carrera Empujada",
+    "roundText": "Alta 7ma",
+    "currentInningNum": 7,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -843,10 +843,31 @@
           },
           {
             "reference_id": "17608-2-49",
-            "text": "Jhonkensy Noel al bate",
+            "text": "Jhonkensy Noel Out: Elevado al Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1762306364
+            "ts": 1762306609
+          },
+          {
+            "reference_id": "17608-2-50",
+            "text": "Eloy Jimenez  Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762306629
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "17609-1-51",
+            "text": "Marco Hernández al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762306643
           }
         ]
       }
@@ -933,8 +954,15 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -976,14 +1004,14 @@
       {
         "num": 6,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 1
       },
       {
         "num": 7,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
