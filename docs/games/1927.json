@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1927",
-    "scraped_at": "2025-11-05T03:42:52.486Z",
+    "scraped_at": "2025-11-05T03:43:54.869Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-04 19:30:00",
-    "roundText": "Alta 11ra",
+    "roundText": "Baja 11ra",
     "currentInningNum": 11,
-    "lastPlayByPlay": "Rainer Nuñez se embasa por Error del Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -1282,10 +1282,17 @@
           },
           {
             "reference_id": "19021-1-96",
-            "text": "Magneuris Sierra al bate",
+            "text": "Magneuris Sierra Quedo por batear",
             "scored": false,
             "is_primary": true,
             "ts": 1762314074
+          },
+          {
+            "reference_id": "19021-1-95-255402",
+            "text": "Rainer Nuñez Out Robando Base! ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1762314193
           }
         ]
       }
@@ -1435,7 +1442,7 @@
         "num": 11,
         "half": "top",
         "label": "Alta 11ra",
-        "total_plays": 9,
+        "total_plays": 10,
         "scoring_plays": 2
       }
     ],
@@ -1512,7 +1519,7 @@
       },
       {
         "num": 11,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 5,
         "homeTeamRuns": 0
