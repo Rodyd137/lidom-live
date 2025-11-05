@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1933",
-    "scraped_at": "2025-11-05T05:14:06.588Z",
+    "scraped_at": "2025-11-05T05:15:10.411Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": false,
+      "on1B": true,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -1567,6 +1567,20 @@
             "ts": 1762319416
           }
         ]
+      },
+      {
+        "num": 15,
+        "half": "bottom",
+        "label": "Baja 15ta",
+        "plays": [
+          {
+            "reference_id": "19025-2-129",
+            "text": "Guztavo Campero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762319642
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1772,6 +1786,13 @@
         "label": "Alta 15ta",
         "total_plays": 7,
         "scoring_plays": 2
+      },
+      {
+        "num": 15,
+        "half": "bottom",
+        "label": "Baja 15ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
