@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1933",
-    "scraped_at": "2025-11-05T03:51:09.811Z",
+    "scraped_at": "2025-11-05T03:52:16.881Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-04 19:30:00",
     "roundText": "Baja 12da",
     "currentInningNum": 12,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Manuel Peña Sencillo Jardinero Izquierdo",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 6
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": true,
-      "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "on1B": true,
+      "on2B": false,
+      "on3B": true,
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Chris Ellis",
           "era": "",
           "record": "",
           "debut": false
@@ -175,7 +175,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 1,
-          "H": 6,
+          "H": 7,
           "E": 2,
           "H2": 0
         },
@@ -350,7 +350,7 @@
         },
         "home": {
           "R": 1,
-          "H": 6,
+          "H": 7,
           "E": 2
         }
       },
@@ -1277,10 +1277,17 @@
         "plays": [
           {
             "reference_id": "19022-2-97",
+            "text": "Manuel Peña Sencillo Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762314720
+          },
+          {
+            "reference_id": "19022-2-98",
             "text": "Rafael Lantigua  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1762314054
+            "ts": 1762314722
           }
         ]
       }
@@ -1451,7 +1458,7 @@
         "num": 12,
         "half": "bottom",
         "label": "Baja 12da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1545,7 +1552,7 @@
       {
         "id": 1927,
         "date": "2025-11-04 19:30:00",
-        "status": 2,
+        "status": 6,
         "roundText": "Baja 11ra",
         "awayTeam": {
           "id": 7,
