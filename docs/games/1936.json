@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1936",
-    "scraped_at": "2025-11-05T23:48:37.661Z",
+    "scraped_at": "2025-11-05T23:49:42.317Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-05 19:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ezequiel Duran Out: Elevado al Jardinero Izquierdo",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -605,10 +605,17 @@
         "plays": [
           {
             "reference_id": "17632-1-22",
-            "text": "Ezequiel Duran al bate",
+            "text": "Ezequiel Duran Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1762386478
+            "ts": 1762386557
+          },
+          {
+            "reference_id": "17632-1-23",
+            "text": "JC Escarra al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762386560
           }
         ]
       }
@@ -646,7 +653,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -762,8 +769,8 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 0,
-          "hits": 0,
+          "runs": 1,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
