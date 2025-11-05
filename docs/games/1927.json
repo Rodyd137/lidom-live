@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1927",
-    "scraped_at": "2025-11-05T03:45:58.536Z",
+    "scraped_at": "2025-11-05T03:47:00.954Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-04 19:30:00",
     "roundText": "Baja 11ra",
     "currentInningNum": 11,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Michael De Leon Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -176,7 +176,7 @@
         "totals": {
           "R": 6,
           "H": 10,
-          "E": 4,
+          "E": 5,
           "H2": 5
         },
         "probables": {
@@ -273,17 +273,6 @@
             "height": "",
             "image": null,
             "position": ""
-          },
-          {
-            "id": 5269,
-            "team_id": 1,
-            "name": "Domingo Leyba",
-            "abbreviation": "D. Leyba",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
           }
         ]
       }
@@ -357,7 +346,7 @@
         "home": {
           "R": 6,
           "H": 10,
-          "E": 4
+          "E": 5
         }
       },
       "cumulative": {
@@ -1295,6 +1284,27 @@
             "ts": 1762314193
           }
         ]
+      },
+      {
+        "num": 11,
+        "half": "bottom",
+        "label": "Baja 11ra",
+        "plays": [
+          {
+            "reference_id": "19021-2-97",
+            "text": "Michael De Leon Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762314370
+          },
+          {
+            "reference_id": "19021-2-98",
+            "text": "Emilio Bonifacio al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762314374
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1444,6 +1454,13 @@
         "label": "Alta 11ra",
         "total_plays": 10,
         "scoring_plays": 2
+      },
+      {
+        "num": 11,
+        "half": "bottom",
+        "label": "Baja 11ra",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
