@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1927",
-    "scraped_at": "2025-11-05T03:37:40.669Z",
+    "scraped_at": "2025-11-05T03:38:43.259Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-04 19:30:00",
     "roundText": "Alta 11ra",
     "currentInningNum": 11,
-    "lastPlayByPlay": "Coco Montes  Out: Rodado al Campo Corto - Tercera Base",
+    "lastPlayByPlay": "Raimel Tapia Sencillo y 2 Carreras Impulsadas ",
     "counts": {
       "balls": 0,
-      "strikes": 2,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 5
+      "base": 6
     },
     "base_runners": {
       "on1B": true,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 2,
-      "mask": 5
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 9,
-          "H": 12,
+          "R": 11,
+          "H": 13,
           "E": 0,
           "H2": 5
         },
@@ -343,15 +343,15 @@
         },
         {
           "num": 11,
-          "away": 3,
+          "away": 5,
           "home": 0
         }
       ],
       "extras": true,
       "totals": {
         "away": {
-          "R": 9,
-          "H": 12,
+          "R": 11,
+          "H": 13,
           "E": 0
         },
         "home": {
@@ -404,7 +404,7 @@
           },
           {
             "num": 11,
-            "R": 9
+            "R": 11
           }
         ],
         "home": [
@@ -1268,10 +1268,17 @@
           },
           {
             "reference_id": "19021-1-94",
-            "text": "Raimel Tapia al bate",
+            "text": "Raimel Tapia Sencillo y 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762313895
+          },
+          {
+            "reference_id": "19021-1-95",
+            "text": "Rainer Nuñez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1762313777
+            "ts": 1762313898
           }
         ]
       }
@@ -1421,8 +1428,8 @@
         "num": 11,
         "half": "top",
         "label": "Alta 11ra",
-        "total_plays": 7,
-        "scoring_plays": 1
+        "total_plays": 8,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1500,7 +1507,7 @@
         "num": 11,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 3,
+        "awayTeamRuns": 5,
         "homeTeamRuns": 0
       }
     ],
