@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1927",
-    "scraped_at": "2025-11-05T00:27:11.636Z",
+    "scraped_at": "2025-11-05T00:28:13.879Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-11-04 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Raimel Tapia  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
@@ -597,6 +597,27 @@
             "ts": 1762302208
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "17551-1-20",
+            "text": "Raimel Tapia  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762302459
+          },
+          {
+            "reference_id": "17551-1-21",
+            "text": "Rainer Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762302463
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -626,6 +647,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
