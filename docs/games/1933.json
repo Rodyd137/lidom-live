@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1933",
-    "scraped_at": "2025-11-05T00:52:04.924Z",
+    "scraped_at": "2025-11-05T00:53:07.073Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-04 19:30:00",
-    "roundText": "Alta 4ta",
+    "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Jake Holton Base por Bolas ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -682,10 +682,24 @@
           },
           {
             "reference_id": "17606-1-30",
-            "text": "Marco Hernández al bate",
+            "text": "Marco Hernández  Out: Rodado al Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1762303790
+            "ts": 1762303920
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "17606-2-31",
+            "text": "Jhonkensy Noel al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762303962
           }
         ]
       }
@@ -739,6 +753,13 @@
         "label": "Alta 4ta",
         "total_plays": 7,
         "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -765,7 +786,7 @@
       },
       {
         "num": 4,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
