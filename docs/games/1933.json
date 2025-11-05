@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1933",
-    "scraped_at": "2025-11-05T04:14:52.584Z",
+    "scraped_at": "2025-11-05T04:15:55.864Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-04 19:30:00",
-    "roundText": "Alta 13ra",
+    "roundText": "Baja 13ra",
     "currentInningNum": 13,
-    "lastPlayByPlay": "Carlos Franco Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Chris Ellis",
+          "pitcher": "Hansel Robles",
           "era": "",
           "record": "",
           "debut": false
@@ -1366,6 +1366,20 @@
             "ts": 1762315979
           }
         ]
+      },
+      {
+        "num": 13,
+        "half": "bottom",
+        "label": "Baja 13ra",
+        "plays": [
+          {
+            "reference_id": "19023-2-107",
+            "text": "Guztavo Campero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762316144
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1543,6 +1557,13 @@
         "label": "Alta 13ra",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 13,
+        "half": "bottom",
+        "label": "Baja 13ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1632,7 +1653,7 @@
       },
       {
         "num": 13,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
