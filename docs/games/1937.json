@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1937",
-    "scraped_at": "2025-11-05T23:43:26.043Z",
+    "scraped_at": "2025-11-05T23:44:28.502Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-05 19:15:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Cristhian Adames Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 0,
+      "balls": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -513,6 +513,27 @@
             "ts": 1762385995
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "17640-1-11",
+            "text": "Cristhian Adames Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762386229
+          },
+          {
+            "reference_id": "17640-1-12",
+            "text": "Ángel Ortiz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762386233
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -529,6 +550,13 @@
         "label": "Baja 1ra",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
