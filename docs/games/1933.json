@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1933",
-    "scraped_at": "2025-11-05T02:49:50.200Z",
+    "scraped_at": "2025-11-05T02:50:52.487Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-04 19:30:00",
     "roundText": "Alta 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Frank Rodriguez Out: Línea al Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 4
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -1087,10 +1087,24 @@
         "plays": [
           {
             "reference_id": "19018-1-77",
-            "text": "Jose Torres  al bate",
+            "text": "Jose Torres  Toque de Sacrificio ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762310879
+            "ts": 1762311002
+          },
+          {
+            "reference_id": "19018-1-78",
+            "text": "Frank Rodriguez Out: Línea al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762311015
+          },
+          {
+            "reference_id": "19018-1-79",
+            "text": "Leury García al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762311018
           }
         ]
       }
@@ -1226,7 +1240,7 @@
         "num": 10,
         "half": "top",
         "label": "Alta 10ma",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
