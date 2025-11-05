@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1927",
-    "scraped_at": "2025-11-05T03:13:43.304Z",
+    "scraped_at": "2025-11-05T03:14:45.634Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-04 19:30:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Griffin Conine Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -59,7 +59,7 @@
           "H2": 5
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Felipe de la Cruz ",
           "era": "",
           "record": "",
           "debut": false
@@ -180,7 +180,7 @@
           "H2": 5
         },
         "probables": {
-          "pitcher": "Jean Carlos Mejia",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -1177,6 +1177,27 @@
             "ts": 1762312234
           }
         ]
+      },
+      {
+        "num": 10,
+        "half": "bottom",
+        "label": "Baja 10ma",
+        "plays": [
+          {
+            "reference_id": "19019-2-84",
+            "text": "Griffin Conine Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762312476
+          },
+          {
+            "reference_id": "19019-2-85",
+            "text": "Cristhian Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762312479
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1311,6 +1332,13 @@
         "half": "top",
         "label": "Alta 10ma",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 10,
+        "half": "bottom",
+        "label": "Baja 10ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
