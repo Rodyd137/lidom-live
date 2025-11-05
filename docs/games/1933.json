@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1933",
-    "scraped_at": "2025-11-05T01:45:56.779Z",
+    "scraped_at": "2025-11-05T01:46:58.864Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-04 19:30:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Jose Torres  Doble! Jardinero Izquierdo",
+    "lastPlayByPlay": "Jose Torres  Robo de Base Wild Pitch",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 2,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 3
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -885,10 +885,17 @@
           },
           {
             "reference_id": "17609-1-54",
+            "text": "Jose Torres  Robo de Base Wild Pitch",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762307172
+          },
+          {
+            "reference_id": "17609-1-55",
             "text": "Frank Rodriguez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1762306989
+            "ts": 1762307176
           }
         ]
       }
@@ -982,7 +989,7 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -1056,7 +1063,7 @@
         "id": 1927,
         "date": "2025-11-04 19:30:00",
         "status": 2,
-        "roundText": "Baja 6ta",
+        "roundText": "Alta 7ma",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
