@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1933",
-    "scraped_at": "2025-11-05T03:39:46.065Z",
+    "scraped_at": "2025-11-05T03:40:48.250Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-04 19:30:00",
-    "roundText": "Alta 12da",
+    "roundText": "Baja 12da",
     "currentInningNum": 12,
-    "lastPlayByPlay": "Deyvinson de los Santos Sencillo Jardinero Derecho ",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 3
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -132,10 +132,10 @@
             "position": ""
           },
           {
-            "id": 5457,
+            "id": 5251,
             "team_id": 5,
-            "name": "Deyvinson de los Santos",
-            "abbreviation": "D. de los Santos",
+            "name": "Julio Carreras",
+            "abbreviation": "J. Carreras",
             "number": null,
             "dob": null,
             "height": "",
@@ -143,10 +143,10 @@
             "position": ""
           },
           {
-            "id": 5251,
+            "id": 5467,
             "team_id": 5,
-            "name": "Julio Carreras",
-            "abbreviation": "J. Carreras",
+            "name": "Jose Torres ",
+            "abbreviation": "J. Torres",
             "number": null,
             "dob": null,
             "height": "",
@@ -246,17 +246,6 @@
             "team_id": 6,
             "name": "Ivan Castillo",
             "abbreviation": "I. Castillo",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 5377,
-            "team_id": 6,
-            "name": "Yairo Munoz",
-            "abbreviation": "Y. Munoz",
             "number": null,
             "dob": null,
             "height": "",
@@ -1256,10 +1245,17 @@
           },
           {
             "reference_id": "19022-1-95",
-            "text": "Jose Torres  al bate",
+            "text": "Julio Carreras Robo de Base ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762313708
+            "ts": 1762313989
+          },
+          {
+            "reference_id": "19022-1-96",
+            "text": "Jose Torres  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762314026
           }
         ]
       }
@@ -1423,7 +1419,7 @@
         "num": 12,
         "half": "top",
         "label": "Alta 12da",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 1
       }
     ],
@@ -1507,7 +1503,7 @@
       },
       {
         "num": 12,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
@@ -1526,7 +1522,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 11,
           "hits": 13,
-          "errors": 0,
+          "errors": 1,
           "permalink": "/equipo/estrellas-orientales"
         },
         "homeTeam": {
@@ -1536,7 +1532,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 6,
           "hits": 10,
-          "errors": 3,
+          "errors": 4,
           "permalink": "/equipo/tigres-del-licey"
         }
       },
