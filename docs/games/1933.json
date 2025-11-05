@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1933",
-    "scraped_at": "2025-11-05T02:08:18.954Z",
+    "scraped_at": "2025-11-05T02:09:21.038Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-04 19:30:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Carlos Franco Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -961,6 +961,20 @@
             "ts": 1762308460
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "17610-2-63",
+            "text": "Ronaldo Hernández al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762308507
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1068,6 +1082,13 @@
         "label": "Alta 8va",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1122,7 +1143,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
