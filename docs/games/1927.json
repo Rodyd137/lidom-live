@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1927",
-    "scraped_at": "2025-11-05T03:06:27.327Z",
+    "scraped_at": "2025-11-05T03:07:29.545Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-04 19:30:00",
     "roundText": "Alta 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Coco Montes Toque de Sacrificio ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 5
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": true,
-      "on3B": false,
+      "on3B": true,
       "runners": 2,
-      "mask": 5
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -1143,10 +1143,24 @@
         "plays": [
           {
             "reference_id": "19019-1-79",
-            "text": "Josh Lester al bate",
+            "text": "Josh Lester Base por Bolas ",
             "scored": false,
             "is_primary": true,
             "ts": 1762311833
+          },
+          {
+            "reference_id": "19019-1-80",
+            "text": "Coco Montes Toque de Sacrificio ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762312030
+          },
+          {
+            "reference_id": "19019-1-81",
+            "text": "Raimel Tapia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762312035
           }
         ]
       }
@@ -1282,7 +1296,7 @@
         "num": 10,
         "half": "top",
         "label": "Alta 10ma",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
