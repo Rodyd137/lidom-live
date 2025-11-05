@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1933",
-    "scraped_at": "2025-11-05T01:07:37.284Z",
+    "scraped_at": "2025-11-05T01:08:39.515Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-04 19:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Nomar Mazara Sencillo Jardinero Izquierdo",
+    "lastPlayByPlay": "Frank Rodriguez Doble! 1 Carrera Impulsada ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 0,
-          "H": 3,
+          "R": 1,
+          "H": 4,
           "E": 0,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
           "pitcher": "Daniel Mengden",
@@ -313,7 +313,7 @@
         },
         {
           "num": 5,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 3,
+          "R": 1,
+          "H": 4,
           "E": 0
         },
         "home": {
@@ -370,23 +370,23 @@
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ],
         "home": [
@@ -738,10 +738,24 @@
           },
           {
             "reference_id": "17607-1-37",
-            "text": "Jose Torres  al bate",
+            "text": "Jose Torres  Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1762304741
+            "ts": 1762304891
+          },
+          {
+            "reference_id": "17607-1-38",
+            "text": "Frank Rodriguez Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762304903
+          },
+          {
+            "reference_id": "17607-1-39",
+            "text": "Leury García al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762304913
           }
         ]
       }
@@ -807,8 +821,8 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 2,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -844,7 +858,7 @@
         "num": 5,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
@@ -881,7 +895,7 @@
         "id": 1927,
         "date": "2025-11-04 19:30:00",
         "status": 2,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
