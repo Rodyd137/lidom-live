@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1933",
-    "scraped_at": "2025-11-05T01:28:19.829Z",
+    "scraped_at": "2025-11-05T01:29:22.001Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-04 19:30:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Bryan de la Cruz Triple! Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on3B": true,
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -829,10 +829,17 @@
         "plays": [
           {
             "reference_id": "17608-2-47",
-            "text": "Bryan de la Cruz al bate",
+            "text": "Bryan de la Cruz Triple! Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1762305901
+            "ts": 1762306111
+          },
+          {
+            "reference_id": "17608-2-48",
+            "text": "Jhonkensy Noel al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762306114
           }
         ]
       }
@@ -919,7 +926,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -993,7 +1000,7 @@
         "id": 1927,
         "date": "2025-11-04 19:30:00",
         "status": 2,
-        "roundText": "Baja 5ta",
+        "roundText": "Alta 6ta",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
