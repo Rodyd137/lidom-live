@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1933",
-    "scraped_at": "2025-11-05T05:18:20.208Z",
+    "scraped_at": "2025-11-05T05:19:23.940Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-04 19:30:00",
     "roundText": "Baja 15ta",
     "currentInningNum": 15,
-    "lastPlayByPlay": "Jhonkensy Noel  Out: Rodado al Campo Corto - Tercera Base",
+    "lastPlayByPlay": "Eloy Jimenez   Out: Rodado al Campo Corto - Segunda Base",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 0
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 6
     },
     "base_runners": {
       "on1B": true,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 2,
-      "mask": 5
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -235,6 +235,17 @@
             "team_id": 6,
             "name": "Eloy Jimenez ",
             "abbreviation": "E. Jimenez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5448,
+            "team_id": 6,
+            "name": "Ivan Castillo",
+            "abbreviation": "I. Castillo",
             "number": null,
             "dob": null,
             "height": "",
@@ -1589,10 +1600,17 @@
           },
           {
             "reference_id": "19025-2-131",
-            "text": "Eloy Jimenez  al bate",
+            "text": "Eloy Jimenez   Out: Rodado al Campo Corto - Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1762319820
+            "ts": 1762319908
+          },
+          {
+            "reference_id": "19025-2-132",
+            "text": "Ivan Castillo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762319918
           }
         ]
       }
@@ -1805,7 +1823,7 @@
         "num": 15,
         "half": "bottom",
         "label": "Baja 15ta",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
