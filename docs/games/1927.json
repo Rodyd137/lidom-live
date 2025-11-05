@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1927",
-    "scraped_at": "2025-11-05T00:17:52.874Z",
+    "scraped_at": "2025-11-05T00:18:55.130Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-04 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jean Carlos Mejia Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -562,6 +562,27 @@
             "ts": 1762301664
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "17550-2-16",
+            "text": "Jean Carlos Mejia Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762301924
+          },
+          {
+            "reference_id": "17550-2-17",
+            "text": "Armando Alvarez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762301930
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -585,6 +606,13 @@
         "label": "Alta 2da",
         "total_plays": 9,
         "scoring_plays": 3
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -683,7 +711,7 @@
         "id": 1933,
         "date": "2025-11-04 19:30:00",
         "status": 2,
-        "roundText": "Baja 2da",
+        "roundText": "Alta 3ra",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
