@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1936",
-    "scraped_at": "2025-11-06T00:44:04.428Z",
+    "scraped_at": "2025-11-06T00:45:08.406Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-05 19:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Julio Carreras Base por Bolas ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -794,10 +794,17 @@
         "plays": [
           {
             "reference_id": "17634-2-44",
-            "text": "Julio Carreras al bate",
+            "text": "Julio Carreras Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762389781
+            "ts": 1762389882
+          },
+          {
+            "reference_id": "17634-2-45",
+            "text": "Carlos Jorge al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762389888
           }
         ]
       }
@@ -870,7 +877,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -944,7 +951,7 @@
         "id": 1937,
         "date": "2025-11-05 19:15:00",
         "status": 2,
-        "roundText": "Baja 4ta",
+        "roundText": "Alta 5ta",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -988,7 +995,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 4,
           "hits": 7,
-          "errors": 1,
+          "errors": 2,
           "permalink": "/equipo/estrellas-orientales"
         }
       }
