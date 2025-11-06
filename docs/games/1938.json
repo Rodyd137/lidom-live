@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1938",
-    "scraped_at": "2025-11-06T01:38:30.024Z",
+    "scraped_at": "2025-11-06T01:39:34.108Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-05 19:30:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Felix Reyes Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -856,6 +856,27 @@
             "ts": 1762392923
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "17653-1-54",
+            "text": "Felix Reyes Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762393144
+          },
+          {
+            "reference_id": "17653-1-55",
+            "text": "Ronaldo Hernández al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762393150
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -928,6 +949,13 @@
         "label": "Baja 5ta",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1008,7 +1036,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 5,
           "hits": 7,
-          "errors": 0,
+          "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
         },
         "homeTeam": {
