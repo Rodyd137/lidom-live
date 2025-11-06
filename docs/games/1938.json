@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1938",
-    "scraped_at": "2025-11-06T00:23:51.793Z",
+    "scraped_at": "2025-11-06T00:24:55.738Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-05 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gilberto Celestino Base por Bolas ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -618,6 +618,27 @@
             "ts": 1762388429
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "17650-1-24",
+            "text": "Gilberto Celestino Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762388687
+          },
+          {
+            "reference_id": "17650-1-25",
+            "text": "Bryan de la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762388689
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -648,6 +669,13 @@
         "label": "Baja 2da",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
