@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1936",
-    "scraped_at": "2025-11-06T02:31:40.771Z",
+    "scraped_at": "2025-11-06T02:32:44.791Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-05 19:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Jake Holton Base por Bolas ",
+    "lastPlayByPlay": "Deyvinson de los Santos  Out: Rodado al Segunda Base - Campo Corto",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 6
     },
     "base_runners": {
       "on1B": true,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 2,
-      "mask": 5
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 1,
-          "H": 8,
+          "R": 2,
+          "H": 9,
           "E": 0,
           "H2": 0
         },
@@ -334,7 +334,7 @@
         {
           "num": 9,
           "away": 0,
-          "home": 0
+          "home": 1
         }
       ],
       "extras": false,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 1,
-          "H": 8,
+          "R": 2,
+          "H": 9,
           "E": 0
         }
       },
@@ -424,7 +424,7 @@
           },
           {
             "num": 9,
-            "R": 1
+            "R": 2
           }
         ]
       }
@@ -1137,10 +1137,17 @@
           },
           {
             "reference_id": "17638-2-86",
-            "text": "Deyvinson de los Santos al bate",
+            "text": "Deyvinson de los Santos  Out: Rodado al Segunda Base - Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1762396171
+            "ts": 1762396341
+          },
+          {
+            "reference_id": "17638-2-87",
+            "text": "Hanser Alberto al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762396347
           }
         ]
       }
@@ -1269,7 +1276,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -1335,7 +1342,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       }
     ],
     "siblingGames": [
@@ -1349,8 +1356,8 @@
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 0,
-          "hits": 5,
+          "runs": 1,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         },
