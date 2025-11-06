@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1936",
-    "scraped_at": "2025-11-06T00:55:56.977Z",
+    "scraped_at": "2025-11-06T00:57:00.928Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-05 19:00:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Adael Amador Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -829,10 +829,17 @@
         "plays": [
           {
             "reference_id": "17635-1-48",
-            "text": "Adael Amador al bate",
+            "text": "Adael Amador Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762390521
+            "ts": 1762390605
+          },
+          {
+            "reference_id": "17635-1-49",
+            "text": "Emmanuel Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762390609
           }
         ]
       }
@@ -912,7 +919,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1029,7 +1036,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 4,
-          "hits": 7,
+          "hits": 8,
           "errors": 2,
           "permalink": "/equipo/estrellas-orientales"
         }
