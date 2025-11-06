@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1938",
-    "scraped_at": "2025-11-06T01:12:57.991Z",
+    "scraped_at": "2025-11-06T01:14:02.140Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-05 19:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gilberto Celestino Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -779,6 +779,27 @@
             "ts": 1762391397
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "17652-1-45",
+            "text": "Gilberto Celestino Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762391632
+          },
+          {
+            "reference_id": "17652-1-46",
+            "text": "Bryan de la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762391634
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -836,6 +857,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -926,7 +954,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 0,
-          "hits": 5,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
