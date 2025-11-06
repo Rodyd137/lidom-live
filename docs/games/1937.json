@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1937",
-    "scraped_at": "2025-11-06T01:05:31.685Z",
+    "scraped_at": "2025-11-06T01:06:35.398Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-05 19:15:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Pedro Severino  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
-      "balls": 1,
-      "strikes": 0,
-      "outs": 0
+      "balls": 0,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -765,6 +765,27 @@
             "ts": 1762390953
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "17643-2-40",
+            "text": "Pedro Severino  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762391143
+          },
+          {
+            "reference_id": "17643-2-41",
+            "text": " Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762391147
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -829,6 +850,13 @@
         "half": "top",
         "label": "Alta 5ta",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -902,7 +930,7 @@
         "id": 1936,
         "date": "2025-11-05 19:00:00",
         "status": 2,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
