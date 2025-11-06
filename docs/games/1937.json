@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1937",
-    "scraped_at": "2025-11-06T00:25:59.533Z",
+    "scraped_at": "2025-11-06T00:27:03.334Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 4,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -180,7 +180,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Lael Lockhart",
+          "pitcher": "Diógenes Almengó",
           "era": "",
           "record": "",
           "debut": false
@@ -660,6 +660,20 @@
             "ts": 1762388605
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "17642-1-28",
+            "text": "Jordan Lawlar al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762388757
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -704,6 +718,13 @@
         "label": "Baja 3ra",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -776,7 +797,7 @@
         "id": 1936,
         "date": "2025-11-05 19:00:00",
         "status": 2,
-        "roundText": "Baja 4ta",
+        "roundText": "Alta 5ta",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
