@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1938",
-    "scraped_at": "2025-11-06T00:41:56.839Z",
+    "scraped_at": "2025-11-06T00:43:00.772Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-05 19:30:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Yairo Munoz Out: Elevado al Jardinero Izquierdo",
+    "lastPlayByPlay": "Raimel Tapia Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -674,6 +674,27 @@
             "ts": 1762389539
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "17650-2-32",
+            "text": "Raimel Tapia Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762389766
+          },
+          {
+            "reference_id": "17650-2-33",
+            "text": "Rodolfo Castro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762389769
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -711,6 +732,13 @@
         "label": "Alta 3ra",
         "total_plays": 7,
         "scoring_plays": 2
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -730,7 +758,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 3,
         "homeTeamRuns": 0
