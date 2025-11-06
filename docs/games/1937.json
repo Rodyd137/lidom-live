@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1937",
-    "scraped_at": "2025-11-06T01:15:05.952Z",
+    "scraped_at": "2025-11-06T01:16:09.718Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-05 19:15:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Cristhian Adames Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 0
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -793,6 +793,27 @@
             "ts": 1762391453
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "17644-1-43",
+            "text": "Cristhian Adames Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762391728
+          },
+          {
+            "reference_id": "17644-1-44",
+            "text": "Ángel Ortiz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762391734
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -864,6 +885,13 @@
         "half": "bottom",
         "label": "Baja 5ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -937,7 +965,7 @@
         "id": 1936,
         "date": "2025-11-05 19:00:00",
         "status": 2,
-        "roundText": "Baja 6ta",
+        "roundText": "Alta 7ma",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
