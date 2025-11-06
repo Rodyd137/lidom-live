@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1937",
-    "scraped_at": "2025-11-06T00:15:19.730Z",
+    "scraped_at": "2025-11-06T00:16:23.762Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-11-05 19:15:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": " Jorge Mateo Ponche (K) ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
@@ -626,10 +626,17 @@
         "plays": [
           {
             "reference_id": "17641-2-23",
-            "text": " Jorge Mateo al bate",
+            "text": " Jorge Mateo Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762388054
+            "ts": 1762388121
+          },
+          {
+            "reference_id": "17641-2-24",
+            "text": "Erik Gonzalez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762388126
           }
         ]
       }
@@ -674,7 +681,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -782,7 +789,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 0,
           "hits": 1,
-          "errors": 0,
+          "errors": 1,
           "permalink": "/equipo/toros-del-este"
         },
         "homeTeam": {
@@ -790,8 +797,8 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 2,
-          "hits": 6,
+          "runs": 4,
+          "hits": 7,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
