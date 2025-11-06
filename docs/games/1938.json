@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1938",
-    "scraped_at": "2025-11-06T01:49:08.498Z",
+    "scraped_at": "2025-11-06T01:50:12.393Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-05 19:30:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Wilin Rosario Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "Josh Lester Doble! Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "José Adames",
+          "pitcher": "Esmailin Montilla",
           "era": "",
           "record": "",
           "debut": false
@@ -175,7 +175,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 5,
-          "H": 11,
+          "H": 12,
           "E": 2,
           "H2": 5
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 5,
-          "H": 11,
+          "H": 12,
           "E": 2
         }
       },
@@ -899,10 +899,17 @@
           },
           {
             "reference_id": "17653-2-58",
-            "text": "Josh Lester al bate",
+            "text": "Josh Lester Doble! Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1762393583
+            "ts": 1762393783
+          },
+          {
+            "reference_id": "17653-2-59",
+            "text": "Coco Montes al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762393785
           }
         ]
       }
@@ -989,7 +996,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
