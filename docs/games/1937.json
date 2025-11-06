@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1937",
-    "scraped_at": "2025-11-06T02:28:28.922Z",
+    "scraped_at": "2025-11-06T02:29:33.004Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-05 19:15:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Emilio Bonifacio Base por Bolas ",
     "counts": {
-      "balls": 3,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -180,7 +180,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Fernando Abad",
+          "pitcher": "Jimmy Cordero",
           "era": "",
           "record": "",
           "debut": false
@@ -1031,6 +1031,27 @@
             "ts": 1762395881
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "17647-1-70",
+            "text": "Emilio Bonifacio Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762396138
+          },
+          {
+            "reference_id": "17647-1-71",
+            "text": "Mel Rojas Jr. al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762396141
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1144,6 +1165,13 @@
         "half": "bottom",
         "label": "Baja 8va",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
