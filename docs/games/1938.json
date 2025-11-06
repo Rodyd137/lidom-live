@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1938",
-    "scraped_at": "2025-11-06T02:35:56.731Z",
+    "scraped_at": "2025-11-06T02:37:00.563Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-05 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Ronaldo Hernández Base por Bolas ",
+    "lastPlayByPlay": "Ronaldo Hernández Robo de Base Wild Pitch",
     "counts": {
-      "balls": 0,
+      "balls": 2,
       "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -103,6 +103,17 @@
             "team_id": 6,
             "name": "Felix Reyes",
             "abbreviation": "F. Reyes",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5374,
+            "team_id": 6,
+            "name": "Ronaldo Hernández",
+            "abbreviation": "R. Hernández",
             "number": null,
             "dob": null,
             "height": "",
@@ -1042,10 +1053,17 @@
           },
           {
             "reference_id": "17655-1-78",
+            "text": "Ronaldo Hernández Robo de Base Wild Pitch",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762396593
+          },
+          {
+            "reference_id": "17655-1-79",
             "text": "Jhonkensy Noel al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1762396508
+            "ts": 1762396595
           }
         ]
       }
@@ -1153,7 +1171,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
