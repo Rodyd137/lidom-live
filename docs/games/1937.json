@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1937",
-    "scraped_at": "2025-11-06T02:21:02.758Z",
+    "scraped_at": "2025-11-06T02:22:06.616Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-05 19:15:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Jonathan Guzman al bate",
+    "lastPlayByPlay": "Jonathan Guzman Base por Bolas ",
     "counts": {
-      "balls": 3,
+      "balls": 1,
       "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -1011,10 +1011,17 @@
           },
           {
             "reference_id": "17646-2-67",
-            "text": "Jonathan Guzman al bate",
+            "text": "Jonathan Guzman Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762395635
+            "ts": 1762395691
+          },
+          {
+            "reference_id": "17646-2-68",
+            "text": "Hector Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762395700
           }
         ]
       }
@@ -1129,7 +1136,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -1203,7 +1210,7 @@
         "id": 1936,
         "date": "2025-11-05 19:00:00",
         "status": 2,
-        "roundText": "Alta 9na",
+        "roundText": "Baja 9na",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -1245,7 +1252,7 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 6,
+          "runs": 7,
           "hits": 14,
           "errors": 2,
           "permalink": "/equipo/estrellas-orientales"
