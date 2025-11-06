@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1936",
-    "scraped_at": "2025-11-06T00:38:46.564Z",
+    "scraped_at": "2025-11-06T00:39:50.362Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-05 19:00:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Aderlin Rodríguez Elevado de Sacrificio Carrera Empujada",
+    "lastPlayByPlay": "Alberto Rodriguez Out: Elevado al Receptor",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -773,10 +773,17 @@
           },
           {
             "reference_id": "17634-1-42",
-            "text": "Alberto Rodriguez al bate",
+            "text": "Alberto Rodriguez Out: Elevado al Receptor",
             "scored": false,
             "is_primary": true,
-            "ts": 1762389513
+            "ts": 1762389568
+          },
+          {
+            "reference_id": "17634-1-43",
+            "text": "Carter Jensen al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762389574
           }
         ]
       }
@@ -842,7 +849,7 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 1
       }
     ],
@@ -916,7 +923,7 @@
         "id": 1937,
         "date": "2025-11-05 19:15:00",
         "status": 2,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -948,7 +955,7 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 2,
+          "runs": 3,
           "hits": 2,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
