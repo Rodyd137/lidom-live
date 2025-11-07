@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2083",
-    "scraped_at": "2025-11-07T23:57:32.852Z",
+    "scraped_at": "2025-11-07T23:58:35.379Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-07 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jake Holton Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 0,
           "H2": 0
         },
@@ -103,6 +103,17 @@
             "team_id": 5,
             "name": "Jake Holton",
             "abbreviation": "J. Holton",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5457,
+            "team_id": 5,
+            "name": "Deyvinson de los Santos",
+            "abbreviation": "D. de los Santos",
             "number": null,
             "dob": null,
             "height": "",
@@ -253,7 +264,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 0
         },
         "home": {
@@ -426,10 +437,17 @@
         "plays": [
           {
             "reference_id": "18956-1-10",
-            "text": "Jake Holton al bate",
+            "text": "Jake Holton Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1762559844
+            "ts": 1762559881
+          },
+          {
+            "reference_id": "18956-1-11",
+            "text": "Deyvinson de los Santos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762559894
           }
         ]
       }
@@ -453,7 +471,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -553,7 +571,7 @@
         "id": 1944,
         "date": "2025-11-07 19:30:00",
         "status": 2,
-        "roundText": "Baja 1ra",
+        "roundText": "Alta 2da",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
