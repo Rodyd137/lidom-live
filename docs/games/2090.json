@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2090",
-    "scraped_at": "2025-11-07T00:26:17.786Z",
+    "scraped_at": "2025-11-07T00:27:20.924Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-06 19:35:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "JC Escarra Base por Bolas ",
     "counts": {
-      "balls": 3,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -640,10 +640,17 @@
         "plays": [
           {
             "reference_id": "19029-1-24",
-            "text": "JC Escarra al bate",
+            "text": "JC Escarra Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762475126
+            "ts": 1762475193
+          },
+          {
+            "reference_id": "19029-1-25",
+            "text": "Aderlin Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762475199
           }
         ]
       }
@@ -695,7 +702,7 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
