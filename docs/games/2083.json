@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2083",
-    "scraped_at": "2025-11-07T23:42:57.770Z",
+    "scraped_at": "2025-11-07T23:44:00.325Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-07 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Steward Berroa Base por Bolas ",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -344,10 +344,17 @@
         "plays": [
           {
             "reference_id": "18955-2-4",
-            "text": "Steward Berroa al bate",
+            "text": "Steward Berroa Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762558939
+            "ts": 1762559029
+          },
+          {
+            "reference_id": "18955-2-5",
+            "text": "Ezequiel Duran al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762559036
           }
         ]
       }
@@ -364,7 +371,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -445,7 +452,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 0,
-          "hits": 1,
+          "hits": 0,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         },
@@ -455,7 +462,7 @@
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         }
