@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2083",
-    "scraped_at": "2025-11-07T23:56:30.284Z",
+    "scraped_at": "2025-11-07T23:57:32.852Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -15,7 +15,7 @@
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -92,6 +92,17 @@
             "team_id": 5,
             "name": "Kelvin Gutiérrez",
             "abbreviation": "K. Gutiérrez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5250,
+            "team_id": 5,
+            "name": "Jake Holton",
+            "abbreviation": "J. Holton",
             "number": null,
             "dob": null,
             "height": "",
@@ -407,6 +418,20 @@
             "ts": 1762559663
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18956-1-10",
+            "text": "Jake Holton al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762559844
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -423,6 +448,13 @@
         "label": "Baja 1ra",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
