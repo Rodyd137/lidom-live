@@ -1,13 +1,13 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2083",
-    "scraped_at": "2025-11-07T23:37:44.278Z",
+    "scraped_at": "2025-11-07T23:38:47.463Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2083,
     "season_id": 20,
-    "status": 3,
+    "status": 2,
     "date": "2025-11-07 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -70,6 +70,17 @@
             "team_id": 5,
             "name": "Carlos Jorge",
             "abbreviation": "C. Jorge",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5432,
+            "team_id": 5,
+            "name": "Johan Rojas ",
+            "abbreviation": "J. Rojas",
             "number": null,
             "dob": null,
             "height": "",
@@ -153,7 +164,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -253,6 +264,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1762558635
+          },
+          {
+            "reference_id": "18955-1-2",
+            "text": "Johan Rojas  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762558681
           }
         ]
       }
@@ -262,7 +280,7 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],

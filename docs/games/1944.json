@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1944",
-    "scraped_at": "2025-11-07T23:37:44.252Z",
+    "scraped_at": "2025-11-07T23:38:47.446Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-07 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Erik Gonzalez Ponche (K) Out Robando Base! - Receptor - Segunda Base",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 0
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -418,8 +418,45 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "17702-1-1",
+            "text": "Hector Rodríguez Sencillo Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762558678
+          },
+          {
+            "reference_id": "17702-1-2",
+            "text": "Erik Gonzalez Ponche (K) Out Robando Base! - Receptor - Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762558715
+          },
+          {
+            "reference_id": "17702-1-3",
+            "text": " Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762558717
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
@@ -515,7 +552,7 @@
       {
         "id": 2083,
         "date": "2025-11-07 19:30:00",
-        "status": 3,
+        "status": 2,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 5,
@@ -523,7 +560,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         },
