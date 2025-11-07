@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2090",
-    "scraped_at": "2025-11-07T02:06:09.290Z",
+    "scraped_at": "2025-11-07T02:07:13.468Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-06 19:35:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Mel Rojas Jr. Out: Elevado al Jardinero Derecho ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -926,6 +926,27 @@
             "ts": 1762481001
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "19032-2-59",
+            "text": "Mel Rojas Jr. Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762481220
+          },
+          {
+            "reference_id": "19032-2-60",
+            "text": "Francisco Mejía al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762481225
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1018,6 +1039,13 @@
         "half": "top",
         "label": "Alta 7ma",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
