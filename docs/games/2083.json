@@ -1,21 +1,21 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2083",
-    "scraped_at": "2025-11-07T23:23:43.695Z",
+    "scraped_at": "2025-11-07T23:37:44.278Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2083,
     "season_id": 20,
-    "status": 1,
+    "status": 3,
     "date": "2025-11-07 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Carlos Jorge Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -64,7 +64,19 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5252,
+            "team_id": 5,
+            "name": "Carlos Jorge",
+            "abbreviation": "C. Jorge",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       },
       "home": {
         "id": 3,
@@ -229,8 +241,31 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "18955-1-1",
+            "text": "Carlos Jorge Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762558635
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
@@ -300,7 +335,7 @@
       {
         "id": 1941,
         "date": "2025-11-07 19:30:00",
-        "status": 1,
+        "status": 2,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 6,
@@ -326,7 +361,7 @@
       {
         "id": 1944,
         "date": "2025-11-07 19:30:00",
-        "status": 3,
+        "status": 2,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 4,
