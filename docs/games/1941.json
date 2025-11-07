@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1941",
-    "scraped_at": "2025-11-07T23:52:19.514Z",
+    "scraped_at": "2025-11-07T23:53:22.205Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-11-07 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Felix Reyes Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
@@ -110,10 +110,10 @@
             "position": ""
           },
           {
-            "id": 5395,
+            "id": 5388,
             "team_id": 6,
-            "name": "Mickey Gasper",
-            "abbreviation": "M. Gasper",
+            "name": "Felix Reyes",
+            "abbreviation": "F. Reyes",
             "number": null,
             "dob": null,
             "height": "",
@@ -492,6 +492,27 @@
             "ts": 1762559327
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "17676-1-8",
+            "text": "Felix Reyes Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762559567
+          },
+          {
+            "reference_id": "17676-1-9",
+            "text": "Eloy Jimenez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762559569
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -507,6 +528,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
