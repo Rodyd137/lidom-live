@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2083",
-    "scraped_at": "2025-11-08T00:11:07.255Z",
+    "scraped_at": "2025-11-08T00:12:09.931Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-07 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Frank Rodriguez se embasa por Error del Tercera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -136,6 +136,17 @@
             "team_id": 5,
             "name": "Julio Carreras",
             "abbreviation": "J. Carreras",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5240,
+            "team_id": 5,
+            "name": "Frank Rodriguez",
+            "abbreviation": "F. Rodriguez",
             "number": null,
             "dob": null,
             "height": "",
@@ -548,10 +559,17 @@
         "plays": [
           {
             "reference_id": "18957-1-16",
-            "text": "Julio Carreras al bate",
+            "text": "Julio Carreras  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1762560639
+            "ts": 1762560671
+          },
+          {
+            "reference_id": "18957-1-17",
+            "text": "Frank Rodriguez se embasa por Error del Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762560723
           }
         ]
       }
@@ -589,7 +607,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
