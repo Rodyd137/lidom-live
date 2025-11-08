@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1941",
-    "scraped_at": "2025-11-08T00:48:42.233Z",
+    "scraped_at": "2025-11-08T00:49:44.661Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-07 19:30:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jordan Lawlar  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -709,6 +709,27 @@
             "ts": 1762562693
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "17679-2-32",
+            "text": "Jordan Lawlar  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762562943
+          },
+          {
+            "reference_id": "17679-2-33",
+            "text": "Cristhian Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762562946
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -773,6 +794,13 @@
         "half": "top",
         "label": "Alta 5ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
