@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2084",
-    "scraped_at": "2025-11-08T21:46:59.842Z",
+    "scraped_at": "2025-11-08T21:48:02.615Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 3,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -268,6 +268,17 @@
             "team_id": 5,
             "name": "Geraldi Diaz",
             "abbreviation": "G. Diaz",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5467,
+            "team_id": 5,
+            "name": "Jose Torres ",
+            "abbreviation": "J. Torres",
             "number": null,
             "dob": null,
             "height": "",
@@ -593,6 +604,20 @@
             "ts": 1762638270
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "18966-2-19",
+            "text": "Jose Torres  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762638470
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -629,6 +654,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -709,7 +741,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         },
