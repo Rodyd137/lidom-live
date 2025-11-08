@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2085",
-    "scraped_at": "2025-11-08T22:09:26.450Z",
+    "scraped_at": "2025-11-08T22:10:30.756Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-08 17:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Ángel Ortiz Sencillo Jardinero Izquierdo",
+    "lastPlayByPlay": "Jordan Lawlar Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 8
     },
     "base_runners": {
       "on1B": true,
       "on2B": true,
-      "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "on3B": true,
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -675,10 +675,17 @@
           },
           {
             "reference_id": "18975-2-31",
-            "text": "Jordan Lawlar al bate",
+            "text": "Jordan Lawlar Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762639630
+            "ts": 1762639820
+          },
+          {
+            "reference_id": "18975-2-32",
+            "text": "Michael De La Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762639824
           }
         ]
       }
@@ -723,7 +730,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 8,
+        "total_plays": 9,
         "scoring_plays": 2
       }
     ],
@@ -797,7 +804,7 @@
         "id": 2084,
         "date": "2025-11-08 17:00:00",
         "status": 2,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
