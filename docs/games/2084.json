@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2084",
-    "scraped_at": "2025-11-08T21:29:16.694Z",
+    "scraped_at": "2025-11-08T21:30:20.470Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-08 17:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Adael Amador Sencillo ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -297,7 +297,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -484,10 +484,24 @@
         "plays": [
           {
             "reference_id": "18965-1-10",
-            "text": "Jose Augusto Rodriguez al bate",
+            "text": "Jose Augusto Rodriguez  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1762637280
+            "ts": 1762637372
+          },
+          {
+            "reference_id": "18965-1-11",
+            "text": "Adael Amador Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762637404
+          },
+          {
+            "reference_id": "18965-1-12",
+            "text": "Juan Lagares al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762637409
           }
         ]
       }
@@ -511,7 +525,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
