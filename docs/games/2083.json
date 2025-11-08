@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2083",
-    "scraped_at": "2025-11-08T02:23:35.968Z",
+    "scraped_at": "2025-11-08T02:24:21.824Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,9 +11,9 @@
     "date": "2025-11-07 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jake Holton Cuadrangular! ",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 1,
       "outs": 0
     },
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 1,
-          "H": 3,
+          "R": 2,
+          "H": 4,
           "E": 1,
           "H2": 1
         },
@@ -333,15 +333,15 @@
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 1,
-          "H": 3,
+          "R": 2,
+          "H": 4,
           "E": 1
         },
         "home": {
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 1
+            "R": 2
           }
         ],
         "home": [
@@ -1025,10 +1025,17 @@
         "plays": [
           {
             "reference_id": "18963-1-73",
-            "text": "Jake Holton al bate",
+            "text": "Jake Holton Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762568621
+          },
+          {
+            "reference_id": "18963-1-74",
+            "text": "Deyvinson de los Santos al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1762568563
+            "ts": 1762568645
           }
         ]
       }
@@ -1150,8 +1157,8 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 1,
-        "scoring_plays": 0
+        "total_plays": 2,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1215,7 +1222,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
