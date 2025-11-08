@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2085",
-    "scraped_at": "2025-11-08T21:56:39.579Z",
+    "scraped_at": "2025-11-08T21:57:43.833Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-08 17:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gustavo Nuñez Sencillo Jardinero Central",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 2,
-          "H": 4,
+          "H": 5,
           "E": 0,
           "H2": 2
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 2,
-          "H": 4,
+          "H": 5,
           "E": 0
         }
       },
@@ -626,10 +626,17 @@
         "plays": [
           {
             "reference_id": "18975-2-24",
-            "text": "Gustavo Nuñez al bate",
+            "text": "Gustavo Nuñez Sencillo Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1762638925
+            "ts": 1762639017
+          },
+          {
+            "reference_id": "18975-2-25",
+            "text": "Mel Rojas Jr. al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762639019
           }
         ]
       }
@@ -674,7 +681,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -765,7 +772,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 3,
-          "hits": 3,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
