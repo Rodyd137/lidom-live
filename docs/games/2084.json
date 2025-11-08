@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2084",
-    "scraped_at": "2025-11-08T21:27:09.173Z",
+    "scraped_at": "2025-11-08T21:28:13.009Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -476,6 +476,20 @@
             "ts": 1762637043
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18965-1-10",
+            "text": "Jose Augusto Rodriguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762637280
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -491,6 +505,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 7,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -581,7 +602,7 @@
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 0,
-          "hits": 2,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         }
