@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2085",
-    "scraped_at": "2025-11-08T21:54:31.401Z",
+    "scraped_at": "2025-11-08T21:55:35.668Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-08 17:00:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Vidal Brujan  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "balls": 2,
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Raffi Vizcaíno",
+          "pitcher": "Felipe de la Cruz ",
           "era": "",
           "record": "",
           "debut": false
@@ -618,6 +618,20 @@
             "ts": 1762638713
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "18975-2-24",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762638925
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -655,6 +669,13 @@
         "label": "Alta 3ra",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -674,7 +695,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
