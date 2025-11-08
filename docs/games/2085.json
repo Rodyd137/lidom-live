@@ -1,21 +1,21 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2085",
-    "scraped_at": "2025-11-08T21:00:15.102Z",
+    "scraped_at": "2025-11-08T21:22:54.078Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2085,
     "season_id": 20,
-    "status": 3,
+    "status": 2,
     "date": "2025-11-08 17:00:00",
-    "roundText": "Alta 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "Coco Montes Out: Elevado al Jardinero Izquierdo",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -175,7 +175,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 2,
           "E": 0,
           "H2": 0
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 2,
           "E": 0
         }
       },
@@ -437,10 +437,87 @@
         "plays": [
           {
             "reference_id": "18973-1-1",
-            "text": "Ismael Munguia al bate",
+            "text": "Ismael Munguia Robo de Base Lanzador - Triple!",
             "scored": false,
             "is_primary": true,
-            "ts": 1762635275
+            "ts": 1762635840
+          },
+          {
+            "reference_id": "18973-1-2",
+            "text": "Vidal Brujan Out: Elevado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762635894
+          },
+          {
+            "reference_id": "18973-1-3",
+            "text": "Josh Lester Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762636035
+          }
+        ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "18973-2-4",
+            "text": "Gustavo Nuñez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762636282
+          },
+          {
+            "reference_id": "18973-2-5",
+            "text": "Mel Rojas Jr. Sencillo Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762636388
+          },
+          {
+            "reference_id": "18973-2-6",
+            "text": "Mel Rojas Jr. Out Robando Base! Receptor - Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762636531
+          },
+          {
+            "reference_id": "18973-2-7",
+            "text": "Armando Alvarez Sencillo Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762636563
+          },
+          {
+            "reference_id": "18973-2-8",
+            "text": "Francisco Mejía Out Robando Base! Receptor - Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762636675
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18974-1-9",
+            "text": "Coco Montes Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762636867
+          },
+          {
+            "reference_id": "18974-1-10",
+            "text": "Raimel Tapia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762636869
           }
         ]
       }
@@ -450,22 +527,36 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 1,
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
-        "is_last": 1,
+        "part": 2,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -523,8 +614,8 @@
       {
         "id": 2084,
         "date": "2025-11-08 17:00:00",
-        "status": 3,
-        "roundText": "Alta 1ra",
+        "status": 2,
+        "roundText": "Baja 1ra",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -540,8 +631,8 @@
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 0,
-          "hits": 0,
+          "runs": 1,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
