@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2083",
-    "scraped_at": "2025-11-08T01:01:34.060Z",
+    "scraped_at": "2025-11-08T01:02:37.966Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,7 +13,7 @@
     "currentInningNum": 5,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 3,
       "strikes": 0,
       "outs": 0
     },
@@ -147,6 +147,17 @@
             "team_id": 5,
             "name": "Frank Rodriguez",
             "abbreviation": "F. Rodriguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5251,
+            "team_id": 5,
+            "name": "Julio Carreras",
+            "abbreviation": "J. Carreras",
             "number": null,
             "dob": null,
             "height": "",
@@ -712,6 +723,20 @@
             "ts": 1762563542
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "18959-1-36",
+            "text": "Julio Carreras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762563729
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -770,6 +795,13 @@
         "label": "Baja 4ta",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
