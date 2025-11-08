@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2084",
-    "scraped_at": "2025-11-08T22:36:23.288Z",
+    "scraped_at": "2025-11-08T22:37:25.929Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-08 17:00:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jonatan Clase Cuadrangular! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 1,
-          "H": 2,
+          "R": 2,
+          "H": 3,
           "E": 0,
           "H2": 1
         },
@@ -318,7 +318,7 @@
         },
         {
           "num": 6,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 1,
-          "H": 2,
+          "R": 2,
+          "H": 3,
           "E": 0
         },
         "home": {
@@ -374,19 +374,19 @@
           },
           {
             "num": 6,
-            "R": 1
+            "R": 2
           },
           {
             "num": 7,
-            "R": 1
+            "R": 2
           },
           {
             "num": 8,
-            "R": 1
+            "R": 2
           },
           {
             "num": 9,
-            "R": 1
+            "R": 2
           }
         ],
         "home": [
@@ -770,13 +770,27 @@
             "scored": false,
             "is_primary": true,
             "ts": 1762641119
+          }
+        ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "18969-1-39",
+            "text": "Jonatan Clase Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762641432
           },
           {
-            "reference_id": "18968-2-38",
-            "text": "Jose Siri Ponche (K) ",
+            "reference_id": "18969-1-40",
+            "text": "Angel Genao al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1762641238
+            "ts": 1762641439
           }
         ]
       }
@@ -849,8 +863,15 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 4,
+        "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 2,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -893,7 +914,7 @@
         "num": 6,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
