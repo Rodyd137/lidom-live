@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1941",
-    "scraped_at": "2025-11-08T01:07:57.409Z",
+    "scraped_at": "2025-11-08T01:09:01.688Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-11-07 19:30:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gustavo Nuñez Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -772,6 +772,27 @@
             "ts": 1762563888
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "17680-2-39",
+            "text": "Gustavo Nuñez Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762564126
+          },
+          {
+            "reference_id": "17680-2-40",
+            "text": "Mel Rojas Jr. al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762564132
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -850,6 +871,13 @@
         "half": "top",
         "label": "Alta 6ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
