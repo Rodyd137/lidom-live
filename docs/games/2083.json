@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2083",
-    "scraped_at": "2025-11-08T00:10:04.680Z",
+    "scraped_at": "2025-11-08T00:11:07.255Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -15,7 +15,7 @@
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -125,6 +125,17 @@
             "team_id": 5,
             "name": "Leury García",
             "abbreviation": "L. Garcia",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5251,
+            "team_id": 5,
+            "name": "Julio Carreras",
+            "abbreviation": "J. Carreras",
             "number": null,
             "dob": null,
             "height": "",
@@ -529,6 +540,20 @@
             "ts": 1762560466
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "18957-1-16",
+            "text": "Julio Carreras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762560639
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -558,6 +583,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -663,8 +695,8 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 0,
-          "hits": 1,
+          "runs": 1,
+          "hits": 2,
           "errors": 1,
           "permalink": "/equipo/leones-del-escogido"
         },
