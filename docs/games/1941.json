@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1941",
-    "scraped_at": "2025-11-08T00:15:17.281Z",
+    "scraped_at": "2025-11-08T00:16:20.001Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-07 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Emilio Bonifacio Out: Elevado al Tercera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -583,6 +583,27 @@
             "ts": 1762560738
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "17677-2-18",
+            "text": "Emilio Bonifacio Out: Elevado al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762560956
+          },
+          {
+            "reference_id": "17677-2-19",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762560959
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -619,6 +640,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -692,7 +720,7 @@
         "id": 1944,
         "date": "2025-11-07 19:30:00",
         "status": 2,
-        "roundText": "Alta 2da",
+        "roundText": "Baja 2da",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
