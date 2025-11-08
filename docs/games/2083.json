@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2083",
-    "scraped_at": "2025-11-08T00:58:22.763Z",
+    "scraped_at": "2025-11-08T00:59:26.931Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-07 19:30:00",
-    "roundText": "Baja 4ta",
-    "currentInningNum": 4,
-    "lastPlayByPlay": "Jonatan Clase Sencillo y 1 Carrera Impulsada ",
+    "roundText": "Alta 5ta",
+    "currentInningNum": 5,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 5
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Yaqui Rivera ",
           "era": "",
           "record": "",
           "debut": false
@@ -703,6 +703,13 @@
             "scored": true,
             "is_primary": true,
             "ts": 1762563321
+          },
+          {
+            "reference_id": "18958-2-35",
+            "text": "Steward Berroa  Out: Rodado al Segunda Base - Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762563542
           }
         ]
       }
@@ -761,7 +768,7 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 1
       }
     ],
@@ -790,14 +797,14 @@
       {
         "num": 4,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 1
       },
       {
         "num": 5,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -861,7 +868,7 @@
         "id": 1944,
         "date": "2025-11-07 19:30:00",
         "status": 2,
-        "roundText": "Baja 4ta",
+        "roundText": "Alta 5ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
