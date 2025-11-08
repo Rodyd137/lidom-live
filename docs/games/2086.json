@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2086",
-    "scraped_at": "2025-11-08T23:45:04.398Z",
+    "scraped_at": "2025-11-08T23:46:07.638Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 1,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -464,6 +464,20 @@
             "ts": 1762645354
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "18982-2-5",
+            "text": "Gilberto Celestino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762645518
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -472,6 +486,13 @@
         "half": "top",
         "label": "Alta 1ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
