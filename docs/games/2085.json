@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2085",
-    "scraped_at": "2025-11-08T22:00:56.362Z",
+    "scraped_at": "2025-11-08T22:02:00.873Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-08 17:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Armando Alvarez Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "Francisco Mejía Doble! Jardinero Derecho ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
-      "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "on1B": false,
+      "on2B": true,
+      "on3B": true,
+      "runners": 2,
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 2,
-          "H": 5,
+          "H": 6,
           "E": 0,
           "H2": 2
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 2,
-          "H": 5,
+          "H": 6,
           "E": 0
         }
       },
@@ -647,10 +647,17 @@
           },
           {
             "reference_id": "18975-2-27",
-            "text": "Francisco Mejía al bate",
+            "text": "Francisco Mejía Doble! Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762639250
+            "ts": 1762639287
+          },
+          {
+            "reference_id": "18975-2-28",
+            "text": "Cristhian Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762639292
           }
         ]
       }
@@ -695,7 +702,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -775,8 +782,8 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 0,
-          "hits": 1,
+          "runs": 1,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         },
