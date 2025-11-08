@@ -2,12 +2,13 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2025-11-08T23:34:39.640Z",
+    "scraped_at": "2025-11-08T23:35:27.185Z",
     "tz": "America/Santo_Domingo"
   },
   "tracked_ids": [
     2084,
-    2085
+    2085,
+    2086
   ],
   "live": [
     {
@@ -16,7 +17,7 @@
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
       "atBat": null,
-      "lastPlayByPlay": "Jose Siri Base por Bolas ",
+      "lastPlayByPlay": "Jake Holton Doble! 2 Carreras Impulsadas ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -25,9 +26,9 @@
       "base": {
         "on1B": false,
         "on2B": true,
-        "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "on3B": true,
+        "runners": 2,
+        "mask": 7
       },
       "battingTeam": "homeTeam",
       "score": {
@@ -46,8 +47,8 @@
           "E": 0
         }
       },
-      "threat": 31,
-      "updated_at": "2025-11-08T23:34:39.640Z"
+      "threat": 62,
+      "updated_at": "2025-11-08T23:35:27.185Z"
     },
     {
       "id": 2085,
@@ -55,11 +56,11 @@
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
       "atBat": null,
-      "lastPlayByPlay": "Francisco Mejía Doble! Jardinero Izquierdo",
+      "lastPlayByPlay": "Cristhian Adames Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base": {
         "on1B": false,
@@ -85,8 +86,47 @@
           "E": 0
         }
       },
-      "threat": 49,
-      "updated_at": "2025-11-08T23:34:39.640Z"
+      "threat": 31,
+      "updated_at": "2025-11-08T23:35:27.185Z"
+    },
+    {
+      "id": 2086,
+      "status": 2,
+      "roundText": "Alta 1ra",
+      "currentInningNum": 1,
+      "atBat": null,
+      "lastPlayByPlay": null,
+      "counts": {
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0
+      },
+      "base": {
+        "on1B": false,
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
+      },
+      "battingTeam": "awayTeam",
+      "score": {
+        "away": {
+          "name": "Leones",
+          "abbr": "LE",
+          "R": 0,
+          "H": 0,
+          "E": 0
+        },
+        "home": {
+          "name": "Toros",
+          "abbr": "TE",
+          "R": 0,
+          "H": 0,
+          "E": 0
+        }
+      },
+      "threat": 22,
+      "updated_at": "2025-11-08T23:35:27.185Z"
     }
   ]
 }
