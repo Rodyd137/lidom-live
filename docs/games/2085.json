@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2085",
-    "scraped_at": "2025-11-08T21:26:05.210Z",
+    "scraped_at": "2025-11-08T21:27:09.238Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-08 17:00:00",
-    "roundText": "Alta 2da",
+    "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Euribiel Angeles Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -527,6 +527,20 @@
             "ts": 1762637039
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "18974-2-12",
+            "text": "Francisco Mejía al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762637212
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -550,6 +564,13 @@
         "label": "Alta 2da",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -562,7 +583,7 @@
       },
       {
         "num": 2,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
