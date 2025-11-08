@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1941",
-    "scraped_at": "2025-11-08T02:11:52.234Z",
+    "scraped_at": "2025-11-08T02:12:56.250Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-07 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Rafael Lantigua  Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 6,
-          "H": 7,
+          "R": 7,
+          "H": 8,
           "E": 0,
           "H2": 0
         },
@@ -180,7 +180,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Michael Arias",
           "era": "",
           "record": "",
           "debut": false
@@ -333,15 +333,15 @@
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 6,
-          "H": 7,
+          "R": 7,
+          "H": 8,
           "E": 0
         },
         "home": {
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 6
+            "R": 7
           }
         ],
         "home": [
@@ -982,6 +982,27 @@
             "ts": 1762567727
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "17683-1-64",
+            "text": "Rafael Lantigua  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762567960
+          },
+          {
+            "reference_id": "17683-1-65",
+            "text": "Ronaldo Hernández al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762567972
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1096,6 +1117,13 @@
         "label": "Baja 8va",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1159,7 +1187,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
@@ -1168,7 +1196,7 @@
         "id": 1944,
         "date": "2025-11-07 19:30:00",
         "status": 2,
-        "roundText": "Alta 8va",
+        "roundText": "Baja 8va",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
