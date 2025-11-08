@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2083",
-    "scraped_at": "2025-11-08T01:35:40.404Z",
+    "scraped_at": "2025-11-08T01:36:44.349Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,9 +13,9 @@
     "currentInningNum": 6,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -842,6 +842,20 @@
             "ts": 1762565567
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "18960-2-53",
+            "text": "Jonatan Clase al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762565781
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -920,6 +934,13 @@
         "half": "top",
         "label": "Alta 6ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
