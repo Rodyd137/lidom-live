@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1946",
-    "scraped_at": "2025-11-09T23:32:48.502Z",
+    "scraped_at": "2025-11-09T23:33:39.544Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-09 17:00:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Euribiel Angeles Ponche (K) ",
+    "lastPlayByPlay": "Yairo Munoz  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Sammy Peralta ",
+          "pitcher": "Eddy Yean",
           "era": "",
           "record": "",
           "debut": false
@@ -870,6 +870,27 @@
             "ts": 1762730971
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "17725-2-53",
+            "text": "Yairo Munoz  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762731201
+          },
+          {
+            "reference_id": "17725-2-54",
+            "text": "Jard Oliva al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762731204
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -949,6 +970,13 @@
         "label": "Alta 6ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -989,7 +1017,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -1047,7 +1075,7 @@
         "id": 2091,
         "date": "2025-11-09 16:00:00",
         "status": 2,
-        "roundText": "Baja 5ta",
+        "roundText": "Alta 6ta",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
