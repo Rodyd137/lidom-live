@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2091",
-    "scraped_at": "2025-11-09T21:05:11.590Z",
+    "scraped_at": "2025-11-09T21:06:16.315Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-09 16:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Pablo Reyes  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -114,6 +114,17 @@
             "team_id": 5,
             "name": "Kelvin Gutiérrez",
             "abbreviation": "K. Gutiérrez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5245,
+            "team_id": 5,
+            "name": "Pablo Reyes",
+            "abbreviation": "P. Reyes",
             "number": null,
             "dob": null,
             "height": "",
@@ -414,6 +425,20 @@
             "ts": 1762722174
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19036-1-10",
+            "text": "Pablo Reyes  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762722347
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -429,6 +454,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
