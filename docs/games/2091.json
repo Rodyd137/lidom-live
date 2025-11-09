@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2091",
-    "scraped_at": "2025-11-09T20:45:57.695Z",
+    "scraped_at": "2025-11-09T20:47:02.245Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-11-09 16:00:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Johan Rojas   Out: Rodado al Tercera Base - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
@@ -70,6 +70,17 @@
             "team_id": 5,
             "name": "Johan Rojas ",
             "abbreviation": "J. Rojas",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5494,
+            "team_id": 5,
+            "name": "Jose Siri",
+            "abbreviation": "J. Siri",
             "number": null,
             "dob": null,
             "height": "",
@@ -249,10 +260,17 @@
         "plays": [
           {
             "reference_id": "19035-1-1",
-            "text": "Johan Rojas  al bate",
+            "text": "Johan Rojas   Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1762721106
+            "ts": 1762721156
+          },
+          {
+            "reference_id": "19035-1-2",
+            "text": "Jose Siri al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762721184
           }
         ]
       }
@@ -262,7 +280,7 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
