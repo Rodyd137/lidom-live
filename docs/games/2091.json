@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2091",
-    "scraped_at": "2025-11-09T23:35:52.648Z",
+    "scraped_at": "2025-11-09T23:36:56.197Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-09 16:00:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Cooper Johnson Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -828,6 +828,27 @@
             "ts": 1762731196
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "19040-1-47",
+            "text": "Cooper Johnson Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762731403
+          },
+          {
+            "reference_id": "19040-1-48",
+            "text": "Jose Torres  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762731408
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -900,6 +921,13 @@
         "label": "Baja 5ta",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1015,7 +1043,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 6,
-          "hits": 8,
+          "hits": 9,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         }
