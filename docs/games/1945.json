@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1945",
-    "scraped_at": "2025-11-09T20:56:35.476Z",
+    "scraped_at": "2025-11-09T20:57:39.894Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-09 16:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jordan Lawlar Out: Elevado al Jardinero Derecho ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -646,6 +646,27 @@
             "ts": 1762721660
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "17714-1-26",
+            "text": "Jordan Lawlar Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762721849
+          },
+          {
+            "reference_id": "17714-1-27",
+            "text": "Domingo Leyba al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762721853
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -689,6 +710,13 @@
         "half": "bottom",
         "label": "Baja 3ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
