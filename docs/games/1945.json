@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1945",
-    "scraped_at": "2025-11-09T23:31:43.892Z",
+    "scraped_at": "2025-11-09T23:32:48.424Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-09 16:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Erik Gonzalez Base por Bolas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Wuander Suero ",
           "era": "",
           "record": "",
           "debut": false
@@ -989,6 +989,20 @@
             "ts": 1762730904
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "17718-2-64",
+            "text": "Erik Gonzalez Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762731160
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1095,6 +1109,13 @@
         "half": "top",
         "label": "Alta 8va",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
