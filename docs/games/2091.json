@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2091",
-    "scraped_at": "2025-11-09T23:07:23.872Z",
+    "scraped_at": "2025-11-09T23:08:26.678Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 5,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 3,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -744,6 +744,20 @@
             "ts": 1762729466
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19039-1-37",
+            "text": "Jake Holton al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762729654
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -801,6 +815,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
