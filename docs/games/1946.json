@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1946",
-    "scraped_at": "2025-11-09T23:22:01.778Z",
+    "scraped_at": "2025-11-09T23:23:06.973Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-09 17:00:00",
-    "roundText": "Baja 5ta",
-    "currentInningNum": 5,
-    "lastPlayByPlay": "Felnin Celesten Out: Elevado al Jardinero Central",
+    "roundText": "Alta 6ta",
+    "currentInningNum": 6,
+    "lastPlayByPlay": "Raimel Tapia Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -180,7 +180,7 @@
           "H2": 6
         },
         "probables": {
-          "pitcher": "Jorge Bautista ",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -835,6 +835,27 @@
             "ts": 1762730364
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "17725-1-49",
+            "text": "Raimel Tapia Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762730583
+          },
+          {
+            "reference_id": "17725-1-50",
+            "text": "Rodolfo Castro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762730586
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -907,6 +928,13 @@
         "label": "Baja 5ta",
         "total_plays": 7,
         "scoring_plays": 3
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -941,14 +969,14 @@
       {
         "num": 5,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 3
       },
       {
         "num": 6,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
