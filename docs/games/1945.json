@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1945",
-    "scraped_at": "2025-11-09T22:58:58.318Z",
+    "scraped_at": "2025-11-09T23:00:01.954Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-09 16:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gustavo Nuñez se embasa por Error del Tercera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -176,7 +176,7 @@
         "totals": {
           "R": 2,
           "H": 5,
-          "E": 0,
+          "E": 1,
           "H2": 2
         },
         "probables": {
@@ -347,7 +347,7 @@
         "home": {
           "R": 2,
           "H": 5,
-          "E": 0
+          "E": 1
         }
       },
       "cumulative": {
@@ -891,6 +891,20 @@
             "ts": 1762728961
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "17717-1-53",
+            "text": "Gustavo Nuñez se embasa por Error del Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762729199
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -976,6 +990,13 @@
         "half": "bottom",
         "label": "Baja 6ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
