@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1945",
-    "scraped_at": "2025-11-09T23:17:53.325Z",
+    "scraped_at": "2025-11-09T23:18:56.269Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-09 16:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Junior Lake Out: Elevado al Jardinero Derecho ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -933,6 +933,27 @@
             "ts": 1762730092
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "17717-2-58",
+            "text": "Junior Lake Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762730309
+          },
+          {
+            "reference_id": "17717-2-59",
+            "text": "Pedro Severino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762730315
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1026,6 +1047,13 @@
         "label": "Alta 7ma",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1114,8 +1142,8 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 5,
-          "hits": 7,
+          "runs": 6,
+          "hits": 8,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         }
