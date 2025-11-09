@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2091",
-    "scraped_at": "2025-11-09T22:52:40.924Z",
+    "scraped_at": "2025-11-09T22:53:44.358Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 4,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -702,6 +702,20 @@
             "ts": 1762728590
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19038-2-32",
+            "text": "JC Escarra al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762728796
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -752,6 +766,13 @@
         "half": "top",
         "label": "Alta 4ta",
         "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -867,8 +888,8 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 2,
-          "hits": 5,
+          "runs": 3,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         }
