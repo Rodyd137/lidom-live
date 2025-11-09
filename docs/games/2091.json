@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2091",
-    "scraped_at": "2025-11-09T22:35:26.518Z",
+    "scraped_at": "2025-11-09T22:36:30.783Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-09 16:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Cooper Johnson Out: Elevado al Segunda Base",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -176,7 +176,7 @@
         "totals": {
           "R": 0,
           "H": 0,
-          "E": 0,
+          "E": 1,
           "H2": 0
         },
         "probables": {
@@ -347,7 +347,7 @@
         "home": {
           "R": 0,
           "H": 0,
-          "E": 0
+          "E": 1
         }
       },
       "cumulative": {
@@ -661,10 +661,24 @@
         "plays": [
           {
             "reference_id": "19038-1-26",
-            "text": "Pablo Reyes al bate",
+            "text": "Pablo Reyes se embasa por Error del Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1762727698
+            "ts": 1762727754
+          },
+          {
+            "reference_id": "19038-1-27",
+            "text": "Cooper Johnson Out: Elevado al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762727780
+          },
+          {
+            "reference_id": "19038-1-28",
+            "text": "Jose Torres  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762727784
           }
         ]
       }
@@ -716,7 +730,7 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
