@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1946",
-    "scraped_at": "2025-11-09T21:13:48.565Z",
+    "scraped_at": "2025-11-09T21:14:52.970Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-09 17:00:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Josh Lester Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -457,6 +457,20 @@
             "ts": 1762722714
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "17720-2-4",
+            "text": "Gilberto Celestino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762722837
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -466,12 +480,19 @@
         "label": "Alta 1ra",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
