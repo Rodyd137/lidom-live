@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2086",
-    "scraped_at": "2025-11-09T02:31:51.467Z",
+    "scraped_at": "2025-11-09T02:32:55.904Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-08 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Pedro Severino Toque de Sacrificio ",
+    "lastPlayByPlay": "Jimmy Paredes Out! Rodado de Selección.  ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 7
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": true,
-      "runners": 2,
-      "mask": 7
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 1,
+          "R": 2,
           "H": 8,
           "E": 2,
           "H2": 0
@@ -147,6 +147,17 @@
             "team_id": 4,
             "name": "Pedro Severino",
             "abbreviation": "P. Severino",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5301,
+            "team_id": 4,
+            "name": "Jimmy Paredes",
+            "abbreviation": "J. Paredes",
             "number": null,
             "dob": null,
             "height": "",
@@ -322,14 +333,14 @@
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 1,
+          "R": 2,
           "H": 8,
           "E": 2
         },
@@ -375,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 1
+            "R": 2
           }
         ],
         "home": [
@@ -1049,10 +1060,17 @@
           },
           {
             "reference_id": "18990-1-71",
-            "text": "José Marmolejos al bate",
+            "text": "Jimmy Paredes Out! Rodado de Selección.  ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762655545
+          },
+          {
+            "reference_id": "18990-1-72",
+            "text": "Hector Rodríguez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1762655483
+            "ts": 1762655550
           }
         ]
       }
@@ -1174,8 +1192,8 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1239,7 +1257,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
