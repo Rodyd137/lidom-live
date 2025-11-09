@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2091",
-    "scraped_at": "2025-11-09T20:58:44.432Z",
+    "scraped_at": "2025-11-09T20:59:49.001Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-09 16:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Leody Taveras Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "Ezequiel Duran Out: Elevado al Primera Base",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 1
+      "balls": 1,
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -158,6 +158,17 @@
             "team_id": 3,
             "name": "Ezequiel Duran",
             "abbreviation": "E. Duran",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5434,
+            "team_id": 3,
+            "name": "JC Escarra",
+            "abbreviation": "JC Escarra",
             "number": null,
             "dob": null,
             "height": "",
@@ -372,10 +383,17 @@
           },
           {
             "reference_id": "19035-2-7",
-            "text": "Ezequiel Duran al bate",
+            "text": "Ezequiel Duran Out: Elevado al Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1762721842
+            "ts": 1762721933
+          },
+          {
+            "reference_id": "19035-2-8",
+            "text": "JC Escarra al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762721947
           }
         ]
       }
@@ -392,7 +410,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -473,7 +491,7 @@
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 2,
-          "hits": 4,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         },
