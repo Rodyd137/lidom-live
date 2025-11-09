@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2086",
-    "scraped_at": "2025-11-09T01:17:14.340Z",
+    "scraped_at": "2025-11-09T01:18:17.839Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-08 19:30:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Erik Gonzalez  Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "Yamaico Navarro al bate",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on3B": true,
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 0,
-          "H": 3,
+          "R": 1,
+          "H": 5,
           "E": 2,
           "H2": 0
         },
@@ -176,7 +176,7 @@
         "totals": {
           "R": 3,
           "H": 4,
-          "E": 1,
+          "E": 2,
           "H2": 3
         },
         "probables": {
@@ -318,7 +318,7 @@
         },
         {
           "num": 6,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,14 +340,14 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 3,
+          "R": 1,
+          "H": 5,
           "E": 2
         },
         "home": {
           "R": 3,
           "H": 4,
-          "E": 1
+          "E": 2
         }
       },
       "cumulative": {
@@ -374,19 +374,19 @@
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ],
         "home": [
@@ -822,10 +822,17 @@
           },
           {
             "reference_id": "18987-1-43",
-            "text": "Socrates Brito al bate",
+            "text": "Socrates Brito Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762651006
+            "ts": 1762651041
+          },
+          {
+            "reference_id": "18987-1-44",
+            "text": "Yamaico Navarro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762651076
           }
         ]
       }
@@ -905,7 +912,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -949,7 +956,7 @@
         "num": 6,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
