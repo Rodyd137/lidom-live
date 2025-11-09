@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1946",
-    "scraped_at": "2025-11-09T22:39:44.045Z",
+    "scraped_at": "2025-11-09T22:40:48.289Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-09 17:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Euribiel Angeles Doble! 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Carlos Mario Martinez Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -682,10 +682,17 @@
           },
           {
             "reference_id": "17723-1-30",
-            "text": "Carlos Mario Martinez al bate",
+            "text": "Carlos Mario Martinez Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762727972
+            "ts": 1762728031
+          },
+          {
+            "reference_id": "17723-1-31",
+            "text": "Rodolfo Durán al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762728033
           }
         ]
       }
@@ -737,7 +744,7 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 7,
+        "total_plays": 8,
         "scoring_plays": 2
       }
     ],
