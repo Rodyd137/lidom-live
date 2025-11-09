@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1946",
-    "scraped_at": "2025-11-09T22:56:52.580Z",
+    "scraped_at": "2025-11-09T22:57:55.460Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-09 17:00:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Jard Oliva Doble! 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Jard Oliva Robo de Base Wild Pitch",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 3
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Esmil Rogers",
+          "pitcher": "Raffi Vizcaíno",
           "era": "",
           "record": "",
           "debut": false
@@ -738,10 +738,17 @@
           },
           {
             "reference_id": "17723-2-37",
+            "text": "Jard Oliva Robo de Base Wild Pitch",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762729059
+          },
+          {
+            "reference_id": "17723-2-38",
             "text": "Ronaldo Hernández al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1762728802
+            "ts": 1762729071
           }
         ]
       }
@@ -800,7 +807,7 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 6,
+        "total_plays": 7,
         "scoring_plays": 2
       }
     ],
