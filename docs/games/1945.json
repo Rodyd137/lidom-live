@@ -1,21 +1,21 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1945",
-    "scraped_at": "2025-11-09T19:58:39.560Z",
+    "scraped_at": "2025-11-09T20:27:34.942Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1945,
     "season_id": 20,
-    "status": 3,
+    "status": 2,
     "date": "2025-11-09 16:00:00",
-    "roundText": "Alta 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "Mel Rojas Jr. al bate",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
-          "R": 0,
-          "H": 0,
+          "R": 2,
+          "H": 4,
           "E": 0,
-          "H2": 0
+          "H2": 2
         },
         "probables": {
           "pitcher": "Cesar Valdez",
@@ -293,12 +293,12 @@
       "innings": [
         {
           "num": 1,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
           "num": 2,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 0,
+          "R": 2,
+          "H": 4,
           "E": 0
         },
         "home": {
@@ -354,39 +354,39 @@
         "away": [
           {
             "num": 1,
-            "R": 0
+            "R": 1
           },
           {
             "num": 2,
-            "R": 0
+            "R": 2
           },
           {
             "num": 3,
-            "R": 0
+            "R": 2
           },
           {
             "num": 4,
-            "R": 0
+            "R": 2
           },
           {
             "num": 5,
-            "R": 0
+            "R": 2
           },
           {
             "num": 6,
-            "R": 0
+            "R": 2
           },
           {
             "num": 7,
-            "R": 0
+            "R": 2
           },
           {
             "num": 8,
-            "R": 0
+            "R": 2
           },
           {
             "num": 9,
-            "R": 0
+            "R": 2
           }
         ],
         "home": [
@@ -429,21 +429,163 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "17711-1-1",
+            "text": "Gustavo Nuñez  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762718691
+          },
+          {
+            "reference_id": "17711-1-2",
+            "text": "Mel Rojas Jr. Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762718738
+          },
+          {
+            "reference_id": "17711-1-3",
+            "text": "Armando Alvarez Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762719036
+          },
+          {
+            "reference_id": "17711-1-4",
+            "text": "Francisco Mejía Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762719045
+          },
+          {
+            "reference_id": "17711-1-5",
+            "text": "Cristhian Adames Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762719100
+          },
+          {
+            "reference_id": "17711-1-6",
+            "text": "Ángel Ortiz Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762719245
+          }
+        ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "17711-2-7",
+            "text": "Hector Rodríguez  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762719421
+          },
+          {
+            "reference_id": "17711-2-8",
+            "text": "Erik Gonzalez  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762719476
+          },
+          {
+            "reference_id": "17711-2-9",
+            "text": "Franchy Cordero  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762719561
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "17712-1-10",
+            "text": "Jordan Lawlar Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762719767
+          },
+          {
+            "reference_id": "17712-1-11",
+            "text": "Domingo Leyba Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762719796
+          },
+          {
+            "reference_id": "17712-1-12",
+            "text": "Emilio Bonifacio Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762719855
+          },
+          {
+            "reference_id": "17712-1-13",
+            "text": "Gustavo Nuñez Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762719902
+          },
+          {
+            "reference_id": "17712-1-14",
+            "text": "Mel Rojas Jr. al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762719985
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 5,
+        "scoring_plays": 1
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
-        "is_last": 1,
-        "awayTeamRuns": 0,
+        "part": 2,
+        "is_last": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
-        "awayTeamRuns": 0,
+        "is_last": 1,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
