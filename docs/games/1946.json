@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1946",
-    "scraped_at": "2025-11-09T23:08:26.715Z",
+    "scraped_at": "2025-11-09T23:09:29.612Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-09 17:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gilberto Celestino Base por Bolas ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -787,10 +787,17 @@
         "plays": [
           {
             "reference_id": "17724-2-42",
-            "text": "Gilberto Celestino al bate",
+            "text": "Gilberto Celestino Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762729574
+            "ts": 1762729723
+          },
+          {
+            "reference_id": "17724-2-43",
+            "text": "Mickey Gasper al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762729727
           }
         ]
       }
@@ -863,7 +870,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],

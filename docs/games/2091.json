@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2091",
-    "scraped_at": "2025-11-09T23:08:26.678Z",
+    "scraped_at": "2025-11-09T23:09:29.596Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-09 16:00:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jake Holton Base por Bolas ",
     "counts": {
-      "balls": 3,
+      "balls": 1,
       "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -752,10 +752,17 @@
         "plays": [
           {
             "reference_id": "19039-1-37",
-            "text": "Jake Holton al bate",
+            "text": "Jake Holton Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762729654
+            "ts": 1762729714
+          },
+          {
+            "reference_id": "19039-1-38",
+            "text": "Deyvinson de los Santos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762729718
           }
         ]
       }
@@ -821,7 +828,7 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
