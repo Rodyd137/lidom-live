@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2091",
-    "scraped_at": "2025-11-09T22:54:44.380Z",
+    "scraped_at": "2025-11-09T22:55:49.800Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-09 16:00:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Aderlin Rodríguez Out: Elevado al Receptor",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -710,10 +710,24 @@
         "plays": [
           {
             "reference_id": "19038-2-32",
-            "text": "JC Escarra al bate",
+            "text": "JC Escarra Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762728796
+            "ts": 1762728892
+          },
+          {
+            "reference_id": "19038-2-33",
+            "text": "Aderlin Rodríguez Out: Elevado al Receptor",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762728927
+          },
+          {
+            "reference_id": "19038-2-34",
+            "text": "Alberto Rodriguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762728933
           }
         ]
       }
@@ -772,7 +786,7 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
