@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2086",
-    "scraped_at": "2025-11-09T01:16:11.261Z",
+    "scraped_at": "2025-11-09T01:17:14.340Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-08 19:30:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Erik Gonzalez  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -807,6 +807,27 @@
             "ts": 1762650794
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "18987-1-42",
+            "text": "Erik Gonzalez  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762651003
+          },
+          {
+            "reference_id": "18987-1-43",
+            "text": "Socrates Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762651006
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -878,6 +899,13 @@
         "half": "bottom",
         "label": "Baja 5ta",
         "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
