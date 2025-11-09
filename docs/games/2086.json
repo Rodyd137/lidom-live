@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2086",
-    "scraped_at": "2025-11-09T00:05:32.551Z",
+    "scraped_at": "2025-11-09T00:06:36.209Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-08 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Franchy Cordero Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -535,10 +535,17 @@
         "plays": [
           {
             "reference_id": "18983-1-13",
-            "text": "Franchy Cordero al bate",
+            "text": "Franchy Cordero Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1762646721
+            "ts": 1762646779
+          },
+          {
+            "reference_id": "18983-1-14",
+            "text": " Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762646786
           }
         ]
       }
@@ -562,7 +569,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -635,7 +642,7 @@
       {
         "id": 2084,
         "date": "2025-11-08 17:00:00",
-        "status": 2,
+        "status": 6,
         "roundText": "Alta 9na",
         "awayTeam": {
           "id": 3,
@@ -643,7 +650,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 4,
-          "hits": 4,
+          "hits": 5,
           "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
         },
@@ -653,7 +660,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 7,
-          "hits": 9,
+          "hits": 10,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
@@ -669,7 +676,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 2,
-          "hits": 6,
+          "hits": 7,
           "errors": 2,
           "permalink": "/equipo/estrellas-orientales"
         },
