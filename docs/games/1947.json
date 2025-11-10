@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1947",
-    "scraped_at": "2025-11-10T22:24:36.460Z",
+    "scraped_at": "2025-11-10T22:41:35.113Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-10 16:00:00",
-    "roundText": "Baja 6ta",
-    "currentInningNum": 6,
-    "lastPlayByPlay": "Luis De Los Santos al bate",
+    "roundText": "Alta 8va",
+    "currentInningNum": 8,
+    "lastPlayByPlay": "Sandber Pimentel Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 1
+      "battingTeam": "awayTeam",
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -59,17 +59,17 @@
           "H2": 12
         },
         "probables": {
-          "pitcher": "Janser Lara",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
         },
         "players": [
           {
-            "id": 5382,
+            "id": 5461,
             "team_id": 6,
-            "name": "Gilberto Celestino",
-            "abbreviation": "G. Celestino",
+            "name": "Guztavo Campero",
+            "abbreviation": "G. Campero",
             "number": null,
             "dob": null,
             "height": "",
@@ -88,10 +88,10 @@
             "position": ""
           },
           {
-            "id": 5395,
+            "id": 5381,
             "team_id": 6,
-            "name": "Mickey Gasper",
-            "abbreviation": "M. Gasper",
+            "name": "Sandber Pimentel",
+            "abbreviation": "S. Pimentel",
             "number": null,
             "dob": null,
             "height": "",
@@ -180,7 +180,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Diógenes Almengó",
           "era": "",
           "record": "",
           "debut": false
@@ -927,10 +927,80 @@
           },
           {
             "reference_id": "17734-2-61",
-            "text": "Luis De Los Santos al bate",
+            "text": "Luis De Los Santos Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762813443
+            "ts": 1762813495
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "17735-1-62",
+            "text": "Ronaldo Hernández Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762813728
+          },
+          {
+            "reference_id": "17735-1-63",
+            "text": "Guztavo Campero Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762813795
+          },
+          {
+            "reference_id": "17735-1-64",
+            "text": "Bryan de la Cruz Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762813912
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "17735-2-65",
+            "text": "Jonathan Arauz Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762814099
+          },
+          {
+            "reference_id": "17735-2-66",
+            "text": "Alexander Canario Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762814235
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "17736-1-67",
+            "text": "Sandber Pimentel Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762814477
+          },
+          {
+            "reference_id": "17736-1-68",
+            "text": "Eloy Jimenez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762814479
           }
         ]
       }
@@ -1019,6 +1089,27 @@
         "label": "Baja 6ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 2,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1060,13 +1151,13 @@
       {
         "num": 6,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -1074,7 +1165,7 @@
       {
         "num": 8,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -1091,14 +1182,14 @@
         "id": 1948,
         "date": "2025-11-10 17:00:00",
         "status": 2,
-        "roundText": "Baja 4ta",
+        "roundText": "Alta 5ta",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 0,
-          "hits": 3,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         },
@@ -1107,9 +1198,9 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 2,
-          "hits": 7,
-          "errors": 0,
+          "runs": 3,
+          "hits": 8,
+          "errors": 1,
           "permalink": "/equipo/estrellas-orientales"
         }
       }
