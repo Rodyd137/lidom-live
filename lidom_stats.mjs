@@ -1,5 +1,5 @@
 // Node 20+ (fetch nativo)
-// scripts/lidom_stats.mjs  (también funciona si está en el root)
+// scripts/lidom_stats.mjs
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -8,16 +8,11 @@ import * as cheerio from "cheerio";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // === Resolver raíz del repo de forma segura ===
-// 1) Si existe docs junto al script, usamos ese dir como root.
-// 2) Si no, probamos un nivel arriba (caso cuando el script está en /scripts).
-// 3) Si no, usamos CWD (Actions lo pone en <repo>/<repo>).
 function resolveRepoRoot() {
   const hereDocs = path.join(__dirname, "docs");
   if (fs.existsSync(hereDocs)) return __dirname;
-
   const upDocs = path.join(__dirname, "..", "docs");
   if (fs.existsSync(upDocs)) return path.join(__dirname, "..");
-
   return process.cwd();
 }
 const REPO_ROOT = resolveRepoRoot();
@@ -27,6 +22,7 @@ const SOURCE = process.env.LIDOM_STATS_URL || "https://estadisticas.lidom.com/Li
 
 // Utils
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+const hasLetters = (s) => /[A-Za-zÁÉÍÓÚáéíóúÑñÜü]/.test(s || "");
 
 function cleanNum(s) {
   if (s == null) return null;
@@ -36,43 +32,97 @@ function cleanNum(s) {
   return Number.isNaN(n) ? t : n;
 }
 
-function normalizeHeaders(headers) {
-  return headers.map(h => h.toLowerCase()
+function normalizeHeader(h, i) {
+  let s = (h ?? "").toLowerCase()
     .replace(/\s+/g, "_")
-    .replace(/[().%]/g, "")
-    .replace(/á/g, "a").replace(/é/g, "e").replace(/í/g, "i").replace(/ó/g, "o").replace(/ú/g, "u"));
+    .replace(/[().%]/g, "");
+  if (!s || /^_+$/.test(s)) s = `col${i}`;
+  // quitar acentos
+  s = s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  return s;
 }
 
-function tableKind(headers) {
-  const H = headers.map(h => h.toUpperCase());
+function getHeaders($, $t) {
+  let headerCells = $t.find("thead tr:last th"); // última fila del thead (la que suele tener columnas finales)
+  if (!headerCells.length) headerCells = $t.find("thead tr:first th");
+  if (!headerCells.length) headerCells = $t.find("tr:first th");
+  if (!headerCells.length) headerCells = $t.find("tr:first td");
+
+  // No filtres vacíos: preserva posiciones
+  const raw = headerCells.toArray().map((c, i) => {
+    const txt = $(c).text().trim();
+    return txt === "" ? `col${i}` : txt;
+  });
+
+  const norm = raw.map((h, i) => normalizeHeader(h, i));
+  return { raw, norm };
+}
+
+function tableKind(headersNorm) {
+  const H = headersNorm.map(h => h.toUpperCase());
   if (H.includes("OPS") && H.includes("AVG")) return "bateo";
   if (H.includes("ERA") && H.includes("WHIP")) return "pitcheo";
   return "desconocido";
 }
 
-// Manejar filas con menos celdas que headers (colspan/rowspan)
-function rowToObj($, $row, headers) {
+// ✅ Manejo robusto de filas con menos celdas y fallback de jugador/equipo
+function rowToObj($, $row, headersNorm) {
   const cells = $row.find("td,th").toArray();
   const obj = {};
-  headers.forEach((h, i) => {
+
+  // Fallback: intenta detectar el índice del jugador por el link a la ficha
+  let playerIdx = -1;
+  cells.some((node, idx) => {
+    const a = $(node).find("a[href*='Miembro/Detalle']");
+    if (a.length) {
+      const href = a.attr("href") || "";
+      const m = href.match(/idMiembro=(\d+)/i);
+      obj.jugador_id = m ? Number(m[1]) : null;
+      obj.jugador = a.text().trim() || $(node).text().trim();
+      playerIdx = idx;
+      return true;
+    }
+    return false;
+  });
+
+  headersNorm.forEach((h, i) => {
     const node = cells[i];
     if (!node) {
-      obj[h] = null;
+      // Mantén la clave con null para no desalinear
+      if (obj[h] === undefined) obj[h] = null;
       return;
     }
     const $c = $(node);
+    const txt = $c.text().trim();
 
-    if (h === "jugador") {
-      const a = $c.find("a[href*='Miembro/Detalle']").attr("href");
-      const idMatch = a?.match(/idMiembro=(\d+)/i);
-      obj.jugador_id = idMatch ? Number(idMatch[1]) : null;
-      obj.jugador = $c.text().trim();
+    if (h === "jugador" && !obj.jugador) {
+      const a = $c.find("a[href*='Miembro/Detalle']");
+      if (a.length) {
+        const href = a.attr("href") || "";
+        const m = href.match(/idMiembro=(\d+)/i);
+        obj.jugador_id = m ? Number(m[1]) : null;
+        obj.jugador = a.text().trim() || txt;
+      } else {
+        obj.jugador = txt;
+      }
     } else if (h === "equipo") {
-      obj.equipo = $c.text().trim();
+      obj.equipo = txt;
     } else {
-      obj[h] = cleanNum($c.text());
+      // Guarda número o texto según corresponda
+      obj[h] = cleanNum(txt);
     }
   });
+
+  // Si no hay header 'equipo' o quedó vacío, intenta vecino del jugador
+  const hasEquipoHeader = headersNorm.includes("equipo");
+  if ((!hasEquipoHeader || !obj.equipo) && playerIdx >= 0) {
+    const neighs = [cells[playerIdx + 1], cells[playerIdx - 1]].filter(Boolean);
+    for (const n of neighs) {
+      const val = $(n).text().trim();
+      if (hasLetters(val) && val.length <= 40) { obj.equipo = obj.equipo || val; break; }
+    }
+  }
+
   return obj;
 }
 
@@ -83,17 +133,11 @@ function parseTables(html) {
   $("table").each((_, tbl) => {
     const $t = $(tbl);
 
-    // headers
-    let headerCells = $t.find("thead tr:first th");
-    if (!headerCells.length) headerCells = $t.find("tr:first th");
-    if (!headerCells.length) headerCells = $t.find("tr:first td");
-    const rawHeaders = headerCells.toArray().map(c => $(c).text().trim()).filter(Boolean);
-    if (rawHeaders.length < 3) return;
+    const { raw, norm } = getHeaders($, $t);
+    if (norm.length < 3) return;
 
-    const kind = tableKind(rawHeaders);
+    const kind = tableKind(norm);
     if (kind === "desconocido") return;
-
-    const headers = normalizeHeaders(rawHeaders);
 
     // filas
     let rows = $t.find("tbody tr");
@@ -101,10 +145,23 @@ function parseTables(html) {
 
     rows.each((_, tr) => {
       const $tr = $(tr);
-      if ($tr.find("th").length && !$tr.find("td").length) return; // ignora filas header
+      // omite filas de subencabezados
+      if ($tr.find("th").length && !$tr.find("td").length) return;
 
-      const obj = rowToObj($, $tr, headers);
-      const hasVal = obj && Object.values(obj).some(v => v !== null && v !== "" && v !== undefined);
+      const obj = rowToObj($, $tr, norm);
+
+      // Limpieza: si parece que 'equipo' tomó un nombre (ej: "Julio E. Rodriguez") y 'jugador' quedó vacío, intenta swap
+      if ((!obj.jugador || String(obj.jugador).trim() === "") && hasLetters(obj.equipo)) {
+        // Heurística: si la celda equipo tiene más pinta de nombre propio que de equipo, y jugador está vacío, intercambia
+        const equi = String(obj.equipo || "");
+        if (!/aguilas|gigantes|tigres|leones|estrellas|toros/i.test(equi)) {
+          obj.jugador = equi;
+          obj.equipo = null;
+        }
+      }
+
+      // Guarda solo si hay algún dato real
+      const hasVal = Object.values(obj || {}).some(v => v !== null && v !== "" && v !== undefined);
       if (hasVal) results[kind].push(obj);
     });
   });
