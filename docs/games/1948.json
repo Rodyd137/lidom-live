@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1948",
-    "scraped_at": "2025-11-10T21:20:57.685Z",
+    "scraped_at": "2025-11-10T21:22:01.103Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-10 17:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Francisco Mejía  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -492,6 +492,27 @@
             "ts": 1762809499
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "17739-1-8",
+            "text": "Francisco Mejía  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762809708
+          },
+          {
+            "reference_id": "17739-1-9",
+            "text": "Cristhian Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762809710
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -507,6 +528,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -580,7 +608,7 @@
         "id": 1947,
         "date": "2025-11-10 16:00:00",
         "status": 2,
-        "roundText": "Baja 3ra",
+        "roundText": "Alta 4ta",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
