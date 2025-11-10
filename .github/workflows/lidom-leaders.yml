@@ -19,7 +19,7 @@ env:
 jobs:
   leaders:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -42,7 +42,7 @@ jobs:
           else
             npm i --prefix docs --no-fund --no-audit
           fi
-          # hace accesibles los módulos al root
+          # Hace accesibles los módulos al root (para scripts en /scripts)
           [ -e node_modules ] || ln -s docs/node_modules node_modules
 
       - name: Configure git
@@ -50,22 +50,24 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+      # Sanity check: existe el script y puede hacer fetch
+      - name: Verificar script y fetch de la página
+        run: |
+          set -euo pipefail
+          test -f scripts/lidom_stats.mjs || (echo "ERROR: falta scripts/lidom_stats.mjs" && exit 1)
+          node -e "fetch(process.env.LIDOM_STATS_URL, {headers:{'user-agent':'Mozilla/5.0'}}).then(r=>{console.log('HEADERS-OK status=',r.status); if(!r.ok) process.exit(2)}).catch(e=>{console.error('FETCH-FAIL',e); process.exit(3)})"
+
       - name: Scrape líderes (bateo/pitcheo)
         run: |
-          if [ -f scripts/lidom_stats.mjs ]; then
-            node scripts/lidom_stats.mjs || true
-          else
-            echo "WARN: scripts/lidom_stats.mjs no existe."
-          fi
-
-      - name: Validar JSON generado
-        run: |
-          [ -f docs/stats/lideres.json ] && jq . docs/stats/lideres.json >/dev/null || true
+          set -euo pipefail
+          node scripts/lidom_stats.mjs   # sin '|| true' para ver el error real
+          test -s docs/stats/lideres.json || (echo "ERROR: no se generó docs/stats/lideres.json" && exit 4)
+          jq . docs/stats/lideres.json > /dev/null || (echo "ERROR: JSON inválido en docs/stats/lideres.json" && exit 5)
 
       - name: Commit & push (solo líderes)
         run: |
-          if ! git diff --quiet -- docs/stats/; then
-            git add -A docs/stats/
+          if ! git diff --quiet -- docs/stats/lideres.json; then
+            git add docs/stats/lideres.json
             TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
             git commit -m "chore(leaders): update ${TS} [skip ci]" || true
             git pull --rebase origin main || true
