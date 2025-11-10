@@ -1,0 +1,75 @@
+name: scrape-lidom-leaders
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "*/10 * * * *"   # cada ~10 min (UTC)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-lidom-leaders
+  cancel-in-progress: true
+
+env:
+  TZ: America/Santo_Domingo
+  LIDOM_STATS_URL: https://estadisticas.lidom.com/Lider
+
+jobs:
+  leaders:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Re-auth remote with token
+        run: git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Instala dependencias donde está tu package.json: docs/
+      - name: Install deps (docs/)
+        run: |
+          if [ -f docs/package-lock.json ]; then
+            npm ci --prefix docs
+          else
+            npm i --prefix docs --no-fund --no-audit
+          fi
+          # hace accesibles los módulos al root
+          [ -e node_modules ] || ln -s docs/node_modules node_modules
+
+      - name: Configure git
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Scrape líderes (bateo/pitcheo)
+        run: |
+          if [ -f scripts/lidom_stats.mjs ]; then
+            node scripts/lidom_stats.mjs || true
+          else
+            echo "WARN: scripts/lidom_stats.mjs no existe."
+          fi
+
+      - name: Validar JSON generado
+        run: |
+          [ -f docs/stats/lideres.json ] && jq . docs/stats/lideres.json >/dev/null || true
+
+      - name: Commit & push (solo líderes)
+        run: |
+          if ! git diff --quiet -- docs/stats/; then
+            git add -A docs/stats/
+            TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+            git commit -m "chore(leaders): update ${TS} [skip ci]" || true
+            git pull --rebase origin main || true
+            git push origin HEAD:main || true
+          else
+            echo "No changes en líderes."
+          fi
