@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1947",
-    "scraped_at": "2025-11-10T22:03:52.210Z",
+    "scraped_at": "2025-11-10T22:04:55.734Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 12
         },
         "probables": {
-          "pitcher": "Chester Pimentel",
+          "pitcher": "Greg Minier ",
           "era": "",
           "record": "",
           "debut": false
@@ -842,6 +842,20 @@
             "ts": 1762812050
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "17733-2-50",
+            "text": "Chadwick Tromp al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762812277
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -906,6 +920,13 @@
         "half": "top",
         "label": "Alta 5ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
