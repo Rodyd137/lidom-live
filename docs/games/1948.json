@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1948",
-    "scraped_at": "2025-11-10T23:29:45.053Z",
+    "scraped_at": "2025-11-10T23:30:49.689Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-10 17:00:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Cristhian Adames Ponche (K) ",
+    "lastPlayByPlay": "Vidal Brujan Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 1
+      "battingTeam": "homeTeam",
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Albert Abreu",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -933,6 +933,20 @@
             "ts": 1762817275
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "17744-2-61",
+            "text": "Vidal Brujan Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762817425
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1026,6 +1040,13 @@
         "label": "Alta 7ma",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1073,7 +1094,7 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
