@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1947",
-    "scraped_at": "2025-11-10T21:45:23.190Z",
+    "scraped_at": "2025-11-10T21:54:23.304Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,13 +9,13 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-10 16:00:00",
-    "roundText": "Alta 4ta",
-    "currentInningNum": 4,
-    "lastPlayByPlay": "Ronaldo Hernández Cuadrangular! 4 Carreras Impulsadas ",
+    "roundText": "Alta 5ta",
+    "currentInningNum": 5,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 2
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -54,12 +54,12 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 12,
-          "H": 9,
+          "H": 10,
           "E": 0,
           "H2": 12
         },
         "probables": {
-          "pitcher": "José Ureña",
+          "pitcher": "Chester Pimentel",
           "era": "",
           "record": "",
           "debut": false
@@ -175,7 +175,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 1,
-          "H": 3,
+          "H": 4,
           "E": 1,
           "H2": 1
         },
@@ -341,12 +341,12 @@
       "totals": {
         "away": {
           "R": 12,
-          "H": 9,
+          "H": 10,
           "E": 0
         },
         "home": {
           "R": 1,
-          "H": 3,
+          "H": 4,
           "E": 1
         }
       },
@@ -766,10 +766,52 @@
           },
           {
             "reference_id": "17732-1-41",
-            "text": "Gilberto Celestino al bate",
+            "text": "Gilberto Celestino Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762811073
+            "ts": 1762811150
+          },
+          {
+            "reference_id": "17732-1-42",
+            "text": "Bryan de la Cruz Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762811190
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "17732-2-43",
+            "text": "Yamaico Navarro Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762811398
+          },
+          {
+            "reference_id": "17732-2-44",
+            "text": "Gio Urshela Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762811458
+          },
+          {
+            "reference_id": "17732-2-45",
+            "text": "Jonathan Arauz Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762811562
+          },
+          {
+            "reference_id": "17732-2-46",
+            "text": "Alexander Canario Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762811642
           }
         ]
       }
@@ -821,8 +863,15 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 10,
+        "total_plays": 11,
         "scoring_plays": 3
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 4,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -849,15 +898,15 @@
       },
       {
         "num": 4,
-        "part": 1,
-        "is_last": 1,
+        "part": 2,
+        "is_last": 0,
         "awayTeamRuns": 6,
         "homeTeamRuns": 0
       },
       {
         "num": 5,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -895,7 +944,7 @@
         "id": 1948,
         "date": "2025-11-10 17:00:00",
         "status": 2,
-        "roundText": "Alta 3ra",
+        "roundText": "Baja 3ra",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -912,7 +961,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 0,
-          "hits": 2,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }

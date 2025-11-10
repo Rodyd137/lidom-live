@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1948",
-    "scraped_at": "2025-11-10T21:45:23.258Z",
+    "scraped_at": "2025-11-10T21:54:23.338Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-10 17:00:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Mel Rojas Jr. Sencillo Jardinero Izquierdo",
+    "lastPlayByPlay": "Carlos Mario Martinez Sencillo Jardinero Derecho ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 5
     },
     "base_runners": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 0,
-          "H": 2,
+          "H": 3,
           "E": 0,
           "H2": 0
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 0,
-          "H": 2,
+          "H": 3,
           "E": 0
         }
       },
@@ -591,10 +591,45 @@
           },
           {
             "reference_id": "17740-1-19",
-            "text": "Armando Alvarez al bate",
+            "text": "Armando Alvarez Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762811113
+            "ts": 1762811225
+          },
+          {
+            "reference_id": "17740-1-20",
+            "text": "Francisco Mejía  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762811317
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "17740-2-21",
+            "text": "Magneuris Sierra Sencillo Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762811585
+          },
+          {
+            "reference_id": "17740-2-22",
+            "text": "Carlos Mario Martinez Sencillo Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762811648
+          },
+          {
+            "reference_id": "17740-2-23",
+            "text": "Vidal Brujan al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762811651
           }
         ]
       }
@@ -632,7 +667,14 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 4,
+        "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -653,7 +695,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -706,14 +748,14 @@
         "id": 1947,
         "date": "2025-11-10 16:00:00",
         "status": 2,
-        "roundText": "Alta 4ta",
+        "roundText": "Alta 5ta",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 12,
-          "hits": 9,
+          "hits": 10,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         },
@@ -723,7 +765,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 1,
-          "hits": 3,
+          "hits": 4,
           "errors": 1,
           "permalink": "/equipo/leones-del-escogido"
         }
