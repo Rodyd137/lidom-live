@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1948",
-    "scraped_at": "2025-11-10T21:41:43.232Z",
+    "scraped_at": "2025-11-10T21:43:13.800Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-10 17:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gustavo Nuñez Sencillo Segunda Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 0,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 0
         },
         "home": {
@@ -562,6 +562,34 @@
             "ts": 1762810641
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "17740-1-16",
+            "text": "Emilio Bonifacio Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762810905
+          },
+          {
+            "reference_id": "17740-1-17",
+            "text": "Gustavo Nuñez Sencillo Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762810954
+          },
+          {
+            "reference_id": "17740-1-18",
+            "text": "Mel Rojas Jr. al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762810959
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -590,6 +618,13 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
         "total_plays": 3,
         "scoring_plays": 0
       }
