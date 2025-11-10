@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1947",
-    "scraped_at": "2025-11-10T23:15:06.884Z",
+    "scraped_at": "2025-11-10T23:16:11.641Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-10 16:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Randy Florentino Out! Rodado de Selección.  ",
+    "lastPlayByPlay": "Jonathan Guzman Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 6
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -187,21 +187,10 @@
         },
         "players": [
           {
-            "id": 5497,
+            "id": 5298,
             "team_id": 4,
-            "name": "José Marmolejos",
-            "abbreviation": "J. Marmolejos",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 5300,
-            "team_id": 4,
-            "name": "Erik Gonzalez",
-            "abbreviation": "E. Gonzalez",
+            "name": "Jonathan Guzman",
+            "abbreviation": "J. Guzman",
             "number": null,
             "dob": null,
             "height": "",
@@ -1130,10 +1119,17 @@
           },
           {
             "reference_id": "17737-2-83",
-            "text": "José Marmolejos al bate",
+            "text": "Jonathan Guzman Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762816519
+          },
+          {
+            "reference_id": "17737-2-84",
+            "text": "Carlos Jimenez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1762816382
+            "ts": 1762816543
           }
         ]
       }
@@ -1262,8 +1258,8 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 6,
-        "scoring_plays": 1
+        "total_plays": 7,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
