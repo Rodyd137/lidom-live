@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1947",
-    "scraped_at": "2025-11-10T21:57:32.778Z",
+    "scraped_at": "2025-11-10T21:58:36.366Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-10 16:00:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Mickey Gasper Ponche (K) ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -814,6 +814,27 @@
             "ts": 1762811642
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "17733-1-47",
+            "text": "Mickey Gasper Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762811885
+          },
+          {
+            "reference_id": "17733-1-48",
+            "text": "Eloy Jimenez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762811888
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -871,6 +892,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -960,8 +988,8 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 0,
-          "hits": 4,
+          "runs": 1,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
