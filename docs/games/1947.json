@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1947",
-    "scraped_at": "2025-11-10T21:38:33.975Z",
+    "scraped_at": "2025-11-10T21:39:36.961Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-10 16:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Jeimer Candelario Doble! 2 Carreras Impulsadas ",
+    "lastPlayByPlay": "Jard Oliva Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 7
+      "base": 8
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": true,
       "on3B": true,
-      "runners": 2,
-      "mask": 7
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -180,7 +180,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Domingo Acevedo",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -745,10 +745,17 @@
           },
           {
             "reference_id": "17732-1-38",
-            "text": "Jard Oliva al bate",
+            "text": "Jard Oliva Golpeado por Pelota ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762810723
+          },
+          {
+            "reference_id": "17732-1-39",
+            "text": "Rafael Lantigua  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1762810682
+            "ts": 1762810728
           }
         ]
       }
@@ -800,8 +807,8 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 7,
-        "scoring_plays": 1
+        "total_plays": 8,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
