@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1948",
-    "scraped_at": "2025-11-10T23:04:20.061Z",
+    "scraped_at": "2025-11-10T23:05:24.648Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-10 17:00:00",
-    "roundText": "Baja 5ta",
-    "currentInningNum": 5,
-    "lastPlayByPlay": "Raimel Tapia  Out: Rodado al Segunda Base - Primera Base",
+    "roundText": "Alta 6ta",
+    "currentInningNum": 6,
+    "lastPlayByPlay": "Christian Bethancourt Sencillo Jardinero Central",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 1
+      "battingTeam": "awayTeam",
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 0,
-          "H": 4,
+          "H": 5,
           "E": 0,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 4,
+          "H": 5,
           "E": 0
         },
         "home": {
@@ -842,6 +842,27 @@
             "ts": 1762815686
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "17743-1-50",
+            "text": "Christian Bethancourt Sencillo Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762815912
+          },
+          {
+            "reference_id": "17743-1-51",
+            "text": "Emilio Bonifacio al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762815914
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -914,6 +935,13 @@
         "label": "Baja 5ta",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -948,14 +976,14 @@
       {
         "num": 5,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 1
       },
       {
         "num": 6,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -1003,7 +1031,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 1,
-          "hits": 5,
+          "hits": 6,
           "errors": 1,
           "permalink": "/equipo/leones-del-escogido"
         }
