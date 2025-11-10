@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1947",
-    "scraped_at": "2025-11-10T21:07:12.424Z",
+    "scraped_at": "2025-11-10T21:08:15.918Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-10 16:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Rafael Lantigua  Sencillo ",
+    "lastPlayByPlay": "Ronaldo Hernández  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -640,10 +640,17 @@
           },
           {
             "reference_id": "17731-1-26",
-            "text": "Ronaldo Hernández al bate",
+            "text": "Ronaldo Hernández  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1762808766
+            "ts": 1762808871
+          },
+          {
+            "reference_id": "17731-1-27",
+            "text": "Gilberto Celestino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762808879
           }
         ]
       }
@@ -681,7 +688,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
