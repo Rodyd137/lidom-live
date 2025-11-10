@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1947",
-    "scraped_at": "2025-11-10T22:20:45.774Z",
+    "scraped_at": "2025-11-10T22:21:49.113Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-10 16:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Franchy Cordero Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -905,6 +905,27 @@
             "ts": 1762813014
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "17734-2-59",
+            "text": "Franchy Cordero Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762813285
+          },
+          {
+            "reference_id": "17734-2-60",
+            "text": "Yamaico Navarro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762813290
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -983,6 +1004,13 @@
         "half": "top",
         "label": "Alta 6ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1073,7 +1101,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 2,
-          "hits": 6,
+          "hits": 7,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
