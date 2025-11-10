@@ -42,13 +42,15 @@ function normalizeHeader(h, i) {
   return s;
 }
 
+// === Headers: usar hijos inmediatos del <table> y preservar posiciones vacías
 function getHeaders($, $t) {
-  let headerCells = $t.find("thead tr:last th"); // última fila del thead (la que suele tener columnas finales)
-  if (!headerCells.length) headerCells = $t.find("thead tr:first th");
-  if (!headerCells.length) headerCells = $t.find("tr:first th");
-  if (!headerCells.length) headerCells = $t.find("tr:first td");
+  const $thead = $t.children("thead");
+  let headerCells = $thead.length
+    ? $thead.children("tr").last().children("th")
+    : $t.children("tr").first().children("th");
 
-  // No filtres vacíos: preserva posiciones
+  if (!headerCells.length) headerCells = $t.children("tr").first().children("td");
+
   const raw = headerCells.toArray().map((c, i) => {
     const txt = $(c).text().trim();
     return txt === "" ? `col${i}` : txt;
@@ -56,6 +58,17 @@ function getHeaders($, $t) {
 
   const norm = raw.map((h, i) => normalizeHeader(h, i));
   return { raw, norm };
+}
+
+// Si la primera fila tiene más celdas (por ejemplo un "#" a la izquierda), pad al inicio
+function padHeadersIfNeeded(headersNorm, firstRowCellCount) {
+  let H = headersNorm.slice();
+  if (firstRowCellCount > H.length) {
+    const diff = firstRowCellCount - H.length;
+    const pads = Array.from({ length: diff }, (_, k) => (k === 0 ? "rank" : `col_pad_${k - 1}`));
+    H = [...pads, ...H];
+  }
+  return H;
 }
 
 function tableKind(headersNorm) {
@@ -67,7 +80,7 @@ function tableKind(headersNorm) {
 
 // ✅ Manejo robusto de filas con menos celdas y fallback de jugador/equipo
 function rowToObj($, $row, headersNorm) {
-  const cells = $row.find("td,th").toArray();
+  const cells = $row.children("td,th").toArray();
   const obj = {};
 
   // Fallback: intenta detectar el índice del jugador por el link a la ficha
@@ -88,7 +101,6 @@ function rowToObj($, $row, headersNorm) {
   headersNorm.forEach((h, i) => {
     const node = cells[i];
     if (!node) {
-      // Mantén la clave con null para no desalinear
       if (obj[h] === undefined) obj[h] = null;
       return;
     }
@@ -108,7 +120,6 @@ function rowToObj($, $row, headersNorm) {
     } else if (h === "equipo") {
       obj.equipo = txt;
     } else {
-      // Guarda número o texto según corresponda
       obj[h] = cleanNum(txt);
     }
   });
@@ -133,26 +144,38 @@ function parseTables(html) {
   $("table").each((_, tbl) => {
     const $t = $(tbl);
 
+    // Evita tablas "wrapper": exige <tbody> directo con varias filas
+    const $tbody = $t.children("tbody");
+    if (!$tbody.length) return;
+    const $rows = $tbody.children("tr");
+    if ($rows.length < 2) return;
+
+    // Headers del mismo table (hijos inmediatos)
     const { raw, norm } = getHeaders($, $t);
     if (norm.length < 3) return;
 
-    const kind = tableKind(norm);
+    // Alinear headers con # de celdas de la primera fila real
+    const firstCells = $rows.first().children("td,th").length;
+    const headers = padHeadersIfNeeded(norm, firstCells);
+
+    // Clasificar tabla
+    const kind = tableKind(headers);
     if (kind === "desconocido") return;
 
-    // filas
-    let rows = $t.find("tbody tr");
-    if (!rows.length) rows = $t.find("tr").slice(1);
-
-    rows.each((_, tr) => {
+    // Recorre filas reales; ignorar filas de título/filtros
+    $rows.each((_, tr) => {
       const $tr = $(tr);
-      // omite filas de subencabezados
-      if ($tr.find("th").length && !$tr.find("td").length) return;
 
-      const obj = rowToObj($, $tr, norm);
+      const $cells = $tr.children("td,th");
+      if (!$cells.length) return;
 
-      // Limpieza: si parece que 'equipo' tomó un nombre (ej: "Julio E. Rodriguez") y 'jugador' quedó vacío, intenta swap
+      const rowText = $tr.text().replace(/\s+/g, " ").trim();
+      if (/LIDERES DE BATEO|Filtrar\s*\+|Serie Regular/i.test(rowText) && $cells.length < 5) return;
+
+      const obj = rowToObj($, $tr, headers);
+
+      // Limpieza: si jugador vacío pero equipo parece nombre propio (y no es equipo), swap
       if ((!obj.jugador || String(obj.jugador).trim() === "") && hasLetters(obj.equipo)) {
-        // Heurística: si la celda equipo tiene más pinta de nombre propio que de equipo, y jugador está vacío, intercambia
         const equi = String(obj.equipo || "");
         if (!/aguilas|gigantes|tigres|leones|estrellas|toros/i.test(equi)) {
           obj.jugador = equi;
@@ -160,7 +183,6 @@ function parseTables(html) {
         }
       }
 
-      // Guarda solo si hay algún dato real
       const hasVal = Object.values(obj || {}).some(v => v !== null && v !== "" && v !== undefined);
       if (hasVal) results[kind].push(obj);
     });
