@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1948",
-    "scraped_at": "2025-11-10T22:55:43.282Z",
+    "scraped_at": "2025-11-10T22:56:47.574Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-10 17:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Euribiel Angeles Sencillo Jardinero Central",
+    "lastPlayByPlay": "Josh Lester Triple! 1 Carrera Impulsada ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 4
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 2
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -174,10 +174,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 3,
-          "H": 9,
+          "R": 4,
+          "H": 10,
           "E": 1,
-          "H2": 3
+          "H2": 4
         },
         "probables": {
           "pitcher": "Yefry Yan",
@@ -314,7 +314,7 @@
         {
           "num": 5,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 6,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 3,
-          "H": 9,
+          "R": 4,
+          "H": 10,
           "E": 1
         }
       },
@@ -408,23 +408,23 @@
           },
           {
             "num": 5,
-            "R": 3
+            "R": 4
           },
           {
             "num": 6,
-            "R": 3
+            "R": 4
           },
           {
             "num": 7,
-            "R": 3
+            "R": 4
           },
           {
             "num": 8,
-            "R": 3
+            "R": 4
           },
           {
             "num": 9,
-            "R": 3
+            "R": 4
           }
         ]
       }
@@ -822,10 +822,17 @@
           },
           {
             "reference_id": "17742-2-47",
-            "text": "Josh Lester al bate",
+            "text": "Josh Lester Triple! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762815373
+          },
+          {
+            "reference_id": "17742-2-48",
+            "text": "Eguy Rosario al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1762815195
+            "ts": 1762815378
           }
         ]
       }
@@ -898,8 +905,8 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -936,7 +943,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 6,
@@ -979,7 +986,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 12,
-          "hits": 10,
+          "hits": 11,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
         },

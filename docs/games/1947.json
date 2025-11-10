@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1947",
-    "scraped_at": "2025-11-10T22:55:43.252Z",
+    "scraped_at": "2025-11-10T22:56:47.560Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-10 16:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jeimer Candelario Doble! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 12,
-          "H": 10,
+          "H": 11,
           "E": 1,
           "H2": 12
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 12,
-          "H": 10,
+          "H": 11,
           "E": 1
         },
         "home": {
@@ -1052,6 +1052,27 @@
             "ts": 1762815185
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "17737-1-74",
+            "text": "Jeimer Candelario Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762815387
+          },
+          {
+            "reference_id": "17737-1-75",
+            "text": "Jard Oliva al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762815390
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1166,6 +1187,13 @@
         "label": "Baja 8va",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1254,8 +1282,8 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 3,
-          "hits": 9,
+          "runs": 4,
+          "hits": 10,
           "errors": 1,
           "permalink": "/equipo/estrellas-orientales"
         }
