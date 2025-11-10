@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1947",
-    "scraped_at": "2025-11-10T23:12:57.636Z",
+    "scraped_at": "2025-11-10T23:14:02.227Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -186,6 +186,17 @@
           "debut": false
         },
         "players": [
+          {
+            "id": 5497,
+            "team_id": 4,
+            "name": "José Marmolejos",
+            "abbreviation": "J. Marmolejos",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
           {
             "id": 5300,
             "team_id": 4,
@@ -1116,6 +1127,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1762816365
+          },
+          {
+            "reference_id": "17737-2-83",
+            "text": "José Marmolejos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762816382
           }
         ]
       }
@@ -1244,7 +1262,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 1
       }
     ],
