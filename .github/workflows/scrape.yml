@@ -3,7 +3,7 @@ name: scrape-lidom
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "*/5 * * * *"   # GitHub acciona cada ~5 min (UTC). El loop interno cubre el 1 min.
+    - cron: "*/5 * * * *"   # GitHub corre cada ~5 min (UTC)
 
 permissions:
   contents: write
@@ -22,6 +22,9 @@ env:
   # === Control del loop en vivo ===
   LIVE_SLEEP_SECONDS: "60"      # frecuencia del tick (1 min)
   LIVE_MAX_MINUTES: "240"       # tope de seguridad (4h)
+  # === Nuevo: líderes LIDOM ===
+  LIDOM_STATS_URL: https://estadisticas.lidom.com/Lider
+  STATS_EVERY_TICKS: "5"        # corre líderes cada 5 ticks (~5 min)
 
 jobs:
   scrape_and_live:
@@ -41,47 +44,59 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install deps (ws + cheerio)
+        run: |
+          npm ci || npm i
+
       - name: Configure git
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Tick loop mientras haya juegos en vivo
+      - name: Tick loop mientras haya juegos en vivo (y refrescar líderes)
         shell: bash
         run: |
           set -euo pipefail
           start=$(date +%s)
           max=$(( ${LIVE_MAX_MINUTES} * 60 ))
           i=0
+
           while true; do
             i=$((i+1))
             echo "== Tick $i @ $(date -u +%Y-%m-%dT%H:%M:%SZ) =="
 
-            # Ejecuta el scraper (construye latest.json + live.json)
+            # 1) Scraper de juegos (latest.json + live.json)
             node scraper.mjs || true
 
-            # Valida si existen
+            # 2) Cada N ticks, generar líderes de bateo/pitcheo
+            if (( i % ${STATS_EVERY_TICKS} == 1 )); then
+              echo "[leaders] Generando líderes desde ${LIDOM_STATS_URL}..."
+              node scripts/lidom_stats.mjs || true
+            fi
+
+            # 3) Validaciones rápidas (no rompas el loop si falla jq)
             [ -f docs/latest.json ] && jq . docs/latest.json >/dev/null || true
             [ -f docs/live.json   ] && jq . docs/live.json   >/dev/null || true
+            [ -f docs/stats/lideres.json ] && jq . docs/stats/lideres.json >/dev/null || true
 
-            # Commit/push solo si hubo cambios
+            # 4) Commit/push solo si hubo cambios
             if ! git diff --quiet -- docs/; then
               git add docs/
               TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-              git commit -m "chore: live tick ${TS} [skip ci]"
+              git commit -m "chore: tick ${TS} (live + leaders) [skip ci]" || true
               git pull --rebase origin main || true
-              git push origin HEAD:main
+              git push origin HEAD:main || true
             else
               echo "No changes (tick $i)."
             fi
 
-            # Si no hay juegos live, salimos
+            # 5) Fin temprano si no hay juegos live
             if [ -f docs/live.json ] && jq -e '.live | length == 0' docs/live.json >/dev/null 2>&1; then
               echo "Sin juegos en vivo; fin temprano."
               break
             fi
 
-            # Respeta tope de seguridad
+            # 6) Tope de seguridad
             now=$(date +%s)
             elapsed=$(( now - start ))
             if [ "$elapsed" -ge "$max" ]; then
