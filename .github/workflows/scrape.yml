@@ -22,8 +22,6 @@ env:
   # === Control del loop en vivo ===
   LIVE_SLEEP_SECONDS: "60"      # frecuencia del tick (1 min)
   LIVE_MAX_MINUTES: "240"       # tope de seguridad (4h)
-  # === Líderes LIDOM ===
-  LIDOM_STATS_URL: https://estadisticas.lidom.com/Lider
 
 jobs:
   scrape_and_live:
@@ -42,16 +40,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-
-      # 👉 NUEVO: instala deps en docs/ y enlaza node_modules al root
-      - name: Install deps for leaders (docs/)
-        run: |
-          if [ -f docs/package-lock.json ]; then
-            npm ci --prefix docs
-          else
-            npm i --prefix docs --no-fund --no-audit
-          fi
-          [ -e node_modules ] || ln -s docs/node_modules node_modules
 
       - name: Configure git
         run: |
@@ -72,17 +60,9 @@ jobs:
             # Ejecuta el scraper (construye latest.json + live.json)
             node scraper.mjs || true
 
-            # Genera líderes (bateo/pitcheo) desde LIDOM
-            if [ -f scripts/lidom_stats.mjs ]; then
-              node scripts/lidom_stats.mjs || true
-            else
-              echo "WARN: scripts/lidom_stats.mjs no existe; omitiendo líderes."
-            fi
-
             # Valida si existen
             [ -f docs/latest.json ] && jq . docs/latest.json >/dev/null || true
             [ -f docs/live.json   ] && jq . docs/live.json   >/dev/null || true
-            [ -f docs/stats/lideres.json ] && jq . docs/stats/lideres.json >/dev/null || true
 
             # Commit/push solo si hubo cambios
             if ! git diff --quiet -- docs/; then
@@ -96,7 +76,7 @@ jobs:
             fi
 
             # Si no hay juegos live, salimos
-            if [ -f docs/live.json ] && jq -e '.live | length == 0' docs/live.json >/devnull 2>&1; then
+            if [ -f docs/live.json ] && jq -e '.live | length == 0' docs/live.json >/dev/null 2>&1; then
               echo "Sin juegos en vivo; fin temprano."
               break
             fi
