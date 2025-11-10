@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1947",
-    "scraped_at": "2025-11-10T22:48:01.537Z",
+    "scraped_at": "2025-11-10T22:49:05.570Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-10 16:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jonathan Guzman Doble! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 1,
-          "H": 4,
+          "H": 5,
           "E": 1,
           "H2": 1
         },
@@ -187,10 +187,10 @@
         },
         "players": [
           {
-            "id": 5476,
+            "id": 5298,
             "team_id": 4,
-            "name": "Hector Rodríguez",
-            "abbreviation": "H. Rodríguez",
+            "name": "Jonathan Guzman",
+            "abbreviation": "J. Guzman",
             "number": null,
             "dob": null,
             "height": "",
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 1,
-          "H": 4,
+          "H": 5,
           "E": 1
         }
       },
@@ -1018,10 +1018,17 @@
         "plays": [
           {
             "reference_id": "17736-2-70",
-            "text": "José Marmolejos al bate",
+            "text": "José Marmolejos Out: Elevado al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762814875
+            "ts": 1762814881
+          },
+          {
+            "reference_id": "17736-2-71",
+            "text": "Jonathan Guzman Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762814916
           }
         ]
       }
@@ -1136,7 +1143,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
