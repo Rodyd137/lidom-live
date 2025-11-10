@@ -34,7 +34,6 @@ jobs:
         with:
           node-version: '20'
 
-      # Instala dependencias donde está tu package.json: docs/
       - name: Install deps (docs/)
         run: |
           if [ -f docs/package-lock.json ]; then
@@ -42,7 +41,6 @@ jobs:
           else
             npm i --prefix docs --no-fund --no-audit
           fi
-          # Hace accesibles los módulos al root (para scripts en /scripts)
           [ -e node_modules ] || ln -s docs/node_modules node_modules
 
       - name: Configure git
@@ -50,19 +48,30 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      # Sanity check: existe el script y puede hacer fetch
-      - name: Verificar script y fetch de la página
+      - name: Localizar script de líderes
+        id: findscript
         run: |
           set -euo pipefail
-          test -f scripts/lidom_stats.mjs || (echo "ERROR: falta scripts/lidom_stats.mjs" && exit 1)
-          node -e "fetch(process.env.LIDOM_STATS_URL, {headers:{'user-agent':'Mozilla/5.0'}}).then(r=>{console.log('HEADERS-OK status=',r.status); if(!r.ok) process.exit(2)}).catch(e=>{console.error('FETCH-FAIL',e); process.exit(3)})"
+          SCRIPT_PATH="$(git ls-files | grep -E '(^|/)lidom_stats\.mjs$' | head -n1 || true)"
+          if [ -z "${SCRIPT_PATH}" ]; then
+            echo "ERROR: No se encontró lidom_stats.mjs en el repo."
+            echo "Estructura del repo (nivel 2):"
+            find . -maxdepth 2 -type f | sed 's|^\./||' | sort | head -n 200
+            exit 1
+          fi
+          echo "Encontrado: ${SCRIPT_PATH}"
+          echo "script=${SCRIPT_PATH}" >> "$GITHUB_OUTPUT"
+
+      - name: Verificar fetch de la página
+        run: |
+          node -e "fetch(process.env.LIDOM_STATS_URL,{headers:{'user-agent':'Mozilla/5.0'}}).then(r=>{console.log('STATUS',r.status); if(!r.ok) process.exit(2)}).catch(e=>{console.error(e); process.exit(3)})"
 
       - name: Scrape líderes (bateo/pitcheo)
         run: |
           set -euo pipefail
-          node scripts/lidom_stats.mjs   # sin '|| true' para ver el error real
-          test -s docs/stats/lideres.json || (echo "ERROR: no se generó docs/stats/lideres.json" && exit 4)
-          jq . docs/stats/lideres.json > /dev/null || (echo "ERROR: JSON inválido en docs/stats/lideres.json" && exit 5)
+          node "${{ steps.findscript.outputs.script }}"
+          test -s docs/stats/lideres.json || (echo 'ERROR: no se generó docs/stats/lideres.json' && exit 4)
+          jq . docs/stats/lideres.json >/dev/null
 
       - name: Commit & push (solo líderes)
         run: |
