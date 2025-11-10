@@ -1,0 +1,68 @@
+# .github/workflows/lidom-players.yml
+name: scrape-lidom-players
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-lidom-players
+  cancel-in-progress: true
+
+env:
+  TZ: America/Santo_Domingo
+  LIDOM_STATS_URL: https://estadisticas.lidom.com/Lider
+  PLAYERS_CONCURRENCY: "4"
+  PLAYERS_DELAY_MS: "250"
+
+jobs:
+  players:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with: { token: ${{ secrets.GITHUB_TOKEN }} }
+
+      - name: Re-auth remote
+        run: git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with: { node-version: "20" }
+
+      - name: Install deps (docs/)
+        run: |
+          if [ -f docs/package-lock.json ]; then
+            npm ci --prefix docs
+          else
+            npm i --prefix docs --no-fund --no-audit
+          fi
+          [ -e node_modules ] || ln -s docs/node_modules node_modules
+
+      - name: Ensure leaders (optional, si quieres garantizarlo aquí)
+        run: |
+          if [ ! -f docs/stats/lideres.json ]; then
+            echo "No existe docs/stats/lideres.json; ejecutando fallback..."
+            LIDOM_STATS_URL=${{ env.LIDOM_STATS_URL }} node scripts/lidom_stats.mjs
+          fi
+
+      - name: Scrape players
+        run: node scripts/lidom_players.mjs
+
+      - name: Validate & commit
+        run: |
+          [ -f docs/stats/jugadores.json ] && jq . docs/stats/jugadores.json >/dev/null
+          if ! git diff --quiet -- docs/stats/jugadores.json; then
+            git add docs/stats/jugadores.json
+            TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+            git commit -m "chore(players): update ${TS} [skip ci]" || true
+            git pull --rebase origin main || true
+            git push origin HEAD:main || true
+          else
+            echo "Sin cambios en jugadores."
+          fi
