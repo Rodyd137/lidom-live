@@ -43,6 +43,16 @@ jobs:
         with:
           node-version: '20'
 
+      # 👉 NUEVO: instala deps en docs/ y enlaza node_modules al root
+      - name: Install deps for leaders (docs/)
+        run: |
+          if [ -f docs/package-lock.json ]; then
+            npm ci --prefix docs
+          else
+            npm i --prefix docs --no-fund --no-audit
+          fi
+          [ -e node_modules ] || ln -s docs/node_modules node_modules
+
       - name: Configure git
         run: |
           git config user.name  "github-actions[bot]"
@@ -86,7 +96,7 @@ jobs:
             fi
 
             # Si no hay juegos live, salimos
-            if [ -f docs/live.json ] && jq -e '.live | length == 0' docs/live.json >/dev/null 2>&1; then
+            if [ -f docs/live.json ] && jq -e '.live | length == 0' docs/live.json >/devnull 2>&1; then
               echo "Sin juegos en vivo; fin temprano."
               break
             fi
