@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1948",
-    "scraped_at": "2025-11-10T22:00:43.481Z",
+    "scraped_at": "2025-11-10T22:01:46.889Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-10 17:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Robinson Canó  Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Josh Lester Out: Elevado al Jardinero Derecho ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 4
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -640,10 +640,17 @@
           },
           {
             "reference_id": "17740-2-25",
-            "text": "Euribiel Angeles al bate",
+            "text": "Euribiel Angeles Doble Play! Campo Corto - Segunda Base - Primera Base - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762812044
+          },
+          {
+            "reference_id": "17740-2-26",
+            "text": "Josh Lester Out: Elevado al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762811878
+            "ts": 1762812086
           }
         ]
       }
@@ -688,8 +695,8 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 5,
-        "scoring_plays": 1
+        "total_plays": 6,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -762,7 +769,7 @@
         "id": 1947,
         "date": "2025-11-10 16:00:00",
         "status": 2,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
