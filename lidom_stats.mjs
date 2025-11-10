@@ -1,12 +1,27 @@
 // Node 20+ (fetch nativo)
-// scripts/lidom_stats.mjs
+// scripts/lidom_stats.mjs  (también funciona si está en el root)
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import * as cheerio from "cheerio";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const OUT_DIR = path.join(__dirname, "..", "docs", "stats");
+
+// === Resolver raíz del repo de forma segura ===
+// 1) Si existe docs junto al script, usamos ese dir como root.
+// 2) Si no, probamos un nivel arriba (caso cuando el script está en /scripts).
+// 3) Si no, usamos CWD (Actions lo pone en <repo>/<repo>).
+function resolveRepoRoot() {
+  const hereDocs = path.join(__dirname, "docs");
+  if (fs.existsSync(hereDocs)) return __dirname;
+
+  const upDocs = path.join(__dirname, "..", "docs");
+  if (fs.existsSync(upDocs)) return path.join(__dirname, "..");
+
+  return process.cwd();
+}
+const REPO_ROOT = resolveRepoRoot();
+const OUT_DIR = path.join(REPO_ROOT, "docs", "stats");
 const OUT_PATH = path.join(OUT_DIR, "lideres.json");
 const SOURCE = process.env.LIDOM_STATS_URL || "https://estadisticas.lidom.com/Lider";
 
@@ -35,13 +50,13 @@ function tableKind(headers) {
   return "desconocido";
 }
 
-// ✅ FIX: manejar filas con menos celdas que headers (colspan/rowspan)
+// Manejar filas con menos celdas que headers (colspan/rowspan)
 function rowToObj($, $row, headers) {
   const cells = $row.find("td,th").toArray();
   const obj = {};
   headers.forEach((h, i) => {
     const node = cells[i];
-    if (!node) {            // si falta la celda, no rompemos
+    if (!node) {
       obj[h] = null;
       return;
     }
@@ -86,8 +101,7 @@ function parseTables(html) {
 
     rows.each((_, tr) => {
       const $tr = $(tr);
-      // omitir filas que solo tengan <th> (encabezados repetidos)
-      if ($tr.find("th").length && !$tr.find("td").length) return;
+      if ($tr.find("th").length && !$tr.find("td").length) return; // ignora filas header
 
       const obj = rowToObj($, $tr, headers);
       const hasVal = obj && Object.values(obj).some(v => v !== null && v !== "" && v !== undefined);
@@ -132,7 +146,6 @@ async function run() {
     await runOnce();
   } catch (err) {
     console.error("Scraper LIDOM/Lider error:", err?.stack || err);
-    // Pequeño retry por si fue un bachecito de red
     await sleep(1200);
     try {
       await runOnce();
