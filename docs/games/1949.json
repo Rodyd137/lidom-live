@@ -1,15 +1,15 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1949",
-    "scraped_at": "2025-11-11T23:32:59.347Z",
+    "scraped_at": "2025-11-11T23:43:33.790Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1949,
     "season_id": 20,
-    "status": 3,
+    "status": 2,
     "date": "2025-11-11 19:30:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
     "lastPlayByPlay": "",
     "counts": {
@@ -18,7 +18,7 @@
       "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -429,12 +429,56 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "17747-1-1",
+            "text": "Hector Rodríguez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762904274
+          },
+          {
+            "reference_id": "17747-1-2",
+            "text": "Erik Gonzalez Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762904361
+          },
+          {
+            "reference_id": "17747-1-2-257864",
+            "text": "Erik Gonzalez Out Robando Base! ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1762904531
+          },
+          {
+            "reference_id": "17747-1-3",
+            "text": " Jorge Mateo Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762904559
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 4,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -500,15 +544,15 @@
       {
         "id": 1950,
         "date": "2025-11-11 19:30:00",
-        "status": 3,
+        "status": 2,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 0,
-          "hits": 0,
+          "runs": 1,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         },
@@ -519,22 +563,22 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 0,
           "hits": 0,
-          "errors": 0,
+          "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
         }
       },
       {
         "id": 1951,
         "date": "2025-11-11 19:30:00",
-        "status": 3,
-        "roundText": "Alta 1ra",
+        "status": 2,
+        "roundText": "Baja 1ra",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         },
