@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1949",
-    "scraped_at": "2025-11-11T23:53:42.143Z",
+    "scraped_at": "2025-11-11T23:54:46.976Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -499,6 +499,20 @@
             "ts": 1762905072
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "17748-1-8",
+            "text": "Socrates Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762905245
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -514,6 +528,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -629,7 +650,7 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 1,
+          "runs": 2,
           "hits": 3,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
