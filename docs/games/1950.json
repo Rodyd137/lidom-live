@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1950",
-    "scraped_at": "2025-11-11T23:47:50.782Z",
+    "scraped_at": "2025-11-11T23:48:53.998Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 1,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -59,7 +59,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Steve Moyers",
+          "pitcher": "Cristopher Molina",
           "era": "",
           "record": "",
           "debut": false
@@ -152,7 +152,19 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5335,
+            "team_id": 3,
+            "name": "Leody Taveras",
+            "abbreviation": "L. Taveras",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       }
     },
     "comment": "",
@@ -352,6 +364,20 @@
             "ts": 1762904733
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "17756-2-7",
+            "text": "Leody Taveras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762904904
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -361,6 +387,13 @@
         "label": "Alta 1ra",
         "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
