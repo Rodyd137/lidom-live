@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1951",
-    "scraped_at": "2025-11-12T00:29:23.233Z",
+    "scraped_at": "2025-11-12T00:30:28.086Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-11 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Bryan de la Cruz Out: Elevado al Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -640,10 +640,17 @@
         "plays": [
           {
             "reference_id": "17767-2-26",
-            "text": "Bryan de la Cruz al bate",
+            "text": "Bryan de la Cruz Out: Elevado al Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1762907220
+            "ts": 1762907367
+          },
+          {
+            "reference_id": "17767-2-27",
+            "text": "Jeimer Candelario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762907369
           }
         ]
       }
@@ -688,7 +695,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -762,7 +769,7 @@
         "id": 1949,
         "date": "2025-11-11 19:30:00",
         "status": 2,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
