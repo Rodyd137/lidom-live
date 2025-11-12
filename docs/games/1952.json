@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1952",
-    "scraped_at": "2025-11-12T23:21:37.269Z",
+    "scraped_at": "2025-11-12T23:22:40.236Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-12 19:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Franchy Cordero  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -474,6 +474,27 @@
             "ts": 1762989490
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "17775-1-7",
+            "text": "Franchy Cordero  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762989722
+          },
+          {
+            "reference_id": "17775-1-8",
+            "text": "Yamaico Navarro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762989726
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -489,6 +510,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
