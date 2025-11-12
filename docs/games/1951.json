@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1951",
-    "scraped_at": "2025-11-12T02:06:38.014Z",
+    "scraped_at": "2025-11-12T02:07:41.361Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-11 19:30:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Josh Lester Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -955,10 +955,17 @@
         "plays": [
           {
             "reference_id": "17771-1-65",
-            "text": "Josh Lester al bate",
+            "text": "Josh Lester Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762912937
+            "ts": 1762913204
+          },
+          {
+            "reference_id": "17771-1-66",
+            "text": "Junior Perez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762913206
           }
         ]
       }
@@ -1052,7 +1059,7 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1133,7 +1140,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 4,
-          "hits": 9,
+          "hits": 10,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
