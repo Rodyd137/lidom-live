@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1951",
-    "scraped_at": "2025-11-12T00:54:58.566Z",
+    "scraped_at": "2025-11-12T00:56:01.793Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-11 19:30:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Jeison Guzman Sencillo Jardinero Izquierdo",
+    "lastPlayByPlay": "Onil Perez Ponche (K) ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 4
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 2
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 0,
           "H": 1,
-          "E": 1,
+          "E": 2,
           "H2": 0
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 0,
           "H": 1,
-          "E": 1
+          "E": 2
         },
         "home": {
           "R": 4,
@@ -717,10 +717,24 @@
           },
           {
             "reference_id": "17768-2-35",
-            "text": "Onil Perez al bate",
+            "text": "Jeison Guzman Robo de Base Wild Pitch",
             "scored": false,
             "is_primary": true,
-            "ts": 1762908717
+            "ts": 1762908918
+          },
+          {
+            "reference_id": "17768-2-36",
+            "text": "Onil Perez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762908939
+          },
+          {
+            "reference_id": "17768-2-37",
+            "text": "Gilberto Celestino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762908940
           }
         ]
       }
@@ -779,7 +793,7 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 2,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
