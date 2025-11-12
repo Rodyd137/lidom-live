@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1952",
-    "scraped_at": "2025-11-12T23:45:00.591Z",
+    "scraped_at": "2025-11-12T23:46:05.984Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-12 19:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gio Urshela Doble! ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on3B": true,
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -147,6 +147,17 @@
             "team_id": 4,
             "name": "Gio Urshela",
             "abbreviation": "G. Urshela",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5507,
+            "team_id": 4,
+            "name": "Chadwick Tromp",
+            "abbreviation": "C. Tromp",
             "number": null,
             "dob": null,
             "height": "",
@@ -330,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -558,6 +569,27 @@
             "ts": 1762990895
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "17776-1-16",
+            "text": "Gio Urshela Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762991115
+          },
+          {
+            "reference_id": "17776-1-17",
+            "text": "Chadwick Tromp al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762991148
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -587,6 +619,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
