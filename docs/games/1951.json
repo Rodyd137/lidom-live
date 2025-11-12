@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1951",
-    "scraped_at": "2025-11-12T01:38:10.090Z",
+    "scraped_at": "2025-11-12T01:39:13.633Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-11 19:30:00",
-    "roundText": "Baja 5ta",
-    "currentInningNum": 5,
-    "lastPlayByPlay": "Eloy Jimenez  Out: Línea al Jardinero Derecho ",
+    "roundText": "Alta 6ta",
+    "currentInningNum": 6,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -850,10 +850,24 @@
           },
           {
             "reference_id": "17769-2-52",
-            "text": "Yairo Munoz al bate",
+            "text": "Yairo Munoz  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1762911257
+            "ts": 1762911535
+          }
+        ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "17770-1-53",
+            "text": "Junior Perez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762911547
           }
         ]
       }
@@ -928,6 +942,13 @@
         "label": "Baja 5ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -962,14 +983,14 @@
       {
         "num": 5,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 4,
         "homeTeamRuns": 0
       },
       {
         "num": 6,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
