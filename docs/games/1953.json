@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1953",
-    "scraped_at": "2025-11-12T23:46:05.990Z",
+    "scraped_at": "2025-11-12T23:47:11.326Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-12 19:30:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Leody Taveras Out: Elevado al Segunda Base",
+    "lastPlayByPlay": "Vidal Brujan Out: Línea al Jardinero Central",
     "counts": {
       "balls": 2,
-      "strikes": 2,
-      "outs": 2
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -440,10 +440,31 @@
           },
           {
             "reference_id": "17783-1-3",
-            "text": "Ezequiel Duran al bate",
+            "text": "Ezequiel Duran Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762990870
+            "ts": 1762991177
+          }
+        ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "17783-2-4",
+            "text": "Vidal Brujan Out: Línea al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762991201
+          },
+          {
+            "reference_id": "17783-2-5",
+            "text": "Robinson Canó  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762991204
           }
         ]
       }
@@ -455,12 +476,19 @@
         "label": "Alta 1ra",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
