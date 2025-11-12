@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2092",
-    "scraped_at": "2025-11-12T21:02:28.596Z",
+    "scraped_at": "2025-11-12T21:03:31.483Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-12 16:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jonathan Arauz Base por Bolas ",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -626,10 +626,17 @@
         "plays": [
           {
             "reference_id": "19050-1-23",
-            "text": "Jonathan Arauz al bate",
+            "text": "Jonathan Arauz Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762981325
+            "ts": 1762981402
+          },
+          {
+            "reference_id": "19050-1-24",
+            "text": "Luis De Los Santos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762981407
           }
         ]
       }
@@ -674,7 +681,7 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
