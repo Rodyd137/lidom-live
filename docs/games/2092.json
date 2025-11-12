@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2092",
-    "scraped_at": "2025-11-12T19:59:55.365Z",
+    "scraped_at": "2025-11-12T20:30:26.940Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2092,
     "season_id": 20,
-    "status": 1,
+    "status": 2,
     "date": "2025-11-12 16:00:00",
-    "roundText": "Alta 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "roundText": "Baja 5ta",
+    "currentInningNum": 5,
+    "lastPlayByPlay": "Julio Carreras Out: Elevado al Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 1
+      "battingTeam": "homeTeam",
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 0,
-          "H": 0,
-          "E": 0,
-          "H2": 0
+          "R": 1,
+          "H": 5,
+          "E": 1,
+          "H2": 1
         },
         "probables": {
           "pitcher": "Kenny Hernández",
@@ -174,10 +174,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 0,
-          "H": 0,
-          "E": 0,
-          "H2": 0
+          "R": 1,
+          "H": 3,
+          "E": 1,
+          "H2": 1
         },
         "probables": {
           "pitcher": "Willy Peralta",
@@ -253,10 +253,10 @@
             "position": ""
           },
           {
-            "id": 5254,
+            "id": 5247,
             "team_id": 5,
-            "name": "Nomar Mazara",
-            "abbreviation": "N. Mazara",
+            "name": "Edwin Espinal",
+            "abbreviation": "E. Espinal",
             "number": null,
             "dob": null,
             "height": "",
@@ -293,7 +293,7 @@
       "innings": [
         {
           "num": 1,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -309,7 +309,7 @@
         {
           "num": 4,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 5,
@@ -340,53 +340,53 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 0,
-          "E": 0
+          "R": 1,
+          "H": 5,
+          "E": 1
         },
         "home": {
-          "R": 0,
-          "H": 0,
-          "E": 0
+          "R": 1,
+          "H": 3,
+          "E": 1
         }
       },
       "cumulative": {
         "away": [
           {
             "num": 1,
-            "R": 0
+            "R": 1
           },
           {
             "num": 2,
-            "R": 0
+            "R": 1
           },
           {
             "num": 3,
-            "R": 0
+            "R": 1
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ],
         "home": [
@@ -404,39 +404,167 @@
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19047-2-1",
+            "text": "Carlos Franco Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762977921
+          },
+          {
+            "reference_id": "19047-2-2",
+            "text": "Pablo Reyes Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762978117
+          },
+          {
+            "reference_id": "19047-2-3",
+            "text": "Edwin Espinal  Out: Rodado al Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762978191
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19048-1-4",
+            "text": "Jonathan Arauz Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762978381
+          },
+          {
+            "reference_id": "19048-1-5",
+            "text": "Pedro Severino Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762978553
+          },
+          {
+            "reference_id": "19048-1-6",
+            "text": "Jonathan Guzman Out: Elevado al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762978725
+          },
+          {
+            "reference_id": "19048-1-7",
+            "text": "Junior Lake Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762978864
+          },
+          {
+            "reference_id": "19048-1-8",
+            "text": "Socrates Brito Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762978944
+          },
+          {
+            "reference_id": "19048-1-9",
+            "text": "Franchy Cordero Out: Línea al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762979048
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "19048-2-10",
+            "text": "Carlos Jorge Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762979284
+          },
+          {
+            "reference_id": "19048-2-11",
+            "text": "Julio Carreras Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762979301
+          },
+          {
+            "reference_id": "19048-2-12",
+            "text": "Leury García al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762979306
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 3,
+        "scoring_plays": 1
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
         "part": 1,
-        "is_last": 1,
-        "awayTeamRuns": 0,
+        "is_last": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
@@ -455,15 +583,15 @@
       },
       {
         "num": 4,
-        "part": 1,
+        "part": 2,
         "is_last": 0,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 5,
-        "part": 1,
-        "is_last": 0,
+        "part": 2,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
