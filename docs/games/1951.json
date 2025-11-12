@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1951",
-    "scraped_at": "2025-11-12T01:29:43.730Z",
+    "scraped_at": "2025-11-12T01:30:47.053Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-11 19:30:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Josh Lester Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 4
         },
         "probables": {
-          "pitcher": "Marcos Diplan",
+          "pitcher": "Raffi Vizcaíno",
           "era": "",
           "record": "",
           "debut": false
@@ -828,6 +828,20 @@
             "ts": 1762910919
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "17769-2-50",
+            "text": "Jeimer Candelario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762911032
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -893,6 +907,13 @@
         "label": "Alta 5ta",
         "total_plays": 10,
         "scoring_plays": 4
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -926,7 +947,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 4,
         "homeTeamRuns": 0
