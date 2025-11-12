@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1950",
-    "scraped_at": "2025-11-12T01:36:03.356Z",
+    "scraped_at": "2025-11-12T01:37:06.723Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-11 19:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Johan Rojas  Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -751,6 +751,27 @@
             "ts": 1762911197
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "17760-1-38",
+            "text": "Johan Rojas  Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762911384
+          },
+          {
+            "reference_id": "17760-1-39",
+            "text": "Jose Siri al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762911388
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -808,6 +829,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -881,7 +909,7 @@
         "id": 1949,
         "date": "2025-11-11 19:30:00",
         "status": 2,
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
