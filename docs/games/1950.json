@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1950",
-    "scraped_at": "2025-11-12T02:25:57.013Z",
+    "scraped_at": "2025-11-12T02:27:02.021Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-11 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Leody Taveras Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -912,6 +912,27 @@
             "ts": 1762914202
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "17762-2-57",
+            "text": "Leody Taveras Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762914405
+          },
+          {
+            "reference_id": "17762-2-58",
+            "text": "Ezequiel Duran al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762914415
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1004,6 +1025,13 @@
         "half": "top",
         "label": "Alta 7ma",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
