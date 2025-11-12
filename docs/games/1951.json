@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1951",
-    "scraped_at": "2025-11-12T02:50:52.055Z",
+    "scraped_at": "2025-11-12T02:51:56.863Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-11 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Rafael Lantigua   Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -1092,13 +1092,27 @@
             "scored": false,
             "is_primary": true,
             "ts": 1762915567
-          },
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
           {
-            "reference_id": "17772-2-82",
-            "text": "Felnin Celesten  Out: Rodado al Segunda Base - Campo Corto - Primera Base - Doble Play!",
+            "reference_id": "17773-1-82",
+            "text": "Rafael Lantigua   Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1762915676
+            "ts": 1762915856
+          },
+          {
+            "reference_id": "17773-1-83",
+            "text": "Jeison Guzman al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762915865
           }
         ]
       }
@@ -1213,7 +1227,14 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 3,
+        "total_plays": 2,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1320,7 +1341,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 1,
-          "hits": 5,
+          "hits": 6,
           "errors": 1,
           "permalink": "/equipo/gigantes-del-cibao"
         },
