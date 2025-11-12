@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1950",
-    "scraped_at": "2025-11-12T00:15:19.864Z",
+    "scraped_at": "2025-11-12T00:16:24.739Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-11 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Juan Lagares Base por Bolas ",
     "counts": {
-      "balls": 3,
+      "balls": 1,
       "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -257,6 +257,17 @@
             "team_id": 3,
             "name": "Juan Lagares",
             "abbreviation": "J. Lagares",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5324,
+            "team_id": 3,
+            "name": "Angel Genao",
+            "abbreviation": "A. Genao",
             "number": null,
             "dob": null,
             "height": "",
@@ -555,10 +566,17 @@
         "plays": [
           {
             "reference_id": "17757-2-17",
-            "text": "Juan Lagares al bate",
+            "text": "Juan Lagares Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762906470
+            "ts": 1762906535
+          },
+          {
+            "reference_id": "17757-2-18",
+            "text": "Angel Genao al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762906562
           }
         ]
       }
@@ -589,7 +607,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
