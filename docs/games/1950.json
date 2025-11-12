@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1950",
-    "scraped_at": "2025-11-12T02:38:57.804Z",
+    "scraped_at": "2025-11-12T02:40:02.810Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-11 19:30:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Aderlin Rodríguez Out: Elevado al Campo Corto",
     "counts": {
       "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -976,10 +976,17 @@
         "plays": [
           {
             "reference_id": "17763-2-63",
-            "text": "Aderlin Rodríguez al bate",
+            "text": "Aderlin Rodríguez Out: Elevado al Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1762915082
+            "ts": 1762915163
+          },
+          {
+            "reference_id": "17763-2-64",
+            "text": "Emmanuel Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762915168
           }
         ]
       }
@@ -1094,7 +1101,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
