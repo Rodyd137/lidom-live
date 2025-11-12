@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1949",
-    "scraped_at": "2025-11-12T01:26:34.359Z",
+    "scraped_at": "2025-11-12T01:27:37.415Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-11 19:30:00",
-    "roundText": "Baja 6ta",
-    "currentInningNum": 6,
-    "lastPlayByPlay": "Gustavo Nuñez  Out: Rodado al Segunda Base - Primera Base",
+    "roundText": "Alta 7ma",
+    "currentInningNum": 7,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -843,10 +843,17 @@
           },
           {
             "reference_id": "17752-2-46",
-            "text": "Mel Rojas Jr. al bate",
+            "text": "Mel Rojas Jr. Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762910678
+            "ts": 1762910797
+          },
+          {
+            "reference_id": "17752-2-47",
+            "text": "Armando Alvarez Doble Play! Campo Corto - Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762910832
           }
         ]
       }
@@ -933,7 +940,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -976,14 +983,14 @@
       {
         "num": 6,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 7,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -1039,7 +1046,7 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 3,
+          "runs": 4,
           "hits": 6,
           "errors": 2,
           "permalink": "/equipo/estrellas-orientales"
