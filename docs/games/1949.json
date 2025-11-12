@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1949",
-    "scraped_at": "2025-11-12T00:32:37.662Z",
+    "scraped_at": "2025-11-12T00:33:44.020Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-11 19:30:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Cristhian Adames Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -660,6 +660,34 @@
             "ts": 1762907360
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "17750-2-26",
+            "text": "Armando Alvarez Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762907591
+          },
+          {
+            "reference_id": "17750-2-27",
+            "text": "Cristhian Adames Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762907608
+          },
+          {
+            "reference_id": "17750-2-28",
+            "text": "Domingo Leyba al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762907613
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -709,6 +737,13 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
         "total_plays": 3,
         "scoring_plays": 0
       }
