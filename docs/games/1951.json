@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1951",
-    "scraped_at": "2025-11-12T00:05:35.750Z",
+    "scraped_at": "2025-11-12T00:06:40.607Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-11 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Onil Perez  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -548,6 +548,34 @@
             "ts": 1762905733
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "17766-2-16",
+            "text": "Jeison Guzman Out: Elevado al Receptor",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762905953
+          },
+          {
+            "reference_id": "17766-2-17",
+            "text": "Onil Perez  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762905992
+          },
+          {
+            "reference_id": "17766-2-18",
+            "text": "Gilberto Celestino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762905994
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -569,6 +597,13 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
         "total_plays": 3,
         "scoring_plays": 0
       }
