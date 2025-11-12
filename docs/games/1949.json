@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1949",
-    "scraped_at": "2025-11-11T23:59:06.200Z",
+    "scraped_at": "2025-11-12T00:00:11.127Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-11-11 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Pedro Severino Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Pedro Severino Doble! 1 Carrera Impulsada ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 3,
+      "strikes": 1,
       "outs": 2
     },
     "base_state": {
@@ -528,10 +528,17 @@
           },
           {
             "reference_id": "17748-1-11",
-            "text": "Pedro Severino Sencillo y 1 Carrera Impulsada ",
+            "text": "Pedro Severino Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762905546
+          },
+          {
+            "reference_id": "17748-1-12",
+            "text": "Alexander Canario al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1762905528
+            "ts": 1762905553
           }
         ]
       }
@@ -555,8 +562,8 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -645,7 +652,7 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 1,
+          "runs": 3,
           "hits": 2,
           "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
