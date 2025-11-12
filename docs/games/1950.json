@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1950",
-    "scraped_at": "2025-11-12T02:01:22.039Z",
+    "scraped_at": "2025-11-12T02:02:25.332Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 6,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 3,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -821,6 +821,20 @@
             "ts": 1762912713
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "17761-1-46",
+            "text": "Deyvinson de los Santos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762912931
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -893,6 +907,13 @@
         "label": "Baja 5ta",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -991,7 +1012,7 @@
         "id": 1951,
         "date": "2025-11-11 19:30:00",
         "status": 2,
-        "roundText": "Baja 6ta",
+        "roundText": "Alta 7ma",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
