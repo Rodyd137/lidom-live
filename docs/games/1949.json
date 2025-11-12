@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1949",
-    "scraped_at": "2025-11-12T01:06:32.065Z",
+    "scraped_at": "2025-11-12T01:07:35.478Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 6,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 3,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -779,6 +779,20 @@
             "ts": 1762909404
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "17752-1-39",
+            "text": "Erik Gonzalez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762909590
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -850,6 +864,13 @@
         "half": "bottom",
         "label": "Baja 5ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -956,7 +977,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 0,
-          "hits": 1,
+          "hits": 2,
           "errors": 2,
           "permalink": "/equipo/estrellas-orientales"
         },

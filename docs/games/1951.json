@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1951",
-    "scraped_at": "2025-11-12T01:06:32.118Z",
+    "scraped_at": "2025-11-12T01:07:35.559Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-11 19:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Josh Lester Doble! Jardinero Derecho ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 2,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 2
         },
         "home": {
@@ -759,10 +759,17 @@
         "plays": [
           {
             "reference_id": "17769-1-40",
-            "text": "Josh Lester al bate",
+            "text": "Josh Lester Doble! Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762909491
+            "ts": 1762909651
+          },
+          {
+            "reference_id": "17769-1-41",
+            "text": "Junior Perez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762909653
           }
         ]
       }
@@ -828,7 +835,7 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
