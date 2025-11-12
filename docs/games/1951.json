@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1951",
-    "scraped_at": "2025-11-12T03:03:47.028Z",
+    "scraped_at": "2025-11-12T03:04:51.691Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-11 19:30:00",
-    "roundText": "Alta 9na",
+    "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Junior Perez Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 1,
-      "strikes": 2,
-      "outs": 2
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 3
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 4
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Neftali Feliz",
           "era": "",
           "record": "",
           "debut": false
@@ -1137,10 +1137,24 @@
           },
           {
             "reference_id": "17773-1-87",
-            "text": "Magneuris Sierra al bate",
+            "text": "Magneuris Sierra Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1762916385
+            "ts": 1762916629
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "17773-2-88",
+            "text": "Jeison Guzman al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762916674
           }
         ]
       }
@@ -1264,6 +1278,13 @@
         "label": "Alta 9na",
         "total_plays": 6,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1325,7 +1346,7 @@
       },
       {
         "num": 9,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
