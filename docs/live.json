@@ -2,7 +2,7 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2025-11-12T23:53:58.964Z",
+    "scraped_at": "2025-11-13T00:51:10.993Z",
     "tz": "America/Santo_Domingo"
   },
   "tracked_ids": [
@@ -13,10 +13,49 @@
     {
       "id": 1952,
       "status": 2,
-      "roundText": "Alta 3ra",
-      "currentInningNum": 3,
+      "roundText": "Alta 6ta",
+      "currentInningNum": 6,
       "atBat": null,
-      "lastPlayByPlay": "Erik Gonzalez Base por Bolas ",
+      "lastPlayByPlay": "Franchy Cordero Base por Bolas ",
+      "counts": {
+        "balls": 0,
+        "strikes": 2,
+        "outs": 0
+      },
+      "base": {
+        "on1B": true,
+        "on2B": true,
+        "on3B": true,
+        "runners": 3,
+        "mask": 8
+      },
+      "battingTeam": "awayTeam",
+      "score": {
+        "away": {
+          "name": "Leones",
+          "abbr": "LE",
+          "R": 4,
+          "H": 3,
+          "E": 0
+        },
+        "home": {
+          "name": "Gigantes",
+          "abbr": "GC",
+          "R": 0,
+          "H": 5,
+          "E": 1
+        }
+      },
+      "threat": 100,
+      "updated_at": "2025-11-13T00:51:10.993Z"
+    },
+    {
+      "id": 1953,
+      "status": 2,
+      "roundText": "Baja 4ta",
+      "currentInningNum": 4,
+      "atBat": null,
+      "lastPlayByPlay": "Francisco Peña Sencillo y 1 Carrera Impulsada ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -29,64 +68,25 @@
         "runners": 2,
         "mask": 5
       },
-      "battingTeam": "awayTeam",
-      "score": {
-        "away": {
-          "name": "Leones",
-          "abbr": "LE",
-          "R": 1,
-          "H": 2,
-          "E": 0
-        },
-        "home": {
-          "name": "Gigantes",
-          "abbr": "GC",
-          "R": 0,
-          "H": 2,
-          "E": 0
-        }
-      },
-      "threat": 47,
-      "updated_at": "2025-11-12T23:53:58.964Z"
-    },
-    {
-      "id": 1953,
-      "status": 2,
-      "roundText": "Baja 1ra",
-      "currentInningNum": 1,
-      "atBat": null,
-      "lastPlayByPlay": "Robinson Canó  Out Robando Base! Wild Pitch",
-      "counts": {
-        "balls": 2,
-        "strikes": 2,
-        "outs": 2
-      },
-      "base": {
-        "on1B": false,
-        "on2B": true,
-        "on3B": true,
-        "runners": 2,
-        "mask": 7
-      },
       "battingTeam": "homeTeam",
       "score": {
         "away": {
           "name": "Aguilas",
           "abbr": "AC",
           "R": 0,
-          "H": 0,
-          "E": 0
+          "H": 2,
+          "E": 1
         },
         "home": {
           "name": "Estrellas",
           "abbr": "EO",
-          "R": 0,
-          "H": 1,
+          "R": 3,
+          "H": 3,
           "E": 0
         }
       },
-      "threat": 29,
-      "updated_at": "2025-11-12T23:53:58.964Z"
+      "threat": 47,
+      "updated_at": "2025-11-13T00:51:10.993Z"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1953",
-    "scraped_at": "2025-11-12T23:53:58.925Z",
+    "scraped_at": "2025-11-13T00:51:10.971Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-12 19:30:00",
-    "roundText": "Baja 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "Robinson Canó  Out Robando Base! Wild Pitch",
+    "roundText": "Baja 4ta",
+    "currentInningNum": 4,
+    "lastPlayByPlay": "Francisco Peña Sencillo y 1 Carrera Impulsada ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 7
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": true,
-      "on3B": true,
+      "on3B": false,
       "runners": 2,
-      "mask": 7
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -54,12 +54,12 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 0,
-          "H": 0,
-          "E": 0,
+          "H": 2,
+          "E": 1,
           "H2": 0
         },
         "probables": {
-          "pitcher": "Robert Stock",
+          "pitcher": "Oscar Rayo",
           "era": "",
           "record": "",
           "debut": false
@@ -174,10 +174,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 0,
-          "H": 1,
+          "R": 3,
+          "H": 3,
           "E": 0,
-          "H2": 0
+          "H2": 3
         },
         "probables": {
           "pitcher": "Enny Romero",
@@ -264,6 +264,17 @@
             "position": ""
           },
           {
+            "id": 5523,
+            "team_id": 7,
+            "name": "Jose Tena ",
+            "abbreviation": "J. Tena",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
             "id": 5347,
             "team_id": 7,
             "name": "Francisco Peña",
@@ -283,7 +294,7 @@
         {
           "num": 1,
           "away": 0,
-          "home": 0
+          "home": 2
         },
         {
           "num": 2,
@@ -298,7 +309,7 @@
         {
           "num": 4,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 5,
@@ -330,12 +341,12 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
-          "E": 0
+          "H": 2,
+          "E": 1
         },
         "home": {
-          "R": 0,
-          "H": 1,
+          "R": 3,
+          "H": 3,
           "E": 0
         }
       },
@@ -381,39 +392,39 @@
         "home": [
           {
             "num": 1,
-            "R": 0
+            "R": 2
           },
           {
             "num": 2,
-            "R": 0
+            "R": 2
           },
           {
             "num": 3,
-            "R": 0
+            "R": 2
           },
           {
             "num": 4,
-            "R": 0
+            "R": 3
           },
           {
             "num": 5,
-            "R": 0
+            "R": 3
           },
           {
             "num": 6,
-            "R": 0
+            "R": 3
           },
           {
             "num": 7,
-            "R": 0
+            "R": 3
           },
           {
             "num": 8,
-            "R": 0
+            "R": 3
           },
           {
             "num": 9,
-            "R": 0
+            "R": 3
           }
         ]
       }
@@ -489,10 +500,241 @@
           },
           {
             "reference_id": "17783-2-9",
-            "text": "Junior Perez al bate",
+            "text": "Junior Perez Sencillo y 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762991713
+          },
+          {
+            "reference_id": "17783-2-10",
+            "text": "Junior Perez Robo de Base Wild Pitch",
             "scored": false,
             "is_primary": true,
-            "ts": 1762991627
+            "ts": 1762991759
+          },
+          {
+            "reference_id": "17783-2-11",
+            "text": "Josh Lester  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762991788
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "17784-1-12",
+            "text": "Aderlin Rodríguez  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762991986
+          },
+          {
+            "reference_id": "17784-1-13",
+            "text": "Angel Genao Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762992026
+          },
+          {
+            "reference_id": "17784-1-14",
+            "text": "Adael Amador Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762992124
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "17784-2-15",
+            "text": "Eguy Rosario Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762992383
+          },
+          {
+            "reference_id": "17784-2-16",
+            "text": "Eguy Rosario Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762992453
+          },
+          {
+            "reference_id": "17784-2-17",
+            "text": "Jose Tena  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762992591
+          },
+          {
+            "reference_id": "17784-2-18",
+            "text": "Francisco Peña Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762992684
+          },
+          {
+            "reference_id": "17784-2-19",
+            "text": "Vidal Brujan se embasa por Error del Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762992785
+          },
+          {
+            "reference_id": "17784-2-20",
+            "text": "Robinson Canó  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762992879
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "17785-1-21",
+            "text": "Raynel Delgado Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762993100
+          },
+          {
+            "reference_id": "17785-1-23",
+            "text": "Webster Rivas Sencillo Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762993265
+          },
+          {
+            "reference_id": "17785-1-24",
+            "text": "Alfredo Reyes Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762993332
+          },
+          {
+            "reference_id": "17785-1-25",
+            "text": "Steward Berroa Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762993463
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "17785-2-26",
+            "text": "Euribiel Angeles  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762993694
+          },
+          {
+            "reference_id": "17785-2-27",
+            "text": "Raimel Tapia Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762993883
+          },
+          {
+            "reference_id": "17785-2-28",
+            "text": "Junior Perez  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762993931
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "17786-1-29",
+            "text": "Leody Taveras Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762994117
+          },
+          {
+            "reference_id": "17786-1-30",
+            "text": "Ezequiel Duran Doble! Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762994272
+          },
+          {
+            "reference_id": "17786-1-31",
+            "text": "Aderlin Rodríguez  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762994337
+          },
+          {
+            "reference_id": "17786-1-32",
+            "text": "Angel Genao  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762994399
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "17786-2-33",
+            "text": "Josh Lester Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762994636
+          },
+          {
+            "reference_id": "17786-2-34",
+            "text": "Eguy Rosario Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762994755
+          },
+          {
+            "reference_id": "17786-2-35",
+            "text": "Jose Tena  Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762994810
+          },
+          {
+            "reference_id": "17786-2-36",
+            "text": "Francisco Peña Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762994869
+          },
+          {
+            "reference_id": "17786-2-37",
+            "text": "Vidal Brujan al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1762994873
           }
         ]
       }
@@ -509,38 +751,80 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
+        "total_plays": 8,
+        "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
         "total_plays": 6,
         "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
       {
         "num": 1,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 2
       },
       {
         "num": 2,
-        "part": 1,
+        "part": 2,
         "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 4,
-        "part": 1,
-        "is_last": 0,
+        "part": 2,
+        "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 5,
@@ -583,14 +867,14 @@
         "id": 1952,
         "date": "2025-11-12 19:00:00",
         "status": 2,
-        "roundText": "Alta 3ra",
+        "roundText": "Alta 6ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 1,
-          "hits": 2,
+          "runs": 4,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
@@ -600,8 +884,8 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 0,
-          "hits": 2,
-          "errors": 0,
+          "hits": 5,
+          "errors": 1,
           "permalink": "/equipo/gigantes-del-cibao"
         }
       },
