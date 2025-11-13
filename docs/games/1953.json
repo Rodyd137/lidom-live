@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1953",
-    "scraped_at": "2025-11-13T01:05:56.584Z",
+    "scraped_at": "2025-11-13T01:06:59.922Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-12 19:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Webster Rivas Base por Bolas ",
+    "lastPlayByPlay": "Alfredo Reyes Sencillo y 1 Carrera Impulsada se embasa por Error del - Lanzador",
     "counts": {
-      "balls": 0,
+      "balls": 2,
       "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 5
+      "base": 6
     },
     "base_runners": {
       "on1B": true,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 2,
-      "mask": 5
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -176,7 +176,7 @@
         "totals": {
           "R": 3,
           "H": 3,
-          "E": 0,
+          "E": 1,
           "H2": 3
         },
         "probables": {
@@ -347,7 +347,7 @@
         "home": {
           "R": 3,
           "H": 3,
-          "E": 0
+          "E": 1
         }
       },
       "cumulative": {
@@ -773,10 +773,17 @@
           },
           {
             "reference_id": "17787-1-42",
-            "text": "Alfredo Reyes al bate",
+            "text": "Alfredo Reyes Sencillo y 1 Carrera Impulsada se embasa por Error del - Lanzador",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1762995990
+          },
+          {
+            "reference_id": "17787-1-43",
+            "text": "Steward Berroa al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1762995798
+            "ts": 1762995995
           }
         ]
       }
@@ -842,8 +849,8 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
