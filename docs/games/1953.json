@@ -1,21 +1,21 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1953",
-    "scraped_at": "2025-11-13T02:52:49.527Z",
+    "scraped_at": "2025-11-13T03:34:44.004Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1953,
     "season_id": 20,
-    "status": 2,
+    "status": 6,
     "date": "2025-11-12 19:30:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Robinson Canó  Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -40,9 +40,9 @@
       "over_under": null
     },
     "pitchers": {
-      "winning": null,
-      "losing": null,
-      "save": null
+      "winning": "Raul Brito",
+      "losing": "Carlos Belén",
+      "save": "Hunter Bigge"
     },
     "teams": {
       "away": {
@@ -59,7 +59,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Eric Cerantola",
+          "pitcher": "Hunter Bigge",
           "era": "",
           "record": "",
           "debut": false
@@ -275,10 +275,10 @@
             "position": ""
           },
           {
-            "id": 5362,
+            "id": 5348,
             "team_id": 7,
-            "name": "Yefri Perez",
-            "abbreviation": "Y. Perez",
+            "name": "Carlos Mario Martinez",
+            "abbreviation": "C. M. Martinez",
             "number": null,
             "dob": null,
             "height": "",
@@ -1129,6 +1129,34 @@
             "ts": 1763002313
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "17791-2-85",
+            "text": "Carlos Mario Martinez Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763002540
+          },
+          {
+            "reference_id": "17791-2-86",
+            "text": "Vidal Brujan Out: Línea al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763002613
+          },
+          {
+            "reference_id": "17791-2-87",
+            "text": "Robinson Canó  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763002713
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1248,6 +1276,13 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
         "total_plays": 3,
         "scoring_plays": 0
       }
@@ -1374,7 +1409,7 @@
     "stats_tables": [
       {
         "title": "Aguilas vs Estrellas",
-        "round": "Temporada Regular (3 Juegos)",
+        "round": "Temporada Regular (4 Juegos)",
         "columns": [
           "G",
           "P",
@@ -1384,24 +1419,24 @@
         ],
         "teams": {
           "Aguilas AC": {
-            "G": 3,
+            "G": 4,
             "P": 0,
-            "C": 10,
-            "H": 12.3,
-            "E": 2.3
+            "C": 8.8,
+            "H": 11.5,
+            "E": 2
           },
           "Estrellas EO": {
             "G": 0,
-            "P": 3,
-            "C": 7.7,
-            "H": 10,
-            "E": 1.7
+            "P": 4,
+            "C": 6.5,
+            "H": 8.8,
+            "E": 2
           }
         }
       },
       {
         "title": "Estadísticas Generales",
-        "round": "Temporada Regular (15 Juegos)",
+        "round": "Temporada Regular (16 Juegos)",
         "columns": [
           "G",
           "P",
@@ -1412,20 +1447,20 @@
         ],
         "teams": {
           "Aguilas AC": {
-            "G": 12,
+            "G": 13,
             "P": 3,
             "CA": 6.1,
-            "CP": 4.5,
+            "CP": 4.4,
             "H": 8.8,
             "E": 1.2
           },
           "Estrellas EO": {
             "G": 9,
-            "P": 10,
-            "CA": 5.9,
+            "P": 11,
+            "CA": 5.8,
             "CP": 5.7,
-            "H": 8.8,
-            "E": 1.4
+            "H": 8.7,
+            "E": 1.5
           }
         }
       }
