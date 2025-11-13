@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2025-11-13T02:28:16.879Z",
+    "scraped_at": "2025-11-13T02:27:12.474Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -655,7 +655,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -688,9 +691,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 1,
-        "strikes": 2
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -2389,67 +2392,6 @@
           "color": "fdc915",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "permalink": "/equipo/aguilas-cibaenas",
-          "runs": 0,
-          "runs_half": 0,
-          "errors": 0,
-          "hits": 0,
-          "pitcher": null,
-          "era": null,
-          "debut": 0,
-          "record": null
-        },
-        "balls": 0,
-        "outs": 0,
-        "strikes": 0
-      },
-      {
-        "id": 1981,
-        "season_id": 20,
-        "moneyline_g": null,
-        "moneyline_h": null,
-        "handicap_g": null,
-        "handicap_h": null,
-        "over_under": null,
-        "base": 1,
-        "status": 1,
-        "date": "2025-11-26 19:00:00",
-        "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
-        "comment": null,
-        "winningPitcher": null,
-        "losingPitcher": null,
-        "savingPitcher": null,
-        "roundText": "Alta 1ra",
-        "currentInningNum": 1,
-        "battingTeam": "awayTeam",
-        "adImage": null,
-        "adLink": "",
-        "banner": "",
-        "gameAlert": "",
-        "awayTeam": {
-          "id": 1,
-          "name": "Tigres",
-          "abbreviation": "TL",
-          "color": "233b77",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "permalink": "/equipo/tigres-del-licey",
-          "runs": 0,
-          "runs_half": 0,
-          "errors": 0,
-          "hits": 0,
-          "pitcher": null,
-          "era": null,
-          "debut": 0,
-          "record": null
-        },
-        "homeTeam": {
-          "id": 5,
-          "name": "Gigantes",
-          "abbreviation": "GC",
-          "color": "831d35",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "permalink": "/equipo/gigantes-del-cibao",
           "runs": 0,
           "runs_half": 0,
           "errors": 0,
@@ -15575,9 +15517,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 1,
         "outs": 1,
-        "strikes": 2
+        "strikes": 1
       }
     ],
     "2025-11-13": [
@@ -17307,67 +17249,6 @@
       }
     ],
     "2025-11-26": [
-      {
-        "id": 1981,
-        "season_id": 20,
-        "moneyline_g": null,
-        "moneyline_h": null,
-        "handicap_g": null,
-        "handicap_h": null,
-        "over_under": null,
-        "base": 1,
-        "status": 1,
-        "date": "2025-11-26 19:00:00",
-        "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
-        "comment": null,
-        "winningPitcher": null,
-        "losingPitcher": null,
-        "savingPitcher": null,
-        "roundText": "Alta 1ra",
-        "currentInningNum": 1,
-        "battingTeam": "awayTeam",
-        "adImage": null,
-        "adLink": "",
-        "banner": "",
-        "gameAlert": "",
-        "awayTeam": {
-          "id": 1,
-          "name": "Tigres",
-          "abbreviation": "TL",
-          "color": "233b77",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "permalink": "/equipo/tigres-del-licey",
-          "runs": 0,
-          "runs_half": 0,
-          "errors": 0,
-          "hits": 0,
-          "pitcher": null,
-          "era": null,
-          "debut": 0,
-          "record": null
-        },
-        "homeTeam": {
-          "id": 5,
-          "name": "Gigantes",
-          "abbreviation": "GC",
-          "color": "831d35",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "permalink": "/equipo/gigantes-del-cibao",
-          "runs": 0,
-          "runs_half": 0,
-          "errors": 0,
-          "hits": 0,
-          "pitcher": null,
-          "era": null,
-          "debut": 0,
-          "record": null
-        },
-        "balls": 0,
-        "outs": 0,
-        "strikes": 0
-      },
       {
         "id": 1980,
         "season_id": 20,
@@ -22635,8 +22516,8 @@
       "currentInningNum": 8,
       "lastPlayByPlay": "Alfredo Reyes Toque de Sacrificio se embasa por Error del - Campo Corto - Carrera Empujada",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 1
       },
       "base_state": {
