@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1956",
-    "scraped_at": "2025-11-13T23:29:41.174Z",
+    "scraped_at": "2025-11-13T23:41:54.064Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1956,
     "season_id": 20,
-    "status": 3,
+    "status": 2,
     "date": "2025-11-13 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jose Siri Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         }
       },
@@ -429,8 +429,59 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "17810-1-1",
+            "text": "Leury García  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763077063
+          },
+          {
+            "reference_id": "17810-1-2",
+            "text": "Johan Rojas  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763077116
+          },
+          {
+            "reference_id": "17810-1-2-258775",
+            "text": "Johan Rojas  Robo de Base ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1763077188
+          },
+          {
+            "reference_id": "17810-1-3",
+            "text": "Jose Siri Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763077202
+          },
+          {
+            "reference_id": "17810-1-4",
+            "text": "Jake Holton al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763077248
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 5,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
@@ -500,7 +551,7 @@
       {
         "id": 1954,
         "date": "2025-11-13 19:30:00",
-        "status": 3,
+        "status": 2,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 7,
@@ -508,7 +559,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         },
@@ -526,15 +577,15 @@
       {
         "id": 1955,
         "date": "2025-11-13 19:30:00",
-        "status": 3,
+        "status": 2,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 0,
-          "hits": 0,
+          "runs": 1,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
