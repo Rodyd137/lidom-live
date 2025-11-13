@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1952",
-    "scraped_at": "2025-11-13T02:31:32.166Z",
+    "scraped_at": "2025-11-13T02:32:36.412Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-12 19:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Carlos Jorge Ponche (K) ",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -1094,6 +1094,27 @@
             "ts": 1763000639
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "17782-2-77",
+            "text": "Carlos Jorge Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763001130
+          },
+          {
+            "reference_id": "17782-2-78",
+            "text": "Johan Rojas  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763001136
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1214,6 +1235,13 @@
         "half": "top",
         "label": "Alta 9na",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
