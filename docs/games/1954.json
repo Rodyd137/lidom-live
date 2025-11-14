@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1954",
-    "scraped_at": "2025-11-14T01:54:19.834Z",
+    "scraped_at": "2025-11-14T01:55:24.895Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-13 19:30:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Angel Martinez  Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 5
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -927,10 +927,24 @@
           },
           {
             "reference_id": "17798-1-63",
-            "text": "Rainer Nuñez al bate",
+            "text": "Rainer Nuñez  Out: Rodado al Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1763085220
+            "ts": 1763085272
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "17798-2-64",
+            "text": "Cal Stevenson  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763085281
           }
         ]
       }
@@ -1026,6 +1040,13 @@
         "label": "Alta 7ma",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1073,7 +1094,7 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -1115,7 +1136,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 6,
-          "hits": 11,
+          "hits": 12,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }
