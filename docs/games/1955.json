@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1955",
-    "scraped_at": "2025-11-14T00:08:08.517Z",
+    "scraped_at": "2025-11-14T00:09:13.476Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 3,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 3,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -576,6 +576,20 @@
             "ts": 1763078723
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "17803-1-18",
+            "text": "Hector Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763078896
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -605,6 +619,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -685,7 +706,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 2,
-          "hits": 2,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         },
