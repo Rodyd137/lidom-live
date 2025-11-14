@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1954",
-    "scraped_at": "2025-11-14T00:56:52.292Z",
+    "scraped_at": "2025-11-14T00:57:57.372Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-13 19:30:00",
-    "roundText": "Alta 4ta",
+    "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Vidal Brujan Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "Cal Stevenson   Out: Rodado al Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -723,6 +723,27 @@
             "ts": 1763081693
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "17795-2-39",
+            "text": "Cal Stevenson   Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763081869
+          },
+          {
+            "reference_id": "17795-2-40",
+            "text": "Michael De Leon al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763081873
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -774,6 +795,13 @@
         "label": "Alta 4ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -800,7 +828,7 @@
       },
       {
         "num": 4,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
