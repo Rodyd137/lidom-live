@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1954",
-    "scraped_at": "2025-11-14T00:22:15.332Z",
+    "scraped_at": "2025-11-14T00:23:20.279Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-13 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Michael De Leon Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -59,7 +59,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Javier Gonzalez ",
+          "pitcher": "Sammy Peralta ",
           "era": "",
           "record": "",
           "debut": false
@@ -583,6 +583,27 @@
             "ts": 1763079529
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "17793-2-23",
+            "text": "Michael De Leon Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763079779
+          },
+          {
+            "reference_id": "17793-2-24",
+            "text": "Michael De La Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763079786
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -605,6 +626,13 @@
         "half": "top",
         "label": "Alta 2da",
         "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
