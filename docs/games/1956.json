@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1956",
-    "scraped_at": "2025-11-14T01:57:34.848Z",
+    "scraped_at": "2025-11-14T01:58:39.792Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-13 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Sandber Pimentel Ponche (K) ",
+    "lastPlayByPlay": "Gilberto Celestino Sencillo y 1 Carrera Impulsada ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 4
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": true,
+      "on3B": false,
       "runners": 1,
-      "mask": 4
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 1,
-          "H": 4,
+          "R": 2,
+          "H": 5,
           "E": 2,
           "H2": 1
         },
@@ -324,7 +324,7 @@
         {
           "num": 7,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 8,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 1,
-          "H": 4,
+          "R": 2,
+          "H": 5,
           "E": 2
         }
       },
@@ -416,15 +416,15 @@
           },
           {
             "num": 7,
-            "R": 1
+            "R": 2
           },
           {
             "num": 8,
-            "R": 1
+            "R": 2
           },
           {
             "num": 9,
-            "R": 1
+            "R": 2
           }
         ]
       }
@@ -941,10 +941,17 @@
           },
           {
             "reference_id": "17816-2-57",
-            "text": "Gilberto Celestino al bate",
+            "text": "Gilberto Celestino Sencillo y 1 Carrera Impulsada ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763085361
+            "ts": 1763085473
+          },
+          {
+            "reference_id": "17816-2-58",
+            "text": "Bryan de la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763085476
           }
         ]
       }
@@ -1045,7 +1052,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -1097,7 +1104,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 8,
