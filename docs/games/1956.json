@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1956",
-    "scraped_at": "2025-11-14T00:29:49.626Z",
+    "scraped_at": "2025-11-14T00:30:54.544Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-13 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Denzer Guzmán Doble! ",
     "counts": {
-      "balls": 0,
+      "balls": 2,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 0,
-          "H": 2,
+          "H": 3,
           "E": 2,
           "H2": 0
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 0,
-          "H": 2,
+          "H": 3,
           "E": 2
         }
       },
@@ -632,6 +632,27 @@
             "ts": 1763080001
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "17812-2-22",
+            "text": "Denzer Guzmán Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763080199
+          },
+          {
+            "reference_id": "17812-2-23",
+            "text": "Ronaldo Hernández al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763080202
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -668,6 +689,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
