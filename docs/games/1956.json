@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1956",
-    "scraped_at": "2025-11-14T00:44:57.768Z",
+    "scraped_at": "2025-11-14T00:46:02.727Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-13 19:30:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Marco Hernández Doble! ",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 3,
-          "H": 3,
+          "H": 4,
           "E": 0,
           "H2": 3
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 3,
-          "H": 3,
+          "H": 4,
           "E": 0
         },
         "home": {
@@ -689,10 +689,17 @@
         "plays": [
           {
             "reference_id": "17813-1-28",
-            "text": "Marco Hernández al bate",
+            "text": "Marco Hernández Doble! ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763081070
+            "ts": 1763081126
+          },
+          {
+            "reference_id": "17813-1-29",
+            "text": "Kelvin Gutiérrez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763081141
           }
         ]
       }
@@ -744,7 +751,7 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -860,8 +867,8 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 0,
-          "hits": 3,
+          "runs": 1,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }
