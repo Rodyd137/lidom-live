@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1954",
-    "scraped_at": "2025-11-14T02:22:29.252Z",
+    "scraped_at": "2025-11-14T02:23:32.422Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-13 19:30:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Domingo Leyba Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Victor Labrada Robo de Base ",
     "counts": {
       "balls": 2,
       "strikes": 2,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -198,21 +198,10 @@
             "position": ""
           },
           {
-            "id": 5279,
+            "id": 5281,
             "team_id": 1,
-            "name": "Emilio Bonifacio",
-            "abbreviation": "E. Bonifacio",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 5269,
-            "team_id": 1,
-            "name": "Domingo Leyba",
-            "abbreviation": "D. Leyba",
+            "name": "Victor Labrada",
+            "abbreviation": "V. Labrada",
             "number": null,
             "dob": null,
             "height": "",
@@ -1028,10 +1017,17 @@
           },
           {
             "reference_id": "17799-2-76",
+            "text": "Victor Labrada Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763086986
+          },
+          {
+            "reference_id": "17799-2-77",
             "text": "Cristhian Adames al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1763086807
+            "ts": 1763086991
           }
         ]
       }
@@ -1146,7 +1142,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 7,
+        "total_plays": 8,
         "scoring_plays": 1
       }
     ],
