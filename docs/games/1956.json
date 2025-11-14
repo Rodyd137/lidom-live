@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1956",
-    "scraped_at": "2025-11-14T01:17:28.408Z",
+    "scraped_at": "2025-11-14T01:18:33.271Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-13 19:30:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Deyvinson de los Santos Sencillo ",
     "counts": {
       "balls": 1,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -807,6 +807,34 @@
             "ts": 1763082834
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "17815-1-42",
+            "text": "Jake Holton Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763083066
+          },
+          {
+            "reference_id": "17815-1-43",
+            "text": "Deyvinson de los Santos Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763083108
+          },
+          {
+            "reference_id": "17815-1-44",
+            "text": "Marco Hernández al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763083111
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -877,6 +905,13 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
         "total_plays": 3,
         "scoring_plays": 0
       }
