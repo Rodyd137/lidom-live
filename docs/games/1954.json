@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1954",
-    "scraped_at": "2025-11-14T00:04:53.585Z",
+    "scraped_at": "2025-11-14T00:05:58.449Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-13 19:30:00",
-    "roundText": "Baja 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "Mel Rojas Jr. Golpeado por Pelota ",
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 5
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -528,10 +528,10 @@
           },
           {
             "reference_id": "17792-2-16",
-            "text": "Cal Stevenson  al bate",
+            "text": "Cal Stevenson   Out: Rodado al Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1763078544
+            "ts": 1763078714
           }
         ]
       }
@@ -556,14 +556,14 @@
       {
         "num": 1,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 2,
         "homeTeamRuns": 1
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -622,7 +622,7 @@
         "id": 1955,
         "date": "2025-11-13 19:30:00",
         "status": 2,
-        "roundText": "Baja 2da",
+        "roundText": "Alta 3ra",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -654,7 +654,7 @@
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 1,
+          "runs": 2,
           "hits": 2,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
@@ -666,7 +666,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 0,
           "hits": 2,
-          "errors": 1,
+          "errors": 2,
           "permalink": "/equipo/toros-del-este"
         }
       }
