@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1956",
-    "scraped_at": "2025-11-14T01:47:49.635Z",
+    "scraped_at": "2025-11-14T01:48:54.724Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -912,6 +912,20 @@
             "ts": 1763084755
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "17816-2-54",
+            "text": "Jard Oliva al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763084927
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1004,6 +1018,13 @@
         "half": "top",
         "label": "Alta 7ma",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
