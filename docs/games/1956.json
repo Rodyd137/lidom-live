@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1956",
-    "scraped_at": "2025-11-14T01:39:09.283Z",
+    "scraped_at": "2025-11-14T01:40:14.256Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-13 19:30:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Julio Carreras Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 1,
-      "strikes": 1,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -877,6 +877,27 @@
             "ts": 1763084151
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "17816-1-50",
+            "text": "Julio Carreras Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763084378
+          },
+          {
+            "reference_id": "17816-1-51",
+            "text": "Frank Rodriguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763084382
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -962,6 +983,13 @@
         "half": "bottom",
         "label": "Baja 6ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
