@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1955",
-    "scraped_at": "2025-11-14T01:25:02.895Z",
+    "scraped_at": "2025-11-14T01:26:07.880Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-11-13 19:30:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Alberto Rodriguez Cuadrangular! ",
     "counts": {
-      "balls": 1,
-      "strikes": 0,
+      "balls": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -59,7 +59,7 @@
           "H2": 4
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Héctor Pérez",
           "era": "",
           "record": "",
           "debut": false
@@ -174,10 +174,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 5,
-          "H": 8,
+          "R": 6,
+          "H": 9,
           "E": 0,
-          "H2": 5
+          "H2": 6
         },
         "probables": {
           "pitcher": "Pedro Payano",
@@ -314,7 +314,7 @@
         {
           "num": 5,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 6,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 5,
-          "H": 8,
+          "R": 6,
+          "H": 9,
           "E": 0
         }
       },
@@ -408,23 +408,23 @@
           },
           {
             "num": 5,
-            "R": 5
+            "R": 6
           },
           {
             "num": 6,
-            "R": 5
+            "R": 6
           },
           {
             "num": 7,
-            "R": 5
+            "R": 6
           },
           {
             "num": 8,
-            "R": 5
+            "R": 6
           },
           {
             "num": 9,
-            "R": 5
+            "R": 6
           }
         ]
       }
@@ -807,6 +807,27 @@
             "ts": 1763083318
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "17805-2-46",
+            "text": "Alberto Rodriguez Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763083516
+          },
+          {
+            "reference_id": "17805-2-47",
+            "text": "Emmanuel Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763083552
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -872,6 +893,13 @@
         "label": "Alta 5ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 2,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -908,7 +936,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 6,
