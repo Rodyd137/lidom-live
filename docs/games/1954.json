@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1954",
-    "scraped_at": "2025-11-14T00:37:23.534Z",
+    "scraped_at": "2025-11-14T00:38:28.402Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-13 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gustavo Nuñez Doble! Jardinero Izquierdo",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 1,
-          "H": 1,
+          "H": 2,
           "E": 0,
           "H2": 1
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 1,
-          "H": 1,
+          "H": 2,
           "E": 0
         }
       },
@@ -654,10 +654,17 @@
         "plays": [
           {
             "reference_id": "17794-2-30",
-            "text": "Gustavo Nuñez al bate",
+            "text": "Gustavo Nuñez Doble! Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1763080499
+            "ts": 1763080695
+          },
+          {
+            "reference_id": "17794-2-31",
+            "text": "Emilio Bonifacio al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763080697
           }
         ]
       }
@@ -702,7 +709,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
