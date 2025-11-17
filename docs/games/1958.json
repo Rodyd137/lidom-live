@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1958",
-    "scraped_at": "2025-11-17T23:53:33.168Z",
+    "scraped_at": "2025-11-17T23:54:40.739Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -114,6 +114,17 @@
             "team_id": 3,
             "name": "Alberto Rodriguez",
             "abbreviation": "A. Rodriguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5333,
+            "team_id": 3,
+            "name": "Emmanuel Rodríguez",
+            "abbreviation": "E. Rodríguez",
             "number": null,
             "dob": null,
             "height": "",
@@ -389,6 +400,20 @@
             "ts": 1763423445
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "17829-1-9",
+            "text": "Emmanuel Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763423653
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -404,6 +429,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -503,7 +535,7 @@
         "id": 1959,
         "date": "2025-11-17 19:30:00",
         "status": 2,
-        "roundText": "Baja 1ra",
+        "roundText": "Alta 2da",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
