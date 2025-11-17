@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1958",
-    "scraped_at": "2025-11-17T23:34:31.262Z",
+    "scraped_at": "2025-11-17T23:35:35.722Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-17 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Leody Taveras Out: Elevado al Campo Corto",
     "counts": {
-      "balls": 0,
-      "strikes": 2,
-      "outs": 0
+      "balls": 1,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -70,6 +70,17 @@
             "team_id": 3,
             "name": "Leody Taveras",
             "abbreviation": "L. Taveras",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5454,
+            "team_id": 3,
+            "name": "Ezequiel Duran",
+            "abbreviation": "E. Duran",
             "number": null,
             "dob": null,
             "height": "",
@@ -249,10 +260,17 @@
         "plays": [
           {
             "reference_id": "17828-1-1",
-            "text": "Leody Taveras al bate",
+            "text": "Leody Taveras Out: Elevado al Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1763422415
+            "ts": 1763422499
+          },
+          {
+            "reference_id": "17828-1-2",
+            "text": "Ezequiel Duran al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763422526
           }
         ]
       }
@@ -262,7 +280,7 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
