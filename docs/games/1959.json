@@ -1,20 +1,20 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1959",
-    "scraped_at": "2025-11-17T23:35:35.760Z",
+    "scraped_at": "2025-11-17T23:36:39.799Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1959,
     "season_id": 20,
-    "status": 3,
+    "status": 2,
     "date": "2025-11-17 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -429,8 +429,31 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "17837-1-1",
+            "text": "Jasson Domínguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763422550
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
