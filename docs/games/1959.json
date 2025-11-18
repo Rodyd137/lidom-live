@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1959",
-    "scraped_at": "2025-11-18T02:29:25.636Z",
+    "scraped_at": "2025-11-18T02:30:28.463Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-17 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Erik Gonzalez Doble! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 2,
-          "H": 5,
+          "H": 6,
           "E": 1,
           "H2": 2
         },
@@ -180,7 +180,7 @@
           "H2": 5
         },
         "probables": {
-          "pitcher": "Jose M. Fernandez",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 2,
-          "H": 5,
+          "H": 6,
           "E": 1
         },
         "home": {
@@ -1003,6 +1003,27 @@
             "ts": 1763432797
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "17844-1-65",
+            "text": "Erik Gonzalez Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763433016
+          },
+          {
+            "reference_id": "17844-1-66",
+            "text": "Hector Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763433020
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1102,6 +1123,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
