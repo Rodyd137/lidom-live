@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1958",
-    "scraped_at": "2025-11-18T02:09:28.607Z",
+    "scraped_at": "2025-11-18T02:10:31.795Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-17 19:30:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Leody Taveras Doble! ",
+    "lastPlayByPlay": "JC Escarra Base por Bolas Intencional ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 7
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": true,
-      "on3B": true,
+      "on3B": false,
       "runners": 2,
-      "mask": 7
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 3,
+          "R": 4,
           "H": 7,
           "E": 0,
           "H2": 3
@@ -323,7 +323,7 @@
         },
         {
           "num": 7,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,7 +340,7 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 3,
+          "R": 4,
           "H": 7,
           "E": 0
         },
@@ -378,15 +378,15 @@
           },
           {
             "num": 7,
-            "R": 3
+            "R": 4
           },
           {
             "num": 8,
-            "R": 3
+            "R": 4
           },
           {
             "num": 9,
-            "R": 3
+            "R": 4
           }
         ],
         "home": [
@@ -913,10 +913,17 @@
           },
           {
             "reference_id": "17834-1-58",
-            "text": "Ezequiel Duran al bate",
+            "text": "Ezequiel Duran Elevado de Sacrificio Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763431794
+          },
+          {
+            "reference_id": "17834-1-59",
+            "text": "JC Escarra Base por Bolas Intencional ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763431581
+            "ts": 1763431811
           }
         ]
       }
@@ -1010,8 +1017,8 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1061,7 +1068,7 @@
         "num": 7,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
