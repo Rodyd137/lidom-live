@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1958",
-    "scraped_at": "2025-11-18T00:08:41.870Z",
+    "scraped_at": "2025-11-18T00:09:46.354Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-11-17 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Luis Campusano  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 3,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
@@ -213,6 +213,28 @@
             "team_id": 1,
             "name": "Cristhian Adames",
             "abbreviation": "C. Adames",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5534,
+            "team_id": 1,
+            "name": "Luis Campusano",
+            "abbreviation": "L Campusano",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5276,
+            "team_id": 1,
+            "name": "Mel Rojas Jr.",
+            "abbreviation": "M. Rojas Jr.",
             "number": null,
             "dob": null,
             "height": "",
@@ -468,6 +490,27 @@
             "ts": 1763424226
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "17829-2-13",
+            "text": "Luis Campusano  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763424535
+          },
+          {
+            "reference_id": "17829-2-14",
+            "text": "Mel Rojas Jr. al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763424544
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -490,6 +533,13 @@
         "half": "top",
         "label": "Alta 2da",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
