@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1959",
-    "scraped_at": "2025-11-18T01:37:53.798Z",
+    "scraped_at": "2025-11-18T01:38:56.946Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-17 19:30:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Franchy Cordero  Out: Rodado al Primera Base",
+    "lastPlayByPlay": " Jorge Mateo se embasa por Error del Campo Corto",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -176,7 +176,7 @@
         "totals": {
           "R": 5,
           "H": 9,
-          "E": 0,
+          "E": 1,
           "H2": 5
         },
         "probables": {
@@ -347,7 +347,7 @@
         "home": {
           "R": 5,
           "H": 9,
-          "E": 0
+          "E": 1
         }
       },
       "cumulative": {
@@ -857,10 +857,17 @@
           },
           {
             "reference_id": "17842-1-48",
-            "text": " Jorge Mateo al bate",
+            "text": " Jorge Mateo se embasa por Error del Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1763429757
+            "ts": 1763429892
+          },
+          {
+            "reference_id": "17842-1-49",
+            "text": "Socrates Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763429896
           }
         ]
       }
@@ -940,7 +947,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
