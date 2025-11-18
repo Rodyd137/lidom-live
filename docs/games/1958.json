@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1958",
-    "scraped_at": "2025-11-18T00:29:07.120Z",
+    "scraped_at": "2025-11-18T00:30:11.637Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-17 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Liover Peguero  Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "Sergio Alcantara Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -619,10 +619,17 @@
           },
           {
             "reference_id": "17830-2-22",
-            "text": "Sergio Alcantara al bate",
+            "text": "Sergio Alcantara Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763425681
+            "ts": 1763425792
+          },
+          {
+            "reference_id": "17830-2-23",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763425796
           }
         ]
       }
@@ -667,7 +674,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -767,7 +774,7 @@
         "id": 1959,
         "date": "2025-11-17 19:30:00",
         "status": 2,
-        "roundText": "Alta 3ra",
+        "roundText": "Baja 3ra",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
