@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1957",
-    "scraped_at": "2025-11-18T03:00:33.799Z",
+    "scraped_at": "2025-11-18T03:01:38.243Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-17 19:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Kelvin Gutiérrez Ponche (K) ",
+    "lastPlayByPlay": "Pablo Reyes Sencillo Jardinero Izquierdo",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 2,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 0,
           "H2": 0
         },
@@ -262,6 +262,28 @@
             "height": "",
             "image": null,
             "position": ""
+          },
+          {
+            "id": 5253,
+            "team_id": 5,
+            "name": "Diego Hernández",
+            "abbreviation": "D.  Hernández",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5240,
+            "team_id": 5,
+            "name": "Frank Rodriguez",
+            "abbreviation": "F. Rodriguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
           }
         ]
       }
@@ -324,7 +346,7 @@
         },
         "home": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 0
         }
       },
@@ -723,10 +745,17 @@
           },
           {
             "reference_id": "17823-2-37",
-            "text": "Carlos Peguero  al bate",
+            "text": "Pablo Reyes Sencillo Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1763434734
+            "ts": 1763434840
+          },
+          {
+            "reference_id": "17823-2-38",
+            "text": "Diego Hernández al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763434843
           }
         ]
       }
@@ -799,7 +828,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
