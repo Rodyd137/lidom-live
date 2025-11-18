@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1957",
-    "scraped_at": "2025-11-18T02:43:19.473Z",
+    "scraped_at": "2025-11-18T02:44:23.983Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-17 19:00:00",
-    "roundText": "Baja 4ta",
-    "currentInningNum": 4,
-    "lastPlayByPlay": "Deyvinson de los Santos  Out: Rodado al Tercera Base - Segunda Base",
+    "roundText": "Alta 5ta",
+    "currentInningNum": 5,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 2
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -682,10 +682,24 @@
           },
           {
             "reference_id": "17822-2-30",
-            "text": "Carlos Franco al bate",
+            "text": "Carlos Franco  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1763433699
+            "ts": 1763433845
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "17823-1-31",
+            "text": "Jose Tena  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763433858
           }
         ]
       }
@@ -746,6 +760,13 @@
         "label": "Baja 4ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -773,14 +794,14 @@
       {
         "num": 4,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 5,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -818,7 +839,7 @@
         "id": 1958,
         "date": "2025-11-17 19:30:00",
         "status": 2,
-        "roundText": "Baja 8va",
+        "roundText": "Alta 9na",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
