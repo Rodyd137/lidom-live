@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1959",
-    "scraped_at": "2025-11-18T01:04:19.581Z",
+    "scraped_at": "2025-11-18T01:05:22.848Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-17 19:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Chadwick Tromp Out: Elevado al Jardinero Derecho ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -751,6 +751,27 @@
             "ts": 1763427698
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "17841-1-36",
+            "text": "Chadwick Tromp Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763427915
+          },
+          {
+            "reference_id": "17841-1-37",
+            "text": "Jasson Domínguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763427918
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -808,6 +829,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
