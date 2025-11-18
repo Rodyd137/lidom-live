@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1958",
-    "scraped_at": "2025-11-18T00:24:48.685Z",
+    "scraped_at": "2025-11-18T00:25:53.204Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 3,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -246,6 +246,17 @@
             "team_id": 1,
             "name": "Domingo Leyba",
             "abbreviation": "D. Leyba",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5278,
+            "team_id": 1,
+            "name": "Arístides Aquino",
+            "abbreviation": "A. Aquino",
             "number": null,
             "dob": null,
             "height": "",
@@ -564,6 +575,20 @@
             "ts": 1763425312
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "17830-2-20",
+            "text": "Arístides Aquino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763425496
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -601,6 +626,13 @@
         "label": "Alta 3ra",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -705,8 +737,8 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 0,
-          "hits": 3,
+          "runs": 1,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
