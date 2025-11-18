@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1961",
-    "scraped_at": "2025-11-18T23:55:21.326Z",
+    "scraped_at": "2025-11-18T23:56:25.617Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,7 +14,7 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -125,6 +125,17 @@
             "team_id": 6,
             "name": "Denzer Guzmán",
             "abbreviation": "D. Guzmán",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5377,
+            "team_id": 6,
+            "name": "Yairo Munoz",
+            "abbreviation": "Y. Munoz",
             "number": null,
             "dob": null,
             "height": "",
@@ -421,6 +432,20 @@
             "ts": 1763509980
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "17856-1-10",
+            "text": "Yairo Munoz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763510151
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -436,6 +461,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
