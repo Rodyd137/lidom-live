@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1960",
-    "scraped_at": "2025-11-18T23:57:29.768Z",
+    "scraped_at": "2025-11-18T23:58:34.083Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-18 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Kelvin Gutiérrez  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -492,6 +492,27 @@
             "ts": 1763510069
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "17847-1-8",
+            "text": "Kelvin Gutiérrez  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763510283
+          },
+          {
+            "reference_id": "17847-1-9",
+            "text": "Pablo Reyes al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763510286
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -507,6 +528,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -606,7 +634,7 @@
         "id": 1962,
         "date": "2025-11-18 19:30:00",
         "status": 2,
-        "roundText": "Alta 2da",
+        "roundText": "Baja 2da",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
