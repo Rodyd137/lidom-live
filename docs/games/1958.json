@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1958",
-    "scraped_at": "2025-11-18T02:16:49.700Z",
+    "scraped_at": "2025-11-18T02:17:52.605Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 7,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -275,10 +275,10 @@
             "position": ""
           },
           {
-            "id": 5273,
+            "id": 5437,
             "team_id": 1,
-            "name": "Liover Peguero",
-            "abbreviation": "L. Peguero",
+            "name": "Sergio Alcantara",
+            "abbreviation": "S. Alcantara",
             "number": null,
             "dob": null,
             "height": "",
@@ -933,6 +933,20 @@
             "ts": 1763432030
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "17834-2-61",
+            "text": "Sergio Alcantara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763432265
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1026,6 +1040,13 @@
         "label": "Alta 7ma",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
