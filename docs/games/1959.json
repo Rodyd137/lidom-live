@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1959",
-    "scraped_at": "2025-11-18T00:56:59.351Z",
+    "scraped_at": "2025-11-18T00:58:02.523Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-17 19:30:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Denzer Guzmán Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -716,6 +716,27 @@
             "ts": 1763427161
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "17840-2-33",
+            "text": "Denzer Guzmán Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763427452
+          },
+          {
+            "reference_id": "17840-2-34",
+            "text": "Guztavo Campero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763427457
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -766,6 +787,13 @@
         "half": "top",
         "label": "Alta 4ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
