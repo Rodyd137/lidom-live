@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1958",
-    "scraped_at": "2025-11-18T00:15:08.781Z",
+    "scraped_at": "2025-11-18T00:16:13.176Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-17 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Leody Taveras Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -529,6 +529,27 @@
             "ts": 1763424713
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "17830-1-16",
+            "text": "Leody Taveras Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763424954
+          },
+          {
+            "reference_id": "17830-1-17",
+            "text": "Ezequiel Duran al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763424963
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -558,6 +579,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
