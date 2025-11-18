@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1957",
-    "scraped_at": "2025-11-18T04:40:03.545Z",
+    "scraped_at": "2025-11-18T04:41:07.379Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-17 19:00:00",
-    "roundText": "Alta 9na",
+    "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Euribiel Angeles  Out: Rodado al Segunda Base - Campo Corto - Primera Base - Doble Play!",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -220,21 +220,10 @@
             "position": ""
           },
           {
-            "id": 5246,
+            "id": 5251,
             "team_id": 5,
-            "name": "Carlos Franco",
-            "abbreviation": "C. Franco",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 5248,
-            "team_id": 5,
-            "name": "Marco Hernández",
-            "abbreviation": "M. Hernández",
+            "name": "Julio Carreras",
+            "abbreviation": "J. Carreras",
             "number": null,
             "dob": null,
             "height": "",
@@ -1066,6 +1055,20 @@
             "ts": 1763440733
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "17827-2-77",
+            "text": "Julio Carreras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763440854
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1187,6 +1190,13 @@
         "label": "Alta 9na",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1248,7 +1258,7 @@
       },
       {
         "num": 9,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
