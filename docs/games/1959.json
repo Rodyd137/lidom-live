@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1959",
-    "scraped_at": "2025-11-18T00:03:18.179Z",
+    "scraped_at": "2025-11-18T00:04:23.170Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -541,6 +541,20 @@
             "ts": 1763424007
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "17838-2-13",
+            "text": "Denzer Guzmán al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763424221
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -563,6 +577,13 @@
         "half": "top",
         "label": "Alta 2da",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
