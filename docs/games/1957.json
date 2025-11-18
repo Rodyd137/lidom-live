@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1957",
-    "scraped_at": "2025-11-18T04:12:48.312Z",
+    "scraped_at": "2025-11-18T04:13:51.065Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-17 19:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Vidal Brujan Base por Bolas y Carrera Impulsada ",
+    "lastPlayByPlay": "Jose Tena  Wild Pitch Carrera Empujada",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 8
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": true,
       "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "runners": 2,
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 5,
+          "R": 6,
           "H": 9,
           "E": 0,
           "H2": 2
@@ -176,7 +176,7 @@
         "totals": {
           "R": 0,
           "H": 3,
-          "E": 2,
+          "E": 3,
           "H2": 0
         },
         "probables": {
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 1,
+          "away": 2,
           "home": 0
         },
         {
@@ -340,14 +340,14 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 5,
+          "R": 6,
           "H": 9,
           "E": 0
         },
         "home": {
           "R": 0,
           "H": 3,
-          "E": 2
+          "E": 3
         }
       },
       "cumulative": {
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 5
+            "R": 6
           },
           {
             "num": 9,
-            "R": 5
+            "R": 6
           }
         ],
         "home": [
@@ -990,10 +990,17 @@
           },
           {
             "reference_id": "17826-1-68",
-            "text": "Jose Tena  al bate",
+            "text": "Jose Tena  Wild Pitch Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763439219
+          },
+          {
+            "reference_id": "17826-1-69",
+            "text": "Rodolfo Durán al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1763439012
+            "ts": 1763439226
           }
         ]
       }
@@ -1101,8 +1108,8 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 7,
-        "scoring_plays": 1
+        "total_plays": 8,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1159,7 +1166,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 1,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
