@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1961",
-    "scraped_at": "2025-11-18T23:47:44.445Z",
+    "scraped_at": "2025-11-18T23:48:47.378Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-18 19:30:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Sandber Pimentel Sencillo y 2 Carreras Impulsadas ",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 2
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -340,16 +340,23 @@
           {
             "reference_id": "17855-1-5",
             "text": "Sandber Pimentel Sencillo y 2 Carreras Impulsadas ",
-            "scored": true,
+            "scored": false,
             "is_primary": true,
             "ts": 1763509482
           },
           {
             "reference_id": "17855-1-6",
-            "text": "Denzer Guzmán al bate",
+            "text": "Denzer Guzmán Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763509620
+            "ts": 1763509707
+          },
+          {
+            "reference_id": "17855-1-5-259774",
+            "text": "Sandber Pimentel Out Robando Base! ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1763509714
           }
         ]
       }
@@ -359,14 +366,14 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 7,
-        "scoring_plays": 2
+        "total_plays": 8,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 3,
         "homeTeamRuns": 0
