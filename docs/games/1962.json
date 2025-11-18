@@ -1,21 +1,21 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1962",
-    "scraped_at": "2025-11-18T23:32:49.295Z",
+    "scraped_at": "2025-11-18T23:41:25.248Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1962,
     "season_id": 20,
-    "status": 3,
+    "status": 2,
     "date": "2025-11-18 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Junior Lake Out Robando Base! ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -54,7 +54,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -64,7 +64,52 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5304,
+            "team_id": 4,
+            "name": "Junior Lake",
+            "abbreviation": "J. Lake",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5300,
+            "team_id": 4,
+            "name": "Erik Gonzalez",
+            "abbreviation": "E. Gonzalez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5476,
+            "team_id": 4,
+            "name": "Hector Rodríguez",
+            "abbreviation": "H. Rodríguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5477,
+            "team_id": 4,
+            "name": " Jorge Mateo",
+            "abbreviation": "J. Mateo",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       },
       "home": {
         "id": 7,
@@ -141,7 +186,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -229,8 +274,52 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "17864-1-1",
+            "text": "Junior Lake Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763509148
+          },
+          {
+            "reference_id": "17864-1-2",
+            "text": "Erik Gonzalez Toque de Sacrificio ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763509206
+          },
+          {
+            "reference_id": "17864-1-3",
+            "text": "Hector Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763509211
+          },
+          {
+            "reference_id": "17864-1-2-259757",
+            "text": "Junior Lake Out Robando Base! ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1763509272
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 4,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
@@ -300,7 +389,7 @@
       {
         "id": 1960,
         "date": "2025-11-18 19:30:00",
-        "status": 3,
+        "status": 2,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 5,
@@ -326,15 +415,15 @@
       {
         "id": 1961,
         "date": "2025-11-18 19:30:00",
-        "status": 3,
+        "status": 2,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 0,
-          "hits": 0,
+          "runs": 1,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         },

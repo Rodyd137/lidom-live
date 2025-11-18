@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1961",
-    "scraped_at": "2025-11-18T23:32:49.278Z",
+    "scraped_at": "2025-11-18T23:41:25.238Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1961,
     "season_id": 20,
-    "status": 3,
+    "status": 2,
     "date": "2025-11-18 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jeimer Candelario Doble! 1 Carrera Impulsada ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 7
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on2B": true,
+      "on3B": true,
+      "runners": 2,
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 0,
-          "H": 0,
+          "R": 1,
+          "H": 2,
           "E": 0,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
           "pitcher": "Aaron Brooks",
@@ -64,7 +64,52 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5382,
+            "team_id": 6,
+            "name": "Gilberto Celestino",
+            "abbreviation": "G. Celestino",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5489,
+            "team_id": 6,
+            "name": "Jard Oliva",
+            "abbreviation": "J. Oliva",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5506,
+            "team_id": 6,
+            "name": "Jeimer Candelario",
+            "abbreviation": "J. Candelario",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5417,
+            "team_id": 6,
+            "name": "Bryan de la Cruz",
+            "abbreviation": "B. De la Cruz",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       },
       "home": {
         "id": 3,
@@ -93,7 +138,7 @@
       "innings": [
         {
           "num": 1,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -140,8 +185,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 0,
+          "R": 1,
+          "H": 2,
           "E": 0
         },
         "home": {
@@ -154,39 +199,39 @@
         "away": [
           {
             "num": 1,
-            "R": 0
+            "R": 1
           },
           {
             "num": 2,
-            "R": 0
+            "R": 1
           },
           {
             "num": 3,
-            "R": 0
+            "R": 1
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ],
         "home": [
@@ -229,14 +274,65 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "17855-1-1",
+            "text": "Gilberto Celestino Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763508909
+          },
+          {
+            "reference_id": "17855-1-1-259744",
+            "text": "Gilberto Celestino Robo de Base ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1763509047
+          },
+          {
+            "reference_id": "17855-1-2",
+            "text": "Jard Oliva Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763509121
+          },
+          {
+            "reference_id": "17855-1-3",
+            "text": "Jeimer Candelario Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763509189
+          },
+          {
+            "reference_id": "17855-1-4",
+            "text": "Bryan de la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763509231
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 5,
+        "scoring_plays": 1
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
@@ -300,7 +396,7 @@
       {
         "id": 1960,
         "date": "2025-11-18 19:30:00",
-        "status": 3,
+        "status": 2,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 5,
@@ -326,7 +422,7 @@
       {
         "id": 1962,
         "date": "2025-11-18 19:30:00",
-        "status": 3,
+        "status": 2,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 4,
@@ -334,7 +430,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
