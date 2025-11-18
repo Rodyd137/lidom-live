@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1959",
-    "scraped_at": "2025-11-18T01:48:26.180Z",
+    "scraped_at": "2025-11-18T01:49:29.108Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-17 19:30:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Denzer Guzmán Cuadrangular! ",
+    "lastPlayByPlay": "Guztavo Campero Golpeado por Pelota ",
     "counts": {
       "balls": 0,
-      "strikes": 2,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -885,10 +885,17 @@
           },
           {
             "reference_id": "17842-2-51",
-            "text": "Guztavo Campero al bate",
+            "text": "Guztavo Campero Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763430436
+            "ts": 1763430552
+          },
+          {
+            "reference_id": "17842-2-52",
+            "text": "Rafael Lantigua  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763430557
           }
         ]
       }
@@ -975,7 +982,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 1
       }
     ],
