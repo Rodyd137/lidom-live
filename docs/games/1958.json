@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1958",
-    "scraped_at": "2025-11-18T03:07:02.331Z",
+    "scraped_at": "2025-11-18T03:08:07.090Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,19 +14,19 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -180,7 +180,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Luis Frias",
+          "pitcher": "Jean Carlos Mejia",
           "era": "",
           "record": "",
           "debut": false
@@ -1128,6 +1128,20 @@
             "ts": 1763435123
           }
         ]
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "plays": [
+          {
+            "reference_id": "19053-1-81",
+            "text": "Aderlin Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763435272
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1256,6 +1270,13 @@
         "label": "Baja 9na",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
