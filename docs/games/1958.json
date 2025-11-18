@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1958",
-    "scraped_at": "2025-11-18T02:28:22.679Z",
+    "scraped_at": "2025-11-18T02:29:25.633Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-17 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Alberto Rodriguez Golpeado por Pelota ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 6
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on3B": true,
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 4,
-          "H": 7,
+          "H": 8,
           "E": 0,
           "H2": 3
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 4,
-          "H": 7,
+          "H": 8,
           "E": 0
         },
         "home": {
@@ -969,10 +969,17 @@
         "plays": [
           {
             "reference_id": "17835-1-64",
-            "text": "Alberto Rodriguez al bate",
+            "text": "Alberto Rodriguez Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763432842
+            "ts": 1763432929
+          },
+          {
+            "reference_id": "17835-1-65",
+            "text": "Emmanuel Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763432933
           }
         ]
       }
@@ -1080,7 +1087,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
