@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1957",
-    "scraped_at": "2025-11-18T03:49:21.562Z",
+    "scraped_at": "2025-11-18T03:50:24.585Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-17 19:00:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Josh Lester Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -912,6 +912,20 @@
             "ts": 1763437650
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "17825-2-58",
+            "text": "Pablo Reyes al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763437787
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1005,6 +1019,13 @@
         "label": "Alta 7ma",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1052,7 +1073,7 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
