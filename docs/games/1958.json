@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1958",
-    "scraped_at": "2025-11-18T00:19:27.056Z",
+    "scraped_at": "2025-11-18T00:20:31.654Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-17 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Ezequiel Duran Triple! ",
+    "lastPlayByPlay": "JC Escarra Elevado de Sacrificio Carrera Empujada",
     "counts": {
       "balls": 1,
-      "strikes": 0,
-      "outs": 1
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 4
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 0,
+          "R": 1,
           "H": 2,
           "E": 0,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
           "pitcher": "Charlie Barnes",
@@ -270,7 +270,7 @@
         },
         {
           "num": 3,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -307,7 +307,7 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
+          "R": 1,
           "H": 2,
           "E": 0
         },
@@ -329,31 +329,31 @@
           },
           {
             "num": 3,
-            "R": 0
+            "R": 1
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ],
         "home": [
@@ -551,10 +551,17 @@
           },
           {
             "reference_id": "17830-1-18",
-            "text": "JC Escarra al bate",
+            "text": "JC Escarra Elevado de Sacrificio Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763425189
+          },
+          {
+            "reference_id": "17830-1-19",
+            "text": "Aderlin Rodríguez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1763425098
+            "ts": 1763425206
           }
         ]
       }
@@ -592,8 +599,8 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -615,7 +622,7 @@
         "num": 3,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
