@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1959",
-    "scraped_at": "2025-11-18T01:32:38.901Z",
+    "scraped_at": "2025-11-18T01:33:42.094Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 6,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 3,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -180,7 +180,7 @@
           "H2": 5
         },
         "probables": {
-          "pitcher": "Chester Pimentel",
+          "pitcher": "José Adames",
           "era": "",
           "record": "",
           "debut": false
@@ -835,6 +835,20 @@
             "ts": 1763429393
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "17842-1-46",
+            "text": "Yamaico Navarro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763429600
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -907,6 +921,13 @@
         "label": "Baja 5ta",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -978,7 +999,7 @@
       {
         "id": 1957,
         "date": "2025-11-17 19:00:00",
-        "status": 4,
+        "status": 2,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 7,
