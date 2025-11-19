@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1964",
-    "scraped_at": "2025-11-19T23:51:27.181Z",
+    "scraped_at": "2025-11-19T23:52:31.453Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-19 19:15:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": " Jorge Mateo  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -541,6 +541,27 @@
             "ts": 1763596118
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "17883-2-13",
+            "text": " Jorge Mateo  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763596326
+          },
+          {
+            "reference_id": "17883-2-14",
+            "text": "Franchy Cordero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763596336
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -563,6 +584,13 @@
         "half": "top",
         "label": "Alta 2da",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
