@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1962",
-    "scraped_at": "2025-11-19T01:56:26.337Z",
+    "scraped_at": "2025-11-19T01:57:30.703Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-18 19:30:00",
-    "roundText": "Alta 9na",
+    "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Gio Urshela  Out: Rodado al Campo Corto - Primera Base - Segunda Base - Doble Play!",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Fernando Abad",
+          "pitcher": "Jimmy Cordero",
           "era": "",
           "record": "",
           "debut": false
@@ -982,6 +982,20 @@
             "ts": 1763517321
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "17872-2-63",
+            "text": "Jose Tena  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763517434
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1103,6 +1117,13 @@
         "label": "Alta 9na",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1164,7 +1185,7 @@
       },
       {
         "num": 9,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
