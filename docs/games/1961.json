@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1961",
-    "scraped_at": "2025-11-18T23:59:38.261Z",
+    "scraped_at": "2025-11-19T00:00:45.713Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-18 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Manuel Peña Sencillo ",
+    "lastPlayByPlay": "Manuel Peña Robo de Base ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -147,6 +147,17 @@
             "team_id": 6,
             "name": "Manuel Peña",
             "abbreviation": "M. Peña",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5461,
+            "team_id": 6,
+            "name": "Guztavo Campero",
+            "abbreviation": "G. Campero",
             "number": null,
             "dob": null,
             "height": "",
@@ -462,6 +473,20 @@
             "scored": false,
             "is_primary": true,
             "ts": 1763510323
+          },
+          {
+            "reference_id": "17856-1-12",
+            "text": "Guztavo Campero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763510390
+          },
+          {
+            "reference_id": "17856-1-11-259809",
+            "text": "Manuel Peña Robo de Base ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1763510423
           }
         ]
       }
@@ -485,7 +510,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 2,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -602,7 +627,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
