@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1961",
-    "scraped_at": "2025-11-19T03:09:58.340Z",
+    "scraped_at": "2025-11-19T03:11:02.477Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 9,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 3,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -121,10 +121,10 @@
             "position": ""
           },
           {
-            "id": 5525,
+            "id": 5373,
             "team_id": 6,
-            "name": "Denzer Guzmán",
-            "abbreviation": "D. Guzmán",
+            "name": "Onil Perez",
+            "abbreviation": "O. Perez",
             "number": null,
             "dob": null,
             "height": "",
@@ -1178,6 +1178,20 @@
             "ts": 1763521670
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "17863-1-88",
+            "text": "Onil Perez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763521853
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1291,6 +1305,13 @@
         "half": "bottom",
         "label": "Baja 8va",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
