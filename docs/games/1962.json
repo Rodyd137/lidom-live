@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1962",
-    "scraped_at": "2025-11-19T00:47:54.542Z",
+    "scraped_at": "2025-11-19T00:48:58.776Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-18 19:30:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Chadwick Tromp Out: Línea al Jardinero Izquierdo",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -724,10 +724,24 @@
           },
           {
             "reference_id": "17868-1-34",
-            "text": "Junior Lake al bate",
+            "text": "Junior Lake Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1763513177
+            "ts": 1763513292
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "17868-2-35",
+            "text": "Robinson Canó  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763513328
           }
         ]
       }
@@ -795,6 +809,13 @@
         "label": "Alta 5ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -828,7 +849,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
