@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1960",
-    "scraped_at": "2025-11-19T01:15:46.094Z",
+    "scraped_at": "2025-11-19T01:16:50.086Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-18 19:30:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Luis Campusano Out: Elevado al Jardinero Izquierdo",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Yovanny Cruz",
           "era": "",
           "record": "",
           "debut": false
@@ -786,6 +786,27 @@
             "ts": 1763514747
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "17851-2-41",
+            "text": "Luis Campusano Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763514995
+          },
+          {
+            "reference_id": "17851-2-42",
+            "text": "Mel Rojas Jr. al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763514999
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -864,6 +885,13 @@
         "half": "top",
         "label": "Alta 6ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
