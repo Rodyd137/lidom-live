@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1964",
-    "scraped_at": "2025-11-19T23:27:37.697Z",
+    "scraped_at": "2025-11-19T23:28:40.497Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-19 19:15:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Jose Hernandez  Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "Mel Rojas Jr.  Out: Rodado al Tercera Base - Receptor",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 4
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": true,
+      "on3B": false,
       "runners": 1,
-      "mask": 4
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -465,10 +465,17 @@
           },
           {
             "reference_id": "17882-1-5",
-            "text": "Mel Rojas Jr. al bate",
+            "text": "Mel Rojas Jr.  Out: Rodado al Tercera Base - Receptor",
             "scored": false,
             "is_primary": true,
-            "ts": 1763594679
+            "ts": 1763594894
+          },
+          {
+            "reference_id": "17882-1-6",
+            "text": "Luis Campusano al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763594899
           }
         ]
       }
@@ -478,7 +485,7 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 1
       }
     ],
@@ -577,7 +584,7 @@
       {
         "id": 1965,
         "date": "2025-11-19 19:30:00",
-        "status": 1,
+        "status": 3,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 3,
