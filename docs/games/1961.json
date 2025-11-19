@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1961",
-    "scraped_at": "2025-11-19T00:10:24.912Z",
+    "scraped_at": "2025-11-19T00:11:29.084Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -213,6 +213,17 @@
             "team_id": 3,
             "name": "JC Escarra",
             "abbreviation": "JC Escarra",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5390,
+            "team_id": 3,
+            "name": "Alberto Rodriguez",
+            "abbreviation": "A. Rodriguez",
             "number": null,
             "dob": null,
             "height": "",
@@ -510,6 +521,20 @@
             "ts": 1763510829
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "17856-2-16",
+            "text": "Alberto Rodriguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763511062
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -532,6 +557,13 @@
         "half": "top",
         "label": "Alta 2da",
         "total_plays": 7,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
