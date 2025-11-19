@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1960",
-    "scraped_at": "2025-11-19T00:32:54.927Z",
+    "scraped_at": "2025-11-19T00:33:59.137Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-18 19:30:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Deyvinson de los Santos  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -632,6 +632,27 @@
             "ts": 1763512216
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "17849-1-24",
+            "text": "Deyvinson de los Santos  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763512420
+          },
+          {
+            "reference_id": "17849-1-25",
+            "text": "Carlos Franco al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763512423
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -676,6 +697,13 @@
         "label": "Baja 3ra",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -756,7 +784,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 3,
           "hits": 4,
-          "errors": 0,
+          "errors": 1,
           "permalink": "/equipo/toros-del-este"
         },
         "homeTeam": {
