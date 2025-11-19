@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1960",
-    "scraped_at": "2025-11-19T01:57:30.616Z",
+    "scraped_at": "2025-11-19T01:58:34.976Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-18 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Marco Hernández  Out: Rodado al Primera Base",
+    "lastPlayByPlay": "Johan Rojas  Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 6
+      "base": 4
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 1,
-          "H": 5,
+          "R": 2,
+          "H": 6,
           "E": 1,
           "H2": 0
         },
@@ -66,10 +66,10 @@
         },
         "players": [
           {
-            "id": 5433,
+            "id": 5432,
             "team_id": 5,
-            "name": "Leury García",
-            "abbreviation": "L. Garcia",
+            "name": "Johan Rojas ",
+            "abbreviation": "J. Rojas",
             "number": null,
             "dob": null,
             "height": "",
@@ -180,7 +180,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Cesar Valdez",
+          "pitcher": "Michael Tamarez",
           "era": "",
           "record": "",
           "debut": false
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 1,
+          "away": 2,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 1,
-          "H": 5,
+          "R": 2,
+          "H": 6,
           "E": 1
         },
         "home": {
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 1
+            "R": 2
           },
           {
             "num": 9,
-            "R": 1
+            "R": 2
           }
         ],
         "home": [
@@ -927,10 +927,17 @@
           },
           {
             "reference_id": "17853-1-57",
-            "text": "Melvi Mercedes  al bate",
+            "text": "Melvi Mercedes  Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763517190
+            "ts": 1763517456
+          },
+          {
+            "reference_id": "17853-1-58",
+            "text": "Johan Rojas  Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763517503
           }
         ]
       }
@@ -1038,8 +1045,8 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 5,
-        "scoring_plays": 1
+        "total_plays": 6,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1096,7 +1103,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 1,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
