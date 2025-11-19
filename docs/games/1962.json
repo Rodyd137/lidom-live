@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1962",
-    "scraped_at": "2025-11-19T00:57:32.846Z",
+    "scraped_at": "2025-11-19T00:58:37.562Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-18 19:30:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Erik Gonzalez Triple! Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on3B": true,
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 2,
-          "H": 4,
+          "H": 5,
           "E": 0,
           "H2": 2
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 2,
-          "H": 4,
+          "H": 5,
           "E": 0
         },
         "home": {
@@ -758,6 +758,20 @@
             "ts": 1763513724
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "17869-1-38",
+            "text": "Erik Gonzalez Triple! Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763513916
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -829,6 +843,13 @@
         "half": "bottom",
         "label": "Baja 5ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
