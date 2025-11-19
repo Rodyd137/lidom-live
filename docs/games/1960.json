@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1960",
-    "scraped_at": "2025-11-19T01:36:06.463Z",
+    "scraped_at": "2025-11-19T01:37:10.752Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-18 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Michael De La Cruz Triple! 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Gustavo Nuñez Elevado de Sacrificio ",
     "counts": {
-      "balls": 0,
-      "strikes": 2,
-      "outs": 1
+      "balls": 1,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 4
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -174,7 +174,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
-          "R": 2,
+          "R": 3,
           "H": 3,
           "E": 0,
           "H2": 1
@@ -324,7 +324,7 @@
         {
           "num": 7,
           "away": 0,
-          "home": 1
+          "home": 2
         },
         {
           "num": 8,
@@ -345,7 +345,7 @@
           "E": 1
         },
         "home": {
-          "R": 2,
+          "R": 3,
           "H": 3,
           "E": 0
         }
@@ -416,15 +416,15 @@
           },
           {
             "num": 7,
-            "R": 2
+            "R": 3
           },
           {
             "num": 8,
-            "R": 2
+            "R": 3
           },
           {
             "num": 9,
-            "R": 2
+            "R": 3
           }
         ]
       }
@@ -871,10 +871,17 @@
           },
           {
             "reference_id": "17852-2-50",
-            "text": "Gustavo Nuñez al bate",
+            "text": "Gustavo Nuñez Elevado de Sacrificio ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763516170
+          },
+          {
+            "reference_id": "17852-2-51",
+            "text": "Cal Stevenson  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1763516014
+            "ts": 1763516175
           }
         ]
       }
@@ -975,8 +982,8 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 4,
-        "scoring_plays": 1
+        "total_plays": 5,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1027,7 +1034,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 1
+        "homeTeamRuns": 2
       },
       {
         "num": 8,
@@ -1056,7 +1063,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 3,
-          "hits": 7,
+          "hits": 8,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
         },
