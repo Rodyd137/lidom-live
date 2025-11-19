@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1960",
-    "scraped_at": "2025-11-19T02:04:56.443Z",
+    "scraped_at": "2025-11-19T02:06:00.739Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-18 19:30:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Luis Campusano Ponche (K) ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 2,
           "H": 6,
-          "E": 1,
+          "E": 2,
           "H2": 0
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 2,
           "H": 6,
-          "E": 1
+          "E": 2
         },
         "home": {
           "R": 3,
@@ -955,10 +955,17 @@
         "plays": [
           {
             "reference_id": "17853-2-60",
-            "text": "Luis Campusano al bate",
+            "text": "Luis Campusano Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763517839
+            "ts": 1763517907
+          },
+          {
+            "reference_id": "17853-2-61",
+            "text": "Mel Rojas Jr. al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763517912
           }
         ]
       }
@@ -1073,7 +1080,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
