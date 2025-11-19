@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1961",
-    "scraped_at": "2025-11-19T02:01:40.872Z",
+    "scraped_at": "2025-11-19T02:02:47.886Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-18 19:30:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Raynel Delgado Sencillo ",
+    "lastPlayByPlay": "Angel Genao Sencillo ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": true,
-      "on3B": false,
+      "on3B": true,
       "runners": 2,
-      "mask": 5
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -174,7 +174,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 6,
+          "R": 7,
           "H": 7,
           "E": 0,
           "H2": 6
@@ -319,7 +319,7 @@
         {
           "num": 6,
           "away": 2,
-          "home": 0
+          "home": 1
         },
         {
           "num": 7,
@@ -345,7 +345,7 @@
           "E": 1
         },
         "home": {
-          "R": 6,
+          "R": 7,
           "H": 7,
           "E": 0
         }
@@ -412,19 +412,19 @@
           },
           {
             "num": 6,
-            "R": 6
+            "R": 7
           },
           {
             "num": 7,
-            "R": 6
+            "R": 7
           },
           {
             "num": 8,
-            "R": 6
+            "R": 7
           },
           {
             "num": 9,
-            "R": 6
+            "R": 7
           }
         ]
       }
@@ -934,7 +934,7 @@
         "plays": [
           {
             "reference_id": "17860-2-57",
-            "text": "Juan Lagares Golpeado por Pelota ",
+            "text": "Juan Lagares Golpeado por Pelota, Anota por error en tiro",
             "scored": false,
             "is_primary": true,
             "ts": 1763517372
@@ -948,10 +948,17 @@
           },
           {
             "reference_id": "17860-2-59",
-            "text": "Angel Genao al bate",
+            "text": "Angel Genao Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763517539
+            "ts": 1763517731
+          },
+          {
+            "reference_id": "17860-2-60",
+            "text": "Leody Taveras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763517760
           }
         ]
       }
@@ -1038,7 +1045,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -1083,7 +1090,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 2,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 7,
