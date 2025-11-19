@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1960",
-    "scraped_at": "2025-11-19T00:39:20.561Z",
+    "scraped_at": "2025-11-19T00:40:24.663Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 4,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 1,
+      "balls": 2,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -660,6 +660,20 @@
             "ts": 1763512576
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "17849-2-27",
+            "text": "Luis Campusano al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763512810
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -710,6 +724,13 @@
         "half": "top",
         "label": "Alta 4ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -800,7 +821,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 1,
-          "hits": 2,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }
