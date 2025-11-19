@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1960",
-    "scraped_at": "2025-11-19T02:13:30.149Z",
+    "scraped_at": "2025-11-19T02:14:34.985Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-18 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Carlos Franco Sencillo ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -975,6 +975,20 @@
             "ts": 1763518099
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "17854-1-63",
+            "text": "Carlos Franco Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763518473
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1089,6 +1103,13 @@
         "label": "Baja 8va",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1168,7 +1189,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 5,
-          "hits": 9,
+          "hits": 10,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
         },

@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1961",
-    "scraped_at": "2025-11-19T02:13:30.157Z",
+    "scraped_at": "2025-11-19T02:14:35.033Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-18 19:30:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Yairo Munoz Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 5,
-          "H": 9,
+          "H": 10,
           "E": 1,
           "H2": 3
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 5,
-          "H": 9,
+          "H": 10,
           "E": 1
         },
         "home": {
@@ -989,6 +989,34 @@
             "ts": 1763518230
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "17861-1-65",
+            "text": "Denzer Guzmán Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763518431
+          },
+          {
+            "reference_id": "17861-1-66",
+            "text": "Yairo Munoz Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763518467
+          },
+          {
+            "reference_id": "17861-1-67",
+            "text": "Manuel Peña al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763518471
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1075,6 +1103,13 @@
         "label": "Baja 6ta",
         "total_plays": 8,
         "scoring_plays": 1
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
