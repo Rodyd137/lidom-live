@@ -2,13 +2,12 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2025-11-19T02:02:47.900Z",
+    "scraped_at": "2025-11-19T02:03:52.396Z",
     "tz": "America/Santo_Domingo"
   },
   "tracked_ids": [
     1960,
-    1961,
-    1962
+    1961
   ],
   "live": [
     {
@@ -19,8 +18,8 @@
       "atBat": null,
       "lastPlayByPlay": null,
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 0
       },
       "base": {
@@ -48,7 +47,7 @@
         }
       },
       "threat": 22,
-      "updated_at": "2025-11-19T02:02:47.900Z"
+      "updated_at": "2025-11-19T02:03:52.396Z"
     },
     {
       "id": 1961,
@@ -56,18 +55,18 @@
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
       "atBat": null,
-      "lastPlayByPlay": "Angel Genao Sencillo ",
+      "lastPlayByPlay": "Leody Taveras  Out: Rodado al Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base": {
         "on1B": false,
         "on2B": true,
-        "on3B": true,
-        "runners": 2,
-        "mask": 7
+        "on3B": false,
+        "runners": 1,
+        "mask": 3
       },
       "battingTeam": "homeTeam",
       "score": {
@@ -81,52 +80,13 @@
         "home": {
           "name": "Aguilas",
           "abbr": "AC",
-          "R": 7,
+          "R": 8,
           "H": 7,
           "E": 0
         }
       },
-      "threat": 87,
-      "updated_at": "2025-11-19T02:02:47.900Z"
-    },
-    {
-      "id": 1962,
-      "status": 2,
-      "roundText": "Baja 9na",
-      "currentInningNum": 9,
-      "atBat": null,
-      "lastPlayByPlay": "Raimel Tapia Out: Línea al Jardinero Izquierdo",
-      "counts": {
-        "balls": 0,
-        "strikes": 0,
-        "outs": 3
-      },
-      "base": {
-        "on1B": false,
-        "on2B": false,
-        "on3B": false,
-        "runners": 0,
-        "mask": 1
-      },
-      "battingTeam": "homeTeam",
-      "score": {
-        "away": {
-          "name": "Leones",
-          "abbr": "LE",
-          "R": 3,
-          "H": 6,
-          "E": 0
-        },
-        "home": {
-          "name": "Estrellas",
-          "abbr": "EO",
-          "R": 1,
-          "H": 3,
-          "E": 1
-        }
-      },
-      "threat": 4,
-      "updated_at": "2025-11-19T02:02:47.900Z"
+      "threat": 31,
+      "updated_at": "2025-11-19T02:03:52.396Z"
     }
   ]
 }
