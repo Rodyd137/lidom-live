@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1961",
-    "scraped_at": "2025-11-19T01:02:54.527Z",
+    "scraped_at": "2025-11-19T01:03:58.997Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 4,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -751,6 +751,20 @@
             "ts": 1763514023
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "17858-2-37",
+            "text": "Raynel Delgado al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763514177
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -801,6 +815,13 @@
         "half": "top",
         "label": "Alta 4ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
