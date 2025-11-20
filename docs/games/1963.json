@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1963",
-    "scraped_at": "2025-11-20T01:03:22.282Z",
+    "scraped_at": "2025-11-20T01:04:26.044Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-19 19:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Kenny Piper Base por Bolas ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -633,10 +633,17 @@
         "plays": [
           {
             "reference_id": "17875-2-24",
-            "text": "Kenny Piper al bate",
+            "text": "Kenny Piper Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763600492
+            "ts": 1763600649
+          },
+          {
+            "reference_id": "17875-2-25",
+            "text": "Eddinson Paulino l  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763600658
           }
         ]
       }
@@ -681,7 +688,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -781,7 +788,7 @@
         "id": 1965,
         "date": "2025-11-19 19:30:00",
         "status": 2,
-        "roundText": "Alta 1ra",
+        "roundText": "Baja 1ra",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
