@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1963",
-    "scraped_at": "2025-11-20T02:27:10.276Z",
+    "scraped_at": "2025-11-20T02:28:14.951Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-19 19:00:00",
-    "roundText": "Baja 6ta",
-    "currentInningNum": 6,
-    "lastPlayByPlay": "Carlos Franco Ponche (K) ",
+    "roundText": "Alta 7ma",
+    "currentInningNum": 7,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -857,10 +857,24 @@
           },
           {
             "reference_id": "17878-2-51",
-            "text": "Geraldi Diaz al bate",
+            "text": "Geraldi Diaz Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1763605625
+            "ts": 1763605657
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "17879-1-52",
+            "text": "Vidal Brujan al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763605673
           }
         ]
       }
@@ -949,6 +963,13 @@
         "label": "Baja 6ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -990,14 +1011,14 @@
       {
         "num": 6,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 7,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
