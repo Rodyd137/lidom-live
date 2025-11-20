@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1964",
-    "scraped_at": "2025-11-20T00:55:55.927Z",
+    "scraped_at": "2025-11-20T00:56:59.715Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-19 19:15:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Mel Rojas Jr. Cuadrangular! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
-          "R": 2,
-          "H": 6,
+          "R": 3,
+          "H": 7,
           "E": 0,
           "H2": 2
         },
@@ -318,7 +318,7 @@
         },
         {
           "num": 6,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 2,
-          "H": 6,
+          "R": 3,
+          "H": 7,
           "E": 0
         },
         "home": {
@@ -374,19 +374,19 @@
           },
           {
             "num": 6,
-            "R": 2
+            "R": 3
           },
           {
             "num": 7,
-            "R": 2
+            "R": 3
           },
           {
             "num": 8,
-            "R": 2
+            "R": 3
           },
           {
             "num": 9,
-            "R": 2
+            "R": 3
           }
         ],
         "home": [
@@ -772,6 +772,27 @@
             "ts": 1763599881
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "17887-1-38",
+            "text": "Jose Hernandez  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763600205
+          },
+          {
+            "reference_id": "17887-1-39",
+            "text": "Mel Rojas Jr. Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763600215
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -844,6 +865,13 @@
         "label": "Baja 5ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 2,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -886,7 +914,7 @@
         "num": 6,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
