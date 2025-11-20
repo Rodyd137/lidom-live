@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1964",
-    "scraped_at": "2025-11-20T01:37:23.501Z",
+    "scraped_at": "2025-11-20T01:38:27.257Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-11-19 19:15:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Yamaico Navarro Base por Bolas ",
+    "lastPlayByPlay": "Socrates Brito Sencillo y 1 Carrera Impulsada ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 0,
-          "H": 1,
+          "R": 1,
+          "H": 2,
           "E": 1,
           "H2": 0
         },
@@ -324,7 +324,7 @@
         {
           "num": 7,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 8,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 0,
-          "H": 1,
+          "R": 1,
+          "H": 2,
           "E": 1
         }
       },
@@ -416,15 +416,15 @@
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ]
       }
@@ -906,10 +906,17 @@
           },
           {
             "reference_id": "17888-2-53",
-            "text": "Socrates Brito al bate",
+            "text": "Socrates Brito Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763602647
+          },
+          {
+            "reference_id": "17888-2-54",
+            "text": "Gio Urshela al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1763602424
+            "ts": 1763602651
           }
         ]
       }
@@ -1010,8 +1017,8 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1062,7 +1069,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 8,
