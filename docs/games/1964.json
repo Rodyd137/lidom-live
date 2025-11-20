@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1964",
-    "scraped_at": "2025-11-20T01:52:18.864Z",
+    "scraped_at": "2025-11-20T01:53:22.650Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-19 19:15:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Cal Stevenson  Sencillo ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 3,
-          "H": 7,
+          "H": 8,
           "E": 0,
           "H2": 2
         },
@@ -180,7 +180,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Anneurys Zabala",
           "era": "",
           "record": "",
           "debut": false
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 3,
-          "H": 7,
+          "H": 8,
           "E": 0
         },
         "home": {
@@ -933,6 +933,27 @@
             "ts": 1763603367
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "17889-1-57",
+            "text": "Cal Stevenson  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763603565
+          },
+          {
+            "reference_id": "17889-1-58",
+            "text": "Cristhian Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763603568
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1033,6 +1054,13 @@
         "label": "Baja 7ma",
         "total_plays": 7,
         "scoring_plays": 2
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1131,7 +1159,7 @@
         "id": 1965,
         "date": "2025-11-19 19:30:00",
         "status": 2,
-        "roundText": "Baja 3ra",
+        "roundText": "Alta 4ta",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
