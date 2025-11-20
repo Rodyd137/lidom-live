@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1965",
-    "scraped_at": "2025-11-20T01:38:27.302Z",
+    "scraped_at": "2025-11-20T01:39:31.124Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 3,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -147,6 +147,17 @@
             "team_id": 3,
             "name": "Webster Rivas",
             "abbreviation": "W. Rivas",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5326,
+            "team_id": 3,
+            "name": "Raynel Delgado",
+            "abbreviation": "R. Delgado",
             "number": null,
             "dob": null,
             "height": "",
@@ -536,6 +547,20 @@
             "ts": 1763602555
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "17893-1-16",
+            "text": "Raynel Delgado al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763602736
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -565,6 +590,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 2,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
