@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1965",
-    "scraped_at": "2025-11-20T01:45:55.073Z",
+    "scraped_at": "2025-11-20T01:46:59.126Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,7 +14,7 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -257,6 +257,17 @@
             "team_id": 6,
             "name": "Denzer Guzmán",
             "abbreviation": "D. Guzmán",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5374,
+            "team_id": 6,
+            "name": "Ronaldo Hernández",
+            "abbreviation": "R. Hernández",
             "number": null,
             "dob": null,
             "height": "",
@@ -582,6 +593,20 @@
             "ts": 1763603029
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "17893-2-19",
+            "text": "Ronaldo Hernández al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763603194
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -618,6 +643,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
