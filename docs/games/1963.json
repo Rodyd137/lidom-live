@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1963",
-    "scraped_at": "2025-11-20T01:41:39.060Z",
+    "scraped_at": "2025-11-20T01:42:42.876Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,8 +14,8 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -765,6 +765,20 @@
             "ts": 1763602741
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "17877-2-40",
+            "text": "Julio Carreras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763602958
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -829,6 +843,13 @@
         "half": "top",
         "label": "Alta 5ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
