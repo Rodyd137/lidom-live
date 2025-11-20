@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1964",
-    "scraped_at": "2025-11-20T02:26:05.490Z",
+    "scraped_at": "2025-11-20T02:27:10.321Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-19 19:15:00",
-    "roundText": "Baja 8va",
-    "currentInningNum": 8,
-    "lastPlayByPlay": "Franchy Cordero  Out: Rodado al Segunda Base - Primera Base",
+    "roundText": "Alta 9na",
+    "currentInningNum": 9,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 7
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": true,
-      "runners": 2,
-      "mask": 7
+      "on2B": false,
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 2,
-          "H": 4,
+          "R": 4,
+          "H": 5,
           "E": 1,
           "H2": 0
         },
@@ -329,7 +329,7 @@
         {
           "num": 8,
           "away": 1,
-          "home": 0
+          "home": 2
         },
         {
           "num": 9,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 2,
-          "H": 4,
+          "R": 4,
+          "H": 5,
           "E": 1
         }
       },
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 2
+            "R": 4
           },
           {
             "num": 9,
-            "R": 2
+            "R": 4
           }
         ]
       }
@@ -1018,10 +1018,17 @@
           },
           {
             "reference_id": "17889-2-66",
-            "text": "Yamaico Navarro al bate",
-            "scored": false,
+            "text": "Yamaico Navarro Sencillo y 2 Carreras Impulsadas ",
+            "scored": true,
             "is_primary": true,
-            "ts": 1763605281
+            "ts": 1763605599
+          },
+          {
+            "reference_id": "17889-2-65-260512",
+            "text": "Yamaico Navarro Out Robando Base! ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1763605616
           }
         ]
       }
@@ -1136,8 +1143,8 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 5,
-        "scoring_plays": 0
+        "total_plays": 6,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1193,14 +1200,14 @@
       {
         "num": 8,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 2
       },
       {
         "num": 9,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       }
