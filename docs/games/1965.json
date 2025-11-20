@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1965",
-    "scraped_at": "2025-11-20T03:00:42.845Z",
+    "scraped_at": "2025-11-20T03:01:47.509Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-11-19 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Bryan de la Cruz  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
@@ -884,6 +884,27 @@
             "ts": 1763607414
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "17897-2-51",
+            "text": "Bryan de la Cruz  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763607670
+          },
+          {
+            "reference_id": "17897-2-52",
+            "text": "Eloy Jimenez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763607673
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -976,6 +997,13 @@
         "half": "top",
         "label": "Alta 7ma",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
