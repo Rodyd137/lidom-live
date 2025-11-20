@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1963",
-    "scraped_at": "2025-11-20T00:36:44.244Z",
+    "scraped_at": "2025-11-20T00:37:47.505Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-19 19:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Angel Martinez  Base por Bolas ",
+    "lastPlayByPlay": "Angel Martinez  Robo de Base ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -521,10 +521,17 @@
           },
           {
             "reference_id": "17874-1-11",
+            "text": "Angel Martinez  Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763599052
+          },
+          {
+            "reference_id": "17874-1-12",
             "text": "Junior Perez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1763598901
+            "ts": 1763599054
           }
         ]
       }
@@ -548,7 +555,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
