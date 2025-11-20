@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1965",
-    "scraped_at": "2025-11-20T00:58:03.777Z",
+    "scraped_at": "2025-11-20T00:59:07.547Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-19 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ezequiel Duran Out: Elevado al Primera Base",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -70,6 +70,17 @@
             "team_id": 3,
             "name": "Leody Taveras",
             "abbreviation": "L. Taveras",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5454,
+            "team_id": 3,
+            "name": "Ezequiel Duran",
+            "abbreviation": "E. Duran",
             "number": null,
             "dob": null,
             "height": "",
@@ -249,10 +260,17 @@
         "plays": [
           {
             "reference_id": "17891-1-1",
-            "text": "Leody Taveras al bate",
+            "text": "Leody Taveras Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763600109
+            "ts": 1763600304
+          },
+          {
+            "reference_id": "17891-1-2",
+            "text": "Ezequiel Duran Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763600325
           }
         ]
       }
@@ -262,7 +280,7 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
