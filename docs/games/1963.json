@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1963",
-    "scraped_at": "2025-11-20T00:16:31.890Z",
+    "scraped_at": "2025-11-20T00:17:40.489Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -186,6 +186,17 @@
           "debut": false
         },
         "players": [
+          {
+            "id": 5541,
+            "team_id": 5,
+            "name": "Eddinson Paulino l ",
+            "abbreviation": "E. Paulino",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
           {
             "id": 5432,
             "team_id": 5,
@@ -453,6 +464,20 @@
             "ts": 1763597757
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "17873-2-5",
+            "text": "Eddinson Paulino l  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763597793
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -461,6 +486,13 @@
         "half": "top",
         "label": "Alta 1ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
