@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1964",
-    "scraped_at": "2025-11-20T02:00:48.836Z",
+    "scraped_at": "2025-11-20T02:01:52.864Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-19 19:15:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Ramón Hernández Out: Elevado al Segunda Base",
+    "lastPlayByPlay": "Mel Rojas Jr. Triple! 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 3
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
-          "R": 3,
-          "H": 8,
+          "R": 4,
+          "H": 9,
           "E": 0,
           "H2": 2
         },
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 3,
-          "H": 8,
+          "R": 4,
+          "H": 9,
           "E": 0
         },
         "home": {
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 3
+            "R": 4
           },
           {
             "num": 9,
-            "R": 3
+            "R": 4
           }
         ],
         "home": [
@@ -961,11 +961,25 @@
             "ts": 1763603794
           },
           {
+            "reference_id": "17889-1-59-260472",
+            "text": "Cal Stevenson  Robo de Base ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1763604051
+          },
+          {
             "reference_id": "17889-1-60",
-            "text": "Mel Rojas Jr. al bate",
+            "text": "Mel Rojas Jr. Triple! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763604103
+          },
+          {
+            "reference_id": "17889-1-61",
+            "text": "Luis Campusano al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1763603800
+            "ts": 1763604107
           }
         ]
       }
@@ -1073,8 +1087,8 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 6,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1131,7 +1145,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
