@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1964",
-    "scraped_at": "2025-11-20T00:31:26.844Z",
+    "scraped_at": "2025-11-20T00:32:30.478Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-19 19:15:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Sergio Alcantara Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 2,
-          "H": 4,
+          "H": 5,
           "E": 0,
           "H2": 2
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 2,
-          "H": 4,
+          "H": 5,
           "E": 0
         },
         "home": {
@@ -695,6 +695,27 @@
             "ts": 1763598536
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "17886-1-29",
+            "text": "Sergio Alcantara Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763598721
+          },
+          {
+            "reference_id": "17886-1-30",
+            "text": "Michael De La Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763598725
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -752,6 +773,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -825,7 +853,7 @@
         "id": 1963,
         "date": "2025-11-19 19:00:00",
         "status": 2,
-        "roundText": "Baja 1ra",
+        "roundText": "Alta 2da",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
