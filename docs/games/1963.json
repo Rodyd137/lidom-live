@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1963",
-    "scraped_at": "2025-11-20T01:26:45.722Z",
+    "scraped_at": "2025-11-20T01:27:49.475Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-19 19:00:00",
-    "roundText": "Alta 4ta",
+    "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Vidal Brujan Out Robando Base! Receptor - Campo Corto",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 2
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Oddy Nuñez ",
+          "pitcher": "Eddy Yean",
           "era": "",
           "record": "",
           "debut": false
@@ -702,6 +702,20 @@
             "ts": 1763601862
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "17876-2-33",
+            "text": "Geraldi Diaz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763602035
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -753,6 +767,13 @@
         "label": "Alta 4ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -779,7 +800,7 @@
       },
       {
         "num": 4,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
