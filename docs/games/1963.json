@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1963",
-    "scraped_at": "2025-11-20T01:01:14.825Z",
+    "scraped_at": "2025-11-20T01:02:18.536Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-19 19:00:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Robinson Canó   Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -625,6 +625,20 @@
             "ts": 1763600423
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "17875-2-24",
+            "text": "Kenny Piper al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763600492
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -662,6 +676,13 @@
         "label": "Alta 3ra",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -681,7 +702,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
