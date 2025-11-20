@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1964",
-    "scraped_at": "2025-11-20T02:43:22.876Z",
+    "scraped_at": "2025-11-20T02:44:28.033Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-19 19:15:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Socrates Brito  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -1059,6 +1059,27 @@
             "ts": 1763606390
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "17890-2-70",
+            "text": "Socrates Brito  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763606622
+          },
+          {
+            "reference_id": "17890-2-71",
+            "text": "Gio Urshela al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763606625
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1179,6 +1200,13 @@
         "half": "top",
         "label": "Alta 9na",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
