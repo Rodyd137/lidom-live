@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1965",
-    "scraped_at": "2025-11-20T01:23:34.772Z",
+    "scraped_at": "2025-11-20T01:24:38.628Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-19 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Jonatan Clase Doble! 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Adael Amador Out: Elevado al Segunda Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -125,6 +125,28 @@
             "team_id": 3,
             "name": "Jonatan Clase",
             "abbreviation": "J. Clase",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5325,
+            "team_id": 3,
+            "name": "Adael Amador",
+            "abbreviation": "A. Amador",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5321,
+            "team_id": 3,
+            "name": "Webster Rivas",
+            "abbreviation": "W. Rivas",
             "number": null,
             "dob": null,
             "height": "",
@@ -459,6 +481,20 @@
             "scored": true,
             "is_primary": true,
             "ts": 1763601785
+          },
+          {
+            "reference_id": "17892-1-12",
+            "text": "Adael Amador Out: Elevado al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763601852
+          },
+          {
+            "reference_id": "17892-1-13",
+            "text": "Webster Rivas al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763601873
           }
         ]
       }
@@ -482,7 +518,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 2,
+        "total_plays": 4,
         "scoring_plays": 1
       }
     ],
