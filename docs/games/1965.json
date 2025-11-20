@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1965",
-    "scraped_at": "2025-11-20T01:31:00.749Z",
+    "scraped_at": "2025-11-20T01:32:04.466Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-19 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Manuel Peña  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -504,6 +504,20 @@
             "ts": 1763602096
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "17892-2-14",
+            "text": "Manuel Peña  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763602304
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -527,6 +541,13 @@
         "label": "Alta 2da",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -599,7 +620,7 @@
         "id": 1963,
         "date": "2025-11-19 19:00:00",
         "status": 2,
-        "roundText": "Baja 4ta",
+        "roundText": "Alta 5ta",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
