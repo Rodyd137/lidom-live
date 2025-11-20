@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1963",
-    "scraped_at": "2025-11-20T01:33:08.388Z",
+    "scraped_at": "2025-11-20T01:34:12.199Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-19 19:00:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jose Tena  Out: Elevado al Tercera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 2,
-          "H": 4,
+          "H": 5,
           "E": 1,
           "H2": 2
         },
@@ -180,7 +180,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Jake Faria ",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 2,
-          "H": 4,
+          "H": 5,
           "E": 1
         },
         "home": {
@@ -738,10 +738,17 @@
         "plays": [
           {
             "reference_id": "17877-1-36",
-            "text": "Jose Tena  al bate",
+            "text": "Jose Tena  Out: Elevado al Tercera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1763602347
+            "ts": 1763602401
+          },
+          {
+            "reference_id": "17877-1-37",
+            "text": "Rodolfo Durán al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763602404
           }
         ]
       }
@@ -807,7 +814,7 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
