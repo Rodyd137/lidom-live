@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1963",
-    "scraped_at": "2025-11-20T03:15:47.134Z",
+    "scraped_at": "2025-11-20T03:30:06.767Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-19 19:00:00",
-    "roundText": "Baja 8va",
-    "currentInningNum": 8,
-    "lastPlayByPlay": "Deyvinson de los Santos Golpeado y Carrera Impulsada ",
+    "roundText": "Alta 9na",
+    "currentInningNum": 9,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 8
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
-      "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "on1B": false,
+      "on2B": false,
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Roman Mendez",
+          "pitcher": "Gerónimo Franzuá",
           "era": "",
           "record": "",
           "debut": false
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 2,
-          "H": 3,
+          "R": 5,
+          "H": 4,
           "E": 0,
           "H2": 1
         },
@@ -231,21 +231,10 @@
             "position": ""
           },
           {
-            "id": 5391,
+            "id": 5243,
             "team_id": 5,
-            "name": "Geraldi Diaz",
-            "abbreviation": "G. Diaz",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 5245,
-            "team_id": 5,
-            "name": "Pablo Reyes",
-            "abbreviation": "P. Reyes",
+            "name": "Hanser Alberto",
+            "abbreviation": "H. Alberto",
             "number": null,
             "dob": null,
             "height": "",
@@ -329,7 +318,7 @@
         {
           "num": 8,
           "away": 0,
-          "home": 1
+          "home": 4
         },
         {
           "num": 9,
@@ -345,8 +334,8 @@
           "E": 1
         },
         "home": {
-          "R": 2,
-          "H": 3,
+          "R": 5,
+          "H": 4,
           "E": 0
         }
       },
@@ -420,11 +409,11 @@
           },
           {
             "num": 8,
-            "R": 2
+            "R": 5
           },
           {
             "num": 9,
-            "R": 2
+            "R": 5
           }
         ]
       }
@@ -1004,10 +993,52 @@
           },
           {
             "reference_id": "17880-2-68",
-            "text": "Carlos Franco al bate",
+            "text": "Carlos Franco Base por Bolas y Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763608656
+          },
+          {
+            "reference_id": "17880-2-69",
+            "text": "Geraldi Diaz  Out: Rodado al Campo Corto -- Primera Base - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763608748
+          },
+          {
+            "reference_id": "17880-2-71",
+            "text": "Hanser Alberto Toque de Sacrificio Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763609153
+          },
+          {
+            "reference_id": "17880-2-72",
+            "text": "Diego Hernández Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763608375
+            "ts": 1763609255
+          },
+          {
+            "reference_id": "17880-2-73",
+            "text": "Julio Carreras Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763609376
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "17881-1-74",
+            "text": "Junior Perez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763609402
           }
         ]
       }
@@ -1122,8 +1153,15 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 5,
-        "scoring_plays": 1
+        "total_plays": 9,
+        "scoring_plays": 4
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1179,14 +1217,14 @@
       {
         "num": 8,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 1
+        "homeTeamRuns": 4
       },
       {
         "num": 9,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       }
@@ -1222,7 +1260,7 @@
         "id": 1965,
         "date": "2025-11-19 19:30:00",
         "status": 2,
-        "roundText": "Alta 8va",
+        "roundText": "Baja 8va",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",

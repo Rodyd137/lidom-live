@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1965",
-    "scraped_at": "2025-11-20T03:15:47.181Z",
+    "scraped_at": "2025-11-20T03:30:06.812Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-19 19:30:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Alberto Rodriguez Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Ronaldo Hernández Ponche (K) ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 2
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 2
+      "battingTeam": "homeTeam",
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -955,10 +955,52 @@
           },
           {
             "reference_id": "17898-1-58",
-            "text": "Jonatan Clase al bate",
+            "text": "Jonatan Clase Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763608496
+            "ts": 1763608596
+          },
+          {
+            "reference_id": "17898-1-59",
+            "text": "Adael Amador Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763608802
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "17898-2-62",
+            "text": "Denzer Guzmán  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763609157
+          },
+          {
+            "reference_id": "17898-2-63",
+            "text": "Rafael Lantigua  Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763609172
+          },
+          {
+            "reference_id": "17898-2-64",
+            "text": "Ronaldo Hernández Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763609322
+          },
+          {
+            "reference_id": "17898-2-65",
+            "text": "Gilberto Celestino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763609326
           }
         ]
       }
@@ -1066,8 +1108,15 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 6,
+        "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 4,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1122,7 +1171,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
@@ -1140,7 +1189,7 @@
         "id": 1963,
         "date": "2025-11-19 19:00:00",
         "status": 2,
-        "roundText": "Baja 8va",
+        "roundText": "Alta 9na",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -1156,8 +1205,8 @@
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 2,
-          "hits": 3,
+          "runs": 5,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }

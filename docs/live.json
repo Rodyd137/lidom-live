@@ -2,7 +2,7 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2025-11-20T03:15:47.182Z",
+    "scraped_at": "2025-11-20T03:30:06.812Z",
     "tz": "America/Santo_Domingo"
   },
   "tracked_ids": [
@@ -13,23 +13,23 @@
     {
       "id": 1963,
       "status": 2,
-      "roundText": "Baja 8va",
-      "currentInningNum": 8,
+      "roundText": "Alta 9na",
+      "currentInningNum": 9,
       "atBat": null,
-      "lastPlayByPlay": "Deyvinson de los Santos Golpeado y Carrera Impulsada ",
+      "lastPlayByPlay": null,
       "counts": {
-        "balls": 1,
+        "balls": 0,
         "strikes": 0,
         "outs": 0
       },
       "base": {
-        "on1B": true,
-        "on2B": true,
-        "on3B": true,
-        "runners": 3,
-        "mask": 8
+        "on1B": false,
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
       },
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "score": {
         "away": {
           "name": "Estrellas",
@@ -41,34 +41,34 @@
         "home": {
           "name": "Gigantes",
           "abbr": "GC",
-          "R": 2,
-          "H": 3,
+          "R": 5,
+          "H": 4,
           "E": 0
         }
       },
-      "threat": 100,
-      "updated_at": "2025-11-20T03:15:47.182Z"
+      "threat": 22,
+      "updated_at": "2025-11-20T03:30:06.812Z"
     },
     {
       "id": 1965,
       "status": 2,
-      "roundText": "Alta 8va",
+      "roundText": "Baja 8va",
       "currentInningNum": 8,
       "atBat": null,
-      "lastPlayByPlay": "Alberto Rodriguez Sencillo y 1 Carrera Impulsada ",
+      "lastPlayByPlay": "Ronaldo Hernández Ponche (K) ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 2,
+        "strikes": 1,
         "outs": 2
       },
       "base": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "score": {
         "away": {
           "name": "Aguilas",
@@ -85,8 +85,8 @@
           "E": 1
         }
       },
-      "threat": 11,
-      "updated_at": "2025-11-20T03:15:47.182Z"
+      "threat": 16,
+      "updated_at": "2025-11-20T03:30:06.812Z"
     }
   ]
 }
