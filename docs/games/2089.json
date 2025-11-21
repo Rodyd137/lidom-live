@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2089",
-    "scraped_at": "2025-11-21T21:12:26.232Z",
+    "scraped_at": "2025-11-21T21:13:29.292Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-21 16:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Ramón Hernández Robo de Base Wild Pitch",
+    "lastPlayByPlay": "Mel Rojas Jr. Elevado de Sacrificio Carrera Empujada",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 4
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
-          "R": 4,
+          "R": 5,
           "H": 4,
           "E": 1,
-          "H2": 4
+          "H2": 5
         },
         "probables": {
           "pitcher": "Migue Díaz",
@@ -303,7 +303,7 @@
         },
         {
           "num": 3,
-          "away": 3,
+          "away": 4,
           "home": 0
         },
         {
@@ -340,7 +340,7 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 4,
+          "R": 5,
           "H": 4,
           "E": 1
         },
@@ -362,31 +362,31 @@
           },
           {
             "num": 3,
-            "R": 4
+            "R": 5
           },
           {
             "num": 4,
-            "R": 4
+            "R": 5
           },
           {
             "num": 5,
-            "R": 4
+            "R": 5
           },
           {
             "num": 6,
-            "R": 4
+            "R": 5
           },
           {
             "num": 7,
-            "R": 4
+            "R": 5
           },
           {
             "num": 8,
-            "R": 4
+            "R": 5
           },
           {
             "num": 9,
-            "R": 4
+            "R": 5
           }
         ],
         "home": [
@@ -668,10 +668,17 @@
           },
           {
             "reference_id": "19011-1-30",
-            "text": "Mel Rojas Jr. al bate",
+            "text": "Mel Rojas Jr. Elevado de Sacrificio Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763759552
+          },
+          {
+            "reference_id": "19011-1-31",
+            "text": "Luis Campusano al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1763759504
+            "ts": 1763759559
           }
         ]
       }
@@ -709,8 +716,8 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 8,
-        "scoring_plays": 2
+        "total_plays": 9,
+        "scoring_plays": 3
       }
     ],
     "innings_raw": [
@@ -732,7 +739,7 @@
         "num": 3,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 3,
+        "awayTeamRuns": 4,
         "homeTeamRuns": 0
       },
       {
