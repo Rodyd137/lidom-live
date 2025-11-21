@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1966",
-    "scraped_at": "2025-11-21T23:35:32.128Z",
+    "scraped_at": "2025-11-21T23:36:37.065Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-21 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Leury García Doble! ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -64,7 +64,19 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5433,
+            "team_id": 5,
+            "name": "Leury García",
+            "abbreviation": "L. Garcia",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       },
       "home": {
         "id": 4,
@@ -80,7 +92,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Henry Sosa",
           "era": "",
           "record": "",
           "debut": false
@@ -229,8 +241,31 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "17900-1-1",
+            "text": "Leury García Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763768153
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
