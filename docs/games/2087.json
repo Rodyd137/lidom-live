@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2087",
-    "scraped_at": "2025-11-21T20:31:54.966Z",
+    "scraped_at": "2025-11-21T20:32:58.975Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-21 16:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": " Jorge Mateo Out: Elevado al Campo Corto",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -541,6 +541,27 @@
             "ts": 1763756940
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "18992-2-13",
+            "text": " Jorge Mateo Out: Elevado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763757143
+          },
+          {
+            "reference_id": "18992-2-14",
+            "text": "Franchy Cordero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763757148
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -563,6 +584,13 @@
         "half": "top",
         "label": "Alta 2da",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -740,7 +768,7 @@
         "id": 2089,
         "date": "2025-11-21 16:00:00",
         "status": 2,
-        "roundText": "Baja 1ra",
+        "roundText": "Alta 2da",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
