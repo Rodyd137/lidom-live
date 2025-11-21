@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1966",
-    "scraped_at": "2025-11-21T23:39:52.380Z",
+    "scraped_at": "2025-11-21T23:40:39.054Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 1,
     "date": "2025-11-21 19:30:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Marco Hernández Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -92,6 +92,17 @@
             "team_id": 5,
             "name": "Marco Hernández",
             "abbreviation": "M. Hernández",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5550,
+            "team_id": 5,
+            "name": "Jordan Díaz",
+            "abbreviation": "J. Díaz",
             "number": null,
             "dob": null,
             "height": "",
@@ -344,6 +355,20 @@
             "scored": false,
             "is_primary": true,
             "ts": 1763768259
+          },
+          {
+            "reference_id": "17900-1-4",
+            "text": "Jordan Díaz Cuadrangular! 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763768404
+          },
+          {
+            "reference_id": "17900-1-5",
+            "text": "Nomar Mazara Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763768411
           }
         ]
       }
@@ -353,14 +378,14 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 2,
         "homeTeamRuns": 0
