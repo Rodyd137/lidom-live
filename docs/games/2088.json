@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2088",
-    "scraped_at": "2025-11-21T23:16:17.458Z",
+    "scraped_at": "2025-11-21T23:17:21.183Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-21 16:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Raimel Tapia Sencillo ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 7,
-          "H": 10,
+          "H": 11,
           "E": 2,
           "H2": 5
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 7,
-          "H": 10,
+          "H": 11,
           "E": 2
         },
         "home": {
@@ -1066,6 +1066,27 @@
             "ts": 1763766770
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "19008-1-75",
+            "text": "Raimel Tapia Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763767030
+          },
+          {
+            "reference_id": "19008-1-76",
+            "text": "Josh Lester al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763767037
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1179,6 +1200,13 @@
         "half": "bottom",
         "label": "Baja 8va",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
