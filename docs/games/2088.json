@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2088",
-    "scraped_at": "2025-11-21T20:45:22.330Z",
+    "scraped_at": "2025-11-21T20:46:25.387Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-21 16:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jose Augusto Rodriguez Sencillo ",
     "counts": {
       "balls": 1,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -257,6 +257,17 @@
             "team_id": 3,
             "name": "Jose Augusto Rodriguez",
             "abbreviation": "J. A. Rodriguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5540,
+            "team_id": 3,
+            "name": "Antony Garcia",
+            "abbreviation": "A. Garcia",
             "number": null,
             "dob": null,
             "height": "",
@@ -562,10 +573,17 @@
         "plays": [
           {
             "reference_id": "19001-2-18",
-            "text": "Jose Augusto Rodriguez al bate",
+            "text": "Jose Augusto Rodriguez Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763757907
+            "ts": 1763757956
+          },
+          {
+            "reference_id": "19001-2-19",
+            "text": "Antony Garcia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763757964
           }
         ]
       }
@@ -596,7 +614,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
