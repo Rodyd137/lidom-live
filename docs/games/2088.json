@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2088",
-    "scraped_at": "2025-11-21T19:55:34.193Z",
+    "scraped_at": "2025-11-21T20:19:05.045Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2088,
     "season_id": 20,
-    "status": 1,
+    "status": 2,
     "date": "2025-11-21 16:00:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Steward Berroa Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 1
+      "battingTeam": "homeTeam",
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -64,7 +64,52 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5359,
+            "team_id": 7,
+            "name": "Raimel Tapia",
+            "abbreviation": "R. Tapia",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5355,
+            "team_id": 7,
+            "name": "Josh Lester",
+            "abbreviation": "J. Lester",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5526,
+            "team_id": 7,
+            "name": "Angel Martinez ",
+            "abbreviation": "A. Martinez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5349,
+            "team_id": 7,
+            "name": "Wilin Rosario",
+            "abbreviation": "W. Rosario",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       },
       "home": {
         "id": 3,
@@ -85,7 +130,41 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5332,
+            "team_id": 3,
+            "name": "Steward Berroa",
+            "abbreviation": "S. Berroa",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5454,
+            "team_id": 3,
+            "name": "Ezequiel Duran",
+            "abbreviation": "E. Duran",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5434,
+            "team_id": 3,
+            "name": "JC Escarra",
+            "abbreviation": "JC Escarra",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       }
     },
     "comment": "",
@@ -141,7 +220,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -229,12 +308,91 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "19000-1-1",
+            "text": "Raimel Tapia Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763755696
+          },
+          {
+            "reference_id": "19000-1-2",
+            "text": "Josh Lester  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763755832
+          },
+          {
+            "reference_id": "19000-1-3",
+            "text": "Angel Martinez  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763755989
+          },
+          {
+            "reference_id": "19000-1-4",
+            "text": "Wilin Rosario  Out: Rodado al Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763756076
+          }
+        ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "19000-2-5",
+            "text": "Steward Berroa Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763756259
+          },
+          {
+            "reference_id": "19000-2-6",
+            "text": "Ezequiel Duran al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763756263
+          },
+          {
+            "reference_id": "19000-2-7",
+            "text": "JC Escarra al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763756282
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -378,15 +536,15 @@
       {
         "id": 2087,
         "date": "2025-11-21 16:00:00",
-        "status": 1,
-        "roundText": "Alta 1ra",
+        "status": 2,
+        "roundText": "Baja 1ra",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 0,
-          "hits": 0,
+          "runs": 1,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         },
@@ -404,15 +562,15 @@
       {
         "id": 2089,
         "date": "2025-11-21 16:00:00",
-        "status": 3,
-        "roundText": "Alta 1ra",
+        "status": 2,
+        "roundText": "Baja 1ra",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 0,
-          "hits": 0,
+          "runs": 1,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         },
@@ -422,8 +580,8 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 0,
-          "hits": 0,
-          "errors": 0,
+          "hits": 1,
+          "errors": 1,
           "permalink": "/equipo/toros-del-este"
         }
       }
