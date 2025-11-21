@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2088",
-    "scraped_at": "2025-11-21T20:24:25.922Z",
+    "scraped_at": "2025-11-21T20:25:30.166Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-21 16:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "JC Escarra Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Aderlin Rodríguez Out: Elevado al Primera Base",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -169,6 +169,17 @@
             "team_id": 3,
             "name": "Aderlin Rodríguez",
             "abbreviation": "A. Rodríguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5485,
+            "team_id": 3,
+            "name": "Jonatan Clase",
+            "abbreviation": "J. Clase",
             "number": null,
             "dob": null,
             "height": "",
@@ -390,10 +401,17 @@
           },
           {
             "reference_id": "19000-2-8",
-            "text": "Aderlin Rodríguez al bate",
+            "text": "Aderlin Rodríguez Out: Elevado al Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1763756641
+            "ts": 1763756673
+          },
+          {
+            "reference_id": "19000-2-9",
+            "text": "Jonatan Clase al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763756697
           }
         ]
       }
@@ -410,7 +428,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 1
       }
     ],
@@ -604,8 +622,8 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 0,
-          "hits": 2,
+          "runs": 1,
+          "hits": 3,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
         }
