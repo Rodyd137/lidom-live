@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2088",
-    "scraped_at": "2025-11-21T20:52:58.906Z",
+    "scraped_at": "2025-11-21T20:54:03.912Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-11-21 16:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Antony Seigler  Out: Rodado al Segunda Base - Campo Corto",
+    "lastPlayByPlay": "Steward Berroa Elevado de Sacrificio Carrera Empujada",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 2
     },
     "base_state": {
@@ -605,10 +605,17 @@
           },
           {
             "reference_id": "19001-2-21",
-            "text": "Steward Berroa al bate",
+            "text": "Steward Berroa Elevado de Sacrificio Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763758382
+          },
+          {
+            "reference_id": "19001-2-22",
+            "text": "Ezequiel Duran al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1763758262
+            "ts": 1763758406
           }
         ]
       }
@@ -639,8 +646,8 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -807,7 +814,7 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 0,
+          "runs": 1,
           "hits": 2,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
