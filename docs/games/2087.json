@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2087",
-    "scraped_at": "2025-11-21T21:04:00.732Z",
+    "scraped_at": "2025-11-21T21:05:04.148Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-21 16:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Kelvin Gutiérrez Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 1,
-          "H": 1,
+          "H": 2,
           "E": 0,
           "H2": 1
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 1,
-          "H": 1,
+          "H": 2,
           "E": 0
         },
         "home": {
@@ -639,6 +639,41 @@
             "ts": 1763758541
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "18994-1-24",
+            "text": "Deyvinson de los Santos Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763759053
+          },
+          {
+            "reference_id": "18994-1-25",
+            "text": "Nomar Mazara Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763759061
+          },
+          {
+            "reference_id": "18994-1-26",
+            "text": "Kelvin Gutiérrez Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763759082
+          },
+          {
+            "reference_id": "18994-1-27",
+            "text": "Diego Hernández al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763759086
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -683,6 +718,13 @@
         "label": "Baja 3ra",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 4,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -839,8 +881,8 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 3,
-          "hits": 3,
+          "runs": 5,
+          "hits": 4,
           "errors": 2,
           "permalink": "/equipo/estrellas-orientales"
         },
