@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1966",
-    "scraped_at": "2025-11-21T23:40:39.054Z",
+    "scraped_at": "2025-11-21T23:49:16.921Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-21 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Junior Lake Doble Play! Campo Corto - Segunda Base - Primera Base",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -175,7 +175,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -185,7 +185,107 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5307,
+            "team_id": 4,
+            "name": "Socrates Brito",
+            "abbreviation": "S. Brito",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5304,
+            "team_id": 4,
+            "name": "Junior Lake",
+            "abbreviation": "J. Lake",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5477,
+            "team_id": 4,
+            "name": " Jorge Mateo",
+            "abbreviation": "J. Mateo",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5305,
+            "team_id": 4,
+            "name": "Franchy Cordero",
+            "abbreviation": "F. Cordero",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5297,
+            "team_id": 4,
+            "name": "Yamaico Navarro",
+            "abbreviation": "Y. Navarro",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5478,
+            "team_id": 4,
+            "name": "Gio Urshela",
+            "abbreviation": "G. Urshela",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5497,
+            "team_id": 4,
+            "name": "José Marmolejos",
+            "abbreviation": "J. Marmolejos",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5298,
+            "team_id": 4,
+            "name": "Jonathan Guzman",
+            "abbreviation": "J. Guzman",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5294,
+            "team_id": 4,
+            "name": "Pedro Severino",
+            "abbreviation": "P. Severino",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       }
     },
     "comment": "",
@@ -246,7 +346,7 @@
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         }
       },
@@ -371,6 +471,34 @@
             "ts": 1763768411
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "17900-2-6",
+            "text": "Socrates Brito Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763768638
+          },
+          {
+            "reference_id": "17900-2-7",
+            "text": "Junior Lake Doble Play! Campo Corto - Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763768890
+          },
+          {
+            "reference_id": "17900-2-8",
+            "text": " Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763768894
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -380,6 +508,13 @@
         "label": "Alta 1ra",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -556,7 +691,7 @@
         "id": 2089,
         "date": "2025-11-21 16:00:00",
         "status": 2,
-        "roundText": "Baja 9na",
+        "roundText": "Alta 10ma",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -572,8 +707,8 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 5,
-          "hits": 8,
+          "runs": 6,
+          "hits": 9,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
         }
