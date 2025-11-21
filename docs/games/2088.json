@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2088",
-    "scraped_at": "2025-11-21T20:49:44.977Z",
+    "scraped_at": "2025-11-21T20:50:49.354Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-21 16:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Antony Garcia Base por Bolas ",
+    "lastPlayByPlay": "Antony Seigler  Out: Rodado al Segunda Base - Campo Corto",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 6
     },
     "base_runners": {
       "on1B": true,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 2,
-      "mask": 5
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -268,6 +268,17 @@
             "team_id": 3,
             "name": "Antony Garcia",
             "abbreviation": "A. Garcia",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5546,
+            "team_id": 3,
+            "name": "Antony Seigler",
+            "abbreviation": "A. Seigler",
             "number": null,
             "dob": null,
             "height": "",
@@ -584,6 +595,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1763758118
+          },
+          {
+            "reference_id": "19001-2-20",
+            "text": "Antony Seigler  Out: Rodado al Segunda Base - Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763758242
           }
         ]
       }
@@ -614,7 +632,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
