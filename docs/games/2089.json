@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2089",
-    "scraped_at": "2025-11-21T23:33:23.273Z",
+    "scraped_at": "2025-11-21T23:34:28.235Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-21 16:00:00",
-    "roundText": "Alta 9na",
+    "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Gustavo Nuñez Out: Elevado al Lanzador",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -1039,10 +1039,24 @@
           },
           {
             "reference_id": "19017-1-73",
-            "text": "Cal Stevenson  al bate",
+            "text": "Cal Stevenson   Out: Rodado al Campo Corto - Primera Base - Doble Play!",
             "scored": false,
             "is_primary": true,
-            "ts": 1763767831
+            "ts": 1763768008
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "19017-2-74",
+            "text": "Jard Oliva al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763768018
           }
         ]
       }
@@ -1152,6 +1166,13 @@
         "label": "Alta 9na",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1213,7 +1234,7 @@
       },
       {
         "num": 9,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
