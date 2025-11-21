@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2087",
-    "scraped_at": "2025-11-21T22:00:12.722Z",
+    "scraped_at": "2025-11-21T22:01:17.564Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-21 16:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Nomar Mazara  Out: Rodado al Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -863,6 +863,27 @@
             "ts": 1763762253
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "18997-1-49",
+            "text": "Nomar Mazara  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763762442
+          },
+          {
+            "reference_id": "18997-1-50",
+            "text": "Kelvin Gutiérrez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763762447
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -949,6 +970,13 @@
         "label": "Baja 6ta",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
