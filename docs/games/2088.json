@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2088",
-    "scraped_at": "2025-11-21T20:44:19.250Z",
+    "scraped_at": "2025-11-21T20:45:22.330Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -246,6 +246,17 @@
             "team_id": 3,
             "name": "Angel Genao",
             "abbreviation": "A. Genao",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5331,
+            "team_id": 3,
+            "name": "Jose Augusto Rodriguez",
+            "abbreviation": "J. A. Rodriguez",
             "number": null,
             "dob": null,
             "height": "",
@@ -543,6 +554,20 @@
             "ts": 1763757733
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "19001-2-18",
+            "text": "Jose Augusto Rodriguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763757907
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -566,6 +591,13 @@
         "label": "Alta 2da",
         "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -759,7 +791,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 3,
-          "hits": 4,
+          "hits": 5,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
         }
