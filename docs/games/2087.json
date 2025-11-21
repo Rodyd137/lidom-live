@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2087",
-    "scraped_at": "2025-11-21T22:32:06.497Z",
+    "scraped_at": "2025-11-21T22:32:46.798Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-21 16:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Hector Rodríguez Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": " Jorge Mateo Base por Bolas ",
     "counts": {
-      "balls": 3,
+      "balls": 0,
       "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Hansel Robles",
+          "pitcher": "Cristopher Molina",
           "era": "",
           "record": "",
           "debut": false
@@ -969,10 +969,17 @@
           },
           {
             "reference_id": "18998-2-60",
-            "text": " Jorge Mateo al bate",
+            "text": " Jorge Mateo Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763764249
+            "ts": 1763764334
+          },
+          {
+            "reference_id": "18998-2-61",
+            "text": "Franchy Cordero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763764338
           }
         ]
       }
@@ -1087,7 +1094,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -1256,7 +1263,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 6,
-          "hits": 5,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }
