@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2089",
-    "scraped_at": "2025-11-21T20:28:42.696Z",
+    "scraped_at": "2025-11-21T20:29:46.867Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-21 16:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Manuel Peña Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Guztavo Campero Out: Línea al Campo Corto",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -55,7 +55,7 @@
         "totals": {
           "R": 1,
           "H": 1,
-          "E": 0,
+          "E": 1,
           "H2": 1
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 1,
           "H": 1,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 2,
@@ -514,10 +514,24 @@
           },
           {
             "reference_id": "19009-2-11",
-            "text": "Bryan de la Cruz al bate",
+            "text": "Bryan de la Cruz Sencillo y 1 Carrera Impulsada se embasa por Error del - Campo Corto",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763756943
+          },
+          {
+            "reference_id": "19009-2-12",
+            "text": "Guztavo Campero Out: Línea al Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1763756710
+            "ts": 1763756957
+          },
+          {
+            "reference_id": "19009-2-13",
+            "text": "Yairo Munoz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763756961
           }
         ]
       }
@@ -534,8 +548,8 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 6,
-        "scoring_plays": 1
+        "total_plays": 8,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -686,7 +700,7 @@
         "id": 2087,
         "date": "2025-11-21 16:00:00",
         "status": 2,
-        "roundText": "Alta 2da",
+        "roundText": "Baja 2da",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -729,7 +743,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 2,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }
