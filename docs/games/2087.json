@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2087",
-    "scraped_at": "2025-11-21T20:27:38.536Z",
+    "scraped_at": "2025-11-21T20:28:42.638Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-21 16:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Diego Hernández Ponche",
+    "lastPlayByPlay": "Geraldi Díaz Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 1,
+      "strikes": 1,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -528,10 +528,17 @@
           },
           {
             "reference_id": "18992-1-11",
-            "text": "Geraldi Díaz al bate",
+            "text": "Geraldi Díaz Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763756699
+            "ts": 1763756875
+          },
+          {
+            "reference_id": "18992-1-12",
+            "text": "Jose Torres  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763756883
           }
         ]
       }
@@ -555,7 +562,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -749,7 +756,7 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 1,
+          "runs": 2,
           "hits": 3,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
