@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2089",
-    "scraped_at": "2025-11-21T20:21:13.732Z",
+    "scraped_at": "2025-11-21T20:22:17.929Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-21 16:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Gilberto Celestino Sencillo Jardinero Central",
+    "lastPlayByPlay": "Gilberto Celestino Robo de Base ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 2,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -486,10 +486,17 @@
           },
           {
             "reference_id": "19009-2-7",
+            "text": "Gilberto Celestino Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763756485
+          },
+          {
+            "reference_id": "19009-2-8",
             "text": "Jard Oliva al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1763756335
+            "ts": 1763756488
           }
         ]
       }
@@ -506,7 +513,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
