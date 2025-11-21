@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2087",
-    "scraped_at": "2025-11-21T22:29:58.121Z",
+    "scraped_at": "2025-11-21T22:31:02.493Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-21 16:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Hector Rodríguez Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -954,6 +954,27 @@
             "ts": 1763764016
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "18998-2-59",
+            "text": "Hector Rodríguez Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763764246
+          },
+          {
+            "reference_id": "18998-2-60",
+            "text": " Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763764249
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1060,6 +1081,13 @@
         "half": "top",
         "label": "Alta 8va",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
