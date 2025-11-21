@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2088",
-    "scraped_at": "2025-11-21T20:29:46.828Z",
+    "scraped_at": "2025-11-21T20:30:50.890Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 3,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -103,6 +103,17 @@
             "team_id": 7,
             "name": "Wilin Rosario",
             "abbreviation": "W. Rosario",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5350,
+            "team_id": 7,
+            "name": "Rodolfo Durán",
+            "abbreviation": "R. Durán",
             "number": null,
             "dob": null,
             "height": "",
@@ -432,6 +443,20 @@
             "ts": 1763756835
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19001-1-11",
+            "text": "Rodolfo Durán al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763757010
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -448,6 +473,13 @@
         "label": "Baja 1ra",
         "total_plays": 7,
         "scoring_plays": 2
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -640,8 +672,8 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 2,
-          "hits": 3,
+          "runs": 3,
+          "hits": 4,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
         }
