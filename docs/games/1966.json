@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1966",
-    "scraped_at": "2025-11-22T00:21:51.609Z",
+    "scraped_at": "2025-11-22T00:22:54.048Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-21 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jordan Díaz Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -590,6 +590,27 @@
             "ts": 1763770740
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "17902-1-20",
+            "text": "Jordan Díaz Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763770952
+          },
+          {
+            "reference_id": "17902-1-21",
+            "text": "Nomar Mazara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763770957
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -619,6 +640,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
