@@ -3,7 +3,7 @@ name: scrape-lidom-players-history
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "0 */6 * * *"   # cada 6 horas
+    - cron: "*/30 * * * *"   # cada 30 min (más granular; ajusta a tu gusto)
 
 permissions:
   contents: write
@@ -18,6 +18,8 @@ env:
   HIST_CONCURRENCY: "3"
   HIST_DELAY_MS: "300"
   HIST_MAX_SEASONS: "0"
+  HIST_IDS_PER_RUN: "60"         # ⭐ procesa hasta 60 jugadores por corrida (resume en la próxima)
+  ALLOW_INSECURE_TLS: "1"        # tolerar SSL de LIDOM
 
 jobs:
   history:
@@ -46,84 +48,46 @@ jobs:
           fi
           [ -e node_modules ] || ln -s docs/node_modules node_modules
 
-      # Localiza scripts
-      - name: Locate scripts
-        id: findscripts
+      - name: Locate script
+        id: findhist
         shell: bash
         run: |
           set -euo pipefail
-          find_one() { for p in "$@"; do [ -f "$p" ] && { echo "$p"; return 0; }; done; return 1; }
-          STATS=$(find_one scripts/lidom_stats.mjs lidom_stats.mjs tools/lidom_stats.mjs src/scripts/lidom_stats.mjs || true)
-          PLAYERS=$(find_one scripts/lidom_players.mjs lidom_players.mjs tools/lidom_players.mjs src/scripts/lidom_players.mjs || true)
-          HISTORY=$(find_one scripts/lidom_players_history.mjs lidom_players_history.mjs tools/lidom_players_history.mjs src/scripts/lidom_players_history.mjs || true)
-          echo "stats=$STATS"     >> "$GITHUB_OUTPUT"
-          echo "players=$PLAYERS" >> "$GITHUB_OUTPUT"
-          echo "history=$HISTORY" >> "$GITHUB_OUTPUT"
-          [ -n "$HISTORY" ] || { echo "ERROR: falta lidom_players_history.mjs"; exit 1; }
+          for p in scripts/lidom_players_history.mjs lidom_players_history.mjs tools/lidom_players_history.mjs src/scripts/lidom_players_history.mjs; do
+            if [ -f "$p" ]; then echo "history=$p" >> "$GITHUB_OUTPUT"; exit 0; fi
+          done
+          echo "ERROR: falta lidom_players_history.mjs"; exit 1
 
-      # Seed desde tu repo: intenta /main y /refs/heads/main
-      - name: Seed IDs from repo (if missing)
-        shell: bash
-        run: |
-          set -euo pipefail
-          mkdir -p docs/stats
-          seed_raw() {
-            local remote="$1" localpath="$2"
-            local ok=""
-            for path in "main/$remote" "refs/heads/main/$remote"; do
-              url="https://raw.githubusercontent.com/${{ github.repository }}/$path"
-              echo "→ seed: $url -> $localpath"
-              curl -fsSL "$url" -o "$localpath" && ok=1 && break || true
-            done
-            [ -n "$ok" ] && echo "✔ Seed OK: $localpath ($(wc -c < "$localpath") bytes)" || echo "⚠️ Seed falló: $localpath"
-          }
-          [ -s docs/stats/jugadores.json ] || seed_raw "docs/stats/jugadores.json" "docs/stats/jugadores.json"
-          [ -s docs/stats/lideres.json ]   || seed_raw "docs/stats/lideres.json"   "docs/stats/lideres.json"
-          echo "== Estado tras seed =="; ls -l docs/stats || true
-
-      # Si aún faltan IDs, construir localmente (tolerante a SSL de LIDOM)
-      - name: Build missing IDs locally (leaders/players)
-        shell: bash
-        run: |
-          set -euo pipefail
-          if [ ! -s docs/stats/jugadores.json ]; then
-            echo "jugadores.json no presente; intentaremos generar…"
-            if [ ! -s docs/stats/lideres.json ]; then
-              [ -n "${{ steps.findscripts.outputs.stats }}" ] || { echo "ERROR: no hay lidom_stats.mjs"; exit 1; }
-              echo "→ generando lideres.json"; NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscripts.outputs.stats }}"
-            fi
-            if [ -n "${{ steps.findscripts.outputs.players }}" ]; then
-              echo "→ generando jugadores.json"; NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscripts.outputs.players }}"
-            else
-              echo "⚠️ sin script de players; continuaremos solo con lideres.json"
-            fi
-          fi
-          # Validación final: debe existir al menos uno
-          if [ ! -s docs/stats/jugadores.json ] && [ ! -s docs/stats/lideres.json ]; then
-            echo "ERROR: no hay IDs (jugadores.json o lideres.json)"; exit 1
-          fi
-          echo "== IDs OK =="; [ -s docs/stats/jugadores.json ] && jq '.meta//{}' docs/stats/jugadores.json || true
-          [ -s docs/stats/lideres.json ] && jq '.meta//{}' docs/stats/lideres.json || true
-
-      # 👈 IMPORTANTE: usar la ruta detectada del script (no hardcode)
-      - name: Scrape players history
-        run: NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscripts.outputs.history }}"
+      - name: Run players history (batch)
+        env:
+          TZ: ${{ env.TZ }}
+          LIDOM_STATS_URL: ${{ env.LIDOM_STATS_URL }}
+          HIST_CONCURRENCY: ${{ env.HIST_CONCURRENCY }}
+          HIST_DELAY_MS: ${{ env.HIST_DELAY_MS }}
+          HIST_MAX_SEASONS: ${{ env.HIST_MAX_SEASONS }}
+          HIST_IDS_PER_RUN: ${{ env.HIST_IDS_PER_RUN }}
+          ALLOW_INSECURE_TLS: ${{ env.ALLOW_INSECURE_TLS }}
+        run: node "${{ steps.findhist.outputs.history }}"
 
       - name: Configure git
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit & push jugadores_history.json
+      - name: Commit & push (by_id + merged)
         shell: bash
         run: |
-          [ -f docs/stats/jugadores_history.json ] && jq . docs/stats/jugadores_history.json >/dev/null
-          if ! git diff --quiet -- docs/stats/jugadores_history.json; then
-            git add docs/stats/jugadores_history.json
+          set -euo pipefail
+          # valida archivos
+          [ -d docs/stats/jugadores_history/by_id ] || mkdir -p docs/stats/jugadores_history/by_id
+          [ -f docs/stats/jugadores_history.json ] && jq . docs/stats/jugadores_history.json >/dev/null || true
+
+          if ! git diff --quiet -- docs/stats/jugadores_history/ docs/stats/jugadores_history.json; then
+            git add docs/stats/jugadores_history/ docs/stats/jugadores_history.json
             TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-            git commit -m "chore(players-history): update ${TS} [skip ci]" || true
+            git commit -m "chore(players-history): batch ${TS} [skip ci]" || true
             git pull --rebase origin main || true
             git push origin HEAD:main || true
           else
-            echo "Sin cambios en jugadores_history."
+            echo "Sin cambios para commit."
           fi
