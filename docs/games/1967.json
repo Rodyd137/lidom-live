@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1967",
-    "scraped_at": "2025-11-22T00:18:44.142Z",
+    "scraped_at": "2025-11-22T00:19:46.666Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-11-21 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Josh Lester Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "Wilin Rosario Sencillo y 1 Carrera Impulsada ",
     "counts": {
-      "balls": 0,
-      "strikes": 1,
+      "balls": 1,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 0,
-          "H": 0,
+          "R": 1,
+          "H": 1,
           "E": 0,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
           "pitcher": "",
@@ -108,6 +108,17 @@
             "height": "",
             "image": null,
             "position": ""
+          },
+          {
+            "id": 5508,
+            "team_id": 7,
+            "name": "Robinson Canó ",
+            "abbreviation": "R. Canó",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
           }
         ]
       },
@@ -138,7 +149,7 @@
       "innings": [
         {
           "num": 1,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -185,8 +196,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 0,
+          "R": 1,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -199,39 +210,39 @@
         "away": [
           {
             "num": 1,
-            "R": 0
+            "R": 1
           },
           {
             "num": 2,
-            "R": 0
+            "R": 1
           },
           {
             "num": 3,
-            "R": 0
+            "R": 1
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ],
         "home": [
@@ -303,10 +314,17 @@
           },
           {
             "reference_id": "17909-1-4",
-            "text": "Wilin Rosario al bate",
+            "text": "Wilin Rosario Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763770753
+          },
+          {
+            "reference_id": "17909-1-5",
+            "text": "Robinson Canó  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1763770689
+            "ts": 1763770767
           }
         ]
       }
@@ -316,8 +334,8 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -325,7 +343,7 @@
         "num": 1,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
@@ -390,7 +408,7 @@
         "id": 1966,
         "date": "2025-11-21 19:30:00",
         "status": 2,
-        "roundText": "Baja 2da",
+        "roundText": "Alta 3ra",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
