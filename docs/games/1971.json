@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1971",
-    "scraped_at": "2025-11-22T23:53:40.087Z",
+    "scraped_at": "2025-11-22T23:54:44.753Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-22 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Hector Rodríguez Doble! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -500,10 +500,17 @@
         "plays": [
           {
             "reference_id": "17946-1-8",
-            "text": "Hector Rodríguez al bate",
+            "text": "Hector Rodríguez Doble! ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763855612
+            "ts": 1763855644
+          },
+          {
+            "reference_id": "17946-1-9",
+            "text": "Yamaico Navarro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763855656
           }
         ]
       }
@@ -527,7 +534,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
