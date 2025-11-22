@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1969",
-    "scraped_at": "2025-11-22T21:29:37.873Z",
+    "scraped_at": "2025-11-22T21:31:18.623Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-22 17:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Nomar Mazara  Out: Rodado al Lanzador - Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 0
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -213,6 +213,28 @@
             "team_id": 5,
             "name": "Jordan Díaz",
             "abbreviation": "J. Díaz",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5254,
+            "team_id": 5,
+            "name": "Nomar Mazara",
+            "abbreviation": "N. Mazara",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5243,
+            "team_id": 5,
+            "name": "Hanser Alberto",
+            "abbreviation": "H. Alberto",
             "number": null,
             "dob": null,
             "height": "",
@@ -469,10 +491,24 @@
         "plays": [
           {
             "reference_id": "17928-2-12",
-            "text": "Jordan Díaz al bate",
+            "text": "Jordan Díaz Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763846954
+            "ts": 1763846996
+          },
+          {
+            "reference_id": "17928-2-13",
+            "text": "Nomar Mazara  Out: Rodado al Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763847045
+          },
+          {
+            "reference_id": "17928-2-14",
+            "text": "Hanser Alberto al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763847075
           }
         ]
       }
@@ -503,7 +539,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
