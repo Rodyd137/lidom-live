@@ -62,14 +62,16 @@ jobs:
           echo "Encontrado: ${SCRIPT_PATH}"
           echo "script=${SCRIPT_PATH}" >> "$GITHUB_OUTPUT"
 
-      - name: Verificar fetch de la página
+      # 👉 Cambiado: usar curl con -k para tolerar cert expirado
+      - name: Verificar fetch de la página (tolerante a cert vencido)
         run: |
-          node -e "fetch(process.env.LIDOM_STATS_URL,{headers:{'user-agent':'Mozilla/5.0'}}).then(r=>{console.log('STATUS',r.status); if(!r.ok) process.exit(2)}).catch(e=>{console.error(e); process.exit(3)})"
+          curl -fsSLk --retry 3 --max-time 20 "$LIDOM_STATS_URL" >/dev/null
 
       - name: Scrape líderes (bateo/pitcheo)
         run: |
           set -euo pipefail
-          node "${{ steps.findscript.outputs.script }}"
+          # 👉 Cambiado: permitir TLS inseguro SOLO en este proceso Node
+          NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscript.outputs.script }}"
           test -s docs/stats/lideres.json || (echo 'ERROR: no se generó docs/stats/lideres.json' && exit 4)
           jq . docs/stats/lideres.json >/dev/null
 
