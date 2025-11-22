@@ -46,7 +46,8 @@ jobs:
           fi
           [ -e node_modules ] || ln -s docs/node_modules node_modules
 
-      - name: Localizar scripts
+      # Localiza scripts
+      - name: Locate scripts
         id: findscripts
         shell: bash
         run: |
@@ -55,30 +56,33 @@ jobs:
           STATS=$(find_one scripts/lidom_stats.mjs lidom_stats.mjs tools/lidom_stats.mjs src/scripts/lidom_stats.mjs || true)
           PLAYERS=$(find_one scripts/lidom_players.mjs lidom_players.mjs tools/lidom_players.mjs src/scripts/lidom_players.mjs || true)
           HISTORY=$(find_one scripts/lidom_players_history.mjs lidom_players_history.mjs tools/lidom_players_history.mjs src/scripts/lidom_players_history.mjs || true)
-          echo "stats=$STATS" >>"$GITHUB_OUTPUT"
-          echo "players=$PLAYERS" >>"$GITHUB_OUTPUT"
-          echo "history=$HISTORY" >>"$GITHUB_OUTPUT"
+          echo "stats=$STATS"     >> "$GITHUB_OUTPUT"
+          echo "players=$PLAYERS" >> "$GITHUB_OUTPUT"
+          echo "history=$HISTORY" >> "$GITHUB_OUTPUT"
           [ -n "$HISTORY" ] || { echo "ERROR: falta lidom_players_history.mjs"; exit 1; }
 
-      - name: Seed IDs desde el repo (si faltan)
+      # Seed desde tu repo: intenta /main y /refs/heads/main
+      - name: Seed IDs from repo (if missing)
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p docs/stats
           seed_raw() {
             local remote="$1" localpath="$2"
+            local ok=""
             for path in "main/$remote" "refs/heads/main/$remote"; do
               url="https://raw.githubusercontent.com/${{ github.repository }}/$path"
               echo "→ seed: $url -> $localpath"
-              curl -fsSL "$url" -o "$localpath" && return 0 || true
+              curl -fsSL "$url" -o "$localpath" && ok=1 && break || true
             done
-            return 1
+            [ -n "$ok" ] && echo "✔ Seed OK: $localpath ($(wc -c < "$localpath") bytes)" || echo "⚠️ Seed falló: $localpath"
           }
-          [ -s docs/stats/jugadores.json ] || seed_raw "docs/stats/jugadores.json" "docs/stats/jugadores.json" || true
-          [ -s docs/stats/lideres.json ]   || seed_raw "docs/stats/lideres.json"   "docs/stats/lideres.json"   || true
-          echo "== estado tras seed =="; ls -l docs/stats || true
+          [ -s docs/stats/jugadores.json ] || seed_raw "docs/stats/jugadores.json" "docs/stats/jugadores.json"
+          [ -s docs/stats/lideres.json ]   || seed_raw "docs/stats/lideres.json"   "docs/stats/lideres.json"
+          echo "== Estado tras seed =="; ls -l docs/stats || true
 
-      - name: Construir IDs localmente si aún faltan (tolerante SSL)
+      # Si aún faltan IDs, construir localmente (tolerante a SSL de LIDOM)
+      - name: Build missing IDs locally (leaders/players)
         shell: bash
         run: |
           set -euo pipefail
@@ -94,14 +98,15 @@ jobs:
               echo "⚠️ sin script de players; continuaremos solo con lideres.json"
             fi
           fi
-          # Debe existir al menos uno
+          # Validación final: debe existir al menos uno
           if [ ! -s docs/stats/jugadores.json ] && [ ! -s docs/stats/lideres.json ]; then
             echo "ERROR: no hay IDs (jugadores.json o lideres.json)"; exit 1
           fi
           echo "== IDs OK =="; [ -s docs/stats/jugadores.json ] && jq '.meta//{}' docs/stats/jugadores.json || true
           [ -s docs/stats/lideres.json ] && jq '.meta//{}' docs/stats/lideres.json || true
 
-      - name: Correr histórico de jugadores
+      # 👈 IMPORTANTE: usar la ruta detectada del script (no hardcode)
+      - name: Scrape players history
         run: NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscripts.outputs.history }}"
 
       - name: Configure git
