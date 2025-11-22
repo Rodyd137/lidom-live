@@ -3,7 +3,7 @@ name: scrape-lidom-players-history
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "0 */6 * * *"   # cada 6 horas (ajústalo si quieres)
+    - cron: "0 */6 * * *"   # cada 6 horas
 
 permissions:
   contents: write
@@ -72,48 +72,61 @@ jobs:
             exit 1
           fi
 
-      # Seed leaders.json desde el repo si no existe localmente
-      - name: Seed leaders.json from repo (if missing)
-        run: |
-          if [ ! -f docs/stats/lideres.json ]; then
-            echo "Seed: descargando leaders desde el repo..."
-            mkdir -p docs/stats
-            curl -fsSL \
-              "https://raw.githubusercontent.com/${{ github.repository }}/main/docs/stats/lideres.json" \
-              -o docs/stats/lideres.json || true
-          fi
-          if [ -f docs/stats/lideres.json ]; then
-            echo "leaders seed presente."
-            jq .meta.counts docs/stats/lideres.json || true
-          else
-            echo "No se pudo seedear leaders.json (continuaremos con generación local si hay script)."
-          fi
-
-      # Garantiza IDs: si no hay jugadores.json, crea líderes y luego jugadores
-      - name: Ensure IDs (leaders/players)
+      # IDs smart-seed: intenta locales, luego raw del repo, y si no, construye
+      - name: Seed IDs (jugadores/líderes)
         shell: bash
         run: |
           set -euo pipefail
-          if [ ! -f docs/stats/jugadores.json ]; then
-            echo "jugadores.json no existe; validando líderes y generando jugadores..."
-            if [ ! -f docs/stats/lideres.json ]; then
-              if [ -z "${{ steps.findscripts.outputs.stats }}" ]; then
-                echo "ERROR: no hay lidom_stats.mjs para producir lideres.json" >&2
+          mkdir -p docs/stats
+
+          have_jug=""
+          if [ -s docs/stats/jugadores.json ]; then
+            echo "✔ jugadores.json ya existe localmente"
+            have_jug=1
+          else
+            echo "→ Intentando seed de jugadores.json desde raw del repo..."
+            curl -fsSL \
+              "https://raw.githubusercontent.com/${{ github.repository }}/main/docs/stats/jugadores.json" \
+              -o docs/stats/jugadores.json || true
+            if [ -s docs/stats/jugadores.json ]; then
+              echo "✔ jugadores.json seeded desde raw"
+              have_jug=1
+            fi
+          fi
+
+          if [ -z "${have_jug}" ]; then
+            if [ ! -s docs/stats/lideres.json ]; then
+              echo "→ Intentando seed de lideres.json desde raw del repo..."
+              curl -fsSL \
+                "https://raw.githubusercontent.com/${{ github.repository }}/main/docs/stats/lideres.json" \
+                -o docs/stats/lideres.json || true
+            fi
+
+            if [ ! -s docs/stats/lideres.json ]; then
+              if [ -n "${{ steps.findscripts.outputs.stats }}" ]; then
+                echo "→ Construyendo lideres.json localmente (TLS tolerante)..."
+                NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscripts.outputs.stats }}"
+              else
+                echo "ERROR: No leaders y no script stats disponible." >&2
                 exit 1
               fi
-              echo "→ Generando lideres.json (tolerante a SSL)"
-              NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscripts.outputs.stats }}"
             fi
-            if [ -z "${{ steps.findscripts.outputs.players }}" ]; then
-              echo "ERROR: no hay lidom_players.mjs para producir jugadores.json" >&2
-              exit 1
+
+            if [ -n "${{ steps.findscripts.outputs.players }}" ]; then
+              echo "→ Construyendo jugadores.json localmente (TLS tolerante)..."
+              NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscripts.outputs.players }}"
+            else
+              echo "⚠️ No hay script players; se procederá solo con lideres.json"
             fi
-            echo "→ Generando jugadores.json (tolerante a SSL)"
-            NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscripts.outputs.players }}"
-          else
-            echo "OK: ya existe docs/stats/jugadores.json"
           fi
-          test -s docs/stats/jugadores.json
+
+          # Validación final: debe existir al menos uno
+          test -s docs/stats/jugadores.json || test -s docs/stats/lideres.json || (echo "ERROR: no hay IDs disponibles" && exit 1)
+
+          echo "== Estado de docs/stats =="
+          ls -l docs/stats | sed 's/^/  /'
+          [ -s docs/stats/jugadores.json ] && jq '.meta // {}' docs/stats/jugadores.json || true
+          [ -s docs/stats/lideres.json ]   && jq '.meta // {}' docs/stats/lideres.json   || true
 
       - name: Scrape players history
         run: NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscripts.outputs.history }}"
