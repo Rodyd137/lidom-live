@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1969",
-    "scraped_at": "2025-11-22T21:33:27.130Z",
+    "scraped_at": "2025-11-22T21:39:22.640Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-22 17:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Leody Taveras Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -147,6 +147,17 @@
             "team_id": 3,
             "name": "Albert Fabian ",
             "abbreviation": "A. Fabian",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5321,
+            "team_id": 3,
+            "name": "Webster Rivas",
+            "abbreviation": "W. Rivas",
             "number": null,
             "dob": null,
             "height": "",
@@ -511,6 +522,34 @@
             "ts": 1763847104
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "17929-1-15",
+            "text": "Webster Rivas Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763847443
+          },
+          {
+            "reference_id": "17929-1-16",
+            "text": "Leody Taveras Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763847525
+          },
+          {
+            "reference_id": "17929-1-17",
+            "text": "Antony Seigler al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763847529
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -539,6 +578,13 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
         "total_plays": 3,
         "scoring_plays": 0
       }
