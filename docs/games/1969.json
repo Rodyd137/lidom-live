@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1969",
-    "scraped_at": "2025-11-22T21:28:34.967Z",
+    "scraped_at": "2025-11-22T21:29:37.873Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,7 +14,7 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -202,6 +202,17 @@
             "team_id": 5,
             "name": "Deyvinson de los Santos",
             "abbreviation": "D. de los Santos",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5550,
+            "team_id": 5,
+            "name": "Jordan Díaz",
+            "abbreviation": "J. Díaz",
             "number": null,
             "dob": null,
             "height": "",
@@ -450,6 +461,20 @@
             "ts": 1763846822
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "17928-2-12",
+            "text": "Jordan Díaz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763846954
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -472,6 +497,13 @@
         "half": "top",
         "label": "Alta 2da",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
