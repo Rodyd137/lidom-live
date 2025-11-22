@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1967",
-    "scraped_at": "2025-11-22T00:16:39.332Z",
+    "scraped_at": "2025-11-22T00:17:41.796Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-21 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Raimel Tapia  Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "Angel Martinez  Golpeado por Pelota ",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -70,6 +70,17 @@
             "team_id": 7,
             "name": "Raimel Tapia",
             "abbreviation": "R. Tapia",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5526,
+            "team_id": 7,
+            "name": "Angel Martinez ",
+            "abbreviation": "A. Martinez",
             "number": null,
             "dob": null,
             "height": "",
@@ -253,6 +264,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1763770571
+          },
+          {
+            "reference_id": "17909-1-2",
+            "text": "Angel Martinez  Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763770660
           }
         ]
       }
@@ -262,7 +280,7 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
