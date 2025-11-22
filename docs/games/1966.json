@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1966",
-    "scraped_at": "2025-11-22T00:23:56.441Z",
+    "scraped_at": "2025-11-22T00:24:58.872Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-21 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Jordan Díaz Ponche (K) ",
+    "lastPlayByPlay": "Nomar Mazara Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -605,10 +605,17 @@
           },
           {
             "reference_id": "17902-1-21",
-            "text": "Nomar Mazara al bate",
+            "text": "Nomar Mazara Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763770957
+            "ts": 1763771064
+          },
+          {
+            "reference_id": "17902-1-22",
+            "text": "Carlos Peguero  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763771071
           }
         ]
       }
@@ -646,7 +653,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -720,7 +727,7 @@
         "id": 1967,
         "date": "2025-11-21 19:30:00",
         "status": 2,
-        "roundText": "Alta 1ra",
+        "roundText": "Baja 1ra",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
