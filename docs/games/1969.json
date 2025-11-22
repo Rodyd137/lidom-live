@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1969",
-    "scraped_at": "2025-11-22T23:26:50.414Z",
+    "scraped_at": "2025-11-22T23:27:55.391Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-22 17:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Deyvinson de los Santos Ponche (K) ",
+    "lastPlayByPlay": "Jordan Díaz Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 2,
-          "H": 6,
+          "H": 7,
           "E": 0,
           "H2": 1
         },
@@ -231,10 +231,10 @@
             "position": ""
           },
           {
-            "id": 5254,
+            "id": 5253,
             "team_id": 5,
-            "name": "Nomar Mazara",
-            "abbreviation": "N. Mazara",
+            "name": "Diego Hernández",
+            "abbreviation": "D.  Hernández",
             "number": null,
             "dob": null,
             "height": "",
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 2,
-          "H": 6,
+          "H": 7,
           "E": 0
         }
       },
@@ -976,10 +976,17 @@
           },
           {
             "reference_id": "17934-2-60",
-            "text": "Jordan Díaz al bate",
+            "text": "Jordan Díaz Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763853995
+            "ts": 1763854029
+          },
+          {
+            "reference_id": "17934-2-61",
+            "text": "Diego Hernández al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763854071
           }
         ]
       }
@@ -1094,7 +1101,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -1174,8 +1181,8 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 0,
-          "hits": 1,
+          "runs": 1,
+          "hits": 2,
           "errors": 1,
           "permalink": "/equipo/estrellas-orientales"
         },
