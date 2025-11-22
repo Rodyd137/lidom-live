@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1969",
-    "scraped_at": "2025-11-22T21:44:42.996Z",
+    "scraped_at": "2025-11-22T21:45:46.958Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-22 17:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Melvi Mercedes  Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -257,6 +257,17 @@
             "team_id": 5,
             "name": "Melvi Mercedes ",
             "abbreviation": "M. Mercedes",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5251,
+            "team_id": 5,
+            "name": "Julio Carreras",
+            "abbreviation": "J. Carreras",
             "number": null,
             "dob": null,
             "height": "",
@@ -569,10 +580,17 @@
         "plays": [
           {
             "reference_id": "17929-2-18",
-            "text": "Melvi Mercedes  al bate",
+            "text": "Melvi Mercedes  Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763847845
+            "ts": 1763847899
+          },
+          {
+            "reference_id": "17929-2-19",
+            "text": "Julio Carreras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763847923
           }
         ]
       }
@@ -617,7 +635,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
