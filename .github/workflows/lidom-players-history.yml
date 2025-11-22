@@ -62,7 +62,7 @@ jobs:
           PLAYERS=$(find_one scripts/lidom_players.mjs lidom_players.mjs tools/lidom_players.mjs src/scripts/lidom_players.mjs || true)
           HISTORY=$(find_one scripts/lidom_players_history.mjs lidom_players_history.mjs tools/lidom_players_history.mjs src/scripts/lidom_players_history.mjs || true)
 
-          echo "stats=$STATS"   >> "$GITHUB_OUTPUT"
+          echo "stats=$STATS"     >> "$GITHUB_OUTPUT"
           echo "players=$PLAYERS" >> "$GITHUB_OUTPUT"
           echo "history=$HISTORY" >> "$GITHUB_OUTPUT"
 
@@ -70,6 +70,23 @@ jobs:
             echo "ERROR: No se encontró lidom_players_history.mjs" >&2
             find . -maxdepth 2 -type f | sed 's|^\./||' | sort | head -n 200 >&2
             exit 1
+          fi
+
+      # Seed leaders.json desde el repo si no existe localmente
+      - name: Seed leaders.json from repo (if missing)
+        run: |
+          if [ ! -f docs/stats/lideres.json ]; then
+            echo "Seed: descargando leaders desde el repo..."
+            mkdir -p docs/stats
+            curl -fsSL \
+              "https://raw.githubusercontent.com/${{ github.repository }}/main/docs/stats/lideres.json" \
+              -o docs/stats/lideres.json || true
+          fi
+          if [ -f docs/stats/lideres.json ]; then
+            echo "leaders seed presente."
+            jq .meta.counts docs/stats/lideres.json || true
+          else
+            echo "No se pudo seedear leaders.json (continuaremos con generación local si hay script)."
           fi
 
       # Garantiza IDs: si no hay jugadores.json, crea líderes y luego jugadores
@@ -118,4 +135,3 @@ jobs:
           else
             echo "Sin cambios en jugadores_history."
           fi
-          
