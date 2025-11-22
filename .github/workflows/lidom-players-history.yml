@@ -72,59 +72,63 @@ jobs:
             exit 1
           fi
 
-      # IDs smart-seed: intenta locales, luego raw del repo, y si no, construye
-      - name: Seed IDs (jugadores/líderes)
+      # Seed: intenta bajar jugadores.json y/o lideres.json desde el repo si no existen localmente
+      - name: Seed IDs from repo (if missing)
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p docs/stats
 
-          have_jug=""
-          if [ -s docs/stats/jugadores.json ]; then
-            echo "✔ jugadores.json ya existe localmente"
-            have_jug=1
-          else
-            echo "→ Intentando seed de jugadores.json desde raw del repo..."
+          # jugadores.json
+          if [ ! -s docs/stats/jugadores.json ]; then
+            echo "Seed: descargando jugadores.json desde raw del repo..."
             curl -fsSL \
               "https://raw.githubusercontent.com/${{ github.repository }}/main/docs/stats/jugadores.json" \
               -o docs/stats/jugadores.json || true
-            if [ -s docs/stats/jugadores.json ]; then
-              echo "✔ jugadores.json seeded desde raw"
-              have_jug=1
-            fi
           fi
 
-          if [ -z "${have_jug}" ]; then
-            if [ ! -s docs/stats/lideres.json ]; then
-              echo "→ Intentando seed de lideres.json desde raw del repo..."
-              curl -fsSL \
-                "https://raw.githubusercontent.com/${{ github.repository }}/main/docs/stats/lideres.json" \
-                -o docs/stats/lideres.json || true
-            fi
+          # lideres.json
+          if [ ! -s docs/stats/lideres.json ]; then
+            echo "Seed: descargando lideres.json desde raw del repo..."
+            curl -fsSL \
+              "https://raw.githubusercontent.com/${{ github.repository }}/main/docs/stats/lideres.json" \
+              -o docs/stats/lideres.json || true
+          fi
 
+          echo "== Estado tras seed =="
+          ls -l docs/stats | sed 's/^/  /' || true
+
+      # Si siguen faltando, construir localmente (tolerante a SSL)
+      - name: Build missing IDs locally (leaders/players)
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ ! -s docs/stats/jugadores.json ]; then
+            echo "jugadores.json no existe; validando líderes y generando jugadores..."
             if [ ! -s docs/stats/lideres.json ]; then
-              if [ -n "${{ steps.findscripts.outputs.stats }}" ]; then
-                echo "→ Construyendo lideres.json localmente (TLS tolerante)..."
-                NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscripts.outputs.stats }}"
-              else
-                echo "ERROR: No leaders y no script stats disponible." >&2
+              if [ -z "${{ steps.findscripts.outputs.stats }}" ]; then
+                echo "ERROR: no hay lidom_stats.mjs para producir lideres.json" >&2
                 exit 1
               fi
+              echo "→ Generando lideres.json (TLS tolerante)"
+              NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscripts.outputs.stats }}"
             fi
-
             if [ -n "${{ steps.findscripts.outputs.players }}" ]; then
-              echo "→ Construyendo jugadores.json localmente (TLS tolerante)..."
+              echo "→ Generando jugadores.json (TLS tolerante)"
               NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscripts.outputs.players }}"
             else
-              echo "⚠️ No hay script players; se procederá solo con lideres.json"
+              echo "⚠️ No hay script players; seguiremos solo con lideres.json"
             fi
+          else
+            echo "OK: ya existe docs/stats/jugadores.json"
           fi
 
           # Validación final: debe existir al menos uno
-          test -s docs/stats/jugadores.json || test -s docs/stats/lideres.json || (echo "ERROR: no hay IDs disponibles" && exit 1)
+          if [ ! -s docs/stats/jugadores.json ] && [ ! -s docs/stats/lideres.json ]; then
+            echo "ERROR: no hay IDs disponibles (jugadores.json o lideres.json)"; exit 1
+          fi
 
-          echo "== Estado de docs/stats =="
-          ls -l docs/stats | sed 's/^/  /'
+          echo "== IDs OK =="
           [ -s docs/stats/jugadores.json ] && jq '.meta // {}' docs/stats/jugadores.json || true
           [ -s docs/stats/lideres.json ]   && jq '.meta // {}' docs/stats/lideres.json   || true
 
