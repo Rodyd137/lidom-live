@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1967",
-    "scraped_at": "2025-11-22T01:01:26.013Z",
+    "scraped_at": "2025-11-22T01:02:31.038Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-21 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Alfredo Reyes Out: Elevado al Receptor",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 3,
-          "H": 3,
+          "H": 4,
           "E": 0,
           "H2": 3
         },
@@ -175,7 +175,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 1,
-          "H": 1,
+          "H": 2,
           "E": 0,
           "H2": 1
         },
@@ -341,12 +341,12 @@
       "totals": {
         "away": {
           "R": 3,
-          "H": 3,
+          "H": 4,
           "E": 0
         },
         "home": {
           "R": 1,
-          "H": 1,
+          "H": 2,
           "E": 0
         }
       },
@@ -632,6 +632,27 @@
             "ts": 1763773156
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "17911-2-24",
+            "text": "Alfredo Reyes Out: Elevado al Receptor",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763773339
+          },
+          {
+            "reference_id": "17911-2-25",
+            "text": "Steward Berroa al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763773345
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -668,6 +689,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
