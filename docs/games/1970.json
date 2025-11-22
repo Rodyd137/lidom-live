@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1970",
-    "scraped_at": "2025-11-22T23:14:09.397Z",
+    "scraped_at": "2025-11-22T23:15:12.413Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-22 19:00:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Josh Lester  Out: Rodado al Segunda Base - Campo Corto - Primera Base - Doble Play!",
+    "lastPlayByPlay": "Victor Labrada se embasa por Error del Segunda Base",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 1
+      "battingTeam": "homeTeam",
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 0,
           "H": 1,
-          "E": 0,
+          "E": 1,
           "H2": 0
         },
         "probables": {
@@ -264,6 +264,17 @@
             "position": ""
           },
           {
+            "id": 5559,
+            "team_id": 1,
+            "name": "Luis Barrera ",
+            "abbreviation": "L. Barrera",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
             "id": 5268,
             "team_id": 1,
             "name": "Christian Bethancourt",
@@ -331,7 +342,7 @@
         "away": {
           "R": 0,
           "H": 1,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 0,
@@ -453,6 +464,27 @@
             "ts": 1763853080
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "17936-2-5",
+            "text": "Victor Labrada se embasa por Error del Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763853268
+          },
+          {
+            "reference_id": "17936-2-6",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763853271
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -462,12 +494,19 @@
         "label": "Alta 1ra",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
