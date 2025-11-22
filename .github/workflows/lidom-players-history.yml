@@ -15,9 +15,9 @@ concurrency:
 env:
   TZ: America/Santo_Domingo
   LIDOM_STATS_URL: https://estadisticas.lidom.com/Lider
-  HIST_CONCURRENCY: "3"      # workers concurrentes
-  HIST_DELAY_MS: "300"       # pausa entre requests
-  HIST_MAX_SEASONS: "0"      # 0 = sin límite por jugador
+  HIST_CONCURRENCY: "3"
+  HIST_DELAY_MS: "300"
+  HIST_MAX_SEASONS: "0"
 
 jobs:
   history:
@@ -46,104 +46,62 @@ jobs:
           fi
           [ -e node_modules ] || ln -s docs/node_modules node_modules
 
-      # Localiza scripts necesarios
-      - name: Locate scripts
+      - name: Localizar scripts
         id: findscripts
         shell: bash
         run: |
           set -euo pipefail
-          find_one() {
-            for p in "$@"; do
-              if [ -f "$p" ]; then echo "$p"; return 0; fi
-            done
-            return 1
-          }
+          find_one() { for p in "$@"; do [ -f "$p" ] && { echo "$p"; return 0; }; done; return 1; }
           STATS=$(find_one scripts/lidom_stats.mjs lidom_stats.mjs tools/lidom_stats.mjs src/scripts/lidom_stats.mjs || true)
           PLAYERS=$(find_one scripts/lidom_players.mjs lidom_players.mjs tools/lidom_players.mjs src/scripts/lidom_players.mjs || true)
           HISTORY=$(find_one scripts/lidom_players_history.mjs lidom_players_history.mjs tools/lidom_players_history.mjs src/scripts/lidom_players_history.mjs || true)
+          echo "stats=$STATS" >>"$GITHUB_OUTPUT"
+          echo "players=$PLAYERS" >>"$GITHUB_OUTPUT"
+          echo "history=$HISTORY" >>"$GITHUB_OUTPUT"
+          [ -n "$HISTORY" ] || { echo "ERROR: falta lidom_players_history.mjs"; exit 1; }
 
-          echo "stats=$STATS"     >> "$GITHUB_OUTPUT"
-          echo "players=$PLAYERS" >> "$GITHUB_OUTPUT"
-          echo "history=$HISTORY" >> "$GITHUB_OUTPUT"
-
-          if [ -z "$HISTORY" ]; then
-            echo "ERROR: No se encontró lidom_players_history.mjs" >&2
-            find . -maxdepth 2 -type f | sed 's|^\./||' | sort | head -n 200 >&2
-            exit 1
-          fi
-
-      # Seed desde tu repo: intenta /main y /refs/heads/main
-      - name: Seed IDs from repo (if missing)
+      - name: Seed IDs desde el repo (si faltan)
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p docs/stats
-
-          seed_from_raw() {
-            local rel="$1"
-            local out="$2"
-            local ok=""
-            for path in "main/$rel" "refs/heads/main/$rel"; do
+          seed_raw() {
+            local remote="$1" localpath="$2"
+            for path in "main/$remote" "refs/heads/main/$remote"; do
               url="https://raw.githubusercontent.com/${{ github.repository }}/$path"
-              echo "→ Seed intent: $url"
-              curl -fsSL "$url" -o "$out" && ok=1 && break || true
+              echo "→ seed: $url -> $localpath"
+              curl -fsSL "$url" -o "$localpath" && return 0 || true
             done
-            if [ -n "$ok" ]; then
-              echo "✔ Seed OK: $out ($(wc -c < "$out") bytes)"
-            else
-              echo "⚠️ Seed falló: $out"
-              rm -f "$out"
-            fi
+            return 1
           }
+          [ -s docs/stats/jugadores.json ] || seed_raw "docs/stats/jugadores.json" "docs/stats/jugadores.json" || true
+          [ -s docs/stats/lideres.json ]   || seed_raw "docs/stats/lideres.json"   "docs/stats/lideres.json"   || true
+          echo "== estado tras seed =="; ls -l docs/stats || true
 
-          if [ ! -s docs/stats/jugadores.json ]; then
-            seed_from_raw "docs/stats/jugadores.json" "docs/stats/jugadores.json"
-          fi
-          if [ ! -s docs/stats/lideres.json ]; then
-            seed_from_raw "docs/stats/lideres.json" "docs/stats/lideres.json"
-          fi
-
-          echo "== Estado tras seed =="
-          ls -l docs/stats | sed 's/^/  /' || true
-          [ -s docs/stats/jugadores.json ] && head -c 200 docs/stats/jugadores.json && echo || true
-          [ -s docs/stats/lideres.json ]   && head -c 200 docs/stats/lideres.json   && echo || true
-
-      # Si siguen faltando, construir localmente (tolerante a SSL)
-      - name: Build missing IDs locally (leaders/players)
+      - name: Construir IDs localmente si aún faltan (tolerante SSL)
         shell: bash
         run: |
           set -euo pipefail
           if [ ! -s docs/stats/jugadores.json ]; then
-            echo "jugadores.json no existe; validando líderes y generando jugadores..."
+            echo "jugadores.json no presente; intentaremos generar…"
             if [ ! -s docs/stats/lideres.json ]; then
-              if [ -n "${{ steps.findscripts.outputs.stats }}" ]; then
-                echo "→ Generando lideres.json (TLS tolerante)"
-                NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscripts.outputs.stats }}"
-              else
-                echo "ERROR: no hay lidom_stats.mjs para producir lideres.json" >&2
-                exit 1
-              fi
+              [ -n "${{ steps.findscripts.outputs.stats }}" ] || { echo "ERROR: no hay lidom_stats.mjs"; exit 1; }
+              echo "→ generando lideres.json"; NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscripts.outputs.stats }}"
             fi
             if [ -n "${{ steps.findscripts.outputs.players }}" ]; then
-              echo "→ Generando jugadores.json (TLS tolerante)"
-              NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscripts.outputs.players }}"
+              echo "→ generando jugadores.json"; NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscripts.outputs.players }}"
             else
-              echo "⚠️ No hay script players; seguiremos solo con lideres.json"
+              echo "⚠️ sin script de players; continuaremos solo con lideres.json"
             fi
-          else
-            echo "OK: ya existe docs/stats/jugadores.json"
           fi
-
-          # Validación final: debe existir al menos uno
+          # Debe existir al menos uno
           if [ ! -s docs/stats/jugadores.json ] && [ ! -s docs/stats/lideres.json ]; then
-            echo "ERROR: no hay IDs disponibles (jugadores.json o lideres.json)"; exit 1
+            echo "ERROR: no hay IDs (jugadores.json o lideres.json)"; exit 1
           fi
+          echo "== IDs OK =="; [ -s docs/stats/jugadores.json ] && jq '.meta//{}' docs/stats/jugadores.json || true
+          [ -s docs/stats/lideres.json ] && jq '.meta//{}' docs/stats/lideres.json || true
 
-          echo "== IDs OK =="
-          [ -s docs/stats/jugadores.json ] && jq '.meta // {}' docs/stats/jugadores.json || true
-          [ -s docs/stats/lideres.json ]   && jq '.meta // {}' docs/stats/lideres.json   || true
-
-      - name: Scrape players history
+      - name: Correr histórico de jugadores
         run: NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscripts.outputs.history }}"
 
       - name: Configure git
@@ -151,7 +109,8 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Validate & commit
+      - name: Commit & push jugadores_history.json
+        shell: bash
         run: |
           [ -f docs/stats/jugadores_history.json ] && jq . docs/stats/jugadores_history.json >/dev/null
           if ! git diff --quiet -- docs/stats/jugadores_history.json; then
