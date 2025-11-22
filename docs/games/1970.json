@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1970",
-    "scraped_at": "2025-11-22T23:08:55.109Z",
+    "scraped_at": "2025-11-22T23:09:58.344Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-22 19:00:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Raimel Tapia Out Robando Base! Lanzador - Primera Base",
+    "lastPlayByPlay": "Dairon Blanco  se embasa por Error del Tercera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 1,
+      "balls": 1,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -176,7 +176,7 @@
         "totals": {
           "R": 0,
           "H": 0,
-          "E": 0,
+          "E": 1,
           "H2": 0
         },
         "probables": {
@@ -336,7 +336,7 @@
         "home": {
           "R": 0,
           "H": 0,
-          "E": 0
+          "E": 1
         }
       },
       "cumulative": {
@@ -440,10 +440,17 @@
           },
           {
             "reference_id": "17936-1-3",
-            "text": "Dairon Blanco  al bate",
+            "text": "Dairon Blanco  se embasa por Error del Tercera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1763852926
+            "ts": 1763852952
+          },
+          {
+            "reference_id": "17936-1-4",
+            "text": "Josh Lester al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763852955
           }
         ]
       }
@@ -453,7 +460,7 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
