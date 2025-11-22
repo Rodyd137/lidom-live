@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1971",
-    "scraped_at": "2025-11-22T23:37:13.380Z",
+    "scraped_at": "2025-11-22T23:38:16.655Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-22 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jasson Domínguez Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -437,10 +437,17 @@
         "plays": [
           {
             "reference_id": "17945-1-1",
-            "text": "Jasson Domínguez al bate",
+            "text": "Jasson Domínguez Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1763854570
+            "ts": 1763854653
+          },
+          {
+            "reference_id": "17945-1-2",
+            "text": "Erik Gonzalez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763854655
           }
         ]
       }
@@ -450,7 +457,7 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -523,7 +530,7 @@
       {
         "id": 1969,
         "date": "2025-11-22 17:00:00",
-        "status": 2,
+        "status": 6,
         "roundText": "Alta 9na",
         "awayTeam": {
           "id": 3,
@@ -531,7 +538,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 0,
-          "hits": 3,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         },
@@ -541,8 +548,8 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 2,
-          "hits": 7,
-          "errors": 0,
+          "hits": 6,
+          "errors": 1,
           "permalink": "/equipo/gigantes-del-cibao"
         }
       },
