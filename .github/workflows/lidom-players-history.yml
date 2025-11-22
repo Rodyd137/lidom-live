@@ -72,31 +72,41 @@ jobs:
             exit 1
           fi
 
-      # Seed: intenta bajar jugadores.json y/o lideres.json desde el repo si no existen localmente
+      # Seed desde tu repo: intenta /main y /refs/heads/main
       - name: Seed IDs from repo (if missing)
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p docs/stats
 
-          # jugadores.json
-          if [ ! -s docs/stats/jugadores.json ]; then
-            echo "Seed: descargando jugadores.json desde raw del repo..."
-            curl -fsSL \
-              "https://raw.githubusercontent.com/${{ github.repository }}/main/docs/stats/jugadores.json" \
-              -o docs/stats/jugadores.json || true
-          fi
+          seed_from_raw() {
+            local rel="$1"
+            local out="$2"
+            local ok=""
+            for path in "main/$rel" "refs/heads/main/$rel"; do
+              url="https://raw.githubusercontent.com/${{ github.repository }}/$path"
+              echo "→ Seed intent: $url"
+              curl -fsSL "$url" -o "$out" && ok=1 && break || true
+            done
+            if [ -n "$ok" ]; then
+              echo "✔ Seed OK: $out ($(wc -c < "$out") bytes)"
+            else
+              echo "⚠️ Seed falló: $out"
+              rm -f "$out"
+            fi
+          }
 
-          # lideres.json
+          if [ ! -s docs/stats/jugadores.json ]; then
+            seed_from_raw "docs/stats/jugadores.json" "docs/stats/jugadores.json"
+          fi
           if [ ! -s docs/stats/lideres.json ]; then
-            echo "Seed: descargando lideres.json desde raw del repo..."
-            curl -fsSL \
-              "https://raw.githubusercontent.com/${{ github.repository }}/main/docs/stats/lideres.json" \
-              -o docs/stats/lideres.json || true
+            seed_from_raw "docs/stats/lideres.json" "docs/stats/lideres.json"
           fi
 
           echo "== Estado tras seed =="
           ls -l docs/stats | sed 's/^/  /' || true
+          [ -s docs/stats/jugadores.json ] && head -c 200 docs/stats/jugadores.json && echo || true
+          [ -s docs/stats/lideres.json ]   && head -c 200 docs/stats/lideres.json   && echo || true
 
       # Si siguen faltando, construir localmente (tolerante a SSL)
       - name: Build missing IDs locally (leaders/players)
@@ -106,12 +116,13 @@ jobs:
           if [ ! -s docs/stats/jugadores.json ]; then
             echo "jugadores.json no existe; validando líderes y generando jugadores..."
             if [ ! -s docs/stats/lideres.json ]; then
-              if [ -z "${{ steps.findscripts.outputs.stats }}" ]; then
+              if [ -n "${{ steps.findscripts.outputs.stats }}" ]; then
+                echo "→ Generando lideres.json (TLS tolerante)"
+                NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscripts.outputs.stats }}"
+              else
                 echo "ERROR: no hay lidom_stats.mjs para producir lideres.json" >&2
                 exit 1
               fi
-              echo "→ Generando lideres.json (TLS tolerante)"
-              NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscripts.outputs.stats }}"
             fi
             if [ -n "${{ steps.findscripts.outputs.players }}" ]; then
               echo "→ Generando jugadores.json (TLS tolerante)"
