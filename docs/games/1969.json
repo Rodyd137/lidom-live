@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1969",
-    "scraped_at": "2025-11-22T22:38:19.169Z",
+    "scraped_at": "2025-11-22T22:39:23.855Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-22 17:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Leury García Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": false,
+      "on1B": true,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -794,10 +794,17 @@
         "plays": [
           {
             "reference_id": "17932-2-41",
-            "text": "Leury García al bate",
+            "text": "Leury García Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763851028
+            "ts": 1763851111
+          },
+          {
+            "reference_id": "17932-2-42",
+            "text": "Johan Rojas  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763851115
           }
         ]
       }
@@ -884,7 +891,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
