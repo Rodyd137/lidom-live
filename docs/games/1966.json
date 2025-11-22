@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1966",
-    "scraped_at": "2025-11-22T01:02:31.032Z",
+    "scraped_at": "2025-11-22T01:03:36.515Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-21 19:30:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Jordan Díaz Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Nomar Mazara Elevado de Sacrificio ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 8
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
       "on2B": true,
-      "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "on3B": false,
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 8,
+          "R": 9,
           "H": 7,
           "E": 0,
-          "H2": 8
+          "H2": 9
         },
         "probables": {
           "pitcher": "Shane Greene",
@@ -308,7 +308,7 @@
         },
         {
           "num": 4,
-          "away": 3,
+          "away": 4,
           "home": 0
         },
         {
@@ -340,7 +340,7 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 8,
+          "R": 9,
           "H": 7,
           "E": 0
         },
@@ -366,27 +366,27 @@
           },
           {
             "num": 4,
-            "R": 8
+            "R": 9
           },
           {
             "num": 5,
-            "R": 8
+            "R": 9
           },
           {
             "num": 6,
-            "R": 8
+            "R": 9
           },
           {
             "num": 7,
-            "R": 8
+            "R": 9
           },
           {
             "num": 8,
-            "R": 8
+            "R": 9
           },
           {
             "num": 9,
-            "R": 8
+            "R": 9
           }
         ],
         "home": [
@@ -724,10 +724,17 @@
           },
           {
             "reference_id": "17903-1-35",
-            "text": "Nomar Mazara al bate",
+            "text": "Nomar Mazara Elevado de Sacrificio ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763773373
+          },
+          {
+            "reference_id": "17903-1-36",
+            "text": "Carlos Peguero  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1763773278
+            "ts": 1763773379
           }
         ]
       }
@@ -779,8 +786,8 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 8,
-        "scoring_plays": 3
+        "total_plays": 9,
+        "scoring_plays": 4
       }
     ],
     "innings_raw": [
@@ -809,7 +816,7 @@
         "num": 4,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 3,
+        "awayTeamRuns": 4,
         "homeTeamRuns": 0
       },
       {
