@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1971",
-    "scraped_at": "2025-11-23T01:58:30.154Z",
+    "scraped_at": "2025-11-23T01:59:34.785Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 8,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 3,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -180,7 +180,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Esmailin Montilla",
+          "pitcher": "José Adames",
           "era": "4.50",
           "record": "0-0",
           "debut": false
@@ -954,6 +954,20 @@
             "ts": 1763862946
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "17952-1-60",
+            "text": "Erik Gonzalez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763863124
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1053,6 +1067,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
