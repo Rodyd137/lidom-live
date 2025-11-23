@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1971",
-    "scraped_at": "2025-11-23T02:04:59.097Z",
+    "scraped_at": "2025-11-23T02:06:03.692Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-22 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Hector Rodríguez Base por Bolas ",
+    "lastPlayByPlay": "Yamaico Navarro Elevado de Sacrificio ",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 8
+      "base": 6
     },
     "base_runners": {
       "on1B": true,
-      "on2B": true,
+      "on2B": false,
       "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 2,
+          "R": 3,
           "H": 4,
           "E": 3,
           "H2": 1
@@ -180,7 +180,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "José Adames",
+          "pitcher": "",
           "era": "4.50",
           "record": "0-0",
           "debut": false
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,7 +340,7 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 2,
+          "R": 3,
           "H": 4,
           "E": 3
         },
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 2
+            "R": 3
           },
           {
             "num": 9,
-            "R": 2
+            "R": 3
           }
         ],
         "home": [
@@ -983,10 +983,17 @@
           },
           {
             "reference_id": "17952-1-63",
-            "text": "Yamaico Navarro al bate",
+            "text": "Yamaico Navarro Elevado de Sacrificio ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763863515
+          },
+          {
+            "reference_id": "17952-1-64",
+            "text": "Junior Lake al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1763863450
+            "ts": 1763863519
           }
         ]
       }
@@ -1094,8 +1101,8 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1152,7 +1159,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
