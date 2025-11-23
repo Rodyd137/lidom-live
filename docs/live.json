@@ -2,23 +2,24 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2025-11-23T20:41:55.632Z",
+    "scraped_at": "2025-11-23T23:06:39.596Z",
     "tz": "America/Santo_Domingo"
   },
   "tracked_ids": [
-    1972
+    1973,
+    1974
   ],
   "live": [
     {
-      "id": 1972,
+      "id": 1973,
       "status": 2,
-      "roundText": "Baja 3ra",
-      "currentInningNum": 3,
-      "atBat": null,
-      "lastPlayByPlay": null,
+      "roundText": "Baja 6ta",
+      "currentInningNum": 6,
+      "atBat": "Kenny Piper",
+      "lastPlayByPlay": "Eddinson Paulino l  Cuadrangular! ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 3,
+        "strikes": 2,
         "outs": 0
       },
       "base": {
@@ -31,22 +32,61 @@
       "battingTeam": "homeTeam",
       "score": {
         "away": {
-          "name": "Aguilas",
-          "abbr": "AC",
-          "R": 0,
-          "H": 1,
+          "name": "Toros",
+          "abbr": "TE",
+          "R": 3,
+          "H": 4,
           "E": 0
         },
         "home": {
-          "name": "Leones",
-          "abbr": "LE",
-          "R": 0,
-          "H": 0,
+          "name": "Gigantes",
+          "abbr": "GC",
+          "R": 5,
+          "H": 9,
           "E": 0
         }
       },
       "threat": 22,
-      "updated_at": "2025-11-23T20:41:55.632Z"
+      "updated_at": "2025-11-23T23:06:39.596Z"
+    },
+    {
+      "id": 1974,
+      "status": 2,
+      "roundText": "Baja 6ta",
+      "currentInningNum": 6,
+      "atBat": "Rodolfo Durán",
+      "lastPlayByPlay": "Angel Martinez  Sencillo Jardinero Central",
+      "counts": {
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
+      },
+      "base": {
+        "on1B": true,
+        "on2B": true,
+        "on3B": false,
+        "runners": 2,
+        "mask": 5
+      },
+      "battingTeam": "homeTeam",
+      "score": {
+        "away": {
+          "name": "Tigres",
+          "abbr": "TL",
+          "R": 2,
+          "H": 6,
+          "E": 0
+        },
+        "home": {
+          "name": "Estrellas",
+          "abbr": "EO",
+          "R": 4,
+          "H": 8,
+          "E": 0
+        }
+      },
+      "threat": 47,
+      "updated_at": "2025-11-23T23:06:39.596Z"
     }
   ]
 }
