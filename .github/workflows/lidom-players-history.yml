@@ -18,8 +18,9 @@ env:
   HIST_CONCURRENCY: "3"
   HIST_DELAY_MS: "300"
   HIST_MAX_SEASONS: "0"
-  HIST_IDS_PER_RUN: "60"
-  ALLOW_INSECURE_TLS: "1"
+  HIST_IDS_PER_RUN: "60"       # procesa en lotes (resume solo)
+  ALLOW_INSECURE_TLS: "1"      # tolera SSL del sitio LIDOM
+  HIST_CHUNK_BYTES: "5000000"  # ~5 MB por chunk (ajustable)
 
 jobs:
   history:
@@ -80,7 +81,19 @@ jobs:
           HIST_MAX_SEASONS: ${{ env.HIST_MAX_SEASONS }}
           HIST_IDS_PER_RUN: ${{ env.HIST_IDS_PER_RUN }}
           ALLOW_INSECURE_TLS: ${{ env.ALLOW_INSECURE_TLS }}
+          HIST_CHUNK_BYTES: ${{ env.HIST_CHUNK_BYTES }}
         run: node "${{ steps.findhist.outputs.history }}"
+
+      # (Opcional) Verificación de tamaños para evitar archivos >100MB
+      - name: Guard size (no files > 95MB)
+        shell: bash
+        run: |
+          set -euo pipefail
+          find docs -type f -size +95M -print -quit | grep -q . && {
+            echo "Hay un archivo mayor a 95MB en docs/. Revisa chunking/env HIST_CHUNK_BYTES."
+            find docs -type f -size +95M -print
+            exit 1
+          } || echo "OK: no hay archivos gigantes."
 
       - name: Configure git
         shell: bash
@@ -95,7 +108,7 @@ jobs:
           BRANCH="${GITHUB_REF_NAME:-main}"
           mkdir -p docs/stats/jugadores_history/by_id
 
-          # Staging forzado (incluye nuevos)
+          # Staging forzado (by_id, chunks, manifest, index y el root pequeño)
           git add -A -f docs/stats/jugadores_history || true
           git add -f docs/stats/jugadores_history.json || true
 
