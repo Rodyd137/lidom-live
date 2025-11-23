@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1972",
-    "scraped_at": "2025-11-23T20:21:57.785Z",
+    "scraped_at": "2025-11-23T20:23:01.528Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-23 16:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Alberto Rodriguez Sencillo ",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -493,10 +493,24 @@
         "plays": [
           {
             "reference_id": "17955-1-7",
-            "text": "Aderlin Rodríguez al bate",
+            "text": "Aderlin Rodríguez Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763929224
+            "ts": 1763929322
+          },
+          {
+            "reference_id": "17955-1-8",
+            "text": "Alberto Rodriguez Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763929363
+          },
+          {
+            "reference_id": "17955-1-9",
+            "text": "Jose Augusto Rodriguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763929366
           }
         ]
       }
@@ -520,7 +534,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
