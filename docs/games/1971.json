@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1971",
-    "scraped_at": "2025-11-23T02:25:26.305Z",
+    "scraped_at": "2025-11-23T02:26:30.752Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-22 19:30:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Jeimer Candelario Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "Sandber Pimentel Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 4,
-          "H": 9,
+          "R": 5,
+          "H": 10,
           "E": 0,
           "H2": 3
         },
@@ -253,10 +253,10 @@
             "position": ""
           },
           {
-            "id": 5386,
+            "id": 5381,
             "team_id": 6,
-            "name": "Marco Luciano",
-            "abbreviation": "M. Luciano",
+            "name": "Sandber Pimentel",
+            "abbreviation": "S. Pimentel",
             "number": null,
             "dob": null,
             "height": "",
@@ -329,7 +329,7 @@
         {
           "num": 8,
           "away": 1,
-          "home": 0
+          "home": 1
         },
         {
           "num": 9,
@@ -345,8 +345,8 @@
           "E": 3
         },
         "home": {
-          "R": 4,
-          "H": 9,
+          "R": 5,
+          "H": 10,
           "E": 0
         }
       },
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 4
+            "R": 5
           },
           {
             "num": 9,
-            "R": 4
+            "R": 5
           }
         ]
       }
@@ -1025,10 +1025,17 @@
           },
           {
             "reference_id": "17952-2-68",
-            "text": "Marco Luciano al bate",
+            "text": "Sandber Pimentel Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763864754
+          },
+          {
+            "reference_id": "17952-2-69",
+            "text": "Ronaldo Hernández al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1763864606
+            "ts": 1763864759
           }
         ]
       }
@@ -1143,8 +1150,8 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1202,7 +1209,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 9,
