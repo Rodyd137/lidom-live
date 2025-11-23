@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1971",
-    "scraped_at": "2025-11-23T00:32:00.295Z",
+    "scraped_at": "2025-11-23T00:33:05.200Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-22 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Felix Reyes Doble! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
-      "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "on1B": false,
+      "on2B": true,
+      "on3B": true,
+      "runners": 2,
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 0,
-          "H": 3,
+          "H": 4,
           "E": 0,
           "H2": 0
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 0,
-          "H": 3,
+          "H": 4,
           "E": 0
         }
       },
@@ -618,6 +618,34 @@
             "ts": 1763857736
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "17947-2-23",
+            "text": "Bryan de la Cruz Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763857929
+          },
+          {
+            "reference_id": "17947-2-24",
+            "text": "Felix Reyes Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763857956
+          },
+          {
+            "reference_id": "17947-2-25",
+            "text": "Eloy Jimenez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763857961
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -654,6 +682,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
