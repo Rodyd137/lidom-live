@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1971",
-    "scraped_at": "2025-11-23T01:59:34.785Z",
+    "scraped_at": "2025-11-23T02:00:39.759Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-22 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Erik Gonzalez Base por Bolas ",
     "counts": {
-      "balls": 3,
+      "balls": 0,
       "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -962,10 +962,17 @@
         "plays": [
           {
             "reference_id": "17952-1-60",
-            "text": "Erik Gonzalez al bate",
+            "text": "Erik Gonzalez Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763863124
+            "ts": 1763863205
+          },
+          {
+            "reference_id": "17952-1-61",
+            "text": "Gio Urshela al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763863210
           }
         ]
       }
@@ -1073,7 +1080,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
