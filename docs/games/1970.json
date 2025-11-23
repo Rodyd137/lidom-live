@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1970",
-    "scraped_at": "2025-11-23T02:31:54.602Z",
+    "scraped_at": "2025-11-23T02:32:59.504Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-22 19:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Luis Barrera  Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -1130,10 +1130,17 @@
         "plays": [
           {
             "reference_id": "17944-2-85",
-            "text": "Luis Barrera  al bate",
+            "text": "Luis Barrera  Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763865055
+            "ts": 1763865125
+          },
+          {
+            "reference_id": "17944-2-86",
+            "text": "Christian Bethancourt al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763865129
           }
         ]
       }
@@ -1262,7 +1269,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
