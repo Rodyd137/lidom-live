@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1970",
-    "scraped_at": "2025-11-23T01:43:23.761Z",
+    "scraped_at": "2025-11-23T01:44:28.551Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-22 19:00:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Robinson Canó  Base por Bolas y Carrera Impulsada ",
+    "lastPlayByPlay": "Angel Martinez  Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -952,13 +952,20 @@
             "scored": true,
             "is_primary": true,
             "ts": 1763862118
-          },
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
           {
-            "reference_id": "17942-1-65",
-            "text": "Angel Martinez  al bate",
+            "reference_id": "17942-2-65",
+            "text": "Angel Martinez  Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1763862122
+            "ts": 1763862254
           }
         ]
       }
@@ -1052,8 +1059,15 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 7,
+        "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1101,7 +1115,7 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
