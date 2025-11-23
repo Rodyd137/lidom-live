@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1970",
-    "scraped_at": "2025-11-23T00:03:53.279Z",
+    "scraped_at": "2025-11-23T00:04:58.139Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-22 19:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gustavo Nuñez  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -640,10 +640,24 @@
         "plays": [
           {
             "reference_id": "17938-2-26",
-            "text": "Victor Labrada al bate",
+            "text": "Victor Labrada Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763856190
+            "ts": 1763856242
+          },
+          {
+            "reference_id": "17938-2-27",
+            "text": "Gustavo Nuñez  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763856270
+          },
+          {
+            "reference_id": "17938-2-28",
+            "text": "Cristhian Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763856291
           }
         ]
       }
@@ -688,7 +702,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
