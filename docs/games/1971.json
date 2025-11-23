@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1971",
-    "scraped_at": "2025-11-23T00:14:42.922Z",
+    "scraped_at": "2025-11-23T00:15:47.830Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-22 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Marco Luciano Ponche (K) ",
+    "lastPlayByPlay": "Ronaldo Hernández Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 8
     },
     "base_runners": {
       "on1B": true,
       "on2B": true,
-      "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "on3B": true,
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 1,
           "H": 1,
-          "E": 0,
+          "E": 1,
           "H2": 1
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 1,
           "H": 1,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 0,
@@ -556,17 +556,24 @@
           },
           {
             "reference_id": "17946-2-15",
-            "text": "Marco Luciano Ponche (K) ",
+            "text": "Marco Luciano Base por Bolas ",
             "scored": false,
             "is_primary": true,
             "ts": 1763856827
           },
           {
             "reference_id": "17946-2-16",
-            "text": "Ronaldo Hernández al bate",
+            "text": "Ronaldo Hernández Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763856833
+            "ts": 1763856897
+          },
+          {
+            "reference_id": "17946-2-17",
+            "text": "Rafael Lantigua  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763856915
           }
         ]
       }
@@ -597,7 +604,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -697,7 +704,7 @@
         "id": 1970,
         "date": "2025-11-22 19:00:00",
         "status": 2,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
