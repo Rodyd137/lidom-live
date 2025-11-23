@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1974",
-    "scraped_at": "2025-11-23T23:09:15.417Z",
+    "scraped_at": "2025-11-23T23:28:18.808Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-23 17:00:00",
-    "roundText": "Baja 6ta",
-    "currentInningNum": 6,
-    "lastPlayByPlay": "Angel Martinez  Sencillo Jardinero Central",
+    "roundText": "Baja 7ma",
+    "currentInningNum": 7,
+    "lastPlayByPlay": "Ismael Munguia Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 1,
+      "balls": 3,
       "strikes": 2,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Dauri Moreta",
           "era": "",
           "record": "",
           "debut": false
@@ -180,7 +180,7 @@
           "H2": 4
         },
         "probables": {
-          "pitcher": "Eddy Yean",
+          "pitcher": "Patrick Weigel",
           "era": "",
           "record": "",
           "debut": false
@@ -850,10 +850,73 @@
           },
           {
             "reference_id": "17977-2-51",
-            "text": "Rodolfo Durán al bate",
+            "text": "Rodolfo Durán Out: Línea al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1763939116
+            "ts": 1763939439
+          },
+          {
+            "reference_id": "17977-2-52",
+            "text": "Jose Tena  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763939633
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "17978-1-53",
+            "text": "Armando Alvarez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763939860
+          },
+          {
+            "reference_id": "17978-1-54",
+            "text": "Dawel Lugo  Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763939924
+          },
+          {
+            "reference_id": "17978-1-55",
+            "text": "Michael De La Cruz Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763940078
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "17978-2-56",
+            "text": "Raimel Tapia  Out: Rodado al Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763940273
+          },
+          {
+            "reference_id": "17978-2-57",
+            "text": "Ismael Munguia Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763940389
+          },
+          {
+            "reference_id": "17978-2-58",
+            "text": "Josh Lester al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763940391
           }
         ]
       }
@@ -926,7 +989,21 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 4,
+        "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -969,14 +1046,14 @@
       {
         "num": 6,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 7,
-        "part": 1,
-        "is_last": 0,
+        "part": 2,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -1026,7 +1103,7 @@
         "id": 1973,
         "date": "2025-11-23 17:00:00",
         "status": 2,
-        "roundText": "Baja 6ta",
+        "roundText": "Alta 7ma",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -1042,8 +1119,8 @@
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 5,
-          "hits": 9,
+          "runs": 7,
+          "hits": 10,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
