@@ -3,7 +3,7 @@ name: scrape-lidom-players-history
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "*/30 * * * *"   # cada 30 min
+    - cron: "*/30 * * * *"
 
 permissions:
   contents: write
@@ -30,12 +30,12 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0   # ⭐ trae historial completo (ayuda a rebase y a ver último estado)
+          fetch-depth: 0   # ⭐ necesario para rebase correcto
 
-      - name: Re-auth remote
+      - name: Re-auth remote + pull latest
         run: |
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git pull --rebase origin main || true   # ⭐ asegúrate de tener lo último (incluido by_id/ y merged)
+          git pull --rebase origin main || true
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -84,9 +84,9 @@ jobs:
           mkdir -p docs/stats/jugadores_history/by_id
 
           # Forzar add por si hay reglas en .gitignore
-          git add -f docs/stats/jugadores_history/by_id/*.json || true
-          git add -f docs/stats/jugadores_history.json || true
-          git add -f docs/stats/jugadores_history/ || true
+          git add -f docs/stats/jugadores_history/by_id/*.json 2>/dev/null || true
+          git add -f docs/stats/jugadores_history.json 2>/dev/null || true
+          git add -f docs/stats/jugadores_history/ 2>/dev/null || true
 
           if ! git diff --cached --quiet; then
             TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
