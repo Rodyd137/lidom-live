@@ -7,10 +7,12 @@ import * as cheerio from "cheerio";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
+// TLS tolerante opcional
 if (process.env.ALLOW_INSECURE_TLS === "1") {
   process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 }
 
+// ===== Config =====
 const BASE = "https://estadisticas.lidom.com";
 const LIDOM_STATS_URL = process.env.LIDOM_STATS_URL || `${BASE}/Lider`;
 const DETAIL_URL = (id) => `${BASE}/Miembro/Detalle?idMiembro=${id}`;
@@ -18,11 +20,12 @@ const DETAIL_URL = (id) => `${BASE}/Miembro/Detalle?idMiembro=${id}`;
 const CONCURRENCY = Math.max(1, Number(process.env.HIST_CONCURRENCY || 3));
 const REQUEST_DELAY_MS = Math.max(0, Number(process.env.HIST_DELAY_MS || 300));
 const MAX_SEASONS_PER_PLAYER = Math.max(0, Number(process.env.HIST_MAX_SEASONS || 0));
-const IDS_PER_RUN = Math.max(0, Number(process.env.HIST_IDS_PER_RUN || 60));
+const IDS_PER_RUN = Math.max(0, Number(process.env.HIST_IDS_PER_RUN || 60)); // ⭐ lote por corrida
 const OVERWRITE = String(process.env.HIST_OVERWRITE || "0") === "1";
 const SHARDS = Math.max(1, Number(process.env.HIST_SHARDS || 1));
 const SHARD_INDEX = Math.min(Math.max(0, Number(process.env.HIST_SHARD_INDEX || 0)), SHARDS - 1);
 
+// ===== Paths =====
 function resolveRepoRoot() {
   const hereDocs = path.join(__dirname, "docs");
   if (fs.existsSync(hereDocs)) return __dirname;
@@ -33,11 +36,11 @@ function resolveRepoRoot() {
 const REPO_ROOT = resolveRepoRoot();
 const OUT_DIR = path.join(REPO_ROOT, "docs", "stats");
 const OUT_PATH = path.join(OUT_DIR, "jugadores_history.json");
-const OUT_DIR_ROOT = path.join(OUT_DIR, "jugadores_history");
-const OUT_DIR_BYID = path.join(OUT_DIR_ROOT, "by_id");
+const OUT_DIR_BYID = path.join(OUT_DIR, "jugadores_history", "by_id");
 const JUGADORES_PATH = path.join(OUT_DIR, "jugadores.json");
 const LIDERES_PATH   = path.join(OUT_DIR, "lideres.json");
 
+// ===== Utils =====
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 const trim1 = (s) => (s ?? "").replace(/\s+/g, " ").trim();
 const cleanNum = (s) => {
@@ -64,6 +67,7 @@ async function fetchHTML(url) {
   return await res.text();
 }
 
+// ===== Tablas =====
 function getHeaders($, $t) {
   const $thead = $t.children("thead");
   let headerCells = $thead.length
@@ -191,7 +195,7 @@ function parseProfile($, fallbackName = null) {
   return prof;
 }
 function discoverSeasonUrls($, id) {
-  const found = new Map();
+  const found = new Map(); // label -> url
   $("select option").each((_, opt) => {
     const $o = $(opt);
     const label = trim1($o.text());
@@ -298,32 +302,19 @@ async function ensureIds() {
   return new Map();
 }
 
-// ===== Progreso =====
+// ===== Persistencia por jugador =====
 function listProcessedIds() {
-  const set = new Set();
-  // 1) by_id
-  if (fs.existsSync(OUT_DIR_BYID)) {
-    const files = fs.readdirSync(OUT_DIR_BYID).filter(f => /^\d+\.json$/.test(f));
-    files.forEach(f => set.add(Number(f.replace(".json",""))));
-  }
-  // 2) merged (por si by_id no está en repo/runner)
-  if (fs.existsSync(OUT_PATH)) {
-    try {
-      const merged = JSON.parse(fs.readFileSync(OUT_PATH, "utf8"));
-      for (const k of Object.keys(merged.jugadores || {})) {
-        const n = Number(k);
-        if (n) set.add(n);
-      }
-    } catch {}
-  }
-  return set;
+  if (!fs.existsSync(OUT_DIR_BYID)) return new Set();
+  const files = fs.readdirSync(OUT_DIR_BYID).filter(f => /^\d+\.json$/.test(f));
+  return new Set(files.map(f => Number(f.replace(".json",""))));
 }
 function savePlayerFile(id, data) {
   fs.mkdirSync(OUT_DIR_BYID, { recursive: true });
-  fs.writeFileSync(path.join(OUT_DIR_BYID, `${id}.json`), JSON.stringify(data, null, 2), "utf8");
+  const p = path.join(OUT_DIR_BYID, `${id}.json`);
+  fs.writeFileSync(p, JSON.stringify(data, null, 2), "utf8");
 }
 
-// ===== Scrape por jugador =====
+// ===== Procesar jugador =====
 async function fetchPlayerSeasons(id, fallbackName) {
   const html0 = await fetchHTML(DETAIL_URL(id));
   const $0 = cheerio.load(html0);
@@ -357,31 +348,22 @@ async function fetchPlayerSeasons(id, fallbackName) {
   };
 }
 
-// ===== Merge =====
+// ===== Merge final =====
 function mergeAllToOne() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
-
-  // Base: lo que ya había en merged (para no perder nada).
+  if (!fs.existsSync(OUT_DIR_BYID)) {
+    fs.writeFileSync(OUT_PATH, JSON.stringify({ meta:{generated_at:new Date().toISOString(), total:0}, jugadores:{} }, null, 2));
+    return { total: 0 };
+  }
+  const files = fs.readdirSync(OUT_DIR_BYID).filter(f => /^\d+\.json$/.test(f));
   const out = {};
-  if (fs.existsSync(OUT_PATH)) {
+  for (const f of files) {
     try {
-      const prev = JSON.parse(fs.readFileSync(OUT_PATH, "utf8"));
-      Object.entries(prev.jugadores || {}).forEach(([id, obj]) => { out[id] = obj; });
+      const id = Number(f.replace(".json",""));
+      const obj = JSON.parse(fs.readFileSync(path.join(OUT_DIR_BYID, f), "utf8"));
+      out[id] = obj;
     } catch {}
   }
-
-  // Overlay: lo nuevo desde by_id.
-  if (fs.existsSync(OUT_DIR_BYID)) {
-    const files = fs.readdirSync(OUT_DIR_BYID).filter(f => /^\d+\.json$/.test(f));
-    for (const f of files) {
-      try {
-        const id = f.replace(".json","");
-        const obj = JSON.parse(fs.readFileSync(path.join(OUT_DIR_BYID, f), "utf8"));
-        out[id] = obj;
-      } catch {}
-    }
-  }
-
   const payload = { meta:{ generated_at:new Date().toISOString(), total:Object.keys(out).length }, jugadores: out };
   fs.writeFileSync(OUT_PATH, JSON.stringify(payload, null, 2), "utf8");
   return { total: payload.meta.total };
@@ -390,27 +372,33 @@ function mergeAllToOne() {
 // ===== Runner =====
 async function run() {
   const idsMap = await ensureIds();
-  const all = Array.from(idsMap.entries()).sort((a,b)=>a[0]-b[0]);
+  const all = Array.from(idsMap.entries()).sort((a,b)=>a[0]-b[0]); // [[id,{nombre}]...]
   if (!all.length) {
     console.error("No hay IDs disponibles (ni locales, ni raw, ni scrape de líderes).");
     process.exit(1);
   }
 
+  // Sharding
   const sharded = all.filter((_, idx) => (idx % SHARDS) === SHARD_INDEX);
+
+  // Skip/overwrite
   const processed = listProcessedIds();
   const pending = sharded.filter(([id]) => OVERWRITE ? true : !processed.has(id));
-  const batch = IDS_PER_RUN ? pending.slice(0, IDS_PER_RUN) : pending;
 
-  console.log(`Total IDs: ${all.length} | Shard ${SHARD_INDEX+1}/${SHARDS}: ${sharded.length} | Hechos: ${processed.size} | Pendientes: ${pending.length} | Este lote: ${batch.length}`);
+  // Lote
+  const batch = IDS_PER_RUN ? pending.slice(0, IDS_PER_RUN) : pending;
+  console.log(`Total IDs: ${all.length} | Shard ${SHARD_INDEX+1}/${SHARDS}: ${sharded.length} | Ya hechos: ${processed.size} | Este lote: ${batch.length}`);
 
   let cursor = 0;
+  const out = {};
   async function worker() {
     while (cursor < batch.length) {
       const myIdx = cursor++;
       const [id, meta] = batch[myIdx];
       try {
         const data = await fetchPlayerSeasons(id, meta?.nombre || null);
-        savePlayerFile(id, data);
+        savePlayerFile(id, data); // persistir inmediato (resume)
+        out[id] = true;
         console.log(`OK historial jugador ${id} (${meta?.nombre || "s/n"})`);
       } catch (e) {
         console.error(`FAIL historial jugador ${id}:`, e?.message || e);
@@ -418,7 +406,8 @@ async function run() {
       if (REQUEST_DELAY_MS) await sleep(REQUEST_DELAY_MS);
     }
   }
-  await Promise.all(Array.from({ length: CONCURRENCY }, () => worker()));
+  const workers = Array.from({ length: CONCURRENCY }, () => worker());
+  await Promise.all(workers);
 
   const { total } = mergeAllToOne();
   console.log(`OK → ${OUT_PATH} | total fusionado: ${total}`);
