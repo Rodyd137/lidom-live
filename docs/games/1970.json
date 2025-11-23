@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1970",
-    "scraped_at": "2025-11-23T00:50:23.708Z",
+    "scraped_at": "2025-11-23T00:51:28.440Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1970,
     "season_id": 20,
-    "status": 4,
+    "status": 2,
     "date": "2025-11-22 19:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Cristhian Adames Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "Mel Rojas Jr. Base por Bolas ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -801,10 +801,17 @@
           },
           {
             "reference_id": "17940-2-45",
-            "text": "Mel Rojas Jr. al bate",
+            "text": "Mel Rojas Jr. Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763858874
+            "ts": 1763859053
+          },
+          {
+            "reference_id": "17940-2-46",
+            "text": "Ángel Ortiz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763859057
           }
         ]
       }
@@ -877,7 +884,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
