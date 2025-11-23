@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1970",
-    "scraped_at": "2025-11-23T02:30:50.001Z",
+    "scraped_at": "2025-11-23T02:31:54.602Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 9,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 3,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -59,7 +59,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Raffi Vizcaíno",
+          "pitcher": "Neftali Feliz",
           "era": "1.54",
           "record": "2-1",
           "debut": false
@@ -1122,6 +1122,20 @@
             "ts": 1763864887
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "17944-2-85",
+            "text": "Luis Barrera  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763865055
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1242,6 +1256,13 @@
         "half": "top",
         "label": "Alta 9na",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
