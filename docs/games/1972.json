@@ -1,15 +1,15 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1972",
-    "scraped_at": "2025-11-23T19:55:10.317Z",
+    "scraped_at": "2025-11-23T20:13:30.794Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1972,
     "season_id": 20,
-    "status": 3,
+    "status": 2,
     "date": "2025-11-23 16:00:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
     "lastPlayByPlay": "",
     "counts": {
@@ -18,7 +18,7 @@
       "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -429,12 +429,49 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "17954-1-1",
+            "text": "Steward Berroa Out: Elevado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763928576
+          },
+          {
+            "reference_id": "17954-1-2",
+            "text": "Leody Taveras  Out: Rodado al Primera Base - Lanzador",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763928695
+          },
+          {
+            "reference_id": "17954-1-3",
+            "text": "Ezequiel Duran Out: Elevado al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763928738
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
