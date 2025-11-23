@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1970",
-    "scraped_at": "2025-11-23T02:17:52.837Z",
+    "scraped_at": "2025-11-23T02:18:57.442Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-22 19:00:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Wilin Rosario  Out: Rodado al Primera Base - Lanzador",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -1066,6 +1066,20 @@
             "ts": 1763864132
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "17943-2-79",
+            "text": "Ángel Ortiz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763864277
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1173,6 +1187,13 @@
         "label": "Alta 8va",
         "total_plays": 9,
         "scoring_plays": 3
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1227,7 +1248,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 3,
         "homeTeamRuns": 0
