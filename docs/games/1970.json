@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1970",
-    "scraped_at": "2025-11-23T02:11:25.124Z",
+    "scraped_at": "2025-11-23T02:12:29.455Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-22 19:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Raimel Tapia Robo de Base  Error del - Lanzador",
+    "lastPlayByPlay": "Raimel Tapia Robo de Base Carrera Empujada - Wild Pitch",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 6
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
-      "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "on1B": false,
+      "on2B": true,
+      "on3B": false,
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 6,
+          "R": 7,
           "H": 13,
           "E": 1,
           "H2": 3
@@ -176,7 +176,7 @@
         "totals": {
           "R": 3,
           "H": 6,
-          "E": 1,
+          "E": 2,
           "H2": 3
         },
         "probables": {
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 2,
+          "away": 3,
           "home": 0
         },
         {
@@ -340,14 +340,14 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 6,
+          "R": 7,
           "H": 13,
           "E": 1
         },
         "home": {
           "R": 3,
           "H": 6,
-          "E": 1
+          "E": 2
         }
       },
       "cumulative": {
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 6
+            "R": 7
           },
           {
             "num": 9,
-            "R": 6
+            "R": 7
           }
         ],
         "home": [
@@ -1039,10 +1039,24 @@
           },
           {
             "reference_id": "17943-1-75",
-            "text": "Dairon Blanco  al bate",
+            "text": "Dairon Blanco  Sencillo Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763863709
+            "ts": 1763863883
+          },
+          {
+            "reference_id": "17943-1-76",
+            "text": "Raimel Tapia Robo de Base Carrera Empujada - Wild Pitch",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763863915
+          },
+          {
+            "reference_id": "17943-1-77",
+            "text": "Josh Lester al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763863924
           }
         ]
       }
@@ -1150,8 +1164,8 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 6,
-        "scoring_plays": 2
+        "total_plays": 8,
+        "scoring_plays": 3
       }
     ],
     "innings_raw": [
@@ -1208,7 +1222,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 2,
+        "awayTeamRuns": 3,
         "homeTeamRuns": 0
       },
       {
