@@ -3,7 +3,7 @@ name: scrape-lidom-players-history
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "*/30 * * * *"   # cada 30 min
+    - cron: "*/30 * * * *"   # cada 30 min (más granular; ajusta a tu gusto)
 
 permissions:
   contents: write
@@ -18,8 +18,8 @@ env:
   HIST_CONCURRENCY: "3"
   HIST_DELAY_MS: "300"
   HIST_MAX_SEASONS: "0"
-  HIST_IDS_PER_RUN: "60"
-  ALLOW_INSECURE_TLS: "1"
+  HIST_IDS_PER_RUN: "60"         # ⭐ procesa hasta 60 jugadores por corrida (resume en la próxima)
+  ALLOW_INSECURE_TLS: "1"        # tolerar SSL de LIDOM
 
 jobs:
   history:
@@ -30,12 +30,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0   # para rebase y ver progreso anterior
 
-      - name: Re-auth remote + pull latest
-        run: |
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git pull --rebase origin main || true
+      - name: Re-auth remote
+        run: git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -61,7 +58,7 @@ jobs:
           done
           echo "ERROR: falta lidom_players_history.mjs"; exit 1
 
-      - name: Run players history (batch resume)
+      - name: Run players history (batch)
         env:
           TZ: ${{ env.TZ }}
           LIDOM_STATS_URL: ${{ env.LIDOM_STATS_URL }}
@@ -81,26 +78,16 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p docs/stats/jugadores_history/by_id
+          # valida archivos
+          [ -d docs/stats/jugadores_history/by_id ] || mkdir -p docs/stats/jugadores_history/by_id
+          [ -f docs/stats/jugadores_history.json ] && jq . docs/stats/jugadores_history.json >/dev/null || true
 
-          echo "== Cambios en disco =="
-          ls -lh docs/stats/jugadores_history/by_id | tail -n +1 || true
-          [ -f docs/stats/jugadores_history.json ] && wc -c docs/stats/jugadores_history.json || true
-
-          # 1) Staging primero (incluye nuevos y fuerza si hay .gitignore)
-          git add -f docs/stats/jugadores_history/by_id/*.json 2>/dev/null || true
-          git add -f docs/stats/jugadores_history.json 2>/dev/null || true
-          git add -f docs/stats/jugadores_history/ 2>/dev/null || true
-
-          # 2) ¿Hay algo staged?
-          if git diff --cached --quiet; then
+          if ! git diff --quiet -- docs/stats/jugadores_history/ docs/stats/jugadores_history.json; then
+            git add docs/stats/jugadores_history/ docs/stats/jugadores_history.json
+            TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+            git commit -m "chore(players-history): batch ${TS} [skip ci]" || true
+            git pull --rebase origin main || true
+            git push origin HEAD:main || true
+          else
             echo "Sin cambios para commit."
-            exit 0
           fi
-
-          # 3) Commit + rebase + push
-          TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-          git commit -m "chore(players-history): batch ${TS} [skip ci]" || true
-          git pull --rebase origin main || true
-          git push origin HEAD:main || true
-
