@@ -35,11 +35,19 @@ function resolveRepoRoot() {
 }
 const REPO_ROOT = resolveRepoRoot();
 const OUT_DIR = path.join(REPO_ROOT, "docs", "stats");
-const OUT_PATH = path.join(OUT_DIR, "jugadores_history.json");
+const OUT_PATH = path.join(OUT_DIR, "jugadores_history.json"); // ahora es pequeño (manifest+index)
 const OUT_DIR_ROOT = path.join(OUT_DIR, "jugadores_history");
 const OUT_DIR_BYID = path.join(OUT_DIR_ROOT, "by_id");
+const OUT_DIR_CHUNKS = path.join(OUT_DIR_ROOT, "chunks");
+const OUT_PATH_INDEX = path.join(OUT_DIR_ROOT, "index.json");
+const OUT_PATH_MANIFEST = path.join(OUT_DIR_ROOT, "manifest.json");
+
 const JUGADORES_PATH = path.join(OUT_DIR, "jugadores.json");
 const LIDERES_PATH   = path.join(OUT_DIR, "lideres.json");
+
+// ===== Chunking =====
+const CHUNK_TARGET_BYTES = Math.max(100_000, Number(process.env.HIST_CHUNK_BYTES || 5_000_000)); // ~5 MB/archivo
+// Nota: OUT_PATH (pequeño) nunca debe superar unos KB
 
 // ===== Utils =====
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
@@ -66,6 +74,12 @@ async function fetchHTML(url) {
   });
   if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText} @ ${url}`);
   return await res.text();
+}
+function byteLen(obj) {
+  return Buffer.byteLength(typeof obj === "string" ? obj : JSON.stringify(obj));
+}
+function ensureDir(p) {
+  fs.mkdirSync(p, { recursive: true });
 }
 
 // ===== Tablas =====
@@ -306,25 +320,21 @@ async function ensureIds() {
 // ===== Progreso =====
 function listProcessedIds() {
   const set = new Set();
-  // 1) by_id
   if (fs.existsSync(OUT_DIR_BYID)) {
     const files = fs.readdirSync(OUT_DIR_BYID).filter(f => /^\d+\.json$/.test(f));
     files.forEach(f => set.add(Number(f.replace(".json",""))));
   }
-  // 2) merged (por si by_id no está en repo/runner)
   if (fs.existsSync(OUT_PATH)) {
     try {
       const merged = JSON.parse(fs.readFileSync(OUT_PATH, "utf8"));
-      for (const k of Object.keys(merged.jugadores || {})) {
-        const n = Number(k);
-        if (n) set.add(n);
-      }
+      // OUT_PATH ahora es pequeño; no suma ids, pero mantenemos el patrón
+      void merged;
     } catch {}
   }
   return set;
 }
 function savePlayerFile(id, data) {
-  fs.mkdirSync(OUT_DIR_BYID, { recursive: true });
+  ensureDir(OUT_DIR_BYID);
   fs.writeFileSync(path.join(OUT_DIR_BYID, `${id}.json`), JSON.stringify(data, null, 2), "utf8");
 }
 
@@ -362,34 +372,105 @@ async function fetchPlayerSeasons(id, fallbackName) {
   };
 }
 
-// ===== Merge =====
-function mergeAllToOne() {
-  fs.mkdirSync(OUT_DIR, { recursive: true });
+// ===== Merge (index + chunks + manifest + meta) =====
+function buildIndex(ids) {
+  // Índice liviano con ruta al by_id
+  const out = [];
+  for (const [id, meta] of ids) {
+    out.push({ id, nombre: meta?.nombre || null, path: `jugadores_history/by_id/${id}.json` });
+  }
+  out.sort((a,b) => a.id - b.id);
+  ensureDir(OUT_DIR_ROOT);
+  fs.writeFileSync(OUT_PATH_INDEX, JSON.stringify({ generated_at: new Date().toISOString(), total: out.length, items: out }, null, 2), "utf8");
+  return { total: out.length };
+}
+function buildChunksFromById() {
+  ensureDir(OUT_DIR_CHUNKS);
+  // lee todos los by_id y los agrupa en trozos de ~CHUNK_TARGET_BYTES
+  const files = fs.existsSync(OUT_DIR_BYID)
+    ? fs.readdirSync(OUT_DIR_BYID).filter(f => /^\d+\.json$/.test(f)).sort((a,b)=>Number(a)-Number(b))
+    : [];
 
-  // Base: lo que ya había en merged (para no perder nada).
-  const out = {};
-  if (fs.existsSync(OUT_PATH)) {
-    try {
-      const prev = JSON.parse(fs.readFileSync(OUT_PATH, "utf8"));
-      Object.entries(prev.jugadores || {}).forEach(([id, obj]) => { out[id] = obj; });
-    } catch {}
+  let part = 1;
+  let current = { jugadores: {} };
+  let currentIds = [];
+  let currentBytes = byteLen(current);
+
+  const chunks = [];
+
+  function flush() {
+    if (!Object.keys(current.jugadores).length) return;
+    const fname = `jh-${String(part).padStart(5, "0")}.json`;
+    const fpath = path.join(OUT_DIR_CHUNKS, fname);
+    const payload = current;
+    const text = JSON.stringify(payload, null, 2);
+    fs.writeFileSync(fpath, text, "utf8");
+    const size = Buffer.byteLength(text);
+    chunks.push({
+      file: `jugadores_history/chunks/${fname}`,
+      size,
+      count: Object.keys(payload.jugadores).length,
+      first_id: Math.min(...currentIds),
+      last_id: Math.max(...currentIds),
+    });
+    part += 1;
+    current = { jugadores: {} };
+    currentIds = [];
+    currentBytes = byteLen(current);
   }
 
-  // Overlay: lo nuevo desde by_id.
-  if (fs.existsSync(OUT_DIR_BYID)) {
-    const files = fs.readdirSync(OUT_DIR_BYID).filter(f => /^\d+\.json$/.test(f));
-    for (const f of files) {
-      try {
-        const id = f.replace(".json","");
-        const obj = JSON.parse(fs.readFileSync(path.join(OUT_DIR_BYID, f), "utf8"));
-        out[id] = obj;
-      } catch {}
+  for (const f of files) {
+    const id = Number(f.replace(".json",""));
+    const data = JSON.parse(fs.readFileSync(path.join(OUT_DIR_BYID, f), "utf8"));
+    // pre-chequeo de tamaño: si un solo jugador pesa demasiado, igual caerá en su propio chunk
+    const entry = { [id]: data };
+    const addBytes = byteLen({ jugadores: entry }) - byteLen({ jugadores: {} });
+    if ((currentBytes + addBytes) > CHUNK_TARGET_BYTES && Object.keys(current.jugadores).length) {
+      flush();
     }
+    current.jugadores[id] = data;
+    currentIds.push(id);
+    currentBytes = byteLen(current);
   }
+  flush();
 
-  const payload = { meta:{ generated_at:new Date().toISOString(), total:Object.keys(out).length }, jugadores: out };
+  // manifest
+  const manifest = {
+    generated_at: new Date().toISOString(),
+    chunk_target_bytes: CHUNK_TARGET_BYTES,
+    total_chunks: chunks.length,
+    total_players: files.length,
+    chunks,
+  };
+  fs.writeFileSync(OUT_PATH_MANIFEST, JSON.stringify(manifest, null, 2), "utf8");
+  return manifest;
+}
+function writeSmallRootMeta(manifest) {
+  // Archivo pequeño de compatibilidad
+  const payload = {
+    meta: { generated_at: new Date().toISOString() },
+    total_players: manifest?.total_players ?? null,
+    index: "jugadores_history/index.json",
+    manifest: "jugadores_history/manifest.json",
+    note: "Desde ahora los datos completos están particionados en chunks para evitar el límite de 100MB de GitHub."
+  };
   fs.writeFileSync(OUT_PATH, JSON.stringify(payload, null, 2), "utf8");
-  return { total: payload.meta.total };
+}
+
+function mergeAllToMany(idsMap) {
+  ensureDir(OUT_DIR_ROOT);
+  ensureDir(OUT_DIR_CHUNKS);
+
+  // 1) Índice (liviano)
+  const { total } = buildIndex(idsMap);
+
+  // 2) Chunks desde by_id
+  const manifest = buildChunksFromById();
+
+  // 3) Archivo raíz pequeño (compat)
+  writeSmallRootMeta(manifest);
+
+  console.log(`Index total: ${total} | Chunks: ${manifest.total_chunks} | Players: ${manifest.total_players}`);
 }
 
 // ===== Runner =====
@@ -430,8 +511,9 @@ async function run() {
   const workers = Array.from({ length: CONCURRENCY }, () => worker());
   await Promise.all(workers);
 
-  const { total } = mergeAllToOne();
-  console.log(`OK → ${OUT_PATH} | total fusionado: ${total}`);
+  // Merge final ahora crea index + chunks + manifest + meta pequeña
+  mergeAllToMany(idsMap);
+  console.log(`OK → ${OUT_DIR_ROOT} (index, chunks, manifest) y ${OUT_PATH} (meta pequeña)`);
 }
 
 run().catch(err => {
