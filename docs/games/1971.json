@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1971",
-    "scraped_at": "2025-11-23T00:24:26.862Z",
+    "scraped_at": "2025-11-23T00:25:31.795Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-22 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Chadwick Tromp Out: Elevado al Jardinero Izquierdo",
+    "lastPlayByPlay": "Jasson Domínguez Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 0,
+      "balls": 0,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -598,10 +598,17 @@
           },
           {
             "reference_id": "17947-1-20",
-            "text": "Jasson Domínguez al bate",
+            "text": "Jasson Domínguez Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1763857401
+            "ts": 1763857496
+          },
+          {
+            "reference_id": "17947-1-21",
+            "text": "Erik Gonzalez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763857508
           }
         ]
       }
@@ -639,7 +646,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
