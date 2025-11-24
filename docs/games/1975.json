@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1975",
-    "scraped_at": "2025-11-24T23:28:13.238Z",
+    "scraped_at": "2025-11-24T23:29:17.084Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -174,7 +174,19 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5433,
+            "team_id": 5,
+            "name": "Leury García",
+            "abbreviation": "L. Garcia",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       }
     },
     "comment": "",
@@ -395,6 +407,20 @@
             "ts": 1764026762
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "17981-2-10",
+            "text": "Leury García al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764026952
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -404,6 +430,13 @@
         "label": "Alta 1ra",
         "total_plays": 10,
         "scoring_plays": 2
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
