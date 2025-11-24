@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1974",
-    "scraped_at": "2025-11-24T00:13:08.805Z",
+    "scraped_at": "2025-11-24T00:14:13.212Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-23 17:00:00",
-    "roundText": "Baja 9na",
-    "currentInningNum": 9,
-    "lastPlayByPlay": "Raimel Tapia  Out: Rodado al Campo Corto - Primera Base",
+    "roundText": "Alta 10ma",
+    "currentInningNum": 10,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -335,9 +335,14 @@
           "num": 9,
           "away": 2,
           "home": 0
+        },
+        {
+          "num": 10,
+          "away": 0,
+          "home": 0
         }
       ],
-      "extras": false,
+      "extras": true,
       "totals": {
         "away": {
           "R": 4,
@@ -387,6 +392,10 @@
           {
             "num": 9,
             "R": 4
+          },
+          {
+            "num": 10,
+            "R": 4
           }
         ],
         "home": [
@@ -424,6 +433,10 @@
           },
           {
             "num": 9,
+            "R": 4
+          },
+          {
+            "num": 10,
             "R": 4
           }
         ]
@@ -1080,6 +1093,20 @@
             "ts": 1763943122
           }
         ]
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "plays": [
+          {
+            "reference_id": "19055-1-78",
+            "text": "Cal Stevenson  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763943221
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1194,6 +1221,13 @@
         "label": "Baja 9na",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1256,8 +1290,15 @@
       {
         "num": 9,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 2,
+        "homeTeamRuns": 0
+      },
+      {
+        "num": 10,
+        "part": 1,
+        "is_last": 1,
+        "awayTeamRuns": 0,
         "homeTeamRuns": 0
       }
     ],
@@ -1292,7 +1333,7 @@
         "id": 1973,
         "date": "2025-11-23 17:00:00",
         "status": 2,
-        "roundText": "Alta 8va",
+        "roundText": "Baja 8va",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
