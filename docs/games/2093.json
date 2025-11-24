@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2093",
-    "scraped_at": "2025-11-24T23:45:12.694Z",
+    "scraped_at": "2025-11-24T23:52:24.690Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-24 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ramón Hernández Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         }
       },
@@ -471,6 +471,41 @@
             "ts": 1764027806
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "19056-2-6",
+            "text": "Cal Stevenson  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764028012
+          },
+          {
+            "reference_id": "19056-2-7",
+            "text": "Cristhian Adames Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764028106
+          },
+          {
+            "reference_id": "19056-2-8",
+            "text": "Ramón Hernández Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764028273
+          },
+          {
+            "reference_id": "19056-2-9",
+            "text": "Luis Campusano al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764028280
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -479,6 +514,13 @@
         "half": "top",
         "label": "Alta 1ra",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -552,14 +594,14 @@
         "id": 1975,
         "date": "2025-11-24 19:30:00",
         "status": 2,
-        "roundText": "Alta 2da",
+        "roundText": "Baja 2da",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 3,
-          "hits": 5,
+          "runs": 5,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         },
