@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1973",
-    "scraped_at": "2025-11-24T00:28:11.369Z",
+    "scraped_at": "2025-11-24T00:29:15.962Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -1081,7 +1081,7 @@
           },
           {
             "reference_id": "17970-2-77",
-            "text": "Eddinson Paulino l  Doble! 2 Carreras Impulsadas ",
+            "text": "Eddinson Paulino l  Doble! 2 Carreras Impulsadas, Anota por error en tiro",
             "scored": true,
             "is_primary": true,
             "ts": 1763943836
@@ -1092,6 +1092,13 @@
             "scored": true,
             "is_primary": true,
             "ts": 1763944083
+          },
+          {
+            "reference_id": "17970-2-79",
+            "text": "Julio Carreras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763944112
           }
         ]
       }
@@ -1206,7 +1213,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 7,
+        "total_plays": 8,
         "scoring_plays": 3
       }
     ],
