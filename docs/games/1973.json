@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1973",
-    "scraped_at": "2025-11-24T00:36:48.467Z",
+    "scraped_at": "2025-11-24T00:37:53.322Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-23 17:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ivan Castillo  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -132,10 +132,10 @@
             "position": ""
           },
           {
-            "id": 5373,
+            "id": 5568,
             "team_id": 6,
-            "name": "Onil Perez",
-            "abbreviation": "O. Perez",
+            "name": "Alen Hanson",
+            "abbreviation": "A. Hanson",
             "number": null,
             "dob": null,
             "height": "",
@@ -143,10 +143,10 @@
             "position": ""
           },
           {
-            "id": 5459,
+            "id": 5448,
             "team_id": 6,
-            "name": "Rafael Lantigua ",
-            "abbreviation": "R. Lantigua",
+            "name": "Ivan Castillo",
+            "abbreviation": "I. Castillo",
             "number": null,
             "dob": null,
             "height": "",
@@ -1090,6 +1090,27 @@
             "ts": 1763944236
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "17971-1-80",
+            "text": "Alen Hanson Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763944646
+          },
+          {
+            "reference_id": "17971-1-81",
+            "text": "Ivan Castillo  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1763944665
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1204,6 +1225,13 @@
         "label": "Baja 8va",
         "total_plays": 8,
         "scoring_plays": 3
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
