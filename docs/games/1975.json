@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1975",
-    "scraped_at": "2025-11-24T23:54:33.304Z",
+    "scraped_at": "2025-11-24T23:55:36.613Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-24 19:30:00",
-    "roundText": "Baja 2da",
-    "currentInningNum": 2,
-    "lastPlayByPlay": "Jordan Díaz Out: Elevado al Jardinero Central",
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -246,6 +246,17 @@
             "team_id": 5,
             "name": "Jordan Díaz",
             "abbreviation": "J. Díaz",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5541,
+            "team_id": 5,
+            "name": "Eddinson Paulino l ",
+            "abbreviation": "E. Paulino",
             "number": null,
             "dob": null,
             "height": "",
@@ -583,6 +594,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1764028457
+          },
+          {
+            "reference_id": "17982-2-22",
+            "text": "Eddinson Paulino l  Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764028523
           }
         ]
       }
@@ -613,7 +631,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -628,14 +646,14 @@
       {
         "num": 2,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
