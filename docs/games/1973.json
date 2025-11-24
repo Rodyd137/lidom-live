@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1973",
-    "scraped_at": "2025-11-24T00:22:48.617Z",
+    "scraped_at": "2025-11-24T00:23:53.134Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-23 17:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Nomar Mazara Base por Bolas Intencional ",
+    "lastPlayByPlay": "Kelvin Gutiérrez Base por Bolas Carrera Empujada",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 8
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": true,
       "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "runners": 2,
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 9,
-          "H": 17,
+          "R": 12,
+          "H": 18,
           "E": 0,
           "H2": 4
         },
@@ -329,7 +329,7 @@
         {
           "num": 8,
           "away": 1,
-          "home": 0
+          "home": 3
         },
         {
           "num": 9,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 9,
-          "H": 17,
+          "R": 12,
+          "H": 18,
           "E": 0
         }
       },
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 9
+            "R": 12
           },
           {
             "num": 9,
-            "R": 9
+            "R": 12
           }
         ]
       }
@@ -1074,10 +1074,17 @@
           },
           {
             "reference_id": "17970-2-76",
-            "text": "Kelvin Gutiérrez al bate",
+            "text": "Kelvin Gutiérrez Base por Bolas Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1763943798
+          },
+          {
+            "reference_id": "17970-2-77",
+            "text": "Eddinson Paulino l  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1763943690
+            "ts": 1763943804
           }
         ]
       }
@@ -1192,8 +1199,8 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 5,
-        "scoring_plays": 0
+        "total_plays": 6,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1251,7 +1258,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 3
       },
       {
         "num": 9,
