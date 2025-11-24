@@ -1,11 +1,11 @@
 {
   "source": {
-    "url": "https://pelotainvernal.com/1975",
-    "scraped_at": "2025-11-24T13:29:14.927Z",
+    "url": "https://pelotainvernal.com/2093",
+    "scraped_at": "2025-11-24T13:29:14.961Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
-    "id": 1975,
+    "id": 2093,
     "season_id": 20,
     "status": 1,
     "date": "2025-11-24 19:30:00",
@@ -46,12 +46,12 @@
     },
     "teams": {
       "away": {
-        "id": 3,
-        "name": "Aguilas",
-        "abbr": "AC",
-        "color": "fdc915",
-        "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-        "permalink": "/equipo/aguilas-cibaenas",
+        "id": 6,
+        "name": "Toros",
+        "abbr": "TE",
+        "color": "ef7722",
+        "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
+        "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 0,
           "H": 0,
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Jorge Tavárez",
+          "pitcher": "Aaron Sanchez",
           "era": "",
           "record": "",
           "debut": false
@@ -67,12 +67,12 @@
         "players": []
       },
       "home": {
-        "id": 5,
-        "name": "Gigantes",
-        "abbr": "GC",
-        "color": "831d35",
-        "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-        "permalink": "/equipo/gigantes-del-cibao",
+        "id": 1,
+        "name": "Tigres",
+        "abbr": "TL",
+        "color": "233b77",
+        "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
+        "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 0,
           "H": 0,
@@ -80,7 +80,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Frank Garces",
+          "pitcher": "Radhames Liz",
           "era": "",
           "record": "",
           "debut": false
@@ -298,36 +298,36 @@
     ],
     "siblingGames": [
       {
-        "id": 2093,
+        "id": 1975,
         "date": "2025-11-24 19:30:00",
         "status": 1,
         "roundText": "Alta 1ra",
         "awayTeam": {
-          "id": 6,
-          "name": "Toros",
-          "abbr": "TE",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
+          "id": 3,
+          "name": "Aguilas",
+          "abbr": "AC",
+          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 0,
           "hits": 0,
           "errors": 0,
-          "permalink": "/equipo/toros-del-este"
+          "permalink": "/equipo/aguilas-cibaenas"
         },
         "homeTeam": {
-          "id": 1,
-          "name": "Tigres",
-          "abbr": "TL",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
+          "id": 5,
+          "name": "Gigantes",
+          "abbr": "GC",
+          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 0,
           "hits": 0,
           "errors": 0,
-          "permalink": "/equipo/tigres-del-licey"
+          "permalink": "/equipo/gigantes-del-cibao"
         }
       }
     ],
     "stats_tables": [
       {
-        "title": "Aguilas vs Gigantes",
-        "round": "Temporada Regular (7 Juegos)",
+        "title": "Toros vs Tigres",
+        "round": "Temporada Regular (5 Juegos)",
         "columns": [
           "G",
           "P",
@@ -336,25 +336,25 @@
           "E"
         ],
         "teams": {
-          "Aguilas AC": {
-            "G": 5,
-            "P": 2,
-            "C": 4.6,
-            "H": 6.9,
-            "E": 0.9
+          "Toros TE": {
+            "G": 4,
+            "P": 1,
+            "C": 5.6,
+            "H": 7.6,
+            "E": 0.6
           },
-          "Gigantes GC": {
-            "G": 2,
-            "P": 5,
-            "C": 2.9,
-            "H": 6.4,
-            "E": 0.7
+          "Tigres TL": {
+            "G": 1,
+            "P": 4,
+            "C": 3.8,
+            "H": 7.6,
+            "E": 1
           }
         }
       },
       {
         "title": "Estadísticas Generales",
-        "round": "Temporada Regular (24 Juegos)",
+        "round": "Temporada Regular (25 Juegos)",
         "columns": [
           "G",
           "P",
@@ -364,20 +364,20 @@
           "E"
         ],
         "teams": {
-          "Aguilas AC": {
-            "G": 20,
-            "P": 4,
-            "CA": 6,
-            "CP": 4.2,
-            "H": 8.9,
+          "Toros TE": {
+            "G": 13,
+            "P": 12,
+            "CA": 5.4,
+            "CP": 5.8,
+            "H": 8.2,
             "E": 1
           },
-          "Gigantes GC": {
-            "G": 11,
-            "P": 13,
-            "CA": 4.3,
-            "CP": 4.8,
-            "H": 7.6,
+          "Tigres TL": {
+            "G": 9,
+            "P": 16,
+            "CA": 3.6,
+            "CP": 4.6,
+            "H": 7.9,
             "E": 0.9
           }
         }
