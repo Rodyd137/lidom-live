@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1979",
-    "scraped_at": "2025-11-25T23:40:35.511Z",
+    "scraped_at": "2025-11-25T23:42:41.364Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-25 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Johan Rojas  Ponche (K) ",
+    "lastPlayByPlay": "Carlos Franco Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 0,
+      "balls": 0,
+      "strikes": 1,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -451,10 +451,17 @@
           },
           {
             "reference_id": "18017-1-3",
-            "text": "Carlos Franco al bate",
+            "text": "Carlos Franco Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764114020
+            "ts": 1764114105
+          },
+          {
+            "reference_id": "18017-1-4",
+            "text": "Deyvinson de los Santos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764114108
           }
         ]
       }
@@ -464,7 +471,7 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -544,8 +551,8 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 0,
-          "hits": 1,
+          "runs": 1,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         },
