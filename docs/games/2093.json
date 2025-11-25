@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2093",
-    "scraped_at": "2025-11-25T00:11:23.977Z",
+    "scraped_at": "2025-11-25T00:12:27.205Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-24 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gilberto Celestino  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -569,6 +569,34 @@
             "ts": 1764029314
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19058-1-17",
+            "text": "Denzer Guzmán Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764029513
+          },
+          {
+            "reference_id": "19058-1-18",
+            "text": "Gilberto Celestino  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764029524
+          },
+          {
+            "reference_id": "19058-1-19",
+            "text": "Bryan de la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764029526
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -598,6 +626,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
