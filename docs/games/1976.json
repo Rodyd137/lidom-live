@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1976",
-    "scraped_at": "2025-11-25T23:34:15.456Z",
+    "scraped_at": "2025-11-25T23:35:19.020Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,20 +13,20 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -330,7 +330,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -495,6 +495,20 @@
             "ts": 1764113475
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "17991-1-9",
+            "text": "Eloy Jimenez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764113713
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -511,6 +525,13 @@
         "label": "Baja 1ra",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
