@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1975",
-    "scraped_at": "2025-11-25T00:41:53.850Z",
+    "scraped_at": "2025-11-25T00:42:57.191Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-24 19:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Juan Lagares Ponche (K) ",
+    "lastPlayByPlay": "Webster Rivas  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
-      "balls": 1,
-      "strikes": 0,
-      "outs": 1
+      "balls": 0,
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -808,10 +808,17 @@
           },
           {
             "reference_id": "17985-1-43",
-            "text": "Webster Rivas al bate",
+            "text": "Webster Rivas  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764031247
+            "ts": 1764031346
+          },
+          {
+            "reference_id": "17985-1-44",
+            "text": "Angel Genao al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764031351
           }
         ]
       }
@@ -877,7 +884,7 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -967,8 +974,8 @@
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 1,
-          "hits": 5,
+          "runs": 2,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         }
