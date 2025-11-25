@@ -2,12 +2,13 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2025-11-25T23:38:29.023Z",
+    "scraped_at": "2025-11-25T23:39:32.341Z",
     "tz": "America/Santo_Domingo"
   },
   "tracked_ids": [
     1976,
-    1977
+    1977,
+    1979
   ],
   "live": [
     {
@@ -47,19 +48,19 @@
         }
       },
       "threat": 49,
-      "updated_at": "2025-11-25T23:38:29.023Z"
+      "updated_at": "2025-11-25T23:39:32.341Z"
     },
     {
       "id": 1977,
       "status": 2,
-      "roundText": "Alta 1ra",
+      "roundText": "Baja 1ra",
       "currentInningNum": 1,
       "atBat": null,
-      "lastPlayByPlay": "Luis Campusano  Out: Rodado al Tercera Base - Primera Base",
+      "lastPlayByPlay": null,
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base": {
         "on1B": false,
@@ -68,7 +69,7 @@
         "runners": 0,
         "mask": 1
       },
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "score": {
         "away": {
           "name": "Tigres",
@@ -85,8 +86,47 @@
           "E": 0
         }
       },
-      "threat": 4,
-      "updated_at": "2025-11-25T23:38:29.023Z"
+      "threat": 22,
+      "updated_at": "2025-11-25T23:39:32.341Z"
+    },
+    {
+      "id": 1979,
+      "status": 2,
+      "roundText": "Alta 1ra",
+      "currentInningNum": 1,
+      "atBat": null,
+      "lastPlayByPlay": "Leury García  Out: Rodado al Segunda Base - Primera Base",
+      "counts": {
+        "balls": 0,
+        "strikes": 1,
+        "outs": 1
+      },
+      "base": {
+        "on1B": false,
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
+      },
+      "battingTeam": "awayTeam",
+      "score": {
+        "away": {
+          "name": "Gigantes",
+          "abbr": "GC",
+          "R": 0,
+          "H": 0,
+          "E": 0
+        },
+        "home": {
+          "name": "Estrellas",
+          "abbr": "EO",
+          "R": 0,
+          "H": 0,
+          "E": 0
+        }
+      },
+      "threat": 12,
+      "updated_at": "2025-11-25T23:39:32.341Z"
     }
   ]
 }
