@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1975",
-    "scraped_at": "2025-11-25T02:09:43.167Z",
+    "scraped_at": "2025-11-25T02:10:46.353Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-24 19:30:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Marco Hernández Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -59,7 +59,7 @@
           "H2": 5
         },
         "probables": {
-          "pitcher": "Jorge Tavárez",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -1094,6 +1094,20 @@
             "ts": 1764036413
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "17989-2-75",
+            "text": "Marco Hernández Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764036622
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1215,6 +1229,13 @@
         "label": "Alta 9na",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1287,7 +1308,7 @@
         "id": 2093,
         "date": "2025-11-24 19:30:00",
         "status": 2,
-        "roundText": "Alta 8va",
+        "roundText": "Baja 8va",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
