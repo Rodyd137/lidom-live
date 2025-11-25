@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1975",
-    "scraped_at": "2025-11-25T00:59:46.993Z",
+    "scraped_at": "2025-11-25T01:00:50.144Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-24 19:30:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Steward Berroa Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 5,
-          "H": 8,
+          "H": 9,
           "E": 0,
           "H2": 5
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 5,
-          "H": 8,
+          "H": 9,
           "E": 0
         },
         "home": {
@@ -856,6 +856,27 @@
             "ts": 1764032229
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "17986-1-49",
+            "text": "Steward Berroa Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764032416
+          },
+          {
+            "reference_id": "17986-1-50",
+            "text": "Leody Taveras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764032418
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -927,6 +948,13 @@
         "half": "bottom",
         "label": "Baja 5ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
