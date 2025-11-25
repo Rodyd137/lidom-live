@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2093",
-    "scraped_at": "2025-11-25T01:03:18.994Z",
+    "scraped_at": "2025-11-25T01:04:22.232Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-24 19:30:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Ramón Hernández  Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "Luis Campusano Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -780,10 +780,17 @@
           },
           {
             "reference_id": "19060-2-41",
-            "text": "Luis Campusano al bate",
+            "text": "Luis Campusano Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764032451
+            "ts": 1764032609
+          },
+          {
+            "reference_id": "19060-2-42",
+            "text": "Mel Rojas Jr. al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764032615
           }
         ]
       }
@@ -856,7 +863,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -936,8 +943,8 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 5,
-          "hits": 10,
+          "runs": 6,
+          "hits": 11,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         },
