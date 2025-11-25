@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1975",
-    "scraped_at": "2025-11-25T01:06:28.786Z",
+    "scraped_at": "2025-11-25T01:07:32.186Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-24 19:30:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Ezequiel Duran Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Aderlin Rodríguez Doble Play!  Out: Rodado al - Campo Corto - Segunda Base - Tercera Base",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 5
+      "base": 2
     },
     "base_runners": {
       "on1B": true,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -885,10 +885,17 @@
           },
           {
             "reference_id": "17986-1-52",
-            "text": "Aderlin Rodríguez al bate",
+            "text": "Aderlin Rodríguez Doble Play!  Out: Rodado al - Campo Corto - Segunda Base - Tercera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764032709
+            "ts": 1764032831
+          },
+          {
+            "reference_id": "17986-1-53",
+            "text": "Jose Augusto Rodriguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764032834
           }
         ]
       }
@@ -968,7 +975,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 1
       }
     ],
@@ -1042,7 +1049,7 @@
         "id": 2093,
         "date": "2025-11-24 19:30:00",
         "status": 2,
-        "roundText": "Baja 5ta",
+        "roundText": "Alta 6ta",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
