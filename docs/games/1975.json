@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1975",
-    "scraped_at": "2025-11-25T01:38:02.816Z",
+    "scraped_at": "2025-11-25T01:39:06.265Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 8,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -989,6 +989,20 @@
             "ts": 1764034499
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "17988-1-64",
+            "text": "Steward Berroa al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764034719
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1088,6 +1102,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
