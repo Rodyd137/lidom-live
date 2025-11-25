@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2093",
-    "scraped_at": "2025-11-25T01:16:59.530Z",
+    "scraped_at": "2025-11-25T01:18:02.830Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-24 19:30:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Armando Alvarez Ponche (K) ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -821,6 +821,27 @@
             "ts": 1764033200
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "19061-2-46",
+            "text": "Armando Alvarez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764033468
+          },
+          {
+            "reference_id": "19061-2-47",
+            "text": "David Hensley al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764033476
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -899,6 +920,13 @@
         "half": "top",
         "label": "Alta 6ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
