@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1975",
-    "scraped_at": "2025-11-25T00:37:41.421Z",
+    "scraped_at": "2025-11-25T00:38:44.553Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-24 19:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Adael Amador  Out: Rodado al Tercera Base",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -176,7 +176,7 @@
         "totals": {
           "R": 1,
           "H": 2,
-          "E": 0,
+          "E": 1,
           "H2": 1
         },
         "probables": {
@@ -347,7 +347,7 @@
         "home": {
           "R": 1,
           "H": 2,
-          "E": 0
+          "E": 1
         }
       },
       "cumulative": {
@@ -794,10 +794,17 @@
         "plays": [
           {
             "reference_id": "17985-1-41",
-            "text": "Adael Amador al bate",
+            "text": "Adael Amador  Out: Rodado al Tercera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764030980
+            "ts": 1764031073
+          },
+          {
+            "reference_id": "17985-1-42",
+            "text": "Juan Lagares al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764031076
           }
         ]
       }
@@ -863,7 +870,7 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
