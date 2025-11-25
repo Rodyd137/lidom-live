@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2093",
-    "scraped_at": "2025-11-25T01:10:42.061Z",
+    "scraped_at": "2025-11-25T01:11:45.425Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-24 19:30:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Bryan de la Cruz Sencillo ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -54,7 +54,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 2,
-          "H": 3,
+          "H": 4,
           "E": 1,
           "H2": 2
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 2,
-          "H": 3,
+          "H": 4,
           "E": 1
         },
         "home": {
@@ -793,6 +793,27 @@
             "ts": 1764032822
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "19061-1-43",
+            "text": "Bryan de la Cruz Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764033063
+          },
+          {
+            "reference_id": "19061-1-44",
+            "text": "Manuel Peña al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764033066
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -864,6 +885,13 @@
         "half": "bottom",
         "label": "Baja 5ta",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
