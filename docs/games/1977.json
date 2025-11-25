@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1977",
-    "scraped_at": "2025-11-25T23:44:51.486Z",
+    "scraped_at": "2025-11-25T23:52:15.866Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,7 +9,7 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-25 19:30:00",
-    "roundText": "Alta 2da",
+    "roundText": "Baja 2da",
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
@@ -18,7 +18,7 @@
       "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -492,6 +492,34 @@
             "ts": 1764114258
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18000-1-8",
+            "text": "Mel Rojas Jr. Sencillo, out intento de llegar a segunda",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764114520
+          },
+          {
+            "reference_id": "18000-1-9",
+            "text": "Armando Alvarez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764114613
+          },
+          {
+            "reference_id": "18000-1-10",
+            "text": "David Hensley  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764114709
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -508,6 +536,13 @@
         "label": "Baja 1ra",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -520,7 +555,7 @@
       },
       {
         "num": 2,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -586,8 +621,8 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 1,
-          "hits": 2,
+          "runs": 3,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         },
@@ -606,7 +641,7 @@
         "id": 1979,
         "date": "2025-11-25 19:30:00",
         "status": 2,
-        "roundText": "Alta 1ra",
+        "roundText": "Baja 1ra",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
