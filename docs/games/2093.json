@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2093",
-    "scraped_at": "2025-11-25T01:25:25.361Z",
+    "scraped_at": "2025-11-25T01:26:28.757Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-24 19:30:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Yairo Munoz Out: Elevado al Jardinero Izquierdo",
+    "lastPlayByPlay": "Jeimer Candelario Golpeado por Pelota ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -180,7 +180,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Luis Frias",
+          "pitcher": "Michael Tamarez",
           "era": "",
           "record": "",
           "debut": false
@@ -864,10 +864,17 @@
           },
           {
             "reference_id": "19062-1-50",
-            "text": "Jeimer Candelario al bate",
+            "text": "Jeimer Candelario Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764033911
+            "ts": 1764033931
+          },
+          {
+            "reference_id": "19062-1-51",
+            "text": "Rafael Lantigua  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764033973
           }
         ]
       }
@@ -961,7 +968,7 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
