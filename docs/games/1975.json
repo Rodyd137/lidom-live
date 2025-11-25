@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1975",
-    "scraped_at": "2025-11-25T01:54:55.550Z",
+    "scraped_at": "2025-11-25T01:55:59.056Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-24 19:30:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Julio Carreras Out: Elevado al Jardinero Derecho ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 6,
           "H": 13,
-          "E": 0,
+          "E": 1,
           "H2": 5
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 6,
           "H": 13,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 1,
@@ -1039,10 +1039,24 @@
         "plays": [
           {
             "reference_id": "17988-2-68",
-            "text": "Kenny Piper al bate",
+            "text": "Kenny Piper  Out: Rodado al Tercera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764035580
+            "ts": 1764035707
+          },
+          {
+            "reference_id": "17988-2-69",
+            "text": "Julio Carreras Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764035740
+          },
+          {
+            "reference_id": "17988-2-70",
+            "text": "Leury García al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764035754
           }
         ]
       }
@@ -1157,7 +1171,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -1226,34 +1240,7 @@
         "homeTeamRuns": 0
       }
     ],
-    "siblingGames": [
-      {
-        "id": 2093,
-        "date": "2025-11-24 19:30:00",
-        "status": 2,
-        "roundText": "Baja 7ma",
-        "awayTeam": {
-          "id": 6,
-          "name": "Toros",
-          "abbr": "TE",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 2,
-          "hits": 5,
-          "errors": 1,
-          "permalink": "/equipo/toros-del-este"
-        },
-        "homeTeam": {
-          "id": 1,
-          "name": "Tigres",
-          "abbr": "TL",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 5,
-          "hits": 10,
-          "errors": 1,
-          "permalink": "/equipo/tigres-del-licey"
-        }
-      }
-    ],
+    "siblingGames": [],
     "stats_tables": [
       {
         "title": "Aguilas vs Gigantes",
