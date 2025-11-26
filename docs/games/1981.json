@@ -1,16 +1,16 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1981",
-    "scraped_at": "2025-11-26T23:00:10.136Z",
+    "scraped_at": "2025-11-26T23:26:33.582Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1981,
     "season_id": 20,
-    "status": 1,
+    "status": 2,
     "date": "2025-11-26 19:00:00",
-    "roundText": "Alta 1ra",
-    "currentInningNum": 1,
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
-          "R": 0,
-          "H": 0,
+          "R": 2,
+          "H": 3,
           "E": 0,
-          "H2": 0
+          "H2": 2
         },
         "probables": {
           "pitcher": "Shaun Anderson",
@@ -175,8 +175,8 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 0,
-          "H": 0,
-          "E": 0,
+          "H": 1,
+          "E": 1,
           "H2": 0
         },
         "probables": {
@@ -293,7 +293,7 @@
       "innings": [
         {
           "num": 1,
-          "away": 0,
+          "away": 2,
           "home": 0
         },
         {
@@ -340,53 +340,53 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 0,
+          "R": 2,
+          "H": 3,
           "E": 0
         },
         "home": {
           "R": 0,
-          "H": 0,
-          "E": 0
+          "H": 1,
+          "E": 1
         }
       },
       "cumulative": {
         "away": [
           {
             "num": 1,
-            "R": 0
+            "R": 2
           },
           {
             "num": 2,
-            "R": 0
+            "R": 2
           },
           {
             "num": 3,
-            "R": 0
+            "R": 2
           },
           {
             "num": 4,
-            "R": 0
+            "R": 2
           },
           {
             "num": 5,
-            "R": 0
+            "R": 2
           },
           {
             "num": 6,
-            "R": 0
+            "R": 2
           },
           {
             "num": 7,
-            "R": 0
+            "R": 2
           },
           {
             "num": 8,
-            "R": 0
+            "R": 2
           },
           {
             "num": 9,
-            "R": 0
+            "R": 2
           }
         ],
         "home": [
@@ -429,20 +429,127 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "18035-1-1",
+            "text": "Cal Stevenson  Doble! Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764198825
+          },
+          {
+            "reference_id": "18035-1-2",
+            "text": "Gustavo Nuñez Out: Elevado al Lanzador",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764198850
+          },
+          {
+            "reference_id": "18035-1-3",
+            "text": "Cristhian Adames Sencillo y 1 Carrera Impulsada se embasa por Error del - Jardinero Central",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764198908
+          },
+          {
+            "reference_id": "18035-1-4",
+            "text": "Luis Campusano Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764198946
+          },
+          {
+            "reference_id": "18035-1-5",
+            "text": "Mel Rojas Jr. Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764198997
+          },
+          {
+            "reference_id": "18035-1-6",
+            "text": "Ramón Hernández  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764199061
+          }
+        ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "18035-2-7",
+            "text": "Melvi Mercedes  Sencillo Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764199270
+          },
+          {
+            "reference_id": "18035-2-8",
+            "text": "Johan Rojas  Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764199292
+          },
+          {
+            "reference_id": "18035-2-9",
+            "text": "Eddinson Paulino l  Out: Elevado al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764199417
+          },
+          {
+            "reference_id": "18035-2-10",
+            "text": "Melvi Mercedes  Robo de Base Wild Pitch",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764199481
+          },
+          {
+            "reference_id": "18035-2-11",
+            "text": "Deyvinson de los Santos  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764199503
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 6,
+        "scoring_plays": 2
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 5,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
-        "is_last": 1,
-        "awayTeamRuns": 0,
+        "part": 2,
+        "is_last": 0,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -500,8 +607,8 @@
       {
         "id": 1980,
         "date": "2025-11-26 19:15:00",
-        "status": 3,
-        "roundText": "Alta 1ra",
+        "status": 2,
+        "roundText": "Baja 1ra",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",

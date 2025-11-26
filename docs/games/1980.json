@@ -1,24 +1,24 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1980",
-    "scraped_at": "2025-11-26T23:00:10.182Z",
+    "scraped_at": "2025-11-26T23:26:33.631Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1980,
     "season_id": 20,
-    "status": 3,
+    "status": 2,
     "date": "2025-11-26 19:15:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Junior Lake  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -429,12 +429,77 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "18026-1-1",
+            "text": "Raimel Tapia  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764199121
+          },
+          {
+            "reference_id": "18026-1-2",
+            "text": "Ismael Munguia  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764199172
+          },
+          {
+            "reference_id": "18026-1-3",
+            "text": "Josh Lester Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764199279
+          }
+        ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "18026-2-4",
+            "text": "Junior Lake  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764199571
+          },
+          {
+            "reference_id": "18026-2-5",
+            "text": "Erik Gonzalez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764199577
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 2,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -500,15 +565,15 @@
       {
         "id": 1981,
         "date": "2025-11-26 19:00:00",
-        "status": 1,
-        "roundText": "Alta 1ra",
+        "status": 2,
+        "roundText": "Alta 2da",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 0,
-          "hits": 0,
+          "runs": 2,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         },
@@ -518,8 +583,8 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 0,
-          "hits": 0,
-          "errors": 0,
+          "hits": 1,
+          "errors": 1,
           "permalink": "/equipo/gigantes-del-cibao"
         }
       },
