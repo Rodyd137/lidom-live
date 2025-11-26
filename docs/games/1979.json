@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1979",
-    "scraped_at": "2025-11-26T00:53:58.047Z",
+    "scraped_at": "2025-11-26T00:55:02.059Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-25 19:30:00",
-    "roundText": "Baja 3ra",
-    "currentInningNum": 3,
-    "lastPlayByPlay": "Rodolfo Durán  Out: Rodado al Segunda Base - Primera Base",
+    "roundText": "Alta 4ta",
+    "currentInningNum": 4,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -688,6 +688,20 @@
             "ts": 1764118366
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "18020-1-33",
+            "text": "Carlos Franco al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764118491
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -732,6 +746,13 @@
         "label": "Baja 3ra",
         "total_plays": 7,
         "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -752,14 +773,14 @@
       {
         "num": 3,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 4,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -846,8 +867,8 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 4,
-          "hits": 6,
+          "runs": 6,
+          "hits": 8,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }
