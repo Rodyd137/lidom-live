@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1979",
-    "scraped_at": "2025-11-26T01:13:02.809Z",
+    "scraped_at": "2025-11-26T01:14:06.360Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-25 19:30:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Raimel Tapia Sencillo Jardinero Izquierdo",
+    "lastPlayByPlay": "Raimel Tapia Robo de Base Wild Pitch",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": true,
-      "on3B": false,
+      "on3B": true,
       "runners": 2,
-      "mask": 5
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -766,10 +766,17 @@
           },
           {
             "reference_id": "18020-2-42",
+            "text": "Raimel Tapia Robo de Base Wild Pitch",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764119612
+          },
+          {
+            "reference_id": "18020-2-43",
             "text": "Ismael Munguia al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764119507
+            "ts": 1764119617
           }
         ]
       }
@@ -828,7 +835,7 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 6,
+        "total_plays": 7,
         "scoring_plays": 0
       }
     ],
