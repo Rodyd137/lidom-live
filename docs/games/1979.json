@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1979",
-    "scraped_at": "2025-11-26T00:02:55.102Z",
+    "scraped_at": "2025-11-26T00:03:58.811Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-25 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Wilin Rosario Sencillo Jardinero Izquierdo",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         }
       },
@@ -528,10 +528,17 @@
         "plays": [
           {
             "reference_id": "18018-2-11",
-            "text": "Wilin Rosario al bate",
+            "text": "Wilin Rosario Sencillo Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1764115356
+            "ts": 1764115418
+          },
+          {
+            "reference_id": "18018-2-12",
+            "text": "Ernesto Martinez JR  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764115426
           }
         ]
       }
@@ -562,7 +569,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -662,14 +669,14 @@
         "id": 1977,
         "date": "2025-11-25 19:30:00",
         "status": 2,
-        "roundText": "Baja 2da",
+        "roundText": "Alta 3ra",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 1,
-          "hits": 1,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         },
