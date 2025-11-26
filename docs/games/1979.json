@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1979",
-    "scraped_at": "2025-11-26T02:15:17.034Z",
+    "scraped_at": "2025-11-26T02:16:20.458Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-25 19:30:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Josh Lester Base por Bolas ",
+    "lastPlayByPlay": "Wilin Rosario  Out: Rodado al Campo Corto - Receptor - Primera Base - Doble Play!",
     "counts": {
       "balls": 1,
-      "strikes": 0,
-      "outs": 0
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 8
+      "base": 4
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Antonio Santos ",
+          "pitcher": "",
           "era": "6.28",
           "record": "0-3",
           "debut": false
@@ -941,10 +941,17 @@
           },
           {
             "reference_id": "18022-2-64",
-            "text": "Wilin Rosario al bate",
+            "text": "Wilin Rosario  Out: Rodado al Campo Corto - Receptor - Primera Base - Doble Play!",
             "scored": false,
             "is_primary": true,
-            "ts": 1764123211
+            "ts": 1764123350
+          },
+          {
+            "reference_id": "18022-2-65",
+            "text": "Ernesto Martinez JR  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764123357
           }
         ]
       }
@@ -1031,7 +1038,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
