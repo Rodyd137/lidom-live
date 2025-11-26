@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1979",
-    "scraped_at": "2025-11-26T01:25:43.315Z",
+    "scraped_at": "2025-11-26T01:26:46.454Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-25 19:30:00",
-    "roundText": "Baja 4ta",
-    "currentInningNum": 4,
-    "lastPlayByPlay": "Josh Lester Ponche (K) ",
+    "roundText": "Alta 5ta",
+    "currentInningNum": 5,
+    "lastPlayByPlay": "Nomar Mazara Base por Bolas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 1
+      "battingTeam": "awayTeam",
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -132,10 +132,10 @@
             "position": ""
           },
           {
-            "id": 5249,
+            "id": 5254,
             "team_id": 5,
-            "name": "Kelvin Gutiérrez",
-            "abbreviation": "K. Gutiérrez",
+            "name": "Nomar Mazara",
+            "abbreviation": "N. Mazara",
             "number": null,
             "dob": null,
             "height": "",
@@ -786,6 +786,27 @@
             "ts": 1764120020
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "18021-1-45",
+            "text": "Nomar Mazara Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764120394
+          },
+          {
+            "reference_id": "18021-1-46",
+            "text": "Frank Rodriguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764120397
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -844,6 +865,13 @@
         "label": "Baja 4ta",
         "total_plays": 8,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -871,14 +899,14 @@
       {
         "num": 4,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 5,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
