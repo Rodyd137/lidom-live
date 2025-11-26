@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1976",
-    "scraped_at": "2025-11-26T00:44:23.729Z",
+    "scraped_at": "2025-11-26T00:45:27.308Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-25 19:15:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gio Urshela Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 1,
-          "H": 3,
+          "H": 4,
           "E": 0,
           "H2": 1
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 1,
-          "H": 3,
+          "H": 4,
           "E": 0
         }
       },
@@ -723,6 +723,27 @@
             "ts": 1764117695
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "17993-2-34",
+            "text": "Gio Urshela Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764117913
+          },
+          {
+            "reference_id": "17993-2-35",
+            "text": "Franchy Cordero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764117916
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -774,6 +795,13 @@
         "label": "Alta 4ta",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
