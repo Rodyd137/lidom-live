@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1977",
-    "scraped_at": "2025-11-26T02:40:41.367Z",
+    "scraped_at": "2025-11-26T02:41:44.651Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-25 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Luis Campusano Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 6,
-          "H": 6,
+          "H": 7,
           "E": 0,
           "H2": 2
         },
@@ -180,7 +180,7 @@
           "H2": 6
         },
         "probables": {
-          "pitcher": "Pedro Payano",
+          "pitcher": "Jeurys Familia",
           "era": "",
           "record": "",
           "debut": false
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 6,
-          "H": 6,
+          "H": 7,
           "E": 0
         },
         "home": {
@@ -1059,6 +1059,20 @@
             "ts": 1764124696
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "18007-1-76",
+            "text": "Luis Campusano Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764124893
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1172,6 +1186,13 @@
         "half": "bottom",
         "label": "Baja 8va",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
