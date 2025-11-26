@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1981",
-    "scraped_at": "2025-11-26T23:30:48.956Z",
+    "scraped_at": "2025-11-26T23:31:52.678Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-26 19:00:00",
-    "roundText": "Alta 2da",
+    "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Luis Barrera   Out: Rodado al Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -542,10 +542,24 @@
           },
           {
             "reference_id": "18036-1-14",
-            "text": "Hayden Senger al bate",
+            "text": "Hayden Senger  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764199829
+            "ts": 1764199880
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "18036-2-15",
+            "text": "Marco Hernández al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764199892
           }
         ]
       }
@@ -571,6 +585,13 @@
         "label": "Alta 2da",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -583,7 +604,7 @@
       },
       {
         "num": 2,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
