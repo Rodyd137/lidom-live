@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1977",
-    "scraped_at": "2025-11-26T02:51:09.742Z",
+    "scraped_at": "2025-11-26T03:41:17.501Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1977,
     "season_id": 20,
-    "status": 2,
+    "status": 6,
     "date": "2025-11-25 19:30:00",
-    "roundText": "Alta 9na",
+    "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "David Hensley Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "Alberto Rodriguez Out: Elevado al Jardinero Izquierdo",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 3
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 6
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -40,9 +40,9 @@
       "over_under": null
     },
     "pitchers": {
-      "winning": null,
-      "losing": null,
-      "save": null
+      "winning": "Michael Tamarez",
+      "losing": "Jeurys Familia",
+      "save": "Wuander Suero "
     },
     "teams": {
       "away": {
@@ -53,13 +53,13 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
-          "R": 6,
-          "H": 7,
+          "R": 8,
+          "H": 8,
           "E": 0,
           "H2": 2
         },
         "probables": {
-          "pitcher": "Albert Abreu",
+          "pitcher": "Wuander Suero ",
           "era": "",
           "record": "",
           "debut": false
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 6,
-          "H": 10,
+          "R": 7,
+          "H": 12,
           "E": 1,
           "H2": 6
         },
@@ -333,20 +333,20 @@
         },
         {
           "num": 9,
-          "away": 0,
-          "home": 0
+          "away": 2,
+          "home": 1
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 6,
-          "H": 7,
+          "R": 8,
+          "H": 8,
           "E": 0
         },
         "home": {
-          "R": 6,
-          "H": 10,
+          "R": 7,
+          "H": 12,
           "E": 1
         }
       },
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 6
+            "R": 8
           }
         ],
         "home": [
@@ -424,7 +424,7 @@
           },
           {
             "num": 9,
-            "R": 6
+            "R": 7
           }
         ]
       }
@@ -1102,10 +1102,66 @@
           },
           {
             "reference_id": "18007-1-80",
-            "text": "Hayden Senger al bate",
+            "text": "Hayden Senger Doble! 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764125550
+          },
+          {
+            "reference_id": "18007-1-81",
+            "text": "Esteury Ruiz  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764125384
+            "ts": 1764125814
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "18007-2-82",
+            "text": "Webster Rivas  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764126038
+          },
+          {
+            "reference_id": "18007-2-83",
+            "text": "Angel Genao Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764126112
+          },
+          {
+            "reference_id": "18007-2-84",
+            "text": "Steward Berroa Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764126188
+          },
+          {
+            "reference_id": "18007-2-85",
+            "text": "Leody Taveras Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764126392
+          },
+          {
+            "reference_id": "18007-2-86",
+            "text": "Ezequiel Duran Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764126436
+          },
+          {
+            "reference_id": "18007-2-87",
+            "text": "Alberto Rodriguez Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764126585
           }
         ]
       }
@@ -1227,8 +1283,15 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
+        "total_plays": 7,
+        "scoring_plays": 1
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
         "total_plays": 6,
-        "scoring_plays": 0
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1290,10 +1353,10 @@
       },
       {
         "num": 9,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
-        "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "awayTeamRuns": 2,
+        "homeTeamRuns": 1
       }
     ],
     "siblingGames": [
@@ -1326,15 +1389,15 @@
       {
         "id": 1979,
         "date": "2025-11-25 19:30:00",
-        "status": 2,
-        "roundText": "Alta 8va",
+        "status": 6,
+        "roundText": "Baja 9na",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 2,
-          "hits": 4,
+          "hits": 5,
           "errors": 1,
           "permalink": "/equipo/gigantes-del-cibao"
         },
@@ -1344,7 +1407,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 4,
-          "hits": 10,
+          "hits": 11,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }

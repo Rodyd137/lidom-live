@@ -1,24 +1,24 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1979",
-    "scraped_at": "2025-11-26T02:51:09.791Z",
+    "scraped_at": "2025-11-26T03:41:17.483Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1979,
     "season_id": 20,
-    "status": 2,
+    "status": 6,
     "date": "2025-11-25 19:30:00",
-    "roundText": "Alta 8va",
-    "currentInningNum": 8,
-    "lastPlayByPlay": "Deyvinson de los Santos Cuadrangular! 2 Carreras Impulsadas ",
+    "roundText": "Baja 9na",
+    "currentInningNum": 9,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -40,9 +40,9 @@
       "over_under": null
     },
     "pitchers": {
-      "winning": null,
-      "losing": null,
-      "save": null
+      "winning": "Esmil Rogers",
+      "losing": "Jake Faria ",
+      "save": "Patrick Weigel"
     },
     "teams": {
       "away": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 2,
-          "H": 4,
+          "H": 5,
           "E": 1,
           "H2": 0
         },
@@ -175,13 +175,13 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 4,
-          "H": 10,
+          "H": 11,
           "E": 0,
           "H2": 3
         },
         "probables": {
-          "pitcher": "Carlos Belén",
-          "era": "",
+          "pitcher": "Patrick Weigel",
+          "era": "2.03",
           "record": "1-1",
           "debut": false
         },
@@ -341,12 +341,12 @@
       "totals": {
         "away": {
           "R": 2,
-          "H": 4,
+          "H": 5,
           "E": 1
         },
         "home": {
           "R": 4,
-          "H": 10,
+          "H": 11,
           "E": 0
         }
       },
@@ -1067,10 +1067,80 @@
           },
           {
             "reference_id": "18024-1-80",
-            "text": "Carlos Peguero  al bate",
+            "text": "Carlos Peguero  Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764125274
+            "ts": 1764125484
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "18024-2-81",
+            "text": "Ismael Munguia  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764125767
+          },
+          {
+            "reference_id": "18024-2-82",
+            "text": "Josh Lester Doble! Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764125862
+          },
+          {
+            "reference_id": "18024-2-83",
+            "text": "Wilin Rosario Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764126008
+          },
+          {
+            "reference_id": "18024-2-84",
+            "text": "Ernesto Martinez JR   Out: Rodado al Campo Corto - Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764126132
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "18025-1-85",
+            "text": "Kelvin Gutiérrez Sencillo Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764126363
+          },
+          {
+            "reference_id": "18025-1-86",
+            "text": "Nomar Mazara Out Robando Base! Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764126504
+          },
+          {
+            "reference_id": "18025-1-87",
+            "text": "Marco Hernández Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764126879
+          },
+          {
+            "reference_id": "18025-1-88",
+            "text": "Geraldi Díaz Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764127045
           }
         ]
       }
@@ -1180,6 +1250,20 @@
         "label": "Alta 8va",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 4,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1234,15 +1318,15 @@
       },
       {
         "num": 8,
-        "part": 1,
-        "is_last": 1,
+        "part": 2,
+        "is_last": 0,
         "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
         "num": 9,
-        "part": 1,
-        "is_last": 0,
+        "part": 2,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       }
@@ -1277,15 +1361,15 @@
       {
         "id": 1977,
         "date": "2025-11-25 19:30:00",
-        "status": 2,
-        "roundText": "Alta 9na",
+        "status": 6,
+        "roundText": "Baja 9na",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 6,
-          "hits": 7,
+          "runs": 8,
+          "hits": 8,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         },
@@ -1294,8 +1378,8 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 6,
-          "hits": 10,
+          "runs": 7,
+          "hits": 12,
           "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
         }
