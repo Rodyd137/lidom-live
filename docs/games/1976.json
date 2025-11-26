@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1976",
-    "scraped_at": "2025-11-26T00:21:00.083Z",
+    "scraped_at": "2025-11-26T00:22:03.974Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-25 19:15:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Chadwick Tromp Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -275,10 +275,10 @@
             "position": ""
           },
           {
-            "id": 5294,
+            "id": 5507,
             "team_id": 4,
-            "name": "Pedro Severino",
-            "abbreviation": "P. Severino",
+            "name": "Chadwick Tromp",
+            "abbreviation": "C. Tromp",
             "number": null,
             "dob": null,
             "height": "",
@@ -639,6 +639,27 @@
             "ts": 1764116280
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "17992-2-25",
+            "text": "Chadwick Tromp Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764116515
+          },
+          {
+            "reference_id": "17992-2-26",
+            "text": "Jasson Domínguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764116520
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -675,6 +696,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -748,7 +776,7 @@
         "id": 1977,
         "date": "2025-11-25 19:30:00",
         "status": 2,
-        "roundText": "Baja 3ra",
+        "roundText": "Alta 4ta",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
