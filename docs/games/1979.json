@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1979",
-    "scraped_at": "2025-11-26T01:41:32.146Z",
+    "scraped_at": "2025-11-26T01:42:35.419Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-25 19:30:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Wilin Rosario Base por Bolas ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -59,9 +59,9 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Ryley Gilliam ",
-          "era": "3.60",
-          "record": "0-0",
+          "pitcher": "",
+          "era": "6.28",
+          "record": "0-3",
           "debut": false
         },
         "players": [
@@ -825,10 +825,17 @@
         "plays": [
           {
             "reference_id": "18021-2-51",
-            "text": "Wilin Rosario al bate",
+            "text": "Wilin Rosario Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764121087
+            "ts": 1764121335
+          },
+          {
+            "reference_id": "18021-2-52",
+            "text": "Ernesto Martinez JR  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764121340
           }
         ]
       }
@@ -901,7 +908,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1001,7 +1008,7 @@
         "id": 1977,
         "date": "2025-11-25 19:30:00",
         "status": 2,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
