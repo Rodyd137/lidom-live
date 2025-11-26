@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1976",
-    "scraped_at": "2025-11-26T02:19:30.397Z",
+    "scraped_at": "2025-11-26T02:20:34.341Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-25 19:15:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Rafael Lantigua  Sencillo ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 4,
-          "H": 10,
+          "H": 11,
           "E": 0,
           "H2": 4
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 4,
-          "H": 10,
+          "H": 11,
           "E": 0
         },
         "home": {
@@ -1038,6 +1038,27 @@
             "ts": 1764123419
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "17998-1-70",
+            "text": "Rafael Lantigua  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764123605
+          },
+          {
+            "reference_id": "17998-1-71",
+            "text": "Gilberto Celestino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764123609
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1152,6 +1173,13 @@
         "label": "Baja 8va",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1230,7 +1258,7 @@
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 3,
+          "runs": 4,
           "hits": 5,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
