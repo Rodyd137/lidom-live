@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1976",
-    "scraped_at": "2025-11-26T01:43:38.767Z",
+    "scraped_at": "2025-11-26T01:44:41.843Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-11-25 19:15:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Bryan de la Cruz Ponche (K) ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
@@ -898,6 +898,27 @@
             "ts": 1764121177
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "17996-1-54",
+            "text": "Bryan de la Cruz Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764121442
+          },
+          {
+            "reference_id": "17996-1-55",
+            "text": "Manuel Peña al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764121445
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -983,6 +1004,13 @@
         "half": "bottom",
         "label": "Baja 6ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1099,7 +1127,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 3,
-          "hits": 7,
+          "hits": 8,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
