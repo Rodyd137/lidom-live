@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1979",
-    "scraped_at": "2025-11-26T02:39:38.163Z",
+    "scraped_at": "2025-11-26T02:40:41.385Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-25 19:30:00",
-    "roundText": "Baja 7ma",
-    "currentInningNum": 7,
-    "lastPlayByPlay": "Raimel Tapia  Out: Rodado al Segunda Base - Campo Corto - Primera Base - Doble Play!",
+    "roundText": "Alta 8va",
+    "currentInningNum": 8,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "balls": 1,
+      "strikes": 2,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -60,8 +60,8 @@
         },
         "probables": {
           "pitcher": "",
-          "era": "6.28",
-          "record": "0-3",
+          "era": "",
+          "record": "",
           "debut": false
         },
         "players": [
@@ -180,9 +180,9 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Jhan Mariñez",
+          "pitcher": "Carlos Belén",
           "era": "",
-          "record": "",
+          "record": "1-1",
           "debut": false
         },
         "players": [
@@ -1031,6 +1031,20 @@
             "ts": 1764124621
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "18024-1-76",
+            "text": "Eddinson Paulino l  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764124787
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1131,6 +1145,13 @@
         "label": "Baja 7ma",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1179,14 +1200,14 @@
       {
         "num": 7,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 1
       },
       {
         "num": 8,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
