@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1982",
-    "scraped_at": "2025-11-27T02:02:26.985Z",
+    "scraped_at": "2025-11-27T02:03:31.419Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-26 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Eloy Jimenez  Sencillo ",
+    "lastPlayByPlay": "Jeimer Candelario  Out: Rodado al Segunda Base - Campo Corto",
     "counts": {
       "balls": 1,
-      "strikes": 0,
-      "outs": 0
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -941,10 +941,17 @@
           },
           {
             "reference_id": "18050-2-58",
-            "text": "Jeimer Candelario al bate",
+            "text": "Jeimer Candelario  Out: Rodado al Segunda Base - Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1764208929
+            "ts": 1764208980
+          },
+          {
+            "reference_id": "18050-2-59",
+            "text": "Yairo Munoz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764208985
           }
         ]
       }
@@ -1045,7 +1052,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
