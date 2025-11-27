@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1982",
-    "scraped_at": "2025-11-27T00:57:58.147Z",
+    "scraped_at": "2025-11-27T00:59:02.815Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -716,6 +716,20 @@
             "ts": 1764204896
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "18047-2-33",
+            "text": "Felix Reyes al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764205106
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -767,6 +781,13 @@
         "label": "Alta 4ta",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
