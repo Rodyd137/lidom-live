@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1980",
-    "scraped_at": "2025-11-27T02:09:57.273Z",
+    "scraped_at": "2025-11-27T02:11:01.763Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 8,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 3,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -110,10 +110,10 @@
             "position": ""
           },
           {
-            "id": 5562,
+            "id": 5351,
             "team_id": 7,
-            "name": "Ernesto Martinez JR ",
-            "abbreviation": "E. Martinez JR",
+            "name": "Eguy Rosario",
+            "abbreviation": "E. Rosario",
             "number": null,
             "dob": null,
             "height": "",
@@ -1010,6 +1010,20 @@
             "ts": 1764209176
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "18033-1-67",
+            "text": "Eguy Rosario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764209438
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1109,6 +1123,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
