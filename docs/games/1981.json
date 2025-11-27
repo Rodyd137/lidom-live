@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1981",
-    "scraped_at": "2025-11-27T00:50:26.064Z",
+    "scraped_at": "2025-11-27T00:51:31.487Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-26 19:00:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "David Hensley Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Shaun Anderson",
+          "pitcher": "Luis Frias",
           "era": "",
           "record": "",
           "debut": false
@@ -863,6 +863,20 @@
             "ts": 1764204513
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "18041-2-50",
+            "text": "Deyvinson de los Santos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764204658
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -956,6 +970,13 @@
         "label": "Alta 7ma",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1003,7 +1024,7 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
