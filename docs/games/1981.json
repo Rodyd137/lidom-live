@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1981",
-    "scraped_at": "2025-11-27T01:16:14.481Z",
+    "scraped_at": "2025-11-27T01:17:19.096Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-26 19:00:00",
-    "roundText": "Alta 9na",
+    "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Luis Campusano Out: Elevado al Campo Corto",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 2
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -976,10 +976,24 @@
           },
           {
             "reference_id": "18043-1-62",
-            "text": "Mel Rojas Jr. al bate",
+            "text": "Mel Rojas Jr. Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764206087
+            "ts": 1764206179
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "18043-2-63",
+            "text": "Melvi Mercedes  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764206214
           }
         ]
       }
@@ -1103,6 +1117,13 @@
         "label": "Alta 9na",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1164,7 +1185,7 @@
       },
       {
         "num": 9,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -1182,7 +1203,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 0,
-          "hits": 6,
+          "hits": 7,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         },

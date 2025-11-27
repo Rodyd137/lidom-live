@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1982",
-    "scraped_at": "2025-11-27T01:16:14.534Z",
+    "scraped_at": "2025-11-27T01:17:19.140Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 5,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -786,6 +786,20 @@
             "ts": 1764206020
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "18048-2-41",
+            "text": "Rafael Lantigua  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764206184
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -850,6 +864,13 @@
         "half": "top",
         "label": "Alta 5ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -930,7 +951,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 0,
-          "hits": 6,
+          "hits": 7,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         },
@@ -949,7 +970,7 @@
         "id": 1981,
         "date": "2025-11-26 19:00:00",
         "status": 2,
-        "roundText": "Alta 9na",
+        "roundText": "Baja 9na",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
