@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1982",
-    "scraped_at": "2025-11-27T01:07:38.325Z",
+    "scraped_at": "2025-11-27T01:08:42.943Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-26 19:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Alberto Rodriguez Golpeado por Pelota ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -180,7 +180,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Justin Courtney",
+          "pitcher": "Greg Minier ",
           "era": "",
           "record": "",
           "debut": false
@@ -759,10 +759,17 @@
         "plays": [
           {
             "reference_id": "18048-1-37",
-            "text": "Alberto Rodriguez al bate",
+            "text": "Alberto Rodriguez Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764205656
+            "ts": 1764205669
+          },
+          {
+            "reference_id": "18048-1-38",
+            "text": "Aderlin Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764205697
           }
         ]
       }
@@ -828,7 +835,7 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
