@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1984",
-    "scraped_at": "2025-11-28T23:34:44.210Z",
+    "scraped_at": "2025-11-28T23:43:41.508Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-28 19:30:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 0,
-          "H": 0,
+          "R": 1,
+          "H": 2,
           "E": 0,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
           "pitcher": "Abdiel Mendoza",
@@ -88,10 +88,32 @@
             "position": ""
           },
           {
+            "id": 5454,
+            "team_id": 3,
+            "name": "Ezequiel Duran",
+            "abbreviation": "E. Duran",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
             "id": 5390,
             "team_id": 3,
             "name": "Alberto Rodriguez",
             "abbreviation": "A. Rodriguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5389,
+            "team_id": 3,
+            "name": "Aderlin Rodríguez",
+            "abbreviation": "A. Rodríguez",
             "number": null,
             "dob": null,
             "height": "",
@@ -127,7 +149,7 @@
       "innings": [
         {
           "num": 1,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -174,8 +196,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 0,
+          "R": 1,
+          "H": 2,
           "E": 0
         },
         "home": {
@@ -188,39 +210,39 @@
         "away": [
           {
             "num": 1,
-            "R": 0
+            "R": 1
           },
           {
             "num": 2,
-            "R": 0
+            "R": 1
           },
           {
             "num": 3,
-            "R": 0
+            "R": 1
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ],
         "home": [
@@ -271,10 +293,38 @@
         "plays": [
           {
             "reference_id": "18062-1-1",
-            "text": "Steward Berroa al bate",
+            "text": "Steward Berroa Doble! ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764372857
+            "ts": 1764372956
+          },
+          {
+            "reference_id": "18062-1-2",
+            "text": "Leody Taveras Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764373035
+          },
+          {
+            "reference_id": "18062-1-3",
+            "text": "Ezequiel Duran  Out: Rodado al Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764373263
+          },
+          {
+            "reference_id": "18062-1-4",
+            "text": "Alberto Rodriguez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764373280
+          },
+          {
+            "reference_id": "18062-1-5",
+            "text": "Aderlin Rodríguez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764373397
           }
         ]
       }
@@ -284,16 +334,16 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 1,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
@@ -358,7 +408,7 @@
         "id": 1983,
         "date": "2025-11-28 19:00:00",
         "status": 2,
-        "roundText": "Alta 2da",
+        "roundText": "Baja 2da",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -375,7 +425,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 1,
-          "hits": 2,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }

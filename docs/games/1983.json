@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1983",
-    "scraped_at": "2025-11-28T23:34:44.207Z",
+    "scraped_at": "2025-11-28T23:43:41.484Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-28 19:00:00",
-    "roundText": "Alta 2da",
+    "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Felix Reyes Out: Línea al Jardinero Derecho ",
+    "lastPlayByPlay": "Melvi Mercedes  Base por Bolas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
       "outs": 2
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 1
+      "battingTeam": "homeTeam",
+      "base": 6
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on3B": true,
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -164,7 +164,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 1,
-          "H": 2,
+          "H": 3,
           "E": 0,
           "H2": 1
         },
@@ -224,6 +224,17 @@
             "team_id": 5,
             "name": "Nomar Mazara",
             "abbreviation": "N. Mazara",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5585,
+            "team_id": 5,
+            "name": "Taylor Sumad",
+            "abbreviation": "T.  Sumad",
             "number": null,
             "dob": null,
             "height": "",
@@ -324,7 +335,7 @@
         },
         "home": {
           "R": 1,
-          "H": 2,
+          "H": 3,
           "E": 0
         }
       },
@@ -505,18 +516,67 @@
         "label": "Alta 2da",
         "plays": [
           {
-            "reference_id": "18054-1-12",
-            "text": "Felix Reyes  Out: Rodado al Campo Corto - Primera Base",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1764372867
-          },
-          {
             "reference_id": "18054-1-13",
             "text": "Felix Reyes Out: Línea al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
             "ts": 1764372883
+          },
+          {
+            "reference_id": "18054-1-14",
+            "text": "Yairo Munoz  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764372897
+          },
+          {
+            "reference_id": "18054-1-15",
+            "text": "Jeimer Candelario Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764372949
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "18054-2-16",
+            "text": "Eddinson Paulino l   Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764373186
+          },
+          {
+            "reference_id": "18054-2-17",
+            "text": "Frank Rodriguez Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764373204
+          },
+          {
+            "reference_id": "18054-2-18",
+            "text": "Jose Torres  Triple! Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764373230
+          },
+          {
+            "reference_id": "18054-2-19",
+            "text": "Melvi Mercedes  Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764373402
+          },
+          {
+            "reference_id": "18054-2-20",
+            "text": "Johan Rojas  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764373405
           }
         ]
       }
@@ -540,7 +600,14 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 2,
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -554,7 +621,7 @@
       },
       {
         "num": 2,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -614,14 +681,14 @@
         "id": 1984,
         "date": "2025-11-28 19:30:00",
         "status": 2,
-        "roundText": "Alta 1ra",
+        "roundText": "Baja 1ra",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 0,
-          "hits": 0,
+          "runs": 1,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         },
