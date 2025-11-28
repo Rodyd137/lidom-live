@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1984",
-    "scraped_at": "2025-11-28T23:53:04.088Z",
+    "scraped_at": "2025-11-28T23:54:06.475Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,20 +13,20 @@
     "currentInningNum": 1,
     "lastPlayByPlay": "Cristhian Adames Ponche (K) ",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 6
+      "base": 8
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -169,6 +169,17 @@
             "team_id": 1,
             "name": "Cristhian Adames",
             "abbreviation": "C. Adames",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5534,
+            "team_id": 1,
+            "name": "Luis Campusano",
+            "abbreviation": "L Campusano",
             "number": null,
             "dob": null,
             "height": "",
@@ -387,6 +398,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1764373928
+          },
+          {
+            "reference_id": "18062-2-9",
+            "text": "Luis Campusano al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764374004
           }
         ]
       }
@@ -403,7 +421,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
