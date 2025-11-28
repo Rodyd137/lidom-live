@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1984",
-    "scraped_at": "2025-11-28T23:55:06.466Z",
+    "scraped_at": "2025-11-28T23:56:10.446Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-11-28 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Cristhian Adames Ponche (K) ",
+    "lastPlayByPlay": "Luis Campusano Base por Bolas ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
@@ -180,6 +180,17 @@
             "team_id": 1,
             "name": "Luis Campusano",
             "abbreviation": "L Campusano",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5276,
+            "team_id": 1,
+            "name": "Mel Rojas Jr.",
+            "abbreviation": "M. Rojas Jr.",
             "number": null,
             "dob": null,
             "height": "",
@@ -401,10 +412,17 @@
           },
           {
             "reference_id": "18062-2-9",
-            "text": "Luis Campusano al bate",
+            "text": "Luis Campusano Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764374004
+            "ts": 1764374133
+          },
+          {
+            "reference_id": "18062-2-10",
+            "text": "Mel Rojas Jr. al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764374141
           }
         ]
       }
@@ -421,7 +439,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -511,8 +529,8 @@
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 5,
-          "hits": 6,
+          "runs": 8,
+          "hits": 7,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
