@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1984",
-    "scraped_at": "2025-11-28T23:45:48.114Z",
+    "scraped_at": "2025-11-28T23:46:50.447Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-28 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Cal Stevenson  Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -131,7 +131,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -141,7 +141,19 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5519,
+            "team_id": 1,
+            "name": "Cal Stevenson ",
+            "abbreviation": "C. Stevenson",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       }
     },
     "comment": "",
@@ -202,7 +214,7 @@
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         }
       },
@@ -327,6 +339,20 @@
             "ts": 1764373397
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "18062-2-6",
+            "text": "Cal Stevenson  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764373605
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -336,6 +362,13 @@
         "label": "Alta 1ra",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
