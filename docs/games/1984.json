@@ -1,20 +1,20 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1984",
-    "scraped_at": "2025-11-28T23:33:39.662Z",
+    "scraped_at": "2025-11-28T23:34:44.210Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1984,
     "season_id": 20,
-    "status": 3,
+    "status": 2,
     "date": "2025-11-28 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -263,8 +263,31 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "18062-1-1",
+            "text": "Steward Berroa al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764372857
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
@@ -360,7 +383,7 @@
       {
         "id": 1985,
         "date": "2025-11-28 19:30:00",
-        "status": 3,
+        "status": 4,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 4,
