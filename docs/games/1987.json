@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1987",
-    "scraped_at": "2025-11-29T22:47:08.306Z",
+    "scraped_at": "2025-11-29T22:48:19.400Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-29 18:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "David Hensley Doble! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -125,6 +125,28 @@
             "team_id": 1,
             "name": "Ramón Hernández",
             "abbreviation": "R. Hernández",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5571,
+            "team_id": 1,
+            "name": "David Hensley",
+            "abbreviation": "D. Hensley",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5266,
+            "team_id": 1,
+            "name": "Francisco Mejía",
+            "abbreviation": "F. Mejía",
             "number": null,
             "dob": null,
             "height": "",
@@ -308,7 +330,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -529,6 +551,27 @@
             "ts": 1764456272
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "18091-1-16",
+            "text": "David Hensley Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764456481
+          },
+          {
+            "reference_id": "18091-1-17",
+            "text": "Francisco Mejía al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764456494
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -558,6 +601,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
