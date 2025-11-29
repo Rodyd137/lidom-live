@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1984",
-    "scraped_at": "2025-11-29T02:45:12.230Z",
+    "scraped_at": "2025-11-29T02:46:14.464Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,19 +14,19 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Oscar Rayo",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -828,6 +828,20 @@
             "ts": 1764384121
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "18066-2-46",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764384357
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -893,6 +907,13 @@
         "label": "Alta 5ta",
         "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
