@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1984",
-    "scraped_at": "2025-11-29T02:15:05.019Z",
+    "scraped_at": "2025-11-29T02:16:07.549Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-28 19:30:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Mel Rojas Jr.  Out: Rodado al Primera Base - Lanzador",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 4,
-          "H": 3,
+          "H": 4,
           "E": 2,
           "H2": 4
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 4,
-          "H": 3,
+          "H": 4,
           "E": 2
         }
       },
@@ -731,10 +731,17 @@
         "plays": [
           {
             "reference_id": "18065-2-34",
-            "text": "Mel Rojas Jr. al bate",
+            "text": "Mel Rojas Jr.  Out: Rodado al Primera Base - Lanzador",
             "scored": false,
             "is_primary": true,
-            "ts": 1764382438
+            "ts": 1764382514
+          },
+          {
+            "reference_id": "18065-2-35",
+            "text": "Ramón Hernández al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764382518
           }
         ]
       }
@@ -793,7 +800,7 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -899,8 +906,8 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 2,
-          "hits": 6,
+          "runs": 4,
+          "hits": 7,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
