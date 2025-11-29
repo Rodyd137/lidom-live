@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1985",
-    "scraped_at": "2025-11-29T01:12:04.321Z",
+    "scraped_at": "2025-11-29T01:13:08.460Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-11-28 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Rodolfo Durán Cuadrangular! ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
@@ -174,10 +174,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 0,
-          "H": 2,
+          "R": 1,
+          "H": 3,
           "E": 0,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
           "pitcher": "Oscar de la Cruz",
@@ -299,7 +299,7 @@
         {
           "num": 2,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 3,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 0,
-          "H": 2,
+          "R": 1,
+          "H": 3,
           "E": 0
         }
       },
@@ -396,35 +396,35 @@
           },
           {
             "num": 2,
-            "R": 0
+            "R": 1
           },
           {
             "num": 3,
-            "R": 0
+            "R": 1
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ]
       }
@@ -549,10 +549,17 @@
         "plays": [
           {
             "reference_id": "18072-2-14",
-            "text": "Rodolfo Durán al bate",
+            "text": "Rodolfo Durán Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764378740
+          },
+          {
+            "reference_id": "18072-2-15",
+            "text": "Junior Perez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764378670
+            "ts": 1764378746
           }
         ]
       }
@@ -583,8 +590,8 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
-        "scoring_plays": 0
+        "total_plays": 2,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -600,7 +607,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 3,
