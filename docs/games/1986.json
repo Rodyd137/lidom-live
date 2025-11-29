@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1986",
-    "scraped_at": "2025-11-29T22:48:19.382Z",
+    "scraped_at": "2025-11-29T22:49:25.800Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-29 16:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Angel Martinez  Ponche (K) ",
     "counts": {
-      "balls": 3,
+      "balls": 0,
       "strikes": 2,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -180,7 +180,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Trevor Kelley ",
           "era": "",
           "record": "",
           "debut": false
@@ -961,6 +961,27 @@
             "ts": 1764456167
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "18087-1-63",
+            "text": "Angel Martinez  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764456526
+          },
+          {
+            "reference_id": "18087-1-64",
+            "text": "Carlos Martinez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764456534
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1061,6 +1082,13 @@
         "label": "Baja 7ma",
         "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
