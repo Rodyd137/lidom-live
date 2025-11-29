@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1988",
-    "scraped_at": "2025-11-29T23:54:42.985Z",
+    "scraped_at": "2025-11-29T23:55:46.285Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-29 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Nomar Mazara Doble! Jardinero Central",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 6
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on3B": true,
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -335,7 +335,7 @@
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         }
       },
@@ -496,10 +496,17 @@
         "plays": [
           {
             "reference_id": "18099-1-9",
-            "text": "Nomar Mazara al bate",
+            "text": "Nomar Mazara Doble! Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1764460359
+            "ts": 1764460502
+          },
+          {
+            "reference_id": "18099-1-10",
+            "text": "Taylor Sumad al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764460505
           }
         ]
       }
@@ -523,7 +530,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
