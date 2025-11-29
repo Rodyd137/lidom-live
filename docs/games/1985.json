@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1985",
-    "scraped_at": "2025-11-29T01:38:44.103Z",
+    "scraped_at": "2025-11-29T01:39:46.376Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 0,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 0
         },
         "home": {
@@ -646,6 +646,20 @@
             "ts": 1764380160
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "18074-1-26",
+            "text": "Gio Urshela al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764380373
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -689,6 +703,13 @@
         "half": "bottom",
         "label": "Baja 3ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -779,7 +800,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 12,
-          "hits": 12,
+          "hits": 13,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
