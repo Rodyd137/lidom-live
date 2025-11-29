@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1984",
-    "scraped_at": "2025-11-29T02:32:44.681Z",
+    "scraped_at": "2025-11-29T02:33:46.959Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-28 19:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ezequiel Duran Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 2,
-          "H": 6,
+          "H": 7,
           "E": 1,
           "H2": 2
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 2,
-          "H": 6,
+          "H": 7,
           "E": 1
         },
         "home": {
@@ -772,6 +772,27 @@
             "ts": 1764383393
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "18066-1-40",
+            "text": "Ezequiel Duran Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764383582
+          },
+          {
+            "reference_id": "18066-1-41",
+            "text": "Alberto Rodriguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764383594
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -829,6 +850,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
