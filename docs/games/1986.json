@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1986",
-    "scraped_at": "2025-11-29T21:33:43.973Z",
+    "scraped_at": "2025-11-29T21:43:46.811Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-29 16:00:00",
-    "roundText": "Alta 4ta",
+    "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Josh Lester Out: Elevado al Jardinero Izquierdo",
+    "lastPlayByPlay": "Socrates Brito  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 1,
-      "strikes": 2,
+      "strikes": 1,
       "outs": 2
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 2
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 4,
-          "H": 3,
+          "H": 4,
           "E": 1,
           "H2": 4
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 4,
-          "H": 3,
+          "H": 4,
           "E": 1
         },
         "home": {
@@ -717,10 +717,45 @@
           },
           {
             "reference_id": "18083-1-35",
-            "text": "Robinson Canó  al bate",
+            "text": "Robinson Canó  Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764451897
+            "ts": 1764452043
+          },
+          {
+            "reference_id": "18083-1-36",
+            "text": "Ismael Munguia Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764452156
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "18083-2-37",
+            "text": "Yamaico Navarro Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764452481
+          },
+          {
+            "reference_id": "18083-2-38",
+            "text": "Socrates Brito  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764452588
+          },
+          {
+            "reference_id": "18083-2-39",
+            "text": " Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764452597
           }
         ]
       }
@@ -772,7 +807,14 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 4,
+        "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -800,7 +842,7 @@
       },
       {
         "num": 4,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
