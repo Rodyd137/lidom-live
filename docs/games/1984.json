@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1984",
-    "scraped_at": "2025-11-29T00:18:36.851Z",
+    "scraped_at": "2025-11-29T00:19:40.751Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-28 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Adael Amador Golpeado por Pelota ",
+    "lastPlayByPlay": "Adael Amador Out Robando Base! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -125,6 +125,17 @@
             "team_id": 3,
             "name": "Adael Amador",
             "abbreviation": "A. Amador",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5331,
+            "team_id": 3,
+            "name": "Jose Augusto Rodriguez",
+            "abbreviation": "J. A. Rodriguez",
             "number": null,
             "dob": null,
             "height": "",
@@ -509,6 +520,20 @@
             "scored": false,
             "is_primary": true,
             "ts": 1764375499
+          },
+          {
+            "reference_id": "18063-1-15",
+            "text": "Jose Augusto Rodriguez Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764375551
+          },
+          {
+            "reference_id": "18063-1-14-263923",
+            "text": "Adael Amador Out Robando Base! ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1764375570
           }
         ]
       }
@@ -532,7 +557,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
