@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1987",
-    "scraped_at": "2025-11-29T22:33:53.890Z",
+    "scraped_at": "2025-11-29T22:34:58.700Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -92,6 +92,17 @@
             "team_id": 1,
             "name": "Cristhian Adames",
             "abbreviation": "C. Adames",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5534,
+            "team_id": 1,
+            "name": "Luis Campusano",
+            "abbreviation": "L Campusano",
             "number": null,
             "dob": null,
             "height": "",
@@ -407,6 +418,20 @@
             "ts": 1764455540
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18090-1-10",
+            "text": "Luis Campusano al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764455657
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -423,6 +448,13 @@
         "label": "Baja 1ra",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
