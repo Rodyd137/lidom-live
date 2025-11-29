@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1986",
-    "scraped_at": "2025-11-29T22:34:58.611Z",
+    "scraped_at": "2025-11-29T22:36:03.981Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-29 16:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Hector Rodríguez Sencillo ",
+    "lastPlayByPlay": "José Marmolejos Sencillo y 1 Carrera Impulsada ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 6
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
-      "on3B": true,
+      "on2B": true,
+      "on3B": false,
       "runners": 2,
-      "mask": 6
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 4
         },
         "probables": {
-          "pitcher": "Jhan Mariñez",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 0,
-          "H": 3,
+          "R": 1,
+          "H": 4,
           "E": 3,
           "H2": 0
         },
@@ -264,10 +264,10 @@
             "position": ""
           },
           {
-            "id": 5308,
+            "id": 5497,
             "team_id": 4,
-            "name": "Alexander Canario",
-            "abbreviation": "A. Canario",
+            "name": "José Marmolejos",
+            "abbreviation": "J. Marmolejos",
             "number": null,
             "dob": null,
             "height": "",
@@ -324,7 +324,7 @@
         {
           "num": 7,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 8,
@@ -345,8 +345,8 @@
           "E": 1
         },
         "home": {
-          "R": 0,
-          "H": 3,
+          "R": 1,
+          "H": 4,
           "E": 3
         }
       },
@@ -416,15 +416,15 @@
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ]
       }
@@ -934,10 +934,17 @@
           },
           {
             "reference_id": "18086-2-59",
-            "text": "Alexander Canario al bate",
+            "text": "José Marmolejos Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764455742
+          },
+          {
+            "reference_id": "18086-2-60",
+            "text": "Chadwick Tromp al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764455510
+            "ts": 1764455745
           }
         ]
       }
@@ -1038,8 +1045,8 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1090,7 +1097,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 8,
