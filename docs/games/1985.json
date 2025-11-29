@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1985",
-    "scraped_at": "2025-11-29T02:56:15.515Z",
+    "scraped_at": "2025-11-29T02:57:17.775Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 6,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -849,6 +849,20 @@
             "ts": 1764384812
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "18076-1-51",
+            "text": "Erik Gonzalez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764384994
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -921,6 +935,13 @@
         "label": "Baja 5ta",
         "total_plays": 6,
         "scoring_plays": 2
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1035,8 +1056,8 @@
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 7,
-          "hits": 5,
+          "runs": 8,
+          "hits": 6,
           "errors": 2,
           "permalink": "/equipo/tigres-del-licey"
         }
