@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1984",
-    "scraped_at": "2025-11-29T04:08:32.700Z",
+    "scraped_at": "2025-11-29T04:09:34.947Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-28 19:30:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Cal Stevenson  Ponche (K) ",
+    "lastPlayByPlay": "Gustavo Nuñez Cuadrangular! 2 Carreras Impulsadas ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
-          "R": 8,
-          "H": 11,
+          "R": 10,
+          "H": 12,
           "E": 3,
           "H2": 8
         },
@@ -329,7 +329,7 @@
         {
           "num": 8,
           "away": 2,
-          "home": 0
+          "home": 2
         },
         {
           "num": 9,
@@ -345,8 +345,8 @@
           "E": 3
         },
         "home": {
-          "R": 8,
-          "H": 11,
+          "R": 10,
+          "H": 12,
           "E": 3
         }
       },
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 8
+            "R": 10
           },
           {
             "num": 9,
-            "R": 8
+            "R": 10
           }
         ]
       }
@@ -1116,10 +1116,17 @@
           },
           {
             "reference_id": "18069-2-80",
-            "text": "Gustavo Nuñez al bate",
+            "text": "Gustavo Nuñez Cuadrangular! 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764389337
+          },
+          {
+            "reference_id": "18069-2-81",
+            "text": "Cristhian Adames al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764389283
+            "ts": 1764389368
           }
         ]
       }
@@ -1234,8 +1241,8 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1293,7 +1300,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 2,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 2
       },
       {
         "num": 9,
