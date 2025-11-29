@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1987",
-    "scraped_at": "2025-11-29T22:49:25.822Z",
+    "scraped_at": "2025-11-29T22:50:30.578Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-29 18:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "David Hensley Doble! ",
+    "lastPlayByPlay": "Francisco Mejía  Out: Rodado al Lanzador - Tercera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -147,6 +147,17 @@
             "team_id": 1,
             "name": "Francisco Mejía",
             "abbreviation": "F. Mejía",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5272,
+            "team_id": 1,
+            "name": "Armando Alvarez",
+            "abbreviation": "A. Alvarez",
             "number": null,
             "dob": null,
             "height": "",
@@ -566,10 +577,17 @@
           },
           {
             "reference_id": "18091-1-17",
-            "text": "Francisco Mejía al bate",
+            "text": "Francisco Mejía  Out: Rodado al Lanzador - Tercera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764456494
+            "ts": 1764456567
+          },
+          {
+            "reference_id": "18091-1-18",
+            "text": "Armando Alvarez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764456579
           }
         ]
       }
@@ -607,7 +625,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
