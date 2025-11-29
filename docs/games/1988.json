@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1988",
-    "scraped_at": "2025-11-29T23:39:02.891Z",
+    "scraped_at": "2025-11-29T23:40:23.251Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-29 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Johan Rojas  Sencillo Jardinero Central",
+    "lastPlayByPlay": "Johan Rojas  Robo de Base ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -440,10 +440,17 @@
           },
           {
             "reference_id": "18098-1-3",
+            "text": "Johan Rojas  Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764459570
+          },
+          {
+            "reference_id": "18098-1-4",
             "text": "Marco Hernández al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764459519
+            "ts": 1764459573
           }
         ]
       }
@@ -453,7 +460,7 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
