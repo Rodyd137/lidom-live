@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1984",
-    "scraped_at": "2025-11-29T00:08:59.720Z",
+    "scraped_at": "2025-11-29T00:10:03.846Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-28 19:30:00",
-    "roundText": "Baja 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "David Hensley Sencillo y 1 Carrera Impulsada ",
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -467,16 +467,23 @@
           {
             "reference_id": "18062-2-12",
             "text": "David Hensley Sencillo y 1 Carrera Impulsada ",
-            "scored": true,
+            "scored": false,
             "is_primary": true,
             "ts": 1764374495
           },
           {
             "reference_id": "18062-2-13",
-            "text": "Luis Barrera  al bate",
+            "text": "Luis Barrera  Quedo al bate",
             "scored": false,
             "is_primary": true,
             "ts": 1764374737
+          },
+          {
+            "reference_id": "18062-2-12-263907",
+            "text": "David Hensley Out Robando Base! ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1764374978
           }
         ]
       }
@@ -493,22 +500,22 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 8,
-        "scoring_plays": 3
+        "total_plays": 9,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
       {
         "num": 1,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 4
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
