@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1983",
-    "scraped_at": "2025-11-29T00:01:31.149Z",
+    "scraped_at": "2025-11-29T00:02:35.384Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-28 19:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Rafael Lantigua   Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "Tres Barrera  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -147,6 +147,17 @@
             "team_id": 6,
             "name": "Rafael Lantigua ",
             "abbreviation": "R. Lantigua",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5573,
+            "team_id": 6,
+            "name": "Tres Barrera",
+            "abbreviation": "T. Barrera",
             "number": null,
             "dob": null,
             "height": "",
@@ -635,11 +646,18 @@
             "ts": 1764374461
           },
           {
-            "reference_id": "18055-1-28",
-            "text": "Rafael Lantigua  al bate",
+            "reference_id": "18055-1-29",
+            "text": "Tres Barrera  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764374473
+            "ts": 1764374546
+          },
+          {
+            "reference_id": "18055-1-30",
+            "text": "Gilberto Celestino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764374552
           }
         ]
       }
@@ -677,7 +695,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
