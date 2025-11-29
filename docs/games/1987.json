@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1987",
-    "scraped_at": "2025-11-29T22:24:08.926Z",
+    "scraped_at": "2025-11-29T22:25:13.808Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-29 18:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Steward Berroa Cuadrangular! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -108,10 +108,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 0,
-          "H": 0,
+          "R": 1,
+          "H": 1,
           "E": 0,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
           "pitcher": "Jorge Tavárez",
@@ -173,7 +173,7 @@
         {
           "num": 1,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 2,
@@ -224,8 +224,8 @@
           "E": 0
         },
         "home": {
-          "R": 0,
-          "H": 0,
+          "R": 1,
+          "H": 1,
           "E": 0
         }
       },
@@ -271,39 +271,39 @@
         "home": [
           {
             "num": 1,
-            "R": 0
+            "R": 1
           },
           {
             "num": 2,
-            "R": 0
+            "R": 1
           },
           {
             "num": 3,
-            "R": 0
+            "R": 1
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ]
       }
@@ -344,10 +344,17 @@
         "plays": [
           {
             "reference_id": "18089-2-4",
-            "text": "Steward Berroa al bate",
+            "text": "Steward Berroa Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764455079
+          },
+          {
+            "reference_id": "18089-2-5",
+            "text": "Leody Taveras al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764455015
+            "ts": 1764455105
           }
         ]
       }
@@ -364,8 +371,8 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 1,
-        "scoring_plays": 0
+        "total_plays": 2,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -374,7 +381,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 2,
