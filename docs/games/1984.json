@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1984",
-    "scraped_at": "2025-11-29T04:04:23.391Z",
+    "scraped_at": "2025-11-29T04:05:25.692Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-28 19:30:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Hayden Senger Sencillo ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 8,
-          "H": 10,
+          "H": 11,
           "E": 3,
           "H2": 8
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 8,
-          "H": 10,
+          "H": 11,
           "E": 3
         }
       },
@@ -1102,10 +1102,17 @@
         "plays": [
           {
             "reference_id": "18069-2-77",
-            "text": "Hayden Senger al bate",
+            "text": "Hayden Senger Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764389024
+            "ts": 1764389084
+          },
+          {
+            "reference_id": "18069-2-78",
+            "text": "Luis Barrera  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764389087
           }
         ]
       }
@@ -1220,7 +1227,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
