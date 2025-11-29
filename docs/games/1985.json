@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1985",
-    "scraped_at": "2025-11-29T01:53:16.482Z",
+    "scraped_at": "2025-11-29T01:54:18.757Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-28 19:30:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Robinson Canó   Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -695,6 +695,27 @@
             "ts": 1764381049
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "18074-2-32",
+            "text": "Robinson Canó   Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764381237
+          },
+          {
+            "reference_id": "18074-2-33",
+            "text": "Rodolfo Durán al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764381242
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -746,6 +767,13 @@
         "label": "Alta 4ta",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -818,7 +846,7 @@
         "id": 1983,
         "date": "2025-11-28 19:00:00",
         "status": 2,
-        "roundText": "Alta 8va",
+        "roundText": "Baja 8va",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
