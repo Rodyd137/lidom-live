@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1983",
-    "scraped_at": "2025-11-29T02:16:07.523Z",
+    "scraped_at": "2025-11-29T02:17:09.997Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-28 19:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Ivan Castillo Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "Sandber Pimentel Base por Bolas ",
     "counts": {
-      "balls": 3,
+      "balls": 0,
       "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -66,10 +66,10 @@
         },
         "players": [
           {
-            "id": 5382,
+            "id": 5380,
             "team_id": 6,
-            "name": "Gilberto Celestino",
-            "abbreviation": "G. Celestino",
+            "name": "Ronald Guzman",
+            "abbreviation": "R. Guzman",
             "number": null,
             "dob": null,
             "height": "",
@@ -81,17 +81,6 @@
             "team_id": 6,
             "name": "Jard Oliva",
             "abbreviation": "J. Oliva",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 5380,
-            "team_id": 6,
-            "name": "Ronald Guzman",
-            "abbreviation": "R. Guzman",
             "number": null,
             "dob": null,
             "height": "",
@@ -154,10 +143,10 @@
             "position": ""
           },
           {
-            "id": 5573,
+            "id": 5381,
             "team_id": 6,
-            "name": "Tres Barrera",
-            "abbreviation": "T. Barrera",
+            "name": "Sandber Pimentel",
+            "abbreviation": "S. Pimentel",
             "number": null,
             "dob": null,
             "height": "",
@@ -1098,10 +1087,17 @@
           },
           {
             "reference_id": "18061-1-86",
-            "text": "Tres Barrera al bate",
+            "text": "Sandber Pimentel Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764381719
+            "ts": 1764382590
+          },
+          {
+            "reference_id": "18061-1-87",
+            "text": "Ronald Guzman al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764382614
           }
         ]
       }
@@ -1223,7 +1219,7 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
