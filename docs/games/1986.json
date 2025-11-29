@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1986",
-    "scraped_at": "2025-11-29T23:09:00.684Z",
+    "scraped_at": "2025-11-29T23:10:04.928Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-29 16:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Vidal Brujan Out Robando Base! ",
+    "lastPlayByPlay": "Ismael Munguia Doble! 1 Carrera Impulsada ",
     "counts": {
-      "balls": 2,
+      "balls": 1,
       "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 5
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": true,
-      "on3B": false,
+      "on3B": true,
       "runners": 2,
-      "mask": 5
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 5,
-          "H": 9,
+          "R": 6,
+          "H": 10,
           "E": 1,
           "H2": 4
         },
@@ -121,10 +121,10 @@
             "position": ""
           },
           {
-            "id": 5588,
+            "id": 5356,
             "team_id": 7,
-            "name": "Enmanuel Valdéz",
-            "abbreviation": "E. Valdéz",
+            "name": "Rainer Nuñez",
+            "abbreviation": "R. Nuñez",
             "number": null,
             "dob": null,
             "height": "",
@@ -333,15 +333,15 @@
         },
         {
           "num": 9,
-          "away": 1,
+          "away": 2,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 5,
-          "H": 9,
+          "R": 6,
+          "H": 10,
           "E": 1
         },
         "home": {
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 5
+            "R": 6
           }
         ],
         "home": [
@@ -1060,10 +1060,17 @@
           },
           {
             "reference_id": "18088-1-73",
-            "text": "Ismael Munguia al bate",
+            "text": "Ismael Munguia Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764457750
+          },
+          {
+            "reference_id": "18088-1-74",
+            "text": "Rainer Nuñez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764457703
+            "ts": 1764457791
           }
         ]
       }
@@ -1185,8 +1192,8 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 6,
-        "scoring_plays": 1
+        "total_plays": 7,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1250,7 +1257,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 1,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       }
     ],
