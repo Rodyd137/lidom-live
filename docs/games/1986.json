@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1986",
-    "scraped_at": "2025-11-29T19:59:46.220Z",
+    "scraped_at": "2025-11-29T20:30:32.826Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1986,
     "season_id": 20,
-    "status": 3,
+    "status": 2,
     "date": "2025-11-29 16:00:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Elier Hernandez se embasa por Error del Campo Corto",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 2,
+      "strikes": 2,
+      "outs": 2
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 1
+      "battingTeam": "homeTeam",
+      "base": 7
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on2B": true,
+      "on3B": true,
+      "runners": 2,
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 0,
           "H": 0,
-          "E": 0,
+          "E": 1,
           "H2": 0
         },
         "probables": {
@@ -121,6 +121,17 @@
             "position": ""
           },
           {
+            "id": 5588,
+            "team_id": 7,
+            "name": "Enmanuel Valdéz",
+            "abbreviation": "E. Valdéz",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
             "id": 5526,
             "team_id": 7,
             "name": "Angel Martinez ",
@@ -164,12 +175,12 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Grant Gavin",
           "era": "",
           "record": "",
           "debut": false
@@ -331,11 +342,11 @@
         "away": {
           "R": 0,
           "H": 0,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         }
       },
@@ -418,12 +429,112 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "18080-1-1",
+            "text": "Raimel Tapia  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764446969
+          },
+          {
+            "reference_id": "18080-1-2",
+            "text": "Vidal Brujan (Sin Asistencia) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764447015
+          },
+          {
+            "reference_id": "18080-1-3",
+            "text": "Josh Lester Base por Bolas  ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764447157
+          },
+          {
+            "reference_id": "18080-1-4",
+            "text": "Robinson Canó  Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764447304
+          },
+          {
+            "reference_id": "18080-1-5",
+            "text": "Ismael Munguia Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764447458
+          }
+        ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "18080-2-6",
+            "text": "Junior Lake Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764447708
+          },
+          {
+            "reference_id": "18080-2-7",
+            "text": "Erik Gonzalez Doble Play! Campo Corto - Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764447854
+          },
+          {
+            "reference_id": "18080-2-8",
+            "text": "Gio Urshela Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764447927
+          },
+          {
+            "reference_id": "18080-2-9",
+            "text": "Elier Hernandez se embasa por Error del Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764448044
+          },
+          {
+            "reference_id": "18080-2-10",
+            "text": "Yamaico Navarro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764448051
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 5,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
