@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1984",
-    "scraped_at": "2025-11-29T03:47:16.844Z",
+    "scraped_at": "2025-11-29T03:48:21.053Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-28 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Angel Genao Doble! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 3,
-          "H": 8,
+          "H": 9,
           "E": 3,
           "H2": 3
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 3,
-          "H": 8,
+          "H": 9,
           "E": 3
         },
         "home": {
@@ -1045,6 +1045,27 @@
             "ts": 1764387901
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "18069-1-71",
+            "text": "Angel Genao Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764388088
+          },
+          {
+            "reference_id": "18069-1-72",
+            "text": "Steward Berroa al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764388092
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1144,6 +1165,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1250,7 +1278,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 6,
-          "hits": 10,
+          "hits": 11,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
