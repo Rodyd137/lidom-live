@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1987",
-    "scraped_at": "2025-11-29T23:19:44.267Z",
+    "scraped_at": "2025-11-29T23:20:48.755Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 4,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -674,6 +674,20 @@
             "ts": 1764458237
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "18092-2-29",
+            "text": "Juan Lagares al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764458400
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -725,6 +739,13 @@
         "label": "Alta 4ta",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -797,7 +818,7 @@
         "id": 1986,
         "date": "2025-11-29 16:00:00",
         "status": 2,
-        "roundText": "Alta 9na",
+        "roundText": "Baja 9na",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
