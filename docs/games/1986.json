@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1986",
-    "scraped_at": "2025-11-29T23:14:22.445Z",
+    "scraped_at": "2025-11-29T23:15:27.162Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-29 16:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Rainer Nuñez Ponche (K) ",
+    "lastPlayByPlay": "Angel Martinez  Doble! ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 7
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
       "on2B": true,
-      "on3B": true,
-      "runners": 2,
-      "mask": 7
+      "on3B": false,
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 6,
-          "H": 10,
+          "R": 8,
+          "H": 11,
           "E": 1,
           "H2": 4
         },
@@ -333,15 +333,15 @@
         },
         {
           "num": 9,
-          "away": 2,
+          "away": 4,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 6,
-          "H": 10,
+          "R": 8,
+          "H": 11,
           "E": 1
         },
         "home": {
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 6
+            "R": 8
           }
         ],
         "home": [
@@ -1074,10 +1074,17 @@
           },
           {
             "reference_id": "18088-1-75",
-            "text": "Angel Martinez  al bate",
+            "text": "Angel Martinez  Doble! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764458098
+          },
+          {
+            "reference_id": "18088-1-76",
+            "text": "Carlos Martinez  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764457890
+            "ts": 1764458103
           }
         ]
       }
@@ -1199,8 +1206,8 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 8,
-        "scoring_plays": 2
+        "total_plays": 9,
+        "scoring_plays": 3
       }
     ],
     "innings_raw": [
@@ -1264,7 +1271,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 2,
+        "awayTeamRuns": 4,
         "homeTeamRuns": 0
       }
     ],
