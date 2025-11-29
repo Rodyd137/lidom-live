@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1984",
-    "scraped_at": "2025-11-29T03:41:58.573Z",
+    "scraped_at": "2025-11-29T03:43:00.790Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-28 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Mel Rojas Jr. Base por Bolas ",
+    "lastPlayByPlay": "Ramón Hernández Doble Play!  Out: Rodado al - Campo Corto - Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -1025,10 +1025,17 @@
           },
           {
             "reference_id": "18068-2-68",
-            "text": "Ramón Hernández al bate",
+            "text": "Ramón Hernández Doble Play!  Out: Rodado al - Campo Corto - Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764387701
+            "ts": 1764387743
+          },
+          {
+            "reference_id": "18068-2-69",
+            "text": "David Hensley al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764387746
           }
         ]
       }
@@ -1129,7 +1136,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
