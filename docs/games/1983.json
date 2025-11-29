@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1983",
-    "scraped_at": "2025-11-29T01:35:37.914Z",
+    "scraped_at": "2025-11-29T01:36:40.090Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-28 19:00:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Jard Oliva Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -989,6 +989,20 @@
             "ts": 1764380088
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "18059-2-72",
+            "text": "Melvi Mercedes  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764380144
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1082,6 +1096,13 @@
         "label": "Alta 7ma",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1129,7 +1150,7 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -1180,7 +1201,7 @@
         "id": 1985,
         "date": "2025-11-28 19:30:00",
         "status": 2,
-        "roundText": "Baja 3ra",
+        "roundText": "Alta 4ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
