@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1986",
-    "scraped_at": "2025-11-29T22:07:25.067Z",
+    "scraped_at": "2025-11-29T22:08:28.544Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-29 16:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Erik Gonzalez Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -842,6 +842,27 @@
             "ts": 1764453897
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "18085-2-49",
+            "text": "Erik Gonzalez Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764454103
+          },
+          {
+            "reference_id": "18085-2-50",
+            "text": "Gio Urshela al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764454107
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -920,6 +941,13 @@
         "half": "top",
         "label": "Alta 6ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
