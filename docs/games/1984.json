@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1984",
-    "scraped_at": "2025-11-29T02:53:32.558Z",
+    "scraped_at": "2025-11-29T02:55:12.159Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-28 19:30:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Luis Campusano Out: Elevado al Tercera Base",
+    "lastPlayByPlay": "Ramón Hernández Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -857,10 +857,24 @@
           },
           {
             "reference_id": "18066-2-49",
-            "text": "Mel Rojas Jr. al bate",
+            "text": "Mel Rojas Jr. Sencillo y 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764384809
+          },
+          {
+            "reference_id": "18066-2-50",
+            "text": "Ramón Hernández Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764384735
+            "ts": 1764384852
+          },
+          {
+            "reference_id": "18066-2-51",
+            "text": "David Hensley al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764384896
           }
         ]
       }
@@ -933,8 +947,8 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 6,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1033,7 +1047,7 @@
         "id": 1985,
         "date": "2025-11-28 19:30:00",
         "status": 2,
-        "roundText": "Baja 5ta",
+        "roundText": "Alta 6ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
