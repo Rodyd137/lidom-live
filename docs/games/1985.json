@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1985",
-    "scraped_at": "2025-11-29T02:59:22.543Z",
+    "scraped_at": "2025-11-29T03:00:24.917Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-28 19:30:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Erik Gonzalez Base por Bolas ",
+    "lastPlayByPlay": "Erik Gonzalez Robo de Base ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 2
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -864,10 +864,24 @@
           },
           {
             "reference_id": "18076-1-52",
-            "text": "Hector Rodríguez al bate",
+            "text": "Hector Rodríguez Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1764385081
+            "ts": 1764385165
+          },
+          {
+            "reference_id": "18076-1-53",
+            "text": "Gio Urshela al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764385167
+          },
+          {
+            "reference_id": "18076-1-52-264205",
+            "text": "Erik Gonzalez Robo de Base ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1764385181
           }
         ]
       }
@@ -947,7 +961,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 2,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
