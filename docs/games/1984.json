@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1984",
-    "scraped_at": "2025-11-29T03:04:34.485Z",
+    "scraped_at": "2025-11-29T03:05:36.833Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-28 19:30:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Angel Genao se embasa por Error del Segunda Base",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -176,7 +176,7 @@
         "totals": {
           "R": 8,
           "H": 6,
-          "E": 2,
+          "E": 3,
           "H2": 8
         },
         "probables": {
@@ -347,7 +347,7 @@
         "home": {
           "R": 8,
           "H": 6,
-          "E": 2
+          "E": 3
         }
       },
       "cumulative": {
@@ -892,10 +892,17 @@
         "plays": [
           {
             "reference_id": "18067-1-53",
-            "text": "Angel Genao al bate",
+            "text": "Angel Genao se embasa por Error del Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764385471
+            "ts": 1764385527
+          },
+          {
+            "reference_id": "18067-1-54",
+            "text": "Steward Berroa al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764385532
           }
         ]
       }
@@ -975,7 +982,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
