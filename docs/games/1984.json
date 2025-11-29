@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1984",
-    "scraped_at": "2025-11-29T00:26:05.969Z",
+    "scraped_at": "2025-11-29T00:27:10.070Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-28 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Luis Barrera  Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -59,7 +59,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Abdiel Mendoza",
+          "pitcher": "Oscar Rayo",
           "era": "",
           "record": "",
           "debut": false
@@ -572,6 +572,20 @@
             "ts": 1764375760
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "18063-2-18",
+            "text": "Luis Barrera  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764376020
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -594,6 +608,13 @@
         "half": "top",
         "label": "Alta 2da",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
