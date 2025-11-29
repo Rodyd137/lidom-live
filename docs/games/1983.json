@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1983",
-    "scraped_at": "2025-11-29T00:05:47.767Z",
+    "scraped_at": "2025-11-29T00:06:51.557Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-28 19:00:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Gilberto Celestino Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Janser Lara",
+          "pitcher": "Richelson Peña",
           "era": "",
           "record": "",
           "debut": false
@@ -658,13 +658,20 @@
             "scored": false,
             "is_primary": true,
             "ts": 1764374709
-          },
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
           {
-            "reference_id": "18055-1-31",
-            "text": "Jard Oliva al bate",
+            "reference_id": "18055-2-32",
+            "text": "Frank Rodriguez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764374711
+            "ts": 1764374797
           }
         ]
       }
@@ -702,7 +709,14 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 4,
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -723,7 +737,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
