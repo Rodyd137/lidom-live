@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1986",
-    "scraped_at": "2025-11-29T21:12:15.778Z",
+    "scraped_at": "2025-11-29T21:13:20.374Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-29 16:00:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Carlos Martinez  Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -640,10 +640,17 @@
           },
           {
             "reference_id": "18082-1-26",
-            "text": "Jose Tena  al bate",
+            "text": "Angel Martinez  Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1764450701
+            "ts": 1764450736
+          },
+          {
+            "reference_id": "18082-1-27",
+            "text": "Jose Tena   Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764450762
           }
         ]
       }
@@ -681,7 +688,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -702,7 +709,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
