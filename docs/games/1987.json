@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1987",
-    "scraped_at": "2025-11-29T23:41:30.263Z",
+    "scraped_at": "2025-11-29T23:42:34.602Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-29 18:00:00",
-    "roundText": "Baja 5ta",
-    "currentInningNum": 5,
-    "lastPlayByPlay": "Steward Berroa  Out: Rodado al Segunda Base - Primera Base",
+    "roundText": "Alta 6ta",
+    "currentInningNum": 6,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -752,10 +752,17 @@
           },
           {
             "reference_id": "18093-2-37",
-            "text": "Leody Taveras al bate",
+            "text": "Leody Taveras  Out: Rodado al Campo Corto - Primera Base - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764459686
+          },
+          {
+            "reference_id": "18093-2-38",
+            "text": "Ezequiel Duran  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764459548
+            "ts": 1764459733
           }
         ]
       }
@@ -828,8 +835,8 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -864,14 +871,14 @@
       {
         "num": 5,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 1
       },
       {
         "num": 6,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
