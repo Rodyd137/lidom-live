@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1986",
-    "scraped_at": "2025-11-29T22:26:18.568Z",
+    "scraped_at": "2025-11-29T22:27:23.483Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-29 16:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Socrates Brito Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 4,
-          "H": 5,
+          "H": 6,
           "E": 1,
           "H2": 4
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 4,
-          "H": 5,
+          "H": 6,
           "E": 1
         },
         "home": {
@@ -913,10 +913,24 @@
         "plays": [
           {
             "reference_id": "18086-2-56",
-            "text": "Yamaico Navarro al bate",
+            "text": "Yamaico Navarro  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764455131
+            "ts": 1764455178
+          },
+          {
+            "reference_id": "18086-2-57",
+            "text": "Socrates Brito Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764455217
+          },
+          {
+            "reference_id": "18086-2-58",
+            "text": " Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764455221
           }
         ]
       }
@@ -1017,7 +1031,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
