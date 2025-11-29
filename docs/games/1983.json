@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1983",
-    "scraped_at": "2025-11-29T00:36:47.214Z",
+    "scraped_at": "2025-11-29T00:37:51.271Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-28 19:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Yairo Munoz Doble! Jardinero Izquierdo",
+    "lastPlayByPlay": "Jeimer Candelario Sencillo y 3 Carreras Impulsadas ",
     "counts": {
       "balls": 1,
-      "strikes": 2,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 7
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": true,
-      "on3B": true,
-      "runners": 2,
-      "mask": 7
+      "on1B": true,
+      "on2B": false,
+      "on3B": false,
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 1,
-          "H": 4,
+          "R": 3,
+          "H": 5,
           "E": 1,
-          "H2": 1
+          "H2": 3
         },
         "probables": {
           "pitcher": "Richelson Peña",
@@ -308,7 +308,7 @@
         },
         {
           "num": 4,
-          "away": 1,
+          "away": 3,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 1,
-          "H": 4,
+          "R": 3,
+          "H": 5,
           "E": 1
         },
         "home": {
@@ -366,27 +366,27 @@
           },
           {
             "num": 4,
-            "R": 1
+            "R": 3
           },
           {
             "num": 5,
-            "R": 1
+            "R": 3
           },
           {
             "num": 6,
-            "R": 1
+            "R": 3
           },
           {
             "num": 7,
-            "R": 1
+            "R": 3
           },
           {
             "num": 8,
-            "R": 1
+            "R": 3
           },
           {
             "num": 9,
-            "R": 1
+            "R": 3
           }
         ],
         "home": [
@@ -766,10 +766,17 @@
           },
           {
             "reference_id": "18056-1-46",
-            "text": "Jeimer Candelario al bate",
+            "text": "Jeimer Candelario Sencillo y 3 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764376630
+          },
+          {
+            "reference_id": "18056-1-47",
+            "text": "Rafael Lantigua  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764376458
+            "ts": 1764376635
           }
         ]
       }
@@ -821,8 +828,8 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 6,
-        "scoring_plays": 1
+        "total_plays": 7,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -851,7 +858,7 @@
         "num": 4,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 1,
+        "awayTeamRuns": 3,
         "homeTeamRuns": 0
       },
       {
