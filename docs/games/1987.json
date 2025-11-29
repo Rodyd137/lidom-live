@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1987",
-    "scraped_at": "2025-11-29T23:10:04.956Z",
+    "scraped_at": "2025-11-29T23:11:09.201Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-29 18:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gustavo Nuñez Out: Línea al ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -639,6 +639,27 @@
             "ts": 1764457662
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "18092-1-25",
+            "text": "Gustavo Nuñez Out: Línea al ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764457845
+          },
+          {
+            "reference_id": "18092-1-26",
+            "text": "Cristhian Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764457847
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -682,6 +703,13 @@
         "half": "bottom",
         "label": "Baja 3ra",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
