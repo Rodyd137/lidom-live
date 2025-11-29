@@ -1,17 +1,17 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1984",
-    "scraped_at": "2025-11-29T04:22:02.856Z",
+    "scraped_at": "2025-11-29T04:23:05.270Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1984,
     "season_id": 20,
-    "status": 2,
+    "status": 6,
     "date": "2025-11-28 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Jose Augusto Rodriguez Ponche (K) ",
+    "lastPlayByPlay": "John Garcia Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -40,9 +40,9 @@
       "over_under": null
     },
     "pitchers": {
-      "winning": null,
-      "losing": null,
-      "save": null
+      "winning": "Anderson Severino",
+      "losing": "Abdiel Mendoza",
+      "save": ""
     },
     "teams": {
       "away": {
@@ -136,6 +136,17 @@
             "team_id": 3,
             "name": "Jose Augusto Rodriguez",
             "abbreviation": "J. A. Rodriguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5587,
+            "team_id": 3,
+            "name": "John Garcia",
+            "abbreviation": "J. Garcia",
             "number": null,
             "dob": null,
             "height": "",
@@ -1144,6 +1155,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1764389972
+          },
+          {
+            "reference_id": "18070-1-85",
+            "text": "John Garcia Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764390155
           }
         ]
       }
@@ -1265,7 +1283,7 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
