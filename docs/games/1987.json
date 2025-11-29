@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1987",
-    "scraped_at": "2025-11-29T22:42:53.716Z",
+    "scraped_at": "2025-11-29T22:43:57.679Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-29 18:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Adael Amador  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -224,6 +224,17 @@
             "team_id": 3,
             "name": "Adael Amador",
             "abbreviation": "A. Amador",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5321,
+            "team_id": 3,
+            "name": "Webster Rivas",
+            "abbreviation": "W. Rivas",
             "number": null,
             "dob": null,
             "height": "",
@@ -487,10 +498,17 @@
         "plays": [
           {
             "reference_id": "18090-2-13",
-            "text": "Adael Amador al bate",
+            "text": "Adael Amador  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764456067
+            "ts": 1764456188
+          },
+          {
+            "reference_id": "18090-2-14",
+            "text": "Webster Rivas al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764456201
           }
         ]
       }
@@ -521,7 +539,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -595,7 +613,7 @@
         "id": 1986,
         "date": "2025-11-29 16:00:00",
         "status": 2,
-        "roundText": "Baja 7ma",
+        "roundText": "Alta 8va",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
