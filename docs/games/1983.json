@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1983",
-    "scraped_at": "2025-11-29T01:56:23.371Z",
+    "scraped_at": "2025-11-29T01:57:25.660Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-28 19:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Nomar Mazara  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -1067,10 +1067,17 @@
         "plays": [
           {
             "reference_id": "18060-2-80",
-            "text": "Nomar Mazara al bate",
+            "text": "Nomar Mazara  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764381234
+            "ts": 1764381400
+          },
+          {
+            "reference_id": "18060-2-81",
+            "text": "Taylor Sumad al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764381404
           }
         ]
       }
@@ -1185,7 +1192,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1285,7 +1292,7 @@
         "id": 1985,
         "date": "2025-11-28 19:30:00",
         "status": 2,
-        "roundText": "Baja 4ta",
+        "roundText": "Alta 5ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
