@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1985",
-    "scraped_at": "2025-11-29T03:30:32.720Z",
+    "scraped_at": "2025-11-29T03:31:34.922Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 7,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -59,7 +59,7 @@
           "H2": 6
         },
         "probables": {
-          "pitcher": "Rolddy Muñoz",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -968,6 +968,20 @@
             "ts": 1764386870
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "18077-2-64",
+            "text": "Raimel Tapia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764387041
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1060,6 +1074,13 @@
         "half": "top",
         "label": "Alta 7ma",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
