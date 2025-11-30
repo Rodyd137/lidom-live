@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1991",
-    "scraped_at": "2025-11-30T23:22:26.334Z",
+    "scraped_at": "2025-11-30T23:23:29.536Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-30 17:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Rafael Lantigua  Doble Play!  Out: Rodado al - Lanzador - Segunda Base - Primera Base",
+    "lastPlayByPlay": "Jared Oliva se embasa por Error del Segunda Base",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": false,
+      "on1B": true,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 3,
           "H": 5,
-          "E": 2,
+          "E": 3,
           "H2": 3
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 3,
           "H": 5,
-          "E": 2
+          "E": 3
         },
         "home": {
           "R": 10,
@@ -934,10 +934,24 @@
           },
           {
             "reference_id": "18130-2-60",
-            "text": "Gilberto Celestino al bate",
+            "text": "Gilberto Celestino Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764544894
+            "ts": 1764544959
+          },
+          {
+            "reference_id": "18130-2-61",
+            "text": "Jared Oliva se embasa por Error del Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764544984
+          },
+          {
+            "reference_id": "18130-2-62",
+            "text": "Bryan de la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764544998
           }
         ]
       }
@@ -1024,7 +1038,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 3,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
