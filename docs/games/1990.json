@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1990",
-    "scraped_at": "2025-11-30T21:10:17.469Z",
+    "scraped_at": "2025-11-30T21:11:22.705Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-30 17:00:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Luis Campusano Base por Bolas ",
+    "lastPlayByPlay": "Luis Campusano Robo de Base Wild Pitch",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 2,
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 5
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": true,
-      "on3B": false,
+      "on3B": true,
       "runners": 2,
-      "mask": 5
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -465,10 +465,17 @@
           },
           {
             "reference_id": "18116-1-5",
+            "text": "Luis Campusano Robo de Base Wild Pitch",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764537070
+          },
+          {
+            "reference_id": "18116-1-6",
             "text": "Mel Rojas Jr. al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764536972
+            "ts": 1764537073
           }
         ]
       }
@@ -478,7 +485,7 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 0
       }
     ],
