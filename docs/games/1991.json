@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1991",
-    "scraped_at": "2025-11-30T21:27:05.145Z",
+    "scraped_at": "2025-11-30T21:28:10.437Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-30 17:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Juan Lagares Sencillo ",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": false,
+      "on1B": true,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -103,6 +103,17 @@
             "team_id": 3,
             "name": "Jose Augusto Rodriguez",
             "abbreviation": "J. A. Rodriguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5334,
+            "team_id": 3,
+            "name": "Juan Lagares",
+            "abbreviation": "J. Lagares",
             "number": null,
             "dob": null,
             "height": "",
@@ -444,10 +455,17 @@
         "plays": [
           {
             "reference_id": "18126-1-11",
-            "text": "Jose Augusto Rodriguez al bate",
+            "text": "Jose Augusto Rodriguez Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764538016
+            "ts": 1764538035
+          },
+          {
+            "reference_id": "18126-1-12",
+            "text": "Juan Lagares Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764538072
           }
         ]
       }
@@ -471,7 +489,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -571,7 +589,7 @@
         "id": 1990,
         "date": "2025-11-30 17:00:00",
         "status": 2,
-        "roundText": "Baja 1ra",
+        "roundText": "Alta 2da",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
