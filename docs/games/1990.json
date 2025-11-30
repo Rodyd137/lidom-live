@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1990",
-    "scraped_at": "2025-11-30T21:54:00.107Z",
+    "scraped_at": "2025-11-30T21:58:55.591Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-11-30 17:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Johan Rojas  Out: Elevado al Tercera Base",
+    "lastPlayByPlay": "Marco Hernández Sencillo Jardinero Derecho ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 0,
           "H": 2,
-          "E": 0,
+          "E": 1,
           "H2": 0
         },
         "probables": {
@@ -174,10 +174,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 0,
-          "H": 2,
+          "R": 1,
+          "H": 4,
           "E": 0,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
           "pitcher": "Steve Moyers",
@@ -304,7 +304,7 @@
         {
           "num": 3,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 4,
@@ -342,11 +342,11 @@
         "away": {
           "R": 0,
           "H": 2,
-          "E": 0
+          "E": 1
         },
         "home": {
-          "R": 0,
-          "H": 2,
+          "R": 1,
+          "H": 4,
           "E": 0
         }
       },
@@ -400,31 +400,31 @@
           },
           {
             "num": 3,
-            "R": 0
+            "R": 1
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ]
       }
@@ -640,10 +640,17 @@
           },
           {
             "reference_id": "18118-2-26",
-            "text": "Marco Hernández al bate",
+            "text": "Marco Hernández Sencillo Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764539627
+            "ts": 1764539745
+          },
+          {
+            "reference_id": "18118-2-27",
+            "text": "Deyvinson de los Santos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764539753
           }
         ]
       }
@@ -688,7 +695,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -712,7 +719,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 4,
@@ -762,7 +769,7 @@
         "id": 1989,
         "date": "2025-11-30 16:00:00",
         "status": 2,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -794,7 +801,7 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 0,
+          "runs": 1,
           "hits": 1,
           "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
@@ -805,7 +812,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 5,
-          "hits": 5,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         }

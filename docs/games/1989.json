@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1989",
-    "scraped_at": "2025-11-30T21:54:00.122Z",
+    "scraped_at": "2025-11-30T21:58:55.587Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-30 16:00:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Josh Lester Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Jonathan Guzman  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 2,
-      "outs": 2
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 2
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -829,10 +829,31 @@
           },
           {
             "reference_id": "18112-1-46",
-            "text": "Rodolfo Durán al bate",
+            "text": "Rodolfo Durán Out: Elevado al Tercera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764539510
+            "ts": 1764539646
+          }
+        ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "18112-2-47",
+            "text": "Jonathan Guzman  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764539866
+          },
+          {
+            "reference_id": "18112-2-48",
+            "text": "Pedro Severino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764539869
           }
         ]
       }
@@ -914,6 +935,13 @@
         "label": "Alta 6ta",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -954,7 +982,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
@@ -994,7 +1022,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 0,
           "hits": 2,
-          "errors": 0,
+          "errors": 1,
           "permalink": "/equipo/tigres-del-licey"
         },
         "homeTeam": {
@@ -1002,8 +1030,8 @@
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 0,
-          "hits": 2,
+          "runs": 1,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
@@ -1018,7 +1046,7 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 0,
+          "runs": 1,
           "hits": 1,
           "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
@@ -1029,7 +1057,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 5,
-          "hits": 5,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         }
