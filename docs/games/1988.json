@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1988",
-    "scraped_at": "2025-11-30T01:30:51.756Z",
+    "scraped_at": "2025-11-30T01:31:54.097Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 5,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -59,7 +59,7 @@
           "H2": 4
         },
         "probables": {
-          "pitcher": "Emilio Vargas",
+          "pitcher": "",
           "era": "7.45",
           "record": "0 - 3",
           "debut": false
@@ -814,6 +814,20 @@
             "ts": 1764466102
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "18102-2-47",
+            "text": "Ronaldo Hernández al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764466281
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -879,6 +893,13 @@
         "label": "Alta 5ta",
         "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
