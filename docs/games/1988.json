@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1988",
-    "scraped_at": "2025-11-30T00:13:39.374Z",
+    "scraped_at": "2025-11-30T00:14:42.376Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-29 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Johan Rojas   Out: Rodado al Tercera Base - Primera Base",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -580,10 +580,17 @@
         "plays": [
           {
             "reference_id": "18100-1-19",
-            "text": "Johan Rojas  al bate",
+            "text": "Johan Rojas   Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764461499
+            "ts": 1764461624
+          },
+          {
+            "reference_id": "18100-1-20",
+            "text": "Marco Hernández al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764461627
           }
         ]
       }
@@ -621,7 +628,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
