@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1988",
-    "scraped_at": "2025-11-30T02:08:19.365Z",
+    "scraped_at": "2025-11-30T02:09:21.813Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-29 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Yairo Munoz Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -59,7 +59,7 @@
           "H2": 4
         },
         "probables": {
-          "pitcher": "Bryan Rodriguez ",
+          "pitcher": "",
           "era": "7.45",
           "record": "0 - 3",
           "debut": false
@@ -954,6 +954,27 @@
             "ts": 1764468318
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "18104-2-63",
+            "text": "Yairo Munoz Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764468535
+          },
+          {
+            "reference_id": "18104-2-64",
+            "text": "Jeimer Candelario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764468542
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1046,6 +1067,13 @@
         "half": "top",
         "label": "Alta 7ma",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
