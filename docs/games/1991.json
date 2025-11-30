@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1991",
-    "scraped_at": "2025-11-30T23:51:44.169Z",
+    "scraped_at": "2025-11-30T23:52:47.444Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-30 17:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Joseh Rosa Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -1032,10 +1032,17 @@
         "plays": [
           {
             "reference_id": "18132-1-71",
-            "text": "Joseh Rosa al bate",
+            "text": "Joseh Rosa Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764546605
+            "ts": 1764546749
+          },
+          {
+            "reference_id": "18132-1-72",
+            "text": "Steward Berroa al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764546754
           }
         ]
       }
@@ -1143,7 +1150,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
