@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1989",
-    "scraped_at": "2025-11-30T21:14:37.932Z",
+    "scraped_at": "2025-11-30T21:15:43.401Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-30 16:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Josh Lester Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -681,6 +681,27 @@
             "ts": 1764537097
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "18110-1-30",
+            "text": "Josh Lester Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764537335
+          },
+          {
+            "reference_id": "18110-1-31",
+            "text": "Rodolfo Durán al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764537340
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -724,6 +745,13 @@
         "half": "bottom",
         "label": "Baja 3ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -797,7 +825,7 @@
         "id": 1990,
         "date": "2025-11-30 17:00:00",
         "status": 2,
-        "roundText": "Alta 1ra",
+        "roundText": "Baja 1ra",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -840,7 +868,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         }

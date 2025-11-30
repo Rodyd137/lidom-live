@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1990",
-    "scraped_at": "2025-11-30T21:14:37.934Z",
+    "scraped_at": "2025-11-30T21:15:43.440Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-30 17:00:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Mel Rojas Jr. Ponche (K) ",
+    "lastPlayByPlay": "Melvi Mercedes  Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -478,6 +478,20 @@
             "ts": 1764537099
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "18116-2-7",
+            "text": "Melvi Mercedes  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764537337
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -487,12 +501,19 @@
         "label": "Alta 1ra",
         "total_plays": 6,
         "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -602,7 +623,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         }
