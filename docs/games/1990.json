@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1990",
-    "scraped_at": "2025-11-30T23:48:34.612Z",
+    "scraped_at": "2025-11-30T23:49:37.821Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-30 17:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Johan Rojas   Out: Rodado al Segunda Base - Campo Corto - Carrera Empujada",
+    "lastPlayByPlay": "Johan Rojas  Robo de Base ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Reidis Sena ",
+          "pitcher": "Jordi Martinez ",
           "era": "",
           "record": "",
           "debut": false
@@ -920,10 +920,17 @@
           },
           {
             "reference_id": "18121-2-62",
+            "text": "Johan Rojas  Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764546555
+          },
+          {
+            "reference_id": "18121-2-63",
             "text": "Marco Hernández al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764546408
+            "ts": 1764546558
           }
         ]
       }
@@ -1010,7 +1017,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 1
       }
     ],
