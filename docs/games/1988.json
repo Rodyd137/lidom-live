@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1988",
-    "scraped_at": "2025-11-30T00:35:42.721Z",
+    "scraped_at": "2025-11-30T00:36:45.884Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-29 19:30:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Taylor Sumad Golpeado por Pelota ",
+    "lastPlayByPlay": "Taylor Sumad Robo de Base ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -654,10 +654,17 @@
           },
           {
             "reference_id": "18101-1-26",
+            "text": "Taylor Sumad Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764462963
+          },
+          {
+            "reference_id": "18101-1-27",
             "text": "Kelvin Gutiérrez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764462445
+            "ts": 1764462970
           }
         ]
       }
@@ -709,7 +716,7 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
