@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1989",
-    "scraped_at": "2025-11-30T22:57:16.742Z",
+    "scraped_at": "2025-11-30T22:58:21.300Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-30 16:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Vidal Brujan Sencillo ",
+    "lastPlayByPlay": "Jose Tena   Out: Rodado al Lanzador - Primera Base",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 8
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
-      "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "on1B": false,
+      "on2B": false,
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 2,
-          "H": 7,
+          "R": 6,
+          "H": 8,
           "E": 2,
           "H2": 0
         },
@@ -333,15 +333,15 @@
         },
         {
           "num": 9,
-          "away": 1,
+          "away": 5,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 2,
-          "H": 7,
+          "R": 6,
+          "H": 8,
           "E": 2
         },
         "home": {
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 2
+            "R": 6
           }
         ],
         "home": [
@@ -1053,10 +1053,24 @@
           },
           {
             "reference_id": "18115-1-72",
-            "text": "Enmanuel Valdéz al bate",
+            "text": "Enmanuel Valdéz Cuadrangular! 4 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764543449
+          },
+          {
+            "reference_id": "18115-1-73",
+            "text": "Jose Tena   Out: Rodado al Lanzador - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764543390
+            "ts": 1764543492
+          },
+          {
+            "reference_id": "18115-1-74",
+            "text": "Ismael Munguia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764543496
           }
         ]
       }
@@ -1178,8 +1192,8 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 6,
-        "scoring_plays": 1
+        "total_plays": 8,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1243,7 +1257,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 1,
+        "awayTeamRuns": 5,
         "homeTeamRuns": 0
       }
     ],
