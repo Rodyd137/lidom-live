@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1990",
-    "scraped_at": "2025-11-30T21:52:55.035Z",
+    "scraped_at": "2025-11-30T21:54:00.107Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-30 17:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Johan Rojas  Out: Elevado al Tercera Base",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 0
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -618,6 +618,34 @@
             "ts": 1764539319
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "18118-2-24",
+            "text": "Melvi Mercedes  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764539587
+          },
+          {
+            "reference_id": "18118-2-25",
+            "text": "Johan Rojas  Out: Elevado al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764539625
+          },
+          {
+            "reference_id": "18118-2-26",
+            "text": "Marco Hernández al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764539627
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -653,6 +681,13 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
         "total_plays": 3,
         "scoring_plays": 0
       }
