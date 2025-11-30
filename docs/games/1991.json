@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1991",
-    "scraped_at": "2025-11-30T21:25:59.847Z",
+    "scraped_at": "2025-11-30T21:27:05.145Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,7 +13,7 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 2,
       "strikes": 0,
       "outs": 0
     },
@@ -92,6 +92,17 @@
             "team_id": 3,
             "name": "Alberto Rodriguez",
             "abbreviation": "A. Rodriguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5331,
+            "team_id": 3,
+            "name": "Jose Augusto Rodriguez",
+            "abbreviation": "J. A. Rodriguez",
             "number": null,
             "dob": null,
             "height": "",
@@ -425,6 +436,20 @@
             "ts": 1764537860
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18126-1-11",
+            "text": "Jose Augusto Rodriguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764538016
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -441,6 +466,13 @@
         "label": "Baja 1ra",
         "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
