@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1991",
-    "scraped_at": "2025-11-30T22:52:28.645Z",
+    "scraped_at": "2025-11-30T22:53:31.287Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-30 17:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Rafael Lantigua  Sencillo ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 3,
-          "H": 3,
+          "H": 5,
           "E": 1,
           "H2": 3
         },
@@ -175,7 +175,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 8,
-          "H": 9,
+          "H": 10,
           "E": 0,
           "H2": 8
         },
@@ -341,12 +341,12 @@
       "totals": {
         "away": {
           "R": 3,
-          "H": 3,
+          "H": 5,
           "E": 1
         },
         "home": {
           "R": 8,
-          "H": 9,
+          "H": 10,
           "E": 0
         }
       },
@@ -821,6 +821,27 @@
             "ts": 1764542883
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "18129-2-47",
+            "text": "Rafael Lantigua  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764543188
+          },
+          {
+            "reference_id": "18129-2-48",
+            "text": "Gilberto Celestino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764543192
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -885,6 +906,13 @@
         "half": "top",
         "label": "Alta 5ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
