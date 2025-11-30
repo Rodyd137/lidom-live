@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1990",
-    "scraped_at": "2025-11-30T21:23:19.674Z",
+    "scraped_at": "2025-11-30T21:24:53.672Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-30 17:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Deyvinson de los Santos Sencillo Jardinero Central",
+    "lastPlayByPlay": "Nomar Mazara Base por Bolas ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 8
     },
     "base_runners": {
       "on1B": true,
       "on2B": true,
-      "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "on3B": true,
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -514,10 +514,17 @@
           },
           {
             "reference_id": "18116-2-11",
-            "text": "Nomar Mazara al bate",
+            "text": "Nomar Mazara Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764537755
+            "ts": 1764537871
+          },
+          {
+            "reference_id": "18116-2-12",
+            "text": "Taylor Sumad al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764537876
           }
         ]
       }
@@ -534,7 +541,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 0
       }
     ],
@@ -651,7 +658,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 2,
-          "hits": 2,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         }
