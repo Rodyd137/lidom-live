@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1990",
-    "scraped_at": "2025-11-30T23:56:22.995Z",
+    "scraped_at": "2025-11-30T23:57:29.325Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-30 17:00:00",
-    "roundText": "Baja 6ta",
-    "currentInningNum": 6,
-    "lastPlayByPlay": "Johan Rojas  Out Robando Base! Receptor - Tercera Base",
+    "roundText": "Alta 7ma",
+    "currentInningNum": 7,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -180,7 +180,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Blake Weiman ",
+          "pitcher": "Reymín Guduán",
           "era": "",
           "record": "",
           "debut": false
@@ -940,6 +940,20 @@
             "ts": 1764546825
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "18122-1-65",
+            "text": "Cal Stevenson  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764547005
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1026,6 +1040,13 @@
         "label": "Baja 6ta",
         "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1067,14 +1088,14 @@
       {
         "num": 6,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 1
       },
       {
         "num": 7,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -1124,7 +1145,7 @@
         "id": 1991,
         "date": "2025-11-30 17:00:00",
         "status": 2,
-        "roundText": "Alta 8va",
+        "roundText": "Baja 8va",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
