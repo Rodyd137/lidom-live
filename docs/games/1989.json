@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1989",
-    "scraped_at": "2025-11-30T20:40:20.343Z",
+    "scraped_at": "2025-11-30T20:41:24.373Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-30 16:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Robinson Canó   Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "Wilin Rosario se embasa por Error del Jardinero Izquierdo",
     "counts": {
-      "balls": 2,
-      "strikes": 0,
+      "balls": 0,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -176,7 +176,7 @@
         "totals": {
           "R": 4,
           "H": 3,
-          "E": 0,
+          "E": 1,
           "H2": 4
         },
         "probables": {
@@ -347,7 +347,7 @@
         "home": {
           "R": 4,
           "H": 3,
-          "E": 0
+          "E": 1
         }
       },
       "cumulative": {
@@ -542,10 +542,17 @@
           },
           {
             "reference_id": "18108-1-14",
-            "text": "Wilin Rosario al bate",
+            "text": "Wilin Rosario se embasa por Error del Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1764535179
+            "ts": 1764535236
+          },
+          {
+            "reference_id": "18108-1-15",
+            "text": "Angel Martinez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764535245
           }
         ]
       }
@@ -569,7 +576,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
