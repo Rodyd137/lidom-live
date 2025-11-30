@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1988",
-    "scraped_at": "2025-11-30T01:40:14.126Z",
+    "scraped_at": "2025-11-30T01:41:16.441Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-29 19:30:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Gilberto Celestino  Out: Rodado al Campo Corto - Segunda Base",
+    "lastPlayByPlay": "Gilberto Celestino Robo de Base ",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -843,10 +843,17 @@
           },
           {
             "reference_id": "18102-2-50",
+            "text": "Gilberto Celestino Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764466832
+          },
+          {
+            "reference_id": "18102-2-51",
             "text": "Jard Oliva al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764466662
+            "ts": 1764466836
           }
         ]
       }
@@ -919,7 +926,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
