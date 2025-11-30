@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1991",
-    "scraped_at": "2025-11-30T22:01:09.766Z",
+    "scraped_at": "2025-11-30T22:02:15.090Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-30 17:00:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Fernando Peguero se embasa por Error del Campo Corto",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 3
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -647,17 +647,24 @@
           },
           {
             "reference_id": "18127-1-26",
-            "text": "Alberto Rodriguez Sencillo y 1 Carrera Impulsada ",
+            "text": "Alberto Rodriguez Sencillo y 1 Carrera Impulsada, Anota por error en tiro",
             "scored": true,
             "is_primary": true,
             "ts": 1764539949
           },
           {
             "reference_id": "18127-1-27",
-            "text": "Fernando Peguero se embasa por Error del Campo Corto",
+            "text": "Fernando Peguero Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764540063
+            "ts": 1764540081
+          },
+          {
+            "reference_id": "18127-1-28",
+            "text": "Juan Lagares  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764540118
           }
         ]
       }
@@ -695,7 +702,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 6,
+        "total_plays": 7,
         "scoring_plays": 2
       }
     ],
@@ -716,7 +723,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 3,
         "homeTeamRuns": 0
@@ -769,7 +776,7 @@
         "id": 1989,
         "date": "2025-11-30 16:00:00",
         "status": 2,
-        "roundText": "Baja 6ta",
+        "roundText": "Alta 7ma",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
