@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1989",
-    "scraped_at": "2025-11-30T23:04:48.653Z",
+    "scraped_at": "2025-11-30T23:05:53.156Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-30 16:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Junior Lake  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Andy Otero",
+          "pitcher": "Patrick Weigel",
           "era": "",
           "record": "",
           "debut": false
@@ -1080,6 +1080,27 @@
             "ts": 1764543716
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "18115-2-76",
+            "text": "Junior Lake  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764543937
+          },
+          {
+            "reference_id": "18115-2-77",
+            "text": "Erik Gonzalez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764543943
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1201,6 +1222,13 @@
         "label": "Alta 9na",
         "total_plays": 9,
         "scoring_plays": 2
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1307,7 +1335,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 3,
           "hits": 5,
-          "errors": 1,
+          "errors": 2,
           "permalink": "/equipo/aguilas-cibaenas"
         },
         "homeTeam": {

@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1991",
-    "scraped_at": "2025-11-30T23:04:48.677Z",
+    "scraped_at": "2025-11-30T23:05:53.254Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 3,
           "H": 5,
-          "E": 1,
+          "E": 2,
           "H2": 3
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 3,
           "H": 5,
-          "E": 1
+          "E": 2
         },
         "home": {
           "R": 10,
@@ -861,6 +861,13 @@
             "scored": true,
             "is_primary": true,
             "ts": 1764543750
+          },
+          {
+            "reference_id": "18129-2-52",
+            "text": "Allan Castro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764543931
           }
         ]
       }
@@ -933,7 +940,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 1
       }
     ],
