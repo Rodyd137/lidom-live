@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1988",
-    "scraped_at": "2025-11-30T00:52:31.258Z",
+    "scraped_at": "2025-11-30T00:57:23.994Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-29 19:30:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Gilberto Celestino Sencillo Segunda Base",
+    "lastPlayByPlay": "Bryan de la Cruz Doble! 1 Carrera Impulsada Out Robando Base! - Jardinero Izquierdo - Receptor",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -174,10 +174,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 0,
-          "H": 1,
+          "R": 1,
+          "H": 3,
           "E": 1,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
           "pitcher": "Gerson Moreno",
@@ -309,7 +309,7 @@
         {
           "num": 4,
           "away": 1,
-          "home": 0
+          "home": 1
         },
         {
           "num": 5,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 0,
-          "H": 1,
+          "R": 1,
+          "H": 3,
           "E": 1
         }
       },
@@ -404,27 +404,27 @@
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ]
       }
@@ -717,10 +717,24 @@
           },
           {
             "reference_id": "18101-2-34",
-            "text": "Jard Oliva al bate",
+            "text": "Jard Oliva Sencillo Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1764463797
+            "ts": 1764464016
+          },
+          {
+            "reference_id": "18101-2-35",
+            "text": "Bryan de la Cruz Doble! 1 Carrera Impulsada Out Robando Base! - Jardinero Izquierdo - Receptor",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764464212
+          },
+          {
+            "reference_id": "18101-2-36",
+            "text": "Manuel Peña al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764464220
           }
         ]
       }
@@ -779,8 +793,8 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 2,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -810,7 +824,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 5,
@@ -895,7 +909,7 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 3,
+          "runs": 4,
           "hits": 8,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
