@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1991",
-    "scraped_at": "2025-12-01T00:04:52.457Z",
+    "scraped_at": "2025-12-01T00:05:55.784Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-11-30 17:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Fernando Peguero Out: Elevado al Jardinero Derecho ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -88,10 +88,10 @@
             "position": ""
           },
           {
-            "id": 5390,
+            "id": 5587,
             "team_id": 3,
-            "name": "Alberto Rodriguez",
-            "abbreviation": "A. Rodriguez",
+            "name": "John Garcia",
+            "abbreviation": "J. Garcia",
             "number": null,
             "dob": null,
             "height": "",
@@ -110,10 +110,10 @@
             "position": ""
           },
           {
-            "id": 5334,
+            "id": 5540,
             "team_id": 3,
-            "name": "Juan Lagares",
-            "abbreviation": "J. Lagares",
+            "name": "Antony Garcia",
+            "abbreviation": "A. Garcia",
             "number": null,
             "dob": null,
             "height": "",
@@ -1080,6 +1080,34 @@
             "ts": 1764547239
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "18133-1-78",
+            "text": "John Garcia Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764547514
+          },
+          {
+            "reference_id": "18133-1-79",
+            "text": "Fernando Peguero Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764547524
+          },
+          {
+            "reference_id": "18133-1-80",
+            "text": "Antony Garcia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764547537
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1194,6 +1222,13 @@
         "label": "Baja 8va",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1292,7 +1327,7 @@
         "id": 1990,
         "date": "2025-11-30 17:00:00",
         "status": 2,
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
