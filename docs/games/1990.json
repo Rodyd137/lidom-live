@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1990",
-    "scraped_at": "2025-12-01T00:19:40.625Z",
+    "scraped_at": "2025-12-01T00:20:44.676Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-11-30 17:00:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Esteury Ruiz  Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -1045,6 +1045,20 @@
             "ts": 1764548376
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "18123-2-77",
+            "text": "Kelvin Gutiérrez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764548419
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1152,6 +1166,13 @@
         "label": "Alta 8va",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1206,7 +1227,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
