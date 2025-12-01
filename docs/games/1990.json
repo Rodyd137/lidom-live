@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1990",
-    "scraped_at": "2025-12-01T00:26:01.946Z",
+    "scraped_at": "2025-12-01T00:27:05.320Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-11-30 17:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Kenny Piper Base por Bolas ",
+    "lastPlayByPlay": "Jose Torres   Out: Rodado al Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 1
+      "balls": 1,
+      "strikes": 2,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -1067,10 +1067,17 @@
           },
           {
             "reference_id": "18123-2-79",
+            "text": "Jose Torres   Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764548777
+          },
+          {
+            "reference_id": "18123-2-80",
             "text": "Melvi Mercedes  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764548691
+            "ts": 1764548779
           }
         ]
       }
@@ -1185,7 +1192,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
