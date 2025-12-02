@@ -1,17 +1,17 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1994",
-    "scraped_at": "2025-12-02T23:25:08.708Z",
+    "scraped_at": "2025-12-02T23:39:51.223Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1994,
     "season_id": 20,
-    "status": 3,
+    "status": 2,
     "date": "2025-12-02 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gilberto Celestino Doble! Jardinero Derecho ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -330,7 +330,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -418,8 +418,38 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "18152-1-1",
+            "text": "Gilberto Celestino Doble! Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764718740
+          },
+          {
+            "reference_id": "18152-1-2",
+            "text": "Jared Oliva al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764718742
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 2,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
@@ -489,7 +519,7 @@
       {
         "id": 1992,
         "date": "2025-12-02 19:30:00",
-        "status": 1,
+        "status": 2,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 5,
@@ -497,7 +527,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         },
@@ -515,7 +545,7 @@
       {
         "id": 1993,
         "date": "2025-12-02 19:30:00",
-        "status": 1,
+        "status": 2,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 4,

@@ -1,21 +1,21 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1993",
-    "scraped_at": "2025-12-02T23:25:08.736Z",
+    "scraped_at": "2025-12-02T23:39:51.189Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 1993,
     "season_id": 20,
-    "status": 1,
+    "status": 2,
     "date": "2025-12-02 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Erik Gonzalez Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -64,7 +64,30 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5304,
+            "team_id": 4,
+            "name": "Junior Lake",
+            "abbreviation": "J. Lake",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5300,
+            "team_id": 4,
+            "name": "Erik Gonzalez",
+            "abbreviation": "E. Gonzalez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       },
       "home": {
         "id": 3,
@@ -229,8 +252,38 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "18143-1-1",
+            "text": "Junior Lake  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764718700
+          },
+          {
+            "reference_id": "18143-1-2",
+            "text": "Erik Gonzalez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764718766
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 2,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
@@ -300,7 +353,7 @@
       {
         "id": 1992,
         "date": "2025-12-02 19:30:00",
-        "status": 1,
+        "status": 2,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 5,
@@ -308,7 +361,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         },
@@ -326,7 +379,7 @@
       {
         "id": 1994,
         "date": "2025-12-02 19:30:00",
-        "status": 3,
+        "status": 2,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 6,
@@ -334,7 +387,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         },
