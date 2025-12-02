@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1992",
-    "scraped_at": "2025-12-02T23:53:03.804Z",
+    "scraped_at": "2025-12-02T23:54:07.863Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-02 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Leury García  Out: Rodado al Primera Base - (Sin Asistencia)",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
@@ -492,6 +492,27 @@
             "ts": 1764719414
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18135-1-8",
+            "text": "Leury García  Out: Rodado al Primera Base - (Sin Asistencia)",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764719613
+          },
+          {
+            "reference_id": "18135-1-9",
+            "text": "Kelvin Gutiérrez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764719619
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -507,6 +528,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -587,7 +615,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 0,
-          "hits": 1,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
