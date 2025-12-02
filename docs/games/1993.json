@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1993",
-    "scraped_at": "2025-12-02T23:50:52.912Z",
+    "scraped_at": "2025-12-02T23:51:59.308Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,7 +13,7 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
@@ -103,6 +103,17 @@
             "team_id": 4,
             "name": "Elier Hernandez",
             "abbreviation": "E. Hernandez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5297,
+            "team_id": 4,
+            "name": "Yamaico Navarro",
+            "abbreviation": "Y. Navarro",
             "number": null,
             "dob": null,
             "height": "",
@@ -371,6 +382,20 @@
             "ts": 1764719325
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18144-1-8",
+            "text": "Yamaico Navarro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764719502
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -386,6 +411,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
