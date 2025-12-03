@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1992",
-    "scraped_at": "2025-12-03T00:21:55.817Z",
+    "scraped_at": "2025-12-03T00:22:59.965Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-02 19:30:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Deyvinson de los Santos Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 2
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -588,6 +588,13 @@
             "scored": true,
             "is_primary": true,
             "ts": 1764721269
+          },
+          {
+            "reference_id": "18136-1-19",
+            "text": "Gary Sanchez  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764721353
           }
         ]
       }
@@ -625,7 +632,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 1
       }
     ],
@@ -646,7 +653,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
