@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1992",
-    "scraped_at": "2025-12-03T02:56:25.509Z",
+    "scraped_at": "2025-12-03T02:57:28.368Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-02 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Kelvin Gutiérrez se embasa por Error del Campo Corto",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -176,7 +176,7 @@
         "totals": {
           "R": 4,
           "H": 7,
-          "E": 0,
+          "E": 1,
           "H2": 0
         },
         "probables": {
@@ -347,7 +347,7 @@
         "home": {
           "R": 4,
           "H": 7,
-          "E": 0
+          "E": 1
         }
       },
       "cumulative": {
@@ -1003,6 +1003,27 @@
             "ts": 1764729786
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "18142-1-67",
+            "text": "Kelvin Gutiérrez se embasa por Error del Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764730634
+          },
+          {
+            "reference_id": "18142-1-68",
+            "text": "Carlos Peguero  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764730637
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1116,6 +1137,13 @@
         "half": "bottom",
         "label": "Baja 8va",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
