@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1992",
-    "scraped_at": "2025-12-03T02:21:11.488Z",
+    "scraped_at": "2025-12-03T02:22:15.486Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-02 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Deyvinson de los Santos Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 3,
-          "H": 6,
+          "H": 7,
           "E": 0,
           "H2": 3
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 3,
-          "H": 6,
+          "H": 7,
           "E": 0
         },
         "home": {
@@ -933,6 +933,27 @@
             "ts": 1764728253
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "18141-1-59",
+            "text": "Johan Rojas   Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764728505
+          },
+          {
+            "reference_id": "18141-1-60",
+            "text": "Deyvinson de los Santos Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764728528
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1032,6 +1053,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
