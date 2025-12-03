@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1994",
-    "scraped_at": "2025-12-03T01:18:23.664Z",
+    "scraped_at": "2025-12-03T01:19:28.129Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-02 19:30:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Carlos Martinez  Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "Ismael Munguia Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 5
         },
         "probables": {
-          "pitcher": "Gerson Moreno",
+          "pitcher": "Aaron Leasher",
           "era": "",
           "record": "",
           "debut": false
@@ -787,10 +787,17 @@
           },
           {
             "reference_id": "18156-2-42",
-            "text": "Ismael Munguia al bate",
+            "text": "Ismael Munguia Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764724619
+            "ts": 1764724740
+          },
+          {
+            "reference_id": "18156-2-43",
+            "text": "Raimel Tapia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764724742
           }
         ]
       }
@@ -863,7 +870,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
