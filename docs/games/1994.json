@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1994",
-    "scraped_at": "2025-12-03T00:30:29.666Z",
+    "scraped_at": "2025-12-03T00:31:34.216Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-02 19:30:00",
-    "roundText": "Baja 2da",
-    "currentInningNum": 2,
-    "lastPlayByPlay": "Jorge Mateo Ponche (K) ",
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
+    "lastPlayByPlay": "Eloy Jimenez   Out: Rodado al Tercera Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -604,6 +604,27 @@
             "ts": 1764721711
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "18154-1-22",
+            "text": "Eloy Jimenez   Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764721886
+          },
+          {
+            "reference_id": "18154-1-23",
+            "text": "Felix Reyes al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764721889
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -634,6 +655,13 @@
         "label": "Baja 2da",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -647,14 +675,14 @@
       {
         "num": 2,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
