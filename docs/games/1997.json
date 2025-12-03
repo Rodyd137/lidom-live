@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1997",
-    "scraped_at": "2025-12-03T23:53:55.307Z",
+    "scraped_at": "2025-12-03T23:55:36.493Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -492,6 +492,20 @@
             "ts": 1764805903
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18180-1-9",
+            "text": "Elier Hernandez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764806062
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -507,6 +521,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -580,7 +601,7 @@
         "id": 1995,
         "date": "2025-12-03 19:00:00",
         "status": 2,
-        "roundText": "Baja 2da",
+        "roundText": "Alta 3ra",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
