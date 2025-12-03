@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1995",
-    "scraped_at": "2025-12-03T23:47:35.232Z",
+    "scraped_at": "2025-12-03T23:48:38.611Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-03 19:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Marco Hernández Ponche (K) ",
+    "lastPlayByPlay": "Julio Carreras Golpeado por Pelota ",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": false,
+      "on1B": true,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -584,10 +584,24 @@
           },
           {
             "reference_id": "18162-2-19",
-            "text": "Kenny Piper al bate",
+            "text": "Kenny Piper Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764805549
+            "ts": 1764805660
+          },
+          {
+            "reference_id": "18162-2-20",
+            "text": "Julio Carreras Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764805705
+          },
+          {
+            "reference_id": "18162-2-21",
+            "text": "Taylor Sumad al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764805713
           }
         ]
       }
@@ -618,7 +632,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 2,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
