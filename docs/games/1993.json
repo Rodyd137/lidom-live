@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1993",
-    "scraped_at": "2025-12-03T01:33:25.190Z",
+    "scraped_at": "2025-12-03T01:34:28.727Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-02 19:30:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Erik Gonzalez Elevado de Sacrificio ",
+    "lastPlayByPlay": "Hector Rodríguez Sencillo y 1 Carrera Impulsada ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 4
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": true,
+      "on3B": false,
       "runners": 1,
-      "mask": 4
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 2,
-          "H": 7,
+          "R": 3,
+          "H": 8,
           "E": 0,
           "H2": 2
         },
@@ -323,7 +323,7 @@
         },
         {
           "num": 7,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 2,
-          "H": 7,
+          "R": 3,
+          "H": 8,
           "E": 0
         },
         "home": {
@@ -378,15 +378,15 @@
           },
           {
             "num": 7,
-            "R": 2
+            "R": 3
           },
           {
             "num": 8,
-            "R": 2
+            "R": 3
           },
           {
             "num": 9,
-            "R": 2
+            "R": 3
           }
         ],
         "home": [
@@ -864,10 +864,17 @@
           },
           {
             "reference_id": "18149-1-49",
-            "text": "Hector Rodríguez al bate",
+            "text": "Hector Rodríguez Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764725618
+          },
+          {
+            "reference_id": "18149-1-50",
+            "text": "Elier Hernandez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764725501
+            "ts": 1764725655
           }
         ]
       }
@@ -961,8 +968,8 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1012,7 +1019,7 @@
         "num": 7,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
@@ -1061,7 +1068,7 @@
         "id": 1994,
         "date": "2025-12-02 19:30:00",
         "status": 2,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
