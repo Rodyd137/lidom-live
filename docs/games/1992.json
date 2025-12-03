@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1992",
-    "scraped_at": "2025-12-03T02:32:25.881Z",
+    "scraped_at": "2025-12-03T02:33:28.631Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 8,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -968,6 +968,20 @@
             "ts": 1764728884
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "18141-2-63",
+            "text": "Cristhian Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764729196
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1074,6 +1088,13 @@
         "half": "top",
         "label": "Alta 8va",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
