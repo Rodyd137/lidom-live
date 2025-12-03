@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1994",
-    "scraped_at": "2025-12-03T02:09:29.998Z",
+    "scraped_at": "2025-12-03T02:10:33.817Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-02 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Jared Oliva Golpeado por Pelota ",
+    "lastPlayByPlay": "Jared Oliva Robo de Base ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -962,10 +962,17 @@
           },
           {
             "reference_id": "18159-1-62",
+            "text": "Jared Oliva Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764727809
+          },
+          {
+            "reference_id": "18159-1-63",
             "text": "Bryan de la Cruz al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764727691
+            "ts": 1764727810
           }
         ]
       }
@@ -1073,7 +1080,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
