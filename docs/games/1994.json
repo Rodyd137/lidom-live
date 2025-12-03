@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1994",
-    "scraped_at": "2025-12-03T02:24:23.080Z",
+    "scraped_at": "2025-12-03T02:25:26.625Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-02 19:30:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Vidal Brujan Out: Línea al Tercera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -1018,10 +1018,24 @@
         "plays": [
           {
             "reference_id": "18159-2-69",
-            "text": "Josh Lester al bate",
+            "text": "Josh Lester  Out: Rodado al Primera Base - Lanzador",
             "scored": false,
             "is_primary": true,
-            "ts": 1764728515
+            "ts": 1764728663
+          },
+          {
+            "reference_id": "18159-2-70",
+            "text": "Vidal Brujan Out: Línea al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764728698
+          },
+          {
+            "reference_id": "18159-2-71",
+            "text": "Enmanuel Valdéz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764728706
           }
         ]
       }
@@ -1136,7 +1150,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -1243,7 +1257,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 6,
-          "hits": 11,
+          "hits": 12,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
@@ -1254,7 +1268,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 0,
           "hits": 3,
-          "errors": 0,
+          "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
         }
       }
