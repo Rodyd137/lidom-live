@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1997",
-    "scraped_at": "2025-12-03T23:49:42.124Z",
+    "scraped_at": "2025-12-03T23:50:45.541Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-03 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Bryan de la Cruz Sencillo ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 2
     },
     "base_state": {
@@ -186,6 +186,17 @@
           "debut": false
         },
         "players": [
+          {
+            "id": 5606,
+            "team_id": 6,
+            "name": "Juan Brito",
+            "abbreviation": "J. Brito",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
           {
             "id": 5593,
             "team_id": 6,
@@ -446,6 +457,41 @@
             "ts": 1764805384
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "18179-2-4",
+            "text": "Juan Brito Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764805794
+          },
+          {
+            "reference_id": "18179-2-5",
+            "text": "Jared Oliva  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764805806
+          },
+          {
+            "reference_id": "18179-2-6",
+            "text": "Bryan de la Cruz Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764805813
+          },
+          {
+            "reference_id": "18179-2-7",
+            "text": "Allan Castro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764805817
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -454,6 +500,13 @@
         "half": "top",
         "label": "Alta 1ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
