@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1993",
-    "scraped_at": "2025-12-03T02:25:26.627Z",
+    "scraped_at": "2025-12-03T02:26:30.420Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-02 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Yamaico Navarro Doble! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -1010,6 +1010,20 @@
             "ts": 1764728571
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "18151-1-67",
+            "text": "Yamaico Navarro Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764728781
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1124,6 +1138,13 @@
         "label": "Baja 8va",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1203,7 +1224,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 3,
-          "hits": 7,
+          "hits": 8,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         },
