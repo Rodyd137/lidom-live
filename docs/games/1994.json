@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1994",
-    "scraped_at": "2025-12-03T01:49:20.588Z",
+    "scraped_at": "2025-12-03T01:50:24.261Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-02 19:30:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ronaldo Hernández Out: Elevado al Jardinero Derecho ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -180,7 +180,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Junior Santos ",
+          "pitcher": "Carlos Belén",
           "era": "",
           "record": "",
           "debut": false
@@ -884,6 +884,27 @@
             "ts": 1764726422
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "18158-1-54",
+            "text": "Ronaldo Hernández Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764726613
+          },
+          {
+            "reference_id": "18158-1-55",
+            "text": "Rafael Lantigua  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764726617
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -969,6 +990,13 @@
         "half": "bottom",
         "label": "Baja 6ta",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1058,8 +1086,8 @@
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 2,
-          "hits": 2,
+          "runs": 3,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         }
