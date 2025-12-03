@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1994",
-    "scraped_at": "2025-12-03T02:26:30.422Z",
+    "scraped_at": "2025-12-03T02:28:14.037Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-02 19:30:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Vidal Brujan Out: Línea al Tercera Base",
+    "lastPlayByPlay": "Wilin Rosario Cuadrangular! ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 2,
       "outs": 2
     },
     "base_state": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 0,
-          "H": 6,
+          "R": 1,
+          "H": 7,
           "E": 1,
           "H2": 0
         },
@@ -329,7 +329,7 @@
         {
           "num": 8,
           "away": 1,
-          "home": 0
+          "home": 1
         },
         {
           "num": 9,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 0,
-          "H": 6,
+          "R": 1,
+          "H": 7,
           "E": 1
         }
       },
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ]
       }
@@ -1032,10 +1032,17 @@
           },
           {
             "reference_id": "18159-2-72",
-            "text": "Wilin Rosario al bate",
+            "text": "Wilin Rosario Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764728826
+          },
+          {
+            "reference_id": "18159-2-73",
+            "text": "Jorge Mateo al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764728749
+            "ts": 1764728866
           }
         ]
       }
@@ -1150,8 +1157,8 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1209,7 +1216,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 9,
