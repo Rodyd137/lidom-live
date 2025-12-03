@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1992",
-    "scraped_at": "2025-12-03T03:02:41.272Z",
+    "scraped_at": "2025-12-03T03:03:43.876Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-02 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Marco Hernández al bate",
+    "lastPlayByPlay": "Marco Hernández Sencillo y 1 Carrera Impulsada ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": true,
+      "on1B": true,
+      "on2B": false,
       "on3B": false,
       "runners": 1,
-      "mask": 3
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 3,
-          "H": 8,
+          "R": 4,
+          "H": 9,
           "E": 3,
           "H2": 3
         },
@@ -333,15 +333,15 @@
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 1,
           "home": 1
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 3,
-          "H": 8,
+          "R": 4,
+          "H": 9,
           "E": 3
         },
         "home": {
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 3
+            "R": 4
           }
         ],
         "home": [
@@ -1025,10 +1025,17 @@
           },
           {
             "reference_id": "18142-1-69",
-            "text": "Marco Hernández al bate",
+            "text": "Marco Hernández Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764730998
+          },
+          {
+            "reference_id": "18142-1-70",
+            "text": "Julio Carreras al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764730783
+            "ts": 1764731003
           }
         ]
       }
@@ -1150,8 +1157,8 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1215,7 +1222,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 1
       }
     ],
