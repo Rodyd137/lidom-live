@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1994",
-    "scraped_at": "2025-12-03T01:13:01.502Z",
+    "scraped_at": "2025-12-03T01:14:06.090Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-02 19:30:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Bryan de la Cruz  Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -763,6 +763,27 @@
             "scored": false,
             "is_primary": true,
             "ts": 1764724297
+          },
+          {
+            "reference_id": "18156-1-40",
+            "text": "Eloy Jimenez  Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764724400
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "18156-2-41",
+            "text": "Carlos Martinez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764724415
           }
         ]
       }
@@ -828,7 +849,14 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 2,
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -863,7 +891,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
