@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1992",
-    "scraped_at": "2025-12-03T00:50:27.608Z",
+    "scraped_at": "2025-12-03T00:51:32.140Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-02 19:30:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Gustavo Nuñez  Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "Cristhian Adames Base por Bolas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -682,10 +682,17 @@
           },
           {
             "reference_id": "18137-2-29",
-            "text": "Cristhian Adames al bate",
+            "text": "Cristhian Adames Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764722956
+            "ts": 1764723066
+          },
+          {
+            "reference_id": "18137-2-30",
+            "text": "Luis Campusano al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764723073
           }
         ]
       }
@@ -744,7 +751,7 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
