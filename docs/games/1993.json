@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1993",
-    "scraped_at": "2025-12-03T00:51:32.144Z",
+    "scraped_at": "2025-12-03T00:52:36.425Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-02 19:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Erik Gonzalez Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -709,6 +709,27 @@
             "ts": 1764722927
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "18147-1-32",
+            "text": "Erik Gonzalez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764723133
+          },
+          {
+            "reference_id": "18147-1-33",
+            "text": "Hector Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764723153
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -766,6 +787,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -871,8 +899,8 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 4,
-          "hits": 5,
+          "runs": 5,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         },
