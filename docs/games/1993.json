@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1993",
-    "scraped_at": "2025-12-03T00:22:59.994Z",
+    "scraped_at": "2025-12-03T00:24:04.282Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 3,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -246,6 +246,17 @@
             "team_id": 3,
             "name": "Wilmer Difó",
             "abbreviation": "W. Difó",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5321,
+            "team_id": 3,
+            "name": "Webster Rivas",
+            "abbreviation": "W. Rivas",
             "number": null,
             "dob": null,
             "height": "",
@@ -571,6 +582,20 @@
             "ts": 1764721237
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "18145-2-21",
+            "text": "Webster Rivas al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764721403
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -608,6 +633,13 @@
         "label": "Alta 3ra",
         "total_plays": 5,
         "scoring_plays": 2
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -723,7 +755,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
