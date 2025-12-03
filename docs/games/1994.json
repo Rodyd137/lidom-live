@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1994",
-    "scraped_at": "2025-12-03T02:04:11.057Z",
+    "scraped_at": "2025-12-03T02:05:14.878Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-02 19:30:00",
-    "roundText": "Baja 7ma",
-    "currentInningNum": 7,
-    "lastPlayByPlay": "Raimel Tapia Ponche (K) ",
+    "roundText": "Alta 8va",
+    "currentInningNum": 8,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -934,10 +934,31 @@
           },
           {
             "reference_id": "18158-2-59",
-            "text": "Miguel Sano al bate",
+            "text": "Miguel Sano Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764727229
+            "ts": 1764727478
+          },
+          {
+            "reference_id": "18158-2-60",
+            "text": "Robinson Canó   Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764727487
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "18159-1-61",
+            "text": "Jared Oliva al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764727500
           }
         ]
       }
@@ -1038,7 +1059,14 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 3,
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -1088,14 +1116,14 @@
       {
         "num": 7,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 8,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -1144,7 +1172,7 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 5,
+          "runs": 6,
           "hits": 10,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
