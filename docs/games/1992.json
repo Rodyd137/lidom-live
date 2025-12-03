@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1992",
-    "scraped_at": "2025-12-03T02:13:45.421Z",
+    "scraped_at": "2025-12-03T02:14:49.099Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-02 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Hayden Senger Sencillo ",
+    "lastPlayByPlay": "Emilio Bonifacio Toque de Sacrificio ",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 1,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -913,10 +913,17 @@
           },
           {
             "reference_id": "18140-2-56",
-            "text": "Emilio Bonifacio al bate",
+            "text": "Emilio Bonifacio Toque de Sacrificio ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764727873
+            "ts": 1764728058
+          },
+          {
+            "reference_id": "18140-2-57",
+            "text": "Cal Stevenson  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764728062
           }
         ]
       }
@@ -1017,7 +1024,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -1123,8 +1130,8 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 5,
-          "hits": 6,
+          "runs": 6,
+          "hits": 7,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         },
