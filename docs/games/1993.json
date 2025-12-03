@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1993",
-    "scraped_at": "2025-12-03T00:04:49.232Z",
+    "scraped_at": "2025-12-03T00:05:53.509Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-02 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Alberto Rodriguez  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
@@ -224,6 +224,17 @@
             "team_id": 3,
             "name": "Alberto Rodriguez",
             "abbreviation": "A. Rodriguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5602,
+            "team_id": 3,
+            "name": "Jerar Encarnacion",
+            "abbreviation": "J. Encarnacion",
             "number": null,
             "dob": null,
             "height": "",
@@ -487,10 +498,17 @@
         "plays": [
           {
             "reference_id": "18144-2-13",
-            "text": "Alberto Rodriguez al bate",
+            "text": "Alberto Rodriguez  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764720276
+            "ts": 1764720289
+          },
+          {
+            "reference_id": "18144-2-14",
+            "text": "Jerar Encarnacion al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764720315
           }
         ]
       }
@@ -521,7 +539,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
