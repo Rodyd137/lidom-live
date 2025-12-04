@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1996",
-    "scraped_at": "2025-12-04T02:24:23.140Z",
+    "scraped_at": "2025-12-04T02:25:27.281Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-03 19:30:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Cal Stevenson  Sencillo ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 2,
-          "H": 3,
+          "H": 4,
           "E": 0,
           "H2": 2
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 2,
-          "H": 3,
+          "H": 4,
           "E": 0
         }
       },
@@ -871,10 +871,17 @@
         "plays": [
           {
             "reference_id": "18175-2-52",
-            "text": "Cal Stevenson  al bate",
+            "text": "Cal Stevenson  Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764815021
+            "ts": 1764815110
+          },
+          {
+            "reference_id": "18175-2-53",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764815113
           }
         ]
       }
@@ -961,7 +968,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
