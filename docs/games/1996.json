@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1996",
-    "scraped_at": "2025-12-04T00:18:24.566Z",
+    "scraped_at": "2025-12-04T00:19:29.417Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,7 +13,7 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
@@ -92,6 +92,17 @@
             "team_id": 3,
             "name": "Ezequiel Duran",
             "abbreviation": "E. Duran",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5389,
+            "team_id": 3,
+            "name": "Aderlin Rodríguez",
+            "abbreviation": "A. Rodríguez",
             "number": null,
             "dob": null,
             "height": "",
@@ -371,6 +382,20 @@
             "ts": 1764807387
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18171-1-8",
+            "text": "Aderlin Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764807558
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -386,6 +411,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -465,8 +497,8 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 1,
-          "hits": 3,
+          "runs": 2,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         },

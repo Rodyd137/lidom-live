@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1997",
-    "scraped_at": "2025-12-04T00:18:24.573Z",
+    "scraped_at": "2025-12-04T00:19:29.440Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,7 +13,7 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
@@ -548,6 +548,20 @@
             "ts": 1764807381
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "18180-2-17",
+            "text": "Eloy Jimenez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764807554
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -571,6 +585,13 @@
         "label": "Alta 2da",
         "total_plays": 7,
         "scoring_plays": 2
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -649,8 +670,8 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 1,
-          "hits": 3,
+          "runs": 2,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         },
