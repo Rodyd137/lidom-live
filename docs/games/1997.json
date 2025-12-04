@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1997",
-    "scraped_at": "2025-12-04T01:44:35.302Z",
+    "scraped_at": "2025-12-04T01:45:39.553Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-03 19:30:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Bryan de la Cruz Sencillo ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 3,
-          "H": 7,
+          "H": 8,
           "E": 1,
           "H2": 3
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 3,
-          "H": 7,
+          "H": 8,
           "E": 1
         },
         "home": {
@@ -779,6 +779,27 @@
             "ts": 1764812484
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "18183-2-43",
+            "text": "Bryan de la Cruz Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764812700
+          },
+          {
+            "reference_id": "18183-2-44",
+            "text": "Allan Castro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764812703
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -843,6 +864,13 @@
         "half": "top",
         "label": "Alta 5ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
