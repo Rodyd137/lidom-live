@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1996",
-    "scraped_at": "2025-12-04T01:23:25.246Z",
+    "scraped_at": "2025-12-04T01:24:29.799Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-03 19:30:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Luis Campusano Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -716,6 +716,27 @@
             "ts": 1764811250
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "18173-2-35",
+            "text": "Luis Campusano Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764811450
+          },
+          {
+            "reference_id": "18173-2-36",
+            "text": "Mel Rojas Jr. al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764811456
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -766,6 +787,13 @@
         "half": "top",
         "label": "Alta 4ta",
         "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
