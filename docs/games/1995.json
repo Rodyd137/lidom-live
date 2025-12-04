@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1995",
-    "scraped_at": "2025-12-04T02:06:05.382Z",
+    "scraped_at": "2025-12-04T02:07:09.740Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 5
         },
         "probables": {
-          "pitcher": "Yefry Yan",
+          "pitcher": "Patrick Weigel",
           "era": "",
           "record": "",
           "debut": false
@@ -175,7 +175,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 3,
-          "H": 3,
+          "H": 4,
           "E": 2,
           "H2": 2
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 3,
-          "H": 3,
+          "H": 4,
           "E": 2
         }
       },
@@ -1087,6 +1087,20 @@
             "ts": 1764813813
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "18169-2-79",
+            "text": "Kelvin Gutiérrez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764813970
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1207,6 +1221,13 @@
         "half": "top",
         "label": "Alta 9na",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
