@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1996",
-    "scraped_at": "2025-12-04T00:39:00.781Z",
+    "scraped_at": "2025-12-04T00:40:05.755Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-03 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Webster Rivas Base por Bolas ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -147,6 +147,17 @@
             "team_id": 3,
             "name": "Webster Rivas",
             "abbreviation": "W. Rivas",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5329,
+            "team_id": 3,
+            "name": "Alfredo Reyes",
+            "abbreviation": "A. Reyes",
             "number": null,
             "dob": null,
             "height": "",
@@ -573,10 +584,17 @@
         "plays": [
           {
             "reference_id": "18172-1-18",
-            "text": "Webster Rivas al bate",
+            "text": "Webster Rivas Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764808692
+            "ts": 1764808736
+          },
+          {
+            "reference_id": "18172-1-19",
+            "text": "Alfredo Reyes al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764808759
           }
         ]
       }
@@ -614,7 +632,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -714,7 +732,7 @@
         "id": 1997,
         "date": "2025-12-03 19:30:00",
         "status": 2,
-        "roundText": "Baja 2da",
+        "roundText": "Alta 3ra",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
