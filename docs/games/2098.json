@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2098",
-    "scraped_at": "2025-12-04T23:53:17.274Z",
+    "scraped_at": "2025-12-04T23:54:20.695Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-04 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Deyvinson de los Santos Base por Bolas ",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -514,10 +514,17 @@
         "plays": [
           {
             "reference_id": "19102-1-10",
-            "text": "Deyvinson de los Santos al bate",
+            "text": "Deyvinson de los Santos Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764892243
+            "ts": 1764892439
+          },
+          {
+            "reference_id": "19102-1-11",
+            "text": "Gary Sanchez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764892442
           }
         ]
       }
@@ -541,7 +548,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
