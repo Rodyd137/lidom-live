@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1996",
-    "scraped_at": "2025-12-04T02:30:49.803Z",
+    "scraped_at": "2025-12-04T02:31:54.229Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-03 19:30:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Wilmer Difó Out Robando Base! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -54,7 +54,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 4,
-          "H": 5,
+          "H": 6,
           "E": 0,
           "H2": 3
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 4,
-          "H": 5,
+          "H": 6,
           "E": 0
         },
         "home": {
@@ -891,6 +891,34 @@
             "ts": 1764815235
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "18176-1-55",
+            "text": "Wilmer Difó Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764815471
+          },
+          {
+            "reference_id": "18176-1-56",
+            "text": "Juan Lagares al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764815474
+          },
+          {
+            "reference_id": "18176-1-55-266201",
+            "text": "Wilmer Difó Out Robando Base! ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1764815503
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -975,6 +1003,13 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
         "total_plays": 3,
         "scoring_plays": 0
       }
