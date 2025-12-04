@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1997",
-    "scraped_at": "2025-12-04T00:25:59.967Z",
+    "scraped_at": "2025-12-04T00:27:04.941Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-03 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Yairo Munoz Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "Jeimer Candelario Triple! ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 4
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 2
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -174,10 +174,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 0,
-          "H": 1,
+          "R": 1,
+          "H": 2,
           "E": 1,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
           "pitcher": "Justin Courtney",
@@ -299,7 +299,7 @@
         {
           "num": 2,
           "away": 3,
-          "home": 0
+          "home": 1
         },
         {
           "num": 3,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 0,
-          "H": 1,
+          "R": 1,
+          "H": 2,
           "E": 1
         }
       },
@@ -396,35 +396,35 @@
           },
           {
             "num": 2,
-            "R": 0
+            "R": 1
           },
           {
             "num": 3,
-            "R": 0
+            "R": 1
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ]
       }
@@ -570,10 +570,17 @@
           },
           {
             "reference_id": "18180-2-19",
-            "text": "Jeimer Candelario al bate",
+            "text": "Jeimer Candelario Triple! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764808001
+          },
+          {
+            "reference_id": "18180-2-20",
+            "text": "Tres Barrera al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764807828
+            "ts": 1764808006
           }
         ]
       }
@@ -604,8 +611,8 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -621,7 +628,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 3,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 3,
@@ -704,7 +711,7 @@
         "id": 1996,
         "date": "2025-12-03 19:30:00",
         "status": 2,
-        "roundText": "Alta 2da",
+        "roundText": "Baja 2da",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
