@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1997",
-    "scraped_at": "2025-12-04T01:11:34.771Z",
+    "scraped_at": "2025-12-04T01:12:39.362Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-03 19:30:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Yamaico Navarro Sencillo ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 3,
-          "H": 4,
+          "H": 5,
           "E": 1,
           "H2": 3
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 3,
-          "H": 4,
+          "H": 5,
           "E": 1
         },
         "home": {
@@ -682,10 +682,17 @@
         "plays": [
           {
             "reference_id": "18182-1-31",
-            "text": "Yamaico Navarro al bate",
+            "text": "Yamaico Navarro Sencillo ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764810714
+          },
+          {
+            "reference_id": "18182-1-32",
+            "text": "Socrates Brito al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764810657
+            "ts": 1764810718
           }
         ]
       }
@@ -737,8 +744,8 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 1,
-        "scoring_plays": 0
+        "total_plays": 2,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
