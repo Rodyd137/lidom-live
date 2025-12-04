@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1996",
-    "scraped_at": "2025-12-04T00:10:49.952Z",
+    "scraped_at": "2025-12-04T00:11:55.082Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-03 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Cal Stevenson  Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -136,6 +136,28 @@
             "team_id": 1,
             "name": "Gustavo Nuñez",
             "abbreviation": "G. Nuñez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5275,
+            "team_id": 1,
+            "name": "Cristhian Adames",
+            "abbreviation": "C. Adames",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5534,
+            "team_id": 1,
+            "name": "Luis Campusano",
+            "abbreviation": "L Campusano",
             "number": null,
             "dob": null,
             "height": "",
@@ -314,6 +336,27 @@
             "ts": 1764806919
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "18170-2-4",
+            "text": "Cal Stevenson  Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764807087
+          },
+          {
+            "reference_id": "18170-2-5",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764807090
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -322,6 +365,13 @@
         "half": "top",
         "label": "Alta 1ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
