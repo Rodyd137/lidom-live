@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1997",
-    "scraped_at": "2025-12-04T01:20:11.761Z",
+    "scraped_at": "2025-12-04T01:21:16.357Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-03 19:30:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Tres Barrera Base por Bolas ",
     "counts": {
       "balls": 1,
-      "strikes": 2,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -709,6 +709,27 @@
             "ts": 1764810971
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "18182-2-35",
+            "text": "Tres Barrera Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764811258
+          },
+          {
+            "reference_id": "18182-2-36",
+            "text": "Welbyn Francisca  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764811263
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -760,6 +781,13 @@
         "label": "Alta 4ta",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -858,7 +886,7 @@
         "id": 1996,
         "date": "2025-12-03 19:30:00",
         "status": 2,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
