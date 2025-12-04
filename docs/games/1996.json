@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1996",
-    "scraped_at": "2025-12-04T01:53:10.337Z",
+    "scraped_at": "2025-12-04T01:54:15.047Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 6,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -180,7 +180,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Luis Frias",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -807,6 +807,20 @@
             "ts": 1764813040
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "18175-1-45",
+            "text": "Webster Rivas al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764813226
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -878,6 +892,13 @@
         "half": "bottom",
         "label": "Baja 5ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -993,8 +1014,8 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 3,
-          "hits": 7,
+          "runs": 5,
+          "hits": 8,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
         }
