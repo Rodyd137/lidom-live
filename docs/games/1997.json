@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1997",
-    "scraped_at": "2025-12-04T00:42:15.970Z",
+    "scraped_at": "2025-12-04T00:43:20.963Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-03 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Erik Gonzalez  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -605,10 +605,17 @@
         "plays": [
           {
             "reference_id": "18181-1-23",
-            "text": "Erik Gonzalez al bate",
+            "text": "Erik Gonzalez  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764808925
+            "ts": 1764808955
+          },
+          {
+            "reference_id": "18181-1-24",
+            "text": "Hector Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764808971
           }
         ]
       }
@@ -646,7 +653,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
