@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1996",
-    "scraped_at": "2025-12-04T01:06:11.590Z",
+    "scraped_at": "2025-12-04T01:07:16.241Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,9 +11,9 @@
     "date": "2025-12-03 19:30:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Juan Lagares Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 1
     },
@@ -667,6 +667,27 @@
             "ts": 1764810171
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "18173-1-29",
+            "text": "Juan Lagares Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764810377
+          },
+          {
+            "reference_id": "18173-1-30",
+            "text": "Webster Rivas al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764810382
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -710,6 +731,13 @@
         "half": "bottom",
         "label": "Baja 3ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -789,8 +817,8 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 5,
-          "hits": 8,
+          "runs": 7,
+          "hits": 9,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         },
@@ -801,7 +829,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 2,
           "hits": 2,
-          "errors": 1,
+          "errors": 2,
           "permalink": "/equipo/gigantes-del-cibao"
         }
       },
