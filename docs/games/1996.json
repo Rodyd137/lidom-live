@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1996",
-    "scraped_at": "2025-12-04T00:23:49.906Z",
+    "scraped_at": "2025-12-04T00:24:54.931Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-03 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Jerar Encarnacion Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "Wilmer Difó Sencillo ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -125,6 +125,17 @@
             "team_id": 3,
             "name": "Wilmer Difó",
             "abbreviation": "W. Difó",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5334,
+            "team_id": 3,
+            "name": "Juan Lagares",
+            "abbreviation": "J. Lagares",
             "number": null,
             "dob": null,
             "height": "",
@@ -253,7 +264,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -426,10 +437,17 @@
           },
           {
             "reference_id": "18171-1-10",
-            "text": "Wilmer Difó al bate",
+            "text": "Wilmer Difó Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764807747
+            "ts": 1764807856
+          },
+          {
+            "reference_id": "18171-1-11",
+            "text": "Juan Lagares al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764807890
           }
         ]
       }
@@ -453,7 +471,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
