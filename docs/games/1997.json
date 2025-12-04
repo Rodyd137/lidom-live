@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1997",
-    "scraped_at": "2025-12-04T02:47:00.472Z",
+    "scraped_at": "2025-12-04T02:48:05.587Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-03 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Socrates Brito al bate",
+    "lastPlayByPlay": "Socrates Brito Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -1004,10 +1004,17 @@
           },
           {
             "reference_id": "18186-1-67",
-            "text": "Socrates Brito al bate",
+            "text": "Socrates Brito Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764816360
+            "ts": 1764816479
+          },
+          {
+            "reference_id": "18186-1-68",
+            "text": "Eguy Rosario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764816483
           }
         ]
       }
@@ -1115,7 +1122,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 1
       }
     ],
@@ -1222,7 +1229,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 4,
-          "hits": 6,
+          "hits": 7,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         },
