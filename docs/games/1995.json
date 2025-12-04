@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1995",
-    "scraped_at": "2025-12-04T00:50:57.839Z",
+    "scraped_at": "2025-12-04T00:52:02.961Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-03 19:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Taylor Sumad Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -821,6 +821,27 @@
             "ts": 1764809281
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "18165-2-48",
+            "text": "Taylor Sumad Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764809471
+          },
+          {
+            "reference_id": "18165-2-49",
+            "text": "Johan Rojas  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764809475
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -886,6 +907,13 @@
         "label": "Alta 5ta",
         "total_plays": 7,
         "scoring_plays": 2
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -984,7 +1012,7 @@
         "id": 1997,
         "date": "2025-12-03 19:30:00",
         "status": 2,
-        "roundText": "Alta 3ra",
+        "roundText": "Baja 3ra",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
