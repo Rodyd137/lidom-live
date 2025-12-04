@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1996",
-    "scraped_at": "2025-12-04T00:19:29.417Z",
+    "scraped_at": "2025-12-04T00:20:34.404Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-03 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Aderlin Rodríguez Out: Elevado al Jardinero Izquierdo",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -103,6 +103,17 @@
             "team_id": 3,
             "name": "Aderlin Rodríguez",
             "abbreviation": "A. Rodríguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5602,
+            "team_id": 3,
+            "name": "Jerar Encarnacion",
+            "abbreviation": "J. Encarnacion",
             "number": null,
             "dob": null,
             "height": "",
@@ -390,10 +401,17 @@
         "plays": [
           {
             "reference_id": "18171-1-8",
-            "text": "Aderlin Rodríguez al bate",
+            "text": "Aderlin Rodríguez Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1764807558
+            "ts": 1764807580
+          },
+          {
+            "reference_id": "18171-1-9",
+            "text": "Jerar Encarnacion al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764807623
           }
         ]
       }
@@ -417,7 +435,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
