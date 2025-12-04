@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1995",
-    "scraped_at": "2025-12-04T00:15:10.605Z",
+    "scraped_at": "2025-12-04T00:16:15.637Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-03 19:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Miguel Sano Cuadrangular! ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 0,
-          "H": 2,
+          "R": 1,
+          "H": 3,
           "E": 0,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
           "pitcher": "Oscar de la Cruz",
@@ -308,7 +308,7 @@
         },
         {
           "num": 4,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 2,
+          "R": 1,
+          "H": 3,
           "E": 0
         },
         "home": {
@@ -366,27 +366,27 @@
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ],
         "home": [
@@ -696,10 +696,17 @@
         "plays": [
           {
             "reference_id": "18164-1-32",
-            "text": "Miguel Sano al bate",
+            "text": "Miguel Sano Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764807320
+          },
+          {
+            "reference_id": "18164-1-33",
+            "text": "Robinson Canó  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764807227
+            "ts": 1764807324
           }
         ]
       }
@@ -751,8 +758,8 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 1,
-        "scoring_plays": 0
+        "total_plays": 2,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -781,7 +788,7 @@
         "num": 4,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
