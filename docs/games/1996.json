@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1996",
-    "scraped_at": "2025-12-04T02:40:32.487Z",
+    "scraped_at": "2025-12-04T02:41:37.226Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-03 19:30:00",
-    "roundText": "Baja 7ma",
-    "currentInningNum": 7,
-    "lastPlayByPlay": "Mel Rojas Jr.  Out: Rodado al Segunda Base - Primera Base",
+    "roundText": "Alta 8va",
+    "currentInningNum": 8,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 3
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -948,10 +948,17 @@
           },
           {
             "reference_id": "18176-2-60",
-            "text": "David Hensley al bate",
+            "text": "David Hensley Doble! ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764816024
+            "ts": 1764816037
+          },
+          {
+            "reference_id": "18176-2-61",
+            "text": "Domingo Leyba Out: Elevado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764816072
           }
         ]
       }
@@ -1052,7 +1059,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -1102,14 +1109,14 @@
       {
         "num": 7,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 8,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -1158,8 +1165,8 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 3,
-          "hits": 9,
+          "runs": 4,
+          "hits": 10,
           "errors": 2,
           "permalink": "/equipo/leones-del-escogido"
         },
