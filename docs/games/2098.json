@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2098",
-    "scraped_at": "2025-12-04T23:50:08.655Z",
+    "scraped_at": "2025-12-04T23:51:12.070Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-04 19:30:00",
-    "roundText": "Baja 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "Manuel Peña Out: Elevado al Tercera Base",
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 8
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
-      "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "on1B": false,
+      "on2B": false,
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -500,10 +500,24 @@
           },
           {
             "reference_id": "19101-2-9",
-            "text": "Yairo Munoz al bate",
+            "text": "Yairo Munoz  Out: Rodado al Campo Corto - Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764892167
+            "ts": 1764892227
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19102-1-10",
+            "text": "Deyvinson de los Santos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764892243
           }
         ]
       }
@@ -522,20 +536,27 @@
         "label": "Baja 1ra",
         "total_plays": 6,
         "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
       {
         "num": 1,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
