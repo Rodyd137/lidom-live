@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2097",
-    "scraped_at": "2025-12-05T02:24:26.603Z",
+    "scraped_at": "2025-12-05T02:25:30.461Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-04 19:30:00",
-    "roundText": "Baja 8va",
-    "currentInningNum": 8,
-    "lastPlayByPlay": "Alfredo Reyes  Out: Rodado al Campo Corto - Receptor",
+    "roundText": "Alta 9na",
+    "currentInningNum": 9,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 8
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
-      "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "on1B": false,
+      "on2B": false,
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -1032,10 +1032,17 @@
           },
           {
             "reference_id": "19099-2-69",
-            "text": "Steward Berroa al bate",
+            "text": "Steward Berroa Golpeado por Pelota Carrera Empujada",
             "scored": true,
             "is_primary": true,
-            "ts": 1764901452
+            "ts": 1764901469
+          },
+          {
+            "reference_id": "19099-2-70",
+            "text": "Leody Taveras Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764901489
           }
         ]
       }
@@ -1150,7 +1157,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 6,
+        "total_plays": 7,
         "scoring_plays": 1
       }
     ],
@@ -1207,14 +1214,14 @@
       {
         "num": 8,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 1
       },
       {
         "num": 9,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       }
@@ -1241,7 +1248,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 5,
-          "hits": 6,
+          "hits": 7,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         }
