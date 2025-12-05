@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1998",
-    "scraped_at": "2025-12-05T23:42:00.168Z",
+    "scraped_at": "2025-12-05T23:43:05.448Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-05 19:15:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Socrates Brito Sencillo ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 1,
           "H2": 0
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 1
         }
       },
@@ -534,6 +534,27 @@
             "ts": 1764977947
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "18189-2-13",
+            "text": "Socrates Brito Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764978135
+          },
+          {
+            "reference_id": "18189-2-14",
+            "text": "Eguy Rosario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764978140
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -557,6 +578,13 @@
         "label": "Alta 2da",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -636,7 +664,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 2,
-          "hits": 3,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         },
