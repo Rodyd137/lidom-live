@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2098",
-    "scraped_at": "2025-12-05T02:55:21.292Z",
+    "scraped_at": "2025-12-05T02:56:25.431Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-04 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Luis García Jr Base por Bolas ",
+    "lastPlayByPlay": "Deyvinson de los Santos Carrera Empujada Wild Pitch",
     "counts": {
       "balls": 2,
       "strikes": 2,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 8
+      "base": 4
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 5,
-          "H": 9,
+          "R": 7,
+          "H": 10,
           "E": 1,
           "H2": 3
         },
@@ -333,15 +333,15 @@
         },
         {
           "num": 9,
-          "away": 2,
+          "away": 4,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 5,
-          "H": 9,
+          "R": 7,
+          "H": 10,
           "E": 1
         },
         "home": {
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 5
+            "R": 7
           }
         ],
         "home": [
@@ -1067,10 +1067,17 @@
           },
           {
             "reference_id": "19109-1-75",
+            "text": "Deyvinson de los Santos Carrera Empujada Wild Pitch",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764903368
+          },
+          {
+            "reference_id": "19109-1-76",
             "text": "Deyvinson de los Santos al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764903195
+            "ts": 1764903374
           }
         ]
       }
@@ -1192,8 +1199,8 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 7,
-        "scoring_plays": 1
+        "total_plays": 8,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1257,7 +1264,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 2,
+        "awayTeamRuns": 4,
         "homeTeamRuns": 0
       }
     ],
