@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2000",
-    "scraped_at": "2025-12-05T23:54:43.934Z",
+    "scraped_at": "2025-12-05T23:56:10.617Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -180,6 +180,17 @@
             "team_id": 7,
             "name": "Miguel Sano",
             "abbreviation": "M. Sano",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5508,
+            "team_id": 7,
+            "name": "Robinson Canó ",
+            "abbreviation": "R. Canó",
             "number": null,
             "dob": null,
             "height": "",
@@ -414,6 +425,20 @@
             "ts": 1764978773
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "18207-2-10",
+            "text": "Robinson Canó  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764978915
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -436,6 +461,13 @@
         "half": "top",
         "label": "Alta 2da",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -516,7 +548,7 @@
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 3,
-          "hits": 4,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         },
