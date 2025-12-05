@@ -1,21 +1,21 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2000",
-    "scraped_at": "2025-12-05T23:35:27.873Z",
+    "scraped_at": "2025-12-05T23:36:33.432Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2000,
     "season_id": 20,
-    "status": 3,
+    "status": 2,
     "date": "2025-12-05 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gilberto Celestino Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -64,7 +64,19 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5382,
+            "team_id": 6,
+            "name": "Gilberto Celestino",
+            "abbreviation": "G. Celestino",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       },
       "home": {
         "id": 7,
@@ -229,8 +241,31 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "18206-1-1",
+            "text": "Gilberto Celestino Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764977789
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
@@ -307,8 +342,8 @@
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 0,
-          "hits": 1,
+          "runs": 1,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         },
