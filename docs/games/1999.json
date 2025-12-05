@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1999",
-    "scraped_at": "2025-12-05T23:24:06.509Z",
+    "scraped_at": "2025-12-05T23:25:10.923Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-05 19:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Wilmer Difó Toque de Sacrificio Lanzador - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -521,10 +521,24 @@
         "plays": [
           {
             "reference_id": "18198-1-11",
-            "text": "Wilmer Difó al bate",
+            "text": "Webster Rivas Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764977039
+            "ts": 1764977059
+          },
+          {
+            "reference_id": "18198-1-12",
+            "text": "Wilmer Difó Toque de Sacrificio Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764977084
+          },
+          {
+            "reference_id": "18198-1-13",
+            "text": "Alfredo Reyes al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764977087
           }
         ]
       }
@@ -548,7 +562,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
