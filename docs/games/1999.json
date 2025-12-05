@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1999",
-    "scraped_at": "2025-12-05T23:57:18.318Z",
+    "scraped_at": "2025-12-05T23:58:23.435Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-05 19:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Kenny Piper Ponche (K) ",
+    "lastPlayByPlay": "Luis García Jr Out: Elevado al Campo Corto",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 4
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 2,
           "H": 4,
-          "E": 0,
+          "E": 1,
           "H2": 2
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 2,
           "H": 4,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 1,
@@ -640,10 +640,17 @@
           },
           {
             "reference_id": "18199-2-25",
-            "text": "Samad Taylor al bate",
+            "text": "Samad Taylor  Out: Rodado al Primera Base - se embasa por Error del - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764978901
+            "ts": 1764979052
+          },
+          {
+            "reference_id": "18199-2-26",
+            "text": "Luis García Jr Out: Elevado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764979065
           }
         ]
       }
@@ -688,7 +695,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -768,8 +775,8 @@
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 3,
-          "hits": 5,
+          "runs": 4,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         },
@@ -780,7 +787,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 0,
           "hits": 1,
-          "errors": 1,
+          "errors": 2,
           "permalink": "/equipo/leones-del-escogido"
         }
       },

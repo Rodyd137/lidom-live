@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2000",
-    "scraped_at": "2025-12-05T23:57:18.385Z",
+    "scraped_at": "2025-12-05T23:58:23.467Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-05 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Robinson Canó   Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "Raimel Tapia  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 1
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -191,6 +191,28 @@
             "team_id": 7,
             "name": "Robinson Canó ",
             "abbreviation": "R. Canó",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5359,
+            "team_id": 7,
+            "name": "Raimel Tapia",
+            "abbreviation": "R. Tapia",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5355,
+            "team_id": 7,
+            "name": "Josh Lester",
+            "abbreviation": "J. Lester",
             "number": null,
             "dob": null,
             "height": "",
@@ -437,6 +459,20 @@
             "scored": false,
             "is_primary": true,
             "ts": 1764979003
+          },
+          {
+            "reference_id": "18207-2-11",
+            "text": "Raimel Tapia  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764979072
+          },
+          {
+            "reference_id": "18207-2-12",
+            "text": "Josh Lester al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764979084
           }
         ]
       }
@@ -467,7 +503,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -547,8 +583,8 @@
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 3,
-          "hits": 5,
+          "runs": 4,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         },
@@ -559,7 +595,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 0,
           "hits": 1,
-          "errors": 1,
+          "errors": 2,
           "permalink": "/equipo/leones-del-escogido"
         }
       },
@@ -575,7 +611,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 2,
           "hits": 4,
-          "errors": 0,
+          "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
         },
         "homeTeam": {
