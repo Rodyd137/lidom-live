@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1999",
-    "scraped_at": "2025-12-05T23:28:23.621Z",
+    "scraped_at": "2025-12-05T23:29:27.905Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-05 19:00:00",
-    "roundText": "Alta 2da",
+    "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Steward Berroa Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 4
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -548,6 +548,20 @@
             "ts": 1764977257
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "18198-2-15",
+            "text": "Leury García al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764977328
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -571,6 +585,13 @@
         "label": "Alta 2da",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -583,7 +604,7 @@
       },
       {
         "num": 2,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
