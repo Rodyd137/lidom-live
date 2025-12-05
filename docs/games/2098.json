@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2098",
-    "scraped_at": "2025-12-05T02:43:36.951Z",
+    "scraped_at": "2025-12-05T02:44:40.968Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-04 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Carlos Jorge Sencillo Lanzador",
+    "lastPlayByPlay": "Leury García Elevado de Sacrificio Carrera Empujada",
     "counts": {
-      "balls": 0,
-      "strikes": 1,
-      "outs": 0
+      "balls": 1,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 8
+      "base": 6
     },
     "base_runners": {
       "on1B": true,
-      "on2B": true,
+      "on2B": false,
       "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 3,
+          "R": 4,
           "H": 9,
           "E": 1,
           "H2": 3
@@ -333,14 +333,14 @@
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 3,
+          "R": 4,
           "H": 9,
           "E": 1
         },
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 3
+            "R": 4
           }
         ],
         "home": [
@@ -1046,10 +1046,17 @@
           },
           {
             "reference_id": "19109-1-72",
-            "text": "Leury García al bate",
+            "text": "Leury García Elevado de Sacrificio Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764902633
+          },
+          {
+            "reference_id": "19109-1-73",
+            "text": "Johan Rojas  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764902356
+            "ts": 1764902635
           }
         ]
       }
@@ -1171,8 +1178,8 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1236,7 +1243,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
