@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2097",
-    "scraped_at": "2025-12-05T00:46:50.526Z",
+    "scraped_at": "2025-12-05T01:57:39.651Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-04 19:30:00",
-    "roundText": "Alta 4ta",
-    "currentInningNum": 4,
+    "roundText": "Baja 7ma",
+    "currentInningNum": 7,
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 0,
-          "H": 1,
+          "R": 1,
+          "H": 6,
           "E": 1,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
           "pitcher": "Luis Santos",
@@ -143,10 +143,10 @@
             "position": ""
           },
           {
-            "id": 5609,
+            "id": 5305,
             "team_id": 4,
-            "name": "Dervy Ventura",
-            "abbreviation": "D. Ventura",
+            "name": "Franchy Cordero",
+            "abbreviation": "F. Cordero",
             "number": null,
             "dob": null,
             "height": "",
@@ -154,10 +154,10 @@
             "position": ""
           },
           {
-            "id": 5507,
+            "id": 5308,
             "team_id": 4,
-            "name": "Chadwick Tromp",
-            "abbreviation": "C. Tromp",
+            "name": "Alexander Canario",
+            "abbreviation": "A. Canario",
             "number": null,
             "dob": null,
             "height": "",
@@ -175,7 +175,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 3,
-          "H": 6,
+          "H": 7,
           "E": 0,
           "H2": 3
         },
@@ -313,7 +313,7 @@
         },
         {
           "num": 5,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,13 +340,13 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 1,
+          "R": 1,
+          "H": 6,
           "E": 1
         },
         "home": {
           "R": 3,
-          "H": 6,
+          "H": 7,
           "E": 0
         }
       },
@@ -370,23 +370,23 @@
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ],
         "home": [
@@ -681,6 +681,265 @@
             "ts": 1764895492
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "19095-1-29",
+            "text": "Hector Rodríguez Out: Elevado al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764895737
+          },
+          {
+            "reference_id": "19095-1-30",
+            "text": "Junior Lake  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764895881
+          },
+          {
+            "reference_id": "19095-1-31",
+            "text": "Elier Hernandez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764896029
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19095-2-32",
+            "text": "Alfredo Reyes  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764896331
+          },
+          {
+            "reference_id": "19095-2-33",
+            "text": "Steward Berroa  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764896354
+          },
+          {
+            "reference_id": "19095-2-34",
+            "text": "Leody Taveras Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764896447
+          },
+          {
+            "reference_id": "19095-2-35",
+            "text": "Ezequiel Duran Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764896556
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19096-1-36",
+            "text": "Eguy Rosario  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764896759
+          },
+          {
+            "reference_id": "19096-1-37",
+            "text": "José Marmolejos Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764896812
+          },
+          {
+            "reference_id": "19096-1-38",
+            "text": "Dervy Ventura  Out: Rodado al Primera Base - Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764896913
+          },
+          {
+            "reference_id": "19096-1-39",
+            "text": "Chadwick Tromp Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764896945
+          },
+          {
+            "reference_id": "19096-1-40",
+            "text": "Socrates Brito Out: Elevado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764897066
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "19096-2-41",
+            "text": "Aderlin Rodríguez  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764897294
+          },
+          {
+            "reference_id": "19096-2-42",
+            "text": "Alberto Rodriguez Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764897457
+          },
+          {
+            "reference_id": "19096-2-43",
+            "text": "Jerar Encarnacion  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764897600
+          },
+          {
+            "reference_id": "19096-2-44",
+            "text": "Wilmer Difó  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764897800
+          }
+        ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "19097-1-45",
+            "text": "Erik Gonzalez  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764898018
+          },
+          {
+            "reference_id": "19097-1-46",
+            "text": "Hector Rodríguez Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764898047
+          },
+          {
+            "reference_id": "19097-1-47",
+            "text": "Junior Lake Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764898168
+          }
+        ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "19097-2-48",
+            "text": "Elih Marrero  Out: Rodado al Primera Base - Lanzador",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764898423
+          },
+          {
+            "reference_id": "19097-2-49",
+            "text": "Alfredo Reyes Out: Elevado al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764898559
+          },
+          {
+            "reference_id": "19097-2-50",
+            "text": "Steward Berroa Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764898687
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "19098-1-51",
+            "text": "Elier Hernandez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764898934
+          },
+          {
+            "reference_id": "19098-1-52",
+            "text": "Eguy Rosario Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764898947
+          },
+          {
+            "reference_id": "19098-1-53",
+            "text": "José Marmolejos Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764898980
+          },
+          {
+            "reference_id": "19098-1-54",
+            "text": "Franchy Cordero Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764899067
+          },
+          {
+            "reference_id": "19098-1-55",
+            "text": "Alexander Canario Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764899283
+          },
+          {
+            "reference_id": "19098-1-56",
+            "text": "Socrates Brito Out: Línea al Lanzador",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764899524
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "19098-2-57",
+            "text": "Leody Taveras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764899718
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -725,6 +984,62 @@
         "label": "Baja 3ra",
         "total_plays": 8,
         "scoring_plays": 1
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 5,
+        "scoring_plays": 1
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -751,29 +1066,29 @@
       },
       {
         "num": 4,
-        "part": 1,
-        "is_last": 1,
-        "awayTeamRuns": 0,
-        "homeTeamRuns": 0
-      },
-      {
-        "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
+        "num": 5,
+        "part": 2,
+        "is_last": 0,
+        "awayTeamRuns": 1,
+        "homeTeamRuns": 0
+      },
+      {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 7,
-        "part": 1,
-        "is_last": 0,
+        "part": 2,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -797,14 +1112,14 @@
         "id": 2098,
         "date": "2025-12-04 19:30:00",
         "status": 2,
-        "roundText": "Alta 3ra",
+        "roundText": "Alta 7ma",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 2,
-          "hits": 4,
+          "runs": 3,
+          "hits": 7,
           "errors": 1,
           "permalink": "/equipo/gigantes-del-cibao"
         },
