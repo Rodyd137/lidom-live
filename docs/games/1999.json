@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1999",
-    "scraped_at": "2025-12-05T23:51:29.138Z",
+    "scraped_at": "2025-12-05T23:52:34.135Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-05 19:00:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Jonatan Clase Out: Elevado al Jardinero Izquierdo",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -619,10 +619,24 @@
           },
           {
             "reference_id": "18199-1-23",
-            "text": "Jonatan Clase Out: Elevado al Jardinero Izquierdo",
+            "text": "Disla Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
             "ts": 1764978677
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "18199-2-24",
+            "text": "Kenny Piper al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764978696
           }
         ]
       }
@@ -662,6 +676,13 @@
         "label": "Alta 3ra",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -681,7 +702,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -741,7 +762,7 @@
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 1,
-          "hits": 2,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         },
