@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2097",
-    "scraped_at": "2025-12-05T02:15:54.309Z",
+    "scraped_at": "2025-12-05T02:16:58.901Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-04 19:30:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Alberto Rodriguez Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 3,
-          "H": 7,
+          "H": 8,
           "E": 0,
           "H2": 3
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 3,
-          "H": 7,
+          "H": 8,
           "E": 0
         }
       },
@@ -989,6 +989,27 @@
             "ts": 1764900732
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "19099-2-64",
+            "text": "Alberto Rodriguez Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764900990
+          },
+          {
+            "reference_id": "19099-2-65",
+            "text": "Jerar Encarnacion al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764900998
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1095,6 +1116,13 @@
         "half": "top",
         "label": "Alta 8va",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
