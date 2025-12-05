@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2097",
-    "scraped_at": "2025-12-05T00:17:44.778Z",
+    "scraped_at": "2025-12-05T00:18:49.465Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-04 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Dervy Ventura  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -147,6 +147,17 @@
             "team_id": 4,
             "name": "Dervy Ventura",
             "abbreviation": "D. Ventura",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5507,
+            "team_id": 4,
+            "name": "Chadwick Tromp",
+            "abbreviation": "C. Tromp",
             "number": null,
             "dob": null,
             "height": "",
@@ -572,6 +583,27 @@
             "ts": 1764893567
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19094-1-18",
+            "text": "Dervy Ventura  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764893911
+          },
+          {
+            "reference_id": "19094-1-19",
+            "text": "Chadwick Tromp al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764893920
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -601,6 +633,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
