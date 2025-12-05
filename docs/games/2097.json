@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2097",
-    "scraped_at": "2025-12-05T00:10:12.499Z",
+    "scraped_at": "2025-12-05T00:11:17.138Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-04 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Elih Marrero Sencillo ",
+    "lastPlayByPlay": "Alfredo Reyes Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -246,6 +246,17 @@
             "team_id": 3,
             "name": "Elih Marrero",
             "abbreviation": "E. Marrero",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5329,
+            "team_id": 3,
+            "name": "Alfredo Reyes",
+            "abbreviation": "A. Reyes",
             "number": null,
             "dob": null,
             "height": "",
@@ -534,6 +545,20 @@
             "scored": false,
             "is_primary": true,
             "ts": 1764893402
+          },
+          {
+            "reference_id": "19093-2-16",
+            "text": "Alfredo Reyes Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764893449
+          },
+          {
+            "reference_id": "19093-2-17",
+            "text": "Steward Berroa al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764893467
           }
         ]
       }
@@ -564,7 +589,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 3,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -655,7 +680,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 0,
-          "hits": 3,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         }
