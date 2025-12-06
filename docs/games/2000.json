@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2000",
-    "scraped_at": "2025-12-06T01:10:13.959Z",
+    "scraped_at": "2025-12-06T01:11:19.666Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-05 19:30:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Allan Castro Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 3
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -787,10 +787,10 @@
           },
           {
             "reference_id": "18211-1-41",
-            "text": "Allan Castro Sencillo y 1 Carrera Impulsada ",
-            "scored": true,
+            "text": "Allan Castro Out: Elevado al Jardinero Central",
+            "scored": false,
             "is_primary": true,
-            "ts": 1764983403
+            "ts": 1764983439
           }
         ]
       }
@@ -871,7 +871,7 @@
         "half": "top",
         "label": "Alta 6ta",
         "total_plays": 4,
-        "scoring_plays": 1
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -912,7 +912,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
