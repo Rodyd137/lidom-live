@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1999",
-    "scraped_at": "2025-12-06T01:59:09.182Z",
+    "scraped_at": "2025-12-06T02:00:13.143Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-05 19:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Carlos Jorge Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Felix Ramires",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -1039,10 +1039,17 @@
         "plays": [
           {
             "reference_id": "18204-2-72",
-            "text": "Carlos Jorge al bate",
+            "text": "Carlos Jorge Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764986176
+            "ts": 1764986397
+          },
+          {
+            "reference_id": "18204-2-73",
+            "text": "Kenny Piper al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764986402
           }
         ]
       }
@@ -1157,7 +1164,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1257,7 +1264,7 @@
         "id": 2000,
         "date": "2025-12-05 19:30:00",
         "status": 2,
-        "roundText": "Alta 8va",
+        "roundText": "Baja 8va",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
