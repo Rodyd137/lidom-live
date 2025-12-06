@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2000",
-    "scraped_at": "2025-12-06T02:33:13.770Z",
+    "scraped_at": "2025-12-06T02:34:17.427Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-05 19:30:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Robinson Canó  Sencillo ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -1032,10 +1032,17 @@
         "plays": [
           {
             "reference_id": "18214-2-69",
-            "text": "Miguel Sano al bate",
+            "text": "Miguel Sano Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764988266
+            "ts": 1764988404
+          },
+          {
+            "reference_id": "18214-2-70",
+            "text": "Robinson Canó  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764988435
           }
         ]
       }
@@ -1164,7 +1171,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
