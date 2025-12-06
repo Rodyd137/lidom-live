@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2001",
-    "scraped_at": "2025-12-06T23:22:13.459Z",
+    "scraped_at": "2025-12-06T23:23:16.122Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-06 16:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Erik Gonzalez Base por Bolas ",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -1130,10 +1130,17 @@
         "plays": [
           {
             "reference_id": "18223-2-81",
-            "text": "Erik Gonzalez al bate",
+            "text": "Erik Gonzalez Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765063287
+            "ts": 1765063369
+          },
+          {
+            "reference_id": "18223-2-82",
+            "text": "Socrates Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765063372
           }
         ]
       }
@@ -1262,7 +1269,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
