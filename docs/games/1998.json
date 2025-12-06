@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1998",
-    "scraped_at": "2025-12-06T00:34:16.900Z",
+    "scraped_at": "2025-12-06T00:35:22.080Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-05 19:15:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Hector Rodríguez Ponche (K) ",
+    "lastPlayByPlay": "Socrates Brito se embasa por Error del Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 5,
           "H": 8,
-          "E": 0,
+          "E": 1,
           "H2": 5
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 5,
           "H": 8,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 0,
@@ -724,10 +724,17 @@
           },
           {
             "reference_id": "18191-2-34",
-            "text": "Socrates Brito al bate",
+            "text": "Socrates Brito se embasa por Error del Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764981242
+            "ts": 1764981299
+          },
+          {
+            "reference_id": "18191-2-35",
+            "text": "Eguy Rosario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764981307
           }
         ]
       }
@@ -786,7 +793,7 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],

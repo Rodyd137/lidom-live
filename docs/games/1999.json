@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1999",
-    "scraped_at": "2025-12-06T00:34:16.840Z",
+    "scraped_at": "2025-12-06T00:35:22.065Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-05 19:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Kenny Piper Sencillo Jardinero Izquierdo",
+    "lastPlayByPlay": "Kenny Piper Out Robando Base! Wild Pitch",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -780,10 +780,17 @@
           },
           {
             "reference_id": "18201-2-41",
-            "text": "Samad Taylor al bate",
+            "text": "Samad Taylor Out: Línea al Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1764981197
+            "ts": 1764981255
+          },
+          {
+            "reference_id": "18201-2-42",
+            "text": "Kenny Piper Out Robando Base! Wild Pitch",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764981310
           }
         ]
       }
@@ -856,7 +863,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -938,7 +945,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 5,
           "hits": 8,
-          "errors": 0,
+          "errors": 1,
           "permalink": "/equipo/tigres-del-licey"
         },
         "homeTeam": {
