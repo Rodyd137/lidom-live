@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2002",
-    "scraped_at": "2025-12-06T22:54:46.499Z",
+    "scraped_at": "2025-12-06T22:55:49.967Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-06 17:00:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Emilio Bonifacio Doble! 1 Carrera Impulsada Jardinero Izquierdo",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 2,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 2
         },
         "home": {
@@ -786,6 +786,27 @@
             "ts": 1765061496
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "18229-1-42",
+            "text": "Emilio Bonifacio Doble! 1 Carrera Impulsada Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765061722
+          },
+          {
+            "reference_id": "18229-1-43",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765061727
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -857,6 +878,13 @@
         "half": "bottom",
         "label": "Baja 5ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
