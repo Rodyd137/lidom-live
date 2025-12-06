@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2001",
-    "scraped_at": "2025-12-06T22:28:10.599Z",
+    "scraped_at": "2025-12-06T22:29:15.452Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-06 16:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Alexander Canario  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -264,10 +264,10 @@
             "position": ""
           },
           {
-            "id": 5507,
+            "id": 5308,
             "team_id": 4,
-            "name": "Chadwick Tromp",
-            "abbreviation": "C. Tromp",
+            "name": "Alexander Canario",
+            "abbreviation": "A. Canario",
             "number": null,
             "dob": null,
             "height": "",
@@ -933,6 +933,27 @@
             "ts": 1765059866
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "18221-2-59",
+            "text": "Alexander Canario  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765060122
+          },
+          {
+            "reference_id": "18221-2-60",
+            "text": "Dervy Ventura al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765060126
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1026,6 +1047,13 @@
         "label": "Alta 7ma",
         "total_plays": 8,
         "scoring_plays": 3
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
