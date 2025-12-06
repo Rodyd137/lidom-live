@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2001",
-    "scraped_at": "2025-12-06T22:53:42.141Z",
+    "scraped_at": "2025-12-06T22:54:46.472Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-06 16:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Socrates Brito Ponche (K) ",
+    "lastPlayByPlay": "Junior Lake se embasa por Error del Tercera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 8,
           "H": 11,
-          "E": 0,
+          "E": 1,
           "H2": 1
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 8,
           "H": 11,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 4,
@@ -1046,10 +1046,17 @@
           },
           {
             "reference_id": "18222-2-72",
-            "text": "Junior Lake al bate",
+            "text": "Junior Lake se embasa por Error del Tercera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765061603
+            "ts": 1765061659
+          },
+          {
+            "reference_id": "18222-2-73",
+            "text": "Franchy Cordero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765061668
           }
         ]
       }
@@ -1164,7 +1171,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -1238,7 +1245,7 @@
         "id": 2002,
         "date": "2025-12-06 17:00:00",
         "status": 2,
-        "roundText": "Baja 5ta",
+        "roundText": "Alta 6ta",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
