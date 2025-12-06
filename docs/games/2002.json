@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2002",
-    "scraped_at": "2025-12-06T23:23:16.126Z",
+    "scraped_at": "2025-12-06T23:24:18.814Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-06 17:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Francisco Mejía Doble! Jardinero Derecho ",
+    "lastPlayByPlay": "Cal Stevenson   Out: Rodado al Primera Base - Carrera Empujada",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 7
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": true,
-      "runners": 2,
-      "mask": 7
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
-          "R": 0,
+          "R": 1,
           "H": 3,
           "E": 2,
           "H2": 0
@@ -323,7 +323,7 @@
         },
         {
           "num": 7,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,7 +340,7 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
+          "R": 1,
           "H": 3,
           "E": 2
         },
@@ -378,15 +378,15 @@
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ],
         "home": [
@@ -871,10 +871,17 @@
           },
           {
             "reference_id": "18230-1-51",
-            "text": "Cal Stevenson  al bate",
+            "text": "Cal Stevenson   Out: Rodado al Primera Base - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765063439
+          },
+          {
+            "reference_id": "18230-1-52",
+            "text": "Armando Alvarez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1765063342
+            "ts": 1765063442
           }
         ]
       }
@@ -968,8 +975,8 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1019,7 +1026,7 @@
         "num": 7,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
