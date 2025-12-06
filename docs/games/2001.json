@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2001",
-    "scraped_at": "2025-12-06T21:00:51.530Z",
+    "scraped_at": "2025-12-06T21:01:56.421Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-06 16:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Erik Gonzalez Out: Elevado al Jardinero Derecho ",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 0
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Luis Patiño",
+          "pitcher": "Devin Smeltzer",
           "era": "",
           "record": "",
           "debut": false
@@ -626,10 +626,17 @@
         "plays": [
           {
             "reference_id": "18217-2-22",
-            "text": "Hector Rodríguez al bate",
+            "text": "Hector Rodríguez Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765054773
+            "ts": 1765054867
+          },
+          {
+            "reference_id": "18217-2-23",
+            "text": "Erik Gonzalez Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765054909
           }
         ]
       }
@@ -674,7 +681,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
