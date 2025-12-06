@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1999",
-    "scraped_at": "2025-12-06T00:26:39.435Z",
+    "scraped_at": "2025-12-06T00:27:44.795Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-05 19:00:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Leody Taveras Out: Elevado al Jardinero Derecho ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -745,10 +745,24 @@
         "plays": [
           {
             "reference_id": "18201-1-37",
-            "text": "Steward Berroa al bate",
+            "text": "Steward Berroa Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764980463
+            "ts": 1764980799
+          },
+          {
+            "reference_id": "18201-1-38",
+            "text": "Leody Taveras Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764980811
+          },
+          {
+            "reference_id": "18201-1-39",
+            "text": "Ezequiel Duran al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764980814
           }
         ]
       }
@@ -814,7 +828,7 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -888,7 +902,7 @@
         "id": 1998,
         "date": "2025-12-05 19:15:00",
         "status": 2,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -920,8 +934,8 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 0,
-          "hits": 2,
+          "runs": 1,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         },
