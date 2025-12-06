@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2001",
-    "scraped_at": "2025-12-06T20:34:47.948Z",
+    "scraped_at": "2025-12-06T20:35:55.243Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-06 16:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Junior Lake Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -527,6 +527,27 @@
             "ts": 1765053100
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "18216-2-11",
+            "text": "Junior Lake Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765053342
+          },
+          {
+            "reference_id": "18216-2-12",
+            "text": "Franchy Cordero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765053347
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -549,6 +570,13 @@
         "half": "top",
         "label": "Alta 2da",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
