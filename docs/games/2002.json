@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2002",
-    "scraped_at": "2025-12-06T23:27:27.030Z",
+    "scraped_at": "2025-12-06T23:28:29.604Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-06 17:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Armando Alvarez Elevado de Sacrificio Carrera Empujada",
+    "lastPlayByPlay": "Hayden Senger Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -885,10 +885,17 @@
           },
           {
             "reference_id": "18230-1-53",
-            "text": "Hayden Senger al bate",
+            "text": "Hayden Senger Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765063487
+            "ts": 1765063673
+          },
+          {
+            "reference_id": "18230-1-54",
+            "text": "Emilio Bonifacio al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765063677
           }
         ]
       }
@@ -982,7 +989,7 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 2
       }
     ],
@@ -1064,7 +1071,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 8,
           "hits": 11,
-          "errors": 3,
+          "errors": 2,
           "permalink": "/equipo/aguilas-cibaenas"
         },
         "homeTeam": {
@@ -1081,7 +1088,7 @@
       {
         "id": 2003,
         "date": "2025-12-06 19:30:00",
-        "status": 1,
+        "status": 3,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 7,
