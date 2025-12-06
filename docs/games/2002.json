@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2002",
-    "scraped_at": "2025-12-06T21:48:04.928Z",
+    "scraped_at": "2025-12-06T21:49:10.013Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-06 17:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Kelvin Gutiérrez Out: Elevado al Jardinero Derecho ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 1,
-          "H": 1,
+          "H": 2,
           "E": 0,
           "H2": 1
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 1,
-          "H": 1,
+          "H": 2,
           "E": 0
         }
       },
@@ -549,10 +549,17 @@
         "plays": [
           {
             "reference_id": "18225-2-14",
-            "text": "Kelvin Gutiérrez al bate",
+            "text": "Kelvin Gutiérrez Out: Elevado al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765057642
+            "ts": 1765057684
+          },
+          {
+            "reference_id": "18225-2-15",
+            "text": "Carlos Jorge al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765057691
           }
         ]
       }
@@ -583,7 +590,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -657,7 +664,7 @@
         "id": 2001,
         "date": "2025-12-06 16:00:00",
         "status": 2,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
