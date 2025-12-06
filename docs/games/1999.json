@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1999",
-    "scraped_at": "2025-12-06T01:28:41.947Z",
+    "scraped_at": "2025-12-06T01:29:46.860Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-05 19:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Luis García Jr  Out: Rodado al Campo Corto - Segunda Base",
+    "lastPlayByPlay": "Luis García Jr Robo de Base ",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
+      "balls": 3,
+      "strikes": 2,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 6
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": true,
       "runners": 2,
-      "mask": 6
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -948,10 +948,17 @@
           },
           {
             "reference_id": "18203-2-61",
+            "text": "Luis García Jr Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764984565
+          },
+          {
+            "reference_id": "18203-2-62",
             "text": "Deyvinson de los Santos al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764984370
+            "ts": 1764984569
           }
         ]
       }
@@ -1052,7 +1059,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 6,
+        "total_plays": 7,
         "scoring_plays": 0
       }
     ],
@@ -1126,7 +1133,7 @@
         "id": 1998,
         "date": "2025-12-05 19:15:00",
         "status": 2,
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
