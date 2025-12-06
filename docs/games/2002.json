@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2002",
-    "scraped_at": "2025-12-06T23:08:30.362Z",
+    "scraped_at": "2025-12-06T23:09:32.884Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-06 17:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Kelvin Gutiérrez Out: Elevado al Jardinero Derecho ",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 1,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -829,10 +829,17 @@
         "plays": [
           {
             "reference_id": "18229-2-46",
-            "text": "Kelvin Gutiérrez al bate",
+            "text": "Kelvin Gutiérrez Out: Elevado al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765062302
+            "ts": 1765062522
+          },
+          {
+            "reference_id": "18229-2-47",
+            "text": "Carlos Jorge al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765062526
           }
         ]
       }
@@ -919,7 +926,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
