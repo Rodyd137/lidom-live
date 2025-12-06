@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2002",
-    "scraped_at": "2025-12-06T21:49:10.013Z",
+    "scraped_at": "2025-12-06T21:50:13.528Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-06 17:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Kelvin Gutiérrez Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "Frank Rodriguez  Out: Rodado al Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 1
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -556,10 +556,24 @@
           },
           {
             "reference_id": "18225-2-15",
-            "text": "Carlos Jorge al bate",
+            "text": "Carlos Jorge Sencillo Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765057691
+            "ts": 1765057748
+          },
+          {
+            "reference_id": "18225-2-16",
+            "text": "Frank Rodriguez  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765057775
+          },
+          {
+            "reference_id": "18225-2-17",
+            "text": "Julio Carreras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765057782
           }
         ]
       }
@@ -590,7 +604,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 2,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
