@@ -2,72 +2,32 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2025-12-06T02:18:22.043Z",
+    "scraped_at": "2025-12-06T02:19:25.848Z",
     "tz": "America/Santo_Domingo"
   },
   "tracked_ids": [
-    1999,
     1998,
     2000
   ],
   "live": [
-    {
-      "id": 1999,
-      "status": 6,
-      "roundText": "Alta 9na",
-      "currentInningNum": 9,
-      "atBat": null,
-      "lastPlayByPlay": "Wilmer Difó Ponche (K) ",
-      "counts": {
-        "balls": 0,
-        "strikes": 0,
-        "outs": 3
-      },
-      "base": {
-        "on1B": false,
-        "on2B": false,
-        "on3B": false,
-        "runners": 0,
-        "mask": 1
-      },
-      "battingTeam": "awayTeam",
-      "score": {
-        "away": {
-          "name": "Aguilas",
-          "abbr": "AC",
-          "R": 3,
-          "H": 6,
-          "E": 3
-        },
-        "home": {
-          "name": "Gigantes",
-          "abbr": "GC",
-          "R": 7,
-          "H": 9,
-          "E": 1
-        }
-      },
-      "threat": 4,
-      "updated_at": "2025-12-06T02:18:22.043Z"
-    },
     {
       "id": 1998,
       "status": 2,
       "roundText": "Baja 9na",
       "currentInningNum": 9,
       "atBat": null,
-      "lastPlayByPlay": "Alexander Canario Out: Elevado al Tercera Base",
+      "lastPlayByPlay": "Luis De Los Santos al bate",
       "counts": {
-        "balls": 0,
+        "balls": 2,
         "strikes": 0,
         "outs": 1
       },
       "base": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "battingTeam": "homeTeam",
       "score": {
@@ -86,8 +46,8 @@
           "E": 2
         }
       },
-      "threat": 22,
-      "updated_at": "2025-12-06T02:18:22.043Z"
+      "threat": 31,
+      "updated_at": "2025-12-06T02:19:25.848Z"
     },
     {
       "id": 2000,
@@ -95,18 +55,18 @@
       "roundText": "Alta 9na",
       "currentInningNum": 9,
       "atBat": null,
-      "lastPlayByPlay": "Rafael Lantigua  Out: Elevado al Jardinero Derecho ",
+      "lastPlayByPlay": "Tres Barrera Doble! ",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
+        "balls": 0,
+        "strikes": 0,
         "outs": 2
       },
       "base": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "battingTeam": "awayTeam",
       "score": {
@@ -114,7 +74,7 @@
           "name": "Toros",
           "abbr": "TE",
           "R": 3,
-          "H": 4,
+          "H": 5,
           "E": 0
         },
         "home": {
@@ -125,8 +85,8 @@
           "E": 0
         }
       },
-      "threat": 4,
-      "updated_at": "2025-12-06T02:18:22.043Z"
+      "threat": 16,
+      "updated_at": "2025-12-06T02:19:25.848Z"
     }
   ]
 }
