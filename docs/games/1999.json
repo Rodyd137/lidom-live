@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1999",
-    "scraped_at": "2025-12-06T00:15:46.519Z",
+    "scraped_at": "2025-12-06T00:16:51.624Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-05 19:00:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Nomar Mazara Sencillo Segunda Base - se embasa por Error del - Segunda Base - Carrera Empujada",
+    "lastPlayByPlay": "Nomar Mazara Robo de Base ",
     "counts": {
-      "balls": 1,
+      "balls": 2,
       "strikes": 2,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -710,10 +710,17 @@
           },
           {
             "reference_id": "18200-2-33",
+            "text": "Nomar Mazara Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764980176
+          },
+          {
+            "reference_id": "18200-2-34",
             "text": "Kelvin Gutiérrez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764980006
+            "ts": 1764980185
           }
         ]
       }
@@ -772,7 +779,7 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 1
       }
     ],
@@ -863,7 +870,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 0,
-          "hits": 1,
+          "hits": 2,
           "errors": 2,
           "permalink": "/equipo/leones-del-escogido"
         }
