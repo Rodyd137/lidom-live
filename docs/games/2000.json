@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2000",
-    "scraped_at": "2025-12-06T00:00:33.613Z",
+    "scraped_at": "2025-12-06T00:01:38.737Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-05 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Raimel Tapia  Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "Josh Lester Sencillo ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -142,7 +142,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -218,6 +218,17 @@
             "height": "",
             "image": null,
             "position": ""
+          },
+          {
+            "id": 5600,
+            "team_id": 7,
+            "name": "Jorge Mateo",
+            "abbreviation": "J. Mateo",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
           }
         ]
       }
@@ -280,7 +291,7 @@
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         }
       },
@@ -469,10 +480,17 @@
           },
           {
             "reference_id": "18207-2-12",
-            "text": "Josh Lester al bate",
+            "text": "Josh Lester Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764979084
+            "ts": 1764979274
+          },
+          {
+            "reference_id": "18207-2-13",
+            "text": "Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764979292
           }
         ]
       }
@@ -503,7 +521,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
