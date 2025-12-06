@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1999",
-    "scraped_at": "2025-12-06T00:20:07.359Z",
+    "scraped_at": "2025-12-06T00:21:12.766Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-05 19:00:00",
-    "roundText": "Baja 4ta",
-    "currentInningNum": 4,
-    "lastPlayByPlay": "Kelvin Gutiérrez Out: Elevado al Jardinero Derecho  - Segunda Base",
+    "roundText": "Alta 5ta",
+    "currentInningNum": 5,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 2
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -731,10 +731,24 @@
           },
           {
             "reference_id": "18200-2-36",
-            "text": "Carlos Jorge al bate",
+            "text": "Carlos Jorge Out: Elevado al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764980320
+            "ts": 1764980445
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "18201-1-37",
+            "text": "Steward Berroa al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764980463
           }
         ]
       }
@@ -795,6 +809,13 @@
         "label": "Baja 4ta",
         "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -822,14 +843,14 @@
       {
         "num": 4,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 1
       },
       {
         "num": 5,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
