@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1998",
-    "scraped_at": "2025-12-06T02:13:00.751Z",
+    "scraped_at": "2025-12-06T02:14:04.568Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-05 19:15:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Alexander Canario al bate",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 1,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -264,10 +264,10 @@
             "position": ""
           },
           {
-            "id": 5294,
+            "id": 5308,
             "team_id": 4,
-            "name": "Pedro Severino",
-            "abbreviation": "P. Severino",
+            "name": "Alexander Canario",
+            "abbreviation": "A. Canario",
             "number": null,
             "dob": null,
             "height": "",
@@ -1081,10 +1081,17 @@
         "plays": [
           {
             "reference_id": "18196-2-74",
-            "text": "José Marmolejos al bate",
+            "text": "José Marmolejos Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764987110
+            "ts": 1764987204
+          },
+          {
+            "reference_id": "18196-2-75",
+            "text": "Alexander Canario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764987233
           }
         ]
       }
@@ -1213,7 +1220,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
