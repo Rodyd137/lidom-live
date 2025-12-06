@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1999",
-    "scraped_at": "2025-12-06T01:22:11.078Z",
+    "scraped_at": "2025-12-06T01:23:16.158Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-05 19:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Kenny Piper Robo de Base ",
+    "lastPlayByPlay": "Samad Taylor Golpeado por Pelota ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -934,10 +934,17 @@
           },
           {
             "reference_id": "18203-2-59",
-            "text": "Samad Taylor al bate",
+            "text": "Samad Taylor Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764984093
+            "ts": 1764984157
+          },
+          {
+            "reference_id": "18203-2-60",
+            "text": "Luis García Jr al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764984160
           }
         ]
       }
@@ -1038,7 +1045,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -1112,7 +1119,7 @@
         "id": 1998,
         "date": "2025-12-05 19:15:00",
         "status": 2,
-        "roundText": "Baja 6ta",
+        "roundText": "Alta 7ma",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
