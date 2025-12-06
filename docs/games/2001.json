@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2001",
-    "scraped_at": "2025-12-06T20:24:06.245Z",
+    "scraped_at": "2025-12-06T20:25:09.520Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-06 16:00:00",
-    "roundText": "Baja 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "Hector Rodríguez  Out: Rodado al Segunda Base - Primera Base",
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -486,10 +486,17 @@
           },
           {
             "reference_id": "18215-2-6",
-            "text": "Erik Gonzalez al bate",
+            "text": "Erik Gonzalez  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765052582
+            "ts": 1765052646
+          },
+          {
+            "reference_id": "18215-2-7",
+            "text": "Socrates Brito  Out: Rodado al Primera Base - (Sin Asistencia)",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765052695
           }
         ]
       }
@@ -506,7 +513,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -514,14 +521,14 @@
       {
         "num": 1,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
