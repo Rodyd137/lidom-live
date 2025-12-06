@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2001",
-    "scraped_at": "2025-12-06T22:06:25.529Z",
+    "scraped_at": "2025-12-06T22:07:30.554Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 7,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -180,7 +180,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Phillips Valdez",
+          "pitcher": "Fernando Abad",
           "era": "",
           "record": "",
           "debut": false
@@ -870,6 +870,20 @@
             "ts": 1765058610
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "18221-1-51",
+            "text": "Corey Joyce al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765058802
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -956,6 +970,13 @@
         "label": "Baja 6ta",
         "total_plays": 6,
         "scoring_plays": 2
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
