@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1998",
-    "scraped_at": "2025-12-06T01:08:02.974Z",
+    "scraped_at": "2025-12-06T01:09:08.385Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-05 19:15:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gustavo Nuñez Robo de Base ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -836,10 +836,24 @@
         "plays": [
           {
             "reference_id": "18193-1-47",
-            "text": "Gustavo Nuñez al bate",
+            "text": "Gustavo Nuñez Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764983265
+            "ts": 1764983279
+          },
+          {
+            "reference_id": "18193-1-48",
+            "text": "Cristhian Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764983283
+          },
+          {
+            "reference_id": "18193-1-47-266879",
+            "text": "Gustavo Nuñez Robo de Base ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1764983334
           }
         ]
       }
@@ -919,7 +933,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
