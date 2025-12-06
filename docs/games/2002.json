@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2002",
-    "scraped_at": "2025-12-06T23:55:41.928Z",
+    "scraped_at": "2025-12-06T23:56:45.092Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-06 17:00:00",
-    "roundText": "Baja 7ma",
-    "currentInningNum": 7,
-    "lastPlayByPlay": "Gary Sanchez Ponche (K) ",
+    "roundText": "Alta 8va",
+    "currentInningNum": 8,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 2
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 3
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -941,10 +941,24 @@
           },
           {
             "reference_id": "18230-2-61",
-            "text": "Leury García al bate",
+            "text": "Leury García  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765065331
+            "ts": 1765065377
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "18231-1-62",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765065399
           }
         ]
       }
@@ -1047,6 +1061,13 @@
         "label": "Baja 7ma",
         "total_plays": 6,
         "scoring_plays": 2
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1095,14 +1116,14 @@
       {
         "num": 7,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 2,
         "homeTeamRuns": 2
       },
       {
         "num": 8,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
