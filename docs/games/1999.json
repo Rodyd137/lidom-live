@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1999",
-    "scraped_at": "2025-12-06T01:54:54.421Z",
+    "scraped_at": "2025-12-06T01:55:58.264Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-05 19:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Juan Corniel  Sencillo se embasa por Error del - Segunda Base",
+    "lastPlayByPlay": "Aderlin Rodríguez Doble! 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 2
+      "strikes": 0,
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 2,
-          "H": 6,
+          "R": 3,
+          "H": 7,
           "E": 3,
           "H2": 2
         },
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 2,
-          "H": 6,
+          "R": 3,
+          "H": 7,
           "E": 3
         },
         "home": {
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 2
+            "R": 3
           },
           {
             "num": 9,
-            "R": 2
+            "R": 3
           }
         ],
         "home": [
@@ -1018,10 +1018,17 @@
           },
           {
             "reference_id": "18204-1-70",
-            "text": "Aderlin Rodríguez al bate",
+            "text": "Aderlin Rodríguez Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764986121
+          },
+          {
+            "reference_id": "18204-1-71",
+            "text": "Jerar Encarnacion al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764986031
+            "ts": 1764986124
           }
         ]
       }
@@ -1129,8 +1136,8 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1187,7 +1194,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
