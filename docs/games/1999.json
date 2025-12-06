@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1999",
-    "scraped_at": "2025-12-06T02:08:44.952Z",
+    "scraped_at": "2025-12-06T02:09:48.776Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-05 19:00:00",
-    "roundText": "Baja 8va",
-    "currentInningNum": 8,
-    "lastPlayByPlay": "Carlos Jorge Out Robando Base! Lanzador - Primera Base",
+    "roundText": "Alta 9na",
+    "currentInningNum": 9,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -121,10 +121,10 @@
             "position": ""
           },
           {
-            "id": 5595,
+            "id": 5390,
             "team_id": 3,
-            "name": "Aneury Tavarez",
-            "abbreviation": "A,Tavarez",
+            "name": "Alberto Rodriguez",
+            "abbreviation": "A. Rodriguez",
             "number": null,
             "dob": null,
             "height": "",
@@ -132,10 +132,10 @@
             "position": ""
           },
           {
-            "id": 5321,
+            "id": 5596,
             "team_id": 3,
-            "name": "Webster Rivas",
-            "abbreviation": "W. Rivas",
+            "name": "Elih Marrero",
+            "abbreviation": "E. Marrero",
             "number": null,
             "dob": null,
             "height": "",
@@ -1067,10 +1067,24 @@
           },
           {
             "reference_id": "18204-2-76",
-            "text": "Samad Taylor al bate",
+            "text": "Samad Taylor Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764986699
+            "ts": 1764986926
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "18205-1-77",
+            "text": "Alberto Rodriguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764986983
           }
         ]
       }
@@ -1187,6 +1201,13 @@
         "label": "Baja 8va",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1242,14 +1263,14 @@
       {
         "num": 8,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 9,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       }
