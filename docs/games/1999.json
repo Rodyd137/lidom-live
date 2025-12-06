@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1999",
-    "scraped_at": "2025-12-06T01:55:58.264Z",
+    "scraped_at": "2025-12-06T01:57:01.936Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-05 19:00:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Aderlin Rodríguez Doble! 1 Carrera Impulsada ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -1025,10 +1025,24 @@
           },
           {
             "reference_id": "18204-1-71",
-            "text": "Jerar Encarnacion al bate",
+            "text": "Aneury Tavarez  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1764986124
+            "ts": 1764986165
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "18204-2-72",
+            "text": "Carlos Jorge al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764986176
           }
         ]
       }
@@ -1138,6 +1152,13 @@
         "label": "Alta 8va",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1192,7 +1213,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
@@ -1236,7 +1257,7 @@
         "id": 2000,
         "date": "2025-12-05 19:30:00",
         "status": 2,
-        "roundText": "Baja 7ma",
+        "roundText": "Alta 8va",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
