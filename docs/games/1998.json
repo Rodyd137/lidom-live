@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1998",
-    "scraped_at": "2025-12-06T01:47:27.109Z",
+    "scraped_at": "2025-12-06T01:48:30.681Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-05 19:15:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Dervy Ventura  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
@@ -989,6 +989,27 @@
             "ts": 1764985460
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "18195-2-64",
+            "text": "Dervy Ventura  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764985664
+          },
+          {
+            "reference_id": "18195-2-65",
+            "text": "Junior Lake al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764985667
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1095,6 +1116,13 @@
         "half": "top",
         "label": "Alta 8va",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
