@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2001",
-    "scraped_at": "2025-12-06T21:27:41.573Z",
+    "scraped_at": "2025-12-06T21:28:46.236Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-06 16:00:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Leody Taveras Out: Elevado al Jardinero Izquierdo",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -176,7 +176,7 @@
         "totals": {
           "R": 2,
           "H": 4,
-          "E": 0,
+          "E": 1,
           "H2": 2
         },
         "probables": {
@@ -347,7 +347,7 @@
         "home": {
           "R": 2,
           "H": 4,
-          "E": 0
+          "E": 1
         }
       },
       "cumulative": {
@@ -723,6 +723,34 @@
             "ts": 1765056258
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "18219-1-34",
+            "text": "Alfredo Reyes se embasa por Error del Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765056508
+          },
+          {
+            "reference_id": "18219-1-35",
+            "text": "Leody Taveras Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765056515
+          },
+          {
+            "reference_id": "18219-1-36",
+            "text": "Ezequiel Duran al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765056517
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -780,6 +808,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
