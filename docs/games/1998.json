@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1998",
-    "scraped_at": "2025-12-06T01:49:34.771Z",
+    "scraped_at": "2025-12-06T01:50:38.756Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-05 19:15:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Dervy Ventura  Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "Junior Lake Base por Bolas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 1,
-          "H": 5,
+          "R": 2,
+          "H": 6,
           "E": 2,
           "H2": 0
         },
@@ -329,7 +329,7 @@
         {
           "num": 8,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 9,
@@ -345,8 +345,8 @@
           "E": 1
         },
         "home": {
-          "R": 1,
-          "H": 5,
+          "R": 2,
+          "H": 6,
           "E": 2
         }
       },
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 1
+            "R": 2
           },
           {
             "num": 9,
-            "R": 1
+            "R": 2
           }
         ]
       }
@@ -1004,10 +1004,17 @@
           },
           {
             "reference_id": "18195-2-65",
-            "text": "Junior Lake al bate",
+            "text": "Junior Lake Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1764985667
+            "ts": 1764985778
+          },
+          {
+            "reference_id": "18195-2-66",
+            "text": "Erik Gonzalez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764985783
           }
         ]
       }
@@ -1122,7 +1129,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -1181,7 +1188,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 9,
