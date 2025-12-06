@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2001",
-    "scraped_at": "2025-12-06T21:44:29.431Z",
+    "scraped_at": "2025-12-06T21:45:32.716Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-06 16:00:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Arturo Disla Doble! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 1,
-          "H": 4,
+          "H": 5,
           "E": 0,
           "H2": 1
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 1,
-          "H": 4,
+          "H": 5,
           "E": 0
         },
         "home": {
@@ -786,6 +786,41 @@
             "ts": 1765057073
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "18220-1-41",
+            "text": "Elih Marrero  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765057477
+          },
+          {
+            "reference_id": "18220-1-42",
+            "text": "Aneury Tavarez  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765057483
+          },
+          {
+            "reference_id": "18220-1-43",
+            "text": "Arturo Disla Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765057500
+          },
+          {
+            "reference_id": "18220-1-44",
+            "text": "Wilmer Difó al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765057506
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -857,6 +892,13 @@
         "half": "bottom",
         "label": "Baja 5ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
