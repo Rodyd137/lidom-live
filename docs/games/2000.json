@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2000",
-    "scraped_at": "2025-12-06T01:20:00.877Z",
+    "scraped_at": "2025-12-06T01:21:05.916Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,7 +13,7 @@
     "currentInningNum": 7,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
@@ -821,6 +821,20 @@
             "ts": 1764983880
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "18212-1-45",
+            "text": "Jeimer Candelario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764984042
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -906,6 +920,13 @@
         "half": "bottom",
         "label": "Baja 6ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -995,8 +1016,8 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 0,
-          "hits": 4,
+          "runs": 1,
+          "hits": 5,
           "errors": 2,
           "permalink": "/equipo/leones-del-escogido"
         }
@@ -1022,7 +1043,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 3,
-          "hits": 7,
+          "hits": 8,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
