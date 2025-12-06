@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2001",
-    "scraped_at": "2025-12-06T22:38:56.318Z",
+    "scraped_at": "2025-12-06T22:40:01.206Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-06 16:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Corey Joyce al bate",
+    "lastPlayByPlay": "Alfredo Reyes Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 5
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": true,
-      "on3B": false,
+      "on3B": true,
       "runners": 2,
-      "mask": 5
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 6,
-          "H": 10,
+          "R": 7,
+          "H": 11,
           "E": 0,
           "H2": 1
         },
@@ -176,11 +176,11 @@
         "totals": {
           "R": 4,
           "H": 8,
-          "E": 2,
+          "E": 3,
           "H2": 2
         },
         "probables": {
-          "pitcher": "Héctor Pérez",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,14 +340,14 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 6,
-          "H": 10,
+          "R": 7,
+          "H": 11,
           "E": 0
         },
         "home": {
           "R": 4,
           "H": 8,
-          "E": 2
+          "E": 3
         }
       },
       "cumulative": {
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 6
+            "R": 7
           },
           {
             "num": 9,
-            "R": 6
+            "R": 7
           }
         ],
         "home": [
@@ -983,10 +983,24 @@
           },
           {
             "reference_id": "18222-1-64",
-            "text": "Corey Joyce al bate",
+            "text": "Corey Joyce Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765060608
+            "ts": 1765060734
+          },
+          {
+            "reference_id": "18222-1-65",
+            "text": "Alfredo Reyes Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765060770
+          },
+          {
+            "reference_id": "18222-1-66",
+            "text": "Leody Taveras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765060773
           }
         ]
       }
@@ -1094,7 +1108,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 2,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -1152,7 +1166,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
