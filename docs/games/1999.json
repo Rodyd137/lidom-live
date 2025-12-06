@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1999",
-    "scraped_at": "2025-12-06T00:33:11.778Z",
+    "scraped_at": "2025-12-06T00:34:16.840Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-05 19:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Kenny Piper Sencillo Jardinero Izquierdo",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 2,
-          "H": 4,
+          "H": 5,
           "E": 0,
           "H2": 2
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 2,
-          "H": 4,
+          "H": 5,
           "E": 0
         }
       },
@@ -773,10 +773,17 @@
         "plays": [
           {
             "reference_id": "18201-2-40",
-            "text": "Kenny Piper al bate",
+            "text": "Kenny Piper Sencillo Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1764981072
+            "ts": 1764981192
+          },
+          {
+            "reference_id": "18201-2-41",
+            "text": "Samad Taylor al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764981197
           }
         ]
       }
@@ -849,7 +856,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
