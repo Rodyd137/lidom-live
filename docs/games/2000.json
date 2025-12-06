@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2000",
-    "scraped_at": "2025-12-06T01:36:17.665Z",
+    "scraped_at": "2025-12-06T01:37:22.996Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-05 19:30:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Gilberto Celestino  Out: Rodado al Tercera Base - Segunda Base",
+    "lastPlayByPlay": "Manuel Peña  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 2
+      "strikes": 0,
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 6
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -77,10 +77,10 @@
             "position": ""
           },
           {
-            "id": 5606,
+            "id": 5396,
             "team_id": 6,
-            "name": "Juan Brito",
-            "abbreviation": "J. Brito",
+            "name": "Manuel Peña",
+            "abbreviation": "M. Peña",
             "number": null,
             "dob": null,
             "height": "",
@@ -854,6 +854,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1764984740
+          },
+          {
+            "reference_id": "18212-1-49",
+            "text": "Manuel Peña  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1764985035
           }
         ]
       }
@@ -947,7 +954,7 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -1055,7 +1062,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 2,
           "hits": 5,
-          "errors": 2,
+          "errors": 3,
           "permalink": "/equipo/aguilas-cibaenas"
         },
         "homeTeam": {
@@ -1063,7 +1070,7 @@
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 4,
+          "runs": 5,
           "hits": 8,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
