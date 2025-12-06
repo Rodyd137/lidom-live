@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2001",
-    "scraped_at": "2025-12-06T20:42:20.195Z",
+    "scraped_at": "2025-12-06T20:43:24.297Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-06 16:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Eguy Rosario Sencillo ",
+    "lastPlayByPlay": "José Marmolejos Sencillo y 1 Carrera Impulsada ",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 6
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
-      "on3B": true,
+      "on2B": true,
+      "on3B": false,
       "runners": 2,
-      "mask": 6
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -174,10 +174,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 0,
-          "H": 2,
+          "R": 1,
+          "H": 3,
           "E": 0,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
           "pitcher": "Kenny Hernández",
@@ -299,7 +299,7 @@
         {
           "num": 2,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 3,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 0,
-          "H": 2,
+          "R": 1,
+          "H": 3,
           "E": 0
         }
       },
@@ -396,35 +396,35 @@
           },
           {
             "num": 2,
-            "R": 0
+            "R": 1
           },
           {
             "num": 3,
-            "R": 0
+            "R": 1
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ]
       }
@@ -556,10 +556,17 @@
           },
           {
             "reference_id": "18216-2-14",
-            "text": "José Marmolejos al bate",
+            "text": "José Marmolejos Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765053768
+          },
+          {
+            "reference_id": "18216-2-15",
+            "text": "Chadwick Tromp al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1765053604
+            "ts": 1765053772
           }
         ]
       }
@@ -590,8 +597,8 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -607,7 +614,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 3,
