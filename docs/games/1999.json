@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/1999",
-    "scraped_at": "2025-12-06T01:34:07.174Z",
+    "scraped_at": "2025-12-06T01:35:12.209Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-05 19:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Deyvinson de los Santos Base por Bolas ",
+    "lastPlayByPlay": "Gary Sanchez Base por Bolas y Carrera Impulsada ",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 2,
       "outs": 2
     },
     "base_state": {
@@ -174,7 +174,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 3,
+          "R": 4,
           "H": 8,
           "E": 0,
           "H2": 3
@@ -324,7 +324,7 @@
         {
           "num": 7,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 8,
@@ -345,7 +345,7 @@
           "E": 2
         },
         "home": {
-          "R": 3,
+          "R": 4,
           "H": 8,
           "E": 0
         }
@@ -416,15 +416,15 @@
           },
           {
             "num": 7,
-            "R": 3
+            "R": 4
           },
           {
             "num": 8,
-            "R": 3
+            "R": 4
           },
           {
             "num": 9,
-            "R": 3
+            "R": 4
           }
         ]
       }
@@ -962,10 +962,17 @@
           },
           {
             "reference_id": "18203-2-63",
-            "text": "Gary Sanchez al bate",
+            "text": "Gary Sanchez Base por Bolas y Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1764984861
+          },
+          {
+            "reference_id": "18203-2-64",
+            "text": "Leury García al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1764984613
+            "ts": 1764984870
           }
         ]
       }
@@ -1066,8 +1073,8 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 8,
-        "scoring_plays": 0
+        "total_plays": 9,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1118,7 +1125,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 8,
