@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2005",
-    "scraped_at": "2025-12-07T22:36:49.634Z",
+    "scraped_at": "2025-12-07T22:37:53.313Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,7 +14,7 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -180,7 +180,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Luis Frias",
+          "pitcher": "Anderson Severino",
           "era": "",
           "record": "",
           "debut": false
@@ -779,6 +779,20 @@
             "ts": 1765146882
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "18256-1-40",
+            "text": "Franchy Cordero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765147047
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -851,6 +865,13 @@
         "label": "Baja 5ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -922,7 +943,7 @@
       {
         "id": 2004,
         "date": "2025-12-07 16:00:00",
-        "status": 2,
+        "status": 6,
         "roundText": "Alta 9na",
         "awayTeam": {
           "id": 6,
@@ -940,7 +961,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 2,
-          "hits": 5,
+          "hits": 6,
           "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
         }
@@ -949,7 +970,7 @@
         "id": 2006,
         "date": "2025-12-07 17:00:00",
         "status": 2,
-        "roundText": "Baja 4ta",
+        "roundText": "Alta 5ta",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
