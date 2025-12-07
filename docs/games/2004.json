@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2004",
-    "scraped_at": "2025-12-07T22:12:36.268Z",
+    "scraped_at": "2025-12-07T22:14:29.565Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 8,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 3,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Gerson Moreno",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -180,7 +180,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Drew Parrish",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -898,6 +898,20 @@
             "ts": 1765145410
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "18249-1-54",
+            "text": "Yairo Munoz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765145568
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -998,6 +1012,13 @@
         "label": "Baja 7ma",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1112,8 +1133,8 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 3,
-          "hits": 4,
+          "runs": 5,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
