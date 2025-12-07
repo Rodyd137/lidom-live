@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2005",
-    "scraped_at": "2025-12-07T22:17:45.797Z",
+    "scraped_at": "2025-12-07T22:18:50.636Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-07 17:00:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "David Hensley Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -695,6 +695,27 @@
             "ts": 1765145681
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "18254-2-31",
+            "text": "David Hensley Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765145915
+          },
+          {
+            "reference_id": "18254-2-32",
+            "text": "Mel Rojas Jr. al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765145919
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -746,6 +767,13 @@
         "label": "Alta 4ta",
         "total_plays": 8,
         "scoring_plays": 2
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -818,7 +846,7 @@
         "id": 2004,
         "date": "2025-12-07 16:00:00",
         "status": 2,
-        "roundText": "Alta 8va",
+        "roundText": "Baja 8va",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -860,7 +888,7 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 5,
+          "runs": 6,
           "hits": 5,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
