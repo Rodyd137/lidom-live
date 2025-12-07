@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2006",
-    "scraped_at": "2025-12-07T21:16:24.187Z",
+    "scraped_at": "2025-12-07T21:18:00.252Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-07 17:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Raimel Tapia Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -465,10 +465,17 @@
         "plays": [
           {
             "reference_id": "18260-2-5",
-            "text": "Raimel Tapia al bate",
+            "text": "Raimel Tapia Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765142063
+            "ts": 1765142192
+          },
+          {
+            "reference_id": "18260-2-6",
+            "text": "Jose Tena  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765142194
           }
         ]
       }
@@ -485,7 +492,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
