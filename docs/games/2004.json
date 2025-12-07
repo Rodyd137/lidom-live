@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2004",
-    "scraped_at": "2025-12-07T22:04:07.903Z",
+    "scraped_at": "2025-12-07T22:05:11.445Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-07 16:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Alfredo Reyes  Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "Corey Joyce Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -871,10 +871,17 @@
           },
           {
             "reference_id": "18248-2-50",
-            "text": "Corey Joyce al bate",
+            "text": "Corey Joyce Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765144985
+            "ts": 1765145085
+          },
+          {
+            "reference_id": "18248-2-51",
+            "text": "Aneury Tavarez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765145090
           }
         ]
       }
@@ -975,7 +982,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -1055,8 +1062,8 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 2,
-          "hits": 4,
+          "runs": 3,
+          "hits": 5,
           "errors": 1,
           "permalink": "/equipo/leones-del-escogido"
         },
