@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2005",
-    "scraped_at": "2025-12-07T21:25:30.966Z",
+    "scraped_at": "2025-12-07T21:26:34.523Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-07 17:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Franchy Cordero Sencillo ",
+    "lastPlayByPlay": "Eguy Rosario  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -514,10 +514,17 @@
           },
           {
             "reference_id": "18252-1-9",
-            "text": "Eguy Rosario al bate",
+            "text": "Eguy Rosario  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765142673
+            "ts": 1765142745
+          },
+          {
+            "reference_id": "18252-1-10",
+            "text": "José Marmolejos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765142750
           }
         ]
       }
@@ -541,7 +548,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
