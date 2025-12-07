@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2004",
-    "scraped_at": "2025-12-07T20:45:59.190Z",
+    "scraped_at": "2025-12-07T20:47:03.648Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 3,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 1,
+      "balls": 2,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -257,6 +257,17 @@
             "team_id": 3,
             "name": "Alfredo Reyes",
             "abbreviation": "A. Reyes",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5622,
+            "team_id": 3,
+            "name": "Corey Joyce",
+            "abbreviation": "C. Joyce",
             "number": null,
             "dob": null,
             "height": "",
@@ -568,6 +579,20 @@
             "ts": 1765140192
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "18244-2-19",
+            "text": "Corey Joyce al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765140365
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -604,6 +629,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
