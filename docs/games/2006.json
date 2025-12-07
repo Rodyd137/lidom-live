@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2006",
-    "scraped_at": "2025-12-07T22:31:46.496Z",
+    "scraped_at": "2025-12-07T22:32:51.196Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-07 17:00:00",
-    "roundText": "Alta 4ta",
+    "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Carlos Franco Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -724,10 +724,24 @@
           },
           {
             "reference_id": "18263-1-37",
-            "text": "Kelvin Gutiérrez al bate",
+            "text": "Kelvin Gutiérrez  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765146641
+            "ts": 1765146719
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "18263-2-38",
+            "text": "Jose Tena  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765146730
           }
         ]
       }
@@ -781,6 +795,13 @@
         "label": "Alta 4ta",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -807,7 +828,7 @@
       },
       {
         "num": 4,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 2,
         "homeTeamRuns": 0
