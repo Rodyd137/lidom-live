@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2004",
-    "scraped_at": "2025-12-07T20:47:03.648Z",
+    "scraped_at": "2025-12-07T20:48:08.386Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-07 16:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Corey Joyce Ponche (K) ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -268,6 +268,17 @@
             "team_id": 3,
             "name": "Corey Joyce",
             "abbreviation": "C. Joyce",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5595,
+            "team_id": 3,
+            "name": "Aneury Tavarez",
+            "abbreviation": "A,Tavarez",
             "number": null,
             "dob": null,
             "height": "",
@@ -587,10 +598,17 @@
         "plays": [
           {
             "reference_id": "18244-2-19",
-            "text": "Corey Joyce al bate",
+            "text": "Corey Joyce Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765140365
+            "ts": 1765140464
+          },
+          {
+            "reference_id": "18244-2-20",
+            "text": "Aneury Tavarez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765140467
           }
         ]
       }
@@ -635,7 +653,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
