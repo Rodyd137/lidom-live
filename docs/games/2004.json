@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2004",
-    "scraped_at": "2025-12-07T20:31:56.780Z",
+    "scraped_at": "2025-12-07T20:33:01.541Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -213,6 +213,17 @@
             "team_id": 3,
             "name": "Arturo Disla",
             "abbreviation": "A. Disla",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5321,
+            "team_id": 3,
+            "name": "Webster Rivas",
+            "abbreviation": "W. Rivas",
             "number": null,
             "dob": null,
             "height": "",
@@ -468,6 +479,20 @@
             "ts": 1765139396
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "18243-2-13",
+            "text": "Webster Rivas al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765139568
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -490,6 +515,13 @@
         "half": "top",
         "label": "Alta 2da",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
