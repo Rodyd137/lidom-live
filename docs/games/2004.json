@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2004",
-    "scraped_at": "2025-12-07T21:20:11.283Z",
+    "scraped_at": "2025-12-07T21:21:15.201Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -15,7 +15,7 @@
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -723,6 +723,20 @@
             "ts": 1765142282
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "18246-2-34",
+            "text": "Alfredo Reyes al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765142444
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -787,6 +801,13 @@
         "half": "top",
         "label": "Alta 5ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -860,7 +881,7 @@
         "id": 2005,
         "date": "2025-12-07 17:00:00",
         "status": 2,
-        "roundText": "Baja 1ra",
+        "roundText": "Alta 2da",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
