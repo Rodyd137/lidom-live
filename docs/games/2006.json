@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2006",
-    "scraped_at": "2025-12-07T21:53:31.239Z",
+    "scraped_at": "2025-12-07T21:54:36.440Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-07 17:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Nomar Mazara Cuadrangular! ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 0,
-          "H": 0,
+          "R": 1,
+          "H": 1,
           "E": 1,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
           "pitcher": "Aidan Anderson",
@@ -303,7 +303,7 @@
         },
         {
           "num": 3,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 0,
+          "R": 1,
+          "H": 1,
           "E": 1
         },
         "home": {
@@ -362,31 +362,31 @@
           },
           {
             "num": 3,
-            "R": 0
+            "R": 1
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ],
         "home": [
@@ -598,10 +598,17 @@
         "plays": [
           {
             "reference_id": "18262-1-21",
-            "text": "Nomar Mazara al bate",
+            "text": "Nomar Mazara Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765144466
+          },
+          {
+            "reference_id": "18262-1-22",
+            "text": "Kenny Piper al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1765144387
+            "ts": 1765144469
           }
         ]
       }
@@ -639,8 +646,8 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 1,
-        "scoring_plays": 0
+        "total_plays": 2,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -662,7 +669,7 @@
         "num": 3,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
