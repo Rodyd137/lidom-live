@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2004",
-    "scraped_at": "2025-12-07T20:39:27.804Z",
+    "scraped_at": "2025-12-07T20:40:31.917Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-07 16:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Rafael Lantigua   Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -147,6 +147,17 @@
             "team_id": 6,
             "name": "Ronaldo Hernández",
             "abbreviation": "R. Hernández",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5459,
+            "team_id": 6,
+            "name": "Rafael Lantigua ",
+            "abbreviation": "R. Lantigua",
             "number": null,
             "dob": null,
             "height": "",
@@ -529,6 +540,20 @@
             "ts": 1765139861
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "18244-1-16",
+            "text": "Rafael Lantigua   Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765140022
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -558,6 +583,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
