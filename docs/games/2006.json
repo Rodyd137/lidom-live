@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2006",
-    "scraped_at": "2025-12-07T23:30:28.179Z",
+    "scraped_at": "2025-12-07T23:34:43.502Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-07 17:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Carlos Jorge Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -919,6 +919,34 @@
             "ts": 1765150141
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "18266-1-60",
+            "text": "Julio Carreras Ponche (K) Receptor - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765150364
+          },
+          {
+            "reference_id": "18266-1-61",
+            "text": "Carlos Jorge Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765150418
+          },
+          {
+            "reference_id": "18266-1-62",
+            "text": "Johan Rojas  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765150422
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1004,6 +1032,13 @@
         "half": "bottom",
         "label": "Baja 6ta",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -1103,7 +1138,7 @@
         "id": 2005,
         "date": "2025-12-07 17:00:00",
         "status": 2,
-        "roundText": "Alta 8va",
+        "roundText": "Baja 8va",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
