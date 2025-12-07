@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2002",
-    "scraped_at": "2025-12-07T00:08:19.655Z",
+    "scraped_at": "2025-12-07T00:09:22.816Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,12 +54,12 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 2,
-          "H": 3,
+          "H": 4,
           "E": 2,
           "H2": 0
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Wuander Suero ",
           "era": "",
           "record": "",
           "debut": false
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 2,
-          "H": 3,
+          "H": 4,
           "E": 2
         },
         "home": {
@@ -975,6 +975,20 @@
             "ts": 1765065916
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "18231-2-65",
+            "text": "Kelvin Gutiérrez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765066114
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1081,6 +1095,13 @@
         "half": "top",
         "label": "Alta 8va",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
