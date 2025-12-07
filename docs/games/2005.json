@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2005",
-    "scraped_at": "2025-12-07T22:23:09.431Z",
+    "scraped_at": "2025-12-07T22:24:13.839Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 5,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -180,7 +180,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Ofreidy Gómez",
+          "pitcher": "Luis Frias",
           "era": "",
           "record": "",
           "debut": false
@@ -723,6 +723,20 @@
             "ts": 1765146023
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "18255-1-34",
+            "text": "Erik Gonzalez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765146209
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -780,6 +794,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -879,7 +900,7 @@
         "id": 2006,
         "date": "2025-12-07 17:00:00",
         "status": 2,
-        "roundText": "Baja 3ra",
+        "roundText": "Alta 4ta",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
