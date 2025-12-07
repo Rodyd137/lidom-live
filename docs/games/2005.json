@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2005",
-    "scraped_at": "2025-12-07T21:57:46.900Z",
+    "scraped_at": "2025-12-07T21:58:50.453Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 4,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 3,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -632,6 +632,20 @@
             "ts": 1765144470
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "18254-1-23",
+            "text": "Socrates Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765144666
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -676,6 +690,13 @@
         "label": "Baja 3ra",
         "total_plays": 5,
         "scoring_plays": 2
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -774,7 +795,7 @@
         "id": 2006,
         "date": "2025-12-07 17:00:00",
         "status": 2,
-        "roundText": "Alta 3ra",
+        "roundText": "Baja 3ra",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
