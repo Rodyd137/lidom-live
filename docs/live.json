@@ -2,11 +2,12 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2025-12-07T21:04:37.578Z",
+    "scraped_at": "2025-12-07T21:05:42.270Z",
     "tz": "America/Santo_Domingo"
   },
   "tracked_ids": [
-    2004
+    2004,
+    2005
   ],
   "live": [
     {
@@ -15,18 +16,18 @@
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
       "atBat": null,
-      "lastPlayByPlay": "Arturo Disla Out: Elevado al Jardinero Central",
+      "lastPlayByPlay": "Webster Rivas Base por Bolas ",
       "counts": {
-        "balls": 2,
+        "balls": 0,
         "strikes": 0,
         "outs": 2
       },
       "base": {
         "on1B": true,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 2,
+        "mask": 5
       },
       "battingTeam": "homeTeam",
       "score": {
@@ -45,8 +46,47 @@
           "E": 0
         }
       },
-      "threat": 11,
-      "updated_at": "2025-12-07T21:04:37.578Z"
+      "threat": 22,
+      "updated_at": "2025-12-07T21:05:42.270Z"
+    },
+    {
+      "id": 2005,
+      "status": 2,
+      "roundText": "Alta 1ra",
+      "currentInningNum": 1,
+      "atBat": null,
+      "lastPlayByPlay": null,
+      "counts": {
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0
+      },
+      "base": {
+        "on1B": false,
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
+      },
+      "battingTeam": "awayTeam",
+      "score": {
+        "away": {
+          "name": "Leones",
+          "abbr": "LE",
+          "R": 0,
+          "H": 0,
+          "E": 0
+        },
+        "home": {
+          "name": "Tigres",
+          "abbr": "TL",
+          "R": 0,
+          "H": 0,
+          "E": 0
+        }
+      },
+      "threat": 22,
+      "updated_at": "2025-12-07T21:05:42.270Z"
     }
   ]
 }
