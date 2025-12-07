@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2005",
-    "scraped_at": "2025-12-07T23:00:24.270Z",
+    "scraped_at": "2025-12-07T23:01:29.267Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-07 17:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Hector Rodríguez Out: Elevado al Campo Corto",
+    "lastPlayByPlay": "Erik Gonzalez Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -864,10 +864,17 @@
           },
           {
             "reference_id": "18257-1-49",
-            "text": "Erik Gonzalez al bate",
+            "text": "Erik Gonzalez Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765148337
+            "ts": 1765148463
+          },
+          {
+            "reference_id": "18257-1-50",
+            "text": "Socrates Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765148466
           }
         ]
       }
@@ -961,7 +968,7 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
