@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2005",
-    "scraped_at": "2025-12-08T00:19:12.830Z",
+    "scraped_at": "2025-12-08T00:20:17.540Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-07 17:00:00",
     "roundText": "Alta 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Dervy Ventura  Out: Rodado al Lanzador - Tercera Base",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": true,
+      "on1B": true,
+      "on2B": false,
       "on3B": false,
       "runners": 1,
-      "mask": 3
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -1094,10 +1094,17 @@
         "plays": [
           {
             "reference_id": "19110-1-73",
-            "text": "Dervy Ventura al bate",
+            "text": "Dervy Ventura  Out: Rodado al Lanzador - Tercera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765153066
+            "ts": 1765153188
+          },
+          {
+            "reference_id": "19110-1-74",
+            "text": "Hector Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765153192
           }
         ]
       }
@@ -1233,7 +1240,7 @@
         "num": 10,
         "half": "top",
         "label": "Alta 10ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
