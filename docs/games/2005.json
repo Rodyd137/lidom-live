@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2005",
-    "scraped_at": "2025-12-08T00:32:07.623Z",
+    "scraped_at": "2025-12-08T00:33:12.188Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-07 17:00:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Cristhian Adames  Out: Rodado al Primera Base",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 3
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -1136,10 +1136,17 @@
         "plays": [
           {
             "reference_id": "19110-2-78",
-            "text": "Cristhian Adames al bate",
+            "text": "Cristhian Adames  Out: Rodado al Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765153901
+            "ts": 1765153974
+          },
+          {
+            "reference_id": "19110-2-79",
+            "text": "Ronny Mauricio al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765153978
           }
         ]
       }
@@ -1282,7 +1289,7 @@
         "num": 10,
         "half": "bottom",
         "label": "Baja 10ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
