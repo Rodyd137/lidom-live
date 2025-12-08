@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2006",
-    "scraped_at": "2025-12-08T00:39:40.385Z",
+    "scraped_at": "2025-12-08T00:40:44.934Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-07 17:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Vidal Brujan Base por Bolas ",
+    "lastPlayByPlay": "Vidal Brujan Robo de Base Wild Pitch",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 2,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": true,
-      "on3B": false,
+      "on3B": true,
       "runners": 2,
-      "mask": 5
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -1123,10 +1123,17 @@
           },
           {
             "reference_id": "18268-2-84",
+            "text": "Vidal Brujan Robo de Base Wild Pitch",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765154425
+          },
+          {
+            "reference_id": "18268-2-85",
             "text": "Miguel Sano al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1765154274
+            "ts": 1765154427
           }
         ]
       }
@@ -1255,7 +1262,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
