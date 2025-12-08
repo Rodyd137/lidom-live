@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2005",
-    "scraped_at": "2025-12-08T00:24:35.349Z",
+    "scraped_at": "2025-12-08T00:25:40.048Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-07 17:00:00",
     "roundText": "Alta 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Hector Rodríguez  Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "Luis De Los Santos Doble! 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 4,
-          "H": 8,
+          "R": 5,
+          "H": 9,
           "E": 1,
           "H2": 4
         },
@@ -77,10 +77,10 @@
             "position": ""
           },
           {
-            "id": 5300,
+            "id": 5299,
             "team_id": 4,
-            "name": "Erik Gonzalez",
-            "abbreviation": "E. Gonzalez",
+            "name": "Luis De Los Santos",
+            "abbreviation": "L. De Los Santos",
             "number": null,
             "dob": null,
             "height": "",
@@ -338,15 +338,15 @@
         },
         {
           "num": 10,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": true,
       "totals": {
         "away": {
-          "R": 4,
-          "H": 8,
+          "R": 5,
+          "H": 9,
           "E": 1
         },
         "home": {
@@ -395,7 +395,7 @@
           },
           {
             "num": 10,
-            "R": 4
+            "R": 5
           }
         ],
         "home": [
@@ -1108,10 +1108,10 @@
           },
           {
             "reference_id": "19110-1-75",
-            "text": "Erik Gonzalez al bate",
-            "scored": false,
+            "text": "Luis De Los Santos Doble! 1 Carrera Impulsada ",
+            "scored": true,
             "is_primary": true,
-            "ts": 1765153429
+            "ts": 1765153519
           }
         ]
       }
@@ -1248,7 +1248,7 @@
         "half": "top",
         "label": "Alta 10ma",
         "total_plays": 3,
-        "scoring_plays": 0
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1319,7 +1319,7 @@
         "num": 10,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
