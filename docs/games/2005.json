@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2005",
-    "scraped_at": "2025-12-08T00:17:03.542Z",
+    "scraped_at": "2025-12-08T00:18:08.161Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -1086,6 +1086,20 @@
             "ts": 1765152884
           }
         ]
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "plays": [
+          {
+            "reference_id": "19110-1-73",
+            "text": "Dervy Ventura al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765153066
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1214,6 +1228,13 @@
         "label": "Baja 9na",
         "total_plays": 7,
         "scoring_plays": 2
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
