@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2006",
-    "scraped_at": "2025-12-08T00:03:53.591Z",
+    "scraped_at": "2025-12-08T00:04:59.079Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-07 17:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Kelvin Gutiérrez Sencillo y 1 Carrera Impulsada Out Robando Base! - Jardinero Derecho  - Tercera Base",
+    "lastPlayByPlay": "Kelvin Gutiérrez Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 6
     },
     "base_runners": {
       "on1B": true,
       "on2B": false,
-      "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "on3B": true,
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -132,10 +132,10 @@
             "position": ""
           },
           {
-            "id": 5254,
+            "id": 5404,
             "team_id": 5,
-            "name": "Nomar Mazara",
-            "abbreviation": "N. Mazara",
+            "name": "Melvi Mercedes ",
+            "abbreviation": "M. Mercedes",
             "number": null,
             "dob": null,
             "height": "",
@@ -1011,10 +1011,17 @@
           },
           {
             "reference_id": "18267-1-70",
-            "text": "Kelvin Gutiérrez Sencillo y 1 Carrera Impulsada Out Robando Base! - Jardinero Derecho  - Tercera Base",
+            "text": "Kelvin Gutiérrez Sencillo y 1 Carrera Impulsada ",
             "scored": true,
             "is_primary": true,
-            "ts": 1765152171
+            "ts": 1765152264
+          },
+          {
+            "reference_id": "18267-1-71",
+            "text": "Melvi Mercedes  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765152275
           }
         ]
       }
@@ -1122,7 +1129,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 1
       }
     ],
@@ -1238,8 +1245,8 @@
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 3,
-          "hits": 8,
+          "runs": 4,
+          "hits": 9,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         }
