@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2006",
-    "scraped_at": "2025-12-08T01:02:15.441Z",
+    "scraped_at": "2025-12-08T01:03:20.059Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-07 17:00:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Josh Lester Out: Línea al Jardinero Central",
+    "lastPlayByPlay": "Robinson Canó  Out Robando Base! ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 1
+      "balls": 1,
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -1213,10 +1213,17 @@
           },
           {
             "reference_id": "19111-2-94",
+            "text": "Robinson Canó  Out Robando Base! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765155750
+          },
+          {
+            "reference_id": "19111-2-95",
             "text": "Jorge Mateo al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1765155529
+            "ts": 1765155752
           }
         ]
       }
@@ -1359,7 +1366,7 @@
         "num": 10,
         "half": "bottom",
         "label": "Baja 10ma",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
