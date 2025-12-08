@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2006",
-    "scraped_at": "2025-12-08T00:53:39.547Z",
+    "scraped_at": "2025-12-08T00:54:44.196Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-07 17:00:00",
     "roundText": "Alta 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Jose Torres  Ponche (K) ",
+    "lastPlayByPlay": "Kelvin Gutiérrez Ponche (K) ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 4
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 7,
+          "R": 8,
           "H": 10,
           "E": 1,
           "H2": 3
@@ -338,14 +338,14 @@
         },
         {
           "num": 10,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": true,
       "totals": {
         "away": {
-          "R": 7,
+          "R": 8,
           "H": 10,
           "E": 1
         },
@@ -395,7 +395,7 @@
           },
           {
             "num": 10,
-            "R": 7
+            "R": 8
           }
         ],
         "home": [
@@ -1185,10 +1185,17 @@
           },
           {
             "reference_id": "19111-1-91",
-            "text": "Kelvin Gutiérrez al bate",
+            "text": "Luis García Jr Robo de Base Wild Pitch - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765155242
+          },
+          {
+            "reference_id": "19111-1-92",
+            "text": "Kelvin Gutiérrez Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765155094
+            "ts": 1765155269
           }
         ]
       }
@@ -1324,8 +1331,8 @@
         "num": 10,
         "half": "top",
         "label": "Alta 10ma",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1396,7 +1403,7 @@
         "num": 10,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
