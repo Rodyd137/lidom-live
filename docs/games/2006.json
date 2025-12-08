@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2006",
-    "scraped_at": "2025-12-08T00:40:44.934Z",
+    "scraped_at": "2025-12-08T00:41:49.561Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-07 17:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Vidal Brujan Robo de Base Wild Pitch",
+    "lastPlayByPlay": "Miguel Sano Elevado de Sacrificio Carrera Empujada",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 7
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": true,
-      "runners": 2,
-      "mask": 7
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -1130,10 +1130,17 @@
           },
           {
             "reference_id": "18268-2-85",
-            "text": "Miguel Sano al bate",
+            "text": "Miguel Sano Elevado de Sacrificio Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765154473
+          },
+          {
+            "reference_id": "18268-2-86",
+            "text": "Robinson Canó  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1765154427
+            "ts": 1765154479
           }
         ]
       }
@@ -1262,8 +1269,8 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 5,
-        "scoring_plays": 0
+        "total_plays": 6,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
