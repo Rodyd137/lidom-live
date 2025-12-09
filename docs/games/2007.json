@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2007",
-    "scraped_at": "2025-12-09T23:56:59.440Z",
+    "scraped_at": "2025-12-09T23:58:04.214Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Jonathan Guzman Sencillo ",
+    "lastPlayByPlay": "Dervy Ventura Ponche (K) ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -92,6 +92,17 @@
             "team_id": 4,
             "name": "Socrates Brito",
             "abbreviation": "S. Brito",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5624,
+            "team_id": 4,
+            "name": "Yainer Díaz",
+            "abbreviation": "Y. Díaz",
             "number": null,
             "dob": null,
             "height": "",
@@ -524,10 +535,17 @@
           },
           {
             "reference_id": "18270-1-13",
-            "text": "Dervy Ventura al bate",
+            "text": "Dervy Ventura Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765324438
+            "ts": 1765324656
+          },
+          {
+            "reference_id": "18270-1-14",
+            "text": "Hector Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765324659
           }
         ]
       }
@@ -551,7 +569,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
