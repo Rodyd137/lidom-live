@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2009",
-    "scraped_at": "2025-12-09T23:53:11.287Z",
+    "scraped_at": "2025-12-09T23:55:52.335Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Rudy Martin  Golpeado por Pelota ",
+    "lastPlayByPlay": "Rudy Martin  Robo de Base ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -486,10 +486,17 @@
           },
           {
             "reference_id": "18287-2-7",
+            "text": "Rudy Martin  Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765324529
+          },
+          {
+            "reference_id": "18287-2-8",
             "text": "Bryan de la Cruz al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1765324199
+            "ts": 1765324532
           }
         ]
       }
@@ -506,7 +513,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -587,7 +594,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 4,
-          "hits": 4,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
@@ -606,7 +613,7 @@
         "id": 2008,
         "date": "2025-12-09 19:30:00",
         "status": 2,
-        "roundText": "Baja 1ra",
+        "roundText": "Alta 2da",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
