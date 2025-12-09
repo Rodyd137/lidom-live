@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2009",
-    "scraped_at": "2025-12-09T23:48:51.689Z",
+    "scraped_at": "2025-12-09T23:49:56.540Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gilberto Celestino Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -198,10 +198,10 @@
             "position": ""
           },
           {
-            "id": 5385,
+            "id": 5611,
             "team_id": 6,
-            "name": "Alfredo Marte",
-            "abbreviation": "A. Marte",
+            "name": "Rudy Martin ",
+            "abbreviation": "R. Martin",
             "number": null,
             "dob": null,
             "height": "",
@@ -472,10 +472,17 @@
         "plays": [
           {
             "reference_id": "18287-2-5",
-            "text": "Gilberto Celestino al bate",
+            "text": "Gilberto Celestino Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1765323882
+            "ts": 1765324178
+          },
+          {
+            "reference_id": "18287-2-6",
+            "text": "Rudy Martin  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765324189
           }
         ]
       }
@@ -492,7 +499,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -608,8 +615,8 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 0,
-          "hits": 0,
+          "runs": 2,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }
