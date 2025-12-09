@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2007",
-    "scraped_at": "2025-12-09T23:37:01.230Z",
+    "scraped_at": "2025-12-09T23:38:05.282Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Socrates Brito Sencillo y 2 Carreras Impulsadas ",
+    "lastPlayByPlay": "Indigo Diaz Cuadrangular! 2 Carreras Impulsadas ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 2,
-          "H": 3,
+          "R": 4,
+          "H": 4,
           "E": 0,
-          "H2": 2
+          "H2": 4
         },
         "probables": {
           "pitcher": "Grant Gavin",
@@ -282,7 +282,7 @@
       "innings": [
         {
           "num": 1,
-          "away": 2,
+          "away": 4,
           "home": 0
         },
         {
@@ -329,8 +329,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 2,
-          "H": 3,
+          "R": 4,
+          "H": 4,
           "E": 0
         },
         "home": {
@@ -343,39 +343,39 @@
         "away": [
           {
             "num": 1,
-            "R": 2
+            "R": 4
           },
           {
             "num": 2,
-            "R": 2
+            "R": 4
           },
           {
             "num": 3,
-            "R": 2
+            "R": 4
           },
           {
             "num": 4,
-            "R": 2
+            "R": 4
           },
           {
             "num": 5,
-            "R": 2
+            "R": 4
           },
           {
             "num": 6,
-            "R": 2
+            "R": 4
           },
           {
             "num": 7,
-            "R": 2
+            "R": 4
           },
           {
             "num": 8,
-            "R": 2
+            "R": 4
           },
           {
             "num": 9,
-            "R": 2
+            "R": 4
           }
         ],
         "home": [
@@ -447,10 +447,17 @@
           },
           {
             "reference_id": "18269-1-4",
-            "text": "Indigo Diaz al bate",
+            "text": "Indigo Diaz Cuadrangular! 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765323457
+          },
+          {
+            "reference_id": "18269-1-5",
+            "text": "Franchy Cordero al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1765323358
+            "ts": 1765323461
           }
         ]
       }
@@ -460,8 +467,8 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 4,
-        "scoring_plays": 1
+        "total_plays": 5,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -469,7 +476,7 @@
         "num": 1,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 2,
+        "awayTeamRuns": 4,
         "homeTeamRuns": 0
       },
       {
