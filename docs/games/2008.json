@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2008",
-    "scraped_at": "2025-12-09T23:47:46.710Z",
+    "scraped_at": "2025-12-09T23:48:51.752Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Leody Taveras  Out: Rodado al Primera Base",
+    "lastPlayByPlay": "Ezequiel Duran Doble! ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 1,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -147,6 +147,17 @@
             "team_id": 3,
             "name": "Ezequiel Duran",
             "abbreviation": "E. Duran",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5389,
+            "team_id": 3,
+            "name": "Aderlin Rodríguez",
+            "abbreviation": "A. Rodríguez",
             "number": null,
             "dob": null,
             "height": "",
@@ -347,10 +358,17 @@
           },
           {
             "reference_id": "18278-2-6",
-            "text": "Ezequiel Duran al bate",
+            "text": "Ezequiel Duran Doble! ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765324016
+            "ts": 1765324074
+          },
+          {
+            "reference_id": "18278-2-7",
+            "text": "Aderlin Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765324113
           }
         ]
       }
@@ -367,7 +385,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
