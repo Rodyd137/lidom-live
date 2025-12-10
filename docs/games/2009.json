@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2009",
-    "scraped_at": "2025-12-10T01:18:53.282Z",
+    "scraped_at": "2025-12-10T01:19:58.832Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-09 19:30:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Jorge Mateo Out: Elevado al Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -786,6 +786,20 @@
             "ts": 1765329391
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "18291-2-46",
+            "text": "Rafael Lantigua  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765329560
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -851,6 +865,13 @@
         "label": "Alta 5ta",
         "total_plays": 6,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -884,7 +905,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -966,7 +987,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 4,
-          "hits": 6,
+          "hits": 7,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }

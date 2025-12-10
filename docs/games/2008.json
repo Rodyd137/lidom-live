@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2008",
-    "scraped_at": "2025-12-10T01:18:53.268Z",
+    "scraped_at": "2025-12-10T01:19:58.813Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Leody Taveras Sencillo ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 6
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": true,
-      "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "on1B": true,
+      "on2B": false,
+      "on3B": true,
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 4,
-          "H": 6,
+          "H": 7,
           "E": 0,
           "H2": 4
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 4,
-          "H": 6,
+          "H": 7,
           "E": 0
         }
       },
@@ -773,10 +773,17 @@
         "plays": [
           {
             "reference_id": "18282-2-40",
-            "text": "Steward Berroa al bate",
+            "text": "Steward Berroa Doble! ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765329358
+            "ts": 1765329531
+          },
+          {
+            "reference_id": "18282-2-41",
+            "text": "Leody Taveras Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765329572
           }
         ]
       }
@@ -849,7 +856,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -949,7 +956,7 @@
         "id": 2009,
         "date": "2025-12-09 19:30:00",
         "status": 2,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
