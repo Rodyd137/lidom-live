@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2009",
-    "scraped_at": "2025-12-10T02:27:31.049Z",
+    "scraped_at": "2025-12-10T02:28:36.222Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-09 19:30:00",
-    "roundText": "Alta 9na",
+    "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -1074,10 +1074,24 @@
           },
           {
             "reference_id": "18295-1-80",
-            "text": "Jorge Mateo al bate",
+            "text": "Jorge Mateo Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765333582
+            "ts": 1765333672
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "18295-2-81",
+            "text": "Manuel Peña al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765333680
           }
         ]
       }
@@ -1201,6 +1215,13 @@
         "label": "Alta 9na",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1262,7 +1283,7 @@
       },
       {
         "num": 9,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -1280,7 +1301,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 11,
-          "hits": 13,
+          "hits": 14,
           "errors": 2,
           "permalink": "/equipo/leones-del-escogido"
         },
