@@ -1,17 +1,17 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2009",
-    "scraped_at": "2025-12-10T02:52:42.853Z",
+    "scraped_at": "2025-12-10T02:53:48.076Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2009,
     "season_id": 20,
-    "status": 2,
+    "status": 6,
     "date": "2025-12-09 19:30:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Rafael Lantigua  Sencillo y 1 Carrera Impulsada se embasa por Error del - Jardinero Central",
+    "lastPlayByPlay": "Rudy Martin  Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 6
+      "base": 8
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -40,9 +40,9 @@
       "over_under": null
     },
     "pitchers": {
-      "winning": null,
-      "losing": null,
-      "save": null
+      "winning": "Joe Corbett",
+      "losing": "Junior Santos ",
+      "save": ""
     },
     "teams": {
       "away": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 3,
-          "H": 7,
+          "R": 4,
+          "H": 8,
           "E": 0,
           "H2": 1
         },
@@ -339,7 +339,7 @@
         {
           "num": 10,
           "away": 1,
-          "home": 1
+          "home": 2
         }
       ],
       "extras": true,
@@ -350,8 +350,8 @@
           "E": 1
         },
         "home": {
-          "R": 3,
-          "H": 7,
+          "R": 4,
+          "H": 8,
           "E": 0
         }
       },
@@ -437,7 +437,7 @@
           },
           {
             "num": 10,
-            "R": 3
+            "R": 4
           }
         ]
       }
@@ -1192,10 +1192,17 @@
           },
           {
             "reference_id": "19112-2-93",
-            "text": "Gilberto Celestino al bate",
+            "text": "Gilberto Celestino Base por Bolas Intencional ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765335159
+            "ts": 1765335167
+          },
+          {
+            "reference_id": "19112-2-94",
+            "text": "Rudy Martin  Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765335197
           }
         ]
       }
@@ -1338,8 +1345,8 @@
         "num": 10,
         "half": "bottom",
         "label": "Baja 10ma",
-        "total_plays": 3,
-        "scoring_plays": 1
+        "total_plays": 4,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1411,7 +1418,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 1
+        "homeTeamRuns": 2
       }
     ],
     "siblingGames": [
