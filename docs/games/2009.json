@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2009",
-    "scraped_at": "2025-12-10T01:35:04.218Z",
+    "scraped_at": "2025-12-10T01:36:08.968Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Carlos Martinez  Sencillo Jardinero Derecho ",
+    "lastPlayByPlay": "Magneuris Sierra Robo de Base ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -850,10 +850,24 @@
           },
           {
             "reference_id": "18292-1-53",
-            "text": "Magneuris Sierra al bate",
+            "text": "Magneuris Sierra  Out: Rodado al Segunda Base - Campo Corto - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765330514
+          },
+          {
+            "reference_id": "18292-1-54",
+            "text": "Magneuris Sierra Robo de Base ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765330275
+            "ts": 1765330556
+          },
+          {
+            "reference_id": "18292-1-55",
+            "text": "Raimel Tapia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765330559
           }
         ]
       }
@@ -933,8 +947,8 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 6,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1033,7 +1047,7 @@
         "id": 2008,
         "date": "2025-12-09 19:30:00",
         "status": 2,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
