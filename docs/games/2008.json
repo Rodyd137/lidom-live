@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2008",
-    "scraped_at": "2025-12-10T02:08:05.819Z",
+    "scraped_at": "2025-12-10T02:09:10.528Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-09 19:30:00",
-    "roundText": "Baja 7ma",
-    "currentInningNum": 7,
+    "roundText": "Alta 8va",
+    "currentInningNum": 8,
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -933,6 +933,34 @@
             "ts": 1765332074
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "18284-2-61",
+            "text": "Aneury Tavarez  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765332515
+          },
+          {
+            "reference_id": "18284-2-62",
+            "text": "Jerar Encarnacion Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765332522
+          },
+          {
+            "reference_id": "18284-2-63",
+            "text": "Elih Marrero Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765332532
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1026,6 +1054,13 @@
         "label": "Alta 7ma",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1074,14 +1109,14 @@
       {
         "num": 7,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 8,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -1131,7 +1166,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 2,
-          "hits": 11,
+          "hits": 12,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         },
