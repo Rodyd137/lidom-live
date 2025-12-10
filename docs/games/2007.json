@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2007",
-    "scraped_at": "2025-12-10T01:41:32.265Z",
+    "scraped_at": "2025-12-10T01:42:36.985Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 7,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -180,7 +180,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Ofreidy Gómez",
+          "pitcher": "Oliver Ortega",
           "era": "",
           "record": "",
           "debut": false
@@ -891,6 +891,20 @@
             "ts": 1765330707
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "18275-1-54",
+            "text": "Franchy Cordero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765330909
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -976,6 +990,13 @@
         "half": "bottom",
         "label": "Baja 6ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -1065,8 +1086,8 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 5,
-          "hits": 7,
+          "runs": 6,
+          "hits": 8,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }
