@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2009",
-    "scraped_at": "2025-12-10T02:50:33.088Z",
+    "scraped_at": "2025-12-10T02:51:37.766Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ronaldo Hernández Sencillo Tercera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 6
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": true,
-      "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "on1B": true,
+      "on2B": false,
+      "on3B": true,
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 2,
-          "H": 5,
+          "R": 3,
+          "H": 7,
           "E": 0,
           "H2": 1
         },
@@ -339,7 +339,7 @@
         {
           "num": 10,
           "away": 1,
-          "home": 0
+          "home": 1
         }
       ],
       "extras": true,
@@ -350,8 +350,8 @@
           "E": 0
         },
         "home": {
-          "R": 2,
-          "H": 5,
+          "R": 3,
+          "H": 7,
           "E": 0
         }
       },
@@ -437,7 +437,7 @@
           },
           {
             "num": 10,
-            "R": 2
+            "R": 3
           }
         ]
       }
@@ -1178,10 +1178,17 @@
         "plays": [
           {
             "reference_id": "19112-2-90",
-            "text": "Ronaldo Hernández al bate",
+            "text": "Ronaldo Hernández Sencillo Tercera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765334877
+            "ts": 1765335041
+          },
+          {
+            "reference_id": "19112-2-91",
+            "text": "Rafael Lantigua  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765335045
           }
         ]
       }
@@ -1324,7 +1331,7 @@
         "num": 10,
         "half": "bottom",
         "label": "Baja 10ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1397,7 +1404,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       }
     ],
     "siblingGames": [
@@ -1422,7 +1429,7 @@
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 1,
-          "hits": 4,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         }
