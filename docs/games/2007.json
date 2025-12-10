@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2007",
-    "scraped_at": "2025-12-10T00:42:14.679Z",
+    "scraped_at": "2025-12-10T00:43:19.236Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Socrates Brito Base por Bolas ",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -688,6 +688,27 @@
             "ts": 1765327145
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "18272-1-31",
+            "text": "Socrates Brito Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765327364
+          },
+          {
+            "reference_id": "18272-1-32",
+            "text": "Yainer Díaz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765327368
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -731,6 +752,13 @@
         "half": "bottom",
         "label": "Baja 3ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
