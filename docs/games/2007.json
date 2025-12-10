@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2007",
-    "scraped_at": "2025-12-10T01:42:36.985Z",
+    "scraped_at": "2025-12-10T01:43:41.966Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Franchy Cordero Cuadrangular! ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 8,
-          "H": 10,
+          "R": 9,
+          "H": 11,
           "E": 2,
           "H2": 8
         },
@@ -323,7 +323,7 @@
         },
         {
           "num": 7,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 8,
-          "H": 10,
+          "R": 9,
+          "H": 11,
           "E": 2
         },
         "home": {
@@ -378,15 +378,15 @@
           },
           {
             "num": 7,
-            "R": 8
+            "R": 9
           },
           {
             "num": 8,
-            "R": 8
+            "R": 9
           },
           {
             "num": 9,
-            "R": 8
+            "R": 9
           }
         ],
         "home": [
@@ -899,10 +899,17 @@
         "plays": [
           {
             "reference_id": "18275-1-54",
-            "text": "Franchy Cordero al bate",
+            "text": "Franchy Cordero Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765331012
+          },
+          {
+            "reference_id": "18275-1-55",
+            "text": "Eguy Rosario al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1765330909
+            "ts": 1765331017
           }
         ]
       }
@@ -996,8 +1003,8 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 1,
-        "scoring_plays": 0
+        "total_plays": 2,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1047,7 +1054,7 @@
         "num": 7,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
