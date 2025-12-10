@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2009",
-    "scraped_at": "2025-12-10T02:12:25.050Z",
+    "scraped_at": "2025-12-10T02:13:29.762Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Raimel Tapia Robo de Base ",
+    "lastPlayByPlay": "Josh Lester  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 7
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": true,
-      "runners": 2,
-      "mask": 7
+      "on2B": false,
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -1011,10 +1011,24 @@
           },
           {
             "reference_id": "18294-1-73",
-            "text": "Josh Lester al bate",
+            "text": "Josh Lester  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765332739
+            "ts": 1765332760
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "18294-2-74",
+            "text": "Gilberto Celestino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765332783
           }
         ]
       }
@@ -1124,6 +1138,13 @@
         "label": "Alta 8va",
         "total_plays": 6,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1196,7 +1217,7 @@
         "id": 2007,
         "date": "2025-12-09 19:30:00",
         "status": 2,
-        "roundText": "Alta 8va",
+        "roundText": "Baja 8va",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -1229,7 +1250,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 3,
-          "hits": 5,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         },
