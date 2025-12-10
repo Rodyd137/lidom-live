@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2011",
-    "scraped_at": "2025-12-10T23:48:55.605Z",
+    "scraped_at": "2025-12-10T23:50:00.004Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-10 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Steward Berroa Out Robando Base! ",
+    "lastPlayByPlay": "Leody Taveras Out: Elevado al Jardinero Izquierdo",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -109,7 +109,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -214,7 +214,7 @@
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         }
       },
@@ -339,18 +339,25 @@
             "ts": 1765410190
           },
           {
-            "reference_id": "18305-2-5",
-            "text": "Leody Taveras al bate",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1765410194
-          },
-          {
             "reference_id": "18305-2-4-268570",
             "text": "Steward Berroa Out Robando Base! ",
             "scored": false,
             "is_primary": false,
             "ts": 1765410519
+          },
+          {
+            "reference_id": "18305-2-5",
+            "text": "Leody Taveras Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765410549
+          },
+          {
+            "reference_id": "18305-2-6",
+            "text": "Ezequiel Duran al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765410590
           }
         ]
       }
@@ -367,7 +374,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
