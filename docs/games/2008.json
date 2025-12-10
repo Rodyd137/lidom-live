@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2008",
-    "scraped_at": "2025-12-10T00:04:32.295Z",
+    "scraped_at": "2025-12-10T00:05:36.964Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,7 +14,7 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -213,6 +213,17 @@
             "team_id": 3,
             "name": "Aneury Tavarez",
             "abbreviation": "A,Tavarez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5602,
+            "team_id": 3,
+            "name": "Jerar Encarnacion",
+            "abbreviation": "J. Encarnacion",
             "number": null,
             "dob": null,
             "height": "",
@@ -468,6 +479,20 @@
             "ts": 1765324897
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "18279-2-13",
+            "text": "Jerar Encarnacion al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765325087
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -490,6 +515,13 @@
         "half": "top",
         "label": "Alta 2da",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
