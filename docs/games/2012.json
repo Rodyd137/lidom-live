@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2012",
-    "scraped_at": "2025-12-10T23:46:46.397Z",
+    "scraped_at": "2025-12-10T23:47:51.055Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-10 19:30:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Eguy Rosario Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -81,17 +81,6 @@
             "team_id": 4,
             "name": "Junior Lake",
             "abbreviation": "J. Lake",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 5293,
-            "team_id": 4,
-            "name": "Indigo Diaz",
-            "abbreviation": "I. Diaz",
             "number": null,
             "dob": null,
             "height": "",
@@ -464,6 +453,20 @@
             "ts": 1765410396
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "18314-2-5",
+            "text": "Ismael Munguia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765410437
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -473,12 +476,19 @@
         "label": "Alta 1ra",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -545,7 +555,7 @@
         "id": 2010,
         "date": "2025-12-10 19:30:00",
         "status": 2,
-        "roundText": "Alta 1ra",
+        "roundText": "Baja 1ra",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
