@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2007",
-    "scraped_at": "2025-12-10T02:25:21.328Z",
+    "scraped_at": "2025-12-10T02:26:26.399Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Eguy Rosario Out: Elevado al Jardinero Izquierdo",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
@@ -103,17 +103,6 @@
             "team_id": 4,
             "name": "Chadwick Tromp",
             "abbreviation": "C. Tromp",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 5430,
-            "team_id": 4,
-            "name": "Jimmy Cordero",
-            "abbreviation": "J. Cordero",
             "number": null,
             "dob": null,
             "height": "",
@@ -1045,6 +1034,27 @@
             "ts": 1765333303
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "18277-1-71",
+            "text": "Eguy Rosario Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765333542
+          },
+          {
+            "reference_id": "18277-1-72",
+            "text": "José Marmolejos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765333544
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1159,6 +1169,13 @@
         "label": "Baja 8va",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1248,7 +1265,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 7,
-          "hits": 9,
+          "hits": 10,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }

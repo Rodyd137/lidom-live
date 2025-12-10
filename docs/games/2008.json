@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2008",
-    "scraped_at": "2025-12-10T02:25:21.275Z",
+    "scraped_at": "2025-12-10T02:26:26.438Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Corey Joyce Doble! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 7,
-          "H": 9,
+          "H": 10,
           "E": 0,
           "H2": 5
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 7,
-          "H": 9,
+          "H": 10,
           "E": 0
         }
       },
@@ -1010,6 +1010,20 @@
             "ts": 1765333404
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "18285-2-70",
+            "text": "Corey Joyce Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765333585
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1117,6 +1131,13 @@
         "label": "Alta 8va",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
