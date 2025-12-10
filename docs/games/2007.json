@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2007",
-    "scraped_at": "2025-12-10T01:50:52.023Z",
+    "scraped_at": "2025-12-10T01:51:56.812Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-09 19:30:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Jonathan Guzman Out: Elevado al Jardinero Izquierdo",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 2
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 9,
-          "H": 11,
+          "R": 10,
+          "H": 12,
           "E": 2,
           "H2": 8
         },
@@ -323,7 +323,7 @@
         },
         {
           "num": 7,
-          "away": 1,
+          "away": 2,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 9,
-          "H": 11,
+          "R": 10,
+          "H": 12,
           "E": 2
         },
         "home": {
@@ -378,15 +378,15 @@
           },
           {
             "num": 7,
-            "R": 9
+            "R": 10
           },
           {
             "num": 8,
-            "R": 9
+            "R": 10
           },
           {
             "num": 9,
-            "R": 9
+            "R": 10
           }
         ],
         "home": [
@@ -927,10 +927,17 @@
           },
           {
             "reference_id": "18275-1-58",
-            "text": "Dervy Ventura al bate",
-            "scored": false,
+            "text": "Dervy Ventura Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
             "is_primary": true,
-            "ts": 1765331380
+            "ts": 1765331488
+          },
+          {
+            "reference_id": "18275-1-57-268370",
+            "text": "Dervy Ventura Out Robando Base! ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1765331496
           }
         ]
       }
@@ -1024,8 +1031,8 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 5,
-        "scoring_plays": 1
+        "total_plays": 6,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1073,9 +1080,9 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
-        "awayTeamRuns": 1,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
