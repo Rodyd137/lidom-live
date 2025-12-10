@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2007",
-    "scraped_at": "2025-12-10T00:34:42.739Z",
+    "scraped_at": "2025-12-10T00:35:47.245Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Francisco Mejía se embasa por Error del Segunda Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 8,
           "H": 10,
-          "E": 0,
+          "E": 1,
           "H2": 8
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 8,
           "H": 10,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 0,
@@ -660,6 +660,27 @@
             "ts": 1765326723
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "18271-2-28",
+            "text": "Francisco Mejía se embasa por Error del Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765326928
+          },
+          {
+            "reference_id": "18271-2-29",
+            "text": "Esteury Ruiz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765326934
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -697,6 +718,13 @@
         "label": "Alta 3ra",
         "total_plays": 6,
         "scoring_plays": 2
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
