@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2009",
-    "scraped_at": "2025-12-10T01:19:58.832Z",
+    "scraped_at": "2025-12-10T01:21:03.511Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Rafael Lantigua  Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -794,10 +794,17 @@
         "plays": [
           {
             "reference_id": "18291-2-46",
-            "text": "Rafael Lantigua  al bate",
+            "text": "Rafael Lantigua  Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1765329560
+            "ts": 1765329600
+          },
+          {
+            "reference_id": "18291-2-47",
+            "text": "Gilberto Celestino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765329605
           }
         ]
       }
@@ -870,7 +877,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -944,7 +951,7 @@
         "id": 2007,
         "date": "2025-12-09 19:30:00",
         "status": 2,
-        "roundText": "Baja 5ta",
+        "roundText": "Alta 6ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -986,7 +993,7 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 4,
+          "runs": 5,
           "hits": 7,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
