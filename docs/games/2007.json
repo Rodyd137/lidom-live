@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2007",
-    "scraped_at": "2025-12-10T01:11:21.049Z",
+    "scraped_at": "2025-12-10T01:12:25.539Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Cal Stevenson  Base por Bolas ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -801,10 +801,17 @@
         "plays": [
           {
             "reference_id": "18273-2-43",
-            "text": "Cal Stevenson  al bate",
+            "text": "Cal Stevenson  Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765329065
+            "ts": 1765329128
+          },
+          {
+            "reference_id": "18273-2-44",
+            "text": "Armando Alvarez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765329134
           }
         ]
       }
@@ -877,7 +884,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
