@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2008",
-    "scraped_at": "2025-12-10T00:29:19.155Z",
+    "scraped_at": "2025-12-10T00:30:23.848Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 3,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -625,6 +625,20 @@
             "ts": 1765326417
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "18280-2-24",
+            "text": "Steward Berroa al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765326573
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -662,6 +676,13 @@
         "label": "Alta 3ra",
         "total_plays": 7,
         "scoring_plays": 2
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -760,7 +781,7 @@
         "id": 2009,
         "date": "2025-12-09 19:30:00",
         "status": 2,
-        "roundText": "Alta 3ra",
+        "roundText": "Baja 3ra",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
