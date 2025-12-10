@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2007",
-    "scraped_at": "2025-12-10T01:55:11.166Z",
+    "scraped_at": "2025-12-10T01:56:15.989Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ángel Ortiz Doble! ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 0,
-          "H": 2,
+          "H": 3,
           "E": 0,
           "H2": 0
         },
@@ -231,10 +231,10 @@
             "position": ""
           },
           {
-            "id": 5276,
+            "id": 5479,
             "team_id": 1,
-            "name": "Mel Rojas Jr.",
-            "abbreviation": "M. Rojas Jr.",
+            "name": "Ángel Ortiz",
+            "abbreviation": "A. Ortiz",
             "number": null,
             "dob": null,
             "height": "",
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 0,
-          "H": 2,
+          "H": 3,
           "E": 0
         }
       },
@@ -940,6 +940,27 @@
             "ts": 1765331496
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "18275-2-59",
+            "text": "Ángel Ortiz Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765331762
+          },
+          {
+            "reference_id": "18275-2-60",
+            "text": "Cal Stevenson  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765331768
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1033,6 +1054,13 @@
         "label": "Alta 7ma",
         "total_plays": 6,
         "scoring_plays": 2
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
