@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2009",
-    "scraped_at": "2025-12-10T02:00:34.747Z",
+    "scraped_at": "2025-12-10T02:01:39.387Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-09 19:30:00",
-    "roundText": "Baja 7ma",
-    "currentInningNum": 7,
-    "lastPlayByPlay": "Chester Pimentel Ponche (K) ",
+    "roundText": "Alta 8va",
+    "currentInningNum": 8,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -268,6 +268,17 @@
             "team_id": 6,
             "name": "Chester Pimentel",
             "abbreviation": "C. Pimentel",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5459,
+            "team_id": 6,
+            "name": "Rafael Lantigua ",
+            "abbreviation": "R. Lantigua",
             "number": null,
             "dob": null,
             "height": "",
@@ -951,10 +962,24 @@
           },
           {
             "reference_id": "18293-2-66",
-            "text": "Rafael Lantigua  al bate",
+            "text": "Rafael Lantigua   Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765332007
+            "ts": 1765332050
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "18294-1-67",
+            "text": "Ismael Munguia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765332072
           }
         ]
       }
@@ -1057,6 +1082,13 @@
         "label": "Baja 7ma",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1105,14 +1137,14 @@
       {
         "num": 7,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 8,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
