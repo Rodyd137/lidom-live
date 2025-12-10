@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2009",
-    "scraped_at": "2025-12-10T01:00:34.275Z",
+    "scraped_at": "2025-12-10T01:01:38.916Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Raimel Tapia Sencillo Jardinero Izquierdo",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 1,
-          "H": 6,
+          "H": 7,
           "E": 0,
           "H2": 1
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 1,
-          "H": 6,
+          "H": 7,
           "E": 0
         },
         "home": {
@@ -745,10 +745,17 @@
         "plays": [
           {
             "reference_id": "18291-1-39",
-            "text": "Raimel Tapia al bate",
+            "text": "Raimel Tapia Sencillo Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1765328289
+            "ts": 1765328456
+          },
+          {
+            "reference_id": "18291-1-40",
+            "text": "Josh Lester al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765328458
           }
         ]
       }
@@ -814,7 +821,7 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -931,7 +938,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 4,
-          "hits": 4,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }
