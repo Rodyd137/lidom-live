@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2007",
-    "scraped_at": "2025-12-10T02:09:10.511Z",
+    "scraped_at": "2025-12-10T02:10:15.386Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Carlos Jimenez al bate",
+    "lastPlayByPlay": "Carlos Jimenez Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -990,10 +990,17 @@
           },
           {
             "reference_id": "18276-1-64",
-            "text": "Carlos Jimenez al bate",
+            "text": "Carlos Jimenez Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765332448
+            "ts": 1765332573
+          },
+          {
+            "reference_id": "18276-1-65",
+            "text": "Yainer Díaz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765332589
           }
         ]
       }
@@ -1101,7 +1108,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 1
       }
     ],
