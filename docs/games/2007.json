@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2007",
-    "scraped_at": "2025-12-10T02:04:51.560Z",
+    "scraped_at": "2025-12-10T02:05:56.607Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Luis De Los Santos Cuadrangular! ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 10,
-          "H": 12,
+          "R": 11,
+          "H": 13,
           "E": 2,
           "H2": 8
         },
@@ -154,10 +154,10 @@
             "position": ""
           },
           {
-            "id": 5609,
+            "id": 5299,
             "team_id": 4,
-            "name": "Dervy Ventura",
-            "abbreviation": "D. Ventura",
+            "name": "Luis De Los Santos",
+            "abbreviation": "L. De Los Santos",
             "number": null,
             "dob": null,
             "height": "",
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 10,
-          "H": 12,
+          "R": 11,
+          "H": 13,
           "E": 2
         },
         "home": {
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 10
+            "R": 11
           },
           {
             "num": 9,
-            "R": 10
+            "R": 11
           }
         ],
         "home": [
@@ -966,13 +966,27 @@
             "scored": false,
             "is_primary": true,
             "ts": 1765331989
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "18276-1-62",
+            "text": "Luis De Los Santos Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765332328
           },
           {
-            "reference_id": "18275-2-62",
-            "text": "Francisco Mejía  Out: Rodado al Primera Base",
+            "reference_id": "18276-1-63",
+            "text": "Junior Lake al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1765332100
+            "ts": 1765332332
           }
         ]
       }
@@ -1073,8 +1087,15 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 4,
+        "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1131,7 +1152,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
