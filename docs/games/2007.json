@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2007",
-    "scraped_at": "2025-12-10T01:01:38.855Z",
+    "scraped_at": "2025-12-10T01:02:43.429Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,7 +14,7 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -180,7 +180,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Migue Díaz",
+          "pitcher": "Ofreidy Gómez",
           "era": "",
           "record": "",
           "debut": false
@@ -765,6 +765,20 @@
             "ts": 1765328378
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "18273-1-40",
+            "text": "Jonathan Guzman al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765328555
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -822,6 +836,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
