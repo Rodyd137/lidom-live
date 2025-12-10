@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2009",
-    "scraped_at": "2025-12-10T01:49:47.500Z",
+    "scraped_at": "2025-12-10T01:50:52.094Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Miguel Sano Out: Elevado al Primera Base",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -913,10 +913,17 @@
         "plays": [
           {
             "reference_id": "18293-1-60",
-            "text": "Miguel Sano al bate",
+            "text": "Miguel Sano Out: Elevado al Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765331305
+            "ts": 1765331429
+          },
+          {
+            "reference_id": "18293-1-61",
+            "text": "Wilin Rosario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765331431
           }
         ]
       }
@@ -1010,7 +1017,7 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
