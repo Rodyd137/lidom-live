@@ -2,26 +2,25 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2025-12-10T02:42:38.058Z",
+    "scraped_at": "2025-12-10T02:44:04.592Z",
     "tz": "America/Santo_Domingo"
   },
   "tracked_ids": [
     2007,
-    2008,
     2009
   ],
   "live": [
     {
       "id": 2007,
       "status": 2,
-      "roundText": "Alta 9na",
+      "roundText": "Baja 9na",
       "currentInningNum": 9,
       "atBat": null,
-      "lastPlayByPlay": "Carlos Jimenez al bate",
+      "lastPlayByPlay": null,
       "counts": {
-        "balls": 3,
-        "strikes": 2,
-        "outs": 2
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0
       },
       "base": {
         "on1B": false,
@@ -30,7 +29,7 @@
         "runners": 0,
         "mask": 1
       },
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "score": {
         "away": {
           "name": "Leones",
@@ -47,47 +46,8 @@
           "E": 0
         }
       },
-      "threat": 4,
-      "updated_at": "2025-12-10T02:42:38.057Z"
-    },
-    {
-      "id": 2008,
-      "status": 2,
-      "roundText": "Alta 9na",
-      "currentInningNum": 9,
-      "atBat": null,
-      "lastPlayByPlay": "Melvi Mercedes  Ponche (K) ",
-      "counts": {
-        "balls": 0,
-        "strikes": 0,
-        "outs": 3
-      },
-      "base": {
-        "on1B": false,
-        "on2B": false,
-        "on3B": false,
-        "runners": 0,
-        "mask": 1
-      },
-      "battingTeam": "awayTeam",
-      "score": {
-        "away": {
-          "name": "Gigantes",
-          "abbr": "GC",
-          "R": 5,
-          "H": 7,
-          "E": 0
-        },
-        "home": {
-          "name": "Aguilas",
-          "abbr": "AC",
-          "R": 8,
-          "H": 10,
-          "E": 0
-        }
-      },
-      "threat": 4,
-      "updated_at": "2025-12-10T02:42:38.057Z"
+      "threat": 22,
+      "updated_at": "2025-12-10T02:44:04.592Z"
     },
     {
       "id": 2009,
@@ -95,25 +55,25 @@
       "roundText": "Alta 10ma",
       "currentInningNum": 10,
       "atBat": null,
-      "lastPlayByPlay": "Robinson Canó  Sencillo Jardinero Izquierdo",
+      "lastPlayByPlay": "Ismael Munguia Toque de Sacrificio Carrera Empujada",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base": {
-        "on1B": true,
-        "on2B": false,
-        "on3B": true,
-        "runners": 2,
-        "mask": 6
+        "on1B": false,
+        "on2B": true,
+        "on3B": false,
+        "runners": 1,
+        "mask": 3
       },
       "battingTeam": "awayTeam",
       "score": {
         "away": {
           "name": "Estrellas",
           "abbr": "EO",
-          "R": 2,
+          "R": 3,
           "H": 13,
           "E": 0
         },
@@ -125,8 +85,8 @@
           "E": 0
         }
       },
-      "threat": 73,
-      "updated_at": "2025-12-10T02:42:38.058Z"
+      "threat": 31,
+      "updated_at": "2025-12-10T02:44:04.592Z"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2009",
-    "scraped_at": "2025-12-10T02:42:37.991Z",
+    "scraped_at": "2025-12-10T02:43:43.150Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Alta 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Robinson Canó  Sencillo Jardinero Izquierdo",
+    "lastPlayByPlay": "Ismael Munguia Toque de Sacrificio Carrera Empujada",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 6
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
-      "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "on1B": false,
+      "on2B": true,
+      "on3B": false,
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 2,
+          "R": 3,
           "H": 13,
           "E": 0,
           "H2": 1
@@ -338,14 +338,14 @@
         },
         {
           "num": 10,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": true,
       "totals": {
         "away": {
-          "R": 2,
+          "R": 3,
           "H": 13,
           "E": 0
         },
@@ -395,7 +395,7 @@
           },
           {
             "num": 10,
-            "R": 2
+            "R": 3
           }
         ],
         "home": [
@@ -1143,10 +1143,17 @@
           },
           {
             "reference_id": "19112-1-86",
-            "text": "Ismael Munguia al bate",
+            "text": "Ismael Munguia Toque de Sacrificio Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765334599
+          },
+          {
+            "reference_id": "19112-1-87",
+            "text": "Carlos Martinez  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1765334541
+            "ts": 1765334602
           }
         ]
       }
@@ -1282,8 +1289,8 @@
         "num": 10,
         "half": "top",
         "label": "Alta 10ma",
-        "total_plays": 2,
-        "scoring_plays": 0
+        "total_plays": 3,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1354,7 +1361,7 @@
         "num": 10,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
@@ -1363,7 +1370,7 @@
         "id": 2007,
         "date": "2025-12-09 19:30:00",
         "status": 2,
-        "roundText": "Alta 9na",
+        "roundText": "Baja 9na",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -1388,7 +1395,7 @@
       {
         "id": 2008,
         "date": "2025-12-09 19:30:00",
-        "status": 2,
+        "status": 6,
         "roundText": "Alta 9na",
         "awayTeam": {
           "id": 5,
