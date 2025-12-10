@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2009",
-    "scraped_at": "2025-12-10T02:36:08.437Z",
+    "scraped_at": "2025-12-10T02:37:13.296Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-09 19:30:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Jeimer Candelario Golpeado por Pelota ",
+    "lastPlayByPlay": "Jeimer Candelario  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -1095,10 +1095,17 @@
           },
           {
             "reference_id": "18295-2-82",
-            "text": "Jeimer Candelario Golpeado por Pelota ",
+            "text": "Jeimer Candelario Golpeado por Pelota - Centro de revision revierte la jugada",
             "scored": false,
             "is_primary": true,
             "ts": 1765334112
+          },
+          {
+            "reference_id": "18295-2-83",
+            "text": "Jeimer Candelario  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765334225
           }
         ]
       }
@@ -1227,7 +1234,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
