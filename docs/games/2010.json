@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2010",
-    "scraped_at": "2025-12-11T00:38:23.890Z",
+    "scraped_at": "2025-12-11T00:39:29.122Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-10 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Mel Rojas Jr. Sencillo ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 3,
-          "H": 2,
+          "H": 3,
           "E": 0,
           "H2": 3
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 3,
-          "H": 2,
+          "H": 3,
           "E": 0
         }
       },
@@ -632,6 +632,27 @@
             "ts": 1765413305
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "18298-2-24",
+            "text": "Mel Rojas Jr. Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765413540
+          },
+          {
+            "reference_id": "18298-2-25",
+            "text": "Francisco Mejía al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765413543
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -668,6 +689,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -741,7 +769,7 @@
         "id": 2011,
         "date": "2025-12-10 19:30:00",
         "status": 2,
-        "roundText": "Baja 3ra",
+        "roundText": "Alta 4ta",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
