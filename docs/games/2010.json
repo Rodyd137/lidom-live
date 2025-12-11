@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2010",
-    "scraped_at": "2025-12-11T02:08:29.132Z",
+    "scraped_at": "2025-12-11T02:09:33.630Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-10 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Kenny Piper Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -940,6 +940,27 @@
             "ts": 1765418675
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "18303-1-59",
+            "text": "Kenny Piper Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765418936
+          },
+          {
+            "reference_id": "18303-1-60",
+            "text": "Julio Carreras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765418940
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1039,6 +1060,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
