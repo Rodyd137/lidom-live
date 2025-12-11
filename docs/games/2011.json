@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2011",
-    "scraped_at": "2025-12-11T00:13:25.938Z",
+    "scraped_at": "2025-12-11T00:14:30.919Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-10 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Aneury Tavarez  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -202,6 +202,28 @@
             "team_id": 3,
             "name": "Aderlin Rodríguez",
             "abbreviation": "A. Rodríguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5595,
+            "team_id": 3,
+            "name": "Aneury Tavarez",
+            "abbreviation": "A,Tavarez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5602,
+            "team_id": 3,
+            "name": "Jerar Encarnacion",
+            "abbreviation": "J. Encarnacion",
             "number": null,
             "dob": null,
             "height": "",
@@ -457,6 +479,27 @@
             "ts": 1765411868
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "18306-2-12",
+            "text": "Aneury Tavarez  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765412029
+          },
+          {
+            "reference_id": "18306-2-13",
+            "text": "Jerar Encarnacion al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765412041
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -480,6 +523,13 @@
         "label": "Alta 2da",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
