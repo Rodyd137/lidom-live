@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2010",
-    "scraped_at": "2025-12-11T00:55:44.399Z",
+    "scraped_at": "2025-12-11T00:56:49.877Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -695,6 +695,20 @@
             "ts": 1765414385
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "18299-2-31",
+            "text": "Sergio Alcantara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765414565
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -745,6 +759,13 @@
         "half": "top",
         "label": "Alta 4ta",
         "total_plays": 2,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
