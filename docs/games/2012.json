@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2012",
-    "scraped_at": "2025-12-11T01:32:58.955Z",
+    "scraped_at": "2025-12-11T01:34:03.643Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-10 19:30:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Wilin Rosario Sencillo Jardinero Derecho ",
+    "lastPlayByPlay": "Robinson Canó  Toque de Sacrificio Tercera Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": true,
-      "on3B": false,
+      "on3B": true,
       "runners": 2,
-      "mask": 5
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -850,10 +850,17 @@
           },
           {
             "reference_id": "18319-2-49",
-            "text": "Robinson Canó  al bate",
+            "text": "Robinson Canó  Toque de Sacrificio Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765416554
+            "ts": 1765416793
+          },
+          {
+            "reference_id": "18319-2-50",
+            "text": "Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765416798
           }
         ]
       }
@@ -940,7 +947,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -1030,8 +1037,8 @@
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 5,
-          "hits": 6,
+          "runs": 6,
+          "hits": 7,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         }
