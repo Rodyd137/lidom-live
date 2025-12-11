@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2011",
-    "scraped_at": "2025-12-11T00:34:03.045Z",
+    "scraped_at": "2025-12-11T00:35:08.115Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 3,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -257,6 +257,17 @@
             "team_id": 3,
             "name": "Corey Joyce",
             "abbreviation": "C. Joyce",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5321,
+            "team_id": 3,
+            "name": "Webster Rivas",
+            "abbreviation": "W. Rivas",
             "number": null,
             "dob": null,
             "height": "",
@@ -589,6 +600,20 @@
             "ts": 1765413099
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "18307-2-21",
+            "text": "Webster Rivas al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765413284
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -626,6 +651,13 @@
         "label": "Alta 3ra",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
