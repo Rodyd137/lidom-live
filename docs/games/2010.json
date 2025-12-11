@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2010",
-    "scraped_at": "2025-12-11T00:30:48.022Z",
+    "scraped_at": "2025-12-11T00:31:53.146Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-10 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Julio Carreras Out Robando Base! ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -605,10 +605,24 @@
         "plays": [
           {
             "reference_id": "18298-1-21",
-            "text": "Julio Carreras al bate",
+            "text": "Julio Carreras Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765412968
+            "ts": 1765413058
+          },
+          {
+            "reference_id": "18298-1-22",
+            "text": "Samad Taylor al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765413067
+          },
+          {
+            "reference_id": "18298-1-21-268680",
+            "text": "Julio Carreras Out Robando Base! ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1765413076
           }
         ]
       }
@@ -646,7 +660,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -720,7 +734,7 @@
         "id": 2011,
         "date": "2025-12-10 19:30:00",
         "status": 2,
-        "roundText": "Alta 3ra",
+        "roundText": "Baja 3ra",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
