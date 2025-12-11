@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2012",
-    "scraped_at": "2025-12-11T02:09:33.693Z",
+    "scraped_at": "2025-12-11T02:10:38.186Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-10 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Yainer Díaz Ponche (K) ",
+    "lastPlayByPlay": "Eguy Rosario  Out: Rodado al Segunda Base - Primera Base - Carrera Empujada",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 4
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 2,
+          "R": 3,
           "H": 5,
           "E": 0,
           "H2": 2
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,7 +340,7 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 2,
+          "R": 3,
           "H": 5,
           "E": 0
         },
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 2
+            "R": 3
           },
           {
             "num": 9,
-            "R": 2
+            "R": 3
           }
         ],
         "home": [
@@ -990,10 +990,17 @@
           },
           {
             "reference_id": "18321-1-66",
-            "text": "Eguy Rosario al bate",
+            "text": "Eguy Rosario  Out: Rodado al Segunda Base - Primera Base - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765419011
+          },
+          {
+            "reference_id": "18321-1-67",
+            "text": "Yamaico Navarro al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1765418931
+            "ts": 1765419016
           }
         ]
       }
@@ -1101,8 +1108,8 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1159,7 +1166,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
