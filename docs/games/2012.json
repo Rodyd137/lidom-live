@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2012",
-    "scraped_at": "2025-12-11T02:41:52.834Z",
+    "scraped_at": "2025-12-11T02:42:57.404Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-10 19:30:00",
-    "roundText": "Baja 9na",
-    "currentInningNum": 9,
-    "lastPlayByPlay": "Magneuris Sierra  Out: Rodado al Segunda Base - Primera Base",
+    "roundText": "Alta 10ma",
+    "currentInningNum": 10,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 1
+      "battingTeam": "awayTeam",
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -180,7 +180,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Patrick Weigel",
+          "pitcher": "Carlos Belén",
           "era": "",
           "record": "",
           "debut": false
@@ -335,9 +335,14 @@
           "num": 9,
           "away": 0,
           "home": 0
+        },
+        {
+          "num": 10,
+          "away": 0,
+          "home": 0
         }
       ],
-      "extras": false,
+      "extras": true,
       "totals": {
         "away": {
           "R": 3,
@@ -387,6 +392,10 @@
           {
             "num": 9,
             "R": 3
+          },
+          {
+            "num": 10,
+            "R": 3
           }
         ],
         "home": [
@@ -424,6 +433,10 @@
           },
           {
             "num": 9,
+            "R": 3
+          },
+          {
+            "num": 10,
             "R": 3
           }
         ]
@@ -1291,6 +1304,13 @@
       {
         "num": 9,
         "part": 2,
+        "is_last": 0,
+        "awayTeamRuns": 0,
+        "homeTeamRuns": 0
+      },
+      {
+        "num": 10,
+        "part": 1,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
