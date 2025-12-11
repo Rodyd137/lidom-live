@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2011",
-    "scraped_at": "2025-12-11T00:45:58.460Z",
+    "scraped_at": "2025-12-11T00:47:03.528Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-10 19:30:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Juan Brito Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "Ronaldo Hernández Base por Bolas ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -668,10 +668,17 @@
           },
           {
             "reference_id": "18308-1-27",
-            "text": "Ronaldo Hernández al bate",
+            "text": "Ronaldo Hernández Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765413911
+            "ts": 1765413999
+          },
+          {
+            "reference_id": "18308-1-28",
+            "text": "Rafael Lantigua  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765414002
           }
         ]
       }
@@ -723,7 +730,7 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 1
       }
     ],
@@ -797,7 +804,7 @@
         "id": 2010,
         "date": "2025-12-10 19:30:00",
         "status": 2,
-        "roundText": "Baja 3ra",
+        "roundText": "Alta 4ta",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
