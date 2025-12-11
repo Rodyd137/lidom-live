@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2011",
-    "scraped_at": "2025-12-11T02:59:06.121Z",
+    "scraped_at": "2025-12-11T03:00:10.865Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-10 19:30:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Corey Joyce  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -264,10 +264,10 @@
             "position": ""
           },
           {
-            "id": 5321,
+            "id": 5487,
             "team_id": 3,
-            "name": "Webster Rivas",
-            "abbreviation": "W. Rivas",
+            "name": "Wilmer Difó",
+            "abbreviation": "W. Difó",
             "number": null,
             "dob": null,
             "height": "",
@@ -1123,10 +1123,17 @@
         "plays": [
           {
             "reference_id": "18313-2-81",
-            "text": "Corey Joyce al bate",
+            "text": "Corey Joyce  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765421938
+            "ts": 1765421962
+          },
+          {
+            "reference_id": "18313-2-82",
+            "text": "Wilmer Difó al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765421974
           }
         ]
       }
@@ -1255,7 +1262,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1371,8 +1378,8 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 3,
-          "hits": 8,
+          "runs": 4,
+          "hits": 10,
           "errors": 3,
           "permalink": "/equipo/estrellas-orientales"
         }
