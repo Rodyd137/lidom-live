@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2010",
-    "scraped_at": "2025-12-11T01:34:03.620Z",
+    "scraped_at": "2025-12-11T01:35:08.106Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-10 19:30:00",
-    "roundText": "Baja 5ta",
-    "currentInningNum": 5,
-    "lastPlayByPlay": "Gustavo Nuñez Sencillo y 1 Carrera Impulsada ",
+    "roundText": "Alta 6ta",
+    "currentInningNum": 6,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 5
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 1,
           "H": 3,
-          "E": 2,
+          "E": 3,
           "H2": 1
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 1,
           "H": 3,
-          "E": 2
+          "E": 3
         },
         "home": {
           "R": 6,
@@ -815,17 +815,17 @@
           },
           {
             "reference_id": "18300-2-45",
-            "text": "Gustavo Nuñez Sencillo y 1 Carrera Impulsada ",
+            "text": "Gustavo Nuñez Sencillo Error",
             "scored": true,
             "is_primary": true,
             "ts": 1765416817
           },
           {
             "reference_id": "18300-2-46",
-            "text": "Cristhian Adames al bate",
+            "text": "Cristhian Adames  Out: Rodado al Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765416823
+            "ts": 1765416870
           }
         ]
       }
@@ -934,14 +934,14 @@
       {
         "num": 5,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 3
       },
       {
         "num": 6,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -978,8 +978,8 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 7,
-          "hits": 6,
+          "runs": 9,
+          "hits": 7,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         },
@@ -1014,7 +1014,7 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 1,
+          "runs": 2,
           "hits": 6,
           "errors": 2,
           "permalink": "/equipo/estrellas-orientales"
