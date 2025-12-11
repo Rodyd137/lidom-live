@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2012",
-    "scraped_at": "2025-12-11T03:03:24.734Z",
+    "scraped_at": "2025-12-11T03:04:29.751Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-10 19:30:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Raimel Tapia Doble! 1 Carrera Impulsada -  Cambio de juicio arbitral despues de revision",
+    "lastPlayByPlay": "Josh Lester Cuadrangular! 2 Carreras Impulsadas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -40,9 +40,9 @@
       "over_under": null
     },
     "pitchers": {
-      "winning": null,
-      "losing": null,
-      "save": null
+      "winning": "Carlos Belén",
+      "losing": "Steven Nogosek",
+      "save": ""
     },
     "teams": {
       "away": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 4,
-          "H": 10,
+          "R": 6,
+          "H": 11,
           "E": 3,
           "H2": 1
         },
@@ -339,7 +339,7 @@
         {
           "num": 10,
           "away": 1,
-          "home": 1
+          "home": 3
         }
       ],
       "extras": true,
@@ -350,8 +350,8 @@
           "E": 0
         },
         "home": {
-          "R": 4,
-          "H": 10,
+          "R": 6,
+          "H": 11,
           "E": 3
         }
       },
@@ -437,7 +437,7 @@
           },
           {
             "num": 10,
-            "R": 4
+            "R": 6
           }
         ]
       }
@@ -1206,10 +1206,10 @@
           },
           {
             "reference_id": "19113-2-91",
-            "text": "Josh Lester al bate",
-            "scored": false,
+            "text": "Josh Lester Cuadrangular! 2 Carreras Impulsadas ",
+            "scored": true,
             "is_primary": true,
-            "ts": 1765422181
+            "ts": 1765422214
           }
         ]
       }
@@ -1353,7 +1353,7 @@
         "half": "bottom",
         "label": "Baja 10ma",
         "total_plays": 5,
-        "scoring_plays": 2
+        "scoring_plays": 3
       }
     ],
     "innings_raw": [
@@ -1425,7 +1425,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 1
+        "homeTeamRuns": 3
       }
     ],
     "siblingGames": [
