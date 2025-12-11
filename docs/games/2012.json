@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2012",
-    "scraped_at": "2025-12-11T03:02:20.256Z",
+    "scraped_at": "2025-12-11T03:03:24.734Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-10 19:30:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Raimel Tapia Sencillo y 1 Carrera Impulsada Out Robando Base! - Receptor - Segunda Base",
+    "lastPlayByPlay": "Raimel Tapia Doble! 1 Carrera Impulsada -  Cambio de juicio arbitral despues de revision",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -1196,6 +1196,20 @@
             "scored": true,
             "is_primary": true,
             "ts": 1765421992
+          },
+          {
+            "reference_id": "19113-2-90",
+            "text": "Raimel Tapia Doble! 1 Carrera Impulsada -  Cambio de juicio arbitral despues de revision",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765422149
+          },
+          {
+            "reference_id": "19113-2-91",
+            "text": "Josh Lester al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765422181
           }
         ]
       }
@@ -1338,8 +1352,8 @@
         "num": 10,
         "half": "bottom",
         "label": "Baja 10ma",
-        "total_plays": 3,
-        "scoring_plays": 1
+        "total_plays": 5,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
