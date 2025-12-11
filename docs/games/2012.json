@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2012",
-    "scraped_at": "2025-12-11T01:24:01.762Z",
+    "scraped_at": "2025-12-11T01:25:06.928Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-10 19:30:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Alexander Canario Out: Elevado al Jardinero Izquierdo",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -180,7 +180,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Zac Kristofak ",
           "era": "",
           "record": "",
           "debut": false
@@ -828,6 +828,20 @@
             "ts": 1765416127
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "18319-2-47",
+            "text": "Raimel Tapia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765416291
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -907,6 +921,13 @@
         "label": "Alta 6ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -947,7 +968,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -996,7 +1017,7 @@
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 3,
-          "hits": 4,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         }
@@ -1005,7 +1026,7 @@
         "id": 2011,
         "date": "2025-12-10 19:30:00",
         "status": 2,
-        "roundText": "Baja 5ta",
+        "roundText": "Alta 6ta",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
