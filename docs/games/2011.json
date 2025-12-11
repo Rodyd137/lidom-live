@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2011",
-    "scraped_at": "2025-12-11T00:16:41.157Z",
+    "scraped_at": "2025-12-11T00:17:46.254Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-10 19:30:00",
-    "roundText": "Baja 2da",
-    "currentInningNum": 2,
-    "lastPlayByPlay": "Jerar Encarnacion Out: Elevado al Jardinero Derecho ",
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -224,6 +224,17 @@
             "team_id": 3,
             "name": "Jerar Encarnacion",
             "abbreviation": "J. Encarnacion",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5622,
+            "team_id": 3,
+            "name": "Corey Joyce",
+            "abbreviation": "C. Joyce",
             "number": null,
             "dob": null,
             "height": "",
@@ -498,6 +509,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1765412163
+          },
+          {
+            "reference_id": "18306-2-14",
+            "text": "Corey Joyce  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765412223
           }
         ]
       }
@@ -528,7 +546,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -543,14 +561,14 @@
       {
         "num": 2,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
