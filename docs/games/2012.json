@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2012",
-    "scraped_at": "2025-12-11T02:04:11.601Z",
+    "scraped_at": "2025-12-11T02:05:16.084Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-10 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Junior Lake Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 0,
+      "balls": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -969,10 +969,17 @@
         "plays": [
           {
             "reference_id": "18321-1-63",
-            "text": "Junior Lake al bate",
+            "text": "Junior Lake Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765418597
+            "ts": 1765418663
+          },
+          {
+            "reference_id": "18321-1-64",
+            "text": "Yainer Díaz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765418664
           }
         ]
       }
@@ -1080,7 +1087,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1154,7 +1161,7 @@
         "id": 2010,
         "date": "2025-12-10 19:30:00",
         "status": 2,
-        "roundText": "Baja 7ma",
+        "roundText": "Alta 8va",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
