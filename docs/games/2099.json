@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2099",
-    "scraped_at": "2025-12-12T00:11:44.865Z",
+    "scraped_at": "2025-12-12T00:12:48.049Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-11 19:30:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Johan Rojas  Out: Línea al Jardinero Central",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -590,6 +590,20 @@
             "ts": 1765498272
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "19116-2-19",
+            "text": "Hayden Senger al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765498335
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -627,6 +641,13 @@
         "label": "Alta 3ra",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -646,7 +667,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
