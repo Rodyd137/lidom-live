@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2101",
-    "scraped_at": "2025-12-12T01:08:34.354Z",
+    "scraped_at": "2025-12-12T01:09:37.768Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-11 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Robert Moore Doble! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -273,6 +273,17 @@
             "height": "",
             "image": null,
             "position": ""
+          },
+          {
+            "id": 5626,
+            "team_id": 3,
+            "name": "Robert Moore",
+            "abbreviation": "R. Moore",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
           }
         ]
       }
@@ -335,7 +346,7 @@
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         }
       },
@@ -586,6 +597,27 @@
             "ts": 1765501074
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "19134-2-20",
+            "text": "Robert Moore Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765501740
+          },
+          {
+            "reference_id": "19134-2-21",
+            "text": "Leody Taveras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765501756
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -622,6 +654,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
