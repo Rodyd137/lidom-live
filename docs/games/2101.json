@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2101",
-    "scraped_at": "2025-12-12T00:33:46.526Z",
+    "scraped_at": "2025-12-12T00:34:49.739Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-11 19:30:00",
-    "roundText": "Alta 2da",
+    "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Eguy Rosario  Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -136,6 +136,17 @@
             "team_id": 4,
             "name": "Eguy Rosario",
             "abbreviation": "E. Rosario",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5298,
+            "team_id": 4,
+            "name": "Jonathan Guzman",
+            "abbreviation": "J. Guzman",
             "number": null,
             "dob": null,
             "height": "",
@@ -448,6 +459,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1765499617
+          },
+          {
+            "reference_id": "19133-1-12",
+            "text": "Jonathan Guzman Out: Elevado al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765499643
           }
         ]
       }
@@ -471,7 +489,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -485,7 +503,7 @@
       },
       {
         "num": 2,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
