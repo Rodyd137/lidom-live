@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2101",
-    "scraped_at": "2025-12-12T02:50:25.599Z",
+    "scraped_at": "2025-12-12T02:51:29.444Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-11 19:30:00",
-    "roundText": "Baja 7ma",
-    "currentInningNum": 7,
-    "lastPlayByPlay": "Webster Rivas al bate",
+    "roundText": "Alta 8va",
+    "currentInningNum": 8,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -927,10 +927,24 @@
         "plays": [
           {
             "reference_id": "19138-2-57",
-            "text": "Webster Rivas al bate",
+            "text": "Webster Rivas Out: Elevado al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765507237
+            "ts": 1765507827
+          },
+          {
+            "reference_id": "19138-2-58",
+            "text": "Juan Lagares  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765507856
+          },
+          {
+            "reference_id": "19138-2-59",
+            "text": "Corey Joyce  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765507874
           }
         ]
       }
@@ -1031,7 +1045,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -1081,14 +1095,14 @@
       {
         "num": 7,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 1
       },
       {
         "num": 8,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
