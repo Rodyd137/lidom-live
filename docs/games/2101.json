@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2101",
-    "scraped_at": "2025-12-12T02:53:35.280Z",
+    "scraped_at": "2025-12-12T02:54:39.153Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-11 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jonathan Guzman Out: Elevado al Campo Corto",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 1,
           "H2": 0
         },
@@ -125,6 +125,17 @@
             "team_id": 4,
             "name": "Luis De Los Santos",
             "abbreviation": "L. De Los Santos",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5294,
+            "team_id": 4,
+            "name": "Pedro Severino",
+            "abbreviation": "P. Severino",
             "number": null,
             "dob": null,
             "height": "",
@@ -330,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 1
         },
         "home": {
@@ -936,6 +947,27 @@
             "ts": 1765507874
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "19139-1-60",
+            "text": "Jonathan Guzman Out: Elevado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765508063
+          },
+          {
+            "reference_id": "19139-1-61",
+            "text": "Pedro Severino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765508078
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1035,6 +1067,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
