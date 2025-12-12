@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2099",
-    "scraped_at": "2025-12-12T00:27:28.219Z",
+    "scraped_at": "2025-12-12T00:28:31.633Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-11 19:30:00",
-    "roundText": "Alta 4ta",
+    "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Kelvin Gutiérrez  Out: Rodado al Campo Corto - Segunda Base - Primera Base - Doble Play!",
+    "lastPlayByPlay": "Gustavo Nuñez  Out: Rodado al Lanzador - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -646,6 +646,27 @@
             "ts": 1765499032
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19117-2-25",
+            "text": "Gustavo Nuñez  Out: Rodado al Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765499302
+          },
+          {
+            "reference_id": "19117-2-26",
+            "text": "Cristhian Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765499304
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -697,6 +718,13 @@
         "label": "Alta 4ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -723,7 +751,7 @@
       },
       {
         "num": 4,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
