@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2101",
-    "scraped_at": "2025-12-12T02:07:46.097Z",
+    "scraped_at": "2025-12-12T02:08:50.633Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-11 19:30:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Hector Rodríguez  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -815,10 +815,17 @@
           },
           {
             "reference_id": "19137-1-45",
-            "text": "Junior Lake al bate",
+            "text": "Junior Lake Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765505148
+            "ts": 1765505268
+          },
+          {
+            "reference_id": "19137-1-46",
+            "text": "Socrates Brito  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765505304
           }
         ]
       }
@@ -898,7 +905,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -940,7 +947,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -971,7 +978,7 @@
       {
         "id": 2099,
         "date": "2025-12-11 19:30:00",
-        "status": 2,
+        "status": 6,
         "roundText": "Alta 9na",
         "awayTeam": {
           "id": 5,
