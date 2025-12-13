@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2015",
-    "scraped_at": "2025-12-13T02:04:25.519Z",
+    "scraped_at": "2025-12-13T02:05:28.787Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-12 19:30:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Cristhian Adames Base por Bolas ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -906,10 +906,17 @@
         "plays": [
           {
             "reference_id": "18347-1-57",
-            "text": "Cristhian Adames al bate",
+            "text": "Cristhian Adames Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765591351
+            "ts": 1765591512
+          },
+          {
+            "reference_id": "18347-1-58",
+            "text": "Ronny Mauricio al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765591514
           }
         ]
       }
@@ -1003,7 +1010,7 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1120,7 +1127,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 3,
-          "hits": 3,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         }
