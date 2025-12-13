@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2017",
-    "scraped_at": "2025-12-13T22:25:14.310Z",
+    "scraped_at": "2025-12-13T22:26:17.641Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -125,6 +125,17 @@
             "team_id": 7,
             "name": "Robinson Canó ",
             "abbreviation": "R. Canó",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5425,
+            "team_id": 7,
+            "name": "Ismael Munguia",
+            "abbreviation": "I. Munguia",
             "number": null,
             "dob": null,
             "height": "",
@@ -418,6 +429,20 @@
             "ts": 1765664560
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18360-1-10",
+            "text": "Ismael Munguia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765664741
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -433,6 +458,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -506,7 +538,7 @@
         "id": 2016,
         "date": "2025-12-13 16:00:00",
         "status": 2,
-        "roundText": "Baja 6ta",
+        "roundText": "Alta 7ma",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
