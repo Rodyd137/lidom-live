@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2013",
-    "scraped_at": "2025-12-13T00:00:46.290Z",
+    "scraped_at": "2025-12-13T00:01:51.303Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-12 19:00:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Juan Brito Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -81,6 +81,17 @@
             "team_id": 6,
             "name": "Juan Brito",
             "abbreviation": "J. Brito",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5417,
+            "team_id": 6,
+            "name": "Bryan de la Cruz",
+            "abbreviation": "B. De la Cruz",
             "number": null,
             "dob": null,
             "height": "",
@@ -271,6 +282,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1765584021
+          },
+          {
+            "reference_id": "18323-1-3",
+            "text": "Bryan de la Cruz  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765584072
           }
         ]
       }
@@ -280,14 +298,14 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
