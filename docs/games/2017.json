@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2017",
-    "scraped_at": "2025-12-13T22:29:22.033Z",
+    "scraped_at": "2025-12-13T22:30:27.026Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-13 18:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Ismael Munguia  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "Vidal Brujan Sencillo ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 1,
-          "H": 2,
+          "H": 3,
           "E": 0,
           "H2": 1
         },
@@ -147,6 +147,17 @@
             "team_id": 7,
             "name": "Rodolfo Durán",
             "abbreviation": "R. Durán",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5488,
+            "team_id": 7,
+            "name": "Vidal Brujan",
+            "abbreviation": "V. Brujan",
             "number": null,
             "dob": null,
             "height": "",
@@ -275,7 +286,7 @@
       "totals": {
         "away": {
           "R": 1,
-          "H": 2,
+          "H": 3,
           "E": 0
         },
         "home": {
@@ -455,10 +466,24 @@
           },
           {
             "reference_id": "18360-1-11",
-            "text": "Rodolfo Durán al bate",
+            "text": "Rodolfo Durán  Out: Rodado al Lanzador - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765664855
+            "ts": 1765664970
+          },
+          {
+            "reference_id": "18360-1-12",
+            "text": "Vidal Brujan Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765665017
+          },
+          {
+            "reference_id": "18360-1-13",
+            "text": "Vidal Brujan al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765665020
           }
         ]
       }
@@ -482,7 +507,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 2,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
