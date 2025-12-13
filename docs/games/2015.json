@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2015",
-    "scraped_at": "2025-12-13T03:03:46.087Z",
+    "scraped_at": "2025-12-13T03:04:49.557Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-12 19:30:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Josh Lester Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "Abraham Almonte Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -275,10 +275,10 @@
             "position": ""
           },
           {
-            "id": 5488,
+            "id": 5588,
             "team_id": 7,
-            "name": "Vidal Brujan",
-            "abbreviation": "V. Brujan",
+            "name": "Enmanuel Valdéz",
+            "abbreviation": "E. Valdéz",
             "number": null,
             "dob": null,
             "height": "",
@@ -1088,10 +1088,17 @@
           },
           {
             "reference_id": "18349-2-79",
-            "text": "Abraham Almonte al bate",
+            "text": "Abraham Almonte Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765594890
+            "ts": 1765595058
+          },
+          {
+            "reference_id": "18349-2-80",
+            "text": "Enmanuel Valdéz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765595077
           }
         ]
       }
@@ -1220,7 +1227,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
