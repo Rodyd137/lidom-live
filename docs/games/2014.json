@@ -1,19 +1,19 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2014",
-    "scraped_at": "2025-12-13T00:43:03.541Z",
+    "scraped_at": "2025-12-13T00:44:08.363Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2014,
     "season_id": 20,
-    "status": 4,
+    "status": 2,
     "date": "2025-12-12 19:15:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
@@ -429,8 +429,31 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "18332-1-1",
+            "text": "Leody Taveras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765586637
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
@@ -534,7 +557,7 @@
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 4,
-          "hits": 5,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         },
