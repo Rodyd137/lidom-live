@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2013",
-    "scraped_at": "2025-12-13T03:00:34.628Z",
+    "scraped_at": "2025-12-13T03:01:38.480Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-12 19:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Hanser Alberto  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -231,10 +231,10 @@
             "position": ""
           },
           {
-            "id": 5242,
+            "id": 5243,
             "team_id": 5,
-            "name": "Gary Sanchez",
-            "abbreviation": "G. Sanchez",
+            "name": "Hanser Alberto",
+            "abbreviation": "H. Alberto",
             "number": null,
             "dob": null,
             "height": "",
@@ -242,10 +242,10 @@
             "position": ""
           },
           {
-            "id": 5433,
+            "id": 5253,
             "team_id": 5,
-            "name": "Leury García",
-            "abbreviation": "L. Garcia",
+            "name": "Diego Hernández",
+            "abbreviation": "D.  Hernández",
             "number": null,
             "dob": null,
             "height": "",
@@ -1031,6 +1031,27 @@
             "ts": 1765594608
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "18330-2-72",
+            "text": "Hanser Alberto  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765594885
+          },
+          {
+            "reference_id": "18330-2-73",
+            "text": "Diego Hernández al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765594895
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1138,6 +1159,13 @@
         "label": "Alta 8va",
         "total_plays": 8,
         "scoring_plays": 2
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
