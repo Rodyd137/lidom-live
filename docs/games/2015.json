@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2015",
-    "scraped_at": "2025-12-13T02:35:08.457Z",
+    "scraped_at": "2025-12-13T02:36:11.785Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-12 19:30:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Emilio Bonifacio Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -976,24 +976,38 @@
         "plays": [
           {
             "reference_id": "18348-1-65",
-            "text": "Sergio Alcantara  Out: Rodado al Lanzador - Primera Base",
+            "text": "De la cruz Out: Rodado al Lanzador - Primera Base",
             "scored": false,
             "is_primary": true,
             "ts": 1765593013
           },
           {
             "reference_id": "18348-1-66",
-            "text": "Emilio Bonifacio Ponche (K) ",
+            "text": "Sergio Ponche (K) ",
             "scored": false,
             "is_primary": true,
             "ts": 1765593183
           },
           {
             "reference_id": "18348-1-67",
-            "text": "Gustavo Nuñez al bate",
+            "text": "Emilio Bonifacio Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1765593187
+            "ts": 1765593324
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "18348-2-68",
+            "text": "Miguel Sano al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765593332
           }
         ]
       }
@@ -1103,6 +1117,13 @@
         "label": "Alta 8va",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1157,7 +1178,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -1175,7 +1196,7 @@
         "id": 2013,
         "date": "2025-12-12 19:00:00",
         "status": 2,
-        "roundText": "Baja 7ma",
+        "roundText": "Alta 8va",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
