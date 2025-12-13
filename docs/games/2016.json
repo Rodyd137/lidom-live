@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2016",
-    "scraped_at": "2025-12-13T22:05:10.539Z",
+    "scraped_at": "2025-12-13T22:06:14.087Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-13 16:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "José Marmolejos Base por Bolas ",
+    "lastPlayByPlay": "Erik Gonzalez Base por Bolas y Carrera Impulsada ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
@@ -174,10 +174,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 5,
-          "H": 9,
+          "R": 6,
+          "H": 10,
           "E": 1,
-          "H2": 5
+          "H2": 6
         },
         "probables": {
           "pitcher": "Diógenes Almengó",
@@ -314,7 +314,7 @@
         {
           "num": 5,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 6,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 5,
-          "H": 9,
+          "R": 6,
+          "H": 10,
           "E": 1
         }
       },
@@ -408,23 +408,23 @@
           },
           {
             "num": 5,
-            "R": 5
+            "R": 6
           },
           {
             "num": 6,
-            "R": 5
+            "R": 6
           },
           {
             "num": 7,
-            "R": 5
+            "R": 6
           },
           {
             "num": 8,
-            "R": 5
+            "R": 6
           },
           {
             "num": 9,
-            "R": 5
+            "R": 6
           }
         ]
       }
@@ -843,10 +843,17 @@
           },
           {
             "reference_id": "18354-2-50",
-            "text": "Erik Gonzalez al bate",
+            "text": "Erik Gonzalez Base por Bolas y Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765663557
+          },
+          {
+            "reference_id": "18354-2-51",
+            "text": "Luis De Los Santos al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1765663386
+            "ts": 1765663561
           }
         ]
       }
@@ -919,8 +926,8 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 6,
-        "scoring_plays": 0
+        "total_plays": 7,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -957,7 +964,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 6,
@@ -992,7 +999,7 @@
       {
         "id": 2017,
         "date": "2025-12-13 18:00:00",
-        "status": 3,
+        "status": 2,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 7,
@@ -1000,7 +1007,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         },

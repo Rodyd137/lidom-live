@@ -2,11 +2,12 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2025-12-13T22:05:10.635Z",
+    "scraped_at": "2025-12-13T22:06:14.238Z",
     "tz": "America/Santo_Domingo"
   },
   "tracked_ids": [
-    2016
+    2016,
+    2017
   ],
   "live": [
     {
@@ -15,10 +16,10 @@
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
       "atBat": null,
-      "lastPlayByPlay": "José Marmolejos Base por Bolas ",
+      "lastPlayByPlay": "Erik Gonzalez Base por Bolas y Carrera Impulsada ",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 1
       },
       "base": {
@@ -40,13 +41,52 @@
         "home": {
           "name": "Leones",
           "abbr": "LE",
-          "R": 5,
-          "H": 9,
+          "R": 6,
+          "H": 10,
           "E": 1
         }
       },
       "threat": 71,
-      "updated_at": "2025-12-13T22:05:10.635Z"
+      "updated_at": "2025-12-13T22:06:14.238Z"
+    },
+    {
+      "id": 2017,
+      "status": 2,
+      "roundText": "Alta 1ra",
+      "currentInningNum": 1,
+      "atBat": null,
+      "lastPlayByPlay": "Raimel Tapia Doble! ",
+      "counts": {
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0
+      },
+      "base": {
+        "on1B": false,
+        "on2B": true,
+        "on3B": false,
+        "runners": 1,
+        "mask": 3
+      },
+      "battingTeam": "awayTeam",
+      "score": {
+        "away": {
+          "name": "Estrellas",
+          "abbr": "EO",
+          "R": 0,
+          "H": 1,
+          "E": 0
+        },
+        "home": {
+          "name": "Aguilas",
+          "abbr": "AC",
+          "R": 0,
+          "H": 0,
+          "E": 0
+        }
+      },
+      "threat": 49,
+      "updated_at": "2025-12-13T22:06:14.238Z"
     }
   ]
 }

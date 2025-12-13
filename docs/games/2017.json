@@ -1,17 +1,17 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2017",
-    "scraped_at": "2025-12-13T22:05:10.560Z",
+    "scraped_at": "2025-12-13T22:06:14.142Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2017,
     "season_id": 20,
-    "status": 3,
+    "status": 2,
     "date": "2025-12-13 18:00:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Raimel Tapia Doble! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -64,7 +64,19 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5359,
+            "team_id": 7,
+            "name": "Raimel Tapia",
+            "abbreviation": "R. Tapia",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       },
       "home": {
         "id": 3,
@@ -141,7 +153,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -229,8 +241,31 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "18359-1-1",
+            "text": "Raimel Tapia Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765663569
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
@@ -317,8 +352,8 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 5,
-          "hits": 9,
+          "runs": 6,
+          "hits": 10,
           "errors": 1,
           "permalink": "/equipo/leones-del-escogido"
         }
