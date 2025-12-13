@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2016",
-    "scraped_at": "2025-12-13T22:23:07.803Z",
+    "scraped_at": "2025-12-13T22:24:11.061Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-13 16:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jonathan Guzman se embasa por Error del Campo Corto",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 2,
           "H": 10,
-          "E": 0,
+          "E": 1,
           "H2": 2
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 2,
           "H": 10,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 6,
@@ -891,6 +891,27 @@
             "ts": 1765664390
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "18355-2-56",
+            "text": "Jonathan Guzman se embasa por Error del Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765664610
+          },
+          {
+            "reference_id": "18355-2-57",
+            "text": "Hector Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765664615
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -969,6 +990,13 @@
         "half": "top",
         "label": "Alta 6ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
