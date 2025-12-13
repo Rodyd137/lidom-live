@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2014",
-    "scraped_at": "2025-12-13T01:34:04.563Z",
+    "scraped_at": "2025-12-13T01:35:09.851Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-12 19:15:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Yamaico Navarro Ponche (K) ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -625,6 +625,34 @@
             "ts": 1765589385
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "18334-2-24",
+            "text": "Yainer Díaz Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765589666
+          },
+          {
+            "reference_id": "18334-2-25",
+            "text": "Yamaico Navarro Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765589689
+          },
+          {
+            "reference_id": "18334-2-26",
+            "text": "Franchy Cordero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765589694
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -661,6 +689,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
