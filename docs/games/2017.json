@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2017",
-    "scraped_at": "2025-12-13T22:33:41.931Z",
+    "scraped_at": "2025-12-13T22:34:46.878Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-13 18:00:00",
-    "roundText": "Alta 2da",
+    "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Rodolfo Castro Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 6
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -491,6 +491,13 @@
             "scored": true,
             "is_primary": true,
             "ts": 1765665161
+          },
+          {
+            "reference_id": "18360-1-15",
+            "text": "Miguel Sano Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765665268
           }
         ]
       }
@@ -514,7 +521,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 1
       }
     ],
@@ -528,7 +535,7 @@
       },
       {
         "num": 2,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
@@ -588,7 +595,7 @@
         "id": 2016,
         "date": "2025-12-13 16:00:00",
         "status": 2,
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
