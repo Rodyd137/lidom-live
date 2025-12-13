@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2013",
-    "scraped_at": "2025-12-13T00:04:00.167Z",
+    "scraped_at": "2025-12-13T00:05:05.440Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-12 19:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Samad Taylor  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -119,7 +119,30 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5601,
+            "team_id": 5,
+            "name": "Samad Taylor",
+            "abbreviation": "S. Taylor",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5252,
+            "team_id": 5,
+            "name": "Carlos Jorge",
+            "abbreviation": "C. Jorge",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       }
     },
     "comment": "",
@@ -291,6 +314,27 @@
             "ts": 1765584072
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "18323-2-4",
+            "text": "Samad Taylor  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765584290
+          },
+          {
+            "reference_id": "18323-2-5",
+            "text": "Carlos Jorge al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765584301
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -299,6 +343,13 @@
         "half": "top",
         "label": "Alta 1ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
