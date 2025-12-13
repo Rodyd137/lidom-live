@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2015",
-    "scraped_at": "2025-12-13T02:56:19.908Z",
+    "scraped_at": "2025-12-13T02:57:23.367Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-12 19:30:00",
-    "roundText": "Alta 9na",
+    "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "David Hensley Out: Línea al Jardinero Izquierdo",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 5
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -1060,10 +1060,24 @@
           },
           {
             "reference_id": "18349-1-75",
-            "text": "Mel Rojas Jr. al bate",
+            "text": "Mel Rojas Jr. Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765594433
+            "ts": 1765594595
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "18349-2-76",
+            "text": "Robinson Canó  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765594617
           }
         ]
       }
@@ -1187,6 +1201,13 @@
         "label": "Alta 9na",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1248,7 +1269,7 @@
       },
       {
         "num": 9,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -1259,7 +1280,7 @@
         "id": 2013,
         "date": "2025-12-12 19:00:00",
         "status": 2,
-        "roundText": "Alta 8va",
+        "roundText": "Baja 8va",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
