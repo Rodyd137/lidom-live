@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2014",
-    "scraped_at": "2025-12-13T03:36:20.654Z",
+    "scraped_at": "2025-12-13T03:57:11.989Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-12 19:15:00",
-    "roundText": "Baja 8va",
-    "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "roundText": "Alta 9na",
+    "currentInningNum": 9,
+    "lastPlayByPlay": "Aderlin Rodríguez Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "strikes": 2,
+      "outs": 2
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 1
+      "battingTeam": "awayTeam",
+      "base": 7
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on2B": true,
+      "on3B": true,
+      "runners": 2,
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 2,
-          "H": 7,
+          "R": 3,
+          "H": 9,
           "E": 1,
           "H2": 2
         },
@@ -174,13 +174,13 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 6,
+          "R": 7,
           "H": 9,
           "E": 0,
           "H2": 5
         },
         "probables": {
-          "pitcher": "Robinson Martinez",
+          "pitcher": "Steven Nogosek",
           "era": "",
           "record": "",
           "debut": false
@@ -329,23 +329,23 @@
         {
           "num": 8,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 2,
-          "H": 7,
+          "R": 3,
+          "H": 9,
           "E": 1
         },
         "home": {
-          "R": 6,
+          "R": 7,
           "H": 9,
           "E": 0
         }
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 2
+            "R": 3
           }
         ],
         "home": [
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 6
+            "R": 7
           },
           {
             "num": 9,
-            "R": 6
+            "R": 7
           }
         ]
       }
@@ -1024,6 +1024,97 @@
             "ts": 1765596700
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "18339-2-71",
+            "text": "Junior Lake Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765597042
+          },
+          {
+            "reference_id": "18339-2-72",
+            "text": "Socrates Brito Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765597184
+          },
+          {
+            "reference_id": "18339-2-73",
+            "text": "Yainer Díaz Doble Play! Campo Corto - Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765597266
+          },
+          {
+            "reference_id": "18339-2-74",
+            "text": "Yamaico Navarro Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765597431
+          },
+          {
+            "reference_id": "18339-2-75",
+            "text": "Franchy Cordero Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765597542
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "18340-1-76",
+            "text": "Webster Rivas Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765597857
+          },
+          {
+            "reference_id": "18340-1-77",
+            "text": "Robert Moore Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765597899
+          },
+          {
+            "reference_id": "18340-1-78",
+            "text": "Leody Taveras Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765598031
+          },
+          {
+            "reference_id": "18340-1-79",
+            "text": "Ezequiel Duran Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765598050
+          },
+          {
+            "reference_id": "18340-1-80",
+            "text": "Aderlin Rodríguez Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765598083
+          },
+          {
+            "reference_id": "18340-1-81",
+            "text": "Alberto Rodriguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765598089
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1131,6 +1222,20 @@
         "label": "Alta 8va",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 6,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1186,15 +1291,15 @@
       {
         "num": 8,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 9,
         "part": 1,
-        "is_last": 0,
-        "awayTeamRuns": 0,
+        "is_last": 1,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
