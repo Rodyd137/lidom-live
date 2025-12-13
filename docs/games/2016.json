@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2016",
-    "scraped_at": "2025-12-13T22:51:02.769Z",
+    "scraped_at": "2025-12-13T22:52:07.830Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-13 16:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Samad Taylor Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -143,10 +143,10 @@
             "position": ""
           },
           {
-            "id": 5252,
+            "id": 5601,
             "team_id": 5,
-            "name": "Carlos Jorge",
-            "abbreviation": "C. Jorge",
+            "name": "Samad Taylor",
+            "abbreviation": "S. Taylor",
             "number": null,
             "dob": null,
             "height": "",
@@ -997,10 +997,17 @@
         "plays": [
           {
             "reference_id": "18357-1-67",
-            "text": "Kelvin Gutiérrez al bate",
+            "text": "Kelvin Gutiérrez Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765666161
+            "ts": 1765666265
+          },
+          {
+            "reference_id": "18357-1-68",
+            "text": "Samad Taylor Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765666316
           }
         ]
       }
@@ -1108,7 +1115,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
