@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2013",
-    "scraped_at": "2025-12-13T02:45:43.392Z",
+    "scraped_at": "2025-12-13T02:46:47.214Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-12 19:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Ronaldo Hernández Sencillo ",
+    "lastPlayByPlay": "Gilberto Celestino Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 4
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": true,
+      "on3B": false,
       "runners": 1,
-      "mask": 4
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 9,
-          "H": 10,
+          "R": 10,
+          "H": 11,
           "E": 0,
           "H2": 6
         },
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 2,
+          "away": 3,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 9,
-          "H": 10,
+          "R": 10,
+          "H": 11,
           "E": 0
         },
         "home": {
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 9
+            "R": 10
           },
           {
             "num": 9,
-            "R": 9
+            "R": 10
           }
         ],
         "home": [
@@ -997,10 +997,24 @@
           },
           {
             "reference_id": "18330-1-67",
-            "text": "Ivan Castillo al bate",
+            "text": "Ivan Castillo Triple! 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765593957
+          },
+          {
+            "reference_id": "18330-1-68",
+            "text": "Gilberto Celestino Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765593997
+          },
+          {
+            "reference_id": "18330-1-69",
+            "text": "Juan Brito al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1765593820
+            "ts": 1765593999
           }
         ]
       }
@@ -1108,8 +1122,8 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 6,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1166,7 +1180,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 2,
+        "awayTeamRuns": 3,
         "homeTeamRuns": 0
       },
       {
