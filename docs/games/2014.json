@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2014",
-    "scraped_at": "2025-12-13T01:15:36.235Z",
+    "scraped_at": "2025-12-13T01:16:41.319Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-12 19:15:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Corey Joyce  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -534,6 +534,27 @@
             "ts": 1765588351
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18333-1-14",
+            "text": "Corey Joyce  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765588575
+          },
+          {
+            "reference_id": "18333-1-15",
+            "text": "Elih Marrero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765588579
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -550,6 +571,13 @@
         "label": "Baja 1ra",
         "total_plays": 9,
         "scoring_plays": 3
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -648,7 +676,7 @@
         "id": 2015,
         "date": "2025-12-12 19:30:00",
         "status": 2,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
