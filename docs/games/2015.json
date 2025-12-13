@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2015",
-    "scraped_at": "2025-12-13T01:16:41.327Z",
+    "scraped_at": "2025-12-13T01:17:46.565Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-12 19:30:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Josh Lester  Out: Rodado al Primera Base - Lanzador",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -758,6 +758,20 @@
             "ts": 1765588473
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "18345-2-39",
+            "text": "Josh Lester  Out: Rodado al Primera Base - Lanzador",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765588649
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -822,6 +836,13 @@
         "half": "top",
         "label": "Alta 5ta",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
