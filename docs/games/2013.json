@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2013",
-    "scraped_at": "2025-12-13T00:46:18.775Z",
+    "scraped_at": "2025-12-13T00:47:24.193Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-12 19:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Kelvin Gutiérrez Out: Elevado al Receptor",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -257,6 +257,17 @@
             "team_id": 5,
             "name": "Kelvin Gutiérrez",
             "abbreviation": "K. Gutiérrez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5245,
+            "team_id": 5,
+            "name": "Pablo Reyes",
+            "abbreviation": "P. Reyes",
             "number": null,
             "dob": null,
             "height": "",
@@ -590,10 +601,17 @@
         "plays": [
           {
             "reference_id": "18325-2-21",
-            "text": "Kelvin Gutiérrez al bate",
+            "text": "Kelvin Gutiérrez Out: Elevado al Receptor",
             "scored": false,
             "is_primary": true,
-            "ts": 1765586717
+            "ts": 1765586800
+          },
+          {
+            "reference_id": "18325-2-22",
+            "text": "Pablo Reyes al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765586836
           }
         ]
       }
@@ -638,7 +656,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
