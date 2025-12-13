@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2017",
-    "scraped_at": "2025-12-13T22:13:37.776Z",
+    "scraped_at": "2025-12-13T22:14:41.048Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-13 18:00:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Wilin Rosario Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "Robinson Canó   Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 6
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -114,6 +114,17 @@
             "team_id": 7,
             "name": "Wilin Rosario",
             "abbreviation": "W. Rosario",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5508,
+            "team_id": 7,
+            "name": "Robinson Canó ",
+            "abbreviation": "R. Canó",
             "number": null,
             "dob": null,
             "height": "",
@@ -325,6 +336,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1765664005
+          },
+          {
+            "reference_id": "18359-1-6",
+            "text": "Robinson Canó   Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765664075
           }
         ]
       }
@@ -334,7 +352,7 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 1
       }
     ],
