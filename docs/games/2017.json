@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2017",
-    "scraped_at": "2025-12-13T23:34:04.745Z",
+    "scraped_at": "2025-12-13T23:35:09.670Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-13 18:00:00",
-    "roundText": "Baja 4ta",
-    "currentInningNum": 4,
-    "lastPlayByPlay": "Robert Moore Out: Elevado al Segunda Base",
+    "roundText": "Alta 5ta",
+    "currentInningNum": 5,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "balls": 1,
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -257,6 +257,17 @@
             "team_id": 3,
             "name": "Aneury Tavarez",
             "abbreviation": "A,Tavarez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5322,
+            "team_id": 3,
+            "name": "Julio E. Rodriguez",
+            "abbreviation": "J. E. Rodriguez",
             "number": null,
             "dob": null,
             "height": "",
@@ -702,10 +713,31 @@
           },
           {
             "reference_id": "18362-2-35",
-            "text": "Julio E. Rodriguez al bate",
+            "text": "Aneury Tavarez Out: Elevado al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765668601
+            "ts": 1765668877
+          },
+          {
+            "reference_id": "18362-2-36",
+            "text": "Julio E. Rodriguez Out: Elevado al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765668890
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "18363-1-37",
+            "text": "Josh Lester al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765668907
           }
         ]
       }
@@ -764,7 +796,14 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 2,
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -793,14 +832,14 @@
       {
         "num": 4,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 5,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
