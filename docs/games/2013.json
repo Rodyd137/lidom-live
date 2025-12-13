@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2013",
-    "scraped_at": "2025-12-13T00:30:03.934Z",
+    "scraped_at": "2025-12-13T00:31:08.939Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-12 19:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Deyvinson de los Santos al bate",
+    "lastPlayByPlay": "Deyvinson de los Santos  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 1,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -224,6 +224,17 @@
             "team_id": 5,
             "name": "Deyvinson de los Santos",
             "abbreviation": "D. de los Santos",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5242,
+            "team_id": 5,
+            "name": "Gary Sanchez",
+            "abbreviation": "G. Sanchez",
             "number": null,
             "dob": null,
             "height": "",
@@ -501,10 +512,17 @@
         "plays": [
           {
             "reference_id": "18324-2-15",
-            "text": "Deyvinson de los Santos al bate",
+            "text": "Deyvinson de los Santos  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765585798
+            "ts": 1765585812
+          },
+          {
+            "reference_id": "18324-2-16",
+            "text": "Gary Sanchez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765585862
           }
         ]
       }
@@ -535,7 +553,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
