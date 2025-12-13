@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2017",
-    "scraped_at": "2025-12-13T23:50:33.616Z",
+    "scraped_at": "2025-12-13T23:51:38.700Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-13 18:00:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ismael Munguia Doble! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 3,
-          "H": 6,
+          "H": 7,
           "E": 0,
           "H2": 3
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 3,
-          "H": 6,
+          "H": 7,
           "E": 0
         },
         "home": {
@@ -793,6 +793,20 @@
             "ts": 1765669718
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "18364-1-43",
+            "text": "Ismael Munguia Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765669883
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -864,6 +878,13 @@
         "half": "bottom",
         "label": "Baja 5ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
