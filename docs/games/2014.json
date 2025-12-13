@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2014",
-    "scraped_at": "2025-12-13T02:24:34.938Z",
+    "scraped_at": "2025-12-13T02:25:38.569Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-12 19:15:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Aderlin Rodríguez Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 2
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -794,10 +794,17 @@
           },
           {
             "reference_id": "18336-1-44",
-            "text": "Alberto Rodriguez al bate",
+            "text": "Alberto Rodriguez  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765592629
+            "ts": 1765592677
+          },
+          {
+            "reference_id": "18336-1-45",
+            "text": "Corey Joyce Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765592701
           }
         ]
       }
@@ -863,7 +870,7 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -898,7 +905,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -937,7 +944,7 @@
         "id": 2013,
         "date": "2025-12-12 19:00:00",
         "status": 2,
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
