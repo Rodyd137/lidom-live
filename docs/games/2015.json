@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2015",
-    "scraped_at": "2025-12-13T00:31:08.998Z",
+    "scraped_at": "2025-12-13T00:32:14.076Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-12 19:30:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Armando Alvarez  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "Carlos Martinez  Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -611,6 +611,20 @@
             "ts": 1765585705
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "18343-2-22",
+            "text": "Carlos Martinez  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765585927
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -648,6 +662,13 @@
         "label": "Alta 3ra",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -667,7 +688,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 2,
         "homeTeamRuns": 0
