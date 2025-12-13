@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2013",
-    "scraped_at": "2025-12-13T01:48:11.213Z",
+    "scraped_at": "2025-12-13T01:49:16.379Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-12 19:00:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Ivan Castillo Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Gilberto Celestino Doble Play!  Out: Rodado al - Segunda Base - Campo Corto - Primera Base",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -822,10 +822,17 @@
           },
           {
             "reference_id": "18328-1-46",
-            "text": "Gilberto Celestino al bate",
+            "text": "Gilberto Celestino Doble Play!  Out: Rodado al - Segunda Base - Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765590351
+            "ts": 1765590535
+          },
+          {
+            "reference_id": "18328-1-47",
+            "text": "Juan Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765590540
           }
         ]
       }
@@ -905,7 +912,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 1
       }
     ],
@@ -985,7 +992,7 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 0,
+          "runs": 1,
           "hits": 4,
           "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
