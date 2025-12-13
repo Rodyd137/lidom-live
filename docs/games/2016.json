@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2016",
-    "scraped_at": "2025-12-13T22:38:00.680Z",
+    "scraped_at": "2025-12-13T22:39:05.598Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Aidan Anderson",
+          "pitcher": "Hansel Robles",
           "era": "",
           "record": "",
           "debut": false
@@ -175,7 +175,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 6,
-          "H": 10,
+          "H": 11,
           "E": 1,
           "H2": 6
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 6,
-          "H": 10,
+          "H": 11,
           "E": 1
         }
       },
@@ -954,6 +954,20 @@
             "ts": 1765665260
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "18356-2-63",
+            "text": "Socrates Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765665489
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1047,6 +1061,13 @@
         "label": "Alta 7ma",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
