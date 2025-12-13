@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2013",
-    "scraped_at": "2025-12-13T01:53:36.546Z",
+    "scraped_at": "2025-12-13T01:54:41.700Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-12 19:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Samad Taylor Sencillo ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         }
       },
@@ -835,6 +835,27 @@
             "ts": 1765590628
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "18328-2-48",
+            "text": "Samad Taylor Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765590847
+          },
+          {
+            "reference_id": "18328-2-49",
+            "text": "Carlos Jorge al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765590854
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -914,6 +935,13 @@
         "label": "Alta 6ta",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1020,7 +1048,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 4,
           "hits": 8,
-          "errors": 0,
+          "errors": 1,
           "permalink": "/equipo/tigres-del-licey"
         },
         "homeTeam": {
@@ -1029,7 +1057,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 1,
-          "hits": 4,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
