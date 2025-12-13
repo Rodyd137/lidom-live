@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2016",
-    "scraped_at": "2025-12-13T20:49:01.115Z",
+    "scraped_at": "2025-12-13T20:50:04.993Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-13 16:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jonathan Guzman Sencillo ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 4,
-          "H": 5,
+          "H": 6,
           "E": 0,
           "H2": 4
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 4,
-          "H": 5,
+          "H": 6,
           "E": 0
         }
       },
@@ -563,10 +563,24 @@
         "plays": [
           {
             "reference_id": "18351-2-16",
-            "text": "Luis De Los Santos al bate",
+            "text": "Luis De Los Santos Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765658907
+            "ts": 1765658952
+          },
+          {
+            "reference_id": "18351-2-17",
+            "text": "Jonathan Guzman Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765658987
+          },
+          {
+            "reference_id": "18351-2-18",
+            "text": "Hector Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765658993
           }
         ]
       }
@@ -597,7 +611,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
