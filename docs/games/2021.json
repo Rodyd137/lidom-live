@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2021",
-    "scraped_at": "2025-12-14T22:56:45.813Z",
+    "scraped_at": "2025-12-14T22:59:01.878Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-14 17:00:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Elih Marrero  Out: Rodado al Campo Corto - Segunda Base - Carrera Empujada",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 2
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 6
         },
         "probables": {
-          "pitcher": "Deury Carrasco",
+          "pitcher": "Jean Carlos Henriquez",
           "era": "",
           "record": "",
           "debut": false
@@ -808,10 +808,24 @@
           },
           {
             "reference_id": "18399-1-47",
-            "text": "Wilmer Difó al bate",
+            "text": "Elih Marrero Out Robando Base! Receptor - Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765752852
+            "ts": 1765753057
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "18399-2-48",
+            "text": "Rodolfo Castro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765753095
           }
         ]
       }
@@ -872,6 +886,13 @@
         "label": "Alta 5ta",
         "total_plays": 6,
         "scoring_plays": 2
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -905,7 +926,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 2,
         "homeTeamRuns": 0
@@ -976,7 +997,7 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 3,
+          "runs": 4,
           "hits": 4,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
