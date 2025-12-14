@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2020",
-    "scraped_at": "2025-12-14T23:02:11.878Z",
+    "scraped_at": "2025-12-14T23:03:15.272Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-14 17:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Samad Taylor Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 7,
-          "H": 7,
+          "H": 8,
           "E": 0,
           "H2": 7
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 7,
-          "H": 7,
+          "H": 8,
           "E": 0
         }
       },
@@ -716,6 +716,27 @@
             "ts": 1765753145
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "18388-2-37",
+            "text": "Samad Taylor Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765753382
+          },
+          {
+            "reference_id": "18388-2-38",
+            "text": "Kenny Piper al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765753386
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -752,6 +773,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 7,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -868,7 +896,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 2,
-          "hits": 4,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
