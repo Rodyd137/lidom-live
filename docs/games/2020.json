@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2020",
-    "scraped_at": "2025-12-14T21:44:12.833Z",
+    "scraped_at": "2025-12-14T21:45:17.550Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-14 17:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Kenny Piper  Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "Kenny Piper Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 6
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on3B": true,
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 5,
-          "H": 5,
+          "H": 6,
           "E": 0,
           "H2": 5
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 5,
-          "H": 5,
+          "H": 6,
           "E": 0
         }
       },
@@ -535,10 +535,17 @@
           },
           {
             "reference_id": "18386-2-14",
-            "text": "Kenny Piper  Out: Rodado al Campo Corto - Primera Base",
+            "text": "Kenny Piper Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765748697
+          },
+          {
+            "reference_id": "18386-2-15",
+            "text": "Leury García al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1765748567
+            "ts": 1765748714
           }
         ]
       }
@@ -555,8 +562,8 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 8,
-        "scoring_plays": 3
+        "total_plays": 9,
+        "scoring_plays": 4
       }
     ],
     "innings_raw": [
