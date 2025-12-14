@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2021",
-    "scraped_at": "2025-12-14T21:28:50.445Z",
+    "scraped_at": "2025-12-14T21:29:53.843Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-14 17:00:00",
-    "roundText": "Baja 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "Wilin Rosario Base por Bolas ",
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "Jerar Encarnacion  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 8
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
-      "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "on1B": false,
+      "on2B": false,
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -92,6 +92,28 @@
             "team_id": 3,
             "name": "Alberto Rodriguez",
             "abbreviation": "A. Rodriguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5602,
+            "team_id": 3,
+            "name": "Jerar Encarnacion",
+            "abbreviation": "J. Encarnacion",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5595,
+            "team_id": 3,
+            "name": "Aneury Tavarez",
+            "abbreviation": "A,Tavarez",
             "number": null,
             "dob": null,
             "height": "",
@@ -169,6 +191,17 @@
             "team_id": 7,
             "name": "Robinson Canó ",
             "abbreviation": "R. Canó",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5557,
+            "team_id": 7,
+            "name": "Dairon Blanco ",
+            "abbreviation": "D. Blanco",
             "number": null,
             "dob": null,
             "height": "",
@@ -376,10 +409,31 @@
           },
           {
             "reference_id": "18395-2-8",
-            "text": "Robinson Canó  al bate",
+            "text": "Robinson Canó   Out: Rodado al Campo Corto - Segunda Base - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765747731
+          },
+          {
+            "reference_id": "18395-2-9",
+            "text": "Dairon Blanco  Out: Elevado al Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765747695
+            "ts": 1765747748
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18396-1-10",
+            "text": "Jerar Encarnacion  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765747782
           }
         ]
       }
@@ -389,7 +443,14 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 8,
+        "total_plays": 9,
+        "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -397,14 +458,14 @@
       {
         "num": 1,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 1
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
