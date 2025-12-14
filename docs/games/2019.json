@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2019",
-    "scraped_at": "2025-12-14T23:45:18.788Z",
+    "scraped_at": "2025-12-14T23:46:22.669Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 9,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -180,7 +180,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Yunior Marte ",
           "era": "",
           "record": "",
           "debut": false
@@ -1003,6 +1003,20 @@
             "ts": 1765755772
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "18385-1-65",
+            "text": "Yairo Munoz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765755963
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1116,6 +1130,13 @@
         "half": "bottom",
         "label": "Baja 8va",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
