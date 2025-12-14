@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2021",
-    "scraped_at": "2025-12-14T21:27:47.164Z",
+    "scraped_at": "2025-12-14T21:28:50.445Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-14 17:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Josh Lester Base por Bolas ",
+    "lastPlayByPlay": "Wilin Rosario Base por Bolas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 8
     },
     "base_runners": {
       "on1B": true,
       "on2B": true,
-      "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "on3B": true,
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -147,6 +147,28 @@
             "team_id": 7,
             "name": "Josh Lester",
             "abbreviation": "J. Lester",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5349,
+            "team_id": 7,
+            "name": "Wilin Rosario",
+            "abbreviation": "W. Rosario",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5508,
+            "team_id": 7,
+            "name": "Robinson Canó ",
+            "abbreviation": "R. Canó",
             "number": null,
             "dob": null,
             "height": "",
@@ -344,6 +366,20 @@
             "scored": false,
             "is_primary": true,
             "ts": 1765747648
+          },
+          {
+            "reference_id": "18395-2-7",
+            "text": "Wilin Rosario Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765747671
+          },
+          {
+            "reference_id": "18395-2-8",
+            "text": "Robinson Canó  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765747695
           }
         ]
       }
@@ -353,7 +389,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 6,
+        "total_plays": 8,
         "scoring_plays": 0
       }
     ],
@@ -470,7 +506,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 1,
-          "hits": 1,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
