@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2019",
-    "scraped_at": "2025-12-14T23:09:35.640Z",
+    "scraped_at": "2025-12-14T23:24:17.665Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-14 17:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Domingo Leyba  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 7
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on2B": true,
+      "on3B": true,
+      "runners": 2,
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Aaron Brooks",
+          "pitcher": "Miguel Castro ",
           "era": "",
           "record": "",
           "debut": false
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
-          "R": 1,
-          "H": 1,
+          "R": 2,
+          "H": 2,
           "E": 0,
           "H2": 1
         },
@@ -253,10 +253,10 @@
             "position": ""
           },
           {
-            "id": 5572,
+            "id": 5279,
             "team_id": 1,
-            "name": "Hayden Senger",
-            "abbreviation": "H. Senger",
+            "name": "Emilio Bonifacio",
+            "abbreviation": "E. Bonifacio",
             "number": null,
             "dob": null,
             "height": "",
@@ -275,10 +275,10 @@
             "position": ""
           },
           {
-            "id": 5537,
+            "id": 5269,
             "team_id": 1,
-            "name": "Esteury Ruiz",
-            "abbreviation": "E. Ruiz",
+            "name": "Domingo Leyba",
+            "abbreviation": "D. Leyba",
             "number": null,
             "dob": null,
             "height": "",
@@ -324,7 +324,7 @@
         {
           "num": 7,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 8,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 1,
-          "H": 1,
+          "R": 2,
+          "H": 2,
           "E": 0
         }
       },
@@ -416,15 +416,15 @@
           },
           {
             "num": 7,
-            "R": 1
+            "R": 2
           },
           {
             "num": 8,
-            "R": 1
+            "R": 2
           },
           {
             "num": 9,
-            "R": 1
+            "R": 2
           }
         ]
       }
@@ -891,6 +891,62 @@
             "ts": 1765753751
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "18383-2-53",
+            "text": "Mel Rojas Jr.  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765753974
+          },
+          {
+            "reference_id": "18383-2-54",
+            "text": "Francisco Mejía Doble, Anota por error en tiro",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765754079
+          },
+          {
+            "reference_id": "18383-2-55",
+            "text": "Hayden Senger se embasa por Error del Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765754139
+          },
+          {
+            "reference_id": "18383-2-55-270450",
+            "text": "Emilio Bonifacio Robo de Base ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1765754448
+          },
+          {
+            "reference_id": "18383-2-56",
+            "text": "Sergio Alcantara Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765754527
+          },
+          {
+            "reference_id": "18383-2-57",
+            "text": "Domingo Leyba  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765754623
+          },
+          {
+            "reference_id": "18383-2-58",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765754640
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -984,6 +1040,13 @@
         "label": "Alta 7ma",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 7,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1034,7 +1097,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 8,
@@ -1056,14 +1119,14 @@
         "id": 2020,
         "date": "2025-12-14 17:00:00",
         "status": 2,
-        "roundText": "Baja 3ra",
+        "roundText": "Alta 4ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 4,
-          "hits": 4,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
@@ -1073,7 +1136,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 7,
-          "hits": 8,
+          "hits": 9,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
@@ -1082,14 +1145,14 @@
         "id": 2021,
         "date": "2025-12-14 17:00:00",
         "status": 2,
-        "roundText": "Alta 6ta",
+        "roundText": "Alta 7ma",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 6,
-          "hits": 8,
+          "hits": 9,
           "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
         },

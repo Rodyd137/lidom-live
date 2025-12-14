@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2020",
-    "scraped_at": "2025-12-14T23:09:35.857Z",
+    "scraped_at": "2025-12-14T23:24:17.686Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-14 17:00:00",
-    "roundText": "Baja 3ra",
-    "currentInningNum": 3,
-    "lastPlayByPlay": "Leury García Base por Bolas ",
+    "roundText": "Alta 4ta",
+    "currentInningNum": 4,
+    "lastPlayByPlay": "José Marmolejos Base por Bolas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 2
+      "battingTeam": "awayTeam",
+      "base": 8
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
-      "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "on2B": true,
+      "on3B": true,
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 4,
-          "H": 4,
+          "H": 5,
           "E": 0,
           "H2": 4
         },
@@ -175,7 +175,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 7,
-          "H": 8,
+          "H": 9,
           "E": 0,
           "H2": 7
         },
@@ -341,12 +341,12 @@
       "totals": {
         "away": {
           "R": 4,
-          "H": 4,
+          "H": 5,
           "E": 0
         },
         "home": {
           "R": 7,
-          "H": 8,
+          "H": 9,
           "E": 0
         }
       },
@@ -738,7 +738,7 @@
           },
           {
             "reference_id": "18388-2-38",
-            "text": "Kenny Piper al bate",
+            "text": "Kenny Piper Ponche ",
             "scored": false,
             "is_primary": true,
             "ts": 1765753651
@@ -749,6 +749,55 @@
             "scored": false,
             "is_primary": true,
             "ts": 1765753775
+          },
+          {
+            "reference_id": "18388-2-40",
+            "text": "Pablo Reyes Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765753958
+          },
+          {
+            "reference_id": "18388-2-41",
+            "text": "Luis García Jr Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765754064
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "18389-1-42",
+            "text": "Socrates Brito Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765754395
+          },
+          {
+            "reference_id": "18389-1-43",
+            "text": "Elier Hernandez Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765754417
+          },
+          {
+            "reference_id": "18389-1-44",
+            "text": "José Marmolejos Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765754645
+          },
+          {
+            "reference_id": "18389-1-45",
+            "text": "Alexander Canario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765754649
           }
         ]
       }
@@ -793,6 +842,13 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
+        "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
         "total_plays": 4,
         "scoring_plays": 0
       }
@@ -815,14 +871,14 @@
       {
         "num": 3,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
         "num": 4,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -883,8 +939,8 @@
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 1,
-          "hits": 1,
+          "runs": 2,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         }
@@ -893,14 +949,14 @@
         "id": 2021,
         "date": "2025-12-14 17:00:00",
         "status": 2,
-        "roundText": "Alta 6ta",
+        "roundText": "Alta 7ma",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 6,
-          "hits": 8,
+          "hits": 9,
           "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
         },
