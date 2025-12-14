@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2020",
-    "scraped_at": "2025-12-14T22:26:05.949Z",
+    "scraped_at": "2025-12-14T22:27:09.481Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-14 17:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "José Marmolejos Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -668,10 +668,17 @@
         "plays": [
           {
             "reference_id": "18388-1-30",
-            "text": "José Marmolejos al bate",
+            "text": "José Marmolejos Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765751109
+            "ts": 1765751207
+          },
+          {
+            "reference_id": "18388-1-31",
+            "text": "Alexander Canario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765751222
           }
         ]
       }
@@ -709,7 +716,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
