@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2020",
-    "scraped_at": "2025-12-14T21:26:41.373Z",
+    "scraped_at": "2025-12-14T21:27:47.152Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-14 17:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Leury García Cuadrangular! ",
+    "lastPlayByPlay": "Pablo Reyes Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -493,10 +493,17 @@
           },
           {
             "reference_id": "18386-2-8",
-            "text": "Pablo Reyes al bate",
+            "text": "Pablo Reyes Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765747477
+            "ts": 1765747629
+          },
+          {
+            "reference_id": "18386-2-9",
+            "text": "Luis García Jr al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765747635
           }
         ]
       }
@@ -513,7 +520,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 1
       }
     ],
@@ -594,7 +601,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 2,
-          "hits": 2,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         },

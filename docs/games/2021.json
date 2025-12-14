@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2021",
-    "scraped_at": "2025-12-14T21:26:41.379Z",
+    "scraped_at": "2025-12-14T21:27:47.164Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-14 17:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Alberto Rodriguez  Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "Josh Lester Base por Bolas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": false,
+      "on1B": true,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -136,6 +136,17 @@
             "team_id": 7,
             "name": "Rodolfo Castro",
             "abbreviation": "Rodolfo Castro",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5355,
+            "team_id": 7,
+            "name": "Josh Lester",
+            "abbreviation": "J. Lester",
             "number": null,
             "dob": null,
             "height": "",
@@ -315,10 +326,24 @@
           },
           {
             "reference_id": "18395-2-4",
-            "text": "Raimel Tapia al bate",
+            "text": "Raimel Tapia  Out: Rodado al Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765747600
+            "ts": 1765747614
+          },
+          {
+            "reference_id": "18395-2-5",
+            "text": "Rodolfo Castro Sencillo Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765747626
+          },
+          {
+            "reference_id": "18395-2-6",
+            "text": "Josh Lester Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765747648
           }
         ]
       }
@@ -328,7 +353,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 4,
+        "total_plays": 6,
         "scoring_plays": 0
       }
     ],
@@ -409,7 +434,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 2,
-          "hits": 2,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         },
