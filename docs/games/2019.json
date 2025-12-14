@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2019",
-    "scraped_at": "2025-12-14T22:14:27.137Z",
+    "scraped_at": "2025-12-14T22:15:30.847Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-14 17:00:00",
-    "roundText": "Baja 4ta",
-    "currentInningNum": 4,
-    "lastPlayByPlay": "Francisco Mejía al bate",
+    "roundText": "Alta 5ta",
+    "currentInningNum": 5,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 2
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -703,10 +703,17 @@
           },
           {
             "reference_id": "18380-2-31",
-            "text": "Francisco Mejía al bate",
+            "text": "Francisco Mejía Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765750455
+            "ts": 1765750469
+          },
+          {
+            "reference_id": "18380-2-32",
+            "text": "Hayden Senger Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765750512
           }
         ]
       }
@@ -765,7 +772,7 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -794,14 +801,14 @@
       {
         "num": 4,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 5,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -855,7 +862,7 @@
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 6,
+          "runs": 7,
           "hits": 7,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
