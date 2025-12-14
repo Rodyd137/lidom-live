@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2020",
-    "scraped_at": "2025-12-14T23:54:34.527Z",
+    "scraped_at": "2025-12-14T23:55:39.456Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-14 17:00:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "José Marmolejos  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "Alexander Canario Base por Bolas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -892,10 +892,17 @@
           },
           {
             "reference_id": "18390-1-57",
-            "text": "Alexander Canario al bate",
+            "text": "Alexander Canario Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765756450
+            "ts": 1765756520
+          },
+          {
+            "reference_id": "18390-1-58",
+            "text": "Eguy Rosario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765756525
           }
         ]
       }
@@ -961,7 +968,7 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
