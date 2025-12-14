@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2017",
-    "scraped_at": "2025-12-14T00:48:49.705Z",
+    "scraped_at": "2025-12-14T00:49:53.302Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-13 18:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Ezequiel Duran Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Aderlin Rodríguez Doble Play!  Out: Rodado al - Campo Corto - Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -997,10 +997,17 @@
           },
           {
             "reference_id": "18366-2-65",
-            "text": "Aderlin Rodríguez al bate",
+            "text": "Aderlin Rodríguez Doble Play!  Out: Rodado al - Campo Corto - Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765673229
+            "ts": 1765673328
+          },
+          {
+            "reference_id": "18366-2-66",
+            "text": "Alberto Rodriguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765673381
           }
         ]
       }
@@ -1115,7 +1122,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 1
       }
     ],
