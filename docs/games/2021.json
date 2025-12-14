@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2021",
-    "scraped_at": "2025-12-14T21:42:02.927Z",
+    "scraped_at": "2025-12-14T21:43:07.914Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-14 17:00:00",
-    "roundText": "Baja 2da",
-    "currentInningNum": 2,
-    "lastPlayByPlay": "Rodolfo Durán Out: Elevado al Jardinero Central",
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -563,10 +563,24 @@
           },
           {
             "reference_id": "18396-2-17",
-            "text": "Vidal Brujan al bate",
+            "text": "Vidal Brujan Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1765748431
+            "ts": 1765748527
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "18397-1-18",
+            "text": "Alfredo Reyes al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765748582
           }
         ]
       }
@@ -592,6 +606,13 @@
         "label": "Baja 2da",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -605,14 +626,14 @@
       {
         "num": 2,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },

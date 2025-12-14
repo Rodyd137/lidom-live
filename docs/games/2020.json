@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2020",
-    "scraped_at": "2025-12-14T21:42:02.922Z",
+    "scraped_at": "2025-12-14T21:43:07.888Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-14 17:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Carlos Peguero  Sencillo y 2 Carreras Impulsadas ",
+    "lastPlayByPlay": "Kenny Piper  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -528,10 +528,17 @@
           },
           {
             "reference_id": "18386-2-13",
-            "text": "Samad Taylor al bate",
+            "text": "Samad Taylor Doble Play! Campo Corto - Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765748508
+            "ts": 1765748536
+          },
+          {
+            "reference_id": "18386-2-14",
+            "text": "Kenny Piper  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765748567
           }
         ]
       }
@@ -548,7 +555,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 7,
+        "total_plays": 8,
         "scoring_plays": 3
       }
     ],
@@ -648,7 +655,7 @@
         "id": 2021,
         "date": "2025-12-14 17:00:00",
         "status": 2,
-        "roundText": "Baja 2da",
+        "roundText": "Alta 3ra",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
