@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2021",
-    "scraped_at": "2025-12-14T23:47:26.666Z",
+    "scraped_at": "2025-12-14T23:48:29.987Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-14 17:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Albert Fabian  Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -180,7 +180,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Carlos Belén",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -989,6 +989,27 @@
             "ts": 1765755842
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "18402-1-69",
+            "text": "Albert Fabian  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765756090
+          },
+          {
+            "reference_id": "18402-1-70",
+            "text": "Elih Marrero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765756092
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1081,6 +1102,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1180,7 +1208,7 @@
         "id": 2020,
         "date": "2025-12-14 17:00:00",
         "status": 2,
-        "roundText": "Baja 4ta",
+        "roundText": "Alta 5ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
