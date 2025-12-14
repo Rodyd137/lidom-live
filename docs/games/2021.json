@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2021",
-    "scraped_at": "2025-12-14T23:52:24.242Z",
+    "scraped_at": "2025-12-14T23:53:29.483Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-14 17:00:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Wilmer Difó  Out: Rodado al Primera Base - Lanzador",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -180,7 +180,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Javy Guerra",
           "era": "",
           "record": "",
           "debut": false
@@ -1017,6 +1017,20 @@
             "ts": 1765756301
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "18402-2-72",
+            "text": "Robinson Canó  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765756386
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1117,6 +1131,13 @@
         "label": "Alta 8va",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1171,7 +1192,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
