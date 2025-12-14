@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2019",
-    "scraped_at": "2025-12-14T21:36:14.561Z",
+    "scraped_at": "2025-12-14T21:37:18.149Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,7 +14,7 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -224,6 +224,17 @@
             "team_id": 1,
             "name": "David Hensley",
             "abbreviation": "D. Hensley",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5276,
+            "team_id": 1,
+            "name": "Mel Rojas Jr.",
+            "abbreviation": "M. Rojas Jr.",
             "number": null,
             "dob": null,
             "height": "",
@@ -493,6 +504,20 @@
             "ts": 1765748012
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "18378-2-15",
+            "text": "Mel Rojas Jr. al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765748187
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -516,6 +541,13 @@
         "label": "Alta 2da",
         "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -604,8 +636,8 @@
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 2,
-          "hits": 3,
+          "runs": 3,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
