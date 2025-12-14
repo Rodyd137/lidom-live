@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2020",
-    "scraped_at": "2025-12-14T22:25:02.274Z",
+    "scraped_at": "2025-12-14T22:26:05.949Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 3,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -180,7 +180,7 @@
           "H2": 7
         },
         "probables": {
-          "pitcher": "Aidan Anderson",
+          "pitcher": "Tayron Guerrero",
           "era": "",
           "record": "",
           "debut": false
@@ -660,6 +660,20 @@
             "ts": 1765750921
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "18388-1-30",
+            "text": "José Marmolejos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765751109
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -689,6 +703,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
