@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2019",
-    "scraped_at": "2025-12-14T23:30:52.057Z",
+    "scraped_at": "2025-12-14T23:31:57.472Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-14 17:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Bryan de la Cruz Ponche (K) ",
     "counts": {
-      "balls": 0,
+      "balls": 2,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -947,6 +947,27 @@
             "ts": 1765754825
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "18384-1-59",
+            "text": "Bryan de la Cruz Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765755108
+          },
+          {
+            "reference_id": "18384-1-60",
+            "text": "Luis Liberato al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765755110
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1047,6 +1068,13 @@
         "label": "Baja 7ma",
         "total_plays": 7,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1125,8 +1153,8 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 5,
-          "hits": 6,
+          "runs": 7,
+          "hits": 7,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
