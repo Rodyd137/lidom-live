@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2020",
-    "scraped_at": "2025-12-15T00:48:47.787Z",
+    "scraped_at": "2025-12-15T00:49:51.950Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-14 17:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Luis García Jr  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -198,10 +198,10 @@
             "position": ""
           },
           {
-            "id": 5245,
+            "id": 5251,
             "team_id": 5,
-            "name": "Pablo Reyes",
-            "abbreviation": "P. Reyes",
+            "name": "Julio Carreras",
+            "abbreviation": "J. Carreras",
             "number": null,
             "dob": null,
             "height": "",
@@ -1004,10 +1004,24 @@
         "plays": [
           {
             "reference_id": "18391-2-69",
-            "text": "Pablo Reyes al bate",
+            "text": "Julio Carreras Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765759700
+            "ts": 1765759752
+          },
+          {
+            "reference_id": "18391-2-70",
+            "text": "Luis García Jr  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765759768
+          },
+          {
+            "reference_id": "18391-2-71",
+            "text": "Deyvinson de los Santos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765759772
           }
         ]
       }
@@ -1094,7 +1108,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
