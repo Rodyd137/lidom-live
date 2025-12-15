@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2103",
-    "scraped_at": "2025-12-15T23:06:21.906Z",
+    "scraped_at": "2025-12-15T23:07:25.112Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-15 17:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Sergio Alcantara  Out: Rodado al Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
@@ -181,8 +181,8 @@
         },
         "probables": {
           "pitcher": "George Soriano ",
-          "era": "1,65",
-          "record": "0 - 0",
+          "era": "7.45",
+          "record": "0 - 1",
           "debut": false
         },
         "players": [
@@ -856,6 +856,27 @@
             "ts": 1765839725
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "19156-1-50",
+            "text": "Sergio Alcantara  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765839995
+          },
+          {
+            "reference_id": "19156-1-51",
+            "text": "Emilio Bonifacio al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765839997
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -941,6 +962,13 @@
         "half": "bottom",
         "label": "Baja 6ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
