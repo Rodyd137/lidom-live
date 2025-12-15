@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2021",
-    "scraped_at": "2025-12-15T00:11:32.614Z",
+    "scraped_at": "2025-12-15T00:12:36.987Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-14 17:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Alberto Rodriguez  Out: Rodado al Primera Base",
+    "lastPlayByPlay": "Jerar Encarnacion Sencillo y 2 Carreras Impulsadas ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 7
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": true,
-      "on3B": true,
-      "runners": 2,
-      "mask": 7
+      "on1B": true,
+      "on2B": false,
+      "on3B": false,
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 6,
-          "H": 9,
+          "R": 8,
+          "H": 10,
           "E": 1,
           "H2": 6
         },
@@ -333,15 +333,15 @@
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 2,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 6,
-          "H": 9,
+          "R": 8,
+          "H": 10,
           "E": 1
         },
         "home": {
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 6
+            "R": 8
           }
         ],
         "home": [
@@ -1088,10 +1088,17 @@
           },
           {
             "reference_id": "18403-1-80",
-            "text": "Jerar Encarnacion al bate",
+            "text": "Jerar Encarnacion Sencillo y 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765757517
+          },
+          {
+            "reference_id": "18403-1-81",
+            "text": "Aneury Tavarez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1765757484
+            "ts": 1765757519
           }
         ]
       }
@@ -1206,8 +1213,8 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 5,
-        "scoring_plays": 0
+        "total_plays": 6,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1271,7 +1278,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       }
     ],
