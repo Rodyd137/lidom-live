@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2105",
-    "scraped_at": "2025-12-16T22:54:07.316Z",
+    "scraped_at": "2025-12-16T22:55:10.105Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-16 16:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Socrates Brito Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "Yainer Díaz Doble! 1 Carrera Impulsada ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 1,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 1,
-          "H": 6,
+          "R": 2,
+          "H": 7,
           "E": 2,
           "H2": 1
         },
@@ -329,7 +329,7 @@
         {
           "num": 8,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 9,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 1,
-          "H": 6,
+          "R": 2,
+          "H": 7,
           "E": 2
         }
       },
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 1
+            "R": 2
           },
           {
             "num": 9,
-            "R": 1
+            "R": 2
           }
         ]
       }
@@ -1032,10 +1032,17 @@
           },
           {
             "reference_id": "19175-2-69",
-            "text": "Yainer Díaz al bate",
+            "text": "Yainer Díaz Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1765925653
+          },
+          {
+            "reference_id": "19175-2-70",
+            "text": "Yamaico Navarro al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1765925615
+            "ts": 1765925658
           }
         ]
       }
@@ -1150,8 +1157,8 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1209,7 +1216,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 9,
