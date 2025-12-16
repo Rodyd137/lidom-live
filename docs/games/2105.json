@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2105",
-    "scraped_at": "2025-12-16T23:08:47.300Z",
+    "scraped_at": "2025-12-16T23:10:23.670Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-16 16:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jonathan Arauz Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -275,10 +275,10 @@
             "position": ""
           },
           {
-            "id": 5630,
+            "id": 5302,
             "team_id": 4,
-            "name": "Jonathan Guzman",
-            "abbreviation": "J. Guzman",
+            "name": "Jonathan Arauz",
+            "abbreviation": "J. Arauz",
             "number": null,
             "dob": null,
             "height": "",
@@ -1087,6 +1087,20 @@
             "ts": 1765926333
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "19176-2-76",
+            "text": "Jonathan Arauz Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765926575
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1207,6 +1221,13 @@
         "half": "top",
         "label": "Alta 9na",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
