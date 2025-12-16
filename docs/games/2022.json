@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2022",
-    "scraped_at": "2025-12-16T23:58:48.738Z",
+    "scraped_at": "2025-12-16T23:59:52.954Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-16 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Yairo Munoz  Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "Juan Brito Doble! ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
@@ -114,6 +114,17 @@
             "team_id": 6,
             "name": "Juan Brito",
             "abbreviation": "J. Brito",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5379,
+            "team_id": 6,
+            "name": "Francisco Urbaez",
+            "abbreviation": "F. Urbaez",
             "number": null,
             "dob": null,
             "height": "",
@@ -469,10 +480,17 @@
           },
           {
             "reference_id": "18405-1-12",
-            "text": "Juan Brito al bate",
+            "text": "Juan Brito Doble! ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765929437
+            "ts": 1765929528
+          },
+          {
+            "reference_id": "18405-1-13",
+            "text": "Francisco Urbaez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765929571
           }
         ]
       }
@@ -496,7 +514,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -569,7 +587,7 @@
       {
         "id": 2023,
         "date": "2025-12-16 19:15:00",
-        "status": 1,
+        "status": 3,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 3,
