@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2106",
-    "scraped_at": "2025-12-16T22:19:23.689Z",
+    "scraped_at": "2025-12-16T22:20:33.738Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-16 16:00:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Luis Barrera   Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 5
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Migue Díaz",
+          "pitcher": "Michael Tamarez",
           "era": "",
           "record": "",
           "debut": false
@@ -877,6 +877,20 @@
             "ts": 1765923533
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "19182-2-54",
+            "text": "Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765923572
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -956,6 +970,13 @@
         "label": "Alta 6ta",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -996,7 +1017,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -1123,7 +1144,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 5,
-          "hits": 3,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
@@ -1138,8 +1159,8 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 3,
-          "hits": 6,
+          "runs": 4,
+          "hits": 7,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         },
