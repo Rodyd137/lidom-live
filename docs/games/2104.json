@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2104",
-    "scraped_at": "2025-12-16T21:19:42.082Z",
+    "scraped_at": "2025-12-16T21:20:46.813Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -15,7 +15,7 @@
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -744,6 +744,27 @@
             "ts": 1765919799
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "19164-1-34",
+            "text": "Rafael Lantigua  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765920001
+          },
+          {
+            "reference_id": "19164-1-35",
+            "text": "Tres Barrera  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765920036
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -815,6 +836,13 @@
         "half": "bottom",
         "label": "Baja 5ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1009,7 +1037,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 1,
-          "hits": 4,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
