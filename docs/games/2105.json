@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2105",
-    "scraped_at": "2025-12-16T22:34:37.613Z",
+    "scraped_at": "2025-12-16T22:35:41.829Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-16 16:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Eguy Rosario  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -940,6 +940,27 @@
             "ts": 1765924147
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "19174-2-59",
+            "text": "Eguy Rosario  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765924525
+          },
+          {
+            "reference_id": "19174-2-60",
+            "text": "José Marmolejos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765924533
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1033,6 +1054,13 @@
         "label": "Alta 7ma",
         "total_plays": 10,
         "scoring_plays": 3
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1226,7 +1254,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 2,
-          "hits": 6,
+          "hits": 7,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
