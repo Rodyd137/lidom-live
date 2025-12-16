@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2104",
-    "scraped_at": "2025-12-16T20:41:36.502Z",
+    "scraped_at": "2025-12-16T20:43:22.852Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 3,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -568,6 +568,20 @@
             "ts": 1765917571
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "19161-2-17",
+            "text": "Carlos Peguero  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765917742
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -604,6 +618,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
