@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2106",
-    "scraped_at": "2025-12-16T22:29:13.986Z",
+    "scraped_at": "2025-12-16T22:30:18.441Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-16 16:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ronny Mauricio  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -913,10 +913,17 @@
         "plays": [
           {
             "reference_id": "19183-1-57",
-            "text": "Gustavo Nuñez al bate",
+            "text": "Gustavo Nuñez Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765924045
+            "ts": 1765924196
+          },
+          {
+            "reference_id": "19183-1-58",
+            "text": "Ronny Mauricio  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765924212
           }
         ]
       }
@@ -1010,7 +1017,7 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1188,14 +1195,14 @@
         "id": 2105,
         "date": "2025-12-16 16:00:00",
         "status": 2,
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 5,
-          "hits": 8,
+          "hits": 9,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         },
@@ -1206,7 +1213,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 1,
           "hits": 5,
-          "errors": 1,
+          "errors": 2,
           "permalink": "/equipo/leones-del-escogido"
         }
       }
