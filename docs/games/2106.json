@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2106",
-    "scraped_at": "2025-12-16T20:53:01.418Z",
+    "scraped_at": "2025-12-16T20:54:06.967Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-16 16:00:00",
-    "roundText": "Baja 2da",
-    "currentInningNum": 2,
-    "lastPlayByPlay": "Francisco Peña Ponche (K) ",
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 4
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -147,6 +147,17 @@
             "team_id": 1,
             "name": "Sergio Alcantara",
             "abbreviation": "S. Alcantara",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5272,
+            "team_id": 1,
+            "name": "Armando Alvarez",
+            "abbreviation": "A. Alvarez",
             "number": null,
             "dob": null,
             "height": "",
@@ -580,10 +591,24 @@
           },
           {
             "reference_id": "19178-2-20",
-            "text": "Raimel Tapia al bate",
+            "text": "Raimel Tapia Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1765918060
+            "ts": 1765918409
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19179-1-21",
+            "text": "Armando Alvarez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765918431
           }
         ]
       }
@@ -616,6 +641,13 @@
         "label": "Baja 2da",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -629,14 +661,14 @@
       {
         "num": 2,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -766,7 +798,7 @@
         "id": 2104,
         "date": "2025-12-16 16:00:00",
         "status": 2,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
