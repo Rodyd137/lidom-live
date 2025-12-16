@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2024",
-    "scraped_at": "2025-12-16T19:54:04.984Z",
+    "scraped_at": "2025-12-16T20:21:07.748Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,7 +9,7 @@
     "season_id": 20,
     "status": 1,
     "date": "2025-12-16 19:30:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
     "lastPlayByPlay": "",
     "counts": {
@@ -18,7 +18,7 @@
       "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -64,7 +64,52 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5559,
+            "team_id": 1,
+            "name": "Luis Barrera ",
+            "abbreviation": "L. Barrera",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5270,
+            "team_id": 1,
+            "name": "Gustavo Nuñez",
+            "abbreviation": "G. Nuñez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5634,
+            "team_id": 1,
+            "name": "Ronny Mauricio",
+            "abbreviation": "R. Mauricio",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5266,
+            "team_id": 1,
+            "name": "Francisco Mejía",
+            "abbreviation": "F. Mejía",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       },
       "home": {
         "id": 7,
@@ -85,7 +130,19 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5359,
+            "team_id": 7,
+            "name": "Raimel Tapia",
+            "abbreviation": "R. Tapia",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       }
     },
     "comment": "",
@@ -229,12 +286,56 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "18422-1-1",
+            "text": "Luis Barrera  Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765915677
+          },
+          {
+            "reference_id": "18422-1-2",
+            "text": "Gustavo Nuñez  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765915723
+          },
+          {
+            "reference_id": "18422-1-3",
+            "text": "Ronny Mauricio Elevado de Sacrificio Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765915794
+          },
+          {
+            "reference_id": "18422-1-4",
+            "text": "Francisco Mejía Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765915875
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 4,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -334,7 +435,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         },
@@ -352,15 +453,15 @@
       {
         "id": 2104,
         "date": "2025-12-16 16:00:00",
-        "status": 3,
-        "roundText": "Alta 1ra",
+        "status": 2,
+        "roundText": "Alta 2da",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         },
@@ -378,15 +479,15 @@
       {
         "id": 2105,
         "date": "2025-12-16 16:00:00",
-        "status": 1,
-        "roundText": "Alta 1ra",
+        "status": 2,
+        "roundText": "Alta 2da",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         },
@@ -396,7 +497,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         }
@@ -404,8 +505,8 @@
       {
         "id": 2106,
         "date": "2025-12-16 16:00:00",
-        "status": 1,
-        "roundText": "Alta 1ra",
+        "status": 2,
+        "roundText": "Baja 1ra",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -422,7 +523,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
