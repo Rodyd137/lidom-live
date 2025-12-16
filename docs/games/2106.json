@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2106",
-    "scraped_at": "2025-12-16T20:24:23.341Z",
+    "scraped_at": "2025-12-16T20:25:28.231Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-16 16:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Dairon Blanco  Sencillo Jardinero Izquierdo",
+    "lastPlayByPlay": "Ismael Munguia Base por Bolas ",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 2,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 6
+      "base": 8
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -169,6 +169,28 @@
             "team_id": 7,
             "name": "Rodolfo Castro",
             "abbreviation": "Rodolfo Castro",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5425,
+            "team_id": 7,
+            "name": "Ismael Munguia",
+            "abbreviation": "I. Munguia",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5600,
+            "team_id": 7,
+            "name": "Jorge Mateo",
+            "abbreviation": "J. Mateo",
             "number": null,
             "dob": null,
             "height": "",
@@ -383,10 +405,31 @@
           },
           {
             "reference_id": "19177-2-8",
-            "text": "Rodolfo Castro al bate",
+            "text": "Rodolfo Castro Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765916649
+            "ts": 1765916661
+          },
+          {
+            "reference_id": "19177-2-9",
+            "text": "Dairon Blanco  Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765916685
+          },
+          {
+            "reference_id": "19177-2-10",
+            "text": "Ismael Munguia Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765916698
+          },
+          {
+            "reference_id": "19177-2-11",
+            "text": "Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765916704
           }
         ]
       }
@@ -403,7 +446,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 4,
+        "total_plays": 7,
         "scoring_plays": 0
       }
     ],
@@ -555,7 +598,7 @@
         "id": 2104,
         "date": "2025-12-16 16:00:00",
         "status": 2,
-        "roundText": "Alta 2da",
+        "roundText": "Baja 2da",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
