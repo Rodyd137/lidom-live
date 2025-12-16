@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2106",
-    "scraped_at": "2025-12-16T20:26:32.888Z",
+    "scraped_at": "2025-12-16T20:27:37.970Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-16 16:00:00",
-    "roundText": "Baja 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "Jorge Mateo Out: Línea al Jardinero Derecho ",
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -103,6 +103,17 @@
             "team_id": 1,
             "name": "Francisco Mejía",
             "abbreviation": "F. Mejía",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5276,
+            "team_id": 1,
+            "name": "Mel Rojas Jr.",
+            "abbreviation": "M. Rojas Jr.",
             "number": null,
             "dob": null,
             "height": "",
@@ -432,6 +443,20 @@
             "ts": 1765916769
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19178-1-12",
+            "text": "Mel Rojas Jr. al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765916851
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -448,20 +473,27 @@
         "label": "Baja 1ra",
         "total_plays": 7,
         "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
       {
         "num": 1,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
