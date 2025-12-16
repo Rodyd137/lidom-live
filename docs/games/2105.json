@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2105",
-    "scraped_at": "2025-12-16T21:50:03.203Z",
+    "scraped_at": "2025-12-16T21:51:07.573Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-16 16:00:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -800,6 +800,48 @@
             "ts": 1765921369
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "19173-1-42",
+            "text": "Alberto Rodriguez Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765921816
+          },
+          {
+            "reference_id": "19173-1-43",
+            "text": "Aderlin Rodríguez Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765921823
+          },
+          {
+            "reference_id": "19173-1-44",
+            "text": "Robert Moore Doble Play! Campo Corto - Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765921832
+          }
+        ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "19173-2-45",
+            "text": "Socrates Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765921846
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -872,6 +914,20 @@
         "label": "Baja 5ta",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -912,7 +968,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
