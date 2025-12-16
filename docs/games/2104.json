@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2104",
-    "scraped_at": "2025-12-16T21:32:54.506Z",
+    "scraped_at": "2025-12-16T21:33:59.350Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-16 16:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Luis Liberato Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -180,7 +180,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Bryan Rodriguez ",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -807,6 +807,27 @@
             "ts": 1765920610
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "19165-1-41",
+            "text": "Luis Liberato Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765920820
+          },
+          {
+            "reference_id": "19165-1-42",
+            "text": "Bryan de la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765920823
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -892,6 +913,13 @@
         "half": "bottom",
         "label": "Baja 6ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
