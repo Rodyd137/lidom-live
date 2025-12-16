@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2104",
-    "scraped_at": "2025-12-16T21:40:27.808Z",
+    "scraped_at": "2025-12-16T21:42:30.465Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-16 16:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Pablo Reyes Out: Elevado al Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -842,6 +842,27 @@
             "ts": 1765921017
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "19165-2-45",
+            "text": "Pablo Reyes Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765921270
+          },
+          {
+            "reference_id": "19165-2-46",
+            "text": "Luis García Jr al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765921274
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -934,6 +955,13 @@
         "half": "top",
         "label": "Alta 7ma",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
