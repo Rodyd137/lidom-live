@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2106",
-    "scraped_at": "2025-12-16T20:43:22.904Z",
+    "scraped_at": "2025-12-16T20:44:29.503Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-16 16:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Vidal Brujan  Out: Rodado al Tercera Base - Segunda Base",
+    "lastPlayByPlay": "Josh Lester Robo de Base Wild Pitch",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 4
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 2
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 0,
           "H": 1,
-          "E": 0,
+          "E": 2,
           "H2": 0
         },
         "probables": {
@@ -262,6 +262,17 @@
             "height": "",
             "image": null,
             "position": ""
+          },
+          {
+            "id": 5347,
+            "team_id": 7,
+            "name": "Francisco Peña",
+            "abbreviation": "F. Peña",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
           }
         ]
       }
@@ -320,7 +331,7 @@
         "away": {
           "R": 0,
           "H": 1,
-          "E": 0
+          "E": 2
         },
         "home": {
           "R": 0,
@@ -552,6 +563,20 @@
             "scored": false,
             "is_primary": true,
             "ts": 1765917796
+          },
+          {
+            "reference_id": "19178-2-18",
+            "text": "Josh Lester Robo de Base Wild Pitch",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765917828
+          },
+          {
+            "reference_id": "19178-2-19",
+            "text": "Francisco Peña al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765917835
           }
         ]
       }
@@ -582,7 +607,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 2,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
