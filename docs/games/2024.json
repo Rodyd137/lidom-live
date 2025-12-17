@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2024",
-    "scraped_at": "2025-12-17T01:15:58.882Z",
+    "scraped_at": "2025-12-17T01:17:03.122Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-16 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Vidal Brujan Out Robando Base! Receptor - Segunda Base",
+    "lastPlayByPlay": "Robinson Canó  Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -668,10 +668,24 @@
           },
           {
             "reference_id": "18424-2-36",
-            "text": "Raimel Tapia al bate",
+            "text": "Raimel Tapia Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765934081
+            "ts": 1765934160
+          },
+          {
+            "reference_id": "18424-2-37",
+            "text": "Robinson Canó  Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765934192
+          },
+          {
+            "reference_id": "18424-2-38",
+            "text": "Dairon Blanco  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765934205
           }
         ]
       }
@@ -709,7 +723,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 3,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
