@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2024",
-    "scraped_at": "2025-12-17T02:11:07.511Z",
+    "scraped_at": "2025-12-17T02:12:12.056Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-16 19:30:00",
-    "roundText": "Baja 5ta",
-    "currentInningNum": 5,
-    "lastPlayByPlay": "Robinson Canó  Ponche (K) ",
+    "roundText": "Alta 6ta",
+    "currentInningNum": 6,
+    "lastPlayByPlay": "Cristhian Adames Out: Elevado al Tercera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -180,7 +180,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Roman Mendez",
+          "pitcher": "Domingo Tapia",
           "era": "",
           "record": "",
           "debut": false
@@ -849,6 +849,27 @@
             "ts": 1765937290
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "18427-1-58",
+            "text": "Cristhian Adames Out: Elevado al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765937503
+          },
+          {
+            "reference_id": "18427-1-59",
+            "text": "Arístides Aquino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765937506
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -914,6 +935,13 @@
         "label": "Baja 5ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -948,14 +976,14 @@
       {
         "num": 5,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 6,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -1020,7 +1048,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 3,
           "hits": 7,
-          "errors": 2,
+          "errors": 3,
           "permalink": "/equipo/aguilas-cibaenas"
         },
         "homeTeam": {

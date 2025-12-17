@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2023",
-    "scraped_at": "2025-12-17T02:11:07.365Z",
+    "scraped_at": "2025-12-17T02:12:12.023Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-16 19:15:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Franchy Cordero Out: Elevado al Primera Base",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 3,
           "H": 7,
-          "E": 2,
+          "E": 3,
           "H2": 3
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 3,
           "H": 7,
-          "E": 2
+          "E": 3
         },
         "home": {
           "R": 3,
@@ -850,10 +850,17 @@
         "plays": [
           {
             "reference_id": "18418-2-49",
-            "text": "Franchy Cordero al bate",
+            "text": "Franchy Cordero Out: Elevado al Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765937452
+            "ts": 1765937495
+          },
+          {
+            "reference_id": "18418-2-50",
+            "text": "Pedro Severino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765937501
           }
         ]
       }
@@ -940,7 +947,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1040,7 +1047,7 @@
         "id": 2024,
         "date": "2025-12-16 19:30:00",
         "status": 2,
-        "roundText": "Baja 5ta",
+        "roundText": "Alta 6ta",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
