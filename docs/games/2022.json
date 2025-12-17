@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2022",
-    "scraped_at": "2025-12-17T00:40:36.933Z",
+    "scraped_at": "2025-12-17T00:41:41.036Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-16 19:30:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Yairo Munoz  Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "Juan Brito Base por Bolas ",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -689,10 +689,17 @@
           },
           {
             "reference_id": "18407-1-29",
-            "text": "Juan Brito al bate",
+            "text": "Juan Brito Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1765931986
+            "ts": 1765932077
+          },
+          {
+            "reference_id": "18407-1-30",
+            "text": "Francisco Urbaez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765932081
           }
         ]
       }
@@ -744,7 +751,7 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
