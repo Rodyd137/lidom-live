@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2027",
-    "scraped_at": "2025-12-17T23:53:44.908Z",
+    "scraped_at": "2025-12-17T23:54:48.263Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-17 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gilberto Celestino Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -471,6 +471,20 @@
             "ts": 1766015449
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "18449-2-6",
+            "text": "Gilberto Celestino Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766015681
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -479,6 +493,13 @@
         "half": "top",
         "label": "Alta 1ra",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -558,8 +579,8 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 0,
-          "hits": 1,
+          "runs": 1,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         },
