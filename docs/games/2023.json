@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2023",
-    "scraped_at": "2025-12-17T01:10:36.998Z",
+    "scraped_at": "2025-12-17T01:11:41.178Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-16 19:15:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Robert Moore Cuadrangular! ",
+    "lastPlayByPlay": "Alberto Rodriguez  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -654,10 +654,17 @@
           },
           {
             "reference_id": "18416-1-26",
-            "text": "Alberto Rodriguez al bate",
+            "text": "Alberto Rodriguez  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1765933723
+            "ts": 1765933852
+          },
+          {
+            "reference_id": "18416-1-27",
+            "text": "Corey Joyce al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765933858
           }
         ]
       }
@@ -709,7 +716,7 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 1
       }
     ],
@@ -809,7 +816,7 @@
         "id": 2024,
         "date": "2025-12-16 19:30:00",
         "status": 2,
-        "roundText": "Alta 3ra",
+        "roundText": "Baja 3ra",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
