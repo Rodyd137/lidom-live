@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2025",
-    "scraped_at": "2025-12-17T23:40:25.093Z",
+    "scraped_at": "2025-12-17T23:41:28.012Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-17 19:30:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Robinson Canó  Out: Elevado al Tercera Base",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -451,10 +451,24 @@
           },
           {
             "reference_id": "18431-1-3",
-            "text": "Dairon Blanco  al bate",
+            "text": "Dairon Blanco  Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1766014729
+            "ts": 1766014858
+          }
+        ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "18431-2-4",
+            "text": "Luis Barrera  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766014886
           }
         ]
       }
@@ -466,12 +480,19 @@
         "label": "Alta 1ra",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -544,8 +565,8 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 0,
-          "hits": 1,
+          "runs": 1,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
