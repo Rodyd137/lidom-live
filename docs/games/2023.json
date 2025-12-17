@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2023",
-    "scraped_at": "2025-12-17T02:10:02.523Z",
+    "scraped_at": "2025-12-17T02:11:07.365Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 6,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -842,6 +842,20 @@
             "ts": 1765937263
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "18418-2-49",
+            "text": "Franchy Cordero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765937452
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -921,6 +935,13 @@
         "label": "Alta 6ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -999,8 +1020,8 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 7,
-          "hits": 5,
+          "runs": 8,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         },
