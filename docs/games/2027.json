@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2027",
-    "scraped_at": "2025-12-17T23:55:51.915Z",
+    "scraped_at": "2025-12-17T23:56:55.310Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-17 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Luis Liberato Sencillo ",
+    "lastPlayByPlay": "Bryan de la Cruz Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -493,10 +493,17 @@
           },
           {
             "reference_id": "18449-2-8",
-            "text": "Bryan de la Cruz al bate",
+            "text": "Bryan de la Cruz Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766015726
+            "ts": 1766015764
+          },
+          {
+            "reference_id": "18449-2-9",
+            "text": "Juan Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766015769
           }
         ]
       }
@@ -513,7 +520,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
