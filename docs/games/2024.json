@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2024",
-    "scraped_at": "2025-12-17T00:12:44.917Z",
+    "scraped_at": "2025-12-17T00:13:49.256Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-16 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Esteury Ruiz  Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "Gustavo Nuñez se embasa por Error del Campo Corto",
     "counts": {
       "balls": 2,
-      "strikes": 2,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -176,7 +176,7 @@
         "totals": {
           "R": 0,
           "H": 0,
-          "E": 0,
+          "E": 1,
           "H2": 0
         },
         "probables": {
@@ -347,7 +347,7 @@
         "home": {
           "R": 0,
           "H": 0,
-          "E": 0
+          "E": 1
         }
       },
       "cumulative": {
@@ -444,10 +444,17 @@
           },
           {
             "reference_id": "18422-2-6",
-            "text": "Gustavo Nuñez al bate",
+            "text": "Gustavo Nuñez se embasa por Error del Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1765930269
+            "ts": 1765930374
+          },
+          {
+            "reference_id": "18422-2-7",
+            "text": "Ronny Mauricio al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765930378
           }
         ]
       }
@@ -457,7 +464,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
