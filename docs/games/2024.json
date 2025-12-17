@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2024",
-    "scraped_at": "2025-12-17T03:38:50.301Z",
+    "scraped_at": "2025-12-17T03:39:52.854Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -1191,6 +1191,20 @@
             "ts": 1765942646
           }
         ]
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "plays": [
+          {
+            "reference_id": "19186-1-101",
+            "text": "Cristhian Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765942732
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1311,6 +1325,13 @@
         "half": "bottom",
         "label": "Baja 9na",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
