@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2024",
-    "scraped_at": "2025-12-17T03:29:24.998Z",
+    "scraped_at": "2025-12-17T03:30:27.927Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-16 19:30:00",
-    "roundText": "Alta 9na",
+    "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Michael De Leon  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "Josh Lester Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Reidis Sena ",
+          "pitcher": "Jean Carlos Mejia",
           "era": "",
           "record": "",
           "debut": false
@@ -1136,6 +1136,27 @@
             "ts": 1765941976
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "18430-2-95",
+            "text": "Josh Lester Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765942206
+          },
+          {
+            "reference_id": "18430-2-96",
+            "text": "Wilin Rosario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765942211
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1250,6 +1271,13 @@
         "label": "Alta 9na",
         "total_plays": 6,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1311,7 +1339,7 @@
       },
       {
         "num": 9,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -1354,8 +1382,8 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 4,
-          "hits": 9,
+          "runs": 5,
+          "hits": 10,
           "errors": 4,
           "permalink": "/equipo/aguilas-cibaenas"
         },
