@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2022",
-    "scraped_at": "2025-12-17T00:27:45.565Z",
+    "scraped_at": "2025-12-17T00:28:49.760Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-16 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Pablo Reyes Base por Bolas ",
+    "lastPlayByPlay": "Pablo Reyes Out Robando Base! ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Miller Hogan ",
+          "pitcher": "Greg Minier ",
           "era": "",
           "record": "",
           "debut": false
@@ -630,6 +630,20 @@
             "scored": false,
             "is_primary": true,
             "ts": 1765931091
+          },
+          {
+            "reference_id": "18406-2-23",
+            "text": "Luis García Jr al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765931291
+          },
+          {
+            "reference_id": "18406-2-22-271363",
+            "text": "Pablo Reyes Out Robando Base! ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1765931302
           }
         ]
       }
@@ -674,7 +688,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -780,8 +794,8 @@
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 0,
-          "hits": 0,
+          "runs": 2,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         },
@@ -791,7 +805,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 1,
           "permalink": "/equipo/estrellas-orientales"
         }
