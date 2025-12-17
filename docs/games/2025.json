@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2025",
-    "scraped_at": "2025-12-17T23:50:34.683Z",
+    "scraped_at": "2025-12-17T23:51:38.256Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-17 19:30:00",
-    "roundText": "Baja 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "Mel Rojas Jr. Out: Elevado al Campo Corto",
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "Rodolfo Castro Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -485,6 +485,27 @@
             "ts": 1766015260
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18432-1-7",
+            "text": "Rodolfo Castro Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766015485
+          },
+          {
+            "reference_id": "18432-1-8",
+            "text": "Ismael Munguia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766015489
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -501,20 +522,27 @@
         "label": "Baja 1ra",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
       {
         "num": 1,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -599,7 +627,7 @@
         "id": 2027,
         "date": "2025-12-17 19:30:00",
         "status": 2,
-        "roundText": "Alta 1ra",
+        "roundText": "Baja 1ra",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
