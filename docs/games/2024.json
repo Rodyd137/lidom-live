@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2024",
-    "scraped_at": "2025-12-17T01:43:53.260Z",
+    "scraped_at": "2025-12-17T01:44:57.622Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-16 19:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Christian Bethancourt Sencillo Tercera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 2,
-          "H": 1,
+          "H": 2,
           "E": 3,
           "H2": 2
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 2,
-          "H": 1,
+          "H": 2,
           "E": 3
         },
         "home": {
@@ -758,6 +758,27 @@
             "ts": 1765935636
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "18426-1-47",
+            "text": "Christian Bethancourt Sencillo Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765935847
+          },
+          {
+            "reference_id": "18426-1-48",
+            "text": "Domingo Leyba al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1765935850
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -808,6 +829,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
