@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2026",
-    "scraped_at": "2025-12-18T02:20:56.511Z",
+    "scraped_at": "2025-12-18T02:21:59.319Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-17 19:30:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Albert Fabian  Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "Juan Lagares Elevado de Sacrificio Carrera Empujada",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 4
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -174,7 +174,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 4,
+          "R": 5,
           "H": 6,
           "E": 1,
           "H2": 1
@@ -329,7 +329,7 @@
         {
           "num": 8,
           "away": 2,
-          "home": 0
+          "home": 1
         },
         {
           "num": 9,
@@ -345,7 +345,7 @@
           "E": 0
         },
         "home": {
-          "R": 4,
+          "R": 5,
           "H": 6,
           "E": 1
         }
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 4
+            "R": 5
           },
           {
             "num": 9,
-            "R": 4
+            "R": 5
           }
         ]
       }
@@ -1032,10 +1032,17 @@
           },
           {
             "reference_id": "18447-2-70",
-            "text": "Juan Lagares al bate",
+            "text": "Juan Lagares Elevado de Sacrificio Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1766024465
+          },
+          {
+            "reference_id": "18447-2-71",
+            "text": "Elih Marrero al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1766024421
+            "ts": 1766024470
           }
         ]
       }
@@ -1150,8 +1157,8 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1209,7 +1216,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 2,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 9,
