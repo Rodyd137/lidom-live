@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2027",
-    "scraped_at": "2025-12-18T00:33:56.574Z",
+    "scraped_at": "2025-12-18T00:35:00.340Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-17 19:30:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Nomar Mazara  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -632,6 +632,27 @@
             "ts": 1766017886
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "18452-1-24",
+            "text": "Nomar Mazara  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766018089
+          },
+          {
+            "reference_id": "18452-1-25",
+            "text": "Gary Sanchez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766018091
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -675,6 +696,13 @@
         "half": "bottom",
         "label": "Baja 3ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
