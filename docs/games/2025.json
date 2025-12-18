@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2025",
-    "scraped_at": "2025-12-18T01:09:50.443Z",
+    "scraped_at": "2025-12-18T01:10:53.200Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-17 19:30:00",
-    "roundText": "Baja 4ta",
-    "currentInningNum": 4,
-    "lastPlayByPlay": "Armando Alvarez  Out: Rodado al Campo Corto - Primera Base",
+    "roundText": "Alta 5ta",
+    "currentInningNum": 5,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -758,6 +758,20 @@
             "ts": 1766020116
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "18435-1-41",
+            "text": "Ismael Munguia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766020248
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -816,6 +830,13 @@
         "label": "Baja 4ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -843,14 +864,14 @@
       {
         "num": 4,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 5,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
