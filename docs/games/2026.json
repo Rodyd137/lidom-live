@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2026",
-    "scraped_at": "2025-12-18T01:34:56.419Z",
+    "scraped_at": "2025-12-18T01:35:58.988Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-17 19:30:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Erik Gonzalez  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -871,10 +871,17 @@
         "plays": [
           {
             "reference_id": "18446-1-51",
-            "text": "Erik Gonzalez al bate",
+            "text": "Erik Gonzalez  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1766021630
+            "ts": 1766021709
+          },
+          {
+            "reference_id": "18446-1-52",
+            "text": "Socrates Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766021711
           }
         ]
       }
@@ -968,7 +975,7 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
