@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2027",
-    "scraped_at": "2025-12-18T00:03:16.600Z",
+    "scraped_at": "2025-12-18T00:04:20.042Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-17 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Kelvin Gutiérrez  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
@@ -506,6 +506,27 @@
             "ts": 1766015989
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18450-1-10",
+            "text": "Kelvin Gutiérrez  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766016202
+          },
+          {
+            "reference_id": "18450-1-11",
+            "text": "Carlos Jorge al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766016207
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -521,6 +542,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -627,7 +655,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 3,
-          "hits": 4,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
