@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2026",
-    "scraped_at": "2025-12-18T00:35:00.304Z",
+    "scraped_at": "2025-12-18T00:36:04.003Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-17 19:30:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Franchy Cordero Ponche (K) ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -639,6 +639,27 @@
             "ts": 1766017864
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "18443-1-25",
+            "text": "Franchy Cordero Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766018113
+          },
+          {
+            "reference_id": "18443-1-26",
+            "text": "Jonathan Arauz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766018140
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -682,6 +703,13 @@
         "half": "bottom",
         "label": "Baja 3ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
