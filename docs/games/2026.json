@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2026",
-    "scraped_at": "2025-12-18T00:28:39.205Z",
+    "scraped_at": "2025-12-18T00:29:42.789Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-17 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Elih Marrero  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -257,6 +257,17 @@
             "team_id": 3,
             "name": "Juan Lagares",
             "abbreviation": "J. Lagares",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5596,
+            "team_id": 3,
+            "name": "Elih Marrero",
+            "abbreviation": "E. Marrero",
             "number": null,
             "dob": null,
             "height": "",
@@ -589,6 +600,20 @@
             "ts": 1766017507
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "18442-2-22",
+            "text": "Elih Marrero  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766017770
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -625,6 +650,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
