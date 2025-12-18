@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2027",
-    "scraped_at": "2025-12-18T00:55:12.517Z",
+    "scraped_at": "2025-12-18T00:56:15.273Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-17 19:30:00",
-    "roundText": "Baja 4ta",
-    "currentInningNum": 4,
-    "lastPlayByPlay": "Juan Brito Sencillo ",
+    "roundText": "Alta 5ta",
+    "currentInningNum": 5,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 2
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -696,10 +696,17 @@
           },
           {
             "reference_id": "18452-2-31",
-            "text": "Eloy Jimenez  al bate",
+            "text": "Eloy Jimenez  Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766018968
+            "ts": 1766019327
+          },
+          {
+            "reference_id": "18452-2-30-272008",
+            "text": "Juan Brito Out Robando Base! ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1766019334
           }
         ]
       }
@@ -758,7 +765,7 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -787,14 +794,14 @@
       {
         "num": 4,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 5,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -839,7 +846,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 6,
-          "hits": 5,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         },

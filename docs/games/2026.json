@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2026",
-    "scraped_at": "2025-12-18T00:55:12.510Z",
+    "scraped_at": "2025-12-18T00:56:15.296Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-17 19:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Junior Lake Base por Bolas ",
+    "lastPlayByPlay": "Erik Gonzalez  Out: Rodado al Lanzador",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 1
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -731,10 +731,17 @@
           },
           {
             "reference_id": "18444-1-35",
-            "text": "Erik Gonzalez al bate",
+            "text": "Erik Gonzalez  Out: Rodado al Lanzador",
             "scored": false,
             "is_primary": true,
-            "ts": 1766019298
+            "ts": 1766019355
+          },
+          {
+            "reference_id": "18444-1-36",
+            "text": "Socrates Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766019359
           }
         ]
       }
@@ -800,7 +807,7 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -881,7 +888,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 6,
-          "hits": 5,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         },
@@ -900,7 +907,7 @@
         "id": 2027,
         "date": "2025-12-17 19:30:00",
         "status": 2,
-        "roundText": "Baja 4ta",
+        "roundText": "Alta 5ta",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
