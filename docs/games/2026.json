@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2026",
-    "scraped_at": "2025-12-18T00:17:01.224Z",
+    "scraped_at": "2025-12-18T00:18:04.837Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-17 19:30:00",
-    "roundText": "Baja 2da",
-    "currentInningNum": 2,
-    "lastPlayByPlay": "Albert Fabian   Out: Rodado al Primera Base",
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -246,6 +246,17 @@
             "team_id": 3,
             "name": "Albert Fabian ",
             "abbreviation": "A. Fabian",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5334,
+            "team_id": 3,
+            "name": "Juan Lagares",
+            "abbreviation": "J. Lagares",
             "number": null,
             "dob": null,
             "height": "",
@@ -541,6 +552,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1766016944
+          },
+          {
+            "reference_id": "18441-2-18",
+            "text": "Juan Lagares  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766017074
           }
         ]
       }
@@ -571,7 +589,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -586,14 +604,14 @@
       {
         "num": 2,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
