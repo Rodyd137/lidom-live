@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2027",
-    "scraped_at": "2025-12-18T01:52:41.935Z",
+    "scraped_at": "2025-12-18T01:53:44.645Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-17 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Manuel Peña  Out: Rodado al Lanzador - Segunda Base",
+    "lastPlayByPlay": "Jeimer Candelario Out: Elevado al Jardinero Derecho ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 1
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -906,10 +906,17 @@
           },
           {
             "reference_id": "18455-2-54",
-            "text": "Jeimer Candelario al bate",
+            "text": "Jeimer Candelario Out: Elevado al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766022726
+            "ts": 1766022781
+          },
+          {
+            "reference_id": "18455-2-55",
+            "text": "Rafael Lantigua  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766022786
           }
         ]
       }
@@ -1010,7 +1017,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -1084,7 +1091,7 @@
         "id": 2025,
         "date": "2025-12-17 19:30:00",
         "status": 2,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -1127,7 +1134,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 4,
-          "hits": 4,
+          "hits": 5,
           "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
         }
