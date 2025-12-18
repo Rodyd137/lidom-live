@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2027",
-    "scraped_at": "2025-12-18T00:27:35.772Z",
+    "scraped_at": "2025-12-18T00:28:39.184Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-17 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Tres Barrera Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -604,6 +604,27 @@
             "ts": 1766017488
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "18451-2-21",
+            "text": "Tres Barrera Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766017684
+          },
+          {
+            "reference_id": "18451-2-22",
+            "text": "Gilberto Celestino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766017690
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -640,6 +661,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -720,7 +748,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 3,
-          "hits": 3,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         },
