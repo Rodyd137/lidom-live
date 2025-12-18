@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2025",
-    "scraped_at": "2025-12-18T00:38:10.915Z",
+    "scraped_at": "2025-12-18T00:39:14.374Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-17 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Jorge Mateo Golpeado por Pelota ",
+    "lastPlayByPlay": "Francisco Peña Doble! 2 Carreras Impulsadas ",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 7
+      "base": 8
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": true,
       "on3B": true,
-      "runners": 2,
-      "mask": 7
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -626,10 +626,31 @@
           },
           {
             "reference_id": "18433-1-25",
-            "text": "Ismael Munguia al bate",
+            "text": "Josh Lester Wild Pitch Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1766018294
+          },
+          {
+            "reference_id": "18433-1-26",
+            "text": "Josh Lester Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766018209
+            "ts": 1766018309
+          },
+          {
+            "reference_id": "18433-1-27",
+            "text": "Francisco Peña Doble! 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1766018317
+          },
+          {
+            "reference_id": "18433-1-28",
+            "text": "Vidal Brujan al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766018320
           }
         ]
       }
@@ -667,8 +688,8 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 9,
-        "scoring_plays": 1
+        "total_plays": 12,
+        "scoring_plays": 3
       }
     ],
     "innings_raw": [
@@ -741,7 +762,7 @@
         "id": 2026,
         "date": "2025-12-17 19:30:00",
         "status": 2,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
