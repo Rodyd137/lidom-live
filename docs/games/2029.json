@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2029",
-    "scraped_at": "2025-12-19T23:53:54.756Z",
+    "scraped_at": "2025-12-19T23:55:00.120Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,7 +14,7 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -92,6 +92,17 @@
             "team_id": 1,
             "name": "Francisco Mejía",
             "abbreviation": "F. Mejía",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5276,
+            "team_id": 1,
+            "name": "Mel Rojas Jr.",
+            "abbreviation": "M. Rojas Jr.",
             "number": null,
             "dob": null,
             "height": "",
@@ -371,6 +382,20 @@
             "ts": 1766188256
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18468-1-8",
+            "text": "Mel Rojas Jr. al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766188441
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -386,6 +411,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
