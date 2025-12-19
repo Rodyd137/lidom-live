@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2029",
-    "scraped_at": "2025-12-19T23:56:03.062Z",
+    "scraped_at": "2025-12-19T23:57:05.873Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-19 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Mel Rojas Jr.  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
@@ -103,6 +103,17 @@
             "team_id": 1,
             "name": "Mel Rojas Jr.",
             "abbreviation": "M. Rojas Jr.",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5275,
+            "team_id": 1,
+            "name": "Cristhian Adames",
+            "abbreviation": "C. Adames",
             "number": null,
             "dob": null,
             "height": "",
@@ -390,10 +401,17 @@
         "plays": [
           {
             "reference_id": "18468-1-8",
-            "text": "Mel Rojas Jr. al bate",
+            "text": "Mel Rojas Jr.  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1766188441
+            "ts": 1766188568
+          },
+          {
+            "reference_id": "18468-1-9",
+            "text": "Cristhian Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766188602
           }
         ]
       }
@@ -417,7 +435,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -491,7 +509,7 @@
         "id": 2028,
         "date": "2025-12-19 19:15:00",
         "status": 2,
-        "roundText": "Alta 1ra",
+        "roundText": "Baja 1ra",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -517,7 +535,7 @@
         "id": 2030,
         "date": "2025-12-19 19:30:00",
         "status": 2,
-        "roundText": "Baja 1ra",
+        "roundText": "Alta 2da",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
