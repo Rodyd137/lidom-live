@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2032",
-    "scraped_at": "2025-12-20T21:51:57.015Z",
+    "scraped_at": "2025-12-20T21:53:42.594Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-20 17:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Sergio Alcantara Sencillo ",
+    "lastPlayByPlay": "David Hensley Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -268,6 +268,17 @@
             "team_id": 1,
             "name": "David Hensley",
             "abbreviation": "D. Hensley",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5279,
+            "team_id": 1,
+            "name": "Emilio Bonifacio",
+            "abbreviation": "E. Bonifacio",
             "number": null,
             "dob": null,
             "height": "",
@@ -573,10 +584,17 @@
           },
           {
             "reference_id": "18495-2-18",
-            "text": "David Hensley al bate",
+            "text": "David Hensley Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766267353
+            "ts": 1766267567
+          },
+          {
+            "reference_id": "18495-2-19",
+            "text": "Emilio Bonifacio al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766267620
           }
         ]
       }
@@ -607,7 +625,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],

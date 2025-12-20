@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2031",
-    "scraped_at": "2025-12-20T21:51:56.997Z",
+    "scraped_at": "2025-12-20T21:53:42.515Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-20 17:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Kenny Piper  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -611,6 +611,34 @@
             "ts": 1766267307
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "18487-2-20",
+            "text": "Julio Carreras  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766267541
+          },
+          {
+            "reference_id": "18487-2-21",
+            "text": "Kenny Piper  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766267610
+          },
+          {
+            "reference_id": "18487-2-22",
+            "text": "Melvi Mercedes  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766267618
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -647,6 +675,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
