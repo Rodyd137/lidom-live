@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2032",
-    "scraped_at": "2025-12-20T21:35:12.304Z",
+    "scraped_at": "2025-12-20T21:36:16.408Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-20 17:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jeimer Candelario Out: Elevado al Jardinero Derecho ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "balls": 1,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -136,6 +136,17 @@
             "team_id": 6,
             "name": "Jeimer Candelario",
             "abbreviation": "J. Candelario",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5459,
+            "team_id": 6,
+            "name": "Rafael Lantigua ",
+            "abbreviation": "R. Lantigua",
             "number": null,
             "dob": null,
             "height": "",
@@ -469,10 +480,17 @@
         "plays": [
           {
             "reference_id": "18495-1-12",
-            "text": "Jeimer Candelario al bate",
+            "text": "Jeimer Candelario Out: Elevado al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766266478
+            "ts": 1766266525
+          },
+          {
+            "reference_id": "18495-1-13",
+            "text": "Rafael Lantigua  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766266567
           }
         ]
       }
@@ -496,7 +514,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
