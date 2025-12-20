@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2031",
-    "scraped_at": "2025-12-20T21:43:33.526Z",
+    "scraped_at": "2025-12-20T21:44:36.870Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-20 17:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Junior Lake Doble Play! Campo Corto - Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -569,6 +569,34 @@
             "ts": 1766266824
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "18487-1-16",
+            "text": "Jonathan Arauz Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766267018
+          },
+          {
+            "reference_id": "18487-1-17",
+            "text": "Junior Lake Doble Play! Campo Corto - Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766267065
+          },
+          {
+            "reference_id": "18487-1-18",
+            "text": "Erik Gonzalez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766267067
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -597,6 +625,13 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
         "total_plays": 3,
         "scoring_plays": 0
       }
