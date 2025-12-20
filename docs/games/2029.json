@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2029",
-    "scraped_at": "2025-12-20T00:04:24.993Z",
+    "scraped_at": "2025-12-20T00:05:27.781Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-19 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Alberto Rodriguez Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -191,6 +191,17 @@
             "team_id": 3,
             "name": "Jerar Encarnacion",
             "abbreviation": "J. Encarnacion",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5390,
+            "team_id": 3,
+            "name": "Alberto Rodriguez",
+            "abbreviation": "A. Rodriguez",
             "number": null,
             "dob": null,
             "height": "",
@@ -432,6 +443,20 @@
             "ts": 1766188896
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "18468-2-11",
+            "text": "Alberto Rodriguez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766189119
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -454,6 +479,13 @@
         "half": "top",
         "label": "Alta 2da",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -543,8 +575,8 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 0,
-          "hits": 0,
+          "runs": 1,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         }
