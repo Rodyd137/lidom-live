@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2028",
-    "scraped_at": "2025-12-20T00:31:36.936Z",
+    "scraped_at": "2025-12-20T00:32:39.564Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-19 19:15:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Gilberto Celestino Doble! ",
+    "lastPlayByPlay": "Luis Liberato Sencillo y 2 Carreras Impulsadas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 7
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": true,
-      "on3B": true,
-      "runners": 2,
-      "mask": 7
+      "on1B": true,
+      "on2B": false,
+      "on3B": false,
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 0,
-          "H": 3,
+          "R": 2,
+          "H": 4,
           "E": 0,
-          "H2": 0
+          "H2": 2
         },
         "probables": {
           "pitcher": "Greg Minier ",
@@ -303,7 +303,7 @@
         },
         {
           "num": 3,
-          "away": 0,
+          "away": 2,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 3,
+          "R": 2,
+          "H": 4,
           "E": 0
         },
         "home": {
@@ -362,31 +362,31 @@
           },
           {
             "num": 3,
-            "R": 0
+            "R": 2
           },
           {
             "num": 4,
-            "R": 0
+            "R": 2
           },
           {
             "num": 5,
-            "R": 0
+            "R": 2
           },
           {
             "num": 6,
-            "R": 0
+            "R": 2
           },
           {
             "num": 7,
-            "R": 0
+            "R": 2
           },
           {
             "num": 8,
-            "R": 0
+            "R": 2
           },
           {
             "num": 9,
-            "R": 0
+            "R": 2
           }
         ],
         "home": [
@@ -598,10 +598,17 @@
           },
           {
             "reference_id": "18460-1-20",
-            "text": "Luis Liberato al bate",
+            "text": "Luis Liberato Sencillo y 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1766190702
+          },
+          {
+            "reference_id": "18460-1-21",
+            "text": "Bryan de la Cruz al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1766190651
+            "ts": 1766190707
           }
         ]
       }
@@ -639,8 +646,8 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -662,7 +669,7 @@
         "num": 3,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
@@ -739,7 +746,7 @@
         "id": 2030,
         "date": "2025-12-19 19:30:00",
         "status": 2,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
