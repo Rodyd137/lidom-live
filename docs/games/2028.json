@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2028",
-    "scraped_at": "2025-12-20T03:04:20.487Z",
+    "scraped_at": "2025-12-20T03:05:23.626Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-19 19:15:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Junior Lake Base por Bolas ",
+    "lastPlayByPlay": "Erik Gonzalez Sencillo y 1 Carrera Impulsada ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 7
+      "base": 6
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": true,
+      "on1B": true,
+      "on2B": false,
       "on3B": true,
       "runners": 2,
-      "mask": 7
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 3,
-          "H": 7,
+          "R": 4,
+          "H": 8,
           "E": 0,
           "H2": 3
         },
@@ -339,7 +339,7 @@
         {
           "num": 10,
           "away": 1,
-          "home": 0
+          "home": 1
         }
       ],
       "extras": true,
@@ -350,8 +350,8 @@
           "E": 1
         },
         "home": {
-          "R": 3,
-          "H": 7,
+          "R": 4,
+          "H": 8,
           "E": 0
         }
       },
@@ -437,7 +437,7 @@
           },
           {
             "num": 10,
-            "R": 3
+            "R": 4
           }
         ]
       }
@@ -1115,10 +1115,17 @@
           },
           {
             "reference_id": "19190-2-75",
-            "text": "Erik Gonzalez al bate",
+            "text": "Erik Gonzalez Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1766199916
+          },
+          {
+            "reference_id": "19190-2-76",
+            "text": "Socrates Brito al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1766199731
+            "ts": 1766199920
           }
         ]
       }
@@ -1261,8 +1268,8 @@
         "num": 10,
         "half": "bottom",
         "label": "Baja 10ma",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1334,7 +1341,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       }
     ],
     "siblingGames": [
