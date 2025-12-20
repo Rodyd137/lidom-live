@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2028",
-    "scraped_at": "2025-12-20T00:26:23.127Z",
+    "scraped_at": "2025-12-20T00:27:25.836Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 3,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -569,6 +569,20 @@
             "ts": 1766190245
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "18460-1-17",
+            "text": "Tres Barrera al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766190401
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -598,6 +612,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -704,7 +725,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 0,
-          "hits": 3,
+          "hits": 4,
           "errors": 1,
           "permalink": "/equipo/gigantes-del-cibao"
         },
