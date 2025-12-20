@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2031",
-    "scraped_at": "2025-12-20T21:38:24.234Z",
+    "scraped_at": "2025-12-20T21:39:28.256Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-20 17:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Marco Hernández  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -541,6 +541,27 @@
             "ts": 1766266490
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "18486-2-13",
+            "text": "Marco Hernández  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766266744
+          },
+          {
+            "reference_id": "18486-2-14",
+            "text": "Nick Torres al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766266746
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -563,6 +584,13 @@
         "half": "top",
         "label": "Alta 2da",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
