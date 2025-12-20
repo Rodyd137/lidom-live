@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2028",
-    "scraped_at": "2025-12-20T01:20:37.048Z",
+    "scraped_at": "2025-12-20T01:21:39.630Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-19 19:15:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Junior Lake se embasa por Error del Tercera Base",
+    "lastPlayByPlay": "Erik Gonzalez Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 8
     },
     "base_runners": {
       "on1B": true,
       "on2B": true,
-      "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "on3B": true,
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -766,10 +766,17 @@
           },
           {
             "reference_id": "18462-2-39",
-            "text": "Erik Gonzalez al bate",
+            "text": "Erik Gonzalez Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766193620
+            "ts": 1766193689
+          },
+          {
+            "reference_id": "18462-2-40",
+            "text": "Socrates Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766193693
           }
         ]
       }
@@ -842,7 +849,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
