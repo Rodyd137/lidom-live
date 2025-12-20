@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2031",
-    "scraped_at": "2025-12-20T23:02:48.528Z",
+    "scraped_at": "2025-12-20T23:03:51.120Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-20 17:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Luis García Jr  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 2,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Diógenes Almengó",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -786,6 +786,27 @@
             "ts": 1766271551
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "18489-2-41",
+            "text": "Luis García Jr  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766271785
+          },
+          {
+            "reference_id": "18489-2-42",
+            "text": "Nomar Mazara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766271789
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -850,6 +871,13 @@
         "half": "top",
         "label": "Alta 5ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -940,7 +968,7 @@
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 4,
-          "hits": 6,
+          "hits": 7,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         }
