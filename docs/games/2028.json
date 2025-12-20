@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2028",
-    "scraped_at": "2025-12-20T02:52:46.882Z",
+    "scraped_at": "2025-12-20T02:53:51.889Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-19 19:15:00",
     "roundText": "Alta 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Jeimer Candelario Ponche (K) ",
+    "lastPlayByPlay": "Rudy Martin  Elevado de Sacrificio ",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 4
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 3,
+          "R": 4,
           "H": 8,
           "E": 1,
           "H2": 2
@@ -143,10 +143,10 @@
             "position": ""
           },
           {
-            "id": 5573,
+            "id": 5611,
             "team_id": 6,
-            "name": "Tres Barrera",
-            "abbreviation": "T. Barrera",
+            "name": "Rudy Martin ",
+            "abbreviation": "R. Martin",
             "number": null,
             "dob": null,
             "height": "",
@@ -338,14 +338,14 @@
         },
         {
           "num": 10,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": true,
       "totals": {
         "away": {
-          "R": 3,
+          "R": 4,
           "H": 8,
           "E": 1
         },
@@ -395,7 +395,7 @@
           },
           {
             "num": 10,
-            "R": 3
+            "R": 4
           }
         ],
         "home": [
@@ -1080,10 +1080,17 @@
           },
           {
             "reference_id": "19190-1-71",
-            "text": "Tres Barrera al bate",
+            "text": "Rudy Martin  Elevado de Sacrificio ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1766199208
+          },
+          {
+            "reference_id": "19190-1-72",
+            "text": "Rafael Lantigua  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1766199036
+            "ts": 1766199213
           }
         ]
       }
@@ -1219,8 +1226,8 @@
         "num": 10,
         "half": "top",
         "label": "Alta 10ma",
-        "total_plays": 2,
-        "scoring_plays": 0
+        "total_plays": 3,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1291,7 +1298,7 @@
         "num": 10,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
