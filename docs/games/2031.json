@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2031",
-    "scraped_at": "2025-12-20T23:49:50.980Z",
+    "scraped_at": "2025-12-20T23:51:37.784Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-20 17:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Nomar Mazara  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -926,6 +926,34 @@
             "ts": 1766274296
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "18491-2-56",
+            "text": "Luis García Jr Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766274601
+          },
+          {
+            "reference_id": "18491-2-57",
+            "text": "Nomar Mazara  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766274637
+          },
+          {
+            "reference_id": "18491-2-58",
+            "text": "Deyvinson de los Santos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766274643
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1017,6 +1045,13 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
         "total_plays": 3,
         "scoring_plays": 0
       }
