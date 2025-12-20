@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2033",
-    "scraped_at": "2025-12-20T23:52:43.557Z",
+    "scraped_at": "2025-12-20T23:53:48.178Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-20 19:30:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Julio E. Rodriguez Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -499,6 +499,20 @@
             "ts": 1766274759
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "18503-2-10",
+            "text": "Raimel Tapia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766274783
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -508,12 +522,19 @@
         "label": "Alta 1ra",
         "total_plays": 9,
         "scoring_plays": 2
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 4,
         "homeTeamRuns": 0
