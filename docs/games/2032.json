@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2032",
-    "scraped_at": "2025-12-20T22:10:58.857Z",
+    "scraped_at": "2025-12-20T22:12:03.601Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-20 17:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Mel Rojas Jr.  Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "Cristhian Adames Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -668,10 +668,17 @@
           },
           {
             "reference_id": "18496-2-28",
-            "text": "Cristhian Adames al bate",
+            "text": "Cristhian Adames Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766268578
+            "ts": 1766268690
+          },
+          {
+            "reference_id": "18496-2-29",
+            "text": "Domingo Leyba al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766268695
           }
         ]
       }
@@ -716,7 +723,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 1
       }
     ],
