@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2029",
-    "scraped_at": "2025-12-20T02:24:20.987Z",
+    "scraped_at": "2025-12-20T02:25:23.770Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 9,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -1010,6 +1010,20 @@
             "ts": 1766197317
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "18475-2-67",
+            "text": "Alberto Rodriguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766197488
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1131,6 +1145,13 @@
         "label": "Alta 9na",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1210,7 +1231,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 3,
-          "hits": 6,
+          "hits": 7,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
         },
