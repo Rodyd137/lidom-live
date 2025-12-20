@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2030",
-    "scraped_at": "2025-12-20T02:25:23.775Z",
+    "scraped_at": "2025-12-20T02:26:26.419Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-19 19:30:00",
     "roundText": "Baja 11ra",
     "currentInningNum": 11,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jorge Mateo Sencillo y 1 Carrera Impulsada ",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": true,
+      "on1B": true,
+      "on2B": false,
       "on3B": false,
       "runners": 1,
-      "mask": 3
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 0,
-          "H": 3,
+          "R": 1,
+          "H": 4,
           "E": 0,
           "H2": 0
         },
@@ -344,7 +344,7 @@
         {
           "num": 11,
           "away": 2,
-          "home": 0
+          "home": 1
         }
       ],
       "extras": true,
@@ -355,8 +355,8 @@
           "E": 1
         },
         "home": {
-          "R": 0,
-          "H": 3,
+          "R": 1,
+          "H": 4,
           "E": 0
         }
       },
@@ -450,7 +450,7 @@
           },
           {
             "num": 11,
-            "R": 0
+            "R": 1
           }
         ]
       }
@@ -1114,10 +1114,17 @@
         "plays": [
           {
             "reference_id": "19188-2-74",
-            "text": "Jorge Mateo al bate",
+            "text": "Jorge Mateo Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1766197556
+          },
+          {
+            "reference_id": "19188-2-75",
+            "text": "Josh Lester al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1766197398
+            "ts": 1766197561
           }
         ]
       }
@@ -1274,8 +1281,8 @@
         "num": 11,
         "half": "bottom",
         "label": "Baja 11ra",
-        "total_plays": 1,
-        "scoring_plays": 0
+        "total_plays": 2,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1354,7 +1361,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 2,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       }
     ],
     "siblingGames": [
