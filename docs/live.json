@@ -2,7 +2,7 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2025-12-20T23:32:31.528Z",
+    "scraped_at": "2025-12-20T23:33:34.379Z",
     "tz": "America/Santo_Domingo"
   },
   "tracked_ids": [
@@ -24,10 +24,10 @@
       },
       "base": {
         "on1B": true,
-        "on2B": true,
-        "on3B": false,
+        "on2B": false,
+        "on3B": true,
         "runners": 2,
-        "mask": 5
+        "mask": 6
       },
       "battingTeam": "homeTeam",
       "score": {
@@ -36,7 +36,7 @@
           "abbr": "LE",
           "R": 0,
           "H": 6,
-          "E": 0
+          "E": 1
         },
         "home": {
           "name": "Gigantes",
@@ -46,20 +46,20 @@
           "E": 0
         }
       },
-      "threat": 47,
-      "updated_at": "2025-12-20T23:32:31.528Z"
+      "threat": 51,
+      "updated_at": "2025-12-20T23:33:34.379Z"
     },
     {
       "id": 2032,
       "status": 2,
-      "roundText": "Baja 7ma",
-      "currentInningNum": 7,
+      "roundText": "Alta 8va",
+      "currentInningNum": 8,
       "atBat": null,
-      "lastPlayByPlay": "Francisco Mejía Out Robando Base! ",
+      "lastPlayByPlay": null,
       "counts": {
         "balls": 0,
-        "strikes": 2,
-        "outs": 2
+        "strikes": 0,
+        "outs": 0
       },
       "base": {
         "on1B": false,
@@ -68,7 +68,7 @@
         "runners": 0,
         "mask": 1
       },
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "score": {
         "away": {
           "name": "Toros",
@@ -85,8 +85,8 @@
           "E": 0
         }
       },
-      "threat": 4,
-      "updated_at": "2025-12-20T23:32:31.528Z"
+      "threat": 22,
+      "updated_at": "2025-12-20T23:33:34.379Z"
     }
   ]
 }
