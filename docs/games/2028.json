@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2028",
-    "scraped_at": "2025-12-20T03:09:35.206Z",
+    "scraped_at": "2025-12-20T03:10:38.120Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2028,
     "season_id": 20,
-    "status": 2,
+    "status": 6,
     "date": "2025-12-19 19:15:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Erik Gonzalez Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Socrates Brito Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 1
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 6
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 4,
-          "H": 8,
+          "R": 5,
+          "H": 9,
           "E": 0,
           "H2": 3
         },
@@ -339,7 +339,7 @@
         {
           "num": 10,
           "away": 1,
-          "home": 1
+          "home": 2
         }
       ],
       "extras": true,
@@ -350,8 +350,8 @@
           "E": 1
         },
         "home": {
-          "R": 4,
-          "H": 8,
+          "R": 5,
+          "H": 9,
           "E": 0
         }
       },
@@ -437,7 +437,7 @@
           },
           {
             "num": 10,
-            "R": 4
+            "R": 5
           }
         ]
       }
@@ -1122,10 +1122,10 @@
           },
           {
             "reference_id": "19190-2-76",
-            "text": "Socrates Brito al bate",
-            "scored": false,
+            "text": "Socrates Brito Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
             "is_primary": true,
-            "ts": 1766199920
+            "ts": 1766200194
           }
         ]
       }
@@ -1269,7 +1269,7 @@
         "half": "bottom",
         "label": "Baja 10ma",
         "total_plays": 4,
-        "scoring_plays": 1
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1341,7 +1341,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 1
+        "homeTeamRuns": 2
       }
     ],
     "siblingGames": [
@@ -1374,7 +1374,7 @@
       {
         "id": 2030,
         "date": "2025-12-19 19:30:00",
-        "status": 2,
+        "status": 6,
         "roundText": "Baja 12da",
         "awayTeam": {
           "id": 5,
