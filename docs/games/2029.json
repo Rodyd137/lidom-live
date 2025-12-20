@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2029",
-    "scraped_at": "2025-12-20T01:49:51.046Z",
+    "scraped_at": "2025-12-20T01:50:53.911Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-19 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Ronny Mauricio Base por Bolas Intencional ",
+    "lastPlayByPlay": "Francisco Mejía Elevado de Sacrificio Carrera Empujada",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 6
+      "base": 2
     },
     "base_runners": {
       "on1B": true,
       "on2B": false,
-      "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "on3B": false,
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
-          "R": 3,
+          "R": 4,
           "H": 3,
           "E": 1,
           "H2": 3
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,7 +340,7 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 3,
+          "R": 4,
           "H": 3,
           "E": 1
         },
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 3
+            "R": 4
           },
           {
             "num": 9,
-            "R": 3
+            "R": 4
           }
         ],
         "home": [
@@ -920,10 +920,17 @@
           },
           {
             "reference_id": "18474-1-56",
-            "text": "Francisco Mejía al bate",
+            "text": "Francisco Mejía Elevado de Sacrificio Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1766195409
+          },
+          {
+            "reference_id": "18474-1-57",
+            "text": "Mel Rojas Jr. al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1766195376
+            "ts": 1766195428
           }
         ]
       }
@@ -1031,8 +1038,8 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1089,7 +1096,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
@@ -1131,7 +1138,7 @@
         "id": 2030,
         "date": "2025-12-19 19:30:00",
         "status": 2,
-        "roundText": "Alta 9na",
+        "roundText": "Baja 9na",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
