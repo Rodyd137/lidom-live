@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2029",
-    "scraped_at": "2025-12-20T00:19:03.798Z",
+    "scraped_at": "2025-12-20T00:20:06.623Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,7 +14,7 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -257,6 +257,17 @@
             "team_id": 3,
             "name": "Robert Moore",
             "abbreviation": "R. Moore",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5596,
+            "team_id": 3,
+            "name": "Elih Marrero",
+            "abbreviation": "E. Marrero",
             "number": null,
             "dob": null,
             "height": "",
@@ -561,6 +572,20 @@
             "ts": 1766189815
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "18469-2-18",
+            "text": "Elih Marrero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766189993
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -597,6 +622,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
