@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2032",
-    "scraped_at": "2025-12-20T23:06:58.911Z",
+    "scraped_at": "2025-12-20T23:08:01.635Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-20 17:00:00",
-    "roundText": "Baja 6ta",
-    "currentInningNum": 6,
-    "lastPlayByPlay": "Gustavo Nuñez Sencillo y 1 Carrera Impulsada ",
+    "roundText": "Alta 7ma",
+    "currentInningNum": 7,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -872,16 +872,23 @@
           {
             "reference_id": "18499-2-51",
             "text": "Gustavo Nuñez Sencillo y 1 Carrera Impulsada ",
-            "scored": true,
+            "scored": false,
             "is_primary": true,
             "ts": 1766271957
           },
           {
+            "reference_id": "18499-2-51-272957",
+            "text": "Gustavo Nuñez Out Robando Base! ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1766272059
+          },
+          {
             "reference_id": "18499-2-52",
-            "text": "Ronny Mauricio al bate",
+            "text": "Ronny Mauricio Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766271980
+            "ts": 1766272068
           }
         ]
       }
@@ -968,8 +975,8 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 4,
-        "scoring_plays": 1
+        "total_plays": 5,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1011,14 +1018,14 @@
       {
         "num": 6,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 1
       },
       {
         "num": 7,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -1059,7 +1066,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 3,
-          "hits": 4,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
