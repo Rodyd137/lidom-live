@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2032",
-    "scraped_at": "2025-12-20T22:21:23.444Z",
+    "scraped_at": "2025-12-20T22:22:26.614Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-20 17:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Juan Brito Out: Elevado al Jardinero Izquierdo",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -696,10 +696,17 @@
         "plays": [
           {
             "reference_id": "18497-1-31",
-            "text": "Juan Brito al bate",
+            "text": "Juan Brito Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1766269235
+            "ts": 1766269303
+          },
+          {
+            "reference_id": "18497-1-32",
+            "text": "Jeimer Candelario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766269319
           }
         ]
       }
@@ -751,7 +758,7 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -841,8 +848,8 @@
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 0,
-          "hits": 1,
+          "runs": 2,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
