@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2030",
-    "scraped_at": "2025-12-20T02:42:07.738Z",
+    "scraped_at": "2025-12-20T02:43:10.628Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-19 19:30:00",
     "roundText": "Alta 12da",
     "currentInningNum": 12,
-    "lastPlayByPlay": "Nomar Mazara Ponche (K) ",
+    "lastPlayByPlay": "Deyvinson de los Santos Base por Bolas Intencional ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 1
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -99,10 +99,10 @@
             "position": ""
           },
           {
-            "id": 5242,
+            "id": 5243,
             "team_id": 5,
-            "name": "Gary Sanchez",
-            "abbreviation": "G. Sanchez",
+            "name": "Hanser Alberto",
+            "abbreviation": "H. Alberto",
             "number": null,
             "dob": null,
             "height": "",
@@ -1172,10 +1172,24 @@
           },
           {
             "reference_id": "19189-1-82",
-            "text": "Gary Sanchez al bate",
+            "text": "Hanser Alberto Out: Elevado al Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1766198491
+            "ts": 1766198550
+          },
+          {
+            "reference_id": "19189-1-83",
+            "text": "Deyvinson de los Santos Base por Bolas Intencional ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766198574
+          },
+          {
+            "reference_id": "19189-1-84",
+            "text": "Kelvin Gutiérrez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766198577
           }
         ]
       }
@@ -1339,7 +1353,7 @@
         "num": 12,
         "half": "top",
         "label": "Alta 12da",
-        "total_plays": 2,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
