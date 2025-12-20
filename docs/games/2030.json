@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2030",
-    "scraped_at": "2025-12-20T00:51:29.446Z",
+    "scraped_at": "2025-12-20T00:52:32.412Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-19 19:30:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jorge Mateo Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -745,10 +745,17 @@
         "plays": [
           {
             "reference_id": "18480-2-36",
-            "text": "Jorge Mateo al bate",
+            "text": "Jorge Mateo Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1766191861
+            "ts": 1766191924
+          },
+          {
+            "reference_id": "18480-2-37",
+            "text": "Josh Lester al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766191930
           }
         ]
       }
@@ -821,7 +828,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -927,8 +934,8 @@
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 0,
-          "hits": 1,
+          "runs": 3,
+          "hits": 2,
           "errors": 1,
           "permalink": "/equipo/tigres-del-licey"
         },
