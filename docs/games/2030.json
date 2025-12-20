@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2030",
-    "scraped_at": "2025-12-20T02:40:02.544Z",
+    "scraped_at": "2025-12-20T02:41:05.148Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,19 +14,19 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -180,7 +180,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Javy Guerra",
+          "pitcher": "Oddy Nuñez ",
           "era": "",
           "record": "",
           "debut": false
@@ -1157,6 +1157,20 @@
             "ts": 1766198263
           }
         ]
+      },
+      {
+        "num": 12,
+        "half": "top",
+        "label": "Alta 12da",
+        "plays": [
+          {
+            "reference_id": "19189-1-81",
+            "text": "Nomar Mazara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766198416
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1313,6 +1327,13 @@
         "label": "Baja 11ra",
         "total_plays": 6,
         "scoring_plays": 2
+      },
+      {
+        "num": 12,
+        "half": "top",
+        "label": "Alta 12da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
