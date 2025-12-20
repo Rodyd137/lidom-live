@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2029",
-    "scraped_at": "2025-12-20T02:02:23.713Z",
+    "scraped_at": "2025-12-20T02:03:26.426Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-19 19:30:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Leody Taveras Out: Elevado al Jardinero Izquierdo",
+    "lastPlayByPlay": "Ezequiel Duran Out: Elevado al Jardinero Derecho ",
     "counts": {
-      "balls": 1,
-      "strikes": 0,
-      "outs": 1
+      "balls": 0,
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 3
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -955,10 +955,17 @@
           },
           {
             "reference_id": "18474-2-60",
-            "text": "Ezequiel Duran al bate",
+            "text": "Ezequiel Duran Out: Elevado al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766196075
+            "ts": 1766196158
+          },
+          {
+            "reference_id": "18474-2-61",
+            "text": "Geraldo Perdomo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766196161
           }
         ]
       }
@@ -1073,7 +1080,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
