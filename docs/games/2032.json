@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2032",
-    "scraped_at": "2025-12-20T23:44:32.147Z",
+    "scraped_at": "2025-12-20T23:45:36.003Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-20 17:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Domingo Leyba Out: Línea al Jardinero Izquierdo",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
@@ -1003,6 +1003,27 @@
             "ts": 1766273965
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "18501-2-65",
+            "text": "Domingo Leyba Out: Línea al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766274313
+          },
+          {
+            "reference_id": "18501-2-66",
+            "text": "Sergio Alcantara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766274316
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1110,6 +1131,13 @@
         "label": "Alta 8va",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1182,7 +1210,7 @@
         "id": 2031,
         "date": "2025-12-20 17:00:00",
         "status": 2,
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
