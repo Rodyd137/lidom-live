@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2030",
-    "scraped_at": "2025-12-20T01:38:21.998Z",
+    "scraped_at": "2025-12-20T01:39:24.540Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-19 19:30:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jorge Mateo Ponche (K) ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "balls": 1,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -905,6 +905,27 @@
             "ts": 1766194404
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "18483-2-55",
+            "text": "Jorge Mateo Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766194713
+          },
+          {
+            "reference_id": "18483-2-56",
+            "text": "Josh Lester al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766194717
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1011,6 +1032,13 @@
         "half": "top",
         "label": "Alta 8va",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
