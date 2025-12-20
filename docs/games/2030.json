@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2030",
-    "scraped_at": "2025-12-20T00:23:14.984Z",
+    "scraped_at": "2025-12-20T00:24:17.768Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-19 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Francisco Peña Out: Línea al Segunda Base",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -605,10 +605,24 @@
         "plays": [
           {
             "reference_id": "18478-2-20",
-            "text": "Josh Lester al bate",
+            "text": "Josh Lester Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766190070
+            "ts": 1766190202
+          },
+          {
+            "reference_id": "18478-2-21",
+            "text": "Francisco Peña Out: Línea al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766190218
+          },
+          {
+            "reference_id": "18478-2-22",
+            "text": "Vidal Brujan al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766190222
           }
         ]
       }
@@ -653,7 +667,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -727,7 +741,7 @@
         "id": 2028,
         "date": "2025-12-19 19:15:00",
         "status": 2,
-        "roundText": "Baja 2da",
+        "roundText": "Alta 3ra",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
