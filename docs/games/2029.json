@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2029",
-    "scraped_at": "2025-12-20T01:45:40.657Z",
+    "scraped_at": "2025-12-20T01:46:43.247Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-19 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Emilio Bonifacio Doble! ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 3,
-          "H": 2,
+          "H": 3,
           "E": 1,
           "H2": 3
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 3,
-          "H": 2,
+          "H": 3,
           "E": 1
         },
         "home": {
@@ -899,10 +899,17 @@
         "plays": [
           {
             "reference_id": "18474-1-53",
-            "text": "Emilio Bonifacio al bate",
+            "text": "Emilio Bonifacio Doble! ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766195113
+            "ts": 1766195180
+          },
+          {
+            "reference_id": "18474-1-54",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766195183
           }
         ]
       }
@@ -1010,7 +1017,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1084,7 +1091,7 @@
         "id": 2028,
         "date": "2025-12-19 19:15:00",
         "status": 2,
-        "roundText": "Baja 6ta",
+        "roundText": "Alta 7ma",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
