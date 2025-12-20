@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2030",
-    "scraped_at": "2025-12-20T03:02:14.533Z",
+    "scraped_at": "2025-12-20T03:03:17.475Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-19 19:30:00",
     "roundText": "Baja 12da",
     "currentInningNum": 12,
-    "lastPlayByPlay": "Rodolfo Castro Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Ismael Munguia Base por Bolas Intencional ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 6
+      "base": 8
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -235,6 +235,17 @@
             "team_id": 7,
             "name": "Ismael Munguia",
             "abbreviation": "I. Munguia",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5600,
+            "team_id": 7,
+            "name": "Jorge Mateo",
+            "abbreviation": "J. Mateo",
             "number": null,
             "dob": null,
             "height": "",
@@ -1235,10 +1246,17 @@
           },
           {
             "reference_id": "19189-2-90",
-            "text": "Ismael Munguia al bate",
+            "text": "Ismael Munguia Base por Bolas Intencional ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766199547
+            "ts": 1766199736
+          },
+          {
+            "reference_id": "19189-2-91",
+            "text": "Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766199765
           }
         ]
       }
@@ -1409,7 +1427,7 @@
         "num": 12,
         "half": "bottom",
         "label": "Baja 12da",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 1
       }
     ],
