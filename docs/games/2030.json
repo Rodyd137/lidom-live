@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2030",
-    "scraped_at": "2025-12-20T02:29:34.903Z",
+    "scraped_at": "2025-12-20T02:30:37.878Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-19 19:30:00",
     "roundText": "Baja 11ra",
     "currentInningNum": 11,
-    "lastPlayByPlay": "Josh Lester  Out: Rodado al Lanzador - Segunda Base",
+    "lastPlayByPlay": "Magneuris Sierra Robo de Base ",
     "counts": {
-      "balls": 0,
-      "strikes": 1,
+      "balls": 1,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -242,21 +242,10 @@
             "position": ""
           },
           {
-            "id": 5600,
+            "id": 5361,
             "team_id": 7,
-            "name": "Jorge Mateo",
-            "abbreviation": "J. Mateo",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 5355,
-            "team_id": 7,
-            "name": "Josh Lester",
-            "abbreviation": "J. Lester",
+            "name": "Magneuris Sierra",
+            "abbreviation": "M. Sierra",
             "number": null,
             "dob": null,
             "height": "",
@@ -1128,10 +1117,17 @@
           },
           {
             "reference_id": "19188-2-77",
+            "text": "Magneuris Sierra Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766197811
+          },
+          {
+            "reference_id": "19188-2-78",
             "text": "Wilin Rosario al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1766197749
+            "ts": 1766197816
           }
         ]
       }
@@ -1288,7 +1284,7 @@
         "num": 11,
         "half": "bottom",
         "label": "Baja 11ra",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 1
       }
     ],
