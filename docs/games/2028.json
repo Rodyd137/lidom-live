@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2028",
-    "scraped_at": "2025-12-20T02:05:31.701Z",
+    "scraped_at": "2025-12-20T02:06:34.359Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-19 19:15:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Rafael Lantigua  Sencillo ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 1
+      "balls": 1,
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 3,
-          "H": 5,
+          "H": 6,
           "E": 1,
           "H2": 2
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 3,
-          "H": 5,
+          "H": 6,
           "E": 1
         },
         "home": {
@@ -912,6 +912,27 @@
             "ts": 1766196128
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "18465-1-56",
+            "text": "Rafael Lantigua  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766196347
+          },
+          {
+            "reference_id": "18465-1-57",
+            "text": "Gilberto Celestino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766196349
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1012,6 +1033,13 @@
         "label": "Baja 7ma",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1100,8 +1128,8 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 0,
-          "hits": 5,
+          "runs": 1,
+          "hits": 6,
           "errors": 2,
           "permalink": "/equipo/aguilas-cibaenas"
         }
