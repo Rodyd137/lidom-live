@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2030",
-    "scraped_at": "2025-12-20T02:32:43.573Z",
+    "scraped_at": "2025-12-20T02:33:46.597Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-19 19:30:00",
     "roundText": "Baja 11ra",
     "currentInningNum": 11,
-    "lastPlayByPlay": "Wilin Rosario  Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "Vidal Brujan Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
-      "strikes": 2,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 4
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": true,
+      "on3B": false,
       "runners": 1,
-      "mask": 4
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 1,
-          "H": 4,
+          "R": 2,
+          "H": 5,
           "E": 0,
           "H2": 0
         },
@@ -333,7 +333,7 @@
         {
           "num": 11,
           "away": 2,
-          "home": 1
+          "home": 2
         }
       ],
       "extras": true,
@@ -344,8 +344,8 @@
           "E": 1
         },
         "home": {
-          "R": 1,
-          "H": 4,
+          "R": 2,
+          "H": 5,
           "E": 0
         }
       },
@@ -439,7 +439,7 @@
           },
           {
             "num": 11,
-            "R": 1
+            "R": 2
           }
         ]
       }
@@ -1131,10 +1131,17 @@
           },
           {
             "reference_id": "19188-2-79",
-            "text": "Vidal Brujan al bate",
+            "text": "Vidal Brujan Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1766197986
+          },
+          {
+            "reference_id": "19188-2-80",
+            "text": "Raimel Tapia al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1766197880
+            "ts": 1766197997
           }
         ]
       }
@@ -1291,8 +1298,8 @@
         "num": 11,
         "half": "bottom",
         "label": "Baja 11ra",
-        "total_plays": 5,
-        "scoring_plays": 1
+        "total_plays": 6,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1371,7 +1378,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 2,
-        "homeTeamRuns": 1
+        "homeTeamRuns": 2
       }
     ],
     "siblingGames": [
