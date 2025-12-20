@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2032",
-    "scraped_at": "2025-12-20T21:21:34.088Z",
+    "scraped_at": "2025-12-20T21:22:38.181Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-20 17:00:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Rudy Martin  Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -119,6 +119,17 @@
             "height": "",
             "image": null,
             "position": ""
+          },
+          {
+            "id": 5606,
+            "team_id": 6,
+            "name": "Juan Brito",
+            "abbreviation": "J. Brito",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
           }
         ]
       },
@@ -141,7 +152,19 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5270,
+            "team_id": 1,
+            "name": "Gustavo Nuñez",
+            "abbreviation": "G. Nuñez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       }
     },
     "comment": "",
@@ -325,6 +348,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1766265615
+          },
+          {
+            "reference_id": "18494-1-6",
+            "text": "Juan Brito Out: Elevado al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766265708
           }
         ]
       }
@@ -334,14 +364,14 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 0
       }
     ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
