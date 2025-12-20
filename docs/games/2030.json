@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2030",
-    "scraped_at": "2025-12-20T02:51:32.471Z",
+    "scraped_at": "2025-12-20T02:52:46.887Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-19 19:30:00",
     "roundText": "Baja 12da",
     "currentInningNum": 12,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Robinson Canó  Golpeado por Pelota ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -1207,10 +1207,17 @@
         "plays": [
           {
             "reference_id": "19189-2-86",
-            "text": "Robinson Canó  al bate",
+            "text": "Robinson Canó  Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766198903
+            "ts": 1766199099
+          },
+          {
+            "reference_id": "19189-2-87",
+            "text": "Dairon Blanco  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766199109
           }
         ]
       }
@@ -1381,7 +1388,7 @@
         "num": 12,
         "half": "bottom",
         "label": "Baja 12da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
