@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2029",
-    "scraped_at": "2025-12-20T00:27:25.860Z",
+    "scraped_at": "2025-12-20T00:28:28.530Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-19 19:30:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ronny Mauricio Out: Elevado al Tercera Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -618,6 +618,27 @@
             "ts": 1766190329
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "18470-1-22",
+            "text": "Ronny Mauricio Out: Elevado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766190497
+          },
+          {
+            "reference_id": "18470-1-23",
+            "text": "Francisco Mejía al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766190501
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -661,6 +682,13 @@
         "half": "bottom",
         "label": "Baja 3ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -741,7 +769,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 0,
-          "hits": 1,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         },
