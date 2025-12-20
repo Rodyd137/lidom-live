@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2028",
-    "scraped_at": "2025-12-20T02:57:00.138Z",
+    "scraped_at": "2025-12-20T02:58:03.068Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-19 19:15:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jonathan Guzman Toque de Sacrificio ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on3B": true,
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -1093,6 +1093,20 @@
             "ts": 1766199274
           }
         ]
+      },
+      {
+        "num": 10,
+        "half": "bottom",
+        "label": "Baja 10ma",
+        "plays": [
+          {
+            "reference_id": "19190-2-73",
+            "text": "Jonathan Guzman Toque de Sacrificio ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766199480
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1228,6 +1242,13 @@
         "label": "Alta 10ma",
         "total_plays": 3,
         "scoring_plays": 1
+      },
+      {
+        "num": 10,
+        "half": "bottom",
+        "label": "Baja 10ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
