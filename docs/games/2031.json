@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2031",
-    "scraped_at": "2025-12-20T22:00:13.013Z",
+    "scraped_at": "2025-12-20T22:01:17.663Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-20 17:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Socrates Brito  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -639,6 +639,27 @@
             "ts": 1766267845
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "18488-1-23",
+            "text": "Socrates Brito  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766268066
+          },
+          {
+            "reference_id": "18488-1-24",
+            "text": "Franchy Cordero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766268069
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -682,6 +703,13 @@
         "half": "bottom",
         "label": "Baja 3ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
