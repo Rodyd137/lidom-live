@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2032",
-    "scraped_at": "2025-12-20T21:34:08.362Z",
+    "scraped_at": "2025-12-20T21:35:12.304Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -125,6 +125,17 @@
             "team_id": 6,
             "name": "Juan Brito",
             "abbreviation": "J. Brito",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5506,
+            "team_id": 6,
+            "name": "Jeimer Candelario",
+            "abbreviation": "J. Candelario",
             "number": null,
             "dob": null,
             "height": "",
@@ -450,6 +461,20 @@
             "ts": 1766266288
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18495-1-12",
+            "text": "Jeimer Candelario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766266478
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -466,6 +491,13 @@
         "label": "Baja 1ra",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -538,7 +570,7 @@
         "id": 2031,
         "date": "2025-12-20 17:00:00",
         "status": 2,
-        "roundText": "Alta 2da",
+        "roundText": "Baja 2da",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
