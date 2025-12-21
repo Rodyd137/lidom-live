@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2033",
-    "scraped_at": "2025-12-21T01:39:59.108Z",
+    "scraped_at": "2025-12-21T01:41:02.385Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-20 19:30:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Corey Joyce Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -849,6 +849,27 @@
             "ts": 1766281026
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "18508-1-52",
+            "text": "Corey Joyce Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766281247
+          },
+          {
+            "reference_id": "18508-1-53",
+            "text": "Corey Joyce al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766281251
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -921,6 +942,13 @@
         "label": "Baja 5ta",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
