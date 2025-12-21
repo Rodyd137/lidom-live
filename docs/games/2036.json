@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2036",
-    "scraped_at": "2025-12-21T23:53:22.054Z",
+    "scraped_at": "2025-12-21T23:58:25.137Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-21 17:00:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Michael De La Cruz Out: Elevado al Campo Corto",
+    "lastPlayByPlay": "Tres Barrera Out: Elevado al Segunda Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "balls": 3,
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -1017,6 +1017,27 @@
             "ts": 1766361155
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "18536-2-73",
+            "text": "Tres Barrera Out: Elevado al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766361379
+          },
+          {
+            "reference_id": "18536-2-74",
+            "text": "Rafael Lantigua  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766361385
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1110,6 +1131,13 @@
         "label": "Alta 7ma",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1157,7 +1185,7 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
