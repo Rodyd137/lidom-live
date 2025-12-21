@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2036",
-    "scraped_at": "2025-12-21T21:20:21.653Z",
+    "scraped_at": "2025-12-21T21:21:25.324Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-21 17:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Engel Beltré Out: Línea al Campo Corto",
+    "lastPlayByPlay": "Juan Brito Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -486,10 +486,17 @@
           },
           {
             "reference_id": "18530-2-7",
-            "text": "Juan Brito al bate",
+            "text": "Juan Brito Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766351898
+            "ts": 1766352026
+          },
+          {
+            "reference_id": "18530-2-8",
+            "text": "Ivan Castillo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766352032
           }
         ]
       }
@@ -506,7 +513,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
