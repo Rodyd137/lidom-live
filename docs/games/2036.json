@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2036",
-    "scraped_at": "2025-12-21T23:36:12.003Z",
+    "scraped_at": "2025-12-21T23:37:17.774Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-21 17:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Player Out: Elevado al Jardinero Izquierdo",
+    "lastPlayByPlay": "Eloy Jimenez  Wild Pitch ",
     "counts": {
-      "balls": 3,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -948,10 +948,24 @@
           },
           {
             "reference_id": "18535-2-64",
-            "text": "Eloy Jimenez  al bate",
+            "text": "Eloy Jimenez  Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766360013
+            "ts": 1766360181
+          },
+          {
+            "reference_id": "18535-2-65",
+            "text": "Eloy Jimenez  Wild Pitch ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766360212
+          },
+          {
+            "reference_id": "18535-2-66",
+            "text": "Bryan Lavastida al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766360216
           }
         ]
       }
@@ -1038,7 +1052,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 2,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
