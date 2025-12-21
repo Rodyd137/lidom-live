@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2034",
-    "scraped_at": "2025-12-21T21:08:37.935Z",
+    "scraped_at": "2025-12-21T21:09:42.333Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 1,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Steve Moyers",
           "era": "",
           "record": "",
           "debut": false
@@ -457,6 +457,20 @@
             "ts": 1766351150
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "18512-2-4",
+            "text": "Junior Lake al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766351337
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -465,6 +479,13 @@
         "half": "top",
         "label": "Alta 1ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
