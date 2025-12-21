@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2034",
-    "scraped_at": "2025-12-21T22:01:27.194Z",
+    "scraped_at": "2025-12-21T22:02:30.016Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-21 17:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Marco Hernández Base por Bolas ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -646,6 +646,27 @@
             "ts": 1766354257
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "18515-1-26",
+            "text": "Marco Hernández Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766354519
+          },
+          {
+            "reference_id": "18515-1-27",
+            "text": "Nick Torres al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766354524
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -689,6 +710,13 @@
         "half": "bottom",
         "label": "Baja 3ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
