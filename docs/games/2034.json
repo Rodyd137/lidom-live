@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2034",
-    "scraped_at": "2025-12-21T22:28:30.807Z",
+    "scraped_at": "2025-12-21T22:29:35.111Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-21 17:00:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Melvi Mercedes   Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
@@ -744,6 +744,27 @@
             "ts": 1766355902
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "18516-1-37",
+            "text": "Melvi Mercedes   Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766356127
+          },
+          {
+            "reference_id": "18516-1-38",
+            "text": "Luis García Jr al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766356132
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -802,6 +823,13 @@
         "label": "Baja 4ta",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -900,7 +928,7 @@
         "id": 2036,
         "date": "2025-12-21 17:00:00",
         "status": 2,
-        "roundText": "Baja 3ra",
+        "roundText": "Alta 4ta",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
