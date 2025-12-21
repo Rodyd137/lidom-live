@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2035",
-    "scraped_at": "2025-12-21T21:54:15.790Z",
+    "scraped_at": "2025-12-21T21:55:20.633Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-21 16:00:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ismael Munguia Sencillo Lanzador",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 1,
-          "H": 2,
+          "H": 3,
           "E": 0,
           "H2": 1
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 1,
-          "H": 2,
+          "H": 3,
           "E": 0
         },
         "home": {
@@ -815,10 +815,17 @@
         "plays": [
           {
             "reference_id": "18526-1-45",
-            "text": "Ismael Munguia al bate",
+            "text": "Ismael Munguia Sencillo Lanzador",
             "scored": false,
             "is_primary": true,
-            "ts": 1766354005
+            "ts": 1766354076
+          },
+          {
+            "reference_id": "18526-1-46",
+            "text": "Rodolfo Castro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766354081
           }
         ]
       }
@@ -898,7 +905,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1004,8 +1011,8 @@
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 0,
-          "hits": 2,
+          "runs": 1,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         },
