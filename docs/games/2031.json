@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2031",
-    "scraped_at": "2025-12-21T00:17:34.090Z",
+    "scraped_at": "2025-12-21T00:18:38.991Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-20 17:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Elier Hernandez Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 0,
-          "H": 6,
+          "H": 7,
           "E": 1,
           "H2": 0
         },
@@ -99,10 +99,10 @@
             "position": ""
           },
           {
-            "id": 5305,
+            "id": 5580,
             "team_id": 4,
-            "name": "Franchy Cordero",
-            "abbreviation": "F. Cordero",
+            "name": "Elier Hernandez",
+            "abbreviation": "E. Hernandez",
             "number": null,
             "dob": null,
             "height": "",
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 6,
+          "H": 7,
           "E": 1
         },
         "home": {
@@ -1024,6 +1024,27 @@
             "ts": 1766276084
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "18493-1-67",
+            "text": "Elier Hernandez Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766276300
+          },
+          {
+            "reference_id": "18493-1-68",
+            "text": "Yamaico Navarro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766276303
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1137,6 +1158,13 @@
         "half": "bottom",
         "label": "Baja 8va",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
