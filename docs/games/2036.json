@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2036",
-    "scraped_at": "2025-12-21T23:32:44.068Z",
+    "scraped_at": "2025-12-21T23:33:48.995Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-21 17:00:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Gustavo Nuñez Golpeado por Pelota ",
+    "lastPlayByPlay": "Player Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 3,
           "H": 8,
-          "E": 2,
+          "E": 3,
           "H2": 3
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 3,
           "H": 8,
-          "E": 2
+          "E": 3
         },
         "home": {
           "R": 7,
@@ -931,13 +931,27 @@
             "scored": false,
             "is_primary": true,
             "ts": 1766359765
-          },
+          }
+        ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
           {
-            "reference_id": "18535-1-63",
-            "text": "Ronny Mauricio al bate",
+            "reference_id": "18535-2-63",
+            "text": "Player Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1766359767
+            "ts": 1766359997
+          },
+          {
+            "reference_id": "18535-2-64",
+            "text": "Eloy Jimenez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766360013
           }
         ]
       }
@@ -1017,7 +1031,14 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 5,
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1059,7 +1080,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -1108,7 +1129,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 6,
-          "hits": 10,
+          "hits": 11,
           "errors": 2,
           "permalink": "/equipo/leones-del-escogido"
         }

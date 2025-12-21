@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2034",
-    "scraped_at": "2025-12-21T23:32:44.034Z",
+    "scraped_at": "2025-12-21T23:33:48.933Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-21 17:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Junior Lake Sencillo ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 4
         },
         "probables": {
-          "pitcher": "Tayron Guerrero",
+          "pitcher": "Emilio Vargas",
           "era": "",
           "record": "",
           "debut": false
@@ -175,7 +175,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 6,
-          "H": 10,
+          "H": 11,
           "E": 2,
           "H2": 6
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 6,
-          "H": 10,
+          "H": 11,
           "E": 2
         }
       },
@@ -926,6 +926,27 @@
             "ts": 1766359810
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "18517-2-60",
+            "text": "Junior Lake Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766359989
+          },
+          {
+            "reference_id": "18517-2-61",
+            "text": "Erik Gonzalez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766359997
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1005,6 +1026,13 @@
         "label": "Alta 6ta",
         "total_plays": 10,
         "scoring_plays": 2
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1103,7 +1131,7 @@
         "id": 2036,
         "date": "2025-12-21 17:00:00",
         "status": 2,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -1111,7 +1139,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 3,
           "hits": 8,
-          "errors": 2,
+          "errors": 3,
           "permalink": "/equipo/tigres-del-licey"
         },
         "homeTeam": {
