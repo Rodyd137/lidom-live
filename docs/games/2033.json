@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2033",
-    "scraped_at": "2025-12-21T01:46:17.991Z",
+    "scraped_at": "2025-12-21T01:47:21.204Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-20 19:30:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Julio E. Rodriguez Golpeado por Pelota ",
+    "lastPlayByPlay": "Julio E. Rodriguez Robo de Base Wild Pitch",
     "counts": {
       "balls": 2,
-      "strikes": 1,
+      "strikes": 2,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -885,10 +885,17 @@
           },
           {
             "reference_id": "18508-1-56",
+            "text": "Julio E. Rodriguez Robo de Base Wild Pitch",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766281594
+          },
+          {
+            "reference_id": "18508-1-57",
             "text": "Steward Berroa al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1766281508
+            "ts": 1766281599
           }
         ]
       }
@@ -968,7 +975,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 0
       }
     ],
