@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2035",
-    "scraped_at": "2025-12-21T21:19:17.897Z",
+    "scraped_at": "2025-12-21T21:20:21.583Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-21 16:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Rodolfo Castro Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -110,6 +110,17 @@
             "position": ""
           },
           {
+            "id": 5353,
+            "team_id": 7,
+            "name": "Rodolfo Castro",
+            "abbreviation": "Rodolfo Castro",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
             "id": 5600,
             "team_id": 7,
             "name": "Jorge Mateo",
@@ -125,17 +136,6 @@
             "team_id": 7,
             "name": "Josh Lester",
             "abbreviation": "J. Lester",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 5361,
-            "team_id": 7,
-            "name": "Magneuris Sierra",
-            "abbreviation": "M. Sierra",
             "number": null,
             "dob": null,
             "height": "",
@@ -674,6 +674,27 @@
             "ts": 1766351783
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "18524-1-30",
+            "text": "Rodolfo Castro Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766351996
+          },
+          {
+            "reference_id": "18524-1-31",
+            "text": "Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766352003
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -718,6 +739,13 @@
         "label": "Baja 3ra",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
