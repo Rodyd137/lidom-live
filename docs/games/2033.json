@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2033",
-    "scraped_at": "2025-12-21T01:23:10.946Z",
+    "scraped_at": "2025-12-21T01:24:14.087Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-20 19:30:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Vidal Brujan Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -808,10 +808,17 @@
         "plays": [
           {
             "reference_id": "18507-2-46",
-            "text": "Vidal Brujan al bate",
+            "text": "Vidal Brujan Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766280080
+            "ts": 1766280196
+          },
+          {
+            "reference_id": "18507-2-47",
+            "text": "Raimel Tapia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766280198
           }
         ]
       }
@@ -884,7 +891,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
