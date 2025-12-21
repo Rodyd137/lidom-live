@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2035",
-    "scraped_at": "2025-12-21T21:47:15.707Z",
+    "scraped_at": "2025-12-21T21:48:52.184Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-21 16:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Aderlin Rodríguez  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 6,
-          "H": 5,
+          "H": 6,
           "E": 0,
           "H2": 6
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 6,
-          "H": 5,
+          "H": 6,
           "E": 0
         }
       },
@@ -772,6 +772,34 @@
             "ts": 1766353443
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "18525-2-41",
+            "text": "Jerar Encarnacion se embasa por Error del Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766353665
+          },
+          {
+            "reference_id": "18525-2-42",
+            "text": "Aderlin Rodríguez  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766353696
+          },
+          {
+            "reference_id": "18525-2-43",
+            "text": "Corey Joyce al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766353703
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -836,6 +864,13 @@
         "half": "top",
         "label": "Alta 5ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -951,7 +986,7 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 2,
+          "runs": 3,
           "hits": 2,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
