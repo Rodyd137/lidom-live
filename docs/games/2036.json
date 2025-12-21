@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2036",
-    "scraped_at": "2025-12-21T21:25:59.573Z",
+    "scraped_at": "2025-12-21T21:27:02.834Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-21 17:00:00",
-    "roundText": "Baja 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "Sandber Pimentel Ponche (K) ",
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -242,10 +242,10 @@
             "position": ""
           },
           {
-            "id": 5589,
+            "id": 5379,
             "team_id": 6,
-            "name": "Welbyn Francisca ",
-            "abbreviation": "W. Francisca",
+            "name": "Francisco Urbaez",
+            "abbreviation": "F. Urbaez",
             "number": null,
             "dob": null,
             "height": "",
@@ -253,10 +253,10 @@
             "position": ""
           },
           {
-            "id": 5380,
+            "id": 5506,
             "team_id": 6,
-            "name": "Ronald Guzman",
-            "abbreviation": "R. Guzman",
+            "name": "Jeimer Candelario",
+            "abbreviation": "J. Candelario",
             "number": null,
             "dob": null,
             "height": "",
@@ -264,10 +264,10 @@
             "position": ""
           },
           {
-            "id": 5568,
+            "id": 5573,
             "team_id": 6,
-            "name": "Alen Hanson",
-            "abbreviation": "A. Hanson",
+            "name": "Tres Barrera",
+            "abbreviation": "T. Barrera",
             "number": null,
             "dob": null,
             "height": "",
@@ -275,10 +275,10 @@
             "position": ""
           },
           {
-            "id": 5642,
+            "id": 5459,
             "team_id": 6,
-            "name": "Bryan Lavastida",
-            "abbreviation": "B. Lavastida",
+            "name": "Rafael Lantigua ",
+            "abbreviation": "R. Lantigua",
             "number": null,
             "dob": null,
             "height": "",
@@ -513,6 +513,20 @@
             "ts": 1766352321
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18531-1-12",
+            "text": "Cristhian Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766352413
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -529,20 +543,27 @@
         "label": "Baja 1ra",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
       {
         "num": 1,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 2
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
