@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2033",
-    "scraped_at": "2025-12-21T02:46:13.805Z",
+    "scraped_at": "2025-12-21T02:47:16.904Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-20 19:30:00",
-    "roundText": "Alta 9na",
+    "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Steward Berroa Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 4
         },
         "probables": {
-          "pitcher": "Jonathan Hernández",
+          "pitcher": "Jean Carlos Henriquez",
           "era": "",
           "record": "",
           "debut": false
@@ -1092,13 +1092,20 @@
             "scored": false,
             "is_primary": true,
             "ts": 1766284913
-          },
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
           {
-            "reference_id": "18511-1-80",
-            "text": "Leody Taveras al bate",
+            "reference_id": "18511-2-81",
+            "text": "Jorge Mateo al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1766284920
+            "ts": 1766285197
           }
         ]
       }
@@ -1220,7 +1227,14 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 3,
+        "total_plays": 2,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -1283,7 +1297,7 @@
       },
       {
         "num": 9,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
