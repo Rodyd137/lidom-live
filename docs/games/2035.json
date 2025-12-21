@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2035",
-    "scraped_at": "2025-12-21T21:30:12.756Z",
+    "scraped_at": "2025-12-21T21:31:15.998Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-21 16:00:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Bladimir Restituyo  Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -709,6 +709,27 @@
             "ts": 1766352431
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "18524-2-34",
+            "text": "Bladimir Restituyo  Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766352624
+          },
+          {
+            "reference_id": "18524-2-35",
+            "text": "Ezequiel Duran al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766352627
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -759,6 +780,13 @@
         "half": "top",
         "label": "Alta 4ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
