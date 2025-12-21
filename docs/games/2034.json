@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2034",
-    "scraped_at": "2025-12-21T21:13:59.228Z",
+    "scraped_at": "2025-12-21T21:15:03.106Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-21 17:00:00",
-    "roundText": "Baja 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "Yamaico Navarro Ponche (K) ",
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 7
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": true,
-      "runners": 2,
-      "mask": 7
+      "on2B": false,
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -492,11 +492,11 @@
             "ts": 1766351623
           },
           {
-            "reference_id": "18512-2-8",
-            "text": "José Marmolejos al bate",
+            "reference_id": "18512-2-7-273318",
+            "text": "Junior Lake Out Robando Base! ",
             "scored": false,
-            "is_primary": true,
-            "ts": 1766351630
+            "is_primary": false,
+            "ts": 1766351674
           }
         ]
       }
@@ -521,14 +521,14 @@
       {
         "num": 1,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -603,8 +603,8 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 4,
-          "hits": 4,
+          "runs": 6,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }

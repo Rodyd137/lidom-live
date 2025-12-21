@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2036",
-    "scraped_at": "2025-12-21T21:13:59.253Z",
+    "scraped_at": "2025-12-21T21:15:03.118Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-21 17:00:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Francisco Mejía Out: Elevado al Jardinero Izquierdo",
+    "lastPlayByPlay": "Gustavo Nuñez Robo de Base ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -458,10 +458,17 @@
           },
           {
             "reference_id": "18530-1-4",
+            "text": "Gustavo Nuñez Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766351670
+          },
+          {
+            "reference_id": "18530-1-5",
             "text": "Mel Rojas Jr. al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1766351607
+            "ts": 1766351674
           }
         ]
       }
@@ -471,7 +478,7 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -545,7 +552,7 @@
         "id": 2034,
         "date": "2025-12-21 17:00:00",
         "status": 2,
-        "roundText": "Baja 1ra",
+        "roundText": "Alta 2da",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -587,8 +594,8 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 4,
-          "hits": 4,
+          "runs": 6,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }
