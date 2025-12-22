@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2036",
-    "scraped_at": "2025-12-22T00:46:26.645Z",
+    "scraped_at": "2025-12-22T00:47:29.517Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-21 17:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Michael De La Cruz Sencillo ",
+    "lastPlayByPlay": "David Hensley Elevado de Sacrificio Carrera Empujada",
     "counts": {
       "balls": 1,
       "strikes": 2,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 8
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
       "on2B": true,
-      "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "on3B": false,
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
-          "R": 5,
+          "R": 6,
           "H": 12,
           "E": 3,
           "H2": 3
@@ -333,14 +333,14 @@
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 5,
+          "R": 6,
           "H": 12,
           "E": 3
         },
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 5
+            "R": 6
           }
         ],
         "home": [
@@ -1179,10 +1179,17 @@
           },
           {
             "reference_id": "18538-1-92",
-            "text": "Sergio Alcantara al bate",
+            "text": "David Hensley Elevado de Sacrificio Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1766364405
+          },
+          {
+            "reference_id": "18538-1-93",
+            "text": "Emilio Bonifacio al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1766364271
+            "ts": 1766364414
           }
         ]
       }
@@ -1304,8 +1311,8 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1369,7 +1376,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
