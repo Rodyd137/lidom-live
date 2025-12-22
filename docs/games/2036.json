@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2036",
-    "scraped_at": "2025-12-22T00:07:49.845Z",
+    "scraped_at": "2025-12-22T00:08:52.775Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-21 17:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Sergio Alcantara Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -180,7 +180,7 @@
           "H2": 7
         },
         "probables": {
-          "pitcher": "Gerson Moreno",
+          "pitcher": "Miguel Castro ",
           "era": "",
           "record": "",
           "debut": false
@@ -1074,10 +1074,17 @@
         "plays": [
           {
             "reference_id": "18537-1-79",
-            "text": "Sergio Alcantara al bate",
+            "text": "Sergio Alcantara Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766362059
+            "ts": 1766362110
+          },
+          {
+            "reference_id": "18537-1-80",
+            "text": "David Hensley al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766362118
           }
         ]
       }
@@ -1185,7 +1192,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
