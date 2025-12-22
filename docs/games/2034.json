@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2034",
-    "scraped_at": "2025-12-22T02:49:02.405Z",
+    "scraped_at": "2025-12-22T03:53:38.355Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2034,
     "season_id": 20,
-    "status": 2,
+    "status": 6,
     "date": "2025-12-21 17:00:00",
-    "roundText": "Baja 8va",
-    "currentInningNum": 8,
-    "lastPlayByPlay": "Yamaico Navarro Base por Bolas ",
+    "roundText": "Baja 9na",
+    "currentInningNum": 9,
+    "lastPlayByPlay": "Jonathan Guzman  Out: Rodado al Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -40,9 +40,9 @@
       "over_under": null
     },
     "pitchers": {
-      "winning": null,
-      "losing": null,
-      "save": null
+      "winning": "Tayron Guerrero",
+      "losing": "Diógenes Almengó",
+      "save": ""
     },
     "teams": {
       "away": {
@@ -59,7 +59,7 @@
           "H2": 4
         },
         "probables": {
-          "pitcher": "Yovanny Cruz",
+          "pitcher": "Huascar Brazoban",
           "era": "",
           "record": "",
           "debut": false
@@ -121,10 +121,10 @@
             "position": ""
           },
           {
-            "id": 5649,
+            "id": 5253,
             "team_id": 5,
-            "name": "Nick Torres",
-            "abbreviation": "N. Torres",
+            "name": "Diego Hernández",
+            "abbreviation": "D.  Hernández",
             "number": null,
             "dob": null,
             "height": "",
@@ -264,10 +264,10 @@
             "position": ""
           },
           {
-            "id": 5294,
+            "id": 5430,
             "team_id": 4,
-            "name": "Pedro Severino",
-            "abbreviation": "P. Severino",
+            "name": "Jimmy Cordero",
+            "abbreviation": "J. Cordero",
             "number": null,
             "dob": null,
             "height": "",
@@ -275,10 +275,10 @@
             "position": ""
           },
           {
-            "id": 5305,
+            "id": 5630,
             "team_id": 4,
-            "name": "Franchy Cordero",
-            "abbreviation": "F. Cordero",
+            "name": "Jonathan Guzman",
+            "abbreviation": "J. Guzman",
             "number": null,
             "dob": null,
             "height": "",
@@ -1130,10 +1130,80 @@
           },
           {
             "reference_id": "18519-2-84",
-            "text": "José Marmolejos al bate",
+            "text": "José Marmolejos Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766371723
+            "ts": 1766371894
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "18520-1-85",
+            "text": "Diego Hernández Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766372081
+          },
+          {
+            "reference_id": "18520-1-86",
+            "text": "Carlos Jorge Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766372222
+          },
+          {
+            "reference_id": "18520-1-87",
+            "text": "Julio Carreras Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766372340
+          },
+          {
+            "reference_id": "18520-1-88",
+            "text": "Kenny Piper Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766372527
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "18520-2-89",
+            "text": "Elier Hernandez Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766372758
+          },
+          {
+            "reference_id": "18520-2-90",
+            "text": "Eguy Rosario Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766372815
+          },
+          {
+            "reference_id": "18520-2-91",
+            "text": "Jimmy Cordero Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766372927
+          },
+          {
+            "reference_id": "18520-2-92",
+            "text": "Jonathan Guzman  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766372978
           }
         ]
       }
@@ -1250,6 +1320,20 @@
         "label": "Baja 8va",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 4,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1305,14 +1389,14 @@
       {
         "num": 8,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 3,
         "homeTeamRuns": 0
       },
       {
         "num": 9,
-        "part": 1,
-        "is_last": 0,
+        "part": 2,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       }
