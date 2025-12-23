@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2044",
-    "scraped_at": "2025-12-23T22:13:33.617Z",
+    "scraped_at": "2025-12-23T22:14:38.381Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-23 17:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Samad Taylor Sencillo ",
+    "lastPlayByPlay": "Diego Hernández Out: Elevado al Segunda Base",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -661,10 +661,17 @@
           },
           {
             "reference_id": "18605-1-27",
-            "text": "Diego Hernández al bate",
+            "text": "Diego Hernández Out: Elevado al Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1766527981
+            "ts": 1766528056
+          },
+          {
+            "reference_id": "18605-1-28",
+            "text": "Jorge Bonifacio al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766528073
           }
         ]
       }
@@ -716,7 +723,7 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -806,7 +813,7 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 0,
+          "runs": 1,
           "hits": 1,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
