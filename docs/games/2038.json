@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2038",
-    "scraped_at": "2025-12-23T01:19:44.849Z",
+    "scraped_at": "2025-12-23T01:20:48.320Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -548,6 +548,20 @@
             "ts": 1766452640
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18549-1-15",
+            "text": "Francisco Peña al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766452796
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -563,6 +577,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 7,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
