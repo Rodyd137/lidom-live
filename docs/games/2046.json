@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2046",
-    "scraped_at": "2025-12-23T22:09:14.573Z",
+    "scraped_at": "2025-12-23T22:10:19.333Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-23 17:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Steward Berroa Doble! ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -120,7 +120,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -130,7 +130,30 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5332,
+            "team_id": 3,
+            "name": "Steward Berroa",
+            "abbreviation": "S. Berroa",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5646,
+            "team_id": 3,
+            "name": "Geraldo Perdomo",
+            "abbreviation": "G. Perdomo",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       }
     },
     "comment": "",
@@ -191,7 +214,7 @@
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         }
       },
@@ -309,6 +332,27 @@
             "ts": 1766527640
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "18620-2-5",
+            "text": "Steward Berroa Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766527775
+          },
+          {
+            "reference_id": "18620-2-6",
+            "text": "Geraldo Perdomo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766527807
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -318,6 +362,13 @@
         "label": "Alta 1ra",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -390,7 +441,7 @@
         "id": 2044,
         "date": "2025-12-23 17:00:00",
         "status": 2,
-        "roundText": "Baja 3ra",
+        "roundText": "Alta 4ta",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
