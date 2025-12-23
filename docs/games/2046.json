@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2046",
-    "scraped_at": "2025-12-23T23:27:06.930Z",
+    "scraped_at": "2025-12-23T23:28:10.198Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-23 17:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Elih Marrero Out: Elevado al Tercera Base",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -772,6 +772,27 @@
             "ts": 1766532244
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "18624-2-41",
+            "text": "Elih Marrero Out: Elevado al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766532442
+          },
+          {
+            "reference_id": "18624-2-42",
+            "text": "Albert Fabian  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766532445
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -837,6 +858,13 @@
         "label": "Alta 5ta",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
