@@ -2,24 +2,25 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2025-12-23T21:54:30.920Z",
+    "scraped_at": "2025-12-23T21:58:27.313Z",
     "tz": "America/Santo_Domingo"
   },
   "tracked_ids": [
-    2044
+    2044,
+    2046
   ],
   "live": [
     {
       "id": 2044,
       "status": 2,
-      "roundText": "Alta 3ra",
+      "roundText": "Baja 3ra",
       "currentInningNum": 3,
       "atBat": null,
-      "lastPlayByPlay": "Carlos Franco Ponche (K) ",
+      "lastPlayByPlay": null,
       "counts": {
         "balls": 2,
-        "strikes": 2,
-        "outs": 2
+        "strikes": 1,
+        "outs": 0
       },
       "base": {
         "on1B": false,
@@ -28,7 +29,7 @@
         "runners": 0,
         "mask": 1
       },
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "score": {
         "away": {
           "name": "Gigantes",
@@ -45,8 +46,47 @@
           "E": 1
         }
       },
-      "threat": 4,
-      "updated_at": "2025-12-23T21:54:30.920Z"
+      "threat": 22,
+      "updated_at": "2025-12-23T21:58:27.313Z"
+    },
+    {
+      "id": 2046,
+      "status": 2,
+      "roundText": "Alta 1ra",
+      "currentInningNum": 1,
+      "atBat": null,
+      "lastPlayByPlay": null,
+      "counts": {
+        "balls": 3,
+        "strikes": 1,
+        "outs": 0
+      },
+      "base": {
+        "on1B": false,
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
+      },
+      "battingTeam": "awayTeam",
+      "score": {
+        "away": {
+          "name": "Toros",
+          "abbr": "TE",
+          "R": 0,
+          "H": 0,
+          "E": 0
+        },
+        "home": {
+          "name": "Aguilas",
+          "abbr": "AC",
+          "R": 0,
+          "H": 0,
+          "E": 0
+        }
+      },
+      "threat": 22,
+      "updated_at": "2025-12-23T21:58:27.313Z"
     }
   ]
 }
