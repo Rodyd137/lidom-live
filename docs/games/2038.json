@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2038",
-    "scraped_at": "2025-12-23T02:58:28.680Z",
+    "scraped_at": "2025-12-23T02:59:32.390Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-22 19:15:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Yamaico Navarro Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 1,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -59,7 +59,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Raffi Vizcaíno",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -891,6 +891,27 @@
             "ts": 1766458533
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "18553-2-54",
+            "text": "Yamaico Navarro Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766458738
+          },
+          {
+            "reference_id": "18553-2-55",
+            "text": "José Marmolejos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766458746
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -969,6 +990,13 @@
         "half": "top",
         "label": "Alta 6ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
