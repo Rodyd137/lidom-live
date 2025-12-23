@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2044",
-    "scraped_at": "2025-12-23T22:59:08.523Z",
+    "scraped_at": "2025-12-23T23:00:13.678Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-23 17:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Samuel Muñoz Golpeado por Pelota ",
     "counts": {
-      "balls": 1,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -835,6 +835,27 @@
             "ts": 1766530534
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "18607-2-47",
+            "text": "Samuel Muñoz Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766530757
+          },
+          {
+            "reference_id": "18607-2-48",
+            "text": "Omar de los Santos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766530763
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -913,6 +934,13 @@
         "half": "top",
         "label": "Alta 6ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
