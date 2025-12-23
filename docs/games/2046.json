@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2046",
-    "scraped_at": "2025-12-23T22:35:06.636Z",
+    "scraped_at": "2025-12-23T22:36:11.745Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-23 17:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Corey Joyce Ponche (K) ",
+    "lastPlayByPlay": "Aneury Tavarez Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 1,
-          "H": 1,
+          "H": 2,
           "E": 1,
           "H2": 1
         },
@@ -262,6 +262,17 @@
             "height": "",
             "image": null,
             "position": ""
+          },
+          {
+            "id": 5596,
+            "team_id": 3,
+            "name": "Elih Marrero",
+            "abbreviation": "E. Marrero",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
           }
         ]
       }
@@ -324,7 +335,7 @@
         },
         "home": {
           "R": 1,
-          "H": 1,
+          "H": 2,
           "E": 1
         }
       },
@@ -555,10 +566,17 @@
           },
           {
             "reference_id": "18621-2-18",
-            "text": "Aneury Tavarez al bate",
+            "text": "Aneury Tavarez Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766529291
+            "ts": 1766529332
+          },
+          {
+            "reference_id": "18621-2-19",
+            "text": "Elih Marrero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766529339
           }
         ]
       }
@@ -589,7 +607,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
