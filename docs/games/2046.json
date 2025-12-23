@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2046",
-    "scraped_at": "2025-12-23T22:26:30.427Z",
+    "scraped_at": "2025-12-23T22:28:33.935Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-23 17:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Rafael Lantigua  Sencillo ",
+    "lastPlayByPlay": "Gilberto Celestino Elevado de Sacrificio Carrera Empujada",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 2,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 8
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
       "on2B": true,
-      "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "on3B": false,
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 2,
+          "R": 3,
           "H": 6,
           "E": 0,
-          "H2": 2
+          "H2": 3
         },
         "probables": {
           "pitcher": "",
@@ -152,6 +152,17 @@
             "height": "",
             "image": null,
             "position": ""
+          },
+          {
+            "id": 5373,
+            "team_id": 6,
+            "name": "Onil Perez",
+            "abbreviation": "O. Perez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
           }
         ]
       },
@@ -232,7 +243,7 @@
         },
         {
           "num": 2,
-          "away": 1,
+          "away": 2,
           "home": 0
         },
         {
@@ -274,7 +285,7 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 2,
+          "R": 3,
           "H": 6,
           "E": 0
         },
@@ -292,35 +303,35 @@
           },
           {
             "num": 2,
-            "R": 2
+            "R": 3
           },
           {
             "num": 3,
-            "R": 2
+            "R": 3
           },
           {
             "num": 4,
-            "R": 2
+            "R": 3
           },
           {
             "num": 5,
-            "R": 2
+            "R": 3
           },
           {
             "num": 6,
-            "R": 2
+            "R": 3
           },
           {
             "num": 7,
-            "R": 2
+            "R": 3
           },
           {
             "num": 8,
-            "R": 2
+            "R": 3
           },
           {
             "num": 9,
-            "R": 2
+            "R": 3
           }
         ],
         "home": [
@@ -466,6 +477,27 @@
             "scored": false,
             "is_primary": true,
             "ts": 1766528713
+          },
+          {
+            "reference_id": "18621-1-13",
+            "text": "Onil Perez  Out: Rodado al Tercera Base - Receptor",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766528806
+          },
+          {
+            "reference_id": "18621-1-14",
+            "text": "Gilberto Celestino Elevado de Sacrificio Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1766528858
+          },
+          {
+            "reference_id": "18621-1-15",
+            "text": "Rudy Martin  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766528862
           }
         ]
       }
@@ -489,8 +521,8 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 4,
-        "scoring_plays": 1
+        "total_plays": 7,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -505,7 +537,7 @@
         "num": 2,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 1,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
