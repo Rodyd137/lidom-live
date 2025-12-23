@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2044",
-    "scraped_at": "2025-12-23T21:58:27.304Z",
+    "scraped_at": "2025-12-23T21:59:32.985Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-23 17:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jose Hernandez  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 1,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -268,17 +268,6 @@
             "team_id": 1,
             "name": "Jose Hernandez",
             "abbreviation": "J. Hernandez",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 5262,
-            "team_id": 1,
-            "name": "Michael Feliz",
-            "abbreviation": "M. Feliz",
             "number": null,
             "dob": null,
             "height": "",
@@ -611,6 +600,27 @@
             "ts": 1766526876
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "18604-2-22",
+            "text": "Jose Hernandez  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766527121
+          },
+          {
+            "reference_id": "18604-2-23",
+            "text": "Michael Feliz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766527125
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -647,6 +657,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -727,7 +744,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         },
