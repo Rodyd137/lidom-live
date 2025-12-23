@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2044",
-    "scraped_at": "2025-12-23T20:54:49.148Z",
+    "scraped_at": "2025-12-23T21:18:54.549Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2044,
     "season_id": 20,
-    "status": 1,
+    "status": 2,
     "date": "2025-12-23 17:00:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Kelvin Gutiérrez Sencillo y 1 Carrera Impulsada ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": false,
+      "on1B": true,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -53,15 +53,15 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 0,
-          "H": 0,
+          "R": 2,
+          "H": 2,
           "E": 0,
-          "H2": 0
+          "H2": 2
         },
         "probables": {
-          "pitcher": null,
-          "era": null,
-          "record": null,
+          "pitcher": "",
+          "era": "",
+          "record": "",
           "debut": false
         },
         "players": [
@@ -152,6 +152,17 @@
             "height": "",
             "image": null,
             "position": ""
+          },
+          {
+            "id": 5653,
+            "team_id": 5,
+            "name": "David Bañuelos",
+            "abbreviation": "D. Bañuelos",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
           }
         ]
       },
@@ -165,13 +176,13 @@
         "totals": {
           "R": 0,
           "H": 0,
-          "E": 0,
+          "E": 1,
           "H2": 0
         },
         "probables": {
-          "pitcher": null,
-          "era": null,
-          "record": null,
+          "pitcher": "",
+          "era": "",
+          "record": "",
           "debut": false
         },
         "players": [
@@ -260,7 +271,7 @@
       "innings": [
         {
           "num": 1,
-          "away": 0,
+          "away": 2,
           "home": 0
         },
         {
@@ -307,53 +318,53 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 0,
+          "R": 2,
+          "H": 2,
           "E": 0
         },
         "home": {
           "R": 0,
           "H": 0,
-          "E": 0
+          "E": 1
         }
       },
       "cumulative": {
         "away": [
           {
             "num": 1,
-            "R": 0
+            "R": 2
           },
           {
             "num": 2,
-            "R": 0
+            "R": 2
           },
           {
             "num": 3,
-            "R": 0
+            "R": 2
           },
           {
             "num": 4,
-            "R": 0
+            "R": 2
           },
           {
             "num": 5,
-            "R": 0
+            "R": 2
           },
           {
             "num": 6,
-            "R": 0
+            "R": 2
           },
           {
             "num": 7,
-            "R": 0
+            "R": 2
           },
           {
             "num": 8,
-            "R": 0
+            "R": 2
           },
           {
             "num": 9,
-            "R": 0
+            "R": 2
           }
         ],
         "home": [
@@ -396,14 +407,72 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "18602-1-1",
+            "text": "Melvi Mercedes  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766524116
+          },
+          {
+            "reference_id": "18602-1-2",
+            "text": "Hanser Alberto Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766524163
+          },
+          {
+            "reference_id": "18602-1-3",
+            "text": "Jose Torres  Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766524361
+          },
+          {
+            "reference_id": "18602-1-4",
+            "text": "Carlos Franco Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766524493
+          },
+          {
+            "reference_id": "18602-1-5",
+            "text": "Kelvin Gutiérrez Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1766524634
+          },
+          {
+            "reference_id": "18602-1-6",
+            "text": "Samad Taylor al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766524638
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 6,
+        "scoring_plays": 1
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
@@ -467,7 +536,7 @@
       {
         "id": 2046,
         "date": "2025-12-23 17:00:00",
-        "status": 1,
+        "status": 3,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 6,
