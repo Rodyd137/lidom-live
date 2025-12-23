@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2046",
-    "scraped_at": "2025-12-23T23:46:46.414Z",
+    "scraped_at": "2025-12-23T23:47:50.149Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-23 17:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Fernando Peguero Doble! ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 3
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -198,21 +198,10 @@
             "position": ""
           },
           {
-            "id": 5646,
+            "id": 5581,
             "team_id": 3,
-            "name": "Geraldo Perdomo",
-            "abbreviation": "G. Perdomo",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 5390,
-            "team_id": 3,
-            "name": "Alberto Rodriguez",
-            "abbreviation": "A. Rodriguez",
+            "name": "Fernando Peguero",
+            "abbreviation": "F. Peguero",
             "number": null,
             "dob": null,
             "height": "",
@@ -842,6 +831,20 @@
             "ts": 1766533379
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "18625-2-49",
+            "text": "Fernando Peguero Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766533661
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -920,6 +923,13 @@
         "half": "top",
         "label": "Alta 6ta",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
