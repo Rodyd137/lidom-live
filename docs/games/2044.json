@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2044",
-    "scraped_at": "2025-12-23T23:37:41.906Z",
+    "scraped_at": "2025-12-23T23:39:18.951Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-23 17:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Hanser Alberto  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 2,
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -961,6 +961,27 @@
             "ts": 1766532824
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "18609-1-62",
+            "text": "Hanser Alberto  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766533089
+          },
+          {
+            "reference_id": "18609-1-63",
+            "text": "Nick Torres al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766533092
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1060,6 +1081,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
