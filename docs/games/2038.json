@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2038",
-    "scraped_at": "2025-12-23T01:44:12.467Z",
+    "scraped_at": "2025-12-23T01:45:16.449Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-22 19:15:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Erik Gonzalez Sencillo ",
+    "lastPlayByPlay": "Socrates Brito  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Eddy Yean",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -654,10 +654,17 @@
           },
           {
             "reference_id": "18550-2-26",
-            "text": "Socrates Brito al bate",
+            "text": "Socrates Brito  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1766454113
+            "ts": 1766454287
+          },
+          {
+            "reference_id": "18550-2-27",
+            "text": "Yamaico Navarro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766454292
           }
         ]
       }
@@ -702,7 +709,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -793,7 +800,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 2,
-          "hits": 5,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
