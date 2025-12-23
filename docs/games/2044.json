@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2044",
-    "scraped_at": "2025-12-23T21:50:15.259Z",
+    "scraped_at": "2025-12-23T21:51:19.063Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-23 17:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Nick Torres Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -88,10 +88,10 @@
             "position": ""
           },
           {
-            "id": 5467,
+            "id": 5649,
             "team_id": 5,
-            "name": "Jose Torres ",
-            "abbreviation": "J. Torres",
+            "name": "Nick Torres",
+            "abbreviation": "N. Torres",
             "number": null,
             "dob": null,
             "height": "",
@@ -583,6 +583,27 @@
             "ts": 1766526575
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "18604-1-19",
+            "text": "Nick Torres Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766526673
+          },
+          {
+            "reference_id": "18604-1-20",
+            "text": "Carlos Franco al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766526677
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -612,6 +633,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
