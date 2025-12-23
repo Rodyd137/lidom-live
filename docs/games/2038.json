@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2038",
-    "scraped_at": "2025-12-23T02:16:06.007Z",
+    "scraped_at": "2025-12-23T02:17:10.342Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 4,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 3,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -59,7 +59,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Oddy Nuñez ",
+          "pitcher": "Oscar de la Cruz",
           "era": "",
           "record": "",
           "debut": false
@@ -737,6 +737,20 @@
             "ts": 1766455993
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "18551-2-36",
+            "text": "Junior Lake al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766456206
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -787,6 +801,13 @@
         "half": "top",
         "label": "Alta 4ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
