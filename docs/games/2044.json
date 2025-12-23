@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2044",
-    "scraped_at": "2025-12-23T21:35:01.930Z",
+    "scraped_at": "2025-12-23T21:36:31.779Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-23 17:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "David Bañuelos  Out: Rodado al Tercera Base - Segunda Base",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -498,6 +498,34 @@
             "ts": 1766525507
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "18603-1-12",
+            "text": "Jorge Bonifacio Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766525716
+          },
+          {
+            "reference_id": "18603-1-13",
+            "text": "David Bañuelos  Out: Rodado al Tercera Base - Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766525777
+          },
+          {
+            "reference_id": "18603-1-14",
+            "text": "Melvi Mercedes  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766525780
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -513,6 +541,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
