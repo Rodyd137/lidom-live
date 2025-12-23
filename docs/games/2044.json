@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2044",
-    "scraped_at": "2025-12-23T22:42:43.309Z",
+    "scraped_at": "2025-12-23T22:43:48.543Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-23 17:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Michael De Leon  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "Cristhian Adames se embasa por Error del Tercera Base",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 1,
-          "H": 5,
+          "H": 6,
           "E": 1,
           "H2": 1
         },
@@ -202,6 +202,17 @@
             "team_id": 1,
             "name": "Michael De Leon",
             "abbreviation": "M. De Leon",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5275,
+            "team_id": 1,
+            "name": "Cristhian Adames",
+            "abbreviation": "C. Adames",
             "number": null,
             "dob": null,
             "height": "",
@@ -335,7 +346,7 @@
         },
         "home": {
           "R": 1,
-          "H": 5,
+          "H": 6,
           "E": 1
         }
       },
@@ -776,10 +787,17 @@
           },
           {
             "reference_id": "18606-2-41",
-            "text": "Cristhian Adames al bate",
+            "text": "Cristhian Adames se embasa por Error del Tercera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1766529725
+            "ts": 1766529815
+          },
+          {
+            "reference_id": "18606-2-42",
+            "text": "Arístides Aquino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766529824
           }
         ]
       }
@@ -852,7 +870,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
