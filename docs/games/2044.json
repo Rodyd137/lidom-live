@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2044",
-    "scraped_at": "2025-12-23T21:49:11.216Z",
+    "scraped_at": "2025-12-23T21:50:15.259Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-23 17:00:00",
-    "roundText": "Baja 2da",
-    "currentInningNum": 2,
-    "lastPlayByPlay": "Omar de los Santos Out: Elevado al Jardinero Central",
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -246,6 +246,17 @@
             "team_id": 1,
             "name": "Omar de los Santos",
             "abbreviation": "O. de los Santos",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5655,
+            "team_id": 1,
+            "name": "Jorgelys Mota",
+            "abbreviation": "J. Mota",
             "number": null,
             "dob": null,
             "height": "",
@@ -563,6 +574,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1766526542
+          },
+          {
+            "reference_id": "18603-2-18",
+            "text": "Omar de los Santos Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766526575
           }
         ]
       }
@@ -593,7 +611,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -608,14 +626,14 @@
       {
         "num": 2,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
