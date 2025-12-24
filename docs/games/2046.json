@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2046",
-    "scraped_at": "2025-12-24T00:48:38.261Z",
+    "scraped_at": "2025-12-24T00:49:41.778Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-23 17:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Engel Beltré  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "Carlos Castro Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 5
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": true,
-      "on3B": false,
+      "on3B": true,
       "runners": 2,
-      "mask": 5
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 4,
+          "R": 5,
           "H": 11,
           "E": 0,
           "H2": 4
@@ -81,6 +81,17 @@
             "team_id": 6,
             "name": "Engel Beltré",
             "abbreviation": "E. Beltré",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5658,
+            "team_id": 6,
+            "name": "Carlos Castro",
+            "abbreviation": "C. Castro",
             "number": null,
             "dob": null,
             "height": "",
@@ -322,14 +333,14 @@
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 4,
+          "R": 5,
           "H": 11,
           "E": 0
         },
@@ -375,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 4
+            "R": 5
           }
         ],
         "home": [
@@ -1028,10 +1039,17 @@
           },
           {
             "reference_id": "18628-1-71",
-            "text": "Sandber Pimentel al bate",
+            "text": "Carlos Castro Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766537191
+            "ts": 1766537321
+          },
+          {
+            "reference_id": "18628-1-72",
+            "text": "Wendell Rijo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766537328
           }
         ]
       }
@@ -1153,7 +1171,7 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -1218,7 +1236,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
