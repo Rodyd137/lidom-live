@@ -1,24 +1,24 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2044",
-    "scraped_at": "2025-12-23T23:54:16.779Z",
+    "scraped_at": "2025-12-24T00:46:28.618Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2044,
     "season_id": 20,
-    "status": 2,
+    "status": 6,
     "date": "2025-12-23 17:00:00",
-    "roundText": "Alta 9na",
-    "currentInningNum": 9,
-    "lastPlayByPlay": "Samad Taylor  Out: Rodado al Segunda Base - Primera Base",
+    "roundText": "Baja 10ma",
+    "currentInningNum": 10,
+    "lastPlayByPlay": "Jose Hernandez Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 3
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -40,9 +40,9 @@
       "over_under": null
     },
     "pitchers": {
-      "winning": null,
-      "losing": null,
-      "save": null
+      "winning": "Hansel Robles",
+      "losing": "Reidis Sena ",
+      "save": "Víctor López"
     },
     "teams": {
       "away": {
@@ -53,13 +53,13 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 2,
-          "H": 4,
-          "E": 2,
+          "R": 3,
+          "H": 7,
+          "E": 3,
           "H2": 2
         },
         "probables": {
-          "pitcher": "Cristopher Molina",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -175,12 +175,12 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 2,
-          "H": 7,
+          "H": 8,
           "E": 1,
           "H2": 1
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Reidis Sena ",
           "era": "",
           "record": "",
           "debut": false
@@ -335,18 +335,23 @@
           "num": 9,
           "away": 0,
           "home": 0
+        },
+        {
+          "num": 10,
+          "away": 1,
+          "home": 0
         }
       ],
-      "extras": false,
+      "extras": true,
       "totals": {
         "away": {
-          "R": 2,
-          "H": 4,
-          "E": 2
+          "R": 3,
+          "H": 7,
+          "E": 3
         },
         "home": {
           "R": 2,
-          "H": 7,
+          "H": 8,
           "E": 1
         }
       },
@@ -387,6 +392,10 @@
           {
             "num": 9,
             "R": 2
+          },
+          {
+            "num": 10,
+            "R": 3
           }
         ],
         "home": [
@@ -424,6 +433,10 @@
           },
           {
             "num": 9,
+            "R": 2
+          },
+          {
+            "num": 10,
             "R": 2
           }
         ]
@@ -1039,10 +1052,122 @@
           },
           {
             "reference_id": "18610-1-70",
-            "text": "Diego Hernández al bate",
+            "text": "Diego Hernández Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766533988
+            "ts": 1766534075
+          },
+          {
+            "reference_id": "18610-1-71",
+            "text": "Jorge Bonifacio Out: Elevado al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766534119
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "18610-2-72",
+            "text": "Yamal Encarnacion Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766534376
+          },
+          {
+            "reference_id": "18610-2-73",
+            "text": "Michael De Leon Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766534544
+          },
+          {
+            "reference_id": "18610-2-74",
+            "text": "Cristhian Adames Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766534582
+          },
+          {
+            "reference_id": "18610-2-75",
+            "text": "Arístides Aquino Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766534685
+          },
+          {
+            "reference_id": "18610-2-76",
+            "text": "Samuel Muñoz Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766534822
+          }
+        ]
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "plays": [
+          {
+            "reference_id": "19191-1-77",
+            "text": "David Bañuelos  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766535142
+          },
+          {
+            "reference_id": "19191-1-78",
+            "text": "Melvi Mercedes  Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766535273
+          },
+          {
+            "reference_id": "19191-1-79",
+            "text": "Hanser Alberto Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1766535363
+          },
+          {
+            "reference_id": "19191-1-80",
+            "text": "Nick Torres Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766535533
+          }
+        ]
+      },
+      {
+        "num": 10,
+        "half": "bottom",
+        "label": "Baja 10ma",
+        "plays": [
+          {
+            "reference_id": "19191-2-81",
+            "text": "Omar de los Santos  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766535778
+          },
+          {
+            "reference_id": "19191-2-82",
+            "text": "Jorgelys Mota Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766535835
+          },
+          {
+            "reference_id": "19191-2-83",
+            "text": "Jose Hernandez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766536033
           }
         ]
       }
@@ -1164,6 +1289,27 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "total_plays": 4,
+        "scoring_plays": 1
+      },
+      {
+        "num": 10,
+        "half": "bottom",
+        "label": "Baja 10ma",
         "total_plays": 3,
         "scoring_plays": 0
       }
@@ -1227,9 +1373,16 @@
       },
       {
         "num": 9,
-        "part": 1,
-        "is_last": 1,
+        "part": 2,
+        "is_last": 0,
         "awayTeamRuns": 0,
+        "homeTeamRuns": 0
+      },
+      {
+        "num": 10,
+        "part": 2,
+        "is_last": 1,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
@@ -1238,14 +1391,14 @@
         "id": 2046,
         "date": "2025-12-23 17:00:00",
         "status": 2,
-        "roundText": "Baja 6ta",
+        "roundText": "Alta 9na",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 4,
-          "hits": 8,
+          "hits": 9,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         },
@@ -1255,7 +1408,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 3,
-          "hits": 4,
+          "hits": 5,
           "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
         }
