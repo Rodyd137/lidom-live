@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2107",
-    "scraped_at": "2025-12-27T22:38:25.692Z",
+    "scraped_at": "2025-12-27T22:40:01.171Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-27 17:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Erik Gonzalez Base por Bolas ",
+    "lastPlayByPlay": "Yamaico Navarro Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 4
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": true,
+      "on3B": false,
       "runners": 1,
-      "mask": 4
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 6,
-          "H": 5,
+          "R": 7,
+          "H": 6,
           "E": 0,
-          "H2": 6
+          "H2": 7
         },
         "probables": {
           "pitcher": "Travis Lakins",
@@ -308,7 +308,7 @@
         },
         {
           "num": 4,
-          "away": 2,
+          "away": 3,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 6,
-          "H": 5,
+          "R": 7,
+          "H": 6,
           "E": 0
         },
         "home": {
@@ -366,27 +366,27 @@
           },
           {
             "num": 4,
-            "R": 6
+            "R": 7
           },
           {
             "num": 5,
-            "R": 6
+            "R": 7
           },
           {
             "num": 6,
-            "R": 6
+            "R": 7
           },
           {
             "num": 7,
-            "R": 6
+            "R": 7
           },
           {
             "num": 8,
-            "R": 6
+            "R": 7
           },
           {
             "num": 9,
-            "R": 6
+            "R": 7
           }
         ],
         "home": [
@@ -710,24 +710,38 @@
           },
           {
             "reference_id": "19195-1-32-274471",
-            "text": "Junior Lake Robo de Base ",
+            "text": "Junior Lake Robo de Base, Anota por error en tiro",
             "scored": false,
             "is_primary": false,
             "ts": 1766874828
           },
           {
             "reference_id": "19195-1-33",
-            "text": "Erik Gonzalez Base por Bolas ",
+            "text": "Erik Gonzalez Base por Bolas, Anota por error en tiro",
             "scored": false,
             "is_primary": true,
             "ts": 1766874846
           },
           {
             "reference_id": "19195-1-34",
-            "text": "Socrates Brito al bate",
+            "text": "Socrates Brito se embasa por Error del Lanzador",
             "scored": false,
             "is_primary": true,
-            "ts": 1766875043
+            "ts": 1766875110
+          },
+          {
+            "reference_id": "19195-1-35",
+            "text": "Yamaico Navarro Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1766875146
+          },
+          {
+            "reference_id": "19195-1-36",
+            "text": "Raimer Tapia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766875178
           }
         ]
       }
@@ -779,8 +793,8 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 6,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -809,7 +823,7 @@
         "num": 4,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 2,
+        "awayTeamRuns": 3,
         "homeTeamRuns": 0
       },
       {
