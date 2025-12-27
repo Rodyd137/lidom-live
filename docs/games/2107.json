@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2107",
-    "scraped_at": "2025-12-27T22:53:09.794Z",
+    "scraped_at": "2025-12-27T22:54:14.100Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-27 17:00:00",
-    "roundText": "Alta 4ta",
+    "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "José Marmolejos Golpeado por Pelota ",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 3
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -759,10 +759,17 @@
           },
           {
             "reference_id": "19195-1-39",
-            "text": "Pedro Severino al bate",
+            "text": "Pedro Severino Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766875869
+            "ts": 1766876004
+          },
+          {
+            "reference_id": "19195-1-40",
+            "text": "Jonathan Guzman Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766876027
           }
         ]
       }
@@ -814,7 +821,7 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 9,
+        "total_plays": 10,
         "scoring_plays": 1
       }
     ],
@@ -842,7 +849,7 @@
       },
       {
         "num": 4,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 5,
         "homeTeamRuns": 0
