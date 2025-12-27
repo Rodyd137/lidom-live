@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2107",
-    "scraped_at": "2025-12-27T22:30:05.642Z",
+    "scraped_at": "2025-12-27T22:31:08.208Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-27 17:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Junior Lake Base por Bolas ",
     "counts": {
-      "balls": 3,
+      "balls": 0,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -703,10 +703,17 @@
         "plays": [
           {
             "reference_id": "19195-1-32",
-            "text": "Junior Lake al bate",
+            "text": "Junior Lake Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766874486
+            "ts": 1766874641
+          },
+          {
+            "reference_id": "19195-1-33",
+            "text": "Erik Gonzalez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766874644
           }
         ]
       }
@@ -758,7 +765,7 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
