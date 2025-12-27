@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2107",
-    "scraped_at": "2025-12-27T21:55:24.604Z",
+    "scraped_at": "2025-12-27T21:56:31.362Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-27 17:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Alberto Rodriguez Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -235,6 +235,17 @@
             "team_id": 3,
             "name": "Alberto Rodriguez",
             "abbreviation": "A. Rodriguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5389,
+            "team_id": 3,
+            "name": "Aderlin Rodríguez",
+            "abbreviation": "A. Rodríguez",
             "number": null,
             "dob": null,
             "height": "",
@@ -533,10 +544,17 @@
         "plays": [
           {
             "reference_id": "19193-2-18",
-            "text": "Alberto Rodriguez al bate",
+            "text": "Alberto Rodriguez Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766872418
+            "ts": 1766872531
+          },
+          {
+            "reference_id": "19193-2-19",
+            "text": "Aderlin Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766872539
           }
         ]
       }
@@ -567,7 +585,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
