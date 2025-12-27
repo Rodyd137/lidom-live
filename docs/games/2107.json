@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2107",
-    "scraped_at": "2025-12-27T21:32:23.726Z",
+    "scraped_at": "2025-12-27T21:33:26.708Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-27 17:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Raimer Tapia Sencillo ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -114,6 +114,17 @@
             "team_id": 4,
             "name": "Raimer Tapia",
             "abbreviation": "R. Tapia",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5477,
+            "team_id": 4,
+            "name": " Jorge Mateo",
+            "abbreviation": "J. Mateo",
             "number": null,
             "dob": null,
             "height": "",
@@ -242,7 +253,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -408,10 +419,17 @@
         "plays": [
           {
             "reference_id": "19193-1-9",
-            "text": "Raimer Tapia al bate",
+            "text": "Raimer Tapia Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766871094
+            "ts": 1766871156
+          },
+          {
+            "reference_id": "19193-1-10",
+            "text": " Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766871184
           }
         ]
       }
@@ -435,7 +453,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
