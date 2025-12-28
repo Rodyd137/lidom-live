@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2109",
-    "scraped_at": "2025-12-28T23:44:14.448Z",
+    "scraped_at": "2025-12-28T23:45:18.762Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -15,18 +15,18 @@
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on3B": true,
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -1212,6 +1212,20 @@
             "ts": 1766965255
           }
         ]
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "plays": [
+          {
+            "reference_id": "19516-1-88",
+            "text": "Gilberto Celestino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766965490
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1339,6 +1353,13 @@
         "half": "bottom",
         "label": "Baja 9na",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
