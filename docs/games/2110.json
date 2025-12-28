@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2110",
-    "scraped_at": "2025-12-28T21:20:19.767Z",
+    "scraped_at": "2025-12-28T21:21:25.130Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,20 +13,20 @@
     "currentInningNum": 1,
     "lastPlayByPlay": "Luis García Jr Out: Elevado al Tercera Base",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -169,6 +169,17 @@
             "team_id": 5,
             "name": "Luis García Jr",
             "abbreviation": "L. García Jr",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5675,
+            "team_id": 5,
+            "name": "Francisco Mejia",
+            "abbreviation": "F, Mejia",
             "number": null,
             "dob": null,
             "height": "",
@@ -387,6 +398,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1766956805
+          },
+          {
+            "reference_id": "19219-2-9",
+            "text": "Francisco Mejia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766956843
           }
         ]
       }
@@ -403,7 +421,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -494,7 +512,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 2,
-          "hits": 4,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         }
