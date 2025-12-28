@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2109",
-    "scraped_at": "2025-12-28T23:15:30.866Z",
+    "scraped_at": "2025-12-28T23:16:33.896Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 8,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -264,10 +264,10 @@
             "position": ""
           },
           {
-            "id": 5679,
+            "id": 5305,
             "team_id": 4,
-            "name": "Michael de la Cruz",
-            "abbreviation": "M. de la Curz",
+            "name": "Franchy Cordero",
+            "abbreviation": "F. Cordero",
             "number": null,
             "dob": null,
             "height": "",
@@ -1094,6 +1094,20 @@
             "ts": 1766963570
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "19217-2-76",
+            "text": "Franchy Cordero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766963764
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1200,6 +1214,13 @@
         "half": "top",
         "label": "Alta 8va",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
