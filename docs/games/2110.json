@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2110",
-    "scraped_at": "2025-12-28T21:07:20.356Z",
+    "scraped_at": "2025-12-28T21:08:25.318Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -70,6 +70,17 @@
             "team_id": 3,
             "name": "Steward Berroa",
             "abbreviation": "S. Berroa",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5335,
+            "team_id": 3,
+            "name": "Leody Taveras",
+            "abbreviation": "L. Taveras",
             "number": null,
             "dob": null,
             "height": "",
@@ -253,6 +264,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1766956012
+          },
+          {
+            "reference_id": "19219-1-2",
+            "text": "Leody Taveras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766956056
           }
         ]
       }
@@ -262,7 +280,7 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -343,7 +361,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 5,
-          "hits": 7,
+          "hits": 8,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         },
