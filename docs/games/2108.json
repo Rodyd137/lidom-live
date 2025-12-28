@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2108",
-    "scraped_at": "2025-12-28T01:53:19.728Z",
+    "scraped_at": "2025-12-28T01:54:22.156Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-27 19:30:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Yairo Munoz Doble! Jardinero Izquierdo",
+    "lastPlayByPlay": "Jeimer Candelario se embasa por Error del Campo Corto",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 6
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": true,
-      "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "on1B": true,
+      "on2B": false,
+      "on3B": true,
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 3,
           "H": 6,
-          "E": 0,
+          "E": 1,
           "H2": 3
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 3,
           "H": 6,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 6,
@@ -871,10 +871,17 @@
           },
           {
             "reference_id": "19206-2-54",
-            "text": "Jeimer Candelario al bate",
+            "text": "Jeimer Candelario se embasa por Error del Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1766886760
+            "ts": 1766886834
+          },
+          {
+            "reference_id": "19206-2-55",
+            "text": "Tres Barrera al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766886856
           }
         ]
       }
@@ -954,7 +961,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
