@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2109",
-    "scraped_at": "2025-12-28T20:50:15.236Z",
+    "scraped_at": "2025-12-28T20:59:44.616Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-28 16:00:00",
-    "roundText": "Baja 2da",
-    "currentInningNum": 2,
-    "lastPlayByPlay": "Jonathan Guzman  Out: Rodado al Campo Corto - Primera Base",
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
+    "lastPlayByPlay": "Eloy Jimenez  Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
-      "outs": 2
+      "balls": 1,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 3
+      "battingTeam": "awayTeam",
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -180,7 +180,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Jose Urquidy",
+          "pitcher": "Phillips Valdez",
           "era": "",
           "record": "",
           "debut": false
@@ -605,10 +605,45 @@
           },
           {
             "reference_id": "19211-2-21",
-            "text": "Junior Lake al bate",
+            "text": "Junior Lake Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766954863
+            "ts": 1766955024
+          },
+          {
+            "reference_id": "19211-2-22",
+            "text": "Erik Gonzalez  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766955127
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19212-1-23",
+            "text": "Bryan de la Cruz Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766955357
+          },
+          {
+            "reference_id": "19212-1-24",
+            "text": "Eloy Jimenez  Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766955504
+          },
+          {
+            "reference_id": "19212-1-25",
+            "text": "Troy Johnston  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766955508
           }
         ]
       }
@@ -639,8 +674,15 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 6,
+        "total_plays": 7,
         "scoring_plays": 2
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -654,14 +696,14 @@
       {
         "num": 2,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 2,
         "homeTeamRuns": 2
       },
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -712,7 +754,7 @@
       {
         "id": 2110,
         "date": "2025-12-28 17:00:00",
-        "status": 1,
+        "status": 3,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 3,
