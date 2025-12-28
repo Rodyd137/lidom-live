@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2110",
-    "scraped_at": "2025-12-28T22:05:31.409Z",
+    "scraped_at": "2025-12-28T22:06:35.842Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-28 17:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ezequiel Duran Cuadrangular! ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -647,10 +647,17 @@
         "plays": [
           {
             "reference_id": "19222-1-25",
-            "text": "Ezequiel Duran al bate",
+            "text": "Ezequiel Duran Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1766959534
+          },
+          {
+            "reference_id": "19222-1-26",
+            "text": "Aderlin Rodríguez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1766959437
+            "ts": 1766959555
           }
         ]
       }
@@ -702,8 +709,8 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 1,
-        "scoring_plays": 0
+        "total_plays": 2,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
