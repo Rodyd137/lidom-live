@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2109",
-    "scraped_at": "2025-12-28T23:22:52.408Z",
+    "scraped_at": "2025-12-28T23:23:55.682Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-28 16:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Eloy Jimenez  Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 6,
-          "H": 10,
+          "H": 11,
           "E": 1,
           "H2": 5
         },
@@ -180,7 +180,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Hansel Marcelino",
+          "pitcher": "Patrick Weigel",
           "era": "",
           "record": "",
           "debut": false
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 6,
-          "H": 10,
+          "H": 11,
           "E": 1
         },
         "home": {
@@ -1122,6 +1122,27 @@
             "ts": 1766964008
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "19218-1-79",
+            "text": "Eloy Jimenez  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766964192
+          },
+          {
+            "reference_id": "19218-1-80",
+            "text": "Troy Johnston  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766964198
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1235,6 +1256,13 @@
         "half": "bottom",
         "label": "Baja 8va",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
