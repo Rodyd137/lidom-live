@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2110",
-    "scraped_at": "2025-12-28T22:19:41.552Z",
+    "scraped_at": "2025-12-28T22:20:44.888Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-28 17:00:00",
-    "roundText": "Alta 4ta",
+    "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Alberto Rodriguez  Out: Rodado al Primera Base - Campo Corto - Carrera Empujada",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -682,10 +682,24 @@
           },
           {
             "reference_id": "19222-1-31",
-            "text": "Elih Marrero al bate",
+            "text": "Elih Marrero Elevado de Sacrificio Carrera Empujada - Doble Play! - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1766960200
+            "ts": 1766960414
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19222-2-32",
+            "text": "Carlos Franco al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766960441
           }
         ]
       }
@@ -739,6 +753,13 @@
         "label": "Alta 4ta",
         "total_plays": 6,
         "scoring_plays": 2
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -765,7 +786,7 @@
       },
       {
         "num": 4,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 3,
         "homeTeamRuns": 0
