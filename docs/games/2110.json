@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2110",
-    "scraped_at": "2025-12-28T21:36:07.678Z",
+    "scraped_at": "2025-12-28T21:37:10.723Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-28 17:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Juan Lagares Out: Elevado al Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -125,6 +125,17 @@
             "team_id": 3,
             "name": "Jerar Encarnacion",
             "abbreviation": "J. Encarnacion",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5334,
+            "team_id": 3,
+            "name": "Juan Lagares",
+            "abbreviation": "J. Lagares",
             "number": null,
             "dob": null,
             "height": "",
@@ -454,6 +465,27 @@
             "ts": 1766957430
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19220-1-12",
+            "text": "Jerar Encarnacion  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766957783
+          },
+          {
+            "reference_id": "19220-1-13",
+            "text": "Juan Lagares Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766957822
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -470,6 +502,13 @@
         "label": "Baja 1ra",
         "total_plays": 6,
         "scoring_plays": 2
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
