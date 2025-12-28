@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2108",
-    "scraped_at": "2025-12-28T02:07:21.082Z",
+    "scraped_at": "2025-12-28T02:08:25.534Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-27 19:30:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Gilberto Celestino Doble! 2 Carreras Impulsadas ",
+    "lastPlayByPlay": "Luis Liberato Wild Pitch ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
@@ -906,10 +906,24 @@
           },
           {
             "reference_id": "19206-2-59",
-            "text": "Luis Liberato al bate",
+            "text": "Luis Liberato Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1766887646
+          },
+          {
+            "reference_id": "19206-2-60",
+            "text": "Luis Liberato Wild Pitch ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766887292
+            "ts": 1766887674
+          },
+          {
+            "reference_id": "19206-2-61",
+            "text": "Bryan de la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766887677
           }
         ]
       }
@@ -989,8 +1003,8 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 7,
-        "scoring_plays": 2
+        "total_plays": 9,
+        "scoring_plays": 3
       }
     ],
     "innings_raw": [
