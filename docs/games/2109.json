@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2109",
-    "scraped_at": "2025-12-28T21:54:48.343Z",
+    "scraped_at": "2025-12-28T21:55:52.909Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 5,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -180,7 +180,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Diógenes Almengó",
+          "pitcher": "Grant Gavin",
           "era": "",
           "record": "",
           "debut": false
@@ -814,6 +814,20 @@
             "ts": 1766958759
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19214-1-45",
+            "text": "Jeimer Candelario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766958931
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -871,6 +885,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -944,7 +965,7 @@
         "id": 2110,
         "date": "2025-12-28 17:00:00",
         "status": 2,
-        "roundText": "Alta 3ra",
+        "roundText": "Baja 3ra",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
