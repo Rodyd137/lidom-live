@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2108",
-    "scraped_at": "2025-12-28T00:20:40.231Z",
+    "scraped_at": "2025-12-28T00:21:42.768Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-27 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Marco Hernández Sencillo Jardinero Central",
+    "lastPlayByPlay": "Kelvin Gutiérrez Out: Línea al Jardinero Central",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 1
+      "balls": 1,
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -147,6 +147,17 @@
             "team_id": 5,
             "name": "Kelvin Gutiérrez",
             "abbreviation": "K. Gutiérrez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5251,
+            "team_id": 5,
+            "name": "Julio Carreras",
+            "abbreviation": "J. Carreras",
             "number": null,
             "dob": null,
             "height": "",
@@ -552,10 +563,17 @@
           },
           {
             "reference_id": "19202-1-17",
-            "text": "Kelvin Gutiérrez al bate",
+            "text": "Kelvin Gutiérrez Out: Línea al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1766881141
+            "ts": 1766881240
+          },
+          {
+            "reference_id": "19202-1-18",
+            "text": "Julio Carreras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766881250
           }
         ]
       }
@@ -579,7 +597,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -660,7 +678,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 12,
-          "hits": 12,
+          "hits": 13,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
