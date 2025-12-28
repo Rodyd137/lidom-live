@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2110",
-    "scraped_at": "2025-12-28T22:16:33.489Z",
+    "scraped_at": "2025-12-28T22:17:36.760Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-28 17:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Alberto Rodriguez  Out: Rodado al Primera Base - Campo Corto",
+    "lastPlayByPlay": "Alberto Rodriguez  Out: Rodado al Primera Base - Campo Corto - Carrera Empujada",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 6
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -675,10 +675,17 @@
           },
           {
             "reference_id": "19222-1-30",
-            "text": "Alberto Rodriguez  Out: Rodado al Primera Base - Campo Corto",
+            "text": "Alberto Rodriguez  Out: Rodado al Primera Base - Campo Corto - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1766960195
+          },
+          {
+            "reference_id": "19222-1-31",
+            "text": "Elih Marrero al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1766960172
+            "ts": 1766960200
           }
         ]
       }
@@ -730,8 +737,8 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 5,
-        "scoring_plays": 1
+        "total_plays": 6,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
