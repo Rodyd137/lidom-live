@@ -2,11 +2,12 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2025-12-28T21:05:10.449Z",
+    "scraped_at": "2025-12-28T21:06:15.440Z",
     "tz": "America/Santo_Domingo"
   },
   "tracked_ids": [
-    2109
+    2109,
+    2110
   ],
   "live": [
     {
@@ -17,16 +18,16 @@
       "atBat": null,
       "lastPlayByPlay": "Jeimer Candelario Sencillo ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 2,
+        "strikes": 2,
         "outs": 2
       },
       "base": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "battingTeam": "awayTeam",
       "score": {
@@ -45,8 +46,47 @@
           "E": 0
         }
       },
-      "threat": 11,
-      "updated_at": "2025-12-28T21:05:10.449Z"
+      "threat": 16,
+      "updated_at": "2025-12-28T21:06:15.440Z"
+    },
+    {
+      "id": 2110,
+      "status": 2,
+      "roundText": "Alta 1ra",
+      "currentInningNum": 1,
+      "atBat": null,
+      "lastPlayByPlay": null,
+      "counts": {
+        "balls": 1,
+        "strikes": 0,
+        "outs": 0
+      },
+      "base": {
+        "on1B": false,
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
+      },
+      "battingTeam": "awayTeam",
+      "score": {
+        "away": {
+          "name": "Aguilas",
+          "abbr": "AC",
+          "R": 0,
+          "H": 0,
+          "E": 0
+        },
+        "home": {
+          "name": "Gigantes",
+          "abbr": "GC",
+          "R": 0,
+          "H": 0,
+          "E": 0
+        }
+      },
+      "threat": 22,
+      "updated_at": "2025-12-28T21:06:15.440Z"
     }
   ]
 }
