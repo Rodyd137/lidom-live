@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2108",
-    "scraped_at": "2025-12-28T02:42:43.974Z",
+    "scraped_at": "2025-12-28T02:43:48.232Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-27 19:30:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Rafael Lantigua  Doble! Jardinero Izquierdo",
+    "lastPlayByPlay": "Luis Liberato Out: Elevado al Receptor",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -1046,10 +1046,17 @@
           },
           {
             "reference_id": "19208-2-77",
-            "text": "Gilberto Celestino al bate",
+            "text": "Gilberto Celestino Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1766889738
+            "ts": 1766889789
+          },
+          {
+            "reference_id": "19208-2-78",
+            "text": "Luis Liberato Out: Elevado al Receptor",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766889821
           }
         ]
       }
@@ -1157,7 +1164,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
