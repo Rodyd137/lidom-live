@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2108",
-    "scraped_at": "2025-12-28T01:20:02.172Z",
+    "scraped_at": "2025-12-28T01:21:04.742Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-27 19:30:00",
-    "roundText": "Baja 4ta",
-    "currentInningNum": 4,
-    "lastPlayByPlay": "Rafael Lantigua  Ponche (K) ",
+    "roundText": "Alta 5ta",
+    "currentInningNum": 5,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -180,7 +180,7 @@
           "H2": 6
         },
         "probables": {
-          "pitcher": "Enyel de los Santos",
+          "pitcher": "Anderson Severino",
           "era": "",
           "record": "",
           "debut": false
@@ -766,10 +766,24 @@
           },
           {
             "reference_id": "19204-2-42",
-            "text": "Gilberto Celestino al bate",
+            "text": "Gilberto Celestino  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1766884689
+            "ts": 1766884803
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19205-1-43",
+            "text": "Luis García Jr al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766884858
           }
         ]
       }
@@ -830,6 +844,13 @@
         "label": "Baja 4ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -857,14 +878,14 @@
       {
         "num": 4,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 5,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
