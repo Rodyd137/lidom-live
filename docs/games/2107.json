@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2107",
-    "scraped_at": "2025-12-28T00:15:27.760Z",
+    "scraped_at": "2025-12-28T00:16:30.298Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,7 +14,7 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -125,17 +125,6 @@
             "team_id": 4,
             "name": "Jonathan Arauz",
             "abbreviation": "J. Arauz",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 5497,
-            "team_id": 4,
-            "name": "José Marmolejos",
-            "abbreviation": "J. Marmolejos",
             "number": null,
             "dob": null,
             "height": "",
@@ -1073,6 +1062,20 @@
             "ts": 1766880810
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "19200-1-75",
+            "text": "José Marmolejos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766880965
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1187,6 +1190,13 @@
         "label": "Baja 8va",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1259,7 +1269,7 @@
         "id": 2108,
         "date": "2025-12-27 19:30:00",
         "status": 2,
-        "roundText": "Baja 1ra",
+        "roundText": "Alta 2da",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -1276,7 +1286,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 6,
-          "hits": 4,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         }
