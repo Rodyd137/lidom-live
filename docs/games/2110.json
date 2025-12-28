@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2110",
-    "scraped_at": "2025-12-28T21:42:44.785Z",
+    "scraped_at": "2025-12-28T21:43:51.060Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-28 17:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Leury García  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "David Bañuelos  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 1,
-      "strikes": 1,
-      "outs": 1
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -257,6 +257,17 @@
             "team_id": 5,
             "name": "David Bañuelos",
             "abbreviation": "D. Bañuelos",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5677,
+            "team_id": 5,
+            "name": "Gustavo Nuñez",
+            "abbreviation": "G. Nuñez",
             "number": null,
             "dob": null,
             "height": "",
@@ -541,10 +552,17 @@
           },
           {
             "reference_id": "19220-2-16",
-            "text": "David Bañuelos al bate",
+            "text": "David Bañuelos  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1766958144
+            "ts": 1766958180
+          },
+          {
+            "reference_id": "19220-2-17",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766958219
           }
         ]
       }
@@ -575,7 +593,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
