@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2109",
-    "scraped_at": "2025-12-29T00:12:00.514Z",
+    "scraped_at": "2025-12-29T00:13:03.130Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,19 +14,19 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -1309,6 +1309,20 @@
             "ts": 1766966969
           }
         ]
+      },
+      {
+        "num": 11,
+        "half": "top",
+        "label": "Alta 11ra",
+        "plays": [
+          {
+            "reference_id": "19517-1-97",
+            "text": "Troy Johnston  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766967171
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1451,6 +1465,13 @@
         "label": "Baja 10ma",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 11,
+        "half": "top",
+        "label": "Alta 11ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1537,7 +1558,7 @@
         "id": 2110,
         "date": "2025-12-28 17:00:00",
         "status": 2,
-        "roundText": "Alta 9na",
+        "roundText": "Baja 9na",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
