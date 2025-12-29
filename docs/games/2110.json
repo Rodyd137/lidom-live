@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2110",
-    "scraped_at": "2025-12-29T01:12:18.258Z",
+    "scraped_at": "2025-12-29T01:13:20.622Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,19 +14,19 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Yoan Lopez",
+          "pitcher": "Devin Smeltzer",
           "era": "",
           "record": "",
           "debut": false
@@ -1212,6 +1212,20 @@
             "ts": 1766970619
           }
         ]
+      },
+      {
+        "num": 10,
+        "half": "bottom",
+        "label": "Baja 10ma",
+        "plays": [
+          {
+            "reference_id": "19518-2-89",
+            "text": "Luis García Jr al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766970758
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1347,6 +1361,13 @@
         "label": "Alta 10ma",
         "total_plays": 10,
         "scoring_plays": 5
+      },
+      {
+        "num": 10,
+        "half": "bottom",
+        "label": "Baja 10ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
