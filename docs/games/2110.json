@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2110",
-    "scraped_at": "2025-12-29T01:17:30.222Z",
+    "scraped_at": "2025-12-29T01:18:32.856Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2110,
     "season_id": 20,
-    "status": 2,
+    "status": 6,
     "date": "2025-12-28 17:00:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Marco Hernández  Out: Rodado al Campo Corto - Segunda Base",
+    "lastPlayByPlay": "Nick Torres  Out: Rodado al Campo Corto - Segunda Base",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -242,10 +242,10 @@
             "position": ""
           },
           {
-            "id": 5246,
+            "id": 5649,
             "team_id": 5,
-            "name": "Carlos Franco",
-            "abbreviation": "C. Franco",
+            "name": "Nick Torres",
+            "abbreviation": "N. Torres",
             "number": null,
             "dob": null,
             "height": "",
@@ -1234,10 +1234,17 @@
           },
           {
             "reference_id": "19518-2-91",
-            "text": "Marco Hernández  Out: Rodado al Campo Corto - Segunda Base",
+            "text": "Marco Hernández  Out: Rodado al Campo Corto - Segunda Base - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1766971063
+          },
+          {
+            "reference_id": "19518-2-92",
+            "text": "Nick Torres  Out: Rodado al Campo Corto - Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1766970999
+            "ts": 1766971106
           }
         ]
       }
@@ -1380,8 +1387,8 @@
         "num": 10,
         "half": "bottom",
         "label": "Baja 10ma",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
