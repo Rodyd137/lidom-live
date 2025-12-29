@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2110",
-    "scraped_at": "2025-12-29T00:20:21.083Z",
+    "scraped_at": "2025-12-29T00:21:23.685Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-28 17:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Kelvin Gutiérrez Sencillo ",
+    "lastPlayByPlay": "Gustavo Nuñez Sencillo y 1 Carrera Impulsada ",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 4
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": true,
+      "on3B": false,
       "runners": 1,
-      "mask": 4
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 4,
-          "H": 9,
+          "R": 5,
+          "H": 10,
           "E": 0,
           "H2": 3
         },
@@ -323,7 +323,7 @@
         {
           "num": 9,
           "away": 0,
-          "home": 0
+          "home": 1
         }
       ],
       "extras": false,
@@ -334,8 +334,8 @@
           "E": 2
         },
         "home": {
-          "R": 4,
-          "H": 9,
+          "R": 5,
+          "H": 10,
           "E": 0
         }
       },
@@ -413,7 +413,7 @@
           },
           {
             "num": 9,
-            "R": 4
+            "R": 5
           }
         ]
       }
@@ -1084,10 +1084,10 @@
           },
           {
             "reference_id": "19227-2-76",
-            "text": "Gustavo Nuñez al bate",
-            "scored": false,
+            "text": "Gustavo Nuñez Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
             "is_primary": true,
-            "ts": 1766967502
+            "ts": 1766967672
           }
         ]
       }
@@ -1217,7 +1217,7 @@
         "half": "bottom",
         "label": "Baja 9na",
         "total_plays": 3,
-        "scoring_plays": 0
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1282,14 +1282,14 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       }
     ],
     "siblingGames": [
       {
         "id": 2109,
         "date": "2025-12-28 16:00:00",
-        "status": 2,
+        "status": 6,
         "roundText": "Baja 11ra",
         "awayTeam": {
           "id": 6,
@@ -1298,7 +1298,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 7,
           "hits": 13,
-          "errors": 1,
+          "errors": 2,
           "permalink": "/equipo/toros-del-este"
         },
         "homeTeam": {
@@ -1306,7 +1306,7 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 7,
+          "runs": 8,
           "hits": 12,
           "errors": 2,
           "permalink": "/equipo/leones-del-escogido"
