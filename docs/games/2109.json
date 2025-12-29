@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2109",
-    "scraped_at": "2025-12-28T23:59:29.959Z",
+    "scraped_at": "2025-12-29T00:00:32.538Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-28 16:00:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": " Jorge Mateo Ponche (K) ",
+    "lastPlayByPlay": "Michael de la Cruz al bate",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 6,
-          "H": 10,
+          "R": 7,
+          "H": 11,
           "E": 2,
           "H2": 2
         },
@@ -264,10 +264,10 @@
             "position": ""
           },
           {
-            "id": 5305,
+            "id": 5679,
             "team_id": 4,
-            "name": "Franchy Cordero",
-            "abbreviation": "F. Cordero",
+            "name": "Michael de la Cruz",
+            "abbreviation": "M. de la Curz",
             "number": null,
             "dob": null,
             "height": "",
@@ -339,7 +339,7 @@
         {
           "num": 10,
           "away": 1,
-          "home": 0
+          "home": 1
         }
       ],
       "extras": true,
@@ -350,8 +350,8 @@
           "E": 1
         },
         "home": {
-          "R": 6,
-          "H": 10,
+          "R": 7,
+          "H": 11,
           "E": 2
         }
       },
@@ -437,7 +437,7 @@
           },
           {
             "num": 10,
-            "R": 6
+            "R": 7
           }
         ]
       }
@@ -1262,10 +1262,24 @@
           },
           {
             "reference_id": "19516-2-93",
-            "text": "José Marmolejos al bate",
+            "text": "José Marmolejos Sencillo ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1766966391
+          },
+          {
+            "reference_id": "19516-2-92-275076",
+            "text": "José Marmolejos Out Robando Base! ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1766966400
+          },
+          {
+            "reference_id": "19516-2-94",
+            "text": "Michael de la Cruz al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1766966249
+            "ts": 1766966429
           }
         ]
       }
@@ -1408,8 +1422,8 @@
         "num": 10,
         "half": "bottom",
         "label": "Baja 10ma",
-        "total_plays": 2,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1481,7 +1495,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       }
     ],
     "siblingGames": [
