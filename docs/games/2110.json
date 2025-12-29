@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2110",
-    "scraped_at": "2025-12-29T00:39:04.322Z",
+    "scraped_at": "2025-12-29T00:40:06.899Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2025-12-28 17:00:00",
     "roundText": "Alta 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Aderlin Rodríguez  Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "Cristhian Adames Doble! 1 Carrera Impulsada ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 5,
-          "H": 10,
+          "R": 6,
+          "H": 11,
           "E": 2,
           "H2": 3
         },
@@ -338,15 +338,15 @@
         },
         {
           "num": 10,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": true,
       "totals": {
         "away": {
-          "R": 5,
-          "H": 10,
+          "R": 6,
+          "H": 11,
           "E": 2
         },
         "home": {
@@ -395,7 +395,7 @@
           },
           {
             "num": 10,
-            "R": 5
+            "R": 6
           }
         ],
         "home": [
@@ -1150,10 +1150,17 @@
           },
           {
             "reference_id": "19518-1-80",
-            "text": "Cristhian Adames al bate",
+            "text": "Cristhian Adames Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1766968760
+          },
+          {
+            "reference_id": "19518-1-81",
+            "text": "Jerar Encarnacion al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1766968652
+            "ts": 1766968782
           }
         ]
       }
@@ -1289,8 +1296,8 @@
         "num": 10,
         "half": "top",
         "label": "Alta 10ma",
-        "total_plays": 2,
-        "scoring_plays": 0
+        "total_plays": 3,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1361,7 +1368,7 @@
         "num": 10,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
