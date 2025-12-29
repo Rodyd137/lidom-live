@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2109",
-    "scraped_at": "2025-12-29T00:14:05.652Z",
+    "scraped_at": "2025-12-29T00:15:08.176Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-28 16:00:00",
     "roundText": "Alta 11ra",
     "currentInningNum": 11,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Troy Johnston   Out: Rodado al Segunda Base - Lanzador",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 3
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -1317,10 +1317,17 @@
         "plays": [
           {
             "reference_id": "19517-1-97",
-            "text": "Troy Johnston  al bate",
+            "text": "Troy Johnston   Out: Rodado al Segunda Base - Lanzador",
             "scored": false,
             "is_primary": true,
-            "ts": 1766967171
+            "ts": 1766967259
+          },
+          {
+            "reference_id": "19517-1-98",
+            "text": "Yairo Munoz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1766967262
           }
         ]
       }
@@ -1470,7 +1477,7 @@
         "num": 11,
         "half": "top",
         "label": "Alta 11ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
