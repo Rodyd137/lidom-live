@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2111",
-    "scraped_at": "2025-12-30T00:16:00.507Z",
+    "scraped_at": "2025-12-30T00:17:03.174Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-29 19:00:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Johan Rojas   Out: Rodado al Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -674,6 +674,27 @@
             "ts": 1767053613
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19231-2-28",
+            "text": "Johan Rojas   Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767053814
+          },
+          {
+            "reference_id": "19231-2-29",
+            "text": "Luis García Jr al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767053819
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -724,6 +745,13 @@
         "half": "top",
         "label": "Alta 4ta",
         "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
