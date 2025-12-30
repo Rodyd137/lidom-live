@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2112",
-    "scraped_at": "2025-12-30T00:05:34.958Z",
+    "scraped_at": "2025-12-30T00:06:37.563Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-29 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Yairo Munoz  Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "Jeimer Candelario Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -528,10 +528,17 @@
           },
           {
             "reference_id": "19238-1-12",
-            "text": "Jeimer Candelario al bate",
+            "text": "Jeimer Candelario Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1767053051
+            "ts": 1767053150
+          },
+          {
+            "reference_id": "19238-1-13",
+            "text": "Tres Barrera al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767053154
           }
         ]
       }
@@ -555,7 +562,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
