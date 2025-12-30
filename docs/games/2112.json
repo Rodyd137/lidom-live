@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2112",
-    "scraped_at": "2025-12-30T02:08:56.984Z",
+    "scraped_at": "2025-12-30T02:10:57.082Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-29 19:30:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Rafael Lantigua  Doble! Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 4,
-          "H": 3,
+          "H": 4,
           "E": 1,
           "H2": 4
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 4,
-          "H": 3,
+          "H": 4,
           "E": 1
         },
         "home": {
@@ -884,6 +884,34 @@
             "ts": 1767060291
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "19242-1-57",
+            "text": "Tres Barrera Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767060578
+          },
+          {
+            "reference_id": "19242-1-58",
+            "text": "Rafael Lantigua  Doble! Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767060643
+          },
+          {
+            "reference_id": "19242-1-59",
+            "text": "Gilberto Celestino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767060649
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -954,6 +982,13 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
         "total_plays": 3,
         "scoring_plays": 0
       }
@@ -1028,7 +1063,7 @@
         "id": 2111,
         "date": "2025-12-29 19:00:00",
         "status": 2,
-        "roundText": "Alta 9na",
+        "roundText": "Baja 9na",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
