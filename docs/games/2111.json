@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2111",
-    "scraped_at": "2025-12-30T00:41:02.478Z",
+    "scraped_at": "2025-12-30T00:42:09.288Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-29 19:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Francisco Mejia Sencillo ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 1,
-          "H": 1,
+          "H": 2,
           "E": 1,
           "H2": 1
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 1,
-          "H": 1,
+          "H": 2,
           "E": 1
         }
       },
@@ -759,10 +759,17 @@
         "plays": [
           {
             "reference_id": "19232-2-37",
-            "text": "Francisco Mejia al bate",
+            "text": "Francisco Mejia Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1767055231
+            "ts": 1767055319
+          },
+          {
+            "reference_id": "19232-2-38",
+            "text": "Carlos Franco al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767055324
           }
         ]
       }
@@ -835,7 +842,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
