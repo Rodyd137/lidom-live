@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2112",
-    "scraped_at": "2025-12-30T01:12:32.137Z",
+    "scraped_at": "2025-12-30T01:13:34.685Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-29 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Jerar Encarnacion Robo de Base ",
+    "lastPlayByPlay": "Jonatan Clase Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 8
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": true,
-      "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "on3B": true,
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -717,10 +717,24 @@
           },
           {
             "reference_id": "19239-2-37",
-            "text": "Jonatan Clase al bate",
+            "text": "Jerar Encarnacion Robo de Base ",
             "scored": false,
             "is_primary": true,
-            "ts": 1767057011
+            "ts": 1767057166
+          },
+          {
+            "reference_id": "19239-2-38",
+            "text": "Jonatan Clase Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767057180
+          },
+          {
+            "reference_id": "19239-2-39",
+            "text": "Elih Marrero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767057194
           }
         ]
       }
@@ -765,7 +779,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 5,
+        "total_plays": 7,
         "scoring_plays": 0
       }
     ],
