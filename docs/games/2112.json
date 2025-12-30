@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2112",
-    "scraped_at": "2025-12-30T02:54:09.099Z",
+    "scraped_at": "2025-12-30T02:55:12.352Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-29 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jerar Encarnacion Ponche (K) ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -242,21 +242,10 @@
             "position": ""
           },
           {
-            "id": 5602,
+            "id": 5390,
             "team_id": 3,
-            "name": "Jerar Encarnacion",
-            "abbreviation": "J. Encarnacion",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 5485,
-            "team_id": 3,
-            "name": "Jonatan Clase",
-            "abbreviation": "J. Clase",
+            "name": "Alberto Rodriguez",
+            "abbreviation": "A. Rodriguez",
             "number": null,
             "dob": null,
             "height": "",
@@ -1025,10 +1014,17 @@
         "plays": [
           {
             "reference_id": "19243-2-73",
-            "text": "Jerar Encarnacion al bate",
+            "text": "Jerar Encarnacion Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1767063113
+            "ts": 1767063277
+          },
+          {
+            "reference_id": "19243-2-74",
+            "text": "Jonatan Clase al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767063283
           }
         ]
       }
@@ -1129,7 +1125,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
