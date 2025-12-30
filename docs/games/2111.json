@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2111",
-    "scraped_at": "2025-12-30T02:13:06.187Z",
+    "scraped_at": "2025-12-30T02:14:09.553Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-29 19:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Francisco Mejia  Out: Rodado al Primera Base - Lanzador",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -235,17 +235,6 @@
             "team_id": 5,
             "name": "Francisco Mejia",
             "abbreviation": "F, Mejia",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 5246,
-            "team_id": 5,
-            "name": "Carlos Franco",
-            "abbreviation": "C. Franco",
             "number": null,
             "dob": null,
             "height": "",
@@ -1052,6 +1041,20 @@
             "ts": 1767060634
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "19236-2-71",
+            "text": "Francisco Mejia  Out: Rodado al Primera Base - Lanzador",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767060841
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1172,6 +1175,13 @@
         "half": "top",
         "label": "Alta 9na",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
