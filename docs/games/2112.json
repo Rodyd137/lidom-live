@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2112",
-    "scraped_at": "2025-12-30T03:34:07.679Z",
+    "scraped_at": "2025-12-30T03:35:11.170Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-29 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Eloy Jimenez  Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -1098,10 +1098,24 @@
         "plays": [
           {
             "reference_id": "19245-1-83",
-            "text": "Bryan de la Cruz al bate",
+            "text": "Bryan de la Cruz Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1767064701
+            "ts": 1767065661
+          },
+          {
+            "reference_id": "19245-1-84",
+            "text": "Eloy Jimenez  Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767065676
+          },
+          {
+            "reference_id": "19245-1-85",
+            "text": "Troy Johnston  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767065705
           }
         ]
       }
@@ -1223,7 +1237,7 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
