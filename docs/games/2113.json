@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2113",
-    "scraped_at": "2025-12-30T23:36:08.042Z",
+    "scraped_at": "2025-12-30T23:49:07.424Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2025-12-30 19:15:00",
-    "roundText": "Baja 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "Julio Carreras Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 1
+      "battingTeam": "awayTeam",
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on3B": true,
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 0,
-          "H": 2,
+          "H": 3,
           "E": 0,
           "H2": 0
         },
@@ -175,7 +175,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -341,12 +341,12 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 2,
+          "H": 3,
           "E": 0
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         }
       },
@@ -486,10 +486,73 @@
         "plays": [
           {
             "reference_id": "19246-2-7",
-            "text": "Junior Lake al bate",
+            "text": "Junior Lake Out: Elevado al Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1767137708
+            "ts": 1767137774
+          },
+          {
+            "reference_id": "19246-2-8",
+            "text": "Erik Gonzalez  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767137872
+          },
+          {
+            "reference_id": "19246-2-9",
+            "text": "Socrates Brito Sencillo Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767137954
+          },
+          {
+            "reference_id": "19246-2-10",
+            "text": "Yamaico Navarro Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767138030
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19247-1-11",
+            "text": "Leury García Sencillo Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767138235
+          },
+          {
+            "reference_id": "19247-1-12",
+            "text": "Leury García Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767138283
+          },
+          {
+            "reference_id": "19247-1-13",
+            "text": "Hanser Alberto Toque de Sacrificio Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767138325
+          },
+          {
+            "reference_id": "19247-1-14",
+            "text": "Julio Carreras Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767138489
+          },
+          {
+            "reference_id": "19247-1-15",
+            "text": "Marco Hernández al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767138495
           }
         ]
       }
@@ -506,7 +569,14 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 1,
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -514,14 +584,14 @@
       {
         "num": 1,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -579,8 +649,8 @@
       {
         "id": 2114,
         "date": "2025-12-30 19:30:00",
-        "status": 3,
-        "roundText": "Alta 1ra",
+        "status": 2,
+        "roundText": "Baja 1ra",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -596,8 +666,8 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 0,
-          "hits": 0,
+          "runs": 1,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         }
