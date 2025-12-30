@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2112",
-    "scraped_at": "2025-12-30T01:09:24.370Z",
+    "scraped_at": "2025-12-30T01:10:27.021Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2025-12-29 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Jerar Encarnacion Sencillo Jardinero Izquierdo",
+    "lastPlayByPlay": "Jerar Encarnacion Robo de Base ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 2,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -710,10 +710,17 @@
           },
           {
             "reference_id": "19239-2-36",
+            "text": "Jerar Encarnacion Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767057002
+          },
+          {
+            "reference_id": "19239-2-37",
             "text": "Jonatan Clase al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1767056897
+            "ts": 1767057011
           }
         ]
       }
@@ -758,7 +765,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
