@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2111",
-    "scraped_at": "2025-12-30T00:04:32.244Z",
+    "scraped_at": "2025-12-30T00:05:35.021Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-29 19:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Socrates Brito  Out: Rodado al Primera Base - Lanzador",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -625,6 +625,27 @@
             "ts": 1767052904
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "19231-1-22",
+            "text": "Socrates Brito  Out: Rodado al Primera Base - Lanzador",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767053092
+          },
+          {
+            "reference_id": "19231-1-23",
+            "text": "Yamaico Navarro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767053095
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -668,6 +689,13 @@
         "half": "bottom",
         "label": "Baja 3ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
