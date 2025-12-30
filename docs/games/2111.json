@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2111",
-    "scraped_at": "2025-12-30T01:52:12.545Z",
+    "scraped_at": "2025-12-30T01:53:15.399Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-29 19:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Elier Hernandez Doble! 2 Carreras Impulsadas ",
+    "lastPlayByPlay": "Pedro Severino Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 4
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": true,
+      "on3B": false,
       "runners": 1,
-      "mask": 4
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 3,
-          "H": 7,
+          "R": 4,
+          "H": 8,
           "E": 1,
           "H2": 1
         },
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 2,
+          "away": 3,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 3,
-          "H": 7,
+          "R": 4,
+          "H": 8,
           "E": 1
         },
         "home": {
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 3
+            "R": 4
           },
           {
             "num": 9,
-            "R": 3
+            "R": 4
           }
         ],
         "home": [
@@ -983,10 +983,17 @@
           },
           {
             "reference_id": "19235-1-63",
-            "text": "Pedro Severino al bate",
+            "text": "Pedro Severino Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1767059579
+          },
+          {
+            "reference_id": "19235-1-64",
+            "text": "Franchy Cordero al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1767059487
+            "ts": 1767059583
           }
         ]
       }
@@ -1094,8 +1101,8 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 6,
-        "scoring_plays": 1
+        "total_plays": 7,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1152,7 +1159,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 2,
+        "awayTeamRuns": 3,
         "homeTeamRuns": 0
       },
       {
