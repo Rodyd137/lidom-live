@@ -2,11 +2,12 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2025-12-31T02:20:38.137Z",
+    "scraped_at": "2025-12-31T02:22:54.275Z",
     "tz": "America/Santo_Domingo"
   },
   "tracked_ids": [
-    2113
+    2113,
+    2114
   ],
   "live": [
     {
@@ -18,22 +19,22 @@
       "lastPlayByPlay": "Nomar Mazara Sencillo Jardinero Derecho ",
       "counts": {
         "balls": 0,
-        "strikes": 2,
-        "outs": 0
+        "strikes": 0,
+        "outs": 2
       },
       "base": {
-        "on1B": true,
+        "on1B": false,
         "on2B": false,
-        "on3B": true,
-        "runners": 2,
-        "mask": 6
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
       },
       "battingTeam": "awayTeam",
       "score": {
         "away": {
           "name": "Gigantes",
           "abbr": "GC",
-          "R": 1,
+          "R": 2,
           "H": 7,
           "E": 1
         },
@@ -45,8 +46,47 @@
           "E": 0
         }
       },
-      "threat": 73,
-      "updated_at": "2025-12-31T02:20:38.137Z"
+      "threat": 4,
+      "updated_at": "2025-12-31T02:22:54.275Z"
+    },
+    {
+      "id": 2114,
+      "status": 2,
+      "roundText": "Alta 7ma",
+      "currentInningNum": 7,
+      "atBat": null,
+      "lastPlayByPlay": "Adael Amador Out: Elevado al Jardinero Izquierdo",
+      "counts": {
+        "balls": 0,
+        "strikes": 0,
+        "outs": 3
+      },
+      "base": {
+        "on1B": false,
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
+      },
+      "battingTeam": "awayTeam",
+      "score": {
+        "away": {
+          "name": "Aguilas",
+          "abbr": "AC",
+          "R": 5,
+          "H": 8,
+          "E": 0
+        },
+        "home": {
+          "name": "Toros",
+          "abbr": "TE",
+          "R": 4,
+          "H": 11,
+          "E": 0
+        }
+      },
+      "threat": 4,
+      "updated_at": "2025-12-31T02:22:54.275Z"
     }
   ]
 }
