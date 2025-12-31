@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2113",
-    "scraped_at": "2025-12-31T00:52:18.227Z",
+    "scraped_at": "2025-12-31T00:53:23.146Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-30 19:15:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Julio Carreras  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -744,6 +744,27 @@
             "ts": 1767142162
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19250-1-38",
+            "text": "Hanser Alberto Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767142380
+          },
+          {
+            "reference_id": "19250-1-39",
+            "text": "Julio Carreras  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767142399
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -802,6 +823,13 @@
         "label": "Baja 4ta",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
