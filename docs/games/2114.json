@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2114",
-    "scraped_at": "2025-12-31T00:05:58.772Z",
+    "scraped_at": "2025-12-31T00:07:03.031Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2025-12-30 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Yairo Munoz Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -224,6 +224,17 @@
             "team_id": 6,
             "name": "Jeimer Candelario",
             "abbreviation": "J. Candelario",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5377,
+            "team_id": 6,
+            "name": "Yairo Munoz",
+            "abbreviation": "Y. Munoz",
             "number": null,
             "dob": null,
             "height": "",
@@ -486,6 +497,20 @@
             "ts": 1767139427
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "19256-2-14",
+            "text": "Yairo Munoz Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767139603
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -508,6 +533,13 @@
         "half": "top",
         "label": "Alta 2da",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
