@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2113",
-    "scraped_at": "2025-12-31T00:09:11.989Z",
+    "scraped_at": "2025-12-31T00:10:16.741Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-30 19:15:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Johan Rojas  Out: Elevado al Campo Corto",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -604,6 +604,27 @@
             "ts": 1767139607
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19248-1-22",
+            "text": "Johan Rojas  Out: Elevado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767139797
+          },
+          {
+            "reference_id": "19248-1-23",
+            "text": "Ismael Munguia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767139800
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -633,6 +654,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
