@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2114",
-    "scraped_at": "2025-12-31T01:39:41.484Z",
+    "scraped_at": "2025-12-31T01:40:46.123Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on3B": true,
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 4,
-          "H": 6,
+          "H": 7,
           "E": 0,
           "H2": 4
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 4,
-          "H": 6,
+          "H": 7,
           "E": 0
         },
         "home": {
@@ -856,6 +856,20 @@
             "ts": 1767144988
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "19260-1-50",
+            "text": "Adael Amador al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767145191
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -927,6 +941,13 @@
         "half": "bottom",
         "label": "Baja 5ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
