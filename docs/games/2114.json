@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2114",
-    "scraped_at": "2025-12-31T02:36:47.536Z",
+    "scraped_at": "2025-12-31T02:37:51.606Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2025-12-30 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Elih Marrero Ponche (K) ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -121,10 +121,10 @@
             "position": ""
           },
           {
-            "id": 5622,
+            "id": 5596,
             "team_id": 3,
-            "name": "Corey Joyce",
-            "abbreviation": "C. Joyce",
+            "name": "Elih Marrero",
+            "abbreviation": "E. Marrero",
             "number": null,
             "dob": null,
             "height": "",
@@ -1024,6 +1024,27 @@
             "ts": 1767148389
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "19262-1-69",
+            "text": "Elih Marrero Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767148648
+          },
+          {
+            "reference_id": "19262-1-70",
+            "text": "Alfredo Reyes al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767148664
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1123,6 +1144,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
