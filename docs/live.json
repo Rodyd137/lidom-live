@@ -2,11 +2,12 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-01-02T23:37:53.052Z",
+    "scraped_at": "2026-01-02T23:38:56.321Z",
     "tz": "America/Santo_Domingo"
   },
   "tracked_ids": [
-    2115
+    2115,
+    2116
   ],
   "live": [
     {
@@ -17,16 +18,16 @@
       "atBat": null,
       "lastPlayByPlay": "Marco Hernández Out: Elevado al Jardinero Central",
       "counts": {
-        "balls": 1,
+        "balls": 0,
         "strikes": 0,
         "outs": 1
       },
       "base": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "battingTeam": "awayTeam",
       "score": {
@@ -42,11 +43,50 @@
           "abbr": "AC",
           "R": 0,
           "H": 0,
+          "E": 1
+        }
+      },
+      "threat": 22,
+      "updated_at": "2026-01-02T23:38:56.321Z"
+    },
+    {
+      "id": 2116,
+      "status": 2,
+      "roundText": "Alta 1ra",
+      "currentInningNum": 1,
+      "atBat": null,
+      "lastPlayByPlay": null,
+      "counts": {
+        "balls": 1,
+        "strikes": 1,
+        "outs": 0
+      },
+      "base": {
+        "on1B": false,
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
+      },
+      "battingTeam": "awayTeam",
+      "score": {
+        "away": {
+          "name": "Leones",
+          "abbr": "LE",
+          "R": 0,
+          "H": 0,
+          "E": 0
+        },
+        "home": {
+          "name": "Toros",
+          "abbr": "TE",
+          "R": 0,
+          "H": 0,
           "E": 0
         }
       },
-      "threat": 12,
-      "updated_at": "2026-01-02T23:37:53.052Z"
+      "threat": 22,
+      "updated_at": "2026-01-02T23:38:56.321Z"
     }
   ]
 }
