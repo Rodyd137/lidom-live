@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2115",
-    "scraped_at": "2026-01-02T23:57:34.619Z",
+    "scraped_at": "2026-01-02T23:59:09.439Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-02 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ismael Munguia Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -114,6 +114,17 @@
             "team_id": 5,
             "name": "Ismael Munguia",
             "abbreviation": "I. Munguia",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5245,
+            "team_id": 5,
+            "name": "Pablo Reyes",
+            "abbreviation": "P. Reyes",
             "number": null,
             "dob": null,
             "height": "",
@@ -430,10 +441,17 @@
         "plays": [
           {
             "reference_id": "19265-1-8",
-            "text": "Ismael Munguia al bate",
+            "text": "Ismael Munguia Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1767398198
+            "ts": 1767398281
+          },
+          {
+            "reference_id": "19265-1-9",
+            "text": "Pablo Reyes al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767398315
           }
         ]
       }
@@ -457,7 +475,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -537,8 +555,8 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 1,
-          "hits": 1,
+          "runs": 3,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
