@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2115",
-    "scraped_at": "2026-01-03T00:04:26.684Z",
+    "scraped_at": "2026-01-03T00:05:29.957Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -490,6 +490,20 @@
             "ts": 1767398515
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "19265-2-12",
+            "text": "Cristhian Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767398685
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -512,6 +526,13 @@
         "half": "top",
         "label": "Alta 2da",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
