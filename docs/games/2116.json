@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2116",
-    "scraped_at": "2026-01-03T02:28:10.197Z",
+    "scraped_at": "2026-01-03T02:29:13.113Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-02 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gilberto Celestino Out: Elevado al Jardinero Derecho ",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -59,7 +59,7 @@
           "H2": 8
         },
         "probables": {
-          "pitcher": "Hansel Marcelino",
+          "pitcher": "Anneurys Zabala",
           "era": "",
           "record": "",
           "debut": false
@@ -954,6 +954,27 @@
             "ts": 1767407057
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "19279-2-61",
+            "text": "Gilberto Celestino Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767407328
+          },
+          {
+            "reference_id": "19279-2-62",
+            "text": "Luis Liberato al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767407331
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1046,6 +1067,13 @@
         "half": "top",
         "label": "Alta 7ma",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
