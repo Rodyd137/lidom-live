@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2115",
-    "scraped_at": "2026-01-03T03:11:05.952Z",
+    "scraped_at": "2026-01-03T03:12:08.920Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-01-02 19:30:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Cristhian Adames  Out: Rodado al Primera Base - Lanzador",
+    "lastPlayByPlay": "Alfredo Reyes Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 4
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": true,
+      "on3B": false,
       "runners": 1,
-      "mask": 4
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 6,
-          "H": 10,
+          "R": 7,
+          "H": 11,
           "E": 1,
           "H2": 0
         },
@@ -339,7 +339,7 @@
         {
           "num": 10,
           "away": 1,
-          "home": 0
+          "home": 1
         }
       ],
       "extras": true,
@@ -350,8 +350,8 @@
           "E": 2
         },
         "home": {
-          "R": 6,
-          "H": 10,
+          "R": 7,
+          "H": 11,
           "E": 1
         }
       },
@@ -437,7 +437,7 @@
           },
           {
             "num": 10,
-            "R": 6
+            "R": 7
           }
         ]
       }
@@ -1178,10 +1178,10 @@
           },
           {
             "reference_id": "19609-2-85",
-            "text": "Alfredo Reyes al bate",
-            "scored": false,
+            "text": "Alfredo Reyes Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
             "is_primary": true,
-            "ts": 1767409848
+            "ts": 1767409913
           }
         ]
       }
@@ -1325,7 +1325,7 @@
         "half": "bottom",
         "label": "Baja 10ma",
         "total_plays": 2,
-        "scoring_plays": 0
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1397,14 +1397,14 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       }
     ],
     "siblingGames": [
       {
         "id": 2116,
         "date": "2026-01-02 19:30:00",
-        "status": 2,
+        "status": 6,
         "roundText": "Baja 9na",
         "awayTeam": {
           "id": 4,
