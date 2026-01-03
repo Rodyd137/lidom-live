@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2115",
-    "scraped_at": "2026-01-03T00:29:44.262Z",
+    "scraped_at": "2026-01-03T00:30:47.457Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-02 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Elih Marrero Ponche (K) ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
-      "outs": 0
+      "balls": 2,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -268,6 +268,17 @@
             "team_id": 3,
             "name": "Elih Marrero",
             "abbreviation": "E. Marrero",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5324,
+            "team_id": 3,
+            "name": "Angel Genao",
+            "abbreviation": "A. Genao",
             "number": null,
             "dob": null,
             "height": "",
@@ -601,10 +612,17 @@
         "plays": [
           {
             "reference_id": "19266-2-20",
-            "text": "Elih Marrero al bate",
+            "text": "Elih Marrero Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1767400145
+            "ts": 1767400191
+          },
+          {
+            "reference_id": "19266-2-21",
+            "text": "Angel Genao al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767400225
           }
         ]
       }
@@ -649,7 +667,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
