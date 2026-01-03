@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2116",
-    "scraped_at": "2026-01-03T02:23:58.480Z",
+    "scraped_at": "2026-01-03T02:25:01.578Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-02 19:30:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "José Marmolejos Sencillo ",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 2
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -941,10 +941,17 @@
           },
           {
             "reference_id": "19279-1-60",
-            "text": "Michael de la Cruz al bate",
+            "text": "Michael de la Cruz Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1767406814
+            "ts": 1767407048
+          },
+          {
+            "reference_id": "19279-1-59-276080",
+            "text": "José Marmolejos Out Robando Base! ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1767407057
           }
         ]
       }
@@ -1038,7 +1045,7 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -1087,7 +1094,7 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
