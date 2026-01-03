@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2115",
-    "scraped_at": "2026-01-03T02:15:36.429Z",
+    "scraped_at": "2026-01-03T02:16:39.339Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-02 19:30:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Leury García Cuadrangular! 3 Carreras Impulsadas ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 2
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -136,6 +136,17 @@
             "team_id": 5,
             "name": "Leury García",
             "abbreviation": "L. Garcia",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5694,
+            "team_id": 5,
+            "name": "Deivi Grullon",
+            "abbreviation": "D. Grullon",
             "number": null,
             "dob": null,
             "height": "",
@@ -979,10 +990,17 @@
           },
           {
             "reference_id": "19271-1-65",
-            "text": "Melvi Mercedes  al bate",
+            "text": "Deivi Grullon Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1767406392
+            "ts": 1767406553
+          },
+          {
+            "reference_id": "19271-1-66",
+            "text": "Julio Carreras  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767406584
           }
         ]
       }
@@ -1090,7 +1108,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 8,
+        "total_plays": 9,
         "scoring_plays": 2
       }
     ],
@@ -1146,7 +1164,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 5,
         "homeTeamRuns": 0
