@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2115",
-    "scraped_at": "2026-01-03T02:12:27.804Z",
+    "scraped_at": "2026-01-03T02:13:30.691Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-02 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Pablo Reyes Sencillo y 2 Carreras Impulsadas ",
+    "lastPlayByPlay": "Leury García Cuadrangular! 3 Carreras Impulsadas ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 5
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 3,
-          "H": 5,
+          "R": 6,
+          "H": 6,
           "E": 1,
           "H2": 0
         },
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 2,
+          "away": 5,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 3,
-          "H": 5,
+          "R": 6,
+          "H": 6,
           "E": 1
         },
         "home": {
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 3
+            "R": 6
           },
           {
             "num": 9,
-            "R": 3
+            "R": 6
           }
         ],
         "home": [
@@ -983,10 +983,17 @@
           },
           {
             "reference_id": "19271-1-64",
-            "text": "Leury García al bate",
+            "text": "Leury García Cuadrangular! 3 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1767406379
+          },
+          {
+            "reference_id": "19271-1-65",
+            "text": "Melvi Mercedes  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1767406332
+            "ts": 1767406392
           }
         ]
       }
@@ -1094,8 +1101,8 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 7,
-        "scoring_plays": 1
+        "total_plays": 8,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1152,7 +1159,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 2,
+        "awayTeamRuns": 5,
         "homeTeamRuns": 0
       },
       {
