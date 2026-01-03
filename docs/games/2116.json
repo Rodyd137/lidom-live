@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2116",
-    "scraped_at": "2026-01-03T01:18:05.980Z",
+    "scraped_at": "2026-01-03T01:19:08.800Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-02 19:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": " Jorge Mateo Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -744,6 +744,27 @@
             "ts": 1767403061
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19277-1-38",
+            "text": " Jorge Mateo Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767403099
+          },
+          {
+            "reference_id": "19277-1-39",
+            "text": "José Marmolejos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767403102
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -801,6 +822,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -882,7 +910,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 0,
           "hits": 1,
-          "errors": 0,
+          "errors": 1,
           "permalink": "/equipo/gigantes-del-cibao"
         },
         "homeTeam": {
