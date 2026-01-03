@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2115",
-    "scraped_at": "2026-01-03T02:52:15.587Z",
+    "scraped_at": "2026-01-03T02:53:18.730Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-02 19:30:00",
-    "roundText": "Baja 9na",
-    "currentInningNum": 9,
-    "lastPlayByPlay": "Leody Taveras Ponche (K) ",
+    "roundText": "Alta 10ma",
+    "currentInningNum": 10,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -335,9 +335,14 @@
           "num": 9,
           "away": 0,
           "home": 0
+        },
+        {
+          "num": 10,
+          "away": 0,
+          "home": 0
         }
       ],
-      "extras": false,
+      "extras": true,
       "totals": {
         "away": {
           "R": 6,
@@ -387,6 +392,10 @@
           {
             "num": 9,
             "R": 6
+          },
+          {
+            "num": 10,
+            "R": 6
           }
         ],
         "home": [
@@ -424,6 +433,10 @@
           },
           {
             "num": 9,
+            "R": 6
+          },
+          {
+            "num": 10,
             "R": 6
           }
         ]
@@ -1102,10 +1115,10 @@
           },
           {
             "reference_id": "19272-2-78",
-            "text": "Ezequiel Duran al bate",
+            "text": "Ezequiel Duran Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1767408632
+            "ts": 1767408778
           }
         ]
       }
@@ -1298,6 +1311,13 @@
       {
         "num": 9,
         "part": 2,
+        "is_last": 0,
+        "awayTeamRuns": 0,
+        "homeTeamRuns": 0
+      },
+      {
+        "num": 10,
+        "part": 1,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
