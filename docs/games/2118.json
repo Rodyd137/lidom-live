@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2118",
-    "scraped_at": "2026-01-03T21:31:02.360Z",
+    "scraped_at": "2026-01-03T21:32:35.029Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-03 17:00:00",
-    "roundText": "Baja 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "Pablo Reyes Ponche (K) ",
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "Bryan Lavastida Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -114,6 +114,28 @@
             "team_id": 6,
             "name": "Juan Brito",
             "abbreviation": "J. Brito",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5642,
+            "team_id": 6,
+            "name": "Bryan Lavastida",
+            "abbreviation": "B. Lavastida",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5506,
+            "team_id": 6,
+            "name": "Jeimer Candelario",
+            "abbreviation": "J. Candelario",
             "number": null,
             "dob": null,
             "height": "",
@@ -432,6 +454,20 @@
             "ts": 1767475694
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19292-1-12",
+            "text": "Bryan Lavastida Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767475941
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -448,20 +484,27 @@
         "label": "Baja 1ra",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
       {
         "num": 1,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 1
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
