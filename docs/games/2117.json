@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2117",
-    "scraped_at": "2026-01-03T23:34:16.737Z",
+    "scraped_at": "2026-01-03T23:35:22.692Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-03 16:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "José Marmolejos Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "Michael de la Cruz Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -275,10 +275,10 @@
             "position": ""
           },
           {
-            "id": 5305,
+            "id": 5299,
             "team_id": 4,
-            "name": "Franchy Cordero",
-            "abbreviation": "F. Cordero",
+            "name": "Luis De Los Santos",
+            "abbreviation": "L. De Los Santos",
             "number": null,
             "dob": null,
             "height": "",
@@ -1109,10 +1109,17 @@
           },
           {
             "reference_id": "19290-2-78",
-            "text": "Michael de la Cruz al bate",
+            "text": "Michael de la Cruz Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1767483160
+            "ts": 1767483304
+          },
+          {
+            "reference_id": "19290-2-79",
+            "text": "Luis De Los Santos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767483315
           }
         ]
       }
@@ -1241,7 +1248,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
