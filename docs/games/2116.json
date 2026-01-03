@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2116",
-    "scraped_at": "2026-01-03T02:36:33.191Z",
+    "scraped_at": "2026-01-03T02:37:36.019Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-02 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jonathan Guzman Out: Elevado al Tercera Base",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -982,6 +982,27 @@
             "ts": 1767407578
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "19280-1-64",
+            "text": "Jonathan Guzman Out: Elevado al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767407825
+          },
+          {
+            "reference_id": "19280-1-65",
+            "text": "Junior Lake al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767407829
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1082,6 +1103,13 @@
         "label": "Baja 7ma",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1154,7 +1182,7 @@
         "id": 2115,
         "date": "2026-01-02 19:30:00",
         "status": 2,
-        "roundText": "Baja 8va",
+        "roundText": "Alta 9na",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -1162,7 +1190,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 6,
           "hits": 7,
-          "errors": 1,
+          "errors": 2,
           "permalink": "/equipo/gigantes-del-cibao"
         },
         "homeTeam": {
@@ -1171,7 +1199,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 6,
-          "hits": 9,
+          "hits": 10,
           "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
         }
