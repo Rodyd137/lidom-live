@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2117",
-    "scraped_at": "2026-01-03T21:26:45.779Z",
+    "scraped_at": "2026-01-03T21:27:49.702Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-03 16:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Sebastian Rivero Out: Elevado al Segunda Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -667,6 +667,27 @@
             "ts": 1767475451
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "19285-1-27",
+            "text": "Sebastian Rivero Out: Elevado al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767475639
+          },
+          {
+            "reference_id": "19285-1-28",
+            "text": "Steward Berroa al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767475644
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -710,6 +731,13 @@
         "half": "bottom",
         "label": "Baja 3ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
