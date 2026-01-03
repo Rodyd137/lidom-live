@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2117",
-    "scraped_at": "2026-01-03T23:01:03.274Z",
+    "scraped_at": "2026-01-03T23:02:05.537Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-03 16:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "José Marmolejos Doble! ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 4
         },
         "probables": {
-          "pitcher": "Oscar de la Cruz",
+          "pitcher": "Carlos Belén",
           "era": "",
           "record": "",
           "debut": false
@@ -175,7 +175,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 0,
-          "H": 5,
+          "H": 6,
           "E": 1,
           "H2": 0
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 0,
-          "H": 5,
+          "H": 6,
           "E": 1
         }
       },
@@ -997,10 +997,17 @@
         "plays": [
           {
             "reference_id": "19289-2-64",
-            "text": "José Marmolejos al bate",
+            "text": "José Marmolejos Doble! ",
             "scored": false,
             "is_primary": true,
-            "ts": 1767481224
+            "ts": 1767481271
+          },
+          {
+            "reference_id": "19289-2-65",
+            "text": "Pedro Severino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767481276
           }
         ]
       }
@@ -1115,7 +1122,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1189,7 +1196,7 @@
         "id": 2118,
         "date": "2026-01-03 17:00:00",
         "status": 2,
-        "roundText": "Baja 5ta",
+        "roundText": "Alta 6ta",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
