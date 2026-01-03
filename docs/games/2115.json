@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2115",
-    "scraped_at": "2026-01-03T02:55:24.071Z",
+    "scraped_at": "2026-01-03T02:56:26.929Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -15,18 +15,18 @@
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -99,10 +99,10 @@
             "position": ""
           },
           {
-            "id": 5246,
+            "id": 5243,
             "team_id": 5,
-            "name": "Carlos Franco",
-            "abbreviation": "C. Franco",
+            "name": "Hanser Alberto",
+            "abbreviation": "H. Alberto",
             "number": null,
             "dob": null,
             "height": "",
@@ -1121,6 +1121,20 @@
             "ts": 1767408778
           }
         ]
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "plays": [
+          {
+            "reference_id": "19609-1-79",
+            "text": "Hanser Alberto al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767408980
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1248,6 +1262,13 @@
         "half": "bottom",
         "label": "Baja 9na",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
