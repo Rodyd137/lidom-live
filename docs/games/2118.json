@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2118",
-    "scraped_at": "2026-01-03T22:08:24.339Z",
+    "scraped_at": "2026-01-03T22:09:28.506Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -15,7 +15,7 @@
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -268,6 +268,17 @@
             "team_id": 5,
             "name": "Marco Hernández",
             "abbreviation": "M. Hernández",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5251,
+            "team_id": 5,
+            "name": "Julio Carreras",
+            "abbreviation": "J. Carreras",
             "number": null,
             "dob": null,
             "height": "",
@@ -628,6 +639,20 @@
             "ts": 1767478002
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "19293-2-26",
+            "text": "Julio Carreras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767478156
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -665,6 +690,13 @@
         "label": "Alta 3ra",
         "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -754,7 +786,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 0,
-          "hits": 2,
+          "hits": 3,
           "errors": 1,
           "permalink": "/equipo/leones-del-escogido"
         }
