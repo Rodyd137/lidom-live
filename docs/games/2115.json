@@ -1,17 +1,17 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2115",
-    "scraped_at": "2026-01-03T03:20:30.624Z",
+    "scraped_at": "2026-01-03T03:21:33.408Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2115,
     "season_id": 20,
-    "status": 2,
+    "status": 6,
     "date": "2026-01-02 19:30:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Jerar Encarnacion Base por Bolas Intencional ",
+    "lastPlayByPlay": "Julio E. Rodriguez Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 8
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
-      "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "on1B": false,
+      "on2B": false,
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Bryan Rodriguez ",
           "era": "",
           "record": "",
           "debut": false
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 7,
-          "H": 11,
+          "R": 8,
+          "H": 12,
           "E": 1,
           "H2": 0
         },
@@ -339,7 +339,7 @@
         {
           "num": 10,
           "away": 1,
-          "home": 1
+          "home": 2
         }
       ],
       "extras": true,
@@ -350,8 +350,8 @@
           "E": 2
         },
         "home": {
-          "R": 7,
-          "H": 11,
+          "R": 8,
+          "H": 12,
           "E": 1
         }
       },
@@ -437,7 +437,7 @@
           },
           {
             "num": 10,
-            "R": 7
+            "R": 8
           }
         ]
       }
@@ -1196,6 +1196,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1767410215
+          },
+          {
+            "reference_id": "19609-2-88",
+            "text": "Julio E. Rodriguez Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1767410472
           }
         ]
       }
@@ -1338,8 +1345,8 @@
         "num": 10,
         "half": "bottom",
         "label": "Baja 10ma",
-        "total_plays": 4,
-        "scoring_plays": 1
+        "total_plays": 5,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1411,7 +1418,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 1
+        "homeTeamRuns": 2
       }
     ],
     "siblingGames": [
