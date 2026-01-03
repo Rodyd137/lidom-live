@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2116",
-    "scraped_at": "2026-01-03T03:05:51.543Z",
+    "scraped_at": "2026-01-03T03:06:54.444Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-01-02 19:30:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Juan Brito Sencillo ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 10,
           "H": 14,
-          "E": 1,
+          "E": 0,
           "H2": 8
         },
         "probables": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 5,
-          "H": 4,
+          "H": 5,
           "E": 0,
           "H2": 5
         },
@@ -264,10 +264,10 @@
             "position": ""
           },
           {
-            "id": 5573,
+            "id": 5396,
             "team_id": 6,
-            "name": "Tres Barrera",
-            "abbreviation": "T. Barrera",
+            "name": "Manuel Peña",
+            "abbreviation": "M. Peña",
             "number": null,
             "dob": null,
             "height": "",
@@ -342,11 +342,11 @@
         "away": {
           "R": 10,
           "H": 14,
-          "E": 1
+          "E": 0
         },
         "home": {
           "R": 5,
-          "H": 4,
+          "H": 5,
           "E": 0
         }
       },
@@ -1087,6 +1087,27 @@
             "ts": 1767409279
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "19281-2-76",
+            "text": "Juan Brito Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767409590
+          },
+          {
+            "reference_id": "19281-2-77",
+            "text": "Manuel Peña al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767409594
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1207,6 +1228,13 @@
         "half": "top",
         "label": "Alta 9na",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
