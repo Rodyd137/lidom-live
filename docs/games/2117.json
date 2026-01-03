@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2117",
-    "scraped_at": "2026-01-03T21:20:20.788Z",
+    "scraped_at": "2026-01-03T21:21:25.444Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-03 16:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "José Marmolejos Base por Bolas ",
     "counts": {
-      "balls": 3,
+      "balls": 0,
       "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -647,10 +647,17 @@
         "plays": [
           {
             "reference_id": "19284-2-24",
-            "text": "José Marmolejos al bate",
+            "text": "José Marmolejos Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1767475191
+            "ts": 1767475237
+          },
+          {
+            "reference_id": "19284-2-25",
+            "text": "Pedro Severino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767475244
           }
         ]
       }
@@ -695,7 +702,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
