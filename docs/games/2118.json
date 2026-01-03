@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2118",
-    "scraped_at": "2026-01-03T21:09:04.849Z",
+    "scraped_at": "2026-01-03T21:10:09.194Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-03 17:00:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Luis Liberato Elevado de Sacrificio ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on3B": true,
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -70,6 +70,17 @@
             "team_id": 6,
             "name": "Gilberto Celestino",
             "abbreviation": "G. Celestino",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5635,
+            "team_id": 6,
+            "name": "Luis Liberato",
+            "abbreviation": "L. Liberato",
             "number": null,
             "dob": null,
             "height": "",
@@ -153,7 +164,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -249,10 +260,17 @@
         "plays": [
           {
             "reference_id": "19291-1-1",
-            "text": "Gilberto Celestino al bate",
+            "text": "Gilberto Celestino Doble! Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1767474043
+            "ts": 1767474564
+          },
+          {
+            "reference_id": "19291-1-2",
+            "text": "Luis Liberato Elevado de Sacrificio ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767474592
           }
         ]
       }
@@ -262,7 +280,7 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
