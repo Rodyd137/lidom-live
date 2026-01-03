@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2118",
-    "scraped_at": "2026-01-03T23:13:31.012Z",
+    "scraped_at": "2026-01-03T23:15:34.458Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-03 17:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Francisco Mejia Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 0,
+      "balls": 0,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -885,10 +885,17 @@
         "plays": [
           {
             "reference_id": "19296-2-56",
-            "text": "Francisco Mejia al bate",
+            "text": "Francisco Mejia Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1767481863
+            "ts": 1767482077
+          },
+          {
+            "reference_id": "19296-2-57",
+            "text": "Ismael Munguia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767482080
           }
         ]
       }
@@ -975,7 +982,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
