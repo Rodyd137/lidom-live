@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2119",
-    "scraped_at": "2026-01-04T22:23:38.741Z",
+    "scraped_at": "2026-01-04T22:26:07.984Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-04 16:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Junior Lake  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -947,6 +947,27 @@
             "ts": 1767565280
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "19307-1-59",
+            "text": "Junior Lake  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767565552
+          },
+          {
+            "reference_id": "19307-1-60",
+            "text": "José Marmolejos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767565557
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1046,6 +1067,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
