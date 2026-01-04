@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2118",
-    "scraped_at": "2026-01-04T00:23:08.660Z",
+    "scraped_at": "2026-01-04T00:24:12.069Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-03 17:00:00",
-    "roundText": "Alta 9na",
+    "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Eloy Jimenez  Out: Elevado al Jardinero Izquierdo",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 4
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "JC Mejía",
+          "pitcher": "Joe Corbett",
           "era": "",
           "record": "",
           "debut": false
@@ -1115,6 +1115,20 @@
             "ts": 1767486180
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "19299-2-86",
+            "text": "Julio Carreras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767486210
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1236,6 +1250,13 @@
         "label": "Alta 9na",
         "total_plays": 6,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1297,7 +1318,7 @@
       },
       {
         "num": 9,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
