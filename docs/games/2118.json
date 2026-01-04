@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2118",
-    "scraped_at": "2026-01-04T00:28:27.203Z",
+    "scraped_at": "2026-01-04T00:29:30.906Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-03 17:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Gustavo Nuñez Sencillo Jardinero Izquierdo",
+    "lastPlayByPlay": "Gustavo Nuñez al bate",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -1137,10 +1137,17 @@
           },
           {
             "reference_id": "19299-2-89",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767486560
+          },
+          {
+            "reference_id": "19299-2-90",
             "text": "Johan Rojas  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1767486486
+            "ts": 1767486567
           }
         ]
       }
@@ -1269,7 +1276,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
