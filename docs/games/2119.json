@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2119",
-    "scraped_at": "2026-01-04T20:44:29.704Z",
+    "scraped_at": "2026-01-04T20:45:32.448Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-04 16:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Jonatan Clase Base por Bolas ",
+    "lastPlayByPlay": "Jerar Encarnacion Doble Play!  Out: Rodado al - Campo Corto - Segunda Base - Primera Base",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 8
+      "base": 4
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -174,10 +174,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 0,
+          "R": 1,
           "H": 1,
           "E": 0,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
           "pitcher": "Abdiel Mendoza",
@@ -262,6 +262,17 @@
             "height": "",
             "image": null,
             "position": ""
+          },
+          {
+            "id": 5332,
+            "team_id": 3,
+            "name": "Steward Berroa",
+            "abbreviation": "S. Berroa",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
           }
         ]
       }
@@ -277,7 +288,7 @@
         {
           "num": 2,
           "away": 2,
-          "home": 0
+          "home": 1
         },
         {
           "num": 3,
@@ -323,7 +334,7 @@
           "E": 0
         },
         "home": {
-          "R": 0,
+          "R": 1,
           "H": 1,
           "E": 0
         }
@@ -374,35 +385,35 @@
           },
           {
             "num": 2,
-            "R": 0
+            "R": 1
           },
           {
             "num": 3,
-            "R": 0
+            "R": 1
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ]
       }
@@ -555,10 +566,17 @@
           },
           {
             "reference_id": "19301-2-17",
-            "text": "Jerar Encarnacion al bate",
+            "text": "Jerar Encarnacion Doble Play!  Out: Rodado al - Campo Corto - Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1767559378
+            "ts": 1767559489
+          },
+          {
+            "reference_id": "19301-2-18",
+            "text": "Steward Berroa al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767559520
           }
         ]
       }
@@ -589,7 +607,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -606,7 +624,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 2,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 3,
