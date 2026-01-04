@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2120",
-    "scraped_at": "2026-01-04T21:53:56.251Z",
+    "scraped_at": "2026-01-04T21:54:59.351Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-04 17:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Ismael Munguia Robo de Base ",
+    "lastPlayByPlay": "Francisco Mejia Cuadrangular! 3 Carreras Impulsadas ",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 2,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 7
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": true,
-      "runners": 2,
-      "mask": 7
+      "on2B": false,
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 0,
-          "H": 2,
+          "R": 3,
+          "H": 3,
           "E": 0,
-          "H2": 0
+          "H2": 3
         },
         "probables": {
           "pitcher": "Cristopher Molina",
@@ -303,7 +303,7 @@
         },
         {
           "num": 3,
-          "away": 0,
+          "away": 3,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 2,
+          "R": 3,
+          "H": 3,
           "E": 0
         },
         "home": {
@@ -362,31 +362,31 @@
           },
           {
             "num": 3,
-            "R": 0
+            "R": 3
           },
           {
             "num": 4,
-            "R": 0
+            "R": 3
           },
           {
             "num": 5,
-            "R": 0
+            "R": 3
           },
           {
             "num": 6,
-            "R": 0
+            "R": 3
           },
           {
             "num": 7,
-            "R": 0
+            "R": 3
           },
           {
             "num": 8,
-            "R": 0
+            "R": 3
           },
           {
             "num": 9,
-            "R": 0
+            "R": 3
           }
         ],
         "home": [
@@ -605,10 +605,17 @@
           },
           {
             "reference_id": "19311-1-21",
-            "text": "Francisco Mejia al bate",
+            "text": "Francisco Mejia Cuadrangular! 3 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1767563650
+          },
+          {
+            "reference_id": "19311-1-22",
+            "text": "Carlos Franco al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1767563440
+            "ts": 1767563655
           }
         ]
       }
@@ -646,8 +653,8 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 6,
-        "scoring_plays": 0
+        "total_plays": 7,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -669,7 +676,7 @@
         "num": 3,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 3,
         "homeTeamRuns": 0
       },
       {
@@ -720,7 +727,7 @@
         "id": 2119,
         "date": "2026-01-04 16:00:00",
         "status": 2,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
