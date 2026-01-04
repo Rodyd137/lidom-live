@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2120",
-    "scraped_at": "2026-01-04T23:14:15.939Z",
+    "scraped_at": "2026-01-04T23:15:20.421Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-04 17:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Jeimer Candelario Base por Bolas ",
+    "lastPlayByPlay": "Luis Liberato Doble! 2 Carreras Impulsadas ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": true,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 4,
-          "H": 5,
+          "R": 6,
+          "H": 6,
           "E": 0,
           "H2": 4
         },
@@ -319,7 +319,7 @@
         {
           "num": 6,
           "away": 0,
-          "home": 0
+          "home": 2
         },
         {
           "num": 7,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 4,
-          "H": 5,
+          "R": 6,
+          "H": 6,
           "E": 0
         }
       },
@@ -412,19 +412,19 @@
           },
           {
             "num": 6,
-            "R": 4
+            "R": 6
           },
           {
             "num": 7,
-            "R": 4
+            "R": 6
           },
           {
             "num": 8,
-            "R": 4
+            "R": 6
           },
           {
             "num": 9,
-            "R": 4
+            "R": 6
           }
         ]
       }
@@ -878,10 +878,17 @@
           },
           {
             "reference_id": "19314-2-55",
-            "text": "Luis Liberato al bate",
+            "text": "Luis Liberato Doble! 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1767568512
+          },
+          {
+            "reference_id": "19314-2-56",
+            "text": "Bryan de la Cruz al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1767568422
+            "ts": 1767568516
           }
         ]
       }
@@ -968,8 +975,8 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 5,
-        "scoring_plays": 0
+        "total_plays": 6,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1013,7 +1020,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 2
       },
       {
         "num": 7,
