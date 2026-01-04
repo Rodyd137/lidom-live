@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2119",
-    "scraped_at": "2026-01-04T20:37:46.739Z",
+    "scraped_at": "2026-01-04T20:38:51.222Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -213,6 +213,17 @@
             "team_id": 3,
             "name": "Ezequiel Duran",
             "abbreviation": "E. Duran",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5660,
+            "team_id": 3,
+            "name": "Cristhian Adames",
+            "abbreviation": "C. Adames",
             "number": null,
             "dob": null,
             "height": "",
@@ -482,6 +493,20 @@
             "ts": 1767558931
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "19301-2-14",
+            "text": "Cristhian Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767559079
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -505,6 +530,13 @@
         "label": "Alta 2da",
         "total_plays": 8,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
