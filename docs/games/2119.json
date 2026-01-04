@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2119",
-    "scraped_at": "2026-01-04T20:28:07.356Z",
+    "scraped_at": "2026-01-04T20:29:11.847Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 4
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": true,
+      "on3B": false,
       "runners": 1,
-      "mask": 4
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 1,
-          "H": 3,
+          "R": 2,
+          "H": 4,
           "E": 0,
-          "H2": 1
+          "H2": 2
         },
         "probables": {
           "pitcher": "Conner Greene",
@@ -125,6 +125,17 @@
             "team_id": 4,
             "name": " Jorge Mateo",
             "abbreviation": "J. Mateo",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5580,
+            "team_id": 4,
+            "name": "Elier Hernandez",
+            "abbreviation": "E. Hernandez",
             "number": null,
             "dob": null,
             "height": "",
@@ -199,7 +210,7 @@
         },
         {
           "num": 2,
-          "away": 1,
+          "away": 2,
           "home": 0
         },
         {
@@ -241,8 +252,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 1,
-          "H": 3,
+          "R": 2,
+          "H": 4,
           "E": 0
         },
         "home": {
@@ -259,35 +270,35 @@
           },
           {
             "num": 2,
-            "R": 1
+            "R": 2
           },
           {
             "num": 3,
-            "R": 1
+            "R": 2
           },
           {
             "num": 4,
-            "R": 1
+            "R": 2
           },
           {
             "num": 5,
-            "R": 1
+            "R": 2
           },
           {
             "num": 6,
-            "R": 1
+            "R": 2
           },
           {
             "num": 7,
-            "R": 1
+            "R": 2
           },
           {
             "num": 8,
-            "R": 1
+            "R": 2
           },
           {
             "num": 9,
-            "R": 1
+            "R": 2
           }
         ],
         "home": [
@@ -401,7 +412,7 @@
           },
           {
             "reference_id": "19301-1-8",
-            "text": "José Marmolejos Sencillo ",
+            "text": "José Marmolejos Sencillo, Out en Home",
             "scored": false,
             "is_primary": true,
             "ts": 1767558331
@@ -412,6 +423,13 @@
             "scored": true,
             "is_primary": true,
             "ts": 1767558467
+          },
+          {
+            "reference_id": "19301-1-10",
+            "text": "Elier Hernandez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767558544
           }
         ]
       }
@@ -435,7 +453,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 1
       }
     ],
@@ -451,7 +469,7 @@
         "num": 2,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 1,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
