@@ -1,21 +1,21 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2119",
-    "scraped_at": "2026-01-04T23:19:38.903Z",
+    "scraped_at": "2026-01-04T23:38:27.683Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2119,
     "season_id": 20,
-    "status": 2,
+    "status": 6,
     "date": "2026-01-04 16:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Jerar Encarnacion  Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "Angel Genao Out: Elevado al Campo Corto",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -40,9 +40,9 @@
       "over_under": null
     },
     "pitchers": {
-      "winning": null,
-      "losing": null,
-      "save": null
+      "winning": "Conner Greene",
+      "losing": "Abdiel Mendoza",
+      "save": "Steven Nogosek"
     },
     "teams": {
       "away": {
@@ -275,10 +275,10 @@
             "position": ""
           },
           {
-            "id": 5390,
+            "id": 5324,
             "team_id": 3,
-            "name": "Alberto Rodriguez",
-            "abbreviation": "A. Rodriguez",
+            "name": "Angel Genao",
+            "abbreviation": "A. Genao",
             "number": null,
             "dob": null,
             "height": "",
@@ -1109,10 +1109,17 @@
           },
           {
             "reference_id": "19308-2-77",
-            "text": "Steward Berroa al bate",
+            "text": "Steward Berroa Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1767568665
+            "ts": 1767568794
+          },
+          {
+            "reference_id": "19308-2-78",
+            "text": "Angel Genao Out: Elevado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767568832
           }
         ]
       }
@@ -1241,7 +1248,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -1315,15 +1322,15 @@
         "id": 2120,
         "date": "2026-01-04 17:00:00",
         "status": 2,
-        "roundText": "Baja 6ta",
+        "roundText": "Alta 7ma",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 3,
-          "hits": 4,
-          "errors": 0,
+          "hits": 5,
+          "errors": 1,
           "permalink": "/equipo/gigantes-del-cibao"
         },
         "homeTeam": {
@@ -1331,8 +1338,8 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 6,
-          "hits": 6,
+          "runs": 8,
+          "hits": 7,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         }
