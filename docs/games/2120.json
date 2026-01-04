@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2120",
-    "scraped_at": "2026-01-04T22:37:38.310Z",
+    "scraped_at": "2026-01-04T22:44:14.389Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-04 17:00:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Gustavo Nuñez  Out: Rodado al Lanzador - Primera Base",
+    "lastPlayByPlay": "Sergio Alcantara  Out: Rodado al Primera Base",
     "counts": {
-      "balls": 2,
+      "balls": 3,
       "strikes": 2,
-      "outs": 2
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Ofreidy Gomez",
+          "pitcher": "Tayron Guerrero",
           "era": "",
           "record": "",
           "debut": false
@@ -766,10 +766,31 @@
           },
           {
             "reference_id": "19313-1-42",
-            "text": "Ismael Munguia al bate",
+            "text": "Ismael Munguia Out: Línea al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1767566179
+            "ts": 1767566276
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "19313-2-43",
+            "text": "Sergio Alcantara  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767566515
+          },
+          {
+            "reference_id": "19313-2-44",
+            "text": "Gilberto Celestino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767566520
           }
         ]
       }
@@ -837,6 +858,13 @@
         "label": "Alta 5ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -870,7 +898,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
