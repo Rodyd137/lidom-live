@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2120",
-    "scraped_at": "2026-01-04T23:42:41.930Z",
+    "scraped_at": "2026-01-04T23:43:45.062Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-04 17:00:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Francisco Mejia Out: Línea al Jardinero Derecho ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -954,6 +954,20 @@
             "ts": 1767570141
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "19315-2-66",
+            "text": "Bryan de la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767570194
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1047,6 +1061,13 @@
         "label": "Alta 7ma",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1094,7 +1115,7 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 2,
         "homeTeamRuns": 0
