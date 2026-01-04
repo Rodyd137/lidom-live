@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2119",
-    "scraped_at": "2026-01-04T21:16:34.717Z",
+    "scraped_at": "2026-01-04T21:17:39.421Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-04 16:00:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ezequiel Duran Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -688,6 +688,20 @@
             "ts": 1767561266
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19303-2-30",
+            "text": "Ezequiel Duran Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767561446
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -738,6 +752,13 @@
         "half": "top",
         "label": "Alta 4ta",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -827,7 +848,7 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 0,
+          "runs": 1,
           "hits": 1,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
