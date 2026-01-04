@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2120",
-    "scraped_at": "2026-01-04T21:54:59.351Z",
+    "scraped_at": "2026-01-04T21:57:16.278Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-04 17:00:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Francisco Mejia Cuadrangular! 3 Carreras Impulsadas ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 2
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -612,10 +612,24 @@
           },
           {
             "reference_id": "19311-1-22",
-            "text": "Carlos Franco al bate",
+            "text": "Carlos Franco  Out: Rodado al Lanzador - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1767563655
+            "ts": 1767563742
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "19311-2-23",
+            "text": "Sergio Alcantara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767563774
           }
         ]
       }
@@ -655,6 +669,13 @@
         "label": "Alta 3ra",
         "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -674,7 +695,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 3,
         "homeTeamRuns": 0
