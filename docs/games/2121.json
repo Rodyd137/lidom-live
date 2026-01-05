@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2121",
-    "scraped_at": "2026-01-05T20:55:05.838Z",
+    "scraped_at": "2026-01-05T21:14:38.598Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-05 16:00:00",
-    "roundText": "Alta 3ra",
-    "currentInningNum": 3,
-    "lastPlayByPlay": "Jeimer Candelario Sencillo y 2 Carreras Impulsadas ",
+    "roundText": "Baja 4ta",
+    "currentInningNum": 4,
+    "lastPlayByPlay": "Socrates Brito  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 2
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 5
+      "battingTeam": "homeTeam",
+      "base": 2
     },
     "base_runners": {
       "on1B": true,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,12 +175,12 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 1,
           "H2": 0
         },
         "probables": {
-          "pitcher": "Patrick Halligan",
+          "pitcher": "Grant Gavin",
           "era": "",
           "record": "",
           "debut": false
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 1
         }
       },
@@ -623,6 +623,104 @@
             "scored": true,
             "is_primary": true,
             "ts": 1767646477
+          },
+          {
+            "reference_id": "19320-1-23",
+            "text": "Tres Barrera  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767646524
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "19320-2-24",
+            "text": "José Marmolejos Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767646752
+          },
+          {
+            "reference_id": "19320-2-25",
+            "text": "Michael de la Cruz  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767646863
+          },
+          {
+            "reference_id": "19320-2-26",
+            "text": "Jonathan Guzman  Out: Rodado al Receptor - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767646939
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "19321-1-27",
+            "text": "Sergio Alcantara Out: Elevado al Receptor",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767647134
+          },
+          {
+            "reference_id": "19321-1-28",
+            "text": "Gilberto Celestino Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767647253
+          },
+          {
+            "reference_id": "19321-1-29",
+            "text": "Luis Liberato  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767647286
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19321-2-30",
+            "text": "Junior Lake  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767647490
+          },
+          {
+            "reference_id": "19321-2-31",
+            "text": "Erik Gonzalez Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767647584
+          },
+          {
+            "reference_id": "19321-2-32",
+            "text": "Socrates Brito  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767647629
+          },
+          {
+            "reference_id": "19321-2-33",
+            "text": "Elier Hernandez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767647634
           }
         ]
       }
@@ -660,8 +758,29 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 7,
+        "total_plays": 8,
         "scoring_plays": 1
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 4,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -681,15 +800,15 @@
       },
       {
         "num": 3,
-        "part": 1,
-        "is_last": 1,
+        "part": 2,
+        "is_last": 0,
         "awayTeamRuns": 3,
         "homeTeamRuns": 0
       },
       {
         "num": 4,
-        "part": 1,
-        "is_last": 0,
+        "part": 2,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
