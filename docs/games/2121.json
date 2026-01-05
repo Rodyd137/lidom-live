@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2121",
-    "scraped_at": "2026-01-05T23:04:27.195Z",
+    "scraped_at": "2026-01-05T23:05:31.453Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-01-05 16:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gilberto Celestino Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -1017,6 +1017,27 @@
             "ts": 1767654111
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "19326-1-68",
+            "text": "Gilberto Celestino Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767654285
+          },
+          {
+            "reference_id": "19326-1-69",
+            "text": "Luis Liberato al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767654287
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1130,6 +1151,13 @@
         "half": "bottom",
         "label": "Baja 8va",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
