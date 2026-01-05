@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2121",
-    "scraped_at": "2026-01-05T23:09:48.981Z",
+    "scraped_at": "2026-01-05T23:18:30.836Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-05 16:00:00",
-    "roundText": "Alta 9na",
+    "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Bryan de la Cruz Sencillo ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 5
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -1043,6 +1043,20 @@
             "scored": false,
             "is_primary": true,
             "ts": 1767654581
+          },
+          {
+            "reference_id": "19326-1-72",
+            "text": "Eloy Jimenez  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767654867
+          },
+          {
+            "reference_id": "19326-1-73",
+            "text": "Juan Brito Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767655027
           }
         ]
       }
@@ -1164,7 +1178,7 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 3,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -1227,7 +1241,7 @@
       },
       {
         "num": 9,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
