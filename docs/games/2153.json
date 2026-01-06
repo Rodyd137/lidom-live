@@ -1,20 +1,20 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2153",
-    "scraped_at": "2026-01-06T22:56:55.324Z",
+    "scraped_at": "2026-01-06T23:25:40.796Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2153,
     "season_id": 20,
-    "status": 3,
+    "status": 2,
     "date": "2026-01-06 19:00:00",
-    "roundText": "Alta 1ra",
-    "currentInningNum": 1,
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 0,
-          "H": 0,
-          "E": 0,
-          "H2": 0
+          "R": 1,
+          "H": 1,
+          "E": 1,
+          "H2": 1
         },
         "probables": {
           "pitcher": "Osvaldo Bido",
@@ -174,10 +174,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 0,
-          "H": 0,
+          "R": 1,
+          "H": 1,
           "E": 0,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
           "pitcher": "Shane Greene",
@@ -293,8 +293,8 @@
       "innings": [
         {
           "num": 1,
-          "away": 0,
-          "home": 0
+          "away": 1,
+          "home": 1
         },
         {
           "num": 2,
@@ -340,13 +340,13 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 0,
-          "E": 0
+          "R": 1,
+          "H": 1,
+          "E": 1
         },
         "home": {
-          "R": 0,
-          "H": 0,
+          "R": 1,
+          "H": 1,
           "E": 0
         }
       },
@@ -354,77 +354,77 @@
         "away": [
           {
             "num": 1,
-            "R": 0
+            "R": 1
           },
           {
             "num": 2,
-            "R": 0
+            "R": 1
           },
           {
             "num": 3,
-            "R": 0
+            "R": 1
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ],
         "home": [
           {
             "num": 1,
-            "R": 0
+            "R": 1
           },
           {
             "num": 2,
-            "R": 0
+            "R": 1
           },
           {
             "num": 3,
-            "R": 0
+            "R": 1
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ]
       }
@@ -436,11 +436,95 @@
         "label": "Alta 1ra",
         "plays": [
           {
-            "reference_id": "19610-1-1",
-            "text": "Leody Taveras al bate",
+            "reference_id": "19610-1-2",
+            "text": "Leody Taveras Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1767740969
+          },
+          {
+            "reference_id": "19610-1-3",
+            "text": "Geraldo Perdomo Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1767739873
+            "ts": 1767740982
+          },
+          {
+            "reference_id": "19610-1-4",
+            "text": "Ezequiel Duran Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767741029
+          },
+          {
+            "reference_id": "19610-1-5",
+            "text": "Cristhian Adames Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767741091
+          }
+        ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "19610-2-6",
+            "text": "Gustavo Nuñez Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767741336
+          },
+          {
+            "reference_id": "19610-2-7",
+            "text": "Gustavo Nuñez Robo de Base se embasa por Error del - Receptor",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767741437
+          },
+          {
+            "reference_id": "19610-2-8",
+            "text": "Johan Rojas  Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1767741465
+          },
+          {
+            "reference_id": "19610-2-9",
+            "text": "Johan Rojas  Out Robando Base! Receptor - Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767741552
+          },
+          {
+            "reference_id": "19610-2-10",
+            "text": "Ismael Munguia  Out: Rodado al Primera Base - Lanzador",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767741665
+          },
+          {
+            "reference_id": "19610-2-11",
+            "text": "Pablo Reyes Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767741766
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19611-1-12",
+            "text": "Jonatan Clase al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767741854
           }
         ]
       }
@@ -450,6 +534,20 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
+        "total_plays": 4,
+        "scoring_plays": 1
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 6,
+        "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
         "total_plays": 1,
         "scoring_plays": 0
       }
@@ -457,15 +555,15 @@
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
-        "is_last": 1,
-        "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "part": 2,
+        "is_last": 0,
+        "awayTeamRuns": 1,
+        "homeTeamRuns": 1
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
