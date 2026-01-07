@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2153",
-    "scraped_at": "2026-01-07T00:10:13.113Z",
+    "scraped_at": "2026-01-07T00:11:17.093Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-06 19:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Ismael Munguia  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "Pablo Reyes Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 2,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -661,10 +661,17 @@
           },
           {
             "reference_id": "19612-2-29",
-            "text": "Pablo Reyes al bate",
+            "text": "Pablo Reyes Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1767744585
+            "ts": 1767744659
+          },
+          {
+            "reference_id": "19612-2-30",
+            "text": "Francisco Mejia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767744662
           }
         ]
       }
@@ -709,7 +716,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
