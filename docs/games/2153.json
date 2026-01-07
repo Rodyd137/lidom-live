@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2153",
-    "scraped_at": "2026-01-07T01:52:57.983Z",
+    "scraped_at": "2026-01-07T01:54:00.752Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-06 19:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Aderlin Rodríguez Sencillo Jardinero Derecho ",
+    "lastPlayByPlay": "Cristhian Adames Carrera Empujada Wild Pitch",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 8
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
       "on2B": true,
-      "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "on3B": false,
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 4,
+          "R": 5,
           "H": 9,
           "E": 1,
           "H2": 2
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 2,
+          "away": 3,
           "home": 0
         },
         {
@@ -340,7 +340,7 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 4,
+          "R": 5,
           "H": 9,
           "E": 1
         },
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 4
+            "R": 5
           },
           {
             "num": 9,
-            "R": 4
+            "R": 5
           }
         ],
         "home": [
@@ -1004,10 +1004,17 @@
           },
           {
             "reference_id": "19617-1-69",
+            "text": "Cristhian Adames Carrera Empujada Wild Pitch",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1767750814
+          },
+          {
+            "reference_id": "19617-1-70",
             "text": "Jerar Encarnacion al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1767750663
+            "ts": 1767750819
           }
         ]
       }
@@ -1115,8 +1122,8 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 7,
-        "scoring_plays": 2
+        "total_plays": 8,
+        "scoring_plays": 3
       }
     ],
     "innings_raw": [
@@ -1173,7 +1180,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 2,
+        "awayTeamRuns": 3,
         "homeTeamRuns": 0
       },
       {
