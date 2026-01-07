@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2153",
-    "scraped_at": "2026-01-07T01:59:14.277Z",
+    "scraped_at": "2026-01-07T02:00:17.055Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-06 19:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Pablo Reyes Base por Bolas ",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -1039,10 +1039,17 @@
         "plays": [
           {
             "reference_id": "19617-2-73",
-            "text": "Pablo Reyes al bate",
+            "text": "Pablo Reyes Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1767751057
+            "ts": 1767751167
+          },
+          {
+            "reference_id": "19617-2-74",
+            "text": "Francisco Mejia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767751173
           }
         ]
       }
@@ -1157,7 +1164,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
