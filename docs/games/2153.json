@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2153",
-    "scraped_at": "2026-01-07T02:12:47.717Z",
+    "scraped_at": "2026-01-07T02:13:50.284Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-06 19:00:00",
-    "roundText": "Baja 8va",
-    "currentInningNum": 8,
-    "lastPlayByPlay": "Carlos Franco Sencillo y 1 Carrera Impulsada ",
+    "roundText": "Alta 9na",
+    "currentInningNum": 9,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 2
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 2
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -1074,10 +1074,24 @@
           },
           {
             "reference_id": "19617-2-78",
-            "text": "Eddinson Paulino l  al bate",
+            "text": "Eddinson Paulino l   Out: Rodado al Campo Corto - Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1767751885
+            "ts": 1767751996
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "19618-1-79",
+            "text": "Angel Genao al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767752022
           }
         ]
       }
@@ -1194,6 +1208,13 @@
         "label": "Baja 8va",
         "total_plays": 6,
         "scoring_plays": 2
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1249,14 +1270,14 @@
       {
         "num": 8,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 4,
         "homeTeamRuns": 2
       },
       {
         "num": 9,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       }
