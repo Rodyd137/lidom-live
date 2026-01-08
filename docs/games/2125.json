@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2125",
-    "scraped_at": "2026-01-08T23:51:51.738Z",
+    "scraped_at": "2026-01-08T23:53:23.953Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-08 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Junior Lake  Out: Rodado al Lanzador - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -103,6 +103,17 @@
             "team_id": 4,
             "name": "Junior Lake",
             "abbreviation": "J. Lake",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5497,
+            "team_id": 4,
+            "name": "José Marmolejos",
+            "abbreviation": "J. Marmolejos",
             "number": null,
             "dob": null,
             "height": "",
@@ -364,6 +375,27 @@
             "ts": 1767916128
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19355-1-8",
+            "text": "Junior Lake  Out: Rodado al Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767916373
+          },
+          {
+            "reference_id": "19355-1-9",
+            "text": "José Marmolejos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767916395
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -379,6 +411,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
