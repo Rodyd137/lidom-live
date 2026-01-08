@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2123",
-    "scraped_at": "2026-01-08T00:18:53.745Z",
+    "scraped_at": "2026-01-08T00:19:56.370Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-01-07 19:00:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Raimer Tapia Doble! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 5,
-          "H": 7,
+          "H": 8,
           "E": 0,
           "H2": 5
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 5,
-          "H": 7,
+          "H": 8,
           "E": 0
         },
         "home": {
@@ -709,6 +709,27 @@
             "ts": 1767831365
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19340-1-32",
+            "text": "Raimer Tapia Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767831567
+          },
+          {
+            "reference_id": "19340-1-33",
+            "text": "Erik Gonzalez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767831573
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -766,6 +787,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
