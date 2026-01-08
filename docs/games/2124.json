@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2124",
-    "scraped_at": "2026-01-08T01:12:28.826Z",
+    "scraped_at": "2026-01-08T01:13:32.054Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -737,6 +737,20 @@
             "ts": 1767834626
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19349-1-36",
+            "text": "Eloy Jimenez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767834806
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -794,6 +808,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -867,7 +888,7 @@
         "id": 2123,
         "date": "2026-01-07 19:00:00",
         "status": 2,
-        "roundText": "Baja 7ma",
+        "roundText": "Alta 8va",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
