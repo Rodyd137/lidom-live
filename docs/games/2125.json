@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2125",
-    "scraped_at": "2026-01-08T23:54:29.665Z",
+    "scraped_at": "2026-01-08T23:55:33.844Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-08 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Junior Lake  Out: Rodado al Lanzador - Primera Base",
+    "lastPlayByPlay": "José Marmolejos Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -114,6 +114,17 @@
             "team_id": 4,
             "name": "José Marmolejos",
             "abbreviation": "J. Marmolejos",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5477,
+            "team_id": 4,
+            "name": " Jorge Mateo",
+            "abbreviation": "J. Mateo",
             "number": null,
             "dob": null,
             "height": "",
@@ -390,10 +401,17 @@
           },
           {
             "reference_id": "19355-1-9",
-            "text": "José Marmolejos al bate",
+            "text": "José Marmolejos Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1767916395
+            "ts": 1767916487
+          },
+          {
+            "reference_id": "19355-1-10",
+            "text": " Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767916520
           }
         ]
       }
@@ -417,7 +435,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -508,7 +526,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         }
