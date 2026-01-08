@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2124",
-    "scraped_at": "2026-01-08T00:01:08.311Z",
+    "scraped_at": "2026-01-08T00:02:11.083Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -15,7 +15,7 @@
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -136,6 +136,17 @@
             "team_id": 6,
             "name": "Jeimer Candelario",
             "abbreviation": "J. Candelario",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5573,
+            "team_id": 6,
+            "name": "Tres Barrera",
+            "abbreviation": "T. Barrera",
             "number": null,
             "dob": null,
             "height": "",
@@ -443,6 +454,20 @@
             "ts": 1767830308
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19346-1-12",
+            "text": "Tres Barrera al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767830476
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -458,6 +483,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
