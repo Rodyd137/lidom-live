@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2123",
-    "scraped_at": "2026-01-08T00:02:11.059Z",
+    "scraped_at": "2026-01-08T00:03:13.771Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-07 19:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "José Marmolejos Doble! ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 3,
-          "H": 5,
+          "H": 6,
           "E": 0,
           "H2": 3
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 3,
-          "H": 5,
+          "H": 6,
           "E": 0
         },
         "home": {
@@ -647,10 +647,17 @@
         "plays": [
           {
             "reference_id": "19339-1-24",
-            "text": "José Marmolejos al bate",
+            "text": "José Marmolejos Doble! ",
             "scored": false,
             "is_primary": true,
-            "ts": 1767830440
+            "ts": 1767830540
+          },
+          {
+            "reference_id": "19339-1-25",
+            "text": " Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767830545
           }
         ]
       }
@@ -702,7 +709,7 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
