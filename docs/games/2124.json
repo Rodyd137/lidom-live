@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2124",
-    "scraped_at": "2026-01-08T00:09:29.829Z",
+    "scraped_at": "2026-01-08T00:10:33.219Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-01-07 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Aderlin Rodríguez Doble! ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -235,6 +235,17 @@
             "team_id": 3,
             "name": "Aderlin Rodríguez",
             "abbreviation": "A. Rodríguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5485,
+            "team_id": 3,
+            "name": "Jonatan Clase",
+            "abbreviation": "J. Clase",
             "number": null,
             "dob": null,
             "height": "",
@@ -512,10 +523,17 @@
         "plays": [
           {
             "reference_id": "19346-2-15",
-            "text": "Aderlin Rodríguez al bate",
+            "text": "Aderlin Rodríguez Doble! ",
             "scored": false,
             "is_primary": true,
-            "ts": 1767830900
+            "ts": 1767830970
+          },
+          {
+            "reference_id": "19346-2-16",
+            "text": "Jonatan Clase al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767831010
           }
         ]
       }
@@ -546,7 +564,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -620,7 +638,7 @@
         "id": 2123,
         "date": "2026-01-07 19:00:00",
         "status": 2,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
