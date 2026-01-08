@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2125",
-    "scraped_at": "2026-01-08T23:45:36.374Z",
+    "scraped_at": "2026-01-08T23:46:39.030Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-01-08 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Steward Berroa  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
@@ -125,6 +125,17 @@
             "team_id": 3,
             "name": "Steward Berroa",
             "abbreviation": "S. Berroa",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5335,
+            "team_id": 3,
+            "name": "Leody Taveras",
+            "abbreviation": "L. Taveras",
             "number": null,
             "dob": null,
             "height": "",
@@ -311,10 +322,17 @@
         "plays": [
           {
             "reference_id": "19354-2-4",
-            "text": "Steward Berroa al bate",
+            "text": "Steward Berroa  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1767915916
+            "ts": 1767915945
+          },
+          {
+            "reference_id": "19354-2-5",
+            "text": "Leody Taveras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767915974
           }
         ]
       }
@@ -331,7 +349,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
