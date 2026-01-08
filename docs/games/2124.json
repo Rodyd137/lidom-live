@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2124",
-    "scraped_at": "2026-01-08T00:32:24.908Z",
+    "scraped_at": "2026-01-08T00:33:27.156Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-07 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Angel Genao  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -268,6 +268,17 @@
             "team_id": 3,
             "name": "Angel Genao",
             "abbreviation": "A. Genao",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5696,
+            "team_id": 3,
+            "name": "Sebastian Rivero",
+            "abbreviation": "S. Rivero",
             "number": null,
             "dob": null,
             "height": "",
@@ -615,10 +626,17 @@
         "plays": [
           {
             "reference_id": "19347-2-23",
-            "text": "Angel Genao al bate",
+            "text": "Angel Genao  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1767832337
+            "ts": 1767832395
+          },
+          {
+            "reference_id": "19347-2-24",
+            "text": "Sebastian Rivero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767832402
           }
         ]
       }
@@ -663,7 +681,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
