@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2124",
-    "scraped_at": "2026-01-08T02:15:37.449Z",
+    "scraped_at": "2026-01-08T02:16:40.624Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 8,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -99,10 +99,10 @@
             "position": ""
           },
           {
-            "id": 5440,
+            "id": 5381,
             "team_id": 6,
-            "name": "Eloy Jimenez ",
-            "abbreviation": "E. Jimenez",
+            "name": "Sandber Pimentel",
+            "abbreviation": "S. Pimentel",
             "number": null,
             "dob": null,
             "height": "",
@@ -975,6 +975,20 @@
             "ts": 1767838340
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "19352-1-64",
+            "text": "Sandber Pimentel al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767838553
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1074,6 +1088,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
