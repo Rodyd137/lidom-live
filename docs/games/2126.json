@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2126",
-    "scraped_at": "2026-01-09T01:15:00.577Z",
+    "scraped_at": "2026-01-09T01:16:03.343Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-08 19:30:00",
-    "roundText": "Baja 4ta",
-    "currentInningNum": 4,
-    "lastPlayByPlay": "Rafael Lantigua   Out: Rodado al Campo Corto - Segunda Base - Primera Base - Doble Play!",
+    "roundText": "Alta 5ta",
+    "currentInningNum": 5,
+    "lastPlayByPlay": "Gustavo Nuñez Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -758,6 +758,27 @@
             "ts": 1767921138
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19367-1-42",
+            "text": "Gustavo Nuñez Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767921322
+          },
+          {
+            "reference_id": "19367-1-43",
+            "text": "Ismael Munguia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767921324
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -816,6 +837,13 @@
         "label": "Baja 4ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -843,14 +871,14 @@
       {
         "num": 4,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 5,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
