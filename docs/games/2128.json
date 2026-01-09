@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2128",
-    "scraped_at": "2026-01-09T23:49:48.709Z",
+    "scraped_at": "2026-01-09T23:50:53.355Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-01-09 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Rudy Martin  Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -142,7 +142,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -152,7 +152,52 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5611,
+            "team_id": 6,
+            "name": "Rudy Martin ",
+            "abbreviation": "R. Martin",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5417,
+            "team_id": 6,
+            "name": "Bryan de la Cruz",
+            "abbreviation": "B. De la Cruz",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5440,
+            "team_id": 6,
+            "name": "Eloy Jimenez ",
+            "abbreviation": "E. Jimenez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5396,
+            "team_id": 6,
+            "name": "Manuel Peña",
+            "abbreviation": "M. Peña",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       }
     },
     "comment": "",
@@ -213,7 +258,7 @@
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         }
       },
@@ -345,6 +390,20 @@
             "ts": 1768002437
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "19381-2-7",
+            "text": "Rudy Martin  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768002628
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -354,6 +413,13 @@
         "label": "Alta 1ra",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -433,7 +499,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 0,
-          "hits": 1,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         },
