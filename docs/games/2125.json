@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2125",
-    "scraped_at": "2026-01-09T01:02:10.920Z",
+    "scraped_at": "2026-01-09T01:03:15.403Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 6,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -758,6 +758,20 @@
             "ts": 1767920361
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "19359-1-38",
+            "text": "Erik Gonzalez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767920568
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -829,6 +843,13 @@
         "half": "bottom",
         "label": "Baja 5ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -902,7 +923,7 @@
         "id": 2126,
         "date": "2026-01-08 19:30:00",
         "status": 2,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
