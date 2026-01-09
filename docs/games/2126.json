@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2126",
-    "scraped_at": "2026-01-09T00:41:45.044Z",
+    "scraped_at": "2026-01-09T00:42:49.561Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-08 19:30:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Marco Hernández Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "Rudy Martin  Balk ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 2
+      "balls": 1,
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 2
+      "battingTeam": "homeTeam",
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 1,
           "H2": 0
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 1
         }
       },
@@ -646,6 +646,34 @@
             "ts": 1767919050
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "19365-2-29",
+            "text": "Rudy Martin  Sencillo Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767919315
+          },
+          {
+            "reference_id": "19365-2-30",
+            "text": "Rudy Martin  Balk ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767919342
+          },
+          {
+            "reference_id": "19365-2-31",
+            "text": "Bryan de la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767919353
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -683,6 +711,13 @@
         "label": "Alta 3ra",
         "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -702,7 +737,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
