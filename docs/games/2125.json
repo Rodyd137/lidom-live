@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2125",
-    "scraped_at": "2026-01-09T00:05:14.565Z",
+    "scraped_at": "2026-01-09T00:06:19.190Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,7 +14,7 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -125,6 +125,17 @@
             "team_id": 4,
             "name": " Jorge Mateo",
             "abbreviation": "J. Mateo",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5305,
+            "team_id": 4,
+            "name": "Franchy Cordero",
+            "abbreviation": "F. Cordero",
             "number": null,
             "dob": null,
             "height": "",
@@ -475,6 +486,20 @@
             "ts": 1767916971
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19356-1-14",
+            "text": "Franchy Cordero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767917144
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -504,6 +529,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
