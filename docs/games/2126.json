@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2126",
-    "scraped_at": "2026-01-09T01:46:20.796Z",
+    "scraped_at": "2026-01-09T01:47:23.523Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-08 19:30:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "David Bañuelos  Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "Juan Brito Out: Elevado al Jardinero Derecho ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "strikes": 2,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -870,6 +870,27 @@
             "ts": 1767922997
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "19368-2-55",
+            "text": "Juan Brito Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767923233
+          },
+          {
+            "reference_id": "19368-2-56",
+            "text": "Yairo Munoz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767923236
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -949,6 +970,13 @@
         "label": "Alta 6ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -989,7 +1017,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
