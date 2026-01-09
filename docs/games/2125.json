@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2125",
-    "scraped_at": "2026-01-09T01:35:54.414Z",
+    "scraped_at": "2026-01-09T01:36:57.300Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-08 19:30:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Jimmy Paredes Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 2
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Diógenes Almengó",
+          "pitcher": "Jefry Yan ",
           "era": "",
           "record": "",
           "debut": false
@@ -877,6 +877,20 @@
             "ts": 1767922428
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "19360-2-53",
+            "text": "Jerar Encarnacion al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767922614
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -970,6 +984,13 @@
         "label": "Alta 7ma",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1017,7 +1038,7 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -1042,7 +1063,7 @@
         "id": 2126,
         "date": "2026-01-08 19:30:00",
         "status": 2,
-        "roundText": "Baja 5ta",
+        "roundText": "Alta 6ta",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
