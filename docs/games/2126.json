@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2126",
-    "scraped_at": "2026-01-09T00:26:43.990Z",
+    "scraped_at": "2026-01-09T00:27:48.378Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-08 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ismael Munguia Base por Bolas ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -598,10 +598,17 @@
         "plays": [
           {
             "reference_id": "19365-1-22",
-            "text": "Ismael Munguia al bate",
+            "text": "Ismael Munguia Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1767918174
+            "ts": 1767918423
+          },
+          {
+            "reference_id": "19365-1-23",
+            "text": "Francisco Mejia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1767918426
           }
         ]
       }
@@ -639,7 +646,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -713,7 +720,7 @@
         "id": 2125,
         "date": "2026-01-08 19:30:00",
         "status": 2,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
