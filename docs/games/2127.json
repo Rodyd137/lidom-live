@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2127",
-    "scraped_at": "2026-01-10T02:16:41.636Z",
+    "scraped_at": "2026-01-10T02:17:46.455Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-09 19:15:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Diego Hernández Ponche (K) ",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 4,
-          "H": 8,
+          "R": 5,
+          "H": 9,
           "E": 0,
           "H2": 3
         },
@@ -322,15 +322,15 @@
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 4,
-          "H": 8,
+          "R": 5,
+          "H": 9,
           "E": 0
         },
         "home": {
@@ -375,7 +375,7 @@
           },
           {
             "num": 9,
-            "R": 4
+            "R": 5
           }
         ],
         "home": [
@@ -986,10 +986,17 @@
         "plays": [
           {
             "reference_id": "19380-1-65",
-            "text": "Diego Hernández al bate",
+            "text": "Diego Hernández Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1768011374
+            "ts": 1768011408
+          },
+          {
+            "reference_id": "19380-1-66",
+            "text": "David Bañuelos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768011415
           }
         ]
       }
@@ -1111,7 +1118,7 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1176,7 +1183,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
