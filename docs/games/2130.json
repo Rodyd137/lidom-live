@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2130",
-    "scraped_at": "2026-01-10T23:47:23.877Z",
+    "scraped_at": "2026-01-10T23:48:28.888Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-10 17:00:00",
-    "roundText": "Baja 9na",
-    "currentInningNum": 9,
-    "lastPlayByPlay": "Marco Hernández Base por Bolas Intencional ",
+    "roundText": "Alta 10ma",
+    "currentInningNum": 10,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 5
+      "battingTeam": "awayTeam",
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": true,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -324,9 +324,14 @@
           "num": 9,
           "away": 0,
           "home": 0
+        },
+        {
+          "num": 10,
+          "away": 0,
+          "home": 0
         }
       ],
-      "extras": false,
+      "extras": true,
       "totals": {
         "away": {
           "R": 1,
@@ -376,6 +381,10 @@
           {
             "num": 9,
             "R": 1
+          },
+          {
+            "num": 10,
+            "R": 1
           }
         ],
         "home": [
@@ -413,6 +422,10 @@
           },
           {
             "num": 9,
+            "R": 1
+          },
+          {
+            "num": 10,
             "R": 1
           }
         ]
@@ -1034,18 +1047,25 @@
             "ts": 1768088741
           },
           {
-            "reference_id": "19407-2-71",
-            "text": "Jorge Bonifacio al bate",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1768088750
-          },
-          {
             "reference_id": "19407-2-72",
-            "text": "Melvi Mercedes  al bate",
+            "text": "Melvi Mercedes   Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1768088840
+            "ts": 1768088854
+          }
+        ]
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "plays": [
+          {
+            "reference_id": "19620-1-73",
+            "text": "Sergio Alcantara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768088872
           }
         ]
       }
@@ -1174,7 +1194,14 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 7,
+        "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -1238,6 +1265,13 @@
       {
         "num": 9,
         "part": 2,
+        "is_last": 0,
+        "awayTeamRuns": 0,
+        "homeTeamRuns": 0
+      },
+      {
+        "num": 10,
+        "part": 1,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
