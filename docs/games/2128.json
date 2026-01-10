@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2128",
-    "scraped_at": "2026-01-10T02:29:41.730Z",
+    "scraped_at": "2026-01-10T03:18:32.524Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2128,
     "season_id": 20,
-    "status": 2,
+    "status": 6,
     "date": "2026-01-09 19:30:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Bryan de la Cruz Base por Bolas Intencional ",
+    "lastPlayByPlay": "Eloy Jimenez  Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 2
+      "strikes": 0,
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 8
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
-      "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "on1B": false,
+      "on2B": false,
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -40,9 +40,9 @@
       "over_under": null
     },
     "pitchers": {
-      "winning": null,
-      "losing": null,
-      "save": null
+      "winning": "",
+      "losing": "Yaramil Hiraldo ",
+      "save": "Jeurys Familia"
     },
     "teams": {
       "away": {
@@ -1081,10 +1081,10 @@
           },
           {
             "reference_id": "19389-2-75",
-            "text": "Eloy Jimenez  al bate",
+            "text": "Eloy Jimenez  Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1768012133
+            "ts": 1768012243
           }
         ]
       }
@@ -1286,16 +1286,16 @@
       {
         "id": 2127,
         "date": "2026-01-09 19:15:00",
-        "status": 2,
-        "roundText": "Baja 9na",
+        "status": 6,
+        "roundText": "Baja 10ma",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 5,
-          "hits": 9,
-          "errors": 0,
+          "runs": 6,
+          "hits": 11,
+          "errors": 1,
           "permalink": "/equipo/gigantes-del-cibao"
         },
         "homeTeam": {
@@ -1303,8 +1303,8 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 4,
-          "hits": 7,
+          "runs": 7,
+          "hits": 8,
           "errors": 3,
           "permalink": "/equipo/leones-del-escogido"
         }
@@ -1323,18 +1323,18 @@
         ],
         "teams": {
           "Aguilas AC": {
-            "G": 0,
+            "G": 1,
             "P": 3,
-            "C": 4,
-            "H": 8.3,
-            "E": 2
+            "C": 3.8,
+            "H": 7.5,
+            "E": 1.8
           },
           "Toros TE": {
             "G": 3,
-            "P": 0,
-            "C": 10.7,
-            "H": 12.3,
-            "E": 0.3
+            "P": 1,
+            "C": 8.3,
+            "H": 10.8,
+            "E": 0.5
           }
         }
       },
@@ -1351,19 +1351,19 @@
         ],
         "teams": {
           "Aguilas AC": {
-            "G": 5,
+            "G": 6,
             "P": 5,
-            "CA": 4.6,
-            "CP": 6.9,
-            "H": 8.6,
-            "E": 1.6
+            "CA": 4.5,
+            "CP": 6.4,
+            "H": 8.3,
+            "E": 1.5
           },
           "Toros TE": {
             "G": 7,
-            "P": 3,
-            "CA": 7.2,
-            "CP": 4.5,
-            "H": 9.8,
+            "P": 4,
+            "CA": 6.6,
+            "CP": 4.4,
+            "H": 9.5,
             "E": 0.5
           }
         }
