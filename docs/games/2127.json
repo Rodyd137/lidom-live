@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2127",
-    "scraped_at": "2026-01-10T01:48:57.961Z",
+    "scraped_at": "2026-01-10T01:50:02.614Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-09 19:15:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Gustavo Nuñez Ponche (K) ",
+    "lastPlayByPlay": "Eddinson Paulino l  Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 1,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 4
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": true,
+      "on3B": false,
       "runners": 1,
-      "mask": 4
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 3,
-          "H": 6,
+          "R": 4,
+          "H": 7,
           "E": 0,
           "H2": 3
         },
@@ -323,7 +323,7 @@
         },
         {
           "num": 7,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 3,
-          "H": 6,
+          "R": 4,
+          "H": 7,
           "E": 0
         },
         "home": {
@@ -378,15 +378,15 @@
           },
           {
             "num": 7,
-            "R": 3
+            "R": 4
           },
           {
             "num": 8,
-            "R": 3
+            "R": 4
           },
           {
             "num": 9,
-            "R": 3
+            "R": 4
           }
         ],
         "home": [
@@ -885,10 +885,17 @@
           },
           {
             "reference_id": "19378-1-53",
-            "text": "Eddinson Paulino l  al bate",
+            "text": "Eddinson Paulino l  Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1768009755
+          },
+          {
+            "reference_id": "19378-1-54",
+            "text": "Francisco Mejia al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1768009667
+            "ts": 1768009762
           }
         ]
       }
@@ -982,8 +989,8 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1033,7 +1040,7 @@
         "num": 7,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
