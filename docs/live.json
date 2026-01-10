@@ -2,11 +2,12 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-01-10T02:10:12.728Z",
+    "scraped_at": "2026-01-10T02:11:17.962Z",
     "tz": "America/Santo_Domingo"
   },
   "tracked_ids": [
-    2127
+    2127,
+    2128
   ],
   "live": [
     {
@@ -15,11 +16,11 @@
       "roundText": "Baja 8va",
       "currentInningNum": 8,
       "atBat": null,
-      "lastPlayByPlay": null,
+      "lastPlayByPlay": "Raimer Tapia  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base": {
         "on1B": false,
@@ -45,8 +46,47 @@
           "E": 3
         }
       },
-      "threat": 22,
-      "updated_at": "2026-01-10T02:10:12.728Z"
+      "threat": 12,
+      "updated_at": "2026-01-10T02:11:17.962Z"
+    },
+    {
+      "id": 2128,
+      "status": 2,
+      "roundText": "Baja 8va",
+      "currentInningNum": 8,
+      "atBat": null,
+      "lastPlayByPlay": "Juan Brito Ponche (K) ",
+      "counts": {
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
+      },
+      "base": {
+        "on1B": false,
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
+      },
+      "battingTeam": "homeTeam",
+      "score": {
+        "away": {
+          "name": "Aguilas",
+          "abbr": "AC",
+          "R": 3,
+          "H": 5,
+          "E": 1
+        },
+        "home": {
+          "name": "Toros",
+          "abbr": "TE",
+          "R": 1,
+          "H": 5,
+          "E": 1
+        }
+      },
+      "threat": 4,
+      "updated_at": "2026-01-10T02:11:17.962Z"
     }
   ]
 }
