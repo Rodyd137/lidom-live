@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2130",
-    "scraped_at": "2026-01-10T23:12:35.857Z",
+    "scraped_at": "2026-01-10T23:13:38.693Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-10 17:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Rudy Martin  Doble! Jardinero Central",
+    "lastPlayByPlay": "Jeimer Candelario  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 1
+      "strikes": 2,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 3
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -920,10 +920,17 @@
           },
           {
             "reference_id": "19406-1-56",
-            "text": "Jeimer Candelario al bate",
+            "text": "Jeimer Candelario  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1768086709
+            "ts": 1768086779
+          },
+          {
+            "reference_id": "19406-1-57",
+            "text": "Bryan de la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768086780
           }
         ]
       }
@@ -1031,7 +1038,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -1121,8 +1128,8 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 3,
-          "hits": 4,
+          "runs": 4,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         }
