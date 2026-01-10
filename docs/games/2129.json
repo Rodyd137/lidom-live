@@ -1,20 +1,20 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2129",
-    "scraped_at": "2026-01-10T22:43:40.374Z",
+    "scraped_at": "2026-01-10T22:44:44.580Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2129,
     "season_id": 20,
-    "status": 4,
+    "status": 2,
     "date": "2026-01-10 16:00:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -429,8 +429,31 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "19390-1-1",
+            "text": "Steward Berroa al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768085026
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
