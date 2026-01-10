@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2127",
-    "scraped_at": "2026-01-10T01:20:52.356Z",
+    "scraped_at": "2026-01-10T01:21:57.268Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-01-09 19:15:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Michael de la Cruz  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -793,6 +793,27 @@
             "ts": 1768007873
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "19377-2-42",
+            "text": "Michael de la Cruz  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768008108
+          },
+          {
+            "reference_id": "19377-2-43",
+            "text": "Jonathan Guzman al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768008112
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -871,6 +892,13 @@
         "half": "top",
         "label": "Alta 6ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
