@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2128",
-    "scraped_at": "2026-01-10T00:12:57.595Z",
+    "scraped_at": "2026-01-10T00:14:02.265Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-09 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Steward Berroa Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -572,6 +572,27 @@
             "ts": 1768003849
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19383-1-18",
+            "text": "Steward Berroa Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768004017
+          },
+          {
+            "reference_id": "19383-1-19",
+            "text": "Leody Taveras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768004029
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -601,6 +622,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
