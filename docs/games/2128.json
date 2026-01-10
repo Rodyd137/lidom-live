@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2128",
-    "scraped_at": "2026-01-10T02:15:37.213Z",
+    "scraped_at": "2026-01-10T02:16:41.734Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-09 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Fernando Peguero Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -1010,6 +1010,27 @@
             "ts": 1768011104
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "19389-1-67",
+            "text": "Fernando Peguero Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768011358
+          },
+          {
+            "reference_id": "19389-1-68",
+            "text": "Jerar Encarnacion al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768011362
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1123,6 +1144,13 @@
         "half": "bottom",
         "label": "Baja 8va",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
