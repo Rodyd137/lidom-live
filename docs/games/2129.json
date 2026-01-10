@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2129",
-    "scraped_at": "2026-01-10T23:02:05.794Z",
+    "scraped_at": "2026-01-10T23:03:08.760Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-10 16:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Socrates Brito Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Socrates Brito Robo de Base ",
     "counts": {
-      "balls": 0,
+      "balls": 2,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 6
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": true,
       "runners": 2,
-      "mask": 6
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -501,7 +501,7 @@
           {
             "reference_id": "19390-2-8",
             "text": "Socrates Brito Sencillo y 1 Carrera Impulsada ",
-            "scored": true,
+            "scored": false,
             "is_primary": true,
             "ts": 1768086081
           },
@@ -511,6 +511,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1768086086
+          },
+          {
+            "reference_id": "19390-2-8-278226",
+            "text": "Socrates Brito Robo de Base ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1768086152
           }
         ]
       }
@@ -527,8 +534,8 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 4,
-        "scoring_plays": 1
+        "total_plays": 5,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
