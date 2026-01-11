@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2132",
-    "scraped_at": "2026-01-11T21:39:11.699Z",
+    "scraped_at": "2026-01-11T21:40:16.001Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-11 17:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Steward Berroa Robo de Base ",
+    "lastPlayByPlay": "Leody Taveras se embasa por Error del Campo Corto",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
+      "balls": 1,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -176,7 +176,7 @@
         "totals": {
           "R": 0,
           "H": 0,
-          "E": 1,
+          "E": 2,
           "H2": 0
         },
         "probables": {
@@ -281,7 +281,7 @@
         "home": {
           "R": 0,
           "H": 0,
-          "E": 1
+          "E": 2
         }
       },
       "cumulative": {
@@ -475,18 +475,25 @@
             "ts": 1768167429
           },
           {
-            "reference_id": "19418-1-13",
-            "text": "Leody Taveras al bate",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1768167431
-          },
-          {
             "reference_id": "19418-1-12-278529",
             "text": "Steward Berroa Robo de Base ",
             "scored": false,
             "is_primary": false,
             "ts": 1768167514
+          },
+          {
+            "reference_id": "19418-1-13",
+            "text": "Leody Taveras se embasa por Error del Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768167578
+          },
+          {
+            "reference_id": "19418-1-14",
+            "text": "Geraldo Perdomo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768167580
           }
         ]
       }
@@ -510,7 +517,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],

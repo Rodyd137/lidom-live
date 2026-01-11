@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2131",
-    "scraped_at": "2026-01-11T21:39:11.698Z",
+    "scraped_at": "2026-01-11T21:40:15.983Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-01-11 16:00:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Raimer Tapia Out: Elevado al Jardinero Izquierdo",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
@@ -716,6 +716,27 @@
             "ts": 1768167347
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19411-2-35",
+            "text": "Raimer Tapia Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768167552
+          },
+          {
+            "reference_id": "19411-2-36",
+            "text": " Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768167554
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -767,6 +788,13 @@
         "label": "Alta 4ta",
         "total_plays": 8,
         "scoring_plays": 1
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -857,7 +885,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 0,
           "hits": 0,
-          "errors": 1,
+          "errors": 2,
           "permalink": "/equipo/gigantes-del-cibao"
         }
       }
