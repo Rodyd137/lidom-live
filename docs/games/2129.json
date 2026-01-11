@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2129",
-    "scraped_at": "2026-01-11T00:28:26.099Z",
+    "scraped_at": "2026-01-11T00:29:30.550Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-01-10 16:00:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Leody Taveras Base por Bolas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -800,6 +800,27 @@
             "ts": 1768091146
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19394-1-42",
+            "text": "Leody Taveras Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768091361
+          },
+          {
+            "reference_id": "19394-1-43",
+            "text": "Geraldo Perdomo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768091364
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -857,6 +878,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
