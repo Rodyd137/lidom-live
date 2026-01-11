@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2129",
-    "scraped_at": "2026-01-11T01:06:58.515Z",
+    "scraped_at": "2026-01-11T01:08:03.021Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-10 16:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Alcides Escobar Sencillo ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -919,6 +919,27 @@
             "ts": 1768093414
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "19395-2-56",
+            "text": "Alcides Escobar Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768093630
+          },
+          {
+            "reference_id": "19395-2-57",
+            "text": "Erik Gonzalez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768093633
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -997,6 +1018,13 @@
         "half": "top",
         "label": "Alta 6ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
