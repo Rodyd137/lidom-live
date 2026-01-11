@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2132",
-    "scraped_at": "2026-01-11T22:17:16.686Z",
+    "scraped_at": "2026-01-11T22:25:35.250Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-11 17:00:00",
-    "roundText": "Baja 3ra",
-    "currentInningNum": 3,
-    "lastPlayByPlay": "Eddinson Paulino l   Out: Rodado al Primera Base",
+    "roundText": "Alta 4ta",
+    "currentInningNum": 4,
+    "lastPlayByPlay": "Geraldo Perdomo Base por Bolas ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 2
+      "balls": 2,
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 1
+      "battingTeam": "awayTeam",
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -180,7 +180,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Ofreidy Gomez",
+          "pitcher": "Adisyn Coffey",
           "era": "",
           "record": "",
           "debut": false
@@ -696,10 +696,38 @@
           },
           {
             "reference_id": "19419-2-30",
-            "text": "Jose Siri al bate",
+            "text": "Jose Siri  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1768169830
+            "ts": 1768169879
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "19420-1-31",
+            "text": "Leody Taveras Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768170105
+          },
+          {
+            "reference_id": "19420-1-32",
+            "text": "Geraldo Perdomo Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768170230
+          },
+          {
+            "reference_id": "19420-1-33",
+            "text": "Cristhian Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768170244
           }
         ]
       }
@@ -746,6 +774,13 @@
         "label": "Baja 3ra",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -766,14 +801,14 @@
       {
         "num": 3,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 1
       },
       {
         "num": 4,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -835,7 +870,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 1,
-          "hits": 4,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         }
