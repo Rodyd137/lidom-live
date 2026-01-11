@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2132",
-    "scraped_at": "2026-01-11T23:26:25.551Z",
+    "scraped_at": "2026-01-11T23:27:28.865Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-01-11 17:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Cristhian Adames Cuadrangular! ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 4,
-          "H": 6,
+          "R": 5,
+          "H": 7,
           "E": 0,
           "H2": 4
         },
@@ -323,7 +323,7 @@
         },
         {
           "num": 7,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 4,
-          "H": 6,
+          "R": 5,
+          "H": 7,
           "E": 0
         },
         "home": {
@@ -378,15 +378,15 @@
           },
           {
             "num": 7,
-            "R": 4
+            "R": 5
           },
           {
             "num": 8,
-            "R": 4
+            "R": 5
           },
           {
             "num": 9,
-            "R": 4
+            "R": 5
           }
         ],
         "home": [
@@ -913,10 +913,17 @@
         "plays": [
           {
             "reference_id": "19423-1-55",
-            "text": "Cristhian Adames al bate",
+            "text": "Cristhian Adames Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1768174012
+          },
+          {
+            "reference_id": "19423-1-56",
+            "text": "Jerar Encarnacion al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1768173828
+            "ts": 1768174030
           }
         ]
       }
@@ -1010,8 +1017,8 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 1,
-        "scoring_plays": 0
+        "total_plays": 2,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1061,7 +1068,7 @@
         "num": 7,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
