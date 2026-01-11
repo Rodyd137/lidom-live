@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2129",
-    "scraped_at": "2026-01-11T00:07:03.549Z",
+    "scraped_at": "2026-01-11T00:08:07.640Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-10 16:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Angel Genao Out: Elevado al Tercera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -723,6 +723,27 @@
             "ts": 1768089833
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "19393-1-33",
+            "text": "Jerar Encarnacion Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768090062
+          },
+          {
+            "reference_id": "19393-1-34",
+            "text": "Angel Genao Out: Elevado al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768090082
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -766,6 +787,13 @@
         "half": "bottom",
         "label": "Baja 3ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
