@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2131",
-    "scraped_at": "2026-01-11T21:58:56.733Z",
+    "scraped_at": "2026-01-11T22:00:01.436Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-11 16:00:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Eloy Jimenez   Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "balls": 1,
+      "strikes": 2,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Esmailin Montilla",
+          "pitcher": "Jimmy Yacabonis",
           "era": "",
           "record": "",
           "debut": false
@@ -779,6 +779,20 @@
             "ts": 1768168556
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "19412-2-42",
+            "text": "Elier Hernandez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768168786
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -844,6 +858,13 @@
         "label": "Alta 5ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -877,7 +898,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
