@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2131",
-    "scraped_at": "2026-01-11T22:49:46.688Z",
+    "scraped_at": "2026-01-11T22:50:49.959Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-11 16:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Tres Barrera Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -180,7 +180,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Jefry Yan ",
+          "pitcher": "Héctor Neris",
           "era": "",
           "record": "",
           "debut": false
@@ -933,6 +933,27 @@
             "ts": 1768171549
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "19414-1-62",
+            "text": "Tres Barrera Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768171815
+          },
+          {
+            "reference_id": "19414-1-63",
+            "text": "Rudy Martin  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768171816
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1019,6 +1040,13 @@
         "label": "Baja 6ta",
         "total_plays": 12,
         "scoring_plays": 5
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
