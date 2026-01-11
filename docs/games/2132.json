@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2132",
-    "scraped_at": "2026-01-11T21:35:59.371Z",
+    "scraped_at": "2026-01-11T21:37:03.530Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -180,7 +180,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Bryan Rodriguez ",
+          "pitcher": "Frank Garces",
           "era": "",
           "record": "",
           "debut": false
@@ -461,6 +461,20 @@
             "ts": 1768167186
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19418-1-12",
+            "text": "Steward Berroa al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768167357
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -476,6 +490,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
