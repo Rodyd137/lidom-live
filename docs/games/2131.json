@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2131",
-    "scraped_at": "2026-01-11T23:10:38.151Z",
+    "scraped_at": "2026-01-11T23:11:42.334Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-11 16:00:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Yairo Munoz  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "balls": 2,
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -1024,6 +1024,20 @@
             "ts": 1768172873
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "19415-2-72",
+            "text": "José Marmolejos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768173064
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1131,6 +1145,13 @@
         "label": "Alta 8va",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1185,7 +1206,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
