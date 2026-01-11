@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2131",
-    "scraped_at": "2026-01-11T21:00:51.804Z",
+    "scraped_at": "2026-01-11T21:01:55.508Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-11 16:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Elier Hernandez  Out: Rodado al Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -604,6 +604,27 @@
             "ts": 1768165056
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "19410-2-21",
+            "text": "Elier Hernandez  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768165297
+          },
+          {
+            "reference_id": "19410-2-22",
+            "text": "Alcides Escobar al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768165300
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -640,6 +661,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
