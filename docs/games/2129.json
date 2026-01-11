@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2129",
-    "scraped_at": "2026-01-11T01:44:27.189Z",
+    "scraped_at": "2026-01-11T01:45:31.714Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-10 16:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Angel Genao al bate",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -180,7 +180,7 @@
           "H2": 7
         },
         "probables": {
-          "pitcher": "Anneurys Zabala",
+          "pitcher": "Patrick Weigel",
           "era": "",
           "record": "",
           "debut": false
@@ -1038,6 +1038,27 @@
             "ts": 1768095595
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "19397-1-70",
+            "text": "Ezequiel Duran Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768095888
+          },
+          {
+            "reference_id": "19397-1-71",
+            "text": "Angel Genao al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768095922
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1137,6 +1158,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
