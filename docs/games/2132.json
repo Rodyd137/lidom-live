@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2132",
-    "scraped_at": "2026-01-11T22:30:54.454Z",
+    "scraped_at": "2026-01-11T22:31:58.039Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-01-11 17:00:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Deyvinson de los Santos  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
@@ -737,6 +737,27 @@
             "ts": 1768170469
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19420-2-35",
+            "text": "Deyvinson de los Santos  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768170677
+          },
+          {
+            "reference_id": "19420-2-36",
+            "text": "Carlos Franco al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768170680
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -787,6 +808,13 @@
         "half": "top",
         "label": "Alta 4ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
