@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2131",
-    "scraped_at": "2026-01-11T22:45:36.017Z",
+    "scraped_at": "2026-01-11T22:46:39.115Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-11 16:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Erik Gonzalez Sencillo Jardinero Derecho ",
+    "lastPlayByPlay": "Socrates Brito Out: Elevado al Receptor",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -920,10 +920,17 @@
           },
           {
             "reference_id": "19413-2-60",
-            "text": "Socrates Brito al bate",
+            "text": "Alcides Escobar Carrera Empujada Wild Pitch",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1768171535
+          },
+          {
+            "reference_id": "19413-2-61",
+            "text": "Socrates Brito Out: Elevado al Receptor",
             "scored": false,
             "is_primary": true,
-            "ts": 1768171477
+            "ts": 1768171549
           }
         ]
       }
@@ -1010,8 +1017,8 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 11,
-        "scoring_plays": 4
+        "total_plays": 12,
+        "scoring_plays": 5
       }
     ],
     "innings_raw": [
