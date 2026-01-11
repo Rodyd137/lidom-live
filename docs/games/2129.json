@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2129",
-    "scraped_at": "2026-01-11T00:25:14.136Z",
+    "scraped_at": "2026-01-11T00:26:18.520Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-10 16:00:00",
-    "roundText": "Baja 4ta",
-    "currentInningNum": 4,
-    "lastPlayByPlay": "Socrates Brito Sencillo y 1 Carrera Impulsada ",
+    "roundText": "Alta 5ta",
+    "currentInningNum": 5,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 2
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -788,16 +788,16 @@
           {
             "reference_id": "19393-2-40",
             "text": "Socrates Brito Sencillo y 1 Carrera Impulsada ",
-            "scored": true,
+            "scored": false,
             "is_primary": true,
             "ts": 1768091088
           },
           {
-            "reference_id": "19393-2-41",
-            "text": "Junior Lake al bate",
+            "reference_id": "19393-2-40-278349",
+            "text": "Socrates Brito Out Robando Base! ",
             "scored": false,
-            "is_primary": true,
-            "ts": 1768091093
+            "is_primary": false,
+            "ts": 1768091146
           }
         ]
       }
@@ -857,7 +857,7 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 5,
-        "scoring_plays": 1
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -885,14 +885,14 @@
       {
         "num": 4,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 1
       },
       {
         "num": 5,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
