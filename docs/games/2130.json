@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2130",
-    "scraped_at": "2026-01-11T00:04:54.778Z",
+    "scraped_at": "2026-01-11T00:05:59.176Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-10 17:00:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jose Siri Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 6
     },
     "base_runners": {
       "on1B": true,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 2,
-      "mask": 5
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -163,8 +163,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 1,
-          "H": 7,
+          "R": 2,
+          "H": 8,
           "E": 0,
           "H2": 1
         },
@@ -328,7 +328,7 @@
         {
           "num": 10,
           "away": 0,
-          "home": 0
+          "home": 1
         }
       ],
       "extras": true,
@@ -339,8 +339,8 @@
           "E": 0
         },
         "home": {
-          "R": 1,
-          "H": 7,
+          "R": 2,
+          "H": 8,
           "E": 0
         }
       },
@@ -426,7 +426,7 @@
           },
           {
             "num": 10,
-            "R": 1
+            "R": 2
           }
         ]
       }
@@ -1090,10 +1090,24 @@
         "plays": [
           {
             "reference_id": "19620-2-76",
-            "text": "Francisco Mejia al bate",
+            "text": "Francisco Mejia  Out: Rodado al Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1768089823
+            "ts": 1768089902
+          },
+          {
+            "reference_id": "19620-2-77",
+            "text": "Gustavo Nuñez Base por Bolas Intencional ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768089918
+          },
+          {
+            "reference_id": "19620-2-78",
+            "text": "Jose Siri Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1768089955
           }
         ]
       }
@@ -1236,8 +1250,8 @@
         "num": 10,
         "half": "bottom",
         "label": "Baja 10ma",
-        "total_plays": 1,
-        "scoring_plays": 0
+        "total_plays": 3,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1309,7 +1323,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       }
     ],
     "siblingGames": [
