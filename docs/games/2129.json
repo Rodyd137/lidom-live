@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2129",
-    "scraped_at": "2026-01-11T01:36:57.144Z",
+    "scraped_at": "2026-01-11T01:38:01.694Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-10 16:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Michael de la Cruz Sencillo ",
+    "lastPlayByPlay": "Michael de la Cruz  Out: Rodado al Primera Base - (Sin Asistencia)",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -1018,10 +1018,17 @@
         "plays": [
           {
             "reference_id": "19396-2-67",
-            "text": "Michael de la Cruz Sencillo ",
+            "text": "Michael de la Cruz  Out: Rodado al Primera Base - (Sin Asistencia)",
             "scored": false,
             "is_primary": true,
-            "ts": 1768095365
+            "ts": 1768095470
+          },
+          {
+            "reference_id": "19396-2-68",
+            "text": "Franchy Cordero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768095475
           }
         ]
       }
@@ -1122,7 +1129,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
