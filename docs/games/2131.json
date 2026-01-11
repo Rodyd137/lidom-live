@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2131",
-    "scraped_at": "2026-01-11T20:45:07.667Z",
+    "scraped_at": "2026-01-11T20:54:29.864Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-11 16:00:00",
-    "roundText": "Baja 2da",
-    "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
+    "lastPlayByPlay": "Rudy Martin   Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 2,
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -548,6 +548,55 @@
             "ts": 1768164159
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "19409-2-15",
+            "text": " Jorge Mateo Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768164391
+          },
+          {
+            "reference_id": "19409-2-16",
+            "text": "José Marmolejos Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768164467
+          },
+          {
+            "reference_id": "19409-2-17",
+            "text": "Michael de la Cruz  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768164552
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19410-1-18",
+            "text": "Rudy Martin   Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768164856
+          },
+          {
+            "reference_id": "19410-1-19",
+            "text": "Eric Filia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768164857
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -571,6 +620,20 @@
         "label": "Alta 2da",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -584,14 +647,14 @@
       {
         "num": 2,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
