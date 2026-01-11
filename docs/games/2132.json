@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2132",
-    "scraped_at": "2026-01-11T21:30:20.858Z",
+    "scraped_at": "2026-01-11T21:31:25.721Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -15,7 +15,7 @@
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -191,6 +191,17 @@
             "team_id": 5,
             "name": "Gustavo Nuñez",
             "abbreviation": "G. Nuñez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5541,
+            "team_id": 5,
+            "name": "Eddinson Paulino l ",
+            "abbreviation": "E. Paulino",
             "number": null,
             "dob": null,
             "height": "",
@@ -411,6 +422,20 @@
             "ts": 1768166854
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "19417-2-9",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768167024
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -420,6 +445,13 @@
         "label": "Alta 1ra",
         "total_plays": 9,
         "scoring_plays": 2
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
