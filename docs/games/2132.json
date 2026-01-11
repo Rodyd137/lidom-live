@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2132",
-    "scraped_at": "2026-01-11T21:31:25.721Z",
+    "scraped_at": "2026-01-11T21:32:30.271Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-01-11 17:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Eddinson Paulino l   Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -202,6 +202,17 @@
             "team_id": 5,
             "name": "Eddinson Paulino l ",
             "abbreviation": "E. Paulino",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5494,
+            "team_id": 5,
+            "name": "Jose Siri",
+            "abbreviation": "J. Siri",
             "number": null,
             "dob": null,
             "height": "",
@@ -430,10 +441,24 @@
         "plays": [
           {
             "reference_id": "19417-2-9",
-            "text": "Gustavo Nuñez al bate",
+            "text": "Gustavo Nuñez Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1768167024
+            "ts": 1768167087
+          },
+          {
+            "reference_id": "19417-2-10",
+            "text": "Eddinson Paulino l   Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768167136
+          },
+          {
+            "reference_id": "19417-2-11",
+            "text": "Jose Siri al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768167144
           }
         ]
       }
@@ -450,7 +475,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
