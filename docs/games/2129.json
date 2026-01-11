@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2129",
-    "scraped_at": "2026-01-11T01:59:26.441Z",
+    "scraped_at": "2026-01-11T02:00:30.560Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-10 16:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Steward Berroa Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 0,
+      "balls": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -1102,10 +1102,17 @@
         "plays": [
           {
             "reference_id": "19398-1-76",
-            "text": "Steward Berroa al bate",
+            "text": "Steward Berroa Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1768096713
+            "ts": 1768096785
+          },
+          {
+            "reference_id": "19398-1-77",
+            "text": "Leody Taveras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768096788
           }
         ]
       }
@@ -1227,7 +1234,7 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
