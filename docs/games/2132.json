@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2132",
-    "scraped_at": "2026-01-11T21:44:31.648Z",
+    "scraped_at": "2026-01-11T21:46:51.307Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-11 17:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Carlos Franco Sencillo ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 2,
           "H2": 0
         },
@@ -224,6 +224,17 @@
             "team_id": 5,
             "name": "Deyvinson de los Santos",
             "abbreviation": "D. de los Santos",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5246,
+            "team_id": 5,
+            "name": "Carlos Franco",
+            "abbreviation": "C. Franco",
             "number": null,
             "dob": null,
             "height": "",
@@ -291,7 +302,7 @@
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 2
         }
       },
@@ -522,10 +533,17 @@
         "plays": [
           {
             "reference_id": "19418-2-16",
-            "text": "Deyvinson de los Santos al bate",
+            "text": "Deyvinson de los Santos  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1768167867
+            "ts": 1768167907
+          },
+          {
+            "reference_id": "19418-2-17",
+            "text": "Carlos Franco Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768168003
           }
         ]
       }
@@ -556,7 +574,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -647,7 +665,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 1,
-          "hits": 3,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         }
