@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2136",
-    "scraped_at": "2026-01-14T23:58:05.164Z",
+    "scraped_at": "2026-01-14T23:59:09.039Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-14 19:30:00",
-    "roundText": "Alta 2da",
+    "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Jeimer Candelario Golpeado por Pelota ",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 5
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -147,6 +147,17 @@
             "team_id": 6,
             "name": "Onix Vega",
             "abbreviation": "O. Vega",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5672,
+            "team_id": 6,
+            "name": "Sergio Alcantara",
+            "abbreviation": "S. Alcantara",
             "number": null,
             "dob": null,
             "height": "",
@@ -473,10 +484,17 @@
           },
           {
             "reference_id": "19454-1-13",
-            "text": "Onix Vega al bate",
+            "text": "Onix Vega Out: Elevado al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1768435080
+            "ts": 1768435093
+          },
+          {
+            "reference_id": "19454-1-14",
+            "text": "Sergio Alcantara  Out: Rodado al Campo Corto - Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768435135
           }
         ]
       }
@@ -500,7 +518,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -514,7 +532,7 @@
       },
       {
         "num": 2,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
