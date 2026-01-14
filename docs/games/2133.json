@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2133",
-    "scraped_at": "2026-01-14T00:46:43.349Z",
+    "scraped_at": "2026-01-14T00:47:46.152Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-01-13 19:30:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Cristhian Adames Out: Elevado al Jardinero Derecho ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
@@ -688,6 +688,27 @@
             "ts": 1768351401
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19429-2-29",
+            "text": "Cristhian Adames Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768351629
+          },
+          {
+            "reference_id": "19429-2-30",
+            "text": "Jerar Encarnacion al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768351633
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -739,6 +760,13 @@
         "label": "Alta 4ta",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -811,7 +839,7 @@
         "id": 2134,
         "date": "2026-01-13 19:30:00",
         "status": 2,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
