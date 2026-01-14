@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2133",
-    "scraped_at": "2026-01-14T02:50:49.321Z",
+    "scraped_at": "2026-01-14T02:51:53.227Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-13 19:30:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Steward Berroa Toque de Sacrificio ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 3
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -187,10 +187,10 @@
         },
         "players": [
           {
-            "id": 5696,
+            "id": 5332,
             "team_id": 3,
-            "name": "Sebastian Rivero",
-            "abbreviation": "S. Rivero",
+            "name": "Steward Berroa",
+            "abbreviation": "S. Berroa",
             "number": null,
             "dob": null,
             "height": "",
@@ -1135,6 +1135,27 @@
             "ts": 1768358915
           }
         ]
+      },
+      {
+        "num": 10,
+        "half": "bottom",
+        "label": "Baja 10ma",
+        "plays": [
+          {
+            "reference_id": "19621-2-81",
+            "text": "Steward Berroa Toque de Sacrificio ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768359098
+          },
+          {
+            "reference_id": "19621-2-82",
+            "text": "Leody Taveras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768359108
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1269,6 +1290,13 @@
         "half": "top",
         "label": "Alta 10ma",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 10,
+        "half": "bottom",
+        "label": "Baja 10ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
