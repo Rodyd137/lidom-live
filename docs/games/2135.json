@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2135",
-    "scraped_at": "2026-01-14T23:29:28.085Z",
+    "scraped_at": "2026-01-14T23:30:30.720Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-14 19:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jose Siri Ponche (K) ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -500,10 +500,17 @@
         "plays": [
           {
             "reference_id": "19444-2-9",
-            "text": "Jose Siri al bate",
+            "text": "Jose Siri Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1768433183
+            "ts": 1768433385
+          },
+          {
+            "reference_id": "19444-2-10",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768433388
           }
         ]
       }
@@ -520,7 +527,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -593,7 +600,7 @@
       {
         "id": 2136,
         "date": "2026-01-14 19:30:00",
-        "status": 1,
+        "status": 3,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 6,
