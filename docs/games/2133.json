@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2133",
-    "scraped_at": "2026-01-14T03:02:30.729Z",
+    "scraped_at": "2026-01-14T03:03:34.468Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,20 +13,20 @@
     "currentInningNum": 11,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -1197,6 +1197,20 @@
             "ts": 1768359626
           }
         ]
+      },
+      {
+        "num": 11,
+        "half": "bottom",
+        "label": "Baja 11ra",
+        "plays": [
+          {
+            "reference_id": "19622-2-86",
+            "text": "Geraldo Perdomo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768359786
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1345,6 +1359,13 @@
         "half": "top",
         "label": "Alta 11ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 11,
+        "half": "bottom",
+        "label": "Baja 11ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
