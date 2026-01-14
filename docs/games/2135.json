@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2135",
-    "scraped_at": "2026-01-14T23:35:44.224Z",
+    "scraped_at": "2026-01-14T23:36:47.255Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -520,6 +520,20 @@
             "ts": 1768433602
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19445-1-12",
+            "text": "Elier Hernandez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768433776
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -535,6 +549,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
