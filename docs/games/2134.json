@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2134",
-    "scraped_at": "2026-01-14T00:50:54.564Z",
+    "scraped_at": "2026-01-14T00:51:57.306Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-13 19:30:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Yairo Munoz Base por Bolas ",
     "counts": {
-      "balls": 3,
+      "balls": 0,
       "strikes": 1,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -681,6 +681,27 @@
             "ts": 1768351625
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19438-2-30",
+            "text": "Yairo Munoz Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768351890
+          },
+          {
+            "reference_id": "19438-2-31",
+            "text": "Jeimer Candelario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768351896
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -731,6 +752,13 @@
         "half": "top",
         "label": "Alta 4ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
