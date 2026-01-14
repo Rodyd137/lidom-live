@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2133",
-    "scraped_at": "2026-01-14T00:16:20.299Z",
+    "scraped_at": "2026-01-14T00:17:23.209Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-01-13 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Aderlin Rodríguez Out: Elevado al Segunda Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -246,6 +246,17 @@
             "team_id": 3,
             "name": "Aderlin Rodríguez",
             "abbreviation": "A. Rodríguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5324,
+            "team_id": 3,
+            "name": "Angel Genao",
+            "abbreviation": "A. Genao",
             "number": null,
             "dob": null,
             "height": "",
@@ -537,10 +548,17 @@
         "plays": [
           {
             "reference_id": "19427-2-15",
-            "text": "Aderlin Rodríguez al bate",
+            "text": "Aderlin Rodríguez Out: Elevado al Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1768349766
+            "ts": 1768349782
+          },
+          {
+            "reference_id": "19427-2-16",
+            "text": "Angel Genao al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768349840
           }
         ]
       }
@@ -571,7 +589,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
