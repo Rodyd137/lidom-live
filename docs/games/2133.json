@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2133",
-    "scraped_at": "2026-01-14T03:04:38.189Z",
+    "scraped_at": "2026-01-14T03:05:41.969Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-13 19:30:00",
     "roundText": "Baja 11ra",
     "currentInningNum": 11,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Cristhian Adames Base por Bolas Intencional ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 6
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": true,
-      "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "on1B": true,
+      "on2B": false,
+      "on3B": true,
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -1205,10 +1205,17 @@
         "plays": [
           {
             "reference_id": "19622-2-86",
-            "text": "Geraldo Perdomo al bate",
+            "text": "Geraldo Perdomo  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1768359786
+            "ts": 1768359901
+          },
+          {
+            "reference_id": "19622-2-87",
+            "text": "Cristhian Adames Base por Bolas Intencional ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768359930
           }
         ]
       }
@@ -1365,7 +1372,7 @@
         "num": 11,
         "half": "bottom",
         "label": "Baja 11ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
