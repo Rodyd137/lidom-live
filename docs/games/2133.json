@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2133",
-    "scraped_at": "2026-01-14T03:11:00.313Z",
+    "scraped_at": "2026-01-14T03:12:04.179Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2133,
     "season_id": 20,
-    "status": 2,
+    "status": 6,
     "date": "2026-01-13 19:30:00",
     "roundText": "Baja 11ra",
     "currentInningNum": 11,
-    "lastPlayByPlay": "Jerar Encarnacion  Out: Rodado al Lanzador - Receptor",
+    "lastPlayByPlay": "Ezequiel Duran Sencillo y 1 Carrera Impulsada ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 3,
-          "H": 4,
+          "R": 4,
+          "H": 5,
           "E": 1,
           "H2": 1
         },
@@ -344,7 +344,7 @@
         {
           "num": 11,
           "away": 0,
-          "home": 0
+          "home": 1
         }
       ],
       "extras": true,
@@ -355,8 +355,8 @@
           "E": 1
         },
         "home": {
-          "R": 3,
-          "H": 4,
+          "R": 4,
+          "H": 5,
           "E": 1
         }
       },
@@ -450,7 +450,7 @@
           },
           {
             "num": 11,
-            "R": 3
+            "R": 4
           }
         ]
       }
@@ -1226,10 +1226,10 @@
           },
           {
             "reference_id": "19622-2-89",
-            "text": "Ezequiel Duran al bate",
-            "scored": false,
+            "text": "Ezequiel Duran Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
             "is_primary": true,
-            "ts": 1768360162
+            "ts": 1768360288
           }
         ]
       }
@@ -1387,7 +1387,7 @@
         "half": "bottom",
         "label": "Baja 11ra",
         "total_plays": 4,
-        "scoring_plays": 0
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1466,7 +1466,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       }
     ],
     "siblingGames": [
