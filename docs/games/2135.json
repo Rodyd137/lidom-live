@@ -1,21 +1,21 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2135",
-    "scraped_at": "2026-01-14T22:59:44.490Z",
+    "scraped_at": "2026-01-14T23:26:16.914Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2135,
     "season_id": 20,
-    "status": 3,
+    "status": 2,
     "date": "2026-01-14 19:00:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Michael de la Cruz  Out: Rodado al Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 0,
-          "H": 0,
+          "R": 4,
+          "H": 4,
           "E": 0,
-          "H2": 0
+          "H2": 4
         },
         "probables": {
           "pitcher": "Jose Urquidy",
@@ -176,11 +176,11 @@
         "totals": {
           "R": 0,
           "H": 0,
-          "E": 0,
+          "E": 1,
           "H2": 0
         },
         "probables": {
-          "pitcher": "Daniel Mengden",
+          "pitcher": "Joel César",
           "era": "",
           "record": "",
           "debut": false
@@ -288,12 +288,12 @@
         ]
       }
     },
-    "comment": "",
+    "comment": "Lanzador Daniel Mengden expulsado por árbitro Ricardo Capois.",
     "linescore": {
       "innings": [
         {
           "num": 1,
-          "away": 0,
+          "away": 4,
           "home": 0
         },
         {
@@ -340,53 +340,53 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 0,
+          "R": 4,
+          "H": 4,
           "E": 0
         },
         "home": {
           "R": 0,
           "H": 0,
-          "E": 0
+          "E": 1
         }
       },
       "cumulative": {
         "away": [
           {
             "num": 1,
-            "R": 0
+            "R": 4
           },
           {
             "num": 2,
-            "R": 0
+            "R": 4
           },
           {
             "num": 3,
-            "R": 0
+            "R": 4
           },
           {
             "num": 4,
-            "R": 0
+            "R": 4
           },
           {
             "num": 5,
-            "R": 0
+            "R": 4
           },
           {
             "num": 6,
-            "R": 0
+            "R": 4
           },
           {
             "num": 7,
-            "R": 0
+            "R": 4
           },
           {
             "num": 8,
-            "R": 0
+            "R": 4
           },
           {
             "num": 9,
-            "R": 0
+            "R": 4
           }
         ],
         "home": [
@@ -429,14 +429,86 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "19444-1-1",
+            "text": "Alcides Escobar Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1768432189
+          },
+          {
+            "reference_id": "19444-1-2",
+            "text": "Erik Gonzalez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768432246
+          },
+          {
+            "reference_id": "19444-1-3",
+            "text": "Socrates Brito Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768432386
+          },
+          {
+            "reference_id": "19444-1-4",
+            "text": "Junior Lake Sencillo Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768432409
+          },
+          {
+            "reference_id": "19444-1-5",
+            "text": "Raimer Tapia Sencillo Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768432537
+          },
+          {
+            "reference_id": "19444-1-6",
+            "text": " Jorge Mateo Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768432667
+          },
+          {
+            "reference_id": "19444-1-7",
+            "text": "José Marmolejos Sencillo y 3 Carreras Impulsadas se embasa por Error del - Jardinero Izquierdo",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1768432876
+          },
+          {
+            "reference_id": "19444-1-8",
+            "text": "Michael de la Cruz  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768433079
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 8,
+        "scoring_plays": 2
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 4,
         "homeTeamRuns": 0
       },
       {
