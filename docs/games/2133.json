@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2133",
-    "scraped_at": "2026-01-14T02:35:57.196Z",
+    "scraped_at": "2026-01-14T02:37:01.142Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-13 19:30:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Aderlin Rodríguez Base por Bolas ",
+    "lastPlayByPlay": "Angel Genao Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
+      "balls": 1,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -187,10 +187,10 @@
         },
         "players": [
           {
-            "id": 5332,
+            "id": 5696,
             "team_id": 3,
-            "name": "Steward Berroa",
-            "abbreviation": "S. Berroa",
+            "name": "Sebastian Rivero",
+            "abbreviation": "S. Rivero",
             "number": null,
             "dob": null,
             "height": "",
@@ -1081,10 +1081,17 @@
           },
           {
             "reference_id": "19434-2-74",
-            "text": "Angel Genao al bate",
+            "text": "Angel Genao Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1768358037
+            "ts": 1768358165
+          },
+          {
+            "reference_id": "19434-2-76",
+            "text": "Sebastian Rivero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768358198
           }
         ]
       }
@@ -1213,7 +1220,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
