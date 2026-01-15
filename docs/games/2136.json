@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2136",
-    "scraped_at": "2026-01-15T01:36:02.727Z",
+    "scraped_at": "2026-01-15T01:37:07.258Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-14 19:30:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Yairo Munoz Golpeado por Pelota ",
+    "lastPlayByPlay": "Jeimer Candelario Doble! 2 Carreras Impulsadas ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 7
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
       "on2B": true,
-      "on3B": true,
-      "runners": 2,
-      "mask": 7
+      "on3B": false,
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 0,
-          "H": 4,
+          "R": 2,
+          "H": 5,
           "E": 2,
           "H2": 0
         },
@@ -323,7 +323,7 @@
         },
         {
           "num": 7,
-          "away": 0,
+          "away": 2,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 4,
+          "R": 2,
+          "H": 5,
           "E": 2
         },
         "home": {
@@ -378,15 +378,15 @@
           },
           {
             "num": 7,
-            "R": 0
+            "R": 2
           },
           {
             "num": 8,
-            "R": 0
+            "R": 2
           },
           {
             "num": 9,
-            "R": 0
+            "R": 2
           }
         ],
         "home": [
@@ -871,10 +871,17 @@
           },
           {
             "reference_id": "19459-1-50",
-            "text": "Jeimer Candelario al bate",
+            "text": "Jeimer Candelario Doble! 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1768441001
+          },
+          {
+            "reference_id": "19459-1-51",
+            "text": "Onix Vega al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1768440771
+            "ts": 1768441013
           }
         ]
       }
@@ -968,8 +975,8 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1019,7 +1026,7 @@
         "num": 7,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
