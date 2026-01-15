@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2135",
-    "scraped_at": "2026-01-15T00:55:29.004Z",
+    "scraped_at": "2026-01-15T00:56:32.885Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-14 19:00:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Michael de la Cruz Sencillo Jardinero Izquierdo",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 2
+      "strikes": 2,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 2
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -822,10 +822,24 @@
           },
           {
             "reference_id": "19449-1-46",
-            "text": "Elier Hernandez al bate",
+            "text": "Elier Hernandez Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1768438042
+            "ts": 1768438556
+          }
+        ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "19449-2-47",
+            "text": "Julio Carreras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768438566
           }
         ]
       }
@@ -907,6 +921,13 @@
         "label": "Alta 6ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -947,7 +968,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0

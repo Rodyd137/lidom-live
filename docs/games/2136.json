@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2136",
-    "scraped_at": "2026-01-15T00:55:29.049Z",
+    "scraped_at": "2026-01-15T00:56:32.947Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-14 19:30:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Sebastian Rivero  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -744,6 +744,27 @@
             "ts": 1768438469
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "19457-2-38",
+            "text": "Sebastian Rivero  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768438567
+          },
+          {
+            "reference_id": "19457-2-39",
+            "text": "Steward Berroa al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768438572
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -808,6 +829,13 @@
         "half": "top",
         "label": "Alta 5ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -881,7 +909,7 @@
         "id": 2135,
         "date": "2026-01-14 19:00:00",
         "status": 2,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
