@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2135",
-    "scraped_at": "2026-01-15T00:05:31.351Z",
+    "scraped_at": "2026-01-15T00:06:35.083Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-14 19:00:00",
-    "roundText": "Baja 3ra",
-    "currentInningNum": 3,
-    "lastPlayByPlay": "Julio Carreras  Out: Rodado al Lanzador - Primera Base",
+    "roundText": "Alta 4ta",
+    "currentInningNum": 4,
+    "lastPlayByPlay": "José Marmolejos Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -646,6 +646,27 @@
             "ts": 1768435379
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "19447-1-26",
+            "text": "José Marmolejos Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768435569
+          },
+          {
+            "reference_id": "19447-1-27",
+            "text": "Michael de la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768435571
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -690,6 +711,13 @@
         "label": "Baja 3ra",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -710,14 +738,14 @@
       {
         "num": 3,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 4,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
