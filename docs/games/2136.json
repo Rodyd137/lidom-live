@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2136",
-    "scraped_at": "2026-01-15T02:15:43.181Z",
+    "scraped_at": "2026-01-15T02:16:47.581Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-01-14 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Eric Filia Doble! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 3,
-          "H": 5,
+          "H": 6,
           "E": 2,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 3,
-          "H": 5,
+          "H": 6,
           "E": 2
         },
         "home": {
@@ -996,6 +996,20 @@
             "ts": 1768443182
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "19461-1-65",
+            "text": "Eric Filia Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768443403
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1109,6 +1123,13 @@
         "half": "bottom",
         "label": "Baja 8va",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
