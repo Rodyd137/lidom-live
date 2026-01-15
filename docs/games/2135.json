@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2135",
-    "scraped_at": "2026-01-15T00:39:33.803Z",
+    "scraped_at": "2026-01-15T00:40:37.539Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-14 19:00:00",
-    "roundText": "Baja 5ta",
-    "currentInningNum": 5,
-    "lastPlayByPlay": "Diego Hernández  Out: Rodado al Segunda Base - Primera Base",
+    "roundText": "Alta 6ta",
+    "currentInningNum": 6,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -180,7 +180,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Bryan Rodriguez ",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -793,6 +793,20 @@
             "ts": 1768437508
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "19449-1-43",
+            "text": " Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768437606
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -865,6 +879,13 @@
         "label": "Baja 5ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -899,14 +920,14 @@
       {
         "num": 5,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 6,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -954,7 +975,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 0,
-          "hits": 3,
+          "hits": 4,
           "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
         }
