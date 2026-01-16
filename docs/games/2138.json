@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2138",
-    "scraped_at": "2026-01-16T01:55:11.331Z",
+    "scraped_at": "2026-01-16T01:56:15.125Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-15 19:30:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Elier Hernandez Out: Línea al Lanzador",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 2,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -180,7 +180,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Anderson Severino",
+          "pitcher": "Jimmy Yacabonis",
           "era": "",
           "record": "",
           "debut": false
@@ -906,10 +906,17 @@
         "plays": [
           {
             "reference_id": "19477-1-57",
-            "text": "Elier Hernandez al bate",
+            "text": "Elier Hernandez Out: Línea al Lanzador",
             "scored": false,
             "is_primary": true,
-            "ts": 1768528460
+            "ts": 1768528527
+          },
+          {
+            "reference_id": "19477-1-58",
+            "text": "Alcides Escobar al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768528530
           }
         ]
       }
@@ -1003,7 +1010,7 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
