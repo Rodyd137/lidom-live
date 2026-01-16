@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2137",
-    "scraped_at": "2026-01-16T00:02:18.705Z",
+    "scraped_at": "2026-01-16T00:03:22.721Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-01-15 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Rodolfo Amador Doble! ",
+    "lastPlayByPlay": "Jerar Encarnacion  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 4
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": true,
+      "on3B": false,
       "runners": 1,
-      "mask": 4
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 0,
           "H": 0,
-          "E": 0,
+          "E": 1,
           "H2": 0
         },
         "probables": {
@@ -141,10 +141,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 0,
+          "R": 1,
           "H": 1,
           "E": 0,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
           "pitcher": "Luis Miranda",
@@ -207,6 +207,17 @@
             "height": "",
             "image": null,
             "position": ""
+          },
+          {
+            "id": 5454,
+            "team_id": 3,
+            "name": "Ezequiel Duran",
+            "abbreviation": "E. Duran",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
           }
         ]
       }
@@ -222,7 +233,7 @@
         {
           "num": 2,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 3,
@@ -265,10 +276,10 @@
         "away": {
           "R": 0,
           "H": 0,
-          "E": 0
+          "E": 1
         },
         "home": {
-          "R": 0,
+          "R": 1,
           "H": 1,
           "E": 0
         }
@@ -319,35 +330,35 @@
           },
           {
             "num": 2,
-            "R": 0
+            "R": 1
           },
           {
             "num": 3,
-            "R": 0
+            "R": 1
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ]
       }
@@ -451,10 +462,17 @@
           },
           {
             "reference_id": "19463-2-11",
-            "text": "Jerar Encarnacion al bate",
+            "text": "Jerar Encarnacion  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1768521643
+            "ts": 1768521743
+          },
+          {
+            "reference_id": "19463-2-12",
+            "text": "Ezequiel Duran al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768521789
           }
         ]
       }
@@ -485,7 +503,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -502,7 +520,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 3,
