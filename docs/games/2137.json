@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2137",
-    "scraped_at": "2026-01-16T00:03:22.721Z",
+    "scraped_at": "2026-01-16T00:04:26.605Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-01-15 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Jerar Encarnacion  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "Ezequiel Duran se embasa por Error del Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -142,7 +142,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 1,
-          "H": 1,
+          "H": 2,
           "E": 0,
           "H2": 1
         },
@@ -218,6 +218,17 @@
             "height": "",
             "image": null,
             "position": ""
+          },
+          {
+            "id": 5714,
+            "team_id": 3,
+            "name": "Carlos Gamboa",
+            "abbreviation": "C. Gamboa",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
           }
         ]
       }
@@ -280,7 +291,7 @@
         },
         "home": {
           "R": 1,
-          "H": 1,
+          "H": 2,
           "E": 0
         }
       },
@@ -469,10 +480,17 @@
           },
           {
             "reference_id": "19463-2-12",
-            "text": "Ezequiel Duran al bate",
+            "text": "Ezequiel Duran se embasa por Error del Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1768521789
+            "ts": 1768521821
+          },
+          {
+            "reference_id": "19463-2-13",
+            "text": "Carlos Gamboa al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768521855
           }
         ]
       }
@@ -503,7 +521,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
