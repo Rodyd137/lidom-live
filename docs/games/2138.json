@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2138",
-    "scraped_at": "2026-01-16T02:23:54.905Z",
+    "scraped_at": "2026-01-16T02:26:14.869Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-15 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Raimer Tapia Sencillo Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 1,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 5,
-          "H": 8,
+          "H": 9,
           "E": 1,
           "H2": 5
         },
@@ -180,7 +180,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Jimmy Yacabonis",
+          "pitcher": "JC Mejía",
           "era": "",
           "record": "",
           "debut": false
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 5,
-          "H": 8,
+          "H": 9,
           "E": 1
         },
         "home": {
@@ -1003,6 +1003,41 @@
             "ts": 1768530028
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "19478-1-70",
+            "text": "Socrates Brito Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768530259
+          },
+          {
+            "reference_id": "19478-1-71",
+            "text": "Junior Lake  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768530272
+          },
+          {
+            "reference_id": "19478-1-72",
+            "text": "Raimer Tapia Sencillo Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768530331
+          },
+          {
+            "reference_id": "19478-1-73",
+            "text": " Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768530334
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1103,6 +1138,13 @@
         "label": "Baja 7ma",
         "total_plays": 10,
         "scoring_plays": 2
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 4,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1191,8 +1233,8 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 6,
-          "hits": 9,
+          "runs": 5,
+          "hits": 10,
           "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
         }
