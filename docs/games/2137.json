@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2137",
-    "scraped_at": "2026-01-16T00:28:57.477Z",
+    "scraped_at": "2026-01-16T00:30:01.427Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-15 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Diego Hernández Doble! ",
+    "lastPlayByPlay": "Diego Hernández Cuadrangular! ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 0,
-          "H": 1,
+          "R": 1,
+          "H": 2,
           "E": 3,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
           "pitcher": "Blake Weiman ",
@@ -147,6 +147,17 @@
             "team_id": 5,
             "name": "Diego Hernández",
             "abbreviation": "D.  Hernández",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5653,
+            "team_id": 5,
+            "name": "David Bañuelos",
+            "abbreviation": "D. Bañuelos",
             "number": null,
             "dob": null,
             "height": "",
@@ -292,7 +303,7 @@
         },
         {
           "num": 3,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -329,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 1,
+          "R": 1,
+          "H": 2,
           "E": 3
         },
         "home": {
@@ -351,31 +362,31 @@
           },
           {
             "num": 3,
-            "R": 0
+            "R": 1
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ],
         "home": [
@@ -587,10 +598,17 @@
           },
           {
             "reference_id": "19464-1-21",
-            "text": "Diego Hernández Doble! ",
+            "text": "Diego Hernández Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1768523343
+          },
+          {
+            "reference_id": "19464-1-22",
+            "text": "David Bañuelos al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1768523233
+            "ts": 1768523376
           }
         ]
       }
@@ -628,8 +646,8 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 2,
-        "scoring_plays": 0
+        "total_plays": 3,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -651,7 +669,7 @@
         "num": 3,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
