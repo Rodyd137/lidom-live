@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2138",
-    "scraped_at": "2026-01-16T00:27:53.692Z",
+    "scraped_at": "2026-01-16T00:28:57.479Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-15 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Sergio Alcantara Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -647,10 +647,17 @@
         "plays": [
           {
             "reference_id": "19473-2-27",
-            "text": "Sergio Alcantara al bate",
+            "text": "Sergio Alcantara Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1768523185
+            "ts": 1768523288
+          },
+          {
+            "reference_id": "19473-2-28",
+            "text": "Rudy Martin  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768523290
           }
         ]
       }
@@ -695,7 +702,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
