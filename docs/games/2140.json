@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2140",
-    "scraped_at": "2026-01-16T23:58:07.008Z",
+    "scraped_at": "2026-01-16T23:59:09.360Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-16 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Cristhian Adames  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -92,6 +92,17 @@
             "team_id": 3,
             "name": "Aderlin Rodríguez",
             "abbreviation": "A. Rodríguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5660,
+            "team_id": 3,
+            "name": "Cristhian Adames",
+            "abbreviation": "C. Adames",
             "number": null,
             "dob": null,
             "height": "",
@@ -389,6 +400,20 @@
             "ts": 1768607737
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19490-1-9",
+            "text": "Cristhian Adames  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768607934
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -404,6 +429,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
