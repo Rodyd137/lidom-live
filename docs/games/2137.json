@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2137",
-    "scraped_at": "2026-01-16T02:30:32.463Z",
+    "scraped_at": "2026-01-16T02:31:36.250Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-01-15 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Deyvinson de los Santos Cuadrangular! ",
     "counts": {
       "balls": 0,
-      "strikes": 2,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 3,
-          "H": 6,
+          "R": 4,
+          "H": 7,
           "E": 3,
           "H2": 1
         },
@@ -333,15 +333,15 @@
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 3,
-          "H": 6,
+          "R": 4,
+          "H": 7,
           "E": 3
         },
         "home": {
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 3
+            "R": 4
           }
         ],
         "home": [
@@ -997,10 +997,17 @@
         "plays": [
           {
             "reference_id": "19470-1-66",
-            "text": "Deyvinson de los Santos al bate",
+            "text": "Deyvinson de los Santos Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1768530647
+          },
+          {
+            "reference_id": "19470-1-67",
+            "text": "Carlos Franco al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1768530603
+            "ts": 1768530675
           }
         ]
       }
@@ -1122,8 +1129,8 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 1,
-        "scoring_plays": 0
+        "total_plays": 2,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1187,7 +1194,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
