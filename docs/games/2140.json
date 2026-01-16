@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2140",
-    "scraped_at": "2026-01-16T23:44:25.255Z",
+    "scraped_at": "2026-01-16T23:45:27.603Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,7 +13,7 @@
     "currentInningNum": 1,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Odrisamer Despaigne",
           "era": "",
           "record": "",
           "debut": false
@@ -119,7 +119,19 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5611,
+            "team_id": 6,
+            "name": "Rudy Martin ",
+            "abbreviation": "R. Martin",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       }
     },
     "comment": "",
@@ -291,6 +303,20 @@
             "ts": 1768606932
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "19489-2-4",
+            "text": "Rudy Martin  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768607095
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -299,6 +325,13 @@
         "half": "top",
         "label": "Alta 1ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
