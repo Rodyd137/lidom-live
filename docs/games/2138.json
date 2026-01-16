@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2138",
-    "scraped_at": "2026-01-16T01:20:03.163Z",
+    "scraped_at": "2026-01-16T01:21:07.002Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-15 19:30:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Tres Barrera Out: Elevado al Jardinero Derecho ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -59,7 +59,7 @@
           "H2": 5
         },
         "probables": {
-          "pitcher": "Conner Greene",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -793,6 +793,27 @@
             "ts": 1768526211
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "19475-2-45",
+            "text": "Tres Barrera Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768526419
+          },
+          {
+            "reference_id": "19475-2-46",
+            "text": "Sergio Alcantara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768526421
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -858,6 +879,13 @@
         "label": "Alta 5ta",
         "total_plays": 7,
         "scoring_plays": 3
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
