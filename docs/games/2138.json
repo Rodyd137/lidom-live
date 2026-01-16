@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2138",
-    "scraped_at": "2026-01-16T00:39:36.632Z",
+    "scraped_at": "2026-01-16T00:40:40.477Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-15 19:30:00",
-    "roundText": "Baja 3ra",
-    "currentInningNum": 3,
-    "lastPlayByPlay": "Eloy Jimenez  Ponche (K) ",
+    "roundText": "Alta 4ta",
+    "currentInningNum": 4,
+    "lastPlayByPlay": "Raimer Tapia  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "balls": 1,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 2
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -681,6 +681,27 @@
             "ts": 1768523789
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "19474-1-32",
+            "text": "Raimer Tapia  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768524016
+          },
+          {
+            "reference_id": "19474-1-33",
+            "text": " Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768524018
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -725,6 +746,13 @@
         "label": "Baja 3ra",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -745,14 +773,14 @@
       {
         "num": 3,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 2,
         "homeTeamRuns": 1
       },
       {
         "num": 4,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -797,7 +825,7 @@
         "id": 2137,
         "date": "2026-01-15 19:30:00",
         "status": 2,
-        "roundText": "Baja 3ra",
+        "roundText": "Alta 4ta",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
