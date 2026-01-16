@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2138",
-    "scraped_at": "2026-01-16T02:11:10.281Z",
+    "scraped_at": "2026-01-16T02:12:13.984Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-15 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Rudy Martin  Ponche (K) ",
+    "lastPlayByPlay": "Bryan de la Cruz se embasa por Error del Campo Corto",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 6
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": true,
-      "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "on1B": true,
+      "on2B": false,
+      "on3B": true,
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 5,
           "H": 8,
-          "E": 0,
+          "E": 1,
           "H2": 5
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 5,
           "H": 8,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 4,
@@ -962,10 +962,17 @@
           },
           {
             "reference_id": "19477-2-64",
-            "text": "Bryan de la Cruz al bate",
+            "text": "Bryan de la Cruz se embasa por Error del Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1768529439
+            "ts": 1768529507
+          },
+          {
+            "reference_id": "19477-2-65",
+            "text": "Eddie Rosario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768529510
           }
         ]
       }
@@ -1066,7 +1073,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 1
       }
     ],
@@ -1140,7 +1147,7 @@
         "id": 2137,
         "date": "2026-01-15 19:30:00",
         "status": 2,
-        "roundText": "Alta 8va",
+        "roundText": "Baja 8va",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
