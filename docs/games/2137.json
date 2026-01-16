@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2137",
-    "scraped_at": "2026-01-16T00:00:08.933Z",
+    "scraped_at": "2026-01-16T00:01:14.832Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-01-15 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Rodolfo Amador Doble! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -191,6 +191,17 @@
             "team_id": 3,
             "name": "Rodolfo Amador",
             "abbreviation": "R. Amador",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5602,
+            "team_id": 3,
+            "name": "Jerar Encarnacion",
+            "abbreviation": "J. Encarnacion",
             "number": null,
             "dob": null,
             "height": "",
@@ -433,10 +444,17 @@
         "plays": [
           {
             "reference_id": "19463-2-10",
-            "text": "Rodolfo Amador al bate",
+            "text": "Rodolfo Amador Doble! ",
             "scored": false,
             "is_primary": true,
-            "ts": 1768521479
+            "ts": 1768521617
+          },
+          {
+            "reference_id": "19463-2-11",
+            "text": "Jerar Encarnacion al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768521643
           }
         ]
       }
@@ -467,7 +485,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
