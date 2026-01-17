@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2139",
-    "scraped_at": "2026-01-17T00:52:18.519Z",
+    "scraped_at": "2026-01-17T00:54:33.792Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-16 19:15:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Eddinson Paulino l  al bate",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 4
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -81,6 +81,17 @@
             "team_id": 5,
             "name": "Eddinson Paulino l ",
             "abbreviation": "E. Paulino",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5675,
+            "team_id": 5,
+            "name": "Francisco Mejia",
+            "abbreviation": "F, Mejia",
             "number": null,
             "dob": null,
             "height": "",
@@ -573,10 +584,17 @@
           },
           {
             "reference_id": "19482-1-18",
-            "text": "Eddinson Paulino l  al bate",
+            "text": "Eddinson Paulino l   Out: Rodado al Lanzador - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1768611093
+            "ts": 1768611137
+          },
+          {
+            "reference_id": "19482-1-19",
+            "text": "Francisco Mejia Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768611233
           }
         ]
       }
@@ -614,7 +632,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -635,7 +653,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
