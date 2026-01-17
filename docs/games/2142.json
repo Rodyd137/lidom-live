@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2142",
-    "scraped_at": "2026-01-17T21:14:35.276Z",
+    "scraped_at": "2026-01-17T21:15:40.307Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-01-17 17:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Melvi Mercedes  Out: Elevado al Campo Corto",
+    "lastPlayByPlay": "Marco Hernández Doble! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -131,7 +131,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -147,6 +147,17 @@
             "team_id": 5,
             "name": "Melvi Mercedes ",
             "abbreviation": "M. Mercedes",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5248,
+            "team_id": 5,
+            "name": "Marco Hernández",
+            "abbreviation": "M. Hernández",
             "number": null,
             "dob": null,
             "height": "",
@@ -214,7 +225,7 @@
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         }
       },
@@ -358,6 +369,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1768684470
+          },
+          {
+            "reference_id": "19507-2-7",
+            "text": "Marco Hernández Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768684524
           }
         ]
       }
@@ -374,7 +392,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
