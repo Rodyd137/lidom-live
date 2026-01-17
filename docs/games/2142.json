@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2142",
-    "scraped_at": "2026-01-17T21:37:45.616Z",
+    "scraped_at": "2026-01-17T21:39:58.275Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-17 17:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "David Bañuelos Ponche (K) ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -246,6 +246,17 @@
             "team_id": 5,
             "name": "Jorge Bonifacio",
             "abbreviation": "J. Bonifacio",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5653,
+            "team_id": 5,
+            "name": "David Bañuelos",
+            "abbreviation": "D. Bañuelos",
             "number": null,
             "dob": null,
             "height": "",
@@ -543,6 +554,20 @@
             "ts": 1768685748
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "19508-2-18",
+            "text": "David Bañuelos Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768685963
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -566,6 +591,13 @@
         "label": "Alta 2da",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
