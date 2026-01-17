@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2140",
-    "scraped_at": "2026-01-17T00:05:30.531Z",
+    "scraped_at": "2026-01-17T00:06:32.890Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-16 19:30:00",
-    "roundText": "Alta 2da",
+    "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Jerar Encarnacion Ponche (K) ",
+    "lastPlayByPlay": "Yairo Munoz  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -202,6 +202,17 @@
             "team_id": 6,
             "name": "Eric Filia",
             "abbreviation": "E. Filia",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5377,
+            "team_id": 6,
+            "name": "Yairo Munoz",
+            "abbreviation": "Y. Munoz",
             "number": null,
             "dob": null,
             "height": "",
@@ -450,6 +461,20 @@
             "ts": 1768608192
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "19490-2-12",
+            "text": "Yairo Munoz  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768608387
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -473,6 +498,13 @@
         "label": "Alta 2da",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -485,7 +517,7 @@
       },
       {
         "num": 2,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -563,7 +595,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 0,
           "hits": 0,
-          "errors": 0,
+          "errors": 1,
           "permalink": "/equipo/leones-del-escogido"
         }
       }
