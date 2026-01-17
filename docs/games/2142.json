@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2142",
-    "scraped_at": "2026-01-17T21:13:30.528Z",
+    "scraped_at": "2026-01-17T21:14:35.276Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-17 17:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Melvi Mercedes  Out: Elevado al Campo Corto",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -141,7 +141,19 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5404,
+            "team_id": 5,
+            "name": "Melvi Mercedes ",
+            "abbreviation": "M. Mercedes",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       }
     },
     "comment": "",
@@ -334,6 +346,20 @@
             "ts": 1768684324
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "19507-2-6",
+            "text": "Melvi Mercedes  Out: Elevado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768684470
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -343,6 +369,13 @@
         "label": "Alta 1ra",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
