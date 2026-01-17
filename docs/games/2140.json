@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2140",
-    "scraped_at": "2026-01-17T01:24:10.280Z",
+    "scraped_at": "2026-01-17T01:25:13.781Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Odrisamer Despaigne",
+          "pitcher": "Jean Carlos Henriquez",
           "era": "",
           "record": "",
           "debut": false
@@ -175,7 +175,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 2,
-          "H": 2,
+          "H": 3,
           "E": 0,
           "H2": 2
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 2,
-          "H": 2,
+          "H": 3,
           "E": 0
         }
       },
@@ -814,6 +814,20 @@
             "ts": 1768612884
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "19494-2-45",
+            "text": "Eloy Jimenez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768613064
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -892,6 +906,13 @@
         "half": "top",
         "label": "Alta 6ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
