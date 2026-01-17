@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2140",
-    "scraped_at": "2026-01-17T03:10:57.991Z",
+    "scraped_at": "2026-01-17T03:12:00.783Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-16 19:30:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Eddie Rosario al bate",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Deury Carrasco",
+          "pitcher": "Matt Foster",
           "era": "",
           "record": "",
           "debut": false
@@ -1115,6 +1115,27 @@
             "ts": 1768619295
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "19497-2-84",
+            "text": "Eddie Rosario  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768619494
+          },
+          {
+            "reference_id": "19497-2-83-279999",
+            "text": "Eddie Rosario al bate",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1768619515
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1236,6 +1257,13 @@
         "label": "Alta 9na",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1308,7 +1336,7 @@
         "id": 2139,
         "date": "2026-01-16 19:15:00",
         "status": 2,
-        "roundText": "Baja 8va",
+        "roundText": "Alta 9na",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
