@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2139",
-    "scraped_at": "2026-01-17T00:22:08.231Z",
+    "scraped_at": "2026-01-17T00:23:10.765Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-16 19:15:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Edwin Espinal Out: Elevado al Tercera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -467,6 +467,27 @@
             "ts": 1768609154
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19481-1-6",
+            "text": "Edwin Espinal Out: Elevado al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768609359
+          },
+          {
+            "reference_id": "19481-1-7",
+            "text": "Ricardo Cespede al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768609374
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -481,6 +502,13 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
+        "total_plays": 2,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
         "total_plays": 2,
         "scoring_plays": 0
       }
