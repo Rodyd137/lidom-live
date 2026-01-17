@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2142",
-    "scraped_at": "2026-01-17T22:53:26.594Z",
+    "scraped_at": "2026-01-17T22:54:29.646Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-17 17:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ricardo Cespede Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -59,7 +59,7 @@
           "H2": 5
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Jimmy Yacabonis",
           "era": "",
           "record": "",
           "debut": false
@@ -863,6 +863,27 @@
             "ts": 1768690236
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "19512-2-51",
+            "text": "Ricardo Cespede Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768690432
+          },
+          {
+            "reference_id": "19512-2-52",
+            "text": "Jorge Bonifacio al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768690451
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -941,6 +962,13 @@
         "half": "top",
         "label": "Alta 6ta",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
