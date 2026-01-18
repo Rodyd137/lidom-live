@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2154",
-    "scraped_at": "2026-01-18T20:44:38.067Z",
+    "scraped_at": "2026-01-18T20:53:09.069Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-18 16:00:00",
-    "roundText": "Baja 2da",
-    "currentInningNum": 2,
-    "lastPlayByPlay": "Alcides Escobar Sencillo ",
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
+    "lastPlayByPlay": "Elih Marrero  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
-      "outs": 0
+      "balls": 2,
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 2
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -143,10 +143,10 @@
             "position": ""
           },
           {
-            "id": 5332,
+            "id": 5596,
             "team_id": 3,
-            "name": "Steward Berroa",
-            "abbreviation": "S. Berroa",
+            "name": "Elih Marrero",
+            "abbreviation": "E. Marrero",
             "number": null,
             "dob": null,
             "height": "",
@@ -154,10 +154,10 @@
             "position": ""
           },
           {
-            "id": 5570,
+            "id": 5332,
             "team_id": 3,
-            "name": "Jorge Tavárez",
-            "abbreviation": "J. Tavárez",
+            "name": "Steward Berroa",
+            "abbreviation": "S. Berroa",
             "number": null,
             "dob": null,
             "height": "",
@@ -180,7 +180,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Grant Gavin",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -549,10 +549,38 @@
           },
           {
             "reference_id": "19624-2-14",
-            "text": "José Marmolejos al bate",
+            "text": "José Marmolejos Doble Play! Segunda Base - Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1768768979
+            "ts": 1768769144
+          },
+          {
+            "reference_id": "19624-2-15",
+            "text": "Michael de la Cruz  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768769273
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19625-1-16",
+            "text": "Elih Marrero  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768769483
+          },
+          {
+            "reference_id": "19625-1-17",
+            "text": "Steward Berroa al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768769518
           }
         ]
       }
@@ -583,6 +611,13 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
         "total_plays": 2,
         "scoring_plays": 0
       }
@@ -598,14 +633,14 @@
       {
         "num": 2,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
