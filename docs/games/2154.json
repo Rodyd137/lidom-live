@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2154",
-    "scraped_at": "2026-01-18T23:09:10.881Z",
+    "scraped_at": "2026-01-18T23:10:14.213Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-18 16:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Leody Taveras Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Geraldo Perdomo Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
-      "strikes": 2,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 7
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
       "on2B": true,
-      "on3B": true,
-      "runners": 2,
-      "mask": 7
+      "on3B": false,
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 2,
-          "H": 4,
+          "R": 4,
+          "H": 5,
           "E": 0,
           "H2": 0
         },
@@ -176,7 +176,7 @@
         "totals": {
           "R": 1,
           "H": 6,
-          "E": 0,
+          "E": 1,
           "H2": 1
         },
         "probables": {
@@ -333,21 +333,21 @@
         },
         {
           "num": 9,
-          "away": 1,
+          "away": 3,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 2,
-          "H": 4,
+          "R": 4,
+          "H": 5,
           "E": 0
         },
         "home": {
           "R": 1,
           "H": 6,
-          "E": 0
+          "E": 1
         }
       },
       "cumulative": {
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 2
+            "R": 4
           }
         ],
         "home": [
@@ -1039,10 +1039,17 @@
           },
           {
             "reference_id": "19631-1-67",
-            "text": "Geraldo Perdomo al bate",
+            "text": "Geraldo Perdomo Sencillo y 1 Carrera Impulsada ",
             "scored": false,
             "is_primary": true,
-            "ts": 1768777673
+            "ts": 1768777785
+          },
+          {
+            "reference_id": "19631-1-68",
+            "text": "Cristhian Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768777795
           }
         ]
       }
@@ -1164,7 +1171,7 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 6,
+        "total_plays": 7,
         "scoring_plays": 1
       }
     ],
@@ -1229,7 +1236,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 1,
+        "awayTeamRuns": 3,
         "homeTeamRuns": 0
       }
     ],
