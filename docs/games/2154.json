@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2154",
-    "scraped_at": "2026-01-18T20:41:25.376Z",
+    "scraped_at": "2026-01-18T20:42:29.605Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -534,6 +534,20 @@
             "ts": 1768768734
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "19624-2-13",
+            "text": "Alcides Escobar al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768768901
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -556,6 +570,13 @@
         "half": "top",
         "label": "Alta 2da",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
