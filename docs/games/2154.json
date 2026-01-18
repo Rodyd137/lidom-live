@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2154",
-    "scraped_at": "2026-01-18T20:57:22.658Z",
+    "scraped_at": "2026-01-18T20:58:25.940Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-18 16:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Leody Taveras Robo de Base ",
+    "lastPlayByPlay": "Geraldo Perdomo Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -590,18 +590,25 @@
             "ts": 1768769718
           },
           {
-            "reference_id": "19625-1-19",
-            "text": "Geraldo Perdomo al bate",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1768769721
-          },
-          {
             "reference_id": "19625-1-18-280212",
             "text": "Leody Taveras Robo de Base ",
             "scored": false,
             "is_primary": false,
             "ts": 1768769802
+          },
+          {
+            "reference_id": "19625-1-19",
+            "text": "Geraldo Perdomo Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768769864
+          },
+          {
+            "reference_id": "19625-1-20",
+            "text": "Cristhian Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768769867
           }
         ]
       }
@@ -639,7 +646,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 0
       }
     ],
