@@ -1,24 +1,24 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2154",
-    "scraped_at": "2026-01-18T19:53:27.814Z",
+    "scraped_at": "2026-01-18T20:17:53.565Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2154,
     "season_id": 20,
-    "status": 3,
+    "status": 2,
     "date": "2026-01-18 16:00:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Jorge Tavárez",
           "era": "",
           "record": "",
           "debut": false
@@ -429,12 +429,49 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "19623-1-1",
+            "text": "Leody Taveras Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768766960
+          },
+          {
+            "reference_id": "19623-1-2",
+            "text": "Geraldo Perdomo Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768767133
+          },
+          {
+            "reference_id": "19623-1-3",
+            "text": "Cristhian Adames Out: Elevado al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768767346
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
