@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2155",
-    "scraped_at": "2026-01-20T00:56:40.940Z",
+    "scraped_at": "2026-01-20T00:57:44.757Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 4,
-          "H": 6,
+          "H": 7,
           "E": 0,
           "H2": 4
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 4,
-          "H": 6,
+          "H": 7,
           "E": 0
         },
         "home": {
@@ -737,6 +737,20 @@
             "ts": 1768870422
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19636-1-37",
+            "text": "Rodolfo Amador al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768870616
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -794,6 +808,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
