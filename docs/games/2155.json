@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2155",
-    "scraped_at": "2026-01-20T00:02:27.574Z",
+    "scraped_at": "2026-01-20T00:03:31.612Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-19 19:30:00",
-    "roundText": "Baja 2da",
-    "currentInningNum": 2,
-    "lastPlayByPlay": "Eddie Rosario  Out: Rodado al Primera Base",
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -235,6 +235,17 @@
             "team_id": 6,
             "name": "Eddie Rosario",
             "abbreviation": "E. Rosario",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5377,
+            "team_id": 6,
+            "name": "Yairo Munoz",
+            "abbreviation": "Y. Munoz",
             "number": null,
             "dob": null,
             "height": "",
@@ -509,6 +520,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1768867322
+          },
+          {
+            "reference_id": "19633-2-15",
+            "text": "Yairo Munoz Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768867365
           }
         ]
       }
@@ -539,7 +557,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -554,14 +572,14 @@
       {
         "num": 2,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
