@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2155",
-    "scraped_at": "2026-01-20T00:06:43.486Z",
+    "scraped_at": "2026-01-20T00:07:47.887Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-19 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Geraldo Perdomo Sencillo ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 6
     },
     "base_runners": {
       "on1B": true,
       "on2B": false,
-      "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "on3B": true,
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 1,
-          "H": 2,
+          "H": 3,
           "E": 0,
           "H2": 1
         },
@@ -308,7 +308,7 @@
       "totals": {
         "away": {
           "R": 1,
-          "H": 2,
+          "H": 3,
           "E": 0
         },
         "home": {
@@ -529,6 +529,27 @@
             "ts": 1768867365
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19634-1-16",
+            "text": "Leody Taveras Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768867632
+          },
+          {
+            "reference_id": "19634-1-17",
+            "text": "Geraldo Perdomo Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768867644
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -558,6 +579,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
