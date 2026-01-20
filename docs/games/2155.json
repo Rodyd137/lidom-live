@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2155",
-    "scraped_at": "2026-01-20T00:30:07.664Z",
+    "scraped_at": "2026-01-20T00:31:11.622Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-01-19 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jeimer Candelario Sencillo ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -246,6 +246,28 @@
             "team_id": 6,
             "name": "Yairo Munoz",
             "abbreviation": "Y. Munoz",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5506,
+            "team_id": 6,
+            "name": "Jeimer Candelario",
+            "abbreviation": "J. Candelario",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5709,
+            "team_id": 6,
+            "name": "Onix Vega",
+            "abbreviation": "O. Vega",
             "number": null,
             "dob": null,
             "height": "",
@@ -592,6 +614,27 @@
             "ts": 1768868821
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "19634-2-24",
+            "text": "Jeimer Candelario Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768869015
+          },
+          {
+            "reference_id": "19634-2-25",
+            "text": "Onix Vega al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768869032
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -629,6 +672,13 @@
         "label": "Alta 3ra",
         "total_plays": 8,
         "scoring_plays": 3
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
