@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2155",
-    "scraped_at": "2026-01-20T03:03:40.009Z",
+    "scraped_at": "2026-01-20T03:04:43.013Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-19 19:30:00",
-    "roundText": "Alta 10ma",
+    "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Steward Berroa Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 2,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 1
+      "battingTeam": "homeTeam",
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on3B": true,
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -187,10 +187,10 @@
         },
         "players": [
           {
-            "id": 5706,
+            "id": 5387,
             "team_id": 6,
-            "name": "Eric Filia",
-            "abbreviation": "E. Filia",
+            "name": "Ismael Alcantara",
+            "abbreviation": "I. Alcantara",
             "number": null,
             "dob": null,
             "height": "",
@@ -1150,10 +1150,24 @@
           },
           {
             "reference_id": "19641-1-82",
-            "text": "Steward Berroa Ponche (K) ",
+            "text": "Angel Genao Out Robando Base! ",
             "scored": false,
             "is_primary": true,
-            "ts": 1768878088
+            "ts": 1768878223
+          }
+        ]
+      },
+      {
+        "num": 10,
+        "half": "bottom",
+        "label": "Baja 10ma",
+        "plays": [
+          {
+            "reference_id": "19641-2-83",
+            "text": "Sergio Alcantara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1768878269
           }
         ]
       }
@@ -1291,6 +1305,13 @@
         "label": "Alta 10ma",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 10,
+        "half": "bottom",
+        "label": "Baja 10ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1359,7 +1380,7 @@
       },
       {
         "num": 10,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
