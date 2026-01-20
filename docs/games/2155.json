@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2155",
-    "scraped_at": "2026-01-20T03:18:25.663Z",
+    "scraped_at": "2026-01-20T03:19:28.480Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2155,
     "season_id": 20,
-    "status": 2,
+    "status": 6,
     "date": "2026-01-19 19:30:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Rafael Lantigua  Ponche (K) ",
+    "lastPlayByPlay": "Jeimer Candelario Base por Bolas Carrera Empujada",
     "counts": {
-      "balls": 3,
+      "balls": 0,
       "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 8
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
-      "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "on1B": false,
+      "on2B": false,
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -174,7 +174,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 7,
+          "R": 8,
           "H": 11,
           "E": 1,
           "H2": 4
@@ -339,7 +339,7 @@
         {
           "num": 10,
           "away": 1,
-          "home": 1
+          "home": 2
         }
       ],
       "extras": true,
@@ -350,7 +350,7 @@
           "E": 1
         },
         "home": {
-          "R": 7,
+          "R": 8,
           "H": 11,
           "E": 1
         }
@@ -437,7 +437,7 @@
           },
           {
             "num": 10,
-            "R": 7
+            "R": 8
           }
         ]
       }
@@ -1199,10 +1199,10 @@
           },
           {
             "reference_id": "19641-2-87",
-            "text": "Jeimer Candelario al bate",
-            "scored": false,
+            "text": "Jeimer Candelario Base por Bolas Carrera Empujada",
+            "scored": true,
             "is_primary": true,
-            "ts": 1768879037
+            "ts": 1768879144
           }
         ]
       }
@@ -1346,7 +1346,7 @@
         "half": "bottom",
         "label": "Baja 10ma",
         "total_plays": 6,
-        "scoring_plays": 1
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1418,7 +1418,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 1
+        "homeTeamRuns": 2
       }
     ],
     "siblingGames": [],
