@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2156",
-    "scraped_at": "2026-01-22T01:39:48.524Z",
+    "scraped_at": "2026-01-22T01:40:53.320Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-21 19:15:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jonathan Guzman Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -660,6 +660,27 @@
             "ts": 1769045853
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "19644-2-28",
+            "text": "Jonathan Guzman Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769046032
+          },
+          {
+            "reference_id": "19644-2-29",
+            "text": "Hector Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769046036
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -697,6 +718,13 @@
         "label": "Alta 3ra",
         "total_plays": 8,
         "scoring_plays": 2
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
