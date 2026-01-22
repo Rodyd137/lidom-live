@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2156",
-    "scraped_at": "2026-01-22T02:20:44.213Z",
+    "scraped_at": "2026-01-22T02:21:48.803Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-01-21 19:15:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Eric Filia Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 5,
-          "H": 7,
+          "H": 8,
           "E": 0,
           "H2": 5
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 5,
-          "H": 7,
+          "H": 8,
           "E": 0
         },
         "home": {
@@ -821,6 +821,34 @@
             "ts": 1769048189
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "19647-1-46",
+            "text": "Rudy Martin  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769048457
+          },
+          {
+            "reference_id": "19647-1-47",
+            "text": "Eric Filia Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769048490
+          },
+          {
+            "reference_id": "19647-1-48",
+            "text": "Sergio Alcantara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769048493
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -891,6 +919,13 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
         "total_plays": 3,
         "scoring_plays": 0
       }
