@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2156",
-    "scraped_at": "2026-01-22T02:47:46.872Z",
+    "scraped_at": "2026-01-22T02:48:51.541Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-21 19:15:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Eddie Rosario  Out: Rodado al Primera Base",
+    "lastPlayByPlay": "Yairo Munoz se embasa por Error del Tercera Base",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 5,
           "H": 8,
-          "E": 0,
+          "E": 1,
           "H2": 5
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 5,
           "H": 8,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 2,
@@ -927,10 +927,17 @@
           },
           {
             "reference_id": "19648-1-57",
-            "text": "Yairo Munoz al bate",
+            "text": "Yairo Munoz se embasa por Error del Tercera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1769049962
+            "ts": 1769050087
+          },
+          {
+            "reference_id": "19648-1-58",
+            "text": "Jeimer Candelario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769050100
           }
         ]
       }
@@ -1024,7 +1031,7 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
