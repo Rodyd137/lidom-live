@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2156",
-    "scraped_at": "2026-01-22T00:16:31.605Z",
+    "scraped_at": "2026-01-22T01:12:50.753Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2156,
     "season_id": 20,
-    "status": 3,
+    "status": 2,
     "date": "2026-01-21 19:15:00",
-    "roundText": "Alta 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "Eric Filia Base por Bolas y Carrera Impulsada ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 8
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on1B": true,
+      "on2B": true,
+      "on3B": true,
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -53,13 +53,13 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 0,
-          "H": 0,
+          "R": 3,
+          "H": 3,
           "E": 0,
-          "H2": 0
+          "H2": 3
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Enny Romero",
           "era": "",
           "record": "",
           "debut": false
@@ -174,10 +174,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 0,
-          "H": 0,
+          "R": 2,
+          "H": 2,
           "E": 0,
-          "H2": 0
+          "H2": 2
         },
         "probables": {
           "pitcher": "",
@@ -294,11 +294,11 @@
         {
           "num": 1,
           "away": 0,
-          "home": 0
+          "home": 2
         },
         {
           "num": 2,
-          "away": 0,
+          "away": 3,
           "home": 0
         },
         {
@@ -340,13 +340,13 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 0,
+          "R": 3,
+          "H": 3,
           "E": 0
         },
         "home": {
-          "R": 0,
-          "H": 0,
+          "R": 2,
+          "H": 2,
           "E": 0
         }
       },
@@ -358,92 +358,255 @@
           },
           {
             "num": 2,
-            "R": 0
+            "R": 3
           },
           {
             "num": 3,
-            "R": 0
+            "R": 3
           },
           {
             "num": 4,
-            "R": 0
+            "R": 3
           },
           {
             "num": 5,
-            "R": 0
+            "R": 3
           },
           {
             "num": 6,
-            "R": 0
+            "R": 3
           },
           {
             "num": 7,
-            "R": 0
+            "R": 3
           },
           {
             "num": 8,
-            "R": 0
+            "R": 3
           },
           {
             "num": 9,
-            "R": 0
+            "R": 3
           }
         ],
         "home": [
           {
             "num": 1,
-            "R": 0
+            "R": 2
           },
           {
             "num": 2,
-            "R": 0
+            "R": 2
           },
           {
             "num": 3,
-            "R": 0
+            "R": 2
           },
           {
             "num": 4,
-            "R": 0
+            "R": 2
           },
           {
             "num": 5,
-            "R": 0
+            "R": 2
           },
           {
             "num": 6,
-            "R": 0
+            "R": 2
           },
           {
             "num": 7,
-            "R": 0
+            "R": 2
           },
           {
             "num": 8,
-            "R": 0
+            "R": 2
           },
           {
             "num": 9,
-            "R": 0
+            "R": 2
           }
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "19642-1-1",
+            "text": "Eric Filia Out: Elevado al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769041877
+          },
+          {
+            "reference_id": "19642-1-2",
+            "text": "Sergio Alcantara  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769042076
+          },
+          {
+            "reference_id": "19642-1-3",
+            "text": "Bryan de la Cruz  Out: Rodado al Segunda Base - Lanzador",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769042168
+          }
+        ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "19642-2-4",
+            "text": "Hector Rodríguez Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769042372
+          },
+          {
+            "reference_id": "19642-2-5",
+            "text": "Erik Gonzalez Out: Línea al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769042536
+          },
+          {
+            "reference_id": "19642-2-6",
+            "text": "Socrates Brito Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769042599
+          },
+          {
+            "reference_id": "19642-2-7",
+            "text": "Junior Lake Sencillo y 1 Carrera Impulsada ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769042817
+          },
+          {
+            "reference_id": "19642-2-7-280528",
+            "text": "Junior Lake Robo de Base ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1769042965
+          },
+          {
+            "reference_id": "19642-2-9",
+            "text": "Raimer Tapia Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769043253
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19643-1-10",
+            "text": "Eloy Jimenez  Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769043438
+          },
+          {
+            "reference_id": "19643-1-11",
+            "text": "Eddie Rosario Cuadrangular! 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1769043567
+          },
+          {
+            "reference_id": "19643-1-12",
+            "text": "Yairo Munoz Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769043670
+          },
+          {
+            "reference_id": "19643-1-13",
+            "text": "Jeimer Candelario Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769043827
+          },
+          {
+            "reference_id": "19643-1-14",
+            "text": "Onix Vega Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769044108
+          },
+          {
+            "reference_id": "19643-1-15",
+            "text": "Rudy Martin  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769044202
+          },
+          {
+            "reference_id": "19643-1-16",
+            "text": "Eric Filia Base por Bolas y Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1769044345
+          },
+          {
+            "reference_id": "19643-1-17",
+            "text": "Sergio Alcantara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769044352
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 8,
+        "scoring_plays": 2
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
-        "is_last": 1,
+        "part": 2,
+        "is_last": 0,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 2
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
-        "awayTeamRuns": 0,
+        "is_last": 1,
+        "awayTeamRuns": 3,
         "homeTeamRuns": 0
       },
       {
