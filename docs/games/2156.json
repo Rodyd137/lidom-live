@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2156",
-    "scraped_at": "2026-01-22T02:58:31.871Z",
+    "scraped_at": "2026-01-22T03:17:20.039Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,8 +9,8 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-21 19:15:00",
-    "roundText": "Baja 7ma",
-    "currentInningNum": 7,
+    "roundText": "Baja 8va",
+    "currentInningNum": 8,
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -53,9 +53,9 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 5,
-          "H": 8,
-          "E": 1,
+          "R": 6,
+          "H": 11,
+          "E": 0,
           "H2": 5
         },
         "probables": {
@@ -180,7 +180,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Héctor Neris",
+          "pitcher": "Anneurys Zabala",
           "era": "",
           "record": "",
           "debut": false
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,9 +340,9 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 5,
-          "H": 8,
-          "E": 1
+          "R": 6,
+          "H": 11,
+          "E": 0
         },
         "home": {
           "R": 2,
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 5
+            "R": 6
           },
           {
             "num": 9,
-            "R": 5
+            "R": 6
           }
         ],
         "home": [
@@ -947,6 +947,97 @@
             "ts": 1769050513
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "19648-2-60",
+            "text": "Yamaico Navarro Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769050720
+          },
+          {
+            "reference_id": "19648-2-61",
+            "text": "Alcides Escobar Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769050735
+          },
+          {
+            "reference_id": "19648-2-62",
+            "text": "Michael de la Cruz  Out: Rodado al Campo Corto - Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769050830
+          },
+          {
+            "reference_id": "19648-2-63",
+            "text": "Jonathan Guzman Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769050987
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "19649-1-64",
+            "text": "Rudy Martin  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769051193
+          },
+          {
+            "reference_id": "19649-1-64-280647",
+            "text": "Rudy Martin  Robo de Base ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1769051211
+          },
+          {
+            "reference_id": "19649-1-65",
+            "text": "Eric Filia Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769051312
+          },
+          {
+            "reference_id": "19649-1-66",
+            "text": "Sergio Alcantara Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1769051361
+          },
+          {
+            "reference_id": "19649-1-67",
+            "text": "Bryan de la Cruz Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769051452
+          },
+          {
+            "reference_id": "19649-1-68",
+            "text": "Eloy Jimenez  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769051581
+          },
+          {
+            "reference_id": "19649-1-69",
+            "text": "Eddie Rosario  Out: Rodado al Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769051748
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1040,6 +1131,20 @@
         "label": "Alta 7ma",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 7,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1088,15 +1193,15 @@
       {
         "num": 7,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 8,
-        "part": 1,
-        "is_last": 0,
-        "awayTeamRuns": 0,
+        "part": 2,
+        "is_last": 1,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
