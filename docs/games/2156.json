@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2156",
-    "scraped_at": "2026-01-22T03:29:01.656Z",
+    "scraped_at": "2026-01-22T03:30:05.465Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-21 19:15:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Yamaico Navarro Base por Bolas Intencional ",
+    "lastPlayByPlay": "Alcides Escobar Sencillo y 2 Carreras Impulsadas ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 8
+      "base": 6
     },
     "base_runners": {
       "on1B": true,
-      "on2B": true,
+      "on2B": false,
       "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -174,13 +174,13 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 4,
-          "H": 8,
+          "R": 6,
+          "H": 9,
           "E": 2,
           "H2": 2
         },
         "probables": {
-          "pitcher": "Anneurys Zabala",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -329,7 +329,7 @@
         {
           "num": 8,
           "away": 1,
-          "home": 2
+          "home": 4
         },
         {
           "num": 9,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 4,
-          "H": 8,
+          "R": 6,
+          "H": 9,
           "E": 2
         }
       },
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 4
+            "R": 6
           },
           {
             "num": 9,
-            "R": 4
+            "R": 6
           }
         ]
       }
@@ -1088,10 +1088,17 @@
           },
           {
             "reference_id": "19649-2-76",
-            "text": "Alcides Escobar al bate",
+            "text": "Alcides Escobar Sencillo y 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1769052565
+          },
+          {
+            "reference_id": "19649-2-77",
+            "text": "Michael de la Cruz al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1769052510
+            "ts": 1769052570
           }
         ]
       }
@@ -1206,8 +1213,8 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 7,
-        "scoring_plays": 2
+        "total_plays": 8,
+        "scoring_plays": 3
       }
     ],
     "innings_raw": [
@@ -1265,7 +1272,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 2
+        "homeTeamRuns": 4
       },
       {
         "num": 9,
