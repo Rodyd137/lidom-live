@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2160",
-    "scraped_at": "2026-01-26T22:11:20.049Z",
+    "scraped_at": "2026-01-26T22:30:23.435Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,13 +9,13 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-26 17:00:00",
-    "roundText": "Alta 3ra",
-    "currentInningNum": 3,
-    "lastPlayByPlay": "Junior Lake Out: Elevado al Segunda Base",
+    "roundText": "Alta 4ta",
+    "currentInningNum": 4,
+    "lastPlayByPlay": "Raimer Tapia Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -59,7 +59,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Travis Lakins",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -180,7 +180,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Anderson Bido",
+          "pitcher": "Gerson Moreno",
           "era": "",
           "record": "",
           "debut": false
@@ -667,6 +667,69 @@
             "ts": 1769465462
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "19680-2-30",
+            "text": "Bryan de la Cruz Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769465795
+          },
+          {
+            "reference_id": "19680-2-31",
+            "text": "Eloy Jimenez   Out: Rodado al Campo Corto - Segunda Base - Primera Base - Doble Play!",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769465872
+          },
+          {
+            "reference_id": "19680-2-32",
+            "text": "Eloy Jimenez   Out: Rodado al Campo Corto - Segunda Base - cambio de llamado",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769466005
+          },
+          {
+            "reference_id": "19680-2-33",
+            "text": "Eric Filia  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769466434
+          },
+          {
+            "reference_id": "19680-2-34",
+            "text": "Eloy Jimenez  Out Robando Base! Receptor - Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769466457
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "19681-1-35",
+            "text": "Raimer Tapia Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769466603
+          },
+          {
+            "reference_id": "19681-1-36",
+            "text": "Yamaico Navarro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769466606
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -704,6 +767,20 @@
         "label": "Alta 3ra",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -723,15 +800,15 @@
       },
       {
         "num": 3,
-        "part": 1,
-        "is_last": 1,
+        "part": 2,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 4,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
