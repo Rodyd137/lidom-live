@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2160",
-    "scraped_at": "2026-01-26T21:40:06.753Z",
+    "scraped_at": "2026-01-26T21:41:09.674Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-26 17:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Michael de la Cruz Base por Bolas ",
+    "lastPlayByPlay": "Michael de la Cruz Robo de Base ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -563,10 +563,17 @@
           },
           {
             "reference_id": "19679-1-17",
+            "text": "Michael de la Cruz Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769463645
+          },
+          {
+            "reference_id": "19679-1-18",
             "text": "Jonathan Guzman al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1769463572
+            "ts": 1769463648
           }
         ]
       }
@@ -590,7 +597,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 6,
+        "total_plays": 7,
         "scoring_plays": 1
       }
     ],
