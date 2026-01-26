@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2159",
-    "scraped_at": "2026-01-26T02:03:58.584Z",
+    "scraped_at": "2026-01-26T02:05:01.438Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-25 19:15:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Sergio Alcantara Sencillo Jardinero Central",
+    "lastPlayByPlay": "Bryan de la Cruz Base por Bolas Intencional ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 6
+      "base": 8
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 1,
-          "H": 5,
+          "R": 2,
+          "H": 6,
           "E": 0,
           "H2": 1
         },
@@ -333,15 +333,15 @@
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 1,
-          "H": 5,
+          "R": 2,
+          "H": 6,
           "E": 0
         },
         "home": {
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 1
+            "R": 2
           }
         ],
         "home": [
@@ -1046,10 +1046,24 @@
           },
           {
             "reference_id": "19677-1-72",
-            "text": "Rudy Martin  al bate",
+            "text": "Rudy Martin  Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1769393056
+          },
+          {
+            "reference_id": "19677-1-73",
+            "text": "Bryan de la Cruz Base por Bolas Intencional ",
             "scored": false,
             "is_primary": true,
-            "ts": 1769392980
+            "ts": 1769393071
+          },
+          {
+            "reference_id": "19677-1-74",
+            "text": "Eloy Jimenez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769393076
           }
         ]
       }
@@ -1171,8 +1185,8 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 5,
-        "scoring_plays": 0
+        "total_plays": 7,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1236,7 +1250,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
