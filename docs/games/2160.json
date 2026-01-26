@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2160",
-    "scraped_at": "2026-01-26T22:42:59.833Z",
+    "scraped_at": "2026-01-26T22:44:03.483Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-01-26 17:00:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Yairo Munoz  Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "Jeimer Candelario Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 4
+      "base": 6
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Kenny Hernández",
+          "pitcher": "Conner Greene",
           "era": "",
           "record": "",
           "debut": false
@@ -766,10 +766,17 @@
           },
           {
             "reference_id": "19681-2-41",
-            "text": "Jeimer Candelario al bate",
+            "text": "Jeimer Candelario Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1769467184
+            "ts": 1769467411
+          },
+          {
+            "reference_id": "19681-2-42",
+            "text": "Onix Vega al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769467414
           }
         ]
       }
@@ -828,7 +835,7 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
