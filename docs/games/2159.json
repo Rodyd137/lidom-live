@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2159",
-    "scraped_at": "2026-01-26T01:01:41.453Z",
+    "scraped_at": "2026-01-26T01:02:44.564Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-25 19:15:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Jeimer Candelario Ponche (K) ",
+    "lastPlayByPlay": "Socrates Brito Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 2
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -828,6 +828,34 @@
             "ts": 1769389088
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "19674-2-47",
+            "text": "Erik Gonzalez Out: Línea al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769389334
+          },
+          {
+            "reference_id": "19674-2-48",
+            "text": "Socrates Brito Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769389354
+          },
+          {
+            "reference_id": "19674-2-49",
+            "text": "Junior Lake al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769389357
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -907,6 +935,13 @@
         "label": "Alta 6ta",
         "total_plays": 6,
         "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -947,7 +982,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
