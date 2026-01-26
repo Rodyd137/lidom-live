@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2160",
-    "scraped_at": "2026-01-26T21:51:40.102Z",
+    "scraped_at": "2026-01-26T21:52:42.690Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-26 17:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Jeimer Candelario Base por Bolas ",
+    "lastPlayByPlay": "Jeimer Candelario Robo de Base se embasa por Error del - Receptor",
     "counts": {
       "balls": 2,
-      "strikes": 1,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 4
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 2
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 2,
           "H": 3,
-          "E": 0,
+          "E": 1,
           "H2": 2
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 2,
           "H": 3,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 1,
@@ -605,10 +605,17 @@
           },
           {
             "reference_id": "19679-2-22",
+            "text": "Jeimer Candelario Robo de Base se embasa por Error del - Receptor",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769464324
+          },
+          {
+            "reference_id": "19679-2-23",
             "text": "Onix Vega al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1769464195
+            "ts": 1769464327
           }
         ]
       }
@@ -639,7 +646,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
