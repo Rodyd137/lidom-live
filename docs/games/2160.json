@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2160",
-    "scraped_at": "2026-01-26T23:41:41.524Z",
+    "scraped_at": "2026-01-26T23:54:13.223Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,13 +9,13 @@
     "season_id": 20,
     "status": 2,
     "date": "2026-01-26 17:00:00",
-    "roundText": "Baja 7ma",
-    "currentInningNum": 7,
-    "lastPlayByPlay": "Onix Vega Ponche (K) ",
+    "roundText": "Baja 8va",
+    "currentInningNum": 8,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -59,7 +59,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Dereck West",
+          "pitcher": "Héctor Neris",
           "era": "",
           "record": "",
           "debut": false
@@ -180,7 +180,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Jhan Mariñez",
+          "pitcher": "JC Mejía",
           "era": "",
           "record": "",
           "debut": false
@@ -962,10 +962,66 @@
           },
           {
             "reference_id": "19684-2-64",
-            "text": "Sergio Alcantara al bate",
+            "text": "Sergio Alcantara Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1769470773
+            "ts": 1769470954
+          },
+          {
+            "reference_id": "19684-2-65",
+            "text": "Rudy Martin   Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769470984
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "19685-1-66",
+            "text": "Hector Rodríguez Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769471192
+          },
+          {
+            "reference_id": "19685-1-67",
+            "text": "Erik Gonzalez  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769471286
+          },
+          {
+            "reference_id": "19685-1-68",
+            "text": "Socrates Brito  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769471363
+          },
+          {
+            "reference_id": "19685-1-69",
+            "text": "Junior Lake Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769471480
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "19685-2-70",
+            "text": "Bryan de la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769471611
           }
         ]
       }
@@ -1066,7 +1122,21 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 2,
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -1116,14 +1186,14 @@
       {
         "num": 7,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 8,
-        "part": 1,
-        "is_last": 0,
+        "part": 2,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
