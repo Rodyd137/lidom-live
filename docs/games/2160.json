@@ -1,14 +1,14 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2160",
-    "scraped_at": "2026-01-26T15:29:43.228Z",
+    "scraped_at": "2026-01-26T15:55:52.172Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2160,
     "season_id": 20,
     "status": 1,
-    "date": "2026-01-26 19:15:00",
+    "date": "2026-01-26 17:00:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
     "lastPlayByPlay": "",
@@ -46,12 +46,12 @@
     },
     "teams": {
       "away": {
-        "id": 6,
-        "name": "Toros",
-        "abbr": "TE",
-        "color": "ef7722",
-        "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-        "permalink": "/equipo/toros-del-este",
+        "id": 4,
+        "name": "Leones",
+        "abbr": "LE",
+        "color": "db2319",
+        "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
+        "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 0,
           "H": 0,
@@ -67,12 +67,12 @@
         "players": []
       },
       "home": {
-        "id": 4,
-        "name": "Leones",
-        "abbr": "LE",
-        "color": "db2319",
-        "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-        "permalink": "/equipo/leones-del-escogido",
+        "id": 6,
+        "name": "Toros",
+        "abbr": "TE",
+        "color": "ef7722",
+        "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
+        "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 0,
           "H": 0,
@@ -299,7 +299,7 @@
     "siblingGames": [],
     "stats_tables": [
       {
-        "title": "Toros vs Leones",
+        "title": "Leones vs Toros",
         "round": "Temporada Regular (10 Juegos)",
         "columns": [
           "G",
@@ -309,25 +309,25 @@
           "E"
         ],
         "teams": {
-          "Toros TE": {
-            "G": 1,
-            "P": 2,
-            "C": 4.3,
-            "H": 8.7,
-            "E": 0
-          },
           "Leones LE": {
             "G": 2,
             "P": 1,
             "C": 5.3,
             "H": 9,
             "E": 1
+          },
+          "Toros TE": {
+            "G": 1,
+            "P": 2,
+            "C": 4.3,
+            "H": 8.7,
+            "E": 0
           }
         }
       },
       {
         "title": "Estadísticas Generales",
-        "round": "Temporada Regular (49 Juegos)",
+        "round": "Temporada Regular (50 Juegos)",
         "columns": [
           "G",
           "P",
@@ -337,14 +337,6 @@
           "E"
         ],
         "teams": {
-          "Toros TE": {
-            "G": 1,
-            "P": 2,
-            "CA": 4.3,
-            "CP": 5.3,
-            "H": 8.7,
-            "E": 0
-          },
           "Leones LE": {
             "G": 2,
             "P": 1,
@@ -352,6 +344,14 @@
             "CP": 4.3,
             "H": 9,
             "E": 1
+          },
+          "Toros TE": {
+            "G": 1,
+            "P": 2,
+            "CA": 4.3,
+            "CP": 5.3,
+            "H": 8.7,
+            "E": 0
           }
         }
       }
