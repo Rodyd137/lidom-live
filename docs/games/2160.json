@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2160",
-    "scraped_at": "2026-01-27T01:06:43.598Z",
+    "scraped_at": "2026-01-27T01:07:46.899Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-26 17:00:00",
     "roundText": "Baja 11ra",
     "currentInningNum": 11,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Eric Filia Out: Línea al Campo Corto",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 1,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -242,10 +242,10 @@
             "position": ""
           },
           {
-            "id": 5707,
+            "id": 5381,
             "team_id": 6,
-            "name": "Eddie Rosario",
-            "abbreviation": "E. Rosario",
+            "name": "Sandber Pimentel",
+            "abbreviation": "S. Pimentel",
             "number": null,
             "dob": null,
             "height": "",
@@ -1296,10 +1296,17 @@
         "plays": [
           {
             "reference_id": "19715-2-101",
-            "text": "Eric Filia al bate",
+            "text": "Eric Filia Out: Línea al Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1769475896
+            "ts": 1769476009
+          },
+          {
+            "reference_id": "19715-2-103",
+            "text": "Sandber Pimentel al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769476052
           }
         ]
       }
@@ -1456,7 +1463,7 @@
         "num": 11,
         "half": "bottom",
         "label": "Baja 11ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
