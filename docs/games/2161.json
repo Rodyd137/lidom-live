@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2161",
-    "scraped_at": "2026-01-27T23:50:38.740Z",
+    "scraped_at": "2026-01-27T23:51:43.053Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-27 19:15:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Yamaico Navarro Base por Bolas ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -213,6 +213,28 @@
             "team_id": 4,
             "name": "Raimer Tapia",
             "abbreviation": "R. Tapia",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5297,
+            "team_id": 4,
+            "name": "Yamaico Navarro",
+            "abbreviation": "Y. Navarro",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5700,
+            "team_id": 4,
+            "name": "Alcides Escobar",
+            "abbreviation": "A. Escobar",
             "number": null,
             "dob": null,
             "height": "",
@@ -468,6 +490,27 @@
             "ts": 1769557630
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "19688-2-13",
+            "text": "Yamaico Navarro Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769557855
+          },
+          {
+            "reference_id": "19688-2-14",
+            "text": "Alcides Escobar al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769557893
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -490,6 +533,13 @@
         "half": "top",
         "label": "Alta 2da",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
