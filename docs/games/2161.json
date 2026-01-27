@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2161",
-    "scraped_at": "2026-01-27T23:51:43.053Z",
+    "scraped_at": "2026-01-27T23:52:47.397Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-27 19:15:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Yamaico Navarro Base por Bolas ",
+    "lastPlayByPlay": "Alcides Escobar  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 1,
-      "outs": 0
+      "balls": 1,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -235,6 +235,17 @@
             "team_id": 4,
             "name": "Alcides Escobar",
             "abbreviation": "A. Escobar",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5679,
+            "team_id": 4,
+            "name": "Michael de la Cruz",
+            "abbreviation": "M. de la Curz",
             "number": null,
             "dob": null,
             "height": "",
@@ -505,10 +516,17 @@
           },
           {
             "reference_id": "19688-2-14",
-            "text": "Alcides Escobar al bate",
+            "text": "Alcides Escobar  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1769557893
+            "ts": 1769557918
+          },
+          {
+            "reference_id": "19688-2-15",
+            "text": "Michael de la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769557946
           }
         ]
       }
@@ -539,7 +557,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
