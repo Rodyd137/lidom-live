@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2160",
-    "scraped_at": "2026-01-27T00:55:10.799Z",
+    "scraped_at": "2026-01-27T00:56:14.269Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-01-26 17:00:00",
     "roundText": "Alta 11ra",
     "currentInningNum": 11,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Michael de la Cruz Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -1254,10 +1254,17 @@
         "plays": [
           {
             "reference_id": "19715-1-96",
-            "text": "Michael de la Cruz al bate",
+            "text": "Michael de la Cruz Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1769475260
+            "ts": 1769475328
+          },
+          {
+            "reference_id": "19715-1-97",
+            "text": "José Marmolejos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769475330
           }
         ]
       }
@@ -1407,7 +1414,7 @@
         "num": 11,
         "half": "top",
         "label": "Alta 11ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
