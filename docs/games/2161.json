@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2161",
-    "scraped_at": "2026-01-28T00:39:14.541Z",
+    "scraped_at": "2026-01-28T00:40:17.214Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-27 19:15:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Onix Vega  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -730,6 +730,27 @@
             "ts": 1769560559
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19691-1-35",
+            "text": "Onix Vega  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769560765
+          },
+          {
+            "reference_id": "19691-1-36",
+            "text": "Jeimer Candelario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769560767
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -787,6 +808,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
