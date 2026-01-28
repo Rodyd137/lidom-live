@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2161",
-    "scraped_at": "2026-01-28T02:13:25.213Z",
+    "scraped_at": "2026-01-28T02:14:28.958Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-01-27 19:15:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Eddie Rosario Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -143,10 +143,10 @@
             "position": ""
           },
           {
-            "id": 5396,
+            "id": 5379,
             "team_id": 6,
-            "name": "Manuel Peña",
-            "abbreviation": "M. Peña",
+            "name": "Francisco Urbaez",
+            "abbreviation": "F. Urbaez",
             "number": null,
             "dob": null,
             "height": "",
@@ -1031,6 +1031,27 @@
             "ts": 1769566262
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "19695-1-69",
+            "text": "Eddie Rosario Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769566440
+          },
+          {
+            "reference_id": "19695-1-70",
+            "text": "Francisco Urbaez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769566463
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1144,6 +1165,13 @@
         "half": "bottom",
         "label": "Baja 8va",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
