@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2161",
-    "scraped_at": "2026-01-28T00:17:21.137Z",
+    "scraped_at": "2026-01-28T00:18:23.717Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-01-27 19:15:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Eloy Jimenez  Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -660,6 +660,27 @@
             "ts": 1769559332
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "19690-1-27",
+            "text": "Eloy Jimenez  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769559490
+          },
+          {
+            "reference_id": "19690-1-28",
+            "text": "Eric Filia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769559497
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -703,6 +724,13 @@
         "half": "bottom",
         "label": "Baja 3ra",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
