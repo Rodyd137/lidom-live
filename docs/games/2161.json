@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2161",
-    "scraped_at": "2026-01-28T00:00:40.973Z",
+    "scraped_at": "2026-01-28T00:01:43.480Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-01-27 19:15:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Onix Vega Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -136,6 +136,17 @@
             "team_id": 6,
             "name": "Eddie Rosario",
             "abbreviation": "E. Rosario",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5709,
+            "team_id": 6,
+            "name": "Onix Vega",
+            "abbreviation": "O. Vega",
             "number": null,
             "dob": null,
             "height": "",
@@ -554,6 +565,20 @@
             "ts": 1769558281
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19689-1-18",
+            "text": "Onix Vega Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769558467
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -583,6 +608,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
