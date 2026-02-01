@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2143",
-    "scraped_at": "2026-02-01T19:50:18.373Z",
+    "scraped_at": "2026-02-01T19:52:11.263Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-02-01 15:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Yadir Drake Sencillo ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/mexico-verde",
         "totals": {
           "R": 4,
-          "H": 2,
+          "H": 3,
           "E": 0,
           "H2": 4
         },
@@ -308,7 +308,7 @@
       "totals": {
         "away": {
           "R": 4,
-          "H": 2,
+          "H": 3,
           "E": 0
         },
         "home": {
@@ -557,6 +557,34 @@
             "ts": 1769975231
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19521-1-19",
+            "text": "Joey Meneses Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769975424
+          },
+          {
+            "reference_id": "19521-1-20",
+            "text": "Yadir Drake Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769975460
+          },
+          {
+            "reference_id": "19521-1-21",
+            "text": "Victor Mendoza al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769975465
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -585,6 +613,13 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
         "total_plays": 3,
         "scoring_plays": 0
       }
