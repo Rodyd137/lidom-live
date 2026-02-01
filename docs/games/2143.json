@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2143",
-    "scraped_at": "2026-02-01T19:44:02.276Z",
+    "scraped_at": "2026-02-01T19:45:05.086Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-02-01 15:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Emmanuel Rivera Base por Bolas ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 2
     },
     "base_state": {
@@ -224,6 +224,17 @@
             "team_id": 10,
             "name": "Nelson Velasquez ",
             "abbreviation": "N. Velasquez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 4077,
+            "team_id": 10,
+            "name": "Emmanuel Rivera",
+            "abbreviation": "E. Rivera",
             "number": null,
             "dob": null,
             "height": "",
@@ -515,10 +526,17 @@
         "plays": [
           {
             "reference_id": "19520-2-16",
-            "text": "Nelson Velasquez  al bate",
+            "text": "Nelson Velasquez  Out: Línea al Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1769974992
+            "ts": 1769975046
+          },
+          {
+            "reference_id": "19520-2-17",
+            "text": "Emmanuel Rivera Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769975093
           }
         ]
       }
@@ -549,7 +567,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
