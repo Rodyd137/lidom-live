@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2143",
-    "scraped_at": "2026-02-01T21:07:20.845Z",
+    "scraped_at": "2026-02-01T21:08:22.151Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-02-01 15:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Allen Cordoba  Out: Elevado al Jardinero Derecho ",
     "counts": {
-      "balls": 0,
+      "balls": 2,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -866,6 +866,27 @@
             "ts": 1769979852
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "19525-1-52",
+            "text": "Allen Cordoba  Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769980073
+          },
+          {
+            "reference_id": "19525-1-53",
+            "text": "Rodolfo Amador al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769980081
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -951,6 +972,13 @@
         "half": "bottom",
         "label": "Baja 6ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
