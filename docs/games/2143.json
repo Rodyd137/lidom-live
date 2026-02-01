@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2143",
-    "scraped_at": "2026-02-01T20:01:26.442Z",
+    "scraped_at": "2026-02-01T20:02:28.038Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-02-01 15:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Christian Vazquez Ponche (K) ",
     "counts": {
       "balls": 1,
       "strikes": 0,
@@ -246,6 +246,17 @@
             "team_id": 10,
             "name": "Isan Diaz",
             "abbreviation": "I. Diaz",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5738,
+            "team_id": 10,
+            "name": "Christian Vazquez",
+            "abbreviation": "C. Vazquez",
             "number": null,
             "dob": null,
             "height": "",
@@ -599,6 +610,20 @@
             "ts": 1769975810
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "19521-2-24",
+            "text": "Christian Vazquez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769976140
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -635,6 +660,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
