@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2143",
-    "scraped_at": "2026-02-01T20:59:15.106Z",
+    "scraped_at": "2026-02-01T21:00:16.358Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-02-01 15:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Nelson Velasquez  Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
@@ -224,6 +224,17 @@
             "team_id": 10,
             "name": "Nelson Velasquez ",
             "abbreviation": "N. Velasquez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 4077,
+            "team_id": 10,
+            "name": "Emmanuel Rivera",
+            "abbreviation": "E. Rivera",
             "number": null,
             "dob": null,
             "height": "",
@@ -828,10 +839,17 @@
         "plays": [
           {
             "reference_id": "19524-2-48",
-            "text": "Nelson Velasquez  al bate",
+            "text": "Nelson Velasquez  Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1769979553
+            "ts": 1769979560
+          },
+          {
+            "reference_id": "19524-2-49",
+            "text": "Emmanuel Rivera al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769979584
           }
         ]
       }
@@ -918,7 +936,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
