@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2143",
-    "scraped_at": "2026-02-01T21:42:35.898Z",
+    "scraped_at": "2026-02-01T21:52:54.302Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-02-01 15:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Andrew Velazquez  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 7
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on2B": true,
+      "on3B": true,
+      "runners": 2,
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -1038,6 +1038,41 @@
             "ts": 1769982075
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "19527-2-70",
+            "text": "Isan Diaz Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769982333
+          },
+          {
+            "reference_id": "19527-2-71",
+            "text": "Jack Lopez Toque de Sacrificio ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769982352
+          },
+          {
+            "reference_id": "19527-2-72",
+            "text": "Christian Vazquez Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769982464
+          },
+          {
+            "reference_id": "19527-2-73",
+            "text": "Andrew Velazquez  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769982747
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1158,6 +1193,13 @@
         "half": "top",
         "label": "Alta 9na",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
