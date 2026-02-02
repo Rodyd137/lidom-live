@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2164",
-    "scraped_at": "2026-02-02T05:12:45.516Z",
+    "scraped_at": "2026-02-02T05:13:48.179Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-02-01 21:35:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Reynaldo Rodriguez Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -175,7 +175,7 @@
         "permalink": "/equipo/mexico",
         "totals": {
           "R": 4,
-          "H": 7,
+          "H": 8,
           "E": 1,
           "H2": 3
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 4,
-          "H": 7,
+          "H": 8,
           "E": 1
         }
       },
@@ -1010,6 +1010,34 @@
             "ts": 1770008891
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "19723-2-68",
+            "text": "B. Madris Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770009209
+          },
+          {
+            "reference_id": "19723-2-69",
+            "text": "Reynaldo Rodriguez Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770009217
+          },
+          {
+            "reference_id": "19723-2-70",
+            "text": "L. Heras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770009222
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1115,6 +1143,13 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
         "total_plays": 3,
         "scoring_plays": 0
       }
