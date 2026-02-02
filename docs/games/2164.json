@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2164",
-    "scraped_at": "2026-02-02T04:10:34.182Z",
+    "scraped_at": "2026-02-02T04:11:36.024Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-02-01 21:35:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Franchy Cordero Ponche (K) ",
+    "lastPlayByPlay": "Elier Hernandez se embasa por Error del Campo Corto",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -176,7 +176,7 @@
         "totals": {
           "R": 3,
           "H": 4,
-          "E": 0,
+          "E": 1,
           "H2": 3
         },
         "probables": {
@@ -347,7 +347,7 @@
         "home": {
           "R": 3,
           "H": 4,
-          "E": 0
+          "E": 1
         }
       },
       "cumulative": {
@@ -857,10 +857,17 @@
           },
           {
             "reference_id": "19721-1-50",
-            "text": "Elier Hernandez al bate",
+            "text": "Elier Hernandez se embasa por Error del Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1770005367
+            "ts": 1770005459
+          },
+          {
+            "reference_id": "19721-1-51",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770005463
           }
         ]
       }
@@ -940,7 +947,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
