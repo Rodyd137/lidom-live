@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2164",
-    "scraped_at": "2026-02-02T02:35:57.073Z",
+    "scraped_at": "2026-02-02T02:36:58.932Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/republica-dominicana",
         "totals": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 0,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 0
         },
         "home": {
@@ -576,6 +576,20 @@
             "ts": 1769999583
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19718-1-18",
+            "text": "Franchy Cordero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1769999814
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -605,6 +619,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
