@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2164",
-    "scraped_at": "2026-02-02T03:39:42.346Z",
+    "scraped_at": "2026-02-02T03:40:44.065Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-02-01 21:35:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Junior Lake Sencillo ",
+    "lastPlayByPlay": "Cristhian Adames Out! Rodado de Selección.  ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 8
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
       "on2B": true,
-      "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "on3B": false,
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/c7c5d314bd780195ca2739e007b04e63.png",
         "permalink": "/equipo/republica-dominicana",
         "totals": {
-          "R": 4,
+          "R": 5,
           "H": 7,
           "E": 0,
-          "H2": 4
+          "H2": 5
         },
         "probables": {
           "pitcher": "",
@@ -313,7 +313,7 @@
         },
         {
           "num": 5,
-          "away": 1,
+          "away": 2,
           "home": 0
         },
         {
@@ -340,7 +340,7 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 4,
+          "R": 5,
           "H": 7,
           "E": 0
         },
@@ -370,23 +370,23 @@
           },
           {
             "num": 5,
-            "R": 4
+            "R": 5
           },
           {
             "num": 6,
-            "R": 4
+            "R": 5
           },
           {
             "num": 7,
-            "R": 4
+            "R": 5
           },
           {
             "num": 8,
-            "R": 4
+            "R": 5
           },
           {
             "num": 9,
-            "R": 4
+            "R": 5
           }
         ],
         "home": [
@@ -773,10 +773,17 @@
           },
           {
             "reference_id": "19720-1-40",
-            "text": "Cristhian Adames al bate",
+            "text": "Cristhian Adames Out! Rodado de Selección.  ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1770003608
+          },
+          {
+            "reference_id": "19720-1-41",
+            "text": "Aderlin Rodríguez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1770003495
+            "ts": 1770003612
           }
         ]
       }
@@ -842,8 +849,8 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 6,
-        "scoring_plays": 1
+        "total_plays": 7,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -879,7 +886,7 @@
         "num": 5,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 1,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
