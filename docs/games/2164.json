@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2164",
-    "scraped_at": "2026-02-02T05:07:32.025Z",
+    "scraped_at": "2026-02-02T05:08:34.713Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,7 +9,7 @@
     "season_id": 21,
     "status": 2,
     "date": "2026-02-01 21:35:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
     "lastPlayByPlay": "",
     "counts": {
@@ -18,7 +18,7 @@
       "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -982,6 +982,34 @@
             "ts": 1770008372
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "19723-1-65",
+            "text": "Michael De La Cruz Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770008877
+          },
+          {
+            "reference_id": "19723-1-66",
+            "text": "Franchy Cordero Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770008884
+          },
+          {
+            "reference_id": "19723-1-67",
+            "text": "Elier Hernandez Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770008891
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1082,6 +1110,13 @@
         "label": "Baja 7ma",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1136,7 +1171,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
