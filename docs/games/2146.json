@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2146",
-    "scraped_at": "2026-02-03T02:46:31.972Z",
+    "scraped_at": "2026-02-03T02:47:33.474Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-02-02 21:00:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Billy Hamilton  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -77,10 +77,10 @@
             "position": ""
           },
           {
-            "id": 4065,
+            "id": 5146,
             "team_id": 12,
-            "name": "Julián Ornelas",
-            "abbreviation": "J. Ornelas",
+            "name": "Billy Hamilton",
+            "abbreviation": "B. Hamilton",
             "number": null,
             "dob": null,
             "height": "",
@@ -793,6 +793,27 @@
             "ts": 1770086594
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19550-1-46",
+            "text": "Billy Hamilton  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770086851
+          },
+          {
+            "reference_id": "19550-1-47",
+            "text": "Michael Wielansky al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770086852
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -850,6 +871,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
