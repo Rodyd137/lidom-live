@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2146",
-    "scraped_at": "2026-02-03T04:02:17.740Z",
+    "scraped_at": "2026-02-03T04:03:19.054Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 21,
     "status": 2,
     "date": "2026-02-02 21:00:00",
-    "roundText": "Alta 9na",
+    "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "S. Chávez   Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -1101,6 +1101,20 @@
             "ts": 1770091274
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "19554-2-81",
+            "text": "Erasmo Caballero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770091376
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1222,6 +1236,13 @@
         "label": "Alta 9na",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1283,7 +1304,7 @@
       },
       {
         "num": 9,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
