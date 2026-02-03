@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2146",
-    "scraped_at": "2026-02-03T02:54:43.021Z",
+    "scraped_at": "2026-02-03T02:55:44.677Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-02-02 21:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Erasmo Caballero se embasa por Error del Campo Corto",
+    "lastPlayByPlay": "A. Rodríguez   Out: Rodado al Lanzador - Campo Corto",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -836,10 +836,17 @@
           },
           {
             "reference_id": "19550-2-50",
-            "text": "A. Rodríguez  al bate",
+            "text": "A. Rodríguez   Out: Rodado al Lanzador - Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1770087145
+            "ts": 1770087280
+          },
+          {
+            "reference_id": "19550-2-51",
+            "text": "Jean Arnaez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770087301
           }
         ]
       }
@@ -912,7 +919,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
