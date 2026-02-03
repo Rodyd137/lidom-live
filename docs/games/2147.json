@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2147",
-    "scraped_at": "2026-02-03T20:54:48.448Z",
+    "scraped_at": "2026-02-03T20:55:50.927Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-02-03 16:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Luis Verdugo Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -164,7 +164,7 @@
         "permalink": "/equipo/mexico-verde",
         "totals": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 0,
           "H2": 0
         },
@@ -262,6 +262,17 @@
             "height": "",
             "image": null,
             "position": ""
+          },
+          {
+            "id": 5769,
+            "team_id": 19,
+            "name": "Uriarte",
+            "abbreviation": "Uriarte",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
           }
         ]
       }
@@ -324,7 +335,7 @@
         },
         "home": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 0
         }
       },
@@ -561,6 +572,20 @@
             "ts": 1770151935
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "19557-2-18",
+            "text": "Luis Verdugo Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770152118
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -597,6 +622,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
