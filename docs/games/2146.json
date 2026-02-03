@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2146",
-    "scraped_at": "2026-02-03T04:09:27.226Z",
+    "scraped_at": "2026-02-03T04:10:28.905Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-02-02 21:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Erasmo Caballero Sencillo Jardinero Central",
+    "lastPlayByPlay": "A. Rodríguez  Triple! 1 Carrera Impulsada ",
     "counts": {
       "balls": 2,
-      "strikes": 2,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 4
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 2
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/45017492450cd1f4a0003643f186f5a3.png",
         "permalink": "/equipo/panama",
         "totals": {
-          "R": 2,
-          "H": 7,
+          "R": 3,
+          "H": 8,
           "E": 0,
           "H2": 0
         },
@@ -334,7 +334,7 @@
         {
           "num": 9,
           "away": 0,
-          "home": 0
+          "home": 1
         }
       ],
       "extras": false,
@@ -345,8 +345,8 @@
           "E": 1
         },
         "home": {
-          "R": 2,
-          "H": 7,
+          "R": 3,
+          "H": 8,
           "E": 0
         }
       },
@@ -424,7 +424,7 @@
           },
           {
             "num": 9,
-            "R": 2
+            "R": 3
           }
         ]
       }
@@ -1116,10 +1116,17 @@
           },
           {
             "reference_id": "19554-2-82",
-            "text": "A. Rodríguez  al bate",
+            "text": "A. Rodríguez  Triple! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1770091810
+          },
+          {
+            "reference_id": "19554-2-83",
+            "text": "Jean Arnaez  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1770091622
+            "ts": 1770091816
           }
         ]
       }
@@ -1248,8 +1255,8 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 2,
-        "scoring_plays": 0
+        "total_plays": 3,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1314,7 +1321,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       }
     ],
     "siblingGames": [
