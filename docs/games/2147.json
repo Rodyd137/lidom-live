@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2147",
-    "scraped_at": "2026-02-03T21:35:19.698Z",
+    "scraped_at": "2026-02-03T21:36:22.630Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 21,
     "status": 2,
     "date": "2026-02-03 16:00:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -136,6 +136,17 @@
             "team_id": 14,
             "name": "Burrowes",
             "abbreviation": "Burrowes",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5772,
+            "team_id": 14,
+            "name": "Segastey",
+            "abbreviation": "Segastey",
             "number": null,
             "dob": null,
             "height": "",
@@ -684,6 +695,34 @@
             "ts": 1770154220
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19559-1-31",
+            "text": "Segastey Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770154535
+          },
+          {
+            "reference_id": "19559-1-32",
+            "text": "A. Dennis  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770154543
+          },
+          {
+            "reference_id": "19559-1-33",
+            "text": "J. Ramos  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770154569
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -742,6 +781,13 @@
         "label": "Baja 4ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -775,7 +821,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
