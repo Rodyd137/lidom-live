@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2146",
-    "scraped_at": "2026-02-03T02:51:38.968Z",
+    "scraped_at": "2026-02-03T02:52:40.357Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-02-02 21:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Erasmo Caballero se embasa por Error del Campo Corto",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 11,
           "H": 6,
-          "E": 0,
+          "E": 1,
           "H2": 11
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 11,
           "H": 6,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 0,
@@ -829,10 +829,17 @@
         "plays": [
           {
             "reference_id": "19550-2-49",
-            "text": "Erasmo Caballero al bate",
+            "text": "Erasmo Caballero se embasa por Error del Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1770087062
+            "ts": 1770087140
+          },
+          {
+            "reference_id": "19550-2-50",
+            "text": "A. Rodríguez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770087145
           }
         ]
       }
@@ -905,7 +912,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
