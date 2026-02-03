@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2147",
-    "scraped_at": "2026-02-03T20:02:06.943Z",
+    "scraped_at": "2026-02-03T20:51:40.353Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2147,
     "season_id": 21,
-    "status": 3,
+    "status": 2,
     "date": "2026-02-03 16:00:00",
-    "roundText": "Alta 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
+    "lastPlayByPlay": "Johans Camargo Out: Elevado al Jardinero Derecho ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/panama",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -132,6 +132,17 @@
             "position": ""
           },
           {
+            "id": 5771,
+            "team_id": 14,
+            "name": "Burrowes",
+            "abbreviation": "Burrowes",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
             "id": 5763,
             "team_id": 14,
             "name": "A. Dennis ",
@@ -153,7 +164,7 @@
         "permalink": "/equipo/mexico-verde",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -164,6 +175,17 @@
           "debut": false
         },
         "players": [
+          {
+            "id": 5767,
+            "team_id": 19,
+            "name": "C. Sepulveda",
+            "abbreviation": "C. Sepulveda",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
           {
             "id": 5729,
             "team_id": 19,
@@ -297,12 +319,12 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         }
       },
@@ -385,19 +407,210 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "19555-1-1",
+            "text": "J. Ramos  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770149415
+          },
+          {
+            "reference_id": "19555-1-2",
+            "text": "Johans Camargo Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770149598
+          },
+          {
+            "reference_id": "19555-1-3",
+            "text": "Johnny Santos Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770149634
+          },
+          {
+            "reference_id": "19555-1-4",
+            "text": "Christian Bethancourt Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770149851
+          },
+          {
+            "reference_id": "19555-1-5",
+            "text": "Erick Castillo  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770150002
+          }
+        ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "19555-2-6",
+            "text": "C. Sepulveda Out: Línea al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770150338
+          },
+          {
+            "reference_id": "19555-2-7",
+            "text": "Allen Cordoba  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770150436
+          },
+          {
+            "reference_id": "19555-2-8",
+            "text": "Rodolfo Amador  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770150532
+          },
+          {
+            "reference_id": "19555-2-9",
+            "text": "Joey Meneses Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770150612
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19556-1-10",
+            "text": "Jean Arnaez   Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770150784
+          },
+          {
+            "reference_id": "19556-1-11",
+            "text": "Burrowes  Out: Rodado al  Out: Rodado al - Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770150886
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "19556-2-12",
+            "text": "Yadir Drake  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770151207
+          },
+          {
+            "reference_id": "19556-2-13",
+            "text": "Estevan Florian Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770151303
+          },
+          {
+            "reference_id": "19556-2-14",
+            "text": "Victor Mendoza  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770151433
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19557-1-15",
+            "text": "J. Ramos Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770151664
+          },
+          {
+            "reference_id": "19557-1-16",
+            "text": "Johans Camargo Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770151829
+          },
+          {
+            "reference_id": "19557-1-17",
+            "text": "Johnny Santos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770151833
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 2,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
-        "is_last": 1,
+        "part": 2,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 2,
-        "part": 1,
+        "part": 2,
         "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -405,7 +618,7 @@
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
