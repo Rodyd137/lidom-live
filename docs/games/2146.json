@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2146",
-    "scraped_at": "2026-02-03T03:23:23.147Z",
+    "scraped_at": "2026-02-03T03:24:24.725Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-02-02 21:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Erasmo Caballero Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
+      "balls": 1,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -962,10 +962,17 @@
         "plays": [
           {
             "reference_id": "19552-2-64",
-            "text": "Erasmo Caballero al bate",
+            "text": "Erasmo Caballero Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1770088939
+            "ts": 1770089024
+          },
+          {
+            "reference_id": "19552-2-65",
+            "text": "A. Rodríguez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770089028
           }
         ]
       }
@@ -1066,7 +1073,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
