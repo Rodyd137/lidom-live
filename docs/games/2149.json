@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2149",
-    "scraped_at": "2026-02-04T23:47:19.261Z",
+    "scraped_at": "2026-02-04T23:57:26.375Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 21,
     "status": 2,
     "date": "2026-02-04 16:00:00",
-    "roundText": "Baja 8va",
-    "currentInningNum": 8,
-    "lastPlayByPlay": "Elier Hernandez al bate",
+    "roundText": "Alta 9na",
+    "currentInningNum": 9,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 2
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/c7c5d314bd780195ca2739e007b04e63.png",
         "permalink": "/equipo/republica-dominicana",
         "totals": {
-          "R": 14,
-          "H": 15,
+          "R": 16,
+          "H": 16,
           "E": 0,
           "H2": 12
         },
@@ -329,7 +329,7 @@
         {
           "num": 8,
           "away": 0,
-          "home": 0
+          "home": 2
         },
         {
           "num": 9,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 14,
-          "H": 15,
+          "R": 16,
+          "H": 16,
           "E": 0
         }
       },
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 14
+            "R": 16
           },
           {
             "num": 9,
-            "R": 14
+            "R": 16
           }
         ]
       }
@@ -1095,10 +1095,31 @@
           },
           {
             "reference_id": "19580-2-80",
-            "text": "Elier Hernandez al bate",
+            "text": "Elier Hernandez Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1770248829
+            "ts": 1770248982
+          },
+          {
+            "reference_id": "19580-2-81",
+            "text": "Michael De La Cruz Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1770249238
+          },
+          {
+            "reference_id": "19580-2-82",
+            "text": "Gustavo Nuñez Elevado de Sacrificio ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1770249255
+          },
+          {
+            "reference_id": "19580-2-83",
+            "text": "Erick Gonzalez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770249336
           }
         ]
       }
@@ -1213,8 +1234,8 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 2,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1270,14 +1291,14 @@
       {
         "num": 8,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 2
       },
       {
         "num": 9,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       }
