@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2149",
-    "scraped_at": "2026-02-04T22:14:25.919Z",
+    "scraped_at": "2026-02-04T22:15:28.147Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-02-04 16:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Michael De La Cruz Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Marco Hernández Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
-      "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "on1B": false,
+      "on2B": true,
+      "on3B": true,
+      "runners": 2,
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -822,10 +822,17 @@
           },
           {
             "reference_id": "19577-2-47",
-            "text": "Marco Hernández al bate",
+            "text": "Marco Hernández Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1770243267
+          },
+          {
+            "reference_id": "19577-2-48",
+            "text": "Gustavo Nuñez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1770243176
+            "ts": 1770243273
           }
         ]
       }
@@ -898,8 +905,8 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 6,
-        "scoring_plays": 2
+        "total_plays": 7,
+        "scoring_plays": 3
       }
     ],
     "innings_raw": [
