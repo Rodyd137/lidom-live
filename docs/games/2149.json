@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2149",
-    "scraped_at": "2026-02-04T23:16:54.947Z",
+    "scraped_at": "2026-02-04T23:17:57.250Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-02-04 16:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "J. Ramos  Out: Rodado al Lanzador - Primera Base",
+    "lastPlayByPlay": "Johans Camargo Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 4
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": true,
+      "on3B": false,
       "runners": 1,
-      "mask": 4
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/45017492450cd1f4a0003643f186f5a3.png",
         "permalink": "/equipo/panama",
         "totals": {
-          "R": 13,
-          "H": 14,
+          "R": 14,
+          "H": 15,
           "E": 0,
           "H2": 6
         },
@@ -323,7 +323,7 @@
         },
         {
           "num": 7,
-          "away": 1,
+          "away": 2,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 13,
-          "H": 14,
+          "R": 14,
+          "H": 15,
           "E": 0
         },
         "home": {
@@ -378,15 +378,15 @@
           },
           {
             "num": 7,
-            "R": 13
+            "R": 14
           },
           {
             "num": 8,
-            "R": 13
+            "R": 14
           },
           {
             "num": 9,
-            "R": 13
+            "R": 14
           }
         ],
         "home": [
@@ -1011,10 +1011,17 @@
           },
           {
             "reference_id": "19579-1-71",
-            "text": "Johans Camargo al bate",
+            "text": "Johans Camargo Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1770247027
+          },
+          {
+            "reference_id": "19579-1-72",
+            "text": "Johnny Santos al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1770246961
+            "ts": 1770247030
           }
         ]
       }
@@ -1108,8 +1115,8 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 5,
-        "scoring_plays": 0
+        "total_plays": 6,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1159,7 +1166,7 @@
         "num": 7,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 1,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
