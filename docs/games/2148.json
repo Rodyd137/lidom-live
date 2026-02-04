@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2148",
-    "scraped_at": "2026-02-04T03:01:33.415Z",
+    "scraped_at": "2026-02-04T03:02:35.697Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 21,
     "status": 2,
     "date": "2026-02-03 21:00:00",
-    "roundText": "Baja 5ta",
-    "currentInningNum": 5,
-    "lastPlayByPlay": "Jack Lopez  Out: Rodado al Campo Corto - Segunda Base - Primera Base - Doble Play!",
+    "roundText": "Alta 6ta",
+    "currentInningNum": 6,
+    "lastPlayByPlay": "Juan Carlos Gamboa  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -829,10 +829,17 @@
         "plays": [
           {
             "reference_id": "19569-1-48",
-            "text": "Juan Carlos Gamboa al bate",
+            "text": "Juan Carlos Gamboa  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1770173958
+            "ts": 1770174125
+          },
+          {
+            "reference_id": "19569-1-49",
+            "text": "S. Chávez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770174127
           }
         ]
       }
@@ -912,7 +919,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -948,14 +955,14 @@
       {
         "num": 5,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 6,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
