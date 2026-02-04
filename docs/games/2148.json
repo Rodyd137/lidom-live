@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2148",
-    "scraped_at": "2026-02-04T03:40:57.825Z",
+    "scraped_at": "2026-02-04T03:42:00.114Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 21,
     "status": 2,
     "date": "2026-02-03 21:00:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Reynaldo Rodriguez Sencillo Tercera Base",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "balls": 2,
+      "strikes": 2,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 2
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -962,10 +962,24 @@
           },
           {
             "reference_id": "19571-1-63",
-            "text": "Juan Carlos Gamboa al bate",
+            "text": "Juan Carlos Gamboa Out: Elevado al Tercera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1770176242
+            "ts": 1770176494
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "19571-2-64",
+            "text": "Juan Centeno  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770176506
           }
         ]
       }
@@ -1075,6 +1089,13 @@
         "label": "Alta 8va",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1129,7 +1150,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
