@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2148",
-    "scraped_at": "2026-02-04T03:08:48.858Z",
+    "scraped_at": "2026-02-04T03:09:51.196Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 21,
     "status": 2,
     "date": "2026-02-03 21:00:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "S. Chávez   Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "Andrew Velazquez Ponche (K) ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 2
+      "balls": 1,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -843,10 +843,31 @@
           },
           {
             "reference_id": "19569-1-50",
-            "text": "Billy Hamilton al bate",
+            "text": "Billy Hamilton Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1770174200
+            "ts": 1770174546
+          }
+        ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "19569-2-51",
+            "text": "Andrew Velazquez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770174574
+          },
+          {
+            "reference_id": "19569-2-52",
+            "text": "Rubén Castro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770174576
           }
         ]
       }
@@ -928,6 +949,13 @@
         "label": "Alta 6ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -968,7 +996,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
