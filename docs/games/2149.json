@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2149",
-    "scraped_at": "2026-02-04T21:00:50.444Z",
+    "scraped_at": "2026-02-04T21:01:52.439Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-02-04 16:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "J. Ramos Cuadrangular! ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/45017492450cd1f4a0003643f186f5a3.png",
         "permalink": "/equipo/panama",
         "totals": {
-          "R": 2,
-          "H": 3,
+          "R": 3,
+          "H": 4,
           "E": 0,
-          "H2": 2
+          "H2": 3
         },
         "probables": {
           "pitcher": "",
@@ -303,7 +303,7 @@
         },
         {
           "num": 3,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 2,
-          "H": 3,
+          "R": 3,
+          "H": 4,
           "E": 0
         },
         "home": {
@@ -362,31 +362,31 @@
           },
           {
             "num": 3,
-            "R": 2
+            "R": 3
           },
           {
             "num": 4,
-            "R": 2
+            "R": 3
           },
           {
             "num": 5,
-            "R": 2
+            "R": 3
           },
           {
             "num": 6,
-            "R": 2
+            "R": 3
           },
           {
             "num": 7,
-            "R": 2
+            "R": 3
           },
           {
             "num": 8,
-            "R": 2
+            "R": 3
           },
           {
             "num": 9,
-            "R": 2
+            "R": 3
           }
         ],
         "home": [
@@ -604,6 +604,27 @@
             "ts": 1770238632
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19575-1-22",
+            "text": "J. Ramos Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1770238862
+          },
+          {
+            "reference_id": "19575-1-23",
+            "text": "Johans Camargo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770238864
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -634,6 +655,13 @@
         "label": "Baja 2da",
         "total_plays": 9,
         "scoring_plays": 3
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 2,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -655,7 +683,7 @@
         "num": 3,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
