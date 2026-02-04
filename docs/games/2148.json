@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2148",
-    "scraped_at": "2026-02-04T02:51:11.361Z",
+    "scraped_at": "2026-02-04T02:52:13.788Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-02-03 21:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Isan Diaz Out: Elevado al Campo Corto",
+    "lastPlayByPlay": "Emmanuel Rivera Base por Bolas ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -246,6 +246,17 @@
             "team_id": 10,
             "name": "Emmanuel Rivera",
             "abbreviation": "E. Rivera",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5775,
+            "team_id": 10,
+            "name": "Juan Centeno ",
+            "abbreviation": "J. Centeno",
             "number": null,
             "dob": null,
             "height": "",
@@ -790,10 +801,17 @@
           },
           {
             "reference_id": "19568-2-45",
-            "text": "Emmanuel Rivera al bate",
+            "text": "Emmanuel Rivera Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1770173343
+            "ts": 1770173518
+          },
+          {
+            "reference_id": "19568-2-46",
+            "text": "Juan Centeno  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770173526
           }
         ]
       }
@@ -866,7 +884,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
