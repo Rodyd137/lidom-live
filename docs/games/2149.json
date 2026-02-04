@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2149",
-    "scraped_at": "2026-02-04T23:10:41.903Z",
+    "scraped_at": "2026-02-04T23:11:44.012Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-02-04 16:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Burrowes Sencillo ",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": false,
+      "on1B": true,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/panama",
         "totals": {
           "R": 12,
-          "H": 12,
+          "H": 14,
           "E": 0,
           "H2": 6
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 12,
-          "H": 12,
+          "H": 14,
           "E": 0
         },
         "home": {
@@ -975,6 +975,34 @@
             "ts": 1770246434
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "19579-1-67",
+            "text": "Jean Arnaez  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770246663
+          },
+          {
+            "reference_id": "19579-1-68",
+            "text": "Burrowes Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770246688
+          },
+          {
+            "reference_id": "19579-1-69",
+            "text": "A. Dennis  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770246692
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1061,6 +1089,13 @@
         "label": "Baja 6ta",
         "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
