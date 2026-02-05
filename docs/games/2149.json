@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2149",
-    "scraped_at": "2026-02-05T00:03:37.290Z",
+    "scraped_at": "2026-02-05T00:04:38.870Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-02-04 16:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Burrowes Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "A. Dennis  Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": true,
+      "on1B": true,
+      "on2B": false,
       "on3B": false,
       "runners": 1,
-      "mask": 3
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/45017492450cd1f4a0003643f186f5a3.png",
         "permalink": "/equipo/panama",
         "totals": {
-          "R": 14,
-          "H": 15,
+          "R": 15,
+          "H": 16,
           "E": 0,
           "H2": 6
         },
@@ -333,15 +333,15 @@
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 14,
-          "H": 15,
+          "R": 15,
+          "H": 16,
           "E": 0
         },
         "home": {
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 14
+            "R": 15
           }
         ],
         "home": [
@@ -1144,10 +1144,17 @@
           },
           {
             "reference_id": "19581-1-86",
-            "text": "A. Dennis  al bate",
+            "text": "A. Dennis  Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1770249863
+          },
+          {
+            "reference_id": "19581-1-87",
+            "text": "J. Ramos al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1770249769
+            "ts": 1770249868
           }
         ]
       }
@@ -1269,8 +1276,8 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1334,7 +1341,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
