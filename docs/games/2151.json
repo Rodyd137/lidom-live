@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2151",
-    "scraped_at": "2026-02-05T22:05:27.265Z",
+    "scraped_at": "2026-02-05T22:06:30.284Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 21,
     "status": 2,
     "date": "2026-02-05 16:00:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Johneshwy Fargas   Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "Erick Castillo Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -849,6 +849,27 @@
             "ts": 1770329014
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "19596-2-51",
+            "text": "Erick Castillo Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770329174
+          },
+          {
+            "reference_id": "19596-2-52",
+            "text": "Christian Bethancourt al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770329177
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -928,6 +949,13 @@
         "label": "Alta 6ta",
         "total_plays": 10,
         "scoring_plays": 3
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -968,7 +996,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 4,
         "homeTeamRuns": 0
