@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2151",
-    "scraped_at": "2026-02-05T23:09:01.820Z",
+    "scraped_at": "2026-02-05T23:10:03.565Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 21,
     "status": 2,
     "date": "2026-02-05 16:00:00",
-    "roundText": "Baja 8va",
-    "currentInningNum": 8,
-    "lastPlayByPlay": "Christian Bethancourt  Out: Rodado al Tercera Base - Primera Base",
+    "roundText": "Alta 9na",
+    "currentInningNum": 9,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "balls": 2,
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -1045,6 +1045,20 @@
             "ts": 1770332842
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "19599-1-77",
+            "text": "Yohandy Morales al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770332986
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1159,6 +1173,13 @@
         "label": "Baja 8va",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1214,14 +1235,14 @@
       {
         "num": 8,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 3,
         "homeTeamRuns": 0
       },
       {
         "num": 9,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       }
