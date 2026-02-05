@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2150",
-    "scraped_at": "2026-02-05T05:08:41.947Z",
+    "scraped_at": "2026-02-05T05:09:44.834Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-02-04 21:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Bligh Madris  Out: Rodado al Lanzador - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -1006,6 +1006,27 @@
             "ts": 1770267922
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "19589-2-69",
+            "text": "Bligh Madris  Out: Rodado al Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770268135
+          },
+          {
+            "reference_id": "19589-2-70",
+            "text": "Renaldo Rodriguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770268139
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1112,6 +1133,13 @@
         "half": "top",
         "label": "Alta 8va",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
