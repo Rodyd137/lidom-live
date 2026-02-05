@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2151",
-    "scraped_at": "2026-02-05T22:11:44.965Z",
+    "scraped_at": "2026-02-05T22:12:48.066Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-02-05 16:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Rubén Castro Sencillo Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/puerto-rico",
         "totals": {
           "R": 4,
-          "H": 8,
+          "H": 9,
           "E": 0,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 4,
-          "H": 8,
+          "H": 9,
           "E": 0
         },
         "home": {
@@ -877,6 +877,27 @@
             "ts": 1770329341
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "19597-1-54",
+            "text": "Rubén Castro Sencillo Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770329565
+          },
+          {
+            "reference_id": "19597-1-55",
+            "text": "Gabriel Cancel al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770329566
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -962,6 +983,13 @@
         "half": "bottom",
         "label": "Baja 6ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
