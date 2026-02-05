@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2150",
-    "scraped_at": "2026-02-05T03:21:48.604Z",
+    "scraped_at": "2026-02-05T04:28:56.706Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 21,
     "status": 2,
     "date": "2026-02-04 21:00:00",
-    "roundText": "Baja 4ta",
-    "currentInningNum": 4,
-    "lastPlayByPlay": "Renaldo Rodriguez  Out: Rodado al Tercera Base - Primera Base",
+    "roundText": "Alta 7ma",
+    "currentInningNum": 7,
+    "lastPlayByPlay": "R. Amador Ponche (K) ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 1
+      "battingTeam": "awayTeam",
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": false,
+      "on1B": true,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/mexico-verde",
         "totals": {
           "R": 2,
-          "H": 4,
+          "H": 6,
           "E": 0,
           "H2": 2
         },
@@ -174,10 +174,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/4a9533cbf5e05f2abc7515331906d891.png",
         "permalink": "/equipo/mexico",
         "totals": {
-          "R": 2,
-          "H": 4,
+          "R": 3,
+          "H": 5,
           "E": 1,
-          "H2": 2
+          "H2": 3
         },
         "probables": {
           "pitcher": "",
@@ -187,10 +187,10 @@
         },
         "players": [
           {
-            "id": 5146,
+            "id": 5754,
             "team_id": 12,
-            "name": "Billy Hamilton",
-            "abbreviation": "B. Hamilton",
+            "name": "Leo Heras",
+            "abbreviation": "L. Heras",
             "number": null,
             "dob": null,
             "height": "",
@@ -314,7 +314,7 @@
         {
           "num": 5,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 6,
@@ -341,12 +341,12 @@
       "totals": {
         "away": {
           "R": 2,
-          "H": 4,
+          "H": 6,
           "E": 0
         },
         "home": {
-          "R": 2,
-          "H": 4,
+          "R": 3,
+          "H": 5,
           "E": 1
         }
       },
@@ -408,23 +408,23 @@
           },
           {
             "num": 5,
-            "R": 2
+            "R": 3
           },
           {
             "num": 6,
-            "R": 2
+            "R": 3
           },
           {
             "num": 7,
-            "R": 2
+            "R": 3
           },
           {
             "num": 8,
-            "R": 2
+            "R": 3
           },
           {
             "num": 9,
-            "R": 2
+            "R": 3
           }
         ]
       }
@@ -731,10 +731,206 @@
           },
           {
             "reference_id": "19585-2-36",
-            "text": "Juan Carlos Gamboa al bate",
+            "text": "Juan Carlos Gamboa Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1770261608
+            "ts": 1770261716
+          },
+          {
+            "reference_id": "19585-2-37",
+            "text": "Jose Chavez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770261814
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19586-1-38",
+            "text": "Allen Cordoba   Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770262195
+          },
+          {
+            "reference_id": "19586-1-39",
+            "text": "R. Amador Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770262514
+          },
+          {
+            "reference_id": "19586-1-40",
+            "text": "Joey Meneses Out: Elevado al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770262571
+          },
+          {
+            "reference_id": "19586-1-41",
+            "text": "Yadir Drake Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770262711
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "19586-2-42",
+            "text": "Leo Heras Out: Línea al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770263049
+          },
+          {
+            "reference_id": "19586-2-43",
+            "text": "Jonathan Ornales Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770263075
+          },
+          {
+            "reference_id": "19586-2-44",
+            "text": "Michael Wielansky Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770263309
+          },
+          {
+            "reference_id": "19586-2-45",
+            "text": "Willie Calhoun Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770263620
+          },
+          {
+            "reference_id": "19586-2-45-282560",
+            "text": "Jonathan Ornales Anota por Wild Pitch",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1770263813
+          },
+          {
+            "reference_id": "19586-2-46",
+            "text": "Mateo Gil Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770263856
+          },
+          {
+            "reference_id": "19586-2-47",
+            "text": "Bligh Madris  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770263912
+          }
+        ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "19587-1-48",
+            "text": "Estevan Florian se embasa por Error del Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770264163
+          },
+          {
+            "reference_id": "19587-1-49",
+            "text": "Jasson Atondo Toque de Sacrificio ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770264306
+          },
+          {
+            "reference_id": "19587-1-50",
+            "text": "F. Villegas  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770264427
+          },
+          {
+            "reference_id": "19587-1-51",
+            "text": "Ali Solis Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770264689
+          }
+        ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "19587-2-52",
+            "text": "Renaldo Rodriguez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770264945
+          },
+          {
+            "reference_id": "19587-2-53",
+            "text": "Juan Carlos Gamboa Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770265056
+          },
+          {
+            "reference_id": "19587-2-54",
+            "text": "Leo Heras Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770265191
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "19588-1-55",
+            "text": "C. Sepulveda Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770265451
+          },
+          {
+            "reference_id": "19588-1-56",
+            "text": "Allen Cordoba  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770265569
+          },
+          {
+            "reference_id": "19588-1-57",
+            "text": "R. Amador Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770265711
+          },
+          {
+            "reference_id": "19588-1-58",
+            "text": "Joey Meneses al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770265714
           }
         ]
       }
@@ -793,7 +989,42 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 2,
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 7,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -822,20 +1053,20 @@
       {
         "num": 4,
         "part": 2,
-        "is_last": 1,
-        "awayTeamRuns": 0,
-        "homeTeamRuns": 0
-      },
-      {
-        "num": 5,
-        "part": 1,
         "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
+        "num": 5,
+        "part": 2,
+        "is_last": 0,
+        "awayTeamRuns": 0,
+        "homeTeamRuns": 1
+      },
+      {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -843,7 +1074,7 @@
       {
         "num": 7,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -864,29 +1095,55 @@
     ],
     "siblingGames": [
       {
-        "id": 2149,
-        "date": "2026-02-04 16:00:00",
-        "status": 6,
-        "roundText": "Alta 9na",
+        "id": 2151,
+        "date": "2026-02-05 16:00:00",
+        "status": 1,
+        "roundText": "Alta 1ra",
         "awayTeam": {
+          "id": 10,
+          "name": "Puerto Rico",
+          "abbr": "PUR",
+          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/8f6f2a20b0b9cd88bcff3b93bdd9c615.png",
+          "runs": 0,
+          "hits": 0,
+          "errors": 0,
+          "permalink": "/equipo/puerto-rico"
+        },
+        "homeTeam": {
           "id": 14,
           "name": "Panamá",
           "abbr": "PAN",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/45017492450cd1f4a0003643f186f5a3.png",
-          "runs": 15,
-          "hits": 17,
+          "runs": 0,
+          "hits": 0,
           "errors": 0,
           "permalink": "/equipo/panama"
-        },
-        "homeTeam": {
+        }
+      },
+      {
+        "id": 2152,
+        "date": "2026-02-05 21:00:00",
+        "status": 1,
+        "roundText": "Alta 1ra",
+        "awayTeam": {
           "id": 9,
           "name": "Dominicana",
           "abbr": "DOM",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/c7c5d314bd780195ca2739e007b04e63.png",
-          "runs": 16,
-          "hits": 16,
+          "runs": 0,
+          "hits": 0,
           "errors": 0,
           "permalink": "/equipo/republica-dominicana"
+        },
+        "homeTeam": {
+          "id": 19,
+          "name": "México Verde",
+          "abbr": "MXV",
+          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/da0369a7f6fe5727314f1db4ba2c44d8.png",
+          "runs": 0,
+          "hits": 0,
+          "errors": 0,
+          "permalink": "/equipo/mexico-verde"
         }
       }
     ],
