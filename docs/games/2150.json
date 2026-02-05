@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2150",
-    "scraped_at": "2026-02-05T02:55:38.934Z",
+    "scraped_at": "2026-02-05T02:56:41.730Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-02-04 21:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jonathan Ornales Out: Elevado al Jardinero Derecho ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -639,6 +639,27 @@
             "ts": 1770259991
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "19584-2-26",
+            "text": "Jonathan Ornales Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770260151
+          },
+          {
+            "reference_id": "19584-2-27",
+            "text": "Michael Wielansky al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770260155
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -676,6 +697,13 @@
         "label": "Alta 3ra",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
