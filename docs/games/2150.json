@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2150",
-    "scraped_at": "2026-02-05T05:11:50.470Z",
+    "scraped_at": "2026-02-05T05:41:16.358Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2150,
     "season_id": 21,
-    "status": 2,
+    "status": 6,
     "date": "2026-02-04 21:00:00",
-    "roundText": "Baja 8va",
-    "currentInningNum": 8,
-    "lastPlayByPlay": "Juan Carlos Gamboa Sencillo ",
+    "roundText": "Alta 9na",
+    "currentInningNum": 9,
+    "lastPlayByPlay": "Estevan Florian Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 3
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 2
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -40,9 +40,9 @@
       "over_under": null
     },
     "pitchers": {
-      "winning": null,
-      "losing": null,
-      "save": null
+      "winning": "Luis Márquez",
+      "losing": "Carrera",
+      "save": "Foster"
     },
     "teams": {
       "away": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/mexico-verde",
         "totals": {
           "R": 2,
-          "H": 6,
+          "H": 7,
           "E": 0,
           "H2": 2
         },
@@ -165,7 +165,7 @@
         "totals": {
           "R": 4,
           "H": 8,
-          "E": 1,
+          "E": 3,
           "H2": 3
         },
         "probables": {
@@ -330,13 +330,13 @@
       "totals": {
         "away": {
           "R": 2,
-          "H": 6,
+          "H": 7,
           "E": 0
         },
         "home": {
           "R": 4,
           "H": 8,
-          "E": 1
+          "E": 3
         }
       },
       "cumulative": {
@@ -1035,10 +1035,59 @@
           },
           {
             "reference_id": "19589-2-72",
-            "text": "Jose Chavez al bate",
+            "text": "Jose Chavez Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1770268293
+            "ts": 1770268345
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "19590-1-73",
+            "text": "C. Sepulveda Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770268570
+          },
+          {
+            "reference_id": "19590-1-74",
+            "text": "Allen Cordoba   Out: Rodado al Campo Corto - Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770268725
+          },
+          {
+            "reference_id": "19590-1-75",
+            "text": "R. Amador  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770268808
+          },
+          {
+            "reference_id": "19590-1-76",
+            "text": "Joey Meneses Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770268979
+          },
+          {
+            "reference_id": "19590-1-77",
+            "text": "Yadir Drake Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770269163
+          },
+          {
+            "reference_id": "19590-1-78",
+            "text": "Estevan Florian Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770269404
           }
         ]
       }
@@ -1155,6 +1204,13 @@
         "label": "Baja 8va",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 6,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1210,14 +1266,14 @@
       {
         "num": 8,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 9,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       }
