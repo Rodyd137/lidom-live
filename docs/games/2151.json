@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2151",
-    "scraped_at": "2026-02-05T23:20:10.977Z",
+    "scraped_at": "2026-02-05T23:21:13.010Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-02-05 16:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "A. Rodríguez  Ponche (K) ",
+    "lastPlayByPlay": "Erasmo Caballero Base por Bolas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -1102,10 +1102,17 @@
           },
           {
             "reference_id": "19599-2-83",
-            "text": "Erasmo Caballero al bate",
+            "text": "Erasmo Caballero Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1770333567
+            "ts": 1770333661
+          },
+          {
+            "reference_id": "19599-2-84",
+            "text": "Jean Arnaez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770333665
           }
         ]
       }
@@ -1234,7 +1241,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
