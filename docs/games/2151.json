@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2151",
-    "scraped_at": "2026-02-05T22:28:36.739Z",
+    "scraped_at": "2026-02-05T22:29:39.477Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-02-05 16:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Jean Arnaez   Out: Rodado al Tercera Base - Segunda Base",
+    "lastPlayByPlay": "A. Dennis   Out: Rodado al Lanzador - Primera Base",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 4
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 2
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -934,10 +934,17 @@
           },
           {
             "reference_id": "19597-2-60",
-            "text": "A. Dennis  al bate",
+            "text": "Erasmo Caballero Wild Pitch ",
             "scored": false,
             "is_primary": true,
-            "ts": 1770330231
+            "ts": 1770330527
+          },
+          {
+            "reference_id": "19597-2-61",
+            "text": "A. Dennis   Out: Rodado al Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770330564
           }
         ]
       }
@@ -1038,7 +1045,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
