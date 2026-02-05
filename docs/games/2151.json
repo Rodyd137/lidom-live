@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2151",
-    "scraped_at": "2026-02-05T21:39:18.613Z",
+    "scraped_at": "2026-02-05T21:40:21.540Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-02-05 16:00:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gabriel Cancel Sencillo Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/puerto-rico",
         "totals": {
           "R": 0,
-          "H": 3,
+          "H": 4,
           "E": 0,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 3,
+          "H": 4,
           "E": 0
         },
         "home": {
@@ -770,13 +770,41 @@
             "scored": true,
             "is_primary": true,
             "ts": 1770327275
-          },
+          }
+        ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
           {
-            "reference_id": "19595-2-41",
-            "text": "Johnny Santos al bate",
+            "reference_id": "19596-1-41",
+            "text": "Player  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1770327280
+            "ts": 1770327558
+          },
+          {
+            "reference_id": "19596-1-42",
+            "text": "Rubén Castro  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770327579
+          },
+          {
+            "reference_id": "19596-1-43",
+            "text": "Gabriel Cancel Sencillo Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770327619
+          },
+          {
+            "reference_id": "19596-1-44",
+            "text": "Yohandy Morales al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770327620
           }
         ]
       }
@@ -849,8 +877,15 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 4,
+        "total_plays": 3,
         "scoring_plays": 1
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 4,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
