@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2150",
-    "scraped_at": "2026-02-05T04:46:44.085Z",
+    "scraped_at": "2026-02-05T04:47:46.557Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-02-04 21:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Jonathan Ornales Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "Michael Wielansky Sencillo y 1 Carrera Impulsada ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 1,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 4
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": true,
+      "on3B": false,
       "runners": 1,
-      "mask": 4
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/4a9533cbf5e05f2abc7515331906d891.png",
         "permalink": "/equipo/mexico",
         "totals": {
-          "R": 3,
-          "H": 6,
+          "R": 4,
+          "H": 7,
           "E": 1,
           "H2": 3
         },
@@ -324,7 +324,7 @@
         {
           "num": 7,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 8,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 3,
-          "H": 6,
+          "R": 4,
+          "H": 7,
           "E": 1
         }
       },
@@ -416,15 +416,15 @@
           },
           {
             "num": 7,
-            "R": 3
+            "R": 4
           },
           {
             "num": 8,
-            "R": 3
+            "R": 4
           },
           {
             "num": 9,
-            "R": 3
+            "R": 4
           }
         ]
       }
@@ -969,10 +969,17 @@
           },
           {
             "reference_id": "19588-2-63",
-            "text": "Michael Wielansky al bate",
+            "text": "Michael Wielansky Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1770266810
+          },
+          {
+            "reference_id": "19588-2-64",
+            "text": "Willie Calhoun al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1770266727
+            "ts": 1770266813
           }
         ]
       }
@@ -1073,8 +1080,8 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1125,7 +1132,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 8,
