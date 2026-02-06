@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2152",
-    "scraped_at": "2026-02-06T03:40:40.529Z",
+    "scraped_at": "2026-02-06T03:41:42.735Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-02-05 21:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Joey Meneses Sencillo ",
+    "lastPlayByPlay": "Luis Verdugo Elevado de Sacrificio Carrera Empujada",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 4
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
-      "on3B": true,
+      "on2B": true,
+      "on3B": false,
       "runners": 1,
-      "mask": 4
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -976,10 +976,17 @@
           },
           {
             "reference_id": "19606-2-63",
-            "text": "Luis Verdugo al bate",
+            "text": "Luis Verdugo Elevado de Sacrificio Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1770349254
+          },
+          {
+            "reference_id": "19606-2-64",
+            "text": "Estevan Florian al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1770349093
+            "ts": 1770349270
           }
         ]
       }
@@ -1080,8 +1087,8 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
