@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2152",
-    "scraped_at": "2026-02-06T03:35:29.660Z",
+    "scraped_at": "2026-02-06T03:36:31.873Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-02-05 21:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Yadir Drake Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/mexico-verde",
         "totals": {
           "R": 3,
-          "H": 7,
+          "H": 8,
           "E": 2,
           "H2": 2
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 3,
-          "H": 7,
+          "H": 8,
           "E": 2
         }
       },
@@ -954,6 +954,20 @@
             "ts": 1770348764
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "19606-2-61",
+            "text": "Yadir Drake Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770348976
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1046,6 +1060,13 @@
         "half": "top",
         "label": "Alta 7ma",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
