@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2152",
-    "scraped_at": "2026-02-06T04:02:24.080Z",
+    "scraped_at": "2026-02-06T04:03:26.136Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on3B": true,
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/mexico-verde",
         "totals": {
           "R": 4,
-          "H": 9,
+          "H": 10,
           "E": 2,
           "H2": 2
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 4,
-          "H": 9,
+          "H": 10,
           "E": 2
         }
       },
@@ -1038,6 +1038,20 @@
             "ts": 1770350269
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "19607-2-71",
+            "text": "C. Sepulveda al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770350572
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1144,6 +1158,13 @@
         "half": "top",
         "label": "Alta 8va",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
