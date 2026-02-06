@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2165",
-    "scraped_at": "2026-02-06T21:43:52.778Z",
+    "scraped_at": "2026-02-06T21:44:57.302Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 21,
     "status": 2,
     "date": "2026-02-06 16:05:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Rodolfo Amador  Out: Rodado al Lanzador - Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -765,6 +765,20 @@
             "ts": 1770414196
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "19729-2-40",
+            "text": "Michael De La Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770414281
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -830,6 +844,13 @@
         "label": "Alta 5ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -863,7 +884,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
