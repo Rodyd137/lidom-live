@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2165",
-    "scraped_at": "2026-02-06T21:01:23.554Z",
+    "scraped_at": "2026-02-06T21:02:28.797Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-02-06 16:05:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gustavo Nuñez Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 2,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -619,10 +619,17 @@
         "plays": [
           {
             "reference_id": "19727-2-22",
-            "text": "Gustavo Nuñez al bate",
+            "text": "Gustavo Nuñez Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1770411680
+            "ts": 1770411685
+          },
+          {
+            "reference_id": "19727-2-23",
+            "text": "Erick Gonzalez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770411687
           }
         ]
       }
@@ -667,7 +674,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
