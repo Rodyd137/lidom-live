@@ -1,24 +1,24 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2152",
-    "scraped_at": "2026-02-06T04:16:53.327Z",
+    "scraped_at": "2026-02-06T04:30:23.473Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2152,
     "season_id": 21,
-    "status": 2,
+    "status": 6,
     "date": "2026-02-05 21:00:00",
-    "roundText": "Baja 8va",
-    "currentInningNum": 8,
-    "lastPlayByPlay": "Victor Mendoza Out: Elevado al Jardinero Derecho ",
+    "roundText": "Alta 9na",
+    "currentInningNum": 9,
+    "lastPlayByPlay": "Marco Hernández Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 2
+      "strikes": 0,
+      "outs": 3
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 7,
           "H": 7,
-          "E": 1,
+          "E": 2,
           "H2": 4
         },
         "probables": {
@@ -174,9 +174,9 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/da0369a7f6fe5727314f1db4ba2c44d8.png",
         "permalink": "/equipo/mexico-verde",
         "totals": {
-          "R": 8,
-          "H": 12,
-          "E": 2,
+          "R": 10,
+          "H": 13,
+          "E": 3,
           "H2": 2
         },
         "probables": {
@@ -329,7 +329,7 @@
         {
           "num": 8,
           "away": 0,
-          "home": 4
+          "home": 6
         },
         {
           "num": 9,
@@ -342,12 +342,12 @@
         "away": {
           "R": 7,
           "H": 7,
-          "E": 1
+          "E": 2
         },
         "home": {
-          "R": 8,
-          "H": 12,
-          "E": 2
+          "R": 10,
+          "H": 13,
+          "E": 3
         }
       },
       "cumulative": {
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 8
+            "R": 10
           },
           {
             "num": 9,
-            "R": 8
+            "R": 10
           }
         ]
       }
@@ -1085,6 +1085,55 @@
             "scored": false,
             "is_primary": true,
             "ts": 1770351365
+          },
+          {
+            "reference_id": "19607-2-77",
+            "text": "Luis Verdugo Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770351482
+          },
+          {
+            "reference_id": "19607-2-78",
+            "text": "Estevan Florian Cuadrangular! 3 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1770351665
+          },
+          {
+            "reference_id": "19607-2-79",
+            "text": "Uriarte  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770351717
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "19608-1-80",
+            "text": "Jonathan Guzman Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770351944
+          },
+          {
+            "reference_id": "19608-1-81",
+            "text": "Gustavo Nuñez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770352057
+          },
+          {
+            "reference_id": "19608-1-82",
+            "text": "Marco Hernández Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770352106
           }
         ]
       }
@@ -1199,8 +1248,15 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 6,
-        "scoring_plays": 3
+        "total_plays": 9,
+        "scoring_plays": 4
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1256,14 +1312,14 @@
       {
         "num": 8,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 4
+        "homeTeamRuns": 6
       },
       {
         "num": 9,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       }
