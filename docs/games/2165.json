@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2165",
-    "scraped_at": "2026-02-06T21:00:20.471Z",
+    "scraped_at": "2026-02-06T21:01:23.554Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 3,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 3,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -611,6 +611,20 @@
             "ts": 1770411395
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "19727-2-22",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770411680
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -647,6 +661,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
