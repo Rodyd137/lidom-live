@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2166",
-    "scraped_at": "2026-02-07T02:24:05.748Z",
+    "scraped_at": "2026-02-07T02:25:07.778Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -103,6 +103,17 @@
             "team_id": 10,
             "name": "Nelson Velasquez ",
             "abbreviation": "N. Velasquez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5150,
+            "team_id": 10,
+            "name": "Isan Diaz",
+            "abbreviation": "I. Diaz",
             "number": null,
             "dob": null,
             "height": "",
@@ -425,6 +436,20 @@
             "ts": 1770430889
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19735-1-11",
+            "text": "Isan Diaz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770431081
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -441,6 +466,13 @@
         "label": "Baja 1ra",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
