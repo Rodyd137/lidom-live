@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2166",
-    "scraped_at": "2026-02-07T02:06:30.527Z",
+    "scraped_at": "2026-02-07T02:07:32.553Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 1,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -130,7 +130,19 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5750,
+            "team_id": 12,
+            "name": "Curtis Hollis",
+            "abbreviation": "C. Hollis",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       }
     },
     "comment": "Semifinal",
@@ -309,6 +321,20 @@
             "ts": 1770429823
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "19734-2-5",
+            "text": "Curtis Hollis al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770430034
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -318,6 +344,13 @@
         "label": "Alta 1ra",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
