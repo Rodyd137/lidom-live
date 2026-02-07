@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2166",
-    "scraped_at": "2026-02-07T02:27:12.187Z",
+    "scraped_at": "2026-02-07T02:28:14.182Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-02-06 21:05:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Isan Diaz Base por Bolas ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -114,6 +114,17 @@
             "team_id": 10,
             "name": "Isan Diaz",
             "abbreviation": "I. Diaz",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 4077,
+            "team_id": 10,
+            "name": "Emmanuel Rivera",
+            "abbreviation": "E. Rivera",
             "number": null,
             "dob": null,
             "height": "",
@@ -444,10 +455,17 @@
         "plays": [
           {
             "reference_id": "19735-1-11",
-            "text": "Isan Diaz al bate",
+            "text": "Isan Diaz Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1770431081
+            "ts": 1770431235
+          },
+          {
+            "reference_id": "19735-1-12",
+            "text": "Emmanuel Rivera al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770431265
           }
         ]
       }
@@ -471,7 +489,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
