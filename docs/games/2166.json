@@ -1,21 +1,21 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2166",
-    "scraped_at": "2026-02-07T00:17:57.366Z",
+    "scraped_at": "2026-02-07T02:00:16.424Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2166,
     "season_id": 21,
-    "status": 1,
+    "status": 2,
     "date": "2026-02-06 21:05:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gabriel Cancel Out: Línea al Tercera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -64,7 +64,30 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5740,
+            "team_id": 10,
+            "name": "Ruben Castro",
+            "abbreviation": "R. Castro",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 4076,
+            "team_id": 10,
+            "name": "Gabriel Cancel",
+            "abbreviation": "G. Cancel",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       },
       "home": {
         "id": 12,
@@ -229,8 +252,38 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "19734-1-1",
+            "text": "Ruben Castro Out: Línea al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770429512
+          },
+          {
+            "reference_id": "19734-1-2",
+            "text": "Gabriel Cancel Out: Línea al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770429572
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 2,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
