@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2167",
-    "scraped_at": "2026-02-08T04:48:34.626Z",
+    "scraped_at": "2026-02-08T04:49:37.250Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 21,
     "status": 2,
     "date": "2026-02-07 21:05:00",
-    "roundText": "Baja 8va",
-    "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "roundText": "Alta 9na",
+    "currentInningNum": 9,
+    "lastPlayByPlay": "R. Amador Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/da0369a7f6fe5727314f1db4ba2c44d8.png",
         "permalink": "/equipo/mexico-verde",
         "totals": {
-          "R": 8,
+          "R": 10,
           "H": 8,
           "E": 0,
           "H2": 7
@@ -333,14 +333,14 @@
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 2,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 8,
+          "R": 10,
           "H": 8,
           "E": 0
         },
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 8
+            "R": 10
           }
         ],
         "home": [
@@ -1066,6 +1066,27 @@
             "ts": 1770525277
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "19751-1-76",
+            "text": "R. Amador Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770526158
+          },
+          {
+            "reference_id": "19751-1-77",
+            "text": "Yadir Drake al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770526167
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1173,6 +1194,13 @@
         "label": "Alta 8va",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1228,15 +1256,15 @@
       {
         "num": 8,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 9,
         "part": 1,
-        "is_last": 0,
-        "awayTeamRuns": 0,
+        "is_last": 1,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       }
     ],
