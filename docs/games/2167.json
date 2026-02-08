@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2167",
-    "scraped_at": "2026-02-08T05:04:14.188Z",
+    "scraped_at": "2026-02-08T05:05:16.901Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-02-07 21:05:00",
     "roundText": "Alta 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jasson Atondo Toque de Sacrificio ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 3
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -1149,6 +1149,27 @@
             "ts": 1770526867
           }
         ]
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "plays": [
+          {
+            "reference_id": "19752-1-86",
+            "text": "Jasson Atondo Toque de Sacrificio ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770527085
+          },
+          {
+            "reference_id": "19752-1-87",
+            "text": "Ali Solis al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1770527088
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1269,6 +1290,13 @@
         "half": "bottom",
         "label": "Baja 9na",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
