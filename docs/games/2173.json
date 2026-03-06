@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2173",
-    "scraped_at": "2026-03-06T23:50:04.252Z",
+    "scraped_at": "2026-03-06T23:51:07.033Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-06 19:00:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Eddie Rosario Base por Bolas ",
+    "lastPlayByPlay": "Dayan Frías Out: Elevado al Campo Corto",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -577,10 +577,31 @@
           },
           {
             "reference_id": "19800-1-18",
-            "text": "Martín Maldonado al bate",
+            "text": "Martín Maldonado  Out: Rodado al Primera Base - Segunda Base - Doble Play!",
             "scored": false,
             "is_primary": true,
-            "ts": 1772840951
+            "ts": 1772841013
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "19800-2-19",
+            "text": "Dayan Frías Out: Elevado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772841039
+          },
+          {
+            "reference_id": "19800-2-20",
+            "text": "Gustavo Campero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772841042
           }
         ]
       }
@@ -620,6 +641,13 @@
         "label": "Alta 3ra",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -639,7 +667,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
