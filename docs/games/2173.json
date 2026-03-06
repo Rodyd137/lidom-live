@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2173",
-    "scraped_at": "2026-03-06T23:33:14.058Z",
+    "scraped_at": "2026-03-06T23:34:17.599Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-06 19:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Donovan Solano Base por Bolas ",
     "counts": {
-      "balls": 1,
-      "strikes": 0,
+      "balls": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -521,10 +521,17 @@
         "plays": [
           {
             "reference_id": "19799-2-11",
-            "text": "Donovan Solano al bate",
+            "text": "Donovan Solano Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1772839842
+            "ts": 1772840030
+          },
+          {
+            "reference_id": "19799-2-12",
+            "text": "Harold Andres Ramirez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772840033
           }
         ]
       }
@@ -555,7 +562,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
