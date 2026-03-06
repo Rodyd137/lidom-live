@@ -1,21 +1,21 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2173",
-    "scraped_at": "2026-03-06T22:50:07.858Z",
+    "scraped_at": "2026-03-06T23:16:17.162Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2173,
     "season_id": 22,
-    "status": 3,
+    "status": 2,
     "date": "2026-03-06 19:00:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Heliot Ramos  Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -64,7 +64,19 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 4740,
+            "team_id": 10,
+            "name": "Heliot Ramos ",
+            "abbreviation": "H. Ramos",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       },
       "home": {
         "id": 15,
@@ -85,7 +97,19 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 4023,
+            "team_id": 15,
+            "name": "Gustavo Campero",
+            "abbreviation": "G. Campero",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       }
     },
     "comment": "",
@@ -229,8 +253,38 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "19798-1-1",
+            "text": "Player  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772838917
+          },
+          {
+            "reference_id": "19798-1-2",
+            "text": "Heliot Ramos  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772838921
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 2,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
