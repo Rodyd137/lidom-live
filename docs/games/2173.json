@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2173",
-    "scraped_at": "2026-03-07T01:16:18.256Z",
+    "scraped_at": "2026-03-07T01:17:20.541Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-06 19:00:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Nolan Arenado Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -905,6 +905,20 @@
             "ts": 1772846058
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "19804-2-57",
+            "text": "Brayan Buelvas al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772846211
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -998,6 +1012,13 @@
         "label": "Alta 7ma",
         "total_plays": 6,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1045,7 +1066,7 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -1087,7 +1108,7 @@
           "abbr": "DOM",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/c7c5d314bd780195ca2739e007b04e63.png",
           "runs": 2,
-          "hits": 2,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/republica-dominicana"
         }
