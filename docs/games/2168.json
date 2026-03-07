@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2168",
-    "scraped_at": "2026-03-07T00:16:00.990Z",
+    "scraped_at": "2026-03-07T00:17:03.418Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-03-06 20:00:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Ismael Munguia Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Mark Vientos Base por Bolas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 5
+      "base": 8
     },
     "base_runners": {
       "on1B": true,
       "on2B": true,
-      "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "on3B": true,
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -92,6 +92,28 @@
             "team_id": 17,
             "name": "Ismael Munguia",
             "abbreviation": "I. Munguia",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5813,
+            "team_id": 17,
+            "name": "Mark Vientos",
+            "abbreviation": "M. Vientos",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 4785,
+            "team_id": 17,
+            "name": "Omar Mendoza",
+            "abbreviation": "O. Mendoza",
             "number": null,
             "dob": null,
             "height": "",
@@ -289,6 +311,20 @@
             "scored": true,
             "is_primary": true,
             "ts": 1772842490
+          },
+          {
+            "reference_id": "19753-1-4",
+            "text": "Mark Vientos Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772842610
+          },
+          {
+            "reference_id": "19753-1-5",
+            "text": "Omar Mendoza al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772842619
           }
         ]
       }
@@ -298,7 +334,7 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 3,
+        "total_plays": 5,
         "scoring_plays": 1
       }
     ],
@@ -379,7 +415,7 @@
           "abbr": "PUR",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/8f6f2a20b0b9cd88bcff3b93bdd9c615.png",
           "runs": 0,
-          "hits": 1,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/puerto-rico"
         },
