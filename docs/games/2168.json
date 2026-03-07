@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2168",
-    "scraped_at": "2026-03-07T00:37:50.265Z",
+    "scraped_at": "2026-03-07T00:38:52.528Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-06 20:00:00",
-    "roundText": "Baja 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "Manny Machado Sencillo ",
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9a6536b5080ec24b07f6fd81b4a5df09.png",
         "permalink": "/equipo/nicaragua",
         "totals": {
-          "R": 1,
+          "R": 3,
           "H": 2,
           "E": 0,
-          "H2": 1
+          "H2": 3
         },
         "probables": {
           "pitcher": "",
@@ -218,6 +218,17 @@
             "height": "",
             "image": null,
             "position": ""
+          },
+          {
+            "id": 5826,
+            "team_id": 9,
+            "name": "Junior Caminero",
+            "abbreviation": "J. Caminero",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
           }
         ]
       }
@@ -232,7 +243,7 @@
         },
         {
           "num": 2,
-          "away": 0,
+          "away": 2,
           "home": 0
         },
         {
@@ -274,7 +285,7 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 1,
+          "R": 3,
           "H": 2,
           "E": 0
         },
@@ -292,35 +303,35 @@
           },
           {
             "num": 2,
-            "R": 1
+            "R": 3
           },
           {
             "num": 3,
-            "R": 1
+            "R": 3
           },
           {
             "num": 4,
-            "R": 1
+            "R": 3
           },
           {
             "num": 5,
-            "R": 1
+            "R": 3
           },
           {
             "num": 6,
-            "R": 1
+            "R": 3
           },
           {
             "num": 7,
-            "R": 1
+            "R": 3
           },
           {
             "num": 8,
-            "R": 1
+            "R": 3
           },
           {
             "num": 9,
-            "R": 1
+            "R": 3
           }
         ],
         "home": [
@@ -454,18 +465,25 @@
             "ts": 1772843691
           },
           {
-            "reference_id": "19753-2-12",
-            "text": "Manny Machado al bate",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1772843788
-          },
-          {
             "reference_id": "19753-2-11-283613",
             "text": "Manny Machado Sencillo ",
             "scored": false,
             "is_primary": false,
             "ts": 1772843800
+          },
+          {
+            "reference_id": "19753-2-12",
+            "text": "Manny Machado Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772843882
+          },
+          {
+            "reference_id": "19753-2-13",
+            "text": "Junior Caminero  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772843902
           }
         ]
       }
@@ -482,7 +500,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 6,
+        "total_plays": 7,
         "scoring_plays": 1
       }
     ],
@@ -490,15 +508,15 @@
       {
         "num": 1,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 2
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
-        "awayTeamRuns": 0,
+        "is_last": 1,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
