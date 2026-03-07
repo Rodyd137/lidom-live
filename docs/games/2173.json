@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2173",
-    "scraped_at": "2026-03-07T01:59:54.933Z",
+    "scraped_at": "2026-03-07T02:00:57.592Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-06 19:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Polo Jardinero Central",
+    "lastPlayByPlay": "Polo Wild Pitch ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -257,17 +257,6 @@
             "team_id": 15,
             "name": "Carlos Mario Martínez",
             "abbreviation": "C. M. Martínez",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 4025,
-            "team_id": 15,
-            "name": "Brayan Buelvas",
-            "abbreviation": "B. Buelvas",
             "number": null,
             "dob": null,
             "height": "",
@@ -1038,11 +1027,25 @@
         "label": "Baja 9na",
         "plays": [
           {
-            "reference_id": "19806-2-71",
-            "text": "Polo Jardinero Central",
+            "reference_id": "19806-2-72",
+            "text": "Polo Sencillo Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1772848760
+            "ts": 1772848811
+          },
+          {
+            "reference_id": "19806-2-73",
+            "text": "Polo Wild Pitch ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772848837
+          },
+          {
+            "reference_id": "19806-2-74",
+            "text": "Dayan Frías al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772848845
           }
         ]
       }
@@ -1171,7 +1174,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
