@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2168",
-    "scraped_at": "2026-03-07T00:11:51.882Z",
+    "scraped_at": "2026-03-07T00:12:54.023Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-03-06 20:00:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Chase Dawson Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/nicaragua",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 2,
           "E": 0,
           "H2": 0
         },
@@ -64,7 +64,19 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5810,
+            "team_id": 17,
+            "name": "Chase Dawson",
+            "abbreviation": "C. Dawson",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       },
       "home": {
         "id": 9,
@@ -141,7 +153,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 2,
           "E": 0
         },
         "home": {
@@ -229,8 +241,31 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "19753-1-1",
+            "text": "Chase Dawson Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772842370
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 1,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
