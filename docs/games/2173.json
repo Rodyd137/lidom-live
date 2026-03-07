@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2173",
-    "scraped_at": "2026-03-07T00:13:56.496Z",
+    "scraped_at": "2026-03-07T00:14:58.690Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-03-06 19:00:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Carlos Andres Cortes Sencillo Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/puerto-rico",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -689,10 +689,17 @@
         "plays": [
           {
             "reference_id": "19802-1-30",
-            "text": "Carlos Andres Cortes al bate",
+            "text": "Carlos Andres Cortes Sencillo Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1772842396
+            "ts": 1772842484
+          },
+          {
+            "reference_id": "19802-1-31",
+            "text": "Darell Giovan Hernaiz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772842488
           }
         ]
       }
@@ -758,7 +765,7 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -838,8 +845,8 @@
           "name": "Nicaragua",
           "abbr": "NIC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9a6536b5080ec24b07f6fd81b4a5df09.png",
-          "runs": 0,
-          "hits": 2,
+          "runs": 1,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/nicaragua"
         },
