@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2174",
-    "scraped_at": "2026-03-07T23:00:11.467Z",
+    "scraped_at": "2026-03-07T23:33:05.432Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2174,
     "season_id": 22,
-    "status": 3,
+    "status": 2,
     "date": "2026-03-07 18:00:00",
-    "roundText": "Alta 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "roundText": "Baja 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "Darell Giovan Hernaiz Out: Elevado al Jardinero Derecho ",
     "counts": {
-      "balls": 0,
+      "balls": 2,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 1
+      "battingTeam": "homeTeam",
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/panama",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -77,10 +77,21 @@
             "position": ""
           },
           {
-            "id": 4775,
+            "id": 5866,
             "team_id": 14,
-            "name": "Allen Cordoba ",
-            "abbreviation": "A. Cordoba",
+            "name": "Edmundo Sosa",
+            "abbreviation": "E. Sosa",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5867,
+            "team_id": 14,
+            "name": "Leonardo Bernal",
+            "abbreviation": "L. Bernal",
             "number": null,
             "dob": null,
             "height": "",
@@ -121,10 +132,10 @@
             "position": ""
           },
           {
-            "id": 4776,
+            "id": 5868,
             "team_id": 14,
-            "name": "Christian Bethancourt",
-            "abbreviation": "C. Bethancourt",
+            "name": "Jonathan Arauz",
+            "abbreviation": "J. Arauz",
             "number": null,
             "dob": null,
             "height": "",
@@ -308,7 +319,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         },
         "home": {
@@ -396,20 +407,169 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "19807-1-1",
+            "text": "Erasmo Caballero  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772925250
+          },
+          {
+            "reference_id": "19807-1-2",
+            "text": "Edmundo Sosa  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772925372
+          },
+          {
+            "reference_id": "19807-1-3",
+            "text": "Leonardo Bernal Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772925433
+          }
+        ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "19807-2-4",
+            "text": "Willi Castro Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772925682
+          },
+          {
+            "reference_id": "19807-2-5",
+            "text": "Heliot Ramos  Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772925696
+          },
+          {
+            "reference_id": "19807-2-6",
+            "text": "Nolan Arenado  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772925710
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19808-1-7",
+            "text": "J. Ramos Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772925750
+          },
+          {
+            "reference_id": "19808-1-8",
+            "text": "Johans Camargo Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772925838
+          },
+          {
+            "reference_id": "19808-1-9",
+            "text": "Johnny Santos Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772925879
+          },
+          {
+            "reference_id": "19808-1-10",
+            "text": "Jonathan Arauz Out: Elevado al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772926094
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "19808-2-11",
+            "text": "Carlos Andres Cortes Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772926213
+          },
+          {
+            "reference_id": "19808-2-12",
+            "text": "Darell Giovan Hernaiz Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772926307
+          },
+          {
+            "reference_id": "19808-2-13",
+            "text": "Eddie Rosario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772926322
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 3,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
-        "is_last": 1,
+        "part": 2,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 2,
-        "part": 1,
-        "is_last": 0,
+        "part": 2,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
