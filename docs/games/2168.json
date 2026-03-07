@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2168",
-    "scraped_at": "2026-03-07T02:58:11.445Z",
+    "scraped_at": "2026-03-07T02:59:14.045Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-06 20:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Austin Wells Out: Elevado al Jardinero Izquierdo",
+    "lastPlayByPlay": "Geraldo Perdomo Base por Bolas ",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 1,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -1046,10 +1046,17 @@
           },
           {
             "reference_id": "19760-2-70",
-            "text": "Geraldo Perdomo al bate",
+            "text": "Geraldo Perdomo Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1772852218
+            "ts": 1772852332
+          },
+          {
+            "reference_id": "19760-2-71",
+            "text": "Fernando Tatis Jr. al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772852337
           }
         ]
       }
@@ -1164,7 +1171,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 1
       }
     ],
