@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2173",
-    "scraped_at": "2026-03-07T01:01:45.215Z",
+    "scraped_at": "2026-03-07T01:02:47.476Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-06 19:00:00",
-    "roundText": "Baja 6ta",
-    "currentInningNum": 6,
-    "lastPlayByPlay": "Carlos Mario Martínez  Out: Rodado al Lanzador - Primera Base",
+    "roundText": "Alta 7ma",
+    "currentInningNum": 7,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -856,6 +856,20 @@
             "ts": 1772845231
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "19804-1-51",
+            "text": "Eddie Rosario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772845345
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -942,6 +956,13 @@
         "label": "Baja 6ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -983,14 +1004,14 @@
       {
         "num": 6,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 7,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
