@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2168",
-    "scraped_at": "2026-03-07T00:51:22.249Z",
+    "scraped_at": "2026-03-07T00:52:24.678Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-06 20:00:00",
-    "roundText": "Alta 2da",
+    "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Omar Mendoza  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -246,6 +246,17 @@
             "team_id": 9,
             "name": "Junior Caminero",
             "abbreviation": "J. Caminero",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5833,
+            "team_id": 9,
+            "name": "Julio Rodriguez",
+            "abbreviation": "J. Rodriguez",
             "number": null,
             "dob": null,
             "height": "",
@@ -564,6 +575,20 @@
             "ts": 1772844455
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "19754-2-21",
+            "text": "Julio Rodriguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772844718
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -587,6 +612,13 @@
         "label": "Alta 2da",
         "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -599,7 +631,7 @@
       },
       {
         "num": 2,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 2,
         "homeTeamRuns": 0
@@ -659,7 +691,7 @@
         "id": 2173,
         "date": "2026-03-06 19:00:00",
         "status": 2,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "awayTeam": {
           "id": 10,
           "name": "Puerto Rico",
