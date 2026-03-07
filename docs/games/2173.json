@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2173",
-    "scraped_at": "2026-03-07T00:01:28.279Z",
+    "scraped_at": "2026-03-07T00:02:31.166Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-06 19:00:00",
-    "roundText": "Alta 4ta",
+    "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Heliot Ramos  Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -640,10 +640,24 @@
           },
           {
             "reference_id": "19801-1-25",
-            "text": "Nolan Arenado al bate",
+            "text": "Nolan Arenado Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1772841613
+            "ts": 1772841694
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19801-2-26",
+            "text": "Donovan Solano al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772841740
           }
         ]
       }
@@ -697,6 +711,13 @@
         "label": "Alta 4ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -723,7 +744,7 @@
       },
       {
         "num": 4,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
