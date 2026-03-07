@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2168",
-    "scraped_at": "2026-03-07T03:10:42.843Z",
+    "scraped_at": "2026-03-07T03:11:45.594Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -15,18 +15,18 @@
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 6
     },
     "base_runners": {
       "on1B": true,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 2,
-      "mask": 5
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -235,6 +235,17 @@
             "team_id": 9,
             "name": "Manny Machado",
             "abbreviation": "M. Machado",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5840,
+            "team_id": 9,
+            "name": "Carlos Santana",
+            "abbreviation": "C. Santana",
             "number": null,
             "dob": null,
             "height": "",
@@ -1074,6 +1085,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1772853013
+          },
+          {
+            "reference_id": "19760-2-76",
+            "text": "Carlos Santana al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772853093
           }
         ]
       }
@@ -1188,7 +1206,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 8,
+        "total_plays": 9,
         "scoring_plays": 3
       }
     ],
