@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2175",
-    "scraped_at": "2026-03-08T00:34:39.807Z",
+    "scraped_at": "2026-03-08T00:35:42.331Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-03-07 19:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Horwitz  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -521,10 +521,17 @@
         "plays": [
           {
             "reference_id": "19817-1-11",
-            "text": "Horwitz al bate",
+            "text": "Horwitz  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1772930052
+            "ts": 1772930100
+          },
+          {
+            "reference_id": "19817-1-12",
+            "text": "Levenson al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772930103
           }
         ]
       }
@@ -548,7 +555,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
