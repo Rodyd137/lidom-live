@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2174",
-    "scraped_at": "2026-03-08T02:28:14.633Z",
+    "scraped_at": "2026-03-08T02:29:18.661Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-07 18:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Eddie Rosario Ponche (K) ",
+    "lastPlayByPlay": "Martín Maldonado Sencillo ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 6
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on3B": true,
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -235,17 +235,6 @@
             "team_id": 10,
             "name": "Darell Giovan Hernaiz",
             "abbreviation": "D. Hernaiz",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 5144,
-            "team_id": 10,
-            "name": "Eddie Rosario",
-            "abbreviation": "E. Rosario",
             "number": null,
             "dob": null,
             "height": "",
@@ -1025,17 +1014,24 @@
           },
           {
             "reference_id": "19815-2-70",
-            "text": "Eddie Rosario Ponche (K) ",
+            "text": "Eddie Rosario Base por Bolas ",
             "scored": false,
             "is_primary": true,
             "ts": 1772936699
           },
           {
             "reference_id": "19815-2-71",
-            "text": "Martín Maldonado al bate",
+            "text": "Martín Maldonado Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1772936781
+            "ts": 1772936941
+          },
+          {
+            "reference_id": "19815-2-72",
+            "text": "Christian Vazquez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772936953
           }
         ]
       }
@@ -1164,7 +1160,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
