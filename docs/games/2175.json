@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2175",
-    "scraped_at": "2026-03-08T01:55:22.448Z",
+    "scraped_at": "2026-03-08T01:56:26.076Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-07 19:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Acuña  Base por Bolas ",
+    "lastPlayByPlay": "Garcia Sencillo y 2 Carreras Impulsadas ",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 8
+      "base": 6
     },
     "base_runners": {
       "on1B": true,
-      "on2B": true,
+      "on2B": false,
       "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/fa5ccb26f0dc095843644942bde4b7cd.png",
         "permalink": "/equipo/venezuela",
         "totals": {
-          "R": 5,
-          "H": 7,
+          "R": 7,
+          "H": 8,
           "E": 0,
           "H2": 5
         },
@@ -319,7 +319,7 @@
         {
           "num": 6,
           "away": 1,
-          "home": 0
+          "home": 2
         },
         {
           "num": 7,
@@ -345,8 +345,8 @@
           "E": 2
         },
         "home": {
-          "R": 5,
-          "H": 7,
+          "R": 7,
+          "H": 8,
           "E": 0
         }
       },
@@ -412,19 +412,19 @@
           },
           {
             "num": 6,
-            "R": 5
+            "R": 7
           },
           {
             "num": 7,
-            "R": 5
+            "R": 7
           },
           {
             "num": 8,
-            "R": 5
+            "R": 7
           },
           {
             "num": 9,
-            "R": 5
+            "R": 7
           }
         ]
       }
@@ -885,10 +885,17 @@
           },
           {
             "reference_id": "19821-2-54",
-            "text": "Garcia al bate",
+            "text": "Garcia Sencillo y 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1772934968
+          },
+          {
+            "reference_id": "19821-2-55",
+            "text": "Arraez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1772934799
+            "ts": 1772934970
           }
         ]
       }
@@ -975,8 +982,8 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 7,
-        "scoring_plays": 0
+        "total_plays": 8,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1020,7 +1027,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 2
       },
       {
         "num": 7,
