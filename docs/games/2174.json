@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2174",
-    "scraped_at": "2026-03-08T02:04:53.926Z",
+    "scraped_at": "2026-03-08T02:05:57.792Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-07 18:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Nolan Arenado Golpeado por Pelota ",
     "counts": {
-      "balls": 0,
+      "balls": 2,
       "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -955,10 +955,24 @@
         "plays": [
           {
             "reference_id": "19814-2-62",
-            "text": "Willi Castro al bate",
+            "text": "Willi Castro  Out: Rodado al Lanzador - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1772935490
+            "ts": 1772935501
+          },
+          {
+            "reference_id": "19814-2-63",
+            "text": "Heliot Ramos   Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772935521
+          },
+          {
+            "reference_id": "19814-2-64",
+            "text": "Nolan Arenado Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772935544
           }
         ]
       }
@@ -1073,7 +1087,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
