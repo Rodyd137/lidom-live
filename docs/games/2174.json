@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2174",
-    "scraped_at": "2026-03-08T01:50:04.830Z",
+    "scraped_at": "2026-03-08T01:51:08.382Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-03-07 18:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Leonardo Bernal Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -919,6 +919,27 @@
             "ts": 1772934381
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "19814-1-57",
+            "text": "Leonardo Bernal Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772934636
+          },
+          {
+            "reference_id": "19814-1-58",
+            "text": "Edmundo Sosa al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772934640
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1018,6 +1039,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
