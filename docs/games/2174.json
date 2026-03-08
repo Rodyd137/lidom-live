@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2174",
-    "scraped_at": "2026-03-08T02:45:12.100Z",
+    "scraped_at": "2026-03-08T02:46:15.393Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-03-07 18:00:00",
     "roundText": "Alta 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Jose Caballero Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Edmundo Sosa  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 1
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -1084,16 +1084,23 @@
           {
             "reference_id": "19825-1-77",
             "text": "Jose Caballero Sencillo y 1 Carrera Impulsada ",
-            "scored": true,
+            "scored": false,
             "is_primary": true,
             "ts": 1772937812
           },
           {
+            "reference_id": "19825-1-77-284151",
+            "text": "Jose Caballero Robo de Base ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1772937921
+          },
+          {
             "reference_id": "19825-1-78",
-            "text": "Edmundo Sosa al bate",
+            "text": "Edmundo Sosa  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1772937888
+            "ts": 1772937953
           }
         ]
       }
@@ -1229,8 +1236,8 @@
         "num": 10,
         "half": "top",
         "label": "Alta 10ma",
-        "total_plays": 3,
-        "scoring_plays": 1
+        "total_plays": 4,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
