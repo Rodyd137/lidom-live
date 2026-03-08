@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2175",
-    "scraped_at": "2026-03-08T03:00:04.256Z",
+    "scraped_at": "2026-03-08T03:38:34.774Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -1322,7 +1322,7 @@
           "abbr": "PAN",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/45017492450cd1f4a0003643f186f5a3.png",
           "runs": 3,
-          "hits": 4,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/panama"
         },
@@ -1332,12 +1332,70 @@
           "abbr": "PUR",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/8f6f2a20b0b9cd88bcff3b93bdd9c615.png",
           "runs": 4,
-          "hits": 8,
+          "hits": 10,
           "errors": 1,
           "permalink": "/equipo/puerto-rico"
         }
       }
     ],
-    "stats_tables": []
+    "stats_tables": [
+      {
+        "title": "Israel vs Venezuela",
+        "round": "WBC (1 Juegos)",
+        "columns": [
+          "G",
+          "P",
+          "C",
+          "H",
+          "E"
+        ],
+        "teams": {
+          "Israel ISR": {
+            "G": 0,
+            "P": 1,
+            "C": 3,
+            "H": 7,
+            "E": 2
+          },
+          "Venezuela VEN": {
+            "G": 1,
+            "P": 0,
+            "C": 11,
+            "H": 14,
+            "E": 0
+          }
+        }
+      },
+      {
+        "title": "Estadísticas Generales",
+        "round": "WBC (1 Juegos)",
+        "columns": [
+          "G",
+          "P",
+          "CA",
+          "CP",
+          "H",
+          "E"
+        ],
+        "teams": {
+          "Israel ISR": {
+            "G": 0,
+            "P": 1,
+            "CA": 3,
+            "CP": 11,
+            "H": 7,
+            "E": 2
+          },
+          "Venezuela VEN": {
+            "G": 1,
+            "P": 0,
+            "CA": 11,
+            "CP": 3,
+            "H": 14,
+            "E": 0
+          }
+        }
+      }
+    ]
   }
 }

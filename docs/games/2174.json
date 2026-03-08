@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2174",
-    "scraped_at": "2026-03-08T03:00:03.146Z",
+    "scraped_at": "2026-03-08T03:38:34.683Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -40,9 +40,9 @@
       "over_under": null
     },
     "pitchers": {
-      "winning": null,
-      "losing": null,
-      "save": null
+      "winning": "José Espada",
+      "losing": "Gonzalez",
+      "save": ""
     },
     "teams": {
       "away": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/panama",
         "totals": {
           "R": 3,
-          "H": 4,
+          "H": 6,
           "E": 0,
           "H2": 2
         },
@@ -175,7 +175,7 @@
         "permalink": "/equipo/puerto-rico",
         "totals": {
           "R": 4,
-          "H": 8,
+          "H": 10,
           "E": 1,
           "H2": 0
         },
@@ -346,12 +346,12 @@
       "totals": {
         "away": {
           "R": 3,
-          "H": 4,
+          "H": 6,
           "E": 0
         },
         "home": {
           "R": 4,
-          "H": 8,
+          "H": 10,
           "E": 1
         }
       },
@@ -1400,6 +1400,64 @@
         }
       }
     ],
-    "stats_tables": []
+    "stats_tables": [
+      {
+        "title": "Panamá vs Puerto Rico",
+        "round": "WBC (1 Juegos)",
+        "columns": [
+          "G",
+          "P",
+          "C",
+          "H",
+          "E"
+        ],
+        "teams": {
+          "Panamá PAN": {
+            "G": 0,
+            "P": 1,
+            "C": 3,
+            "H": 4,
+            "E": 0
+          },
+          "Puerto Rico PUR": {
+            "G": 1,
+            "P": 0,
+            "C": 4,
+            "H": 8,
+            "E": 1
+          }
+        }
+      },
+      {
+        "title": "Estadísticas Generales",
+        "round": "WBC (1 Juegos)",
+        "columns": [
+          "G",
+          "P",
+          "CA",
+          "CP",
+          "H",
+          "E"
+        ],
+        "teams": {
+          "Panamá PAN": {
+            "G": 0,
+            "P": 1,
+            "CA": 3,
+            "CP": 4,
+            "H": 4,
+            "E": 0
+          },
+          "Puerto Rico PUR": {
+            "G": 1,
+            "P": 0,
+            "CA": 4,
+            "CP": 3,
+            "H": 8,
+            "E": 1
+          }
+        }
+      }
+    ]
   }
 }
