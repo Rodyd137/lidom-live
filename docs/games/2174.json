@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2174",
-    "scraped_at": "2026-03-08T02:40:57.487Z",
+    "scraped_at": "2026-03-08T02:42:00.989Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-07 18:00:00",
     "roundText": "Alta 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Luis Castillo Toque de Sacrificio ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 3
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -1068,6 +1068,27 @@
             "ts": 1772937472
           }
         ]
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "plays": [
+          {
+            "reference_id": "19825-1-76",
+            "text": "Luis Castillo Toque de Sacrificio ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772937672
+          },
+          {
+            "reference_id": "19825-1-77",
+            "text": "Jose Caballero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772937680
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1195,6 +1216,13 @@
         "half": "bottom",
         "label": "Baja 9na",
         "total_plays": 7,
+        "scoring_plays": 0
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
