@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2169",
-    "scraped_at": "2026-03-08T17:09:44.235Z",
+    "scraped_at": "2026-03-08T17:10:47.753Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-08 13:00:00",
-    "roundText": "Baja 3ra",
-    "currentInningNum": 3,
-    "lastPlayByPlay": "Julio Rodriguez Out: Elevado al Jardinero Central",
+    "roundText": "Alta 4ta",
+    "currentInningNum": 4,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "balls": 2,
+      "strikes": 2,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -660,6 +660,20 @@
             "ts": 1772989625
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "19765-1-28",
+            "text": "Xander Bogaert al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772989806
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -704,6 +718,13 @@
         "label": "Baja 3ra",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -724,14 +745,14 @@
       {
         "num": 3,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 2
       },
       {
         "num": 4,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
