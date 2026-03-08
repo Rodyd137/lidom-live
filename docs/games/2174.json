@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2174",
-    "scraped_at": "2026-03-08T02:37:47.043Z",
+    "scraped_at": "2026-03-08T02:38:50.293Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-07 18:00:00",
-    "roundText": "Baja 9na",
-    "currentInningNum": 9,
-    "lastPlayByPlay": "Willi Castro Base por Bolas se embasa por Error del",
+    "roundText": "Alta 10ma",
+    "currentInningNum": 10,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -324,9 +324,14 @@
           "num": 9,
           "away": 0,
           "home": 1
+        },
+        {
+          "num": 10,
+          "away": 0,
+          "home": 0
         }
       ],
-      "extras": false,
+      "extras": true,
       "totals": {
         "away": {
           "R": 2,
@@ -376,6 +381,10 @@
           {
             "num": 9,
             "R": 2
+          },
+          {
+            "num": 10,
+            "R": 2
           }
         ],
         "home": [
@@ -413,6 +422,10 @@
           },
           {
             "num": 9,
+            "R": 2
+          },
+          {
+            "num": 10,
             "R": 2
           }
         ]
@@ -1049,10 +1062,10 @@
           },
           {
             "reference_id": "19815-2-75",
-            "text": "Heliot Ramos  al bate",
+            "text": "Heliot Ramos   Out: Rodado al Tercera Base - Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1772937459
+            "ts": 1772937472
           }
         ]
       }
@@ -1245,9 +1258,16 @@
       {
         "num": 9,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 1
+      },
+      {
+        "num": 10,
+        "part": 1,
+        "is_last": 1,
+        "awayTeamRuns": 0,
+        "homeTeamRuns": 0
       }
     ],
     "siblingGames": [
@@ -1255,7 +1275,7 @@
         "id": 2175,
         "date": "2026-03-07 19:00:00",
         "status": 2,
-        "roundText": "Baja 8va",
+        "roundText": "Alta 9na",
         "awayTeam": {
           "id": 21,
           "name": "Israel",
