@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2169",
-    "scraped_at": "2026-03-08T16:38:27.139Z",
+    "scraped_at": "2026-03-08T16:39:30.673Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -235,6 +235,17 @@
             "team_id": 9,
             "name": "Julio Rodriguez",
             "abbreviation": "J. Rodriguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5835,
+            "team_id": 9,
+            "name": "Austin Wells",
+            "abbreviation": "A. Wells",
             "number": null,
             "dob": null,
             "height": "",
@@ -504,6 +515,20 @@
             "ts": 1772987746
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "19763-2-15",
+            "text": "Austin Wells al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772987959
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -527,6 +552,13 @@
         "label": "Alta 2da",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
