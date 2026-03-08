@@ -2,7 +2,7 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-03-08T00:20:05.830Z",
+    "scraped_at": "2026-03-08T00:21:08.228Z",
     "tz": "America/Santo_Domingo"
   },
   "tracked_ids": [
@@ -16,7 +16,46 @@
       "roundText": "Alta 5ta",
       "currentInningNum": 5,
       "atBat": null,
-      "lastPlayByPlay": "Christian Bethancourt Triple! 1 Carrera Impulsada ",
+      "lastPlayByPlay": "Luis Castillo Doble! 1 Carrera Impulsada ",
+      "counts": {
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
+      },
+      "base": {
+        "on1B": false,
+        "on2B": true,
+        "on3B": false,
+        "runners": 1,
+        "mask": 3
+      },
+      "battingTeam": "awayTeam",
+      "score": {
+        "away": {
+          "name": "Panamá",
+          "abbr": "PAN",
+          "R": 2,
+          "H": 3,
+          "E": 0
+        },
+        "home": {
+          "name": "Puerto Rico",
+          "abbr": "PUR",
+          "R": 0,
+          "H": 1,
+          "E": 0
+        }
+      },
+      "threat": 31,
+      "updated_at": "2026-03-08T00:21:08.228Z"
+    },
+    {
+      "id": 2175,
+      "status": 2,
+      "roundText": "Baja 1ra",
+      "currentInningNum": 1,
+      "atBat": null,
+      "lastPlayByPlay": "Garcia Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -28,45 +67,6 @@
         "on3B": true,
         "runners": 1,
         "mask": 4
-      },
-      "battingTeam": "awayTeam",
-      "score": {
-        "away": {
-          "name": "Panamá",
-          "abbr": "PAN",
-          "R": 1,
-          "H": 2,
-          "E": 0
-        },
-        "home": {
-          "name": "Puerto Rico",
-          "abbr": "PUR",
-          "R": 0,
-          "H": 1,
-          "E": 0
-        }
-      },
-      "threat": 42,
-      "updated_at": "2026-03-08T00:20:05.830Z"
-    },
-    {
-      "id": 2175,
-      "status": 2,
-      "roundText": "Baja 1ra",
-      "currentInningNum": 1,
-      "atBat": null,
-      "lastPlayByPlay": "Garcia Ponche (K) ",
-      "counts": {
-        "balls": 1,
-        "strikes": 0,
-        "outs": 1
-      },
-      "base": {
-        "on1B": true,
-        "on2B": false,
-        "on3B": false,
-        "runners": 1,
-        "mask": 2
       },
       "battingTeam": "homeTeam",
       "score": {
@@ -80,13 +80,13 @@
         "home": {
           "name": "Venezuela",
           "abbr": "VEN",
-          "R": 0,
-          "H": 0,
+          "R": 1,
+          "H": 1,
           "E": 0
         }
       },
-      "threat": 22,
-      "updated_at": "2026-03-08T00:20:05.830Z"
+      "threat": 42,
+      "updated_at": "2026-03-08T00:21:08.228Z"
     }
   ]
 }
