@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2175",
-    "scraped_at": "2026-03-08T00:54:26.628Z",
+    "scraped_at": "2026-03-08T00:55:28.958Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-03-07 19:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Arraez  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -619,10 +619,17 @@
         "plays": [
           {
             "reference_id": "19818-2-22",
-            "text": "Arraez al bate",
+            "text": "Arraez  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1772931247
+            "ts": 1772931303
+          },
+          {
+            "reference_id": "19818-2-23",
+            "text": "Perez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772931306
           }
         ]
       }
@@ -667,7 +674,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
