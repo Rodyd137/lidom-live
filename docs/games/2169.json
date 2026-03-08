@@ -1,24 +1,24 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2169",
-    "scraped_at": "2026-03-08T18:17:29.499Z",
+    "scraped_at": "2026-03-08T18:46:33.803Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2169,
     "season_id": 22,
-    "status": 2,
+    "status": 6,
     "date": "2026-03-08 13:00:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Juan Soto Cuadrangular! 2 Carreras Impulsadas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/paises-bajos",
         "totals": {
           "R": 1,
-          "H": 4,
+          "H": 5,
           "E": 1,
           "H2": 1
         },
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/c7c5d314bd780195ca2739e007b04e63.png",
         "permalink": "/equipo/republica-dominicana",
         "totals": {
-          "R": 10,
-          "H": 7,
+          "R": 12,
+          "H": 8,
           "E": 0,
           "H2": 10
         },
@@ -187,10 +187,10 @@
         },
         "players": [
           {
-            "id": 5816,
+            "id": 4180,
             "team_id": 9,
-            "name": "Fernando Tatis Jr.",
-            "abbreviation": "F. Tatis Jr",
+            "name": "Junior Lake",
+            "abbreviation": "J. Lake",
             "number": null,
             "dob": null,
             "height": "",
@@ -288,7 +288,7 @@
         ]
       }
     },
-    "comment": "",
+    "comment": "Por via de nocaut",
     "linescore": {
       "innings": [
         {
@@ -324,7 +324,7 @@
         {
           "num": 7,
           "away": 0,
-          "home": 0
+          "home": 2
         },
         {
           "num": 8,
@@ -341,12 +341,12 @@
       "totals": {
         "away": {
           "R": 1,
-          "H": 4,
+          "H": 5,
           "E": 1
         },
         "home": {
-          "R": 10,
-          "H": 7,
+          "R": 12,
+          "H": 8,
           "E": 0
         }
       },
@@ -416,15 +416,15 @@
           },
           {
             "num": 7,
-            "R": 10
+            "R": 12
           },
           {
             "num": 8,
-            "R": 10
+            "R": 12
           },
           {
             "num": 9,
-            "R": 10
+            "R": 12
           }
         ]
       }
@@ -919,6 +919,76 @@
             "ts": 1772993705
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "19768-1-59",
+            "text": "Clementina Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772993940
+          },
+          {
+            "reference_id": "19768-1-60",
+            "text": "Juremi Profar Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772994003
+          },
+          {
+            "reference_id": "19768-1-61",
+            "text": "Tromp Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772994038
+          },
+          {
+            "reference_id": "19768-1-62",
+            "text": "Ray Patrick Didder Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772994142
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "19768-2-63",
+            "text": "Erick Gonzalez  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772994338
+          },
+          {
+            "reference_id": "19768-2-64",
+            "text": "Junior Lake Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772994521
+          },
+          {
+            "reference_id": "19768-2-65",
+            "text": "Keiter Marte Base por Bolas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1772994742
+          },
+          {
+            "reference_id": "19768-2-66",
+            "text": "Juan Soto Cuadrangular! 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1772994760
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1005,6 +1075,20 @@
         "label": "Baja 6ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 4,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1052,10 +1136,10 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 2
       },
       {
         "num": 8,
