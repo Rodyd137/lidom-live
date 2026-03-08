@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2169",
-    "scraped_at": "2026-03-08T17:01:15.728Z",
+    "scraped_at": "2026-03-08T17:02:19.498Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-03-08 13:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Keiter Marte Base por Bolas ",
+    "lastPlayByPlay": "Manny Machado Base por Bolas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -626,10 +626,24 @@
           },
           {
             "reference_id": "19764-2-23",
-            "text": "Vladimir Guerrero  Jr. al bate",
+            "text": "Juan Soto Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1772989162
+            "ts": 1772989277
+          },
+          {
+            "reference_id": "19764-2-24",
+            "text": "Vladimir Guerrero  Jr. Cuadrangular! 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1772989290
+          },
+          {
+            "reference_id": "19764-2-25",
+            "text": "Manny Machado Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772989337
           }
         ]
       }
@@ -674,8 +688,8 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 2,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
