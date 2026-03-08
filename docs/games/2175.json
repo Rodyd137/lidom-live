@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2175",
-    "scraped_at": "2026-03-08T00:33:37.335Z",
+    "scraped_at": "2026-03-08T00:34:39.807Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-07 19:00:00",
-    "roundText": "Baja 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "Abreu  Out: Rodado al Campo Corto - Primera Base",
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 2,
-      "outs": 2
+      "balls": 1,
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -507,10 +507,24 @@
           },
           {
             "reference_id": "19816-2-10",
-            "text": "Torres  al bate",
+            "text": "Torres  (k) Ponche",
             "scored": false,
             "is_primary": true,
             "ts": 1772929845
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19817-1-11",
+            "text": "Horwitz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772930052
           }
         ]
       }
@@ -529,20 +543,27 @@
         "label": "Baja 1ra",
         "total_plays": 7,
         "scoring_plays": 3
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
       {
         "num": 1,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 4
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
