@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2175",
-    "scraped_at": "2026-03-08T02:43:04.675Z",
+    "scraped_at": "2026-03-08T02:44:08.424Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-07 19:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Scherck  Out: Rodado al Primera Base",
+    "lastPlayByPlay": "Horwitz Sencillo Jardinero Derecho ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/59c24ede4d7bd817ae0aa79df4d7da5f.png",
         "permalink": "/equipo/israel",
         "totals": {
-          "R": 2,
-          "H": 4,
+          "R": 3,
+          "H": 6,
           "E": 2,
           "H2": 1
         },
@@ -333,15 +333,15 @@
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 2,
-          "H": 4,
+          "R": 3,
+          "H": 6,
           "E": 2
         },
         "home": {
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 2
+            "R": 3
           }
         ],
         "home": [
@@ -1088,10 +1088,24 @@
           },
           {
             "reference_id": "19824-1-78",
-            "text": "Bader  al bate",
+            "text": "Bader  Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1772937816
+          },
+          {
+            "reference_id": "19824-1-79",
+            "text": "Horwitz Sencillo Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1772937685
+            "ts": 1772937834
+          },
+          {
+            "reference_id": "19824-1-80",
+            "text": "Levenson al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772937840
           }
         ]
       }
@@ -1213,8 +1227,8 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 2,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1278,7 +1292,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
@@ -1293,7 +1307,7 @@
           "name": "Panamá",
           "abbr": "PAN",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/45017492450cd1f4a0003643f186f5a3.png",
-          "runs": 2,
+          "runs": 3,
           "hits": 4,
           "errors": 0,
           "permalink": "/equipo/panama"
