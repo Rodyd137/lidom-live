@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2169",
-    "scraped_at": "2026-03-08T17:28:36.197Z",
+    "scraped_at": "2026-03-08T17:29:38.844Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,7 +9,7 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-08 13:00:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
     "lastPlayByPlay": "",
     "counts": {
@@ -18,7 +18,7 @@
       "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -730,6 +730,34 @@
             "ts": 1772990588
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19766-1-36",
+            "text": "Juremi Profar Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772990930
+          },
+          {
+            "reference_id": "19766-1-37",
+            "text": "Tromp  Out: Rodado al Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772990950
+          },
+          {
+            "reference_id": "19766-1-38",
+            "text": "Ray Patrick Didder Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772990958
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -788,6 +816,13 @@
         "label": "Baja 4ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -821,7 +856,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
