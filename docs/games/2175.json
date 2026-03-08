@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2175",
-    "scraped_at": "2026-03-08T02:09:09.412Z",
+    "scraped_at": "2026-03-08T02:10:13.185Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-07 19:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Horwitz  Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "Stubbs Out: Elevado al Segunda Base",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 1,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/israel",
         "totals": {
           "R": 2,
-          "H": 3,
+          "H": 4,
           "E": 2,
           "H2": 1
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 2,
-          "H": 3,
+          "H": 4,
           "E": 2
         },
         "home": {
@@ -934,10 +934,24 @@
           },
           {
             "reference_id": "19822-1-60",
-            "text": "Levenson al bate",
+            "text": "Levenson Sencillo Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1772935662
+            "ts": 1772935769
+          },
+          {
+            "reference_id": "19822-1-61",
+            "text": "Stubbs Out: Elevado al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772935792
+          },
+          {
+            "reference_id": "19822-1-62",
+            "text": "Mervis al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772935795
           }
         ]
       }
@@ -1031,7 +1045,7 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 2,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
