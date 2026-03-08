@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2175",
-    "scraped_at": "2026-03-08T01:52:11.895Z",
+    "scraped_at": "2026-03-08T01:53:15.406Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-07 19:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Tovar Base por Bolas ",
+    "lastPlayByPlay": "Tovar Wild Pitch ",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 8
     },
     "base_runners": {
       "on1B": true,
       "on2B": true,
-      "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "on3B": true,
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -871,10 +871,17 @@
           },
           {
             "reference_id": "19821-2-52",
+            "text": "Tovar Wild Pitch ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772934764
+          },
+          {
+            "reference_id": "19821-2-53",
             "text": "Acuña  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1772934724
+            "ts": 1772934766
           }
         ]
       }
@@ -961,7 +968,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 0
       }
     ],
