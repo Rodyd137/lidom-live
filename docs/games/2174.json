@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2174",
-    "scraped_at": "2026-03-08T00:14:53.414Z",
+    "scraped_at": "2026-03-08T00:15:55.639Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-07 18:00:00",
-    "roundText": "Baja 4ta",
-    "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "roundText": "Alta 5ta",
+    "currentInningNum": 5,
+    "lastPlayByPlay": "Johnny Santos Out: Elevado al Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 1
+      "battingTeam": "awayTeam",
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -665,6 +665,34 @@
             "scored": false,
             "is_primary": true,
             "ts": 1772928893
+          },
+          {
+            "reference_id": "19810-2-27",
+            "text": "Nolan Arenado Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772928910
+          },
+          {
+            "reference_id": "19810-2-28",
+            "text": "Carlos Andres Cortes Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772928922
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19811-1-29",
+            "text": "Johnny Santos Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772928952
           }
         ]
       }
@@ -723,6 +751,13 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
         "total_plays": 1,
         "scoring_plays": 0
       }
@@ -752,14 +787,14 @@
       {
         "num": 4,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 5,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
