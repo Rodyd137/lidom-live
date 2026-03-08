@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2175",
-    "scraped_at": "2026-03-08T01:09:50.558Z",
+    "scraped_at": "2026-03-08T01:10:54.075Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-07 19:00:00",
-    "roundText": "Alta 4ta",
+    "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Bader   Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -674,6 +674,20 @@
             "ts": 1772932074
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19819-2-29",
+            "text": "Torres  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772932193
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -725,6 +739,13 @@
         "label": "Alta 4ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -751,7 +772,7 @@
       },
       {
         "num": 4,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
