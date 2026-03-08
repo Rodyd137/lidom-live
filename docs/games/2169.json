@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2169",
-    "scraped_at": "2026-03-08T15:52:43.281Z",
+    "scraped_at": "2026-03-08T16:19:25.898Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2169,
     "season_id": 22,
-    "status": 1,
+    "status": 2,
     "date": "2026-03-08 13:00:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Keiter Marte Base por Bolas ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 1
+      "battingTeam": "homeTeam",
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": false,
+      "on1B": true,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -59,12 +59,46 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": null,
-          "era": null,
-          "record": null,
+          "pitcher": "",
+          "era": "",
+          "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5873,
+            "team_id": 20,
+            "name": "Ceddanne Rafaela",
+            "abbreviation": "C. Rafaela",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5874,
+            "team_id": 20,
+            "name": "Druw Jones",
+            "abbreviation": "D. Jones",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5875,
+            "team_id": 20,
+            "name": "Xander Bogaert",
+            "abbreviation": "X. Bogaert",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       },
       "home": {
         "id": 9,
@@ -80,12 +114,46 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": null,
-          "era": null,
-          "record": null,
+          "pitcher": "",
+          "era": "",
+          "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5816,
+            "team_id": 9,
+            "name": "Fernando Tatis Jr.",
+            "abbreviation": "F. Tatis Jr",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5818,
+            "team_id": 9,
+            "name": "Keiter Marte",
+            "abbreviation": "K. Marte",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5820,
+            "team_id": 9,
+            "name": "Juan Soto",
+            "abbreviation": "J. Soto",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       }
     },
     "comment": "",
@@ -229,12 +297,84 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "19762-1-1",
+            "text": "Ceddanne Rafaela  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772986272
+          },
+          {
+            "reference_id": "19762-1-2",
+            "text": "Druw Jones Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772986405
+          },
+          {
+            "reference_id": "19762-1-3",
+            "text": "Xander Bogaert Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772986421
+          }
+        ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "19762-2-4",
+            "text": "Fernando Tatis Jr. Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772986544
+          },
+          {
+            "reference_id": "19762-2-5",
+            "text": "Keiter Marte Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772986685
+          },
+          {
+            "reference_id": "19762-2-6",
+            "text": "Juan Soto al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772986690
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
