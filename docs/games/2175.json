@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2175",
-    "scraped_at": "2026-03-08T00:58:36.277Z",
+    "scraped_at": "2026-03-08T00:59:38.962Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-07 19:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Arraez  Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "Suarez  Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 1
+      "strikes": 2,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 0,
           "H": 0,
-          "E": 1,
+          "E": 2,
           "H2": 0
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 0,
           "H": 0,
-          "E": 1
+          "E": 2
         },
         "home": {
           "R": 4,
@@ -626,10 +626,24 @@
           },
           {
             "reference_id": "19818-2-23",
-            "text": "Perez al bate",
+            "text": "Perez se embasa por Error del Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1772931306
+            "ts": 1772931526
+          },
+          {
+            "reference_id": "19818-2-24",
+            "text": "Suarez  Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772931558
+          },
+          {
+            "reference_id": "19818-2-25",
+            "text": "Abreu al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772931562
           }
         ]
       }
@@ -674,7 +688,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 2,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -755,7 +769,7 @@
           "abbr": "PAN",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/45017492450cd1f4a0003643f186f5a3.png",
           "runs": 2,
-          "hits": 3,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/panama"
         },
@@ -765,8 +779,8 @@
           "abbr": "PUR",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/8f6f2a20b0b9cd88bcff3b93bdd9c615.png",
           "runs": 1,
-          "hits": 3,
-          "errors": 0,
+          "hits": 5,
+          "errors": 1,
           "permalink": "/equipo/puerto-rico"
         }
       }
