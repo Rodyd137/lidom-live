@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2175",
-    "scraped_at": "2026-03-08T00:41:56.348Z",
+    "scraped_at": "2026-03-08T00:42:58.690Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-07 19:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Tovar Sencillo Jardinero Izquierdo",
+    "lastPlayByPlay": "Tovar Robo de Base ",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -563,10 +563,24 @@
           },
           {
             "reference_id": "19817-2-16",
-            "text": "Acuña  al bate",
+            "text": "Acuña  Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1772930463
+            "ts": 1772930531
+          },
+          {
+            "reference_id": "19817-2-17",
+            "text": "Tovar Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772930563
+          },
+          {
+            "reference_id": "19817-2-18",
+            "text": "Garcia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1772930565
           }
         ]
       }
@@ -597,7 +611,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 3,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
