@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2170",
-    "scraped_at": "2026-03-09T17:30:28.304Z",
+    "scraped_at": "2026-03-09T17:33:14.978Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-09 12:00:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Juan Soto  Out: Rodado al Primera Base",
+    "lastPlayByPlay": "Stubbs  Out: Rodado al Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 2
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -737,6 +737,34 @@
             "ts": 1773077319
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "19775-2-35",
+            "text": "Carrigg Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773077458
+          },
+          {
+            "reference_id": "19775-2-36",
+            "text": "Stubbs  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773077566
+          },
+          {
+            "reference_id": "19775-2-37",
+            "text": "Levenson al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773077569
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -802,6 +830,13 @@
         "label": "Alta 5ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -835,7 +870,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
