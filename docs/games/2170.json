@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2170",
-    "scraped_at": "2026-03-09T16:47:45.267Z",
+    "scraped_at": "2026-03-09T16:48:49.178Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-03-09 12:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Juan Soto Ponche (K) ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -576,6 +576,27 @@
             "ts": 1773074830
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19773-1-17",
+            "text": "Juan Soto Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773074898
+          },
+          {
+            "reference_id": "19773-1-18",
+            "text": "Manny Machado al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773074900
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -605,6 +626,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
