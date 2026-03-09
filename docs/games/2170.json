@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2170",
-    "scraped_at": "2026-03-09T18:27:52.031Z",
+    "scraped_at": "2026-03-09T18:28:54.449Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-09 12:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Oneil Cruz Base por Bolas ",
+    "lastPlayByPlay": "Agustín Ramírez   Out: Rodado al Primera Base - Carrera Empujada",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 8
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": true,
       "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "runners": 2,
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/c7c5d314bd780195ca2739e007b04e63.png",
         "permalink": "/equipo/republica-dominicana",
         "totals": {
-          "R": 8,
+          "R": 9,
           "H": 6,
           "E": 0,
           "H2": 6
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,7 +340,7 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 8,
+          "R": 9,
           "H": 6,
           "E": 0
         },
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 8
+            "R": 9
           },
           {
             "num": 9,
-            "R": 8
+            "R": 9
           }
         ],
         "home": [
@@ -955,10 +955,17 @@
           },
           {
             "reference_id": "19778-1-60",
-            "text": "Agustín Ramírez  al bate",
+            "text": "Agustín Ramírez   Out: Rodado al Primera Base - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1773080919
+          },
+          {
+            "reference_id": "19778-1-61",
+            "text": "Geraldo Perdomo al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1773080769
+            "ts": 1773080921
           }
         ]
       }
@@ -1066,8 +1073,8 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1124,7 +1131,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
