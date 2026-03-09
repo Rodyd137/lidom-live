@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2170",
-    "scraped_at": "2026-03-09T18:53:58.579Z",
+    "scraped_at": "2026-03-09T18:55:02.563Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-03-09 12:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Horwitz Ponche (K) ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -198,10 +198,10 @@
             "position": ""
           },
           {
-            "id": 5854,
+            "id": 5853,
             "team_id": 21,
-            "name": "Mendlinge",
-            "abbreviation": "Mendlinge",
+            "name": "Gelof",
+            "abbreviation": "Gelof",
             "number": null,
             "dob": null,
             "height": "",
@@ -1053,10 +1053,17 @@
         "plays": [
           {
             "reference_id": "19779-2-71",
-            "text": "Horwitz al bate",
+            "text": "Horwitz Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1773082316
+            "ts": 1773082452
+          },
+          {
+            "reference_id": "19779-2-72",
+            "text": "Gelof al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773082460
           }
         ]
       }
@@ -1185,7 +1192,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
