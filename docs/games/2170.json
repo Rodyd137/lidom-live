@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2170",
-    "scraped_at": "2026-03-09T16:43:28.557Z",
+    "scraped_at": "2026-03-09T16:44:32.576Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-03-09 12:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Scherck  Out: Rodado al Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "strikes": 2,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -268,6 +268,17 @@
             "team_id": 21,
             "name": "Mervis",
             "abbreviation": "Mervis",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5886,
+            "team_id": 21,
+            "name": "Halter ",
+            "abbreviation": "Halter",
             "number": null,
             "dob": null,
             "height": "",
@@ -537,6 +548,27 @@
             "ts": 1773074372
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "19772-2-14",
+            "text": "Scherck  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773074632
+          },
+          {
+            "reference_id": "19772-2-15",
+            "text": "Carrigg al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773074635
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -560,6 +592,13 @@
         "label": "Alta 2da",
         "total_plays": 8,
         "scoring_plays": 2
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
