@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2170",
-    "scraped_at": "2026-03-09T18:42:30.362Z",
+    "scraped_at": "2026-03-09T18:43:32.933Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-03-09 12:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Rosario Out: Elevado al Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -77,10 +77,10 @@
             "position": ""
           },
           {
-            "id": 5818,
+            "id": 5742,
             "team_id": 9,
-            "name": "Keiter Marte",
-            "abbreviation": "K. Marte",
+            "name": "Aderlin Rodríguez",
+            "abbreviation": "A. Rodríguez",
             "number": null,
             "dob": null,
             "height": "",
@@ -1003,6 +1003,27 @@
             "ts": 1773081603
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "19779-1-66",
+            "text": "Rosario Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773081791
+          },
+          {
+            "reference_id": "19779-1-67",
+            "text": "Juan Soto al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773081802
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1116,6 +1137,13 @@
         "half": "bottom",
         "label": "Baja 8va",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
