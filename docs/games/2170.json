@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2170",
-    "scraped_at": "2026-03-09T18:47:42.670Z",
+    "scraped_at": "2026-03-09T18:48:45.266Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-09 12:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Manny Machado Golpeado por Pelota ",
+    "lastPlayByPlay": "Erick Gonzalez Triple! 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 4
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 2
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/c7c5d314bd780195ca2739e007b04e63.png",
         "permalink": "/equipo/republica-dominicana",
         "totals": {
-          "R": 9,
-          "H": 6,
+          "R": 10,
+          "H": 7,
           "E": 0,
           "H2": 6
         },
@@ -103,6 +103,17 @@
             "team_id": 9,
             "name": "Manny Machado",
             "abbreviation": "M. Machado",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5741,
+            "team_id": 9,
+            "name": "Erick Gonzalez",
+            "abbreviation": "E. Gonzalez",
             "number": null,
             "dob": null,
             "height": "",
@@ -322,15 +333,15 @@
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 9,
-          "H": 6,
+          "R": 10,
+          "H": 7,
           "E": 0
         },
         "home": {
@@ -375,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 9
+            "R": 10
           }
         ],
         "home": [
@@ -1021,10 +1032,17 @@
           },
           {
             "reference_id": "19779-1-69",
-            "text": "Junior Caminero al bate",
+            "text": "Erick Gonzalez Triple! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1773082074
+          },
+          {
+            "reference_id": "19779-1-70",
+            "text": "Carlos Santana al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1773081925
+            "ts": 1773082078
           }
         ]
       }
@@ -1146,8 +1164,8 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1211,7 +1229,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
