@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2170",
-    "scraped_at": "2026-03-09T17:10:11.446Z",
+    "scraped_at": "2026-03-09T17:11:16.219Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-09 12:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Agustín Ramírez  Doble! Jardinero Izquierdo",
+    "lastPlayByPlay": "Agustín Ramírez  Out Robando Base! Lanzador - Tercera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 1
+      "balls": 1,
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -661,10 +661,17 @@
           },
           {
             "reference_id": "19774-1-26",
+            "text": "Agustín Ramírez  Out Robando Base! Lanzador - Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773076230
+          },
+          {
+            "reference_id": "19774-1-27",
             "text": "Geraldo Perdomo al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1773076108
+            "ts": 1773076235
           }
         ]
       }
@@ -716,7 +723,7 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 1
       }
     ],
