@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2170",
-    "scraped_at": "2026-03-09T17:16:35.301Z",
+    "scraped_at": "2026-03-09T17:17:39.281Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-09 12:00:00",
-    "roundText": "Alta 4ta",
+    "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Geraldo Perdomo  Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "Horwitz Cuadrangular! ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 6
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Brayan Bello ",
           "era": "",
           "record": "",
           "debut": false
@@ -174,13 +174,13 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/59c24ede4d7bd817ae0aa79df4d7da5f.png",
         "permalink": "/equipo/israel",
         "totals": {
-          "R": 0,
-          "H": 0,
+          "R": 1,
+          "H": 1,
           "E": 0,
-          "H2": 0
+          "H2": 1
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Ryan Prager ",
           "era": "",
           "record": "",
           "debut": false
@@ -309,7 +309,7 @@
         {
           "num": 4,
           "away": 1,
-          "home": 0
+          "home": 1
         },
         {
           "num": 5,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 0,
-          "H": 0,
+          "R": 1,
+          "H": 1,
           "E": 0
         }
       },
@@ -404,27 +404,27 @@
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 1
           },
           {
             "num": 6,
-            "R": 0
+            "R": 1
           },
           {
             "num": 7,
-            "R": 0
+            "R": 1
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ]
       }
@@ -674,6 +674,27 @@
             "ts": 1773076368
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19774-2-28",
+            "text": "Horwitz Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1773076638
+          },
+          {
+            "reference_id": "19774-2-29",
+            "text": "Mendlinge al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773076644
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -725,6 +746,13 @@
         "label": "Alta 4ta",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 2,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -751,10 +779,10 @@
       },
       {
         "num": 4,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 5,
