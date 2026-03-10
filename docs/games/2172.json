@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2172",
-    "scraped_at": "2026-03-10T02:43:20.168Z",
+    "scraped_at": "2026-03-10T02:44:23.776Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-09 20:00:00",
-    "roundText": "Baja 7ma",
-    "currentInningNum": 7,
-    "lastPlayByPlay": "Byron Buxton Ponche (K) ",
+    "roundText": "Alta 8va",
+    "currentInningNum": 8,
+    "lastPlayByPlay": "Jarren Duran  Cuadrangular! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/4a9533cbf5e05f2abc7515331906d891.png",
         "permalink": "/equipo/mexico",
         "totals": {
-          "R": 2,
-          "H": 5,
+          "R": 3,
+          "H": 6,
           "E": 0,
           "H2": 0
         },
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 2,
-          "H": 5,
+          "R": 3,
+          "H": 6,
           "E": 0
         },
         "home": {
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 2
+            "R": 3
           },
           {
             "num": 9,
-            "R": 2
+            "R": 3
           }
         ],
         "home": [
@@ -968,6 +968,27 @@
             "ts": 1773110425
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "19796-1-63",
+            "text": "Jarren Duran  Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1773110626
+          },
+          {
+            "reference_id": "19796-1-64",
+            "text": "Randy Arozarena  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773110630
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1068,6 +1089,13 @@
         "label": "Baja 7ma",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1116,15 +1144,15 @@
       {
         "num": 7,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 8,
         "part": 1,
-        "is_last": 0,
-        "awayTeamRuns": 0,
+        "is_last": 1,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
