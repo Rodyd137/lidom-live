@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2171",
-    "scraped_at": "2026-03-12T03:00:38.578Z",
+    "scraped_at": "2026-03-12T03:01:42.288Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-11 20:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Chourio  Base por Bolas ",
+    "lastPlayByPlay": "Acuña  Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": false,
+      "on1B": true,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -1130,10 +1130,17 @@
           },
           {
             "reference_id": "19788-2-85",
-            "text": "Acuña  al bate",
+            "text": "Acuña  Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1773284221
+            "ts": 1773284446
+          },
+          {
+            "reference_id": "19788-2-86",
+            "text": "Garcia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773284447
           }
         ]
       }
@@ -1262,7 +1269,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
