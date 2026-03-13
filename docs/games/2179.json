@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2179",
-    "scraped_at": "2026-03-13T22:59:47.384Z",
+    "scraped_at": "2026-03-13T23:00:50.087Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -169,6 +169,17 @@
             "team_id": 9,
             "name": "Juan Soto",
             "abbreviation": "J. Soto",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5822,
+            "team_id": 9,
+            "name": "Vladimir Guerrero  Jr.",
+            "abbreviation": "V. Guerrero  Jr.",
             "number": null,
             "dob": null,
             "height": "",
@@ -375,6 +386,20 @@
             "ts": 1773442751
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "19854-2-7",
+            "text": "Vladimir Guerrero  Jr. al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773442793
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -390,6 +415,13 @@
         "half": "top",
         "label": "Alta 2da",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
