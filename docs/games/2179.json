@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2179",
-    "scraped_at": "2026-03-13T23:44:51.811Z",
+    "scraped_at": "2026-03-13T23:46:31.417Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-13 18:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Agustín Ramírez  Ponche (K) ",
+    "lastPlayByPlay": "Geraldo Perdomo Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 8
     },
     "base_runners": {
       "on1B": true,
       "on2B": true,
-      "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "on3B": true,
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -622,10 +622,17 @@
           },
           {
             "reference_id": "19855-2-25",
-            "text": "Geraldo Perdomo al bate",
+            "text": "Geraldo Perdomo Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1773445425
+            "ts": 1773445559
+          },
+          {
+            "reference_id": "19855-2-26",
+            "text": "Fernando Tatis Jr. al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773445568
           }
         ]
       }
@@ -663,7 +670,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 7,
+        "total_plays": 8,
         "scoring_plays": 2
       }
     ],
