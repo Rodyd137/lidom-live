@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2179",
-    "scraped_at": "2026-03-13T23:01:53.727Z",
+    "scraped_at": "2026-03-13T23:02:56.422Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-03-13 18:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Vladimir Guerrero  Jr. Base por Bolas ",
+    "lastPlayByPlay": "Manny Machado Out: Elevado al Jardinero Izquierdo",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 1,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -191,6 +191,17 @@
             "team_id": 9,
             "name": "Manny Machado",
             "abbreviation": "M. Machado",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5826,
+            "team_id": 9,
+            "name": "Junior Caminero",
+            "abbreviation": "J. Caminero",
             "number": null,
             "dob": null,
             "height": "",
@@ -412,10 +423,17 @@
           },
           {
             "reference_id": "19854-2-8",
-            "text": "Manny Machado al bate",
+            "text": "Manny Machado Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1773442879
+            "ts": 1773442933
+          },
+          {
+            "reference_id": "19854-2-9",
+            "text": "Junior Caminero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773442961
           }
         ]
       }
@@ -439,7 +457,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
