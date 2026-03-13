@@ -1,24 +1,24 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2179",
-    "scraped_at": "2026-03-13T22:20:56.280Z",
+    "scraped_at": "2026-03-13T22:49:19.541Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2179,
     "season_id": 22,
-    "status": 1,
+    "status": 2,
     "date": "2026-03-13 18:30:00",
-    "roundText": "Alta 1ra",
+    "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Fernando Tatis Jr. Ponche (K) ",
     "counts": {
-      "balls": 0,
+      "balls": 2,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,9 +59,9 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": null,
-          "era": null,
-          "record": null,
+          "pitcher": "",
+          "era": "",
+          "record": "",
           "debut": false
         },
         "players": []
@@ -80,12 +80,35 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": null,
-          "era": null,
-          "record": null,
+          "pitcher": "",
+          "era": "",
+          "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5816,
+            "team_id": 9,
+            "name": "Fernando Tatis Jr.",
+            "abbreviation": "F. Tatis Jr",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5818,
+            "team_id": 9,
+            "name": "Keiter Marte",
+            "abbreviation": "K. Marte",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       }
     },
     "comment": "",
@@ -229,12 +252,42 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "19853-2-1",
+            "text": "Fernando Tatis Jr. Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773442137
+          },
+          {
+            "reference_id": "19853-2-2",
+            "text": "Keiter Marte al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773442146
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 2,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
