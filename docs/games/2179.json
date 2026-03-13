@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2179",
-    "scraped_at": "2026-03-13T23:00:50.087Z",
+    "scraped_at": "2026-03-13T23:01:53.727Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-03-13 18:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Vladimir Guerrero  Jr. Base por Bolas ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -180,6 +180,17 @@
             "team_id": 9,
             "name": "Vladimir Guerrero  Jr.",
             "abbreviation": "V. Guerrero  Jr.",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5824,
+            "team_id": 9,
+            "name": "Manny Machado",
+            "abbreviation": "M. Machado",
             "number": null,
             "dob": null,
             "height": "",
@@ -394,10 +405,17 @@
         "plays": [
           {
             "reference_id": "19854-2-7",
-            "text": "Vladimir Guerrero  Jr. al bate",
+            "text": "Vladimir Guerrero  Jr. Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1773442793
+            "ts": 1773442852
+          },
+          {
+            "reference_id": "19854-2-8",
+            "text": "Manny Machado al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773442879
           }
         ]
       }
@@ -421,7 +439,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
