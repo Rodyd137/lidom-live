@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2179",
-    "scraped_at": "2026-03-13T23:47:33.811Z",
+    "scraped_at": "2026-03-13T23:48:35.876Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-03-13 18:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Geraldo Perdomo Base por Bolas ",
+    "lastPlayByPlay": "Fernando Tatis Jr. Base por Bolas Carrera Empujada",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 2
     },
     "base_state": {
@@ -629,10 +629,17 @@
           },
           {
             "reference_id": "19855-2-26",
-            "text": "Fernando Tatis Jr. al bate",
+            "text": "Fernando Tatis Jr. Base por Bolas Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1773445661
+          },
+          {
+            "reference_id": "19855-2-27",
+            "text": "Keiter Marte al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1773445568
+            "ts": 1773445669
           }
         ]
       }
@@ -670,8 +677,8 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 8,
-        "scoring_plays": 2
+        "total_plays": 9,
+        "scoring_plays": 3
       }
     ],
     "innings_raw": [
