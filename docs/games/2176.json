@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2176",
-    "scraped_at": "2026-03-14T02:09:02.295Z",
+    "scraped_at": "2026-03-14T02:10:04.805Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-13 20:00:00",
-    "roundText": "Baja 6ta",
-    "currentInningNum": 6,
-    "lastPlayByPlay": "Naylor Cuadrangular! 2 Carreras Impulsadas ",
+    "roundText": "Alta 7ma",
+    "currentInningNum": 7,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 2
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -885,10 +885,24 @@
           },
           {
             "reference_id": "19831-2-55",
-            "text": "Clarke al bate",
+            "text": "Clarke  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1773454032
+            "ts": 1773454192
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "19832-1-56",
+            "text": "Bryce Harper al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773454199
           }
         ]
       }
@@ -977,6 +991,13 @@
         "label": "Baja 6ta",
         "total_plays": 6,
         "scoring_plays": 2
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1018,14 +1039,14 @@
       {
         "num": 6,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 2,
         "homeTeamRuns": 3
       },
       {
         "num": 7,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
