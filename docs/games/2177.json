@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2177",
-    "scraped_at": "2026-03-14T20:39:04.233Z",
+    "scraped_at": "2026-03-14T20:41:21.681Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-03-14 15:00:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Thomas Saggese Ponche (K) ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -737,6 +737,27 @@
             "ts": 1773520560
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19838-2-38",
+            "text": "Thomas Saggese Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773520793
+          },
+          {
+            "reference_id": "19838-2-39",
+            "text": "Jacok Marsee al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773520796
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -787,6 +808,13 @@
         "half": "top",
         "label": "Alta 4ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
