@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2177",
-    "scraped_at": "2026-03-14T20:12:56.900Z",
+    "scraped_at": "2026-03-14T20:13:59.746Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-03-14 15:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Nolan Arenado  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
@@ -639,6 +639,27 @@
             "ts": 1773518993
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19837-1-27",
+            "text": "Nolan Arenado  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773519185
+          },
+          {
+            "reference_id": "19837-1-28",
+            "text": "Carlos Andres Cortes al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773519189
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -668,6 +689,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
