@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2177",
-    "scraped_at": "2026-03-14T21:57:07.048Z",
+    "scraped_at": "2026-03-14T21:58:11.087Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-03-14 15:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Carlos Andres Cortes Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/puerto-rico",
         "totals": {
           "R": 2,
-          "H": 3,
+          "H": 4,
           "E": 0,
           "H2": 2
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 2,
-          "H": 3,
+          "H": 4,
           "E": 0
         },
         "home": {
@@ -989,6 +989,27 @@
             "ts": 1773525287
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "19842-1-67",
+            "text": "Carlos Andres Cortes Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773525484
+          },
+          {
+            "reference_id": "19842-1-68",
+            "text": "Emmanuel Rivera al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773525488
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1088,6 +1109,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
