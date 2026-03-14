@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2176",
-    "scraped_at": "2026-03-14T00:43:24.884Z",
+    "scraped_at": "2026-03-14T00:44:26.901Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estados-unidos",
         "totals": {
           "R": 1,
-          "H": 1,
+          "H": 2,
           "E": 0,
           "H2": 1
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 1,
-          "H": 1,
+          "H": 2,
           "E": 0
         },
         "home": {
@@ -576,6 +576,20 @@
             "ts": 1773448872
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19828-1-18",
+            "text": "Pete Henry Crow-Armstrong  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773449055
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -605,6 +619,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
