@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2177",
-    "scraped_at": "2026-03-14T19:40:29.063Z",
+    "scraped_at": "2026-03-14T19:41:31.213Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-14 15:00:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Heliot Ramos  Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -114,6 +114,17 @@
             "team_id": 10,
             "name": "Emmanuel Rivera",
             "abbreviation": "E. Rivera",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 4740,
+            "team_id": 10,
+            "name": "Heliot Ramos ",
+            "abbreviation": "H. Ramos",
             "number": null,
             "dob": null,
             "height": "",
@@ -498,10 +509,17 @@
         "plays": [
           {
             "reference_id": "19836-1-14",
-            "text": "Emmanuel Rivera al bate",
+            "text": "Emmanuel Rivera Out: Elevado al Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1773517213
+            "ts": 1773517243
+          },
+          {
+            "reference_id": "19836-1-15",
+            "text": "Heliot Ramos  Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773517263
           }
         ]
       }
@@ -525,7 +543,7 @@
         "num": 2,
         "half": "top",
         "label": "Alta 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
