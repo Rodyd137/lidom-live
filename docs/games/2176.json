@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2176",
-    "scraped_at": "2026-03-14T01:34:58.748Z",
+    "scraped_at": "2026-03-14T01:36:00.864Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-13 20:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Julien Base por Bolas ",
+    "lastPlayByPlay": "Lopez  Out: Rodado al Primera Base",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -780,10 +780,17 @@
           },
           {
             "reference_id": "19830-2-42",
-            "text": "Lopez al bate",
+            "text": "Lopez  Out: Rodado al Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1773451935
+            "ts": 1773452127
+          },
+          {
+            "reference_id": "19830-2-43",
+            "text": "Naylor al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773452136
           }
         ]
       }
@@ -856,7 +863,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
