@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2176",
-    "scraped_at": "2026-03-14T00:40:18.705Z",
+    "scraped_at": "2026-03-14T00:41:20.931Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-13 20:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Naylor Sencillo Jardinero Izquierdo",
+    "lastPlayByPlay": "Julien Out: Línea al Campo Corto",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 1
+      "strikes": 0,
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -563,10 +563,17 @@
           },
           {
             "reference_id": "19827-2-16",
-            "text": "Clarke al bate",
+            "text": "Clarke  Out: Rodado al Campo Corto - Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1773448745
+            "ts": 1773448835
+          },
+          {
+            "reference_id": "19827-2-17",
+            "text": "Julien Out: Línea al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773448872
           }
         ]
       }
@@ -597,7 +604,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -689,7 +696,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/c7c5d314bd780195ca2739e007b04e63.png",
           "runs": 7,
           "hits": 7,
-          "errors": 0,
+          "errors": 1,
           "permalink": "/equipo/republica-dominicana"
         }
       }
