@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2176",
-    "scraped_at": "2026-03-14T01:57:40.746Z",
+    "scraped_at": "2026-03-14T01:58:42.863Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-03-13 20:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "O'Neil  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "Caissie Base por Bolas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -857,10 +857,17 @@
           },
           {
             "reference_id": "19831-2-51",
-            "text": "Caissie al bate",
+            "text": "Caissie Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1773453454
+            "ts": 1773453498
+          },
+          {
+            "reference_id": "19831-2-52",
+            "text": "Toro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773453512
           }
         ]
       }
@@ -947,7 +954,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
