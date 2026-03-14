@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2177",
-    "scraped_at": "2026-03-14T19:39:26.723Z",
+    "scraped_at": "2026-03-14T19:40:29.063Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-14 15:00:00",
-    "roundText": "Baja 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "J. J. D Orazio Elevado de Sacrificio Carrera Empujada",
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "balls": 3,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 5
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -103,6 +103,17 @@
             "team_id": 10,
             "name": "Carlos Andres Cortes",
             "abbreviation": "C. A. Cortes",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 4077,
+            "team_id": 10,
+            "name": "Emmanuel Rivera",
+            "abbreviation": "E. Rivera",
             "number": null,
             "dob": null,
             "height": "",
@@ -213,6 +224,17 @@
             "team_id": 24,
             "name": "J. J. D Orazio",
             "abbreviation": "J. J. D Orazio",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5958,
+            "team_id": 24,
+            "name": "Dante Nori",
+            "abbreviation": "Dante Nori",
             "number": null,
             "dob": null,
             "height": "",
@@ -459,6 +481,27 @@
             "scored": true,
             "is_primary": true,
             "ts": 1773517141
+          },
+          {
+            "reference_id": "19835-2-13",
+            "text": "Dante Nori Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773517196
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19836-1-14",
+            "text": "Emmanuel Rivera al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773517213
           }
         ]
       }
@@ -475,22 +518,29 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 8,
+        "total_plays": 9,
         "scoring_plays": 4
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
       {
         "num": 1,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 4
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
