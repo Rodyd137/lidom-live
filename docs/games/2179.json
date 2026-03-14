@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2179",
-    "scraped_at": "2026-03-14T00:47:32.326Z",
+    "scraped_at": "2026-03-14T00:48:34.118Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 7,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -209,10 +209,10 @@
             "position": ""
           },
           {
-            "id": 5822,
+            "id": 5840,
             "team_id": 9,
-            "name": "Vladimir Guerrero  Jr.",
-            "abbreviation": "V. Guerrero  Jr.",
+            "name": "Carlos Santana",
+            "abbreviation": "C. Santana",
             "number": null,
             "dob": null,
             "height": "",
@@ -852,6 +852,20 @@
             "ts": 1773449102
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "19859-2-52",
+            "text": "Carlos Santana al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773449290
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -937,6 +951,13 @@
         "half": "top",
         "label": "Alta 7ma",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
