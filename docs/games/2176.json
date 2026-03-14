@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2176",
-    "scraped_at": "2026-03-14T00:15:30.112Z",
+    "scraped_at": "2026-03-14T00:16:32.079Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-13 20:00:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Aaron Judge Doble! Jardinero Izquierdo",
+    "lastPlayByPlay": "Alex Bregman  Out: Elevado al Segunda Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 4
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -103,6 +103,17 @@
             "team_id": 23,
             "name": "Kyle Schwarber",
             "abbreviation": "K. Schwarber",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5896,
+            "team_id": 23,
+            "name": "Alex Bregman ",
+            "abbreviation": "A. Bregman",
             "number": null,
             "dob": null,
             "height": "",
@@ -303,10 +314,17 @@
           },
           {
             "reference_id": "19826-1-4",
-            "text": "Kyle Schwarber al bate",
+            "text": "Kyle Schwarber  Out: Rodado al Segunda Base - Primera Base - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1773447346
+          },
+          {
+            "reference_id": "19826-1-5",
+            "text": "Alex Bregman  Out: Elevado al Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1773447263
+            "ts": 1773447366
           }
         ]
       }
@@ -316,8 +334,8 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
