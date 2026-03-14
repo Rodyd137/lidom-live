@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2177",
-    "scraped_at": "2026-03-14T22:23:28.463Z",
+    "scraped_at": "2026-03-14T22:24:31.386Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-03-14 15:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Sam Antonacci  Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -1059,6 +1059,27 @@
             "ts": 1773526859
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "19842-2-76",
+            "text": "Sam Antonacci  Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773527043
+          },
+          {
+            "reference_id": "19842-2-77",
+            "text": "Thomas Saggese al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773527048
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1166,6 +1187,13 @@
         "label": "Alta 8va",
         "total_plays": 9,
         "scoring_plays": 2
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
