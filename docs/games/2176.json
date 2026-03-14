@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2176",
-    "scraped_at": "2026-03-14T00:12:24.033Z",
+    "scraped_at": "2026-03-14T00:13:25.904Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2176,
     "season_id": 22,
-    "status": 3,
+    "status": 2,
     "date": "2026-03-13 20:00:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Bryce Harper Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -64,7 +64,30 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5892,
+            "team_id": 23,
+            "name": "Boddy Witt Jr",
+            "abbreviation": "B. Witt",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5893,
+            "team_id": 23,
+            "name": "Bryce Harper",
+            "abbreviation": "B. Harper",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       },
       "home": {
         "id": 22,
@@ -229,8 +252,38 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "19826-1-1",
+            "text": "Boddy Witt Jr Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773447183
+          },
+          {
+            "reference_id": "19826-1-2",
+            "text": "Bryce Harper Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773447200
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 2,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,

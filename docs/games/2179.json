@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2179",
-    "scraped_at": "2026-03-14T00:12:24.024Z",
+    "scraped_at": "2026-03-14T00:13:25.875Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-03-13 18:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Shay Whitcombs Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -121,10 +121,10 @@
             "position": ""
           },
           {
-            "id": 5929,
+            "id": 5928,
             "team_id": 25,
-            "name": "Hyeseong Kim",
-            "abbreviation": "H. Kim",
+            "name": "Shay Whitcombs",
+            "abbreviation": "S. Whitcombs",
             "number": null,
             "dob": null,
             "height": "",
@@ -132,10 +132,10 @@
             "position": ""
           },
           {
-            "id": 5930,
+            "id": 5929,
             "team_id": 25,
-            "name": "Dong Won Park",
-            "abbreviation": "D. W. Park",
+            "name": "Hyeseong Kim",
+            "abbreviation": "H. Kim",
             "number": null,
             "dob": null,
             "height": "",
@@ -712,6 +712,27 @@
             "ts": 1773446968
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19857-1-37",
+            "text": "Shay Whitcombs Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773447182
+          },
+          {
+            "reference_id": "19857-1-38",
+            "text": "Hyeseong Kim al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773447191
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -762,6 +783,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -834,7 +862,7 @@
       {
         "id": 2176,
         "date": "2026-03-13 20:00:00",
-        "status": 3,
+        "status": 2,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 23,
