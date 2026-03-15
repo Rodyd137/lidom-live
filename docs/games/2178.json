@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2178",
-    "scraped_at": "2026-03-15T03:48:45.743Z",
+    "scraped_at": "2026-03-15T03:49:49.703Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-14 21:00:00",
-    "roundText": "Baja 7ma",
-    "currentInningNum": 7,
-    "lastPlayByPlay": "Takushichi Sato  Out: Rodado al Campo Corto - Primera Base",
+    "roundText": "Alta 8va",
+    "currentInningNum": 8,
+    "lastPlayByPlay": "Tovar se embasa por Error del Lanzador - Carrera Empujada",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 1
+      "battingTeam": "awayTeam",
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/fa5ccb26f0dc095843644942bde4b7cd.png",
         "permalink": "/equipo/venezuela",
         "totals": {
-          "R": 7,
-          "H": 8,
+          "R": 8,
+          "H": 9,
           "E": 0,
           "H2": 4
         },
@@ -176,7 +176,7 @@
         "totals": {
           "R": 5,
           "H": 5,
-          "E": 0,
+          "E": 1,
           "H2": 5
         },
         "probables": {
@@ -317,7 +317,7 @@
         },
         {
           "num": 8,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -329,14 +329,14 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 7,
-          "H": 8,
+          "R": 8,
+          "H": 9,
           "E": 0
         },
         "home": {
           "R": 5,
           "H": 5,
-          "E": 0
+          "E": 1
         }
       },
       "cumulative": {
@@ -371,11 +371,11 @@
           },
           {
             "num": 8,
-            "R": 7
+            "R": 8
           },
           {
             "num": 9,
-            "R": 7
+            "R": 8
           }
         ],
         "home": [
@@ -929,6 +929,34 @@
             "ts": 1773546113
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "19851-1-62",
+            "text": "Tovar Doble! Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773546546
+          },
+          {
+            "reference_id": "19851-1-63",
+            "text": "Tovar se embasa por Error del Lanzador - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1773546572
+          },
+          {
+            "reference_id": "19851-1-64",
+            "text": "Torres  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773546576
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1029,6 +1057,13 @@
         "label": "Baja 7ma",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 3,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1077,15 +1112,15 @@
       {
         "num": 7,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 8,
         "part": 1,
-        "is_last": 0,
-        "awayTeamRuns": 0,
+        "is_last": 1,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
