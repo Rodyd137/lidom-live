@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2178",
-    "scraped_at": "2026-03-15T03:19:56.418Z",
+    "scraped_at": "2026-03-15T03:21:00.531Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-14 21:00:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Acuña  Ponche (K) ",
+    "lastPlayByPlay": "Murakami Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/japon",
         "totals": {
           "R": 5,
-          "H": 4,
+          "H": 5,
           "E": 0,
           "H2": 5
         },
@@ -335,7 +335,7 @@
         },
         "home": {
           "R": 5,
-          "H": 4,
+          "H": 5,
           "E": 0
         }
       },
@@ -845,6 +845,27 @@
             "ts": 1773544501
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "19849-2-53",
+            "text": "Murakami Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773544802
+          },
+          {
+            "reference_id": "19849-2-54",
+            "text": "Maki al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773544804
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -924,6 +945,13 @@
         "label": "Alta 6ta",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -964,7 +992,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 3,
         "homeTeamRuns": 0
