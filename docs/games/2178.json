@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2178",
-    "scraped_at": "2026-03-15T03:49:49.703Z",
+    "scraped_at": "2026-03-15T03:50:53.774Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-14 21:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Tovar se embasa por Error del Lanzador - Carrera Empujada",
+    "lastPlayByPlay": "Abreu Out: Elevado al Jardinero Derecho ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 2,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -951,10 +951,24 @@
           },
           {
             "reference_id": "19851-1-64",
-            "text": "Torres  al bate",
+            "text": "Torres  Out: Línea al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1773546576
+            "ts": 1773546594
+          },
+          {
+            "reference_id": "19851-1-65",
+            "text": "Abreu Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773546614
+          },
+          {
+            "reference_id": "19851-1-66",
+            "text": "Perez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773546620
           }
         ]
       }
@@ -1062,7 +1076,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 3,
+        "total_plays": 5,
         "scoring_plays": 1
       }
     ],
