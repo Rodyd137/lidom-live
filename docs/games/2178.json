@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2178",
-    "scraped_at": "2026-03-15T04:00:31.334Z",
+    "scraped_at": "2026-03-15T04:01:35.662Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-14 21:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Murakami Sencillo Jardinero Izquierdo",
+    "lastPlayByPlay": "Maki  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -1018,10 +1018,24 @@
           },
           {
             "reference_id": "19851-2-71",
-            "text": "Maki al bate",
+            "text": "Maki  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1773547169
+            "ts": 1773547261
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "19852-1-72",
+            "text": "Chourio  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773547272
           }
         ]
       }
@@ -1138,6 +1152,13 @@
         "label": "Baja 8va",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1207,29 +1228,29 @@
     ],
     "siblingGames": [
       {
-        "id": 2177,
-        "date": "2026-03-14 15:00:00",
-        "status": 6,
-        "roundText": "Alta 9na",
+        "id": 2180,
+        "date": "2026-03-15 20:00:00",
+        "status": 1,
+        "roundText": "Alta 1ra",
         "awayTeam": {
-          "id": 10,
-          "name": "Puerto Rico",
-          "abbr": "PUR",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/8f6f2a20b0b9cd88bcff3b93bdd9c615.png",
-          "runs": 6,
-          "hits": 7,
+          "id": 23,
+          "name": "Estados Unidos",
+          "abbr": "EEUU",
+          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/090e807f0266538951b8e582756b7a40.png",
+          "runs": 0,
+          "hits": 0,
           "errors": 0,
-          "permalink": "/equipo/puerto-rico"
+          "permalink": "/equipo/estados-unidos"
         },
         "homeTeam": {
-          "id": 24,
-          "name": "Italia",
-          "abbr": "ITA",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/ffd41a6ffc47642d4a8bd42b63560773.png",
-          "runs": 8,
-          "hits": 8,
-          "errors": 1,
-          "permalink": "/equipo/italia"
+          "id": 9,
+          "name": "Dominicana",
+          "abbr": "DOM",
+          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/c7c5d314bd780195ca2739e007b04e63.png",
+          "runs": 0,
+          "hits": 0,
+          "errors": 0,
+          "permalink": "/equipo/republica-dominicana"
         }
       }
     ],
