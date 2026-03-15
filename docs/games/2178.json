@@ -1,32 +1,32 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2178",
-    "scraped_at": "2026-03-14T23:56:02.348Z",
+    "scraped_at": "2026-03-15T02:30:46.861Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2178,
     "season_id": 22,
-    "status": 3,
+    "status": 2,
     "date": "2026-03-14 21:00:00",
-    "roundText": "Alta 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "roundText": "Baja 4ta",
+    "currentInningNum": 4,
+    "lastPlayByPlay": "Maki Out: Elevado al Jardinero Derecho ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 1
+      "battingTeam": "homeTeam",
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/fa5ccb26f0dc095843644942bde4b7cd.png",
         "permalink": "/equipo/venezuela",
         "totals": {
-          "R": 0,
-          "H": 0,
+          "R": 2,
+          "H": 4,
           "E": 0,
-          "H2": 0
+          "H2": 2
         },
         "probables": {
           "pitcher": "Ranger Suarez ",
@@ -174,10 +174,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/a3a90135a3ffa75617009560d78b9b6a.png",
         "permalink": "/equipo/japon",
         "totals": {
-          "R": 0,
-          "H": 0,
+          "R": 5,
+          "H": 4,
           "E": 0,
-          "H2": 0
+          "H2": 5
         },
         "probables": {
           "pitcher": "Yoshinobu Yamamoto ",
@@ -293,18 +293,18 @@
       "innings": [
         {
           "num": 1,
-          "away": 0,
-          "home": 0
+          "away": 1,
+          "home": 1
         },
         {
           "num": 2,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
           "num": 3,
           "away": 0,
-          "home": 0
+          "home": 4
         },
         {
           "num": 4,
@@ -340,13 +340,13 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 0,
+          "R": 2,
+          "H": 4,
           "E": 0
         },
         "home": {
-          "R": 0,
-          "H": 0,
+          "R": 5,
+          "H": 4,
           "E": 0
         }
       },
@@ -354,77 +354,77 @@
         "away": [
           {
             "num": 1,
-            "R": 0
+            "R": 1
           },
           {
             "num": 2,
-            "R": 0
+            "R": 2
           },
           {
             "num": 3,
-            "R": 0
+            "R": 2
           },
           {
             "num": 4,
-            "R": 0
+            "R": 2
           },
           {
             "num": 5,
-            "R": 0
+            "R": 2
           },
           {
             "num": 6,
-            "R": 0
+            "R": 2
           },
           {
             "num": 7,
-            "R": 0
+            "R": 2
           },
           {
             "num": 8,
-            "R": 0
+            "R": 2
           },
           {
             "num": 9,
-            "R": 0
+            "R": 2
           }
         ],
         "home": [
           {
             "num": 1,
-            "R": 0
+            "R": 1
           },
           {
             "num": 2,
-            "R": 0
+            "R": 1
           },
           {
             "num": 3,
-            "R": 0
+            "R": 5
           },
           {
             "num": 4,
-            "R": 0
+            "R": 5
           },
           {
             "num": 5,
-            "R": 0
+            "R": 5
           },
           {
             "num": 6,
-            "R": 0
+            "R": 5
           },
           {
             "num": 7,
-            "R": 0
+            "R": 5
           },
           {
             "num": 8,
-            "R": 0
+            "R": 5
           },
           {
             "num": 9,
-            "R": 0
+            "R": 5
           }
         ]
       }
@@ -437,10 +437,276 @@
         "plays": [
           {
             "reference_id": "19844-1-1",
-            "text": "Acuña  al bate",
+            "text": "Acuña  Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1773537046
+          },
+          {
+            "reference_id": "19844-1-2",
+            "text": "Garcia Out: Elevado al Tercera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1773530810
+            "ts": 1773537095
+          },
+          {
+            "reference_id": "19844-1-3",
+            "text": "Arraez Out: Elevado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773537282
+          },
+          {
+            "reference_id": "19844-1-4",
+            "text": "Suarez   Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773537463
+          }
+        ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "19844-2-5",
+            "text": "Ohtani Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1773537597
+          },
+          {
+            "reference_id": "19844-2-6",
+            "text": "Takushichi Sato Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773537731
+          },
+          {
+            "reference_id": "19844-2-7",
+            "text": "Suzuki Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773537881
+          },
+          {
+            "reference_id": "19844-2-8",
+            "text": "Yoshida Ponche (K) Out Robando Base! - Receptor - Segunda Base - Doble Play!",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773538057
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19845-1-9",
+            "text": "Tovar Doble! Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773538272
+          },
+          {
+            "reference_id": "19845-1-10",
+            "text": "Torres  Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1773538490
+          },
+          {
+            "reference_id": "19845-1-11",
+            "text": "Abreu Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773538605
+          },
+          {
+            "reference_id": "19845-1-12",
+            "text": "Perez Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773538683
+          },
+          {
+            "reference_id": "19845-1-13",
+            "text": "Chourio  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773538807
+          },
+          {
+            "reference_id": "19845-1-14",
+            "text": "Acuña   Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773538964
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "19845-2-15",
+            "text": "Okamoto Out: Línea al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773539113
+          },
+          {
+            "reference_id": "19845-2-16",
+            "text": "Murakami Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773539179
+          },
+          {
+            "reference_id": "19845-2-17",
+            "text": "Maki Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773539214
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19846-1-18",
+            "text": "Garcia Doble! Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773539494
+          },
+          {
+            "reference_id": "19846-1-19",
+            "text": "Arraez  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773539683
+          },
+          {
+            "reference_id": "19846-1-20",
+            "text": "Suarez  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773539777
+          },
+          {
+            "reference_id": "19846-1-21",
+            "text": "Tovar Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773539886
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "19846-2-22",
+            "text": "Genda Base por Bolas y Carrera Impulsada ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773540183
+          },
+          {
+            "reference_id": "19846-2-23",
+            "text": "Wakatsuzi Toque de Sacrificio Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773540249
+          },
+          {
+            "reference_id": "19846-2-24",
+            "text": "Ohtani Base por Bolas Intencional ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773540308
+          },
+          {
+            "reference_id": "19846-2-25",
+            "text": "Takushichi Sato Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1773540423
+          },
+          {
+            "reference_id": "19846-2-26",
+            "text": "Suzuki Cuadrangular! 3 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1773540587
+          },
+          {
+            "reference_id": "19846-2-27",
+            "text": "Yoshida  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773540698
+          },
+          {
+            "reference_id": "19846-2-28",
+            "text": "Okamoto  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773541122
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "19847-1-29",
+            "text": "Torres   Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773541144
+          },
+          {
+            "reference_id": "19847-1-30",
+            "text": "Abreu Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773541193
+          },
+          {
+            "reference_id": "19847-1-31",
+            "text": "Perez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773541610
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19847-2-32",
+            "text": "Maki Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773541685
           }
         ]
       }
@@ -450,6 +716,55 @@
         "num": 1,
         "half": "top",
         "label": "Alta 1ra",
+        "total_plays": 4,
+        "scoring_plays": 1
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 4,
+        "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 6,
+        "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 7,
+        "scoring_plays": 2
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
         "total_plays": 1,
         "scoring_plays": 0
       }
@@ -457,29 +772,29 @@
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
-        "is_last": 1,
-        "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "part": 2,
+        "is_last": 0,
+        "awayTeamRuns": 1,
+        "homeTeamRuns": 1
       },
       {
         "num": 2,
-        "part": 1,
+        "part": 2,
         "is_last": 0,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 0,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 4
       },
       {
         "num": 4,
-        "part": 1,
-        "is_last": 0,
+        "part": 2,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
