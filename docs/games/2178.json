@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2178",
-    "scraped_at": "2026-03-15T03:35:57.063Z",
+    "scraped_at": "2026-03-15T03:37:01.899Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-03-14 21:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Wakatsuzi Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -901,6 +901,27 @@
             "ts": 1773545504
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "19850-2-59",
+            "text": "Wakatsuzi Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773545811
+          },
+          {
+            "reference_id": "19850-2-60",
+            "text": "Ohtani al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773545813
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -993,6 +1014,13 @@
         "half": "top",
         "label": "Alta 7ma",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
