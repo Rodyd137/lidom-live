@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2181",
-    "scraped_at": "2026-03-17T02:34:23.683Z",
+    "scraped_at": "2026-03-17T02:35:27.907Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-16 20:00:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Abreu Ponche (K) ",
+    "lastPlayByPlay": "Jac Caglianone Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 2
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -990,10 +990,24 @@
         "plays": [
           {
             "reference_id": "19878-2-67",
-            "text": "Dezenzo al bate",
+            "text": "Dezenzo  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1773714812
+            "ts": 1773714869
+          },
+          {
+            "reference_id": "19878-2-68",
+            "text": "Jac Caglianone Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773714894
+          },
+          {
+            "reference_id": "19878-2-69",
+            "text": "Andrew Fischer al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773714897
           }
         ]
       }
@@ -1108,7 +1122,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -1164,7 +1178,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
