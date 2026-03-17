@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2181",
-    "scraped_at": "2026-03-17T02:27:59.460Z",
+    "scraped_at": "2026-03-17T02:29:04.449Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-03-16 20:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Tovar Out: Elevado al Jardinero Derecho ",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -962,10 +962,17 @@
         "plays": [
           {
             "reference_id": "19878-1-64",
-            "text": "Tovar al bate",
+            "text": "Tovar Out: Elevado al Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1773714412
+            "ts": 1773714490
+          },
+          {
+            "reference_id": "19878-1-65",
+            "text": "Torres  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773714492
           }
         ]
       }
@@ -1073,7 +1080,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
