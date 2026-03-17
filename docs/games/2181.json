@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2181",
-    "scraped_at": "2026-03-17T02:21:35.918Z",
+    "scraped_at": "2026-03-17T02:22:39.827Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 22,
     "status": 2,
     "date": "2026-03-16 20:00:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Suarez  Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "Berti  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 6
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -926,6 +926,27 @@
             "ts": 1773713920
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "19877-2-61",
+            "text": "Berti  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773714135
+          },
+          {
+            "reference_id": "19877-2-62",
+            "text": "Jacok Marsee al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773714140
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1019,6 +1040,13 @@
         "label": "Alta 7ma",
         "total_plays": 8,
         "scoring_plays": 3
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1066,7 +1094,7 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 3,
         "homeTeamRuns": 0
