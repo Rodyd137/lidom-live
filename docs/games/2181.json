@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2181",
-    "scraped_at": "2026-03-17T01:42:07.613Z",
+    "scraped_at": "2026-03-17T01:43:11.598Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-03-16 20:00:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Arraez Out: Línea al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -786,6 +786,27 @@
             "ts": 1773711593
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "19876-1-44",
+            "text": "Arraez Out: Línea al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773711777
+          },
+          {
+            "reference_id": "19876-1-45",
+            "text": "Suarez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773711779
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -857,6 +878,13 @@
         "half": "bottom",
         "label": "Baja 5ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
