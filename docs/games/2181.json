@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2181",
-    "scraped_at": "2026-03-17T01:15:28.443Z",
+    "scraped_at": "2026-03-17T01:16:32.414Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-03-16 20:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Tovar  Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "Abreu  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 2
+      "strikes": 0,
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -668,10 +668,17 @@
           },
           {
             "reference_id": "19874-1-30",
-            "text": "Torres  al bate",
+            "text": "Torres  Sencillo Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1773710056
+            "ts": 1773710166
+          },
+          {
+            "reference_id": "19874-1-31",
+            "text": "Abreu  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773710181
           }
         ]
       }
@@ -723,7 +730,7 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 1
       }
     ],
