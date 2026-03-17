@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2181",
-    "scraped_at": "2026-03-17T01:13:19.947Z",
+    "scraped_at": "2026-03-17T01:14:24.182Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-03-16 20:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Arraez  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "Tovar  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -654,10 +654,24 @@
           },
           {
             "reference_id": "19874-1-28",
-            "text": "Suarez  al bate",
+            "text": "Suarez  Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1773710013
+          },
+          {
+            "reference_id": "19874-1-29",
+            "text": "Tovar  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1773709973
+            "ts": 1773710054
+          },
+          {
+            "reference_id": "19874-1-30",
+            "text": "Torres  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773710056
           }
         ]
       }
@@ -709,8 +723,8 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 2,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
