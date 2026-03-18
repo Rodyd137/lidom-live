@@ -1,24 +1,24 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2182",
-    "scraped_at": "2026-03-18T00:02:21.559Z",
+    "scraped_at": "2026-03-18T03:16:56.774Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2182,
     "season_id": 22,
-    "status": 3,
+    "status": 6,
     "date": "2026-03-17 20:00:00",
-    "roundText": "Alta 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "roundText": "Baja 9na",
+    "currentInningNum": 9,
+    "lastPlayByPlay": "Roman Anthony  Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 3
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -40,9 +40,9 @@
       "over_under": null
     },
     "pitchers": {
-      "winning": null,
-      "losing": null,
-      "save": null
+      "winning": "Andrés Eduardo Machado",
+      "losing": "Whitlock",
+      "save": "Daniel Jesus Palencia "
     },
     "teams": {
       "away": {
@@ -53,13 +53,13 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/fa5ccb26f0dc095843644942bde4b7cd.png",
         "permalink": "/equipo/venezuela",
         "totals": {
-          "R": 0,
-          "H": 0,
+          "R": 3,
+          "H": 5,
           "E": 0,
-          "H2": 0
+          "H2": 2
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Eduardo Jose Rodriguez",
           "era": "",
           "record": "",
           "debut": false
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/090e807f0266538951b8e582756b7a40.png",
         "permalink": "/equipo/estados-unidos",
         "totals": {
-          "R": 0,
-          "H": 0,
+          "R": 2,
+          "H": 3,
           "E": 0,
           "H2": 0
         },
@@ -275,10 +275,10 @@
             "position": ""
           },
           {
-            "id": 5902,
+            "id": 5933,
             "team_id": 23,
-            "name": "Byron Buxton",
-            "abbreviation": "B. Buxton",
+            "name": "Pete Henry Crow-Armstrong ",
+            "abbreviation": "P H. Crow-Armstrong",
             "number": null,
             "dob": null,
             "height": "",
@@ -303,7 +303,7 @@
         },
         {
           "num": 3,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -313,7 +313,7 @@
         },
         {
           "num": 5,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -329,24 +329,24 @@
         {
           "num": 8,
           "away": 0,
-          "home": 0
+          "home": 2
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 0,
+          "R": 3,
+          "H": 5,
           "E": 0
         },
         "home": {
-          "R": 0,
-          "H": 0,
+          "R": 2,
+          "H": 3,
           "E": 0
         }
       },
@@ -362,31 +362,31 @@
           },
           {
             "num": 3,
-            "R": 0
+            "R": 1
           },
           {
             "num": 4,
-            "R": 0
+            "R": 1
           },
           {
             "num": 5,
-            "R": 0
+            "R": 2
           },
           {
             "num": 6,
-            "R": 0
+            "R": 2
           },
           {
             "num": 7,
-            "R": 0
+            "R": 2
           },
           {
             "num": 8,
-            "R": 0
+            "R": 2
           },
           {
             "num": 9,
-            "R": 0
+            "R": 3
           }
         ],
         "home": [
@@ -420,79 +420,823 @@
           },
           {
             "num": 8,
-            "R": 0
+            "R": 2
           },
           {
             "num": 9,
-            "R": 0
+            "R": 2
           }
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "19880-1-1",
+            "text": "Acuña  Sencillo Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773793327
+          },
+          {
+            "reference_id": "19880-1-2",
+            "text": "Garcia  Out: Rodado al Tercera Base - Segunda Base - Primera Base - Doble Play!",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773793374
+          },
+          {
+            "reference_id": "19880-1-3",
+            "text": "Arraez Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773793415
+          }
+        ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "19880-2-4",
+            "text": "Boddy Witt Jr Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773793558
+          },
+          {
+            "reference_id": "19880-2-5",
+            "text": "Bryce Harper Out: Elevado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773793654
+          },
+          {
+            "reference_id": "19880-2-6",
+            "text": "Aaron Judge Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773793708
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19881-1-7",
+            "text": "Suarez  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773793941
+          },
+          {
+            "reference_id": "19881-1-8",
+            "text": "Tovar Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773793983
+          },
+          {
+            "reference_id": "19881-1-9",
+            "text": "Torres  Sencillo Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773794034
+          },
+          {
+            "reference_id": "19881-1-10",
+            "text": "Abreu Out: Elevado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773794138
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "19881-2-11",
+            "text": "Kyle Schwarber Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773794403
+          },
+          {
+            "reference_id": "19881-2-12",
+            "text": "Alex Bregman   Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773794464
+          },
+          {
+            "reference_id": "19881-2-13",
+            "text": "Roman Anthony   Out: Rodado al Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773794617
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19882-1-14",
+            "text": "Perez Sencillo Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773794786
+          },
+          {
+            "reference_id": "19882-1-15",
+            "text": "Chourio  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773794860
+          },
+          {
+            "reference_id": "19882-1-16",
+            "text": "Acuña  Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773795013
+          },
+          {
+            "reference_id": "19882-1-17",
+            "text": "Acuña  Wild Pitch ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773795119
+          },
+          {
+            "reference_id": "19882-1-18",
+            "text": "Garcia Elevado de Sacrificio Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1773795163
+          },
+          {
+            "reference_id": "19882-1-19",
+            "text": "Arraez  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773795284
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "19882-2-20",
+            "text": "Will Smith Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773795454
+          },
+          {
+            "reference_id": "19882-2-21",
+            "text": "Brice Turang Sencillo Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773795533
+          },
+          {
+            "reference_id": "19882-2-22",
+            "text": "Byron Buxton Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773795599
+          },
+          {
+            "reference_id": "19882-2-23",
+            "text": "Boddy Witt Jr Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773795670
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "19883-1-24",
+            "text": "Suarez   Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773795969
+          },
+          {
+            "reference_id": "19883-1-25",
+            "text": "Tovar Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773796063
+          },
+          {
+            "reference_id": "19883-1-26",
+            "text": "Torres  Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773796106
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19883-2-27",
+            "text": "Bryce Harper  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773796430
+          },
+          {
+            "reference_id": "19883-2-28",
+            "text": "Aaron Judge Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773796468
+          },
+          {
+            "reference_id": "19883-2-29",
+            "text": "Kyle Schwarber Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773796577
+          },
+          {
+            "reference_id": "19883-2-30",
+            "text": "Alex Bregman   Out: Rodado al Campo Corto - Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773796642
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19884-1-31",
+            "text": "Abreu Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1773796802
+          },
+          {
+            "reference_id": "19884-1-32",
+            "text": "Perez Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773796943
+          },
+          {
+            "reference_id": "19884-1-33",
+            "text": "Chourio  Out: Elevado al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773797033
+          },
+          {
+            "reference_id": "19884-1-34",
+            "text": "Acuña   Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773797199
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "19884-2-35",
+            "text": "Roman Anthony   Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773797509
+          },
+          {
+            "reference_id": "19884-2-36",
+            "text": "Will Smith Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773797707
+          },
+          {
+            "reference_id": "19884-2-37",
+            "text": "Brice Turang  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773797869
+          }
+        ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "19885-1-38",
+            "text": "Garcia Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773798084
+          },
+          {
+            "reference_id": "19885-1-39",
+            "text": "Arraez Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773798109
+          },
+          {
+            "reference_id": "19885-1-40",
+            "text": "Suarez  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773798202
+          }
+        ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "19885-2-41",
+            "text": "Pete Henry Crow-Armstrong  Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773798357
+          },
+          {
+            "reference_id": "19885-2-42",
+            "text": "Boddy Witt Jr Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773798477
+          },
+          {
+            "reference_id": "19885-2-43",
+            "text": "Bryce Harper Sencillo Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773798531
+          },
+          {
+            "reference_id": "19885-2-44",
+            "text": "Aaron Judge  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773798701
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "19886-1-45",
+            "text": "Torres  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773799002
+          },
+          {
+            "reference_id": "19886-1-46",
+            "text": "Tovar Sencillo Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773799054
+          },
+          {
+            "reference_id": "19886-1-47",
+            "text": "Abreu  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773799149
+          },
+          {
+            "reference_id": "19886-1-48",
+            "text": "Perez Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773799240
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "19886-2-49",
+            "text": "Kyle Schwarber Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773799484
+          },
+          {
+            "reference_id": "19886-2-50",
+            "text": "Alex Bregman   Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773799633
+          },
+          {
+            "reference_id": "19886-2-51",
+            "text": "Roman Anthony  Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773799740
+          },
+          {
+            "reference_id": "19886-2-52",
+            "text": "Will Smith Out: Elevado al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773799956
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "19887-1-53",
+            "text": "Chourio  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773800157
+          },
+          {
+            "reference_id": "19887-1-54",
+            "text": "Acuña   Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773800224
+          },
+          {
+            "reference_id": "19887-1-55",
+            "text": "Garcia Out: Elevado al Receptor",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773800337
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "19887-2-56",
+            "text": "Brice Turang Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773800498
+          },
+          {
+            "reference_id": "19887-2-57",
+            "text": "Pete Henry Crow-Armstrong   Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773800520
+          },
+          {
+            "reference_id": "19887-2-58",
+            "text": "Boddy Witt Jr Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773800616
+          },
+          {
+            "reference_id": "19887-2-59",
+            "text": "Bryce Harper Cuadrangular! 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1773800780
+          },
+          {
+            "reference_id": "19887-2-60",
+            "text": "Aaron Judge Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773800887
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "19888-1-61",
+            "text": "Arraez Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773801086
+          },
+          {
+            "reference_id": "19888-1-62",
+            "text": "Arraez Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773801228
+          },
+          {
+            "reference_id": "19888-1-63",
+            "text": "Suarez  Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1773801450
+          },
+          {
+            "reference_id": "19888-1-64",
+            "text": "Tovar Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773801623
+          },
+          {
+            "reference_id": "19888-1-65",
+            "text": "Torres  Out: Elevado al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773801869
+          },
+          {
+            "reference_id": "19888-1-66",
+            "text": "Abreu Base por Bolas Intencional ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773801990
+          },
+          {
+            "reference_id": "19888-1-67",
+            "text": "Perez Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773802132
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "19888-2-68",
+            "text": "Kyle Schwarber Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773802305
+          },
+          {
+            "reference_id": "19888-2-69",
+            "text": "Alex Bregman  Out: Elevado al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773802407
+          },
+          {
+            "reference_id": "19888-2-70",
+            "text": "Roman Anthony  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1773802515
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 6,
+        "scoring_plays": 1
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 4,
+        "scoring_plays": 1
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 5,
+        "scoring_plays": 1
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 7,
+        "scoring_plays": 1
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 3,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
-        "part": 1,
-        "is_last": 1,
+        "part": 2,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 2,
-        "part": 1,
+        "part": 2,
         "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 0,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 4,
-        "part": 1,
+        "part": 2,
         "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 0,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 0,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 2
       },
       {
         "num": 9,
-        "part": 1,
-        "is_last": 0,
-        "awayTeamRuns": 0,
+        "part": 2,
+        "is_last": 1,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
