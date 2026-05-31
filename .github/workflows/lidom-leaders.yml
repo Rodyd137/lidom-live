@@ -62,20 +62,31 @@ jobs:
           echo "Encontrado: ${SCRIPT_PATH}"
           echo "script=${SCRIPT_PATH}" >> "$GITHUB_OUTPUT"
 
-      # 👉 Cambiado: usar curl con -k para tolerar cert expirado
-      - name: Verificar fetch de la página (tolerante a cert vencido)
+      # Probe tolerante: si estadisticas.lidom.com no responde (p.ej. temporada
+      # muerta o servidor caído) NO se falla el job; se marca up=false y se omite
+      # el scrape para no inundar de correos "run failed".
+      - name: Verificar disponibilidad de la página
+        id: probe
         run: |
-          curl -fsSLk --retry 3 --max-time 20 "$LIDOM_STATS_URL" >/dev/null
+          if curl -fsSLk --retry 2 --max-time 20 "$LIDOM_STATS_URL" >/dev/null 2>&1; then
+            echo "up=true" >> "$GITHUB_OUTPUT"
+            echo "✅ estadisticas.lidom.com responde."
+          else
+            echo "up=false" >> "$GITHUB_OUTPUT"
+            echo "::notice title=LIDOM offline::estadisticas.lidom.com no responde (probable temporada muerta). Se omite el scrape de líderes y el job termina en éxito."
+          fi
 
       - name: Scrape líderes (bateo/pitcheo)
+        if: steps.probe.outputs.up == 'true'
         run: |
           set -euo pipefail
-          # 👉 Cambiado: permitir TLS inseguro SOLO en este proceso Node
+          # Permitir TLS inseguro SOLO en este proceso Node (cert vencido del sitio)
           NODE_TLS_REJECT_UNAUTHORIZED=0 node "${{ steps.findscript.outputs.script }}"
           test -s docs/stats/lideres.json || (echo 'ERROR: no se generó docs/stats/lideres.json' && exit 4)
           jq . docs/stats/lideres.json >/dev/null
 
       - name: Commit & push (solo líderes)
+        if: steps.probe.outputs.up == 'true'
         run: |
           if ! git diff --quiet -- docs/stats/lideres.json; then
             git add docs/stats/lideres.json
