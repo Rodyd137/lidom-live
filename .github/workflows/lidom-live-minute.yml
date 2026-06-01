@@ -3,7 +3,7 @@ name: lidom-live-minute
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "*/5 * * * *"   # GitHub despierta cada ~5 min (UTC). Si hay juegos live, entra en loop 1/min.
+    - cron: "*/5 * * 10,11,12,1,2 *"   # GitHub despierta cada ~5 min (UTC). Si hay juegos live, entra en loop 1/min.
 
 permissions:
   contents: write

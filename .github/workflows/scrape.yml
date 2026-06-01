@@ -3,7 +3,7 @@ name: scrape-lidom
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "*/5 * * * *"   # GitHub acciona cada ~5 min (UTC). El loop interno cubre el 1 min.
+    - cron: "*/5 * * 10,11,12,1,2 *"   # GitHub acciona cada ~5 min (UTC). El loop interno cubre el 1 min.
 
 permissions:
   contents: write

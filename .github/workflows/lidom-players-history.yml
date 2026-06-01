@@ -3,7 +3,7 @@ name: scrape-lidom-players-history
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "*/30 * * * *"   # cada 30 min
+    - cron: "*/30 * * 10,11,12,1,2 *"   # cada 30 min
 
 permissions:
   contents: write

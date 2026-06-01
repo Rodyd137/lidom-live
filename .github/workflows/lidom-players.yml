@@ -3,7 +3,7 @@ name: scrape-lidom-players
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/30 * * 10,11,12,1,2 *"
 
 permissions:
   contents: write

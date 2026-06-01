@@ -3,7 +3,7 @@ name: scrape-lidom-leaders
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "*/10 * * * *"   # cada ~10 min (UTC)
+    - cron: "*/10 * * 10,11,12,1,2 *"   # cada ~10 min (UTC)
 
 permissions:
   contents: write
