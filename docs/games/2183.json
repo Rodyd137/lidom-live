@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2183",
-    "scraped_at": "2026-10-17T01:36:04.174Z",
+    "scraped_at": "2026-10-17T01:37:06.274Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-16 19:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jefferson Rojas Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -759,10 +759,17 @@
         "plays": [
           {
             "reference_id": "19893-2-35",
-            "text": "Jefferson Rojas al bate",
+            "text": "Jefferson Rojas Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792200939
+            "ts": 1792200992
+          },
+          {
+            "reference_id": "19893-2-36",
+            "text": "Eddison Paulino  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792200998
           }
         ]
       }
@@ -835,7 +842,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -915,8 +922,8 @@
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 8,
-          "hits": 11,
+          "runs": 9,
+          "hits": 12,
           "errors": 1,
           "permalink": "/equipo/tigres-del-licey"
         },
