@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-17T01:14:20.108Z",
+    "scraped_at": "2026-10-17T01:15:22.174Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-10-16 19:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Marcell Ozuna ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,7 +566,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
         "strikes": 0
       },
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-16 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Francisco Mejia Sencillo Jardinero Central",
-        "atBat": "Jose Barrero",
+        "lastPlayByPlay": "Jose Barrero Out: Elevado al Primera Base",
+        "atBat": "Gustavo Nuñez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2185,
@@ -9923,7 +9923,7 @@
         "date": "2026-10-16 19:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Marcell Ozuna ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -9967,7 +9967,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
         "strikes": 0
       },
@@ -9983,8 +9983,8 @@
         "status": 2,
         "date": "2026-10-16 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Francisco Mejia Sencillo Jardinero Central",
-        "atBat": "Jose Barrero",
+        "lastPlayByPlay": "Jose Barrero Out: Elevado al Primera Base",
+        "atBat": "Gustavo Nuñez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10028,9 +10028,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2185,
@@ -19480,7 +19480,7 @@
       "currentInningNum": 4,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
+        "balls": 2,
         "strikes": 0,
         "outs": 0
       },
@@ -20137,6 +20137,20 @@
               "ts": 1792199530
             }
           ]
+        },
+        {
+          "num": 4,
+          "half": "bottom",
+          "label": "Baja 4ta",
+          "plays": [
+            {
+              "reference_id": "19892-2-27",
+              "text": "Marcell Ozuna  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792199685
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20187,6 +20201,13 @@
           "half": "top",
           "label": "Alta 4ta",
           "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 4,
+          "half": "bottom",
+          "label": "Baja 4ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -20318,11 +20339,11 @@
       "date": "2026-10-16 19:15:00",
       "roundText": "Alta 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Francisco Mejia Sencillo Jardinero Central",
+      "lastPlayByPlay": "Jose Barrero Out: Elevado al Primera Base",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
-        "outs": 1
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21108,10 +21129,17 @@
             },
             {
               "reference_id": "19902-1-46",
-              "text": "Jose Barrero al bate",
+              "text": "Jose Barrero Out: Elevado al Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1792199532
+              "ts": 1792199706
+            },
+            {
+              "reference_id": "19902-1-47",
+              "text": "Gustavo Nuñez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792199708
             }
           ]
         }
@@ -21177,7 +21205,7 @@
           "num": 5,
           "half": "top",
           "label": "Alta 5ta",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
