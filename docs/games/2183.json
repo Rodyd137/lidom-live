@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2183",
-    "scraped_at": "2026-10-17T03:24:45.813Z",
+    "scraped_at": "2026-10-17T05:31:07.912Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -1256,58 +1256,142 @@
     ],
     "siblingGames": [
       {
-        "id": 2184,
-        "date": "2026-10-16 19:15:00",
-        "status": 6,
-        "roundText": "Baja 9na",
+        "id": 2186,
+        "date": "2026-10-17 17:00:00",
+        "status": 1,
+        "roundText": "Alta 1ra",
         "awayTeam": {
+          "id": 5,
+          "name": "Gigantes",
+          "abbr": "GC",
+          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
+          "runs": 0,
+          "hits": 0,
+          "errors": 0,
+          "permalink": "/equipo/gigantes-del-cibao"
+        },
+        "homeTeam": {
           "id": 1,
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 12,
-          "hits": 18,
-          "errors": 1,
+          "runs": 0,
+          "hits": 0,
+          "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
-        },
-        "homeTeam": {
-          "id": 4,
-          "name": "Leones",
-          "abbr": "LE",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 2,
-          "hits": 4,
-          "errors": 1,
-          "permalink": "/equipo/leones-del-escogido"
         }
       },
       {
-        "id": 2185,
-        "date": "2026-10-16 19:30:00",
-        "status": 6,
-        "roundText": "Baja 9na",
+        "id": 2187,
+        "date": "2026-10-17 18:00:00",
+        "status": 1,
+        "roundText": "Alta 1ra",
         "awayTeam": {
-          "id": 7,
-          "name": "Estrellas",
-          "abbr": "EO",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 11,
-          "hits": 17,
-          "errors": 0,
-          "permalink": "/equipo/estrellas-orientales"
-        },
-        "homeTeam": {
           "id": 6,
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 0,
-          "hits": 4,
-          "errors": 4,
+          "hits": 0,
+          "errors": 0,
           "permalink": "/equipo/toros-del-este"
+        },
+        "homeTeam": {
+          "id": 3,
+          "name": "Aguilas",
+          "abbr": "AC",
+          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
+          "runs": 0,
+          "hits": 0,
+          "errors": 0,
+          "permalink": "/equipo/aguilas-cibaenas"
+        }
+      },
+      {
+        "id": 2188,
+        "date": "2026-10-17 19:30:00",
+        "status": 1,
+        "roundText": "Alta 1ra",
+        "awayTeam": {
+          "id": 4,
+          "name": "Leones",
+          "abbr": "LE",
+          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
+          "runs": 0,
+          "hits": 0,
+          "errors": 0,
+          "permalink": "/equipo/leones-del-escogido"
+        },
+        "homeTeam": {
+          "id": 7,
+          "name": "Estrellas",
+          "abbr": "EO",
+          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
+          "runs": 0,
+          "hits": 0,
+          "errors": 0,
+          "permalink": "/equipo/estrellas-orientales"
         }
       }
     ],
-    "stats_tables": []
+    "stats_tables": [
+      {
+        "title": "Aguilas vs Gigantes",
+        "round": "Temporada Regular (1 Juegos)",
+        "columns": [
+          "G",
+          "P",
+          "C",
+          "H",
+          "E"
+        ],
+        "teams": {
+          "Aguilas AC": {
+            "G": 0,
+            "P": 1,
+            "C": 1,
+            "H": 6,
+            "E": 0
+          },
+          "Gigantes GC": {
+            "G": 1,
+            "P": 0,
+            "C": 4,
+            "H": 6,
+            "E": 1
+          }
+        }
+      },
+      {
+        "title": "Estadísticas Generales",
+        "round": "Temporada Regular (1 Juegos)",
+        "columns": [
+          "G",
+          "P",
+          "CA",
+          "CP",
+          "H",
+          "E"
+        ],
+        "teams": {
+          "Aguilas AC": {
+            "G": 0,
+            "P": 1,
+            "CA": 1,
+            "CP": 4,
+            "H": 6,
+            "E": 0
+          },
+          "Gigantes GC": {
+            "G": 1,
+            "P": 0,
+            "CA": 4,
+            "CP": 1,
+            "H": 6,
+            "E": 1
+          }
+        }
+      }
+    ]
   }
 }
