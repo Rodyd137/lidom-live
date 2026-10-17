@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2185",
-    "scraped_at": "2026-10-17T01:50:33.774Z",
+    "scraped_at": "2026-10-17T01:51:36.052Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-16 19:30:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Magneuris Sierra Doble! Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 6,
-          "H": 7,
+          "H": 8,
           "E": 0,
           "H2": 6
         },
@@ -157,7 +157,7 @@
             "id": 6015,
             "team_id": 7,
             "name": "Magneuris Sierra",
-            "abbreviation": "MS",
+            "abbreviation": "Magneuris Sierra",
             "number": null,
             "dob": null,
             "height": "",
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 6,
-          "H": 7,
+          "H": 8,
           "E": 0
         },
         "home": {
@@ -821,6 +821,27 @@
             "ts": 1792201663
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "19912-1-47",
+            "text": "Magneuris Sierra Doble! Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792201859
+          },
+          {
+            "reference_id": "19912-1-48",
+            "text": "Ismael Munguia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792201863
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -892,6 +913,13 @@
         "half": "bottom",
         "label": "Baja 5ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
