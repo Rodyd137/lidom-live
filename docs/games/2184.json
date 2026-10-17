@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2184",
-    "scraped_at": "2026-10-17T03:03:01.873Z",
+    "scraped_at": "2026-10-17T03:04:04.031Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-16 19:15:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "F. Cordero Base por Bolas ",
+    "lastPlayByPlay": "F. Cordero Robo de Base Segunda Base - Wild Pitch",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -1172,10 +1172,24 @@
           },
           {
             "reference_id": "19906-2-90",
-            "text": "Schiavone al bate",
+            "text": "Schiavone Out: Elevado al Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1792206145
+            "ts": 1792206190
+          },
+          {
+            "reference_id": "19906-2-91",
+            "text": "F. Cordero Robo de Base Segunda Base - Wild Pitch",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792206238
+          },
+          {
+            "reference_id": "19906-2-92",
+            "text": "Marmolejos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792206240
           }
         ]
       }
@@ -1304,7 +1318,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 3,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -1404,7 +1418,7 @@
         "id": 2185,
         "date": "2026-10-16 19:30:00",
         "status": 2,
-        "roundText": "Baja 8va",
+        "roundText": "Alta 9na",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
