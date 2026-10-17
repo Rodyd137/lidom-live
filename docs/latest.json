@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-17T00:58:45.066Z",
+    "scraped_at": "2026-10-17T00:59:50.047Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -566,7 +566,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
         "strikes": 0
       },
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 3,
         "outs": 2,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2185,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-16 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "George Valera  Out: Elevado al Segunda Base",
+        "atBat": "Jesús Sanchez ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -9967,7 +9967,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
         "strikes": 0
       },
@@ -10028,9 +10028,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 3,
         "outs": 2,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2185,
@@ -10044,8 +10044,8 @@
         "status": 2,
         "date": "2026-10-16 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "George Valera ",
+        "lastPlayByPlay": "George Valera  Out: Elevado al Segunda Base",
+        "atBat": "Jesús Sanchez ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10090,7 +10090,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -19480,7 +19480,7 @@
       "currentInningNum": 3,
       "lastPlayByPlay": "Emil Morales Base por Bolas ",
       "counts": {
-        "balls": 0,
+        "balls": 2,
         "strikes": 0,
         "outs": 0
       },
@@ -20282,8 +20282,8 @@
       "currentInningNum": 4,
       "lastPlayByPlay": "Mel Rojas Base por Bolas ",
       "counts": {
-        "balls": 2,
-        "strikes": 0,
+        "balls": 3,
+        "strikes": 2,
         "outs": 2
       },
       "base_state": {
@@ -21201,11 +21201,11 @@
       "date": "2026-10-16 19:30:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "George Valera  Out: Elevado al Segunda Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21822,6 +21822,27 @@
               "ts": 1792198595
             }
           ]
+        },
+        {
+          "num": 3,
+          "half": "bottom",
+          "label": "Baja 3ra",
+          "plays": [
+            {
+              "reference_id": "19909-2-25",
+              "text": "George Valera  Out: Elevado al Segunda Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792198760
+            },
+            {
+              "reference_id": "19909-2-26",
+              "text": "Jesús Sanchez  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792198763
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21858,6 +21879,13 @@
           "half": "top",
           "label": "Alta 3ra",
           "total_plays": 6,
+          "scoring_plays": 0
+        },
+        {
+          "num": 3,
+          "half": "bottom",
+          "label": "Baja 3ra",
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
