@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-17T02:43:22.333Z",
+    "scraped_at": "2026-10-17T02:44:24.400Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": "https://s3.amazonaws.com/cdn.baseball-new.com/6ee6ff20c6a4df08ffafb8f65135feaa.png",
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -582,8 +585,8 @@
         "status": 2,
         "date": "2026-10-16 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "C. Jimenez",
+        "lastPlayByPlay": "C. Jimenez Ponche (K) ",
+        "atBat": "E. Gonzalez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -594,10 +597,7 @@
         "adImage": "https://s3.amazonaws.com/cdn.baseball-new.com/62056744803dafcbe7dae57f464faeb5.png",
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
-          "text": "Reunión Lomita"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -630,8 +630,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
+        "balls": 1,
+        "outs": 1,
         "strikes": 2
       },
       {
@@ -691,9 +691,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 2,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -9989,8 +9989,8 @@
         "status": 2,
         "date": "2026-10-16 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "C. Jimenez",
+        "lastPlayByPlay": "C. Jimenez Ponche (K) ",
+        "atBat": "E. Gonzalez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10001,10 +10001,7 @@
         "adImage": "https://s3.amazonaws.com/cdn.baseball-new.com/62056744803dafcbe7dae57f464faeb5.png",
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
-          "text": "Reunión Lomita"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -10037,8 +10034,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
+        "balls": 1,
+        "outs": 1,
         "strikes": 2
       },
       {
@@ -10098,9 +10095,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 2,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "2026-10-17": [
@@ -20667,11 +20664,11 @@
       "date": "2026-10-16 19:15:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "C. Jimenez Ponche (K) ",
       "counts": {
-        "balls": 2,
+        "balls": 1,
         "strikes": 2,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21744,10 +21741,17 @@
           "plays": [
             {
               "reference_id": "19905-2-80",
-              "text": "C. Jimenez al bate",
+              "text": "C. Jimenez Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792204857
+              "ts": 1792205021
+            },
+            {
+              "reference_id": "19905-2-81",
+              "text": "E. Gonzalez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792205023
             }
           ]
         }
@@ -21862,7 +21866,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21996,8 +22000,8 @@
       "currentInningNum": 8,
       "lastPlayByPlay": "Cesar Prieto  Doble! 2 Carreras Impulsadas ",
       "counts": {
-        "balls": 0,
-        "strikes": 1,
+        "balls": 2,
+        "strikes": 2,
         "outs": 2
       },
       "base_state": {
