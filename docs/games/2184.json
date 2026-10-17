@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2184",
-    "scraped_at": "2026-10-17T02:48:33.049Z",
+    "scraped_at": "2026-10-17T02:49:35.140Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-10-16 19:15:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "C. Adames  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -1101,6 +1101,27 @@
             "ts": 1792205144
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "19906-1-82",
+            "text": "C. Adames  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792205361
+          },
+          {
+            "reference_id": "19906-1-83",
+            "text": "Mel Rojas al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792205364
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1215,6 +1236,13 @@
         "label": "Baja 8va",
         "total_plays": 2,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1319,8 +1347,8 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 10,
-          "hits": 14,
+          "runs": 11,
+          "hits": 15,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         },
