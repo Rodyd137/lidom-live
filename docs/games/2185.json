@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2185",
-    "scraped_at": "2026-10-17T01:39:10.769Z",
+    "scraped_at": "2026-10-17T01:40:12.888Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-16 19:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Marco Luciano  Cuadrangular! ",
+    "lastPlayByPlay": "Marco Luciano  Sencillo Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 6,
-          "H": 6,
+          "H": 7,
           "E": 0,
           "H2": 6
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 6,
-          "H": 6,
+          "H": 7,
           "E": 0
         },
         "home": {
@@ -780,10 +780,17 @@
           },
           {
             "reference_id": "19911-1-42",
-            "text": "Marco Luciano  Cuadrangular! ",
-            "scored": true,
+            "text": "Marco Luciano  Sencillo Jardinero Central",
+            "scored": false,
             "is_primary": true,
-            "ts": 1792201052
+            "ts": 1792201198
+          },
+          {
+            "reference_id": "19911-1-43",
+            "text": "Cesar Prieto  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792201203
           }
         ]
       }
@@ -849,8 +856,8 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 7,
-        "scoring_plays": 3
+        "total_plays": 8,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
