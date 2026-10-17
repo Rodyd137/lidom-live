@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-17T23:16:27.130Z",
+    "scraped_at": "2026-10-17T23:17:29.635Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 4,
         "status": 2,
         "date": "2026-10-17 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Pablo Reyes Sencillo Jardinero Derecho ",
-        "atBat": "Carlos Jorge ",
+        "lastPlayByPlay": "Carlos Jorge  Out: Línea al Lanzador",
+        "atBat": "Deyvinson de los Santos",
         "comment": "",
         "winningPitcher": "Jake Eder",
         "losingPitcher": "Vladimir Gutiérrez",
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-17 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Victor Scott Base por Bolas ",
-        "atBat": "Mason Mccoy",
+        "lastPlayByPlay": "Mason Mccoy Doble! 2 Carreras Impulsadas ",
+        "atBat": "Chritopher Morel",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -9860,12 +9860,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 4,
         "status": 2,
         "date": "2026-10-17 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Pablo Reyes Sencillo Jardinero Derecho ",
-        "atBat": "Carlos Jorge ",
+        "lastPlayByPlay": "Carlos Jorge  Out: Línea al Lanzador",
+        "atBat": "Deyvinson de los Santos",
         "comment": "",
         "winningPitcher": "Jake Eder",
         "losingPitcher": "Vladimir Gutiérrez",
@@ -9925,8 +9925,8 @@
         "status": 2,
         "date": "2026-10-17 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Victor Scott Base por Bolas ",
-        "atBat": "Mason Mccoy",
+        "lastPlayByPlay": "Mason Mccoy Doble! 2 Carreras Impulsadas ",
+        "atBat": "Chritopher Morel",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -18991,7 +18991,7 @@
       "date": "2026-10-17 17:00:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Pablo Reyes Sencillo Jardinero Derecho ",
+      "lastPlayByPlay": "Carlos Jorge  Out: Línea al Lanzador",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -18999,14 +18999,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 4
       },
       "base_runners": {
-        "on1B": true,
+        "on1B": false,
         "on2B": false,
-        "on3B": false,
+        "on3B": true,
         "runners": 1,
-        "mask": 2
+        "mask": 4
       },
       "betting": {
         "moneyline": {
@@ -19858,10 +19858,24 @@
             },
             {
               "reference_id": "19922-1-53",
-              "text": "Carlos Jorge  al bate",
+              "text": "Pablo Reyes Wild Pitch ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792278938
+              "ts": 1792279022
+            },
+            {
+              "reference_id": "19922-1-54",
+              "text": "Carlos Jorge  Out: Línea al Lanzador",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792279043
+            },
+            {
+              "reference_id": "19922-1-55",
+              "text": "Deyvinson de los Santos al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792279045
             }
           ]
         }
@@ -19955,7 +19969,7 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 3,
+          "total_plays": 5,
           "scoring_plays": 1
         }
       ],
@@ -20118,7 +20132,7 @@
       "date": "2026-10-17 18:00:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "Victor Scott Base por Bolas ",
+      "lastPlayByPlay": "Mason Mccoy Doble! 2 Carreras Impulsadas ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -20768,10 +20782,17 @@
             },
             {
               "reference_id": "19927-2-26",
-              "text": "Mason Mccoy al bate",
+              "text": "Mason Mccoy Doble! 2 Carreras Impulsadas ",
+              "scored": true,
+              "is_primary": true,
+              "ts": 1792278995
+            },
+            {
+              "reference_id": "19927-2-27",
+              "text": "Chritopher Morel al bate",
               "scored": false,
               "is_primary": true,
-              "ts": 1792278921
+              "ts": 1792279012
             }
           ]
         }
@@ -20816,8 +20837,8 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 4,
-          "scoring_plays": 0
+          "total_plays": 5,
+          "scoring_plays": 1
         }
       ],
       "innings_raw": [

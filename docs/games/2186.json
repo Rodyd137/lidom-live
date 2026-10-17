@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2186",
-    "scraped_at": "2026-10-17T23:16:27.646Z",
+    "scraped_at": "2026-10-17T23:17:30.069Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-17 17:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Pablo Reyes Sencillo Jardinero Derecho ",
+    "lastPlayByPlay": "Carlos Jorge  Out: Línea al Lanzador",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 4
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 2
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -878,10 +878,24 @@
           },
           {
             "reference_id": "19922-1-53",
-            "text": "Carlos Jorge  al bate",
+            "text": "Pablo Reyes Wild Pitch ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792278938
+            "ts": 1792279022
+          },
+          {
+            "reference_id": "19922-1-54",
+            "text": "Carlos Jorge  Out: Línea al Lanzador",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792279043
+          },
+          {
+            "reference_id": "19922-1-55",
+            "text": "Deyvinson de los Santos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792279045
           }
         ]
       }
@@ -975,7 +989,7 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 3,
+        "total_plays": 5,
         "scoring_plays": 1
       }
     ],
