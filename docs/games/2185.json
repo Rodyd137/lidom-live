@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2185",
-    "scraped_at": "2026-10-17T03:20:37.011Z",
+    "scraped_at": "2026-10-17T03:21:39.078Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-16 19:30:00",
-    "roundText": "Alta 9na",
+    "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Cesar Prieto  Ponche (K) ",
+    "lastPlayByPlay": "Allan Castro  Out: Elevado al Receptor",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -1137,10 +1137,17 @@
         "plays": [
           {
             "reference_id": "19915-2-84",
-            "text": "Allan Castro  al bate",
+            "text": "Allan Castro  Out: Elevado al Receptor",
             "scored": false,
             "is_primary": true,
-            "ts": 1792207171
+            "ts": 1792207247
+          },
+          {
+            "reference_id": "19915-2-85",
+            "text": "Eguy Rosario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792207254
           }
         ]
       }
@@ -1269,7 +1276,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1332,7 +1339,7 @@
       },
       {
         "num": 9,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
