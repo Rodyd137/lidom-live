@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2187",
-    "scraped_at": "2026-10-17T23:09:11.309Z",
+    "scraped_at": "2026-10-17T23:10:14.180Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,7 +14,7 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -257,6 +257,17 @@
             "team_id": 3,
             "name": "Arturo Disla",
             "abbreviation": "A. Disla",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6032,
+            "team_id": 3,
+            "name": "Adalberto Mondesi",
+            "abbreviation": "A. Mondesi",
             "number": null,
             "dob": null,
             "height": "",
@@ -610,6 +621,20 @@
             "ts": 1792278421
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "19927-2-23",
+            "text": "Adalberto Mondesi al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792278587
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -646,6 +671,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 8,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
