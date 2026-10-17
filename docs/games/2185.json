@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2185",
-    "scraped_at": "2026-10-17T02:24:44.720Z",
+    "scraped_at": "2026-10-17T02:25:46.742Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-16 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Enmanuel Valdez  Base por Bolas ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -962,10 +962,17 @@
         "plays": [
           {
             "reference_id": "19913-2-63",
-            "text": "Enmanuel Valdez  al bate",
+            "text": "Enmanuel Valdez  Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792203853
+            "ts": 1792203920
+          },
+          {
+            "reference_id": "19913-2-64",
+            "text": "Pedro Severino al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792203928
           }
         ]
       }
@@ -1066,7 +1073,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1166,7 +1173,7 @@
         "id": 2184,
         "date": "2026-10-16 19:15:00",
         "status": 2,
-        "roundText": "Baja 7ma",
+        "roundText": "Alta 8va",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
