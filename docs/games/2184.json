@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2184",
-    "scraped_at": "2026-10-17T01:10:12.276Z",
+    "scraped_at": "2026-10-17T01:11:14.298Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-10-16 19:15:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "E. Florial  Out: Rodado al Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 1,
-      "outs": 0
+      "balls": 1,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -779,6 +779,27 @@
             "ts": 1792199210
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19902-1-44",
+            "text": "E. Florial  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792199435
+          },
+          {
+            "reference_id": "19902-1-45",
+            "text": "Francisco Mejia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792199437
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -836,6 +857,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
