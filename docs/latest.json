@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-17T23:50:40.877Z",
+    "scraped_at": "2026-10-17T23:51:43.046Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-10-17 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Agustín Ramirez  Sencillo Jardinero Izquierdo",
-        "atBat": "Eddison Paulino ",
+        "lastPlayByPlay": "Eddison Paulino  Ponche (K) ",
+        "atBat": "Jefferson Rojas",
         "comment": "",
         "winningPitcher": "Jake Eder",
         "losingPitcher": "Vladimir Gutiérrez",
@@ -566,9 +566,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 1
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2187,
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-10-17 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Adalberto Mondesi Doble! 1 Carrera Impulsada ",
-        "atBat": "Webster Rivas",
+        "lastPlayByPlay": "Webster Rivas Golpeado por Pelota ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -9864,8 +9864,8 @@
         "status": 2,
         "date": "2026-10-17 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Agustín Ramirez  Sencillo Jardinero Izquierdo",
-        "atBat": "Eddison Paulino ",
+        "lastPlayByPlay": "Eddison Paulino  Ponche (K) ",
+        "atBat": "Jefferson Rojas",
         "comment": "",
         "winningPitcher": "Jake Eder",
         "losingPitcher": "Vladimir Gutiérrez",
@@ -9909,9 +9909,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 1
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2187,
@@ -9921,12 +9921,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-10-17 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Adalberto Mondesi Doble! 1 Carrera Impulsada ",
-        "atBat": "Webster Rivas",
+        "lastPlayByPlay": "Webster Rivas Golpeado por Pelota ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -18991,11 +18991,11 @@
       "date": "2026-10-17 17:00:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Agustín Ramirez  Sencillo Jardinero Izquierdo",
+      "lastPlayByPlay": "Eddison Paulino  Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
-        "outs": 1
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -19977,10 +19977,17 @@
             },
             {
               "reference_id": "19923-1-68",
-              "text": "Eddison Paulino  al bate",
+              "text": "Eddison Paulino  Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792280923
+              "ts": 1792281087
+            },
+            {
+              "reference_id": "19923-1-69",
+              "text": "Jefferson Rojas al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792281090
             }
           ]
         }
@@ -20088,7 +20095,7 @@
           "num": 8,
           "half": "top",
           "label": "Alta 8va",
-          "total_plays": 5,
+          "total_plays": 6,
           "scoring_plays": 0
         }
       ],
@@ -20251,7 +20258,7 @@
       "date": "2026-10-17 18:00:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Adalberto Mondesi Doble! 1 Carrera Impulsada ",
+      "lastPlayByPlay": "Webster Rivas Golpeado por Pelota ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -20259,14 +20266,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 3
+        "base": 5
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -21013,10 +21020,10 @@
             },
             {
               "reference_id": "19928-2-40",
-              "text": "Webster Rivas al bate",
+              "text": "Webster Rivas Golpeado por Pelota ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792281021
+              "ts": 1792281051
             }
           ]
         }
