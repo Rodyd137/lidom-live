@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2183",
-    "scraped_at": "2026-10-17T01:08:08.206Z",
+    "scraped_at": "2026-10-17T01:09:10.233Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-16 19:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Chritopher Morel  Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "Alberto Rodriguez Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -103,17 +103,6 @@
             "team_id": 3,
             "name": "Alberto Rodriguez",
             "abbreviation": "A. Rodriguez",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 6046,
-            "team_id": 3,
-            "name": "Webster Rivas",
-            "abbreviation": "W. Rivas",
             "number": null,
             "dob": null,
             "height": "",
@@ -661,10 +650,17 @@
           },
           {
             "reference_id": "19892-1-24",
-            "text": "Alberto Rodriguez al bate",
+            "text": "Alberto Rodriguez Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792199201
+            "ts": 1792199295
+          },
+          {
+            "reference_id": "19892-1-25",
+            "text": "Aderlin Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792199317
           }
         ]
       }
@@ -716,7 +712,7 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -790,7 +786,7 @@
         "id": 2184,
         "date": "2026-10-16 19:15:00",
         "status": 2,
-        "roundText": "Baja 4ta",
+        "roundText": "Alta 5ta",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
