@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2187",
-    "scraped_at": "2026-10-17T23:41:21.706Z",
+    "scraped_at": "2026-10-17T23:42:23.803Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-10-17 18:00:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Raynel Delgado  Out: Rodado al Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -737,6 +737,27 @@
             "ts": 1792280321
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19928-2-36",
+            "text": "Raynel Delgado  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792280520
+          },
+          {
+            "reference_id": "19928-2-37",
+            "text": "Jorge Bonifacio al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792280523
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -787,6 +808,13 @@
         "half": "top",
         "label": "Alta 4ta",
         "total_plays": 7,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -860,7 +888,7 @@
         "id": 2186,
         "date": "2026-10-17 17:00:00",
         "status": 2,
-        "roundText": "Baja 7ma",
+        "roundText": "Alta 8va",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
