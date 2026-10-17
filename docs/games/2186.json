@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2186",
-    "scraped_at": "2026-10-17T23:12:18.601Z",
+    "scraped_at": "2026-10-17T23:13:20.914Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-17 17:00:00",
-    "roundText": "Baja 6ta",
-    "currentInningNum": 6,
-    "lastPlayByPlay": "Ramon Hernandez  Out: Rodado al Tercera Base - Primera Base",
+    "roundText": "Alta 7ma",
+    "currentInningNum": 7,
+    "lastPlayByPlay": "Jefferson Rojas Cuadrangular! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 3,
-          "H": 4,
+          "R": 4,
+          "H": 5,
           "E": 0,
           "H2": 3
         },
@@ -323,7 +323,7 @@
         },
         {
           "num": 7,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 3,
-          "H": 4,
+          "R": 4,
+          "H": 5,
           "E": 0
         },
         "home": {
@@ -378,15 +378,15 @@
           },
           {
             "num": 7,
-            "R": 3
+            "R": 4
           },
           {
             "num": 8,
-            "R": 3
+            "R": 4
           },
           {
             "num": 9,
-            "R": 3
+            "R": 4
           }
         ],
         "home": [
@@ -856,6 +856,27 @@
             "ts": 1792278586
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "19922-1-51",
+            "text": "Jefferson Rojas Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1792278782
+          },
+          {
+            "reference_id": "19922-1-52",
+            "text": "Pablo Reyes al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792278788
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -942,6 +963,13 @@
         "label": "Baja 6ta",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 2,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -983,15 +1011,15 @@
       {
         "num": 6,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 7,
         "part": 1,
-        "is_last": 0,
-        "awayTeamRuns": 0,
+        "is_last": 1,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
