@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2183",
-    "scraped_at": "2026-10-17T01:27:47.072Z",
+    "scraped_at": "2026-10-17T01:28:49.134Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-16 19:00:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Eddys Leonard Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 1,
-          "H": 2,
+          "H": 3,
           "E": 0,
           "H2": 1
         },
@@ -165,7 +165,7 @@
         "totals": {
           "R": 0,
           "H": 2,
-          "E": 0,
+          "E": 1,
           "H2": 0
         },
         "probables": {
@@ -330,13 +330,13 @@
       "totals": {
         "away": {
           "R": 1,
-          "H": 2,
+          "H": 3,
           "E": 0
         },
         "home": {
           "R": 0,
           "H": 2,
-          "E": 0
+          "E": 1
         }
       },
       "cumulative": {
@@ -713,10 +713,17 @@
         "plays": [
           {
             "reference_id": "19893-1-31",
-            "text": "Adalberto Mondesi al bate",
+            "text": "Adalberto Mondesi Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792200456
+            "ts": 1792200467
+          },
+          {
+            "reference_id": "19893-1-32",
+            "text": "Eddys Leonard Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792200518
           }
         ]
       }
@@ -782,7 +789,7 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -888,7 +895,7 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 1,
+          "runs": 2,
           "hits": 4,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
@@ -900,7 +907,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 0,
           "hits": 3,
-          "errors": 0,
+          "errors": 1,
           "permalink": "/equipo/toros-del-este"
         }
       }
