@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-17T02:31:59.056Z",
+    "scraped_at": "2026-10-17T02:33:01.278Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-16 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Emil Morales",
+        "lastPlayByPlay": "Emil Morales Base por Bolas ",
+        "atBat": "Carlos Jorge ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2184,
@@ -9918,12 +9918,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-16 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Emil Morales",
+        "lastPlayByPlay": "Emil Morales Base por Bolas ",
+        "atBat": "Carlos Jorge ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -9967,9 +9967,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2184,
@@ -19478,22 +19478,22 @@
       "date": "2026-10-16 19:00:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Emil Morales Base por Bolas ",
       "counts": {
-        "balls": 3,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20401,10 +20401,17 @@
           "plays": [
             {
               "reference_id": "19895-2-56",
-              "text": "Emil Morales al bate",
+              "text": "Emil Morales Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792204236
+              "ts": 1792204354
+            },
+            {
+              "reference_id": "19895-2-57",
+              "text": "Carlos Jorge  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792204359
             }
           ]
         }
@@ -20505,7 +20512,7 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
