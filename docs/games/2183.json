@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2183",
-    "scraped_at": "2026-10-17T02:19:34.361Z",
+    "scraped_at": "2026-10-17T02:20:36.484Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-10-16 19:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Adalberto Mondesi  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
@@ -132,10 +132,10 @@
             "position": ""
           },
           {
-            "id": 6031,
+            "id": 6032,
             "team_id": 3,
-            "name": "Yeison Morrobel",
-            "abbreviation": "Y. Morrobel",
+            "name": "Adalberto Mondesi",
+            "abbreviation": "A. Mondesi",
             "number": null,
             "dob": null,
             "height": "",
@@ -884,6 +884,27 @@
             "ts": 1792203335
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "19895-1-51",
+            "text": "Adalberto Mondesi  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792203614
+          },
+          {
+            "reference_id": "19895-1-52",
+            "text": "Eddys Leonard al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792203617
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -969,6 +990,13 @@
         "half": "bottom",
         "label": "Baja 6ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
