@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-17T02:40:15.838Z",
+    "scraped_at": "2026-10-17T02:41:17.888Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": "https://s3.amazonaws.com/cdn.baseball-new.com/6ee6ff20c6a4df08ffafb8f65135feaa.png",
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -583,7 +586,7 @@
         "date": "2026-10-16 19:15:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "C. Jimenez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +630,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2185,
@@ -643,8 +646,8 @@
         "status": 2,
         "date": "2026-10-16 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Leonardo Bernal  Doble! 1 Carrera Impulsada ",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Josh Lester  Out: Elevado al Lanzador",
+        "atBat": "Marco Luciano ",
         "comment": "",
         "winningPitcher": "Oscar de la Cruz ",
         "losingPitcher": "",
@@ -690,7 +693,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -9934,7 +9937,10 @@
         "adImage": "https://s3.amazonaws.com/cdn.baseball-new.com/6ee6ff20c6a4df08ffafb8f65135feaa.png",
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -9984,7 +9990,7 @@
         "date": "2026-10-16 19:15:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "C. Jimenez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10028,9 +10034,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2185,
@@ -10044,8 +10050,8 @@
         "status": 2,
         "date": "2026-10-16 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Leonardo Bernal  Doble! 1 Carrera Impulsada ",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Josh Lester  Out: Elevado al Lanzador",
+        "atBat": "Marco Luciano ",
         "comment": "",
         "winningPitcher": "Oscar de la Cruz ",
         "losingPitcher": "",
@@ -10091,7 +10097,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "2026-10-17": [
@@ -20660,8 +20666,8 @@
       "currentInningNum": 8,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 2,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -21727,6 +21733,20 @@
               "ts": 1792204650
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "bottom",
+          "label": "Baja 8va",
+          "plays": [
+            {
+              "reference_id": "19905-2-80",
+              "text": "C. Jimenez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792204857
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21833,6 +21853,13 @@
           "half": "top",
           "label": "Alta 8va",
           "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 8,
+          "half": "bottom",
+          "label": "Baja 8va",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -21964,10 +21991,10 @@
       "date": "2026-10-16 19:30:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Leonardo Bernal  Doble! 1 Carrera Impulsada ",
+      "lastPlayByPlay": "Josh Lester  Out: Elevado al Lanzador",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 1
       },
       "base_state": {
@@ -22971,10 +22998,17 @@
             },
             {
               "reference_id": "19914-1-70",
-              "text": "Josh Lester  al bate",
+              "text": "Josh Lester  Out: Elevado al Lanzador",
               "scored": false,
               "is_primary": true,
-              "ts": 1792204797
+              "ts": 1792204818
+            },
+            {
+              "reference_id": "19914-1-71",
+              "text": "Marco Luciano  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792204821
             }
           ]
         }
@@ -23082,7 +23116,7 @@
           "num": 8,
           "half": "top",
           "label": "Alta 8va",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 1
         }
       ],
