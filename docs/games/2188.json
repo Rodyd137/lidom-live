@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2188",
-    "scraped_at": "2026-10-18T00:52:56.972Z",
+    "scraped_at": "2026-10-18T00:53:59.245Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-17 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Euribiel Ángeles  Ponche (K) ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 1
+      "strikes": 2,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -647,10 +647,31 @@
         "plays": [
           {
             "reference_id": "19936-2-29",
-            "text": "Marco Luciano  al bate",
+            "text": "Marco Luciano  Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792284770
+            "ts": 1792284776
+          },
+          {
+            "reference_id": "19936-2-30",
+            "text": "Cesar Prieto   Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792284782
+          },
+          {
+            "reference_id": "19936-2-31",
+            "text": "Euribiel Ángeles  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792284788
+          },
+          {
+            "reference_id": "19936-2-32",
+            "text": "Magneuris Sierra al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792284798
           }
         ]
       }
@@ -695,7 +716,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -812,7 +833,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 3,
-          "hits": 4,
+          "hits": 5,
           "errors": 2,
           "permalink": "/equipo/aguilas-cibaenas"
         }
