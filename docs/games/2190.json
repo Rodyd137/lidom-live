@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2190",
-    "scraped_at": "2026-10-18T23:31:52.613Z",
+    "scraped_at": "2026-10-18T23:32:55.882Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,7 +13,7 @@
     "currentInningNum": 7,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 2,
       "strikes": 2,
       "outs": 0
     },
@@ -114,6 +114,17 @@
             "team_id": 5,
             "name": "Jefferson Rojas",
             "abbreviation": "J. Rojas",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5989,
+            "team_id": 5,
+            "name": "Carlos Jorge ",
+            "abbreviation": "C. Jorge",
             "number": null,
             "dob": null,
             "height": "",
@@ -880,6 +891,20 @@
             "ts": 1792366072
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "19958-1-53",
+            "text": "Carlos Jorge  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792366326
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -965,6 +990,13 @@
         "half": "bottom",
         "label": "Baja 6ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -1064,7 +1096,7 @@
         "id": 2191,
         "date": "2026-10-18 17:00:00",
         "status": 2,
-        "roundText": "Baja 6ta",
+        "roundText": "Alta 7ma",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
