@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2188",
-    "scraped_at": "2026-10-18T00:36:21.255Z",
+    "scraped_at": "2026-10-18T00:37:23.454Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-17 19:30:00",
-    "roundText": "Baja 2da",
-    "currentInningNum": 2,
-    "lastPlayByPlay": "Raimel Tapia Out! Rodado de Selección.  Carrera Empujada",
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 6
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -598,10 +598,17 @@
           },
           {
             "reference_id": "19935-2-21",
-            "text": "Leonardo Bernal  al bate",
+            "text": "Leonardo Bernal   Out: Rodado al Tercera Base - Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1792283602
+            "ts": 1792283780
+          },
+          {
+            "reference_id": "19935-2-22",
+            "text": "Josh Lester   Out: Rodado al Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792283807
           }
         ]
       }
@@ -632,7 +639,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 7,
+        "total_plays": 8,
         "scoring_plays": 2
       }
     ],
@@ -647,14 +654,14 @@
       {
         "num": 2,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 3
       },
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
