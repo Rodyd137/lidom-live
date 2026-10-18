@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2188",
-    "scraped_at": "2026-10-18T01:17:05.986Z",
+    "scraped_at": "2026-10-18T01:18:09.442Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-17 19:30:00",
-    "roundText": "Baja 4ta",
-    "currentInningNum": 4,
-    "lastPlayByPlay": "Leonardo Bernal  Ponche (K) ",
+    "roundText": "Alta 5ta",
+    "currentInningNum": 5,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "balls": 1,
+      "strikes": 2,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -744,6 +744,20 @@
             "ts": 1792286063
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19938-1-41",
+            "text": "Junior Lake al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792286256
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -802,6 +816,13 @@
         "label": "Baja 4ta",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -829,14 +850,14 @@
       {
         "num": 4,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 1
       },
       {
         "num": 5,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
