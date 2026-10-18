@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2190",
-    "scraped_at": "2026-10-18T23:41:23.646Z",
+    "scraped_at": "2026-10-18T23:42:27.207Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-18 17:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Victor Scott Robo de Base ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -919,6 +919,34 @@
             "ts": 1792366561
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "19958-2-56",
+            "text": "Victor Scott Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792366918
+          },
+          {
+            "reference_id": "19958-2-57",
+            "text": "Mason Mccoy al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792366924
+          },
+          {
+            "reference_id": "19958-2-56-288202",
+            "text": "Victor Scott Robo de Base ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1792366932
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1010,6 +1038,13 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
         "total_plays": 3,
         "scoring_plays": 0
       }

@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-18T23:41:22.381Z",
+    "scraped_at": "2026-10-18T23:42:25.852Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,11 +578,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Victor Scott Robo de Base ",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2191,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Eguy Rosario Golpeado por Pelota ",
-        "atBat": "Wilmer Difo",
+        "lastPlayByPlay": "Wilmer Difo Ponche (K) ",
+        "atBat": "Yairo Muñoz",
         "comment": "",
         "winningPitcher": "Spencer Turnbull",
         "losingPitcher": "Enny Romero",
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -10106,11 +10106,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Victor Scott Robo de Base ",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -10155,9 +10155,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2191,
@@ -10171,8 +10171,8 @@
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Eguy Rosario Golpeado por Pelota ",
-        "atBat": "Wilmer Difo",
+        "lastPlayByPlay": "Wilmer Difo Ponche (K) ",
+        "atBat": "Yairo Muñoz",
         "comment": "",
         "winningPitcher": "Spencer Turnbull",
         "losingPitcher": "Enny Romero",
@@ -10217,7 +10217,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -20214,22 +20214,22 @@
       "date": "2026-10-18 17:00:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Victor Scott Robo de Base ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 2,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -21122,6 +21122,34 @@
               "ts": 1792366561
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "plays": [
+            {
+              "reference_id": "19958-2-56",
+              "text": "Victor Scott Base por Bolas ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792366918
+            },
+            {
+              "reference_id": "19958-2-57",
+              "text": "Mason Mccoy al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792366924
+            },
+            {
+              "reference_id": "19958-2-56-288202",
+              "text": "Victor Scott Robo de Base ",
+              "scored": false,
+              "is_primary": false,
+              "ts": 1792366932
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21213,6 +21241,13 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
+          "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
           "total_plays": 3,
           "scoring_plays": 0
         }
@@ -21403,11 +21438,11 @@
       "date": "2026-10-18 17:00:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Eguy Rosario Golpeado por Pelota ",
+      "lastPlayByPlay": "Wilmer Difo Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22340,10 +22375,17 @@
             },
             {
               "reference_id": "19967-1-64",
-              "text": "Wilmer Difo al bate",
+              "text": "Wilmer Difo Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792366743
+              "ts": 1792366937
+            },
+            {
+              "reference_id": "19967-1-65",
+              "text": "Yairo Muñoz al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792366941
             }
           ]
         }
@@ -22437,7 +22479,7 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
