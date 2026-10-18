@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2187",
-    "scraped_at": "2026-10-18T00:10:24.855Z",
+    "scraped_at": "2026-10-18T00:11:27.072Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,7 +14,7 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -59,7 +59,7 @@
           "H2": 5
         },
         "probables": {
-          "pitcher": "Evan Grills",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": true
@@ -828,6 +828,20 @@
             "ts": 1792282066
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "19929-2-47",
+            "text": "Mason Mccoy al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792282228
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -892,6 +906,13 @@
         "half": "top",
         "label": "Alta 5ta",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -991,7 +1012,7 @@
         "id": 2188,
         "date": "2026-10-17 19:30:00",
         "status": 2,
-        "roundText": "Baja 1ra",
+        "roundText": "Alta 2da",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
