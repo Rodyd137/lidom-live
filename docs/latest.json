@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-18T00:20:46.577Z",
+    "scraped_at": "2026-10-18T00:21:49.026Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-10-17 17:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "C. Adames",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "Vladimir Gutiérrez",
@@ -566,9 +566,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2187,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-17 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Cesar Prieto  Golpeado por Pelota ",
-        "atBat": "Euribiel Ángeles ",
+        "lastPlayByPlay": "Euribiel Ángeles  Toque de Sacrificio se embasa por Error del - Lanzador",
+        "atBat": "Magneuris Sierra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -9865,7 +9865,7 @@
         "date": "2026-10-17 17:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "C. Adames",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "Vladimir Gutiérrez",
@@ -9909,9 +9909,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2187,
@@ -9986,8 +9986,8 @@
         "status": 2,
         "date": "2026-10-17 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Cesar Prieto  Golpeado por Pelota ",
-        "atBat": "Euribiel Ángeles ",
+        "lastPlayByPlay": "Euribiel Ángeles  Toque de Sacrificio se embasa por Error del - Lanzador",
+        "atBat": "Magneuris Sierra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -18993,8 +18993,8 @@
       "currentInningNum": 9,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -20088,6 +20088,20 @@
               "ts": 1792282691
             }
           ]
+        },
+        {
+          "num": 9,
+          "half": "bottom",
+          "label": "Baja 9na",
+          "plays": [
+            {
+              "reference_id": "19924-2-82",
+              "text": "C. Adames al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792282866
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20208,6 +20222,13 @@
           "half": "top",
           "label": "Alta 9na",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 9,
+          "half": "bottom",
+          "label": "Baja 9na",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -21448,7 +21469,7 @@
       "date": "2026-10-17 19:30:00",
       "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "Cesar Prieto  Golpeado por Pelota ",
+      "lastPlayByPlay": "Euribiel Ángeles  Toque de Sacrificio se embasa por Error del - Lanzador",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -22000,10 +22021,17 @@
             },
             {
               "reference_id": "19935-2-16",
-              "text": "Euribiel Ángeles  al bate",
+              "text": "Euribiel Ángeles  Toque de Sacrificio se embasa por Error del - Lanzador",
               "scored": false,
               "is_primary": true,
-              "ts": 1792282761
+              "ts": 1792282849
+            },
+            {
+              "reference_id": "19935-2-17",
+              "text": "Magneuris Sierra al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792282854
             }
           ]
         }
@@ -22034,7 +22062,7 @@
           "num": 2,
           "half": "bottom",
           "label": "Baja 2da",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
