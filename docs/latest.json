@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-18T01:42:22.263Z",
+    "scraped_at": "2026-10-18T01:43:25.564Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -642,16 +642,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-17 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Vidal Brujan Out: Elevado al Jardinero Central",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "Magneuris Sierra  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Ismael Munguia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "currentInningNum": 6,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -689,8 +689,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
-        "strikes": 0
+        "outs": 1,
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -10107,16 +10107,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-17 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Vidal Brujan Out: Elevado al Jardinero Central",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "Magneuris Sierra  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Ismael Munguia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "currentInningNum": 6,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -10154,8 +10154,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
-        "strikes": 0
+        "outs": 1,
+        "strikes": 1
       }
     ],
     "2026-10-18": [
@@ -20589,7 +20589,7 @@
           "id": 2188,
           "date": "2026-10-17 19:30:00",
           "status": 2,
-          "roundText": "Alta 6ta",
+          "roundText": "Baja 6ta",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -22016,7 +22016,7 @@
           "id": 2188,
           "date": "2026-10-17 19:30:00",
           "status": 2,
-          "roundText": "Alta 6ta",
+          "roundText": "Baja 6ta",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -22077,16 +22077,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-17 19:30:00",
-      "roundText": "Alta 6ta",
+      "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Vidal Brujan Out: Elevado al Jardinero Central",
+      "lastPlayByPlay": "Magneuris Sierra  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
         "balls": 0,
-        "strikes": 0,
-        "outs": 3
+        "strikes": 1,
+        "outs": 1
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -22910,6 +22910,27 @@
               "ts": 1792287574
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "bottom",
+          "label": "Baja 6ta",
+          "plays": [
+            {
+              "reference_id": "19939-2-52",
+              "text": "Magneuris Sierra  Out: Rodado al Segunda Base - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792287770
+            },
+            {
+              "reference_id": "19939-2-53",
+              "text": "Ismael Munguia al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792287773
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22989,6 +23010,13 @@
           "label": "Alta 6ta",
           "total_plays": 4,
           "scoring_plays": 1
+        },
+        {
+          "num": 6,
+          "half": "bottom",
+          "label": "Baja 6ta",
+          "total_plays": 2,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -23029,7 +23057,7 @@
         },
         {
           "num": 6,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 1,
           "homeTeamRuns": 0
