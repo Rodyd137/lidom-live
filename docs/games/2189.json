@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2189",
-    "scraped_at": "2026-10-18T22:50:39.058Z",
+    "scraped_at": "2026-10-18T22:51:42.841Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-18 17:00:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "M. Romero Base por Bolas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -766,10 +766,17 @@
         "plays": [
           {
             "reference_id": "19946-2-44",
-            "text": "M. Romero al bate",
+            "text": "M. Romero Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792363837
+            "ts": 1792363842
+          },
+          {
+            "reference_id": "19946-2-45",
+            "text": "Jose Barrero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792363844
           }
         ]
       }
@@ -828,7 +835,7 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -928,7 +935,7 @@
         "id": 2191,
         "date": "2026-10-18 17:00:00",
         "status": 2,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "awayTeam": {
           "id": 6,
           "name": "Toros",

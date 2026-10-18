@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-18T22:50:37.655Z",
+    "scraped_at": "2026-10-18T22:51:41.546Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "M. Romero Base por Bolas ",
+        "atBat": "Jose Barrero",
         "comment": "",
         "winningPitcher": "J. Quintana",
         "losingPitcher": "Victor Santos",
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -642,16 +645,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-18 17:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Julio Rodriguez Out: Elevado al Receptor",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "Cesar Prieto  Out: Elevado al Jardinero Izquierdo",
+        "atBat": "Christian Cerda",
         "comment": "",
         "winningPitcher": "Spencer Turnbull",
         "losingPitcher": "Enny Romero",
         "savingPitcher": "",
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "currentInningNum": 5,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -689,7 +692,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -10045,12 +10048,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "M. Romero",
+        "lastPlayByPlay": "M. Romero Base por Bolas ",
+        "atBat": "Jose Barrero",
         "comment": "",
         "winningPitcher": "J. Quintana",
         "losingPitcher": "Victor Santos",
@@ -10061,7 +10064,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -10170,16 +10176,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-18 17:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Julio Rodriguez Out: Elevado al Receptor",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "Cesar Prieto  Out: Elevado al Jardinero Izquierdo",
+        "atBat": "Christian Cerda",
         "comment": "",
         "winningPitcher": "Spencer Turnbull",
         "losingPitcher": "Enny Romero",
         "savingPitcher": "",
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "currentInningNum": 5,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -10217,7 +10223,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -18997,7 +19003,7 @@
       "date": "2026-10-18 17:00:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "M. Romero Base por Bolas ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -19005,14 +19011,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -19752,10 +19758,17 @@
           "plays": [
             {
               "reference_id": "19946-2-44",
-              "text": "M. Romero al bate",
+              "text": "M. Romero Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792363837
+              "ts": 1792363842
+            },
+            {
+              "reference_id": "19946-2-45",
+              "text": "Jose Barrero al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792363844
             }
           ]
         }
@@ -19814,7 +19827,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -19914,7 +19927,7 @@
           "id": 2191,
           "date": "2026-10-18 17:00:00",
           "status": 2,
-          "roundText": "Alta 5ta",
+          "roundText": "Baja 5ta",
           "awayTeam": {
             "id": 6,
             "name": "Toros",
@@ -20942,7 +20955,7 @@
           "id": 2191,
           "date": "2026-10-18 17:00:00",
           "status": 2,
-          "roundText": "Alta 5ta",
+          "roundText": "Baja 5ta",
           "awayTeam": {
             "id": 6,
             "name": "Toros",
@@ -21030,16 +21043,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-18 17:00:00",
-      "roundText": "Alta 5ta",
+      "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Julio Rodriguez Out: Elevado al Receptor",
+      "lastPlayByPlay": "Cesar Prieto  Out: Elevado al Jardinero Izquierdo",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -21835,6 +21848,27 @@
               "ts": 1792363617
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "plays": [
+            {
+              "reference_id": "19965-2-49",
+              "text": "Cesar Prieto  Out: Elevado al Jardinero Izquierdo",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792363891
+            },
+            {
+              "reference_id": "19965-2-50",
+              "text": "Christian Cerda al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792363897
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21900,6 +21934,13 @@
           "label": "Alta 5ta",
           "total_plays": 5,
           "scoring_plays": 0
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "total_plays": 2,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -21933,7 +21974,7 @@
         },
         {
           "num": 5,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
