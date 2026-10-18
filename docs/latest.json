@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-18T22:33:41.401Z",
+    "scraped_at": "2026-10-18T22:34:44.890Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Randy Florentino Ponche (K) ",
-        "atBat": "Vidal Brujan",
+        "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
+        "atBat": "Erik Gonzales",
         "comment": "",
         "winningPitcher": "J. Quintana",
         "losingPitcher": "Victor Santos",
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -627,7 +627,7 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 2,
         "strikes": 0
       },
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Raimel Tapia  Out: Rodado al Campo Corto - Primera Base",
-        "atBat": null,
+        "lastPlayByPlay": "Oscar Gonzalez Doble! Jardinero Izquierdo",
+        "atBat": "Josh Lester ",
         "comment": "",
         "winningPitcher": "Spencer Turnbull",
         "losingPitcher": "Enny Romero",
@@ -10049,8 +10049,8 @@
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Randy Florentino Ponche (K) ",
-        "atBat": "Vidal Brujan",
+        "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
+        "atBat": "Erik Gonzales",
         "comment": "",
         "winningPitcher": "J. Quintana",
         "losingPitcher": "Victor Santos",
@@ -10095,7 +10095,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -10155,7 +10155,7 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 2,
         "strikes": 0
       },
@@ -10167,12 +10167,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Raimel Tapia  Out: Rodado al Campo Corto - Primera Base",
-        "atBat": null,
+        "lastPlayByPlay": "Oscar Gonzalez Doble! Jardinero Izquierdo",
+        "atBat": "Josh Lester ",
         "comment": "",
         "winningPitcher": "Spencer Turnbull",
         "losingPitcher": "Enny Romero",
@@ -10216,9 +10216,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "2026-10-20": [
@@ -18997,11 +18997,11 @@
       "date": "2026-10-18 17:00:00",
       "roundText": "Alta 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Randy Florentino Ponche (K) ",
+      "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -19710,10 +19710,17 @@
             },
             {
               "reference_id": "19946-1-38",
-              "text": "Vidal Brujan al bate",
+              "text": "Vidal Brujan Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792362720
+              "ts": 1792362864
+            },
+            {
+              "reference_id": "19946-1-39",
+              "text": "Erik Gonzales al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792362866
             }
           ]
         }
@@ -19765,7 +19772,7 @@
           "num": 4,
           "half": "top",
           "label": "Alta 4ta",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -19957,7 +19964,7 @@
       "currentInningNum": 4,
       "lastPlayByPlay": "Jorge Bonifacio Robo de Base ",
       "counts": {
-        "balls": 1,
+        "balls": 2,
         "strikes": 0,
         "outs": 2
       },
@@ -20941,7 +20948,7 @@
       "date": "2026-10-18 17:00:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Raimel Tapia  Out: Rodado al Campo Corto - Primera Base",
+      "lastPlayByPlay": "Oscar Gonzalez Doble! Jardinero Izquierdo",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -20949,14 +20956,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -21679,6 +21686,20 @@
               "scored": false,
               "is_primary": true,
               "ts": 1792362796
+            },
+            {
+              "reference_id": "19964-2-41",
+              "text": "Oscar Gonzalez Doble! Jardinero Izquierdo",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792362847
+            },
+            {
+              "reference_id": "19964-2-42",
+              "text": "Josh Lester  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792362850
             }
           ]
         }
@@ -21737,7 +21758,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 1,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
