@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-18T00:05:13.305Z",
+    "scraped_at": "2026-10-18T00:06:15.504Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-10-17 17:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "J. Made",
         "comment": "",
         "winningPitcher": "Jake Eder",
         "losingPitcher": "Vladimir Gutiérrez",
@@ -629,7 +629,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2188,
@@ -655,7 +655,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -9865,7 +9868,7 @@
         "date": "2026-10-17 17:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "J. Made",
         "comment": "",
         "winningPitcher": "Jake Eder",
         "losingPitcher": "Vladimir Gutiérrez",
@@ -9972,7 +9975,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2188,
@@ -9998,7 +10001,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -20025,6 +20031,20 @@
               "ts": 1792281790
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "bottom",
+          "label": "Baja 8va",
+          "plays": [
+            {
+              "reference_id": "19923-2-75",
+              "text": "J. Made al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792281917
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20132,6 +20152,13 @@
           "label": "Alta 8va",
           "total_plays": 11,
           "scoring_plays": 3
+        },
+        {
+          "num": 8,
+          "half": "bottom",
+          "label": "Baja 8va",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20296,7 +20323,7 @@
       "lastPlayByPlay": "Pedro Severino Sencillo ",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 2
       },
       "base_state": {
