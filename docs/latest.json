@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-18T02:07:38.896Z",
+    "scraped_at": "2026-10-18T02:08:42.324Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-10-17 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Leonardo Bernal  Ponche (K) Robo de Base - Segunda Base",
-        "atBat": null,
+        "lastPlayByPlay": "Josh Lester  Golpeado por Pelota ",
+        "atBat": "Marco Luciano ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10104,12 +10104,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-10-17 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Leonardo Bernal  Ponche (K) Robo de Base - Segunda Base",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Josh Lester  Golpeado por Pelota ",
+        "atBat": "Marco Luciano ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -22106,7 +22106,7 @@
       "date": "2026-10-17 19:30:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Leonardo Bernal  Ponche (K) Robo de Base - Segunda Base",
+      "lastPlayByPlay": "Josh Lester  Golpeado por Pelota ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -22114,14 +22114,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 3
+        "base": 5
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -23022,10 +23022,17 @@
             },
             {
               "reference_id": "19940-2-61",
-              "text": "Josh Lester  al bate",
+              "text": "Josh Lester  Golpeado por Pelota ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792289258
+              "ts": 1792289272
+            },
+            {
+              "reference_id": "19940-2-62",
+              "text": "Marco Luciano  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792289276
             }
           ]
         }
@@ -23126,7 +23133,7 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
