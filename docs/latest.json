@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-18T22:00:51.716Z",
+    "scraped_at": "2026-10-18T22:01:55.091Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,11 +578,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 4,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Roly Brito Doble! ",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -605,7 +605,7 @@
           "runs": 1,
           "runs_half": 1,
           "errors": 0,
-          "hits": 4,
+          "hits": 5,
           "pitcher": "Jared Wetherbee",
           "era": "",
           "debut": 1,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Eguy Rosario",
+        "lastPlayByPlay": "Eguy Rosario Out: Elevado al Jardinero Derecho ",
+        "atBat": "Wilmer Difo",
         "comment": "",
         "winningPitcher": "Spencer Turnbull",
         "losingPitcher": "Enny Romero",
@@ -10106,11 +10106,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 4,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Roly Brito Doble! ",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -10172,7 +10172,7 @@
         "date": "2026-10-18 17:00:00",
         "part": 1,
         "lastPlayByPlay": "Eguy Rosario Out: Elevado al Jardinero Derecho ",
-        "atBat": null,
+        "atBat": "Wilmer Difo",
         "comment": "",
         "winningPitcher": "Spencer Turnbull",
         "losingPitcher": "Enny Romero",
@@ -19720,7 +19720,7 @@
             "abbr": "GC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 1,
-            "hits": 4,
+            "hits": 5,
             "errors": 0,
             "permalink": "/equipo/gigantes-del-cibao"
           },
@@ -19829,7 +19829,7 @@
       "date": "2026-10-18 17:00:00",
       "roundText": "Alta 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Roly Brito Doble! ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -19837,14 +19837,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 4
       },
       "base_runners": {
         "on1B": false,
         "on2B": false,
-        "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "on3B": true,
+        "runners": 1,
+        "mask": 4
       },
       "betting": {
         "moneyline": {
@@ -19872,7 +19872,7 @@
           "permalink": "/equipo/gigantes-del-cibao",
           "totals": {
             "R": 1,
-            "H": 4,
+            "H": 5,
             "E": 0,
             "H2": 1
           },
@@ -20159,7 +20159,7 @@
         "totals": {
           "away": {
             "R": 1,
-            "H": 4,
+            "H": 5,
             "E": 0
           },
           "home": {
@@ -20422,6 +20422,20 @@
               "ts": 1792360690
             }
           ]
+        },
+        {
+          "num": 3,
+          "half": "top",
+          "label": "Alta 3ra",
+          "plays": [
+            {
+              "reference_id": "19954-1-21",
+              "text": "Roly Brito Doble! ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792360875
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20451,6 +20465,13 @@
           "half": "bottom",
           "label": "Baja 2da",
           "total_plays": 5,
+          "scoring_plays": 0
+        },
+        {
+          "num": 3,
+          "half": "top",
+          "label": "Alta 3ra",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -20640,7 +20661,7 @@
       "date": "2026-10-18 17:00:00",
       "roundText": "Alta 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Eguy Rosario Out: Elevado al Jardinero Derecho ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21269,10 +21290,17 @@
           "plays": [
             {
               "reference_id": "19963-1-27",
-              "text": "Eguy Rosario al bate",
+              "text": "Eguy Rosario Out: Elevado al Jardinero Derecho ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792360789
+              "ts": 1792360850
+            },
+            {
+              "reference_id": "19963-1-28",
+              "text": "Wilmer Difo al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792360856
             }
           ]
         }
@@ -21310,7 +21338,7 @@
           "num": 3,
           "half": "top",
           "label": "Alta 3ra",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21417,7 +21445,7 @@
             "abbr": "GC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 1,
-            "hits": 4,
+            "hits": 5,
             "errors": 0,
             "permalink": "/equipo/gigantes-del-cibao"
           },
