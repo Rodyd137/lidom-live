@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2188",
-    "scraped_at": "2026-10-18T00:39:27.875Z",
+    "scraped_at": "2026-10-18T00:40:30.091Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 3,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -611,6 +611,20 @@
             "ts": 1792283807
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "19936-1-23",
+            "text": "Socrates Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792283985
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -641,6 +655,13 @@
         "label": "Baja 2da",
         "total_plays": 8,
         "scoring_plays": 2
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -739,7 +760,7 @@
         "id": 2187,
         "date": "2026-10-17 18:00:00",
         "status": 2,
-        "roundText": "Baja 6ta",
+        "roundText": "Alta 7ma",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
