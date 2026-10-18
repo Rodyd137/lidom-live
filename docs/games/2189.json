@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2189",
-    "scraped_at": "2026-10-18T22:49:35.313Z",
+    "scraped_at": "2026-10-18T22:50:39.058Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-18 17:00:00",
-    "roundText": "Alta 4ta",
+    "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Junior Lake  Out: Rodado al Receptor - Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -758,6 +758,20 @@
             "ts": 1792363509
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19946-2-44",
+            "text": "M. Romero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792363837
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -809,6 +823,13 @@
         "label": "Alta 4ta",
         "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -835,7 +856,7 @@
       },
       {
         "num": 4,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
@@ -881,7 +902,7 @@
         "id": 2190,
         "date": "2026-10-18 17:00:00",
         "status": 2,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
