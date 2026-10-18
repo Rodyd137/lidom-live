@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-18T00:49:49.911Z",
+    "scraped_at": "2026-10-18T00:50:52.184Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-17 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Adalberto Mondesi  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Webster Rivas",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -629,7 +629,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2188,
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-17 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Marco Luciano  Out: Elevado al Jardinero Derecho ",
-        "atBat": "Cesar Prieto ",
+        "lastPlayByPlay": "Cesar Prieto  Base por Bolas ",
+        "atBat": "Euribiel Ángeles ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 1,
-        "strikes": 2
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -9986,8 +9986,8 @@
         "status": 2,
         "date": "2026-10-17 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Adalberto Mondesi  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Webster Rivas",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -10033,7 +10033,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2188,
@@ -10047,8 +10047,8 @@
         "status": 2,
         "date": "2026-10-17 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Marco Luciano  Out: Elevado al Jardinero Derecho ",
-        "atBat": "Cesar Prieto ",
+        "lastPlayByPlay": "Cesar Prieto  Base por Bolas ",
+        "atBat": "Euribiel Ángeles ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -20530,10 +20530,10 @@
       "date": "2026-10-17 18:00:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Adalberto Mondesi  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 1
       },
       "base_state": {
@@ -21466,6 +21466,27 @@
               "ts": 1792284385
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "plays": [
+            {
+              "reference_id": "19931-2-60",
+              "text": "Adalberto Mondesi  Out: Rodado al Segunda Base - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792284632
+            },
+            {
+              "reference_id": "19931-2-61",
+              "text": "Webster Rivas al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792284636
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21558,6 +21579,13 @@
           "half": "top",
           "label": "Alta 7ma",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21720,22 +21748,22 @@
       "date": "2026-10-17 19:30:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "Marco Luciano  Out: Elevado al Jardinero Derecho ",
+      "lastPlayByPlay": "Cesar Prieto  Base por Bolas ",
       "counts": {
-        "balls": 3,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -22363,10 +22391,17 @@
             },
             {
               "reference_id": "19936-2-27",
-              "text": "Cesar Prieto  al bate",
+              "text": "Cesar Prieto  Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792284426
+              "ts": 1792284593
+            },
+            {
+              "reference_id": "19936-2-28",
+              "text": "Euribiel Ángeles  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792284598
             }
           ]
         }
@@ -22411,7 +22446,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
