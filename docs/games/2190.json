@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2190",
-    "scraped_at": "2026-10-18T22:32:39.063Z",
+    "scraped_at": "2026-10-18T22:33:42.741Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-18 17:00:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Jorge Bonifacio Sencillo y 2 Carreras Impulsadas ",
+    "lastPlayByPlay": "Jorge Bonifacio Robo de Base ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 1
+      "balls": 1,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -731,10 +731,24 @@
           },
           {
             "reference_id": "19955-2-36",
-            "text": "Steward Berroa al bate",
+            "text": "Steward Berroa Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792362622
+            "ts": 1792362773
+          },
+          {
+            "reference_id": "19955-2-37",
+            "text": "Victor Scott al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792362784
+          },
+          {
+            "reference_id": "19955-2-36-288058",
+            "text": "Jorge Bonifacio Robo de Base ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1792362815
           }
         ]
       }
@@ -793,7 +807,7 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 5,
+        "total_plays": 7,
         "scoring_plays": 1
       }
     ],
