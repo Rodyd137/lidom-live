@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-18T23:35:01.425Z",
+    "scraped_at": "2026-10-18T23:36:04.898Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -566,9 +566,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2190,
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Carlos Jorge  Ponche (K) ",
-        "atBat": "Emil Morales",
+        "lastPlayByPlay": "Kelvin Guitierrez  Out: Rodado al Tercera Base - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 2,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2191,
@@ -644,7 +644,7 @@
         "date": "2026-10-18 17:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jhonkensy Noel",
         "comment": "",
         "winningPitcher": "Spencer Turnbull",
         "losingPitcher": "Enny Romero",
@@ -10094,9 +10094,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2190,
@@ -10110,8 +10110,8 @@
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Carlos Jorge  Ponche (K) ",
-        "atBat": "Emil Morales",
+        "lastPlayByPlay": "Kelvin Guitierrez  Out: Rodado al Tercera Base - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10155,9 +10155,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 2,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2191,
@@ -10172,7 +10172,7 @@
         "date": "2026-10-18 17:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jhonkensy Noel",
         "comment": "",
         "winningPitcher": "Spencer Turnbull",
         "losingPitcher": "Enny Romero",
@@ -18999,8 +18999,8 @@
       "currentInningNum": 6,
       "lastPlayByPlay": "Jose Barrero Base por Bolas ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 3,
+        "strikes": 1,
         "outs": 1
       },
       "base_state": {
@@ -20200,11 +20200,11 @@
       "date": "2026-10-18 17:00:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Carlos Jorge  Ponche (K) ",
+      "lastPlayByPlay": "Kelvin Guitierrez  Out: Rodado al Tercera Base - Primera Base",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
-        "outs": 1
+        "balls": 0,
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21095,10 +21095,17 @@
             },
             {
               "reference_id": "19958-1-54",
-              "text": "Emil Morales al bate",
+              "text": "Emil Morales Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792366387
+              "ts": 1792366527
+            },
+            {
+              "reference_id": "19958-1-55",
+              "text": "Kelvin Guitierrez  Out: Rodado al Tercera Base - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792366561
             }
           ]
         }
@@ -21192,7 +21199,7 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -22297,6 +22304,20 @@
               "ts": 1792366289
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "top",
+          "label": "Alta 7ma",
+          "plays": [
+            {
+              "reference_id": "19967-1-62",
+              "text": "Jhonkensy Noel al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792366537
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22383,6 +22404,13 @@
           "label": "Baja 6ta",
           "total_plays": 6,
           "scoring_plays": 1
+        },
+        {
+          "num": 7,
+          "half": "top",
+          "label": "Alta 7ma",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
