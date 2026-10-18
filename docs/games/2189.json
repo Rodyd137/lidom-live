@@ -1,16 +1,16 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2189",
-    "scraped_at": "2026-10-18T19:29:21.123Z",
+    "scraped_at": "2026-10-18T21:48:07.848Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2189,
     "season_id": 23,
-    "status": 1,
+    "status": 2,
     "date": "2026-10-18 17:00:00",
-    "roundText": "Alta 1ra",
-    "currentInningNum": 1,
+    "roundText": "Baja 2da",
+    "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
@@ -18,7 +18,7 @@
       "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -40,9 +40,9 @@
       "over_under": null
     },
     "pitchers": {
-      "winning": null,
-      "losing": null,
-      "save": null
+      "winning": "J. Quintana",
+      "losing": "Victor Santos",
+      "save": ""
     },
     "teams": {
       "away": {
@@ -53,18 +53,118 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 0,
-          "H": 0,
+          "R": 2,
+          "H": 2,
           "E": 0,
-          "H2": 0
+          "H2": 2
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Victor Santos",
           "era": "",
           "record": "",
-          "debut": false
+          "debut": true
         },
-        "players": []
+        "players": [
+          {
+            "id": 6078,
+            "team_id": 4,
+            "name": "Vidal Brujan",
+            "abbreviation": "Vidal Brujan",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6079,
+            "team_id": 4,
+            "name": "Erik Gonzales",
+            "abbreviation": "Erik Gonzales",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6037,
+            "team_id": 4,
+            "name": "Socrates Brito",
+            "abbreviation": "Brito",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6038,
+            "team_id": 4,
+            "name": "Junior Lake",
+            "abbreviation": "Lake",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6116,
+            "team_id": 4,
+            "name": "Luis de los Santos",
+            "abbreviation": "L. de los Santos",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6041,
+            "team_id": 4,
+            "name": "Marmolejos",
+            "abbreviation": "Marmolejos",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6042,
+            "team_id": 4,
+            "name": "Ibañez",
+            "abbreviation": "Ibañez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6117,
+            "team_id": 4,
+            "name": "Jonathan Guzman",
+            "abbreviation": "Jonathan Guzman",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6118,
+            "team_id": 4,
+            "name": "Randy Florentino",
+            "abbreviation": "Randy Florentino",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       },
       "home": {
         "id": 1,
@@ -74,16 +174,16 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
-          "R": 0,
-          "H": 0,
-          "E": 0,
-          "H2": 0
+          "R": 3,
+          "H": 3,
+          "E": 1,
+          "H2": 3
         },
         "probables": {
           "pitcher": "J. Quintana",
           "era": "",
           "record": "",
-          "debut": false
+          "debut": true
         },
         "players": [
           {
@@ -194,11 +294,11 @@
         {
           "num": 1,
           "away": 0,
-          "home": 0
+          "home": 3
         },
         {
           "num": 2,
-          "away": 0,
+          "away": 2,
           "home": 0
         },
         {
@@ -240,14 +340,14 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
-          "H": 0,
+          "R": 2,
+          "H": 2,
           "E": 0
         },
         "home": {
-          "R": 0,
-          "H": 0,
-          "E": 0
+          "R": 3,
+          "H": 3,
+          "E": 1
         }
       },
       "cumulative": {
@@ -258,92 +358,290 @@
           },
           {
             "num": 2,
-            "R": 0
+            "R": 2
           },
           {
             "num": 3,
-            "R": 0
+            "R": 2
           },
           {
             "num": 4,
-            "R": 0
+            "R": 2
           },
           {
             "num": 5,
-            "R": 0
+            "R": 2
           },
           {
             "num": 6,
-            "R": 0
+            "R": 2
           },
           {
             "num": 7,
-            "R": 0
+            "R": 2
           },
           {
             "num": 8,
-            "R": 0
+            "R": 2
           },
           {
             "num": 9,
-            "R": 0
+            "R": 2
           }
         ],
         "home": [
           {
             "num": 1,
-            "R": 0
+            "R": 3
           },
           {
             "num": 2,
-            "R": 0
+            "R": 3
           },
           {
             "num": 3,
-            "R": 0
+            "R": 3
           },
           {
             "num": 4,
-            "R": 0
+            "R": 3
           },
           {
             "num": 5,
-            "R": 0
+            "R": 3
           },
           {
             "num": 6,
-            "R": 0
+            "R": 3
           },
           {
             "num": 7,
-            "R": 0
+            "R": 3
           },
           {
             "num": 8,
-            "R": 0
+            "R": 3
           },
           {
             "num": 9,
-            "R": 0
+            "R": 3
           }
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
-    "innings_raw": [
+    "plays_by_inning": [
       {
         "num": 1,
-        "part": 1,
-        "is_last": 1,
-        "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "19943-1-1",
+            "text": "Vidal Brujan Out: Línea al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792357621
+          },
+          {
+            "reference_id": "19943-1-2",
+            "text": "Erik Gonzales  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792357687
+          },
+          {
+            "reference_id": "19943-1-3",
+            "text": "Socrates Brito Ponche (Llega a primera por error) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792357818
+          },
+          {
+            "reference_id": "19943-1-4",
+            "text": "Junior Lake Out: Línea al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792357875
+          }
+        ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "19943-2-5",
+            "text": "J. Made Sencillo y 1 Carrera Impulsada Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792358079
+          },
+          {
+            "reference_id": "19943-2-6",
+            "text": "C. Adames Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792358249
+          },
+          {
+            "reference_id": "19943-2-7",
+            "text": "J. Made Robo de Base Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792358331
+          },
+          {
+            "reference_id": "19943-2-8",
+            "text": "M. Franco Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792358398
+          },
+          {
+            "reference_id": "19943-2-9",
+            "text": "Mel Rojas Elevado de Sacrificio Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792358531
+          },
+          {
+            "reference_id": "19943-2-10",
+            "text": "E. Florial Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1792358622
+          },
+          {
+            "reference_id": "19943-2-11",
+            "text": "A. Ortiz Sencillo y 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1792358766
+          },
+          {
+            "reference_id": "19943-2-12",
+            "text": "Sergio Alcantara  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792359052
+          }
+        ]
       },
       {
         "num": 2,
-        "part": 1,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "19944-1-13",
+            "text": "Luis de los Santos Doble! Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792359253
+          },
+          {
+            "reference_id": "19944-1-14",
+            "text": "Marmolejos Out: Elevado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792359356
+          },
+          {
+            "reference_id": "19944-1-15",
+            "text": "Ibañez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792359402
+          },
+          {
+            "reference_id": "19944-1-16",
+            "text": "Jonathan Guzman se embasa por Error del Tercera Base - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1792359476
+          },
+          {
+            "reference_id": "19944-1-18",
+            "text": "Randy Florentino Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1792359590
+          },
+          {
+            "reference_id": "19944-1-19",
+            "text": "Vidal Brujan Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792359835
+          },
+          {
+            "reference_id": "19944-1-20",
+            "text": "Erik Gonzales  Out: Rodado al Jardinero Izquierdo - Receptor",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792359945
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "19944-2-21",
+            "text": "M. Romero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792360073
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 8,
+        "scoring_plays": 2
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 7,
+        "scoring_plays": 2
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
+      }
+    ],
+    "innings_raw": [
+      {
+        "num": 1,
+        "part": 2,
         "is_last": 0,
         "awayTeamRuns": 0,
+        "homeTeamRuns": 3
+      },
+      {
+        "num": 2,
+        "part": 2,
+        "is_last": 1,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
@@ -400,15 +698,15 @@
       {
         "id": 2190,
         "date": "2026-10-18 17:00:00",
-        "status": 1,
-        "roundText": "Alta 1ra",
+        "status": 2,
+        "roundText": "Baja 2da",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 0,
-          "hits": 0,
+          "runs": 1,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         },
@@ -418,7 +716,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }
@@ -426,15 +724,15 @@
       {
         "id": 2191,
         "date": "2026-10-18 17:00:00",
-        "status": 1,
-        "roundText": "Alta 1ra",
+        "status": 2,
+        "roundText": "Alta 2da",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 0,
-          "hits": 0,
+          "runs": 5,
+          "hits": 5,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         },
@@ -444,7 +742,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
