@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-18T23:51:00.336Z",
+    "scraped_at": "2026-10-18T23:52:03.732Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Junior Lake se embasa por Error del Tercera Base",
-        "atBat": "Luis de los Santos",
+        "lastPlayByPlay": "Junior Lake Robo de Base Wild Pitch",
+        "atBat": null,
         "comment": "",
         "winningPitcher": "J. Quintana",
         "losingPitcher": "Victor Santos",
@@ -647,7 +647,7 @@
         "date": "2026-10-18 17:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Aaron Schunk",
         "comment": "",
         "winningPitcher": "Spencer Turnbull",
         "losingPitcher": "Enny Romero",
@@ -10048,11 +10048,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Junior Lake se embasa por Error del Tercera Base",
+        "lastPlayByPlay": "Junior Lake Robo de Base Wild Pitch",
         "atBat": "Luis de los Santos",
         "comment": "",
         "winningPitcher": "J. Quintana",
@@ -10178,7 +10178,7 @@
         "date": "2026-10-18 17:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Aaron Schunk",
         "comment": "",
         "winningPitcher": "Spencer Turnbull",
         "losingPitcher": "Enny Romero",
@@ -19003,7 +19003,7 @@
       "date": "2026-10-18 17:00:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Junior Lake se embasa por Error del Tercera Base",
+      "lastPlayByPlay": "Junior Lake Robo de Base Wild Pitch",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -19011,14 +19011,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -19968,10 +19968,17 @@
             },
             {
               "reference_id": "19949-1-69",
+              "text": "Junior Lake Robo de Base Wild Pitch",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792367512
+            },
+            {
+              "reference_id": "19949-1-70",
               "text": "Luis de los Santos al bate",
               "scored": false,
               "is_primary": true,
-              "ts": 1792367213
+              "ts": 1792367522
             }
           ]
         }
@@ -20065,7 +20072,7 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -22450,6 +22457,20 @@
               "ts": 1792367344
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "plays": [
+            {
+              "reference_id": "19967-2-68",
+              "text": "Aaron Schunk al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792367460
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22542,6 +22563,13 @@
           "half": "top",
           "label": "Alta 7ma",
           "total_plays": 6,
+          "scoring_plays": 0
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
