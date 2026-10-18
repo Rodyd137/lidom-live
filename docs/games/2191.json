@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2191",
-    "scraped_at": "2026-10-18T21:50:19.424Z",
+    "scraped_at": "2026-10-18T21:51:22.888Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-18 17:00:00",
-    "roundText": "Alta 2da",
+    "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Jhonkensy Noel Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 2,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -604,6 +604,20 @@
             "ts": 1792360089
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "19962-2-23",
+            "text": "Marco Luciano  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792360268
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -627,6 +641,13 @@
         "label": "Alta 2da",
         "total_plays": 11,
         "scoring_plays": 3
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -639,7 +660,7 @@
       },
       {
         "num": 2,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 5,
         "homeTeamRuns": 0
