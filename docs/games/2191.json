@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2191",
-    "scraped_at": "2026-10-18T23:57:21.482Z",
+    "scraped_at": "2026-10-18T23:58:24.576Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-18 17:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Ismael Munguia  Out: Rodado al Primera Base",
+    "lastPlayByPlay": "Harold Andres Ramirez Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 2,
-      "strikes": 2,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 4
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": true,
+      "on3B": false,
       "runners": 1,
-      "mask": 4
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 1,
-          "H": 8,
+          "R": 2,
+          "H": 9,
           "E": 0,
           "H2": 0
         },
@@ -324,7 +324,7 @@
         {
           "num": 7,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 8,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 1,
-          "H": 8,
+          "R": 2,
+          "H": 9,
           "E": 0
         }
       },
@@ -416,15 +416,15 @@
           },
           {
             "num": 7,
-            "R": 1
+            "R": 2
           },
           {
             "num": 8,
-            "R": 1
+            "R": 2
           },
           {
             "num": 9,
-            "R": 1
+            "R": 2
           }
         ]
       }
@@ -997,10 +997,17 @@
           },
           {
             "reference_id": "19967-2-70",
-            "text": "Harold Andres Ramirez al bate",
+            "text": "Harold Andres Ramirez Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1792367872
+          },
+          {
+            "reference_id": "19967-2-71",
+            "text": "Raimel Tapia al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1792367711
+            "ts": 1792367875
           }
         ]
       }
@@ -1101,8 +1108,8 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1153,7 +1160,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 8,
