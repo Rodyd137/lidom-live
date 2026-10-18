@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-18T00:18:41.977Z",
+    "scraped_at": "2026-10-18T00:19:44.343Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -520,16 +520,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-17 17:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Agustín Ramirez   Out: Rodado al Segunda Base - Primera Base",
+        "part": 2,
+        "lastPlayByPlay": "",
         "atBat": null,
         "comment": "",
-        "winningPitcher": "Jake Eder",
+        "winningPitcher": "",
         "losingPitcher": "Vladimir Gutiérrez",
         "savingPitcher": "",
-        "roundText": "Alta 9na",
+        "roundText": "Baja 9na",
         "currentInningNum": 9,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -642,12 +642,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-17 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Cesar Prieto ",
+        "lastPlayByPlay": "Cesar Prieto  Golpeado por Pelota ",
+        "atBat": "Euribiel Ángeles ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -9866,16 +9866,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-17 17:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Agustín Ramirez   Out: Rodado al Segunda Base - Primera Base",
+        "part": 2,
+        "lastPlayByPlay": "",
         "atBat": null,
         "comment": "",
-        "winningPitcher": "Jake Eder",
+        "winningPitcher": "",
         "losingPitcher": "Vladimir Gutiérrez",
         "savingPitcher": "",
-        "roundText": "Alta 9na",
+        "roundText": "Baja 9na",
         "currentInningNum": 9,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -9913,7 +9913,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -9988,12 +9988,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-17 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Cesar Prieto ",
+        "lastPlayByPlay": "Cesar Prieto  Golpeado por Pelota ",
+        "atBat": "Euribiel Ángeles ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -18995,16 +18995,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-17 17:00:00",
-      "roundText": "Alta 9na",
+      "roundText": "Baja 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "Agustín Ramirez   Out: Rodado al Segunda Base - Primera Base",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -19026,7 +19026,7 @@
         "over_under": null
       },
       "pitchers": {
-        "winning": "Jake Eder",
+        "winning": "",
         "losing": "Vladimir Gutiérrez",
         "save": ""
       },
@@ -20276,7 +20276,7 @@
         },
         {
           "num": 9,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
@@ -21365,7 +21365,7 @@
           "id": 2186,
           "date": "2026-10-17 17:00:00",
           "status": 2,
-          "roundText": "Alta 9na",
+          "roundText": "Baja 9na",
           "awayTeam": {
             "id": 5,
             "name": "Gigantes",
@@ -21454,7 +21454,7 @@
       "date": "2026-10-17 19:30:00",
       "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Cesar Prieto  Golpeado por Pelota ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21462,14 +21462,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -21999,10 +21999,17 @@
           "plays": [
             {
               "reference_id": "19935-2-15",
-              "text": "Cesar Prieto  al bate",
+              "text": "Cesar Prieto  Golpeado por Pelota ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792282652
+              "ts": 1792282754
+            },
+            {
+              "reference_id": "19935-2-16",
+              "text": "Euribiel Ángeles  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792282761
             }
           ]
         }
@@ -22033,7 +22040,7 @@
           "num": 2,
           "half": "bottom",
           "label": "Baja 2da",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -22107,7 +22114,7 @@
           "id": 2186,
           "date": "2026-10-17 17:00:00",
           "status": 2,
-          "roundText": "Alta 9na",
+          "roundText": "Baja 9na",
           "awayTeam": {
             "id": 5,
             "name": "Gigantes",
