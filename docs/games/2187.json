@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2187",
-    "scraped_at": "2026-10-18T00:00:02.065Z",
+    "scraped_at": "2026-10-18T00:01:04.872Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-10-17 18:00:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Francisco Urbaez Out: Elevado al Jardinero Derecho ",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -103,6 +103,17 @@
             "team_id": 6,
             "name": "Jhonkensy Noel",
             "abbreviation": "J. Noel",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6092,
+            "team_id": 6,
+            "name": "Francisco Urbaez",
+            "abbreviation": "F. Urbaez",
             "number": null,
             "dob": null,
             "height": "",
@@ -775,6 +786,27 @@
             "ts": 1792281343
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19929-1-42",
+            "text": "Francisco Urbaez Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792281655
+          },
+          {
+            "reference_id": "19929-1-43",
+            "text": "Yairo Muñoz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792281658
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -833,6 +865,13 @@
         "label": "Baja 4ta",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -911,7 +950,7 @@
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 6,
+          "runs": 7,
           "hits": 10,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
@@ -947,8 +986,8 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 0,
-          "hits": 0,
+          "runs": 1,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
