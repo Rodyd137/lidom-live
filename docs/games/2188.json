@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2188",
-    "scraped_at": "2026-10-18T01:05:29.959Z",
+    "scraped_at": "2026-10-18T01:06:33.584Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 0,
           "H": 1,
-          "E": 2,
+          "E": 3,
           "H2": 0
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 0,
           "H": 1,
-          "E": 2
+          "E": 3
         },
         "home": {
           "R": 4,
@@ -702,6 +702,20 @@
             "ts": 1792285352
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "19937-2-36",
+            "text": "Ismael Munguia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792285542
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -752,6 +766,13 @@
         "half": "top",
         "label": "Alta 4ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],

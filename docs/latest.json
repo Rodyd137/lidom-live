@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-18T01:05:29.023Z",
+    "scraped_at": "2026-10-18T01:06:32.249Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -644,7 +644,7 @@
         "date": "2026-10-17 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Ismael Munguia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -10043,12 +10043,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-17 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Ismael Munguia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10069,7 +10069,7 @@
           "permalink": "/equipo/leones-del-escogido",
           "runs": 0,
           "runs_half": 0,
-          "errors": 2,
+          "errors": 3,
           "hits": 1,
           "pitcher": "Reid Vanscoter",
           "era": "",
@@ -20475,7 +20475,7 @@
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
             "runs": 0,
             "hits": 1,
-            "errors": 2,
+            "errors": 3,
             "permalink": "/equipo/leones-del-escogido"
           },
           "homeTeam": {
@@ -21783,7 +21783,7 @@
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
             "runs": 0,
             "hits": 1,
-            "errors": 2,
+            "errors": 3,
             "permalink": "/equipo/leones-del-escogido"
           },
           "homeTeam": {
@@ -21846,14 +21846,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -21882,7 +21882,7 @@
           "totals": {
             "R": 0,
             "H": 1,
-            "E": 2,
+            "E": 3,
             "H2": 0
           },
           "probables": {
@@ -22169,7 +22169,7 @@
           "away": {
             "R": 0,
             "H": 1,
-            "E": 2
+            "E": 3
           },
           "home": {
             "R": 4,
@@ -22529,6 +22529,20 @@
               "ts": 1792285352
             }
           ]
+        },
+        {
+          "num": 4,
+          "half": "bottom",
+          "label": "Baja 4ta",
+          "plays": [
+            {
+              "reference_id": "19937-2-36",
+              "text": "Ismael Munguia al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792285542
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22579,6 +22593,13 @@
           "half": "top",
           "label": "Alta 4ta",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 4,
+          "half": "bottom",
+          "label": "Baja 4ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
