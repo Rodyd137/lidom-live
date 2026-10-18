@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-18T23:46:47.836Z",
+    "scraped_at": "2026-10-18T23:47:50.991Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Socrates Brito  Out: Rodado al Primera Base - Lanzador",
-        "atBat": "Junior Lake",
+        "lastPlayByPlay": "Junior Lake se embasa por Error del Tercera Base",
+        "atBat": "Luis de los Santos",
         "comment": "",
         "winningPitcher": "J. Quintana",
         "losingPitcher": "Victor Santos",
@@ -578,7 +578,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 2,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 2,
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -627,9 +630,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 3,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2191,
@@ -643,8 +646,8 @@
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Yairo Muñoz Sencillo Jardinero Derecho ",
-        "atBat": "Rainer Nuñez",
+        "lastPlayByPlay": "Rainer Nuñez Ponche (K) ",
+        "atBat": "Julio Rodriguez",
         "comment": "",
         "winningPitcher": "Spencer Turnbull",
         "losingPitcher": "Enny Romero",
@@ -689,8 +692,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 1
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10049,8 +10052,8 @@
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Socrates Brito  Out: Rodado al Primera Base - Lanzador",
-        "atBat": "Junior Lake",
+        "lastPlayByPlay": "Junior Lake se embasa por Error del Tercera Base",
+        "atBat": "Luis de los Santos",
         "comment": "",
         "winningPitcher": "J. Quintana",
         "losingPitcher": "Victor Santos",
@@ -10106,7 +10109,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 2,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 2,
@@ -10122,7 +10125,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -10155,9 +10161,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 3,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2191,
@@ -10171,8 +10177,8 @@
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Yairo Muñoz Sencillo Jardinero Derecho ",
-        "atBat": "Rainer Nuñez",
+        "lastPlayByPlay": "Rainer Nuñez Ponche (K) ",
+        "atBat": "Julio Rodriguez",
         "comment": "",
         "winningPitcher": "Spencer Turnbull",
         "losingPitcher": "Enny Romero",
@@ -10217,8 +10223,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 1
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "2026-10-20": [
@@ -18997,7 +19003,7 @@
       "date": "2026-10-18 17:00:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Socrates Brito  Out: Rodado al Primera Base - Lanzador",
+      "lastPlayByPlay": "Junior Lake se embasa por Error del Tercera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -19955,10 +19961,17 @@
             },
             {
               "reference_id": "19949-1-68",
-              "text": "Junior Lake al bate",
+              "text": "Junior Lake se embasa por Error del Tercera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1792367082
+              "ts": 1792367210
+            },
+            {
+              "reference_id": "19949-1-69",
+              "text": "Luis de los Santos al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792367213
             }
           ]
         }
@@ -20052,7 +20065,7 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -20244,20 +20257,20 @@
       "currentInningNum": 7,
       "lastPlayByPlay": "Mason Mccoy Sencillo ",
       "counts": {
-        "balls": 3,
-        "strikes": 1,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 5
+        "base": 2
       },
       "base_runners": {
         "on1B": true,
-        "on2B": true,
+        "on2B": false,
         "on3B": false,
-        "runners": 2,
-        "mask": 5
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -21473,11 +21486,11 @@
       "date": "2026-10-18 17:00:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Yairo Muñoz Sencillo Jardinero Derecho ",
+      "lastPlayByPlay": "Rainer Nuñez Ponche (K) ",
       "counts": {
         "balls": 0,
-        "strikes": 1,
-        "outs": 1
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22424,10 +22437,17 @@
             },
             {
               "reference_id": "19967-1-66",
-              "text": "Rainer Nuñez al bate",
+              "text": "Rainer Nuñez Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792367124
+              "ts": 1792367240
+            },
+            {
+              "reference_id": "19967-1-67",
+              "text": "Julio Rodriguez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792367249
             }
           ]
         }
@@ -22521,7 +22541,7 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 5,
+          "total_plays": 6,
           "scoring_plays": 0
         }
       ],
