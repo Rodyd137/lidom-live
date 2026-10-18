@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2191",
-    "scraped_at": "2026-10-18T22:06:10.829Z",
+    "scraped_at": "2026-10-18T22:07:14.418Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-18 17:00:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Yairo Muñoz Ponche (K) ",
+    "lastPlayByPlay": "Aaron Schunk  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "balls": 1,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -668,10 +668,17 @@
         "plays": [
           {
             "reference_id": "19963-2-31",
-            "text": "Aaron Schunk al bate",
+            "text": "Aaron Schunk  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1792361080
+            "ts": 1792361193
+          },
+          {
+            "reference_id": "19963-2-32",
+            "text": "Ismael Munguia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792361195
           }
         ]
       }
@@ -716,7 +723,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -737,7 +744,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -816,7 +823,7 @@
         "id": 2190,
         "date": "2026-10-18 17:00:00",
         "status": 2,
-        "roundText": "Alta 3ra",
+        "roundText": "Baja 3ra",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
