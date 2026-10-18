@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2190",
-    "scraped_at": "2026-10-18T22:14:39.791Z",
+    "scraped_at": "2026-10-18T22:15:43.210Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-10-18 17:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jake Holton Out: Elevado al Jardinero Derecho ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -667,6 +667,27 @@
             "ts": 1792361666
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "19955-1-29",
+            "text": "Jake Holton Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792361708
+          },
+          {
+            "reference_id": "19955-1-30",
+            "text": "Emil Morales al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792361718
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -710,6 +731,13 @@
         "half": "bottom",
         "label": "Baja 3ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
