@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-18T01:33:56.515Z",
+    "scraped_at": "2026-10-18T01:34:59.795Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-17 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Socrates Brito",
+        "lastPlayByPlay": "Socrates Brito Doble! Jardinero Izquierdo",
+        "atBat": "John Gil",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -666,7 +666,7 @@
           "runs": 0,
           "runs_half": 0,
           "errors": 3,
-          "hits": 1,
+          "hits": 2,
           "pitcher": "Hector Perez",
           "era": "",
           "debut": 0,
@@ -690,7 +690,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10104,12 +10104,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-17 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Socrates Brito",
+        "lastPlayByPlay": "Socrates Brito Doble! Jardinero Izquierdo",
+        "atBat": "John Gil",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10131,7 +10131,7 @@
           "runs": 0,
           "runs_half": 0,
           "errors": 3,
-          "hits": 1,
+          "hits": 2,
           "pitcher": "Hector Perez",
           "era": "",
           "debut": 0,
@@ -10155,7 +10155,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 0
       }
     ],
     "2026-10-18": [
@@ -20596,7 +20596,7 @@
             "abbr": "LE",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
             "runs": 0,
-            "hits": 1,
+            "hits": 2,
             "errors": 3,
             "permalink": "/equipo/leones-del-escogido"
           },
@@ -22023,7 +22023,7 @@
             "abbr": "LE",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
             "runs": 0,
-            "hits": 1,
+            "hits": 2,
             "errors": 3,
             "permalink": "/equipo/leones-del-escogido"
           },
@@ -22079,22 +22079,22 @@
       "date": "2026-10-17 19:30:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Socrates Brito Doble! Jardinero Izquierdo",
       "counts": {
         "balls": 0,
-        "strikes": 1,
+        "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -22122,7 +22122,7 @@
           "permalink": "/equipo/leones-del-escogido",
           "totals": {
             "R": 0,
-            "H": 1,
+            "H": 2,
             "E": 3,
             "H2": 0
           },
@@ -22409,7 +22409,7 @@
         "totals": {
           "away": {
             "R": 0,
-            "H": 1,
+            "H": 2,
             "E": 3
           },
           "home": {
@@ -22883,10 +22883,17 @@
           "plays": [
             {
               "reference_id": "19939-1-48",
-              "text": "Socrates Brito al bate",
+              "text": "Socrates Brito Doble! Jardinero Izquierdo",
               "scored": false,
               "is_primary": true,
-              "ts": 1792287222
+              "ts": 1792287279
+            },
+            {
+              "reference_id": "19939-1-49",
+              "text": "John Gil al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792287285
             }
           ]
         }
@@ -22966,7 +22973,7 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],

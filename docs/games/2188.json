@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2188",
-    "scraped_at": "2026-10-18T01:33:57.689Z",
+    "scraped_at": "2026-10-18T01:35:00.878Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-17 19:30:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Socrates Brito Doble! Jardinero Izquierdo",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 3,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 3
         },
         "home": {
@@ -815,10 +815,17 @@
         "plays": [
           {
             "reference_id": "19939-1-48",
-            "text": "Socrates Brito al bate",
+            "text": "Socrates Brito Doble! Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1792287222
+            "ts": 1792287279
+          },
+          {
+            "reference_id": "19939-1-49",
+            "text": "John Gil al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792287285
           }
         ]
       }
@@ -898,7 +905,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
