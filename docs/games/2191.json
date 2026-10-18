@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2191",
-    "scraped_at": "2026-10-18T23:38:13.038Z",
+    "scraped_at": "2026-10-18T23:39:16.540Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-18 17:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Eguy Rosario Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -934,10 +934,24 @@
         "plays": [
           {
             "reference_id": "19967-1-62",
-            "text": "Jhonkensy Noel al bate",
+            "text": "Jhonkensy Noel Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792366537
+            "ts": 1792366733
+          },
+          {
+            "reference_id": "19967-1-63",
+            "text": "Eguy Rosario Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792366740
+          },
+          {
+            "reference_id": "19967-1-64",
+            "text": "Wilmer Difo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792366743
           }
         ]
       }
@@ -1031,7 +1045,7 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
