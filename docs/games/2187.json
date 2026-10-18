@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2187",
-    "scraped_at": "2026-10-18T00:42:34.876Z",
+    "scraped_at": "2026-10-18T00:43:36.978Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-10-17 18:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Francisco Urbaez Out: Elevado al Jardinero Derecho ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -919,6 +919,27 @@
             "ts": 1792284002
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "19931-1-57",
+            "text": "Francisco Urbaez Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792284185
+          },
+          {
+            "reference_id": "19931-1-58",
+            "text": "Yairo Muñoz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792284191
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1004,6 +1025,13 @@
         "half": "bottom",
         "label": "Baja 6ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],

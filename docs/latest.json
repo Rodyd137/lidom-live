@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-18T00:42:34.387Z",
+    "scraped_at": "2026-10-18T00:43:36.512Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-17 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Francisco Urbaez Out: Elevado al Jardinero Derecho ",
+        "atBat": "Yairo Muñoz",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -627,8 +627,8 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
-        "outs": 0,
+        "balls": 1,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-17 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Socrates Brito Out: Línea al Jardinero Derecho ",
-        "atBat": "John Gil",
+        "lastPlayByPlay": "John Gil  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "M. Hernandez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -9986,8 +9986,8 @@
         "status": 2,
         "date": "2026-10-17 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Francisco Urbaez Out: Elevado al Jardinero Derecho ",
+        "atBat": "Yairo Muñoz",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -10031,8 +10031,8 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
-        "outs": 0,
+        "balls": 1,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -10047,8 +10047,8 @@
         "status": 2,
         "date": "2026-10-17 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Socrates Brito Out: Línea al Jardinero Derecho ",
-        "atBat": "John Gil",
+        "lastPlayByPlay": "John Gil  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "M. Hernandez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10093,7 +10093,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -20530,11 +20530,11 @@
       "date": "2026-10-17 18:00:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Francisco Urbaez Out: Elevado al Jardinero Derecho ",
       "counts": {
-        "balls": 0,
+        "balls": 1,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21438,6 +21438,27 @@
               "ts": 1792284002
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "top",
+          "label": "Alta 7ma",
+          "plays": [
+            {
+              "reference_id": "19931-1-57",
+              "text": "Francisco Urbaez Out: Elevado al Jardinero Derecho ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792284185
+            },
+            {
+              "reference_id": "19931-1-58",
+              "text": "Yairo Muñoz al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792284191
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21523,6 +21544,13 @@
           "half": "bottom",
           "label": "Baja 6ta",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 7,
+          "half": "top",
+          "label": "Alta 7ma",
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21685,11 +21713,11 @@
       "date": "2026-10-17 19:30:00",
       "roundText": "Alta 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "Socrates Brito Out: Línea al Jardinero Derecho ",
+      "lastPlayByPlay": "John Gil  Out: Rodado al Campo Corto - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22300,10 +22328,17 @@
             },
             {
               "reference_id": "19936-1-24",
-              "text": "John Gil al bate",
+              "text": "John Gil  Out: Rodado al Campo Corto - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1792284146
+              "ts": 1792284193
+            },
+            {
+              "reference_id": "19936-1-25",
+              "text": "M. Hernandez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792284200
             }
           ]
         }
@@ -22341,7 +22376,7 @@
           "num": 3,
           "half": "top",
           "label": "Alta 3ra",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
