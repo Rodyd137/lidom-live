@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2189",
-    "scraped_at": "2026-10-18T21:54:32.976Z",
+    "scraped_at": "2026-10-18T21:55:36.411Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-18 17:00:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "J. Made Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "C. Adames Golpeado por Pelota ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -612,10 +612,17 @@
           },
           {
             "reference_id": "19944-2-24",
-            "text": "C. Adames al bate",
+            "text": "C. Adames Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792360437
+            "ts": 1792360494
+          },
+          {
+            "reference_id": "19944-2-25",
+            "text": "M. Franco al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792360495
           }
         ]
       }
@@ -646,7 +653,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -763,7 +770,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 0,
-          "hits": 2,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
