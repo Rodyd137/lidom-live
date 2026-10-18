@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2189",
-    "scraped_at": "2026-10-18T23:29:45.888Z",
+    "scraped_at": "2026-10-18T23:30:49.196Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-18 17:00:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Erik Gonzales Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -912,6 +912,20 @@
             "ts": 1792366080
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "19948-2-62",
+            "text": "M. Romero al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792366216
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -991,6 +1005,13 @@
         "label": "Alta 6ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1031,7 +1052,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
