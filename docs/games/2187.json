@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2187",
-    "scraped_at": "2026-10-18T00:13:31.356Z",
+    "scraped_at": "2026-10-18T00:14:33.502Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-17 18:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Chritopher Morel Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -836,10 +836,17 @@
         "plays": [
           {
             "reference_id": "19929-2-47",
-            "text": "Mason Mccoy al bate",
+            "text": "Mason Mccoy Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792282228
+            "ts": 1792282429
+          },
+          {
+            "reference_id": "19929-2-48",
+            "text": "Chritopher Morel Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792282462
           }
         ]
       }
@@ -912,7 +919,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -986,7 +993,7 @@
         "id": 2186,
         "date": "2026-10-17 17:00:00",
         "status": 2,
-        "roundText": "Baja 8va",
+        "roundText": "Alta 9na",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -1020,7 +1027,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 0,
           "hits": 1,
-          "errors": 0,
+          "errors": 1,
           "permalink": "/equipo/leones-del-escogido"
         },
         "homeTeam": {
