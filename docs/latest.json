@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-18T22:35:48.349Z",
+    "scraped_at": "2026-10-18T22:36:51.872Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,11 +517,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
+        "lastPlayByPlay": "Jonathan Guzman Robo de Base ",
         "atBat": "Erik Gonzales",
         "comment": "",
         "winningPitcher": "J. Quintana",
@@ -566,9 +566,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 1,
+        "balls": 3,
         "outs": 2,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2190,
@@ -583,7 +583,7 @@
         "date": "2026-10-18 17:00:00",
         "part": 2,
         "lastPlayByPlay": "Victor Scott Ponche (K) ",
-        "atBat": null,
+        "atBat": "Mason Mccoy",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -688,9 +691,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -10049,7 +10052,7 @@
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
+        "lastPlayByPlay": "Jonathan Guzman Robo de Base ",
         "atBat": "Erik Gonzales",
         "comment": "",
         "winningPitcher": "J. Quintana",
@@ -10094,9 +10097,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 2,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2190,
@@ -10111,7 +10114,7 @@
         "date": "2026-10-18 17:00:00",
         "part": 2,
         "lastPlayByPlay": "Victor Scott Ponche (K) ",
-        "atBat": null,
+        "atBat": "Mason Mccoy",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10122,7 +10125,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -10216,9 +10222,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "2026-10-20": [
@@ -18997,10 +19003,10 @@
       "date": "2026-10-18 17:00:00",
       "roundText": "Alta 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
+      "lastPlayByPlay": "Jonathan Guzman Robo de Base ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 3,
+        "strikes": 2,
         "outs": 2
       },
       "base_state": {
@@ -19717,10 +19723,17 @@
             },
             {
               "reference_id": "19946-1-39",
+              "text": "Jonathan Guzman Robo de Base ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792362966
+            },
+            {
+              "reference_id": "19946-1-40",
               "text": "Erik Gonzales al bate",
               "scored": false,
               "is_primary": true,
-              "ts": 1792362866
+              "ts": 1792362969
             }
           ]
         }
@@ -19772,7 +19785,7 @@
           "num": 4,
           "half": "top",
           "label": "Alta 4ta",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
@@ -20700,6 +20713,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1792362940
+            },
+            {
+              "reference_id": "19955-2-38",
+              "text": "Mason Mccoy al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792362949
             }
           ]
         }
@@ -20758,7 +20778,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 7,
+          "total_plays": 8,
           "scoring_plays": 1
         }
       ],
@@ -20950,8 +20970,8 @@
       "currentInningNum": 4,
       "lastPlayByPlay": "Josh Lester  Ponche (K) ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 3,
+        "strikes": 1,
         "outs": 2
       },
       "base_state": {
