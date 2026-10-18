@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-18T22:58:02.456Z",
+    "scraped_at": "2026-10-18T22:59:06.013Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 6,
+        "base": 7,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "J. Made  Out: Rodado al Segunda Base - Campo Corto",
-        "atBat": "C. Adames",
+        "lastPlayByPlay": "J. Made Robo de Base ",
+        "atBat": "M. Franco",
         "comment": "",
         "winningPitcher": "J. Quintana",
         "losingPitcher": "Victor Santos",
@@ -567,8 +567,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 2
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2190,
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -10045,12 +10048,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 6,
+        "base": 7,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "J. Made  Out: Rodado al Segunda Base - Campo Corto",
-        "atBat": "C. Adames",
+        "lastPlayByPlay": "J. Made Robo de Base ",
+        "atBat": "M. Franco",
         "comment": "",
         "winningPitcher": "J. Quintana",
         "losingPitcher": "Victor Santos",
@@ -10095,8 +10098,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 2
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2190,
@@ -10122,7 +10125,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -18997,22 +19003,22 @@
       "date": "2026-10-18 17:00:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "J. Made  Out: Rodado al Segunda Base - Campo Corto",
+      "lastPlayByPlay": "J. Made Robo de Base ",
       "counts": {
         "balls": 0,
-        "strikes": 2,
-        "outs": 1
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 6
+        "base": 7
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": true,
         "runners": 2,
-        "mask": 6
+        "mask": 7
       },
       "betting": {
         "moneyline": {
@@ -19773,10 +19779,24 @@
             },
             {
               "reference_id": "19946-2-47",
-              "text": "C. Adames al bate",
+              "text": "C. Adames Out: Elevado al Tercera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1792364216
+              "ts": 1792364297
+            },
+            {
+              "reference_id": "19946-2-48",
+              "text": "J. Made Robo de Base ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792364314
+            },
+            {
+              "reference_id": "19946-2-49",
+              "text": "M. Franco al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792364317
             }
           ]
         }
@@ -19835,7 +19855,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 4,
+          "total_plays": 6,
           "scoring_plays": 0
         }
       ],

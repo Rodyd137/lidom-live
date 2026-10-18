@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2189",
-    "scraped_at": "2026-10-18T22:58:03.756Z",
+    "scraped_at": "2026-10-18T22:59:07.094Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-18 17:00:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "J. Made  Out: Rodado al Segunda Base - Campo Corto",
+    "lastPlayByPlay": "J. Made Robo de Base ",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 1
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 6
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": true,
       "runners": 2,
-      "mask": 6
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -787,10 +787,24 @@
           },
           {
             "reference_id": "19946-2-47",
-            "text": "C. Adames al bate",
+            "text": "C. Adames Out: Elevado al Tercera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1792364216
+            "ts": 1792364297
+          },
+          {
+            "reference_id": "19946-2-48",
+            "text": "J. Made Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792364314
+          },
+          {
+            "reference_id": "19946-2-49",
+            "text": "M. Franco al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792364317
           }
         ]
       }
@@ -849,7 +863,7 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 4,
+        "total_plays": 6,
         "scoring_plays": 0
       }
     ],
