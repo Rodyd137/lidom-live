@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-18T01:46:34.874Z",
+    "scraped_at": "2026-10-18T01:47:38.101Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -642,16 +642,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-17 19:30:00",
-        "part": 2,
-        "lastPlayByPlay": "Harold Andres Ramirez  Out: Rodado al Campo Corto - Primera Base",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "E. Gonzalez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 6ta",
-        "currentInningNum": 6,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 7ma",
+        "currentInningNum": 7,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -10107,16 +10107,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-17 19:30:00",
-        "part": 2,
-        "lastPlayByPlay": "Harold Andres Ramirez  Out: Rodado al Campo Corto - Primera Base",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "E. Gonzalez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 6ta",
-        "currentInningNum": 6,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 7ma",
+        "currentInningNum": 7,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -10154,7 +10154,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -20589,7 +20589,7 @@
           "id": 2188,
           "date": "2026-10-17 19:30:00",
           "status": 2,
-          "roundText": "Baja 6ta",
+          "roundText": "Alta 7ma",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -22016,7 +22016,7 @@
           "id": 2188,
           "date": "2026-10-17 19:30:00",
           "status": 2,
-          "roundText": "Baja 6ta",
+          "roundText": "Alta 7ma",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -22077,16 +22077,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-17 19:30:00",
-      "roundText": "Baja 6ta",
-      "currentInningNum": 6,
-      "lastPlayByPlay": "Harold Andres Ramirez  Out: Rodado al Campo Corto - Primera Base",
+      "roundText": "Alta 7ma",
+      "currentInningNum": 7,
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
+        "battingTeam": "awayTeam",
         "base": 1
       },
       "base_runners": {
@@ -22938,6 +22938,20 @@
               "ts": 1792287878
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "top",
+          "label": "Alta 7ma",
+          "plays": [
+            {
+              "reference_id": "19940-1-55",
+              "text": "E. Gonzalez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792288017
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23024,6 +23038,13 @@
           "label": "Baja 6ta",
           "total_plays": 3,
           "scoring_plays": 0
+        },
+        {
+          "num": 7,
+          "half": "top",
+          "label": "Alta 7ma",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -23065,14 +23086,14 @@
         {
           "num": 6,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 1,
           "homeTeamRuns": 0
         },
         {
           "num": 7,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
