@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2187",
-    "scraped_at": "2026-10-18T01:59:14.164Z",
+    "scraped_at": "2026-10-18T02:00:17.438Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -1373,8 +1373,35 @@
     ],
     "stats_tables": [
       {
-        "title": "Estadísticas Generales",
+        "title": "Toros vs Aguilas",
         "round": "Temporada Regular (1 Juegos)",
+        "columns": [
+          "G",
+          "P",
+          "C",
+          "H",
+          "E"
+        ],
+        "teams": {
+          "Toros TE": {
+            "G": 1,
+            "P": 0,
+            "C": 5,
+            "H": 12,
+            "E": 1
+          },
+          "Aguilas AC": {
+            "G": 0,
+            "P": 1,
+            "C": 3,
+            "H": 6,
+            "E": 2
+          }
+        }
+      },
+      {
+        "title": "Estadísticas Generales",
+        "round": "Temporada Regular (2 Juegos)",
         "columns": [
           "G",
           "P",
@@ -1385,20 +1412,20 @@
         ],
         "teams": {
           "Toros TE": {
-            "G": 0,
+            "G": 1,
             "P": 1,
-            "CA": 0,
-            "CP": 11,
-            "H": 4,
-            "E": 4
+            "CA": 2.5,
+            "CP": 7,
+            "H": 8,
+            "E": 2.5
           },
           "Aguilas AC": {
             "G": 0,
-            "P": 1,
-            "CA": 1,
-            "CP": 4,
+            "P": 2,
+            "CA": 2,
+            "CP": 4.5,
             "H": 6,
-            "E": 0
+            "E": 1
           }
         }
       }
