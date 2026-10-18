@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-18T00:59:10.242Z",
+    "scraped_at": "2026-10-18T01:00:12.631Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-17 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Pedro Severino",
+        "lastPlayByPlay": "Pedro Severino  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Wilmer Difo",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -628,8 +628,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 1
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2188,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-17 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Vidal Brujan",
+        "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
+        "atBat": "E. Gonzalez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -9986,8 +9986,8 @@
         "status": 2,
         "date": "2026-10-17 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Pedro Severino",
+        "lastPlayByPlay": "Pedro Severino  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Wilmer Difo",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -10032,8 +10032,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 1
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2188,
@@ -10047,8 +10047,8 @@
         "status": 2,
         "date": "2026-10-17 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Vidal Brujan",
+        "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
+        "atBat": "E. Gonzalez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10092,9 +10092,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "2026-10-18": [
@@ -20492,8 +20492,35 @@
       ],
       "stats_tables": [
         {
-          "title": "Estadísticas Generales",
+          "title": "Gigantes vs Tigres",
           "round": "Temporada Regular (1 Juegos)",
+          "columns": [
+            "G",
+            "P",
+            "C",
+            "H",
+            "E"
+          ],
+          "teams": {
+            "Gigantes GC": {
+              "G": 1,
+              "P": 0,
+              "C": 7,
+              "H": 10,
+              "E": 0
+            },
+            "Tigres TL": {
+              "G": 0,
+              "P": 1,
+              "C": 1,
+              "H": 4,
+              "E": 1
+            }
+          }
+        },
+        {
+          "title": "Estadísticas Generales",
+          "round": "Temporada Regular (2 Juegos)",
           "columns": [
             "G",
             "P",
@@ -20504,19 +20531,19 @@
           ],
           "teams": {
             "Gigantes GC": {
-              "G": 1,
+              "G": 2,
               "P": 0,
-              "CA": 4,
+              "CA": 5.5,
               "CP": 1,
-              "H": 6,
-              "E": 1
+              "H": 8,
+              "E": 0.5
             },
             "Tigres TL": {
               "G": 1,
-              "P": 0,
-              "CA": 12,
-              "CP": 2,
-              "H": 18,
+              "P": 1,
+              "CA": 6.5,
+              "CP": 4.5,
+              "H": 11,
               "E": 1
             }
           }
@@ -20530,11 +20557,11 @@
       "date": "2026-10-17 18:00:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Pedro Severino  Out: Rodado al Campo Corto - Primera Base",
       "counts": {
         "balls": 0,
-        "strikes": 1,
-        "outs": 0
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21516,10 +21543,17 @@
           "plays": [
             {
               "reference_id": "19932-1-64",
-              "text": "Pedro Severino al bate",
+              "text": "Pedro Severino  Out: Rodado al Campo Corto - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1792285144
+              "ts": 1792285201
+            },
+            {
+              "reference_id": "19932-1-65",
+              "text": "Wilmer Difo al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792285210
             }
           ]
         }
@@ -21627,7 +21661,7 @@
           "num": 8,
           "half": "top",
           "label": "Alta 8va",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21790,11 +21824,11 @@
       "date": "2026-10-17 19:30:00",
       "roundText": "Alta 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22461,10 +22495,17 @@
           "plays": [
             {
               "reference_id": "19937-1-33",
-              "text": "Vidal Brujan al bate",
+              "text": "Vidal Brujan Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792284983
+              "ts": 1792285201
+            },
+            {
+              "reference_id": "19937-1-34",
+              "text": "E. Gonzalez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792285206
             }
           ]
         }
@@ -22516,7 +22557,7 @@
           "num": 4,
           "half": "top",
           "label": "Alta 4ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
