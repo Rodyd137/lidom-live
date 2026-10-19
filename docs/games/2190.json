@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2190",
-    "scraped_at": "2026-10-19T00:30:03.584Z",
+    "scraped_at": "2026-10-19T00:31:07.048Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-18 17:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Junior Franco Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -1039,10 +1039,17 @@
         "plays": [
           {
             "reference_id": "19959-2-69",
-            "text": "Junior Franco al bate",
+            "text": "Junior Franco Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792369754
+            "ts": 1792369822
+          },
+          {
+            "reference_id": "19959-2-70",
+            "text": "Steward Berroa al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792369829
           }
         ]
       }
@@ -1157,7 +1164,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],

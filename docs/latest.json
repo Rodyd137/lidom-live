@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-19T00:30:02.144Z",
+    "scraped_at": "2026-10-19T00:31:05.757Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Junior Franco",
+        "lastPlayByPlay": "Junior Franco Base por Bolas ",
+        "atBat": "Steward Berroa",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 3,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2191,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Cesar Prieto  Out: Elevado al Segunda Base",
-        "atBat": "Christian Cerda",
+        "lastPlayByPlay": "Christian Cerda Ponche (K) ",
+        "atBat": "Aaron Schunk",
         "comment": "",
         "winningPitcher": "Spencer Turnbull",
         "losingPitcher": "Enny Romero",
@@ -689,8 +689,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 1
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10106,12 +10106,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Junior Franco",
+        "lastPlayByPlay": "Junior Franco Base por Bolas ",
+        "atBat": "Steward Berroa",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10155,9 +10155,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 3,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2191,
@@ -10171,8 +10171,8 @@
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Cesar Prieto  Out: Elevado al Segunda Base",
-        "atBat": "Christian Cerda",
+        "lastPlayByPlay": "Christian Cerda Ponche (K) ",
+        "atBat": "Aaron Schunk",
         "comment": "",
         "winningPitcher": "Spencer Turnbull",
         "losingPitcher": "Enny Romero",
@@ -10217,8 +10217,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 1
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "2026-10-20": [
@@ -20417,22 +20417,22 @@
       "date": "2026-10-18 17:00:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Junior Franco Base por Bolas ",
       "counts": {
-        "balls": 3,
-        "strikes": 1,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -21445,10 +21445,17 @@
           "plays": [
             {
               "reference_id": "19959-2-69",
-              "text": "Junior Franco al bate",
+              "text": "Junior Franco Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792369754
+              "ts": 1792369822
+            },
+            {
+              "reference_id": "19959-2-70",
+              "text": "Steward Berroa al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792369829
             }
           ]
         }
@@ -21563,7 +21570,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21753,11 +21760,11 @@
       "date": "2026-10-18 17:00:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Cesar Prieto  Out: Elevado al Segunda Base",
+      "lastPlayByPlay": "Christian Cerda Ponche (K) ",
       "counts": {
         "balls": 0,
-        "strikes": 1,
-        "outs": 1
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21995,10 +22002,10 @@
               "position": ""
             },
             {
-              "id": 6113,
+              "id": 6001,
               "team_id": 7,
-              "name": "Christian Cerda",
-              "abbreviation": "Christian Cerda",
+              "name": "Leonardo Bernal ",
+              "abbreviation": "L. Bernal",
               "number": null,
               "dob": null,
               "height": "",
@@ -22826,10 +22833,17 @@
             },
             {
               "reference_id": "19968-2-82",
-              "text": "Christian Cerda al bate",
+              "text": "Christian Cerda Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792369722
+              "ts": 1792369852
+            },
+            {
+              "reference_id": "19968-2-83",
+              "text": "Aaron Schunk al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792369861
             }
           ]
         }
@@ -22944,7 +22958,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
