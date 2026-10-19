@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2191",
-    "scraped_at": "2026-10-19T00:27:56.899Z",
+    "scraped_at": "2026-10-19T00:28:59.939Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-18 17:00:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Eguy Rosario Ponche (K) ",
+    "lastPlayByPlay": "Cesar Prieto  Out: Elevado al Segunda Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 5
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -1077,10 +1077,17 @@
         "plays": [
           {
             "reference_id": "19968-2-81",
-            "text": "Cesar Prieto  al bate",
+            "text": "Cesar Prieto  Out: Elevado al Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1792369493
+            "ts": 1792369717
+          },
+          {
+            "reference_id": "19968-2-82",
+            "text": "Christian Cerda al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792369722
           }
         ]
       }
@@ -1195,7 +1202,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1251,7 +1258,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
