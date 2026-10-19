@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-19T00:20:32.706Z",
+    "scraped_at": "2026-10-19T00:21:36.446Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-10-18 17:00:00",
         "part": 2,
         "lastPlayByPlay": "Francisco Mejia Base por Bolas ",
-        "atBat": null,
+        "atBat": "J. Made",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -578,12 +581,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 8,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
-        "atBat": "Nomar Mazara",
+        "lastPlayByPlay": "Nomar Mazara Base por Bolas ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -594,7 +597,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -627,9 +633,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 2,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2191,
@@ -639,7 +645,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
@@ -688,7 +694,7 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 2,
         "strikes": 0
       }
@@ -10109,12 +10115,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 8,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
-        "atBat": "Nomar Mazara",
+        "lastPlayByPlay": "Nomar Mazara Base por Bolas ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10125,7 +10131,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -10158,9 +10167,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 2,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2191,
@@ -10170,7 +10179,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 1,
@@ -10219,7 +10228,7 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 2,
         "strikes": 0
       }
@@ -20088,6 +20097,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1792369226
+            },
+            {
+              "reference_id": "19950-2-84",
+              "text": "J. Made al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792369229
             }
           ]
         }
@@ -20202,7 +20218,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
@@ -20392,22 +20408,22 @@
       "date": "2026-10-18 17:00:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
+      "lastPlayByPlay": "Nomar Mazara Base por Bolas ",
       "counts": {
-        "balls": 3,
-        "strikes": 1,
+        "balls": 0,
+        "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 5
+        "base": 8
       },
       "base_runners": {
         "on1B": true,
         "on2B": true,
-        "on3B": false,
-        "runners": 2,
-        "mask": 5
+        "on3B": true,
+        "runners": 3,
+        "mask": 8
       },
       "betting": {
         "moneyline": {
@@ -21399,10 +21415,10 @@
             },
             {
               "reference_id": "19959-1-67",
-              "text": "Nomar Mazara al bate",
+              "text": "Nomar Mazara Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792369128
+              "ts": 1792369251
             }
           ]
         }
@@ -21702,20 +21718,20 @@
       "currentInningNum": 8,
       "lastPlayByPlay": "Francisco Urbaez Out: Elevado al Jardinero Derecho ",
       "counts": {
-        "balls": 2,
+        "balls": 0,
         "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
