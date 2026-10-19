@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2189",
-    "scraped_at": "2026-10-19T01:00:38.056Z",
+    "scraped_at": "2026-10-19T01:01:41.377Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-10-18 17:00:00",
     "roundText": "Alta 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ibañez Ponche (K) ",
     "counts": {
       "balls": 1,
-      "strikes": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -114,28 +114,6 @@
             "team_id": 4,
             "name": "Luis de los Santos",
             "abbreviation": "L. de los Santos",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 6041,
-            "team_id": 4,
-            "name": "Marmolejos",
-            "abbreviation": "Marmolejos",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 6042,
-            "team_id": 4,
-            "name": "Ibañez",
-            "abbreviation": "Ibañez",
             "number": null,
             "dob": null,
             "height": "",
@@ -1212,6 +1190,20 @@
             "ts": 1792371365
           }
         ]
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "plays": [
+          {
+            "reference_id": "21348-1-96",
+            "text": "Ibañez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792371699
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1339,6 +1331,13 @@
         "half": "bottom",
         "label": "Baja 9na",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
