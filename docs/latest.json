@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-19T01:02:43.605Z",
+    "scraped_at": "2026-10-19T01:03:47.043Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -566,9 +569,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 1,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2191,
@@ -578,12 +581,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Raimel Tapia  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": "Oscar Gonzalez",
+        "lastPlayByPlay": "Josh Lester  Base por Bolas ",
+        "atBat": "Marco Luciano ",
         "comment": "",
         "winningPitcher": "Spencer Turnbull",
         "losingPitcher": "Enny Romero",
@@ -628,8 +631,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 2
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2190,
@@ -10061,7 +10064,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -10094,9 +10100,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 1,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2191,
@@ -10106,12 +10112,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-18 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Raimel Tapia  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": "Oscar Gonzalez",
+        "lastPlayByPlay": "Josh Lester  Base por Bolas ",
+        "atBat": "Marco Luciano ",
         "comment": "",
         "winningPitcher": "Spencer Turnbull",
         "losingPitcher": "Enny Romero",
@@ -10156,8 +10162,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 2
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2190,
@@ -18999,8 +19005,8 @@
       "currentInningNum": 10,
       "lastPlayByPlay": "Ibañez Ponche (K) ",
       "counts": {
-        "balls": 0,
-        "strikes": 1,
+        "balls": 1,
+        "strikes": 2,
         "outs": 1
       },
       "base_state": {
@@ -21933,22 +21939,22 @@
       "date": "2026-10-18 17:00:00",
       "roundText": "Baja 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "Raimel Tapia  Out: Rodado al Segunda Base - Primera Base",
+      "lastPlayByPlay": "Josh Lester  Base por Bolas ",
       "counts": {
         "balls": 0,
-        "strikes": 2,
-        "outs": 1
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -23090,10 +23096,24 @@
             },
             {
               "reference_id": "19969-2-92",
-              "text": "Oscar Gonzalez al bate",
+              "text": "Oscar Gonzalez Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792371733
+              "ts": 1792371791
+            },
+            {
+              "reference_id": "19969-2-93",
+              "text": "Josh Lester  Base por Bolas ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792371822
+            },
+            {
+              "reference_id": "19969-2-94",
+              "text": "Marco Luciano  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792371824
             }
           ]
         }
@@ -23222,7 +23242,7 @@
           "num": 9,
           "half": "bottom",
           "label": "Baja 9na",
-          "total_plays": 3,
+          "total_plays": 5,
           "scoring_plays": 1
         }
       ],

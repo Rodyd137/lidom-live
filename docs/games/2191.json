@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2191",
-    "scraped_at": "2026-10-19T01:02:44.881Z",
+    "scraped_at": "2026-10-19T01:03:48.256Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-18 17:00:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Raimel Tapia  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "Josh Lester  Base por Bolas ",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 1
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -1168,10 +1168,24 @@
           },
           {
             "reference_id": "19969-2-92",
-            "text": "Oscar Gonzalez al bate",
+            "text": "Oscar Gonzalez Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792371733
+            "ts": 1792371791
+          },
+          {
+            "reference_id": "19969-2-93",
+            "text": "Josh Lester  Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792371822
+          },
+          {
+            "reference_id": "19969-2-94",
+            "text": "Marco Luciano  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792371824
           }
         ]
       }
@@ -1300,7 +1314,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 3,
+        "total_plays": 5,
         "scoring_plays": 1
       }
     ],
