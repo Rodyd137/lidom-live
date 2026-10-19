@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2191",
-    "scraped_at": "2026-10-19T00:50:05.924Z",
+    "scraped_at": "2026-10-19T00:51:09.396Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-18 17:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Rafael Lantigua  Sencillo Jardinero Derecho ",
+    "lastPlayByPlay": "Enmanuel Valdez   Out: Rodado al Primera Base - Carrera Empujada",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
-      "outs": 0
+      "balls": 1,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 6
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
-      "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "on1B": false,
+      "on2B": true,
+      "on3B": false,
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 5,
+          "R": 6,
           "H": 9,
           "E": 0,
           "H2": 5
@@ -143,10 +143,10 @@
             "position": ""
           },
           {
-            "id": 6107,
+            "id": 6007,
             "team_id": 6,
-            "name": "Julio Rodriguez",
-            "abbreviation": "Julio Rodriguez",
+            "name": "George Valera ",
+            "abbreviation": "G. Valera",
             "number": null,
             "dob": null,
             "height": "",
@@ -322,14 +322,14 @@
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 5,
+          "R": 6,
           "H": 9,
           "E": 0
         },
@@ -375,7 +375,7 @@
           },
           {
             "num": 9,
-            "R": 5
+            "R": 6
           }
         ],
         "home": [
@@ -1126,10 +1126,17 @@
           },
           {
             "reference_id": "19969-1-87",
-            "text": "Enmanuel Valdez  al bate",
+            "text": "Enmanuel Valdez   Out: Rodado al Primera Base - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1792371030
+          },
+          {
+            "reference_id": "19969-1-88",
+            "text": "George Valera  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1792370930
+            "ts": 1792371049
           }
         ]
       }
@@ -1251,8 +1258,8 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1316,7 +1323,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
