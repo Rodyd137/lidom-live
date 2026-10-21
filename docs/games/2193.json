@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2193",
-    "scraped_at": "2026-10-21T00:40:15.133Z",
+    "scraped_at": "2026-10-21T00:41:18.992Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-20 19:15:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ismael Munguia Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -773,10 +773,17 @@
         "plays": [
           {
             "reference_id": "19983-1-41",
-            "text": "Ismael Munguia al bate",
+            "text": "Ismael Munguia Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792543113
+            "ts": 1792543255
+          },
+          {
+            "reference_id": "19983-1-42",
+            "text": "Harold Andres Ramirez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792543258
           }
         ]
       }
@@ -842,7 +849,7 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
