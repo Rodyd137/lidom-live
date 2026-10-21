@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2192",
-    "scraped_at": "2026-10-21T02:05:44.102Z",
+    "scraped_at": "2026-10-21T02:06:48.430Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-20 19:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "E. Florial Base por Bolas ",
+    "lastPlayByPlay": "J. Made Carrera Empujada Wild Pitch",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 8
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
-      "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "on1B": false,
+      "on2B": false,
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
-          "R": 9,
-          "H": 8,
+          "R": 13,
+          "H": 9,
           "E": 0,
           "H2": 3
         },
@@ -180,7 +180,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Enmanuel Mejia",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": true
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 0,
+          "away": 4,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 9,
-          "H": 8,
+          "R": 13,
+          "H": 9,
           "E": 0
         },
         "home": {
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 9
+            "R": 13
           },
           {
             "num": 9,
-            "R": 9
+            "R": 13
           }
         ],
         "home": [
@@ -1032,10 +1032,17 @@
           },
           {
             "reference_id": "19977-1-75",
+            "text": "J. Made Carrera Empujada Wild Pitch",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1792548390
+          },
+          {
+            "reference_id": "19977-1-76",
             "text": "E. Hernandez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1792548178
+            "ts": 1792548392
           }
         ]
       }
@@ -1143,8 +1150,8 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 5,
-        "scoring_plays": 0
+        "total_plays": 6,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1201,7 +1208,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 4,
         "homeTeamRuns": 0
       },
       {
