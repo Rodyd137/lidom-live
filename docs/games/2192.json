@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2192",
-    "scraped_at": "2026-10-21T00:45:35.132Z",
+    "scraped_at": "2026-10-21T00:46:39.372Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-20 19:00:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Ramon Hernandez  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "Ferreras Out: Elevado al Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 2
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -772,6 +772,34 @@
             "ts": 1792543333
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "19974-2-42",
+            "text": "Jefferson Rojas  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792543561
+          },
+          {
+            "reference_id": "19974-2-43",
+            "text": "Ferreras Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792543592
+          },
+          {
+            "reference_id": "19974-2-44",
+            "text": "Carlos Jorge  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792543594
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -837,6 +865,13 @@
         "label": "Alta 5ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -870,7 +905,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -909,7 +944,7 @@
         "id": 2193,
         "date": "2026-10-20 19:15:00",
         "status": 2,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
