@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2194",
-    "scraped_at": "2026-10-21T00:13:31.366Z",
+    "scraped_at": "2026-10-21T00:14:35.364Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-10-20 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Allan Castro  Ponche (K) ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -235,6 +235,17 @@
             "team_id": 6,
             "name": "Allan Castro ",
             "abbreviation": "A. Castro",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6011,
+            "team_id": 6,
+            "name": "Enmanuel Valdez ",
+            "abbreviation": "E. Valdez",
             "number": null,
             "dob": null,
             "height": "",
@@ -526,10 +537,17 @@
         "plays": [
           {
             "reference_id": "19989-2-15",
-            "text": "Allan Castro  al bate",
+            "text": "Allan Castro  Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792541517
+            "ts": 1792541628
+          },
+          {
+            "reference_id": "19989-2-16",
+            "text": "Enmanuel Valdez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792541660
           }
         ]
       }
@@ -560,7 +578,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -668,7 +686,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 1,
           "hits": 3,
-          "errors": 1,
+          "errors": 2,
           "permalink": "/equipo/estrellas-orientales"
         },
         "homeTeam": {
@@ -676,7 +694,7 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 2,
+          "runs": 3,
           "hits": 4,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
