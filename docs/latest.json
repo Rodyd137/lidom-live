@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-21T01:43:14.997Z",
+    "scraped_at": "2026-10-21T01:44:19.187Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -545,7 +545,7 @@
           "runs_half": 3,
           "errors": 0,
           "hits": 7,
-          "pitcher": "Daniel Martínez",
+          "pitcher": "Oliver Ortega",
           "era": "",
           "debut": 1,
           "record": ""
@@ -566,9 +566,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2193,
@@ -582,7 +582,7 @@
         "status": 2,
         "date": "2026-10-20 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Harold Andres Ramirez Doble! Jardinero Derecho ",
+        "lastPlayByPlay": "Harold Andres Ramirez Robo de Base Tercera Base",
         "atBat": "Raimel Tapia",
         "comment": "",
         "winningPitcher": null,
@@ -639,7 +639,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 7,
+        "base": 6,
         "status": 2,
         "date": "2026-10-20 19:30:00",
         "part": 2,
@@ -689,8 +689,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 1
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10258,7 +10258,7 @@
           "runs_half": 3,
           "errors": 0,
           "hits": 7,
-          "pitcher": "Daniel Martínez",
+          "pitcher": "Oliver Ortega",
           "era": "",
           "debut": 1,
           "record": ""
@@ -10279,9 +10279,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2193,
@@ -10291,11 +10291,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 4,
         "status": 2,
         "date": "2026-10-20 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Harold Andres Ramirez Doble! Jardinero Derecho ",
+        "lastPlayByPlay": "Harold Andres Ramirez Robo de Base Tercera Base",
         "atBat": "Raimel Tapia",
         "comment": "",
         "winningPitcher": null,
@@ -10340,9 +10340,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2194,
@@ -10352,7 +10352,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 7,
+        "base": 6,
         "status": 2,
         "date": "2026-10-20 19:30:00",
         "part": 2,
@@ -10402,8 +10402,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 1
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "2026-10-21": [
@@ -19002,8 +19002,8 @@
       "currentInningNum": 7,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 3,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -19048,7 +19048,7 @@
             "H2": 3
           },
           "probables": {
-            "pitcher": "Daniel Martínez",
+            "pitcher": "Oliver Ortega",
             "era": "",
             "record": "",
             "debut": true
@@ -20252,7 +20252,7 @@
       "date": "2026-10-20 19:15:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Harold Andres Ramirez Doble! Jardinero Derecho ",
+      "lastPlayByPlay": "Harold Andres Ramirez Robo de Base Tercera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21224,10 +21224,17 @@
             },
             {
               "reference_id": "19986-1-65",
+              "text": "Harold Andres Ramirez Robo de Base Tercera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792547028
+            },
+            {
+              "reference_id": "19986-1-66",
               "text": "Raimel Tapia al bate",
               "scored": false,
               "is_primary": true,
-              "ts": 1792546972
+              "ts": 1792547030
             }
           ]
         }
@@ -21335,7 +21342,7 @@
           "num": 8,
           "half": "top",
           "label": "Alta 8va",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21528,19 +21535,19 @@
       "lastPlayByPlay": "Enmanuel Valdez  Sencillo ",
       "counts": {
         "balls": 0,
-        "strikes": 1,
-        "outs": 0
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 7
+        "base": 6
       },
       "base_runners": {
-        "on1B": false,
-        "on2B": true,
+        "on1B": true,
+        "on2B": false,
         "on3B": true,
         "runners": 2,
-        "mask": 7
+        "mask": 6
       },
       "betting": {
         "moneyline": {
