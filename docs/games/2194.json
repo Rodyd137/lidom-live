@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2194",
-    "scraped_at": "2026-10-21T01:20:50.511Z",
+    "scraped_at": "2026-10-21T01:21:54.470Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-20 19:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Victor Scott se embasa por Error del Tercera Base",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -176,7 +176,7 @@
         "totals": {
           "R": 5,
           "H": 8,
-          "E": 0,
+          "E": 1,
           "H2": 5
         },
         "probables": {
@@ -347,7 +347,7 @@
         "home": {
           "R": 5,
           "H": 8,
-          "E": 0
+          "E": 1
         }
       },
       "cumulative": {
@@ -772,6 +772,27 @@
             "ts": 1792545482
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "19992-1-40",
+            "text": "Victor Scott se embasa por Error del Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792545671
+          },
+          {
+            "reference_id": "19992-1-41",
+            "text": "Mason Mccoy al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792545674
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -829,6 +850,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -928,7 +956,7 @@
         "id": 2193,
         "date": "2026-10-20 19:15:00",
         "status": 2,
-        "roundText": "Baja 6ta",
+        "roundText": "Alta 7ma",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
