@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-21T00:28:27.375Z",
+    "scraped_at": "2026-10-21T00:29:31.047Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -520,16 +520,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-20 19:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Francisco Mejia Out: Línea al Jardinero Central",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Carlos Franco",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "currentInningNum": 4,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -566,8 +566,8 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
+        "balls": 1,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-20 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "J. C. Escarra Ponche (K) ",
-        "atBat": "Aderlin Rodríguez",
+        "lastPlayByPlay": "Aderlin Rodríguez  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Raynel Delgado",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 1
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10233,16 +10233,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-20 19:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Francisco Mejia Out: Línea al Jardinero Central",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Carlos Franco",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "currentInningNum": 4,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -10279,8 +10279,8 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
+        "balls": 1,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -10352,12 +10352,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-20 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "J. C. Escarra Ponche (K) ",
-        "atBat": "Aderlin Rodríguez",
+        "lastPlayByPlay": "Aderlin Rodríguez  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Raynel Delgado",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10401,9 +10401,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 1
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "2026-10-21": [
@@ -18998,16 +18998,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-20 19:00:00",
-      "roundText": "Alta 4ta",
+      "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Francisco Mejia Out: Línea al Jardinero Central",
+      "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
+        "balls": 1,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -19698,6 +19698,20 @@
               "ts": 1792542371
             }
           ]
+        },
+        {
+          "num": 4,
+          "half": "bottom",
+          "label": "Baja 4ta",
+          "plays": [
+            {
+              "reference_id": "19973-2-35",
+              "text": "Carlos Franco al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792542541
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -19749,6 +19763,13 @@
           "label": "Alta 4ta",
           "total_plays": 5,
           "scoring_plays": 1
+        },
+        {
+          "num": 4,
+          "half": "bottom",
+          "label": "Baja 4ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -19775,7 +19796,7 @@
         },
         {
           "num": 4,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 2,
           "homeTeamRuns": 0
@@ -20765,7 +20786,7 @@
           "id": 2192,
           "date": "2026-10-20 19:00:00",
           "status": 2,
-          "roundText": "Alta 4ta",
+          "roundText": "Baja 4ta",
           "awayTeam": {
             "id": 1,
             "name": "Tigres",
@@ -20881,22 +20902,22 @@
       "date": "2026-10-20 19:30:00",
       "roundText": "Alta 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "J. C. Escarra Ponche (K) ",
+      "lastPlayByPlay": "Aderlin Rodríguez  Out: Rodado al Campo Corto - Primera Base",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
-        "outs": 1
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -21496,10 +21517,17 @@
             },
             {
               "reference_id": "19990-1-22",
-              "text": "Aderlin Rodríguez al bate",
+              "text": "Aderlin Rodríguez  Out: Rodado al Campo Corto - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1792542465
+              "ts": 1792542554
+            },
+            {
+              "reference_id": "19990-1-23",
+              "text": "Raynel Delgado al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792542557
             }
           ]
         }
@@ -21537,7 +21565,7 @@
           "num": 3,
           "half": "top",
           "label": "Alta 3ra",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -21611,7 +21639,7 @@
           "id": 2192,
           "date": "2026-10-20 19:00:00",
           "status": 2,
-          "roundText": "Alta 4ta",
+          "roundText": "Baja 4ta",
           "awayTeam": {
             "id": 1,
             "name": "Tigres",
