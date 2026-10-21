@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2194",
-    "scraped_at": "2026-10-21T02:25:05.990Z",
+    "scraped_at": "2026-10-21T02:26:09.745Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-20 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Zoilo Almonte se embasa por Error del Lanzador",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 3,
           "H": 4,
-          "E": 0,
+          "E": 1,
           "H2": 3
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 3,
           "H": 4,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 5,
@@ -961,6 +961,20 @@
             "ts": 1792549349
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "19994-2-60",
+            "text": "Zoilo Almonte se embasa por Error del Lanzador",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792549557
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1053,6 +1067,13 @@
         "half": "top",
         "label": "Alta 7ma",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],

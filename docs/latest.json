@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-21T02:25:04.115Z",
+    "scraped_at": "2026-10-21T02:26:08.051Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -568,7 +568,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2193,
@@ -639,11 +639,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-20 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Zoilo Almonte se embasa por Error del Lanzador",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -665,7 +665,7 @@
           "permalink": "/equipo/aguilas-cibaenas",
           "runs": 3,
           "runs_half": 3,
-          "errors": 0,
+          "errors": 1,
           "hits": 4,
           "pitcher": "Leandro Lopez",
           "era": "",
@@ -10281,7 +10281,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2193,
@@ -10352,11 +10352,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-20 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Zoilo Almonte se embasa por Error del Lanzador",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -10378,7 +10378,7 @@
           "permalink": "/equipo/aguilas-cibaenas",
           "runs": 3,
           "runs_half": 3,
-          "errors": 0,
+          "errors": 1,
           "hits": 4,
           "pitcher": "Leandro Lopez",
           "era": "",
@@ -19003,7 +19003,7 @@
       "lastPlayByPlay": "Ramon Hernandez Out: Línea al Segunda Base",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 2
       },
       "base_state": {
@@ -20345,7 +20345,7 @@
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
             "runs": 3,
             "hits": 4,
-            "errors": 0,
+            "errors": 1,
             "permalink": "/equipo/aguilas-cibaenas"
           },
           "homeTeam": {
@@ -21744,7 +21744,7 @@
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
             "runs": 3,
             "hits": 4,
-            "errors": 0,
+            "errors": 1,
             "permalink": "/equipo/aguilas-cibaenas"
           },
           "homeTeam": {
@@ -21826,7 +21826,7 @@
       "date": "2026-10-20 19:30:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Zoilo Almonte se embasa por Error del Lanzador",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21834,14 +21834,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -21870,7 +21870,7 @@
           "totals": {
             "R": 3,
             "H": 4,
-            "E": 0,
+            "E": 1,
             "H2": 3
           },
           "probables": {
@@ -22157,7 +22157,7 @@
           "away": {
             "R": 3,
             "H": 4,
-            "E": 0
+            "E": 1
           },
           "home": {
             "R": 5,
@@ -22776,6 +22776,20 @@
               "ts": 1792549349
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "plays": [
+            {
+              "reference_id": "19994-2-60",
+              "text": "Zoilo Almonte se embasa por Error del Lanzador",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792549557
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22868,6 +22882,13 @@
           "half": "top",
           "label": "Alta 7ma",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
