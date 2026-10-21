@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-21T01:00:30.835Z",
+    "scraped_at": "2026-10-21T01:01:34.867Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -586,7 +586,7 @@
         "date": "2026-10-20 19:15:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Leonardo Bernal ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -630,9 +630,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2194,
@@ -646,8 +646,8 @@
         "status": 2,
         "date": "2026-10-20 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Chritopher Morel",
+        "lastPlayByPlay": "Chritopher Morel Ponche (K) ",
+        "atBat": "Yeison Morrobel",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -691,9 +691,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10302,7 +10302,7 @@
         "date": "2026-10-20 19:15:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Leonardo Bernal ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10346,9 +10346,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2194,
@@ -10362,8 +10362,8 @@
         "status": 2,
         "date": "2026-10-20 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Chritopher Morel",
+        "lastPlayByPlay": "Chritopher Morel Ponche (K) ",
+        "atBat": "Yeison Morrobel",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10407,9 +10407,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "2026-10-21": [
@@ -20106,8 +20106,8 @@
       "currentInningNum": 6,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 2,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -20935,6 +20935,20 @@
               "ts": 1792544380
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "plays": [
+            {
+              "reference_id": "19984-1-50",
+              "text": "Leonardo Bernal  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792544464
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21007,6 +21021,13 @@
           "label": "Baja 5ta",
           "total_plays": 6,
           "scoring_plays": 1
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -21195,11 +21216,11 @@
       "date": "2026-10-20 19:30:00",
       "roundText": "Alta 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Chritopher Morel Ponche (K) ",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21894,10 +21915,17 @@
           "plays": [
             {
               "reference_id": "19991-1-32",
-              "text": "Chritopher Morel al bate",
+              "text": "Chritopher Morel Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792544346
+              "ts": 1792544461
+            },
+            {
+              "reference_id": "19991-1-33",
+              "text": "Yeison Morrobel al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792544464
             }
           ]
         }
@@ -21949,7 +21977,7 @@
           "num": 4,
           "half": "top",
           "label": "Alta 4ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
