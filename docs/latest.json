@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-21T00:18:50.057Z",
+    "scraped_at": "2026-10-21T00:19:54.482Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -568,7 +568,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2193,
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-20 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Josh Lester   Out: Rodado al Primera Base - Lanzador",
+        "atBat": "Marco Luciano ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 1
       },
       {
         "id": 2194,
@@ -644,7 +644,7 @@
         "date": "2026-10-20 19:30:00",
         "part": 2,
         "lastPlayByPlay": "Pedro Severino  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": null,
+        "atBat": "Wilmer Difo",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -10281,7 +10281,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2193,
@@ -10295,8 +10295,8 @@
         "status": 2,
         "date": "2026-10-20 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Josh Lester   Out: Rodado al Primera Base - Lanzador",
+        "atBat": "Marco Luciano ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10340,8 +10340,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
+        "balls": 0,
+        "outs": 1,
         "strikes": 2
       },
       {
@@ -10357,7 +10357,7 @@
         "date": "2026-10-20 19:30:00",
         "part": 2,
         "lastPlayByPlay": "Pedro Severino  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": null,
+        "atBat": "Wilmer Difo",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10401,9 +10401,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "2026-10-21": [
@@ -19003,7 +19003,7 @@
       "lastPlayByPlay": "E. Florial Ponche (K) ",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 2,
         "outs": 1
       },
       "base_state": {
@@ -19923,11 +19923,11 @@
       "date": "2026-10-20 19:15:00",
       "roundText": "Alta 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Josh Lester   Out: Rodado al Primera Base - Lanzador",
       "counts": {
-        "balls": 1,
+        "balls": 0,
         "strikes": 2,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -20587,10 +20587,17 @@
           "plays": [
             {
               "reference_id": "19982-1-29",
-              "text": "Josh Lester  al bate",
+              "text": "Josh Lester   Out: Rodado al Primera Base - Lanzador",
               "scored": false,
               "is_primary": true,
-              "ts": 1792541778
+              "ts": 1792541951
+            },
+            {
+              "reference_id": "19982-1-30",
+              "text": "Marco Luciano  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792541955
             }
           ]
         }
@@ -20642,7 +20649,7 @@
           "num": 4,
           "half": "top",
           "label": "Alta 4ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -20834,8 +20841,8 @@
       "currentInningNum": 2,
       "lastPlayByPlay": "Pedro Severino  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 2,
         "outs": 2
       },
       "base_state": {
@@ -21416,6 +21423,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1792541924
+            },
+            {
+              "reference_id": "19989-2-19",
+              "text": "Wilmer Difo al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792541934
             }
           ]
         }
@@ -21446,7 +21460,7 @@
           "num": 2,
           "half": "bottom",
           "label": "Baja 2da",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 1
         }
       ],
