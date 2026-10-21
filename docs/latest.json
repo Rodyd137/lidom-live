@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-21T00:11:20.924Z",
+    "scraped_at": "2026-10-21T00:12:25.265Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -520,16 +520,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-20 19:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Agustin Ramirez Ponche (K) ",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Mel Rojas",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 3ra",
-        "currentInningNum": 3,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 4ta",
+        "currentInningNum": 4,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -566,8 +566,8 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
+        "balls": 1,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -644,7 +647,7 @@
         "date": "2026-10-20 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Allan Castro ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +691,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -10233,16 +10236,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-20 19:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Agustin Ramirez Ponche (K) ",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Mel Rojas",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 3ra",
-        "currentInningNum": 3,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 4ta",
+        "currentInningNum": 4,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -10279,9 +10282,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
-        "strikes": 0
+        "balls": 1,
+        "outs": 0,
+        "strikes": 1
       },
       {
         "id": 2193,
@@ -10307,7 +10310,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -10357,7 +10363,7 @@
         "date": "2026-10-20 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Allan Castro ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10401,9 +10407,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "2026-10-21": [
@@ -18998,16 +19004,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-20 19:00:00",
-      "roundText": "Baja 3ra",
-      "currentInningNum": 3,
-      "lastPlayByPlay": "Agustin Ramirez Ponche (K) ",
+      "roundText": "Alta 4ta",
+      "currentInningNum": 4,
+      "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
-        "outs": 3
+        "balls": 1,
+        "strikes": 1,
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
+        "battingTeam": "awayTeam",
         "base": 1
       },
       "base_runners": {
@@ -19656,6 +19662,20 @@
               "ts": 1792541300
             }
           ]
+        },
+        {
+          "num": 4,
+          "half": "top",
+          "label": "Alta 4ta",
+          "plays": [
+            {
+              "reference_id": "19973-1-30",
+              "text": "Mel Rojas al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792541530
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -19700,6 +19720,13 @@
           "label": "Baja 3ra",
           "total_plays": 6,
           "scoring_plays": 1
+        },
+        {
+          "num": 4,
+          "half": "top",
+          "label": "Alta 4ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -19720,14 +19747,14 @@
         {
           "num": 3,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 0,
           "homeTeamRuns": 1
         },
         {
           "num": 4,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
@@ -20653,7 +20680,7 @@
           "id": 2192,
           "date": "2026-10-20 19:00:00",
           "status": 2,
-          "roundText": "Baja 3ra",
+          "roundText": "Alta 4ta",
           "awayTeam": {
             "id": 1,
             "name": "Tigres",
@@ -20771,8 +20798,8 @@
       "currentInningNum": 2,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -20982,6 +21009,17 @@
               "team_id": 6,
               "name": "Zoilo Almonte",
               "abbreviation": "Zoilo Almonte",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6009,
+              "team_id": 6,
+              "name": "Allan Castro ",
+              "abbreviation": "A. Castro",
               "number": null,
               "dob": null,
               "height": "",
@@ -21265,6 +21303,20 @@
               "ts": 1792541348
             }
           ]
+        },
+        {
+          "num": 2,
+          "half": "bottom",
+          "label": "Baja 2da",
+          "plays": [
+            {
+              "reference_id": "19989-2-15",
+              "text": "Allan Castro  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792541517
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21288,6 +21340,13 @@
           "label": "Alta 2da",
           "total_plays": 4,
           "scoring_plays": 1
+        },
+        {
+          "num": 2,
+          "half": "bottom",
+          "label": "Baja 2da",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -21360,7 +21419,7 @@
           "id": 2192,
           "date": "2026-10-20 19:00:00",
           "status": 2,
-          "roundText": "Baja 3ra",
+          "roundText": "Alta 4ta",
           "awayTeam": {
             "id": 1,
             "name": "Tigres",
