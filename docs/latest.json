@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-21T01:05:51.203Z",
+    "scraped_at": "2026-10-21T01:06:54.828Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/344328d644485325998a132db1f0cc6a.png",
+          "text": "Lesión"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -582,8 +585,8 @@
         "status": 2,
         "date": "2026-10-20 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Leonardo Bernal ",
+        "lastPlayByPlay": "Leonardo Bernal   Out: Rodado al Tercera Base - Primera Base despues de reviision de jugada",
+        "atBat": "Josh Lester ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -629,7 +632,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2194,
@@ -688,9 +691,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 3,
         "outs": 2,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -10246,7 +10249,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/344328d644485325998a132db1f0cc6a.png",
+          "text": "Lesión"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -10295,8 +10301,8 @@
         "status": 2,
         "date": "2026-10-20 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Leonardo Bernal ",
+        "lastPlayByPlay": "Leonardo Bernal   Out: Rodado al Tercera Base - Primera Base despues de reviision de jugada",
+        "atBat": "Josh Lester ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10342,7 +10348,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2194,
@@ -10401,9 +10407,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 3,
         "outs": 2,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "2026-10-21": [
@@ -20112,10 +20118,10 @@
       "date": "2026-10-20 19:15:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Leonardo Bernal   Out: Rodado al Tercera Base - Primera Base despues de reviision de jugada",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 2,
         "outs": 1
       },
       "base_state": {
@@ -20951,10 +20957,17 @@
           "plays": [
             {
               "reference_id": "19984-1-50",
-              "text": "Leonardo Bernal  al bate",
+              "text": "Leonardo Bernal   Out: Rodado al Tercera Base - Primera Base despues de reviision de jugada",
               "scored": false,
               "is_primary": true,
-              "ts": 1792544464
+              "ts": 1792544756
+            },
+            {
+              "reference_id": "19984-1-51",
+              "text": "Josh Lester  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792544762
             }
           ]
         }
@@ -21034,7 +21047,7 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21226,8 +21239,8 @@
       "currentInningNum": 4,
       "lastPlayByPlay": "Adalberto Mondesi Out: Elevado al Segunda Base",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
+        "balls": 3,
+        "strikes": 2,
         "outs": 2
       },
       "base_state": {
