@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2194",
-    "scraped_at": "2026-10-21T01:28:20.585Z",
+    "scraped_at": "2026-10-21T01:29:24.993Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-20 19:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Mason Mccoy Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "J. C. Escarra Base por Bolas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -793,11 +793,25 @@
             "ts": 1792545794
           },
           {
+            "reference_id": "19992-1-41-288702",
+            "text": "Victor Scott Out Robando Base! ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1792546097
+          },
+          {
             "reference_id": "19992-1-42",
-            "text": "J. C. Escarra al bate",
+            "text": "J. C. Escarra Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792545797
+            "ts": 1792546131
+          },
+          {
+            "reference_id": "19992-1-43",
+            "text": "Aderlin Rodríguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792546133
           }
         ]
       }
@@ -863,7 +877,7 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 3,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
