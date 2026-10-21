@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-21T02:17:28.483Z",
+    "scraped_at": "2026-10-21T02:18:33.012Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-10-20 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Roly Brito Ponche (K) ",
-        "atBat": "Noelvi Marte ",
+        "lastPlayByPlay": "Noelvi Marte   Out: Rodado al Campo Corto - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -578,7 +578,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-20 19:15:00",
         "part": 1,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2194,
@@ -644,7 +644,7 @@
         "date": "2026-10-20 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Steward Berroa",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,7 +688,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
         "strikes": 0
       }
@@ -10291,7 +10291,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-20 19:15:00",
         "part": 1,
@@ -10340,9 +10340,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2194,
@@ -10357,7 +10357,7 @@
         "date": "2026-10-20 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Steward Berroa",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10401,9 +10401,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "2026-10-21": [
@@ -20380,20 +20380,20 @@
       "currentInningNum": 9,
       "lastPlayByPlay": "Cesar Prieto  Ponche (K) ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -21758,8 +21758,8 @@
       "currentInningNum": 7,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -22678,6 +22678,20 @@
               "ts": 1792548939
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "top",
+          "label": "Alta 7ma",
+          "plays": [
+            {
+              "reference_id": "19994-1-57",
+              "text": "Steward Berroa al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792549103
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22763,6 +22777,13 @@
           "half": "bottom",
           "label": "Baja 6ta",
           "total_plays": 5,
+          "scoring_plays": 0
+        },
+        {
+          "num": 7,
+          "half": "top",
+          "label": "Alta 7ma",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
