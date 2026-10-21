@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-21T01:34:42.748Z",
+    "scraped_at": "2026-10-21T01:35:46.450Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -534,8 +534,8 @@
         "adLink": "",
         "banner": "",
         "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
-          "text": "Reunión Lomita"
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
         },
         "awayTeam": {
           "id": 1,
@@ -585,8 +585,8 @@
         "status": 2,
         "date": "2026-10-20 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "John Gil",
+        "lastPlayByPlay": "John Gil Ponche (K) ",
+        "atBat": "Vidal Brujan",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -630,9 +630,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2194,
@@ -670,9 +670,9 @@
           "runs_half": 3,
           "errors": 0,
           "hits": 3,
-          "pitcher": "Carlos Peña",
+          "pitcher": "Leandro Lopez",
           "era": "",
-          "debut": 1,
+          "debut": 0,
           "record": ""
         },
         "homeTeam": {
@@ -10250,8 +10250,8 @@
         "adLink": "",
         "banner": "",
         "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
-          "text": "Reunión Lomita"
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
         },
         "awayTeam": {
           "id": 1,
@@ -10301,8 +10301,8 @@
         "status": 2,
         "date": "2026-10-20 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "John Gil",
+        "lastPlayByPlay": "John Gil Ponche (K) ",
+        "atBat": "Vidal Brujan",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10346,9 +10346,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2194,
@@ -10363,7 +10363,7 @@
         "date": "2026-10-20 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Zoilo Almonte",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10386,9 +10386,9 @@
           "runs_half": 3,
           "errors": 0,
           "hits": 3,
-          "pitcher": "Carlos Peña",
+          "pitcher": "Leandro Lopez",
           "era": "",
-          "debut": 1,
+          "debut": 0,
           "record": ""
         },
         "homeTeam": {
@@ -20230,11 +20230,11 @@
       "date": "2026-10-20 19:15:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "John Gil Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21167,10 +21167,17 @@
           "plays": [
             {
               "reference_id": "19985-2-61",
-              "text": "John Gil al bate",
+              "text": "John Gil Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792546266
+              "ts": 1792546536
+            },
+            {
+              "reference_id": "19985-2-62",
+              "text": "Vidal Brujan al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792546540
             }
           ]
         }
@@ -21271,7 +21278,7 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21509,10 +21516,10 @@
             "H2": 3
           },
           "probables": {
-            "pitcher": "Carlos Peña",
+            "pitcher": "Leandro Lopez",
             "era": "",
             "record": "",
-            "debut": true
+            "debut": false
           },
           "players": [
             {
@@ -22264,6 +22271,20 @@
               "ts": 1792546368
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "plays": [
+            {
+              "reference_id": "19992-2-44",
+              "text": "Zoilo Almonte al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792546545
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22328,6 +22349,13 @@
           "half": "top",
           "label": "Alta 5ta",
           "total_plays": 5,
+          "scoring_plays": 0
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
