@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-21T02:29:21.084Z",
+    "scraped_at": "2026-10-21T02:30:25.311Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-10-20 19:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 4,
         "status": 2,
         "date": "2026-10-20 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Allan Castro  Out: Línea al Jardinero Izquierdo",
-        "atBat": "Enmanuel Valdez ",
+        "lastPlayByPlay": "Jhonkensy Noel al bate",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,7 +688,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 3,
         "outs": 1,
         "strikes": 0
       }
@@ -10235,7 +10235,7 @@
         "date": "2026-10-20 19:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10352,12 +10352,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 4,
         "status": 2,
         "date": "2026-10-20 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Allan Castro  Out: Línea al Jardinero Izquierdo",
-        "atBat": "Enmanuel Valdez ",
+        "lastPlayByPlay": "Jhonkensy Noel al bate",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10401,7 +10401,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 3,
         "outs": 1,
         "strikes": 0
       }
@@ -20118,6 +20118,20 @@
               "ts": 1792549619
             }
           ]
+        },
+        {
+          "num": 9,
+          "half": "bottom",
+          "label": "Baja 9na",
+          "plays": [
+            {
+              "reference_id": "19978-2-87",
+              "text": "Agustin Ramirez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792549823
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20239,6 +20253,13 @@
           "label": "Alta 9na",
           "total_plays": 5,
           "scoring_plays": 1
+        },
+        {
+          "num": 9,
+          "half": "bottom",
+          "label": "Baja 9na",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -21826,22 +21847,22 @@
       "date": "2026-10-20 19:30:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Allan Castro  Out: Línea al Jardinero Izquierdo",
+      "lastPlayByPlay": "Jhonkensy Noel al bate",
       "counts": {
-        "balls": 1,
+        "balls": 3,
         "strikes": 0,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 4
       },
       "base_runners": {
-        "on1B": true,
+        "on1B": false,
         "on2B": false,
-        "on3B": false,
+        "on3B": true,
         "runners": 1,
-        "mask": 2
+        "mask": 4
       },
       "betting": {
         "moneyline": {
@@ -22050,6 +22071,17 @@
               "team_id": 6,
               "name": "Allan Castro ",
               "abbreviation": "A. Castro",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6076,
+              "team_id": 6,
+              "name": "Jhonkensy Noel",
+              "abbreviation": "J. Noel",
               "number": null,
               "dob": null,
               "height": "",
@@ -22787,10 +22819,10 @@
             },
             {
               "reference_id": "19994-2-62",
-              "text": "Enmanuel Valdez  al bate",
+              "text": "Jhonkensy Noel al bate",
               "scored": false,
               "is_primary": true,
-              "ts": 1792549639
+              "ts": 1792549772
             }
           ]
         }
