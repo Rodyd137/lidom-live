@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-21T01:26:09.716Z",
+    "scraped_at": "2026-10-21T01:27:14.275Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-20 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "Ramon Hernandez Out: Elevado al Primera Base",
-        "atBat": "Mel Rojas",
+        "lastPlayByPlay": "Mel Rojas Doble! Jardinero Izquierdo",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -544,7 +544,7 @@
           "runs": 6,
           "runs_half": 3,
           "errors": 0,
-          "hits": 4,
+          "hits": 5,
           "pitcher": "Daniel Martínez",
           "era": "",
           "debut": 1,
@@ -566,9 +566,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 1,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2193,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2194,
@@ -655,7 +655,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -10230,12 +10233,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-20 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "Ramon Hernandez Out: Elevado al Primera Base",
-        "atBat": "Mel Rojas",
+        "lastPlayByPlay": "Mel Rojas Doble! Jardinero Izquierdo",
+        "atBat": "E. Florial",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10257,7 +10260,7 @@
           "runs": 6,
           "runs_half": 3,
           "errors": 0,
-          "hits": 4,
+          "hits": 5,
           "pitcher": "Daniel Martínez",
           "era": "",
           "debut": 1,
@@ -10279,9 +10282,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 1,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2193,
@@ -10340,9 +10343,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2194,
@@ -10368,7 +10371,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -19000,22 +19006,22 @@
       "date": "2026-10-20 19:00:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Ramon Hernandez Out: Elevado al Primera Base",
+      "lastPlayByPlay": "Mel Rojas Doble! Jardinero Izquierdo",
       "counts": {
-        "balls": 2,
-        "strikes": 1,
+        "balls": 0,
+        "strikes": 0,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -19043,7 +19049,7 @@
           "permalink": "/equipo/tigres-del-licey",
           "totals": {
             "R": 6,
-            "H": 4,
+            "H": 5,
             "E": 0,
             "H2": 3
           },
@@ -19330,7 +19336,7 @@
         "totals": {
           "away": {
             "R": 6,
-            "H": 4,
+            "H": 5,
             "E": 0
           },
           "home": {
@@ -19909,10 +19915,10 @@
             },
             {
               "reference_id": "19976-1-59",
-              "text": "Mel Rojas al bate",
+              "text": "Mel Rojas Doble! Jardinero Izquierdo",
               "scored": false,
               "is_primary": true,
-              "ts": 1792545898
+              "ts": 1792546031
             }
           ]
         }
@@ -20198,8 +20204,8 @@
       "currentInningNum": 7,
       "lastPlayByPlay": "Aaron Schunk Out: Elevado al Primera Base",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 2,
+        "strikes": 1,
         "outs": 2
       },
       "base_state": {
@@ -21290,7 +21296,7 @@
             "abbr": "TL",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
             "runs": 6,
-            "hits": 4,
+            "hits": 5,
             "errors": 0,
             "permalink": "/equipo/tigres-del-licey"
           },
@@ -22332,7 +22338,7 @@
             "abbr": "TL",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
             "runs": 6,
-            "hits": 4,
+            "hits": 5,
             "errors": 0,
             "permalink": "/equipo/tigres-del-licey"
           },
