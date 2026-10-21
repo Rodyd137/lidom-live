@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2194",
-    "scraped_at": "2026-10-21T02:59:13.947Z",
+    "scraped_at": "2026-10-21T03:00:18.131Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-20 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Chritopher Morel Ponche (K) ",
+    "lastPlayByPlay": "Alberto Rodriguez  Out: Rodado al Segunda Base - Campo Corto - Carrera Empujada",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 8
+      "base": 6
     },
     "base_runners": {
       "on1B": true,
-      "on2B": true,
+      "on2B": false,
       "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 3,
+          "R": 4,
           "H": 6,
           "E": 1,
           "H2": 3
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,7 +340,7 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 3,
+          "R": 4,
           "H": 6,
           "E": 1
         },
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 3
+            "R": 4
           },
           {
             "num": 9,
-            "R": 3
+            "R": 4
           }
         ],
         "home": [
@@ -1060,10 +1060,17 @@
           },
           {
             "reference_id": "19995-1-71",
-            "text": "Alberto Rodriguez al bate",
+            "text": "Alberto Rodriguez  Out: Rodado al Segunda Base - Campo Corto - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1792551572
+          },
+          {
+            "reference_id": "19995-1-72",
+            "text": "Adalberto Mondesi al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1792551477
+            "ts": 1792551580
           }
         ]
       }
@@ -1171,8 +1178,8 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 5,
-        "scoring_plays": 0
+        "total_plays": 6,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1229,7 +1236,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
