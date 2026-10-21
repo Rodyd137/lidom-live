@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2194",
-    "scraped_at": "2026-10-21T00:24:12.859Z",
+    "scraped_at": "2026-10-21T00:25:17.336Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-20 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Mason Mccoy Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
+      "balls": 1,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -612,10 +612,17 @@
         "plays": [
           {
             "reference_id": "19990-1-20",
-            "text": "Mason Mccoy al bate",
+            "text": "Mason Mccoy Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792542247
+            "ts": 1792542272
+          },
+          {
+            "reference_id": "19990-1-21",
+            "text": "J. C. Escarra al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792542298
           }
         ]
       }
@@ -653,7 +660,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
