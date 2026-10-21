@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-21T00:12:25.265Z",
+    "scraped_at": "2026-10-21T00:13:29.472Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-20 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Mel Rojas",
+        "lastPlayByPlay": "Mel Rojas Base por Bolas ",
+        "atBat": "E. Florial",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -566,7 +569,7 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 0,
         "strikes": 0
       },
@@ -691,9 +694,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 3,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -10233,12 +10236,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-20 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Mel Rojas",
+        "lastPlayByPlay": "Mel Rojas Base por Bolas ",
+        "atBat": "E. Florial",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10249,7 +10252,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -10282,9 +10288,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2193,
@@ -10407,9 +10413,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 3,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "2026-10-21": [
@@ -19006,22 +19012,22 @@
       "date": "2026-10-20 19:00:00",
       "roundText": "Alta 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Mel Rojas Base por Bolas ",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
+        "balls": 0,
+        "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -19670,10 +19676,17 @@
           "plays": [
             {
               "reference_id": "19973-1-30",
-              "text": "Mel Rojas al bate",
+              "text": "Mel Rojas Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792541530
+              "ts": 1792541587
+            },
+            {
+              "reference_id": "19973-1-31",
+              "text": "E. Florial al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792541592
             }
           ]
         }
@@ -19725,7 +19738,7 @@
           "num": 4,
           "half": "top",
           "label": "Alta 4ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -20798,8 +20811,8 @@
       "currentInningNum": 2,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
+        "balls": 3,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
