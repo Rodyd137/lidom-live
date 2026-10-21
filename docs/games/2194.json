@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2194",
-    "scraped_at": "2026-10-21T00:38:06.809Z",
+    "scraped_at": "2026-10-21T00:39:11.027Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-20 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gilberto Celestino  Sencillo ",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 1,
-          "H": 3,
+          "H": 4,
           "E": 0,
           "H2": 1
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 1,
-          "H": 3,
+          "H": 4,
           "E": 0
         }
       },
@@ -639,6 +639,20 @@
             "ts": 1792542900
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "19990-2-24",
+            "text": "Gilberto Celestino  Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792543138
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -675,6 +689,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -774,7 +795,7 @@
         "id": 2193,
         "date": "2026-10-20 19:15:00",
         "status": 2,
-        "roundText": "Baja 4ta",
+        "roundText": "Alta 5ta",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
