@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-21T00:54:06.552Z",
+    "scraped_at": "2026-10-21T00:55:10.606Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-10-20 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "E. Florial Base por Bolas ",
-        "atBat": "A. Ortiz",
+        "lastPlayByPlay": "A. Ortiz Ponche (K) ",
+        "atBat": "K. Alcantara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2193,
@@ -647,7 +647,7 @@
         "date": "2026-10-20 19:30:00",
         "part": 2,
         "lastPlayByPlay": "Yairo Muñoz Doble! 1 Carrera Impulsada ",
-        "atBat": null,
+        "atBat": "Pedro Severino",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -658,10 +658,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -694,9 +691,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -10240,8 +10237,8 @@
         "status": 2,
         "date": "2026-10-20 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "E. Florial Base por Bolas ",
-        "atBat": "A. Ortiz",
+        "lastPlayByPlay": "A. Ortiz Ponche (K) ",
+        "atBat": "K. Alcantara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10285,9 +10282,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2193,
@@ -10366,7 +10363,7 @@
         "date": "2026-10-20 19:30:00",
         "part": 2,
         "lastPlayByPlay": "Yairo Muñoz Doble! 1 Carrera Impulsada ",
-        "atBat": null,
+        "atBat": "Pedro Severino",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10377,10 +10374,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -10413,9 +10407,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "2026-10-21": [
@@ -19012,11 +19006,11 @@
       "date": "2026-10-20 19:00:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "E. Florial Base por Bolas ",
+      "lastPlayByPlay": "A. Ortiz Ponche (K) ",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -19816,10 +19810,17 @@
             },
             {
               "reference_id": "19975-1-46",
-              "text": "A. Ortiz al bate",
+              "text": "A. Ortiz Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792543874
+              "ts": 1792544062
+            },
+            {
+              "reference_id": "19975-1-47",
+              "text": "K. Alcantara al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792544064
             }
           ]
         }
@@ -19899,7 +19900,7 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21182,8 +21183,8 @@
       "currentInningNum": 3,
       "lastPlayByPlay": "Yairo Muñoz Doble! 1 Carrera Impulsada ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 2,
+        "strikes": 1,
         "outs": 2
       },
       "base_state": {
@@ -21862,6 +21863,13 @@
               "scored": true,
               "is_primary": true,
               "ts": 1792543858
+            },
+            {
+              "reference_id": "19990-2-31",
+              "text": "Pedro Severino al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792544075
             }
           ]
         }
@@ -21906,7 +21914,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 7,
+          "total_plays": 8,
           "scoring_plays": 3
         }
       ],
