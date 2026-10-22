@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-22T02:41:52.492Z",
+    "scraped_at": "2026-10-22T02:42:57.006Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-10-21 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Ronny Simon Golpeado por Pelota ",
-        "atBat": "Jesús Sanchez ",
+        "lastPlayByPlay": "Jesús Sanchez  Golpeado por Pelota ",
+        "atBat": "Allan Castro ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -655,7 +655,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -688,9 +691,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 2,
-        "strikes": 2
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10537,12 +10540,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-10-21 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Ronny Simon Golpeado por Pelota ",
-        "atBat": "Jesús Sanchez ",
+        "lastPlayByPlay": "Jesús Sanchez  Golpeado por Pelota ",
+        "atBat": "Allan Castro ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10553,7 +10556,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -10586,9 +10592,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 2,
-        "strikes": 2
+        "strikes": 0
       }
     ],
     "2026-10-22": [
@@ -20998,22 +21004,22 @@
       "date": "2026-10-21 19:30:00",
       "roundText": "Baja 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "Ronny Simon Golpeado por Pelota ",
+      "lastPlayByPlay": "Jesús Sanchez  Golpeado por Pelota ",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 5
       },
       "base_runners": {
         "on1B": true,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -22068,10 +22074,17 @@
             },
             {
               "reference_id": "20023-2-76",
-              "text": "Jesús Sanchez  al bate",
+              "text": "Jesús Sanchez  Golpeado por Pelota ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792636717
+              "ts": 1792636924
+            },
+            {
+              "reference_id": "20023-2-77",
+              "text": "Allan Castro  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792636927
             }
           ]
         }
@@ -22200,7 +22213,7 @@
           "num": 9,
           "half": "bottom",
           "label": "Baja 9na",
-          "total_plays": 5,
+          "total_plays": 6,
           "scoring_plays": 0
         }
       ],
