@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-22T00:46:24.856Z",
+    "scraped_at": "2026-10-22T00:47:28.875Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-21 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Vidal Brujan  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": "Erik Gonzales",
+        "lastPlayByPlay": "Erik Gonzales Sencillo Segunda Base",
+        "atBat": "Marmolejos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -560,7 +560,7 @@
           "runs": 6,
           "runs_half": 6,
           "errors": 1,
-          "hits": 8,
+          "hits": 9,
           "pitcher": "Kelly Austin",
           "era": "",
           "debut": 0,
@@ -568,7 +568,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2196,
@@ -10418,12 +10418,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-21 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Vidal Brujan  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": "Erik Gonzales",
+        "lastPlayByPlay": "Erik Gonzales Sencillo Segunda Base",
+        "atBat": "Marmolejos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10461,7 +10461,7 @@
           "runs": 6,
           "runs_half": 6,
           "errors": 1,
-          "hits": 8,
+          "hits": 9,
           "pitcher": "Kelly Austin",
           "era": "",
           "debut": 0,
@@ -10469,7 +10469,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2196,
@@ -19009,22 +19009,22 @@
       "date": "2026-10-21 19:15:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Vidal Brujan  Out: Rodado al Segunda Base - Primera Base",
+      "lastPlayByPlay": "Erik Gonzales Sencillo Segunda Base",
       "counts": {
         "balls": 0,
-        "strikes": 2,
+        "strikes": 0,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -19173,7 +19173,7 @@
           "permalink": "/equipo/leones-del-escogido",
           "totals": {
             "R": 6,
-            "H": 8,
+            "H": 9,
             "E": 1,
             "H2": 6
           },
@@ -19344,7 +19344,7 @@
           },
           "home": {
             "R": 6,
-            "H": 8,
+            "H": 9,
             "E": 1
           }
         },
@@ -19750,10 +19750,17 @@
             },
             {
               "reference_id": "20000-2-39",
-              "text": "Erik Gonzales al bate",
+              "text": "Erik Gonzales Sencillo Segunda Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1792629896
+              "ts": 1792630031
+            },
+            {
+              "reference_id": "20000-2-40",
+              "text": "Marmolejos al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792630035
             }
           ]
         }
@@ -19812,7 +19819,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -20544,7 +20551,7 @@
             "abbr": "LE",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
             "runs": 6,
-            "hits": 8,
+            "hits": 9,
             "errors": 1,
             "permalink": "/equipo/leones-del-escogido"
           }
@@ -21426,7 +21433,7 @@
             "abbr": "LE",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
             "runs": 6,
-            "hits": 8,
+            "hits": 9,
             "errors": 1,
             "permalink": "/equipo/leones-del-escogido"
           }
