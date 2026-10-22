@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-22T02:20:28.285Z",
+    "scraped_at": "2026-10-22T02:21:32.331Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -643,8 +646,8 @@
         "status": 2,
         "date": "2026-10-21 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Francisco Mejia  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": "Gustavo Nuñez",
+        "lastPlayByPlay": "Gustavo Nuñez  Out: Rodado al Primera Base - Lanzador",
+        "atBat": "Emilio Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,8 +692,8 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 1,
-        "strikes": 1
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10431,7 +10434,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -10541,8 +10547,8 @@
         "status": 2,
         "date": "2026-10-21 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Francisco Mejia  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": "Gustavo Nuñez",
+        "lastPlayByPlay": "Gustavo Nuñez  Out: Rodado al Primera Base - Lanzador",
+        "atBat": "Emilio Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10587,8 +10593,8 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 1,
-        "strikes": 2
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "2026-10-22": [
@@ -20960,11 +20966,11 @@
       "date": "2026-10-21 19:30:00",
       "roundText": "Alta 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "Francisco Mejia  Out: Rodado al Segunda Base - Primera Base",
+      "lastPlayByPlay": "Gustavo Nuñez  Out: Rodado al Primera Base - Lanzador",
       "counts": {
         "balls": 1,
-        "strikes": 1,
-        "outs": 1
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21960,10 +21966,17 @@
             },
             {
               "reference_id": "20023-1-67",
-              "text": "Gustavo Nuñez al bate",
+              "text": "Gustavo Nuñez  Out: Rodado al Primera Base - Lanzador",
               "scored": false,
               "is_primary": true,
-              "ts": 1792635551
+              "ts": 1792635646
+            },
+            {
+              "reference_id": "20023-1-68",
+              "text": "Emilio Bonifacio al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792635651
             }
           ]
         }
@@ -22085,7 +22098,7 @@
           "num": 9,
           "half": "top",
           "label": "Alta 9na",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
