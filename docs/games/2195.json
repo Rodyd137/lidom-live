@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2195",
-    "scraped_at": "2026-10-22T02:30:07.617Z",
+    "scraped_at": "2026-10-22T02:31:11.997Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-10-21 19:15:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Noelvi Marte  Base por Bolas ",
+    "lastPlayByPlay": "Nomar Mazara Base por Bolas y Carrera Impulsada ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 6,
+          "R": 7,
           "H": 6,
           "E": 1,
           "H2": 5
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 1,
+          "away": 2,
           "home": 0
         },
         {
@@ -340,7 +340,7 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 6,
+          "R": 7,
           "H": 6,
           "E": 1
         },
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 6
+            "R": 7
           },
           {
             "num": 9,
-            "R": 6
+            "R": 7
           }
         ],
         "home": [
@@ -1067,10 +1067,17 @@
           },
           {
             "reference_id": "20004-1-78",
-            "text": "Nomar Mazara al bate",
+            "text": "Nomar Mazara Base por Bolas y Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1792636220
+          },
+          {
+            "reference_id": "20004-1-79",
+            "text": "Marcell Ozuna  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1792636047
+            "ts": 1792636223
           }
         ]
       }
@@ -1178,8 +1185,8 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 6,
-        "scoring_plays": 1
+        "total_plays": 7,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1236,7 +1243,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 1,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
@@ -1278,7 +1285,7 @@
         "id": 2197,
         "date": "2026-10-21 19:30:00",
         "status": 2,
-        "roundText": "Alta 9na",
+        "roundText": "Baja 9na",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
