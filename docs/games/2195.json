@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2195",
-    "scraped_at": "2026-10-22T02:13:00.620Z",
+    "scraped_at": "2026-10-22T02:14:05.076Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-21 19:15:00",
-    "roundText": "Baja 7ma",
-    "currentInningNum": 7,
-    "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
+    "roundText": "Alta 8va",
+    "currentInningNum": 8,
+    "lastPlayByPlay": "Jake Holton Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -1032,10 +1032,17 @@
         "plays": [
           {
             "reference_id": "20004-1-73",
-            "text": "Jake Holton al bate",
+            "text": "Jake Holton Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1792635160
+            "ts": 1792635194
+          },
+          {
+            "reference_id": "20004-1-74",
+            "text": "Kelvin Gutierrez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792635197
           }
         ]
       }
@@ -1143,7 +1150,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1193,14 +1200,14 @@
       {
         "num": 7,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 8,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
