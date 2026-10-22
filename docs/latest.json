@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-22T01:22:43.996Z",
+    "scraped_at": "2026-10-22T01:23:47.973Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-21 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "M. De la Cruz  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": "Ibañez",
+        "lastPlayByPlay": "Ibañez Base por Bolas ",
+        "atBat": "John Gil",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -566,9 +569,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 2,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2196,
@@ -688,7 +691,7 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 1,
         "strikes": 1
       }
@@ -10415,12 +10418,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-21 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "M. De la Cruz  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": "Ibañez",
+        "lastPlayByPlay": "Ibañez Base por Bolas ",
+        "atBat": "John Gil",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10431,7 +10434,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -10464,9 +10470,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 2,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2196,
@@ -10586,7 +10592,7 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 1,
         "strikes": 1
       }
@@ -19003,22 +19009,22 @@
       "date": "2026-10-21 19:15:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "M. De la Cruz  Out: Rodado al Segunda Base - Primera Base",
+      "lastPlayByPlay": "Ibañez Base por Bolas ",
       "counts": {
-        "balls": 3,
-        "strikes": 1,
+        "balls": 0,
+        "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -19849,10 +19855,17 @@
             },
             {
               "reference_id": "20001-2-53",
-              "text": "Ibañez al bate",
+              "text": "Ibañez Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792632094
+              "ts": 1792632211
+            },
+            {
+              "reference_id": "20001-2-54",
+              "text": "John Gil al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792632214
             }
           ]
         }
@@ -19925,7 +19938,7 @@
           "num": 5,
           "half": "bottom",
           "label": "Baja 5ta",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -20731,7 +20744,7 @@
       "currentInningNum": 6,
       "lastPlayByPlay": "C. Adames Out: Línea al Jardinero Izquierdo",
       "counts": {
-        "balls": 1,
+        "balls": 2,
         "strikes": 1,
         "outs": 1
       },
