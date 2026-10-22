@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-22T01:09:54.623Z",
+    "scraped_at": "2026-10-22T01:10:58.463Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -643,8 +646,8 @@
         "status": 2,
         "date": "2026-10-21 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Juan Brito Out: Elevado al Jardinero Derecho ",
-        "atBat": "Yairo Muñoz",
+        "lastPlayByPlay": "Yairo Muñoz Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +691,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 2,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10431,7 +10434,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -10541,8 +10547,8 @@
         "status": 2,
         "date": "2026-10-21 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Juan Brito Out: Elevado al Jardinero Derecho ",
-        "atBat": "Yairo Muñoz",
+        "lastPlayByPlay": "Yairo Muñoz Ponche (K) ",
+        "atBat": "Pedro Severino",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10586,9 +10592,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 2,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "2026-10-22": [
@@ -20687,11 +20693,11 @@
       "date": "2026-10-21 19:30:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Juan Brito Out: Elevado al Jardinero Derecho ",
+      "lastPlayByPlay": "Yairo Muñoz Ponche (K) ",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
-        "outs": 1
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21435,10 +21441,17 @@
             },
             {
               "reference_id": "20019-2-38",
-              "text": "Yairo Muñoz al bate",
+              "text": "Yairo Muñoz Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792631272
+              "ts": 1792631452
+            },
+            {
+              "reference_id": "20019-2-39",
+              "text": "Pedro Severino al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792631457
             }
           ]
         }
@@ -21511,7 +21524,7 @@
           "num": 5,
           "half": "bottom",
           "label": "Baja 5ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
