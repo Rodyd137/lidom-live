@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-22T01:35:33.806Z",
+    "scraped_at": "2026-10-22T01:36:37.894Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 8,
+        "base": 1,
         "status": 2,
         "date": "2026-10-21 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Marmolejos Base por Bolas y Carrera Impulsada ",
-        "atBat": "Junior Lake",
+        "lastPlayByPlay": "Junior Lake Out: Línea al Jardinero Central",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 2,
-        "strikes": 2
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2196,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-21 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Wilmer Difo Ponche (K) ",
-        "atBat": "Gilberto Celestino ",
+        "lastPlayByPlay": "Gilberto Celestino  Ponche (K) ",
+        "atBat": "Ronny Simon",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,8 +689,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 2
+        "outs": 2,
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -10415,12 +10415,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 8,
+        "base": 1,
         "status": 2,
         "date": "2026-10-21 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Marmolejos Base por Bolas y Carrera Impulsada ",
-        "atBat": "Junior Lake",
+        "lastPlayByPlay": "Junior Lake Out: Línea al Jardinero Central",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10464,9 +10464,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 2,
-        "strikes": 2
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2196,
@@ -10541,8 +10541,8 @@
         "status": 2,
         "date": "2026-10-21 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Wilmer Difo Ponche (K) ",
-        "atBat": "Gilberto Celestino ",
+        "lastPlayByPlay": "Gilberto Celestino  Ponche (K) ",
+        "atBat": "Ronny Simon",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10586,9 +10586,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 2,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 1
       }
     ],
     "2026-10-22": [
@@ -19003,22 +19003,22 @@
       "date": "2026-10-21 19:15:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Marmolejos Base por Bolas y Carrera Impulsada ",
+      "lastPlayByPlay": "Junior Lake Out: Línea al Jardinero Central",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 2
+        "balls": 0,
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 8
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": true,
-        "on3B": true,
-        "runners": 3,
-        "mask": 8
+        "on1B": false,
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -19884,10 +19884,10 @@
             },
             {
               "reference_id": "20001-2-58",
-              "text": "Junior Lake al bate",
+              "text": "Junior Lake Out: Línea al Jardinero Central",
               "scored": false,
               "is_primary": true,
-              "ts": 1792632695
+              "ts": 1792632975
             }
           ]
         }
@@ -20764,11 +20764,11 @@
       "date": "2026-10-21 19:30:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Wilmer Difo Ponche (K) ",
+      "lastPlayByPlay": "Gilberto Celestino  Ponche (K) ",
       "counts": {
         "balls": 0,
-        "strikes": 2,
-        "outs": 1
+        "strikes": 1,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21596,10 +21596,17 @@
             },
             {
               "reference_id": "20020-2-48",
-              "text": "Gilberto Celestino  al bate",
+              "text": "Gilberto Celestino  Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792632856
+              "ts": 1792632958
+            },
+            {
+              "reference_id": "20020-2-49",
+              "text": "Ronny Simon al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792632961
             }
           ]
         }
@@ -21686,7 +21693,7 @@
           "num": 6,
           "half": "bottom",
           "label": "Baja 6ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
