@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2197",
-    "scraped_at": "2026-10-22T01:18:28.894Z",
+    "scraped_at": "2026-10-22T01:19:32.832Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-21 19:30:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ramon Hernandez Sencillo Jardinero Izquierdo",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": false,
+      "on1B": true,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 1,
-          "H": 3,
+          "H": 4,
           "E": 0,
           "H2": 1
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 1,
-          "H": 3,
+          "H": 4,
           "E": 0
         },
         "home": {
@@ -780,10 +780,24 @@
         "plays": [
           {
             "reference_id": "20020-1-40",
-            "text": "Sergio Alcantara al bate",
+            "text": "Sergio Alcantara Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792631704
+            "ts": 1792631927
+          },
+          {
+            "reference_id": "20020-1-41",
+            "text": "Ramon Hernandez Sencillo Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792631941
+          },
+          {
+            "reference_id": "20020-1-42",
+            "text": "C. Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792631945
           }
         ]
       }
@@ -863,7 +877,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
