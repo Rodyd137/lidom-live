@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-22T03:19:12.425Z",
+    "scraped_at": "2026-10-22T03:20:15.899Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 2,
         "status": 2,
         "date": "2026-10-21 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "M. De la Cruz Base por Bolas ",
-        "atBat": "Ibañez",
+        "lastPlayByPlay": "Ibañez  Out: Rodado al Segunda Base - Campo Corto - Carrera Empujada - se embasa por Error del - Campo Corto",
+        "atBat": "John Gil",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -533,10 +533,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
-          "text": "Revisión Jugada"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -570,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -10418,12 +10415,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 2,
         "status": 2,
         "date": "2026-10-21 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "M. De la Cruz Base por Bolas ",
-        "atBat": "Ibañez",
+        "lastPlayByPlay": "Ibañez  Out: Rodado al Segunda Base - Campo Corto - Carrera Empujada - se embasa por Error del - Campo Corto",
+        "atBat": "John Gil",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10434,10 +10431,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
-          "text": "Revisión Jugada"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -10471,7 +10465,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -19009,22 +19003,22 @@
       "date": "2026-10-21 19:15:00",
       "roundText": "Baja 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "M. De la Cruz Base por Bolas ",
+      "lastPlayByPlay": "Ibañez  Out: Rodado al Segunda Base - Campo Corto - Carrera Empujada - se embasa por Error del - Campo Corto",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 5
+        "base": 2
       },
       "base_runners": {
         "on1B": true,
-        "on2B": true,
+        "on2B": false,
         "on3B": false,
-        "runners": 2,
-        "mask": 5
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20201,10 +20195,17 @@
             },
             {
               "reference_id": "20005-2-97",
-              "text": "Ibañez al bate",
+              "text": "Ibañez  Out: Rodado al Segunda Base - Campo Corto - Carrera Empujada - se embasa por Error del - Campo Corto",
+              "scored": true,
+              "is_primary": true,
+              "ts": 1792639157
+            },
+            {
+              "reference_id": "20005-2-98",
+              "text": "John Gil al bate",
               "scored": false,
               "is_primary": true,
-              "ts": 1792638883
+              "ts": 1792639164
             }
           ]
         }
@@ -20333,8 +20334,8 @@
           "num": 9,
           "half": "bottom",
           "label": "Baja 9na",
-          "total_plays": 4,
-          "scoring_plays": 0
+          "total_plays": 5,
+          "scoring_plays": 1
         }
       ],
       "innings_raw": [
