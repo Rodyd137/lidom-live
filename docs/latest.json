@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-22T03:13:53.192Z",
+    "scraped_at": "2026-10-22T03:14:57.144Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-10-21 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Yamaico Navarro  Out: Rodado al Campo Corto - Segunda Base - se embasa por Error del - Segunda Base",
-        "atBat": "M. De la Cruz",
+        "lastPlayByPlay": "M. De la Cruz Base por Bolas ",
+        "atBat": "Ibañez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -566,9 +569,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 1,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2196,
@@ -10415,12 +10418,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-10-21 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Yamaico Navarro  Out: Rodado al Campo Corto - Segunda Base - se embasa por Error del - Segunda Base",
-        "atBat": "M. De la Cruz",
+        "lastPlayByPlay": "M. De la Cruz Base por Bolas ",
+        "atBat": "Ibañez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10431,7 +10434,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -10464,9 +10470,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 1,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2196,
@@ -19003,22 +19009,22 @@
       "date": "2026-10-21 19:15:00",
       "roundText": "Baja 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "Yamaico Navarro  Out: Rodado al Campo Corto - Segunda Base - se embasa por Error del - Segunda Base",
+      "lastPlayByPlay": "M. De la Cruz Base por Bolas ",
       "counts": {
-        "balls": 2,
-        "strikes": 1,
+        "balls": 0,
+        "strikes": 0,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 5
       },
       "base_runners": {
         "on1B": true,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -20188,10 +20194,17 @@
             },
             {
               "reference_id": "20005-2-96",
-              "text": "M. De la Cruz al bate",
+              "text": "M. De la Cruz Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792638754
+              "ts": 1792638879
+            },
+            {
+              "reference_id": "20005-2-97",
+              "text": "Ibañez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792638883
             }
           ]
         }
@@ -20320,7 +20333,7 @@
           "num": 9,
           "half": "bottom",
           "label": "Baja 9na",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
