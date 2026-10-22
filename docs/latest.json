@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-22T01:29:08.535Z",
+    "scraped_at": "2026-10-22T01:30:13.008Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 7,
+        "base": 1,
         "status": 2,
         "date": "2026-10-21 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "K. Alcantara Ponche (K) ",
-        "atBat": "Francisco Mejia",
+        "lastPlayByPlay": "Francisco Mejia Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       }
     ],
@@ -10537,12 +10537,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 7,
+        "base": 1,
         "status": 2,
         "date": "2026-10-21 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "K. Alcantara Ponche (K) ",
-        "atBat": "Francisco Mejia",
+        "lastPlayByPlay": "Francisco Mejia Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10587,7 +10587,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       }
     ],
@@ -20750,22 +20750,22 @@
       "date": "2026-10-21 19:30:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "K. Alcantara Ponche (K) ",
+      "lastPlayByPlay": "Francisco Mejia Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 7
+        "base": 1
       },
       "base_runners": {
         "on1B": false,
-        "on2B": true,
-        "on3B": true,
-        "runners": 2,
-        "mask": 7
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -21554,10 +21554,17 @@
             },
             {
               "reference_id": "20020-1-45",
-              "text": "Francisco Mejia al bate",
+              "text": "Ramon Hernandez Carrera Empujada Balk",
+              "scored": true,
+              "is_primary": true,
+              "ts": 1792632597
+            },
+            {
+              "reference_id": "20020-1-46",
+              "text": "Francisco Mejia Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792632472
+              "ts": 1792632608
             }
           ]
         }
@@ -21637,8 +21644,8 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 6,
-          "scoring_plays": 0
+          "total_plays": 7,
+          "scoring_plays": 1
         }
       ],
       "innings_raw": [
