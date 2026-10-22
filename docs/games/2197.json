@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2197",
-    "scraped_at": "2026-10-22T02:18:22.183Z",
+    "scraped_at": "2026-10-22T02:19:26.232Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-10-21 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Francisco Mejia  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -136,6 +136,17 @@
             "team_id": 1,
             "name": "Francisco Mejia",
             "abbreviation": "Francisco Mejia",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6016,
+            "team_id": 1,
+            "name": "Gustavo Nuñez",
+            "abbreviation": "Gustavo Nuñez",
             "number": null,
             "dob": null,
             "height": "",
@@ -993,10 +1004,17 @@
         "plays": [
           {
             "reference_id": "20023-1-66",
-            "text": "Francisco Mejia al bate",
+            "text": "Francisco Mejia  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1792635496
+            "ts": 1792635547
+          },
+          {
+            "reference_id": "20023-1-67",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792635551
           }
         ]
       }
@@ -1118,7 +1136,7 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
