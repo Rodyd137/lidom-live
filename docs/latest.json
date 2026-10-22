@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-22T02:37:35.410Z",
+    "scraped_at": "2026-10-22T02:38:39.316Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,10 +533,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
-          "text": "Reunión Lomita"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -571,7 +568,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2196,
@@ -642,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-21 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Gilberto Celestino   Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "Ronny Simon",
+        "lastPlayByPlay": "Ronny Simon Golpeado por Pelota ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -658,10 +655,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
-          "text": "Revisión Jugada"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -10437,10 +10431,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
-          "text": "Reunión Lomita"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -10475,7 +10466,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2196,
@@ -10546,12 +10537,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-21 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Gilberto Celestino   Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "Ronny Simon",
+        "lastPlayByPlay": "Ronny Simon Golpeado por Pelota ",
+        "atBat": "Jesús Sanchez ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10562,10 +10553,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
-          "text": "Revisión Jugada"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -19018,7 +19006,7 @@
       "lastPlayByPlay": "Agustin Ramirez  Out: Rodado al Tercera Base - Primera Base",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 2
       },
       "base_state": {
@@ -21007,7 +20995,7 @@
       "date": "2026-10-21 19:30:00",
       "roundText": "Baja 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "Gilberto Celestino   Out: Rodado al Tercera Base - Primera Base",
+      "lastPlayByPlay": "Ronny Simon Golpeado por Pelota ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21015,14 +21003,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -22070,10 +22058,17 @@
             },
             {
               "reference_id": "20023-2-75",
-              "text": "Ronny Simon al bate",
+              "text": "Ronny Simon Golpeado por Pelota ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792636508
+              "ts": 1792636713
+            },
+            {
+              "reference_id": "20023-2-76",
+              "text": "Jesús Sanchez  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792636717
             }
           ]
         }
@@ -22202,7 +22197,7 @@
           "num": 9,
           "half": "bottom",
           "label": "Baja 9na",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
