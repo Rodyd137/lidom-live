@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2195",
-    "scraped_at": "2026-10-22T03:20:17.544Z",
+    "scraped_at": "2026-10-22T03:21:21.832Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-21 19:15:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Ibañez  Out: Rodado al Segunda Base - Campo Corto - Carrera Empujada - se embasa por Error del - Campo Corto",
+    "lastPlayByPlay": "Ibañez Robo de Base ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -264,10 +264,10 @@
             "position": ""
           },
           {
-            "id": 6080,
+            "id": 6039,
             "team_id": 4,
-            "name": "John Gil",
-            "abbreviation": "John Gil",
+            "name": "F. Cordero",
+            "abbreviation": "F. Cordero",
             "number": null,
             "dob": null,
             "height": "",
@@ -1210,10 +1210,17 @@
           },
           {
             "reference_id": "20005-2-98",
+            "text": "Ibañez Robo de Base ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792639230
+          },
+          {
+            "reference_id": "20005-2-99",
             "text": "John Gil al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1792639164
+            "ts": 1792639233
           }
         ]
       }
@@ -1342,7 +1349,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 1
       }
     ],
