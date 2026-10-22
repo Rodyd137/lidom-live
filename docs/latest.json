@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-22T02:16:11.668Z",
+    "scraped_at": "2026-10-22T02:17:15.837Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-21 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Jake Holton Out: Elevado al Jardinero Izquierdo",
-        "atBat": "Kelvin Gutierrez",
+        "lastPlayByPlay": "Kelvin Gutierrez Doble! Jardinero Izquierdo",
+        "atBat": "Pablo Reyes",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 1,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2196,
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 1,
         "status": 2,
         "date": "2026-10-21 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Yairo Muñoz Ponche (K) ",
-        "atBat": "Pedro Severino",
+        "lastPlayByPlay": "Pedro Severino  Out: Rodado al Segunda Base - Primera Base - Doble Play!",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,8 +688,8 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
+        "balls": 0,
+        "outs": 3,
         "strikes": 0
       }
     ],
@@ -10415,12 +10415,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-21 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Jake Holton Out: Elevado al Jardinero Izquierdo",
-        "atBat": "Kelvin Gutierrez",
+        "lastPlayByPlay": "Kelvin Gutierrez Doble! Jardinero Izquierdo",
+        "atBat": "Pablo Reyes",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10464,9 +10464,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 1,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2196,
@@ -10537,12 +10537,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 1,
         "status": 2,
         "date": "2026-10-21 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Yairo Muñoz Ponche (K) ",
-        "atBat": "Pedro Severino",
+        "lastPlayByPlay": "Pedro Severino  Out: Rodado al Segunda Base - Primera Base - Doble Play!",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10587,7 +10587,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       }
     ],
@@ -19003,22 +19003,22 @@
       "date": "2026-10-21 19:15:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Jake Holton Out: Elevado al Jardinero Izquierdo",
+      "lastPlayByPlay": "Kelvin Gutierrez Doble! Jardinero Izquierdo",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -20031,10 +20031,17 @@
             },
             {
               "reference_id": "20004-1-74",
-              "text": "Kelvin Gutierrez al bate",
+              "text": "Kelvin Gutierrez Doble! Jardinero Izquierdo",
               "scored": false,
               "is_primary": true,
-              "ts": 1792635197
+              "ts": 1792635418
+            },
+            {
+              "reference_id": "20004-1-75",
+              "text": "Pablo Reyes al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792635430
             }
           ]
         }
@@ -20142,7 +20149,7 @@
           "num": 8,
           "half": "top",
           "label": "Alta 8va",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -20946,22 +20953,22 @@
       "date": "2026-10-21 19:30:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Yairo Muñoz Ponche (K) ",
+      "lastPlayByPlay": "Pedro Severino  Out: Rodado al Segunda Base - Primera Base - Doble Play!",
       "counts": {
-        "balls": 1,
+        "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
+        "on1B": false,
         "on2B": false,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -21925,10 +21932,10 @@
             },
             {
               "reference_id": "20022-2-65",
-              "text": "Pedro Severino al bate",
+              "text": "Pedro Severino  Out: Rodado al Segunda Base - Primera Base - Doble Play!",
               "scored": false,
               "is_primary": true,
-              "ts": 1792635287
+              "ts": 1792635392
             }
           ]
         }
