@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-22T01:58:00.245Z",
+    "scraped_at": "2026-10-22T01:59:04.576Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-21 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Nomar Mazara Out: Elevado al Jardinero Izquierdo",
-        "atBat": "Marcell Ozuna ",
+        "lastPlayByPlay": "Marcell Ozuna  Golpeado por Pelota ",
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -10415,12 +10415,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-21 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Nomar Mazara Out: Elevado al Jardinero Izquierdo",
-        "atBat": "Marcell Ozuna ",
+        "lastPlayByPlay": "Marcell Ozuna  Golpeado por Pelota ",
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10586,9 +10586,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "2026-10-22": [
@@ -19003,7 +19003,7 @@
       "date": "2026-10-21 19:15:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Nomar Mazara Out: Elevado al Jardinero Izquierdo",
+      "lastPlayByPlay": "Marcell Ozuna  Golpeado por Pelota ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -19011,14 +19011,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -19968,10 +19968,17 @@
             },
             {
               "reference_id": "20003-1-67",
-              "text": "Marcell Ozuna  al bate",
+              "text": "Marcell Ozuna  Golpeado por Pelota ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792634278
+              "ts": 1792634308
+            },
+            {
+              "reference_id": "20003-1-68",
+              "text": "Agustin Ramirez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792634310
             }
           ]
         }
@@ -20065,7 +20072,7 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -20871,8 +20878,8 @@
       "currentInningNum": 8,
       "lastPlayByPlay": "Sergio Alcantara  Out: Rodado al Primera Base - Lanzador",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 2,
+        "strikes": 1,
         "outs": 1
       },
       "base_state": {
