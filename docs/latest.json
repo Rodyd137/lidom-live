@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-22T01:33:25.022Z",
+    "scraped_at": "2026-10-22T01:34:29.435Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -534,8 +534,8 @@
         "adLink": "",
         "banner": "",
         "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
-          "text": "Reunión Lomita"
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
         },
         "awayTeam": {
           "id": 5,
@@ -646,8 +646,8 @@
         "status": 2,
         "date": "2026-10-21 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Wilmer Difo",
+        "lastPlayByPlay": "Wilmer Difo Ponche (K) ",
+        "atBat": "Gilberto Celestino ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -691,9 +691,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10434,10 +10434,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -10472,7 +10469,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2196,
@@ -10547,8 +10544,8 @@
         "status": 2,
         "date": "2026-10-21 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Wilmer Difo",
+        "lastPlayByPlay": "Wilmer Difo Ponche (K) ",
+        "atBat": "Gilberto Celestino ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10592,9 +10589,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "2026-10-22": [
@@ -19012,7 +19009,7 @@
       "lastPlayByPlay": "Marmolejos Base por Bolas y Carrera Impulsada ",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 2
       },
       "base_state": {
@@ -20770,11 +20767,11 @@
       "date": "2026-10-21 19:30:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Wilmer Difo Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21595,10 +21592,17 @@
           "plays": [
             {
               "reference_id": "20020-2-47",
-              "text": "Wilmer Difo al bate",
+              "text": "Wilmer Difo Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792632780
+              "ts": 1792632851
+            },
+            {
+              "reference_id": "20020-2-48",
+              "text": "Gilberto Celestino  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792632856
             }
           ]
         }
@@ -21685,7 +21689,7 @@
           "num": 6,
           "half": "bottom",
           "label": "Baja 6ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
