@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-23T02:28:51.980Z",
+    "scraped_at": "2026-10-23T02:29:54.968Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 4,
+        "base": 1,
         "status": 2,
         "date": "2026-10-22 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Yairo Muñoz",
+        "lastPlayByPlay": "Juan Brito Elevado de Sacrificio Carrera Empujada",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -541,7 +541,7 @@
           "color": "ef7722",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "permalink": "/equipo/toros-del-este",
-          "runs": 5,
+          "runs": 6,
           "runs_half": 2,
           "errors": 2,
           "hits": 10,
@@ -567,8 +567,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 1
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10600,12 +10600,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 4,
+        "base": 1,
         "status": 2,
         "date": "2026-10-22 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Yairo Muñoz",
+        "lastPlayByPlay": "Juan Brito Elevado de Sacrificio Carrera Empujada",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10624,7 +10624,7 @@
           "color": "ef7722",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "permalink": "/equipo/toros-del-este",
-          "runs": 5,
+          "runs": 6,
           "runs_half": 2,
           "errors": 2,
           "hits": 10,
@@ -10650,8 +10650,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 1
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "2026-10-23": [
@@ -19003,22 +19003,22 @@
       "date": "2026-10-22 19:00:00",
       "roundText": "Alta 10ma",
       "currentInningNum": 10,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Juan Brito Elevado de Sacrificio Carrera Empujada",
       "counts": {
         "balls": 0,
-        "strikes": 1,
-        "outs": 1
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 4
+        "base": 1
       },
       "base_runners": {
         "on1B": false,
         "on2B": false,
-        "on3B": true,
-        "runners": 1,
-        "mask": 4
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -19045,7 +19045,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "permalink": "/equipo/toros-del-este",
           "totals": {
-            "R": 5,
+            "R": 6,
             "H": 10,
             "E": 2,
             "H2": 2
@@ -19330,14 +19330,14 @@
           },
           {
             "num": 10,
-            "away": 0,
+            "away": 1,
             "home": 0
           }
         ],
         "extras": true,
         "totals": {
           "away": {
-            "R": 5,
+            "R": 6,
             "H": 10,
             "E": 2
           },
@@ -19387,7 +19387,7 @@
             },
             {
               "num": 10,
-              "R": 5
+              "R": 6
             }
           ],
           "home": [
@@ -20135,10 +20135,17 @@
           "plays": [
             {
               "reference_id": "21349-1-84",
-              "text": "Yairo Muñoz al bate",
+              "text": "Yairo Muñoz Out: Elevado al Jardinero Derecho ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792722524
+              "ts": 1792722534
+            },
+            {
+              "reference_id": "21349-1-85",
+              "text": "Juan Brito Elevado de Sacrificio Carrera Empujada",
+              "scored": true,
+              "is_primary": true,
+              "ts": 1792722577
             }
           ]
         }
@@ -20274,8 +20281,8 @@
           "num": 10,
           "half": "top",
           "label": "Alta 10ma",
-          "total_plays": 1,
-          "scoring_plays": 0
+          "total_plays": 2,
+          "scoring_plays": 1
         }
       ],
       "innings_raw": [
@@ -20346,7 +20353,7 @@
           "num": 10,
           "part": 1,
           "is_last": 1,
-          "awayTeamRuns": 0,
+          "awayTeamRuns": 1,
           "homeTeamRuns": 0
         }
       ],
