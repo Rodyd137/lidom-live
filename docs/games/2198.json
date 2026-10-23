@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2198",
-    "scraped_at": "2026-10-23T02:37:16.630Z",
+    "scraped_at": "2026-10-23T02:38:19.575Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,19 +14,19 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -1170,6 +1170,20 @@
             "ts": 1792722913
           }
         ]
+      },
+      {
+        "num": 10,
+        "half": "bottom",
+        "label": "Baja 10ma",
+        "plays": [
+          {
+            "reference_id": "21349-2-88",
+            "text": "Agustin Ramirez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792723073
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1305,6 +1319,13 @@
         "label": "Alta 10ma",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 10,
+        "half": "bottom",
+        "label": "Baja 10ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [

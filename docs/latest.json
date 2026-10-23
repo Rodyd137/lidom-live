@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-23T02:37:16.200Z",
+    "scraped_at": "2026-10-23T02:38:18.398Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-22 19:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -568,7 +568,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -10600,12 +10600,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-22 19:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10651,7 +10651,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "2026-10-23": [
@@ -19006,19 +19006,19 @@
       "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -20162,6 +20162,20 @@
               "ts": 1792722913
             }
           ]
+        },
+        {
+          "num": 10,
+          "half": "bottom",
+          "label": "Baja 10ma",
+          "plays": [
+            {
+              "reference_id": "21349-2-88",
+              "text": "Agustin Ramirez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792723073
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20297,6 +20311,13 @@
           "label": "Alta 10ma",
           "total_plays": 4,
           "scoring_plays": 1
+        },
+        {
+          "num": 10,
+          "half": "bottom",
+          "label": "Baja 10ma",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
