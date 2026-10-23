@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-23T01:42:44.263Z",
+    "scraped_at": "2026-10-23T01:43:47.758Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-10-22 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
-        "atBat": "Agustin Ramirez",
+        "lastPlayByPlay": "Agustin Ramirez Base por Bolas ",
+        "atBat": "Eddison Paulino ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 1,
         "outs": 0,
-        "strikes": 2
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10604,8 +10604,8 @@
         "status": 2,
         "date": "2026-10-22 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
-        "atBat": "Agustin Ramirez",
+        "lastPlayByPlay": "Agustin Ramirez Base por Bolas ",
+        "atBat": "Eddison Paulino ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10649,7 +10649,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
         "strikes": 0
       }
@@ -19003,22 +19003,22 @@
       "date": "2026-10-22 19:00:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
+      "lastPlayByPlay": "Agustin Ramirez Base por Bolas ",
       "counts": {
-        "balls": 3,
-        "strikes": 2,
+        "balls": 1,
+        "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 3
+        "base": 5
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -19989,10 +19989,17 @@
             },
             {
               "reference_id": "20031-2-66",
-              "text": "Agustin Ramirez al bate",
+              "text": "Agustin Ramirez Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792719490
+              "ts": 1792719780
+            },
+            {
+              "reference_id": "20031-2-67",
+              "text": "Eddison Paulino  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792719784
             }
           ]
         }
@@ -20107,7 +20114,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
