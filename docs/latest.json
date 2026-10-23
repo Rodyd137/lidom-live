@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-23T02:24:41.002Z",
+    "scraped_at": "2026-10-23T02:25:43.773Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,19 +517,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 8,
+        "base": 1,
         "status": 2,
         "date": "2026-10-22 19:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Carlos Jorge  Out: Elevado al Segunda Base",
-        "atBat": "Yonatan Henriquez",
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 9na",
-        "currentInningNum": 9,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 10ma",
+        "currentInningNum": 10,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -545,7 +545,7 @@
           "runs_half": 2,
           "errors": 2,
           "hits": 10,
-          "pitcher": "Joe Corbett",
+          "pitcher": "R. Guduan",
           "era": "",
           "debut": 0,
           "record": ""
@@ -567,8 +567,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
-        "strikes": 2
+        "outs": 0,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10600,19 +10600,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 8,
+        "base": 1,
         "status": 2,
         "date": "2026-10-22 19:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Carlos Jorge  Out: Elevado al Segunda Base",
-        "atBat": "Yonatan Henriquez",
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 9na",
-        "currentInningNum": 9,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 10ma",
+        "currentInningNum": 10,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -10628,7 +10628,7 @@
           "runs_half": 2,
           "errors": 2,
           "hits": 10,
-          "pitcher": "Joe Corbett",
+          "pitcher": "R. Guduan",
           "era": "",
           "debut": 0,
           "record": ""
@@ -10650,8 +10650,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
-        "strikes": 2
+        "outs": 0,
+        "strikes": 0
       }
     ],
     "2026-10-23": [
@@ -19001,24 +19001,24 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-22 19:00:00",
-      "roundText": "Baja 9na",
-      "currentInningNum": 9,
-      "lastPlayByPlay": "Carlos Jorge  Out: Elevado al Segunda Base",
+      "roundText": "Alta 10ma",
+      "currentInningNum": 10,
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
-        "strikes": 2,
-        "outs": 2
+        "strikes": 0,
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
-        "base": 8
+        "battingTeam": "awayTeam",
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": true,
-        "on3B": true,
-        "runners": 3,
-        "mask": 8
+        "on1B": false,
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -19051,7 +19051,7 @@
             "H2": 2
           },
           "probables": {
-            "pitcher": "Joe Corbett",
+            "pitcher": "R. Guduan",
             "era": "",
             "record": "",
             "debut": false
@@ -19327,9 +19327,14 @@
             "num": 9,
             "away": 1,
             "home": 0
+          },
+          {
+            "num": 10,
+            "away": 0,
+            "home": 0
           }
         ],
-        "extras": false,
+        "extras": true,
         "totals": {
           "away": {
             "R": 5,
@@ -19379,6 +19384,10 @@
             {
               "num": 9,
               "R": 5
+            },
+            {
+              "num": 10,
+              "R": 5
             }
           ],
           "home": [
@@ -19416,6 +19425,10 @@
             },
             {
               "num": 9,
+              "R": 5
+            },
+            {
+              "num": 10,
               "R": 5
             }
           ]
@@ -20108,10 +20121,10 @@
             },
             {
               "reference_id": "20032-2-83",
-              "text": "Yonatan Henriquez al bate",
+              "text": "Yonatan Henriquez Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792722232
+              "ts": 1792722298
             }
           ]
         }
@@ -20304,8 +20317,15 @@
         {
           "num": 9,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 1,
+          "homeTeamRuns": 0
+        },
+        {
+          "num": 10,
+          "part": 1,
+          "is_last": 1,
+          "awayTeamRuns": 0,
           "homeTeamRuns": 0
         }
       ],
