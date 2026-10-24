@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T01:53:33.642Z",
+    "scraped_at": "2026-10-24T01:54:38.399Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 1,
         "status": 2,
         "date": "2026-10-23 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Erik Gonzales Base por Bolas ",
-        "atBat": "Marmolejos",
+        "lastPlayByPlay": "Marmolejos  Out: Rodado al Segunda Base - Campo Corto - Primera Base - Doble Play!",
+        "atBat": "Junior Lake",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2200,
@@ -578,11 +578,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 6,
+        "base": 7,
         "status": 2,
         "date": "2026-10-23 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Harold Andres Ramirez Sencillo Jardinero Derecho ",
+        "lastPlayByPlay": "Harold Andres Ramirez Robo de Base Segunda Base",
         "atBat": "Raimel Tapia",
         "comment": "",
         "winningPitcher": null,
@@ -606,7 +606,7 @@
           "runs_half": 3,
           "errors": 1,
           "hits": 7,
-          "pitcher": "Oliver Ortega",
+          "pitcher": "Andrew Perez",
           "era": "",
           "debut": 0,
           "record": ""
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -10663,12 +10663,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 1,
         "status": 2,
         "date": "2026-10-23 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Erik Gonzales Base por Bolas ",
-        "atBat": "Marmolejos",
+        "lastPlayByPlay": "Marmolejos  Out: Rodado al Segunda Base - Campo Corto - Primera Base - Doble Play!",
+        "atBat": "Junior Lake",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10712,9 +10712,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2200,
@@ -10724,11 +10724,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 6,
+        "base": 7,
         "status": 2,
         "date": "2026-10-23 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Harold Andres Ramirez Sencillo Jardinero Derecho ",
+        "lastPlayByPlay": "Harold Andres Ramirez Robo de Base Segunda Base",
         "atBat": "Raimel Tapia",
         "comment": "",
         "winningPitcher": null,
@@ -10752,7 +10752,7 @@
           "runs_half": 3,
           "errors": 1,
           "hits": 7,
-          "pitcher": "Oliver Ortega",
+          "pitcher": "Andrew Perez",
           "era": "",
           "debut": 0,
           "record": ""
@@ -10773,9 +10773,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "2026-10-24": [
@@ -19005,22 +19005,22 @@
       "date": "2026-10-23 19:15:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Erik Gonzales Base por Bolas ",
+      "lastPlayByPlay": "Marmolejos  Out: Rodado al Segunda Base - Campo Corto - Primera Base - Doble Play!",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
+        "on1B": false,
         "on2B": false,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -19935,10 +19935,17 @@
             },
             {
               "reference_id": "20038-2-65",
-              "text": "Marmolejos al bate",
+              "text": "Marmolejos  Out: Rodado al Segunda Base - Campo Corto - Primera Base - Doble Play!",
               "scored": false,
               "is_primary": true,
-              "ts": 1792806747
+              "ts": 1792806839
+            },
+            {
+              "reference_id": "20038-2-66",
+              "text": "Junior Lake al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792806842
             }
           ]
         }
@@ -20025,7 +20032,7 @@
           "num": 6,
           "half": "bottom",
           "label": "Baja 6ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -20162,22 +20169,22 @@
       "date": "2026-10-23 19:30:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Harold Andres Ramirez Sencillo Jardinero Derecho ",
+      "lastPlayByPlay": "Harold Andres Ramirez Robo de Base Segunda Base",
       "counts": {
-        "balls": 0,
-        "strikes": 1,
+        "balls": 1,
+        "strikes": 2,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 6
+        "base": 7
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": true,
         "runners": 2,
-        "mask": 6
+        "mask": 7
       },
       "betting": {
         "moneyline": {
@@ -20210,7 +20217,7 @@
             "H2": 3
           },
           "probables": {
-            "pitcher": "Oliver Ortega",
+            "pitcher": "Andrew Perez",
             "era": "",
             "record": "",
             "debut": false
@@ -21085,10 +21092,17 @@
             },
             {
               "reference_id": "20047-2-58",
+              "text": "Harold Andres Ramirez Robo de Base Segunda Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792806864
+            },
+            {
+              "reference_id": "20047-2-59",
               "text": "Raimel Tapia al bate",
               "scored": false,
               "is_primary": true,
-              "ts": 1792806553
+              "ts": 1792806867
             }
           ]
         }
@@ -21175,7 +21189,7 @@
           "num": 6,
           "half": "bottom",
           "label": "Baja 6ta",
-          "total_plays": 6,
+          "total_plays": 7,
           "scoring_plays": 0
         }
       ],
