@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T23:06:07.971Z",
+    "scraped_at": "2026-10-24T23:07:11.681Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Mason Mccoy",
+        "lastPlayByPlay": "Mason Mccoy  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "J. C. Escarra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -10848,12 +10848,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Mason Mccoy",
+        "lastPlayByPlay": "Mason Mccoy  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "J. C. Escarra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10898,7 +10898,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -20288,22 +20288,22 @@
       "date": "2026-10-24 18:00:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Mason Mccoy  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20903,10 +20903,17 @@
           "plays": [
             {
               "reference_id": "20062-2-24",
-              "text": "Mason Mccoy al bate",
+              "text": "Mason Mccoy  Out: Rodado al Segunda Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1792883151
+              "ts": 1792883206
+            },
+            {
+              "reference_id": "20062-2-25",
+              "text": "J. C. Escarra al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792883209
             }
           ]
         }
@@ -20951,7 +20958,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
