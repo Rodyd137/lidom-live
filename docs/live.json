@@ -2,7 +2,7 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T23:46:26.555Z",
+    "scraped_at": "2026-10-24T23:47:30.105Z",
     "tz": "America/Santo_Domingo"
   },
   "tracked_ids": [
@@ -16,10 +16,49 @@
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
       "atBat": null,
+      "lastPlayByPlay": "Webster Rivas Out: Elevado al Segunda Base",
+      "counts": {
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
+      },
+      "base": {
+        "on1B": false,
+        "on2B": true,
+        "on3B": false,
+        "runners": 1,
+        "mask": 3
+      },
+      "battingTeam": "homeTeam",
+      "score": {
+        "away": {
+          "name": "Tigres",
+          "abbr": "TL",
+          "R": 2,
+          "H": 7,
+          "E": 1
+        },
+        "home": {
+          "name": "Aguilas",
+          "abbr": "AC",
+          "R": 2,
+          "H": 3,
+          "E": 0
+        }
+      },
+      "threat": 31,
+      "updated_at": "2026-10-24T23:47:30.105Z"
+    },
+    {
+      "id": 2203,
+      "status": 2,
+      "roundText": "Baja 1ra",
+      "currentInningNum": 1,
+      "atBat": null,
       "lastPlayByPlay": null,
       "counts": {
         "balls": 0,
-        "strikes": 2,
+        "strikes": 0,
         "outs": 0
       },
       "base": {
@@ -30,45 +69,6 @@
         "mask": 1
       },
       "battingTeam": "homeTeam",
-      "score": {
-        "away": {
-          "name": "Tigres",
-          "abbr": "TL",
-          "R": 2,
-          "H": 7,
-          "E": 0
-        },
-        "home": {
-          "name": "Aguilas",
-          "abbr": "AC",
-          "R": 2,
-          "H": 3,
-          "E": 0
-        }
-      },
-      "threat": 22,
-      "updated_at": "2026-10-24T23:46:26.555Z"
-    },
-    {
-      "id": 2203,
-      "status": 2,
-      "roundText": "Alta 1ra",
-      "currentInningNum": 1,
-      "atBat": null,
-      "lastPlayByPlay": "Carlos Franco Ponche (K) ",
-      "counts": {
-        "balls": 0,
-        "strikes": 0,
-        "outs": 3
-      },
-      "base": {
-        "on1B": false,
-        "on2B": false,
-        "on3B": false,
-        "runners": 0,
-        "mask": 1
-      },
-      "battingTeam": "awayTeam",
       "score": {
         "away": {
           "name": "Gigantes",
@@ -85,8 +85,8 @@
           "E": 0
         }
       },
-      "threat": 4,
-      "updated_at": "2026-10-24T23:46:26.555Z"
+      "threat": 22,
+      "updated_at": "2026-10-24T23:47:30.105Z"
     }
   ]
 }
