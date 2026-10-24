@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T01:51:24.510Z",
+    "scraped_at": "2026-10-24T01:52:28.907Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-23 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Erik Gonzales",
+        "lastPlayByPlay": "Erik Gonzales Base por Bolas ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,7 +566,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 0,
         "strikes": 0
       },
@@ -10666,12 +10666,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-23 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Erik Gonzales",
+        "lastPlayByPlay": "Erik Gonzales Base por Bolas ",
+        "atBat": "Marmolejos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10715,7 +10715,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 0,
         "strikes": 0
       },
@@ -19011,22 +19011,22 @@
       "date": "2026-10-23 19:15:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Erik Gonzales Base por Bolas ",
       "counts": {
-        "balls": 1,
+        "balls": 0,
         "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -19934,10 +19934,17 @@
           "plays": [
             {
               "reference_id": "20038-2-64",
-              "text": "Erik Gonzales al bate",
+              "text": "Erik Gonzales Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792806637
+              "ts": 1792806743
+            },
+            {
+              "reference_id": "20038-2-65",
+              "text": "Marmolejos al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792806747
             }
           ]
         }
@@ -20024,7 +20031,7 @@
           "num": 6,
           "half": "bottom",
           "label": "Baja 6ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
