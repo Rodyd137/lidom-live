@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2200",
-    "scraped_at": "2026-10-24T01:45:00.167Z",
+    "scraped_at": "2026-10-24T01:46:04.620Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-23 19:30:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Cesar Prieto  Out Robando Base! Receptor - Segunda Base",
+    "lastPlayByPlay": "Ismael Munguia Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -912,18 +912,25 @@
             "ts": 1792806248
           },
           {
-            "reference_id": "20047-2-56",
-            "text": "Ismael Munguia al bate",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1792806252
-          },
-          {
             "reference_id": "20047-2-55-289677",
             "text": "Cesar Prieto  Out Robando Base! Receptor - Segunda Base",
             "scored": false,
             "is_primary": false,
             "ts": 1792806261
+          },
+          {
+            "reference_id": "20047-2-56",
+            "text": "Ismael Munguia Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792806347
+          },
+          {
+            "reference_id": "20047-2-57",
+            "text": "Harold Andres Ramirez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792806349
           }
         ]
       }
@@ -1010,7 +1017,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
