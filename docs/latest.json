@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T22:16:15.118Z",
+    "scraped_at": "2026-10-24T22:17:18.825Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-10-24 16:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Yamaico Navarro",
+        "lastPlayByPlay": "Yamaico Navarro Ponche (K) ",
+        "atBat": "Ibañez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2202,
@@ -583,7 +583,7 @@
         "date": "2026-10-24 18:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Steward Berroa",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2203,
@@ -10791,8 +10791,8 @@
         "status": 2,
         "date": "2026-10-24 16:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Yamaico Navarro",
+        "lastPlayByPlay": "Yamaico Navarro Ponche (K) ",
+        "atBat": "Ibañez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10836,9 +10836,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2202,
@@ -10853,7 +10853,7 @@
         "date": "2026-10-24 18:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Steward Berroa",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10897,9 +10897,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2203,
@@ -19008,11 +19008,11 @@
       "date": "2026-10-24 16:00:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Yamaico Navarro Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -19889,10 +19889,17 @@
           "plays": [
             {
               "reference_id": "20058-2-52",
-              "text": "Yamaico Navarro al bate",
+              "text": "Yamaico Navarro Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792880144
+              "ts": 1792880215
+            },
+            {
+              "reference_id": "20058-2-53",
+              "text": "Ibañez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792880217
             }
           ]
         }
@@ -20007,7 +20014,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -20172,8 +20179,8 @@
       "currentInningNum": 1,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -20623,6 +20630,20 @@
               "ts": 1792879971
             }
           ]
+        },
+        {
+          "num": 1,
+          "half": "bottom",
+          "label": "Baja 1ra",
+          "plays": [
+            {
+              "reference_id": "20060-2-5",
+              "text": "Steward Berroa al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792880191
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20631,6 +20652,13 @@
           "half": "top",
           "label": "Alta 1ra",
           "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 1,
+          "half": "bottom",
+          "label": "Baja 1ra",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
