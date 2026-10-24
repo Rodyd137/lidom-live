@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T02:04:19.241Z",
+    "scraped_at": "2026-10-24T02:05:23.722Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-23 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Gustavo Nuñez",
+        "lastPlayByPlay": "Gustavo Nuñez  Out: Rodado al Lanzador - Primera Base",
+        "atBat": "Sergio Alcantara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10666,16 +10666,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-23 19:15:00",
-        "part": 1,
-        "lastPlayByPlay": "Victor Scott Ponche (K) ",
+        "part": 2,
+        "lastPlayByPlay": "",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "currentInningNum": 7,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -10713,7 +10713,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -10728,8 +10728,8 @@
         "status": 2,
         "date": "2026-10-23 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Gustavo Nuñez",
+        "lastPlayByPlay": "Gustavo Nuñez  Out: Rodado al Lanzador - Primera Base",
+        "atBat": "Sergio Alcantara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10773,9 +10773,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "2026-10-24": [
@@ -19003,16 +19003,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-23 19:15:00",
-      "roundText": "Alta 7ma",
+      "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Victor Scott Ponche (K) ",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -19976,6 +19976,20 @@
               "ts": 1792807449
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "plays": [
+            {
+              "reference_id": "20039-2-70",
+              "text": "Socrates Brito al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792807525
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20069,6 +20083,13 @@
           "label": "Alta 7ma",
           "total_plays": 3,
           "scoring_plays": 0
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20116,7 +20137,7 @@
         },
         {
           "num": 7,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
@@ -20204,11 +20225,11 @@
       "date": "2026-10-23 19:30:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Gustavo Nuñez  Out: Rodado al Lanzador - Primera Base",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21162,10 +21183,17 @@
           "plays": [
             {
               "reference_id": "20048-1-62",
-              "text": "Gustavo Nuñez al bate",
+              "text": "Gustavo Nuñez  Out: Rodado al Lanzador - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1792807347
+              "ts": 1792807509
+            },
+            {
+              "reference_id": "20048-1-63",
+              "text": "Sergio Alcantara al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792807511
             }
           ]
         }
@@ -21259,7 +21287,7 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21333,7 +21361,7 @@
           "id": 2199,
           "date": "2026-10-23 19:15:00",
           "status": 2,
-          "roundText": "Alta 7ma",
+          "roundText": "Baja 7ma",
           "awayTeam": {
             "id": 3,
             "name": "Aguilas",
