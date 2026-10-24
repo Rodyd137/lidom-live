@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T01:50:20.633Z",
+    "scraped_at": "2026-10-24T01:51:24.510Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -520,16 +520,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-23 19:15:00",
-        "part": 1,
-        "lastPlayByPlay": "Willy Vasquez Out: Elevado al Jardinero Izquierdo",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Erik Gonzales",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "currentInningNum": 6,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -566,8 +566,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
+        "balls": 1,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -10666,16 +10669,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-23 19:15:00",
-        "part": 1,
-        "lastPlayByPlay": "Willy Vasquez Out: Elevado al Jardinero Izquierdo",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Erik Gonzales",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "currentInningNum": 6,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -10712,8 +10715,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
+        "balls": 1,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -10740,7 +10743,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -19003,16 +19009,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-23 19:15:00",
-      "roundText": "Alta 6ta",
+      "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Willy Vasquez Out: Elevado al Jardinero Izquierdo",
+      "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
+        "balls": 1,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -19920,6 +19926,20 @@
               "ts": 1792806449
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "bottom",
+          "label": "Baja 6ta",
+          "plays": [
+            {
+              "reference_id": "20038-2-64",
+              "text": "Erik Gonzales al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792806637
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -19999,6 +20019,13 @@
           "label": "Alta 6ta",
           "total_plays": 5,
           "scoring_plays": 0
+        },
+        {
+          "num": 6,
+          "half": "bottom",
+          "label": "Baja 6ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20039,7 +20066,7 @@
         },
         {
           "num": 6,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
@@ -21221,7 +21248,7 @@
           "id": 2199,
           "date": "2026-10-23 19:15:00",
           "status": 2,
-          "roundText": "Alta 6ta",
+          "roundText": "Baja 6ta",
           "awayTeam": {
             "id": 3,
             "name": "Aguilas",
