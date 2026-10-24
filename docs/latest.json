@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T23:47:28.446Z",
+    "scraped_at": "2026-10-24T23:48:32.103Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Webster Rivas Out: Elevado al Segunda Base",
-        "atBat": "Carson Williams",
+        "lastPlayByPlay": "Carson Williams se embasa por Error del Tercera Base",
+        "atBat": "Steward Berroa",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -639,7 +639,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 2,
@@ -10852,8 +10852,8 @@
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Webster Rivas Out: Elevado al Segunda Base",
-        "atBat": "Carson Williams",
+        "lastPlayByPlay": "Carson Williams se embasa por Error del Tercera Base",
+        "atBat": "Steward Berroa",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10909,7 +10909,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 2,
@@ -20288,7 +20288,7 @@
       "date": "2026-10-24 18:00:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Webster Rivas Out: Elevado al Segunda Base",
+      "lastPlayByPlay": "Carson Williams se embasa por Error del Tercera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21043,10 +21043,17 @@
             },
             {
               "reference_id": "20064-2-40",
-              "text": "Carson Williams al bate",
+              "text": "Carson Williams se embasa por Error del Tercera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1792885599
+              "ts": 1792885652
+            },
+            {
+              "reference_id": "20064-2-41",
+              "text": "Steward Berroa al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792885658
             }
           ]
         }
@@ -21119,7 +21126,7 @@
           "num": 5,
           "half": "bottom",
           "label": "Baja 5ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21290,14 +21297,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
