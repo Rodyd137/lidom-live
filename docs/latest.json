@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T22:26:51.908Z",
+    "scraped_at": "2026-10-24T22:27:55.718Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,23 +517,26 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 6,
         "status": 2,
         "date": "2026-10-24 16:00:00",
         "part": 2,
         "lastPlayByPlay": "Jonathan Guzman Sencillo y 1 Carrera Impulsada ",
         "atBat": "Vidal Brujan",
         "comment": "",
-        "winningPitcher": null,
-        "losingPitcher": null,
-        "savingPitcher": null,
+        "winningPitcher": "Kelly Austin",
+        "losingPitcher": "Phillips Valdez",
+        "savingPitcher": "",
         "roundText": "Baja 8va",
         "currentInningNum": 8,
         "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -582,8 +585,8 @@
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Jorge Bonifacio Cuadrangular! 2 Carreras Impulsadas ",
-        "atBat": "Raynel Delgado",
+        "lastPlayByPlay": "Raynel Delgado Out: Elevado al Jardinero Derecho ",
+        "atBat": "Chritopher Morel",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,7 +631,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -10787,23 +10790,26 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 6,
         "status": 2,
         "date": "2026-10-24 16:00:00",
         "part": 2,
         "lastPlayByPlay": "Jonathan Guzman Sencillo y 1 Carrera Impulsada ",
         "atBat": "Vidal Brujan",
         "comment": "",
-        "winningPitcher": null,
-        "losingPitcher": null,
-        "savingPitcher": null,
+        "winningPitcher": "Kelly Austin",
+        "losingPitcher": "Phillips Valdez",
+        "savingPitcher": "",
         "roundText": "Baja 8va",
         "currentInningNum": 8,
         "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -10852,8 +10858,8 @@
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Jorge Bonifacio Cuadrangular! 2 Carreras Impulsadas ",
-        "atBat": "Raynel Delgado",
+        "lastPlayByPlay": "Raynel Delgado Out: Elevado al Jardinero Derecho ",
+        "atBat": "Chritopher Morel",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10898,7 +10904,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -19016,14 +19022,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 5
+        "base": 6
       },
       "base_runners": {
         "on1B": true,
-        "on2B": true,
-        "on3B": false,
+        "on2B": false,
+        "on3B": true,
         "runners": 2,
-        "mask": 5
+        "mask": 6
       },
       "betting": {
         "moneyline": {
@@ -19037,9 +19043,9 @@
         "over_under": null
       },
       "pitchers": {
-        "winning": null,
-        "losing": null,
-        "save": null
+        "winning": "Kelly Austin",
+        "losing": "Phillips Valdez",
+        "save": ""
       },
       "teams": {
         "away": {
@@ -20205,11 +20211,11 @@
       "date": "2026-10-24 18:00:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Jorge Bonifacio Cuadrangular! 2 Carreras Impulsadas ",
+      "lastPlayByPlay": "Raynel Delgado Out: Elevado al Jardinero Derecho ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20694,10 +20700,17 @@
             },
             {
               "reference_id": "20060-2-9",
-              "text": "Raynel Delgado al bate",
+              "text": "Raynel Delgado Out: Elevado al Jardinero Derecho ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792880760
+              "ts": 1792880852
+            },
+            {
+              "reference_id": "20060-2-10",
+              "text": "Chritopher Morel al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792880855
             }
           ]
         }
@@ -20714,7 +20727,7 @@
           "num": 1,
           "half": "bottom",
           "label": "Baja 1ra",
-          "total_plays": 5,
+          "total_plays": 6,
           "scoring_plays": 1
         }
       ],
