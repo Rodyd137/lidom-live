@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T22:19:26.273Z",
+    "scraped_at": "2026-10-24T22:20:29.970Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -578,12 +581,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Steward Berroa Out: Elevado al Jardinero Derecho ",
-        "atBat": "Mason Mccoy",
+        "lastPlayByPlay": "Mason Mccoy Sencillo ",
+        "atBat": "J. C. Escarra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -594,7 +597,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -621,15 +627,15 @@
           "runs": 0,
           "runs_half": 0,
           "errors": 0,
-          "hits": 0,
+          "hits": 1,
           "pitcher": "Joan Adón",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 1,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2203,
@@ -10803,7 +10809,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -10848,12 +10857,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Steward Berroa Out: Elevado al Jardinero Derecho ",
-        "atBat": "Mason Mccoy",
+        "lastPlayByPlay": "Mason Mccoy Sencillo ",
+        "atBat": "J. C. Escarra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10864,7 +10873,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -10891,15 +10903,15 @@
           "runs": 0,
           "runs_half": 0,
           "errors": 0,
-          "hits": 0,
+          "hits": 1,
           "pitcher": "Joan Adón",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 1,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2203,
@@ -20112,7 +20124,7 @@
             "abbr": "AC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
             "runs": 0,
-            "hits": 0,
+            "hits": 1,
             "errors": 0,
             "permalink": "/equipo/aguilas-cibaenas"
           }
@@ -20184,22 +20196,22 @@
       "date": "2026-10-24 18:00:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Steward Berroa Out: Elevado al Jardinero Derecho ",
+      "lastPlayByPlay": "Mason Mccoy Sencillo ",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20348,7 +20360,7 @@
           "permalink": "/equipo/aguilas-cibaenas",
           "totals": {
             "R": 0,
-            "H": 0,
+            "H": 1,
             "E": 0,
             "H2": 0
           },
@@ -20519,7 +20531,7 @@
           },
           "home": {
             "R": 0,
-            "H": 0,
+            "H": 1,
             "E": 0
           }
         },
@@ -20652,10 +20664,17 @@
             },
             {
               "reference_id": "20060-2-6",
-              "text": "Mason Mccoy al bate",
+              "text": "Mason Mccoy Sencillo ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792880250
+              "ts": 1792880376
+            },
+            {
+              "reference_id": "20060-2-7",
+              "text": "J. C. Escarra al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792880379
             }
           ]
         }
@@ -20672,7 +20691,7 @@
           "num": 1,
           "half": "bottom",
           "label": "Baja 1ra",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21168,7 +21187,7 @@
             "abbr": "AC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
             "runs": 0,
-            "hits": 0,
+            "hits": 1,
             "errors": 0,
             "permalink": "/equipo/aguilas-cibaenas"
           }
