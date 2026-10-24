@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T23:37:56.050Z",
+    "scraped_at": "2026-10-24T23:38:59.841Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "Ramon Hernandez Out: Elevado al Primera Base",
-        "atBat": "Mel Rojas",
+        "lastPlayByPlay": "Mel Rojas  Out: Rodado al Segunda Base - Campo Corto",
+        "atBat": "E. Florial",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -688,7 +688,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
         "strikes": 0
       }
@@ -10848,12 +10848,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "Ramon Hernandez Out: Elevado al Primera Base",
-        "atBat": "Mel Rojas",
+        "lastPlayByPlay": "Mel Rojas  Out: Rodado al Segunda Base - Campo Corto",
+        "atBat": "E. Florial",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10898,7 +10898,7 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -20288,22 +20288,22 @@
       "date": "2026-10-24 18:00:00",
       "roundText": "Alta 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Ramon Hernandez Out: Elevado al Primera Base",
+      "lastPlayByPlay": "Mel Rojas  Out: Rodado al Segunda Base - Campo Corto",
       "counts": {
         "balls": 1,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -21015,10 +21015,17 @@
             },
             {
               "reference_id": "20064-1-37",
-              "text": "Mel Rojas al bate",
+              "text": "Mel Rojas  Out: Rodado al Segunda Base - Campo Corto",
               "scored": false,
               "is_primary": true,
-              "ts": 1792885018
+              "ts": 1792885113
+            },
+            {
+              "reference_id": "20064-1-38",
+              "text": "E. Florial al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792885129
             }
           ]
         }
@@ -21084,7 +21091,7 @@
           "num": 5,
           "half": "top",
           "label": "Alta 5ta",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
