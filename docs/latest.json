@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T02:40:53.380Z",
+    "scraped_at": "2026-10-24T02:41:57.771Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-23 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Jorge Bonifacio",
+        "lastPlayByPlay": "Jorge Bonifacio Base por Bolas ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2200,
@@ -578,7 +578,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 4,
         "status": 2,
         "date": "2026-10-23 19:30:00",
         "part": 1,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10663,12 +10663,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-23 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Jorge Bonifacio",
+        "lastPlayByPlay": "Jorge Bonifacio Base por Bolas ",
+        "atBat": "Chritopher Morel",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10712,9 +10712,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2200,
@@ -10724,7 +10724,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 4,
         "status": 2,
         "date": "2026-10-23 19:30:00",
         "part": 1,
@@ -10773,9 +10773,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "2026-10-24": [
@@ -19005,22 +19005,22 @@
       "date": "2026-10-23 19:15:00",
       "roundText": "Alta 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Jorge Bonifacio Base por Bolas ",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20096,10 +20096,10 @@
           "plays": [
             {
               "reference_id": "20041-1-83",
-              "text": "Jorge Bonifacio al bate",
+              "text": "Jorge Bonifacio Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792809556
+              "ts": 1792809712
             }
           ]
         }
@@ -20360,20 +20360,20 @@
       "currentInningNum": 9,
       "lastPlayByPlay": "A. Ortiz Sencillo Segunda Base",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 5
+        "base": 4
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": true,
-        "on3B": false,
-        "runners": 2,
-        "mask": 5
+        "on1B": false,
+        "on2B": false,
+        "on3B": true,
+        "runners": 1,
+        "mask": 4
       },
       "betting": {
         "moneyline": {
