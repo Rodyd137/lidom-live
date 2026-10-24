@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T22:59:46.246Z",
+    "scraped_at": "2026-10-24T23:00:50.121Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 4,
+        "base": 3,
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 1,
         "lastPlayByPlay": "J. Made  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": null,
+        "atBat": "Ramon Hernandez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -602,10 +602,10 @@
           "color": "233b77",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "permalink": "/equipo/tigres-del-licey",
-          "runs": 0,
-          "runs_half": 0,
+          "runs": 1,
+          "runs_half": 1,
           "errors": 0,
-          "hits": 2,
+          "hits": 3,
           "pitcher": "Vladimir Gutiérrez",
           "era": "",
           "debut": 0,
@@ -10848,12 +10848,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 4,
+        "base": 3,
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "J. Made  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": "Ramon Hernandez",
+        "lastPlayByPlay": "Ramon Hernandez Doble! 1 Carrera Impulsada ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10872,10 +10872,10 @@
           "color": "233b77",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "permalink": "/equipo/tigres-del-licey",
-          "runs": 0,
-          "runs_half": 0,
+          "runs": 1,
+          "runs_half": 1,
           "errors": 0,
-          "hits": 2,
+          "hits": 3,
           "pitcher": "Vladimir Gutiérrez",
           "era": "",
           "debut": 0,
@@ -20178,8 +20178,8 @@
             "name": "Tigres",
             "abbr": "TL",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-            "runs": 0,
-            "hits": 2,
+            "runs": 1,
+            "hits": 3,
             "errors": 0,
             "permalink": "/equipo/tigres-del-licey"
           },
@@ -20223,8 +20223,35 @@
       ],
       "stats_tables": [
         {
+          "title": "Toros vs Leones",
+          "round": "Temporada Regular (1 Juegos)",
+          "columns": [
+            "G",
+            "P",
+            "C",
+            "H",
+            "E"
+          ],
+          "teams": {
+            "Toros TE": {
+              "G": 0,
+              "P": 1,
+              "C": 0,
+              "H": 4,
+              "E": 1
+            },
+            "Leones LE": {
+              "G": 1,
+              "P": 0,
+              "C": 2,
+              "H": 2,
+              "E": 1
+            }
+          }
+        },
+        {
           "title": "Estadísticas Generales",
-          "round": "Temporada Regular (6 Juegos)",
+          "round": "Temporada Regular (7 Juegos)",
           "columns": [
             "G",
             "P",
@@ -20236,19 +20263,19 @@
           "teams": {
             "Toros TE": {
               "G": 3,
-              "P": 3,
-              "CA": 4,
-              "CP": 5.3,
-              "H": 7.8,
-              "E": 1.8
+              "P": 4,
+              "CA": 3.4,
+              "CP": 4.9,
+              "H": 7.3,
+              "E": 1.7
             },
             "Leones LE": {
-              "G": 2,
+              "G": 3,
               "P": 4,
-              "CA": 5.3,
-              "CP": 7.8,
-              "H": 8.2,
-              "E": 1.5
+              "CA": 4.9,
+              "CP": 6.7,
+              "H": 7.3,
+              "E": 1.4
             }
           }
         }
@@ -20269,14 +20296,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 4
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
-        "on3B": true,
+        "on2B": true,
+        "on3B": false,
         "runners": 1,
-        "mask": 4
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -20303,10 +20330,10 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "permalink": "/equipo/tigres-del-licey",
           "totals": {
-            "R": 0,
-            "H": 2,
+            "R": 1,
+            "H": 3,
             "E": 0,
-            "H2": 0
+            "H2": 1
           },
           "probables": {
             "pitcher": "Vladimir Gutiérrez",
@@ -20553,7 +20580,7 @@
           },
           {
             "num": 3,
-            "away": 0,
+            "away": 1,
             "home": 0
           },
           {
@@ -20590,8 +20617,8 @@
         "extras": false,
         "totals": {
           "away": {
-            "R": 0,
-            "H": 2,
+            "R": 1,
+            "H": 3,
             "E": 0
           },
           "home": {
@@ -20612,31 +20639,31 @@
             },
             {
               "num": 3,
-              "R": 0
+              "R": 1
             },
             {
               "num": 4,
-              "R": 0
+              "R": 1
             },
             {
               "num": 5,
-              "R": 0
+              "R": 1
             },
             {
               "num": 6,
-              "R": 0
+              "R": 1
             },
             {
               "num": 7,
-              "R": 0
+              "R": 1
             },
             {
               "num": 8,
-              "R": 0
+              "R": 1
             },
             {
               "num": 9,
-              "R": 0
+              "R": 1
             }
           ],
           "home": [
@@ -20919,7 +20946,7 @@
           "num": 3,
           "part": 1,
           "is_last": 1,
-          "awayTeamRuns": 0,
+          "awayTeamRuns": 1,
           "homeTeamRuns": 0
         },
         {
@@ -21581,8 +21608,8 @@
             "name": "Tigres",
             "abbr": "TL",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-            "runs": 0,
-            "hits": 2,
+            "runs": 1,
+            "hits": 3,
             "errors": 0,
             "permalink": "/equipo/tigres-del-licey"
           },
