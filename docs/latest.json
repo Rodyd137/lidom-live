@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T23:34:45.714Z",
+    "scraped_at": "2026-10-24T23:35:48.677Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -583,7 +583,7 @@
         "date": "2026-10-24 18:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "J. Made",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -622,12 +622,12 @@
           "runs_half": 2,
           "errors": 0,
           "hits": 3,
-          "pitcher": "Leandro Lopez",
+          "pitcher": "",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
         "strikes": 0
       },
@@ -640,11 +640,11 @@
         "handicap_h": null,
         "over_under": null,
         "base": 1,
-        "status": 3,
+        "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Eddison Paulino ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10853,7 +10853,7 @@
         "date": "2026-10-24 18:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "J. Made",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10892,12 +10892,12 @@
           "runs_half": 2,
           "errors": 0,
           "hits": 3,
-          "pitcher": "Leandro Lopez",
+          "pitcher": "",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
         "strikes": 0
       },
@@ -10910,11 +10910,11 @@
         "handicap_h": null,
         "over_under": null,
         "base": 1,
-        "status": 3,
+        "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Eddison Paulino ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -20197,7 +20197,7 @@
         {
           "id": 2203,
           "date": "2026-10-24 19:30:00",
-          "status": 3,
+          "status": 2,
           "roundText": "Alta 1ra",
           "awayTeam": {
             "id": 5,
@@ -20290,7 +20290,7 @@
       "currentInningNum": 5,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
+        "balls": 1,
         "strikes": 0,
         "outs": 0
       },
@@ -20457,7 +20457,7 @@
             "H2": 2
           },
           "probables": {
-            "pitcher": "Leandro Lopez",
+            "pitcher": "",
             "era": "",
             "record": "",
             "debut": false
@@ -20993,6 +20993,20 @@
               "ts": 1792884766
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "top",
+          "label": "Alta 5ta",
+          "plays": [
+            {
+              "reference_id": "20064-1-35",
+              "text": "J. Made al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792884941
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21050,6 +21064,13 @@
           "half": "bottom",
           "label": "Baja 4ta",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 5,
+          "half": "top",
+          "label": "Alta 5ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -21148,7 +21169,7 @@
         {
           "id": 2203,
           "date": "2026-10-24 19:30:00",
-          "status": 3,
+          "status": 2,
           "roundText": "Alta 1ra",
           "awayTeam": {
             "id": 5,
@@ -21208,7 +21229,7 @@
     "2203": {
       "id": 2203,
       "season_id": 23,
-      "status": 3,
+      "status": 2,
       "date": "2026-10-24 19:30:00",
       "roundText": "Alta 1ra",
       "currentInningNum": 1,
@@ -21630,8 +21651,31 @@
           ]
         }
       },
-      "plays_by_inning": [],
-      "plays_summary_by_inning": [],
+      "plays_by_inning": [
+        {
+          "num": 1,
+          "half": "top",
+          "label": "Alta 1ra",
+          "plays": [
+            {
+              "reference_id": "20069-1-1",
+              "text": "Eddison Paulino  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792884943
+            }
+          ]
+        }
+      ],
+      "plays_summary_by_inning": [
+        {
+          "num": 1,
+          "half": "top",
+          "label": "Alta 1ra",
+          "total_plays": 1,
+          "scoring_plays": 0
+        }
+      ],
       "innings_raw": [
         {
           "num": 1,
