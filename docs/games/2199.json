@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2199",
-    "scraped_at": "2026-10-24T02:08:39.384Z",
+    "scraped_at": "2026-10-24T02:09:44.121Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-23 19:15:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ibañez Sencillo Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 9,
-          "H": 7,
+          "H": 8,
           "E": 1,
           "H2": 9
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 9,
-          "H": 7,
+          "H": 8,
           "E": 1
         }
       },
@@ -990,10 +990,24 @@
         "plays": [
           {
             "reference_id": "20039-2-70",
-            "text": "Socrates Brito al bate",
+            "text": "Socrates Brito Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792807525
+            "ts": 1792807721
+          },
+          {
+            "reference_id": "20039-2-71",
+            "text": "Ibañez Sencillo Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792807743
+          },
+          {
+            "reference_id": "20039-2-72",
+            "text": "M. De la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792807752
           }
         ]
       }
@@ -1094,7 +1108,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -1168,7 +1182,7 @@
         "id": 2200,
         "date": "2026-10-23 19:30:00",
         "status": 2,
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
