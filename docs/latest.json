@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T01:28:51.104Z",
+    "scraped_at": "2026-10-24T01:29:55.707Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 1,
         "status": 2,
         "date": "2026-10-23 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Jonathan Guzman Ponche (K) ",
-        "atBat": "Vidal Brujan",
+        "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -567,8 +567,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
-        "strikes": 1
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2200,
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-23 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Francisco Mejia  Out: Rodado al Primera Base",
-        "atBat": "A. Ortiz",
+        "lastPlayByPlay": "A. Ortiz Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -10663,12 +10663,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 1,
         "status": 2,
         "date": "2026-10-23 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Jonathan Guzman Ponche (K) ",
-        "atBat": "Vidal Brujan",
+        "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10713,8 +10713,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
-        "strikes": 1
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2200,
@@ -10728,8 +10728,8 @@
         "status": 2,
         "date": "2026-10-23 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Francisco Mejia  Out: Rodado al Primera Base",
-        "atBat": "A. Ortiz",
+        "lastPlayByPlay": "A. Ortiz Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10774,7 +10774,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -19005,22 +19005,22 @@
       "date": "2026-10-23 19:15:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Jonathan Guzman Ponche (K) ",
+      "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
       "counts": {
         "balls": 0,
-        "strikes": 1,
-        "outs": 2
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 3
+        "base": 1
       },
       "base_runners": {
         "on1B": false,
-        "on2B": true,
+        "on2B": false,
         "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -19865,10 +19865,17 @@
             },
             {
               "reference_id": "20037-2-57",
-              "text": "Vidal Brujan al bate",
+              "text": "M. De la Cruz Carrera Empujada Wild Pitch",
+              "scored": true,
+              "is_primary": true,
+              "ts": 1792805355
+            },
+            {
+              "reference_id": "20037-2-58",
+              "text": "Vidal Brujan Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792805291
+              "ts": 1792805382
             }
           ]
         }
@@ -19941,8 +19948,8 @@
           "num": 5,
           "half": "bottom",
           "label": "Baja 5ta",
-          "total_plays": 8,
-          "scoring_plays": 1
+          "total_plays": 9,
+          "scoring_plays": 2
         }
       ],
       "innings_raw": [
@@ -20078,11 +20085,11 @@
       "date": "2026-10-23 19:30:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Francisco Mejia  Out: Rodado al Primera Base",
+      "lastPlayByPlay": "A. Ortiz Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -20945,10 +20952,10 @@
             },
             {
               "reference_id": "20047-1-52",
-              "text": "A. Ortiz al bate",
+              "text": "A. Ortiz Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792805230
+              "ts": 1792805391
             }
           ]
         }
