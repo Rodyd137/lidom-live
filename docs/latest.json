@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T02:18:18.279Z",
+    "scraped_at": "2026-10-24T02:19:22.693Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -520,16 +520,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-23 19:15:00",
-        "part": 2,
-        "lastPlayByPlay": "M. Hernandez Sencillo Primera Base",
+        "part": 1,
+        "lastPlayByPlay": "",
         "atBat": "Jonathan Guzman",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 7ma",
-        "currentInningNum": 7,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 8va",
+        "currentInningNum": 8,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-23 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Mel Rojas",
+        "lastPlayByPlay": "Mel Rojas Ponche (K) ",
+        "atBat": "E. Florial",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10666,16 +10666,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-23 19:15:00",
-        "part": 2,
-        "lastPlayByPlay": "M. Hernandez Sencillo Primera Base",
+        "part": 1,
+        "lastPlayByPlay": "",
         "atBat": "Jonathan Guzman",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 7ma",
-        "currentInningNum": 7,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 8va",
+        "currentInningNum": 8,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -10713,7 +10713,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -10728,8 +10728,8 @@
         "status": 2,
         "date": "2026-10-23 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Mel Rojas",
+        "lastPlayByPlay": "Mel Rojas Ponche (K) ",
+        "atBat": "E. Florial",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10773,9 +10773,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "2026-10-24": [
@@ -19003,16 +19003,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-23 19:15:00",
-      "roundText": "Baja 7ma",
-      "currentInningNum": 7,
-      "lastPlayByPlay": "M. Hernandez Sencillo Primera Base",
+      "roundText": "Alta 8va",
+      "currentInningNum": 8,
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
+        "battingTeam": "awayTeam",
         "base": 1
       },
       "base_runners": {
@@ -20166,14 +20166,14 @@
         {
           "num": 7,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
         {
           "num": 8,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
@@ -20253,11 +20253,11 @@
       "date": "2026-10-23 19:30:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Mel Rojas Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21267,10 +21267,17 @@
           "plays": [
             {
               "reference_id": "20049-1-68",
-              "text": "Mel Rojas al bate",
+              "text": "Mel Rojas Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792808208
+              "ts": 1792808345
+            },
+            {
+              "reference_id": "20049-1-69",
+              "text": "E. Florial al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792808348
             }
           ]
         }
@@ -21378,7 +21385,7 @@
           "num": 8,
           "half": "top",
           "label": "Alta 8va",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21452,7 +21459,7 @@
           "id": 2199,
           "date": "2026-10-23 19:15:00",
           "status": 2,
-          "roundText": "Baja 7ma",
+          "roundText": "Alta 8va",
           "awayTeam": {
             "id": 3,
             "name": "Aguilas",
