@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T02:36:36.445Z",
+    "scraped_at": "2026-10-24T02:37:40.939Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-10-23 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Francisco Mejia Sencillo Jardinero Derecho ",
-        "atBat": "A. Ortiz",
+        "lastPlayByPlay": "A. Ortiz Sencillo Segunda Base",
+        "atBat": "Jose Barrero",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -605,7 +608,7 @@
           "runs": 3,
           "runs_half": 3,
           "errors": 1,
-          "hits": 8,
+          "hits": 9,
           "pitcher": "",
           "era": "",
           "debut": 0,
@@ -629,7 +632,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10724,12 +10727,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-10-23 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Francisco Mejia Sencillo Jardinero Derecho ",
-        "atBat": "A. Ortiz",
+        "lastPlayByPlay": "A. Ortiz Sencillo Segunda Base",
+        "atBat": "Jose Barrero",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10740,7 +10743,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -10751,7 +10757,7 @@
           "runs": 3,
           "runs_half": 3,
           "errors": 1,
-          "hits": 8,
+          "hits": 9,
           "pitcher": "",
           "era": "",
           "debut": 0,
@@ -10775,7 +10781,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 0
       }
     ],
     "2026-10-24": [
@@ -20281,7 +20287,7 @@
             "abbr": "TL",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
             "runs": 3,
-            "hits": 8,
+            "hits": 9,
             "errors": 1,
             "permalink": "/equipo/tigres-del-licey"
           },
@@ -20337,22 +20343,22 @@
       "date": "2026-10-23 19:30:00",
       "roundText": "Alta 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "Francisco Mejia Sencillo Jardinero Derecho ",
+      "lastPlayByPlay": "A. Ortiz Sencillo Segunda Base",
       "counts": {
         "balls": 0,
-        "strikes": 1,
+        "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 5
       },
       "base_runners": {
         "on1B": true,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -20380,7 +20386,7 @@
           "permalink": "/equipo/tigres-del-licey",
           "totals": {
             "R": 3,
-            "H": 8,
+            "H": 9,
             "E": 1,
             "H2": 3
           },
@@ -20667,7 +20673,7 @@
         "totals": {
           "away": {
             "R": 3,
-            "H": 8,
+            "H": 9,
             "E": 1
           },
           "home": {
@@ -21414,10 +21420,17 @@
             },
             {
               "reference_id": "20050-1-75",
-              "text": "A. Ortiz al bate",
+              "text": "A. Ortiz Sencillo Segunda Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1792809324
+              "ts": 1792809425
+            },
+            {
+              "reference_id": "20050-1-76",
+              "text": "Jose Barrero al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792809427
             }
           ]
         }
@@ -21539,7 +21552,7 @@
           "num": 9,
           "half": "top",
           "label": "Alta 9na",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
