@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2200",
-    "scraped_at": "2026-10-24T01:43:55.710Z",
+    "scraped_at": "2026-10-24T01:45:00.167Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-23 19:30:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Cesar Prieto  Golpeado por Pelota ",
+    "lastPlayByPlay": "Cesar Prieto  Out Robando Base! Receptor - Segunda Base",
     "counts": {
       "balls": 2,
-      "strikes": 0,
-      "outs": 1
+      "strikes": 2,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -906,10 +906,24 @@
           },
           {
             "reference_id": "20047-2-55",
-            "text": "Aaron Schunk al bate",
+            "text": "Aaron Schunk Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792805914
+            "ts": 1792806248
+          },
+          {
+            "reference_id": "20047-2-56",
+            "text": "Ismael Munguia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792806252
+          },
+          {
+            "reference_id": "20047-2-55-289677",
+            "text": "Cesar Prieto  Out Robando Base! Receptor - Segunda Base",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1792806261
           }
         ]
       }
@@ -996,7 +1010,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 2,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
