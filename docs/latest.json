@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T23:13:32.752Z",
+    "scraped_at": "2026-10-24T23:14:36.369Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -583,7 +583,7 @@
         "date": "2026-10-24 18:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "E. Florial",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -622,14 +622,14 @@
           "runs_half": 2,
           "errors": 0,
           "hits": 3,
-          "pitcher": "Joan Adón",
+          "pitcher": "",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2203,
@@ -10853,7 +10853,7 @@
         "date": "2026-10-24 18:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "E. Florial",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10892,14 +10892,14 @@
           "runs_half": 2,
           "errors": 0,
           "hits": 3,
-          "pitcher": "Joan Adón",
+          "pitcher": "",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2203,
@@ -20290,8 +20290,8 @@
       "currentInningNum": 4,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 3,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -20457,7 +20457,7 @@
             "H2": 2
           },
           "probables": {
-            "pitcher": "Joan Adón",
+            "pitcher": "",
             "era": "",
             "record": "",
             "debut": false
@@ -20923,6 +20923,20 @@
               "ts": 1792883430
             }
           ]
+        },
+        {
+          "num": 4,
+          "half": "top",
+          "label": "Alta 4ta",
+          "plays": [
+            {
+              "reference_id": "20063-1-27",
+              "text": "E. Florial al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792883627
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20966,6 +20980,13 @@
           "half": "bottom",
           "label": "Baja 3ra",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 4,
+          "half": "top",
+          "label": "Alta 4ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
