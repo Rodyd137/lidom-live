@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T01:31:00.540Z",
+    "scraped_at": "2026-10-24T01:32:05.038Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,19 +517,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-23 19:15:00",
-        "part": 2,
-        "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "J. C. Escarra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 5ta",
-        "currentInningNum": 5,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 6ta",
+        "currentInningNum": 6,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 4,
+        "base": 1,
         "status": 2,
         "date": "2026-10-23 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "A. Ortiz Ponche (K) ",
-        "atBat": "Jose Barrero",
+        "lastPlayByPlay": "Jose Barrero Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,8 +628,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
-        "strikes": 1
+        "outs": 3,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10663,19 +10663,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-23 19:15:00",
-        "part": 2,
-        "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "J. C. Escarra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 5ta",
-        "currentInningNum": 5,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 6ta",
+        "currentInningNum": 6,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -10713,7 +10713,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -10724,12 +10724,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 4,
+        "base": 1,
         "status": 2,
         "date": "2026-10-23 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "A. Ortiz Ponche (K) ",
-        "atBat": "Jose Barrero",
+        "lastPlayByPlay": "Jose Barrero Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10774,8 +10774,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
-        "strikes": 1
+        "outs": 3,
+        "strikes": 0
       }
     ],
     "2026-10-24": [
@@ -19003,24 +19003,24 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-23 19:15:00",
-      "roundText": "Baja 5ta",
-      "currentInningNum": 5,
-      "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
+      "roundText": "Alta 6ta",
+      "currentInningNum": 6,
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
-        "base": 1
+        "battingTeam": "awayTeam",
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -19878,6 +19878,20 @@
               "ts": 1792805382
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "plays": [
+            {
+              "reference_id": "20038-1-59",
+              "text": "J. C. Escarra al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792805469
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -19950,6 +19964,13 @@
           "label": "Baja 5ta",
           "total_plays": 9,
           "scoring_plays": 2
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -19984,14 +20005,14 @@
         {
           "num": 5,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 0,
           "homeTeamRuns": 3
         },
         {
           "num": 6,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
@@ -20085,22 +20106,22 @@
       "date": "2026-10-23 19:30:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "A. Ortiz Ponche (K) ",
+      "lastPlayByPlay": "Jose Barrero Ponche (K) ",
       "counts": {
         "balls": 0,
-        "strikes": 1,
-        "outs": 2
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 4
+        "base": 1
       },
       "base_runners": {
         "on1B": false,
         "on2B": false,
-        "on3B": true,
-        "runners": 1,
-        "mask": 4
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -20959,10 +20980,10 @@
             },
             {
               "reference_id": "20047-1-53",
-              "text": "Jose Barrero al bate",
+              "text": "Jose Barrero Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792805398
+              "ts": 1792805517
             }
           ]
         }
@@ -21116,7 +21137,7 @@
           "id": 2199,
           "date": "2026-10-23 19:15:00",
           "status": 2,
-          "roundText": "Baja 5ta",
+          "roundText": "Alta 6ta",
           "awayTeam": {
             "id": 3,
             "name": "Aguilas",
