@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T02:10:46.537Z",
+    "scraped_at": "2026-10-24T02:11:50.985Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,7 +517,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-10-23 19:15:00",
         "part": 2,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 1,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2200,
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-23 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Marco Luciano ",
+        "lastPlayByPlay": "Marco Luciano   Out: Rodado al Tercera Base - Primera Base",
+        "atBat": "Leonardo Bernal ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,8 +628,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 1
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10663,7 +10663,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-10-23 19:15:00",
         "part": 2,
@@ -10712,9 +10712,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 1,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2200,
@@ -10728,8 +10728,8 @@
         "status": 2,
         "date": "2026-10-23 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Marco Luciano ",
+        "lastPlayByPlay": "Marco Luciano   Out: Rodado al Tercera Base - Primera Base",
+        "atBat": "Leonardo Bernal ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10774,8 +10774,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 1
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "2026-10-24": [
@@ -19007,20 +19007,20 @@
       "currentInningNum": 7,
       "lastPlayByPlay": "Ibañez Sencillo Jardinero Izquierdo",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 5
       },
       "base_runners": {
         "on1B": true,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -20239,11 +20239,11 @@
       "date": "2026-10-23 19:30:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Marco Luciano   Out: Rodado al Tercera Base - Primera Base",
       "counts": {
         "balls": 0,
-        "strikes": 1,
-        "outs": 0
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21225,10 +21225,17 @@
           "plays": [
             {
               "reference_id": "20048-2-65",
-              "text": "Marco Luciano  al bate",
+              "text": "Marco Luciano   Out: Rodado al Tercera Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1792807771
+              "ts": 1792807878
+            },
+            {
+              "reference_id": "20048-2-66",
+              "text": "Leonardo Bernal  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792807881
             }
           ]
         }
@@ -21329,7 +21336,7 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
