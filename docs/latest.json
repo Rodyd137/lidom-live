@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-24T01:38:31.333Z",
+    "scraped_at": "2026-10-24T01:39:35.841Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 1,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2200,
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-23 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Cesar Prieto ",
+        "lastPlayByPlay": "Cesar Prieto  Golpeado por Pelota ",
+        "atBat": "Aaron Schunk",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -10712,9 +10715,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 1,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2200,
@@ -10728,8 +10731,8 @@
         "status": 2,
         "date": "2026-10-23 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Cesar Prieto ",
+        "lastPlayByPlay": "Cesar Prieto  Golpeado por Pelota ",
+        "atBat": "Aaron Schunk",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10740,7 +10743,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -19007,8 +19013,8 @@
       "currentInningNum": 6,
       "lastPlayByPlay": "Aderlin Rodríguez Ponche (K) ",
       "counts": {
-        "balls": 0,
-        "strikes": 1,
+        "balls": 1,
+        "strikes": 2,
         "outs": 1
       },
       "base_state": {
@@ -20120,7 +20126,7 @@
       "date": "2026-10-23 19:30:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Cesar Prieto  Golpeado por Pelota ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21008,10 +21014,17 @@
           "plays": [
             {
               "reference_id": "20047-2-54",
-              "text": "Cesar Prieto  al bate",
+              "text": "Cesar Prieto  Golpeado por Pelota ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792805667
+              "ts": 1792805912
+            },
+            {
+              "reference_id": "20047-2-55",
+              "text": "Aaron Schunk al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792805914
             }
           ]
         }
@@ -21098,7 +21111,7 @@
           "num": 6,
           "half": "bottom",
           "label": "Baja 6ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
