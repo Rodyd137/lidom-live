@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2203",
-    "scraped_at": "2026-10-25T02:24:30.830Z",
+    "scraped_at": "2026-10-25T02:25:35.346Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-24 19:30:00",
-    "roundText": "Baja 6ta",
-    "currentInningNum": 6,
-    "lastPlayByPlay": "Marco Luciano  Ponche (K) ",
+    "roundText": "Alta 7ma",
+    "currentInningNum": 7,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -180,7 +180,7 @@
           "H2": 4
         },
         "probables": {
-          "pitcher": "Luis Moreno",
+          "pitcher": "Jhan Mariñez",
           "era": "",
           "record": "",
           "debut": false
@@ -1017,6 +1017,20 @@
             "ts": 1792894976
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "20075-1-70",
+            "text": "Marcell Ozuna  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792895115
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1103,6 +1117,13 @@
         "label": "Baja 6ta",
         "total_plays": 8,
         "scoring_plays": 3
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1144,14 +1165,14 @@
       {
         "num": 6,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 3
       },
       {
         "num": 7,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
