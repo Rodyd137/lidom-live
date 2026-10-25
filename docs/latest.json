@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-25T01:12:35.863Z",
+    "scraped_at": "2026-10-25T01:13:40.449Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "J. C. Escarra",
+        "lastPlayByPlay": "J. C. Escarra  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Jorge Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,8 +628,8 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 0,
-        "strikes": 1
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2203,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Eddison Paulino  Ponche (K) ",
-        "atBat": "Noelvi Marte ",
+        "lastPlayByPlay": "Noelvi Marte  Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 2,
-        "strikes": 2
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10852,8 +10852,8 @@
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "J. C. Escarra",
+        "lastPlayByPlay": "J. C. Escarra  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Jorge Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10898,8 +10898,8 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 0,
-        "strikes": 1
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2203,
@@ -10913,8 +10913,8 @@
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Eddison Paulino  Ponche (K) ",
-        "atBat": "Noelvi Marte ",
+        "lastPlayByPlay": "Noelvi Marte  Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10958,9 +10958,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 2,
-        "strikes": 2
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       }
     ],
     "2026-10-25": [
@@ -20288,11 +20288,11 @@
       "date": "2026-10-24 18:00:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "J. C. Escarra  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
         "balls": 1,
-        "strikes": 1,
-        "outs": 0
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21274,10 +21274,17 @@
           "plays": [
             {
               "reference_id": "20067-2-67",
-              "text": "J. C. Escarra al bate",
+              "text": "J. C. Escarra  Out: Rodado al Segunda Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1792890678
+              "ts": 1792890774
+            },
+            {
+              "reference_id": "20067-2-68",
+              "text": "Jorge Bonifacio al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792890778
             }
           ]
         }
@@ -21392,7 +21399,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21555,11 +21562,11 @@
       "date": "2026-10-24 19:30:00",
       "roundText": "Alta 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Eddison Paulino  Ponche (K) ",
+      "lastPlayByPlay": "Noelvi Marte  Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 2
+        "balls": 0,
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22296,10 +22303,10 @@
             },
             {
               "reference_id": "20072-1-39",
-              "text": "Noelvi Marte  al bate",
+              "text": "Noelvi Marte  Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792890647
+              "ts": 1792890764
             }
           ]
         }
