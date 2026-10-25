@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-25T23:00:25.320Z",
+    "scraped_at": "2026-10-25T23:01:30.327Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -578,12 +581,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-25 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Marco Luciano  Out: Elevado al Jardinero Central",
-        "atBat": "Cesar Prieto ",
+        "lastPlayByPlay": "Juan Santana al bate",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -620,16 +623,16 @@
           "permalink": "/equipo/gigantes-del-cibao",
           "runs": 3,
           "runs_half": 3,
-          "errors": 2,
+          "errors": 3,
           "hits": 3,
           "pitcher": "Christopher Molina",
           "era": "",
           "debut": 1,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2206,
@@ -10988,7 +10991,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -11033,12 +11039,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-25 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Marco Luciano  Out: Elevado al Jardinero Central",
-        "atBat": "Cesar Prieto ",
+        "lastPlayByPlay": "Juan Santana al bate",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11075,16 +11081,16 @@
           "permalink": "/equipo/gigantes-del-cibao",
           "runs": 3,
           "runs_half": 3,
-          "errors": 2,
+          "errors": 3,
           "hits": 3,
           "pitcher": "Christopher Molina",
           "era": "",
           "debut": 1,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2206,
@@ -20067,22 +20073,22 @@
       "date": "2026-10-25 17:00:00",
       "roundText": "Alta 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Marco Luciano  Out: Elevado al Jardinero Central",
+      "lastPlayByPlay": "Juan Santana al bate",
       "counts": {
-        "balls": 1,
-        "strikes": 0,
+        "balls": 0,
+        "strikes": 2,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20850,10 +20856,10 @@
             },
             {
               "reference_id": "20091-1-45",
-              "text": "Cesar Prieto  al bate",
+              "text": "Juan Santana al bate",
               "scored": false,
               "is_primary": true,
-              "ts": 1792969190
+              "ts": 1792969270
             }
           ]
         }
