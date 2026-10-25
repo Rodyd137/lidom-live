@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-25T01:08:17.340Z",
+    "scraped_at": "2026-10-25T01:09:21.760Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,7 +578,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 7,
+        "base": 1,
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 1,
@@ -627,8 +627,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 2,
+        "balls": 0,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Jefferson Rojas",
+        "lastPlayByPlay": "Jefferson Rojas Out: Línea al Primera Base",
+        "atBat": "Eddison Paulino ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 0,
+        "outs": 1,
         "strikes": 1
       }
     ],
@@ -10848,7 +10848,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 7,
+        "base": 1,
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 1,
@@ -10897,8 +10897,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 2,
+        "balls": 0,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -10913,8 +10913,8 @@
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Jefferson Rojas",
+        "lastPlayByPlay": "Jefferson Rojas Out: Línea al Primera Base",
+        "atBat": "Eddison Paulino ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10959,7 +10959,7 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 0,
+        "outs": 1,
         "strikes": 1
       }
     ],
@@ -20290,20 +20290,20 @@
       "currentInningNum": 8,
       "lastPlayByPlay": "Gustavo Nuñez Out: Elevado al Campo Corto",
       "counts": {
-        "balls": 2,
+        "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 7
+        "base": 1
       },
       "base_runners": {
         "on1B": false,
-        "on2B": true,
-        "on3B": true,
-        "runners": 2,
-        "mask": 7
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -21534,11 +21534,11 @@
       "date": "2026-10-24 19:30:00",
       "roundText": "Alta 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Jefferson Rojas Out: Línea al Primera Base",
       "counts": {
         "balls": 1,
         "strikes": 1,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22261,10 +22261,17 @@
           "plays": [
             {
               "reference_id": "20072-1-37",
-              "text": "Jefferson Rojas al bate",
+              "text": "Jefferson Rojas Out: Línea al Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1792890471
+              "ts": 1792890516
+            },
+            {
+              "reference_id": "20072-1-38",
+              "text": "Eddison Paulino  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792890518
             }
           ]
         }
@@ -22316,7 +22323,7 @@
           "num": 4,
           "half": "top",
           "label": "Alta 4ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
