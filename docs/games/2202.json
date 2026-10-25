@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2202",
-    "scraped_at": "2026-10-25T01:35:12.328Z",
+    "scraped_at": "2026-10-25T01:36:17.103Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 9,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -1066,6 +1066,20 @@
             "ts": 1792891947
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "20068-2-76",
+            "text": "Chritopher Morel al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792892151
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1187,6 +1201,13 @@
         "label": "Alta 9na",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1291,8 +1312,8 @@
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 4,
-          "hits": 6,
+          "runs": 6,
+          "hits": 7,
           "errors": 1,
           "permalink": "/equipo/gigantes-del-cibao"
         },
