@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-25T02:38:24.844Z",
+    "scraped_at": "2026-10-25T02:39:28.390Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 8,
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Pablo Reyes Ponche (K) ",
-        "atBat": "Carlos Jorge ",
+        "lastPlayByPlay": "Carlos Jorge  Golpeado por Pelota ",
+        "atBat": "Jefferson Rojas",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10909,12 +10909,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 8,
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Pablo Reyes Ponche (K) ",
-        "atBat": "Carlos Jorge ",
+        "lastPlayByPlay": "Carlos Jorge  Golpeado por Pelota ",
+        "atBat": "Jefferson Rojas",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -21694,7 +21694,7 @@
       "date": "2026-10-24 19:30:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Pablo Reyes Ponche (K) ",
+      "lastPlayByPlay": "Carlos Jorge  Golpeado por Pelota ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21702,14 +21702,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 5
+        "base": 8
       },
       "base_runners": {
         "on1B": true,
         "on2B": true,
-        "on3B": false,
-        "runners": 2,
-        "mask": 5
+        "on3B": true,
+        "runners": 3,
+        "mask": 8
       },
       "betting": {
         "moneyline": {
@@ -22743,10 +22743,17 @@
             },
             {
               "reference_id": "20075-1-75",
-              "text": "Carlos Jorge  al bate",
+              "text": "Carlos Jorge  Golpeado por Pelota ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792895830
+              "ts": 1792895920
+            },
+            {
+              "reference_id": "20075-1-76",
+              "text": "Jefferson Rojas al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792895923
             }
           ]
         }
@@ -22840,7 +22847,7 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 6,
+          "total_plays": 7,
           "scoring_plays": 0
         }
       ],
