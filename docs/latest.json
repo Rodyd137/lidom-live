@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-25T00:32:46.535Z",
+    "scraped_at": "2026-10-25T00:33:51.244Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "J. C. Escarra Sencillo ",
-        "atBat": "Jorge Bonifacio",
+        "lastPlayByPlay": "Jorge Bonifacio Out: Elevado al Jardinero Central",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -643,8 +646,8 @@
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Cesar Prieto  Base por Bolas ",
-        "atBat": "Christian Cerda",
+        "lastPlayByPlay": "Christian Cerda Ponche (K) ",
+        "atBat": "Euribiel Ángeles ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,8 +692,8 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 1,
-        "strikes": 1
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10852,8 +10855,8 @@
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "J. C. Escarra Sencillo ",
-        "atBat": "Jorge Bonifacio",
+        "lastPlayByPlay": "Jorge Bonifacio Out: Elevado al Jardinero Central",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10864,7 +10867,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -10913,8 +10919,8 @@
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Cesar Prieto  Base por Bolas ",
-        "atBat": "Christian Cerda",
+        "lastPlayByPlay": "Christian Cerda Ponche (K) ",
+        "atBat": "Euribiel Ángeles ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10959,8 +10965,8 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 1,
-        "strikes": 1
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "2026-10-25": [
@@ -20288,7 +20294,7 @@
       "date": "2026-10-24 18:00:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "J. C. Escarra Sencillo ",
+      "lastPlayByPlay": "Jorge Bonifacio Out: Elevado al Jardinero Central",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21127,10 +21133,10 @@
             },
             {
               "reference_id": "20065-2-50",
-              "text": "Jorge Bonifacio al bate",
+              "text": "Jorge Bonifacio Out: Elevado al Jardinero Central",
               "scored": false,
               "is_primary": true,
-              "ts": 1792888039
+              "ts": 1792888371
             }
           ]
         }
@@ -21380,11 +21386,11 @@
       "date": "2026-10-24 19:30:00",
       "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "Cesar Prieto  Base por Bolas ",
+      "lastPlayByPlay": "Christian Cerda Ponche (K) ",
       "counts": {
         "balls": 1,
-        "strikes": 1,
-        "outs": 1
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21988,10 +21994,17 @@
             },
             {
               "reference_id": "20070-2-23",
-              "text": "Christian Cerda al bate",
+              "text": "Christian Cerda Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792888235
+              "ts": 1792888390
+            },
+            {
+              "reference_id": "20070-2-24",
+              "text": "Euribiel Ángeles  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792888395
             }
           ]
         }
@@ -22022,7 +22035,7 @@
           "num": 2,
           "half": "bottom",
           "label": "Baja 2da",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
