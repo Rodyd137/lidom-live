@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-25T23:24:16.531Z",
+    "scraped_at": "2026-10-25T23:25:21.403Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 3,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2206,
@@ -642,16 +642,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-25 17:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Socrates Brito Ponche (K) ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Julio Rodriguez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "currentInningNum": 5,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -688,9 +688,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
-        "strikes": 0
+        "balls": 2,
+        "outs": 0,
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -11082,9 +11082,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 3,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2206,
@@ -11097,16 +11097,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-25 17:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Socrates Brito Ponche (K) ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Julio Rodriguez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "currentInningNum": 5,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -11143,9 +11143,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
-        "strikes": 0
+        "balls": 3,
+        "outs": 0,
+        "strikes": 2
       }
     ],
     "2026-10-27": [
@@ -20033,7 +20033,7 @@
           "id": 2206,
           "date": "2026-10-25 17:00:00",
           "status": 2,
-          "roundText": "Alta 5ta",
+          "roundText": "Baja 5ta",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -20125,8 +20125,8 @@
       "currentInningNum": 6,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 2,
-        "strikes": 0,
+        "balls": 3,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -21187,7 +21187,7 @@
           "id": 2206,
           "date": "2026-10-25 17:00:00",
           "status": 2,
-          "roundText": "Alta 5ta",
+          "roundText": "Baja 5ta",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -21275,16 +21275,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-25 17:00:00",
-      "roundText": "Alta 5ta",
+      "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Socrates Brito Ponche (K) ",
+      "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
-        "outs": 3
+        "balls": 3,
+        "strikes": 2,
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -22115,6 +22115,20 @@
               "ts": 1792970436
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "plays": [
+            {
+              "reference_id": "20100-2-51",
+              "text": "Julio Rodriguez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792970701
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22180,6 +22194,13 @@
           "label": "Alta 5ta",
           "total_plays": 7,
           "scoring_plays": 2
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -22213,7 +22234,7 @@
         },
         {
           "num": 5,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 2,
           "homeTeamRuns": 0
