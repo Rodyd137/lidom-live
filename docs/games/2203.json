@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2203",
-    "scraped_at": "2026-10-25T03:00:54.645Z",
+    "scraped_at": "2026-10-25T03:01:59.347Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-24 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Harold Andres Ramirez  Out: Rodado al Tercera Base - Receptor",
+    "lastPlayByPlay": "Raimel Tapia Cuadrangular! 4 Carreras Impulsadas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 8
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
-      "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "on1B": false,
+      "on2B": false,
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 7,
-          "H": 6,
+          "R": 11,
+          "H": 7,
           "E": 1,
           "H2": 4
         },
@@ -324,7 +324,7 @@
         {
           "num": 7,
           "away": 0,
-          "home": 0
+          "home": 4
         },
         {
           "num": 8,
@@ -345,8 +345,8 @@
           "E": 4
         },
         "home": {
-          "R": 7,
-          "H": 6,
+          "R": 11,
+          "H": 7,
           "E": 1
         }
       },
@@ -416,15 +416,15 @@
           },
           {
             "num": 7,
-            "R": 7
+            "R": 11
           },
           {
             "num": 8,
-            "R": 7
+            "R": 11
           },
           {
             "num": 9,
-            "R": 7
+            "R": 11
           }
         ]
       }
@@ -1116,10 +1116,17 @@
           },
           {
             "reference_id": "20075-2-82",
-            "text": "Raimel Tapia al bate",
+            "text": "Raimel Tapia Cuadrangular! 4 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1792897286
+          },
+          {
+            "reference_id": "20075-2-83",
+            "text": "Oscar Gonzalez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1792897060
+            "ts": 1792897289
           }
         ]
       }
@@ -1220,8 +1227,8 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 6,
-        "scoring_plays": 0
+        "total_plays": 7,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1272,7 +1279,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 4
       },
       {
         "num": 8,
