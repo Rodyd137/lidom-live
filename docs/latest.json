@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-25T00:56:28.815Z",
+    "scraped_at": "2026-10-25T00:57:33.351Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Steward Berroa  Out: Rodado al Primera Base - Segunda Base",
+        "atBat": "Mason Mccoy",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -606,7 +606,7 @@
           "runs_half": 2,
           "errors": 1,
           "hits": 10,
-          "pitcher": "Luis Frias",
+          "pitcher": "",
           "era": "",
           "debut": 0,
           "record": ""
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2203,
@@ -10852,8 +10852,8 @@
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Steward Berroa  Out: Rodado al Primera Base - Segunda Base",
+        "atBat": "Mason Mccoy",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10876,7 +10876,7 @@
           "runs_half": 2,
           "errors": 1,
           "hits": 10,
-          "pitcher": "Luis Frias",
+          "pitcher": "",
           "era": "",
           "debut": 0,
           "record": ""
@@ -10897,9 +10897,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2203,
@@ -20288,11 +20288,11 @@
       "date": "2026-10-24 18:00:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Steward Berroa  Out: Rodado al Primera Base - Segunda Base",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20336,7 +20336,7 @@
             "H2": 2
           },
           "probables": {
-            "pitcher": "Luis Frias",
+            "pitcher": "",
             "era": "",
             "record": "",
             "debut": false
@@ -21196,6 +21196,34 @@
               "ts": 1792889545
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "plays": [
+            {
+              "reference_id": "20066-2-59",
+              "text": "Carson Williams Ponche (K) ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792889809
+            },
+            {
+              "reference_id": "20066-2-60",
+              "text": "Steward Berroa  Out: Rodado al Primera Base - Segunda Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792889830
+            },
+            {
+              "reference_id": "20066-2-61",
+              "text": "Mason Mccoy al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792889834
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21288,6 +21316,13 @@
           "half": "top",
           "label": "Alta 7ma",
           "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
