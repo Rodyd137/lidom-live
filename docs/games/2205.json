@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2205",
-    "scraped_at": "2026-10-25T22:28:30.127Z",
+    "scraped_at": "2026-10-25T22:29:34.782Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-25 17:00:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Miguel Bleis Ponche (K) ",
+    "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
     "counts": {
-      "balls": 0,
+      "balls": 3,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 6
         },
         "probables": {
-          "pitcher": "Marco Luciano ",
+          "pitcher": "Geison Urbaez",
           "era": "",
           "record": "",
           "debut": false
@@ -681,6 +681,20 @@
             "ts": 1792967156
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "20089-2-33",
+            "text": "Marcell Ozuna  Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792967366
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -718,6 +732,13 @@
         "label": "Alta 3ra",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -737,7 +758,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
@@ -823,7 +844,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 3,
-          "hits": 6,
+          "hits": 7,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
