@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2206",
-    "scraped_at": "2026-10-25T23:49:12.349Z",
+    "scraped_at": "2026-10-25T23:50:17.283Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-25 17:00:00",
-    "roundText": "Baja 5ta",
-    "currentInningNum": 5,
-    "lastPlayByPlay": "Pedro Severino Out: Elevado al Campo Corto",
+    "roundText": "Alta 6ta",
+    "currentInningNum": 6,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -143,10 +143,10 @@
             "position": ""
           },
           {
-            "id": 6040,
+            "id": 6043,
             "team_id": 4,
-            "name": "Jason Schiavone",
-            "abbreviation": "Schiavone",
+            "name": "M. Hernandez",
+            "abbreviation": "M. Hernandez",
             "number": null,
             "dob": null,
             "height": "",
@@ -915,6 +915,20 @@
             "ts": 1792972055
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "20101-1-61",
+            "text": "M. Hernandez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792972205
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -987,6 +1001,13 @@
         "label": "Baja 5ta",
         "total_plays": 10,
         "scoring_plays": 3
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1021,14 +1042,14 @@
       {
         "num": 5,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 2,
         "homeTeamRuns": 4
       },
       {
         "num": 6,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
