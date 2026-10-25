@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-25T01:26:35.292Z",
+    "scraped_at": "2026-10-25T01:27:39.662Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -639,12 +642,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 7,
+        "base": 1,
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Raimel Tapia Elevado de Sacrificio Jardinero Derecho ",
-        "atBat": "Oscar Gonzalez",
+        "lastPlayByPlay": "Oscar Gonzalez Out: Línea al Tercera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +692,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       }
     ],
@@ -10912,12 +10915,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 7,
+        "base": 1,
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Raimel Tapia Elevado de Sacrificio Jardinero Derecho ",
-        "atBat": "Oscar Gonzalez",
+        "lastPlayByPlay": "Oscar Gonzalez Out: Línea al Tercera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10962,7 +10965,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       }
     ],
@@ -21614,22 +21617,22 @@
       "date": "2026-10-24 19:30:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Raimel Tapia Elevado de Sacrificio Jardinero Derecho ",
+      "lastPlayByPlay": "Oscar Gonzalez Out: Línea al Tercera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 7
+        "base": 1
       },
       "base_runners": {
         "on1B": false,
-        "on2B": true,
-        "on3B": true,
-        "runners": 2,
-        "mask": 7
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -22411,10 +22414,10 @@
             },
             {
               "reference_id": "20072-2-45",
-              "text": "Oscar Gonzalez al bate",
+              "text": "Oscar Gonzalez Out: Línea al Tercera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1792891550
+              "ts": 1792891657
             }
           ]
         }
