@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-25T01:33:01.104Z",
+    "scraped_at": "2026-10-25T01:34:05.594Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Nomar Mazara Sencillo Jardinero Central",
-        "atBat": "Marcell Ozuna ",
+        "lastPlayByPlay": "Marcell Ozuna   Out: Rodado al Lanzador - Primera Base",
+        "atBat": "Carlos Franco",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10909,12 +10909,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Nomar Mazara Sencillo Jardinero Central",
-        "atBat": "Marcell Ozuna ",
+        "lastPlayByPlay": "Marcell Ozuna   Out: Rodado al Lanzador - Primera Base",
+        "atBat": "Carlos Franco",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10958,9 +10958,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "2026-10-25": [
@@ -21625,22 +21625,22 @@
       "date": "2026-10-24 19:30:00",
       "roundText": "Alta 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Nomar Mazara Sencillo Jardinero Central",
+      "lastPlayByPlay": "Marcell Ozuna   Out: Rodado al Lanzador - Primera Base",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -22443,10 +22443,17 @@
             },
             {
               "reference_id": "20073-1-47",
-              "text": "Marcell Ozuna  al bate",
+              "text": "Marcell Ozuna   Out: Rodado al Lanzador - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1792891887
+              "ts": 1792891999
+            },
+            {
+              "reference_id": "20073-1-48",
+              "text": "Carlos Franco al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792892002
             }
           ]
         }
@@ -22512,7 +22519,7 @@
           "num": 5,
           "half": "top",
           "label": "Alta 5ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
