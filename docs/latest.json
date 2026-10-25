@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-25T03:40:30.579Z",
+    "scraped_at": "2026-10-25T03:41:34.674Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Jefferson Rojas",
+        "lastPlayByPlay": "Jefferson Rojas Base por Bolas ",
+        "atBat": "Eddison Paulino ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,7 +688,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 0,
         "strikes": 0
       }
@@ -10909,12 +10909,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Jefferson Rojas",
+        "lastPlayByPlay": "Jefferson Rojas Base por Bolas ",
+        "atBat": "Eddison Paulino ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10958,9 +10958,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 0
       }
     ],
     "2026-10-25": [
@@ -21694,22 +21694,22 @@
       "date": "2026-10-24 19:30:00",
       "roundText": "Alta 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Jefferson Rojas Base por Bolas ",
       "counts": {
-        "balls": 2,
+        "balls": 0,
         "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -22925,10 +22925,17 @@
           "plays": [
             {
               "reference_id": "20077-1-97",
-              "text": "Jefferson Rojas al bate",
+              "text": "Jefferson Rojas Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792899567
+              "ts": 1792899638
+            },
+            {
+              "reference_id": "20077-1-98",
+              "text": "Eddison Paulino  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792899642
             }
           ]
         }
@@ -23050,7 +23057,7 @@
           "num": 9,
           "half": "top",
           "label": "Alta 9na",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
