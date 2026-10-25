@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-25T02:06:15.886Z",
+    "scraped_at": "2026-10-25T02:07:20.251Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Noelvi Marte  Sencillo Jardinero Izquierdo",
-        "atBat": null,
+        "lastPlayByPlay": "Noelvi Marte  Robo de Base Segunda Base",
+        "atBat": "Nomar Mazara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10909,12 +10909,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Noelvi Marte  Sencillo Jardinero Izquierdo",
-        "atBat": null,
+        "lastPlayByPlay": "Noelvi Marte  Robo de Base Segunda Base",
+        "atBat": "Nomar Mazara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -21694,7 +21694,7 @@
       "date": "2026-10-24 19:30:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Noelvi Marte  Sencillo Jardinero Izquierdo",
+      "lastPlayByPlay": "Noelvi Marte  Robo de Base Segunda Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21702,14 +21702,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -22621,6 +22621,20 @@
               "scored": false,
               "is_primary": true,
               "ts": 1792893945
+            },
+            {
+              "reference_id": "20074-1-59-290182",
+              "text": "Noelvi Marte  Robo de Base Segunda Base",
+              "scored": false,
+              "is_primary": false,
+              "ts": 1792894008
+            },
+            {
+              "reference_id": "20074-1-61",
+              "text": "Nomar Mazara al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792894011
             }
           ]
         }
@@ -22700,7 +22714,7 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 3,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
