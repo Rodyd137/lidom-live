@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2203",
-    "scraped_at": "2026-10-25T01:45:55.298Z",
+    "scraped_at": "2026-10-25T01:46:59.471Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-24 19:30:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Agustin Ramirez Robo de Base Segunda Base",
+    "lastPlayByPlay": "Josh Lester  Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 3
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -856,18 +856,39 @@
             "ts": 1792892345
           },
           {
-            "reference_id": "20073-1-51",
-            "text": "Carlos Jorge  al bate",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1792892352
-          },
-          {
             "reference_id": "20073-1-50-290162",
             "text": "Agustin Ramirez Robo de Base Segunda Base",
             "scored": false,
             "is_primary": false,
             "ts": 1792892480
+          },
+          {
+            "reference_id": "20073-1-51",
+            "text": "Carlos Jorge  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792892768
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "20073-2-52",
+            "text": "Josh Lester  Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792892795
+          },
+          {
+            "reference_id": "20073-2-53",
+            "text": "Marco Luciano  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792892799
           }
         ]
       }
@@ -935,6 +956,13 @@
         "label": "Alta 5ta",
         "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -968,7 +996,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 2,
         "homeTeamRuns": 0
