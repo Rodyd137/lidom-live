@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2202",
-    "scraped_at": "2026-10-25T01:00:48.111Z",
+    "scraped_at": "2026-10-25T01:01:52.774Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-10-24 18:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Sergio Alcantara al bate",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -132,10 +132,10 @@
             "position": ""
           },
           {
-            "id": 6102,
+            "id": 6103,
             "team_id": 1,
-            "name": "A. Ortiz",
-            "abbreviation": "A. Ortiz",
+            "name": "Sergio Alcantara",
+            "abbreviation": "Sergio Alcantara",
             "number": null,
             "dob": null,
             "height": "",
@@ -947,6 +947,20 @@
             "ts": 1792889886
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "20067-1-62",
+            "text": "Sergio Alcantara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792890078
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1046,6 +1060,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],

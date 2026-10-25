@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-25T01:00:46.628Z",
+    "scraped_at": "2026-10-25T01:01:50.266Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,7 +582,7 @@
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Sergio Alcantara al bate",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2203,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Oscar Gonzalez Doble! 1 Carrera Impulsada ",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Josh Lester  Base por Bolas ",
+        "atBat": "Marco Luciano ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -655,7 +655,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -688,9 +691,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 2,
-        "strikes": 2
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10852,7 +10855,7 @@
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Sergio Alcantara al bate",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -10898,7 +10901,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -10913,8 +10916,8 @@
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Oscar Gonzalez Doble! 1 Carrera Impulsada ",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Josh Lester  Base por Bolas ",
+        "atBat": "Marco Luciano ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10925,7 +10928,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -10958,9 +10964,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 2,
-        "strikes": 2
+        "strikes": 0
       }
     ],
     "2026-10-25": [
@@ -20288,11 +20294,11 @@
       "date": "2026-10-24 18:00:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Sergio Alcantara al bate",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -20409,10 +20415,10 @@
               "position": ""
             },
             {
-              "id": 6102,
+              "id": 6103,
               "team_id": 1,
-              "name": "A. Ortiz",
-              "abbreviation": "A. Ortiz",
+              "name": "Sergio Alcantara",
+              "abbreviation": "Sergio Alcantara",
               "number": null,
               "dob": null,
               "height": "",
@@ -21224,6 +21230,20 @@
               "ts": 1792889886
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "plays": [
+            {
+              "reference_id": "20067-1-62",
+              "text": "Sergio Alcantara al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792890078
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21323,6 +21343,13 @@
           "half": "bottom",
           "label": "Baja 7ma",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -21485,10 +21512,10 @@
       "date": "2026-10-24 19:30:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "Oscar Gonzalez Doble! 1 Carrera Impulsada ",
+      "lastPlayByPlay": "Josh Lester  Base por Bolas ",
       "counts": {
-        "balls": 3,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 2
       },
       "base_state": {
@@ -22184,10 +22211,17 @@
             },
             {
               "reference_id": "20071-2-34",
-              "text": "Josh Lester  al bate",
+              "text": "Josh Lester  Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792889765
+              "ts": 1792890087
+            },
+            {
+              "reference_id": "20071-2-35",
+              "text": "Marco Luciano  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792890090
             }
           ]
         }
@@ -22232,7 +22266,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 6,
+          "total_plays": 7,
           "scoring_plays": 1
         }
       ],
