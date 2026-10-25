@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2206",
-    "scraped_at": "2026-10-25T23:56:46.415Z",
+    "scraped_at": "2026-10-25T23:57:51.241Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,20 +13,20 @@
     "currentInningNum": 6,
     "lastPlayByPlay": "Jason Schiavone Doble! 2 Carreras Impulsadas ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 3
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -941,6 +941,20 @@
             "scored": true,
             "is_primary": true,
             "ts": 1792972573
+          },
+          {
+            "reference_id": "20101-1-64",
+            "text": "Vidal Brujan  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792972631
+          },
+          {
+            "reference_id": "20101-1-65",
+            "text": "Jonathan Guzman al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792972634
           }
         ]
       }
@@ -1020,7 +1034,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 3,
+        "total_plays": 5,
         "scoring_plays": 1
       }
     ],
@@ -1110,7 +1124,7 @@
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 3,
+          "runs": 4,
           "hits": 8,
           "errors": 2,
           "permalink": "/equipo/tigres-del-licey"
@@ -1120,7 +1134,7 @@
         "id": 2205,
         "date": "2026-10-25 17:00:00",
         "status": 2,
-        "roundText": "Baja 7ma",
+        "roundText": "Alta 8va",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
