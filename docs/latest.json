@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-25T00:05:32.577Z",
+    "scraped_at": "2026-10-25T00:06:36.360Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "Elier Hernandez Base por Bolas ",
-        "atBat": "A. Ortiz",
+        "lastPlayByPlay": "A. Ortiz Ponche (K) ",
+        "atBat": "M. Romero",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2203,
@@ -639,7 +639,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 6,
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 1,
@@ -655,10 +655,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/344328d644485325998a132db1f0cc6a.png",
-          "text": "Lesión"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -691,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -10855,8 +10852,8 @@
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "Elier Hernandez Base por Bolas ",
-        "atBat": "A. Ortiz",
+        "lastPlayByPlay": "A. Ortiz Ponche (K) ",
+        "atBat": "M. Romero",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10900,9 +10897,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2203,
@@ -10912,7 +10909,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 6,
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 1,
@@ -10928,10 +10925,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/344328d644485325998a132db1f0cc6a.png",
-          "text": "Lesión"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -10964,9 +10958,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "2026-10-25": [
@@ -20294,11 +20288,11 @@
       "date": "2026-10-24 18:00:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Elier Hernandez Base por Bolas ",
+      "lastPlayByPlay": "A. Ortiz Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21084,10 +21078,17 @@
             },
             {
               "reference_id": "20065-1-44",
-              "text": "A. Ortiz al bate",
+              "text": "A. Ortiz Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792886649
+              "ts": 1792886764
+            },
+            {
+              "reference_id": "20065-1-45",
+              "text": "M. Romero al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792886767
             }
           ]
         }
@@ -21167,7 +21168,7 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21332,20 +21333,20 @@
       "currentInningNum": 2,
       "lastPlayByPlay": "Jefferson Rojas Sencillo Lanzador",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 2,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 5
+        "base": 6
       },
       "base_runners": {
         "on1B": true,
-        "on2B": true,
-        "on3B": false,
+        "on2B": false,
+        "on3B": true,
         "runners": 2,
-        "mask": 5
+        "mask": 6
       },
       "betting": {
         "moneyline": {
