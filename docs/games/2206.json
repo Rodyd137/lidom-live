@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2206",
-    "scraped_at": "2026-10-25T22:47:54.941Z",
+    "scraped_at": "2026-10-25T22:48:59.797Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-25 17:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Socrates Brito Elevado de Sacrificio Campo Corto",
+    "lastPlayByPlay": "Ibañez Doble! 3 Carreras Impulsadas ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 8
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": true,
-      "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "on3B": false,
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 5,
-          "H": 7,
+          "R": 8,
+          "H": 8,
           "E": 0,
-          "H2": 5
+          "H2": 8
         },
         "probables": {
           "pitcher": "Angel Sanchez",
@@ -308,7 +308,7 @@
         },
         {
           "num": 4,
-          "away": 2,
+          "away": 5,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 5,
-          "H": 7,
+          "R": 8,
+          "H": 8,
           "E": 0
         },
         "home": {
@@ -366,27 +366,27 @@
           },
           {
             "num": 4,
-            "R": 5
+            "R": 8
           },
           {
             "num": 5,
-            "R": 5
+            "R": 8
           },
           {
             "num": 6,
-            "R": 5
+            "R": 8
           },
           {
             "num": 7,
-            "R": 5
+            "R": 8
           },
           {
             "num": 8,
-            "R": 5
+            "R": 8
           },
           {
             "num": 9,
-            "R": 5
+            "R": 8
           }
         ],
         "home": [
@@ -752,10 +752,17 @@
           },
           {
             "reference_id": "20099-1-39",
-            "text": "Ibañez al bate",
+            "text": "Ibañez Doble! 3 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1792968519
+          },
+          {
+            "reference_id": "20099-1-40",
+            "text": "F. Cordero al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1792968135
+            "ts": 1792968521
           }
         ]
       }
@@ -807,8 +814,8 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 8,
-        "scoring_plays": 2
+        "total_plays": 9,
+        "scoring_plays": 3
       }
     ],
     "innings_raw": [
@@ -837,7 +844,7 @@
         "num": 4,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 2,
+        "awayTeamRuns": 5,
         "homeTeamRuns": 0
       },
       {
