@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-25T01:25:30.519Z",
+    "scraped_at": "2026-10-25T01:26:35.292Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "E. Florial Doble! 1 Carrera Impulsada ",
-        "atBat": "Elier Hernandez",
+        "lastPlayByPlay": "Elier Hernandez Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2203,
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 7,
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Harold Andres Ramirez Golpeado por Pelota ",
-        "atBat": "Raimel Tapia",
+        "lastPlayByPlay": "Raimel Tapia Elevado de Sacrificio Jardinero Derecho ",
+        "atBat": "Oscar Gonzalez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,8 +689,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 1
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10852,8 +10852,8 @@
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "E. Florial Doble! 1 Carrera Impulsada ",
-        "atBat": "Elier Hernandez",
+        "lastPlayByPlay": "Elier Hernandez Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10864,7 +10864,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -10897,9 +10900,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2203,
@@ -10909,12 +10912,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 7,
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Harold Andres Ramirez Golpeado por Pelota ",
-        "atBat": "Raimel Tapia",
+        "lastPlayByPlay": "Raimel Tapia Elevado de Sacrificio Jardinero Derecho ",
+        "atBat": "Oscar Gonzalez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10959,8 +10962,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 1
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "2026-10-25": [
@@ -20288,11 +20291,11 @@
       "date": "2026-10-24 18:00:00",
       "roundText": "Alta 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "E. Florial Doble! 1 Carrera Impulsada ",
+      "lastPlayByPlay": "Elier Hernandez Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21323,10 +21326,10 @@
             },
             {
               "reference_id": "20068-1-73",
-              "text": "Elier Hernandez al bate",
+              "text": "Elier Hernandez Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792891460
+              "ts": 1792891579
             }
           ]
         }
@@ -21611,22 +21614,22 @@
       "date": "2026-10-24 19:30:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Harold Andres Ramirez Golpeado por Pelota ",
+      "lastPlayByPlay": "Raimel Tapia Elevado de Sacrificio Jardinero Derecho ",
       "counts": {
         "balls": 0,
-        "strikes": 1,
-        "outs": 1
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 5
+        "base": 7
       },
       "base_runners": {
-        "on1B": true,
+        "on1B": false,
         "on2B": true,
-        "on3B": false,
+        "on3B": true,
         "runners": 2,
-        "mask": 5
+        "mask": 7
       },
       "betting": {
         "moneyline": {
@@ -22401,10 +22404,17 @@
             },
             {
               "reference_id": "20072-2-44",
-              "text": "Raimel Tapia al bate",
+              "text": "Raimel Tapia Elevado de Sacrificio Jardinero Derecho ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792891331
+              "ts": 1792891548
+            },
+            {
+              "reference_id": "20072-2-45",
+              "text": "Oscar Gonzalez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792891550
             }
           ]
         }
@@ -22463,7 +22473,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 6,
+          "total_plays": 7,
           "scoring_plays": 1
         }
       ],
