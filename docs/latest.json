@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-25T01:10:26.373Z",
+    "scraped_at": "2026-10-25T01:11:31.299Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -581,16 +581,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-24 18:00:00",
-        "part": 1,
-        "lastPlayByPlay": "J. Made  Out: Rodado al Primera Base",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "J. C. Escarra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 8va",
+        "roundText": "Baja 8va",
         "currentInningNum": 8,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -606,7 +606,7 @@
           "runs_half": 2,
           "errors": 1,
           "hits": 12,
-          "pitcher": "",
+          "pitcher": "Wander Suero",
           "era": "",
           "debut": 0,
           "record": ""
@@ -628,8 +628,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
-        "strikes": 0
+        "outs": 0,
+        "strikes": 1
       },
       {
         "id": 2203,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Jefferson Rojas Out: Línea al Primera Base",
-        "atBat": "Eddison Paulino ",
+        "lastPlayByPlay": "Eddison Paulino  Ponche (K) ",
+        "atBat": "Noelvi Marte ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 1
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -10853,7 +10853,7 @@
         "date": "2026-10-24 18:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "J. C. Escarra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10876,7 +10876,7 @@
           "runs_half": 2,
           "errors": 1,
           "hits": 12,
-          "pitcher": "",
+          "pitcher": "Wander Suero",
           "era": "",
           "debut": 0,
           "record": ""
@@ -10899,7 +10899,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2203,
@@ -10913,8 +10913,8 @@
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Jefferson Rojas Out: Línea al Primera Base",
-        "atBat": "Eddison Paulino ",
+        "lastPlayByPlay": "Eddison Paulino  Ponche (K) ",
+        "atBat": "Noelvi Marte ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10958,9 +10958,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "2026-10-25": [
@@ -20291,7 +20291,7 @@
       "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -20336,7 +20336,7 @@
             "H2": 2
           },
           "probables": {
-            "pitcher": "",
+            "pitcher": "Wander Suero",
             "era": "",
             "record": "",
             "debut": false
@@ -21266,6 +21266,20 @@
               "ts": 1792890613
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "bottom",
+          "label": "Baja 8va",
+          "plays": [
+            {
+              "reference_id": "20067-2-67",
+              "text": "J. C. Escarra al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792890678
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21372,6 +21386,13 @@
           "half": "top",
           "label": "Alta 8va",
           "total_plays": 5,
+          "scoring_plays": 0
+        },
+        {
+          "num": 8,
+          "half": "bottom",
+          "label": "Baja 8va",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -21534,11 +21555,11 @@
       "date": "2026-10-24 19:30:00",
       "roundText": "Alta 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Jefferson Rojas Out: Línea al Primera Base",
+      "lastPlayByPlay": "Eddison Paulino  Ponche (K) ",
       "counts": {
-        "balls": 3,
-        "strikes": 2,
-        "outs": 1
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22268,10 +22289,17 @@
             },
             {
               "reference_id": "20072-1-38",
-              "text": "Eddison Paulino  al bate",
+              "text": "Eddison Paulino  Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792890518
+              "ts": 1792890646
+            },
+            {
+              "reference_id": "20072-1-39",
+              "text": "Noelvi Marte  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792890647
             }
           ]
         }
@@ -22323,7 +22351,7 @@
           "num": 4,
           "half": "top",
           "label": "Alta 4ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
