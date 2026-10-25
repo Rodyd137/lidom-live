@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-25T00:38:10.800Z",
+    "scraped_at": "2026-10-25T00:39:15.486Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Raynel Delgado Out: Elevado al Jardinero Derecho ",
-        "atBat": "Chritopher Morel",
+        "lastPlayByPlay": "Chritopher Morel Golpeado por Pelota ",
+        "atBat": "Victor Scott",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Carlos Franco",
+        "lastPlayByPlay": "Carlos Franco  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -10848,12 +10848,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-10-24 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Raynel Delgado Out: Elevado al Jardinero Derecho ",
-        "atBat": "Chritopher Morel",
+        "lastPlayByPlay": "Chritopher Morel Golpeado por Pelota ",
+        "atBat": "Victor Scott",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10913,8 +10913,8 @@
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Carlos Franco",
+        "lastPlayByPlay": "Carlos Franco  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10959,7 +10959,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -20288,7 +20288,7 @@
       "date": "2026-10-24 18:00:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Raynel Delgado Out: Elevado al Jardinero Derecho ",
+      "lastPlayByPlay": "Chritopher Morel Golpeado por Pelota ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -20296,14 +20296,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 5
       },
       "base_runners": {
         "on1B": true,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -21141,10 +21141,17 @@
             },
             {
               "reference_id": "20065-2-52",
-              "text": "Chritopher Morel al bate",
+              "text": "Chritopher Morel Golpeado por Pelota ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792888671
+              "ts": 1792888702
+            },
+            {
+              "reference_id": "20065-2-53",
+              "text": "Victor Scott al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792888707
             }
           ]
         }
@@ -21231,7 +21238,7 @@
           "num": 6,
           "half": "bottom",
           "label": "Baja 6ta",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
@@ -21394,11 +21401,11 @@
       "date": "2026-10-24 19:30:00",
       "roundText": "Alta 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Carlos Franco  Out: Rodado al Campo Corto - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22023,10 +22030,17 @@
           "plays": [
             {
               "reference_id": "20071-1-25",
-              "text": "Carlos Franco al bate",
+              "text": "Carlos Franco  Out: Rodado al Campo Corto - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1792888645
+              "ts": 1792888721
+            },
+            {
+              "reference_id": "20071-1-26",
+              "text": "Agustin Ramirez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792888724
             }
           ]
         }
@@ -22064,7 +22078,7 @@
           "num": 3,
           "half": "top",
           "label": "Alta 3ra",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],

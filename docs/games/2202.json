@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2202",
-    "scraped_at": "2026-10-25T00:38:12.913Z",
+    "scraped_at": "2026-10-25T00:39:17.533Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-24 18:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Raynel Delgado Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "Chritopher Morel Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -864,10 +864,17 @@
           },
           {
             "reference_id": "20065-2-52",
-            "text": "Chritopher Morel al bate",
+            "text": "Chritopher Morel Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792888671
+            "ts": 1792888702
+          },
+          {
+            "reference_id": "20065-2-53",
+            "text": "Victor Scott al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792888707
           }
         ]
       }
@@ -954,7 +961,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
