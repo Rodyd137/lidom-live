@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-25T02:52:18.426Z",
+    "scraped_at": "2026-10-25T02:53:22.754Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Christian Cerda Toque de Sacrificio Tercera Base - Primera Base",
-        "atBat": "Euribiel Ángeles ",
+        "lastPlayByPlay": "Euribiel Ángeles  Golpeado por Pelota ",
+        "atBat": "Magneuris Sierra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10909,12 +10909,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-10-24 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Christian Cerda Toque de Sacrificio Tercera Base - Primera Base",
-        "atBat": "Euribiel Ángeles ",
+        "lastPlayByPlay": "Euribiel Ángeles  Golpeado por Pelota ",
+        "atBat": "Magneuris Sierra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -21694,7 +21694,7 @@
       "date": "2026-10-24 19:30:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Christian Cerda Toque de Sacrificio Tercera Base - Primera Base",
+      "lastPlayByPlay": "Euribiel Ángeles  Golpeado por Pelota ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21702,14 +21702,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 3
+        "base": 5
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -22778,10 +22778,17 @@
             },
             {
               "reference_id": "20075-2-79",
-              "text": "Euribiel Ángeles  al bate",
+              "text": "Euribiel Ángeles  Golpeado por Pelota ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792896730
+              "ts": 1792896760
+            },
+            {
+              "reference_id": "20075-2-80",
+              "text": "Magneuris Sierra al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792896765
             }
           ]
         }
@@ -22882,7 +22889,7 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
