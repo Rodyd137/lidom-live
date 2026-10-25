@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2202",
-    "scraped_at": "2026-10-25T00:02:22.255Z",
+    "scraped_at": "2026-10-25T00:03:25.970Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 6,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -114,17 +114,6 @@
             "team_id": 1,
             "name": "E. Florial",
             "abbreviation": "E. Florial",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 6021,
-            "team_id": 1,
-            "name": "K. Alcantara",
-            "abbreviation": "K. Alcantara",
             "number": null,
             "dob": null,
             "height": "",
@@ -786,6 +775,20 @@
             "ts": 1792886366
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "20065-1-43",
+            "text": "Ramon Hernandez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792886543
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -857,6 +860,13 @@
         "half": "bottom",
         "label": "Baja 5ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -963,7 +973,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 0,
-          "hits": 1,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         },
