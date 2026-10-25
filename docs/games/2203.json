@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2203",
-    "scraped_at": "2026-10-25T03:22:21.871Z",
+    "scraped_at": "2026-10-25T03:23:26.133Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-24 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Agustin Ramirez Out: Elevado al Tercera Base",
+    "lastPlayByPlay": "Pablo Reyes Cuadrangular! 4 Carreras Impulsadas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 8
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
-      "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "on1B": false,
+      "on2B": false,
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 7,
-          "H": 11,
+          "R": 11,
+          "H": 12,
           "E": 4,
           "H2": 6
         },
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 1,
+          "away": 5,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 7,
-          "H": 11,
+          "R": 11,
+          "H": 12,
           "E": 4
         },
         "home": {
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 7
+            "R": 11
           },
           {
             "num": 9,
-            "R": 7
+            "R": 11
           }
         ],
         "home": [
@@ -1193,10 +1193,17 @@
           },
           {
             "reference_id": "20076-1-92",
-            "text": "Pablo Reyes al bate",
+            "text": "Pablo Reyes Cuadrangular! 4 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1792898597
+          },
+          {
+            "reference_id": "20076-1-93",
+            "text": "Carlos Jorge  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1792898531
+            "ts": 1792898601
           }
         ]
       }
@@ -1304,8 +1311,8 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 7,
-        "scoring_plays": 0
+        "total_plays": 8,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1362,7 +1369,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 1,
+        "awayTeamRuns": 5,
         "homeTeamRuns": 0
       },
       {
