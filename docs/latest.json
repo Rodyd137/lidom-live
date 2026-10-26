@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-26T00:57:31.971Z",
+    "scraped_at": "2026-10-26T00:58:37.058Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-10-25 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Gustavo Nuñez Sencillo ",
-        "atBat": "J. Made",
+        "lastPlayByPlay": "J. Made Ponche (K) ",
+        "atBat": "Ramon Hernandez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 2
+        "balls": 1,
+        "outs": 1,
+        "strikes": 1
       },
       {
         "id": 2206,
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-25 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "M. De la Cruz Ponche (K) ",
+        "atBat": "John Gil",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10915,8 +10915,8 @@
         "status": 2,
         "date": "2026-10-25 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Gustavo Nuñez Sencillo ",
-        "atBat": "J. Made",
+        "lastPlayByPlay": "J. Made Ponche (K) ",
+        "atBat": "Ramon Hernandez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10960,9 +10960,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 2
+        "balls": 1,
+        "outs": 1,
+        "strikes": 1
       },
       {
         "id": 2206,
@@ -10976,8 +10976,8 @@
         "status": 2,
         "date": "2026-10-25 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "M. De la Cruz Ponche (K) ",
+        "atBat": "John Gil",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -19014,11 +19014,11 @@
       "date": "2026-10-25 17:00:00",
       "roundText": "Baja 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "Gustavo Nuñez Sencillo ",
+      "lastPlayByPlay": "J. Made Ponche (K) ",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
-        "outs": 0
+        "balls": 1,
+        "strikes": 1,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20112,10 +20112,17 @@
             },
             {
               "reference_id": "20086-2-79",
-              "text": "J. Made al bate",
+              "text": "J. Made Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1792976127
+              "ts": 1792976265
+            },
+            {
+              "reference_id": "20086-2-80",
+              "text": "Ramon Hernandez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792976270
             }
           ]
         }
@@ -20244,7 +20251,7 @@
           "num": 9,
           "half": "bottom",
           "label": "Baja 9na",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21924,7 +21931,7 @@
       "date": "2026-10-25 17:00:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "M. De la Cruz Ponche (K) ",
       "counts": {
         "balls": 3,
         "strikes": 2,
@@ -21979,10 +21986,10 @@
           },
           "players": [
             {
-              "id": 6078,
+              "id": 6080,
               "team_id": 4,
-              "name": "Vidal Brujan",
-              "abbreviation": "Vidal Brujan",
+              "name": "John Gil",
+              "abbreviation": "John Gil",
               "number": null,
               "dob": null,
               "height": "",
@@ -22027,6 +22034,17 @@
               "team_id": 4,
               "name": "Socrates Brito",
               "abbreviation": "Brito",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6154,
+              "team_id": 4,
+              "name": "M. De la Cruz",
+              "abbreviation": "M. De la Cruz",
               "number": null,
               "dob": null,
               "height": "",
@@ -23024,6 +23042,27 @@
               "ts": 1792976002
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "plays": [
+            {
+              "reference_id": "20103-1-85",
+              "text": "M. De la Cruz Ponche (K) ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792976268
+            },
+            {
+              "reference_id": "20103-1-86",
+              "text": "John Gil al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792976284
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23124,6 +23163,13 @@
           "label": "Baja 7ma",
           "total_plays": 6,
           "scoring_plays": 1
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "total_plays": 2,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
