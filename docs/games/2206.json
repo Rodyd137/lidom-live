@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2206",
-    "scraped_at": "2026-10-26T00:11:54.985Z",
+    "scraped_at": "2026-10-26T00:12:59.872Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-25 17:00:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Ibañez Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 2,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -985,6 +985,20 @@
             "ts": 1792973384
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "20101-2-70",
+            "text": "Rafael Lantigua  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792973572
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1064,6 +1078,13 @@
         "label": "Alta 6ta",
         "total_plays": 9,
         "scoring_plays": 4
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1104,7 +1125,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 5,
         "homeTeamRuns": 0
