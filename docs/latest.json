@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-26T00:35:39.573Z",
+    "scraped_at": "2026-10-26T00:36:44.382Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -583,7 +583,7 @@
         "date": "2026-10-25 17:00:00",
         "part": 1,
         "lastPlayByPlay": "Josh Lester  Base por Bolas ",
-        "atBat": null,
+        "atBat": "Leonardo Bernal ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -646,8 +646,8 @@
         "status": 2,
         "date": "2026-10-25 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "George Valera  Base por Bolas ",
+        "atBat": "Mike Rosario",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -691,9 +691,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -10980,7 +10980,7 @@
         "date": "2026-10-25 17:00:00",
         "part": 1,
         "lastPlayByPlay": "Josh Lester  Base por Bolas ",
-        "atBat": null,
+        "atBat": "Leonardo Bernal ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11043,8 +11043,8 @@
         "status": 2,
         "date": "2026-10-25 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "George Valera  Base por Bolas ",
+        "atBat": "Mike Rosario",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11088,9 +11088,9 @@
           "debut": 1,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "2026-10-26": [
@@ -21451,6 +21451,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1792974803
+            },
+            {
+              "reference_id": "20095-1-90",
+              "text": "Leonardo Bernal  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792974999
             }
           ]
         }
@@ -21572,7 +21579,7 @@
           "num": 9,
           "half": "top",
           "label": "Alta 9na",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 1
         }
       ],
@@ -21762,10 +21769,10 @@
       "date": "2026-10-25 17:00:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "George Valera  Base por Bolas ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -21986,6 +21993,17 @@
               "team_id": 6,
               "name": "Yairo Muñoz",
               "abbreviation": "Yairo Muñoz",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6007,
+              "team_id": 6,
+              "name": "George Valera ",
+              "abbreviation": "G. Valera",
               "number": null,
               "dob": null,
               "height": "",
@@ -22813,6 +22831,27 @@
               "ts": 1792974704
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "plays": [
+            {
+              "reference_id": "20102-2-79",
+              "text": "George Valera  Base por Bolas ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792974944
+            },
+            {
+              "reference_id": "20102-2-80",
+              "text": "Mike Rosario al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792974948
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22905,6 +22944,13 @@
           "half": "top",
           "label": "Alta 7ma",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
