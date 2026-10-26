@@ -1,14 +1,14 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2196",
-    "scraped_at": "2026-10-22T05:29:47.842Z",
+    "scraped_at": "2026-10-26T11:22:07.064Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2196,
     "season_id": 23,
-    "status": 7,
-    "date": "2026-10-21 19:15:00",
+    "status": 1,
+    "date": "2026-10-26 19:15:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
     "lastPlayByPlay": "",
@@ -222,7 +222,7 @@
         ]
       }
     },
-    "comment": "Por lluvias",
+    "comment": "",
     "linescore": {
       "innings": [
         {
@@ -558,38 +558,11 @@
         "homeTeamRuns": 0
       }
     ],
-    "siblingGames": [
-      {
-        "id": 2198,
-        "date": "2026-10-22 19:00:00",
-        "status": 1,
-        "roundText": "Alta 1ra",
-        "awayTeam": {
-          "id": 6,
-          "name": "Toros",
-          "abbr": "TE",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 0,
-          "hits": 0,
-          "errors": 0,
-          "permalink": "/equipo/toros-del-este"
-        },
-        "homeTeam": {
-          "id": 5,
-          "name": "Gigantes",
-          "abbr": "GC",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 0,
-          "hits": 0,
-          "errors": 0,
-          "permalink": "/equipo/gigantes-del-cibao"
-        }
-      }
-    ],
+    "siblingGames": [],
     "stats_tables": [
       {
         "title": "Estadísticas Generales",
-        "round": "Temporada Regular (4 Juegos)",
+        "round": "Temporada Regular (7 Juegos)",
         "columns": [
           "G",
           "P",
@@ -600,20 +573,20 @@
         ],
         "teams": {
           "Estrellas EO": {
-            "G": 2,
+            "G": 5,
             "P": 2,
-            "CA": 6.5,
-            "CP": 3.5,
-            "H": 10.8,
-            "E": 0.8
+            "CA": 8.3,
+            "CP": 4.9,
+            "H": 11.3,
+            "E": 0.9
           },
           "Aguilas AC": {
-            "G": 1,
-            "P": 3,
-            "CA": 3,
-            "CP": 4.3,
-            "H": 6.5,
-            "E": 1.3
+            "G": 2,
+            "P": 5,
+            "CA": 4,
+            "CP": 5.3,
+            "H": 6.3,
+            "E": 1.1
           }
         }
       }
