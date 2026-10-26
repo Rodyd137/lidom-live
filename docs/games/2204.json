@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2204",
-    "scraped_at": "2026-10-26T00:39:06.804Z",
+    "scraped_at": "2026-10-26T00:40:16.739Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 7,
+          "R": 8,
           "H": 6,
           "E": 1,
           "H2": 0
@@ -333,14 +333,14 @@
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 7,
+          "R": 8,
           "H": 6,
           "E": 1
         },
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 7
+            "R": 8
           }
         ],
         "home": [
@@ -1050,6 +1050,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1792975128
+          },
+          {
+            "reference_id": "20086-1-72",
+            "text": "Luis Liberato al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792975182
           }
         ]
       }
@@ -1171,7 +1178,7 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1236,7 +1243,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],

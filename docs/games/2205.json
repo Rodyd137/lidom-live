@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2205",
-    "scraped_at": "2026-10-26T00:39:06.836Z",
+    "scraped_at": "2026-10-26T00:40:16.741Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-25 17:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Aaron Schunk Sencillo Jardinero Central",
+    "lastPlayByPlay": "Aaron Schunk Robo de Base Wild Pitch",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 5
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": true,
-      "on3B": false,
+      "on3B": true,
       "runners": 2,
-      "mask": 5
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -180,7 +180,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Gregori Louis",
+          "pitcher": "Kelvin Caceres",
           "era": "",
           "record": "",
           "debut": false
@@ -1127,6 +1127,20 @@
             "scored": false,
             "is_primary": true,
             "ts": 1792975124
+          },
+          {
+            "reference_id": "20095-1-92",
+            "text": "Aaron Schunk Robo de Base Wild Pitch",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792975167
+          },
+          {
+            "reference_id": "20095-1-93",
+            "text": "Miguel Bleis al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792975174
           }
         ]
       }
@@ -1248,7 +1262,7 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 4,
+        "total_plays": 6,
         "scoring_plays": 1
       }
     ],
@@ -1328,7 +1342,7 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 7,
+          "runs": 8,
           "hits": 6,
           "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
