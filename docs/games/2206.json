@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2206",
-    "scraped_at": "2026-10-26T00:36:47.515Z",
+    "scraped_at": "2026-10-26T00:37:52.976Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-25 17:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "George Valera  Base por Bolas ",
+    "lastPlayByPlay": "Mike Rosario Triple! 1 Carrera Impulsada ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 4
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 2
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 8,
-          "H": 12,
+          "R": 9,
+          "H": 13,
           "E": 2,
           "H2": 6
         },
@@ -324,7 +324,7 @@
         {
           "num": 7,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 8,
@@ -345,8 +345,8 @@
           "E": 1
         },
         "home": {
-          "R": 8,
-          "H": 12,
+          "R": 9,
+          "H": 13,
           "E": 2
         }
       },
@@ -416,15 +416,15 @@
           },
           {
             "num": 7,
-            "R": 8
+            "R": 9
           },
           {
             "num": 8,
-            "R": 8
+            "R": 9
           },
           {
             "num": 9,
-            "R": 8
+            "R": 9
           }
         ]
       }
@@ -1088,10 +1088,17 @@
           },
           {
             "reference_id": "20102-2-80",
-            "text": "Mike Rosario al bate",
+            "text": "Mike Rosario Triple! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1792975062
+          },
+          {
+            "reference_id": "20102-2-81",
+            "text": "Pedro Severino al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1792974948
+            "ts": 1792975066
           }
         ]
       }
@@ -1192,8 +1199,8 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 2,
-        "scoring_plays": 0
+        "total_plays": 3,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1244,7 +1251,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 8,
