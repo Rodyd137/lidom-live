@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-26T01:01:52.093Z",
+    "scraped_at": "2026-10-26T01:02:57.094Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -107,12 +107,12 @@
         "abbreviation": "TL"
       },
       "wins": 5,
-      "loses": 2,
+      "loses": 3,
       "wins_home": 1,
-      "loses_home": 1,
+      "loses_home": 2,
       "wins_visitor": 4,
       "loses_visitor": 1,
-      "gb": 0,
+      "gb": 0.5,
       "against": {
         "1": false,
         "3": {
@@ -176,7 +176,7 @@
           }
         }
       },
-      "pct": ".714"
+      "pct": ".625"
     },
     {
       "team": {
@@ -434,16 +434,16 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "abbreviation": "AC"
       },
-      "wins": 1,
+      "wins": 2,
       "loses": 5,
       "wins_home": 1,
       "loses_home": 2,
-      "wins_visitor": 0,
+      "wins_visitor": 1,
       "loses_visitor": 3,
-      "gb": 3.5,
+      "gb": 3,
       "against": {
         "1": {
-          "wins": 0,
+          "wins": 1,
           "team": {
             "id": 1,
             "seo_title": "Tigres del Licey: Historia, Campeonatos y Jugadores",
@@ -504,11 +504,72 @@
           }
         }
       },
-      "pct": ".167"
+      "pct": ".286"
     }
   ],
   "games": {
     "today": [
+      {
+        "id": 2206,
+        "season_id": 23,
+        "moneyline_g": null,
+        "moneyline_h": null,
+        "handicap_g": null,
+        "handicap_h": null,
+        "over_under": null,
+        "base": 1,
+        "status": 2,
+        "date": "2026-10-25 17:00:00",
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Juan Brito",
+        "comment": "",
+        "winningPitcher": null,
+        "losingPitcher": null,
+        "savingPitcher": null,
+        "roundText": "Baja 8va",
+        "currentInningNum": 8,
+        "battingTeam": "homeTeam",
+        "adImage": null,
+        "adLink": "",
+        "banner": "",
+        "gameAlert": "",
+        "awayTeam": {
+          "id": 4,
+          "name": "Leones",
+          "abbreviation": "LE",
+          "color": "db2319",
+          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
+          "permalink": "/equipo/leones-del-escogido",
+          "runs": 15,
+          "runs_half": 10,
+          "errors": 1,
+          "hits": 15,
+          "pitcher": "Colome",
+          "era": "",
+          "debut": 0,
+          "record": ""
+        },
+        "homeTeam": {
+          "id": 6,
+          "name": "Toros",
+          "abbreviation": "TE",
+          "color": "ef7722",
+          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
+          "permalink": "/equipo/toros-del-este",
+          "runs": 9,
+          "runs_half": 6,
+          "errors": 2,
+          "hits": 13,
+          "pitcher": "Spencer Turnbull",
+          "era": "",
+          "debut": 0,
+          "record": ""
+        },
+        "balls": 0,
+        "outs": 0,
+        "strikes": 0
+      },
       {
         "id": 2204,
         "season_id": 23,
@@ -517,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
-        "status": 2,
+        "base": 1,
+        "status": 6,
         "date": "2026-10-25 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Ramon Hernandez Ponche (K) ",
-        "atBat": "Francisco Mejia",
+        "lastPlayByPlay": "Francisco Mejia Out: Elevado al Segunda Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,69 +627,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 2,
-        "strikes": 2
-      },
-      {
-        "id": 2206,
-        "season_id": 23,
-        "moneyline_g": null,
-        "moneyline_h": null,
-        "handicap_g": null,
-        "handicap_h": null,
-        "over_under": null,
-        "base": 1,
-        "status": 2,
-        "date": "2026-10-25 17:00:00",
-        "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Juan Brito",
-        "comment": "",
-        "winningPitcher": null,
-        "losingPitcher": null,
-        "savingPitcher": null,
-        "roundText": "Baja 8va",
-        "currentInningNum": 8,
-        "battingTeam": "homeTeam",
-        "adImage": null,
-        "adLink": "",
-        "banner": "",
-        "gameAlert": "",
-        "awayTeam": {
-          "id": 4,
-          "name": "Leones",
-          "abbreviation": "LE",
-          "color": "db2319",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "permalink": "/equipo/leones-del-escogido",
-          "runs": 15,
-          "runs_half": 10,
-          "errors": 1,
-          "hits": 15,
-          "pitcher": "Kelly Austin",
-          "era": "",
-          "debut": 0,
-          "record": ""
-        },
-        "homeTeam": {
-          "id": 6,
-          "name": "Toros",
-          "abbreviation": "TE",
-          "color": "ef7722",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "permalink": "/equipo/toros-del-este",
-          "runs": 9,
-          "runs_half": 6,
-          "errors": 2,
-          "hits": 13,
-          "pitcher": "Spencer Turnbull",
-          "era": "",
-          "debut": 0,
-          "record": ""
-        },
         "balls": 0,
-        "outs": 0,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -10904,6 +10904,67 @@
     ],
     "2026-10-25": [
       {
+        "id": 2206,
+        "season_id": 23,
+        "moneyline_g": null,
+        "moneyline_h": null,
+        "handicap_g": null,
+        "handicap_h": null,
+        "over_under": null,
+        "base": 1,
+        "status": 2,
+        "date": "2026-10-25 17:00:00",
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Juan Brito",
+        "comment": "",
+        "winningPitcher": null,
+        "losingPitcher": null,
+        "savingPitcher": null,
+        "roundText": "Baja 8va",
+        "currentInningNum": 8,
+        "battingTeam": "homeTeam",
+        "adImage": null,
+        "adLink": "",
+        "banner": "",
+        "gameAlert": "",
+        "awayTeam": {
+          "id": 4,
+          "name": "Leones",
+          "abbreviation": "LE",
+          "color": "db2319",
+          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
+          "permalink": "/equipo/leones-del-escogido",
+          "runs": 15,
+          "runs_half": 10,
+          "errors": 1,
+          "hits": 15,
+          "pitcher": "Colome",
+          "era": "",
+          "debut": 0,
+          "record": ""
+        },
+        "homeTeam": {
+          "id": 6,
+          "name": "Toros",
+          "abbreviation": "TE",
+          "color": "ef7722",
+          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
+          "permalink": "/equipo/toros-del-este",
+          "runs": 9,
+          "runs_half": 6,
+          "errors": 2,
+          "hits": 13,
+          "pitcher": "Spencer Turnbull",
+          "era": "",
+          "debut": 0,
+          "record": ""
+        },
+        "balls": 0,
+        "outs": 0,
+        "strikes": 0
+      },
+      {
         "id": 2204,
         "season_id": 23,
         "moneyline_g": null,
@@ -10911,12 +10972,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
-        "status": 2,
+        "base": 1,
+        "status": 6,
         "date": "2026-10-25 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Ramon Hernandez Ponche (K) ",
-        "atBat": "Francisco Mejia",
+        "lastPlayByPlay": "Francisco Mejia Out: Elevado al Segunda Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -10960,69 +11021,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 2,
-        "strikes": 2
-      },
-      {
-        "id": 2206,
-        "season_id": 23,
-        "moneyline_g": null,
-        "moneyline_h": null,
-        "handicap_g": null,
-        "handicap_h": null,
-        "over_under": null,
-        "base": 1,
-        "status": 2,
-        "date": "2026-10-25 17:00:00",
-        "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Juan Brito",
-        "comment": "",
-        "winningPitcher": null,
-        "losingPitcher": null,
-        "savingPitcher": null,
-        "roundText": "Baja 8va",
-        "currentInningNum": 8,
-        "battingTeam": "homeTeam",
-        "adImage": null,
-        "adLink": "",
-        "banner": "",
-        "gameAlert": "",
-        "awayTeam": {
-          "id": 4,
-          "name": "Leones",
-          "abbreviation": "LE",
-          "color": "db2319",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "permalink": "/equipo/leones-del-escogido",
-          "runs": 15,
-          "runs_half": 10,
-          "errors": 1,
-          "hits": 15,
-          "pitcher": "Kelly Austin",
-          "era": "",
-          "debut": 0,
-          "record": ""
-        },
-        "homeTeam": {
-          "id": 6,
-          "name": "Toros",
-          "abbreviation": "TE",
-          "color": "ef7722",
-          "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "permalink": "/equipo/toros-del-este",
-          "runs": 9,
-          "runs_half": 6,
-          "errors": 2,
-          "hits": 13,
-          "pitcher": "Spencer Turnbull",
-          "era": "",
-          "debut": 0,
-          "record": ""
-        },
         "balls": 0,
-        "outs": 0,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -19010,26 +19010,26 @@
     "2204": {
       "id": 2204,
       "season_id": 23,
-      "status": 2,
+      "status": 6,
       "date": "2026-10-25 17:00:00",
       "roundText": "Baja 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "Ramon Hernandez Ponche (K) ",
+      "lastPlayByPlay": "Francisco Mejia Out: Elevado al Segunda Base",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
-        "outs": 2
+        "balls": 0,
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 3
+        "base": 1
       },
       "base_runners": {
         "on1B": false,
-        "on2B": true,
+        "on2B": false,
         "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -20126,10 +20126,10 @@
             },
             {
               "reference_id": "20086-2-81",
-              "text": "Francisco Mejia al bate",
+              "text": "Francisco Mejia Out: Elevado al Segunda Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1792976408
+              "ts": 1792976537
             }
           ]
         }
@@ -21821,7 +21821,7 @@
         {
           "id": 2204,
           "date": "2026-10-25 17:00:00",
-          "status": 2,
+          "status": 6,
           "roundText": "Baja 9na",
           "awayTeam": {
             "id": 3,
@@ -21986,7 +21986,7 @@
             "H2": 10
           },
           "probables": {
-            "pitcher": "Kelly Austin",
+            "pitcher": "Colome",
             "era": "",
             "record": "",
             "debut": false
@@ -23276,7 +23276,7 @@
         {
           "id": 2204,
           "date": "2026-10-25 17:00:00",
-          "status": 2,
+          "status": 6,
           "roundText": "Baja 9na",
           "awayTeam": {
             "id": 3,
