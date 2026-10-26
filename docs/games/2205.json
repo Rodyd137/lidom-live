@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2205",
-    "scraped_at": "2026-10-25T23:58:56.004Z",
+    "scraped_at": "2026-10-26T00:00:01.005Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 8,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 2,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -114,6 +114,17 @@
             "team_id": 7,
             "name": "Cesar Prieto ",
             "abbreviation": "C. Prieto",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6212,
+            "team_id": 7,
+            "name": "Juan Santana",
+            "abbreviation": "Juan Santana",
             "number": null,
             "dob": null,
             "height": "",
@@ -985,6 +996,20 @@
             "ts": 1792972530
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "20094-1-73",
+            "text": "Juan Santana al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792972773
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1085,6 +1110,13 @@
         "label": "Baja 7ma",
         "total_plays": 7,
         "scoring_plays": 2
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [

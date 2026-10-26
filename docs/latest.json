@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-25T23:58:53.463Z",
+    "scraped_at": "2026-10-25T23:59:58.235Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -583,7 +586,7 @@
         "date": "2026-10-25 17:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": "Carlos Franco",
+        "atBat": "Juan Santana",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +630,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2206,
@@ -10991,7 +10994,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -11041,7 +11047,7 @@
         "date": "2026-10-25 17:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": "Carlos Franco",
+        "atBat": "Juan Santana",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11085,9 +11091,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2206,
@@ -20257,8 +20263,8 @@
       "currentInningNum": 8,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
+        "balls": 2,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -20358,6 +20364,17 @@
               "team_id": 7,
               "name": "Cesar Prieto ",
               "abbreviation": "C. Prieto",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6212,
+              "team_id": 7,
+              "name": "Juan Santana",
+              "abbreviation": "Juan Santana",
               "number": null,
               "dob": null,
               "height": "",
@@ -21229,6 +21246,20 @@
               "ts": 1792972530
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "plays": [
+            {
+              "reference_id": "20094-1-73",
+              "text": "Juan Santana al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1792972773
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21329,6 +21360,13 @@
           "label": "Baja 7ma",
           "total_plays": 7,
           "scoring_plays": 2
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
