@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2206",
-    "scraped_at": "2026-10-26T00:48:55.622Z",
+    "scraped_at": "2026-10-26T00:50:00.553Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-25 17:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Rafael Lantigua  Ponche (K) ",
+    "lastPlayByPlay": "Ronny Simon Golpeado por Pelota ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 4
+      "base": 6
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -1109,10 +1109,17 @@
           },
           {
             "reference_id": "20102-2-83",
-            "text": "Ronny Simon al bate",
+            "text": "Ronny Simon Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1792975633
+            "ts": 1792975753
+          },
+          {
+            "reference_id": "20102-2-84",
+            "text": "Gilberto Celestino  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1792975757
           }
         ]
       }
@@ -1213,7 +1220,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 1
       }
     ],
