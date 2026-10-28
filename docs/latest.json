@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-28T23:46:42.766Z",
+    "scraped_at": "2026-10-28T23:47:47.721Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Luis Liberato Primera Base Lanzador",
-        "atBat": "J. C. Escarra",
+        "lastPlayByPlay": "J. C. Escarra Out: Elevado al Jardinero Central",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Ronny Simon Sencillo Primera Base",
-        "atBat": "Gilberto Celestino ",
+        "lastPlayByPlay": "Gilberto Celestino  Ponche (K) ",
+        "atBat": "Juan Brito",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,8 +628,8 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2210,
@@ -11591,16 +11591,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-28 19:30:00",
-        "part": 2,
-        "lastPlayByPlay": "Luis Liberato Primera Base Lanzador",
-        "atBat": "J. C. Escarra",
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 1ra",
-        "currentInningNum": 1,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 2da",
+        "currentInningNum": 2,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -11638,7 +11638,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -11653,8 +11653,8 @@
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Ronny Simon Sencillo Primera Base",
-        "atBat": "Gilberto Celestino ",
+        "lastPlayByPlay": "Gilberto Celestino  Ponche (K) ",
+        "atBat": "Juan Brito",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11699,8 +11699,8 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2210,
@@ -20106,11 +20106,11 @@
       "date": "2026-10-28 19:30:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Luis Liberato Primera Base Lanzador",
+      "lastPlayByPlay": "J. C. Escarra Out: Elevado al Jardinero Central",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20544,10 +20544,10 @@
             },
             {
               "reference_id": "20141-2-8",
-              "text": "J. C. Escarra al bate",
+              "text": "J. C. Escarra Out: Elevado al Jardinero Central",
               "scored": false,
               "is_primary": true,
-              "ts": 1793231198
+              "ts": 1793231259
             }
           ]
         }
@@ -20754,11 +20754,11 @@
       "date": "2026-10-28 19:30:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Ronny Simon Sencillo Primera Base",
+      "lastPlayByPlay": "Gilberto Celestino  Ponche (K) ",
       "counts": {
         "balls": 1,
-        "strikes": 2,
-        "outs": 0
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21215,10 +21215,17 @@
             },
             {
               "reference_id": "20150-2-5",
-              "text": "Gilberto Celestino  al bate",
+              "text": "Gilberto Celestino  Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793231094
+              "ts": 1793231220
+            },
+            {
+              "reference_id": "20150-2-6",
+              "text": "Juan Brito al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793231230
             }
           ]
         }
@@ -21235,7 +21242,7 @@
           "num": 1,
           "half": "bottom",
           "label": "Baja 1ra",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
