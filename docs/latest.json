@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-28T23:53:13.105Z",
+    "scraped_at": "2026-10-28T23:54:18.041Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,11 +517,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 1,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Jason Schiavone Ponche (K) ",
+        "lastPlayByPlay": "Jonathan Guzman  Out: Rodado al Tercera Base - Primera Base",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Jesús Sanchez  Doble! 1 Carrera Impulsada Jardinero Izquierdo",
-        "atBat": "Yairo Muñoz",
+        "lastPlayByPlay": "Yairo Muñoz  Rodado al Tercera Base - se embasa por Error del - Tercera Base - Carrera Empujada",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11588,11 +11588,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 1,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Jason Schiavone Ponche (K) ",
+        "lastPlayByPlay": "Jonathan Guzman  Out: Rodado al Tercera Base - Primera Base",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -11638,7 +11638,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -11653,8 +11653,8 @@
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Jesús Sanchez  Doble! 1 Carrera Impulsada Jardinero Izquierdo",
-        "atBat": "Yairo Muñoz",
+        "lastPlayByPlay": "Yairo Muñoz  Rodado al Tercera Base - se embasa por Error del - Tercera Base - Carrera Empujada",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -20106,22 +20106,22 @@
       "date": "2026-10-28 19:30:00",
       "roundText": "Alta 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "Jason Schiavone Ponche (K) ",
+      "lastPlayByPlay": "Jonathan Guzman  Out: Rodado al Tercera Base - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
+        "on1B": false,
         "on2B": false,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -20576,6 +20576,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1793231591
+            },
+            {
+              "reference_id": "20142-1-12",
+              "text": "Jonathan Guzman  Out: Rodado al Tercera Base - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793231646
             }
           ]
         }
@@ -20599,7 +20606,7 @@
           "num": 2,
           "half": "top",
           "label": "Alta 2da",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -20789,7 +20796,7 @@
       "date": "2026-10-28 19:30:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Jesús Sanchez  Doble! 1 Carrera Impulsada Jardinero Izquierdo",
+      "lastPlayByPlay": "Yairo Muñoz  Rodado al Tercera Base - se embasa por Error del - Tercera Base - Carrera Empujada",
       "counts": {
         "balls": 0,
         "strikes": 1,
@@ -21278,10 +21285,10 @@
             },
             {
               "reference_id": "20150-2-9",
-              "text": "Yairo Muñoz al bate",
-              "scored": false,
+              "text": "Yairo Muñoz  Rodado al Tercera Base - se embasa por Error del - Tercera Base - Carrera Empujada",
+              "scored": true,
               "is_primary": true,
-              "ts": 1793231566
+              "ts": 1793231651
             }
           ]
         }
@@ -21299,7 +21306,7 @@
           "half": "bottom",
           "label": "Baja 1ra",
           "total_plays": 6,
-          "scoring_plays": 1
+          "scoring_plays": 2
         }
       ],
       "innings_raw": [
