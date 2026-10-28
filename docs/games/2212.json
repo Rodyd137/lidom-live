@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2212",
-    "scraped_at": "2026-10-28T23:48:54.684Z",
+    "scraped_at": "2026-10-28T23:49:59.588Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-28 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Ronny Simon Out Robando Base! se embasa por Error del - Segunda Base",
+    "lastPlayByPlay": "Juan Brito Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 4
+      "base": 6
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 0,
           "H": 0,
-          "E": 0,
+          "E": 1,
           "H2": 0
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 0,
           "H": 0,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 0,
@@ -479,17 +479,24 @@
           },
           {
             "reference_id": "20150-2-6",
-            "text": "Ronny Simon Out Robando Base! se embasa por Error del - Segunda Base",
+            "text": "Ronny Simon Out Robando Base! se embasa por Error del - Receptor",
             "scored": false,
             "is_primary": true,
             "ts": 1793231300
           },
           {
             "reference_id": "20150-2-7",
-            "text": "Juan Brito al bate",
+            "text": "Juan Brito Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1793231317
+            "ts": 1793231341
+          },
+          {
+            "reference_id": "20150-2-8",
+            "text": "Jesús Sanchez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793231349
           }
         ]
       }
@@ -506,7 +513,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
