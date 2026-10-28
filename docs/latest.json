@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-28T23:56:28.407Z",
+    "scraped_at": "2026-10-28T23:57:33.127Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-10-28 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jorge Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2212,
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 7,
+        "base": 8,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Yairo Muñoz  Rodado al Tercera Base - se embasa por Error del - Tercera Base - Carrera Empujada",
-        "atBat": "George Valera ",
+        "lastPlayByPlay": "George Valera  Base por Bolas ",
+        "atBat": "Pedro Severino",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 1,
-        "strikes": 2
+        "strikes": 1
       },
       {
         "id": 2210,
@@ -11593,7 +11593,7 @@
         "date": "2026-10-28 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jorge Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11637,9 +11637,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2212,
@@ -11649,12 +11649,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 7,
+        "base": 8,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Yairo Muñoz  Rodado al Tercera Base - se embasa por Error del - Tercera Base - Carrera Empujada",
-        "atBat": "George Valera ",
+        "lastPlayByPlay": "George Valera  Base por Bolas ",
+        "atBat": "Pedro Severino",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11698,9 +11698,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 1,
-        "strikes": 2
+        "strikes": 1
       },
       {
         "id": 2210,
@@ -20108,8 +20108,8 @@
       "currentInningNum": 2,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -20585,6 +20585,20 @@
               "ts": 1793231646
             }
           ]
+        },
+        {
+          "num": 2,
+          "half": "bottom",
+          "label": "Baja 2da",
+          "plays": [
+            {
+              "reference_id": "20142-2-13",
+              "text": "Jorge Bonifacio al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793231810
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20607,6 +20621,13 @@
           "half": "top",
           "label": "Alta 2da",
           "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 2,
+          "half": "bottom",
+          "label": "Baja 2da",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -20796,22 +20817,22 @@
       "date": "2026-10-28 19:30:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Yairo Muñoz  Rodado al Tercera Base - se embasa por Error del - Tercera Base - Carrera Empujada",
+      "lastPlayByPlay": "George Valera  Base por Bolas ",
       "counts": {
-        "balls": 3,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 1,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 7
+        "base": 8
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": true,
         "on3B": true,
-        "runners": 2,
-        "mask": 7
+        "runners": 3,
+        "mask": 8
       },
       "betting": {
         "moneyline": {
@@ -21292,10 +21313,17 @@
             },
             {
               "reference_id": "20150-2-10",
-              "text": "George Valera  al bate",
+              "text": "George Valera  Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793231673
+              "ts": 1793231801
+            },
+            {
+              "reference_id": "20150-2-11",
+              "text": "Pedro Severino al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793231804
             }
           ]
         }
@@ -21312,7 +21340,7 @@
           "num": 1,
           "half": "bottom",
           "label": "Baja 1ra",
-          "total_plays": 7,
+          "total_plays": 8,
           "scoring_plays": 2
         }
       ],
