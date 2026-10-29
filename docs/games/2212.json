@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2212",
-    "scraped_at": "2026-10-29T01:18:35.201Z",
+    "scraped_at": "2026-10-29T01:19:39.883Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-28 19:30:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Pablo Reyes Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -800,6 +800,20 @@
             "ts": 1793236569
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "20154-2-45",
+            "text": "Yairo Muñoz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793236741
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -865,6 +879,13 @@
         "label": "Alta 5ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -898,7 +919,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
