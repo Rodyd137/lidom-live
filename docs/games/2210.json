@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2210",
-    "scraped_at": "2026-10-29T02:11:34.978Z",
+    "scraped_at": "2026-10-29T02:12:39.959Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-28 19:30:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Marco Luciano  Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "Mel Rojas Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 2
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -646,6 +646,34 @@
             "ts": 1793239539
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "20134-2-25",
+            "text": "E. Florial Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793239917
+          },
+          {
+            "reference_id": "20134-2-26",
+            "text": "Mel Rojas Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793239930
+          },
+          {
+            "reference_id": "20134-2-27",
+            "text": "A. Ortiz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793239935
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -683,6 +711,13 @@
         "label": "Alta 3ra",
         "total_plays": 6,
         "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -702,7 +737,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -772,7 +807,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 3,
-          "hits": 6,
+          "hits": 7,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }
