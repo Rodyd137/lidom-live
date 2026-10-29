@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-29T02:50:26.217Z",
+    "scraped_at": "2026-10-29T02:51:33.401Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 1,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "J. Made Ponche (K) ",
-        "atBat": "K. Alcantara",
+        "lastPlayByPlay": "K. Alcantara Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2211,
@@ -11588,12 +11588,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 1,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "J. Made Ponche (K) ",
-        "atBat": "K. Alcantara",
+        "lastPlayByPlay": "E. Florial Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11637,9 +11637,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2211,
@@ -19511,22 +19511,22 @@
       "date": "2026-10-28 19:30:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "J. Made Ponche (K) ",
+      "lastPlayByPlay": "E. Florial Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 1
+        "balls": 0,
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 3
+        "base": 1
       },
       "base_runners": {
         "on1B": false,
-        "on2B": true,
+        "on2B": false,
         "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -20280,10 +20280,17 @@
             },
             {
               "reference_id": "20136-2-38",
-              "text": "K. Alcantara al bate",
+              "text": "K. Alcantara  Out: Rodado al Campo Corto - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1793242112
+              "ts": 1793242288
+            },
+            {
+              "reference_id": "20136-2-39",
+              "text": "E. Florial Ponche (K) ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793242292
             }
           ]
         }
@@ -20356,7 +20363,7 @@
           "num": 5,
           "half": "bottom",
           "label": "Baja 5ta",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
