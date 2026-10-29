@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-29T02:26:40.452Z",
+    "scraped_at": "2026-10-29T02:27:44.962Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,19 +517,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-28 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Josh Lester  Out: Elevado al Jardinero Central",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "Ramon Hernandez Golpeado por Pelota ",
+        "atBat": "Francisco Mejia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "currentInningNum": 4,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 3,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2212,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -11588,12 +11588,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Ramon Hernandez Golpeado por Pelota ",
+        "atBat": "Francisco Mejia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11698,9 +11698,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 3,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2212,
@@ -11759,9 +11759,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "2026-10-29": [
@@ -19509,24 +19509,24 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-28 19:30:00",
-      "roundText": "Alta 4ta",
+      "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Josh Lester  Out: Elevado al Jardinero Central",
+      "lastPlayByPlay": "Ramon Hernandez Golpeado por Pelota ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
-        "base": 1
+        "battingTeam": "homeTeam",
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20202,6 +20202,27 @@
               "ts": 1793240611
             }
           ]
+        },
+        {
+          "num": 4,
+          "half": "bottom",
+          "label": "Baja 4ta",
+          "plays": [
+            {
+              "reference_id": "20135-2-31",
+              "text": "Ramon Hernandez Golpeado por Pelota ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793240849
+            },
+            {
+              "reference_id": "20135-2-32",
+              "text": "Francisco Mejia al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793240852
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20253,6 +20274,13 @@
           "label": "Alta 4ta",
           "total_plays": 3,
           "scoring_plays": 0
+        },
+        {
+          "num": 4,
+          "half": "bottom",
+          "label": "Baja 4ta",
+          "total_plays": 2,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20279,7 +20307,7 @@
         },
         {
           "num": 4,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
@@ -20443,8 +20471,8 @@
       "currentInningNum": 8,
       "lastPlayByPlay": "Jason Schiavone Robo de Base ",
       "counts": {
-        "balls": 2,
-        "strikes": 0,
+        "balls": 3,
+        "strikes": 1,
         "outs": 1
       },
       "base_state": {
@@ -21633,7 +21661,7 @@
           "id": 2210,
           "date": "2026-10-28 19:30:00",
           "status": 2,
-          "roundText": "Alta 4ta",
+          "roundText": "Baja 4ta",
           "awayTeam": {
             "id": 7,
             "name": "Estrellas",
@@ -21751,8 +21779,8 @@
       "currentInningNum": 8,
       "lastPlayByPlay": "Mike Rosario Sencillo Jardinero Central",
       "counts": {
-        "balls": 0,
-        "strikes": 1,
+        "balls": 2,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -22955,7 +22983,7 @@
           "id": 2210,
           "date": "2026-10-28 19:30:00",
           "status": 2,
-          "roundText": "Alta 4ta",
+          "roundText": "Baja 4ta",
           "awayTeam": {
             "id": 7,
             "name": "Estrellas",

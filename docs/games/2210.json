@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2210",
-    "scraped_at": "2026-10-29T02:26:42.523Z",
+    "scraped_at": "2026-10-29T02:27:47.197Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-28 19:30:00",
-    "roundText": "Alta 4ta",
+    "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Josh Lester  Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "Ramon Hernandez Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 1
+      "battingTeam": "homeTeam",
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -702,6 +702,27 @@
             "ts": 1793240611
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "20135-2-31",
+            "text": "Ramon Hernandez Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793240849
+          },
+          {
+            "reference_id": "20135-2-32",
+            "text": "Francisco Mejia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793240852
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -753,6 +774,13 @@
         "label": "Alta 4ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -779,7 +807,7 @@
       },
       {
         "num": 4,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
