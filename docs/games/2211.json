@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2211",
-    "scraped_at": "2026-10-29T00:32:05.907Z",
+    "scraped_at": "2026-10-29T00:33:10.832Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-28 19:30:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ibañez Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -660,6 +660,27 @@
             "ts": 1793233778
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "20144-2-27",
+            "text": "Ibañez Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793233964
+          },
+          {
+            "reference_id": "20144-2-28",
+            "text": "Yamaico Navarro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793233967
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -704,6 +725,13 @@
         "label": "Alta 4ta",
         "total_plays": 6,
         "scoring_plays": 2
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
