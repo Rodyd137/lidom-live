@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-29T01:48:51.137Z",
+    "scraped_at": "2026-10-29T01:49:55.861Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Jose Barrero  Out: Rodado al Primera Base - Segunda Base",
-        "atBat": "Gustavo Nuñez",
+        "lastPlayByPlay": "Gustavo Nuñez Out! Rodado de Selección.  Segunda Base - Receptor",
+        "atBat": "J. Made",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Erik Gonzales",
+        "lastPlayByPlay": "Erik Gonzales Sencillo ",
+        "atBat": "Marmolejos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -605,7 +605,7 @@
           "runs": 3,
           "runs_half": 3,
           "errors": 0,
-          "hits": 9,
+          "hits": 10,
           "pitcher": "Reid Vanscoter",
           "era": "",
           "debut": 0,
@@ -629,7 +629,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2212,
@@ -11595,8 +11595,8 @@
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Jose Barrero  Out: Rodado al Primera Base - Segunda Base",
-        "atBat": "Gustavo Nuñez",
+        "lastPlayByPlay": "Gustavo Nuñez Out! Rodado de Selección.  Segunda Base - Receptor",
+        "atBat": "J. Made",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11652,12 +11652,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Erik Gonzales",
+        "lastPlayByPlay": "Erik Gonzales Sencillo ",
+        "atBat": "Marmolejos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11679,7 +11679,7 @@
           "runs": 3,
           "runs_half": 3,
           "errors": 0,
-          "hits": 9,
+          "hits": 10,
           "pitcher": "Reid Vanscoter",
           "era": "",
           "debut": 0,
@@ -11703,7 +11703,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2212,
@@ -19517,7 +19517,7 @@
       "date": "2026-10-28 19:30:00",
       "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "Jose Barrero  Out: Rodado al Primera Base - Segunda Base",
+      "lastPlayByPlay": "Gustavo Nuñez Out! Rodado de Selección.  Segunda Base - Receptor",
       "counts": {
         "balls": 2,
         "strikes": 1,
@@ -20083,10 +20083,17 @@
             },
             {
               "reference_id": "20133-2-17",
-              "text": "Gustavo Nuñez al bate",
+              "text": "Gustavo Nuñez Out! Rodado de Selección.  Segunda Base - Receptor",
               "scored": false,
               "is_primary": true,
-              "ts": 1793238242
+              "ts": 1793238575
+            },
+            {
+              "reference_id": "20133-2-18",
+              "text": "J. Made al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793238588
             }
           ]
         }
@@ -20117,7 +20124,7 @@
           "num": 2,
           "half": "bottom",
           "label": "Baja 2da",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
@@ -20198,7 +20205,7 @@
             "abbr": "LE",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
             "runs": 3,
-            "hits": 9,
+            "hits": 10,
             "errors": 0,
             "permalink": "/equipo/leones-del-escogido"
           },
@@ -20307,22 +20314,22 @@
       "date": "2026-10-28 19:30:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Erik Gonzales Sencillo ",
       "counts": {
         "balls": 0,
-        "strikes": 1,
+        "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20350,7 +20357,7 @@
           "permalink": "/equipo/leones-del-escogido",
           "totals": {
             "R": 3,
-            "H": 9,
+            "H": 10,
             "E": 0,
             "H2": 3
           },
@@ -20637,7 +20644,7 @@
         "totals": {
           "away": {
             "R": 3,
-            "H": 9,
+            "H": 10,
             "E": 0
           },
           "home": {
@@ -21195,10 +21202,17 @@
           "plays": [
             {
               "reference_id": "20147-1-54",
-              "text": "Erik Gonzales al bate",
+              "text": "Erik Gonzales Sencillo ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793238524
+              "ts": 1793238574
+            },
+            {
+              "reference_id": "20147-1-55",
+              "text": "Marmolejos al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793238576
             }
           ]
         }
@@ -21285,7 +21299,7 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -22560,7 +22574,7 @@
             "abbr": "LE",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
             "runs": 3,
-            "hits": 9,
+            "hits": 10,
             "errors": 0,
             "permalink": "/equipo/leones-del-escogido"
           },
