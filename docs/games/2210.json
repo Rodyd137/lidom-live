@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2210",
-    "scraped_at": "2026-10-29T01:58:36.820Z",
+    "scraped_at": "2026-10-29T01:59:41.399Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-28 19:30:00",
-    "roundText": "Baja 2da",
-    "currentInningNum": 2,
-    "lastPlayByPlay": "K. Alcantara Out: Elevado al Primera Base",
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
+    "lastPlayByPlay": "Magneuris Sierra Base por Bolas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 1
+      "battingTeam": "awayTeam",
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": false,
+      "on1B": true,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 0,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 0
         },
         "home": {
@@ -597,6 +597,27 @@
             "ts": 1793238640
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "20134-1-20",
+            "text": "Magneuris Sierra Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793239147
+          },
+          {
+            "reference_id": "20134-1-21",
+            "text": "Harold Andres Ramirez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793239150
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -627,6 +648,13 @@
         "label": "Baja 2da",
         "total_plays": 6,
         "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -640,14 +668,14 @@
       {
         "num": 2,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -705,7 +733,7 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 3,
+          "runs": 4,
           "hits": 11,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
