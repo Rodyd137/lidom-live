@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2212",
-    "scraped_at": "2026-10-29T00:29:56.266Z",
+    "scraped_at": "2026-10-29T00:31:01.219Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-28 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jesús Sanchez  Base por Bolas ",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -633,10 +633,17 @@
         "plays": [
           {
             "reference_id": "20152-2-24",
-            "text": "Jesús Sanchez  al bate",
+            "text": "Jesús Sanchez  Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1793233759
+            "ts": 1793233839
+          },
+          {
+            "reference_id": "20152-2-25",
+            "text": "Yairo Muñoz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793233851
           }
         ]
       }
@@ -681,7 +688,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],

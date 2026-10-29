@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-29T00:29:53.783Z",
+    "scraped_at": "2026-10-29T00:30:58.713Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Jesús Sanchez ",
+        "lastPlayByPlay": "Jesús Sanchez  Base por Bolas ",
+        "atBat": "Yairo Muñoz",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,7 +627,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 0,
         "strikes": 0
       },
@@ -11649,12 +11649,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Jesús Sanchez ",
+        "lastPlayByPlay": "Jesús Sanchez  Base por Bolas ",
+        "atBat": "Yairo Muñoz",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11698,7 +11698,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 0,
         "strikes": 0
       },
@@ -20987,22 +20987,22 @@
       "date": "2026-10-28 19:30:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Jesús Sanchez  Base por Bolas ",
       "counts": {
-        "balls": 1,
+        "balls": 0,
         "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -21609,10 +21609,17 @@
           "plays": [
             {
               "reference_id": "20152-2-24",
-              "text": "Jesús Sanchez  al bate",
+              "text": "Jesús Sanchez  Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793233759
+              "ts": 1793233839
+            },
+            {
+              "reference_id": "20152-2-25",
+              "text": "Yairo Muñoz al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793233851
             }
           ]
         }
@@ -21657,7 +21664,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
