@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2212",
-    "scraped_at": "2026-10-29T00:18:03.839Z",
+    "scraped_at": "2026-10-29T00:19:08.822Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-28 19:30:00",
-    "roundText": "Baja 2da",
-    "currentInningNum": 2,
-    "lastPlayByPlay": "Juan Brito  Out: Rodado al Segunda Base - Primera Base",
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
+    "lastPlayByPlay": "Carlos Jorge  Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -590,6 +590,27 @@
             "ts": 1793232966
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "20152-1-20",
+            "text": "Carlos Jorge  Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793233135
+          },
+          {
+            "reference_id": "20152-1-21",
+            "text": "Kelvin Gutierrez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793233144
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -620,6 +641,13 @@
         "label": "Baja 2da",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -633,14 +661,14 @@
       {
         "num": 2,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -718,7 +746,7 @@
         "id": 2211,
         "date": "2026-10-28 19:30:00",
         "status": 2,
-        "roundText": "Baja 3ra",
+        "roundText": "Alta 4ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
