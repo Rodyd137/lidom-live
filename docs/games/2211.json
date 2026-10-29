@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2211",
-    "scraped_at": "2026-10-29T01:20:44.651Z",
+    "scraped_at": "2026-10-29T01:21:49.777Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-28 19:30:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Mason Mccoy Sencillo ",
+    "lastPlayByPlay": "Carson Williams Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -801,10 +801,17 @@
           },
           {
             "reference_id": "20145-2-43",
-            "text": "Carson Williams al bate",
+            "text": "Carson Williams Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1793236715
+            "ts": 1793236864
+          },
+          {
+            "reference_id": "20145-2-44",
+            "text": "Steward Berroa al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793236868
           }
         ]
       }
@@ -870,7 +877,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -960,8 +967,8 @@
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 0,
-          "hits": 0,
+          "runs": 3,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/tigres-del-licey"
         }
