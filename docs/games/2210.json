@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2210",
-    "scraped_at": "2026-10-29T03:16:53.813Z",
+    "scraped_at": "2026-10-29T03:17:57.378Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-28 19:30:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Aaron Schunk  Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 3
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -885,10 +885,24 @@
           },
           {
             "reference_id": "20138-1-50",
-            "text": "Magneuris Sierra al bate",
+            "text": "Magneuris Sierra Ponche (K) Receptor - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1793243730
+            "ts": 1793243843
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "20138-2-51",
+            "text": "Francisco Mejia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793243856
           }
         ]
       }
@@ -984,6 +998,13 @@
         "label": "Alta 7ma",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1031,7 +1052,7 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
