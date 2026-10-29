@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-29T01:02:18.956Z",
+    "scraped_at": "2026-10-29T01:03:24.116Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Junior Lake Sencillo y 1 Carrera Impulsada ",
-        "atBat": "Socrates Brito",
+        "lastPlayByPlay": "Junior Lake Robo de Base ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2212,
@@ -643,7 +643,7 @@
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Ronny Simon Sencillo Cuadrangular! - Jardinero Derecho ",
+        "lastPlayByPlay": "Ronny Simon Cuadrangular! - Jardinero Derecho ",
         "atBat": "Gilberto Celestino ",
         "comment": "",
         "winningPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 1,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -11649,12 +11649,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Junior Lake Sencillo y 1 Carrera Impulsada ",
-        "atBat": "Socrates Brito",
+        "lastPlayByPlay": "Junior Lake Robo de Base ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11698,9 +11698,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2212,
@@ -11714,7 +11714,7 @@
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Ronny Simon Sencillo Cuadrangular! - Jardinero Derecho ",
+        "lastPlayByPlay": "Ronny Simon Cuadrangular! - Jardinero Derecho ",
         "atBat": "Gilberto Celestino ",
         "comment": "",
         "winningPitcher": null,
@@ -11759,9 +11759,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 1,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "2026-10-29": [
@@ -20106,22 +20106,22 @@
       "date": "2026-10-28 19:30:00",
       "roundText": "Alta 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Junior Lake Sencillo y 1 Carrera Impulsada ",
+      "lastPlayByPlay": "Junior Lake Robo de Base ",
       "counts": {
-        "balls": 0,
-        "strikes": 1,
+        "balls": 1,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -20848,7 +20848,7 @@
             {
               "reference_id": "20145-1-38",
               "text": "Junior Lake Sencillo y 1 Carrera Impulsada ",
-              "scored": true,
+              "scored": false,
               "is_primary": true,
               "ts": 1793235686
             },
@@ -20858,6 +20858,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1793235690
+            },
+            {
+              "reference_id": "20145-1-38-290999",
+              "text": "Junior Lake Robo de Base ",
+              "scored": false,
+              "is_primary": false,
+              "ts": 1793235776
             }
           ]
         }
@@ -20916,8 +20923,8 @@
           "num": 5,
           "half": "top",
           "label": "Alta 5ta",
-          "total_plays": 3,
-          "scoring_plays": 1
+          "total_plays": 4,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -21106,10 +21113,10 @@
       "date": "2026-10-28 19:30:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Ronny Simon Sencillo Cuadrangular! - Jardinero Derecho ",
+      "lastPlayByPlay": "Ronny Simon Cuadrangular! - Jardinero Derecho ",
       "counts": {
-        "balls": 0,
-        "strikes": 1,
+        "balls": 3,
+        "strikes": 2,
         "outs": 1
       },
       "base_state": {
@@ -21826,7 +21833,7 @@
             },
             {
               "reference_id": "20153-2-36",
-              "text": "Ronny Simon Sencillo Cuadrangular! - Jardinero Derecho ",
+              "text": "Ronny Simon Cuadrangular! - Jardinero Derecho ",
               "scored": true,
               "is_primary": true,
               "ts": 1793235670
