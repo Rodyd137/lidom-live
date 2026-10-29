@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-29T00:28:49.051Z",
+    "scraped_at": "2026-10-29T00:29:53.783Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -520,16 +520,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-28 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Luis Liberato Elevado de Sacrificio Carrera Empujada",
-        "atBat": "J. C. Escarra",
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "currentInningNum": 4,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -583,7 +583,7 @@
         "date": "2026-10-28 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jesús Sanchez ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,7 +627,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
         "strikes": 0
       },
@@ -11591,16 +11591,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-28 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Luis Liberato Elevado de Sacrificio Carrera Empujada",
-        "atBat": "J. C. Escarra",
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "currentInningNum": 4,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -11638,7 +11638,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -11654,7 +11654,7 @@
         "date": "2026-10-28 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jesús Sanchez ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11698,7 +11698,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
         "strikes": 0
       },
@@ -19990,7 +19990,7 @@
           "id": 2211,
           "date": "2026-10-28 19:30:00",
           "status": 2,
-          "roundText": "Alta 4ta",
+          "roundText": "Baja 4ta",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -20104,16 +20104,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-28 19:30:00",
-      "roundText": "Alta 4ta",
+      "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Luis Liberato Elevado de Sacrificio Carrera Empujada",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -20749,10 +20749,10 @@
             },
             {
               "reference_id": "20144-1-26",
-              "text": "J. C. Escarra al bate",
+              "text": "J. C. Escarra Out: Elevado al Jardinero Central",
               "scored": false,
               "is_primary": true,
-              "ts": 1793233726
+              "ts": 1793233778
             }
           ]
         }
@@ -20825,7 +20825,7 @@
         },
         {
           "num": 4,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 3
@@ -20989,7 +20989,7 @@
       "currentInningNum": 3,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
+        "balls": 1,
         "strikes": 0,
         "outs": 0
       },
@@ -21601,6 +21601,20 @@
               "ts": 1793233613
             }
           ]
+        },
+        {
+          "num": 3,
+          "half": "bottom",
+          "label": "Baja 3ra",
+          "plays": [
+            {
+              "reference_id": "20152-2-24",
+              "text": "Jesús Sanchez  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793233759
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21637,6 +21651,13 @@
           "half": "top",
           "label": "Alta 3ra",
           "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 3,
+          "half": "bottom",
+          "label": "Baja 3ra",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -21736,7 +21757,7 @@
           "id": 2211,
           "date": "2026-10-28 19:30:00",
           "status": 2,
-          "roundText": "Alta 4ta",
+          "roundText": "Baja 4ta",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
