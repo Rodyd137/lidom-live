@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2210",
-    "scraped_at": "2026-10-29T01:14:16.288Z",
+    "scraped_at": "2026-10-29T01:15:21.144Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-28 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "J. Made  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "K. Alcantara Base por Bolas ",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -475,10 +475,17 @@
           },
           {
             "reference_id": "20132-2-6",
-            "text": "K. Alcantara al bate",
+            "text": "K. Alcantara Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1793236415
+            "ts": 1793236497
+          },
+          {
+            "reference_id": "20132-2-7",
+            "text": "E. Florial al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793236508
           }
         ]
       }
@@ -495,7 +502,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -586,7 +593,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 3,
-          "hits": 3,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }
