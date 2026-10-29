@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-29T01:10:59.253Z",
+    "scraped_at": "2026-10-29T01:12:04.242Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -566,7 +566,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
         "strikes": 2
       },
@@ -578,7 +578,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 1,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 1,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 2,
-        "strikes": 1
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2212,
@@ -644,7 +644,7 @@
         "date": "2026-10-28 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Carlos Jorge ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -683,14 +683,14 @@
           "runs_half": 5,
           "errors": 0,
           "hits": 4,
-          "pitcher": "Phillips Valdez",
+          "pitcher": "Johan Simon",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -11637,7 +11637,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
         "strikes": 2
       },
@@ -11649,7 +11649,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 1,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 1,
@@ -11698,9 +11698,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 2,
-        "strikes": 1
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2212,
@@ -11715,7 +11715,7 @@
         "date": "2026-10-28 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Carlos Jorge ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11754,14 +11754,14 @@
           "runs_half": 5,
           "errors": 0,
           "hits": 4,
-          "pitcher": "Phillips Valdez",
+          "pitcher": "Johan Simon",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "2026-10-29": [
@@ -19513,7 +19513,7 @@
       "currentInningNum": 1,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
+        "balls": 1,
         "strikes": 2,
         "outs": 0
       },
@@ -20173,20 +20173,20 @@
       "currentInningNum": 5,
       "lastPlayByPlay": "Ibañez Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
-        "outs": 2
+        "balls": 0,
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 3
+        "base": 1
       },
       "base_runners": {
         "on1B": false,
-        "on2B": true,
+        "on2B": false,
         "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -21194,8 +21194,8 @@
       "currentInningNum": 5,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 2,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -21361,7 +21361,7 @@
             "H2": 5
           },
           "probables": {
-            "pitcher": "Phillips Valdez",
+            "pitcher": "Johan Simon",
             "era": "",
             "record": "",
             "debut": false
@@ -21953,6 +21953,20 @@
               "ts": 1793236125
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "top",
+          "label": "Alta 5ta",
+          "plays": [
+            {
+              "reference_id": "20154-1-42",
+              "text": "Carlos Jorge  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793236259
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22011,6 +22025,13 @@
           "label": "Baja 4ta",
           "total_plays": 7,
           "scoring_plays": 2
+        },
+        {
+          "num": 5,
+          "half": "top",
+          "label": "Alta 5ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
