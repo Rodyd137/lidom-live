@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-29T00:59:03.903Z",
+    "scraped_at": "2026-10-29T01:00:08.817Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 4,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 1,
         "lastPlayByPlay": "Marmolejos Doble! ",
-        "atBat": null,
+        "atBat": "Junior Lake",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -568,7 +568,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2212,
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Rafael Lantigua ",
+        "lastPlayByPlay": "Rafael Lantigua   Out: Rodado al Tercera Base - Primera Base",
+        "atBat": "Ronny Simon",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,8 +628,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 1
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2210,
@@ -11588,12 +11588,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 4,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 1,
         "lastPlayByPlay": "Marmolejos Doble! ",
-        "atBat": null,
+        "atBat": "Junior Lake",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11639,7 +11639,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2212,
@@ -11653,8 +11653,8 @@
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Rafael Lantigua ",
+        "lastPlayByPlay": "Rafael Lantigua   Out: Rodado al Tercera Base - Primera Base",
+        "atBat": "Ronny Simon",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11699,8 +11699,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 1
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2210,
@@ -20109,19 +20109,19 @@
       "lastPlayByPlay": "Marmolejos Doble! ",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 3
+        "base": 4
       },
       "base_runners": {
         "on1B": false,
-        "on2B": true,
-        "on3B": false,
+        "on2B": false,
+        "on3B": true,
         "runners": 1,
-        "mask": 3
+        "mask": 4
       },
       "betting": {
         "moneyline": {
@@ -20844,6 +20844,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1793235539
+            },
+            {
+              "reference_id": "20145-1-38",
+              "text": "Junior Lake al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793235544
             }
           ]
         }
@@ -20902,7 +20909,7 @@
           "num": 5,
           "half": "top",
           "label": "Alta 5ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21092,11 +21099,11 @@
       "date": "2026-10-28 19:30:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Rafael Lantigua   Out: Rodado al Tercera Base - Primera Base",
       "counts": {
         "balls": 0,
-        "strikes": 1,
-        "outs": 0
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21805,10 +21812,17 @@
           "plays": [
             {
               "reference_id": "20153-2-35",
-              "text": "Rafael Lantigua  al bate",
+              "text": "Rafael Lantigua   Out: Rodado al Tercera Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1793235525
+              "ts": 1793235580
+            },
+            {
+              "reference_id": "20153-2-36",
+              "text": "Ronny Simon al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793235590
             }
           ]
         }
@@ -21867,7 +21881,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
