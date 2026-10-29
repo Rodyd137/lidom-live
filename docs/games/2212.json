@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2212",
-    "scraped_at": "2026-10-29T01:53:12.738Z",
+    "scraped_at": "2026-10-29T01:54:17.547Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-28 19:30:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Gilberto Celestino  Out Robando Base! ",
+    "lastPlayByPlay": "Juan Brito  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -899,10 +899,17 @@
           },
           {
             "reference_id": "20155-2-57",
-            "text": "Gilberto Celestino  Out Robando Base! ",
+            "text": "Gilberto Celestino  Sencillo y 1 Carrera Impulsada Jardinero Central - se embasa por Error del - Jardinero Central",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1793238802
+          },
+          {
+            "reference_id": "20155-2-58",
+            "text": "Juan Brito  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1793238787
+            "ts": 1793238840
           }
         ]
       }
@@ -989,8 +996,8 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
