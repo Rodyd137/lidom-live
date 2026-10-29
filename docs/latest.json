@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-29T01:39:06.329Z",
+    "scraped_at": "2026-10-29T01:40:11.150Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2211,
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Jorge Bonifacio Out: Elevado al Jardinero Izquierdo",
+        "atBat": "Yeison Morrobel",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,8 +627,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
+        "balls": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -11637,9 +11637,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2211,
@@ -11653,8 +11653,8 @@
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Jorge Bonifacio Out: Elevado al Jardinero Izquierdo",
+        "atBat": "Yeison Morrobel",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11698,8 +11698,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
+        "balls": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -19513,8 +19513,8 @@
       "currentInningNum": 2,
       "lastPlayByPlay": "Ramon Hernandez Sencillo Jardinero Izquierdo",
       "counts": {
-        "balls": 1,
-        "strikes": 0,
+        "balls": 2,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -20287,11 +20287,11 @@
       "date": "2026-10-28 19:30:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Jorge Bonifacio Out: Elevado al Jardinero Izquierdo",
       "counts": {
-        "balls": 1,
+        "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21132,6 +21132,27 @@
               "ts": 1793237760
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "bottom",
+          "label": "Baja 6ta",
+          "plays": [
+            {
+              "reference_id": "20146-2-50",
+              "text": "Jorge Bonifacio Out: Elevado al Jardinero Izquierdo",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793237983
+            },
+            {
+              "reference_id": "20146-2-51",
+              "text": "Yeison Morrobel al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793237990
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21203,6 +21224,13 @@
           "half": "top",
           "label": "Alta 6ta",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 6,
+          "half": "bottom",
+          "label": "Baja 6ta",
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
