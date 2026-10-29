@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-29T02:45:01.695Z",
+    "scraped_at": "2026-10-29T02:46:06.967Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Gustavo Nuñez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -545,7 +545,7 @@
           "runs_half": 0,
           "errors": 0,
           "hits": 1,
-          "pitcher": "Sammy Peralta",
+          "pitcher": "",
           "era": "",
           "debut": 0,
           "record": ""
@@ -560,7 +560,7 @@
           "runs": 3,
           "runs_half": 3,
           "errors": 0,
-          "hits": 3,
+          "hits": 4,
           "pitcher": "Luis Gil",
           "era": "",
           "debut": 0,
@@ -582,7 +582,7 @@
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Socrates Brito Out: Elevado al Jardinero Derecho ",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -11588,12 +11588,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Gustavo Nuñez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11616,7 +11616,7 @@
           "runs_half": 0,
           "errors": 0,
           "hits": 1,
-          "pitcher": "Sammy Peralta",
+          "pitcher": "",
           "era": "",
           "debut": 0,
           "record": ""
@@ -11631,7 +11631,7 @@
           "runs": 3,
           "runs_half": 3,
           "errors": 0,
-          "hits": 3,
+          "hits": 4,
           "pitcher": "Luis Gil",
           "era": "",
           "debut": 0,
@@ -11653,8 +11653,8 @@
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Socrates Brito Out: Elevado al Jardinero Derecho ",
+        "atBat": "Ibañez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11699,7 +11699,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -19519,14 +19519,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -19559,7 +19559,7 @@
             "H2": 0
           },
           "probables": {
-            "pitcher": "Sammy Peralta",
+            "pitcher": "",
             "era": "",
             "record": "",
             "debut": false
@@ -19675,7 +19675,7 @@
           "permalink": "/equipo/tigres-del-licey",
           "totals": {
             "R": 3,
-            "H": 3,
+            "H": 4,
             "E": 0,
             "H2": 3
           },
@@ -19846,7 +19846,7 @@
           },
           "home": {
             "R": 3,
-            "H": 3,
+            "H": 4,
             "E": 0
           }
         },
@@ -20251,6 +20251,20 @@
               "ts": 1793241798
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "plays": [
+            {
+              "reference_id": "20136-2-36",
+              "text": "Gustavo Nuñez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793241908
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20315,6 +20329,13 @@
           "half": "top",
           "label": "Alta 5ta",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -20504,11 +20525,11 @@
       "date": "2026-10-28 19:30:00",
       "roundText": "Alta 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Socrates Brito Out: Elevado al Jardinero Derecho ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21580,6 +21601,27 @@
               "ts": 1793241772
             }
           ]
+        },
+        {
+          "num": 9,
+          "half": "top",
+          "label": "Alta 9na",
+          "plays": [
+            {
+              "reference_id": "20149-1-76",
+              "text": "Socrates Brito Out: Elevado al Jardinero Derecho ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793241958
+            },
+            {
+              "reference_id": "20149-1-77",
+              "text": "Ibañez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793241963
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21687,6 +21729,13 @@
           "label": "Baja 8va",
           "total_plays": 4,
           "scoring_plays": 0
+        },
+        {
+          "num": 9,
+          "half": "top",
+          "label": "Alta 9na",
+          "total_plays": 2,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -21776,7 +21825,7 @@
             "abbr": "TL",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
             "runs": 3,
-            "hits": 3,
+            "hits": 4,
             "errors": 0,
             "permalink": "/equipo/tigres-del-licey"
           }
@@ -23140,7 +23189,7 @@
             "abbr": "TL",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
             "runs": 3,
-            "hits": 3,
+            "hits": 4,
             "errors": 0,
             "permalink": "/equipo/tigres-del-licey"
           }
