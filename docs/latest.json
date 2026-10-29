@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-29T03:49:48.064Z",
+    "scraped_at": "2026-10-29T03:50:51.607Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Leonardo Bernal  Out: Elevado al Segunda Base",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Josh Lester  Base por Bolas ",
+        "atBat": "Aaron Schunk",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "Esmil Rogers",
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 2,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2211,
@@ -11588,12 +11588,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Leonardo Bernal  Out: Elevado al Segunda Base",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Josh Lester  Base por Bolas ",
+        "atBat": "Aaron Schunk",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "Esmil Rogers",
@@ -11637,9 +11637,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 2,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2211,
@@ -19511,22 +19511,22 @@
       "date": "2026-10-28 19:30:00",
       "roundText": "Alta 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "Leonardo Bernal  Out: Elevado al Segunda Base",
+      "lastPlayByPlay": "Josh Lester  Base por Bolas ",
       "counts": {
-        "balls": 2,
-        "strikes": 1,
+        "balls": 0,
+        "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20504,10 +20504,17 @@
             },
             {
               "reference_id": "20140-1-63",
-              "text": "Josh Lester  al bate",
+              "text": "Josh Lester  Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793245693
+              "ts": 1793245824
+            },
+            {
+              "reference_id": "20140-1-64",
+              "text": "Aaron Schunk al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793245847
             }
           ]
         }
@@ -20629,7 +20636,7 @@
           "num": 9,
           "half": "top",
           "label": "Alta 9na",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
