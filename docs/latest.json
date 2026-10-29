@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-29T02:19:06.858Z",
+    "scraped_at": "2026-10-29T02:20:11.719Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -643,8 +646,8 @@
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Pablo Reyes Ponche (K) ",
-        "atBat": "Roly Brito",
+        "lastPlayByPlay": "Roly Brito Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +691,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 2,
-        "strikes": 2
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -11604,7 +11607,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -11654,7 +11660,7 @@
         "date": "2026-10-28 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jason Schiavone",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11714,8 +11720,8 @@
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Pablo Reyes Ponche (K) ",
-        "atBat": "Roly Brito",
+        "lastPlayByPlay": "Roly Brito Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11759,9 +11765,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 2,
-        "strikes": 2
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       }
     ],
     "2026-10-29": [
@@ -21419,6 +21425,20 @@
               "ts": 1793240231
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "plays": [
+            {
+              "reference_id": "20148-1-66",
+              "text": "Jason Schiavone al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793240411
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21511,6 +21531,13 @@
           "half": "bottom",
           "label": "Baja 7ma",
           "total_plays": 7,
+          "scoring_plays": 0
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -21700,11 +21727,11 @@
       "date": "2026-10-28 19:30:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Pablo Reyes Ponche (K) ",
+      "lastPlayByPlay": "Roly Brito Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 2
+        "balls": 0,
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22686,10 +22713,10 @@
             },
             {
               "reference_id": "20157-1-69",
-              "text": "Roly Brito al bate",
+              "text": "Roly Brito Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793240259
+              "ts": 1793240358
             }
           ]
         }
