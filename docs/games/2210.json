@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2210",
-    "scraped_at": "2026-10-29T01:27:14.270Z",
+    "scraped_at": "2026-10-29T01:28:19.416Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,7 +13,7 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
@@ -103,6 +103,17 @@
             "team_id": 7,
             "name": "Marco Luciano ",
             "abbreviation": "M. Luciano",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6004,
+            "team_id": 7,
+            "name": "Cesar Prieto ",
+            "abbreviation": "C. Prieto",
             "number": null,
             "dob": null,
             "height": "",
@@ -502,6 +513,20 @@
             "ts": 1793237119
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "20133-1-10",
+            "text": "Cesar Prieto  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793237254
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -518,6 +543,13 @@
         "label": "Baja 1ra",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -616,7 +648,7 @@
         "id": 2212,
         "date": "2026-10-28 19:30:00",
         "status": 2,
-        "roundText": "Baja 5ta",
+        "roundText": "Alta 6ta",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
