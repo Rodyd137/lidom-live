@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-29T00:43:55.794Z",
+    "scraped_at": "2026-10-29T00:45:00.678Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 6,
+        "base": 1,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Vidal Brujan Elevado de Sacrificio Carrera Empujada",
-        "atBat": "Erik Gonzales",
+        "lastPlayByPlay": "Erik Gonzales  Out: Rodado al Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,8 +566,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 2,
+        "balls": 0,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -583,7 +583,7 @@
         "date": "2026-10-28 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Noelvi Marte ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2210,
@@ -11588,12 +11588,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 6,
+        "base": 1,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Vidal Brujan Elevado de Sacrificio Carrera Empujada",
-        "atBat": "Erik Gonzales",
+        "lastPlayByPlay": "Erik Gonzales  Out: Rodado al Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11637,8 +11637,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 2,
+        "balls": 0,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -11654,7 +11654,7 @@
         "date": "2026-10-28 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Noelvi Marte ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11698,9 +11698,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2210,
@@ -20106,22 +20106,22 @@
       "date": "2026-10-28 19:30:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Vidal Brujan Elevado de Sacrificio Carrera Empujada",
+      "lastPlayByPlay": "Erik Gonzales  Out: Rodado al Primera Base",
       "counts": {
-        "balls": 1,
+        "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 6
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
+        "on1B": false,
         "on2B": false,
-        "on3B": true,
-        "runners": 2,
-        "mask": 6
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -20798,10 +20798,10 @@
             },
             {
               "reference_id": "20144-2-32",
-              "text": "Erik Gonzales al bate",
+              "text": "Erik Gonzales  Out: Rodado al Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1793234606
+              "ts": 1793234655
             }
           ]
         }
@@ -21045,8 +21045,8 @@
       "currentInningNum": 4,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -21706,6 +21706,20 @@
               "ts": 1793234481
             }
           ]
+        },
+        {
+          "num": 4,
+          "half": "top",
+          "label": "Alta 4ta",
+          "plays": [
+            {
+              "reference_id": "20153-1-30",
+              "text": "Noelvi Marte  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793234667
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21749,6 +21763,13 @@
           "half": "bottom",
           "label": "Baja 3ra",
           "total_plays": 6,
+          "scoring_plays": 0
+        },
+        {
+          "num": 4,
+          "half": "top",
+          "label": "Alta 4ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
