@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-29T00:04:01.274Z",
+    "scraped_at": "2026-10-29T00:05:06.167Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2212,
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Marcell Ozuna  Out: Elevado al Primera Base",
-        "atBat": "Deyvinson de los Santos",
+        "lastPlayByPlay": "Deyvinson de los Santos  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -640,12 +640,12 @@
         "handicap_h": null,
         "over_under": null,
         "base": 1,
-        "status": 3,
+        "status": 4,
         "date": "2026-10-28 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
         "atBat": null,
-        "comment": "",
+        "comment": "Problemas en el terreno",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
@@ -11637,9 +11637,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2212,
@@ -11653,8 +11653,8 @@
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Marcell Ozuna  Out: Elevado al Primera Base",
-        "atBat": "Deyvinson de los Santos",
+        "lastPlayByPlay": "Deyvinson de los Santos  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11699,8 +11699,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 1
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2210,
@@ -11711,12 +11711,12 @@
         "handicap_h": null,
         "over_under": null,
         "base": 1,
-        "status": 3,
+        "status": 4,
         "date": "2026-10-28 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
         "atBat": null,
-        "comment": "",
+        "comment": "Problemas en el terreno",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
@@ -19507,7 +19507,7 @@
     "2210": {
       "id": 2210,
       "season_id": 23,
-      "status": 3,
+      "status": 4,
       "date": "2026-10-28 19:30:00",
       "roundText": "Alta 1ra",
       "currentInningNum": 1,
@@ -19777,7 +19777,7 @@
           ]
         }
       },
-      "comment": "",
+      "comment": "Problemas en el terreno",
       "linescore": {
         "innings": [
           {
@@ -20108,8 +20108,8 @@
       "currentInningNum": 3,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -20746,7 +20746,7 @@
         {
           "id": 2210,
           "date": "2026-10-28 19:30:00",
-          "status": 3,
+          "status": 4,
           "roundText": "Alta 1ra",
           "awayTeam": {
             "id": 7,
@@ -20863,11 +20863,11 @@
       "date": "2026-10-28 19:30:00",
       "roundText": "Alta 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "Marcell Ozuna  Out: Elevado al Primera Base",
+      "lastPlayByPlay": "Deyvinson de los Santos  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
         "balls": 0,
-        "strikes": 1,
-        "outs": 1
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21394,10 +21394,17 @@
             },
             {
               "reference_id": "20151-1-14",
-              "text": "Deyvinson de los Santos al bate",
+              "text": "Deyvinson de los Santos  Out: Rodado al Segunda Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1793232228
+              "ts": 1793232279
+            },
+            {
+              "reference_id": "20151-1-15",
+              "text": "Agustin Ramirez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793232290
             }
           ]
         }
@@ -21421,7 +21428,7 @@
           "num": 2,
           "half": "top",
           "label": "Alta 2da",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21494,7 +21501,7 @@
         {
           "id": 2210,
           "date": "2026-10-28 19:30:00",
-          "status": 3,
+          "status": 4,
           "roundText": "Alta 1ra",
           "awayTeam": {
             "id": 7,
