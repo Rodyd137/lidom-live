@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-29T00:37:28.107Z",
+    "scraped_at": "2026-10-29T00:38:32.961Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -568,7 +568,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2212,
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 7,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "George Valera  Out: Elevado al Campo Corto",
-        "atBat": "Pedro Severino",
+        "lastPlayByPlay": "Pedro Severino Out: Elevado al Receptor",
+        "atBat": "Mike Rosario",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 1
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2210,
@@ -11639,7 +11639,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2212,
@@ -11649,12 +11649,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 7,
         "status": 2,
         "date": "2026-10-28 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "George Valera  Out: Elevado al Campo Corto",
-        "atBat": "Pedro Severino",
+        "lastPlayByPlay": "Pedro Severino Out: Elevado al Receptor",
+        "atBat": "Mike Rosario",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11665,7 +11665,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -11698,9 +11701,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 1
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2210,
@@ -20109,7 +20112,7 @@
       "lastPlayByPlay": "Jason Schiavone Out: Elevado al Primera Base",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 2,
         "outs": 1
       },
       "base_state": {
@@ -21029,22 +21032,22 @@
       "date": "2026-10-28 19:30:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "George Valera  Out: Elevado al Campo Corto",
+      "lastPlayByPlay": "Pedro Severino Out: Elevado al Receptor",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
-        "outs": 1
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 5
+        "base": 7
       },
       "base_runners": {
-        "on1B": true,
+        "on1B": false,
         "on2B": true,
-        "on3B": false,
+        "on3B": true,
         "runners": 2,
-        "mask": 5
+        "mask": 7
       },
       "betting": {
         "moneyline": {
@@ -21672,10 +21675,24 @@
             },
             {
               "reference_id": "20152-2-27",
-              "text": "Pedro Severino al bate",
+              "text": "Jesús Sanchez  Robo de Base Wild Pitch",
               "scored": false,
               "is_primary": true,
-              "ts": 1793234176
+              "ts": 1793234249
+            },
+            {
+              "reference_id": "20152-2-28",
+              "text": "Pedro Severino Out: Elevado al Receptor",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793234283
+            },
+            {
+              "reference_id": "20152-2-29",
+              "text": "Mike Rosario al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793234300
             }
           ]
         }
@@ -21720,7 +21737,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 4,
+          "total_plays": 6,
           "scoring_plays": 0
         }
       ],
