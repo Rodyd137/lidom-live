@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-30T02:09:00.628Z",
+    "scraped_at": "2026-10-30T02:10:03.574Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Gustavo Nuñez Out: Elevado al Tercera Base",
-        "atBat": "J. Made",
+        "lastPlayByPlay": "J. Made Sencillo Lanzador",
+        "atBat": "K. Alcantara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -639,19 +639,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 1,
         "status": 2,
         "date": "2026-10-29 19:30:00",
-        "part": 2,
-        "lastPlayByPlay": "Oscar Gonzalez Out: Elevado al Jardinero Central",
-        "atBat": "Cesar Prieto ",
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 6ta",
-        "currentInningNum": 6,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 7ma",
+        "currentInningNum": 7,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -20599,7 +20599,7 @@
           "id": 2345,
           "date": "2026-10-29 19:30:00",
           "status": 2,
-          "roundText": "Baja 6ta",
+          "roundText": "Alta 7ma",
           "awayTeam": {
             "id": 3,
             "name": "Aguilas",
@@ -20689,7 +20689,7 @@
       "date": "2026-10-29 19:30:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Gustavo Nuñez Out: Elevado al Tercera Base",
+      "lastPlayByPlay": "J. Made Sencillo Lanzador",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21458,10 +21458,17 @@
             },
             {
               "reference_id": "21364-2-43",
-              "text": "J. Made al bate",
+              "text": "J. Made Sencillo Lanzador",
               "scored": false,
               "is_primary": true,
-              "ts": 1793325832
+              "ts": 1793326052
+            },
+            {
+              "reference_id": "21364-2-44",
+              "text": "K. Alcantara al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793326063
             }
           ]
         }
@@ -21534,7 +21541,7 @@
           "num": 6,
           "half": "bottom",
           "label": "Baja 6ta",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -21634,7 +21641,7 @@
           "id": 2345,
           "date": "2026-10-29 19:30:00",
           "status": 2,
-          "roundText": "Baja 6ta",
+          "roundText": "Alta 7ma",
           "awayTeam": {
             "id": 3,
             "name": "Aguilas",
@@ -21722,16 +21729,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-29 19:30:00",
-      "roundText": "Baja 6ta",
-      "currentInningNum": 6,
-      "lastPlayByPlay": "Oscar Gonzalez Out: Elevado al Jardinero Central",
+      "roundText": "Alta 7ma",
+      "currentInningNum": 7,
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
+        "battingTeam": "awayTeam",
         "base": 1
       },
       "base_runners": {
@@ -22542,10 +22549,10 @@
             },
             {
               "reference_id": "21373-2-44",
-              "text": "Cesar Prieto  al bate",
+              "text": "Cesar Prieto  Doble Play! Out: Línea al - Segunda Base - Campo Corto",
               "scored": false,
               "is_primary": true,
-              "ts": 1793326038
+              "ts": 1793326120
             }
           ]
         }
@@ -22675,14 +22682,14 @@
         {
           "num": 6,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
         {
           "num": 7,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
