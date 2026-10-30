@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-30T03:25:41.192Z",
+    "scraped_at": "2026-10-30T03:26:43.281Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Aaron Schunk",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -11834,11 +11834,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 4,
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Aaron Schunk Toque de Sacrificio ",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -11884,7 +11884,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -22055,18 +22055,18 @@
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -23133,6 +23133,20 @@
               "ts": 1793330573
             }
           ]
+        },
+        {
+          "num": 10,
+          "half": "bottom",
+          "label": "Baja 10ma",
+          "plays": [
+            {
+              "reference_id": "21386-2-74",
+              "text": "Aaron Schunk al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793330759
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23267,6 +23281,13 @@
           "half": "top",
           "label": "Alta 10ma",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 10,
+          "half": "bottom",
+          "label": "Baja 10ma",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
