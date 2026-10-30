@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2214",
-    "scraped_at": "2026-10-30T23:53:43.480Z",
+    "scraped_at": "2026-10-30T23:54:47.823Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-30 19:15:00",
-    "roundText": "Baja 2da",
-    "currentInningNum": 2,
-    "lastPlayByPlay": "Yamaico Navarro Out: Elevado al Jardinero Central",
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -569,6 +569,20 @@
             "ts": 1793404324
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "20170-1-16",
+            "text": "E. Angeles al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793404482
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -599,6 +613,13 @@
         "label": "Baja 2da",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -612,14 +633,14 @@
       {
         "num": 2,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
