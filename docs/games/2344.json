@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2344",
-    "scraped_at": "2026-10-30T02:25:49.262Z",
+    "scraped_at": "2026-10-30T02:26:51.585Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-29 19:30:00",
-    "roundText": "Baja 6ta",
-    "currentInningNum": 6,
-    "lastPlayByPlay": "Mel Rojas Out: Elevado al Jardinero Izquierdo",
+    "roundText": "Alta 7ma",
+    "currentInningNum": 7,
+    "lastPlayByPlay": "Juan Brito Base por Bolas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 1
+      "battingTeam": "awayTeam",
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -807,6 +807,20 @@
             "ts": 1793326867
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "21365-1-47",
+            "text": "Juan Brito Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793327148
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -879,6 +893,13 @@
         "label": "Baja 6ta",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -920,14 +941,14 @@
       {
         "num": 6,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 1
       },
       {
         "num": 7,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -967,7 +988,7 @@
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 6,
+          "runs": 7,
           "hits": 8,
           "errors": 2,
           "permalink": "/equipo/gigantes-del-cibao"
