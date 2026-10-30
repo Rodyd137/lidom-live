@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2345",
-    "scraped_at": "2026-10-30T01:22:50.804Z",
+    "scraped_at": "2026-10-30T01:23:53.104Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-29 19:30:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Chritopher Morel Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -646,6 +646,27 @@
             "ts": 1793322992
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "21371-1-25",
+            "text": "Chritopher Morel Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793323382
+          },
+          {
+            "reference_id": "21371-1-26",
+            "text": "Raynel Delgado al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793323396
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -688,6 +709,13 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
+        "total_plays": 2,
+        "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
         "total_plays": 2,
         "scoring_plays": 0
       }
@@ -788,7 +816,7 @@
         "id": 2344,
         "date": "2026-10-29 19:30:00",
         "status": 2,
-        "roundText": "Baja 4ta",
+        "roundText": "Alta 5ta",
         "awayTeam": {
           "id": 6,
           "name": "Toros",

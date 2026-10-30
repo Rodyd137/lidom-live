@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-30T01:22:48.875Z",
+    "scraped_at": "2026-10-30T01:23:52.601Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -581,16 +581,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-29 19:30:00",
-        "part": 2,
-        "lastPlayByPlay": "Sergio Alcantara  Out: Rodado al Primera Base - Lanzador",
-        "atBat": "Gustavo Nuñez",
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Yairo Muñoz",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 4ta",
-        "currentInningNum": 4,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 5ta",
+        "currentInningNum": 5,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Chritopher Morel Base por Bolas ",
+        "atBat": "Raynel Delgado",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 1,
         "outs": 0,
-        "strikes": 2
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -20412,7 +20412,7 @@
           "id": 2344,
           "date": "2026-10-29 19:30:00",
           "status": 2,
-          "roundText": "Baja 4ta",
+          "roundText": "Alta 5ta",
           "awayTeam": {
             "id": 6,
             "name": "Toros",
@@ -20526,16 +20526,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-29 19:30:00",
-      "roundText": "Baja 4ta",
-      "currentInningNum": 4,
-      "lastPlayByPlay": "Sergio Alcantara  Out: Rodado al Primera Base - Lanzador",
+      "roundText": "Alta 5ta",
+      "currentInningNum": 5,
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
+        "battingTeam": "awayTeam",
         "base": 1
       },
       "base_runners": {
@@ -21147,6 +21147,27 @@
               "scored": false,
               "is_primary": true,
               "ts": 1793323308
+            },
+            {
+              "reference_id": "21362-2-26",
+              "text": "Gustavo Nuñez  Out: Rodado al Campo Corto - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793323384
+            }
+          ]
+        },
+        {
+          "num": 5,
+          "half": "top",
+          "label": "Alta 5ta",
+          "plays": [
+            {
+              "reference_id": "21363-1-27",
+              "text": "Yairo Muñoz al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793323415
             }
           ]
         }
@@ -21191,7 +21212,14 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 3,
+          "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 5,
+          "half": "top",
+          "label": "Alta 5ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -21220,14 +21248,14 @@
         {
           "num": 4,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 2,
           "homeTeamRuns": 0
         },
         {
           "num": 5,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
@@ -21381,22 +21409,22 @@
       "date": "2026-10-29 19:30:00",
       "roundText": "Alta 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Chritopher Morel Base por Bolas ",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
+        "balls": 1,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -22016,6 +22044,27 @@
               "ts": 1793322992
             }
           ]
+        },
+        {
+          "num": 4,
+          "half": "top",
+          "label": "Alta 4ta",
+          "plays": [
+            {
+              "reference_id": "21371-1-25",
+              "text": "Chritopher Morel Base por Bolas ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793323382
+            },
+            {
+              "reference_id": "21371-1-26",
+              "text": "Raynel Delgado al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793323396
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22058,6 +22107,13 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
+          "total_plays": 2,
+          "scoring_plays": 0
+        },
+        {
+          "num": 4,
+          "half": "top",
+          "label": "Alta 4ta",
           "total_plays": 2,
           "scoring_plays": 0
         }
@@ -22158,7 +22214,7 @@
           "id": 2344,
           "date": "2026-10-29 19:30:00",
           "status": 2,
-          "roundText": "Baja 4ta",
+          "roundText": "Alta 5ta",
           "awayTeam": {
             "id": 6,
             "name": "Toros",
