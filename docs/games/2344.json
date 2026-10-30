@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2344",
-    "scraped_at": "2026-10-30T02:57:20.000Z",
+    "scraped_at": "2026-10-30T02:58:23.688Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-29 19:30:00",
-    "roundText": "Baja 7ma",
-    "currentInningNum": 7,
-    "lastPlayByPlay": "M. Romero  Out: Rodado al Segunda Base - Primera Base",
+    "roundText": "Alta 8va",
+    "currentInningNum": 8,
+    "lastPlayByPlay": "Allan Castro   Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -875,13 +875,20 @@
             "scored": false,
             "is_primary": true,
             "ts": 1793328600
-          },
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
           {
-            "reference_id": "21365-2-55",
-            "text": "Pedro Severino al bate",
+            "reference_id": "21366-1-55",
+            "text": "Allan Castro   Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1793328611
+            "ts": 1793328999
           }
         ]
       }
@@ -968,7 +975,14 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 4,
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -1018,14 +1032,14 @@
       {
         "num": 7,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 8,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -1049,7 +1063,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 15,
-          "hits": 14,
+          "hits": 16,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
@@ -1059,7 +1073,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 8,
-          "hits": 9,
+          "hits": 10,
           "errors": 3,
           "permalink": "/equipo/gigantes-del-cibao"
         }
