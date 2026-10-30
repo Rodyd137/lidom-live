@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2345",
-    "scraped_at": "2026-10-30T03:26:45.053Z",
+    "scraped_at": "2026-10-30T03:27:48.488Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-29 19:30:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Aaron Schunk Toque de Sacrificio ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": true,
+      "on1B": true,
+      "on2B": false,
       "on3B": false,
       "runners": 1,
-      "mask": 3
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -1101,10 +1101,17 @@
         "plays": [
           {
             "reference_id": "21386-2-74",
-            "text": "Aaron Schunk al bate",
+            "text": "Aaron Schunk Toque de Sacrificio ",
             "scored": false,
             "is_primary": true,
-            "ts": 1793330759
+            "ts": 1793330800
+          },
+          {
+            "reference_id": "21386-2-76",
+            "text": "Jose Devers al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793330814
           }
         ]
       }
@@ -1247,7 +1254,7 @@
         "num": 10,
         "half": "bottom",
         "label": "Baja 10ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
