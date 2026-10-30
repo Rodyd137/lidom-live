@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2345",
-    "scraped_at": "2026-10-30T03:19:23.543Z",
+    "scraped_at": "2026-10-30T03:20:27.252Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-29 19:30:00",
     "roundText": "Alta 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Chritopher Morel Ponche (K) ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 3
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -1065,6 +1065,27 @@
             "ts": 1793330155
           }
         ]
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "plays": [
+          {
+            "reference_id": "21386-1-71",
+            "text": "Chritopher Morel Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793330338
+          },
+          {
+            "reference_id": "21386-1-72",
+            "text": "Raynel Delgado al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793330352
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1192,6 +1213,13 @@
         "half": "bottom",
         "label": "Baja 9na",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
