@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-30T23:25:56.491Z",
+    "scraped_at": "2026-10-30T23:27:00.301Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-10-30 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Marcell Ozuna  Sencillo Jardinero Izquierdo",
-        "atBat": "Carlos Peguero",
+        "lastPlayByPlay": "Carlos Peguero se embasa por Error del Segunda Base - Carrera Empujada -2 ",
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -560,7 +560,7 @@
           "runs": 2,
           "runs_half": 2,
           "errors": 0,
-          "hits": 4,
+          "hits": 3,
           "pitcher": "Jake Eder",
           "era": "",
           "debut": 0,
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-30 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Vidal Brujan Sencillo Jardinero Derecho ",
-        "atBat": "Erik Gonzales",
+        "lastPlayByPlay": "Vidal Brujan Robo de Base Segunda Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11962,8 +11962,8 @@
         "status": 2,
         "date": "2026-10-30 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Marcell Ozuna  Sencillo Jardinero Izquierdo",
-        "atBat": "Carlos Peguero",
+        "lastPlayByPlay": "Carlos Peguero se embasa por Error del Segunda Base - Carrera Empujada -2 ",
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12019,12 +12019,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-30 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Vidal Brujan Sencillo Jardinero Derecho ",
-        "atBat": "Erik Gonzales",
+        "lastPlayByPlay": "Vidal Brujan Robo de Base Segunda Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12068,9 +12068,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2215,
@@ -19517,7 +19517,7 @@
       "date": "2026-10-30 19:00:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Marcell Ozuna  Sencillo Jardinero Izquierdo",
+      "lastPlayByPlay": "Carlos Peguero se embasa por Error del Segunda Base - Carrera Empujada -2 ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -19681,7 +19681,7 @@
           "permalink": "/equipo/gigantes-del-cibao",
           "totals": {
             "R": 2,
-            "H": 4,
+            "H": 3,
             "E": 0,
             "H2": 2
           },
@@ -19852,7 +19852,7 @@
           },
           "home": {
             "R": 2,
-            "H": 4,
+            "H": 3,
             "E": 0
           }
         },
@@ -20006,10 +20006,17 @@
             },
             {
               "reference_id": "20159-2-9",
-              "text": "Carlos Peguero al bate",
+              "text": "Carlos Peguero se embasa por Error del Segunda Base - Carrera Empujada -2 ",
+              "scored": true,
+              "is_primary": true,
+              "ts": 1793402786
+            },
+            {
+              "reference_id": "20159-2-10",
+              "text": "Agustin Ramirez al bate",
               "scored": false,
               "is_primary": true,
-              "ts": 1793402718
+              "ts": 1793402792
             }
           ]
         }
@@ -20026,8 +20033,8 @@
           "num": 1,
           "half": "bottom",
           "label": "Baja 1ra",
-          "total_plays": 5,
-          "scoring_plays": 0
+          "total_plays": 6,
+          "scoring_plays": 1
         }
       ],
       "innings_raw": [
@@ -20216,7 +20223,7 @@
       "date": "2026-10-30 19:15:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Vidal Brujan Sencillo Jardinero Derecho ",
+      "lastPlayByPlay": "Vidal Brujan Robo de Base Segunda Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -20224,14 +20231,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -20681,6 +20688,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1793402726
+            },
+            {
+              "reference_id": "20168-2-4-291815",
+              "text": "Vidal Brujan Robo de Base Segunda Base",
+              "scored": false,
+              "is_primary": false,
+              "ts": 1793402813
             }
           ]
         }
@@ -20697,7 +20711,7 @@
           "num": 1,
           "half": "bottom",
           "label": "Baja 1ra",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -20788,7 +20802,7 @@
             "abbr": "GC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 2,
-            "hits": 4,
+            "hits": 3,
             "errors": 0,
             "permalink": "/equipo/gigantes-del-cibao"
           }
@@ -21194,7 +21208,7 @@
             "abbr": "GC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 2,
-            "hits": 4,
+            "hits": 3,
             "errors": 0,
             "permalink": "/equipo/gigantes-del-cibao"
           }
