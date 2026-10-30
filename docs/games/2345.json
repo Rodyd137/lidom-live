@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2345",
-    "scraped_at": "2026-10-30T02:52:03.418Z",
+    "scraped_at": "2026-10-30T02:53:05.859Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-29 19:30:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Raynel Delgado Out: Elevado al Jardinero Izquierdo",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 6
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -174,7 +174,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 1,
+          "R": 2,
           "H": 1,
           "E": 2,
           "H2": 1
@@ -329,7 +329,7 @@
         {
           "num": 8,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 9,
@@ -345,7 +345,7 @@
           "E": 3
         },
         "home": {
-          "R": 1,
+          "R": 2,
           "H": 1,
           "E": 2
         }
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 1
+            "R": 2
           },
           {
             "num": 9,
-            "R": 1
+            "R": 2
           }
         ]
       }
@@ -938,6 +938,20 @@
             "scored": false,
             "is_primary": true,
             "ts": 1793328581
+          },
+          {
+            "reference_id": "21375-1-57",
+            "text": "Mason Mccoy Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793328731
+          },
+          {
+            "reference_id": "21375-1-58",
+            "text": "Victor Scott  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793328764
           }
         ]
       }
@@ -1045,7 +1059,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 2,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -1101,10 +1115,10 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 9,
