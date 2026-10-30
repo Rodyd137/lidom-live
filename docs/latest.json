@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-30T23:43:00.494Z",
+    "scraped_at": "2026-10-30T23:44:04.634Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,7 +517,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-30 19:00:00",
         "part": 2,
@@ -560,7 +560,7 @@
           "runs": 4,
           "runs_half": 4,
           "errors": 0,
-          "hits": 3,
+          "hits": 4,
           "pitcher": "Jake Eder",
           "era": "",
           "debut": 0,
@@ -568,7 +568,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2214,
@@ -581,16 +581,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-30 19:15:00",
-        "part": 1,
-        "lastPlayByPlay": "Edgar Quero Out: Elevado al Jardinero Derecho ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Socrates Brito",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 2da",
+        "roundText": "Baja 2da",
         "currentInningNum": 2,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -11958,7 +11958,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-30 19:00:00",
         "part": 2,
@@ -12001,7 +12001,7 @@
           "runs": 4,
           "runs_half": 4,
           "errors": 0,
-          "hits": 3,
+          "hits": 4,
           "pitcher": "Jake Eder",
           "era": "",
           "debut": 0,
@@ -12009,7 +12009,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2214,
@@ -12022,16 +12022,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-30 19:15:00",
-        "part": 1,
-        "lastPlayByPlay": "Edgar Quero Out: Elevado al Jardinero Derecho ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Socrates Brito",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 2da",
+        "roundText": "Baja 2da",
         "currentInningNum": 2,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -12069,7 +12069,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -19520,19 +19520,19 @@
       "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
-        "strikes": 1,
+        "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -19681,7 +19681,7 @@
           "permalink": "/equipo/gigantes-del-cibao",
           "totals": {
             "R": 4,
-            "H": 3,
+            "H": 4,
             "E": 0,
             "H2": 4
           },
@@ -19852,7 +19852,7 @@
           },
           "home": {
             "R": 4,
-            "H": 3,
+            "H": 4,
             "E": 0
           }
         },
@@ -20177,7 +20177,7 @@
           "id": 2214,
           "date": "2026-10-30 19:15:00",
           "status": 2,
-          "roundText": "Alta 2da",
+          "roundText": "Baja 2da",
           "awayTeam": {
             "id": 7,
             "name": "Estrellas",
@@ -20291,16 +20291,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-30 19:15:00",
-      "roundText": "Alta 2da",
+      "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "Edgar Quero Out: Elevado al Jardinero Derecho ",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -20823,6 +20823,20 @@
               "ts": 1793403744
             }
           ]
+        },
+        {
+          "num": 2,
+          "half": "bottom",
+          "label": "Baja 2da",
+          "plays": [
+            {
+              "reference_id": "20169-2-13",
+              "text": "Socrates Brito al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793403791
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20846,6 +20860,13 @@
           "label": "Alta 2da",
           "total_plays": 5,
           "scoring_plays": 0
+        },
+        {
+          "num": 2,
+          "half": "bottom",
+          "label": "Baja 2da",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20858,7 +20879,7 @@
         },
         {
           "num": 2,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
@@ -20935,7 +20956,7 @@
             "abbr": "GC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 4,
-            "hits": 3,
+            "hits": 4,
             "errors": 0,
             "permalink": "/equipo/gigantes-del-cibao"
           }
@@ -21430,7 +21451,7 @@
             "abbr": "GC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 4,
-            "hits": 3,
+            "hits": 4,
             "errors": 0,
             "permalink": "/equipo/gigantes-del-cibao"
           }
@@ -21439,7 +21460,7 @@
           "id": 2214,
           "date": "2026-10-30 19:15:00",
           "status": 2,
-          "roundText": "Alta 2da",
+          "roundText": "Baja 2da",
           "awayTeam": {
             "id": 7,
             "name": "Estrellas",
