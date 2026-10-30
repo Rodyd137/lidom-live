@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2344",
-    "scraped_at": "2026-10-30T03:05:43.750Z",
+    "scraped_at": "2026-10-30T03:06:47.280Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-29 19:30:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Johan Simon Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "Gustavo Nuñez Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -186,28 +186,6 @@
           "debut": false
         },
         "players": [
-          {
-            "id": 6016,
-            "team_id": 1,
-            "name": "Gustavo Nuñez",
-            "abbreviation": "Gustavo Nuñez",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 6017,
-            "team_id": 1,
-            "name": "J. Made",
-            "abbreviation": "J. Made",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
           {
             "id": 6021,
             "team_id": 1,
@@ -905,6 +883,27 @@
             "ts": 1793329165
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "21366-2-58",
+            "text": "Gustavo Nuñez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793329524
+          },
+          {
+            "reference_id": "21366-2-59",
+            "text": "J. Made al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793329536
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -998,6 +997,13 @@
         "label": "Alta 8va",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1052,7 +1058,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
