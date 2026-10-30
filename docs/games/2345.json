@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2345",
-    "scraped_at": "2026-10-30T02:30:01.778Z",
+    "scraped_at": "2026-10-30T02:31:04.062Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-29 19:30:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "J. C. Escarra Base por Bolas Carrera Empujada",
+    "lastPlayByPlay": "Jorge Bonifacio  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -882,13 +882,20 @@
             "scored": true,
             "is_primary": true,
             "ts": 1793327322
-          },
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
           {
-            "reference_id": "21374-1-51",
-            "text": "Jorge Bonifacio al bate",
+            "reference_id": "21374-2-51",
+            "text": "Jorge Bonifacio  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1793327349
+            "ts": 1793327405
           }
         ]
       }
@@ -982,8 +989,15 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 7,
+        "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1031,7 +1045,7 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0

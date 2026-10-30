@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-30T02:29:59.730Z",
+    "scraped_at": "2026-10-30T02:31:03.582Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 6,
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Jesús Sanchez  Out: Elevado al Tercera Base",
-        "atBat": "Felix Reyes",
+        "lastPlayByPlay": "Felix Reyes Ponche (Llega a primera por error) ",
+        "atBat": "Yairo Muñoz",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -642,16 +642,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-29 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "J. C. Escarra Base por Bolas Carrera Empujada",
-        "atBat": "Jorge Bonifacio",
+        "part": 2,
+        "lastPlayByPlay": "Jorge Bonifacio  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "currentInningNum": 7,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -20662,7 +20662,7 @@
           "id": 2345,
           "date": "2026-10-29 19:30:00",
           "status": 2,
-          "roundText": "Alta 7ma",
+          "roundText": "Baja 7ma",
           "awayTeam": {
             "id": 3,
             "name": "Aguilas",
@@ -20752,7 +20752,7 @@
       "date": "2026-10-29 19:30:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Jesús Sanchez  Out: Elevado al Tercera Base",
+      "lastPlayByPlay": "Felix Reyes Ponche (Llega a primera por error) ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -20760,14 +20760,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 3
+        "base": 6
       },
       "base_runners": {
-        "on1B": false,
-        "on2B": true,
-        "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "on1B": true,
+        "on2B": false,
+        "on3B": true,
+        "runners": 2,
+        "mask": 6
       },
       "betting": {
         "moneyline": {
@@ -21570,10 +21570,17 @@
             },
             {
               "reference_id": "21365-1-49",
-              "text": "Felix Reyes al bate",
+              "text": "Felix Reyes Ponche (Llega a primera por error) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793327275
+              "ts": 1793327391
+            },
+            {
+              "reference_id": "21365-1-50",
+              "text": "Yairo Muñoz al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793327415
             }
           ]
         }
@@ -21653,7 +21660,7 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -21753,7 +21760,7 @@
           "id": 2345,
           "date": "2026-10-29 19:30:00",
           "status": 2,
-          "roundText": "Alta 7ma",
+          "roundText": "Baja 7ma",
           "awayTeam": {
             "id": 3,
             "name": "Aguilas",
@@ -21841,16 +21848,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-29 19:30:00",
-      "roundText": "Alta 7ma",
+      "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "J. C. Escarra Base por Bolas Carrera Empujada",
+      "lastPlayByPlay": "Jorge Bonifacio  Out: Rodado al Campo Corto - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -22714,13 +22721,20 @@
               "scored": true,
               "is_primary": true,
               "ts": 1793327322
-            },
+            }
+          ]
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "plays": [
             {
-              "reference_id": "21374-1-51",
-              "text": "Jorge Bonifacio al bate",
+              "reference_id": "21374-2-51",
+              "text": "Jorge Bonifacio  Out: Rodado al Campo Corto - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1793327349
+              "ts": 1793327405
             }
           ]
         }
@@ -22814,8 +22828,15 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 7,
+          "total_plays": 6,
           "scoring_plays": 1
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -22863,7 +22884,7 @@
         },
         {
           "num": 7,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 1,
           "homeTeamRuns": 0
