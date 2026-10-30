@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-30T02:39:27.070Z",
+    "scraped_at": "2026-10-30T02:40:29.206Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-29 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "Erik Gonzales Ponche (K) ",
-        "atBat": null,
+        "lastPlayByPlay": "Luis de los Santos Wild Pitch ",
+        "atBat": "Junior Lake",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Chritopher Morel Out: Elevado al Campo Corto",
-        "atBat": "Raynel Delgado",
+        "lastPlayByPlay": "Raynel Delgado Out: Elevado al Jardinero Izquierdo",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -11773,12 +11773,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-29 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "Erik Gonzales Ponche (K) ",
-        "atBat": "Luis de los Santos",
+        "lastPlayByPlay": "Luis de los Santos Wild Pitch ",
+        "atBat": "Junior Lake",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11839,7 +11839,7 @@
         "date": "2026-10-29 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "A. Ortiz",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11899,8 +11899,8 @@
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Chritopher Morel Out: Elevado al Campo Corto",
-        "atBat": "Raynel Delgado",
+        "lastPlayByPlay": "Raynel Delgado Out: Elevado al Jardinero Izquierdo",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11945,7 +11945,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -19514,7 +19514,7 @@
       "date": "2026-10-29 19:00:00",
       "roundText": "Alta 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "Erik Gonzales Ponche (K) ",
+      "lastPlayByPlay": "Luis de los Santos Wild Pitch ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -19522,14 +19522,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -20465,10 +20465,24 @@
             },
             {
               "reference_id": "21358-1-65",
-              "text": "Luis de los Santos al bate",
+              "text": "Luis de los Santos Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793327896
+              "ts": 1793327909
+            },
+            {
+              "reference_id": "21358-1-64-291671",
+              "text": "Luis de los Santos Wild Pitch ",
+              "scored": false,
+              "is_primary": false,
+              "ts": 1793327936
+            },
+            {
+              "reference_id": "21358-1-66",
+              "text": "Junior Lake al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793327957
             }
           ]
         }
@@ -20576,7 +20590,7 @@
           "num": 9,
           "half": "top",
           "label": "Alta 9na",
-          "total_plays": 3,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
@@ -21871,11 +21885,11 @@
       "date": "2026-10-29 19:30:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Chritopher Morel Out: Elevado al Campo Corto",
+      "lastPlayByPlay": "Raynel Delgado Out: Elevado al Jardinero Izquierdo",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22794,10 +22808,10 @@
             },
             {
               "reference_id": "21375-1-56",
-              "text": "Raynel Delgado al bate",
+              "text": "Raynel Delgado Out: Elevado al Jardinero Izquierdo",
               "scored": false,
               "is_primary": true,
-              "ts": 1793327863
+              "ts": 1793327972
             }
           ]
         }
