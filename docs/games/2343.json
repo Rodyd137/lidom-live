@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2343",
-    "scraped_at": "2026-10-30T02:42:36.588Z",
+    "scraped_at": "2026-10-30T02:43:38.839Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-29 19:00:00",
-    "roundText": "Alta 9na",
+    "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Luis de los Santos Wild Pitch ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 3
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -976,10 +976,24 @@
           },
           {
             "reference_id": "21358-1-66",
-            "text": "Junior Lake al bate",
+            "text": "Junior Lake  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1793327957
+            "ts": 1793328114
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "21358-2-67",
+            "text": "Noelvi Marte  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793328137
           }
         ]
       }
@@ -1089,6 +1103,13 @@
         "label": "Alta 9na",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1150,7 +1171,7 @@
       },
       {
         "num": 9,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
