@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-30T03:06:45.558Z",
+    "scraped_at": "2026-10-30T03:07:49.070Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Gustavo Nuñez Ponche (K) ",
-        "atBat": "J. Made",
+        "lastPlayByPlay": "J. Made Golpeado por Pelota ",
+        "atBat": "K. Alcantara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 4,
+        "base": 5,
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 1,
         "lastPlayByPlay": "Luis Liberato Out: Elevado al Campo Corto",
-        "atBat": null,
+        "atBat": "Jorge Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -20836,11 +20836,11 @@
       "date": "2026-10-29 19:30:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Gustavo Nuñez Ponche (K) ",
+      "lastPlayByPlay": "K. Alcantara  Out: Rodado al Segunda Base - Primera Base - Doble Play!",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21727,6 +21727,20 @@
               "scored": false,
               "is_primary": true,
               "ts": 1793329536
+            },
+            {
+              "reference_id": "21366-2-60",
+              "text": "J. Made Golpeado por Pelota ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793329598
+            },
+            {
+              "reference_id": "21366-2-61",
+              "text": "K. Alcantara  Out: Rodado al Segunda Base - Primera Base - Doble Play!",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793329651
             }
           ]
         }
@@ -21827,7 +21841,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 2,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -22019,20 +22033,20 @@
       "currentInningNum": 9,
       "lastPlayByPlay": "Luis Liberato Out: Elevado al Campo Corto",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 2,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 4
+        "base": 5
       },
       "base_runners": {
-        "on1B": false,
-        "on2B": false,
-        "on3B": true,
-        "runners": 1,
-        "mask": 4
+        "on1B": true,
+        "on2B": true,
+        "on3B": false,
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -23021,6 +23035,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1793329545
+            },
+            {
+              "reference_id": "21376-1-66",
+              "text": "Jorge Bonifacio al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793329586
             }
           ]
         }
@@ -23142,7 +23163,7 @@
           "num": 9,
           "half": "top",
           "label": "Alta 9na",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
