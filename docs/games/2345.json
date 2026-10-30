@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2345",
-    "scraped_at": "2026-10-30T02:06:56.259Z",
+    "scraped_at": "2026-10-30T02:07:58.909Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-29 19:30:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Raimel Tapia se embasa por Error del Campo Corto",
+    "lastPlayByPlay": "Oscar Gonzalez Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -822,10 +822,17 @@
           },
           {
             "reference_id": "21373-2-43",
-            "text": "Oscar Gonzalez al bate",
+            "text": "Oscar Gonzalez Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1793325925
+            "ts": 1793326026
+          },
+          {
+            "reference_id": "21373-2-44",
+            "text": "Cesar Prieto  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793326038
           }
         ]
       }
@@ -912,7 +919,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -986,7 +993,7 @@
         "id": 2343,
         "date": "2026-10-29 19:00:00",
         "status": 2,
-        "roundText": "Alta 8va",
+        "roundText": "Baja 8va",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -1029,7 +1036,7 @@
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 6,
-          "hits": 8,
+          "hits": 9,
           "errors": 1,
           "permalink": "/equipo/tigres-del-licey"
         }

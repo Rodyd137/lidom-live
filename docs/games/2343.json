@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2343",
-    "scraped_at": "2026-10-30T02:06:56.246Z",
+    "scraped_at": "2026-10-30T02:07:58.881Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-29 19:00:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "M. De la Cruz Cuadrangular! 3 Carreras Impulsadas ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -878,10 +878,24 @@
           },
           {
             "reference_id": "21357-1-55",
-            "text": "Jonathan Guzman al bate",
+            "text": "Jonathan Guzman Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1793325878
+            "ts": 1793325974
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "21357-2-56",
+            "text": "Nomar Mazara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793326001
           }
         ]
       }
@@ -977,6 +991,13 @@
         "label": "Alta 8va",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1031,7 +1052,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 3,
         "homeTeamRuns": 0
@@ -1066,7 +1087,7 @@
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 6,
-          "hits": 8,
+          "hits": 9,
           "errors": 1,
           "permalink": "/equipo/tigres-del-licey"
         }
