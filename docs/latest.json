@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-30T01:48:00.152Z",
+    "scraped_at": "2026-10-30T01:49:04.005Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -520,16 +520,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-29 19:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Erik Gonzales Sencillo Out Robando Base! - Jardinero Central - Receptor",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Eddison Paulino ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "currentInningNum": 7,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "E. Florial Ponche (K) ",
-        "atBat": "Mel Rojas",
+        "lastPlayByPlay": "Mel Rojas Out: Elevado al Jardinero Derecho ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -594,10 +594,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -631,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -645,16 +642,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-29 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Steward Berroa  Out: Rodado al Lanzador - Primera Base",
-        "atBat": "Luis Liberato",
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "currentInningNum": 5,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -692,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -19518,16 +19515,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-29 19:00:00",
-      "roundText": "Alta 7ma",
+      "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Erik Gonzales Sencillo Out Robando Base! - Jardinero Central - Receptor",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 1
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -20307,6 +20304,27 @@
               "scored": false,
               "is_primary": true,
               "ts": 1793324390
+            },
+            {
+              "reference_id": "21356-1-46",
+              "text": "Marmolejos Out: Elevado al Jardinero Derecho ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793324845
+            }
+          ]
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "plays": [
+            {
+              "reference_id": "21356-2-47",
+              "text": "Eddison Paulino  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793324883
             }
           ]
         }
@@ -20386,8 +20404,15 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 1
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20435,7 +20460,7 @@
         },
         {
           "num": 7,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 1,
           "homeTeamRuns": 0
@@ -20486,7 +20511,7 @@
           "id": 2345,
           "date": "2026-10-29 19:30:00",
           "status": 2,
-          "roundText": "Alta 5ta",
+          "roundText": "Baja 5ta",
           "awayTeam": {
             "id": 3,
             "name": "Aguilas",
@@ -20576,11 +20601,11 @@
       "date": "2026-10-29 19:30:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "E. Florial Ponche (K) ",
+      "lastPlayByPlay": "Mel Rojas Out: Elevado al Jardinero Derecho ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21268,10 +21293,10 @@
             },
             {
               "reference_id": "21363-2-34",
-              "text": "Mel Rojas al bate",
+              "text": "Mel Rojas Out: Elevado al Jardinero Derecho ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793324750
+              "ts": 1793324910
             }
           ]
         }
@@ -21404,7 +21429,7 @@
           "id": 2343,
           "date": "2026-10-29 19:00:00",
           "status": 2,
-          "roundText": "Alta 7ma",
+          "roundText": "Baja 7ma",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -21430,7 +21455,7 @@
           "id": 2345,
           "date": "2026-10-29 19:30:00",
           "status": 2,
-          "roundText": "Alta 5ta",
+          "roundText": "Baja 5ta",
           "awayTeam": {
             "id": 3,
             "name": "Aguilas",
@@ -21518,16 +21543,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-29 19:30:00",
-      "roundText": "Alta 5ta",
+      "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Steward Berroa  Out: Rodado al Lanzador - Primera Base",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -22247,10 +22272,10 @@
             },
             {
               "reference_id": "21372-1-34",
-              "text": "Luis Liberato al bate",
+              "text": "Luis Liberato Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793324515
+              "ts": 1793324893
             }
           ]
         }
@@ -22351,7 +22376,7 @@
         },
         {
           "num": 5,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
@@ -22390,7 +22415,7 @@
           "id": 2343,
           "date": "2026-10-29 19:00:00",
           "status": 2,
-          "roundText": "Alta 7ma",
+          "roundText": "Baja 7ma",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
