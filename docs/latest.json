@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-30T02:04:49.138Z",
+    "scraped_at": "2026-10-30T02:05:52.175Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 6,
+        "base": 1,
         "status": 2,
         "date": "2026-10-29 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "Ibañez Sencillo Segunda Base",
-        "atBat": "M. De la Cruz",
+        "lastPlayByPlay": "M. De la Cruz Cuadrangular! 3 Carreras Impulsadas ",
+        "atBat": "Jonathan Guzman",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -541,10 +541,10 @@
           "color": "db2319",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "permalink": "/equipo/leones-del-escogido",
-          "runs": 12,
+          "runs": 15,
           "runs_half": 11,
           "errors": 0,
-          "hits": 12,
+          "hits": 13,
           "pitcher": "",
           "era": "",
           "debut": 0,
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Raimel Tapia se embasa por Error del Campo Corto",
+        "atBat": "Oscar Gonzalez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -665,7 +665,7 @@
           "permalink": "/equipo/aguilas-cibaenas",
           "runs": 1,
           "runs_half": 1,
-          "errors": 1,
+          "errors": 2,
           "hits": 2,
           "pitcher": "D. File",
           "era": "",
@@ -19514,7 +19514,7 @@
       "date": "2026-10-29 19:00:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Ibañez Sencillo Segunda Base",
+      "lastPlayByPlay": "M. De la Cruz Cuadrangular! 3 Carreras Impulsadas ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -19522,14 +19522,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 6
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
+        "on1B": false,
         "on2B": false,
-        "on3B": true,
-        "runners": 2,
-        "mask": 6
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -19556,8 +19556,8 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "permalink": "/equipo/leones-del-escogido",
           "totals": {
-            "R": 12,
-            "H": 12,
+            "R": 15,
+            "H": 13,
             "E": 0,
             "H2": 11
           },
@@ -19831,7 +19831,7 @@
           },
           {
             "num": 8,
-            "away": 0,
+            "away": 3,
             "home": 0
           },
           {
@@ -19843,8 +19843,8 @@
         "extras": false,
         "totals": {
           "away": {
-            "R": 12,
-            "H": 12,
+            "R": 15,
+            "H": 13,
             "E": 0
           },
           "home": {
@@ -19885,11 +19885,11 @@
             },
             {
               "num": 8,
-              "R": 12
+              "R": 15
             },
             {
               "num": 9,
-              "R": 12
+              "R": 15
             }
           ],
           "home": [
@@ -20374,10 +20374,17 @@
             },
             {
               "reference_id": "21357-1-54",
-              "text": "M. De la Cruz al bate",
+              "text": "M. De la Cruz Cuadrangular! 3 Carreras Impulsadas ",
+              "scored": true,
+              "is_primary": true,
+              "ts": 1793325866
+            },
+            {
+              "reference_id": "21357-1-55",
+              "text": "Jonathan Guzman al bate",
               "scored": false,
               "is_primary": true,
-              "ts": 1793325787
+              "ts": 1793325878
             }
           ]
         }
@@ -20471,8 +20478,8 @@
           "num": 8,
           "half": "top",
           "label": "Alta 8va",
-          "total_plays": 5,
-          "scoring_plays": 0
+          "total_plays": 6,
+          "scoring_plays": 1
         }
       ],
       "innings_raw": [
@@ -20529,7 +20536,7 @@
           "num": 8,
           "part": 1,
           "is_last": 1,
-          "awayTeamRuns": 0,
+          "awayTeamRuns": 3,
           "homeTeamRuns": 0
         },
         {
@@ -20579,7 +20586,7 @@
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
             "runs": 1,
             "hits": 2,
-            "errors": 1,
+            "errors": 2,
             "permalink": "/equipo/aguilas-cibaenas"
           },
           "homeTeam": {
@@ -21586,8 +21593,8 @@
             "name": "Leones",
             "abbr": "LE",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-            "runs": 12,
-            "hits": 12,
+            "runs": 15,
+            "hits": 13,
             "errors": 0,
             "permalink": "/equipo/leones-del-escogido"
           },
@@ -21614,7 +21621,7 @@
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
             "runs": 1,
             "hits": 2,
-            "errors": 1,
+            "errors": 2,
             "permalink": "/equipo/aguilas-cibaenas"
           },
           "homeTeam": {
@@ -21696,7 +21703,7 @@
       "date": "2026-10-29 19:30:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Raimel Tapia se embasa por Error del Campo Corto",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21704,14 +21711,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -21740,7 +21747,7 @@
           "totals": {
             "R": 1,
             "H": 2,
-            "E": 1,
+            "E": 2,
             "H2": 1
           },
           "probables": {
@@ -22027,7 +22034,7 @@
           "away": {
             "R": 1,
             "H": 2,
-            "E": 1
+            "E": 2
           },
           "home": {
             "R": 1,
@@ -22492,6 +22499,27 @@
               "ts": 1793325669
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "bottom",
+          "label": "Baja 6ta",
+          "plays": [
+            {
+              "reference_id": "21373-2-42",
+              "text": "Raimel Tapia se embasa por Error del Campo Corto",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793325917
+            },
+            {
+              "reference_id": "21373-2-43",
+              "text": "Oscar Gonzalez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793325925
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22571,6 +22599,13 @@
           "label": "Alta 6ta",
           "total_plays": 4,
           "scoring_plays": 0
+        },
+        {
+          "num": 6,
+          "half": "bottom",
+          "label": "Baja 6ta",
+          "total_plays": 2,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -22649,8 +22684,8 @@
             "name": "Leones",
             "abbr": "LE",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-            "runs": 12,
-            "hits": 12,
+            "runs": 15,
+            "hits": 13,
             "errors": 0,
             "permalink": "/equipo/leones-del-escogido"
           },
