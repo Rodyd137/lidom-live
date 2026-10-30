@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2345",
-    "scraped_at": "2026-10-30T03:50:52.802Z",
+    "scraped_at": "2026-10-30T03:51:56.313Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -15,7 +15,7 @@
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -1176,6 +1176,20 @@
             "ts": 1793332087
           }
         ]
+      },
+      {
+        "num": 11,
+        "half": "bottom",
+        "label": "Baja 11ra",
+        "plays": [
+          {
+            "reference_id": "21387-2-83",
+            "text": "Miguel Bleis al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793332198
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1325,6 +1339,13 @@
         "label": "Alta 11ra",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 11,
+        "half": "bottom",
+        "label": "Baja 11ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1401,7 +1422,7 @@
       {
         "num": 11,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 3,
         "homeTeamRuns": 0
       }
