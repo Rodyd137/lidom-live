@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-30T01:33:18.821Z",
+    "scraped_at": "2026-10-30T01:34:22.357Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-29 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "M. De la Cruz Sencillo Campo Corto",
-        "atBat": "Jonathan Guzman",
+        "lastPlayByPlay": "Jonathan Guzman Ponche (K) ",
+        "atBat": "Vidal Brujan",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Aaron Schunk Ponche (K) ",
-        "atBat": null,
+        "lastPlayByPlay": "Leonardo Bernal  Out: Elevado al Jardinero Central",
+        "atBat": "Jose Devers",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 3,
         "strikes": 0
       }
     ],
@@ -19514,22 +19514,22 @@
       "date": "2026-10-29 19:00:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "M. De la Cruz Sencillo Campo Corto",
+      "lastPlayByPlay": "Jonathan Guzman Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -20283,10 +20283,17 @@
             },
             {
               "reference_id": "21356-1-43",
-              "text": "Jonathan Guzman al bate",
+              "text": "Jonathan Guzman Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793323843
+              "ts": 1793324002
+            },
+            {
+              "reference_id": "21356-1-44",
+              "text": "Vidal Brujan al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793324015
             }
           ]
         }
@@ -20366,7 +20373,7 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21472,11 +21479,11 @@
       "date": "2026-10-29 19:30:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Aaron Schunk Ponche (K) ",
+      "lastPlayByPlay": "Leonardo Bernal  Out: Elevado al Jardinero Central",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -22154,6 +22161,20 @@
               "scored": false,
               "is_primary": true,
               "ts": 1793323895
+            },
+            {
+              "reference_id": "21371-2-29",
+              "text": "Leonardo Bernal  Out: Elevado al Jardinero Central",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793323957
+            },
+            {
+              "reference_id": "21371-2-30",
+              "text": "Jose Devers al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793323971
             }
           ]
         }
@@ -22212,7 +22233,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 1,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
