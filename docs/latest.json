@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-30T02:13:12.294Z",
+    "scraped_at": "2026-10-30T02:14:15.428Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,11 +517,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 4,
         "status": 2,
         "date": "2026-10-29 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Nomar Mazara Out: Elevado al Jardinero Central",
+        "lastPlayByPlay": "Agustin Ramirez Doble! Robo de Base - Tercera Base",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -544,7 +544,7 @@
           "runs": 15,
           "runs_half": 11,
           "errors": 0,
-          "hits": 13,
+          "hits": 14,
           "pitcher": "",
           "era": "",
           "debut": 0,
@@ -642,12 +642,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Victor Scott Out: Elevado al Receptor",
+        "atBat": "Carson Williams",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -691,8 +691,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 0,
+        "balls": 2,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -19520,7 +19520,7 @@
       "date": "2026-10-29 19:00:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Nomar Mazara Out: Elevado al Jardinero Central",
+      "lastPlayByPlay": "Agustin Ramirez Doble! Robo de Base - Tercera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -19528,14 +19528,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 4
       },
       "base_runners": {
         "on1B": false,
         "on2B": false,
-        "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "on3B": true,
+        "runners": 1,
+        "mask": 4
       },
       "betting": {
         "moneyline": {
@@ -19563,7 +19563,7 @@
           "permalink": "/equipo/leones-del-escogido",
           "totals": {
             "R": 15,
-            "H": 13,
+            "H": 14,
             "E": 0,
             "H2": 11
           },
@@ -19850,7 +19850,7 @@
         "totals": {
           "away": {
             "R": 15,
-            "H": 13,
+            "H": 14,
             "E": 0
           },
           "home": {
@@ -20405,6 +20405,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1793326197
+            },
+            {
+              "reference_id": "21357-2-57",
+              "text": "Agustin Ramirez Doble! Robo de Base - Tercera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793326447
             }
           ]
         }
@@ -20505,7 +20512,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21635,7 +21642,7 @@
             "abbr": "LE",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
             "runs": 15,
-            "hits": 13,
+            "hits": 14,
             "errors": 0,
             "permalink": "/equipo/leones-del-escogido"
           },
@@ -21744,22 +21751,22 @@
       "date": "2026-10-29 19:30:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Victor Scott Out: Elevado al Receptor",
       "counts": {
-        "balls": 0,
+        "balls": 2,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -22568,6 +22575,34 @@
               "ts": 1793326120
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "top",
+          "label": "Alta 7ma",
+          "plays": [
+            {
+              "reference_id": "21374-1-45",
+              "text": "Mason Mccoy Sencillo ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793326370
+            },
+            {
+              "reference_id": "21374-1-46",
+              "text": "Victor Scott Out: Elevado al Receptor",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793326390
+            },
+            {
+              "reference_id": "21374-1-47",
+              "text": "Carson Williams al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793326399
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22654,6 +22689,13 @@
           "label": "Baja 6ta",
           "total_plays": 3,
           "scoring_plays": 0
+        },
+        {
+          "num": 7,
+          "half": "top",
+          "label": "Alta 7ma",
+          "total_plays": 3,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -22733,7 +22775,7 @@
             "abbr": "LE",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
             "runs": 15,
-            "hits": 13,
+            "hits": 14,
             "errors": 0,
             "permalink": "/equipo/leones-del-escogido"
           },
