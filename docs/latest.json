@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-30T01:14:24.752Z",
+    "scraped_at": "2026-10-30T01:15:28.421Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 8,
+        "base": 1,
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Jesús Sanchez  Out: Elevado al Primera Base",
-        "atBat": "Felix Reyes",
+        "lastPlayByPlay": "Felix Reyes Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Chritopher Morel",
+        "lastPlayByPlay": "Raimel Tapia Out: Elevado al Jardinero Central",
+        "atBat": "Oscar Gonzalez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -20514,22 +20514,22 @@
       "date": "2026-10-29 19:30:00",
       "roundText": "Alta 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Jesús Sanchez  Out: Elevado al Primera Base",
+      "lastPlayByPlay": "Felix Reyes Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 8
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": true,
-        "on3B": true,
-        "runners": 3,
-        "mask": 8
+        "on1B": false,
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -21101,10 +21101,10 @@
             },
             {
               "reference_id": "21362-1-22",
-              "text": "Felix Reyes al bate",
+              "text": "Felix Reyes Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793322713
+              "ts": 1793322887
             }
           ]
         }
@@ -21332,11 +21332,11 @@
       "date": "2026-10-29 19:30:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Raimel Tapia Out: Elevado al Jardinero Central",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21946,6 +21946,27 @@
               "ts": 1793322500
             }
           ]
+        },
+        {
+          "num": 3,
+          "half": "bottom",
+          "label": "Baja 3ra",
+          "plays": [
+            {
+              "reference_id": "21370-2-23",
+              "text": "Raimel Tapia Out: Elevado al Jardinero Central",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793322844
+            },
+            {
+              "reference_id": "21370-2-24",
+              "text": "Oscar Gonzalez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793322858
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21982,6 +22003,13 @@
           "half": "top",
           "label": "Alta 3ra",
           "total_plays": 5,
+          "scoring_plays": 0
+        },
+        {
+          "num": 3,
+          "half": "bottom",
+          "label": "Baja 3ra",
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
