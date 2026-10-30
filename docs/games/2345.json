@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2345",
-    "scraped_at": "2026-10-30T03:34:06.139Z",
+    "scraped_at": "2026-10-30T03:35:09.624Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-10-29 19:30:00",
     "roundText": "Alta 11ra",
     "currentInningNum": 11,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Victor Scott Out: Elevado al Receptor",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -154,10 +154,10 @@
             "position": ""
           },
           {
-            "id": 6233,
+            "id": 6203,
             "team_id": 3,
-            "name": "Abran Almonte",
-            "abbreviation": "A. Almonte",
+            "name": "Alfredo Reyes",
+            "abbreviation": "A. Reyes",
             "number": null,
             "dob": null,
             "height": "",
@@ -1134,6 +1134,27 @@
             "ts": 1793331042
           }
         ]
+      },
+      {
+        "num": 11,
+        "half": "top",
+        "label": "Alta 11ra",
+        "plays": [
+          {
+            "reference_id": "21387-1-78",
+            "text": "Victor Scott Out: Elevado al Receptor",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793331265
+          },
+          {
+            "reference_id": "21387-1-79",
+            "text": "Alfredo Reyes al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793331295
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1275,6 +1296,13 @@
         "half": "bottom",
         "label": "Baja 10ma",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 11,
+        "half": "top",
+        "label": "Alta 11ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
