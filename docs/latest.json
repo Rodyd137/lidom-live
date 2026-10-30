@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-30T23:22:44.114Z",
+    "scraped_at": "2026-10-30T23:23:48.445Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-10-30 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Carlos Jorge  Sencillo Campo Corto",
-        "atBat": "Noelvi Marte ",
+        "lastPlayByPlay": "Noelvi Marte  Sencillo Tercera Base",
+        "atBat": "Marcell Ozuna ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -560,7 +560,7 @@
           "runs": 0,
           "runs_half": 0,
           "errors": 0,
-          "hits": 1,
+          "hits": 2,
           "pitcher": "Jake Eder",
           "era": "",
           "debut": 0,
@@ -568,7 +568,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2214,
@@ -581,16 +581,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-30 19:15:00",
-        "part": 1,
-        "lastPlayByPlay": "Oscar Gonzalez Out: Elevado al Jardinero Izquierdo",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Vidal Brujan",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 1ra",
+        "roundText": "Baja 1ra",
         "currentInningNum": 1,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -11958,12 +11958,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-10-30 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Carlos Jorge  Sencillo Campo Corto",
-        "atBat": "Noelvi Marte ",
+        "lastPlayByPlay": "Noelvi Marte  Sencillo Tercera Base",
+        "atBat": "Marcell Ozuna ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12001,7 +12001,7 @@
           "runs": 0,
           "runs_half": 0,
           "errors": 0,
-          "hits": 1,
+          "hits": 2,
           "pitcher": "Jake Eder",
           "era": "",
           "debut": 0,
@@ -12009,7 +12009,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2214,
@@ -12024,7 +12024,7 @@
         "date": "2026-10-30 19:15:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Vidal Brujan",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -19517,22 +19517,22 @@
       "date": "2026-10-30 19:00:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Carlos Jorge  Sencillo Campo Corto",
+      "lastPlayByPlay": "Noelvi Marte  Sencillo Tercera Base",
       "counts": {
         "balls": 0,
-        "strikes": 2,
+        "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 5
       },
       "base_runners": {
         "on1B": true,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -19681,7 +19681,7 @@
           "permalink": "/equipo/gigantes-del-cibao",
           "totals": {
             "R": 0,
-            "H": 1,
+            "H": 2,
             "E": 0,
             "H2": 0
           },
@@ -19852,7 +19852,7 @@
           },
           "home": {
             "R": 0,
-            "H": 1,
+            "H": 2,
             "E": 0
           }
         },
@@ -19992,10 +19992,17 @@
             },
             {
               "reference_id": "20159-2-7",
-              "text": "Noelvi Marte  al bate",
+              "text": "Noelvi Marte  Sencillo Tercera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1793402453
+              "ts": 1793402619
+            },
+            {
+              "reference_id": "20159-2-8",
+              "text": "Marcell Ozuna  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793402623
             }
           ]
         }
@@ -20012,7 +20019,7 @@
           "num": 1,
           "half": "bottom",
           "label": "Baja 1ra",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -20648,6 +20655,20 @@
               "ts": 1793402512
             }
           ]
+        },
+        {
+          "num": 1,
+          "half": "bottom",
+          "label": "Baja 1ra",
+          "plays": [
+            {
+              "reference_id": "20168-2-4",
+              "text": "Vidal Brujan al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793402568
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20656,6 +20677,13 @@
           "half": "top",
           "label": "Alta 1ra",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 1,
+          "half": "bottom",
+          "label": "Baja 1ra",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -20746,7 +20774,7 @@
             "abbr": "GC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 0,
-            "hits": 1,
+            "hits": 2,
             "errors": 0,
             "permalink": "/equipo/gigantes-del-cibao"
           }
@@ -21152,7 +21180,7 @@
             "abbr": "GC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 0,
-            "hits": 1,
+            "hits": 2,
             "errors": 0,
             "permalink": "/equipo/gigantes-del-cibao"
           }
