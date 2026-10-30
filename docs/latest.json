@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-30T01:31:12.758Z",
+    "scraped_at": "2026-10-30T01:32:16.295Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-10-29 19:00:00",
         "part": 1,
         "lastPlayByPlay": "M. De la Cruz Sencillo Campo Corto",
-        "atBat": null,
+        "atBat": "Jonathan Guzman",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -581,16 +581,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-29 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "George Valera  Ponche (K) ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "J. Made",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "currentInningNum": 5,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -643,7 +643,7 @@
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Aaron Schunk Ponche (K) ",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -20280,6 +20280,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1793323800
+            },
+            {
+              "reference_id": "21356-1-43",
+              "text": "Jonathan Guzman al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793323843
             }
           ]
         }
@@ -20359,7 +20366,7 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -20433,7 +20440,7 @@
           "id": 2344,
           "date": "2026-10-29 19:30:00",
           "status": 2,
-          "roundText": "Alta 5ta",
+          "roundText": "Baja 5ta",
           "awayTeam": {
             "id": 6,
             "name": "Toros",
@@ -20547,16 +20554,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-29 19:30:00",
-      "roundText": "Alta 5ta",
+      "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "George Valera  Ponche (K) ",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -21199,10 +21206,24 @@
             },
             {
               "reference_id": "21363-1-29",
-              "text": "Pedro Severino al bate",
+              "text": "Pedro Severino  Out: Rodado al Tercera Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1793323816
+              "ts": 1793323825
+            }
+          ]
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "plays": [
+            {
+              "reference_id": "21363-2-30",
+              "text": "J. Made al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793323862
             }
           ]
         }
@@ -21256,6 +21277,13 @@
           "label": "Alta 5ta",
           "total_plays": 3,
           "scoring_plays": 0
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -21289,7 +21317,7 @@
         },
         {
           "num": 5,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
@@ -21444,11 +21472,11 @@
       "date": "2026-10-29 19:30:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Aaron Schunk Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -22114,6 +22142,20 @@
               "ts": 1793323699
             }
           ]
+        },
+        {
+          "num": 4,
+          "half": "bottom",
+          "label": "Baja 4ta",
+          "plays": [
+            {
+              "reference_id": "21371-2-28",
+              "text": "Aaron Schunk Ponche (K) ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793323895
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22164,6 +22206,13 @@
           "half": "top",
           "label": "Alta 4ta",
           "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 4,
+          "half": "bottom",
+          "label": "Baja 4ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -22263,7 +22312,7 @@
           "id": 2344,
           "date": "2026-10-29 19:30:00",
           "status": 2,
-          "roundText": "Alta 5ta",
+          "roundText": "Baja 5ta",
           "awayTeam": {
             "id": 6,
             "name": "Toros",
