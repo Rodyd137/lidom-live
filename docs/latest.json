@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-30T23:52:37.356Z",
+    "scraped_at": "2026-10-30T23:53:41.384Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,19 +517,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 1,
         "status": 2,
         "date": "2026-10-30 19:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Marcell Ozuna   Out: Rodado al Campo Corto - Segunda Base - Primera Base - Doble Play!",
+        "part": 1,
+        "lastPlayByPlay": "",
         "atBat": "Jose Barrero",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 2da",
-        "currentInningNum": 2,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 3ra",
+        "currentInningNum": 3,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -566,8 +566,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
+        "balls": 2,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -644,7 +644,7 @@
         "date": "2026-10-30 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "J. C. Escarra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -690,7 +690,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -11958,19 +11958,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 1,
         "status": 2,
         "date": "2026-10-30 19:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Marcell Ozuna   Out: Rodado al Campo Corto - Segunda Base - Primera Base - Doble Play!",
+        "part": 1,
+        "lastPlayByPlay": "",
         "atBat": "Jose Barrero",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 2da",
-        "currentInningNum": 2,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 3ra",
+        "currentInningNum": 3,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -12007,8 +12007,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
+        "balls": 2,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -12085,7 +12085,7 @@
         "date": "2026-10-30 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "J. C. Escarra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12131,7 +12131,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "2026-10-31": [
@@ -19515,24 +19515,24 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-30 19:00:00",
-      "roundText": "Baja 2da",
-      "currentInningNum": 2,
-      "lastPlayByPlay": "Marcell Ozuna   Out: Rodado al Campo Corto - Segunda Base - Primera Base - Doble Play!",
+      "roundText": "Alta 3ra",
+      "currentInningNum": 3,
+      "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
+        "balls": 2,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
-        "base": 5
+        "battingTeam": "awayTeam",
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": true,
+        "on1B": false,
+        "on2B": false,
         "on3B": false,
-        "runners": 2,
-        "mask": 5
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -20167,14 +20167,14 @@
         {
           "num": 2,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 0,
           "homeTeamRuns": 1
         },
         {
           "num": 3,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
@@ -21002,7 +21002,7 @@
           "id": 2213,
           "date": "2026-10-30 19:00:00",
           "status": 2,
-          "roundText": "Baja 2da",
+          "roundText": "Alta 3ra",
           "awayTeam": {
             "id": 1,
             "name": "Tigres",
@@ -21121,7 +21121,7 @@
       "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -21210,6 +21210,17 @@
               "team_id": 3,
               "name": "Jorge Bonifacio",
               "abbreviation": "Jorge Bonifacio",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6119,
+              "team_id": 3,
+              "name": "J. C. Escarra",
+              "abbreviation": "J. C. Escarra",
               "number": null,
               "dob": null,
               "height": "",
@@ -21478,6 +21489,20 @@
               "ts": 1793404243
             }
           ]
+        },
+        {
+          "num": 2,
+          "half": "top",
+          "label": "Alta 2da",
+          "plays": [
+            {
+              "reference_id": "20178-1-8",
+              "text": "J. C. Escarra al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793404387
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21493,6 +21518,13 @@
           "half": "bottom",
           "label": "Baja 1ra",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 2,
+          "half": "top",
+          "label": "Alta 2da",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -21566,7 +21598,7 @@
           "id": 2213,
           "date": "2026-10-30 19:00:00",
           "status": 2,
-          "roundText": "Baja 2da",
+          "roundText": "Alta 3ra",
           "awayTeam": {
             "id": 1,
             "name": "Tigres",
