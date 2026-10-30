@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-30T01:50:06.305Z",
+    "scraped_at": "2026-10-30T01:51:09.848Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-10-29 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Eddison Paulino ",
+        "lastPlayByPlay": "Eddison Paulino   Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Noelvi Marte ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "E. Angeles Ponche (K) ",
+        "atBat": "Miguel Bleis",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 0,
-        "strikes": 0
+        "balls": 2,
+        "outs": 1,
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -19514,7 +19514,7 @@
       "date": "2026-10-29 19:00:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Eddison Paulino   Out: Rodado al Segunda Base - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -20318,10 +20318,17 @@
           "plays": [
             {
               "reference_id": "21356-2-47",
-              "text": "Eddison Paulino  al bate",
+              "text": "Eddison Paulino   Out: Rodado al Segunda Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1793324883
+              "ts": 1793324924
+            },
+            {
+              "reference_id": "21356-2-48",
+              "text": "Noelvi Marte  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793324934
             }
           ]
         }
@@ -20408,7 +20415,7 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21542,11 +21549,11 @@
       "date": "2026-10-29 19:30:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "E. Angeles Ponche (K) ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0
+        "balls": 2,
+        "strikes": 1,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -22275,6 +22282,27 @@
               "ts": 1793324893
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "plays": [
+            {
+              "reference_id": "21372-2-35",
+              "text": "E. Angeles Ponche (K) ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793324995
+            },
+            {
+              "reference_id": "21372-2-36",
+              "text": "Miguel Bleis al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793325003
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22339,6 +22367,13 @@
           "half": "top",
           "label": "Alta 5ta",
           "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],

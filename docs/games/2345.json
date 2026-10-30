@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2345",
-    "scraped_at": "2026-10-30T01:50:08.140Z",
+    "scraped_at": "2026-10-30T01:51:10.336Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-10-29 19:30:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "E. Angeles Ponche (K) ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 2,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -744,6 +744,27 @@
             "ts": 1793324893
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "21372-2-35",
+            "text": "E. Angeles Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793324995
+          },
+          {
+            "reference_id": "21372-2-36",
+            "text": "Miguel Bleis al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793325003
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -808,6 +829,13 @@
         "half": "top",
         "label": "Alta 5ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
