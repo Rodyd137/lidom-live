@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-30T03:15:10.577Z",
+    "scraped_at": "2026-10-30T03:16:12.672Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Gilberto Celestino  Doble! Jardinero Derecho ",
-        "atBat": "Jesús Sanchez ",
+        "lastPlayByPlay": "Jesús Sanchez  Out: Elevado al Jardinero Derecho ",
+        "atBat": "Felix Reyes",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -643,7 +643,7 @@
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Aaron Schunk  Out: Rodado al Lanzador - Primera Base",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       }
     ],
@@ -11834,12 +11834,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 1,
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Gilberto Celestino  Doble! Jardinero Derecho ",
-        "atBat": "Jesús Sanchez ",
+        "lastPlayByPlay": "Jesús Sanchez  Out: Elevado al Jardinero Derecho ",
+        "atBat": "Felix Reyes",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -11884,7 +11884,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -11899,8 +11899,8 @@
         "status": 2,
         "date": "2026-10-29 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Oscar Gonzalez",
+        "lastPlayByPlay": "Aaron Schunk  Out: Rodado al Lanzador - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11945,7 +11945,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       }
     ],
@@ -20836,11 +20836,11 @@
       "date": "2026-10-29 19:30:00",
       "roundText": "Alta 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "Gilberto Celestino  Doble! Jardinero Derecho ",
+      "lastPlayByPlay": "Jesús Sanchez  Out: Elevado al Jardinero Derecho ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21743,10 +21743,17 @@
             },
             {
               "reference_id": "21367-1-64",
-              "text": "Jesús Sanchez  al bate",
+              "text": "Jesús Sanchez  Out: Elevado al Jardinero Derecho ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793329967
+              "ts": 1793330056
+            },
+            {
+              "reference_id": "21367-1-65",
+              "text": "Felix Reyes al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793330064
             }
           ]
         }
@@ -21854,7 +21861,7 @@
           "num": 9,
           "half": "top",
           "label": "Alta 9na",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -22044,11 +22051,11 @@
       "date": "2026-10-29 19:30:00",
       "roundText": "Baja 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Aaron Schunk  Out: Rodado al Lanzador - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -23057,6 +23064,34 @@
               "ts": 1793329782
             }
           ]
+        },
+        {
+          "num": 9,
+          "half": "bottom",
+          "label": "Baja 9na",
+          "plays": [
+            {
+              "reference_id": "21376-2-67",
+              "text": "Oscar Gonzalez Ponche (K) ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793330106
+            },
+            {
+              "reference_id": "21376-2-68",
+              "text": "Cesar Prieto  Out: Elevado al Jardinero Izquierdo",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793330127
+            },
+            {
+              "reference_id": "21376-2-70",
+              "text": "Aaron Schunk  Out: Rodado al Lanzador - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793330155
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23177,6 +23212,13 @@
           "half": "top",
           "label": "Alta 9na",
           "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 9,
+          "half": "bottom",
+          "label": "Baja 9na",
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],

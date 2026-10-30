@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2345",
-    "scraped_at": "2026-10-30T03:15:10.949Z",
+    "scraped_at": "2026-10-30T03:16:14.896Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-10-29 19:30:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Aaron Schunk  Out: Rodado al Lanzador - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -1024,6 +1024,34 @@
             "ts": 1793329782
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "21376-2-67",
+            "text": "Oscar Gonzalez Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793330106
+          },
+          {
+            "reference_id": "21376-2-68",
+            "text": "Cesar Prieto  Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793330127
+          },
+          {
+            "reference_id": "21376-2-70",
+            "text": "Aaron Schunk  Out: Rodado al Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793330155
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1144,6 +1172,13 @@
         "half": "top",
         "label": "Alta 9na",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
