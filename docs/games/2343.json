@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2343",
-    "scraped_at": "2026-10-30T01:36:28.959Z",
+    "scraped_at": "2026-10-30T01:37:32.481Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-29 19:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Jonathan Guzman Ponche (K) ",
+    "lastPlayByPlay": "Vidal Brujan Sencillo y 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": true,
+      "on1B": true,
+      "on2B": false,
       "on3B": false,
       "runners": 1,
-      "mask": 3
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 11,
-          "H": 10,
+          "R": 12,
+          "H": 11,
           "E": 0,
           "H2": 11
         },
@@ -323,7 +323,7 @@
         },
         {
           "num": 7,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 11,
-          "H": 10,
+          "R": 12,
+          "H": 11,
           "E": 0
         },
         "home": {
@@ -378,15 +378,15 @@
           },
           {
             "num": 7,
-            "R": 11
+            "R": 12
           },
           {
             "num": 8,
-            "R": 11
+            "R": 12
           },
           {
             "num": 9,
-            "R": 11
+            "R": 12
           }
         ],
         "home": [
@@ -787,10 +787,17 @@
           },
           {
             "reference_id": "21356-1-44",
-            "text": "Vidal Brujan al bate",
+            "text": "Vidal Brujan Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1793324136
+          },
+          {
+            "reference_id": "21356-1-45",
+            "text": "Erik Gonzales al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1793324015
+            "ts": 1793324148
           }
         ]
       }
@@ -870,8 +877,8 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -921,7 +928,7 @@
         "num": 7,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
@@ -961,7 +968,7 @@
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
           "runs": 3,
-          "hits": 5,
+          "hits": 6,
           "errors": 1,
           "permalink": "/equipo/tigres-del-licey"
         }
