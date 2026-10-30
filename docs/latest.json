@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-30T23:27:00.301Z",
+    "scraped_at": "2026-10-30T23:28:04.422Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-30 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Vidal Brujan Robo de Base Segunda Base",
-        "atBat": null,
+        "lastPlayByPlay": "Erik Gonzales Out: Elevado al Primera Base",
+        "atBat": "Marmolejos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -12023,8 +12023,8 @@
         "status": 2,
         "date": "2026-10-30 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Vidal Brujan Robo de Base Segunda Base",
-        "atBat": null,
+        "lastPlayByPlay": "Erik Gonzales Out: Elevado al Primera Base",
+        "atBat": "Marmolejos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12068,9 +12068,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 2
       },
       {
         "id": 2215,
@@ -20223,11 +20223,11 @@
       "date": "2026-10-30 19:15:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Vidal Brujan Robo de Base Segunda Base",
+      "lastPlayByPlay": "Erik Gonzales Out: Elevado al Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20683,18 +20683,25 @@
               "ts": 1793402724
             },
             {
-              "reference_id": "20168-2-5",
-              "text": "Erik Gonzales al bate",
-              "scored": false,
-              "is_primary": true,
-              "ts": 1793402726
-            },
-            {
               "reference_id": "20168-2-4-291815",
               "text": "Vidal Brujan Robo de Base Segunda Base",
               "scored": false,
               "is_primary": false,
               "ts": 1793402813
+            },
+            {
+              "reference_id": "20168-2-5",
+              "text": "Erik Gonzales Out: Elevado al Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793402878
+            },
+            {
+              "reference_id": "20168-2-6",
+              "text": "Marmolejos al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793402880
             }
           ]
         }
@@ -20711,7 +20718,7 @@
           "num": 1,
           "half": "bottom",
           "label": "Baja 1ra",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
