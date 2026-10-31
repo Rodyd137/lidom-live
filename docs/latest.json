@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T23:49:33.110Z",
+    "scraped_at": "2026-10-31T23:50:36.912Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-10-31 17:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "E. Florial",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -629,7 +629,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2218,
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Ronny Simon",
+        "lastPlayByPlay": "Ronny Simon Base por Bolas ",
+        "atBat": "Gilberto Celestino ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -12265,12 +12265,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Ronny Simon",
+        "lastPlayByPlay": "Ronny Simon Base por Bolas ",
+        "atBat": "Gilberto Celestino ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12314,9 +12314,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "2026-11-01": [
@@ -20292,6 +20292,20 @@
               "ts": 1793490534
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "plays": [
+            {
+              "reference_id": "20190-2-41",
+              "text": "E. Florial al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793490572
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20356,6 +20370,13 @@
           "half": "top",
           "label": "Alta 5ta",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -20548,7 +20569,7 @@
       "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -21636,22 +21657,22 @@
       "date": "2026-10-31 19:30:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Ronny Simon Base por Bolas ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -22118,10 +22139,17 @@
           "plays": [
             {
               "reference_id": "20204-2-8",
-              "text": "Ronny Simon al bate",
+              "text": "Ronny Simon Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793490521
+              "ts": 1793490619
+            },
+            {
+              "reference_id": "20204-2-9",
+              "text": "Gilberto Celestino  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793490621
             }
           ]
         }
@@ -22138,7 +22166,7 @@
           "num": 1,
           "half": "bottom",
           "label": "Baja 1ra",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
