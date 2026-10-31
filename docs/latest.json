@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T00:18:14.691Z",
+    "scraped_at": "2026-10-31T00:19:18.611Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-10-30 19:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jefferson Rojas",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -639,11 +639,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-30 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Enmanuel Valdez   Out: Rodado al Segunda Base - Primera Base",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -11963,7 +11963,7 @@
         "date": "2026-10-30 19:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jefferson Rojas",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12080,11 +12080,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-30 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Enmanuel Valdez   Out: Rodado al Segunda Base - Primera Base",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -20201,6 +20201,20 @@
               "ts": 1793405854
             }
           ]
+        },
+        {
+          "num": 4,
+          "half": "bottom",
+          "label": "Baja 4ta",
+          "plays": [
+            {
+              "reference_id": "20162-2-33",
+              "text": "Jefferson Rojas al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793405900
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20251,6 +20265,13 @@
           "half": "top",
           "label": "Alta 4ta",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 4,
+          "half": "bottom",
+          "label": "Baja 4ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -21349,7 +21370,7 @@
       "date": "2026-10-30 19:30:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Enmanuel Valdez   Out: Rodado al Segunda Base - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21357,14 +21378,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -21584,6 +21605,17 @@
               "team_id": 6,
               "name": "Francisco Urbaez",
               "abbreviation": "F. Urbaez",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6011,
+              "team_id": 6,
+              "name": "Enmanuel Valdez ",
+              "abbreviation": "E. Valdez",
               "number": null,
               "dob": null,
               "height": "",
@@ -21888,6 +21920,20 @@
               "ts": 1793405711
             }
           ]
+        },
+        {
+          "num": 3,
+          "half": "bottom",
+          "label": "Baja 3ra",
+          "plays": [
+            {
+              "reference_id": "20179-2-18",
+              "text": "Enmanuel Valdez   Out: Rodado al Segunda Base - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793405924
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21924,6 +21970,13 @@
           "half": "top",
           "label": "Alta 3ra",
           "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 3,
+          "half": "bottom",
+          "label": "Baja 3ra",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
