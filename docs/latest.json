@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T23:09:13.906Z",
+    "scraped_at": "2026-10-31T23:10:17.391Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,19 +517,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-31 17:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Harold Andres Ramirez  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "E. Florial Sencillo Jardinero Central",
+        "atBat": "Mel Rojas",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 3ra",
+        "roundText": "Baja 3ra",
         "currentInningNum": 3,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -560,14 +560,14 @@
           "runs": 3,
           "runs_half": 3,
           "errors": 0,
-          "hits": 5,
+          "hits": 6,
           "pitcher": "Vladimir Gutiérrez",
           "era": "",
           "debut": 0,
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2218,
@@ -12143,19 +12143,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-31 17:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Harold Andres Ramirez  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "E. Florial Sencillo Jardinero Central",
+        "atBat": "Mel Rojas",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 3ra",
+        "roundText": "Baja 3ra",
         "currentInningNum": 3,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -12186,14 +12186,14 @@
           "runs": 3,
           "runs_half": 3,
           "errors": 0,
-          "hits": 5,
+          "hits": 6,
           "pitcher": "Vladimir Gutiérrez",
           "era": "",
           "debut": 0,
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -12253,9 +12253,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2218,
@@ -19515,24 +19515,24 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-31 17:00:00",
-      "roundText": "Alta 3ra",
+      "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "Harold Andres Ramirez  Out: Rodado al Segunda Base - Primera Base",
+      "lastPlayByPlay": "E. Florial Sencillo Jardinero Central",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
-        "base": 1
+        "battingTeam": "homeTeam",
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -19681,7 +19681,7 @@
           "permalink": "/equipo/tigres-del-licey",
           "totals": {
             "R": 3,
-            "H": 5,
+            "H": 6,
             "E": 0,
             "H2": 3
           },
@@ -19852,7 +19852,7 @@
           },
           "home": {
             "R": 3,
-            "H": 5,
+            "H": 6,
             "E": 0
           }
         },
@@ -20138,6 +20138,27 @@
               "ts": 1793487958
             }
           ]
+        },
+        {
+          "num": 3,
+          "half": "bottom",
+          "label": "Baja 3ra",
+          "plays": [
+            {
+              "reference_id": "20188-2-24",
+              "text": "E. Florial Sencillo Jardinero Central",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793488173
+            },
+            {
+              "reference_id": "20188-2-25",
+              "text": "Mel Rojas al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793488176
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20175,6 +20196,13 @@
           "label": "Alta 3ra",
           "total_plays": 4,
           "scoring_plays": 0
+        },
+        {
+          "num": 3,
+          "half": "bottom",
+          "label": "Baja 3ra",
+          "total_plays": 2,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20194,7 +20222,7 @@
         },
         {
           "num": 3,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
@@ -20365,8 +20393,8 @@
       "currentInningNum": 4,
       "lastPlayByPlay": "Jason Schiavone Ponche (K) ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 2,
         "outs": 2
       },
       "base_state": {
@@ -21177,7 +21205,7 @@
           "id": 2216,
           "date": "2026-10-31 17:00:00",
           "status": 2,
-          "roundText": "Alta 3ra",
+          "roundText": "Baja 3ra",
           "awayTeam": {
             "id": 7,
             "name": "Estrellas",
@@ -21194,7 +21222,7 @@
             "abbr": "TL",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
             "runs": 3,
-            "hits": 5,
+            "hits": 6,
             "errors": 0,
             "permalink": "/equipo/tigres-del-licey"
           }
@@ -21683,7 +21711,7 @@
           "id": 2216,
           "date": "2026-10-31 17:00:00",
           "status": 2,
-          "roundText": "Alta 3ra",
+          "roundText": "Baja 3ra",
           "awayTeam": {
             "id": 7,
             "name": "Estrellas",
@@ -21700,7 +21728,7 @@
             "abbr": "TL",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
             "runs": 3,
-            "hits": 5,
+            "hits": 6,
             "errors": 0,
             "permalink": "/equipo/tigres-del-licey"
           }
