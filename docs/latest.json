@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T01:11:35.351Z",
+    "scraped_at": "2026-10-31T01:12:39.484Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -642,12 +642,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-30 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Ronny Simon Out: Elevado al Jardinero Central",
-        "atBat": "Gilberto Celestino ",
+        "lastPlayByPlay": "Juan Brito  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -692,7 +692,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -12086,12 +12086,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-30 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Ronny Simon Out: Elevado al Jardinero Central",
-        "atBat": "Gilberto Celestino ",
+        "lastPlayByPlay": "Juan Brito  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12136,7 +12136,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -21677,22 +21677,22 @@
       "date": "2026-10-30 19:30:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Ronny Simon Out: Elevado al Jardinero Central",
+      "lastPlayByPlay": "Juan Brito  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -22439,10 +22439,17 @@
             },
             {
               "reference_id": "20181-2-40",
-              "text": "Gilberto Celestino  al bate",
+              "text": "Gilberto Celestino  Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793408870
+              "ts": 1793409103
+            },
+            {
+              "reference_id": "20181-2-41",
+              "text": "Juan Brito  Out: Rodado al Segunda Base - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793409121
             }
           ]
         }
@@ -22515,7 +22522,7 @@
           "num": 5,
           "half": "bottom",
           "label": "Baja 5ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
