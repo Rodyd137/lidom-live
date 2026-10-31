@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2215",
-    "scraped_at": "2026-10-31T01:56:25.009Z",
+    "scraped_at": "2026-10-31T01:57:28.956Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-30 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gilberto Celestino  Triple! ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on3B": true,
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 3,
-          "H": 5,
+          "H": 6,
           "E": 1,
           "H2": 3
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 3,
-          "H": 5,
+          "H": 6,
           "E": 1
         }
       },
@@ -905,6 +905,27 @@
             "ts": 1793411604
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "20183-2-56",
+            "text": "Ronny Simon Out: Línea al Lanzador",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793411820
+          },
+          {
+            "reference_id": "20183-2-57",
+            "text": "Gilberto Celestino  Triple! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793411831
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -997,6 +1018,13 @@
         "half": "top",
         "label": "Alta 7ma",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
