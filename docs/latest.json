@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T00:55:36.167Z",
+    "scraped_at": "2026-10-31T00:56:40.019Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -585,8 +585,8 @@
         "status": 2,
         "date": "2026-10-30 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Oscar Gonzalez Out: Línea al Primera Base",
+        "atBat": "Cesar Prieto ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -631,7 +631,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -12032,8 +12032,8 @@
         "status": 2,
         "date": "2026-10-30 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Oscar Gonzalez Out: Línea al Primera Base",
+        "atBat": "Cesar Prieto ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12078,7 +12078,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -20578,11 +20578,11 @@
       "date": "2026-10-30 19:15:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Oscar Gonzalez Out: Línea al Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21346,6 +21346,27 @@
               "ts": 1793407902
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "plays": [
+            {
+              "reference_id": "20173-1-40",
+              "text": "Oscar Gonzalez Out: Línea al Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793408176
+            },
+            {
+              "reference_id": "20173-1-41",
+              "text": "Cesar Prieto  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793408178
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21417,6 +21438,13 @@
           "half": "bottom",
           "label": "Baja 5ta",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
