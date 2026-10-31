@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2217",
-    "scraped_at": "2026-10-31T22:37:26.418Z",
+    "scraped_at": "2026-10-31T22:38:30.092Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,20 +13,20 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "Victor Scott Base por Bolas ",
     "counts": {
-      "balls": 0,
+      "balls": 3,
       "strikes": 1,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -246,6 +246,17 @@
             "team_id": 3,
             "name": "Victor Scott",
             "abbreviation": "V. Scott",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6046,
+            "team_id": 3,
+            "name": "Webster Rivas",
+            "abbreviation": "W. Rivas",
             "number": null,
             "dob": null,
             "height": "",
@@ -534,6 +545,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1793486142
+          },
+          {
+            "reference_id": "20196-2-16",
+            "text": "Webster Rivas al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793486255
           }
         ]
       }
@@ -564,7 +582,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -638,7 +656,7 @@
         "id": 2216,
         "date": "2026-10-31 17:00:00",
         "status": 2,
-        "roundText": "Baja 1ra",
+        "roundText": "Alta 2da",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",

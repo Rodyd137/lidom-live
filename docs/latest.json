@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T22:37:24.377Z",
+    "scraped_at": "2026-10-31T22:38:28.079Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -520,16 +520,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-31 17:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Francisco Mejia Out: Elevado al Jardinero Central",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Sandber Pimentel",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 1ra",
-        "currentInningNum": 1,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 2da",
+        "currentInningNum": 2,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-31 18:00:00",
         "part": 2,
         "lastPlayByPlay": "Victor Scott Base por Bolas ",
-        "atBat": null,
+        "atBat": "Webster Rivas",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,7 +627,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 1,
         "strikes": 1
       },
@@ -12146,16 +12146,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-31 17:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Francisco Mejia Out: Elevado al Jardinero Central",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Sandber Pimentel",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 1ra",
-        "currentInningNum": 1,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 2da",
+        "currentInningNum": 2,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -12193,7 +12193,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -12209,7 +12209,7 @@
         "date": "2026-10-31 18:00:00",
         "part": 2,
         "lastPlayByPlay": "Victor Scott Base por Bolas ",
-        "atBat": null,
+        "atBat": "Webster Rivas",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12253,7 +12253,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 3,
         "outs": 1,
         "strikes": 1
       },
@@ -19515,16 +19515,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-31 17:00:00",
-      "roundText": "Baja 1ra",
-      "currentInningNum": 1,
-      "lastPlayByPlay": "Francisco Mejia Out: Elevado al Jardinero Central",
+      "roundText": "Alta 2da",
+      "currentInningNum": 2,
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
+        "battingTeam": "awayTeam",
         "base": 1
       },
       "base_runners": {
@@ -20026,6 +20026,20 @@
               "ts": 1793486081
             }
           ]
+        },
+        {
+          "num": 2,
+          "half": "top",
+          "label": "Alta 2da",
+          "plays": [
+            {
+              "reference_id": "20187-1-12",
+              "text": "Sandber Pimentel al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793486299
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20042,20 +20056,27 @@
           "label": "Baja 1ra",
           "total_plays": 8,
           "scoring_plays": 1
+        },
+        {
+          "num": 2,
+          "half": "top",
+          "label": "Alta 2da",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
         {
           "num": 1,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 0,
           "homeTeamRuns": 2
         },
         {
           "num": 2,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
@@ -20232,20 +20253,20 @@
       "currentInningNum": 2,
       "lastPlayByPlay": "Victor Scott Base por Bolas ",
       "counts": {
-        "balls": 0,
+        "balls": 3,
         "strikes": 1,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -20465,6 +20486,17 @@
               "team_id": 3,
               "name": "Victor Scott",
               "abbreviation": "V. Scott",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6046,
+              "team_id": 3,
+              "name": "Webster Rivas",
+              "abbreviation": "W. Rivas",
               "number": null,
               "dob": null,
               "height": "",
@@ -20753,6 +20785,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1793486142
+            },
+            {
+              "reference_id": "20196-2-16",
+              "text": "Webster Rivas al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793486255
             }
           ]
         }
@@ -20783,7 +20822,7 @@
           "num": 2,
           "half": "bottom",
           "label": "Baja 2da",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -20857,7 +20896,7 @@
           "id": 2216,
           "date": "2026-10-31 17:00:00",
           "status": 2,
-          "roundText": "Baja 1ra",
+          "roundText": "Alta 2da",
           "awayTeam": {
             "id": 7,
             "name": "Estrellas",
@@ -21363,7 +21402,7 @@
           "id": 2216,
           "date": "2026-10-31 17:00:00",
           "status": 2,
-          "roundText": "Baja 1ra",
+          "roundText": "Alta 2da",
           "awayTeam": {
             "id": 7,
             "name": "Estrellas",
