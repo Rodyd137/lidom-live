@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2213",
-    "scraped_at": "2026-10-31T00:42:50.913Z",
+    "scraped_at": "2026-10-31T00:43:54.918Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-30 19:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Noelvi Marte  Robo de Base Segunda Base",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 1,
           "H": 4,
-          "E": 4,
+          "E": 5,
           "H2": 1
         },
         "probables": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 5,
-          "H": 6,
+          "H": 7,
           "E": 1,
           "H2": 5
         },
@@ -342,11 +342,11 @@
         "away": {
           "R": 1,
           "H": 4,
-          "E": 4
+          "E": 5
         },
         "home": {
           "R": 5,
-          "H": 6,
+          "H": 7,
           "E": 1
         }
       },
@@ -780,10 +780,24 @@
         "plays": [
           {
             "reference_id": "20163-2-42",
-            "text": "Noelvi Marte  al bate",
+            "text": "Noelvi Marte  se embasa por Error del Tercera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1793407249
+            "ts": 1793407382
+          },
+          {
+            "reference_id": "20163-2-43",
+            "text": "Marcell Ozuna  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793407386
+          },
+          {
+            "reference_id": "20163-2-42-292023",
+            "text": "Noelvi Marte  Robo de Base Segunda Base",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1793407411
           }
         ]
       }
@@ -856,7 +870,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -972,8 +986,8 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 1,
-          "hits": 2,
+          "runs": 3,
+          "hits": 3,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
         }
