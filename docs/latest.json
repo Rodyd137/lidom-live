@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T00:05:26.221Z",
+    "scraped_at": "2026-10-31T00:06:30.247Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,7 +521,7 @@
         "status": 2,
         "date": "2026-10-30 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Carlos Peguero Ponche (K) ",
+        "lastPlayByPlay": "Carlos Peguero Ponche (K) se embasa por Error del - Campo Corto",
         "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-30 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "M. De la Cruz Base por Bolas ",
-        "atBat": "Jonathan Guzman",
+        "lastPlayByPlay": "Jonathan Guzman Toque de Sacrificio Lanzador - Primera Base",
+        "atBat": "Vidal Brujan",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -688,7 +688,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
         "strikes": 0
       }
@@ -11962,8 +11962,8 @@
         "status": 2,
         "date": "2026-10-30 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Carlos Peguero Ponche (K) ",
-        "atBat": "Agustin Ramirez",
+        "lastPlayByPlay": "Agustin Ramirez Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12019,12 +12019,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-30 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "M. De la Cruz Base por Bolas ",
-        "atBat": "Jonathan Guzman",
+        "lastPlayByPlay": "Jonathan Guzman Toque de Sacrificio Lanzador - Primera Base",
+        "atBat": "Vidal Brujan",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12069,7 +12069,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -12129,7 +12129,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 2,
         "strikes": 0
       }
@@ -19517,7 +19517,7 @@
       "date": "2026-10-30 19:00:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "Carlos Peguero Ponche (K) ",
+      "lastPlayByPlay": "Carlos Peguero Ponche (K) se embasa por Error del - Campo Corto",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -20145,18 +20145,18 @@
           "label": "Baja 3ra",
           "plays": [
             {
-              "reference_id": "20161-2-25",
-              "text": "Carlos Peguero Ponche (K) ",
+              "reference_id": "20161-2-26",
+              "text": "Carlos Peguero Ponche (K) se embasa por Error del - Campo Corto",
               "scored": false,
               "is_primary": true,
-              "ts": 1793405081
+              "ts": 1793405154
             },
             {
-              "reference_id": "20161-2-26",
+              "reference_id": "20161-2-27",
               "text": "Agustin Ramirez al bate",
               "scored": false,
               "is_primary": true,
-              "ts": 1793405086
+              "ts": 1793405186
             }
           ]
         }
@@ -20391,22 +20391,22 @@
       "date": "2026-10-30 19:15:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "M. De la Cruz Base por Bolas ",
+      "lastPlayByPlay": "Jonathan Guzman Toque de Sacrificio Lanzador - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -21006,10 +21006,17 @@
             },
             {
               "reference_id": "20170-2-22",
-              "text": "Jonathan Guzman al bate",
+              "text": "Jonathan Guzman Toque de Sacrificio Lanzador - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1793405116
+              "ts": 1793405177
+            },
+            {
+              "reference_id": "20170-2-23",
+              "text": "Vidal Brujan al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793405180
             }
           ]
         }
@@ -21054,7 +21061,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21246,7 +21253,7 @@
       "currentInningNum": 2,
       "lastPlayByPlay": "Justin Gonzales Doble Play!  Out: Rodado al - Campo Corto - Segunda Base - Primera Base",
       "counts": {
-        "balls": 0,
+        "balls": 2,
         "strikes": 0,
         "outs": 2
       },
