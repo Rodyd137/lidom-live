@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T22:34:13.581Z",
+    "scraped_at": "2026-10-31T22:35:17.211Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 8,
+        "base": 1,
         "status": 2,
         "date": "2026-10-31 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Sergio Alcantara Base por Bolas ",
-        "atBat": "Francisco Mejia",
+        "lastPlayByPlay": "Francisco Mejia Out: Elevado al Jardinero Central",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -545,7 +545,7 @@
           "runs_half": 0,
           "errors": 0,
           "hits": 0,
-          "pitcher": "Jaime Barría",
+          "pitcher": "Carlos Belen",
           "era": "",
           "debut": 0,
           "record": ""
@@ -567,8 +567,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
-        "strikes": 2
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2217,
@@ -583,7 +583,7 @@
         "date": "2026-10-31 18:00:00",
         "part": 2,
         "lastPlayByPlay": "Frederix Bencosme Ponche (K) ",
-        "atBat": null,
+        "atBat": "Victor Scott",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2218,
@@ -12143,12 +12143,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 8,
+        "base": 1,
         "status": 2,
         "date": "2026-10-31 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Sergio Alcantara Base por Bolas ",
-        "atBat": "Francisco Mejia",
+        "lastPlayByPlay": "Francisco Mejia Out: Elevado al Jardinero Central",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12171,7 +12171,7 @@
           "runs_half": 0,
           "errors": 0,
           "hits": 0,
-          "pitcher": "Jaime Barría",
+          "pitcher": "Carlos Belen",
           "era": "",
           "debut": 0,
           "record": ""
@@ -12193,8 +12193,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
-        "strikes": 2
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2217,
@@ -12253,9 +12253,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2218,
@@ -19517,22 +19517,22 @@
       "date": "2026-10-31 17:00:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Sergio Alcantara Base por Bolas ",
+      "lastPlayByPlay": "Francisco Mejia Out: Elevado al Jardinero Central",
       "counts": {
         "balls": 0,
-        "strikes": 2,
-        "outs": 2
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 8
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": true,
-        "on3B": true,
-        "runners": 3,
-        "mask": 8
+        "on1B": false,
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -19565,7 +19565,7 @@
             "H2": 0
           },
           "probables": {
-            "pitcher": "Jaime Barría",
+            "pitcher": "Carlos Belen",
             "era": "",
             "record": "",
             "debut": false
@@ -20020,10 +20020,10 @@
             },
             {
               "reference_id": "20186-2-11",
-              "text": "Francisco Mejia al bate",
+              "text": "Francisco Mejia Out: Elevado al Jardinero Central",
               "scored": false,
               "is_primary": true,
-              "ts": 1793485858
+              "ts": 1793486081
             }
           ]
         }
@@ -20232,8 +20232,8 @@
       "currentInningNum": 2,
       "lastPlayByPlay": "Frederix Bencosme Ponche (K) ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 3,
+        "strikes": 1,
         "outs": 1
       },
       "base_state": {
@@ -20746,6 +20746,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1793486032
+            },
+            {
+              "reference_id": "20196-2-15",
+              "text": "Victor Scott al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793486052
             }
           ]
         }
@@ -20776,7 +20783,7 @@
           "num": 2,
           "half": "bottom",
           "label": "Baja 2da",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
