@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2215",
-    "scraped_at": "2026-10-31T00:11:52.399Z",
+    "scraped_at": "2026-10-31T00:12:56.546Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-30 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Eddys Leonard  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -141,6 +141,28 @@
             "height": "",
             "image": null,
             "position": ""
+          },
+          {
+            "id": 6033,
+            "team_id": 3,
+            "name": "Eddys Leonard",
+            "abbreviation": "E. Leonard",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6046,
+            "team_id": 3,
+            "name": "Webster Rivas",
+            "abbreviation": "W. Rivas",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
           }
         ]
       },
@@ -154,7 +176,7 @@
         "totals": {
           "R": 0,
           "H": 1,
-          "E": 0,
+          "E": 1,
           "H2": 0
         },
         "probables": {
@@ -292,7 +314,7 @@
         "home": {
           "R": 0,
           "H": 1,
-          "E": 0
+          "E": 1
         }
       },
       "cumulative": {
@@ -493,6 +515,27 @@
             "ts": 1793405271
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "20179-1-14",
+            "text": "Eddys Leonard  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793405552
+          },
+          {
+            "reference_id": "20179-1-15",
+            "text": "Webster Rivas al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793405562
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -522,6 +565,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -595,7 +645,7 @@
         "id": 2213,
         "date": "2026-10-30 19:00:00",
         "status": 2,
-        "roundText": "Baja 3ra",
+        "roundText": "Alta 4ta",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
