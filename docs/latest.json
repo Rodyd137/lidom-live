@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T00:51:19.709Z",
+    "scraped_at": "2026-10-31T00:52:23.970Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -585,7 +585,7 @@
         "status": 2,
         "date": "2026-10-30 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Yamaico Navarro  Out: Rodado al Tercera Base - Primera Base",
+        "lastPlayByPlay": "Jonathan Guzman Out: Línea al Tercera Base",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -631,7 +631,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -647,7 +647,7 @@
         "date": "2026-10-30 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Chritopher Morel",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -691,9 +691,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -12029,8 +12029,8 @@
         "status": 2,
         "date": "2026-10-30 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Yamaico Navarro  Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "M. De la Cruz",
+        "lastPlayByPlay": "Jonathan Guzman Out: Línea al Tercera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12075,7 +12075,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -12091,7 +12091,7 @@
         "date": "2026-10-30 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Chritopher Morel",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12135,9 +12135,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "2026-10-31": [
@@ -20572,11 +20572,11 @@
       "date": "2026-10-30 19:15:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Yamaico Navarro  Out: Rodado al Tercera Base - Primera Base",
+      "lastPlayByPlay": "Jonathan Guzman Out: Línea al Tercera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21327,10 +21327,17 @@
             },
             {
               "reference_id": "20172-2-38",
-              "text": "M. De la Cruz al bate",
+              "text": "M. De la Cruz Out: Línea al Segunda Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1793407876
+              "ts": 1793407885
+            },
+            {
+              "reference_id": "20172-2-39",
+              "text": "Jonathan Guzman Out: Línea al Tercera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793407902
             }
           ]
         }
@@ -21403,7 +21410,7 @@
           "num": 5,
           "half": "bottom",
           "label": "Baja 5ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21595,8 +21602,8 @@
       "currentInningNum": 5,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 2,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -22291,6 +22298,20 @@
               "ts": 1793407808
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "top",
+          "label": "Alta 5ta",
+          "plays": [
+            {
+              "reference_id": "20181-1-33",
+              "text": "Chritopher Morel al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793407929
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22349,6 +22370,13 @@
           "label": "Baja 4ta",
           "total_plays": 7,
           "scoring_plays": 2
+        },
+        {
+          "num": 5,
+          "half": "top",
+          "label": "Alta 5ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
