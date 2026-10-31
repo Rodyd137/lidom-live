@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T01:37:10.464Z",
+    "scraped_at": "2026-10-31T01:38:14.343Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -581,7 +581,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 4,
+        "base": 2,
         "status": 2,
         "date": "2026-10-30 19:15:00",
         "part": 2,
@@ -621,7 +621,7 @@
           "color": "db2319",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "permalink": "/equipo/leones-del-escogido",
-          "runs": 1,
+          "runs": 2,
           "runs_half": 0,
           "errors": 0,
           "hits": 5,
@@ -630,9 +630,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 2,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2215,
@@ -12025,12 +12025,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 4,
+        "base": 2,
         "status": 2,
         "date": "2026-10-30 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Yamaico Navarro Ponche (K) Receptor - Primera Base - Robo de Base - Tercera Base",
-        "atBat": "M. De la Cruz",
+        "lastPlayByPlay": "M. De la Cruz se embasa por Error del Segunda Base - Carrera Empujada",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12065,7 +12065,7 @@
           "color": "db2319",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "permalink": "/equipo/leones-del-escogido",
-          "runs": 1,
+          "runs": 2,
           "runs_half": 0,
           "errors": 0,
           "hits": 5,
@@ -12074,9 +12074,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 2,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2215,
@@ -20472,7 +20472,7 @@
             "name": "Leones",
             "abbr": "LE",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-            "runs": 1,
+            "runs": 2,
             "hits": 5,
             "errors": 0,
             "permalink": "/equipo/leones-del-escogido"
@@ -20572,22 +20572,22 @@
       "date": "2026-10-30 19:15:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Yamaico Navarro Ponche (K) Receptor - Primera Base - Robo de Base - Tercera Base",
+      "lastPlayByPlay": "M. De la Cruz se embasa por Error del Segunda Base - Carrera Empujada",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 4
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
-        "on3B": true,
+        "on3B": false,
         "runners": 1,
-        "mask": 4
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20735,7 +20735,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "permalink": "/equipo/leones-del-escogido",
           "totals": {
-            "R": 1,
+            "R": 2,
             "H": 5,
             "E": 0,
             "H2": 0
@@ -20885,7 +20885,7 @@
           {
             "num": 7,
             "away": 0,
-            "home": 0
+            "home": 1
           },
           {
             "num": 8,
@@ -20906,7 +20906,7 @@
             "E": 0
           },
           "home": {
-            "R": 1,
+            "R": 2,
             "H": 5,
             "E": 0
           }
@@ -20977,15 +20977,15 @@
             },
             {
               "num": 7,
-              "R": 1
+              "R": 2
             },
             {
               "num": 8,
-              "R": 1
+              "R": 2
             },
             {
               "num": 9,
-              "R": 1
+              "R": 2
             }
           ]
         }
@@ -21481,10 +21481,17 @@
             },
             {
               "reference_id": "20174-2-54",
-              "text": "M. De la Cruz al bate",
+              "text": "M. De la Cruz se embasa por Error del Segunda Base - Carrera Empujada",
+              "scored": true,
+              "is_primary": true,
+              "ts": 1793410691
+            },
+            {
+              "reference_id": "20174-2-55",
+              "text": "Jonathan Guzman al bate",
               "scored": false,
               "is_primary": true,
-              "ts": 1793410418
+              "ts": 1793410694
             }
           ]
         }
@@ -21585,8 +21592,8 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 6,
-          "scoring_plays": 0
+          "total_plays": 7,
+          "scoring_plays": 1
         }
       ],
       "innings_raw": [
@@ -21637,7 +21644,7 @@
           "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
-          "homeTeamRuns": 0
+          "homeTeamRuns": 1
         },
         {
           "num": 8,
@@ -22799,7 +22806,7 @@
             "name": "Leones",
             "abbr": "LE",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-            "runs": 1,
+            "runs": 2,
             "hits": 5,
             "errors": 0,
             "permalink": "/equipo/leones-del-escogido"

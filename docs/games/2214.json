@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2214",
-    "scraped_at": "2026-10-31T01:37:12.584Z",
+    "scraped_at": "2026-10-31T01:38:16.797Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-30 19:15:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Yamaico Navarro Ponche (K) Receptor - Primera Base - Robo de Base - Tercera Base",
+    "lastPlayByPlay": "M. De la Cruz se embasa por Error del Segunda Base - Carrera Empujada",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 4
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
-      "on3B": true,
+      "on3B": false,
       "runners": 1,
-      "mask": 4
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -174,7 +174,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 1,
+          "R": 2,
           "H": 5,
           "E": 0,
           "H2": 0
@@ -324,7 +324,7 @@
         {
           "num": 7,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 8,
@@ -345,7 +345,7 @@
           "E": 0
         },
         "home": {
-          "R": 1,
+          "R": 2,
           "H": 5,
           "E": 0
         }
@@ -416,15 +416,15 @@
           },
           {
             "num": 7,
-            "R": 1
+            "R": 2
           },
           {
             "num": 8,
-            "R": 1
+            "R": 2
           },
           {
             "num": 9,
-            "R": 1
+            "R": 2
           }
         ]
       }
@@ -920,10 +920,17 @@
           },
           {
             "reference_id": "20174-2-54",
-            "text": "M. De la Cruz al bate",
+            "text": "M. De la Cruz se embasa por Error del Segunda Base - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1793410691
+          },
+          {
+            "reference_id": "20174-2-55",
+            "text": "Jonathan Guzman al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1793410418
+            "ts": 1793410694
           }
         ]
       }
@@ -1024,8 +1031,8 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 6,
-        "scoring_plays": 0
+        "total_plays": 7,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1076,7 +1083,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 8,
