@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T00:04:22.177Z",
+    "scraped_at": "2026-10-31T00:05:26.221Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-10-30 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Carlos Peguero",
+        "lastPlayByPlay": "Carlos Peguero Ponche (K) ",
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-30 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "M. De la Cruz",
+        "lastPlayByPlay": "M. De la Cruz Base por Bolas ",
+        "atBat": "Jonathan Guzman",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-30 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Jesús Sanchez  Sencillo ",
-        "atBat": "Justin Gonzales",
+        "lastPlayByPlay": "Justin Gonzales Doble Play!  Out: Rodado al - Campo Corto - Segunda Base - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -11962,8 +11962,8 @@
         "status": 2,
         "date": "2026-10-30 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Carlos Peguero",
+        "lastPlayByPlay": "Carlos Peguero Ponche (K) ",
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12008,7 +12008,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -12019,12 +12019,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-30 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "M. De la Cruz",
+        "lastPlayByPlay": "M. De la Cruz Base por Bolas ",
+        "atBat": "Jonathan Guzman",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12084,8 +12084,8 @@
         "status": 2,
         "date": "2026-10-30 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Jesús Sanchez  Sencillo ",
-        "atBat": "Justin Gonzales",
+        "lastPlayByPlay": "Justin Gonzales Doble Play!  Out: Rodado al - Campo Corto - Segunda Base - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -19517,11 +19517,11 @@
       "date": "2026-10-30 19:00:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Carlos Peguero Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20146,10 +20146,17 @@
           "plays": [
             {
               "reference_id": "20161-2-25",
-              "text": "Carlos Peguero al bate",
+              "text": "Carlos Peguero Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793404987
+              "ts": 1793405081
+            },
+            {
+              "reference_id": "20161-2-26",
+              "text": "Agustin Ramirez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793405086
             }
           ]
         }
@@ -20194,7 +20201,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -20384,7 +20391,7 @@
       "date": "2026-10-30 19:15:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "M. De la Cruz Base por Bolas ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -20392,14 +20399,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20992,10 +20999,17 @@
           "plays": [
             {
               "reference_id": "20170-2-21",
-              "text": "M. De la Cruz al bate",
+              "text": "M. De la Cruz Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793404878
+              "ts": 1793405113
+            },
+            {
+              "reference_id": "20170-2-22",
+              "text": "Jonathan Guzman al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793405116
             }
           ]
         }
@@ -21040,7 +21054,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21230,7 +21244,7 @@
       "date": "2026-10-30 19:30:00",
       "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "Jesús Sanchez  Sencillo ",
+      "lastPlayByPlay": "Justin Gonzales Doble Play!  Out: Rodado al - Campo Corto - Segunda Base - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21688,10 +21702,10 @@
             },
             {
               "reference_id": "20178-2-12",
-              "text": "Justin Gonzales al bate",
+              "text": "Justin Gonzales Doble Play!  Out: Rodado al - Campo Corto - Segunda Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1793404987
+              "ts": 1793405120
             }
           ]
         }
