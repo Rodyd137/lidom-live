@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2217",
-    "scraped_at": "2026-10-31T22:42:43.747Z",
+    "scraped_at": "2026-10-31T22:43:47.390Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 3,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -147,6 +147,17 @@
             "team_id": 4,
             "name": "Jason Schiavone",
             "abbreviation": "Schiavone",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6080,
+            "team_id": 4,
+            "name": "John Gil",
+            "abbreviation": "John Gil",
             "number": null,
             "dob": null,
             "height": "",
@@ -579,6 +590,20 @@
             "ts": 1793486433
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "20197-1-18",
+            "text": "John Gil al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793486610
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -608,6 +633,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],

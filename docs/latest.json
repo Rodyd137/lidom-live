@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T22:42:43.365Z",
+    "scraped_at": "2026-10-31T22:43:45.471Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-10-31 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Sandber Pimentel Ponche (K) ",
-        "atBat": "Cesar Prieto ",
+        "lastPlayByPlay": "Cesar Prieto  Ponche (K) ",
+        "atBat": "Aaron Schunk",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2217,
@@ -583,7 +583,7 @@
         "date": "2026-10-31 18:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "John Gil",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2218,
@@ -12147,8 +12147,8 @@
         "status": 2,
         "date": "2026-10-31 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Sandber Pimentel Ponche (K) ",
-        "atBat": "Cesar Prieto ",
+        "lastPlayByPlay": "Cesar Prieto  Ponche (K) ",
+        "atBat": "Aaron Schunk",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12192,9 +12192,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2217,
@@ -12209,7 +12209,7 @@
         "date": "2026-10-31 18:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "John Gil",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12253,9 +12253,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2218,
@@ -19517,11 +19517,11 @@
       "date": "2026-10-31 17:00:00",
       "roundText": "Alta 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "Sandber Pimentel Ponche (K) ",
+      "lastPlayByPlay": "Cesar Prieto  Ponche (K) ",
       "counts": {
-        "balls": 3,
-        "strikes": 2,
-        "outs": 1
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -20041,10 +20041,17 @@
             },
             {
               "reference_id": "20187-1-13",
-              "text": "Cesar Prieto  al bate",
+              "text": "Cesar Prieto  Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793486367
+              "ts": 1793486591
+            },
+            {
+              "reference_id": "20187-1-14",
+              "text": "Aaron Schunk al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793486594
             }
           ]
         }
@@ -20068,7 +20075,7 @@
           "num": 2,
           "half": "top",
           "label": "Alta 2da",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -20260,8 +20267,8 @@
       "currentInningNum": 3,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 2,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -20394,6 +20401,17 @@
               "team_id": 4,
               "name": "Jason Schiavone",
               "abbreviation": "Schiavone",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6080,
+              "team_id": 4,
+              "name": "John Gil",
+              "abbreviation": "John Gil",
               "number": null,
               "dob": null,
               "height": "",
@@ -20826,6 +20844,20 @@
               "ts": 1793486433
             }
           ]
+        },
+        {
+          "num": 3,
+          "half": "top",
+          "label": "Alta 3ra",
+          "plays": [
+            {
+              "reference_id": "20197-1-18",
+              "text": "John Gil al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793486610
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20855,6 +20887,13 @@
           "half": "bottom",
           "label": "Baja 2da",
           "total_plays": 5,
+          "scoring_plays": 0
+        },
+        {
+          "num": 3,
+          "half": "top",
+          "label": "Alta 3ra",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
