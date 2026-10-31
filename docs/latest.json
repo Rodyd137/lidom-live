@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T02:09:10.419Z",
+    "scraped_at": "2026-10-31T02:10:12.832Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -642,12 +642,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-30 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Mason Mccoy",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -669,7 +669,7 @@
           "runs": 0,
           "runs_half": 0,
           "errors": 0,
-          "hits": 5,
+          "hits": 6,
           "pitcher": "Sadrag Franco",
           "era": "",
           "debut": 0,
@@ -12086,12 +12086,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-30 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Mason Mccoy",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12113,7 +12113,7 @@
           "runs": 0,
           "runs_half": 0,
           "errors": 0,
-          "hits": 5,
+          "hits": 6,
           "pitcher": "Sadrag Franco",
           "era": "",
           "debut": 0,
@@ -20489,7 +20489,7 @@
             "abbr": "AC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
             "runs": 0,
-            "hits": 5,
+            "hits": 6,
             "errors": 0,
             "permalink": "/equipo/aguilas-cibaenas"
           },
@@ -21825,7 +21825,7 @@
             "abbr": "AC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
             "runs": 0,
-            "hits": 5,
+            "hits": 6,
             "errors": 0,
             "permalink": "/equipo/aguilas-cibaenas"
           },
@@ -21916,14 +21916,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -21951,7 +21951,7 @@
           "permalink": "/equipo/aguilas-cibaenas",
           "totals": {
             "R": 0,
-            "H": 5,
+            "H": 6,
             "E": 0,
             "H2": 0
           },
@@ -22238,7 +22238,7 @@
         "totals": {
           "away": {
             "R": 0,
-            "H": 5,
+            "H": 6,
             "E": 0
           },
           "home": {
@@ -22837,6 +22837,20 @@
               "ts": 1793412411
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "plays": [
+            {
+              "reference_id": "20184-1-60",
+              "text": "Mason Mccoy al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793412610
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22936,6 +22950,13 @@
           "half": "bottom",
           "label": "Baja 7ma",
           "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],

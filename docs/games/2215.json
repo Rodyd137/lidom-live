@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2215",
-    "scraped_at": "2026-10-31T02:09:10.986Z",
+    "scraped_at": "2026-10-31T02:10:15.216Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 0,
-          "H": 5,
+          "H": 6,
           "E": 0,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 5,
+          "H": 6,
           "E": 0
         },
         "home": {
@@ -940,6 +940,20 @@
             "ts": 1793412411
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "20184-1-60",
+            "text": "Mason Mccoy al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793412610
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1039,6 +1053,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
