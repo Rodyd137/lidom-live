@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T01:30:47.823Z",
+    "scraped_at": "2026-10-31T01:31:50.268Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -597,7 +597,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -647,7 +650,7 @@
         "date": "2026-10-30 19:30:00",
         "part": 1,
         "lastPlayByPlay": "J. C. Escarra Ponche (K) ",
-        "atBat": null,
+        "atBat": "Chritopher Morel",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -658,10 +661,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -696,7 +696,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -12044,7 +12044,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -12094,7 +12097,7 @@
         "date": "2026-10-30 19:30:00",
         "part": 1,
         "lastPlayByPlay": "J. C. Escarra Ponche (K) ",
-        "atBat": null,
+        "atBat": "Chritopher Morel",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12105,10 +12108,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -12143,7 +12143,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "2026-10-31": [
@@ -21778,7 +21778,7 @@
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22589,6 +22589,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1793410091
+            },
+            {
+              "reference_id": "20182-1-47",
+              "text": "Chritopher Morel al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793410268
             }
           ]
         }
@@ -22668,7 +22675,7 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
