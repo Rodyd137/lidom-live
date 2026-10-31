@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2216",
-    "scraped_at": "2026-10-31T23:34:42.675Z",
+    "scraped_at": "2026-10-31T23:35:46.764Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-31 17:00:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Y. Encarnación Sencillo Jardinero Central",
     "counts": {
-      "balls": 3,
+      "balls": 0,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": false,
+      "on1B": true,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 0,
-          "H": 2,
+          "H": 3,
           "E": 0,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 2,
+          "H": 3,
           "E": 0
         },
         "home": {
@@ -724,10 +724,24 @@
         "plays": [
           {
             "reference_id": "20189-2-33",
-            "text": "Francisco Mejia al bate",
+            "text": "Francisco Mejia Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1793489625
+            "ts": 1793489692
+          },
+          {
+            "reference_id": "20189-2-34",
+            "text": "Y. Encarnación Sencillo Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793489738
+          },
+          {
+            "reference_id": "20189-2-35",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793489741
           }
         ]
       }
@@ -786,7 +800,7 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -893,7 +907,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         },
