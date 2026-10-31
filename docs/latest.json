@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T22:29:57.077Z",
+    "scraped_at": "2026-10-31T22:31:02.386Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 8,
         "status": 2,
         "date": "2026-10-31 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Ramon Hernandez Sencillo y 2 Carreras Impulsadas ",
-        "atBat": "Sergio Alcantara",
+        "lastPlayByPlay": "Sergio Alcantara Base por Bolas ",
+        "atBat": "Francisco Mejia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 2,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2217,
@@ -581,16 +581,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-31 18:00:00",
-        "part": 1,
-        "lastPlayByPlay": "M. Hernandez Robo de Base ",
+        "part": 2,
+        "lastPlayByPlay": "",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 2da",
+        "roundText": "Baja 2da",
         "currentInningNum": 2,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -12143,12 +12143,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 8,
         "status": 2,
         "date": "2026-10-31 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Ramon Hernandez Sencillo y 2 Carreras Impulsadas ",
-        "atBat": "Sergio Alcantara",
+        "lastPlayByPlay": "Sergio Alcantara Base por Bolas ",
+        "atBat": "Francisco Mejia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12159,7 +12159,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -12192,9 +12195,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 2,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2217,
@@ -12207,16 +12210,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-31 18:00:00",
-        "part": 1,
-        "lastPlayByPlay": "M. Hernandez Robo de Base ",
+        "part": 2,
+        "lastPlayByPlay": "",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 2da",
+        "roundText": "Baja 2da",
         "currentInningNum": 2,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -12254,7 +12257,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -19517,22 +19520,22 @@
       "date": "2026-10-31 17:00:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Ramon Hernandez Sencillo y 2 Carreras Impulsadas ",
+      "lastPlayByPlay": "Sergio Alcantara Base por Bolas ",
       "counts": {
-        "balls": 3,
-        "strikes": 1,
+        "balls": 0,
+        "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 5
+        "base": 8
       },
       "base_runners": {
         "on1B": true,
         "on2B": true,
-        "on3B": false,
-        "runners": 2,
-        "mask": 5
+        "on3B": true,
+        "runners": 3,
+        "mask": 8
       },
       "betting": {
         "moneyline": {
@@ -20013,10 +20016,17 @@
             },
             {
               "reference_id": "20186-2-10",
-              "text": "Sergio Alcantara al bate",
+              "text": "Sergio Alcantara Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793485666
+              "ts": 1793485854
+            },
+            {
+              "reference_id": "20186-2-11",
+              "text": "Francisco Mejia al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793485858
             }
           ]
         }
@@ -20033,7 +20043,7 @@
           "num": 1,
           "half": "bottom",
           "label": "Baja 1ra",
-          "total_plays": 7,
+          "total_plays": 8,
           "scoring_plays": 1
         }
       ],
@@ -20107,7 +20117,7 @@
           "id": 2217,
           "date": "2026-10-31 18:00:00",
           "status": 2,
-          "roundText": "Alta 2da",
+          "roundText": "Baja 2da",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -20221,16 +20231,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-31 18:00:00",
-      "roundText": "Alta 2da",
+      "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "M. Hernandez Robo de Base ",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -20702,18 +20712,18 @@
               "ts": 1793485646
             },
             {
-              "reference_id": "20196-1-13",
-              "text": "Jason Schiavone al bate",
-              "scored": false,
-              "is_primary": true,
-              "ts": 1793485659
-            },
-            {
               "reference_id": "20196-1-12-292216",
               "text": "M. Hernandez Robo de Base ",
               "scored": false,
               "is_primary": false,
               "ts": 1793485743
+            },
+            {
+              "reference_id": "20196-1-13",
+              "text": "Jason Schiavone Ponche (K) ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793485797
             }
           ]
         }
@@ -20751,7 +20761,7 @@
         },
         {
           "num": 2,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
@@ -21243,7 +21253,7 @@
           "id": 2217,
           "date": "2026-10-31 18:00:00",
           "status": 2,
-          "roundText": "Alta 2da",
+          "roundText": "Baja 2da",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
