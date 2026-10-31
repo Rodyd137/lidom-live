@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2215",
-    "scraped_at": "2026-10-31T01:40:24.759Z",
+    "scraped_at": "2026-10-31T01:41:28.894Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-10-30 19:30:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Francisco Urbaez Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "balls": 1,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Sadrag Franco",
           "era": "",
           "record": "",
           "debut": false
@@ -842,6 +842,27 @@
             "ts": 1793410581
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "20182-2-49",
+            "text": "Francisco Urbaez Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793410837
+          },
+          {
+            "reference_id": "20182-2-50",
+            "text": "Enmanuel Valdez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793410863
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -920,6 +941,13 @@
         "half": "top",
         "label": "Alta 6ta",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
