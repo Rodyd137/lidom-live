@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2215",
-    "scraped_at": "2026-10-31T00:26:48.776Z",
+    "scraped_at": "2026-10-31T00:27:52.678Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-30 19:30:00",
-    "roundText": "Baja 3ra",
-    "currentInningNum": 3,
-    "lastPlayByPlay": "Ronny Simon Base por Bolas ",
+    "roundText": "Alta 4ta",
+    "currentInningNum": 4,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -619,10 +619,24 @@
           },
           {
             "reference_id": "20179-2-22",
-            "text": "Gilberto Celestino  al bate",
+            "text": "Gilberto Celestino   Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1793406309
+            "ts": 1793406438
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "20180-1-23",
+            "text": "Luis Liberato al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793406463
           }
         ]
       }
@@ -669,6 +683,13 @@
         "label": "Baja 3ra",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -689,14 +710,14 @@
       {
         "num": 3,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 4,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -741,7 +762,7 @@
         "id": 2213,
         "date": "2026-10-30 19:00:00",
         "status": 2,
-        "roundText": "Baja 4ta",
+        "roundText": "Alta 5ta",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -767,7 +788,7 @@
         "id": 2214,
         "date": "2026-10-30 19:15:00",
         "status": 2,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
