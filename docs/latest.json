@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T00:49:11.738Z",
+    "scraped_at": "2026-10-31T00:50:15.649Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -584,16 +584,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-30 19:15:00",
-        "part": 1,
-        "lastPlayByPlay": "Raimel Tapia Ponche (K) ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Yamaico Navarro",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "currentInningNum": 5,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -630,9 +630,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
-        "strikes": 0
+        "balls": 2,
+        "outs": 0,
+        "strikes": 2
       },
       {
         "id": 2215,
@@ -646,7 +646,7 @@
         "status": 2,
         "date": "2026-10-30 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Enmanuel Valdez  Doble! 2 Carreras Impulsadas ",
+        "lastPlayByPlay": "Rafael Lantigua   Out: Rodado al Segunda Base - Primera Base",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -12028,16 +12028,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-30 19:15:00",
-        "part": 1,
-        "lastPlayByPlay": "Raimel Tapia Ponche (K) ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Yamaico Navarro",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "currentInningNum": 5,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -12074,9 +12074,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
-        "strikes": 0
+        "balls": 2,
+        "outs": 0,
+        "strikes": 2
       },
       {
         "id": 2215,
@@ -12090,7 +12090,7 @@
         "status": 2,
         "date": "2026-10-30 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Enmanuel Valdez  Doble! 2 Carreras Impulsadas ",
+        "lastPlayByPlay": "Rafael Lantigua   Out: Rodado al Segunda Base - Primera Base",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -20456,7 +20456,7 @@
           "id": 2214,
           "date": "2026-10-30 19:15:00",
           "status": 2,
-          "roundText": "Alta 5ta",
+          "roundText": "Baja 5ta",
           "awayTeam": {
             "id": 7,
             "name": "Estrellas",
@@ -20570,16 +20570,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-30 19:15:00",
-      "roundText": "Alta 5ta",
+      "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Raimel Tapia Ponche (K) ",
+      "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
-        "outs": 3
+        "balls": 2,
+        "strikes": 2,
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -21312,6 +21312,20 @@
               "ts": 1793407558
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "plays": [
+            {
+              "reference_id": "20172-2-37",
+              "text": "Yamaico Navarro al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793407770
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21377,6 +21391,13 @@
           "label": "Alta 5ta",
           "total_plays": 3,
           "scoring_plays": 0
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -21410,7 +21431,7 @@
         },
         {
           "num": 5,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
@@ -21565,7 +21586,7 @@
       "date": "2026-10-30 19:30:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Enmanuel Valdez  Doble! 2 Carreras Impulsadas ",
+      "lastPlayByPlay": "Rafael Lantigua   Out: Rodado al Segunda Base - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21811,6 +21832,17 @@
               "team_id": 6,
               "name": "Enmanuel Valdez ",
               "abbreviation": "E. Valdez",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6248,
+              "team_id": 6,
+              "name": "Deury Castro",
+              "abbreviation": "D. Castro",
               "number": null,
               "dob": null,
               "height": "",
@@ -22236,6 +22268,20 @@
               "scored": true,
               "is_primary": true,
               "ts": 1793407656
+            },
+            {
+              "reference_id": "20180-2-31",
+              "text": "Deury Castro  Out: Rodado al Tercera Base - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793407792
+            },
+            {
+              "reference_id": "20180-2-32",
+              "text": "Rafael Lantigua   Out: Rodado al Segunda Base - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793407808
             }
           ]
         }
@@ -22294,7 +22340,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 5,
+          "total_plays": 7,
           "scoring_plays": 2
         }
       ],
@@ -22394,7 +22440,7 @@
           "id": 2214,
           "date": "2026-10-30 19:15:00",
           "status": 2,
-          "roundText": "Alta 5ta",
+          "roundText": "Baja 5ta",
           "awayTeam": {
             "id": 7,
             "name": "Estrellas",
