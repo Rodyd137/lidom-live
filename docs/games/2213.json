@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2213",
-    "scraped_at": "2026-10-31T00:40:42.435Z",
+    "scraped_at": "2026-10-31T00:41:46.674Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-30 19:00:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Gustavo Nuñez  Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "strikes": 2,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -772,6 +772,20 @@
             "ts": 1793407125
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "20163-2-42",
+            "text": "Noelvi Marte  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793407249
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -837,6 +851,13 @@
         "label": "Alta 5ta",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -870,7 +891,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
@@ -951,7 +972,7 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 0,
+          "runs": 1,
           "hits": 2,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
