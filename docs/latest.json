@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T01:10:31.032Z",
+    "scraped_at": "2026-10-31T01:11:35.351Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -585,8 +585,8 @@
         "status": 2,
         "date": "2026-10-30 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Erik Gonzales  Out: Rodado al Primera Base",
+        "atBat": "Marmolejos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -630,9 +630,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 0,
-        "strikes": 0
+        "balls": 2,
+        "outs": 2,
+        "strikes": 2
       },
       {
         "id": 2215,
@@ -642,7 +642,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-30 19:30:00",
         "part": 2,
@@ -691,9 +691,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 1,
-        "strikes": 2
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -12029,8 +12029,8 @@
         "status": 2,
         "date": "2026-10-30 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Erik Gonzales  Out: Rodado al Primera Base",
+        "atBat": "Marmolejos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12074,9 +12074,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 0,
-        "strikes": 0
+        "balls": 2,
+        "outs": 2,
+        "strikes": 2
       },
       {
         "id": 2215,
@@ -12086,7 +12086,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-30 19:30:00",
         "part": 2,
@@ -12135,9 +12135,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 1,
-        "strikes": 2
+        "strikes": 0
       }
     ],
     "2026-10-31": [
@@ -20572,11 +20572,11 @@
       "date": "2026-10-30 19:15:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Erik Gonzales  Out: Rodado al Primera Base",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0
+        "balls": 2,
+        "strikes": 2,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21375,6 +21375,34 @@
               "ts": 1793408741
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "bottom",
+          "label": "Baja 6ta",
+          "plays": [
+            {
+              "reference_id": "20173-2-44",
+              "text": "Vidal Brujan  Out: Rodado al Campo Corto - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793409037
+            },
+            {
+              "reference_id": "20173-2-45",
+              "text": "Erik Gonzales  Out: Rodado al Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793409050
+            },
+            {
+              "reference_id": "20173-2-46",
+              "text": "Marmolejos al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793409052
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21453,6 +21481,13 @@
           "half": "top",
           "label": "Alta 6ta",
           "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 6,
+          "half": "bottom",
+          "label": "Baja 6ta",
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21644,20 +21679,20 @@
       "currentInningNum": 5,
       "lastPlayByPlay": "Ronny Simon Out: Elevado al Jardinero Central",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
