@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T00:31:03.241Z",
+    "scraped_at": "2026-10-31T00:32:07.066Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -628,7 +631,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -642,16 +645,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-30 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Jorge Bonifacio Out: Elevado al Jardinero Izquierdo",
-        "atBat": "J. C. Escarra",
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "currentInningNum": 4,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -689,8 +692,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
-        "strikes": 2
+        "outs": 0,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -11974,7 +11977,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -12069,7 +12075,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -12083,16 +12089,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-30 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Jorge Bonifacio Out: Elevado al Jardinero Izquierdo",
-        "atBat": "J. C. Escarra",
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "currentInningNum": 4,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -12130,8 +12136,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
-        "strikes": 2
+        "outs": 0,
+        "strikes": 0
       }
     ],
     "2026-10-31": [
@@ -20413,7 +20419,7 @@
           "id": 2215,
           "date": "2026-10-30 19:30:00",
           "status": 2,
-          "roundText": "Alta 4ta",
+          "roundText": "Baja 4ta",
           "awayTeam": {
             "id": 3,
             "name": "Aguilas",
@@ -20507,7 +20513,7 @@
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21364,7 +21370,7 @@
           "id": 2215,
           "date": "2026-10-30 19:30:00",
           "status": 2,
-          "roundText": "Alta 4ta",
+          "roundText": "Baja 4ta",
           "awayTeam": {
             "id": 3,
             "name": "Aguilas",
@@ -21452,16 +21458,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-30 19:30:00",
-      "roundText": "Alta 4ta",
+      "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Jorge Bonifacio Out: Elevado al Jardinero Izquierdo",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
-        "strikes": 2,
-        "outs": 2
+        "strikes": 0,
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -22090,10 +22096,10 @@
             },
             {
               "reference_id": "20180-1-25",
-              "text": "J. C. Escarra al bate",
+              "text": "J. C. Escarra  Out: Rodado al Segunda Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1793406579
+              "ts": 1793406684
             }
           ]
         }
@@ -22173,7 +22179,7 @@
         },
         {
           "num": 4,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
