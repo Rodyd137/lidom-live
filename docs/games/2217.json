@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2217",
-    "scraped_at": "2026-10-31T23:20:54.894Z",
+    "scraped_at": "2026-10-31T23:21:58.640Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-10-31 18:00:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Vidal Brujan Out: Elevado al Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -730,6 +730,27 @@
             "ts": 1793488680
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "20199-1-34",
+            "text": "Vidal Brujan Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793488879
+          },
+          {
+            "reference_id": "20199-1-35",
+            "text": "Erik Gonzales al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793488883
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -787,6 +808,13 @@
         "half": "bottom",
         "label": "Baja 4ta",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -885,7 +913,7 @@
       {
         "id": 2218,
         "date": "2026-10-31 19:30:00",
-        "status": 1,
+        "status": 3,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 5,
