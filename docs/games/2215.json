@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2215",
-    "scraped_at": "2026-10-31T02:25:06.592Z",
+    "scraped_at": "2026-10-31T02:26:10.451Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-10-30 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Victor Scott Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
@@ -121,10 +121,10 @@
             "position": ""
           },
           {
-            "id": 6028,
+            "id": 6026,
             "team_id": 3,
-            "name": "Chritopher Morel",
-            "abbreviation": "C. Morel",
+            "name": "Victor Scott",
+            "abbreviation": "V. Scott",
             "number": null,
             "dob": null,
             "height": "",
@@ -1003,6 +1003,27 @@
             "ts": 1793413276
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "20185-1-67",
+            "text": "Victor Scott Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793413532
+          },
+          {
+            "reference_id": "20185-1-68",
+            "text": "Raynel Delgado al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793413548
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1116,6 +1137,13 @@
         "half": "bottom",
         "label": "Baja 8va",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
