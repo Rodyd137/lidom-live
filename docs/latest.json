@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T22:56:28.287Z",
+    "scraped_at": "2026-10-31T22:57:32.567Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-10-31 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "J. Made Ponche (K) ",
-        "atBat": "K. Alcantara",
+        "lastPlayByPlay": "K. Alcantara  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 2,
-        "strikes": 1
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2217,
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-31 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Steward Berroa Out: Elevado al Jardinero Derecho ",
-        "atBat": "Luis Liberato",
+        "lastPlayByPlay": "Luis Liberato Out: Elevado al Jardinero Central",
+        "atBat": "Mason Mccoy",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -629,7 +629,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2218,
@@ -12147,8 +12147,8 @@
         "status": 2,
         "date": "2026-10-31 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "J. Made Ponche (K) ",
-        "atBat": "K. Alcantara",
+        "lastPlayByPlay": "K. Alcantara  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12192,9 +12192,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 2,
-        "strikes": 1
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2217,
@@ -12209,7 +12209,7 @@
         "date": "2026-10-31 18:00:00",
         "part": 2,
         "lastPlayByPlay": "Luis Liberato Out: Elevado al Jardinero Central",
-        "atBat": null,
+        "atBat": "Mason Mccoy",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12255,7 +12255,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2218,
@@ -19517,11 +19517,11 @@
       "date": "2026-10-31 17:00:00",
       "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "J. Made Ponche (K) ",
+      "lastPlayByPlay": "K. Alcantara  Out: Rodado al Campo Corto - Primera Base",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
-        "outs": 2
+        "balls": 0,
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20097,10 +20097,10 @@
             },
             {
               "reference_id": "20187-2-19",
-              "text": "K. Alcantara al bate",
+              "text": "K. Alcantara  Out: Rodado al Campo Corto - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1793487372
+              "ts": 1793487412
             }
           ]
         }
@@ -20321,10 +20321,10 @@
       "date": "2026-10-31 18:00:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "Steward Berroa Out: Elevado al Jardinero Derecho ",
+      "lastPlayByPlay": "Luis Liberato Out: Elevado al Jardinero Central",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 2,
         "outs": 2
       },
       "base_state": {
@@ -20950,10 +20950,17 @@
             },
             {
               "reference_id": "20197-2-23",
-              "text": "Luis Liberato al bate",
+              "text": "Luis Liberato Out: Elevado al Jardinero Central",
               "scored": false,
               "is_primary": true,
-              "ts": 1793487304
+              "ts": 1793487387
+            },
+            {
+              "reference_id": "20197-2-24",
+              "text": "Mason Mccoy al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793487391
             }
           ]
         }
@@ -20998,7 +21005,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
