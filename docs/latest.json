@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T00:59:51.684Z",
+    "scraped_at": "2026-10-31T01:00:55.447Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -585,8 +585,8 @@
         "status": 2,
         "date": "2026-10-30 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Cesar Prieto  Sencillo Jardinero Izquierdo",
-        "atBat": "Aaron Schunk",
+        "lastPlayByPlay": "Aaron Schunk Ponche (K) ",
+        "atBat": "Wilin Rosario",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -630,9 +630,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 1
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2215,
@@ -642,7 +642,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-10-30 19:30:00",
         "part": 1,
@@ -669,7 +669,7 @@
           "runs": 0,
           "runs_half": 0,
           "errors": 0,
-          "hits": 2,
+          "hits": 3,
           "pitcher": "Jorge Tavarez",
           "era": "",
           "debut": 0,
@@ -693,7 +693,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 1
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -12029,8 +12029,8 @@
         "status": 2,
         "date": "2026-10-30 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Cesar Prieto  Sencillo Jardinero Izquierdo",
-        "atBat": "Aaron Schunk",
+        "lastPlayByPlay": "Aaron Schunk Ponche (K) ",
+        "atBat": "Wilin Rosario",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12074,9 +12074,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 1
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2215,
@@ -12086,7 +12086,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-10-30 19:30:00",
         "part": 1,
@@ -12113,7 +12113,7 @@
           "runs": 0,
           "runs_half": 0,
           "errors": 0,
-          "hits": 2,
+          "hits": 3,
           "pitcher": "Jorge Tavarez",
           "era": "",
           "debut": 0,
@@ -12137,7 +12137,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 1
+        "strikes": 0
       }
     ],
     "2026-10-31": [
@@ -20489,7 +20489,7 @@
             "abbr": "AC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
             "runs": 0,
-            "hits": 2,
+            "hits": 3,
             "errors": 0,
             "permalink": "/equipo/aguilas-cibaenas"
           },
@@ -20572,11 +20572,11 @@
       "date": "2026-10-30 19:15:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Cesar Prieto  Sencillo Jardinero Izquierdo",
+      "lastPlayByPlay": "Aaron Schunk Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
-        "outs": 1
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21362,10 +21362,17 @@
             },
             {
               "reference_id": "20173-1-42",
-              "text": "Aaron Schunk al bate",
+              "text": "Aaron Schunk Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793408259
+              "ts": 1793408406
+            },
+            {
+              "reference_id": "20173-1-43",
+              "text": "Wilin Rosario al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793408409
             }
           ]
         }
@@ -21445,7 +21452,7 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -21552,7 +21559,7 @@
             "abbr": "AC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
             "runs": 0,
-            "hits": 2,
+            "hits": 3,
             "errors": 0,
             "permalink": "/equipo/aguilas-cibaenas"
           },
@@ -21638,19 +21645,19 @@
       "lastPlayByPlay": "Eddys Leonard Out: Elevado al Jardinero Central",
       "counts": {
         "balls": 0,
-        "strikes": 1,
+        "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 5
       },
       "base_runners": {
         "on1B": true,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -21678,7 +21685,7 @@
           "permalink": "/equipo/aguilas-cibaenas",
           "totals": {
             "R": 0,
-            "H": 2,
+            "H": 3,
             "E": 0,
             "H2": 0
           },
@@ -21965,7 +21972,7 @@
         "totals": {
           "away": {
             "R": 0,
-            "H": 2,
+            "H": 3,
             "E": 0
           },
           "home": {
