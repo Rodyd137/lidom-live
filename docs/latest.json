@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-10-31T00:20:22.538Z",
+    "scraped_at": "2026-10-31T00:21:26.484Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-10-30 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Aaron Schunk Base por Bolas ",
-        "atBat": "Wilin Rosario",
+        "lastPlayByPlay": "Wilin Rosario Base por Bolas ",
+        "atBat": "Juan Santana",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-30 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Enmanuel Valdez   Out: Rodado al Segunda Base - Primera Base",
-        "atBat": "Onil Perez",
+        "lastPlayByPlay": "Onil Perez se embasa por Error del Segunda Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,8 +689,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 1
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -12007,9 +12007,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2214,
@@ -12019,12 +12019,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-10-30 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Aaron Schunk Base por Bolas ",
-        "atBat": "Wilin Rosario",
+        "lastPlayByPlay": "Wilin Rosario Base por Bolas ",
+        "atBat": "Juan Santana",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12080,12 +12080,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-30 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Enmanuel Valdez   Out: Rodado al Segunda Base - Primera Base",
-        "atBat": "Onil Perez",
+        "lastPlayByPlay": "Onil Perez se embasa por Error del Segunda Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12130,8 +12130,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 1
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "2026-10-31": [
@@ -20461,7 +20461,7 @@
       "date": "2026-10-30 19:15:00",
       "roundText": "Alta 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Aaron Schunk Base por Bolas ",
+      "lastPlayByPlay": "Wilin Rosario Base por Bolas ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -20469,14 +20469,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 5
       },
       "base_runners": {
         "on1B": true,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -21125,10 +21125,17 @@
             },
             {
               "reference_id": "20171-1-28",
-              "text": "Wilin Rosario al bate",
+              "text": "Wilin Rosario Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793405878
+              "ts": 1793406074
+            },
+            {
+              "reference_id": "20171-1-29",
+              "text": "Juan Santana al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793406078
             }
           ]
         }
@@ -21180,7 +21187,7 @@
           "num": 4,
           "half": "top",
           "label": "Alta 4ta",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -21370,22 +21377,22 @@
       "date": "2026-10-30 19:30:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "Enmanuel Valdez   Out: Rodado al Segunda Base - Primera Base",
+      "lastPlayByPlay": "Onil Perez se embasa por Error del Segunda Base",
       "counts": {
         "balls": 0,
-        "strikes": 1,
-        "outs": 1
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -21946,10 +21953,10 @@
             },
             {
               "reference_id": "20179-2-19",
-              "text": "Onil Perez al bate",
+              "text": "Onil Perez se embasa por Error del Segunda Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1793406006
+              "ts": 1793406071
             }
           ]
         }
