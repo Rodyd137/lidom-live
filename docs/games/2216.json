@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2216",
-    "scraped_at": "2026-11-01T00:43:48.197Z",
+    "scraped_at": "2026-11-01T00:44:52.286Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-31 17:00:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Josh Lester   Out: Rodado al Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 3,
-          "H": 6,
+          "H": 5,
           "E": 0,
           "H2": 0
         },
@@ -147,6 +147,17 @@
             "team_id": 7,
             "name": "Josh Lester ",
             "abbreviation": "J. Lester",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6112,
+            "team_id": 7,
+            "name": "Oscar Gonzalez",
+            "abbreviation": "Oscar Gonzalez",
             "number": null,
             "dob": null,
             "height": "",
@@ -330,7 +341,7 @@
       "totals": {
         "away": {
           "R": 3,
-          "H": 6,
+          "H": 5,
           "E": 0
         },
         "home": {
@@ -916,10 +927,31 @@
           },
           {
             "reference_id": "20192-1-57",
-            "text": "Miguel Bleis al bate",
+            "text": "Miguel Bleis Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1793493475
+            "ts": 1793493832
+          },
+          {
+            "reference_id": "20192-1-58",
+            "text": "Harold Andres Ramirez  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793493852
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "20192-2-59",
+            "text": "K. Alcantara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793493878
           }
         ]
       }
@@ -1013,8 +1045,15 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 5,
+        "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1062,7 +1101,7 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 3,
         "homeTeamRuns": 0
