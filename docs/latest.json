@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-01T00:09:44.252Z",
+    "scraped_at": "2026-11-01T00:10:47.998Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -520,16 +520,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-31 17:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Sandber Pimentel Ponche (K) ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Sergio Alcantara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "currentInningNum": 6,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -643,8 +646,8 @@
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Pablo Reyes Ponche (K) ",
-        "atBat": "Ferreras",
+        "lastPlayByPlay": "Frank Rodriguez Out: Elevado al Jardinero Izquierdo",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +691,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 1,
-        "strikes": 1
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -12146,16 +12149,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-10-31 17:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Sandber Pimentel Ponche (K) ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Sergio Alcantara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "currentInningNum": 6,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -12193,7 +12196,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -12220,7 +12223,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -12269,8 +12275,8 @@
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Pablo Reyes Ponche (K) ",
-        "atBat": "Ferreras",
+        "lastPlayByPlay": "Frank Rodriguez Out: Elevado al Jardinero Izquierdo",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12314,9 +12320,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 1,
-        "strikes": 1
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       }
     ],
     "2026-11-01": [
@@ -19515,16 +19521,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-10-31 17:00:00",
-      "roundText": "Alta 6ta",
+      "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Sandber Pimentel Ponche (K) ",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -20355,6 +20361,20 @@
               "ts": 1793491685
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "bottom",
+          "label": "Baja 6ta",
+          "plays": [
+            {
+              "reference_id": "20191-2-48",
+              "text": "Sergio Alcantara al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793491801
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20434,6 +20454,13 @@
           "label": "Alta 6ta",
           "total_plays": 4,
           "scoring_plays": 0
+        },
+        {
+          "num": 6,
+          "half": "bottom",
+          "label": "Baja 6ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20474,7 +20501,7 @@
         },
         {
           "num": 6,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
@@ -21702,7 +21729,7 @@
           "id": 2216,
           "date": "2026-10-31 17:00:00",
           "status": 2,
-          "roundText": "Alta 6ta",
+          "roundText": "Baja 6ta",
           "awayTeam": {
             "id": 7,
             "name": "Estrellas",
@@ -21818,11 +21845,11 @@
       "date": "2026-10-31 19:30:00",
       "roundText": "Alta 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "Pablo Reyes Ponche (K) ",
+      "lastPlayByPlay": "Frank Rodriguez Out: Elevado al Jardinero Izquierdo",
       "counts": {
-        "balls": 2,
-        "strikes": 1,
-        "outs": 1
+        "balls": 0,
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22356,10 +22383,17 @@
             },
             {
               "reference_id": "20205-1-14",
-              "text": "Ferreras al bate",
+              "text": "Ferreras  Out: Rodado al Tercera Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1793491597
+              "ts": 1793491824
+            },
+            {
+              "reference_id": "20205-1-15",
+              "text": "Frank Rodriguez Out: Elevado al Jardinero Izquierdo",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793491845
             }
           ]
         }
@@ -22383,7 +22417,7 @@
           "num": 2,
           "half": "top",
           "label": "Alta 2da",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -22457,7 +22491,7 @@
           "id": 2216,
           "date": "2026-10-31 17:00:00",
           "status": 2,
-          "roundText": "Alta 6ta",
+          "roundText": "Baja 6ta",
           "awayTeam": {
             "id": 7,
             "name": "Estrellas",

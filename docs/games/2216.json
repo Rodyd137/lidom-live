@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2216",
-    "scraped_at": "2026-11-01T00:09:46.113Z",
+    "scraped_at": "2026-11-01T00:10:49.914Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-10-31 17:00:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Sandber Pimentel Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -849,6 +849,20 @@
             "ts": 1793491685
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "20191-2-48",
+            "text": "Sergio Alcantara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793491801
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -928,6 +942,13 @@
         "label": "Alta 6ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -968,7 +989,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
