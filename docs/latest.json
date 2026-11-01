@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-01T00:37:22.605Z",
+    "scraped_at": "2026-11-01T00:38:26.471Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-10-31 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Leonardo Bernal  Cuadrangular! 3 Carreras Impulsadas ",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Josh Lester   Out: Rodado al Primera Base",
+        "atBat": "Miguel Bleis",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -578,7 +578,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-31 18:00:00",
         "part": 1,
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -627,9 +630,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2218,
@@ -12150,8 +12153,8 @@
         "status": 2,
         "date": "2026-10-31 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Leonardo Bernal  Cuadrangular! 3 Carreras Impulsadas ",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Josh Lester   Out: Rodado al Primera Base",
+        "atBat": "Miguel Bleis",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12196,7 +12199,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -12207,12 +12210,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-10-31 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "M. Hernandez Base por Bolas ",
-        "atBat": "Jason Schiavone",
+        "lastPlayByPlay": "Jason Schiavone Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12223,7 +12226,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -12256,9 +12262,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2218,
@@ -19523,11 +19529,11 @@
       "date": "2026-10-31 17:00:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Leonardo Bernal  Cuadrangular! 3 Carreras Impulsadas ",
+      "lastPlayByPlay": "Josh Lester   Out: Rodado al Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -20432,10 +20438,17 @@
             },
             {
               "reference_id": "20192-1-56",
-              "text": "Josh Lester  al bate",
+              "text": "Josh Lester   Out: Rodado al Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1793493417
+              "ts": 1793493471
+            },
+            {
+              "reference_id": "20192-1-57",
+              "text": "Miguel Bleis al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793493475
             }
           ]
         }
@@ -20529,7 +20542,7 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 1
         }
       ],
@@ -20719,22 +20732,22 @@
       "date": "2026-10-31 18:00:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "M. Hernandez Base por Bolas ",
+      "lastPlayByPlay": "Jason Schiavone Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 1
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -21719,10 +21732,10 @@
             },
             {
               "reference_id": "20202-1-63",
-              "text": "Jason Schiavone al bate",
+              "text": "Jason Schiavone Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793493321
+              "ts": 1793493506
             }
           ]
         }
