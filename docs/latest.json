@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-01T01:11:23.690Z",
+    "scraped_at": "2026-11-01T01:12:27.371Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-10-31 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Y. Encarnación  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": "Gustavo Nuñez",
+        "lastPlayByPlay": "Gustavo Nuñez Sencillo se embasa por Error del - Campo Corto",
+        "atBat": "J. Made",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Rafael Lantigua  Out: Línea al Jardinero Derecho ",
+        "atBat": "Ronny Simon",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12147,8 +12147,8 @@
         "status": 2,
         "date": "2026-10-31 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Y. Encarnación  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": "Gustavo Nuñez",
+        "lastPlayByPlay": "Gustavo Nuñez Sencillo se embasa por Error del - Campo Corto",
+        "atBat": "J. Made",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12269,8 +12269,8 @@
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Rafael Lantigua  Out: Línea al Jardinero Derecho ",
+        "atBat": "Ronny Simon",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -19517,7 +19517,7 @@
       "date": "2026-10-31 17:00:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Y. Encarnación  Out: Rodado al Segunda Base - Primera Base",
+      "lastPlayByPlay": "Gustavo Nuñez Sencillo se embasa por Error del - Campo Corto",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -20538,10 +20538,17 @@
             },
             {
               "reference_id": "20193-2-69",
-              "text": "Gustavo Nuñez al bate",
+              "text": "Gustavo Nuñez Sencillo se embasa por Error del - Campo Corto",
               "scored": false,
               "is_primary": true,
-              "ts": 1793495435
+              "ts": 1793495495
+            },
+            {
+              "reference_id": "20193-2-70",
+              "text": "J. Made al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793495497
             }
           ]
         }
@@ -20656,7 +20663,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -22280,7 +22287,7 @@
       "date": "2026-10-31 19:30:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Rafael Lantigua  Out: Línea al Jardinero Derecho ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -23041,6 +23048,27 @@
               "ts": 1793495452
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "plays": [
+            {
+              "reference_id": "20208-2-40",
+              "text": "Rafael Lantigua  Out: Línea al Jardinero Derecho ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793495516
+            },
+            {
+              "reference_id": "20208-2-41",
+              "text": "Ronny Simon al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793495520
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23105,6 +23133,13 @@
           "half": "top",
           "label": "Alta 5ta",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
