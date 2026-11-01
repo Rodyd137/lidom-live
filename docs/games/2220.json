@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2220",
-    "scraped_at": "2026-11-01T23:08:14.243Z",
+    "scraped_at": "2026-11-01T23:09:18.210Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-11-01 17:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Noelvi Marte  se embasa por Error del Tercera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 5,
           "H": 8,
-          "E": 1,
+          "E": 2,
           "H2": 5
         },
         "probables": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 4,
-          "H": 5,
+          "H": 6,
           "E": 0,
           "H2": 4
         },
@@ -342,11 +342,11 @@
         "away": {
           "R": 5,
           "H": 8,
-          "E": 1
+          "E": 2
         },
         "home": {
           "R": 4,
-          "H": 5,
+          "H": 6,
           "E": 0
         }
       },
@@ -829,10 +829,17 @@
         "plays": [
           {
             "reference_id": "20226-2-48",
-            "text": "Noelvi Marte  al bate",
+            "text": "Noelvi Marte  se embasa por Error del Tercera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1793574413
+            "ts": 1793574536
+          },
+          {
+            "reference_id": "20226-2-49",
+            "text": "Marcell Ozuna  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793574553
           }
         ]
       }
@@ -905,7 +912,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
