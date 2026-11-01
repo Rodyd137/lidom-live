@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-01T00:01:14.123Z",
+    "scraped_at": "2026-11-01T00:02:17.961Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-10-31 17:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": "Ramon Hernandez",
+        "atBat": "Harold Andres Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-31 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Mason Mccoy  Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "J. C. Escarra",
+        "lastPlayByPlay": "J. C. Escarra Ponche (K) ",
+        "atBat": "Eddys Leonard",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2218,
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 7,
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Juan Brito Ponche (K) ",
-        "atBat": "Jesús Sanchez ",
+        "lastPlayByPlay": "Jesús Sanchez   Out: Rodado al Campo Corto - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -12148,7 +12148,7 @@
         "date": "2026-10-31 17:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": "Ramon Hernandez",
+        "atBat": "Harold Andres Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12208,8 +12208,8 @@
         "status": 2,
         "date": "2026-10-31 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Mason Mccoy  Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "J. C. Escarra",
+        "lastPlayByPlay": "J. C. Escarra Ponche (K) ",
+        "atBat": "Eddys Leonard",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12253,9 +12253,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2218,
@@ -12265,12 +12265,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 7,
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Juan Brito Ponche (K) ",
-        "atBat": "Jesús Sanchez ",
+        "lastPlayByPlay": "Jesús Sanchez   Out: Rodado al Campo Corto - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12315,7 +12315,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -20320,6 +20320,20 @@
               "ts": 1793491133
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "plays": [
+            {
+              "reference_id": "20191-1-44",
+              "text": "Harold Andres Ramirez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793491277
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20391,6 +20405,13 @@
           "half": "bottom",
           "label": "Baja 5ta",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -20580,11 +20601,11 @@
       "date": "2026-10-31 18:00:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Mason Mccoy  Out: Rodado al Tercera Base - Primera Base",
+      "lastPlayByPlay": "J. C. Escarra Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 1
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21440,10 +21461,17 @@
             },
             {
               "reference_id": "20200-2-49",
-              "text": "J. C. Escarra al bate",
+              "text": "J. C. Escarra Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793491099
+              "ts": 1793491311
+            },
+            {
+              "reference_id": "20200-2-50",
+              "text": "Eddys Leonard al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793491315
             }
           ]
         }
@@ -21530,7 +21558,7 @@
           "num": 6,
           "half": "bottom",
           "label": "Baja 6ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21720,22 +21748,22 @@
       "date": "2026-10-31 19:30:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Juan Brito Ponche (K) ",
+      "lastPlayByPlay": "Jesús Sanchez   Out: Rodado al Campo Corto - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 5
+        "base": 7
       },
       "base_runners": {
-        "on1B": true,
+        "on1B": false,
         "on2B": true,
-        "on3B": false,
+        "on3B": true,
         "runners": 2,
-        "mask": 5
+        "mask": 7
       },
       "betting": {
         "moneyline": {
@@ -22230,10 +22258,10 @@
             },
             {
               "reference_id": "20204-2-11",
-              "text": "Jesús Sanchez  al bate",
+              "text": "Jesús Sanchez   Out: Rodado al Campo Corto - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1793491268
+              "ts": 1793491332
             }
           ]
         }
