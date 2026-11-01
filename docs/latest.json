@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-01T00:25:40.853Z",
+    "scraped_at": "2026-11-01T00:26:44.711Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -582,8 +585,8 @@
         "status": 2,
         "date": "2026-10-31 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Frederix Bencosme Base por Bolas ",
-        "atBat": "Victor Scott",
+        "lastPlayByPlay": "Victor Scott  Out: Rodado al Campo Corto - Segunda Base",
+        "atBat": "Webster Rivas",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,8 +631,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 2
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2218,
@@ -689,7 +692,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       }
     ],
@@ -12159,7 +12162,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -12208,8 +12214,8 @@
         "status": 2,
         "date": "2026-10-31 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Frederix Bencosme Base por Bolas ",
-        "atBat": "Victor Scott",
+        "lastPlayByPlay": "Victor Scott  Out: Rodado al Campo Corto - Segunda Base",
+        "atBat": "Webster Rivas",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12254,8 +12260,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 2
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2218,
@@ -12314,9 +12320,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 2,
-        "strikes": 1
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       }
     ],
     "2026-11-01": [
@@ -20671,11 +20677,11 @@
       "date": "2026-10-31 18:00:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Frederix Bencosme Base por Bolas ",
+      "lastPlayByPlay": "Victor Scott  Out: Rodado al Campo Corto - Segunda Base",
       "counts": {
         "balls": 0,
-        "strikes": 2,
-        "outs": 0
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21629,10 +21635,17 @@
             },
             {
               "reference_id": "20201-2-58",
-              "text": "Victor Scott al bate",
+              "text": "Victor Scott  Out: Rodado al Campo Corto - Segunda Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1793492684
+              "ts": 1793492776
+            },
+            {
+              "reference_id": "20201-2-59",
+              "text": "Webster Rivas al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793492779
             }
           ]
         }
@@ -21733,7 +21746,7 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21925,9 +21938,9 @@
       "currentInningNum": 3,
       "lastPlayByPlay": "Carlos Peguero  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
-        "outs": 2
+        "balls": 0,
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
