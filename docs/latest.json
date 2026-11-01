@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-01T01:01:50.959Z",
+    "scraped_at": "2026-11-01T01:02:54.832Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-10-31 17:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Raimel Tapia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -568,7 +568,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2217,
@@ -627,7 +627,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 3,
         "outs": 2,
         "strikes": 2
       },
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Frank Rodriguez",
+        "lastPlayByPlay": "Frank Rodriguez Ponche (K) ",
+        "atBat": "Carlos Jorge ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -12148,7 +12148,7 @@
         "date": "2026-10-31 17:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Raimel Tapia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12194,7 +12194,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2217,
@@ -12253,7 +12253,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 3,
         "outs": 2,
         "strikes": 2
       },
@@ -12269,8 +12269,8 @@
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Frank Rodriguez",
+        "lastPlayByPlay": "Frank Rodriguez Ponche (K) ",
+        "atBat": "Carlos Jorge ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12315,7 +12315,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -19520,7 +19520,7 @@
       "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -20495,6 +20495,20 @@
               "ts": 1793494738
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "plays": [
+            {
+              "reference_id": "20193-1-65",
+              "text": "Raimel Tapia al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793494943
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20595,6 +20609,13 @@
           "label": "Baja 7ma",
           "total_plays": 6,
           "scoring_plays": 1
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20785,7 +20806,7 @@
       "currentInningNum": 9,
       "lastPlayByPlay": "Eddys Leonard  Out: Rodado al Tercera Base - Primera Base",
       "counts": {
-        "balls": 2,
+        "balls": 3,
         "strikes": 2,
         "outs": 2
       },
@@ -22203,11 +22224,11 @@
       "date": "2026-10-31 19:30:00",
       "roundText": "Alta 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Frank Rodriguez Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22944,10 +22965,17 @@
           "plays": [
             {
               "reference_id": "20208-1-37",
-              "text": "Frank Rodriguez al bate",
+              "text": "Frank Rodriguez Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793494841
+              "ts": 1793494963
+            },
+            {
+              "reference_id": "20208-1-38",
+              "text": "Carlos Jorge  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793494968
             }
           ]
         }
@@ -23013,7 +23041,7 @@
           "num": 5,
           "half": "top",
           "label": "Alta 5ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
