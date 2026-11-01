@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-01T00:31:00.194Z",
+    "scraped_at": "2026-11-01T00:32:03.812Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Rafael Lantigua ",
+        "lastPlayByPlay": "Rafael Lantigua  Doble! Jardinero Central",
+        "atBat": "Ronny Simon",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -682,15 +682,15 @@
           "runs": 0,
           "runs_half": 0,
           "errors": 1,
-          "hits": 0,
+          "hits": 1,
           "pitcher": "Aaron Brooks",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -12265,12 +12265,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Rafael Lantigua ",
+        "lastPlayByPlay": "Rafael Lantigua  Doble! Jardinero Central",
+        "atBat": "Ronny Simon",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12308,15 +12308,15 @@
           "runs": 0,
           "runs_half": 0,
           "errors": 1,
-          "hits": 0,
+          "hits": 1,
           "pitcher": "Aaron Brooks",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 0
       }
     ],
     "2026-11-01": [
@@ -20598,7 +20598,7 @@
             "abbr": "TE",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
             "runs": 0,
-            "hits": 0,
+            "hits": 1,
             "errors": 1,
             "permalink": "/equipo/toros-del-este"
           }
@@ -21864,7 +21864,7 @@
             "abbr": "TE",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
             "runs": 0,
-            "hits": 0,
+            "hits": 1,
             "errors": 1,
             "permalink": "/equipo/toros-del-este"
           }
@@ -21937,22 +21937,22 @@
       "date": "2026-10-31 19:30:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Rafael Lantigua  Doble! Jardinero Central",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -22101,7 +22101,7 @@
           "permalink": "/equipo/toros-del-este",
           "totals": {
             "R": 0,
-            "H": 0,
+            "H": 1,
             "E": 1,
             "H2": 0
           },
@@ -22272,7 +22272,7 @@
           },
           "home": {
             "R": 0,
-            "H": 0,
+            "H": 1,
             "E": 1
           }
         },
@@ -22573,10 +22573,17 @@
           "plays": [
             {
               "reference_id": "20206-2-24",
-              "text": "Rafael Lantigua  al bate",
+              "text": "Rafael Lantigua  Doble! Jardinero Central",
               "scored": false,
               "is_primary": true,
-              "ts": 1793492991
+              "ts": 1793493066
+            },
+            {
+              "reference_id": "20206-2-25",
+              "text": "Ronny Simon al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793493069
             }
           ]
         }
@@ -22621,7 +22628,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
