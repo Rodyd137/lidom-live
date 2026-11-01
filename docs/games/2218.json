@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2218",
-    "scraped_at": "2026-11-01T02:10:34.198Z",
+    "scraped_at": "2026-11-01T02:11:38.134Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-31 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Gilberto Celestino  Ponche (K) ",
+    "lastPlayByPlay": "Juan Brito  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 4
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 2
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -943,11 +943,25 @@
             "ts": 1793499008
           },
           {
+            "reference_id": "20210-2-60-292603",
+            "text": "Ronny Simon Segunda Base 3er viraje",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1793499072
+          },
+          {
             "reference_id": "20210-2-61",
-            "text": "Juan Brito al bate",
+            "text": "Juan Brito  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1793499013
+            "ts": 1793499091
+          },
+          {
+            "reference_id": "20210-2-62",
+            "text": "Jesús Sanchez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793499094
           }
         ]
       }
@@ -1048,7 +1062,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 3,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
