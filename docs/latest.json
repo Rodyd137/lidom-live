@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-01T02:06:17.406Z",
+    "scraped_at": "2026-11-01T02:07:20.960Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Ronny Simon",
+        "lastPlayByPlay": "Ronny Simon Base por Bolas ",
+        "atBat": "Gilberto Celestino ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -690,7 +690,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -12265,12 +12265,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Ronny Simon",
+        "lastPlayByPlay": "Ronny Simon Base por Bolas ",
+        "atBat": "Gilberto Celestino ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12316,7 +12316,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 0
       }
     ],
     "2026-11-01": [
@@ -22336,22 +22336,22 @@
       "date": "2026-10-31 19:30:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Ronny Simon Base por Bolas ",
       "counts": {
         "balls": 0,
-        "strikes": 1,
+        "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -23255,10 +23255,17 @@
           "plays": [
             {
               "reference_id": "20210-2-59",
-              "text": "Ronny Simon al bate",
+              "text": "Ronny Simon Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793498525
+              "ts": 1793498808
+            },
+            {
+              "reference_id": "20210-2-60",
+              "text": "Gilberto Celestino  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793498812
             }
           ]
         }
@@ -23359,7 +23366,7 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
