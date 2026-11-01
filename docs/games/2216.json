@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2216",
-    "scraped_at": "2026-11-01T00:33:09.274Z",
+    "scraped_at": "2026-11-01T00:34:13.156Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-31 17:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Aaron Schunk Doble! Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
-      "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "on1B": false,
+      "on2B": true,
+      "on3B": true,
+      "runners": 2,
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 0,
-          "H": 4,
+          "H": 5,
           "E": 0,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 4,
+          "H": 5,
           "E": 0
         },
         "home": {
@@ -891,6 +891,27 @@
             "ts": 1793492968
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "20192-1-53",
+            "text": "Cesar Prieto  Sencillo Lanzador",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793493226
+          },
+          {
+            "reference_id": "20192-1-54",
+            "text": "Aaron Schunk Doble! Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793493248
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -976,6 +997,13 @@
         "half": "bottom",
         "label": "Baja 6ta",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
