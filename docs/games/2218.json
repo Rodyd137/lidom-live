@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2218",
-    "scraped_at": "2026-11-01T03:17:21.396Z",
+    "scraped_at": "2026-11-01T03:18:25.444Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-31 19:30:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Gilberto Celestino  Tercera Base balk",
+    "lastPlayByPlay": "Wilmer Difo Base por Bolas ",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 4
+      "base": 6
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -242,10 +242,10 @@
             "position": ""
           },
           {
-            "id": 6011,
+            "id": 6071,
             "team_id": 6,
-            "name": "Enmanuel Valdez ",
-            "abbreviation": "E. Valdez",
+            "name": "Mike Rosario",
+            "abbreviation": "Mike Rosario",
             "number": null,
             "dob": null,
             "height": "",
@@ -1157,18 +1157,25 @@
             "ts": 1793502919
           },
           {
-            "reference_id": "20212-2-84",
-            "text": "Wilmer Difo al bate",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1793502941
-          },
-          {
             "reference_id": "20212-2-83-292653",
             "text": "Gilberto Celestino  Tercera Base balk",
             "scored": false,
             "is_primary": false,
             "ts": 1793502984
+          },
+          {
+            "reference_id": "20212-2-84",
+            "text": "Wilmer Difo Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793503078
+          },
+          {
+            "reference_id": "20212-2-85",
+            "text": "Enmanuel Valdez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793503083
           }
         ]
       }
@@ -1297,7 +1304,7 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 6,
+        "total_plays": 7,
         "scoring_plays": 0
       }
     ],
