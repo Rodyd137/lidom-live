@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2220",
-    "scraped_at": "2026-11-01T23:17:48.144Z",
+    "scraped_at": "2026-11-01T23:18:52.192Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-01 17:00:00",
-    "roundText": "Baja 5ta",
-    "currentInningNum": 5,
-    "lastPlayByPlay": "Carlos Franco Out: Línea al Jardinero Derecho ",
+    "roundText": "Alta 6ta",
+    "currentInningNum": 6,
+    "lastPlayByPlay": "Pedro Severino Ponche (K) ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -863,6 +863,27 @@
             "ts": 1793574887
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "20227-1-53",
+            "text": "Pedro Severino Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793575106
+          },
+          {
+            "reference_id": "20227-1-54",
+            "text": "Rafael Lantigua  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793575109
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -935,6 +956,13 @@
         "label": "Baja 5ta",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -969,14 +997,14 @@
       {
         "num": 5,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 1
       },
       {
         "num": 6,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
