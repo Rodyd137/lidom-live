@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2216",
-    "scraped_at": "2026-11-01T01:10:21.951Z",
+    "scraped_at": "2026-11-01T01:11:25.672Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-31 17:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Y. Encarnación  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 3,
           "H": 5,
-          "E": 1,
+          "E": 2,
           "H2": 0
         },
         "probables": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 5,
-          "H": 12,
+          "H": 13,
           "E": 0,
           "H2": 4
         },
@@ -342,11 +342,11 @@
         "away": {
           "R": 3,
           "H": 5,
-          "E": 1
+          "E": 2
         },
         "home": {
           "R": 5,
-          "H": 12,
+          "H": 13,
           "E": 0
         }
       },
@@ -1025,10 +1025,17 @@
         "plays": [
           {
             "reference_id": "20193-2-68",
-            "text": "Y. Encarnación al bate",
+            "text": "Y. Encarnación  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1793495259
+            "ts": 1793495432
+          },
+          {
+            "reference_id": "20193-2-69",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793495435
           }
         ]
       }
@@ -1143,7 +1150,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1243,7 +1250,7 @@
         "id": 2218,
         "date": "2026-10-31 19:30:00",
         "status": 2,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
