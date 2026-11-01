@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2219",
-    "scraped_at": "2026-11-01T23:29:31.161Z",
+    "scraped_at": "2026-11-01T23:30:35.498Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-01 17:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "J. C. Escarra  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "Luis Liberato  Out: Rodado al Lanzador - Primera Base - Carrera Empujada",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
-      "outs": 1
+      "balls": 1,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 4
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 0,
+          "R": 1,
           "H": 2,
           "E": 0,
           "H2": 0
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,7 +340,7 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 0,
+          "R": 1,
           "H": 2,
           "E": 0
         },
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 0
+            "R": 1
           },
           {
             "num": 9,
-            "R": 0
+            "R": 1
           }
         ],
         "home": [
@@ -983,10 +983,17 @@
           },
           {
             "reference_id": "20220-1-62",
-            "text": "Luis Liberato al bate",
+            "text": "Luis Liberato  Out: Rodado al Lanzador - Primera Base - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1793575801
+          },
+          {
+            "reference_id": "20220-1-63",
+            "text": "Mason Mccoy al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1793575692
+            "ts": 1793575804
           }
         ]
       }
@@ -1094,8 +1101,8 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1152,7 +1159,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
@@ -1184,8 +1191,8 @@
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 5,
-          "hits": 7,
+          "runs": 7,
+          "hits": 8,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
