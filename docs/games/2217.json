@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2217",
-    "scraped_at": "2026-11-01T00:06:35.052Z",
+    "scraped_at": "2026-11-01T00:07:38.729Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-10-31 18:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Vidal Brujan Sencillo ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 3,
-          "H": 6,
+          "H": 7,
           "E": 0,
           "H2": 3
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 3,
-          "H": 6,
+          "H": 7,
           "E": 0
         },
         "home": {
@@ -898,6 +898,27 @@
             "ts": 1793491440
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "20201-1-52",
+            "text": "Vidal Brujan Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793491620
+          },
+          {
+            "reference_id": "20201-1-53",
+            "text": "Erik Gonzales al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793491624
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -983,6 +1004,13 @@
         "half": "bottom",
         "label": "Baja 6ta",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
