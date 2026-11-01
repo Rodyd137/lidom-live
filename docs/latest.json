@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-01T02:17:57.147Z",
+    "scraped_at": "2026-11-01T02:19:01.143Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Noelvi Marte ",
+        "lastPlayByPlay": "Marcell Ozuna  Golpeado por Pelota ",
+        "atBat": "Carlos Peguero",
         "comment": "",
         "winningPitcher": "Jose Manuel Fernandez",
         "losingPitcher": "Hanzel Robles",
@@ -683,7 +683,7 @@
           "runs_half": 2,
           "errors": 1,
           "hits": 7,
-          "pitcher": "Jose Manuel Fernandez",
+          "pitcher": "Lucas Sims",
           "era": "",
           "debut": 0,
           "record": ""
@@ -12265,12 +12265,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Noelvi Marte  Out: Elevado al Jardinero Central",
-        "atBat": "Marcell Ozuna ",
+        "lastPlayByPlay": "Marcell Ozuna  Golpeado por Pelota ",
+        "atBat": "Carlos Peguero",
         "comment": "",
         "winningPitcher": "Jose Manuel Fernandez",
         "losingPitcher": "Hanzel Robles",
@@ -12309,7 +12309,7 @@
           "runs_half": 2,
           "errors": 1,
           "hits": 7,
-          "pitcher": "Jose Manuel Fernandez",
+          "pitcher": "Lucas Sims",
           "era": "",
           "debut": 0,
           "record": ""
@@ -22336,7 +22336,7 @@
       "date": "2026-10-31 19:30:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Noelvi Marte  Out: Elevado al Jardinero Central",
+      "lastPlayByPlay": "Marcell Ozuna  Golpeado por Pelota ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -22344,14 +22344,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -22505,7 +22505,7 @@
             "H2": 2
           },
           "probables": {
-            "pitcher": "Jose Manuel Fernandez",
+            "pitcher": "Lucas Sims",
             "era": "",
             "record": "",
             "debut": false
@@ -23311,10 +23311,17 @@
             },
             {
               "reference_id": "20211-1-65",
-              "text": "Marcell Ozuna  al bate",
+              "text": "Marcell Ozuna  Golpeado por Pelota ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793499475
+              "ts": 1793499513
+            },
+            {
+              "reference_id": "20211-1-66",
+              "text": "Carlos Peguero al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793499515
             }
           ]
         }
@@ -23422,7 +23429,7 @@
           "num": 8,
           "half": "top",
           "label": "Alta 8va",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
