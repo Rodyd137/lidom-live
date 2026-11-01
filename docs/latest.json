@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-01T00:24:36.963Z",
+    "scraped_at": "2026-11-01T00:25:40.853Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-31 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Frederix Bencosme",
+        "lastPlayByPlay": "Frederix Bencosme Base por Bolas ",
+        "atBat": "Victor Scott",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -629,7 +629,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2218,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Marcell Ozuna  Cuadrangular! 2 Carreras Impulsadas ",
-        "atBat": "Carlos Peguero",
+        "lastPlayByPlay": "Carlos Peguero  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Deyvinson de los Santos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,8 +689,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 2
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -12208,8 +12208,8 @@
         "status": 2,
         "date": "2026-10-31 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Frederix Bencosme",
+        "lastPlayByPlay": "Frederix Bencosme Base por Bolas ",
+        "atBat": "Victor Scott",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12255,7 +12255,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2218,
@@ -12269,8 +12269,8 @@
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Marcell Ozuna  Cuadrangular! 2 Carreras Impulsadas ",
-        "atBat": "Carlos Peguero",
+        "lastPlayByPlay": "Carlos Peguero  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Deyvinson de los Santos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12314,9 +12314,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 1,
-        "strikes": 2
+        "balls": 1,
+        "outs": 2,
+        "strikes": 1
       }
     ],
     "2026-11-01": [
@@ -20671,10 +20671,10 @@
       "date": "2026-10-31 18:00:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Frederix Bencosme Base por Bolas ",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -21622,10 +21622,17 @@
           "plays": [
             {
               "reference_id": "20201-2-57",
-              "text": "Frederix Bencosme al bate",
+              "text": "Frederix Bencosme Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793492586
+              "ts": 1793492677
+            },
+            {
+              "reference_id": "20201-2-58",
+              "text": "Victor Scott al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793492684
             }
           ]
         }
@@ -21726,7 +21733,7 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21916,11 +21923,11 @@
       "date": "2026-10-31 19:30:00",
       "roundText": "Alta 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "Marcell Ozuna  Cuadrangular! 2 Carreras Impulsadas ",
+      "lastPlayByPlay": "Carlos Peguero  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
-        "balls": 0,
-        "strikes": 2,
-        "outs": 1
+        "balls": 1,
+        "strikes": 1,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22531,10 +22538,17 @@
             },
             {
               "reference_id": "20206-1-22",
-              "text": "Carlos Peguero al bate",
+              "text": "Carlos Peguero  Out: Rodado al Segunda Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1793492581
+              "ts": 1793492720
+            },
+            {
+              "reference_id": "20206-1-23",
+              "text": "Deyvinson de los Santos al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793492729
             }
           ]
         }
@@ -22572,7 +22586,7 @@
           "num": 3,
           "half": "top",
           "label": "Alta 3ra",
-          "total_plays": 5,
+          "total_plays": 6,
           "scoring_plays": 1
         }
       ],
