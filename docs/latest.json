@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-01T01:55:40.787Z",
+    "scraped_at": "2026-11-01T01:56:44.817Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Pablo Reyes",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -666,7 +666,7 @@
           "runs": 4,
           "runs_half": 4,
           "errors": 2,
-          "hits": 5,
+          "hits": 6,
           "pitcher": "",
           "era": "",
           "debut": 0,
@@ -683,7 +683,7 @@
           "runs_half": 2,
           "errors": 1,
           "hits": 6,
-          "pitcher": "William Bormie",
+          "pitcher": "Jose Manuel Fernandez",
           "era": "",
           "debut": 0,
           "record": ""
@@ -12265,12 +12265,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Pablo Reyes",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12292,7 +12292,7 @@
           "runs": 4,
           "runs_half": 4,
           "errors": 2,
-          "hits": 5,
+          "hits": 6,
           "pitcher": "",
           "era": "",
           "debut": 0,
@@ -12309,7 +12309,7 @@
           "runs_half": 2,
           "errors": 1,
           "hits": 6,
-          "pitcher": "William Bormie",
+          "pitcher": "Jose Manuel Fernandez",
           "era": "",
           "debut": 0,
           "record": ""
@@ -20819,7 +20819,7 @@
             "abbr": "GC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 4,
-            "hits": 5,
+            "hits": 6,
             "errors": 2,
             "permalink": "/equipo/gigantes-del-cibao"
           },
@@ -22253,7 +22253,7 @@
             "abbr": "GC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 4,
-            "hits": 5,
+            "hits": 6,
             "errors": 2,
             "permalink": "/equipo/gigantes-del-cibao"
           },
@@ -22344,14 +22344,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -22379,7 +22379,7 @@
           "permalink": "/equipo/gigantes-del-cibao",
           "totals": {
             "R": 4,
-            "H": 5,
+            "H": 6,
             "E": 2,
             "H2": 4
           },
@@ -22505,7 +22505,7 @@
             "H2": 2
           },
           "probables": {
-            "pitcher": "William Bormie",
+            "pitcher": "Jose Manuel Fernandez",
             "era": "",
             "record": "",
             "debut": false
@@ -22655,7 +22655,7 @@
         "totals": {
           "away": {
             "R": 4,
-            "H": 5,
+            "H": 6,
             "E": 2
           },
           "home": {
@@ -23205,6 +23205,27 @@
               "ts": 1793497934
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "top",
+          "label": "Alta 7ma",
+          "plays": [
+            {
+              "reference_id": "20210-1-54",
+              "text": "Pablo Reyes al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793498150
+            },
+            {
+              "reference_id": "20210-1-55",
+              "text": "Pablo Reyes Sencillo Jardinero Izquierdo",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793498160
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23291,6 +23312,13 @@
           "label": "Baja 6ta",
           "total_plays": 7,
           "scoring_plays": 2
+        },
+        {
+          "num": 7,
+          "half": "top",
+          "label": "Alta 7ma",
+          "total_plays": 2,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [

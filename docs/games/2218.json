@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2218",
-    "scraped_at": "2026-11-01T01:55:42.965Z",
+    "scraped_at": "2026-11-01T01:56:46.889Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 4,
-          "H": 5,
+          "H": 6,
           "E": 2,
           "H2": 4
         },
@@ -180,7 +180,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "William Bormie",
+          "pitcher": "Jose Manuel Fernandez",
           "era": "",
           "record": "",
           "debut": false
@@ -330,7 +330,7 @@
       "totals": {
         "away": {
           "R": 4,
-          "H": 5,
+          "H": 6,
           "E": 2
         },
         "home": {
@@ -880,6 +880,27 @@
             "ts": 1793497934
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "20210-1-54",
+            "text": "Pablo Reyes al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793498150
+          },
+          {
+            "reference_id": "20210-1-55",
+            "text": "Pablo Reyes Sencillo Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793498160
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -966,6 +987,13 @@
         "label": "Baja 6ta",
         "total_plays": 7,
         "scoring_plays": 2
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
