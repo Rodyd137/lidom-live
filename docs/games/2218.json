@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2218",
-    "scraped_at": "2026-11-01T00:39:32.604Z",
+    "scraped_at": "2026-11-01T00:40:36.640Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-10-31 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Gilberto Celestino  Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Juan Brito se embasa por Error del Campo Corto",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 6
     },
     "base_runners": {
       "on1B": true,
       "on2B": false,
-      "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "on3B": true,
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -55,11 +55,11 @@
         "totals": {
           "R": 4,
           "H": 4,
-          "E": 0,
+          "E": 1,
           "H2": 4
         },
         "probables": {
-          "pitcher": "Emilio Vargas",
+          "pitcher": "",
           "era": "",
           "record": "",
           "debut": false
@@ -342,7 +342,7 @@
         "away": {
           "R": 4,
           "H": 4,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 2,
@@ -668,10 +668,17 @@
           },
           {
             "reference_id": "20206-2-28",
-            "text": "Juan Brito al bate",
+            "text": "Juan Brito se embasa por Error del Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1793493387
+            "ts": 1793493631
+          },
+          {
+            "reference_id": "20206-2-29",
+            "text": "Jesús Sanchez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793493635
           }
         ]
       }
@@ -716,7 +723,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 2
       }
     ],

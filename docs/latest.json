@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-01T00:39:30.540Z",
+    "scraped_at": "2026-11-01T00:40:34.437Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -627,9 +630,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2218,
@@ -639,7 +642,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 6,
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 2,
@@ -655,10 +658,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -668,9 +668,9 @@
           "permalink": "/equipo/gigantes-del-cibao",
           "runs": 4,
           "runs_half": 4,
-          "errors": 0,
+          "errors": 1,
           "hits": 4,
-          "pitcher": "Emilio Vargas",
+          "pitcher": "",
           "era": "",
           "debut": 0,
           "record": ""
@@ -12162,7 +12162,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -12256,9 +12259,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2218,
@@ -12268,12 +12271,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 6,
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Gilberto Celestino  Sencillo y 1 Carrera Impulsada ",
-        "atBat": "Juan Brito",
+        "lastPlayByPlay": "Juan Brito se embasa por Error del Campo Corto",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12284,10 +12287,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -12297,9 +12297,9 @@
           "permalink": "/equipo/gigantes-del-cibao",
           "runs": 4,
           "runs_half": 4,
-          "errors": 0,
+          "errors": 1,
           "hits": 4,
-          "pitcher": "Emilio Vargas",
+          "pitcher": "",
           "era": "",
           "debut": 0,
           "record": ""
@@ -20644,7 +20644,7 @@
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 4,
             "hits": 4,
-            "errors": 0,
+            "errors": 1,
             "permalink": "/equipo/gigantes-del-cibao"
           },
           "homeTeam": {
@@ -20728,8 +20728,8 @@
       "currentInningNum": 8,
       "lastPlayByPlay": "M. Hernandez Robo de Base ",
       "counts": {
-        "balls": 1,
-        "strikes": 0,
+        "balls": 2,
+        "strikes": 1,
         "outs": 2
       },
       "base_state": {
@@ -21959,7 +21959,7 @@
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 4,
             "hits": 4,
-            "errors": 0,
+            "errors": 1,
             "permalink": "/equipo/gigantes-del-cibao"
           },
           "homeTeam": {
@@ -22041,7 +22041,7 @@
       "date": "2026-10-31 19:30:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "Gilberto Celestino  Sencillo y 1 Carrera Impulsada ",
+      "lastPlayByPlay": "Juan Brito se embasa por Error del Campo Corto",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -22049,14 +22049,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 6
       },
       "base_runners": {
         "on1B": true,
         "on2B": false,
-        "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "on3B": true,
+        "runners": 2,
+        "mask": 6
       },
       "betting": {
         "moneyline": {
@@ -22085,11 +22085,11 @@
           "totals": {
             "R": 4,
             "H": 4,
-            "E": 0,
+            "E": 1,
             "H2": 4
           },
           "probables": {
-            "pitcher": "Emilio Vargas",
+            "pitcher": "",
             "era": "",
             "record": "",
             "debut": false
@@ -22372,7 +22372,7 @@
           "away": {
             "R": 4,
             "H": 4,
-            "E": 0
+            "E": 1
           },
           "home": {
             "R": 2,
@@ -22698,10 +22698,17 @@
             },
             {
               "reference_id": "20206-2-28",
-              "text": "Juan Brito al bate",
+              "text": "Juan Brito se embasa por Error del Campo Corto",
               "scored": false,
               "is_primary": true,
-              "ts": 1793493387
+              "ts": 1793493631
+            },
+            {
+              "reference_id": "20206-2-29",
+              "text": "Jesús Sanchez  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793493635
             }
           ]
         }
@@ -22746,7 +22753,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 2
         }
       ],
