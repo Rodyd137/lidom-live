@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-01T00:44:50.012Z",
+    "scraped_at": "2026-11-01T00:45:54.147Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-10-31 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Steward Berroa",
+        "lastPlayByPlay": "Steward Berroa Ponche (K) ",
+        "atBat": "Luis Liberato",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 2
       },
       {
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Jefferson Rojas  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Pablo Reyes",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -12208,8 +12208,8 @@
         "status": 2,
         "date": "2026-10-31 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Steward Berroa",
+        "lastPlayByPlay": "Steward Berroa Ponche (K) ",
+        "atBat": "Luis Liberato",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12254,7 +12254,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 2
       },
       {
@@ -12269,8 +12269,8 @@
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Jefferson Rojas  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Pablo Reyes",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12315,7 +12315,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -20748,11 +20748,11 @@
       "date": "2026-10-31 18:00:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Steward Berroa Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 2,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21776,10 +21776,17 @@
           "plays": [
             {
               "reference_id": "20202-2-65",
-              "text": "Steward Berroa al bate",
+              "text": "Steward Berroa Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793493833
+              "ts": 1793493899
+            },
+            {
+              "reference_id": "20202-2-66",
+              "text": "Luis Liberato al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793493907
             }
           ]
         }
@@ -21894,7 +21901,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -22084,11 +22091,11 @@
       "date": "2026-10-31 19:30:00",
       "roundText": "Alta 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Jefferson Rojas  Out: Rodado al Campo Corto - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22754,6 +22761,27 @@
               "ts": 1793493752
             }
           ]
+        },
+        {
+          "num": 4,
+          "half": "top",
+          "label": "Alta 4ta",
+          "plays": [
+            {
+              "reference_id": "20207-1-31",
+              "text": "Jefferson Rojas  Out: Rodado al Campo Corto - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793493931
+            },
+            {
+              "reference_id": "20207-1-32",
+              "text": "Pablo Reyes al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793493936
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22798,6 +22826,13 @@
           "label": "Baja 3ra",
           "total_plays": 5,
           "scoring_plays": 2
+        },
+        {
+          "num": 4,
+          "half": "top",
+          "label": "Alta 4ta",
+          "total_plays": 2,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
