@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-01T03:12:00.582Z",
+    "scraped_at": "2026-11-01T03:13:04.530Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Gilberto Celestino  Segunda Base balk",
-        "atBat": "Juan Brito",
+        "lastPlayByPlay": "Juan Brito Out: Elevado al Campo Corto",
+        "atBat": "Allan Castro ",
         "comment": "",
         "winningPitcher": "Yunior Tur",
         "losingPitcher": "Joe Record",
@@ -655,7 +655,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -12269,8 +12272,8 @@
         "status": 2,
         "date": "2026-10-31 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Gilberto Celestino  Segunda Base balk",
-        "atBat": "Juan Brito",
+        "lastPlayByPlay": "Juan Brito Out: Elevado al Campo Corto",
+        "atBat": "Allan Castro ",
         "comment": "",
         "winningPitcher": "Yunior Tur",
         "losingPitcher": "Joe Record",
@@ -12281,7 +12284,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -22336,7 +22342,7 @@
       "date": "2026-10-31 19:30:00",
       "roundText": "Baja 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "Gilberto Celestino  Segunda Base balk",
+      "lastPlayByPlay": "Juan Brito Out: Elevado al Campo Corto",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -22538,6 +22544,17 @@
               "team_id": 6,
               "name": "Juan Brito",
               "abbreviation": "Juan Brito",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6009,
+              "team_id": 6,
+              "name": "Allan Castro ",
+              "abbreviation": "A. Castro",
               "number": null,
               "dob": null,
               "height": "",
@@ -23458,10 +23475,17 @@
             },
             {
               "reference_id": "20212-2-82",
-              "text": "Juan Brito al bate",
+              "text": "Juan Brito Out: Elevado al Campo Corto",
               "scored": false,
               "is_primary": true,
-              "ts": 1793502642
+              "ts": 1793502723
+            },
+            {
+              "reference_id": "20212-2-83",
+              "text": "Allan Castro  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793502733
             }
           ]
         }
@@ -23590,7 +23614,7 @@
           "num": 9,
           "half": "bottom",
           "label": "Baja 9na",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
