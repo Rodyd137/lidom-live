@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-01T23:46:29.147Z",
+    "scraped_at": "2026-11-01T23:47:32.821Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-11-01 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Marmolejos Doble! ",
-        "atBat": "Junior Lake",
+        "lastPlayByPlay": "Junior Lake Base por Bolas ",
+        "atBat": "Socrates Brito",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -566,7 +569,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 1,
         "strikes": 0
       },
@@ -578,12 +581,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 8,
         "status": 2,
         "date": "2026-11-01 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Noelvi Marte  Out Robando Base! Receptor - Tercera Base",
-        "atBat": "Agustin Ramirez",
+        "lastPlayByPlay": "Deyvinson de los Santos Out: Elevado al Primera Base",
+        "atBat": "Carlos Franco",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,7 +630,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 2,
         "strikes": 0
       },
@@ -12328,12 +12331,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-11-01 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Marmolejos Doble! ",
-        "atBat": "Junior Lake",
+        "lastPlayByPlay": "Junior Lake Base por Bolas ",
+        "atBat": "Socrates Brito",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12344,7 +12347,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -12377,7 +12383,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 1,
         "strikes": 0
       },
@@ -12389,12 +12395,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 8,
         "status": 2,
         "date": "2026-11-01 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Noelvi Marte  Out Robando Base! Receptor - Tercera Base",
-        "atBat": "Agustin Ramirez",
+        "lastPlayByPlay": "Deyvinson de los Santos Out: Elevado al Primera Base",
+        "atBat": "Carlos Franco",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12438,7 +12444,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 2,
         "strikes": 0
       },
@@ -19517,22 +19523,22 @@
       "date": "2026-11-01 17:00:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Marmolejos Doble! ",
+      "lastPlayByPlay": "Junior Lake Base por Bolas ",
       "counts": {
-        "balls": 1,
+        "balls": 0,
         "strikes": 0,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 3
+        "base": 5
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -20531,10 +20537,17 @@
             },
             {
               "reference_id": "20220-2-67",
-              "text": "Junior Lake al bate",
+              "text": "Junior Lake Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793576651
+              "ts": 1793576801
+            },
+            {
+              "reference_id": "20220-2-68",
+              "text": "Socrates Brito al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793576804
             }
           ]
         }
@@ -20649,7 +20662,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -20839,22 +20852,22 @@
       "date": "2026-11-01 17:00:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Noelvi Marte  Out Robando Base! Receptor - Tercera Base",
+      "lastPlayByPlay": "Deyvinson de los Santos Out: Elevado al Primera Base",
       "counts": {
-        "balls": 2,
+        "balls": 0,
         "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 8
       },
       "base_runners": {
         "on1B": true,
-        "on2B": false,
-        "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "on2B": true,
+        "on3B": true,
+        "runners": 3,
+        "mask": 8
       },
       "betting": {
         "moneyline": {
@@ -21790,10 +21803,24 @@
             },
             {
               "reference_id": "20227-2-64",
-              "text": "Agustin Ramirez al bate",
+              "text": "Agustin Ramirez Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793576573
+              "ts": 1793576791
+            },
+            {
+              "reference_id": "20227-2-65",
+              "text": "Deyvinson de los Santos Out: Elevado al Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793576823
+            },
+            {
+              "reference_id": "20227-2-66",
+              "text": "Carlos Franco al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793576841
             }
           ]
         }
@@ -21880,7 +21907,7 @@
           "num": 6,
           "half": "bottom",
           "label": "Baja 6ta",
-          "total_plays": 10,
+          "total_plays": 12,
           "scoring_plays": 2
         }
       ],
