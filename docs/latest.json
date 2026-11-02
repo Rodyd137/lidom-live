@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-02T00:05:40.370Z",
+    "scraped_at": "2026-11-02T00:06:44.409Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -581,16 +581,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-01 17:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Junior Perez Ponche (K) ",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "E. Florial",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 7ma",
-        "currentInningNum": 7,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 8va",
+        "currentInningNum": 8,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -627,8 +627,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
+        "balls": 1,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -12392,16 +12392,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-01 17:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Junior Perez Ponche (K) ",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "E. Florial",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 7ma",
-        "currentInningNum": 7,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 8va",
+        "currentInningNum": 8,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -12433,13 +12433,13 @@
           "runs_half": 1,
           "errors": 1,
           "hits": 5,
-          "pitcher": "Jeffry Yan",
+          "pitcher": "Luis Garcias",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
+        "balls": 1,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -20798,7 +20798,7 @@
           "id": 2221,
           "date": "2026-11-01 17:00:00",
           "status": 2,
-          "roundText": "Baja 7ma",
+          "roundText": "Alta 8va",
           "awayTeam": {
             "id": 1,
             "name": "Tigres",
@@ -22120,7 +22120,7 @@
           "id": 2221,
           "date": "2026-11-01 17:00:00",
           "status": 2,
-          "roundText": "Baja 7ma",
+          "roundText": "Alta 8va",
           "awayTeam": {
             "id": 1,
             "name": "Tigres",
@@ -22208,16 +22208,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-01 17:00:00",
-      "roundText": "Baja 7ma",
-      "currentInningNum": 7,
-      "lastPlayByPlay": "Junior Perez Ponche (K) ",
+      "roundText": "Alta 8va",
+      "currentInningNum": 8,
+      "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
+        "balls": 1,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
+        "battingTeam": "awayTeam",
         "base": 1
       },
       "base_runners": {
@@ -22379,7 +22379,7 @@
             "H2": 1
           },
           "probables": {
-            "pitcher": "Jeffry Yan",
+            "pitcher": "Luis Garcias",
             "era": "",
             "record": "",
             "debut": false
@@ -23146,6 +23146,20 @@
               "ts": 1793577818
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "plays": [
+            {
+              "reference_id": "20238-1-59",
+              "text": "E. Florial al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793577990
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23246,6 +23260,13 @@
           "label": "Baja 7ma",
           "total_plays": 5,
           "scoring_plays": 0
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -23294,14 +23315,14 @@
         {
           "num": 7,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 1,
           "homeTeamRuns": 0
         },
         {
           "num": 8,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
