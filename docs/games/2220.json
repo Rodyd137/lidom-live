@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2220",
-    "scraped_at": "2026-11-02T00:16:19.762Z",
+    "scraped_at": "2026-11-02T00:17:23.731Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-01 17:00:00",
-    "roundText": "Baja 7ma",
-    "currentInningNum": 7,
-    "lastPlayByPlay": "Carlos Jorge   Out: Rodado al Segunda Base - Primera Base",
+    "roundText": "Alta 8va",
+    "currentInningNum": 8,
+    "lastPlayByPlay": "Enmanuel Valdez  Doble! Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 1
+      "battingTeam": "awayTeam",
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 5,
-          "H": 8,
+          "H": 9,
           "E": 3,
           "H2": 5
         },
@@ -132,21 +132,10 @@
             "position": ""
           },
           {
-            "id": 6262,
+            "id": 6011,
             "team_id": 6,
-            "name": "Jared Oliva",
-            "abbreviation": "Jared Oliva",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 6012,
-            "team_id": 6,
-            "name": "Pedro Severino",
-            "abbreviation": "P. Severino",
+            "name": "Enmanuel Valdez ",
+            "abbreviation": "E. Valdez",
             "number": null,
             "dob": null,
             "height": "",
@@ -341,7 +330,7 @@
       "totals": {
         "away": {
           "R": 5,
-          "H": 8,
+          "H": 9,
           "E": 3
         },
         "home": {
@@ -1052,6 +1041,27 @@
             "ts": 1793578363
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "20229-1-75",
+            "text": "Justin Gonzales  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793578614
+          },
+          {
+            "reference_id": "20229-1-76",
+            "text": "Enmanuel Valdez  Doble! Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793578632
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1152,6 +1162,13 @@
         "label": "Baja 7ma",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1200,14 +1217,14 @@
       {
         "num": 7,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 8,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
