@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2220",
-    "scraped_at": "2026-11-02T00:36:32.313Z",
+    "scraped_at": "2026-11-02T00:37:36.090Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-01 17:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Agustin Ramirez Sencillo Jardinero Central",
+    "lastPlayByPlay": "Deyvinson de los Santos Sencillo y 1 Carrera Impulsada ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 6
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
-      "on3B": true,
+      "on2B": true,
+      "on3B": false,
       "runners": 2,
-      "mask": 6
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 8,
-          "H": 12,
+          "R": 9,
+          "H": 13,
           "E": 0,
           "H2": 5
         },
@@ -329,7 +329,7 @@
         {
           "num": 8,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 9,
@@ -345,8 +345,8 @@
           "E": 3
         },
         "home": {
-          "R": 8,
-          "H": 12,
+          "R": 9,
+          "H": 13,
           "E": 0
         }
       },
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 8
+            "R": 9
           },
           {
             "num": 9,
-            "R": 8
+            "R": 9
           }
         ]
       }
@@ -1123,10 +1123,17 @@
           },
           {
             "reference_id": "20229-2-83",
-            "text": "Deyvinson de los Santos al bate",
+            "text": "Deyvinson de los Santos Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1793579838
+          },
+          {
+            "reference_id": "20229-2-84",
+            "text": "Carlos Franco al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1793579739
+            "ts": 1793579842
           }
         ]
       }
@@ -1241,8 +1248,8 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1300,7 +1307,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 9,
