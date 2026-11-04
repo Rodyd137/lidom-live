@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2223",
-    "scraped_at": "2026-11-04T04:27:31.156Z",
+    "scraped_at": "2026-11-04T04:28:35.643Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-03 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Francisco Mejia Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 3,
-          "H": 6,
+          "H": 7,
           "E": 1,
           "H2": 1
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 3,
-          "H": 6,
+          "H": 7,
           "E": 1
         },
         "home": {
@@ -1073,6 +1073,27 @@
             "ts": 1793766271
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "20257-1-76",
+            "text": "Francisco Mejia Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793766483
+          },
+          {
+            "reference_id": "20257-1-77",
+            "text": "C. Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793766489
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1186,6 +1207,13 @@
         "half": "bottom",
         "label": "Baja 8va",
         "total_plays": 6,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
