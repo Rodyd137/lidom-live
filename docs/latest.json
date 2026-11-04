@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-04T02:53:01.863Z",
+    "scraped_at": "2026-11-04T02:54:06.870Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,16 +517,16 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-03 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Vidal Brujan Base por Bolas ",
+        "atBat": "Erik Gonzales",
         "comment": "",
-        "winningPitcher": null,
-        "losingPitcher": null,
-        "savingPitcher": null,
+        "winningPitcher": "",
+        "losingPitcher": "",
+        "savingPitcher": "Lucas Sims",
         "roundText": "Baja 9na",
         "currentInningNum": 9,
         "battingTeam": "homeTeam",
@@ -568,7 +568,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2223,
@@ -578,7 +578,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 1,
         "status": 2,
         "date": "2026-11-03 19:30:00",
         "part": 1,
@@ -628,8 +628,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
-        "strikes": 2
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2224,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -12393,12 +12393,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-03 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Vidal Brujan Base por Bolas ",
+        "atBat": "Erik Gonzales",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -12444,7 +12444,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2223,
@@ -12454,7 +12454,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 1,
         "status": 2,
         "date": "2026-11-03 19:30:00",
         "part": 1,
@@ -12504,8 +12504,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
-        "strikes": 2
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2224,
@@ -12564,9 +12564,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "2026-11-04": [
@@ -19148,22 +19148,22 @@
       "date": "2026-11-03 19:15:00",
       "roundText": "Baja 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Vidal Brujan Base por Bolas ",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -19177,9 +19177,9 @@
         "over_under": null
       },
       "pitchers": {
-        "winning": null,
-        "losing": null,
-        "save": null
+        "winning": "",
+        "losing": "",
+        "save": "Lucas Sims"
       },
       "teams": {
         "away": {
@@ -20245,6 +20245,27 @@
               "ts": 1793760613
             }
           ]
+        },
+        {
+          "num": 9,
+          "half": "bottom",
+          "label": "Baja 9na",
+          "plays": [
+            {
+              "reference_id": "20248-2-79",
+              "text": "Vidal Brujan Base por Bolas ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793760832
+            },
+            {
+              "reference_id": "20248-2-80",
+              "text": "Erik Gonzales al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793760835
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20365,6 +20386,13 @@
           "half": "top",
           "label": "Alta 9na",
           "total_plays": 6,
+          "scoring_plays": 0
+        },
+        {
+          "num": 9,
+          "half": "bottom",
+          "label": "Baja 9na",
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -20557,19 +20585,19 @@
       "lastPlayByPlay": "Gustavo Nuñez Base por Bolas ",
       "counts": {
         "balls": 0,
-        "strikes": 2,
-        "outs": 2
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 5
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": true,
+        "on1B": false,
+        "on2B": false,
         "on3B": false,
-        "runners": 2,
-        "mask": 5
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -21591,8 +21619,8 @@
       "currentInningNum": 9,
       "lastPlayByPlay": "Carlos Peguero Doble! 1 Carrera Impulsada ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 2,
         "outs": 1
       },
       "base_state": {
