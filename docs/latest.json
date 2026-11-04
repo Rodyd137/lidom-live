@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-04T02:41:08.239Z",
+    "scraped_at": "2026-11-04T02:42:13.333Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-03 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Jesús Sanchez  Ponche (K) Robo de Base - Segunda Base",
-        "atBat": "Bryan de la Cruz",
+        "lastPlayByPlay": "Bryan de la Cruz Golpeado por Pelota ",
+        "atBat": "Enmanuel Valdez ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2224,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-03 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Oscar Gonzalez Out: Elevado al Jardinero Central",
-        "atBat": "Edgar Quero",
+        "lastPlayByPlay": "Edgar Quero Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12398,7 +12398,7 @@
         "date": "2026-11-03 19:15:00",
         "part": 1,
         "lastPlayByPlay": "Bryan de la Cruz Golpeado por Pelota ",
-        "atBat": null,
+        "atBat": "Enmanuel Valdez ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12503,9 +12503,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2224,
@@ -12519,8 +12519,8 @@
         "status": 2,
         "date": "2026-11-03 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Oscar Gonzalez Out: Elevado al Jardinero Central",
-        "atBat": "Edgar Quero",
+        "lastPlayByPlay": "Edgar Quero Ponche (K) ",
+        "atBat": "Junior Perez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -20222,6 +20222,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1793760066
+            },
+            {
+              "reference_id": "20248-1-78",
+              "text": "Enmanuel Valdez  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793760070
             }
           ]
         }
@@ -20343,7 +20350,7 @@
           "num": 9,
           "half": "top",
           "label": "Alta 9na",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -20535,8 +20542,8 @@
       "currentInningNum": 5,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 1,
+        "balls": 1,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -21540,7 +21547,7 @@
       "date": "2026-11-03 19:30:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Oscar Gonzalez Out: Elevado al Jardinero Central",
+      "lastPlayByPlay": "Edgar Quero Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -22568,10 +22575,17 @@
             },
             {
               "reference_id": "20265-2-71",
-              "text": "Edgar Quero al bate",
+              "text": "Edgar Quero Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793760044
+              "ts": 1793760129
+            },
+            {
+              "reference_id": "20265-2-72",
+              "text": "Junior Perez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793760133
             }
           ]
         }
@@ -22686,7 +22700,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
