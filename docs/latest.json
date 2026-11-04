@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-04T02:40:03.594Z",
+    "scraped_at": "2026-11-04T02:41:08.239Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,7 +517,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-11-03 19:15:00",
         "part": 1,
@@ -566,7 +566,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 1,
         "strikes": 0
       },
@@ -583,7 +583,7 @@
         "date": "2026-11-03 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Francisco Mejia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -629,7 +629,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2224,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-03 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Oscar Gonzalez",
+        "lastPlayByPlay": "Oscar Gonzalez Out: Elevado al Jardinero Central",
+        "atBat": "Edgar Quero",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -12393,12 +12393,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-11-03 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Jesús Sanchez  Ponche (K) Robo de Base - Segunda Base",
-        "atBat": "Bryan de la Cruz",
+        "lastPlayByPlay": "Bryan de la Cruz Golpeado por Pelota ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12442,7 +12442,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 1,
         "strikes": 0
       },
@@ -12459,7 +12459,7 @@
         "date": "2026-11-03 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Francisco Mejia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12505,7 +12505,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2224,
@@ -12519,8 +12519,8 @@
         "status": 2,
         "date": "2026-11-03 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Oscar Gonzalez",
+        "lastPlayByPlay": "Oscar Gonzalez Out: Elevado al Jardinero Central",
+        "atBat": "Edgar Quero",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12565,7 +12565,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -19148,22 +19148,22 @@
       "date": "2026-11-03 19:15:00",
       "roundText": "Alta 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "Jesús Sanchez  Ponche (K) Robo de Base - Segunda Base",
+      "lastPlayByPlay": "Bryan de la Cruz Golpeado por Pelota ",
       "counts": {
-        "balls": 0,
+        "balls": 3,
         "strikes": 0,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 3
+        "base": 5
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -20218,10 +20218,10 @@
             },
             {
               "reference_id": "20248-1-77",
-              "text": "Bryan de la Cruz al bate",
+              "text": "Bryan de la Cruz Golpeado por Pelota ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793759936
+              "ts": 1793760066
             }
           ]
         }
@@ -20536,7 +20536,7 @@
       "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -21273,6 +21273,20 @@
               "ts": 1793759894
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "top",
+          "label": "Alta 5ta",
+          "plays": [
+            {
+              "reference_id": "20253-1-38",
+              "text": "Francisco Mejia al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793760055
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21330,6 +21344,13 @@
           "half": "bottom",
           "label": "Baja 4ta",
           "total_plays": 6,
+          "scoring_plays": 0
+        },
+        {
+          "num": 5,
+          "half": "top",
+          "label": "Alta 5ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -21519,11 +21540,11 @@
       "date": "2026-11-03 19:30:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Oscar Gonzalez Out: Elevado al Jardinero Central",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -22540,10 +22561,17 @@
           "plays": [
             {
               "reference_id": "20265-2-70",
-              "text": "Oscar Gonzalez al bate",
+              "text": "Oscar Gonzalez Out: Elevado al Jardinero Central",
               "scored": false,
               "is_primary": true,
-              "ts": 1793759970
+              "ts": 1793760039
+            },
+            {
+              "reference_id": "20265-2-71",
+              "text": "Edgar Quero al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793760044
             }
           ]
         }
@@ -22658,7 +22686,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
