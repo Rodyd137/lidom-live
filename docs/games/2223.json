@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2223",
-    "scraped_at": "2026-11-04T04:02:52.674Z",
+    "scraped_at": "2026-11-04T04:03:57.128Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-11-03 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "K. Alcantara Sencillo ",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -989,6 +989,27 @@
             "ts": 1793764689
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "20256-1-66",
+            "text": "K. Alcantara Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793764978
+          },
+          {
+            "reference_id": "20256-1-67",
+            "text": "E. Florial al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793765020
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1088,6 +1109,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
