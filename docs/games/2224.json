@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2224",
-    "scraped_at": "2026-11-04T02:51:59.947Z",
+    "scraped_at": "2026-11-04T02:53:04.790Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-11-03 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Kelvin Gutierrez Sencillo Jardinero Central",
+    "lastPlayByPlay": "Carlos Peguero Doble! 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
-          "R": 2,
-          "H": 5,
+          "R": 3,
+          "H": 6,
           "E": 1,
           "H2": 2
         },
@@ -333,15 +333,15 @@
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 2,
-          "H": 5,
+          "R": 3,
+          "H": 6,
           "E": 1
         },
         "home": {
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 2
+            "R": 3
           }
         ],
         "home": [
@@ -1074,10 +1074,17 @@
           },
           {
             "reference_id": "20266-1-75",
-            "text": "Carlos Peguero al bate",
+            "text": "Carlos Peguero Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1793760737
+          },
+          {
+            "reference_id": "20266-1-76",
+            "text": "Carlos Jorge  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1793760698
+            "ts": 1793760747
           }
         ]
       }
@@ -1199,8 +1206,8 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1264,7 +1271,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
@@ -1273,7 +1280,7 @@
         "id": 2222,
         "date": "2026-11-03 19:15:00",
         "status": 2,
-        "roundText": "Alta 9na",
+        "roundText": "Baja 9na",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
