@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-04T03:00:35.036Z",
+    "scraped_at": "2026-11-04T03:01:39.514Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -581,12 +581,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 5,
         "status": 2,
         "date": "2026-11-03 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Adael Amador Base por Bolas ",
-        "atBat": "Aderlin Rodríguez",
+        "lastPlayByPlay": "Aderlin Rodríguez Golpeado por Pelota ",
+        "atBat": "J. C. Escarra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12521,12 +12521,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 5,
         "status": 2,
         "date": "2026-11-03 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Adael Amador Base por Bolas ",
-        "atBat": "Aderlin Rodríguez",
+        "lastPlayByPlay": "Aderlin Rodríguez Golpeado por Pelota ",
+        "atBat": "J. C. Escarra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -20741,7 +20741,7 @@
       "date": "2026-11-03 19:30:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Adael Amador Base por Bolas ",
+      "lastPlayByPlay": "Aderlin Rodríguez Golpeado por Pelota ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -20749,14 +20749,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 5
       },
       "base_runners": {
-        "on1B": false,
-        "on2B": false,
+        "on1B": true,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -21538,10 +21538,17 @@
             },
             {
               "reference_id": "20253-2-44",
-              "text": "Aderlin Rodríguez al bate",
+              "text": "Aderlin Rodríguez Golpeado por Pelota ",
               "scored": false,
               "is_primary": true,
-              "ts": 1793761213
+              "ts": 1793761282
+            },
+            {
+              "reference_id": "20253-2-45",
+              "text": "J. C. Escarra al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793761287
             }
           ]
         }
@@ -21614,7 +21621,7 @@
           "num": 5,
           "half": "bottom",
           "label": "Baja 5ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
