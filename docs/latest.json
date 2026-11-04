@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-04T02:42:13.333Z",
+    "scraped_at": "2026-11-04T02:43:18.069Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/344328d644485325998a132db1f0cc6a.png",
+          "text": "Lesión"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -566,7 +569,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 1,
         "strikes": 0
       },
@@ -582,8 +585,8 @@
         "status": 2,
         "date": "2026-11-03 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Francisco Mejia",
+        "lastPlayByPlay": "Francisco Mejia  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "C. Adames",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +630,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2224,
@@ -644,7 +647,7 @@
         "date": "2026-11-03 19:30:00",
         "part": 2,
         "lastPlayByPlay": "Edgar Quero Ponche (K) ",
-        "atBat": null,
+        "atBat": "Junior Perez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +691,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 1,
-        "strikes": 0
+        "balls": 1,
+        "outs": 2,
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -12409,7 +12412,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/344328d644485325998a132db1f0cc6a.png",
+          "text": "Lesión"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -12442,7 +12448,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 1,
         "strikes": 0
       },
@@ -12458,8 +12464,8 @@
         "status": 2,
         "date": "2026-11-03 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Francisco Mejia",
+        "lastPlayByPlay": "Francisco Mejia  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "C. Adames",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12503,9 +12509,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2224,
@@ -12564,9 +12570,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 1,
-        "strikes": 0
+        "balls": 1,
+        "outs": 2,
+        "strikes": 1
       }
     ],
     "2026-11-04": [
@@ -19150,8 +19156,8 @@
       "currentInningNum": 9,
       "lastPlayByPlay": "Bryan de la Cruz Golpeado por Pelota ",
       "counts": {
-        "balls": 3,
-        "strikes": 0,
+        "balls": 0,
+        "strikes": 1,
         "outs": 1
       },
       "base_state": {
@@ -20540,11 +20546,11 @@
       "date": "2026-11-03 19:30:00",
       "roundText": "Alta 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Francisco Mejia  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21288,10 +21294,17 @@
           "plays": [
             {
               "reference_id": "20253-1-38",
-              "text": "Francisco Mejia al bate",
+              "text": "Francisco Mejia  Out: Rodado al Segunda Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1793760055
+              "ts": 1793760171
+            },
+            {
+              "reference_id": "20253-1-39",
+              "text": "C. Adames al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1793760174
             }
           ]
         }
@@ -21357,7 +21370,7 @@
           "num": 5,
           "half": "top",
           "label": "Alta 5ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21549,9 +21562,9 @@
       "currentInningNum": 8,
       "lastPlayByPlay": "Edgar Quero Ponche (K) ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
-        "outs": 1
+        "balls": 1,
+        "strikes": 1,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
