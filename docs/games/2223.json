@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2223",
-    "scraped_at": "2026-11-04T03:17:49.851Z",
+    "scraped_at": "2026-11-04T03:18:54.526Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-11-03 19:30:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "K. Alcantara Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 1,
-          "H": 3,
+          "H": 4,
           "E": 0,
           "H2": 1
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 1,
-          "H": 3,
+          "H": 4,
           "E": 0
         },
         "home": {
@@ -849,6 +849,27 @@
             "ts": 1793762086
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "20254-1-50",
+            "text": "K. Alcantara Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793762321
+          },
+          {
+            "reference_id": "20254-1-51",
+            "text": "E. Florial al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793762327
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -921,6 +942,13 @@
         "label": "Baja 5ta",
         "total_plays": 7,
         "scoring_plays": 2
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
