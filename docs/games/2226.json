@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2226",
-    "scraped_at": "2026-11-05T03:48:14.178Z",
+    "scraped_at": "2026-11-05T03:49:19.095Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-04 19:30:00",
-    "roundText": "Baja 7ma",
-    "currentInningNum": 7,
-    "lastPlayByPlay": "Eddys Leonard Base por Bolas ",
+    "roundText": "Alta 8va",
+    "currentInningNum": 8,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "balls": 1,
+      "strikes": 2,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -1004,10 +1004,24 @@
           },
           {
             "reference_id": "20282-2-65",
-            "text": "Carlos Peguero al bate",
+            "text": "Carlos Peguero  Out: Rodado al Campo Corto - Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1793850488
+            "ts": 1793850527
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "20283-1-66",
+            "text": "Leonardo Bernal  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1793850548
           }
         ]
       }
@@ -1110,6 +1124,13 @@
         "label": "Baja 7ma",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1158,14 +1179,14 @@
       {
         "num": 7,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 8,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
