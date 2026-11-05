@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2226",
-    "scraped_at": "2026-11-05T05:23:36.517Z",
+    "scraped_at": "2026-11-05T05:24:40.889Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-04 19:30:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Luis Liberato Out: Elevado al Jardinero Izquierdo",
+    "lastPlayByPlay": "Jasson Dominguez  Out: Rodado al Campo Corto - Primera Base - Carrera Empujada",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 4
+      "base": 1
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 1,
-      "mask": 4
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -174,7 +174,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 6,
+          "R": 7,
           "H": 9,
           "E": 4,
           "H2": 3
@@ -339,7 +339,7 @@
         {
           "num": 10,
           "away": 6,
-          "home": 0
+          "home": 1
         }
       ],
       "extras": true,
@@ -350,7 +350,7 @@
           "E": 1
         },
         "home": {
-          "R": 6,
+          "R": 7,
           "H": 9,
           "E": 4
         }
@@ -437,7 +437,7 @@
           },
           {
             "num": 10,
-            "R": 6
+            "R": 7
           }
         ]
       }
@@ -1332,10 +1332,17 @@
           },
           {
             "reference_id": "21388-2-104",
-            "text": "Jasson Dominguez al bate",
+            "text": "Jasson Dominguez  Out: Rodado al Campo Corto - Primera Base - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1793856264
+          },
+          {
+            "reference_id": "21388-2-105",
+            "text": "Adael Amador al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1793856131
+            "ts": 1793856276
           }
         ]
       }
@@ -1478,8 +1485,8 @@
         "num": 10,
         "half": "bottom",
         "label": "Baja 10ma",
-        "total_plays": 2,
-        "scoring_plays": 0
+        "total_plays": 3,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1551,7 +1558,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 6,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       }
     ],
     "siblingGames": [],
