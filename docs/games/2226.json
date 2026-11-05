@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2226",
-    "scraped_at": "2026-11-05T05:07:33.288Z",
+    "scraped_at": "2026-11-05T05:08:37.627Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-04 19:30:00",
     "roundText": "Alta 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Raimel Tapia se embasa por Error del Primera Base",
+    "lastPlayByPlay": "E. Angeles Sencillo Carrera Empujada",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 6
+      "base": 4
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 7,
+          "R": 8,
           "H": 15,
           "E": 1,
           "H2": 3
@@ -338,14 +338,14 @@
         },
         {
           "num": 10,
-          "away": 1,
+          "away": 2,
           "home": 0
         }
       ],
       "extras": true,
       "totals": {
         "away": {
-          "R": 7,
+          "R": 8,
           "H": 15,
           "E": 1
         },
@@ -395,7 +395,7 @@
           },
           {
             "num": 10,
-            "R": 7
+            "R": 8
           }
         ],
         "home": [
@@ -1276,10 +1276,17 @@
           },
           {
             "reference_id": "21388-1-97",
-            "text": "E. Angeles al bate",
+            "text": "E. Angeles Sencillo Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1793855302
+          },
+          {
+            "reference_id": "21388-1-98",
+            "text": "Marco Luciano  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1793855226
+            "ts": 1793855306
           }
         ]
       }
@@ -1415,8 +1422,8 @@
         "num": 10,
         "half": "top",
         "label": "Alta 10ma",
-        "total_plays": 4,
-        "scoring_plays": 1
+        "total_plays": 5,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1487,7 +1494,7 @@
         "num": 10,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 1,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       }
     ],
