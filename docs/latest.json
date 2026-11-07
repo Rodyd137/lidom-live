@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T01:49:38.186Z",
+    "scraped_at": "2026-11-07T01:50:42.642Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-11-06 19:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Ramon Laureano",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 7,
+        "base": 1,
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Ramon Hernandez Out: Línea al Segunda Base",
-        "atBat": "Mel Rojas",
+        "lastPlayByPlay": "Mel Rojas Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
-        "outs": 2,
-        "strikes": 1
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2230,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -12951,7 +12951,7 @@
         "date": "2026-11-06 19:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Ramon Laureano",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13007,12 +13007,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 7,
+        "base": 1,
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Ramon Hernandez Out: Línea al Segunda Base",
-        "atBat": "Mel Rojas",
+        "lastPlayByPlay": "Mel Rojas Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13056,9 +13056,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
-        "outs": 2,
-        "strikes": 1
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2230,
@@ -13117,9 +13117,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "2026-11-07": [
@@ -20474,6 +20474,20 @@
               "ts": 1794016097
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "plays": [
+            {
+              "reference_id": "20301-1-61",
+              "text": "Ramon Laureano al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794016179
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20573,6 +20587,13 @@
           "half": "bottom",
           "label": "Baja 7ma",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -20762,22 +20783,22 @@
       "date": "2026-11-06 19:30:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Ramon Hernandez Out: Línea al Segunda Base",
+      "lastPlayByPlay": "Mel Rojas Ponche (K) ",
       "counts": {
-        "balls": 3,
-        "strikes": 1,
-        "outs": 2
+        "balls": 0,
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 7
+        "base": 1
       },
       "base_runners": {
         "on1B": false,
-        "on2B": true,
-        "on3B": true,
-        "runners": 2,
-        "mask": 7
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -21657,10 +21678,10 @@
             },
             {
               "reference_id": "20308-2-55",
-              "text": "Mel Rojas al bate",
+              "text": "Mel Rojas Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794016023
+              "ts": 1794016200
             }
           ]
         }
@@ -21939,8 +21960,8 @@
       "currentInningNum": 6,
       "lastPlayByPlay": "Webster Rivas Doble! 1 Carrera Impulsada ",
       "counts": {
-        "balls": 1,
-        "strikes": 0,
+        "balls": 2,
+        "strikes": 2,
         "outs": 1
       },
       "base_state": {
