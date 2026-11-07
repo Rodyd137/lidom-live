@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2229",
-    "scraped_at": "2026-11-07T00:40:49.932Z",
+    "scraped_at": "2026-11-07T00:41:54.415Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-11-06 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "J. Made Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -654,10 +654,17 @@
         "plays": [
           {
             "reference_id": "20305-2-27",
-            "text": "J. Made al bate",
+            "text": "J. Made Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1794012042
+            "ts": 1794012099
+          },
+          {
+            "reference_id": "20305-2-28",
+            "text": "Ronny Mauricio al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794012102
           }
         ]
       }
@@ -702,7 +709,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -792,8 +799,8 @@
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 3,
-          "hits": 5,
+          "runs": 4,
+          "hits": 6,
           "errors": 2,
           "permalink": "/equipo/gigantes-del-cibao"
         }
