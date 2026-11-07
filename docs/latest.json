@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T01:51:46.866Z",
+    "scraped_at": "2026-11-07T01:52:51.125Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-06 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Ramon Laureano",
+        "lastPlayByPlay": "Ramon Laureano Base por Bolas ",
+        "atBat": "Yamaico Navarro",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2229,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -12946,12 +12946,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-06 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Ramon Laureano",
+        "lastPlayByPlay": "Ramon Laureano Base por Bolas ",
+        "atBat": "Yamaico Navarro",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12995,9 +12995,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2229,
@@ -13117,9 +13117,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "2026-11-07": [
@@ -19517,22 +19517,22 @@
       "date": "2026-11-06 19:00:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Ramon Laureano Base por Bolas ",
       "counts": {
-        "balls": 2,
-        "strikes": 1,
+        "balls": 0,
+        "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20482,10 +20482,17 @@
           "plays": [
             {
               "reference_id": "20301-1-61",
-              "text": "Ramon Laureano al bate",
+              "text": "Ramon Laureano Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794016179
+              "ts": 1794016353
+            },
+            {
+              "reference_id": "20301-1-62",
+              "text": "Yamaico Navarro al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794016356
             }
           ]
         }
@@ -20593,7 +20600,7 @@
           "num": 8,
           "half": "top",
           "label": "Alta 8va",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21960,8 +21967,8 @@
       "currentInningNum": 6,
       "lastPlayByPlay": "Mason Mccoy Out: Elevado al Jardinero Derecho ",
       "counts": {
-        "balls": 0,
-        "strikes": 1,
+        "balls": 1,
+        "strikes": 2,
         "outs": 2
       },
       "base_state": {
