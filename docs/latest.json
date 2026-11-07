@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T02:25:05.923Z",
+    "scraped_at": "2026-11-07T02:26:10.668Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -643,8 +646,8 @@
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Chritopher Morel",
+        "lastPlayByPlay": "Chritopher Morel Base por Bolas ",
+        "atBat": "Rober Moore",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +691,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -13023,7 +13026,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -13072,8 +13078,8 @@
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Chritopher Morel",
+        "lastPlayByPlay": "Chritopher Morel Base por Bolas ",
+        "atBat": "Rober Moore",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13117,9 +13123,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "2026-11-07": [
@@ -22192,10 +22198,10 @@
       "date": "2026-11-06 19:30:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Chritopher Morel Base por Bolas ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -23199,10 +23205,17 @@
           "plays": [
             {
               "reference_id": "20319-1-70",
-              "text": "Chritopher Morel al bate",
+              "text": "Chritopher Morel Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794018231
+              "ts": 1794018306
+            },
+            {
+              "reference_id": "20319-1-71",
+              "text": "Rober Moore al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794018351
             }
           ]
         }
@@ -23310,7 +23323,7 @@
           "num": 8,
           "half": "top",
           "label": "Alta 8va",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
