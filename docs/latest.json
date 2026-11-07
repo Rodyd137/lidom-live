@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T22:46:04.756Z",
+    "scraped_at": "2026-11-07T22:47:08.360Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-07 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Kelvin Gutierrez",
+        "lastPlayByPlay": "Kelvin Gutierrez  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Yonatan Henriquez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 1
       },
       {
         "id": 2232,
@@ -578,7 +578,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 6,
+        "base": 7,
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 2,
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -13135,8 +13138,8 @@
         "status": 2,
         "date": "2026-11-07 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Kelvin Gutierrez",
+        "lastPlayByPlay": "Kelvin Gutierrez  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Yonatan Henriquez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13180,9 +13183,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 1
       },
       {
         "id": 2232,
@@ -13192,7 +13195,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 6,
+        "base": 7,
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 2,
@@ -13208,7 +13211,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -19518,11 +19524,11 @@
       "date": "2026-11-07 17:00:00",
       "roundText": "Alta 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Kelvin Gutierrez  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 1,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -20280,10 +20286,17 @@
           "plays": [
             {
               "reference_id": "20325-1-37",
-              "text": "Kelvin Gutierrez al bate",
+              "text": "Kelvin Gutierrez  Out: Rodado al Segunda Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794091491
+              "ts": 1794091603
+            },
+            {
+              "reference_id": "20325-1-38",
+              "text": "Yonatan Henriquez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794091606
             }
           ]
         }
@@ -20349,7 +20362,7 @@
           "num": 5,
           "half": "top",
           "label": "Alta 5ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -20547,14 +20560,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 6
+        "base": 7
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": true,
         "runners": 2,
-        "mask": 6
+        "mask": 7
       },
       "betting": {
         "moneyline": {
