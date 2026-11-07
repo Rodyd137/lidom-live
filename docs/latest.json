@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T01:53:55.426Z",
+    "scraped_at": "2026-11-07T01:54:59.659Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Bryan de la Cruz Ponche (K) ",
+        "atBat": "Jesús Sanchez ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2230,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Mason Mccoy Out: Elevado al Jardinero Derecho ",
-        "atBat": "Steward Berroa",
+        "lastPlayByPlay": "Steward Berroa Base por Bolas ",
+        "atBat": "Luis Liberato",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -655,7 +655,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -13011,8 +13014,8 @@
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Bryan de la Cruz Ponche (K) ",
+        "atBat": "Jesús Sanchez ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13056,9 +13059,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2230,
@@ -13072,8 +13075,8 @@
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Mason Mccoy Out: Elevado al Jardinero Derecho ",
-        "atBat": "Steward Berroa",
+        "lastPlayByPlay": "Steward Berroa Base por Bolas ",
+        "atBat": "Luis Liberato",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13084,7 +13087,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -20790,11 +20796,11 @@
       "date": "2026-11-06 19:30:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Bryan de la Cruz Ponche (K) ",
       "counts": {
-        "balls": 2,
-        "strikes": 1,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21691,6 +21697,27 @@
               "ts": 1794016200
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "top",
+          "label": "Alta 7ma",
+          "plays": [
+            {
+              "reference_id": "20309-1-56",
+              "text": "Bryan de la Cruz Ponche (K) ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794016463
+            },
+            {
+              "reference_id": "20309-1-57",
+              "text": "Jesús Sanchez  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794016465
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21776,6 +21803,13 @@
           "half": "bottom",
           "label": "Baja 6ta",
           "total_plays": 7,
+          "scoring_plays": 0
+        },
+        {
+          "num": 7,
+          "half": "top",
+          "label": "Alta 7ma",
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21965,7 +21999,7 @@
       "date": "2026-11-06 19:30:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Mason Mccoy Out: Elevado al Jardinero Derecho ",
+      "lastPlayByPlay": "Steward Berroa Base por Bolas ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -22853,10 +22887,17 @@
             },
             {
               "reference_id": "20317-1-57",
-              "text": "Steward Berroa al bate",
+              "text": "Steward Berroa Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794016271
+              "ts": 1794016445
+            },
+            {
+              "reference_id": "20317-1-58",
+              "text": "Luis Liberato al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794016448
             }
           ]
         }
@@ -22936,7 +22977,7 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 5,
+          "total_plays": 6,
           "scoring_plays": 1
         }
       ],
