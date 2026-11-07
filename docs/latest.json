@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T21:58:20.871Z",
+    "scraped_at": "2026-11-07T21:59:22.873Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-11-07 17:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Emilio Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2232,
@@ -13131,12 +13131,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-07 17:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Emilio Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13182,7 +13182,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2232,
@@ -19520,8 +19520,8 @@
       "currentInningNum": 3,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 1,
+        "balls": 2,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -20125,6 +20125,20 @@
               "ts": 1794088463
             }
           ]
+        },
+        {
+          "num": 3,
+          "half": "bottom",
+          "label": "Baja 3ra",
+          "plays": [
+            {
+              "reference_id": "20323-2-21",
+              "text": "Emilio Bonifacio al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794088753
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20161,6 +20175,13 @@
           "half": "top",
           "label": "Alta 3ra",
           "total_plays": 5,
+          "scoring_plays": 0
+        },
+        {
+          "num": 3,
+          "half": "bottom",
+          "label": "Baja 3ra",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
