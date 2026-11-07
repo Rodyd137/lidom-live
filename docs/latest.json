@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T22:09:57.752Z",
+    "scraped_at": "2026-11-07T22:11:01.386Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 4,
         "status": 2,
         "date": "2026-11-07 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "K. Alcantara Ponche (K) ",
-        "atBat": "Ronny Mauricio",
+        "lastPlayByPlay": "Ronny Mauricio  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Ramon Hernandez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -583,7 +583,7 @@
         "date": "2026-11-07 18:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Steward Berroa",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13131,12 +13131,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 4,
         "status": 2,
         "date": "2026-11-07 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "K. Alcantara Ponche (K) ",
-        "atBat": "Ronny Mauricio",
+        "lastPlayByPlay": "Ronny Mauricio  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Ramon Hernandez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13181,7 +13181,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -13197,7 +13197,7 @@
         "date": "2026-11-07 18:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Steward Berroa",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -19518,22 +19518,22 @@
       "date": "2026-11-07 17:00:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "K. Alcantara Ponche (K) ",
+      "lastPlayByPlay": "Ronny Mauricio  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 3
+        "base": 4
       },
       "base_runners": {
         "on1B": false,
-        "on2B": true,
-        "on3B": false,
+        "on2B": false,
+        "on3B": true,
         "runners": 1,
-        "mask": 3
+        "mask": 4
       },
       "betting": {
         "moneyline": {
@@ -20168,10 +20168,17 @@
             },
             {
               "reference_id": "20323-2-25",
-              "text": "Ronny Mauricio al bate",
+              "text": "Ronny Mauricio  Out: Rodado al Segunda Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794089376
+              "ts": 1794089412
+            },
+            {
+              "reference_id": "20323-2-26",
+              "text": "Ramon Hernandez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794089416
             }
           ]
         }
@@ -20216,7 +20223,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 6,
+          "total_plays": 7,
           "scoring_plays": 2
         }
       ],
@@ -20525,7 +20532,63 @@
             "record": "",
             "debut": false
           },
-          "players": []
+          "players": [
+            {
+              "id": 6121,
+              "team_id": 3,
+              "name": "Steward Berroa",
+              "abbreviation": "S. Berroa",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6269,
+              "team_id": 3,
+              "name": "Jasson Dominguez",
+              "abbreviation": "J. Dominguez",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6119,
+              "team_id": 3,
+              "name": "J. C. Escarra",
+              "abbreviation": "J. C. Escarra",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6270,
+              "team_id": 3,
+              "name": "Adael Amador",
+              "abbreviation": "A. Amador",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6277,
+              "team_id": 3,
+              "name": "Rober Moore",
+              "abbreviation": "R. Moore",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            }
+          ]
         }
       },
       "comment": "",
@@ -20697,6 +20760,20 @@
               "ts": 1794089303
             }
           ]
+        },
+        {
+          "num": 1,
+          "half": "bottom",
+          "label": "Baja 1ra",
+          "plays": [
+            {
+              "reference_id": "20330-2-4",
+              "text": "Steward Berroa al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794089424
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20705,6 +20782,13 @@
           "half": "top",
           "label": "Alta 1ra",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 1,
+          "half": "bottom",
+          "label": "Baja 1ra",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
