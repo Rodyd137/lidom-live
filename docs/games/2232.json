@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2232",
-    "scraped_at": "2026-11-07T22:52:28.278Z",
+    "scraped_at": "2026-11-07T22:53:31.973Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 3,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -125,6 +125,17 @@
             "team_id": 6,
             "name": "Eloy Jimenez",
             "abbreviation": "Eloy Jimenez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6011,
+            "team_id": 6,
+            "name": "Enmanuel Valdez ",
+            "abbreviation": "E. Valdez",
             "number": null,
             "dob": null,
             "height": "",
@@ -550,6 +561,20 @@
             "ts": 1794091770
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "20332-1-19",
+            "text": "Enmanuel Valdez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794091987
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -580,6 +605,13 @@
         "label": "Baja 2da",
         "total_plays": 7,
         "scoring_plays": 2
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
