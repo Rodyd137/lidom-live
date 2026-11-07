@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T03:34:29.598Z",
+    "scraped_at": "2026-11-07T03:35:34.578Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "C. Adames Sencillo y 1 Carrera Impulsada ",
-        "atBat": "M. Romero",
+        "lastPlayByPlay": "C. Adames Segunda Base Wild Pitch",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,8 +628,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 2
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2230,
@@ -13007,12 +13007,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "C. Adames Sencillo y 1 Carrera Impulsada ",
-        "atBat": "M. Romero",
+        "lastPlayByPlay": "M. Romero Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13057,8 +13057,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 2
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2230,
@@ -20870,22 +20870,22 @@
       "date": "2026-11-06 19:30:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "C. Adames Sencillo y 1 Carrera Impulsada ",
+      "lastPlayByPlay": "M. Romero Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 1
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -21920,16 +21920,30 @@
             {
               "reference_id": "20310-2-73",
               "text": "C. Adames Sencillo y 1 Carrera Impulsada ",
-              "scored": true,
+              "scored": false,
               "is_primary": true,
               "ts": 1794018874
             },
             {
+              "reference_id": "20310-2-73-294653",
+              "text": "C. Adames Segunda Base Wild Pitch",
+              "scored": false,
+              "is_primary": false,
+              "ts": 1794022506
+            },
+            {
               "reference_id": "20310-2-74",
-              "text": "M. Romero al bate",
+              "text": "M. Romero Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794018878
+              "ts": 1794022531
+            },
+            {
+              "reference_id": "20310-2-75",
+              "text": "Y. Encarnación al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794022535
             }
           ]
         }
@@ -22044,8 +22058,8 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 4,
-          "scoring_plays": 1
+          "total_plays": 6,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
