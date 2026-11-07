@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2228",
-    "scraped_at": "2026-11-07T00:41:54.396Z",
+    "scraped_at": "2026-11-07T00:42:58.889Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-11-06 19:00:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Aristides Aquino Ponche (K) ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -235,6 +235,17 @@
             "team_id": 5,
             "name": "Agustin Ramirez",
             "abbreviation": "Agustin Ramirez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6131,
+            "team_id": 5,
+            "name": "Nomar Mazara",
+            "abbreviation": "N. Mazara",
             "number": null,
             "dob": null,
             "height": "",
@@ -698,6 +709,34 @@
             "ts": 1794011883
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "20297-2-34",
+            "text": "Nomar Mazara Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1794012125
+          },
+          {
+            "reference_id": "20297-2-35",
+            "text": "Aristides Aquino Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794012137
+          },
+          {
+            "reference_id": "20297-2-36",
+            "text": "Kelvin Gutierrez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794012142
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -749,6 +788,13 @@
         "label": "Alta 4ta",
         "total_plays": 2,
         "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 3,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -847,7 +893,7 @@
         "id": 2230,
         "date": "2026-11-06 19:30:00",
         "status": 2,
-        "roundText": "Baja 3ra",
+        "roundText": "Alta 4ta",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
