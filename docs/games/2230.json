@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2230",
-    "scraped_at": "2026-11-07T00:45:08.121Z",
+    "scraped_at": "2026-11-07T00:46:12.733Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-06 19:30:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Luis Liberato Sencillo ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 7,
-          "H": 7,
+          "H": 8,
           "E": 0,
           "H2": 7
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 7,
-          "H": 7,
+          "H": 8,
           "E": 0
         },
         "home": {
@@ -682,10 +682,17 @@
         "plays": [
           {
             "reference_id": "20315-1-30",
-            "text": "Luis Liberato al bate",
+            "text": "Luis Liberato Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1794012240
+            "ts": 1794012355
+          },
+          {
+            "reference_id": "20315-1-31",
+            "text": "Jasson Dominguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794012361
           }
         ]
       }
@@ -737,7 +744,7 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -837,7 +844,7 @@
         "id": 2229,
         "date": "2026-11-06 19:30:00",
         "status": 2,
-        "roundText": "Baja 3ra",
+        "roundText": "Alta 4ta",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
