@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2228",
-    "scraped_at": "2026-11-07T02:06:51.698Z",
+    "scraped_at": "2026-11-07T02:07:55.984Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-11-06 19:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Socrates Brito Out: Línea al Jardinero Izquierdo",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 1,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -180,7 +180,7 @@
           "H2": 5
         },
         "probables": {
-          "pitcher": "Enmanuel Mejia",
+          "pitcher": "Jackson Goddard",
           "era": "",
           "record": "",
           "debut": false
@@ -1024,6 +1024,27 @@
             "ts": 1794017032
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "20302-1-67",
+            "text": "Socrates Brito Out: Línea al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794017251
+          },
+          {
+            "reference_id": "20302-1-68",
+            "text": "M. De la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794017255
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1137,6 +1158,13 @@
         "half": "bottom",
         "label": "Baja 8va",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
