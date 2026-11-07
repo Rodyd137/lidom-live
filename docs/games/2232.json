@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2232",
-    "scraped_at": "2026-11-07T22:54:35.730Z",
+    "scraped_at": "2026-11-07T22:55:39.748Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-11-07 18:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Onil Perez Doble Play! Campo Corto - Segunda Base - Primera Base",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -136,6 +136,17 @@
             "team_id": 6,
             "name": "Enmanuel Valdez ",
             "abbreviation": "E. Valdez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6247,
+            "team_id": 6,
+            "name": "Onil Perez",
+            "abbreviation": "O. Perez",
             "number": null,
             "dob": null,
             "height": "",
@@ -569,10 +580,17 @@
         "plays": [
           {
             "reference_id": "20332-1-19",
-            "text": "Enmanuel Valdez  al bate",
+            "text": "Enmanuel Valdez  Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1794091987
+            "ts": 1794092089
+          },
+          {
+            "reference_id": "20332-1-20",
+            "text": "Onil Perez Doble Play! Campo Corto - Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794092126
           }
         ]
       }
@@ -610,7 +628,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
