@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T00:50:27.994Z",
+    "scraped_at": "2026-11-07T00:51:32.521Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-06 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "Erik Gonzales  Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "Marmolejos",
+        "lastPlayByPlay": "Marmolejos Base por Bolas ",
+        "atBat": "Ramon Laureano",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,7 +566,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 1,
         "outs": 1,
         "strikes": 1
       },
@@ -627,7 +627,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 3,
         "outs": 2,
         "strikes": 0
       },
@@ -639,7 +639,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 6,
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 1,
@@ -666,7 +666,7 @@
           "runs": 7,
           "runs_half": 7,
           "errors": 0,
-          "hits": 8,
+          "hits": 9,
           "pitcher": "",
           "era": "",
           "debut": 0,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 2,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -12946,12 +12946,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-06 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "Erik Gonzales  Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "Marmolejos",
+        "lastPlayByPlay": "Marmolejos Base por Bolas ",
+        "atBat": "Ramon Laureano",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12995,7 +12995,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 1,
         "outs": 1,
         "strikes": 1
       },
@@ -13056,7 +13056,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 3,
         "outs": 2,
         "strikes": 0
       },
@@ -13068,12 +13068,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 6,
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Jasson Dominguez  Out: Rodado al Primera Base - Campo Corto",
-        "atBat": "Adael Amador",
+        "lastPlayByPlay": "Adael Amador Sencillo y 1 Carrera Impulsada ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13095,7 +13095,7 @@
           "runs": 7,
           "runs_half": 7,
           "errors": 0,
-          "hits": 8,
+          "hits": 9,
           "pitcher": "",
           "era": "",
           "debut": 0,
@@ -13117,9 +13117,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 2,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "2026-11-07": [
@@ -19517,22 +19517,22 @@
       "date": "2026-11-06 19:00:00",
       "roundText": "Alta 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Erik Gonzales  Out: Rodado al Tercera Base - Primera Base",
+      "lastPlayByPlay": "Marmolejos Base por Bolas ",
       "counts": {
-        "balls": 3,
-        "strikes": 1,
+        "balls": 1,
+        "strikes": 2,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20265,10 +20265,17 @@
             },
             {
               "reference_id": "20298-1-39",
-              "text": "Marmolejos al bate",
+              "text": "Marmolejos Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794012521
+              "ts": 1794012646
+            },
+            {
+              "reference_id": "20298-1-40",
+              "text": "Ramon Laureano al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794012652
             }
           ]
         }
@@ -20334,7 +20341,7 @@
           "num": 5,
           "half": "top",
           "label": "Alta 5ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -20441,7 +20448,7 @@
             "abbr": "AC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
             "runs": 7,
-            "hits": 8,
+            "hits": 9,
             "errors": 0,
             "permalink": "/equipo/aguilas-cibaenas"
           },
@@ -20526,7 +20533,7 @@
       "currentInningNum": 4,
       "lastPlayByPlay": "Rafael Lantigua   Out: Rodado al Campo Corto - Primera Base",
       "counts": {
-        "balls": 1,
+        "balls": 3,
         "strikes": 0,
         "outs": 2
       },
@@ -21378,7 +21385,7 @@
             "abbr": "AC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
             "runs": 7,
-            "hits": 8,
+            "hits": 9,
             "errors": 0,
             "permalink": "/equipo/aguilas-cibaenas"
           },
@@ -21461,22 +21468,22 @@
       "date": "2026-11-06 19:30:00",
       "roundText": "Alta 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Jasson Dominguez  Out: Rodado al Primera Base - Campo Corto",
+      "lastPlayByPlay": "Adael Amador Sencillo y 1 Carrera Impulsada ",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
-        "outs": 2
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 6
       },
       "base_runners": {
         "on1B": true,
         "on2B": false,
-        "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "on3B": true,
+        "runners": 2,
+        "mask": 6
       },
       "betting": {
         "moneyline": {
@@ -21504,7 +21511,7 @@
           "permalink": "/equipo/aguilas-cibaenas",
           "totals": {
             "R": 7,
-            "H": 8,
+            "H": 9,
             "E": 0,
             "H2": 7
           },
@@ -21791,7 +21798,7 @@
         "totals": {
           "away": {
             "R": 7,
-            "H": 8,
+            "H": 9,
             "E": 0
           },
           "home": {
@@ -22146,10 +22153,10 @@
             },
             {
               "reference_id": "20315-1-32",
-              "text": "Adael Amador al bate",
-              "scored": false,
+              "text": "Adael Amador Sencillo y 1 Carrera Impulsada ",
+              "scored": true,
               "is_primary": true,
-              "ts": 1794012487
+              "ts": 1794012689
             }
           ]
         }
@@ -22202,7 +22209,7 @@
           "half": "top",
           "label": "Alta 4ta",
           "total_plays": 3,
-          "scoring_plays": 0
+          "scoring_plays": 1
         }
       ],
       "innings_raw": [
