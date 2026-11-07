@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2228",
-    "scraped_at": "2026-11-07T01:20:38.014Z",
+    "scraped_at": "2026-11-07T01:21:42.285Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-06 19:00:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Socrates Brito Ponche (K) ",
+    "lastPlayByPlay": "M. De la Cruz Ponche (K) ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 1
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 3
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -136,6 +136,17 @@
             "team_id": 4,
             "name": "Socrates Brito",
             "abbreviation": "Brito",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6154,
+            "team_id": 4,
+            "name": "M. De la Cruz",
+            "abbreviation": "M. De la Cruz",
             "number": null,
             "dob": null,
             "height": "",
@@ -852,11 +863,25 @@
             "ts": 1794014288
           },
           {
+            "reference_id": "20299-1-49-294470",
+            "text": "Andy Ibanez Robo de Base Tercera Base",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1794014461
+          },
+          {
             "reference_id": "20299-1-50",
-            "text": "Jason Schiavone al bate",
+            "text": "M. De la Cruz Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1794014293
+            "ts": 1794014485
+          },
+          {
+            "reference_id": "20299-1-51",
+            "text": "Jonathan Guzman al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794014490
           }
         ]
       }
@@ -936,7 +961,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 3,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
