@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T23:09:24.684Z",
+    "scraped_at": "2026-11-07T23:10:28.352Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -520,16 +520,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-07 17:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Carlos Franco  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Ramon Hernandez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "currentInningNum": 6,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -583,7 +583,7 @@
         "date": "2026-11-07 18:00:00",
         "part": 2,
         "lastPlayByPlay": "Rober Moore Cuadrangular! 3 Carreras Impulsadas ",
-        "atBat": null,
+        "atBat": "Aderlin Rodríguez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2233,
@@ -13134,16 +13134,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-07 17:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Carlos Franco  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Ramon Hernandez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "currentInningNum": 6,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -13181,7 +13181,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -13197,7 +13197,7 @@
         "date": "2026-11-07 18:00:00",
         "part": 2,
         "lastPlayByPlay": "Rober Moore Cuadrangular! 3 Carreras Impulsadas ",
-        "atBat": null,
+        "atBat": "Aderlin Rodríguez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13241,9 +13241,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2233,
@@ -19516,16 +19516,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-07 17:00:00",
-      "roundText": "Alta 6ta",
+      "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Carlos Franco  Out: Rodado al Segunda Base - Primera Base",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -20370,6 +20370,20 @@
               "ts": 1794092884
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "bottom",
+          "label": "Baja 6ta",
+          "plays": [
+            {
+              "reference_id": "20326-2-48",
+              "text": "Ramon Hernandez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794093016
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20449,6 +20463,13 @@
           "label": "Alta 6ta",
           "total_plays": 4,
           "scoring_plays": 0
+        },
+        {
+          "num": 6,
+          "half": "bottom",
+          "label": "Baja 6ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20489,7 +20510,7 @@
         },
         {
           "num": 6,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
@@ -20639,8 +20660,8 @@
       "currentInningNum": 3,
       "lastPlayByPlay": "Rober Moore Cuadrangular! 3 Carreras Impulsadas ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -21263,6 +21284,13 @@
               "scored": true,
               "is_primary": true,
               "ts": 1794092950
+            },
+            {
+              "reference_id": "20332-2-25",
+              "text": "Aderlin Rodríguez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794092975
             }
           ]
         }
@@ -21307,7 +21335,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 1
         }
       ],
@@ -21381,7 +21409,7 @@
           "id": 2231,
           "date": "2026-11-07 17:00:00",
           "status": 2,
-          "roundText": "Alta 6ta",
+          "roundText": "Baja 6ta",
           "awayTeam": {
             "id": 5,
             "name": "Gigantes",
@@ -21987,7 +22015,7 @@
           "id": 2231,
           "date": "2026-11-07 17:00:00",
           "status": 2,
-          "roundText": "Alta 6ta",
+          "roundText": "Baja 6ta",
           "awayTeam": {
             "id": 5,
             "name": "Gigantes",
