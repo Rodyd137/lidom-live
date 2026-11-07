@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2231",
-    "scraped_at": "2026-11-07T23:53:02.495Z",
+    "scraped_at": "2026-11-07T23:54:06.261Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-07 17:00:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Carlos Franco  Out: Rodado al Segunda Base - Campo Corto - Primera Base - Doble Play!",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -989,6 +989,20 @@
             "ts": 1794095458
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "20328-2-63",
+            "text": "C. Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794095630
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1096,6 +1110,13 @@
         "label": "Alta 8va",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1150,7 +1171,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
@@ -1174,7 +1195,7 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 1,
+          "runs": 2,
           "hits": 5,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
