@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T01:38:52.088Z",
+    "scraped_at": "2026-11-07T01:39:56.698Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/344328d644485325998a132db1f0cc6a.png",
+          "text": "Lesión"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -578,12 +581,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "J. Made Sencillo Jardinero Central",
-        "atBat": "Ronny Mauricio",
+        "lastPlayByPlay": "J. Made Segunda Base Wild Pitch",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,7 +630,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 0,
         "strikes": 0
       },
@@ -643,8 +646,8 @@
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "E. Angeles Base por Bolas ",
-        "atBat": "Junior Perez",
+        "lastPlayByPlay": "Junior Perez Ponche (K) ",
+        "atBat": "Cesar Prieto ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +691,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -12962,7 +12965,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/344328d644485325998a132db1f0cc6a.png",
+          "text": "Lesión"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -13007,12 +13013,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "J. Made Sencillo Jardinero Central",
-        "atBat": "Ronny Mauricio",
+        "lastPlayByPlay": "J. Made Segunda Base Wild Pitch",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13056,7 +13062,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 0,
         "strikes": 0
       },
@@ -13072,8 +13078,8 @@
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "E. Angeles Base por Bolas ",
-        "atBat": "Junior Perez",
+        "lastPlayByPlay": "Cesar Prieto  Out: Elevado al Jardinero Central",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13117,9 +13123,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "2026-11-07": [
@@ -20727,22 +20733,22 @@
       "date": "2026-11-06 19:30:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "J. Made Sencillo Jardinero Central",
+      "lastPlayByPlay": "J. Made Segunda Base Wild Pitch",
       "counts": {
-        "balls": 0,
+        "balls": 3,
         "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -21591,6 +21597,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1794015515
+            },
+            {
+              "reference_id": "20308-2-50-294509",
+              "text": "J. Made Segunda Base Wild Pitch",
+              "scored": false,
+              "is_primary": false,
+              "ts": 1794015550
             }
           ]
         }
@@ -21677,7 +21690,7 @@
           "num": 6,
           "half": "bottom",
           "label": "Baja 6ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21867,11 +21880,11 @@
       "date": "2026-11-06 19:30:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "E. Angeles Base por Bolas ",
+      "lastPlayByPlay": "Junior Perez Ponche (K) ",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -22699,10 +22712,17 @@
             },
             {
               "reference_id": "20316-2-50",
-              "text": "Junior Perez al bate",
+              "text": "Junior Perez Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794015495
+              "ts": 1794015562
+            },
+            {
+              "reference_id": "20316-2-51",
+              "text": "Cesar Prieto  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794015565
             }
           ]
         }
@@ -22775,7 +22795,7 @@
           "num": 5,
           "half": "bottom",
           "label": "Baja 5ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
