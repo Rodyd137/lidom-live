@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T23:10:28.352Z",
+    "scraped_at": "2026-11-07T23:11:31.986Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-07 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Ramon Hernandez",
+        "lastPlayByPlay": "Ramon Hernandez Out: Elevado al Segunda Base",
+        "atBat": "Francisco Mejia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Rober Moore Cuadrangular! 3 Carreras Impulsadas ",
-        "atBat": "Aderlin Rodríguez",
+        "lastPlayByPlay": "Aderlin Rodríguez  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Raynel Delgado",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,8 +628,8 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "outs": 1,
+        "strikes": 1
       },
       {
         "id": 2233,
@@ -13135,8 +13135,8 @@
         "status": 2,
         "date": "2026-11-07 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Ramon Hernandez",
+        "lastPlayByPlay": "Ramon Hernandez Out: Elevado al Segunda Base",
+        "atBat": "Francisco Mejia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13181,7 +13181,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -13196,8 +13196,8 @@
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Rober Moore Cuadrangular! 3 Carreras Impulsadas ",
-        "atBat": "Aderlin Rodríguez",
+        "lastPlayByPlay": "Aderlin Rodríguez  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Raynel Delgado",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13242,8 +13242,8 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "outs": 1,
+        "strikes": 1
       },
       {
         "id": 2233,
@@ -19518,11 +19518,11 @@
       "date": "2026-11-07 17:00:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Ramon Hernandez Out: Elevado al Segunda Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20378,10 +20378,17 @@
           "plays": [
             {
               "reference_id": "20326-2-48",
-              "text": "Ramon Hernandez al bate",
+              "text": "Ramon Hernandez Out: Elevado al Segunda Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794093016
+              "ts": 1794093077
+            },
+            {
+              "reference_id": "20326-2-49",
+              "text": "Francisco Mejia al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794093085
             }
           ]
         }
@@ -20468,7 +20475,7 @@
           "num": 6,
           "half": "bottom",
           "label": "Baja 6ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -20658,11 +20665,11 @@
       "date": "2026-11-07 18:00:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "Rober Moore Cuadrangular! 3 Carreras Impulsadas ",
+      "lastPlayByPlay": "Aderlin Rodríguez  Out: Rodado al Campo Corto - Primera Base",
       "counts": {
         "balls": 1,
-        "strikes": 2,
-        "outs": 0
+        "strikes": 1,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21287,10 +21294,17 @@
             },
             {
               "reference_id": "20332-2-25",
-              "text": "Aderlin Rodríguez al bate",
+              "text": "Aderlin Rodríguez  Out: Rodado al Campo Corto - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794092975
+              "ts": 1794093043
+            },
+            {
+              "reference_id": "20332-2-26",
+              "text": "Raynel Delgado al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794093075
             }
           ]
         }
@@ -21335,7 +21349,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 1
         }
       ],
