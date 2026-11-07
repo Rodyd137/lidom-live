@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T00:42:56.518Z",
+    "scraped_at": "2026-11-07T00:44:01.064Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-06 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Aristides Aquino Ponche (K) ",
-        "atBat": "Kelvin Gutierrez",
+        "lastPlayByPlay": "Kelvin Gutierrez Out: Elevado al Jardinero Derecho ",
+        "atBat": "Ferreras",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -567,8 +567,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 1
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2229,
@@ -582,7 +582,7 @@
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Ronny Mauricio Ponche (K) ",
+        "lastPlayByPlay": "E. Florial Out: Elevado al Jardinero Central",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -12950,8 +12950,8 @@
         "status": 2,
         "date": "2026-11-06 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Aristides Aquino Ponche (K) ",
-        "atBat": "Kelvin Gutierrez",
+        "lastPlayByPlay": "Kelvin Gutierrez Out: Elevado al Jardinero Derecho ",
+        "atBat": "Ferreras",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12996,8 +12996,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 1
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2229,
@@ -13011,7 +13011,7 @@
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Ronny Mauricio Ponche (K) ",
+        "lastPlayByPlay": "E. Florial Out: Elevado al Jardinero Central",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -13057,7 +13057,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -13073,7 +13073,7 @@
         "date": "2026-11-06 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Luis Liberato",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -19517,11 +19517,11 @@
       "date": "2026-11-06 19:00:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Aristides Aquino Ponche (K) ",
+      "lastPlayByPlay": "Kelvin Gutierrez Out: Elevado al Jardinero Derecho ",
       "counts": {
         "balls": 0,
-        "strikes": 1,
-        "outs": 1
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20237,10 +20237,17 @@
             },
             {
               "reference_id": "20297-2-36",
-              "text": "Kelvin Gutierrez al bate",
+              "text": "Kelvin Gutierrez Out: Elevado al Jardinero Derecho ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794012142
+              "ts": 1794012191
+            },
+            {
+              "reference_id": "20297-2-37",
+              "text": "Ferreras al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794012194
             }
           ]
         }
@@ -20299,7 +20306,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 1
         }
       ],
@@ -20489,11 +20496,11 @@
       "date": "2026-11-06 19:30:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "Ronny Mauricio Ponche (K) ",
+      "lastPlayByPlay": "E. Florial Out: Elevado al Jardinero Central",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21143,6 +21150,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1794012164
+            },
+            {
+              "reference_id": "20305-2-29",
+              "text": "E. Florial Out: Elevado al Jardinero Central",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794012219
             }
           ]
         }
@@ -21187,7 +21201,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -22040,6 +22054,20 @@
               "ts": 1794012049
             }
           ]
+        },
+        {
+          "num": 4,
+          "half": "top",
+          "label": "Alta 4ta",
+          "plays": [
+            {
+              "reference_id": "20315-1-30",
+              "text": "Luis Liberato al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794012240
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22083,6 +22111,13 @@
           "half": "bottom",
           "label": "Baja 3ra",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 4,
+          "half": "top",
+          "label": "Alta 4ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
