@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T22:05:43.284Z",
+    "scraped_at": "2026-11-07T22:06:47.008Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -534,8 +534,8 @@
         "adLink": "",
         "banner": "",
         "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
-          "text": "Reunión Lomita"
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
         },
         "awayTeam": {
           "id": 5,
@@ -585,8 +585,8 @@
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Ronny Simon",
+        "lastPlayByPlay": "Ronny Simon Out: Elevado al Jardinero Central",
+        "atBat": "Gilberto Celestino ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -630,9 +630,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2233,
@@ -13151,8 +13151,8 @@
         "adLink": "",
         "banner": "",
         "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
-          "text": "Reunión Lomita"
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
         },
         "awayTeam": {
           "id": 5,
@@ -13202,8 +13202,8 @@
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Ronny Simon",
+        "lastPlayByPlay": "Ronny Simon Out: Elevado al Jardinero Central",
+        "atBat": "Gilberto Celestino ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13248,8 +13248,8 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 0,
-        "strikes": 1
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2233,
@@ -20405,11 +20405,11 @@
       "date": "2026-11-07 18:00:00",
       "roundText": "Alta 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Ronny Simon Out: Elevado al Jardinero Central",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -20654,10 +20654,17 @@
           "plays": [
             {
               "reference_id": "20330-1-1",
-              "text": "Ronny Simon al bate",
+              "text": "Ronny Simon Out: Elevado al Jardinero Central",
               "scored": false,
               "is_primary": true,
-              "ts": 1794089123
+              "ts": 1794089178
+            },
+            {
+              "reference_id": "20330-1-2",
+              "text": "Gilberto Celestino  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794089180
             }
           ]
         }
@@ -20667,7 +20674,7 @@
           "num": 1,
           "half": "top",
           "label": "Alta 1ra",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
