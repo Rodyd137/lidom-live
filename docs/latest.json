@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T01:44:15.017Z",
+    "scraped_at": "2026-11-07T01:45:19.502Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-06 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Noelvi Marte  Out: Elevado al Jardinero Derecho ",
+        "atBat": "Roly Brito",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -647,7 +647,7 @@
         "date": "2026-11-06 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Chritopher Morel",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -691,9 +691,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -12953,8 +12953,8 @@
         "status": 2,
         "date": "2026-11-06 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Noelvi Marte  Out: Elevado al Jardinero Derecho ",
+        "atBat": "Roly Brito",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12999,7 +12999,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -13079,7 +13079,7 @@
         "date": "2026-11-06 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Chritopher Morel",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13124,7 +13124,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -19523,11 +19523,11 @@
       "date": "2026-11-06 19:00:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Noelvi Marte  Out: Elevado al Jardinero Derecho ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20452,6 +20452,27 @@
               "ts": 1794015709
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "plays": [
+            {
+              "reference_id": "20300-2-58",
+              "text": "Noelvi Marte  Out: Elevado al Jardinero Derecho ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794015863
+            },
+            {
+              "reference_id": "20300-2-59",
+              "text": "Roly Brito al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794015870
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20543,6 +20564,13 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
+          "total_plays": 2,
+          "scoring_plays": 0
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
           "total_plays": 2,
           "scoring_plays": 0
         }
@@ -21905,7 +21933,7 @@
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22753,6 +22781,20 @@
               "ts": 1794015705
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "plays": [
+            {
+              "reference_id": "20317-1-53",
+              "text": "Chritopher Morel al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794015888
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22824,6 +22866,13 @@
           "half": "bottom",
           "label": "Baja 5ta",
           "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
