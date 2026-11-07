@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T00:30:02.249Z",
+    "scraped_at": "2026-11-07T00:31:06.886Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-06 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Marcell Ozuna  Out: Elevado al Jardinero Derecho ",
-        "atBat": "Deyvinson de los Santos",
+        "lastPlayByPlay": "Agustin Ramirez  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 1,
-        "strikes": 1
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2229,
@@ -594,10 +594,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -630,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2230,
@@ -647,7 +644,7 @@
         "date": "2026-11-06 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Chritopher Morel",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -686,14 +683,14 @@
           "runs_half": 0,
           "errors": 1,
           "hits": 1,
-          "pitcher": "Oscar de la Cruz ",
+          "pitcher": "Luis Moreno",
           "era": "",
           "debut": 0,
           "record": ""
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -12953,8 +12950,8 @@
         "status": 2,
         "date": "2026-11-06 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Marcell Ozuna  Out: Elevado al Jardinero Derecho ",
-        "atBat": "Deyvinson de los Santos",
+        "lastPlayByPlay": "Agustin Ramirez  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12999,7 +12996,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -13026,10 +13023,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -13062,9 +13056,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2230,
@@ -13079,7 +13073,7 @@
         "date": "2026-11-06 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Chritopher Morel",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13118,14 +13112,14 @@
           "runs_half": 0,
           "errors": 1,
           "hits": 1,
-          "pitcher": "Oscar de la Cruz ",
+          "pitcher": "Luis Moreno",
           "era": "",
           "debut": 0,
           "record": ""
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "2026-11-07": [
@@ -19523,11 +19517,11 @@
       "date": "2026-11-06 19:00:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "Marcell Ozuna  Out: Elevado al Jardinero Derecho ",
+      "lastPlayByPlay": "Agustin Ramirez  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20187,10 +20181,17 @@
             },
             {
               "reference_id": "20296-2-30",
-              "text": "Deyvinson de los Santos al bate",
+              "text": "Deyvinson de los Santos Out: Elevado al Jardinero Izquierdo",
               "scored": false,
               "is_primary": true,
-              "ts": 1794011313
+              "ts": 1794011416
+            },
+            {
+              "reference_id": "20296-2-31",
+              "text": "Agustin Ramirez  Out: Rodado al Segunda Base - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794011460
             }
           ]
         }
@@ -20235,7 +20236,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -20427,8 +20428,8 @@
       "currentInningNum": 3,
       "lastPlayByPlay": "Juan Brito  Out: Rodado al Primera Base",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 2,
+        "strikes": 1,
         "outs": 1
       },
       "base_state": {
@@ -21267,7 +21268,7 @@
       "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -21433,7 +21434,7 @@
             "H2": 0
           },
           "probables": {
-            "pitcher": "Oscar de la Cruz ",
+            "pitcher": "Luis Moreno",
             "era": "",
             "record": "",
             "debut": false
@@ -21864,6 +21865,20 @@
               "ts": 1794011241
             }
           ]
+        },
+        {
+          "num": 3,
+          "half": "top",
+          "label": "Alta 3ra",
+          "plays": [
+            {
+              "reference_id": "20314-1-23",
+              "text": "Chritopher Morel al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794011420
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21894,6 +21909,13 @@
           "label": "Baja 2da",
           "total_plays": 6,
           "scoring_plays": 1
+        },
+        {
+          "num": 3,
+          "half": "top",
+          "label": "Alta 3ra",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
