@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2228",
-    "scraped_at": "2026-11-07T01:04:30.852Z",
+    "scraped_at": "2026-11-07T01:05:35.668Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-06 19:00:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Roly Brito Base por Bolas ",
+    "lastPlayByPlay": "Marcell Ozuna  Ponche (K) ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -807,11 +807,25 @@
             "ts": 1794013320
           },
           {
+            "reference_id": "20298-2-44-294426",
+            "text": "Roly Brito Robo de Base Segunda Base",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1794013490
+          },
+          {
             "reference_id": "20298-2-45",
-            "text": "Marcell Ozuna  al bate",
+            "text": "Marcell Ozuna  Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1794013324
+            "ts": 1794013518
+          },
+          {
+            "reference_id": "20298-2-46",
+            "text": "Deyvinson de los Santos al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794013526
           }
         ]
       }
@@ -884,7 +898,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 4,
+        "total_plays": 6,
         "scoring_plays": 1
       }
     ],
