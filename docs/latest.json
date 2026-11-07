@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T00:38:38.496Z",
+    "scraped_at": "2026-11-07T00:39:43.083Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "E. Angeles  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Junior Perez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -13068,12 +13068,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "E. Angeles  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Junior Perez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -21314,7 +21314,7 @@
       "date": "2026-11-06 19:30:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "E. Angeles  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21322,14 +21322,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -21949,6 +21949,27 @@
               "ts": 1794011742
             }
           ]
+        },
+        {
+          "num": 3,
+          "half": "bottom",
+          "label": "Baja 3ra",
+          "plays": [
+            {
+              "reference_id": "20314-2-27",
+              "text": "E. Angeles  Out: Rodado al Segunda Base - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794011929
+            },
+            {
+              "reference_id": "20314-2-28",
+              "text": "Junior Perez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794011939
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21985,6 +22006,13 @@
           "half": "top",
           "label": "Alta 3ra",
           "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 3,
+          "half": "bottom",
+          "label": "Baja 3ra",
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
