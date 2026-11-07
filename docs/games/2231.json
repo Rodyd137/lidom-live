@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2231",
-    "scraped_at": "2026-11-07T23:56:14.157Z",
+    "scraped_at": "2026-11-07T23:57:18.092Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-07 17:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "C. Adames Base por Bolas ",
     "counts": {
-      "balls": 3,
+      "balls": 1,
       "strikes": 2,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -997,10 +997,17 @@
         "plays": [
           {
             "reference_id": "20328-2-63",
-            "text": "C. Adames al bate",
+            "text": "C. Adames Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1794095630
+            "ts": 1794095804
+          },
+          {
+            "reference_id": "20328-2-64",
+            "text": "K. Alcantara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794095807
           }
         ]
       }
@@ -1115,7 +1122,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
