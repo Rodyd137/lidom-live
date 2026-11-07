@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T00:27:53.234Z",
+    "scraped_at": "2026-11-07T00:28:57.826Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-06 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Marcell Ozuna ",
+        "lastPlayByPlay": "Marcell Ozuna  Out: Elevado al Jardinero Derecho ",
+        "atBat": "Deyvinson de los Santos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2229,
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -12950,8 +12953,8 @@
         "status": 2,
         "date": "2026-11-06 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Marcell Ozuna ",
+        "lastPlayByPlay": "Marcell Ozuna  Out: Elevado al Jardinero Derecho ",
+        "atBat": "Deyvinson de los Santos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -12995,9 +12998,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2229,
@@ -13023,7 +13026,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -19517,11 +19523,11 @@
       "date": "2026-11-06 19:00:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Marcell Ozuna  Out: Elevado al Jardinero Derecho ",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20174,10 +20180,17 @@
           "plays": [
             {
               "reference_id": "20296-2-29",
-              "text": "Marcell Ozuna  al bate",
+              "text": "Marcell Ozuna  Out: Elevado al Jardinero Derecho ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794011142
+              "ts": 1794011310
+            },
+            {
+              "reference_id": "20296-2-30",
+              "text": "Deyvinson de los Santos al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794011313
             }
           ]
         }
@@ -20222,7 +20235,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
