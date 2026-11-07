@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T22:19:30.652Z",
+    "scraped_at": "2026-11-07T22:20:34.505Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "J. C. Escarra  Out: Rodado al Campo Corto - Primera Base",
-        "atBat": "J. C. Escarra",
+        "lastPlayByPlay": "J. C. Escarra Base por Bolas ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,7 +627,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 2,
         "strikes": 0
       },
@@ -13192,12 +13192,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "J. C. Escarra  Out: Rodado al Campo Corto - Primera Base",
-        "atBat": "J. C. Escarra",
+        "lastPlayByPlay": "J. C. Escarra Base por Bolas ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13241,7 +13241,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 2,
         "strikes": 0
       },
@@ -19520,20 +19520,20 @@
       "currentInningNum": 4,
       "lastPlayByPlay": "Agustin Ramirez Out: Elevado al Jardinero Central",
       "counts": {
-        "balls": 3,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20448,22 +20448,22 @@
       "date": "2026-11-07 18:00:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "J. C. Escarra  Out: Rodado al Campo Corto - Primera Base",
+      "lastPlayByPlay": "J. C. Escarra Base por Bolas ",
       "counts": {
-        "balls": 2,
+        "balls": 0,
         "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20824,10 +20824,10 @@
             },
             {
               "reference_id": "20330-2-7",
-              "text": "J. C. Escarra al bate",
+              "text": "J. C. Escarra Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794089954
+              "ts": 1794090015
             }
           ]
         }
@@ -21104,6 +21104,83 @@
               "team_id": 4,
               "name": "Erik Gonzales",
               "abbreviation": "Erik Gonzales",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6041,
+              "team_id": 4,
+              "name": "Marmolejos",
+              "abbreviation": "Marmolejos",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6038,
+              "team_id": 4,
+              "name": "Junior Lake",
+              "abbreviation": "Lake",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6043,
+              "team_id": 4,
+              "name": "M. Hernandez",
+              "abbreviation": "M. Hernandez",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6254,
+              "team_id": 4,
+              "name": "Andy Ibanez",
+              "abbreviation": "A. Ibanez",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6039,
+              "team_id": 4,
+              "name": "F. Cordero",
+              "abbreviation": "F. Cordero",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6154,
+              "team_id": 4,
+              "name": "M. De la Cruz",
+              "abbreviation": "M. De la Cruz",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6080,
+              "team_id": 4,
+              "name": "John Gil",
+              "abbreviation": "John Gil",
               "number": null,
               "dob": null,
               "height": "",
