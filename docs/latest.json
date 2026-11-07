@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T23:32:48.435Z",
+    "scraped_at": "2026-11-07T23:33:52.486Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -520,16 +520,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-07 17:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Roly Brito Ponche (K) ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Y. Encarnación",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "currentInningNum": 7,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "D. Frias  Out: Rodado al Campo Corto - Primera Base",
-        "atBat": "Steward Berroa",
+        "lastPlayByPlay": "Steward Berroa Out: Elevado al Campo Corto",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 1
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2233,
@@ -13136,7 +13136,7 @@
         "date": "2026-11-07 17:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Y. Encarnación",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13196,8 +13196,8 @@
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "D. Frias  Out: Rodado al Campo Corto - Primera Base",
-        "atBat": "Steward Berroa",
+        "lastPlayByPlay": "Steward Berroa Out: Elevado al Campo Corto",
+        "atBat": "Jasson Dominguez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13241,9 +13241,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 1
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2233,
@@ -20422,6 +20422,20 @@
               "ts": 1794094309
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "plays": [
+            {
+              "reference_id": "20327-2-55",
+              "text": "Y. Encarnación al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794094391
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20515,6 +20529,13 @@
           "label": "Alta 7ma",
           "total_plays": 5,
           "scoring_plays": 1
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20703,11 +20724,11 @@
       "date": "2026-11-07 18:00:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "D. Frias  Out: Rodado al Campo Corto - Primera Base",
+      "lastPlayByPlay": "Steward Berroa Out: Elevado al Campo Corto",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
-        "outs": 1
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21416,10 +21437,17 @@
             },
             {
               "reference_id": "20333-2-35",
-              "text": "Steward Berroa al bate",
+              "text": "Steward Berroa Out: Elevado al Campo Corto",
               "scored": false,
               "is_primary": true,
-              "ts": 1794094303
+              "ts": 1794094427
+            },
+            {
+              "reference_id": "20333-2-36",
+              "text": "Jasson Dominguez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794094431
             }
           ]
         }
@@ -21478,7 +21506,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
