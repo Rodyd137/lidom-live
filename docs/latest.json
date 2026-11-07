@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T02:31:32.537Z",
+    "scraped_at": "2026-11-07T02:32:37.570Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Ramon Hernandez",
+        "lastPlayByPlay": "Ramon Hernandez  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Mel Rojas",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,8 +628,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 1
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2230,
@@ -644,7 +644,7 @@
         "date": "2026-11-06 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Magneuris Sierra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -13011,8 +13011,8 @@
         "status": 2,
         "date": "2026-11-06 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Ramon Hernandez",
+        "lastPlayByPlay": "Ramon Hernandez  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Mel Rojas",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13057,8 +13057,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 1
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2230,
@@ -13073,7 +13073,7 @@
         "date": "2026-11-06 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Magneuris Sierra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13117,9 +13117,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "2026-11-07": [
@@ -20870,11 +20870,11 @@
       "date": "2026-11-06 19:30:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Ramon Hernandez  Out: Rodado al Campo Corto - Primera Base",
       "counts": {
         "balls": 0,
-        "strikes": 1,
-        "outs": 0
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21905,10 +21905,17 @@
           "plays": [
             {
               "reference_id": "20310-2-71",
-              "text": "Ramon Hernandez al bate",
+              "text": "Ramon Hernandez  Out: Rodado al Campo Corto - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794018682
+              "ts": 1794018704
+            },
+            {
+              "reference_id": "20310-2-72",
+              "text": "Mel Rojas al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794018707
             }
           ]
         }
@@ -22023,7 +22030,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -22217,7 +22224,7 @@
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -22400,10 +22407,10 @@
               "position": ""
             },
             {
-              "id": 5999,
+              "id": 6015,
               "team_id": 7,
-              "name": "Harold Andres Ramirez",
-              "abbreviation": "H. Ramirez",
+              "name": "Magneuris Sierra",
+              "abbreviation": "Magneuris Sierra",
               "number": null,
               "dob": null,
               "height": "",
@@ -23240,6 +23247,20 @@
               "ts": 1794018523
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "bottom",
+          "label": "Baja 8va",
+          "plays": [
+            {
+              "reference_id": "20319-2-73",
+              "text": "Magneuris Sierra al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794018722
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23346,6 +23367,13 @@
           "half": "top",
           "label": "Alta 8va",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 8,
+          "half": "bottom",
+          "label": "Baja 8va",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
