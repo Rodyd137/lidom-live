@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-07T22:25:52.838Z",
+    "scraped_at": "2026-11-07T22:26:57.011Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-07 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Francisco Mejia",
+        "lastPlayByPlay": "Francisco Mejia Golpeado por Pelota ",
+        "atBat": "Sergio Alcantara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -568,7 +568,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2232,
@@ -627,7 +627,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 0,
         "strikes": 1
       },
@@ -13131,12 +13131,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-07 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Francisco Mejia",
+        "lastPlayByPlay": "Francisco Mejia Golpeado por Pelota ",
+        "atBat": "Sergio Alcantara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13182,7 +13182,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2232,
@@ -13241,7 +13241,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 0,
         "strikes": 1
       },
@@ -19518,22 +19518,22 @@
       "date": "2026-11-07 17:00:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Francisco Mejia Golpeado por Pelota ",
       "counts": {
         "balls": 0,
-        "strikes": 1,
+        "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20224,10 +20224,17 @@
           "plays": [
             {
               "reference_id": "20324-2-31",
-              "text": "Francisco Mejia al bate",
+              "text": "Francisco Mejia Golpeado por Pelota ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794090303
+              "ts": 1794090387
+            },
+            {
+              "reference_id": "20324-2-32",
+              "text": "Sergio Alcantara al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794090399
             }
           ]
         }
@@ -20286,7 +20293,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -20478,7 +20485,7 @@
       "currentInningNum": 2,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 1,
+        "balls": 2,
         "strikes": 1,
         "outs": 0
       },
