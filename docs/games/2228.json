@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2228",
-    "scraped_at": "2026-11-07T01:12:02.606Z",
+    "scraped_at": "2026-11-07T01:13:06.834Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-06 19:00:00",
-    "roundText": "Baja 5ta",
-    "currentInningNum": 5,
-    "lastPlayByPlay": "Agustin Ramirez Ponche (K) ",
+    "roundText": "Alta 6ta",
+    "currentInningNum": 6,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -842,6 +842,20 @@
             "ts": 1794013875
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "20299-1-48",
+            "text": "Andy Ibanez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794013967
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -914,6 +928,13 @@
         "label": "Baja 5ta",
         "total_plays": 8,
         "scoring_plays": 1
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -948,14 +969,14 @@
       {
         "num": 5,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 1
       },
       {
         "num": 6,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -1012,7 +1033,7 @@
         "id": 2230,
         "date": "2026-11-06 19:30:00",
         "status": 2,
-        "roundText": "Baja 4ta",
+        "roundText": "Alta 5ta",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
