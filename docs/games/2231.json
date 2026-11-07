@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2231",
-    "scraped_at": "2026-11-07T23:29:39.087Z",
+    "scraped_at": "2026-11-07T23:30:42.804Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-07 17:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Yonatan Henriquez Base por Bolas ",
+    "lastPlayByPlay": "Noelvi Marte   Out: Rodado al Segunda Base - Primera Base - se embasa por Error del - Primera Base - Carrera Empujada",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -902,10 +902,17 @@
           },
           {
             "reference_id": "20327-1-53",
-            "text": "Noelvi Marte  al bate",
+            "text": "Noelvi Marte   Out: Rodado al Segunda Base - Primera Base - se embasa por Error del - Primera Base - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1794094225
+          },
+          {
+            "reference_id": "20327-1-54",
+            "text": "Roly Brito al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1794093921
+            "ts": 1794094226
           }
         ]
       }
@@ -999,8 +1006,8 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 4,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1098,7 +1105,7 @@
       {
         "id": 2233,
         "date": "2026-11-07 19:30:00",
-        "status": 1,
+        "status": 3,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 4,
