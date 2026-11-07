@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2231",
-    "scraped_at": "2026-11-07T21:59:24.824Z",
+    "scraped_at": "2026-11-07T22:00:28.700Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-07 17:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Emilio Bonifacio Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 1,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -626,10 +626,17 @@
         "plays": [
           {
             "reference_id": "20323-2-21",
-            "text": "Emilio Bonifacio al bate",
+            "text": "Emilio Bonifacio Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1794088753
+            "ts": 1794088765
+          },
+          {
+            "reference_id": "20323-2-22",
+            "text": "J. Made al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794088767
           }
         ]
       }
@@ -674,7 +681,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
