@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-08T00:57:56.918Z",
+    "scraped_at": "2026-11-08T00:59:00.411Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Aderlin Rodríguez",
+        "lastPlayByPlay": "Aderlin Rodríguez Sencillo ",
+        "atBat": "Raynel Delgado",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -621,15 +621,15 @@
           "runs": 7,
           "runs_half": 6,
           "errors": 0,
-          "hits": 11,
+          "hits": 12,
           "pitcher": "Luis Gonzalez",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2233,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-07 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Junior Perez",
+        "lastPlayByPlay": "Junior Perez Ponche (K) ",
+        "atBat": "Cesar Prieto ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -13192,12 +13192,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Aderlin Rodríguez",
+        "lastPlayByPlay": "Aderlin Rodríguez Sencillo ",
+        "atBat": "Raynel Delgado",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13235,15 +13235,15 @@
           "runs": 7,
           "runs_half": 6,
           "errors": 0,
-          "hits": 11,
+          "hits": 12,
           "pitcher": "Luis Gonzalez",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2233,
@@ -13257,8 +13257,8 @@
         "status": 2,
         "date": "2026-11-07 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Junior Perez",
+        "lastPlayByPlay": "Junior Perez Ponche (K) ",
+        "atBat": "Cesar Prieto ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13302,9 +13302,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 1
       }
     ],
     "2026-11-08": [
@@ -20804,7 +20804,7 @@
             "abbr": "AC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
             "runs": 7,
-            "hits": 11,
+            "hits": 12,
             "errors": 0,
             "permalink": "/equipo/aguilas-cibaenas"
           }
@@ -20903,22 +20903,22 @@
       "date": "2026-11-07 18:00:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Aderlin Rodríguez Sencillo ",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -21067,7 +21067,7 @@
           "permalink": "/equipo/aguilas-cibaenas",
           "totals": {
             "R": 7,
-            "H": 11,
+            "H": 12,
             "E": 0,
             "H2": 6
           },
@@ -21238,7 +21238,7 @@
           },
           "home": {
             "R": 7,
-            "H": 11,
+            "H": 12,
             "E": 0
           }
         },
@@ -21882,10 +21882,17 @@
           "plays": [
             {
               "reference_id": "20336-2-65",
-              "text": "Aderlin Rodríguez al bate",
+              "text": "Aderlin Rodríguez Sencillo ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794099406
+              "ts": 1794099526
+            },
+            {
+              "reference_id": "20336-2-66",
+              "text": "Raynel Delgado al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794099530
             }
           ]
         }
@@ -21986,7 +21993,7 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -22176,11 +22183,11 @@
       "date": "2026-11-07 19:30:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Junior Perez Ponche (K) ",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 1,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -22889,10 +22896,17 @@
           "plays": [
             {
               "reference_id": "20342-2-35",
-              "text": "Junior Perez al bate",
+              "text": "Junior Perez Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794099327
+              "ts": 1794099488
+            },
+            {
+              "reference_id": "20342-2-36",
+              "text": "Cesar Prieto  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794099491
             }
           ]
         }
@@ -22951,7 +22965,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -23068,7 +23082,7 @@
             "abbr": "AC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
             "runs": 7,
-            "hits": 11,
+            "hits": 12,
             "errors": 0,
             "permalink": "/equipo/aguilas-cibaenas"
           }
