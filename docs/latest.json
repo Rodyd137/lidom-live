@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-08T01:37:23.321Z",
+    "scraped_at": "2026-11-08T01:38:27.372Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Alfredo Reyes al bate",
-        "atBat": null,
+        "lastPlayByPlay": "Alfredo Reyes Ponche (K) ",
+        "atBat": "Jorge Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-07 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "F. Cordero Sencillo Lanzador - se embasa por Error del - Lanzador",
-        "atBat": "M. De la Cruz",
+        "lastPlayByPlay": "John Gil Out: Elevado al Jardinero Central",
+        "atBat": "Vidal Brujan",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -13196,8 +13196,8 @@
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "Alfredo Reyes al bate",
-        "atBat": null,
+        "lastPlayByPlay": "Alfredo Reyes Ponche (K) ",
+        "atBat": "Jorge Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13241,7 +13241,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
         "strikes": 0
       },
@@ -13257,8 +13257,8 @@
         "status": 2,
         "date": "2026-11-07 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "F. Cordero Sencillo Lanzador - se embasa por Error del - Lanzador",
-        "atBat": "M. De la Cruz",
+        "lastPlayByPlay": "John Gil Out: Elevado al Jardinero Central",
+        "atBat": "Vidal Brujan",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13303,7 +13303,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -20903,9 +20903,9 @@
       "date": "2026-11-07 18:00:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Alfredo Reyes al bate",
+      "lastPlayByPlay": "Alfredo Reyes Ponche (K) ",
       "counts": {
-        "balls": 0,
+        "balls": 1,
         "strikes": 0,
         "outs": 2
       },
@@ -21079,10 +21079,10 @@
           },
           "players": [
             {
-              "id": 6121,
+              "id": 6073,
               "team_id": 3,
-              "name": "Steward Berroa",
-              "abbreviation": "S. Berroa",
+              "name": "Jorge Bonifacio",
+              "abbreviation": "Jorge Bonifacio",
               "number": null,
               "dob": null,
               "height": "",
@@ -22015,10 +22015,17 @@
             },
             {
               "reference_id": "20337-2-82",
-              "text": "Alfredo Reyes al bate",
+              "text": "Alfredo Reyes Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794101731
+              "ts": 1794101846
+            },
+            {
+              "reference_id": "20337-2-83",
+              "text": "Jorge Bonifacio al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794101864
             }
           ]
         }
@@ -22133,7 +22140,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -22323,11 +22330,11 @@
       "date": "2026-11-07 19:30:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "F. Cordero Sencillo Lanzador - se embasa por Error del - Lanzador",
+      "lastPlayByPlay": "John Gil Out: Elevado al Jardinero Central",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -23176,10 +23183,24 @@
             },
             {
               "reference_id": "20344-1-52",
-              "text": "M. De la Cruz al bate",
+              "text": "M. De la Cruz Out! Rodado de Selección.  Lanzador - Receptor",
               "scored": false,
               "is_primary": true,
-              "ts": 1794101791
+              "ts": 1794101843
+            },
+            {
+              "reference_id": "20344-1-53",
+              "text": "John Gil Out: Elevado al Jardinero Central",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794101896
+            },
+            {
+              "reference_id": "20344-1-54",
+              "text": "Vidal Brujan al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794101900
             }
           ]
         }
@@ -23259,7 +23280,7 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 3,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
