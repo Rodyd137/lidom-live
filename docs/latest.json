@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-08T23:10:27.691Z",
+    "scraped_at": "2026-11-08T23:11:32.411Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-08 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Pedro Severino Out: Elevado al Segunda Base",
-        "atBat": "Rafael Lantigua ",
+        "lastPlayByPlay": "Rafael Lantigua  Golpeado por Pelota ",
+        "atBat": "Gilberto Celestino ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -629,7 +629,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2235,
@@ -13380,12 +13380,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-08 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Pedro Severino Out: Elevado al Segunda Base",
-        "atBat": "Rafael Lantigua ",
+        "lastPlayByPlay": "Rafael Lantigua  Golpeado por Pelota ",
+        "atBat": "Gilberto Celestino ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13431,7 +13431,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2235,
@@ -21650,22 +21650,22 @@
       "date": "2026-11-08 17:00:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Pedro Severino Out: Elevado al Segunda Base",
+      "lastPlayByPlay": "Rafael Lantigua  Golpeado por Pelota ",
       "counts": {
         "balls": 0,
-        "strikes": 1,
+        "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -22559,10 +22559,17 @@
             },
             {
               "reference_id": "20372-2-55",
-              "text": "Rafael Lantigua  al bate",
+              "text": "Rafael Lantigua  Golpeado por Pelota ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794179387
+              "ts": 1794179477
+            },
+            {
+              "reference_id": "20372-2-56",
+              "text": "Gilberto Celestino  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794179483
             }
           ]
         }
@@ -22663,7 +22670,7 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
