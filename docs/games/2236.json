@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2236",
-    "scraped_at": "2026-11-08T23:57:53.732Z",
+    "scraped_at": "2026-11-08T23:58:58.510Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-08 17:00:00",
-    "roundText": "Baja 9na",
-    "currentInningNum": 9,
-    "lastPlayByPlay": "Yairo Muñoz Out: Elevado al Segunda Base",
+    "roundText": "Alta 10ma",
+    "currentInningNum": 10,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 1
+      "battingTeam": "awayTeam",
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -180,7 +180,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Ronaldo Alesandro",
+          "pitcher": "Lucas Sims",
           "era": "",
           "record": "",
           "debut": false
@@ -335,9 +335,14 @@
           "num": 9,
           "away": 0,
           "home": 0
+        },
+        {
+          "num": 10,
+          "away": 0,
+          "home": 0
         }
       ],
-      "extras": false,
+      "extras": true,
       "totals": {
         "away": {
           "R": 3,
@@ -387,6 +392,10 @@
           {
             "num": 9,
             "R": 3
+          },
+          {
+            "num": 10,
+            "R": 3
           }
         ],
         "home": [
@@ -424,6 +433,10 @@
           },
           {
             "num": 9,
+            "R": 3
+          },
+          {
+            "num": 10,
             "R": 3
           }
         ]
@@ -1073,6 +1086,20 @@
             "ts": 1794182190
           }
         ]
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "plays": [
+          {
+            "reference_id": "21389-1-71",
+            "text": "Miguel Bleis al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794182287
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1201,6 +1228,13 @@
         "label": "Baja 9na",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1263,6 +1297,13 @@
       {
         "num": 9,
         "part": 2,
+        "is_last": 0,
+        "awayTeamRuns": 0,
+        "homeTeamRuns": 0
+      },
+      {
+        "num": 10,
+        "part": 1,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -1290,7 +1331,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 4,
-          "hits": 5,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         }
