@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-08T02:48:30.599Z",
+    "scraped_at": "2026-11-08T02:49:34.242Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,19 +639,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 4,
+        "base": 1,
         "status": 2,
         "date": "2026-11-07 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "John Gil Out: Línea al Jardinero Central",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Miguel Bleis",
         "comment": "",
         "winningPitcher": "Kelly Austin",
         "losingPitcher": "Eddy Yean",
         "savingPitcher": "",
-        "roundText": "Alta 9na",
+        "roundText": "Baja 9na",
         "currentInningNum": 9,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -667,7 +667,7 @@
           "runs_half": 4,
           "errors": 1,
           "hits": 11,
-          "pitcher": "Kelly Austin",
+          "pitcher": "Robinson Martinez",
           "era": "",
           "debut": 0,
           "record": ""
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -13253,19 +13253,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 4,
+        "base": 1,
         "status": 2,
         "date": "2026-11-07 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "John Gil Out: Línea al Jardinero Central",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Miguel Bleis",
         "comment": "",
         "winningPitcher": "Kelly Austin",
         "losingPitcher": "Eddy Yean",
         "savingPitcher": "",
-        "roundText": "Alta 9na",
+        "roundText": "Baja 9na",
         "currentInningNum": 9,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -13281,7 +13281,7 @@
           "runs_half": 4,
           "errors": 1,
           "hits": 11,
-          "pitcher": "Kelly Austin",
+          "pitcher": "Robinson Martinez",
           "era": "",
           "debut": 0,
           "record": ""
@@ -13303,7 +13303,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -20813,7 +20813,7 @@
           "id": 2233,
           "date": "2026-11-07 19:30:00",
           "status": 2,
-          "roundText": "Alta 9na",
+          "roundText": "Baja 9na",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -22289,7 +22289,7 @@
           "id": 2233,
           "date": "2026-11-07 19:30:00",
           "status": 2,
-          "roundText": "Alta 9na",
+          "roundText": "Baja 9na",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -22377,24 +22377,24 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-07 19:30:00",
-      "roundText": "Alta 9na",
+      "roundText": "Baja 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "John Gil Out: Línea al Jardinero Central",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
-        "base": 4
+        "battingTeam": "homeTeam",
+        "base": 1
       },
       "base_runners": {
         "on1B": false,
         "on2B": false,
-        "on3B": true,
-        "runners": 1,
-        "mask": 4
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -22427,7 +22427,7 @@
             "H2": 4
           },
           "probables": {
-            "pitcher": "Kelly Austin",
+            "pitcher": "Robinson Martinez",
             "era": "",
             "record": "",
             "debut": false
@@ -22643,10 +22643,10 @@
               "position": ""
             },
             {
-              "id": 6242,
+              "id": 6211,
               "team_id": 7,
-              "name": "Sandber Pimentel",
-              "abbreviation": "S.  Pimentel",
+              "name": "Miguel Bleis",
+              "abbreviation": "Miguel Bleis",
               "number": null,
               "dob": null,
               "height": "",
@@ -23497,6 +23497,20 @@
               "ts": 1794105969
             }
           ]
+        },
+        {
+          "num": 9,
+          "half": "bottom",
+          "label": "Baja 9na",
+          "plays": [
+            {
+              "reference_id": "20347-2-83",
+              "text": "Miguel Bleis al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794106170
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23618,6 +23632,13 @@
           "label": "Alta 9na",
           "total_plays": 4,
           "scoring_plays": 0
+        },
+        {
+          "num": 9,
+          "half": "bottom",
+          "label": "Baja 9na",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -23679,7 +23700,7 @@
         },
         {
           "num": 9,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
