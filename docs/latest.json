@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-08T02:39:00.909Z",
+    "scraped_at": "2026-11-08T02:40:03.190Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -642,16 +642,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-07 19:30:00",
-        "part": 2,
-        "lastPlayByPlay": "Aaron Schunk  Out: Rodado al Campo Corto - Segunda Base",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Andy Ibanez",
         "comment": "",
         "winningPitcher": "Kelly Austin",
         "losingPitcher": "Eddy Yean",
         "savingPitcher": "",
-        "roundText": "Baja 8va",
-        "currentInningNum": 8,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 9na",
+        "currentInningNum": 9,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -683,14 +683,14 @@
           "runs_half": 4,
           "errors": 1,
           "hits": 11,
-          "pitcher": "Hancel Rincon",
+          "pitcher": "Sammy Peralta",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
-        "strikes": 0
+        "balls": 1,
+        "outs": 0,
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -13256,16 +13256,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-07 19:30:00",
-        "part": 2,
-        "lastPlayByPlay": "Aaron Schunk  Out: Rodado al Campo Corto - Segunda Base",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Andy Ibanez",
         "comment": "",
         "winningPitcher": "Kelly Austin",
         "losingPitcher": "Eddy Yean",
         "savingPitcher": "",
-        "roundText": "Baja 8va",
-        "currentInningNum": 8,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 9na",
+        "currentInningNum": 9,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -13297,14 +13297,14 @@
           "runs_half": 4,
           "errors": 1,
           "hits": 11,
-          "pitcher": "Hancel Rincon",
+          "pitcher": "Sammy Peralta",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
-        "strikes": 0
+        "balls": 1,
+        "outs": 0,
+        "strikes": 1
       }
     ],
     "2026-11-08": [
@@ -20813,7 +20813,7 @@
           "id": 2233,
           "date": "2026-11-07 19:30:00",
           "status": 2,
-          "roundText": "Baja 8va",
+          "roundText": "Alta 9na",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -22289,7 +22289,7 @@
           "id": 2233,
           "date": "2026-11-07 19:30:00",
           "status": 2,
-          "roundText": "Baja 8va",
+          "roundText": "Alta 9na",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -22377,16 +22377,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-07 19:30:00",
-      "roundText": "Baja 8va",
-      "currentInningNum": 8,
-      "lastPlayByPlay": "Aaron Schunk  Out: Rodado al Campo Corto - Segunda Base",
+      "roundText": "Alta 9na",
+      "currentInningNum": 9,
+      "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
-        "outs": 3
+        "balls": 1,
+        "strikes": 1,
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
+        "battingTeam": "awayTeam",
         "base": 1
       },
       "base_runners": {
@@ -22548,7 +22548,7 @@
             "H2": 4
           },
           "probables": {
-            "pitcher": "Hancel Rincon",
+            "pitcher": "Sammy Peralta",
             "era": "",
             "record": "",
             "debut": false
@@ -23462,6 +23462,20 @@
               "ts": 1794105425
             }
           ]
+        },
+        {
+          "num": 9,
+          "half": "top",
+          "label": "Alta 9na",
+          "plays": [
+            {
+              "reference_id": "20347-1-79",
+              "text": "Andy Ibanez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794105589
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23576,6 +23590,13 @@
           "label": "Baja 8va",
           "total_plays": 4,
           "scoring_plays": 0
+        },
+        {
+          "num": 9,
+          "half": "top",
+          "label": "Alta 9na",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -23631,14 +23652,14 @@
         {
           "num": 8,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 1,
           "homeTeamRuns": 0
         },
         {
           "num": 9,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         }
