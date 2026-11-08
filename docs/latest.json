@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-08T01:34:11.626Z",
+    "scraped_at": "2026-11-08T01:35:15.530Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,7 +582,7 @@
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Mason Mccoy Out: Elevado al Segunda Base",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-07 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Andy Ibanez",
+        "lastPlayByPlay": "Andy Ibanez Base por Bolas ",
+        "atBat": "F. Cordero",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -13196,7 +13196,7 @@
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Mason Mccoy Out: Elevado al Segunda Base",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -13242,7 +13242,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -13253,12 +13253,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-07 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Andy Ibanez",
+        "lastPlayByPlay": "Andy Ibanez Base por Bolas ",
+        "atBat": "F. Cordero",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13302,9 +13302,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 0
       }
     ],
     "2026-11-08": [
@@ -20903,11 +20903,11 @@
       "date": "2026-11-07 18:00:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Mason Mccoy Out: Elevado al Segunda Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -22000,6 +22000,20 @@
               "ts": 1794101496
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "bottom",
+          "label": "Baja 8va",
+          "plays": [
+            {
+              "reference_id": "20337-2-81",
+              "text": "Mason Mccoy Out: Elevado al Segunda Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794101712
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22106,6 +22120,13 @@
           "half": "top",
           "label": "Alta 8va",
           "total_plays": 5,
+          "scoring_plays": 0
+        },
+        {
+          "num": 8,
+          "half": "bottom",
+          "label": "Baja 8va",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -22295,22 +22316,22 @@
       "date": "2026-11-07 19:30:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Andy Ibanez Base por Bolas ",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -23134,10 +23155,17 @@
           "plays": [
             {
               "reference_id": "20344-1-50",
-              "text": "Andy Ibanez al bate",
+              "text": "Andy Ibanez Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794101566
+              "ts": 1794101683
+            },
+            {
+              "reference_id": "20344-1-51",
+              "text": "F. Cordero al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794101689
             }
           ]
         }
@@ -23217,7 +23245,7 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
