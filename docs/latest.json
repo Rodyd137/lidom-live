@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-08T00:50:25.169Z",
+    "scraped_at": "2026-11-08T00:51:29.059Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "Ronny Simon  Out: Rodado al Segunda Base - Campo Corto",
-        "atBat": "Gilberto Celestino ",
+        "lastPlayByPlay": "Gilberto Celestino  Ponche (K) ",
+        "atBat": "Juan Brito",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 1
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2233,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-07 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Andy Ibanez  Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "F. Cordero",
+        "lastPlayByPlay": "F. Cordero Ponche (K) ",
+        "atBat": "M. De la Cruz",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -13196,8 +13196,8 @@
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "Ronny Simon  Out: Rodado al Segunda Base - Campo Corto",
-        "atBat": "Gilberto Celestino ",
+        "lastPlayByPlay": "Gilberto Celestino  Ponche (K) ",
+        "atBat": "Juan Brito",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13241,9 +13241,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 1,
-        "strikes": 1
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2233,
@@ -13257,8 +13257,8 @@
         "status": 2,
         "date": "2026-11-07 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Andy Ibanez  Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "F. Cordero",
+        "lastPlayByPlay": "F. Cordero Ponche (K) ",
+        "atBat": "M. De la Cruz",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13303,7 +13303,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -20903,11 +20903,11 @@
       "date": "2026-11-07 18:00:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Ronny Simon  Out: Rodado al Segunda Base - Campo Corto",
+      "lastPlayByPlay": "Gilberto Celestino  Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
-        "outs": 1
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21854,10 +21854,17 @@
             },
             {
               "reference_id": "20336-1-62",
-              "text": "Gilberto Celestino  al bate",
+              "text": "Gilberto Celestino  Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794099014
+              "ts": 1794099082
+            },
+            {
+              "reference_id": "20336-1-63",
+              "text": "Juan Brito al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794099085
             }
           ]
         }
@@ -21951,7 +21958,7 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -22141,11 +22148,11 @@
       "date": "2026-11-07 19:30:00",
       "roundText": "Alta 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Andy Ibanez  Out: Rodado al Tercera Base - Primera Base",
+      "lastPlayByPlay": "F. Cordero Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22833,10 +22840,17 @@
             },
             {
               "reference_id": "20342-1-33",
-              "text": "F. Cordero al bate",
+              "text": "F. Cordero Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794098957
+              "ts": 1794099067
+            },
+            {
+              "reference_id": "20342-1-34",
+              "text": "M. De la Cruz al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794099070
             }
           ]
         }
@@ -22888,7 +22902,7 @@
           "num": 4,
           "half": "top",
           "label": "Alta 4ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
