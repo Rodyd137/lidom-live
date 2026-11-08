@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2236",
-    "scraped_at": "2026-11-08T23:00:48.574Z",
+    "scraped_at": "2026-11-08T23:01:53.052Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-08 17:00:00",
-    "roundText": "Baja 6ta",
-    "currentInningNum": 6,
-    "lastPlayByPlay": "Eloy Jimenez Ponche (K) ",
+    "roundText": "Alta 7ma",
+    "currentInningNum": 7,
+    "lastPlayByPlay": "Josh Lester  Out: Elevado al Jardinero Derecho ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -870,6 +870,27 @@
             "ts": 1794178663
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "20372-1-50",
+            "text": "Josh Lester  Out: Elevado al Jardinero Derecho ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794178885
+          },
+          {
+            "reference_id": "20372-1-51",
+            "text": "Aaron Schunk al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794178888
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -956,6 +977,13 @@
         "label": "Baja 6ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -997,14 +1025,14 @@
       {
         "num": 6,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 7,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
