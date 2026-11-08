@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-08T23:21:12.485Z",
+    "scraped_at": "2026-11-08T23:22:17.026Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -581,16 +584,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-08 17:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Gilberto Celestino  Ponche (K) ",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "Cesar Prieto   Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Harold Andres Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 7ma",
-        "currentInningNum": 7,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 8va",
+        "currentInningNum": 8,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -622,13 +625,13 @@
           "runs_half": 3,
           "errors": 2,
           "hits": 6,
-          "pitcher": "Phillips Valdez",
+          "pitcher": "Joe Record",
           "era": "",
           "debut": 0,
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -13386,16 +13389,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-08 17:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Gilberto Celestino  Ponche (K) ",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "Cesar Prieto   Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Harold Andres Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 7ma",
-        "currentInningNum": 7,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 8va",
+        "currentInningNum": 8,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -13427,13 +13430,13 @@
           "runs_half": 3,
           "errors": 2,
           "hits": 6,
-          "pitcher": "Phillips Valdez",
+          "pitcher": "Joe Record",
           "era": "",
           "debut": 0,
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -20563,7 +20566,7 @@
           "id": 2236,
           "date": "2026-11-08 17:00:00",
           "status": 2,
-          "roundText": "Baja 7ma",
+          "roundText": "Alta 8va",
           "awayTeam": {
             "id": 7,
             "name": "Estrellas",
@@ -21605,7 +21608,7 @@
           "id": 2236,
           "date": "2026-11-08 17:00:00",
           "status": 2,
-          "roundText": "Baja 7ma",
+          "roundText": "Alta 8va",
           "awayTeam": {
             "id": 7,
             "name": "Estrellas",
@@ -21693,16 +21696,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-08 17:00:00",
-      "roundText": "Baja 7ma",
-      "currentInningNum": 7,
-      "lastPlayByPlay": "Gilberto Celestino  Ponche (K) ",
+      "roundText": "Alta 8va",
+      "currentInningNum": 8,
+      "lastPlayByPlay": "Cesar Prieto   Out: Rodado al Segunda Base - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 1
       },
       "base_state": {
-        "battingTeam": "homeTeam",
+        "battingTeam": "awayTeam",
         "base": 1
       },
       "base_runners": {
@@ -21864,7 +21867,7 @@
             "H2": 3
           },
           "probables": {
-            "pitcher": "Phillips Valdez",
+            "pitcher": "Joe Record",
             "era": "",
             "record": "",
             "debut": false
@@ -22617,6 +22620,27 @@
               "ts": 1794179803
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "plays": [
+            {
+              "reference_id": "20373-1-57",
+              "text": "Cesar Prieto   Out: Rodado al Segunda Base - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794180104
+            },
+            {
+              "reference_id": "20373-1-58",
+              "text": "Harold Andres Ramirez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794180106
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22717,6 +22741,13 @@
           "label": "Baja 7ma",
           "total_plays": 4,
           "scoring_plays": 0
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "total_plays": 2,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -22765,14 +22796,14 @@
         {
           "num": 7,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
         {
           "num": 8,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
