@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2233",
-    "scraped_at": "2026-11-08T00:01:31.703Z",
+    "scraped_at": "2026-11-08T00:02:35.622Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-07 19:30:00",
-    "roundText": "Alta 2da",
+    "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "F. Cordero Ponche (K) ",
+    "lastPlayByPlay": "Marco Luciano  Sencillo Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 1
+      "battingTeam": "homeTeam",
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 0,
           "H2": 0
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 0
         }
       },
@@ -527,6 +527,27 @@
             "ts": 1794095928
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "20340-2-12",
+            "text": "Marco Luciano  Sencillo Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794096120
+          },
+          {
+            "reference_id": "20340-2-13",
+            "text": "Jose Tena al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794096123
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -550,6 +571,13 @@
         "label": "Alta 2da",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -562,7 +590,7 @@
       },
       {
         "num": 2,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -664,8 +692,8 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 5,
-          "hits": 7,
+          "runs": 6,
+          "hits": 8,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }
