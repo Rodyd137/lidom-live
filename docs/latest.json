@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-08T01:26:43.385Z",
+    "scraped_at": "2026-11-08T01:27:47.532Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "Felix Reyes Ponche (K) ",
-        "atBat": "Francisco Urbaez",
+        "lastPlayByPlay": "Francisco Urbaez Doble! ",
+        "atBat": "Rafael Lantigua ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -605,7 +605,7 @@
           "runs": 5,
           "runs_half": 2,
           "errors": 2,
-          "hits": 9,
+          "hits": 10,
           "pitcher": "Aaron Brooks",
           "era": "",
           "debut": 0,
@@ -629,7 +629,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2233,
@@ -655,10 +655,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -670,7 +667,7 @@
           "runs_half": 4,
           "errors": 1,
           "hits": 7,
-          "pitcher": "Reid Vanscoter",
+          "pitcher": "Kelly Austin",
           "era": "",
           "debut": 0,
           "record": ""
@@ -13195,12 +13192,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "Felix Reyes Ponche (K) ",
-        "atBat": "Francisco Urbaez",
+        "lastPlayByPlay": "Francisco Urbaez Doble! ",
+        "atBat": "Rafael Lantigua ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13272,10 +13269,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -13287,7 +13281,7 @@
           "runs_half": 4,
           "errors": 1,
           "hits": 7,
-          "pitcher": "Reid Vanscoter",
+          "pitcher": "Kelly Austin",
           "era": "",
           "debut": 0,
           "record": ""
@@ -20836,7 +20830,7 @@
             "abbr": "EO",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
             "runs": 4,
-            "hits": 8,
+            "hits": 9,
             "errors": 0,
             "permalink": "/equipo/estrellas-orientales"
           }
@@ -20909,7 +20903,7 @@
       "date": "2026-11-07 18:00:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Felix Reyes Ponche (K) ",
+      "lastPlayByPlay": "Francisco Urbaez Doble! ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -20917,14 +20911,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 3
+        "base": 5
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -21986,10 +21980,17 @@
             },
             {
               "reference_id": "20337-1-78",
-              "text": "Francisco Urbaez al bate",
+              "text": "Francisco Urbaez Doble! ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794101153
+              "ts": 1794101206
+            },
+            {
+              "reference_id": "20337-1-79",
+              "text": "Rafael Lantigua  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794101256
             }
           ]
         }
@@ -22097,7 +22098,7 @@
           "num": 8,
           "half": "top",
           "label": "Alta 8va",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -22214,7 +22215,7 @@
             "abbr": "EO",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
             "runs": 4,
-            "hits": 8,
+            "hits": 9,
             "errors": 0,
             "permalink": "/equipo/estrellas-orientales"
           }
@@ -22295,14 +22296,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -22335,7 +22336,7 @@
             "H2": 4
           },
           "probables": {
-            "pitcher": "Reid Vanscoter",
+            "pitcher": "Kelly Austin",
             "era": "",
             "record": "",
             "debut": false
@@ -22451,7 +22452,7 @@
           "permalink": "/equipo/estrellas-orientales",
           "totals": {
             "R": 4,
-            "H": 8,
+            "H": 9,
             "E": 0,
             "H2": 4
           },
@@ -22622,7 +22623,7 @@
           },
           "home": {
             "R": 4,
-            "H": 8,
+            "H": 9,
             "E": 0
           }
         },
