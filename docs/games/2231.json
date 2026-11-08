@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2231",
-    "scraped_at": "2026-11-08T00:03:39.617Z",
+    "scraped_at": "2026-11-08T00:04:44.089Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-11-07 17:00:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Ramon Hernandez Base por Bolas ",
+    "lastPlayByPlay": "Francisco Mejia Triple! 3 Carreras Impulsadas ",
     "counts": {
       "balls": 1,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 8
+      "base": 4
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
-          "R": 3,
-          "H": 6,
+          "R": 6,
+          "H": 8,
           "E": 0,
           "H2": 3
         },
@@ -329,7 +329,7 @@
         {
           "num": 8,
           "away": 1,
-          "home": 0
+          "home": 3
         },
         {
           "num": 9,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 3,
-          "H": 6,
+          "R": 6,
+          "H": 8,
           "E": 0
         }
       },
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 3
+            "R": 6
           },
           {
             "num": 9,
-            "R": 3
+            "R": 6
           }
         ]
       }
@@ -1025,10 +1025,17 @@
           },
           {
             "reference_id": "20328-2-67",
-            "text": "Francisco Mejia al bate",
+            "text": "Francisco Mejia Triple! 3 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1794096259
+          },
+          {
+            "reference_id": "20328-2-68",
+            "text": "Sergio Alcantara al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1794096194
+            "ts": 1794096266
           }
         ]
       }
@@ -1143,8 +1150,8 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 5,
-        "scoring_plays": 0
+        "total_plays": 6,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1202,7 +1209,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 3
       },
       {
         "num": 9,
