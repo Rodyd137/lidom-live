@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2233",
-    "scraped_at": "2026-11-08T00:31:20.336Z",
+    "scraped_at": "2026-11-08T00:32:24.254Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-07 19:30:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "M. Hernandez  Out: Rodado al Lanzador - Primera Base",
+    "lastPlayByPlay": "Cesar Prieto  Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -625,6 +625,27 @@
             "ts": 1794097721
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "20341-2-24",
+            "text": "Cesar Prieto  Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794097906
+          },
+          {
+            "reference_id": "20341-2-25",
+            "text": "Harold Andres Ramirez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794097908
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -662,6 +683,13 @@
         "label": "Alta 3ra",
         "total_plays": 7,
         "scoring_plays": 2
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -681,7 +709,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 3,
         "homeTeamRuns": 0
@@ -767,7 +795,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 3,
-          "hits": 8,
+          "hits": 7,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
         },
