@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-08T00:16:25.939Z",
+    "scraped_at": "2026-11-08T00:17:30.140Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -520,16 +520,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-07 17:00:00",
-        "part": 2,
-        "lastPlayByPlay": "C. Adames  Out: Rodado al Primera Base",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Ferreras",
         "comment": "",
         "winningPitcher": "Luis Frias",
         "losingPitcher": "Hanzel Robles",
         "savingPitcher": "",
-        "roundText": "Baja 8va",
-        "currentInningNum": 8,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 9na",
+        "currentInningNum": 9,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -561,14 +561,14 @@
           "runs_half": 3,
           "errors": 0,
           "hits": 11,
-          "pitcher": "Luis Frias",
+          "pitcher": "Wander Suero",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
-        "strikes": 0
+        "balls": 1,
+        "outs": 0,
+        "strikes": 2
       },
       {
         "id": 2232,
@@ -583,7 +583,7 @@
         "date": "2026-11-07 18:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Juan Brito",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2233,
@@ -13134,16 +13134,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-07 17:00:00",
-        "part": 2,
-        "lastPlayByPlay": "C. Adames  Out: Rodado al Primera Base",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Ferreras",
         "comment": "",
         "winningPitcher": "Luis Frias",
         "losingPitcher": "Hanzel Robles",
         "savingPitcher": "",
-        "roundText": "Baja 8va",
-        "currentInningNum": 8,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 9na",
+        "currentInningNum": 9,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -13175,14 +13175,14 @@
           "runs_half": 3,
           "errors": 0,
           "hits": 11,
-          "pitcher": "Luis Frias",
+          "pitcher": "Wander Suero",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
-        "strikes": 0
+        "balls": 1,
+        "outs": 0,
+        "strikes": 2
       },
       {
         "id": 2232,
@@ -13241,9 +13241,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2233,
@@ -19516,16 +19516,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-07 17:00:00",
-      "roundText": "Baja 8va",
-      "currentInningNum": 8,
-      "lastPlayByPlay": "C. Adames  Out: Rodado al Primera Base",
+      "roundText": "Alta 9na",
+      "currentInningNum": 9,
+      "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
-        "outs": 3
+        "balls": 1,
+        "strikes": 2,
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
+        "battingTeam": "awayTeam",
         "base": 1
       },
       "base_runners": {
@@ -19687,7 +19687,7 @@
             "H2": 3
           },
           "probables": {
-            "pitcher": "Luis Frias",
+            "pitcher": "Wander Suero",
             "era": "",
             "record": "",
             "debut": false
@@ -20573,6 +20573,20 @@
               "ts": 1794096881
             }
           ]
+        },
+        {
+          "num": 9,
+          "half": "top",
+          "label": "Alta 9na",
+          "plays": [
+            {
+              "reference_id": "20329-1-73",
+              "text": "Ferreras al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794097039
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20687,6 +20701,13 @@
           "label": "Baja 8va",
           "total_plays": 10,
           "scoring_plays": 3
+        },
+        {
+          "num": 9,
+          "half": "top",
+          "label": "Alta 9na",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20742,14 +20763,14 @@
         {
           "num": 8,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 1,
           "homeTeamRuns": 5
         },
         {
           "num": 9,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         }
@@ -20877,8 +20898,8 @@
       "currentInningNum": 6,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
+        "balls": 2,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -21713,6 +21734,20 @@
               "ts": 1794096814
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "plays": [
+            {
+              "reference_id": "20335-1-49",
+              "text": "Juan Brito al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794096985
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21785,6 +21820,13 @@
           "label": "Baja 5ta",
           "total_plays": 8,
           "scoring_plays": 1
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -21857,7 +21899,7 @@
           "id": 2231,
           "date": "2026-11-07 17:00:00",
           "status": 2,
-          "roundText": "Baja 8va",
+          "roundText": "Alta 9na",
           "awayTeam": {
             "id": 5,
             "name": "Gigantes",
@@ -22668,7 +22710,7 @@
           "id": 2231,
           "date": "2026-11-07 17:00:00",
           "status": 2,
-          "roundText": "Baja 8va",
+          "roundText": "Alta 9na",
           "awayTeam": {
             "id": 5,
             "name": "Gigantes",
