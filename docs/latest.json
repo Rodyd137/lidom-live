@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-08T23:28:44.905Z",
+    "scraped_at": "2026-11-08T23:29:49.748Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 8,
         "status": 2,
         "date": "2026-11-08 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Junior Lake Sencillo Jardinero Derecho ",
-        "atBat": "Yamaico Navarro",
+        "lastPlayByPlay": "Yamaico Navarro Base por Bolas ",
+        "atBat": "M. De la Cruz",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -566,9 +569,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 2,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2236,
@@ -13319,12 +13322,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 8,
         "status": 2,
         "date": "2026-11-08 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Junior Lake Sencillo Jardinero Derecho ",
-        "atBat": "Yamaico Navarro",
+        "lastPlayByPlay": "Yamaico Navarro Base por Bolas ",
+        "atBat": "M. De la Cruz",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13335,7 +13338,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -13368,9 +13374,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 2,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2236,
@@ -19524,22 +19530,22 @@
       "date": "2026-11-08 17:00:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Junior Lake Sencillo Jardinero Derecho ",
+      "lastPlayByPlay": "Yamaico Navarro Base por Bolas ",
       "counts": {
-        "balls": 3,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 5
+        "base": 8
       },
       "base_runners": {
         "on1B": true,
         "on2B": true,
-        "on3B": false,
-        "runners": 2,
-        "mask": 5
+        "on3B": true,
+        "runners": 3,
+        "mask": 8
       },
       "betting": {
         "moneyline": {
@@ -20377,10 +20383,17 @@
             },
             {
               "reference_id": "20353-2-54",
-              "text": "Yamaico Navarro al bate",
+              "text": "Yamaico Navarro Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794180294
+              "ts": 1794180533
+            },
+            {
+              "reference_id": "20353-2-55",
+              "text": "M. De la Cruz al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794180537
             }
           ]
         }
@@ -20467,7 +20480,7 @@
           "num": 6,
           "half": "bottom",
           "label": "Baja 6ta",
-          "total_plays": 5,
+          "total_plays": 6,
           "scoring_plays": 0
         }
       ],
