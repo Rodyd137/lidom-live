@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-08T01:20:19.644Z",
+    "scraped_at": "2026-11-08T01:21:23.830Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,19 +639,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 6,
+        "base": 1,
         "status": 2,
         "date": "2026-11-07 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "M. Hernandez Ponche (K) ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Raimel Tapia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "currentInningNum": 5,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -13253,19 +13253,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 6,
+        "base": 1,
         "status": 2,
         "date": "2026-11-07 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "M. Hernandez Ponche (K) ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Raimel Tapia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "currentInningNum": 5,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -13303,7 +13303,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -20813,7 +20813,7 @@
           "id": 2233,
           "date": "2026-11-07 19:30:00",
           "status": 2,
-          "roundText": "Alta 5ta",
+          "roundText": "Baja 5ta",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -22156,7 +22156,7 @@
           "id": 2233,
           "date": "2026-11-07 19:30:00",
           "status": 2,
-          "roundText": "Alta 5ta",
+          "roundText": "Baja 5ta",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -22244,24 +22244,24 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-07 19:30:00",
-      "roundText": "Alta 5ta",
+      "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "M. Hernandez Ponche (K) ",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
-        "base": 6
+        "battingTeam": "homeTeam",
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
+        "on1B": false,
         "on2B": false,
-        "on3B": true,
-        "runners": 2,
-        "mask": 6
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -23042,6 +23042,20 @@
               "ts": 1794100674
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "plays": [
+            {
+              "reference_id": "20343-2-46",
+              "text": "Raimel Tapia al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794100844
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23107,6 +23121,13 @@
           "label": "Alta 5ta",
           "total_plays": 7,
           "scoring_plays": 1
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -23140,7 +23161,7 @@
         },
         {
           "num": 5,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 1,
           "homeTeamRuns": 0
