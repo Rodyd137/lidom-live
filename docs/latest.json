@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-08T02:07:10.731Z",
+    "scraped_at": "2026-11-08T02:08:14.493Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -642,16 +642,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-07 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "F. Cordero Ponche (K) ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Harold Andres Ramirez",
         "comment": "",
         "winningPitcher": "Kelly Austin",
         "losingPitcher": "Eddy Yean",
         "savingPitcher": "",
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "currentInningNum": 7,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -13256,16 +13256,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-07 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "F. Cordero Ponche (K) ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Harold Andres Ramirez",
         "comment": "",
         "winningPitcher": "Kelly Austin",
         "losingPitcher": "Eddy Yean",
         "savingPitcher": "",
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "currentInningNum": 7,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -13303,7 +13303,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -20813,7 +20813,7 @@
           "id": 2233,
           "date": "2026-11-07 19:30:00",
           "status": 2,
-          "roundText": "Alta 7ma",
+          "roundText": "Baja 7ma",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -22289,7 +22289,7 @@
           "id": 2233,
           "date": "2026-11-07 19:30:00",
           "status": 2,
-          "roundText": "Alta 7ma",
+          "roundText": "Baja 7ma",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -22377,16 +22377,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-07 19:30:00",
-      "roundText": "Alta 7ma",
+      "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "F. Cordero Ponche (K) ",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -23343,6 +23343,20 @@
               "ts": 1794103608
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "plays": [
+            {
+              "reference_id": "20345-2-65",
+              "text": "Harold Andres Ramirez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794103673
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23436,6 +23450,13 @@
           "label": "Alta 7ma",
           "total_plays": 7,
           "scoring_plays": 1
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -23483,7 +23504,7 @@
         },
         {
           "num": 7,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 1,
           "homeTeamRuns": 0
