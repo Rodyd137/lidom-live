@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-08T01:23:31.974Z",
+    "scraped_at": "2026-11-08T01:24:35.834Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Jesús Sanchez ",
+        "lastPlayByPlay": "Jesús Sanchez  Out: Elevado al Jardinero Central",
+        "atBat": "Felix Reyes",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,8 +627,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
+        "balls": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-07 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Raimel Tapia Ponche (K) ",
-        "atBat": "Leonardo Bernal ",
+        "lastPlayByPlay": "Leonardo Bernal  Ponche (K) ",
+        "atBat": "Marco Luciano ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -655,7 +655,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -689,7 +692,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -13196,8 +13199,8 @@
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Jesús Sanchez ",
+        "lastPlayByPlay": "Jesús Sanchez  Out: Elevado al Jardinero Central",
+        "atBat": "Felix Reyes",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13241,8 +13244,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
+        "balls": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -13257,8 +13260,8 @@
         "status": 2,
         "date": "2026-11-07 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Raimel Tapia Ponche (K) ",
-        "atBat": "Leonardo Bernal ",
+        "lastPlayByPlay": "Leonardo Bernal  Ponche (K) ",
+        "atBat": "Marco Luciano ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13269,7 +13272,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -13303,7 +13309,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -20903,11 +20909,11 @@
       "date": "2026-11-07 18:00:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Jesús Sanchez  Out: Elevado al Jardinero Central",
       "counts": {
-        "balls": 1,
+        "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21966,10 +21972,17 @@
           "plays": [
             {
               "reference_id": "20337-1-76",
-              "text": "Jesús Sanchez  al bate",
+              "text": "Jesús Sanchez  Out: Elevado al Jardinero Central",
               "scored": false,
               "is_primary": true,
-              "ts": 1794101003
+              "ts": 1794101065
+            },
+            {
+              "reference_id": "20337-1-77",
+              "text": "Felix Reyes al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794101068
             }
           ]
         }
@@ -22077,7 +22090,7 @@
           "num": 8,
           "half": "top",
           "label": "Alta 8va",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -22267,11 +22280,11 @@
       "date": "2026-11-07 19:30:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Raimel Tapia Ponche (K) ",
+      "lastPlayByPlay": "Leonardo Bernal  Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -23078,10 +23091,17 @@
             },
             {
               "reference_id": "20343-2-47",
-              "text": "Leonardo Bernal  al bate",
+              "text": "Leonardo Bernal  Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794100944
+              "ts": 1794101050
+            },
+            {
+              "reference_id": "20343-2-48",
+              "text": "Marco Luciano  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794101053
             }
           ]
         }
@@ -23154,7 +23174,7 @@
           "num": 5,
           "half": "bottom",
           "label": "Baja 5ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
