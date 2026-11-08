@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-08T00:59:00.411Z",
+    "scraped_at": "2026-11-08T01:00:04.228Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,7 +578,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 2,
@@ -627,7 +627,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
         "strikes": 0
       },
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-07 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Junior Perez Ponche (K) ",
-        "atBat": "Cesar Prieto ",
+        "lastPlayByPlay": "Cesar Prieto   Out: Rodado al Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 1
       }
     ],
@@ -13192,7 +13192,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-07 18:00:00",
         "part": 2,
@@ -13241,7 +13241,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
         "strikes": 0
       },
@@ -13257,8 +13257,8 @@
         "status": 2,
         "date": "2026-11-07 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Junior Perez Ponche (K) ",
-        "atBat": "Cesar Prieto ",
+        "lastPlayByPlay": "Cesar Prieto   Out: Rodado al Primera Base",
+        "atBat": "Harold Andres Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13303,7 +13303,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 1
       }
     ],
@@ -20905,20 +20905,20 @@
       "currentInningNum": 7,
       "lastPlayByPlay": "Aderlin Rodríguez Sencillo ",
       "counts": {
-        "balls": 0,
+        "balls": 1,
         "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -22183,11 +22183,11 @@
       "date": "2026-11-07 19:30:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Junior Perez Ponche (K) ",
+      "lastPlayByPlay": "Cesar Prieto   Out: Rodado al Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 1,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -22903,10 +22903,17 @@
             },
             {
               "reference_id": "20342-2-36",
-              "text": "Cesar Prieto  al bate",
+              "text": "Cesar Prieto   Out: Rodado al Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794099491
+              "ts": 1794099601
+            },
+            {
+              "reference_id": "20342-2-37",
+              "text": "Harold Andres Ramirez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794099603
             }
           ]
         }
@@ -22965,7 +22972,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
