@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2233",
-    "scraped_at": "2026-11-08T00:34:32.466Z",
+    "scraped_at": "2026-11-08T00:35:36.482Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-11-07 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Raimel Tapia Doble! 2 Carreras Impulsadas ",
+    "lastPlayByPlay": "Leonardo Bernal  Doble! Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 2,
-          "H": 5,
+          "H": 6,
           "E": 0,
           "H2": 2
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 2,
-          "H": 5,
+          "H": 6,
           "E": 0
         }
       },
@@ -654,10 +654,17 @@
           },
           {
             "reference_id": "20341-2-27",
-            "text": "Leonardo Bernal  al bate",
+            "text": "Leonardo Bernal  Doble! Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1794098029
+            "ts": 1794098120
+          },
+          {
+            "reference_id": "20341-2-28",
+            "text": "Marco Luciano  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794098125
           }
         ]
       }
@@ -702,7 +709,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 1
       }
     ],
