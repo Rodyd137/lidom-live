@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2236",
-    "scraped_at": "2026-11-09T00:06:35.571Z",
+    "scraped_at": "2026-11-09T00:07:40.252Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-08 17:00:00",
-    "roundText": "Alta 10ma",
+    "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Wilin Rosario Out: Elevado al Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 1
+      "battingTeam": "homeTeam",
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -59,7 +59,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Luis Garcias",
+          "pitcher": "Jhan Mariñez",
           "era": "",
           "record": "",
           "debut": false
@@ -264,10 +264,10 @@
             "position": ""
           },
           {
-            "id": 6012,
+            "id": 6171,
             "team_id": 6,
-            "name": "Pedro Severino",
-            "abbreviation": "P. Severino",
+            "name": "Juan Brito",
+            "abbreviation": "Juan Brito",
             "number": null,
             "dob": null,
             "height": "",
@@ -1128,6 +1128,20 @@
             "ts": 1794182739
           }
         ]
+      },
+      {
+        "num": 10,
+        "half": "bottom",
+        "label": "Baja 10ma",
+        "plays": [
+          {
+            "reference_id": "21389-2-77",
+            "text": "Juan Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794182855
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1263,6 +1277,13 @@
         "label": "Alta 10ma",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 10,
+        "half": "bottom",
+        "label": "Baja 10ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1331,7 +1352,7 @@
       },
       {
         "num": 10,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
