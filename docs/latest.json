@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-09T00:11:56.127Z",
+    "scraped_at": "2026-11-09T00:13:01.053Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -582,8 +585,8 @@
         "status": 2,
         "date": "2026-11-08 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Juan Brito Sencillo Jardinero Izquierdo",
-        "atBat": "Rafael Lantigua ",
+        "lastPlayByPlay": "Enmanuel Valdez  Out: Elevado al Tercera Base",
+        "atBat": "Gilberto Celestino ",
         "comment": "",
         "winningPitcher": "Luis Garcias",
         "losingPitcher": "Lucas Sims",
@@ -594,10 +597,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
-          "text": "Reunión Lomita"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -631,7 +631,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -13335,7 +13335,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -13384,8 +13387,8 @@
         "status": 2,
         "date": "2026-11-08 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Juan Brito Sencillo Jardinero Izquierdo",
-        "atBat": "Rafael Lantigua ",
+        "lastPlayByPlay": "Enmanuel Valdez  Out: Elevado al Tercera Base",
+        "atBat": "Gilberto Celestino ",
         "comment": "",
         "winningPitcher": "Luis Garcias",
         "losingPitcher": "Lucas Sims",
@@ -13396,10 +13399,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
-          "text": "Reunión Lomita"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -13433,7 +13433,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -21853,11 +21853,11 @@
       "date": "2026-11-08 17:00:00",
       "roundText": "Baja 10ma",
       "currentInningNum": 10,
-      "lastPlayByPlay": "Juan Brito Sencillo Jardinero Izquierdo",
+      "lastPlayByPlay": "Enmanuel Valdez  Out: Elevado al Tercera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -22110,6 +22110,17 @@
               "team_id": 6,
               "name": "Juan Brito",
               "abbreviation": "Juan Brito",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6011,
+              "team_id": 6,
+              "name": "Enmanuel Valdez ",
+              "abbreviation": "E. Valdez",
               "number": null,
               "dob": null,
               "height": "",
@@ -22973,11 +22984,18 @@
               "ts": 1794183051
             },
             {
-              "reference_id": "21389-2-78",
-              "text": "Rafael Lantigua  al bate",
+              "reference_id": "21389-2-79",
+              "text": "Enmanuel Valdez  Out: Elevado al Tercera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794183058
+              "ts": 1794183171
+            },
+            {
+              "reference_id": "21389-2-80",
+              "text": "Gilberto Celestino  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794183174
             }
           ]
         }
@@ -23120,7 +23138,7 @@
           "num": 10,
           "half": "bottom",
           "label": "Baja 10ma",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
