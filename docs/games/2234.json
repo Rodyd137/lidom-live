@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2234",
-    "scraped_at": "2026-11-09T00:09:49.423Z",
+    "scraped_at": "2026-11-09T00:10:53.951Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-08 17:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "C. Adames Segunda Base Wild Pitch",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -976,10 +976,24 @@
         "plays": [
           {
             "reference_id": "20355-1-66",
-            "text": "C. Adames al bate",
+            "text": "C. Adames Sencillo Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1794182677
+            "ts": 1794183012
+          },
+          {
+            "reference_id": "20355-1-67",
+            "text": "C. Adames Segunda Base Wild Pitch",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794183031
+          },
+          {
+            "reference_id": "20355-1-68",
+            "text": "Sergio Alcantara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794183034
           }
         ]
       }
@@ -1087,7 +1101,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -1204,7 +1218,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 3,
-          "hits": 8,
+          "hits": 9,
           "errors": 2,
           "permalink": "/equipo/toros-del-este"
         }
