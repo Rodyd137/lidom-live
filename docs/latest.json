@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-09T00:01:07.421Z",
+    "scraped_at": "2026-11-09T00:02:12.451Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,10 +533,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -571,7 +568,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2236,
@@ -585,8 +582,8 @@
         "status": 2,
         "date": "2026-11-08 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Miguel Bleis Toque de Sacrificio Tercera Base - Primera Base",
-        "atBat": "Cesar Prieto ",
+        "lastPlayByPlay": "Cesar Prieto  Doble y 1 Carrera Impulsada ",
+        "atBat": "Harold Andres Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13335,10 +13332,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -13373,7 +13367,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2236,
@@ -13387,8 +13381,8 @@
         "status": 2,
         "date": "2026-11-08 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Cesar Prieto  Sencillo y 1 Carrera Impulsada ",
-        "atBat": null,
+        "lastPlayByPlay": "Cesar Prieto  Doble y 1 Carrera Impulsada ",
+        "atBat": "Harold Andres Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -19527,7 +19521,7 @@
       "lastPlayByPlay": "Ramon Laureano Sencillo Jardinero Central",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 2,
         "outs": 2
       },
       "base_state": {
@@ -21811,7 +21805,7 @@
       "date": "2026-11-08 17:00:00",
       "roundText": "Alta 10ma",
       "currentInningNum": 10,
-      "lastPlayByPlay": "Miguel Bleis Toque de Sacrificio Tercera Base - Primera Base",
+      "lastPlayByPlay": "Cesar Prieto  Doble y 1 Carrera Impulsada ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -22901,10 +22895,17 @@
             },
             {
               "reference_id": "21389-1-72",
-              "text": "Cesar Prieto  al bate",
+              "text": "Cesar Prieto  Doble y 1 Carrera Impulsada ",
+              "scored": true,
+              "is_primary": true,
+              "ts": 1794182466
+            },
+            {
+              "reference_id": "21389-1-73",
+              "text": "Harold Andres Ramirez al bate",
               "scored": false,
               "is_primary": true,
-              "ts": 1794182428
+              "ts": 1794182469
             }
           ]
         }
@@ -23040,8 +23041,8 @@
           "num": 10,
           "half": "top",
           "label": "Alta 10ma",
-          "total_plays": 2,
-          "scoring_plays": 0
+          "total_plays": 3,
+          "scoring_plays": 1
         }
       ],
       "innings_raw": [
