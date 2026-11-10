@@ -1,21 +1,21 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2240",
-    "scraped_at": "2026-11-10T18:37:14.395Z",
+    "scraped_at": "2026-11-10T23:44:14.950Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2240,
     "season_id": 23,
-    "status": 1,
+    "status": 2,
     "date": "2026-11-10 19:30:00",
     "roundText": "Alta 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Noelvi Marte   Out: Rodado al Tercera Base - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0
+      "balls": 3,
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -64,7 +64,96 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 5989,
+            "team_id": 5,
+            "name": "Carlos Jorge ",
+            "abbreviation": "C. Jorge",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5990,
+            "team_id": 5,
+            "name": "Noelvi Marte ",
+            "abbreviation": "N. Marte",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5991,
+            "team_id": 5,
+            "name": "Marcell Ozuna ",
+            "abbreviation": "M. Ozuna",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6131,
+            "team_id": 5,
+            "name": "Nomar Mazara",
+            "abbreviation": "N. Mazara",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 5992,
+            "team_id": 5,
+            "name": "Deyvinson de los Santos",
+            "abbreviation": "D. de los Santos",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6068,
+            "team_id": 5,
+            "name": "Agustin Ramirez",
+            "abbreviation": "Agustin Ramirez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6090,
+            "team_id": 5,
+            "name": "Roly Brito",
+            "abbreviation": "Roly Brito",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6152,
+            "team_id": 5,
+            "name": "Ferreras",
+            "abbreviation": "Ferreras",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       },
       "home": {
         "id": 1,
@@ -80,7 +169,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "",
+          "pitcher": "Mike Clevinger",
           "era": "",
           "record": "",
           "debut": false
@@ -229,8 +318,45 @@
         ]
       }
     },
-    "plays_by_inning": [],
-    "plays_summary_by_inning": [],
+    "plays_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "plays": [
+          {
+            "reference_id": "20402-1-1",
+            "text": "Carlos Jorge  Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794354021
+          },
+          {
+            "reference_id": "20402-1-2",
+            "text": "Noelvi Marte   Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794354159
+          },
+          {
+            "reference_id": "20402-1-3",
+            "text": "Marcell Ozuna  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794354161
+          }
+        ]
+      }
+    ],
+    "plays_summary_by_inning": [
+      {
+        "num": 1,
+        "half": "top",
+        "label": "Alta 1ra",
+        "total_plays": 3,
+        "scoring_plays": 0
+      }
+    ],
     "innings_raw": [
       {
         "num": 1,
@@ -300,7 +426,7 @@
       {
         "id": 2241,
         "date": "2026-11-10 19:30:00",
-        "status": 1,
+        "status": 4,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 6,
@@ -326,7 +452,7 @@
       {
         "id": 2242,
         "date": "2026-11-10 19:30:00",
-        "status": 1,
+        "status": 2,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 4,
@@ -334,7 +460,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 2,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
