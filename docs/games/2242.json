@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2242",
-    "scraped_at": "2026-11-11T01:23:35.068Z",
+    "scraped_at": "2026-11-11T01:24:40.096Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-10 19:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "M. Hernandez Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Erik Gonzales Elevado de Sacrificio Carrera Empujada",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 1
+      "balls": 0,
+      "strikes": 0,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 6
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
-      "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "on1B": false,
+      "on2B": true,
+      "on3B": false,
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -53,10 +53,10 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
-          "R": 9,
+          "R": 10,
           "H": 11,
           "E": 1,
-          "H2": 9
+          "H2": 10
         },
         "probables": {
           "pitcher": "Sauryn Lao",
@@ -313,7 +313,7 @@
         },
         {
           "num": 5,
-          "away": 1,
+          "away": 2,
           "home": 0
         },
         {
@@ -340,7 +340,7 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 9,
+          "R": 10,
           "H": 11,
           "E": 1
         },
@@ -370,23 +370,23 @@
           },
           {
             "num": 5,
-            "R": 9
+            "R": 10
           },
           {
             "num": 6,
-            "R": 9
+            "R": 10
           },
           {
             "num": 7,
-            "R": 9
+            "R": 10
           },
           {
             "num": 8,
-            "R": 9
+            "R": 10
           },
           {
             "num": 9,
-            "R": 9
+            "R": 10
           }
         ],
         "home": [
@@ -801,10 +801,17 @@
           },
           {
             "reference_id": "20424-1-44",
-            "text": "Erik Gonzales al bate",
+            "text": "Erik Gonzales Elevado de Sacrificio Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1794360223
+          },
+          {
+            "reference_id": "20424-1-45",
+            "text": "Ramon Laureano al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1794360049
+            "ts": 1794360226
           }
         ]
       }
@@ -870,8 +877,8 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 6,
-        "scoring_plays": 1
+        "total_plays": 7,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -907,7 +914,7 @@
         "num": 5,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 1,
+        "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
