@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-11T01:18:07.723Z",
+    "scraped_at": "2026-11-11T01:19:12.924Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Noelvi Marte   Out: Rodado al Campo Corto - Primera Base",
-        "atBat": "Marcell Ozuna ",
+        "lastPlayByPlay": "Marcell Ozuna  Sencillo Jardinero Izquierdo",
+        "atBat": "Nomar Mazara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -544,7 +544,7 @@
           "runs": 2,
           "runs_half": 2,
           "errors": 0,
-          "hits": 4,
+          "hits": 5,
           "pitcher": "Antonio Santos",
           "era": "",
           "debut": 0,
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "M. De la Cruz Out: Elevado al Jardinero Izquierdo",
-        "atBat": "Jonathan Guzman",
+        "lastPlayByPlay": "Jonathan Guzman Sencillo Jardinero Izquierdo",
+        "atBat": "M. Hernandez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,7 +627,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 1,
         "strikes": 0
       },
@@ -13686,12 +13686,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Noelvi Marte   Out: Rodado al Campo Corto - Primera Base",
-        "atBat": "Marcell Ozuna ",
+        "lastPlayByPlay": "Marcell Ozuna  Sencillo Jardinero Izquierdo",
+        "atBat": "Nomar Mazara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13713,7 +13713,7 @@
           "runs": 2,
           "runs_half": 2,
           "errors": 0,
-          "hits": 4,
+          "hits": 5,
           "pitcher": "Antonio Santos",
           "era": "",
           "debut": 0,
@@ -13751,8 +13751,8 @@
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "M. De la Cruz Out: Elevado al Jardinero Izquierdo",
-        "atBat": "Jonathan Guzman",
+        "lastPlayByPlay": "Jonathan Guzman Sencillo Jardinero Izquierdo",
+        "atBat": "M. Hernandez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13796,7 +13796,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 1,
         "strikes": 0
       },
@@ -19473,12 +19473,13 @@
     "mode": "recent",
     "days_window": 14,
     "concurrency": 4,
-    "count": 35,
+    "count": 36,
     "files": {
       "2210": "games/2210.json",
       "2211": "games/2211.json",
       "2212": "games/2212.json",
       "2213": "games/2213.json",
+      "2214": "games/2214.json",
       "2215": "games/2215.json",
       "2216": "games/2216.json",
       "2217": "games/2217.json",
@@ -19520,7 +19521,7 @@
       "date": "2026-11-10 19:30:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Noelvi Marte   Out: Rodado al Campo Corto - Primera Base",
+      "lastPlayByPlay": "Marcell Ozuna  Sencillo Jardinero Izquierdo",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -19528,14 +19529,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -19563,7 +19564,7 @@
           "permalink": "/equipo/gigantes-del-cibao",
           "totals": {
             "R": 2,
-            "H": 4,
+            "H": 5,
             "E": 0,
             "H2": 2
           },
@@ -19850,7 +19851,7 @@
         "totals": {
           "away": {
             "R": 2,
-            "H": 4,
+            "H": 5,
             "E": 0
           },
           "home": {
@@ -20296,10 +20297,17 @@
             },
             {
               "reference_id": "20407-1-40",
-              "text": "Marcell Ozuna  al bate",
+              "text": "Marcell Ozuna  Sencillo Jardinero Izquierdo",
               "scored": false,
               "is_primary": true,
-              "ts": 1794359813
+              "ts": 1794359927
+            },
+            {
+              "reference_id": "20407-1-41",
+              "text": "Nomar Mazara al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794359929
             }
           ]
         }
@@ -20379,7 +20387,7 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -20866,7 +20874,7 @@
             "abbr": "GC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 2,
-            "hits": 4,
+            "hits": 5,
             "errors": 0,
             "permalink": "/equipo/gigantes-del-cibao"
           },
@@ -20977,7 +20985,7 @@
       "currentInningNum": 5,
       "lastPlayByPlay": "Jonathan Guzman Sencillo Jardinero Izquierdo",
       "counts": {
-        "balls": 0,
+        "balls": 1,
         "strikes": 0,
         "outs": 1
       },
@@ -21748,6 +21756,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1794359888
+            },
+            {
+              "reference_id": "20424-1-43",
+              "text": "M. Hernandez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794359892
             }
           ]
         }
@@ -21813,7 +21828,7 @@
           "num": 5,
           "half": "top",
           "label": "Alta 5ta",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -21894,7 +21909,7 @@
             "abbr": "GC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 2,
-            "hits": 4,
+            "hits": 5,
             "errors": 0,
             "permalink": "/equipo/gigantes-del-cibao"
           },
