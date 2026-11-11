@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-11T02:46:36.440Z",
+    "scraped_at": "2026-11-11T02:47:40.949Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,19 +517,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-11-10 19:30:00",
-        "part": 2,
-        "lastPlayByPlay": "K. Alcantara Ponche (K) ",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Kelvin Gutierrez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 9na",
-        "currentInningNum": 9,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 10ma",
+        "currentInningNum": 10,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -545,7 +545,7 @@
           "runs_half": 2,
           "errors": 0,
           "hits": 6,
-          "pitcher": "Yovanny Cruz",
+          "pitcher": "",
           "era": "",
           "debut": 0,
           "record": ""
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -13686,19 +13686,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-11-10 19:30:00",
-        "part": 2,
-        "lastPlayByPlay": "K. Alcantara Ponche (K) ",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Kelvin Gutierrez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 9na",
-        "currentInningNum": 9,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 10ma",
+        "currentInningNum": 10,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -13714,7 +13714,7 @@
           "runs_half": 2,
           "errors": 0,
           "hits": 6,
-          "pitcher": "Yovanny Cruz",
+          "pitcher": "",
           "era": "",
           "debut": 0,
           "record": ""
@@ -13736,7 +13736,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -19519,24 +19519,24 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-10 19:30:00",
-      "roundText": "Baja 9na",
-      "currentInningNum": 9,
-      "lastPlayByPlay": "K. Alcantara Ponche (K) ",
+      "roundText": "Alta 10ma",
+      "currentInningNum": 10,
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
-        "base": 1
+        "battingTeam": "awayTeam",
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -19569,7 +19569,7 @@
             "H2": 2
           },
           "probables": {
-            "pitcher": "Yovanny Cruz",
+            "pitcher": "",
             "era": "",
             "record": "",
             "debut": false
@@ -19653,10 +19653,10 @@
               "position": ""
             },
             {
-              "id": 6292,
+              "id": 6124,
               "team_id": 5,
-              "name": "Jack Pineda",
-              "abbreviation": "Jack Pineda",
+              "name": "Kelvin Gutierrez",
+              "abbreviation": "K. Gutierrez",
               "number": null,
               "dob": null,
               "height": "",
@@ -19845,9 +19845,14 @@
             "num": 9,
             "away": 0,
             "home": 0
+          },
+          {
+            "num": 10,
+            "away": 0,
+            "home": 0
           }
         ],
-        "extras": false,
+        "extras": true,
         "totals": {
           "away": {
             "R": 2,
@@ -19897,6 +19902,10 @@
             {
               "num": 9,
               "R": 2
+            },
+            {
+              "num": 10,
+              "R": 2
             }
           ],
           "home": [
@@ -19934,6 +19943,10 @@
             },
             {
               "num": 9,
+              "R": 2
+            },
+            {
+              "num": 10,
               "R": 2
             }
           ]
@@ -20562,6 +20575,20 @@
               "ts": 1794365140
             }
           ]
+        },
+        {
+          "num": 10,
+          "half": "top",
+          "label": "Alta 10ma",
+          "plays": [
+            {
+              "reference_id": "21390-1-69",
+              "text": "Kelvin Gutierrez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794365254
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20690,6 +20717,13 @@
           "label": "Baja 9na",
           "total_plays": 3,
           "scoring_plays": 0
+        },
+        {
+          "num": 10,
+          "half": "top",
+          "label": "Alta 10ma",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20752,6 +20786,13 @@
         {
           "num": 9,
           "part": 2,
+          "is_last": 0,
+          "awayTeamRuns": 0,
+          "homeTeamRuns": 0
+        },
+        {
+          "num": 10,
+          "part": 1,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
@@ -21168,7 +21209,7 @@
           "id": 2240,
           "date": "2026-11-10 19:30:00",
           "status": 2,
-          "roundText": "Baja 9na",
+          "roundText": "Alta 10ma",
           "awayTeam": {
             "id": 5,
             "name": "Gigantes",
@@ -22535,7 +22576,7 @@
           "id": 2240,
           "date": "2026-11-10 19:30:00",
           "status": 2,
-          "roundText": "Baja 9na",
+          "roundText": "Alta 10ma",
           "awayTeam": {
             "id": 5,
             "name": "Gigantes",
