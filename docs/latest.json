@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-11T03:14:32.562Z",
+    "scraped_at": "2026-11-11T03:15:37.096Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Hendry Mendez",
+        "lastPlayByPlay": "Hendry Mendez Out! Rodado de Selección.  Segunda Base - Tercera Base",
+        "atBat": "Deyvinson de los Santos",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "Nico Tellache",
@@ -566,7 +566,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 1,
         "strikes": 1
       },
@@ -13686,12 +13686,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Hendry Mendez",
+        "lastPlayByPlay": "Hendry Mendez Out! Rodado de Selección.  Segunda Base - Tercera Base",
+        "atBat": "Deyvinson de los Santos",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "Nico Tellache",
@@ -13735,7 +13735,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 1,
         "strikes": 1
       },
@@ -19521,22 +19521,22 @@
       "date": "2026-11-10 19:30:00",
       "roundText": "Alta 11ra",
       "currentInningNum": 11,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Hendry Mendez Out! Rodado de Selección.  Segunda Base - Tercera Base",
       "counts": {
-        "balls": 1,
+        "balls": 0,
         "strikes": 1,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20655,10 +20655,17 @@
           "plays": [
             {
               "reference_id": "21391-1-77",
-              "text": "Hendry Mendez al bate",
+              "text": "Hendry Mendez Out! Rodado de Selección.  Segunda Base - Tercera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794366786
+              "ts": 1794366889
+            },
+            {
+              "reference_id": "21391-1-78",
+              "text": "Deyvinson de los Santos al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794366916
             }
           ]
         }
@@ -20808,7 +20815,7 @@
           "num": 11,
           "half": "top",
           "label": "Alta 11ra",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
