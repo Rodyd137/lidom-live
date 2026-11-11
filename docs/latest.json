@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-11T02:14:19.147Z",
+    "scraped_at": "2026-11-11T02:15:24.054Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Carlos Jorge  Ponche (K) ",
-        "atBat": "Noelvi Marte ",
+        "lastPlayByPlay": "Noelvi Marte   Out: Rodado al Campo Corto - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -567,8 +567,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
-        "strikes": 1
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2242,
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Marco Luciano ",
+        "lastPlayByPlay": "Marco Luciano  Base por Bolas ",
+        "atBat": "Leonardo Bernal ",
         "comment": "",
         "winningPitcher": "Sauryn Lao",
         "losingPitcher": "Trevor Bauer",
@@ -13690,8 +13690,8 @@
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Carlos Jorge  Ponche (K) ",
-        "atBat": "Noelvi Marte ",
+        "lastPlayByPlay": "Noelvi Marte   Out: Rodado al Campo Corto - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13736,8 +13736,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
-        "strikes": 2
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2242,
@@ -13747,12 +13747,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Marco Luciano ",
+        "lastPlayByPlay": "Marco Luciano  Base por Bolas ",
+        "atBat": "Leonardo Bernal ",
         "comment": "",
         "winningPitcher": "Sauryn Lao",
         "losingPitcher": "Trevor Bauer",
@@ -19521,11 +19521,11 @@
       "date": "2026-11-10 19:30:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Carlos Jorge  Ponche (K) ",
+      "lastPlayByPlay": "Noelvi Marte   Out: Rodado al Campo Corto - Primera Base",
       "counts": {
         "balls": 0,
-        "strikes": 2,
-        "outs": 2
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -20458,10 +20458,10 @@
             },
             {
               "reference_id": "20409-1-57",
-              "text": "Noelvi Marte  al bate",
+              "text": "Noelvi Marte   Out: Rodado al Campo Corto - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794363197
+              "ts": 1794363293
             }
           ]
         }
@@ -21165,22 +21165,22 @@
       "date": "2026-11-10 19:30:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Marco Luciano  Base por Bolas ",
       "counts": {
-        "balls": 2,
+        "balls": 0,
         "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -22109,10 +22109,17 @@
           "plays": [
             {
               "reference_id": "20426-2-61",
-              "text": "Marco Luciano  al bate",
+              "text": "Marco Luciano  Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794363104
+              "ts": 1794363310
+            },
+            {
+              "reference_id": "20426-2-62",
+              "text": "Leonardo Bernal  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794363315
             }
           ]
         }
@@ -22213,7 +22220,7 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
