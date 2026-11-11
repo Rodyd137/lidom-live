@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2242",
-    "scraped_at": "2026-11-11T02:21:53.081Z",
+    "scraped_at": "2026-11-11T02:22:57.902Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-10 19:30:00",
-    "roundText": "Baja 7ma",
-    "currentInningNum": 7,
-    "lastPlayByPlay": "Josh Lester   Out: Rodado al Segunda Base - Primera Base",
+    "roundText": "Alta 8va",
+    "currentInningNum": 8,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -70,17 +70,6 @@
             "team_id": 4,
             "name": "M. Hernandez",
             "abbreviation": "M. Hernandez",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 6079,
-            "team_id": 4,
-            "name": "Erik Gonzales",
-            "abbreviation": "Erik Gonzales",
             "number": null,
             "dob": null,
             "height": "",
@@ -989,6 +978,20 @@
             "ts": 1794363582
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "20427-1-66",
+            "text": "Erik Gonzales al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794363759
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1089,6 +1092,13 @@
         "label": "Baja 7ma",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1137,14 +1147,14 @@
       {
         "num": 7,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 8,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
