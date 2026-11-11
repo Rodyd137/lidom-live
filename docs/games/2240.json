@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2240",
-    "scraped_at": "2026-11-11T03:06:08.314Z",
+    "scraped_at": "2026-11-11T03:07:13.251Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-10 19:30:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Mel Rojas Elevado de Sacrificio Jardinero Derecho ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 3
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -224,6 +224,17 @@
             "team_id": 1,
             "name": "C. Adames",
             "abbreviation": "C. Adames",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6142,
+            "team_id": 1,
+            "name": "Emilio Bonifacio",
+            "abbreviation": "Emilio Bonifacio",
             "number": null,
             "dob": null,
             "height": "",
@@ -1093,10 +1104,17 @@
         "plays": [
           {
             "reference_id": "21390-2-74",
-            "text": "Mel Rojas al bate",
+            "text": "Mel Rojas Elevado de Sacrificio Jardinero Derecho ",
             "scored": false,
             "is_primary": true,
-            "ts": 1794366331
+            "ts": 1794366394
+          },
+          {
+            "reference_id": "21390-2-75",
+            "text": "Bryan Lavastida al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794366406
           }
         ]
       }
@@ -1239,7 +1257,7 @@
         "num": 10,
         "half": "bottom",
         "label": "Baja 10ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
