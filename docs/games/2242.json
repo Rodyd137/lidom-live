@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2242",
-    "scraped_at": "2026-11-11T02:59:38.490Z",
+    "scraped_at": "2026-11-11T03:00:43.658Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-10 19:30:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Oscar Gonzalez Out: Elevado al Segunda Base",
+    "lastPlayByPlay": "Wilin Rosario Carrera Empujada Wild Pitch",
     "counts": {
-      "balls": 1,
+      "balls": 2,
       "strikes": 2,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 8
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
       "on2B": true,
-      "on3B": true,
-      "runners": 3,
-      "mask": 8
+      "on3B": false,
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -163,7 +163,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 1,
+          "R": 2,
           "H": 4,
           "E": 4,
           "H2": 1
@@ -312,7 +312,7 @@
         {
           "num": 9,
           "away": 0,
-          "home": 0
+          "home": 1
         }
       ],
       "extras": false,
@@ -323,7 +323,7 @@
           "E": 1
         },
         "home": {
-          "R": 1,
+          "R": 2,
           "H": 4,
           "E": 4
         }
@@ -402,7 +402,7 @@
           },
           {
             "num": 9,
-            "R": 1
+            "R": 2
           }
         ]
       }
@@ -1098,6 +1098,20 @@
             "scored": false,
             "is_primary": true,
             "ts": 1794365915
+          },
+          {
+            "reference_id": "20428-2-82",
+            "text": "Wilin Rosario Carrera Empujada Wild Pitch",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1794366017
+          },
+          {
+            "reference_id": "20428-2-83",
+            "text": "Josh Lester  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794366022
           }
         ]
       }
@@ -1226,8 +1240,8 @@
         "num": 9,
         "half": "bottom",
         "label": "Baja 9na",
-        "total_plays": 5,
-        "scoring_plays": 0
+        "total_plays": 7,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1292,7 +1306,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       }
     ],
     "siblingGames": [
