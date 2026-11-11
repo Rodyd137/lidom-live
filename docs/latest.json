@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-11T00:08:01.318Z",
+    "scraped_at": "2026-11-11T00:09:06.301Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -520,16 +520,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-10 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Agustin Ramirez Out Robando Base! Receptor - Segunda Base - Tercera Base - Segunda Base",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "C. Adames",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 2da",
+        "roundText": "Baja 2da",
         "currentInningNum": 2,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -567,8 +567,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
-        "strikes": 0
+        "outs": 0,
+        "strikes": 2
       },
       {
         "id": 2242,
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "M. Hernandez",
+        "lastPlayByPlay": "M. Hernandez Out: Elevado al Jardinero Izquierdo",
+        "atBat": "Erik Gonzales",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 0,
-        "strikes": 0
+        "balls": 1,
+        "outs": 1,
+        "strikes": 2
       },
       {
         "id": 2241,
@@ -13692,16 +13692,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-10 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Agustin Ramirez Out Robando Base! Receptor - Segunda Base - Tercera Base - Segunda Base",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "C. Adames",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 2da",
+        "roundText": "Baja 2da",
         "currentInningNum": 2,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -13739,8 +13739,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
-        "strikes": 0
+        "outs": 0,
+        "strikes": 2
       },
       {
         "id": 2242,
@@ -13754,8 +13754,8 @@
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "M. Hernandez",
+        "lastPlayByPlay": "M. Hernandez Out: Elevado al Jardinero Izquierdo",
+        "atBat": "Erik Gonzales",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13799,9 +13799,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 0,
-        "strikes": 0
+        "balls": 1,
+        "outs": 1,
+        "strikes": 2
       },
       {
         "id": 2241,
@@ -19525,16 +19525,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-10 19:30:00",
-      "roundText": "Alta 2da",
+      "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "Agustin Ramirez Out Robando Base! Receptor - Segunda Base - Tercera Base - Segunda Base",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
-        "strikes": 0,
-        "outs": 3
+        "strikes": 2,
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -19729,6 +19729,17 @@
               "team_id": 1,
               "name": "Miguel Andujar",
               "abbreviation": "M. Andujar",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6034,
+              "team_id": 1,
+              "name": "C. Adames",
+              "abbreviation": "C. Adames",
               "number": null,
               "dob": null,
               "height": "",
@@ -19984,6 +19995,20 @@
               "ts": 1794355557
             }
           ]
+        },
+        {
+          "num": 2,
+          "half": "bottom",
+          "label": "Baja 2da",
+          "plays": [
+            {
+              "reference_id": "20403-2-12",
+              "text": "C. Adames al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794355707
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20007,6 +20032,13 @@
           "label": "Alta 2da",
           "total_plays": 4,
           "scoring_plays": 0
+        },
+        {
+          "num": 2,
+          "half": "bottom",
+          "label": "Baja 2da",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20019,7 +20051,7 @@
         },
         {
           "num": 2,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
@@ -20485,7 +20517,7 @@
           "id": 2240,
           "date": "2026-11-10 19:30:00",
           "status": 2,
-          "roundText": "Alta 2da",
+          "roundText": "Baja 2da",
           "awayTeam": {
             "id": 5,
             "name": "Gigantes",
@@ -20601,11 +20633,11 @@
       "date": "2026-11-10 19:30:00",
       "roundText": "Alta 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "M. Hernandez Out: Elevado al Jardinero Izquierdo",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0
+        "balls": 1,
+        "strikes": 2,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21139,10 +21171,17 @@
           "plays": [
             {
               "reference_id": "20421-1-15",
-              "text": "M. Hernandez al bate",
+              "text": "M. Hernandez Out: Elevado al Jardinero Izquierdo",
               "scored": false,
               "is_primary": true,
-              "ts": 1794355678
+              "ts": 1794355684
+            },
+            {
+              "reference_id": "20421-1-16",
+              "text": "Erik Gonzales al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794355685
             }
           ]
         }
@@ -21166,7 +21205,7 @@
           "num": 2,
           "half": "top",
           "label": "Alta 2da",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21240,7 +21279,7 @@
           "id": 2240,
           "date": "2026-11-10 19:30:00",
           "status": 2,
-          "roundText": "Alta 2da",
+          "roundText": "Baja 2da",
           "awayTeam": {
             "id": 5,
             "name": "Gigantes",
