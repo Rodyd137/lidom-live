@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2242",
-    "scraped_at": "2026-11-11T00:44:41.369Z",
+    "scraped_at": "2026-11-11T00:45:45.993Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-10 19:30:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Marmolejos Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -674,6 +674,20 @@
             "ts": 1794357762
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "20422-2-31",
+            "text": "Aaron Schunk al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794357930
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -711,6 +725,13 @@
         "label": "Alta 3ra",
         "total_plays": 8,
         "scoring_plays": 3
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -730,7 +751,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 3,
         "homeTeamRuns": 0
@@ -790,7 +811,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 2,
-          "hits": 3,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         },
