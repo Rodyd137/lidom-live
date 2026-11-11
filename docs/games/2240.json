@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2240",
-    "scraped_at": "2026-11-11T00:09:09.015Z",
+    "scraped_at": "2026-11-11T00:10:13.613Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-10 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "C. Adames Sencillo Jardinero Central",
     "counts": {
       "balls": 0,
-      "strikes": 2,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -164,7 +164,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 0,
           "H2": 0
         },
@@ -224,6 +224,17 @@
             "team_id": 1,
             "name": "C. Adames",
             "abbreviation": "C. Adames",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6021,
+            "team_id": 1,
+            "name": "K. Alcantara",
+            "abbreviation": "K. Alcantara",
             "number": null,
             "dob": null,
             "height": "",
@@ -291,7 +302,7 @@
         },
         "home": {
           "R": 0,
-          "H": 1,
+          "H": 2,
           "E": 0
         }
       },
@@ -487,10 +498,17 @@
         "plays": [
           {
             "reference_id": "20403-2-12",
-            "text": "C. Adames al bate",
+            "text": "C. Adames Sencillo Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1794355707
+            "ts": 1794355797
+          },
+          {
+            "reference_id": "20403-2-13",
+            "text": "K. Alcantara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794355807
           }
         ]
       }
@@ -521,7 +539,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -628,7 +646,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 5,
-          "hits": 4,
+          "hits": 5,
           "errors": 1,
           "permalink": "/equipo/leones-del-escogido"
         },
