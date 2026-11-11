@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-11T01:35:25.992Z",
+    "scraped_at": "2026-11-11T01:36:30.969Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,7 +517,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 2,
@@ -566,7 +566,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
         "strikes": 0
       },
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Oscar Gonzalez Sencillo Campo Corto",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Josh Lester  Out: Elevado al Jardinero Izquierdo",
+        "atBat": "Aaron Schunk",
         "comment": "",
         "winningPitcher": "Sauryn Lao",
         "losingPitcher": "Trevor Bauer",
@@ -13686,7 +13686,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 2,
@@ -13735,7 +13735,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
         "strikes": 0
       },
@@ -13751,8 +13751,8 @@
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Oscar Gonzalez Sencillo Campo Corto",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Josh Lester  Out: Elevado al Jardinero Izquierdo",
+        "atBat": "Aaron Schunk",
         "comment": "",
         "winningPitcher": "Sauryn Lao",
         "losingPitcher": "Trevor Bauer",
@@ -19523,20 +19523,20 @@
       "currentInningNum": 6,
       "lastPlayByPlay": "Ronny Mauricio Out: Elevado al Jardinero Izquierdo",
       "counts": {
-        "balls": 0,
+        "balls": 1,
         "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -21032,7 +21032,7 @@
       "date": "2026-11-10 19:30:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Oscar Gonzalez Sencillo Campo Corto",
+      "lastPlayByPlay": "Josh Lester  Out: Elevado al Jardinero Izquierdo",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21857,10 +21857,17 @@
             },
             {
               "reference_id": "20424-2-48",
-              "text": "Josh Lester  al bate",
+              "text": "Josh Lester  Out: Elevado al Jardinero Izquierdo",
               "scored": false,
               "is_primary": true,
-              "ts": 1794360853
+              "ts": 1794360951
+            },
+            {
+              "reference_id": "20424-2-49",
+              "text": "Aaron Schunk al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794360956
             }
           ]
         }
@@ -21933,7 +21940,7 @@
           "num": 5,
           "half": "bottom",
           "label": "Baja 5ta",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
