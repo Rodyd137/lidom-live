@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-11T02:30:27.881Z",
+    "scraped_at": "2026-11-11T02:31:31.258Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Marcell Ozuna  Out: Elevado al Primera Base",
-        "atBat": "Nomar Mazara",
+        "lastPlayByPlay": "Nomar Mazara Sencillo Jardinero Izquierdo",
+        "atBat": "Deyvinson de los Santos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -544,7 +544,7 @@
           "runs": 2,
           "runs_half": 2,
           "errors": 0,
-          "hits": 5,
+          "hits": 6,
           "pitcher": "Yovanny Cruz",
           "era": "",
           "debut": 0,
@@ -561,14 +561,14 @@
           "runs_half": 1,
           "errors": 0,
           "hits": 6,
-          "pitcher": "Mike Clevinger",
+          "pitcher": "Jean Carlos Mejia",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2242,
@@ -583,7 +583,7 @@
         "date": "2026-11-10 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Aaron Schunk",
         "comment": "",
         "winningPitcher": "Sauryn Lao",
         "losingPitcher": "Trevor Bauer",
@@ -13686,12 +13686,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Marcell Ozuna  Out: Elevado al Primera Base",
-        "atBat": "Nomar Mazara",
+        "lastPlayByPlay": "Nomar Mazara Sencillo Jardinero Izquierdo",
+        "atBat": "Deyvinson de los Santos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13713,7 +13713,7 @@
           "runs": 2,
           "runs_half": 2,
           "errors": 0,
-          "hits": 5,
+          "hits": 6,
           "pitcher": "Yovanny Cruz",
           "era": "",
           "debut": 0,
@@ -13730,14 +13730,14 @@
           "runs_half": 1,
           "errors": 0,
           "hits": 6,
-          "pitcher": "Mike Clevinger",
+          "pitcher": "Jean Carlos Mejia",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2242,
@@ -13752,7 +13752,7 @@
         "date": "2026-11-10 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Aaron Schunk",
         "comment": "",
         "winningPitcher": "Sauryn Lao",
         "losingPitcher": "Trevor Bauer",
@@ -19521,22 +19521,22 @@
       "date": "2026-11-10 19:30:00",
       "roundText": "Alta 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "Marcell Ozuna  Out: Elevado al Primera Base",
+      "lastPlayByPlay": "Nomar Mazara Sencillo Jardinero Izquierdo",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -19564,7 +19564,7 @@
           "permalink": "/equipo/gigantes-del-cibao",
           "totals": {
             "R": 2,
-            "H": 5,
+            "H": 6,
             "E": 0,
             "H2": 2
           },
@@ -19690,7 +19690,7 @@
             "H2": 1
           },
           "probables": {
-            "pitcher": "Mike Clevinger",
+            "pitcher": "Jean Carlos Mejia",
             "era": "",
             "record": "",
             "debut": false
@@ -19851,7 +19851,7 @@
         "totals": {
           "away": {
             "R": 2,
-            "H": 5,
+            "H": 6,
             "E": 0
           },
           "home": {
@@ -20507,10 +20507,17 @@
             },
             {
               "reference_id": "20410-1-62",
-              "text": "Nomar Mazara al bate",
+              "text": "Nomar Mazara Sencillo Jardinero Izquierdo",
               "scored": false,
               "is_primary": true,
-              "ts": 1794364139
+              "ts": 1794364270
+            },
+            {
+              "reference_id": "20410-1-63",
+              "text": "Deyvinson de los Santos al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794364275
             }
           ]
         }
@@ -20632,7 +20639,7 @@
           "num": 9,
           "half": "top",
           "label": "Alta 9na",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21119,7 +21126,7 @@
             "abbr": "GC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 2,
-            "hits": 5,
+            "hits": 6,
             "errors": 0,
             "permalink": "/equipo/gigantes-del-cibao"
           },
@@ -22223,6 +22230,20 @@
               "ts": 1794364060
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "bottom",
+          "label": "Baja 8va",
+          "plays": [
+            {
+              "reference_id": "20427-2-69",
+              "text": "Aaron Schunk al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794364226
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22330,6 +22351,13 @@
           "label": "Alta 8va",
           "total_plays": 3,
           "scoring_plays": 0
+        },
+        {
+          "num": 8,
+          "half": "bottom",
+          "label": "Baja 8va",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -22409,7 +22437,7 @@
             "abbr": "GC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 2,
-            "hits": 5,
+            "hits": 6,
             "errors": 0,
             "permalink": "/equipo/gigantes-del-cibao"
           },
