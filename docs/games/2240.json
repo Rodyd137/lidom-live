@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2240",
-    "scraped_at": "2026-11-11T01:01:56.869Z",
+    "scraped_at": "2026-11-11T01:03:02.016Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-10 19:30:00",
     "roundText": "Alta 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Roly Brito  Out: Rodado al Segunda Base - Primera Base",
+    "lastPlayByPlay": "Ferreras Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 1,
-      "outs": 1
+      "balls": 1,
+      "strikes": 2,
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -724,10 +724,24 @@
           },
           {
             "reference_id": "20406-1-33",
-            "text": "Jack Pineda al bate",
+            "text": "Jack Pineda  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1794358783
+            "ts": 1794358929
+          },
+          {
+            "reference_id": "20406-1-34",
+            "text": "Ferreras Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794358938
+          },
+          {
+            "reference_id": "20406-1-35",
+            "text": "Carlos Jorge  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794358943
           }
         ]
       }
@@ -793,7 +807,7 @@
         "num": 5,
         "half": "top",
         "label": "Alta 5ta",
-        "total_plays": 2,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -893,7 +907,7 @@
         "id": 2242,
         "date": "2026-11-10 19:30:00",
         "status": 2,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
