@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-11T01:08:24.109Z",
+    "scraped_at": "2026-11-11T01:09:28.905Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,19 +517,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 1,
         "status": 2,
         "date": "2026-11-10 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Carlos Jorge  Out: Elevado al Jardinero Izquierdo",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Mel Rojas",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "currentInningNum": 5,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
-        "outs": 2,
-        "strikes": 2
+        "balls": 0,
+        "outs": 0,
+        "strikes": 0
       },
       {
         "id": 2242,
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -13686,19 +13686,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 1,
         "status": 2,
         "date": "2026-11-10 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Carlos Jorge  Out: Elevado al Jardinero Izquierdo",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Mel Rojas",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "currentInningNum": 5,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -13735,9 +13735,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
-        "outs": 2,
-        "strikes": 2
+        "balls": 0,
+        "outs": 0,
+        "strikes": 0
       },
       {
         "id": 2242,
@@ -13751,8 +13751,8 @@
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Raimel Tapia Out: Elevado al Campo Corto",
-        "atBat": "Marco Luciano ",
+        "lastPlayByPlay": "Marco Luciano   Out: Rodado al Campo Corto - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13797,7 +13797,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -19519,24 +19519,24 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-10 19:30:00",
-      "roundText": "Alta 5ta",
+      "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Carlos Jorge  Out: Elevado al Jardinero Izquierdo",
+      "lastPlayByPlay": "",
       "counts": {
-        "balls": 3,
-        "strikes": 2,
-        "outs": 2
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
-        "base": 2
+        "battingTeam": "homeTeam",
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
+        "on1B": false,
         "on2B": false,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -20254,6 +20254,20 @@
               "ts": 1794359226
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "plays": [
+            {
+              "reference_id": "20406-2-36",
+              "text": "Mel Rojas al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794359329
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20319,6 +20333,13 @@
           "label": "Alta 5ta",
           "total_plays": 4,
           "scoring_plays": 0
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20352,7 +20373,7 @@
         },
         {
           "num": 5,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
@@ -20797,7 +20818,7 @@
           "id": 2240,
           "date": "2026-11-10 19:30:00",
           "status": 2,
-          "roundText": "Alta 5ta",
+          "roundText": "Baja 5ta",
           "awayTeam": {
             "id": 5,
             "name": "Gigantes",
@@ -20913,11 +20934,11 @@
       "date": "2026-11-10 19:30:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Raimel Tapia Out: Elevado al Campo Corto",
+      "lastPlayByPlay": "Marco Luciano   Out: Rodado al Campo Corto - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21654,10 +21675,10 @@
             },
             {
               "reference_id": "20423-2-39",
-              "text": "Marco Luciano  al bate",
+              "text": "Marco Luciano   Out: Rodado al Campo Corto - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794359283
+              "ts": 1794359367
             }
           ]
         }
@@ -21790,7 +21811,7 @@
           "id": 2240,
           "date": "2026-11-10 19:30:00",
           "status": 2,
-          "roundText": "Alta 5ta",
+          "roundText": "Baja 5ta",
           "awayTeam": {
             "id": 5,
             "name": "Gigantes",
