@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-11T01:10:33.855Z",
+    "scraped_at": "2026-11-11T01:11:38.426Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -581,16 +581,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-10 19:30:00",
-        "part": 2,
-        "lastPlayByPlay": "Marco Luciano   Out: Rodado al Campo Corto - Primera Base",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Andy Ibanez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 4ta",
-        "currentInningNum": 4,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 5ta",
+        "currentInningNum": 5,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -13735,9 +13735,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 3,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2242,
@@ -13750,16 +13750,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-10 19:30:00",
-        "part": 2,
-        "lastPlayByPlay": "Marco Luciano   Out: Rodado al Campo Corto - Primera Base",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Andy Ibanez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 4ta",
-        "currentInningNum": 4,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 5ta",
+        "currentInningNum": 5,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -13797,7 +13797,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -19523,8 +19523,8 @@
       "currentInningNum": 5,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
+        "balls": 3,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -20438,7 +20438,7 @@
           "id": 2242,
           "date": "2026-11-10 19:30:00",
           "status": 2,
-          "roundText": "Baja 4ta",
+          "roundText": "Alta 5ta",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -20844,7 +20844,7 @@
           "id": 2242,
           "date": "2026-11-10 19:30:00",
           "status": 2,
-          "roundText": "Baja 4ta",
+          "roundText": "Alta 5ta",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -20932,16 +20932,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-10 19:30:00",
-      "roundText": "Baja 4ta",
-      "currentInningNum": 4,
-      "lastPlayByPlay": "Marco Luciano   Out: Rodado al Campo Corto - Primera Base",
+      "roundText": "Alta 5ta",
+      "currentInningNum": 5,
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
+        "battingTeam": "awayTeam",
         "base": 1
       },
       "base_runners": {
@@ -21681,6 +21681,20 @@
               "ts": 1794359367
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "top",
+          "label": "Alta 5ta",
+          "plays": [
+            {
+              "reference_id": "20424-1-40",
+              "text": "Andy Ibanez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794359448
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21739,6 +21753,13 @@
           "label": "Baja 4ta",
           "total_plays": 3,
           "scoring_plays": 0
+        },
+        {
+          "num": 5,
+          "half": "top",
+          "label": "Alta 5ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -21766,14 +21787,14 @@
         {
           "num": 4,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
         {
           "num": 5,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
