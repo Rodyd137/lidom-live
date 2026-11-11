@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2240",
-    "scraped_at": "2026-11-11T01:52:45.965Z",
+    "scraped_at": "2026-11-11T01:53:50.967Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-10 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "C. Adames Golpeado por Pelota ",
     "counts": {
       "balls": 0,
-      "strikes": 2,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -885,10 +885,17 @@
         "plays": [
           {
             "reference_id": "20408-2-50",
-            "text": "C. Adames al bate",
+            "text": "C. Adames Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1794361854
+            "ts": 1794361974
+          },
+          {
+            "reference_id": "20408-2-51",
+            "text": "K. Alcantara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794361977
           }
         ]
       }
@@ -989,7 +996,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
