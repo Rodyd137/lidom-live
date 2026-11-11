@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-11T02:04:35.606Z",
+    "scraped_at": "2026-11-11T02:05:40.119Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,7 +517,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 2,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2242,
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "M. De la Cruz",
+        "lastPlayByPlay": "M. De la Cruz Out: Elevado al Jardinero Derecho ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": "Sauryn Lao",
         "losingPitcher": "Trevor Bauer",
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -13686,7 +13686,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 2,
@@ -13735,9 +13735,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2242,
@@ -13751,8 +13751,8 @@
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "M. De la Cruz",
+        "lastPlayByPlay": "M. De la Cruz Out: Elevado al Jardinero Derecho ",
+        "atBat": "Jonathan Guzman",
         "comment": "",
         "winningPitcher": "Sauryn Lao",
         "losingPitcher": "Trevor Bauer",
@@ -13797,7 +13797,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -19523,20 +19523,20 @@
       "currentInningNum": 7,
       "lastPlayByPlay": "Bryan Lavastida Sencillo y 1 Carrera Impulsada ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 2,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -21130,11 +21130,11 @@
       "date": "2026-11-10 19:30:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "M. De la Cruz Out: Elevado al Jardinero Derecho ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22046,10 +22046,17 @@
           "plays": [
             {
               "reference_id": "20426-1-58",
-              "text": "M. De la Cruz al bate",
+              "text": "M. De la Cruz Out: Elevado al Jardinero Derecho ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794362627
+              "ts": 1794362731
+            },
+            {
+              "reference_id": "20426-1-59",
+              "text": "Jonathan Guzman al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794362736
             }
           ]
         }
@@ -22143,7 +22150,7 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
