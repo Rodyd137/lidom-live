@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2240",
-    "scraped_at": "2026-11-11T03:23:10.610Z",
+    "scraped_at": "2026-11-11T03:24:14.976Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-10 19:30:00",
-    "roundText": "Alta 11ra",
+    "roundText": "Baja 11ra",
     "currentInningNum": 11,
-    "lastPlayByPlay": "Roly Brito Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 1
+      "battingTeam": "homeTeam",
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -1179,6 +1179,20 @@
             "ts": 1794367352
           }
         ]
+      },
+      {
+        "num": 11,
+        "half": "bottom",
+        "label": "Baja 11ra",
+        "plays": [
+          {
+            "reference_id": "21391-2-81",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794367419
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1328,6 +1342,13 @@
         "label": "Alta 11ra",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 11,
+        "half": "bottom",
+        "label": "Baja 11ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1403,7 +1424,7 @@
       },
       {
         "num": 11,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 2,
         "homeTeamRuns": 0
