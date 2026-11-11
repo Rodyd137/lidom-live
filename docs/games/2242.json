@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2242",
-    "scraped_at": "2026-11-10T23:59:25.528Z",
+    "scraped_at": "2026-11-11T00:00:30.472Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-11-10 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jose Tena Segunda Base se embasa por Error del - Campo Corto",
     "counts": {
       "balls": 0,
       "strikes": 1,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 5,
           "H": 4,
-          "E": 0,
+          "E": 1,
           "H2": 5
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 5,
           "H": 4,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 0,
@@ -514,10 +514,17 @@
         "plays": [
           {
             "reference_id": "20420-2-11",
-            "text": "Jose Tena al bate",
+            "text": "Jose Tena Segunda Base se embasa por Error del - Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1794355038
+            "ts": 1794355175
+          },
+          {
+            "reference_id": "20420-2-12",
+            "text": "Harold Andres Ramirez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794355186
           }
         ]
       }
@@ -534,7 +541,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
