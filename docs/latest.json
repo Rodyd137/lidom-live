@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-11T01:13:48.546Z",
+    "scraped_at": "2026-11-11T01:14:53.171Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Andy Ibanez",
+        "lastPlayByPlay": "Andy Ibanez Base por Bolas ",
+        "atBat": "M. De la Cruz",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2241,
@@ -13747,12 +13747,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-10 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Andy Ibanez",
+        "lastPlayByPlay": "Andy Ibanez Base por Bolas ",
+        "atBat": "M. De la Cruz",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13796,9 +13796,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2241,
@@ -20948,22 +20948,22 @@
       "date": "2026-11-10 19:30:00",
       "roundText": "Alta 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Andy Ibanez Base por Bolas ",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -21703,10 +21703,17 @@
           "plays": [
             {
               "reference_id": "20424-1-40",
-              "text": "Andy Ibanez al bate",
+              "text": "Andy Ibanez Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794359448
+              "ts": 1794359664
+            },
+            {
+              "reference_id": "20424-1-41",
+              "text": "M. De la Cruz al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794359669
             }
           ]
         }
@@ -21772,7 +21779,7 @@
           "num": 5,
           "half": "top",
           "label": "Alta 5ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
