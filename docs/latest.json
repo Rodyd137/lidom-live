@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-12T01:15:35.275Z",
+    "scraped_at": "2026-11-12T01:16:40.772Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 4,
+        "base": 2,
         "status": 2,
         "date": "2026-11-11 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Jesús Sanchez  Sencillo Jardinero Derecho  - Out Robando Base! - Jardinero Derecho  - Segunda Base",
-        "atBat": "Felix Reyes",
+        "lastPlayByPlay": "Felix Reyes Out! Rodado de Selección.  Campo Corto - Receptor",
+        "atBat": "Enmanuel Valdez ",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -567,8 +567,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 1
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2244,
@@ -578,7 +578,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-11 19:30:00",
         "part": 1,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 3,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2245,
@@ -655,7 +655,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -13871,12 +13874,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 4,
+        "base": 2,
         "status": 2,
         "date": "2026-11-11 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Jesús Sanchez  Sencillo Jardinero Derecho  - Out Robando Base! - Jardinero Derecho  - Segunda Base",
-        "atBat": "Felix Reyes",
+        "lastPlayByPlay": "Felix Reyes Out! Rodado de Selección.  Campo Corto - Receptor",
+        "atBat": "Enmanuel Valdez ",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -13921,8 +13924,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 1
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2244,
@@ -13932,7 +13935,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-11 19:30:00",
         "part": 1,
@@ -13981,9 +13984,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 3,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2245,
@@ -14009,7 +14012,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -19523,22 +19529,22 @@
       "date": "2026-11-11 19:15:00",
       "roundText": "Alta 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Jesús Sanchez  Sencillo Jardinero Derecho  - Out Robando Base! - Jardinero Derecho  - Segunda Base",
+      "lastPlayByPlay": "Felix Reyes Out! Rodado de Selección.  Campo Corto - Receptor",
       "counts": {
         "balls": 0,
-        "strikes": 1,
-        "outs": 1
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 4
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
-        "on3B": true,
+        "on3B": false,
         "runners": 1,
-        "mask": 4
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20341,10 +20347,17 @@
             },
             {
               "reference_id": "20433-1-45",
-              "text": "Felix Reyes al bate",
+              "text": "Felix Reyes Out! Rodado de Selección.  Campo Corto - Receptor",
               "scored": false,
               "is_primary": true,
-              "ts": 1794445849
+              "ts": 1794446170
+            },
+            {
+              "reference_id": "20433-1-46",
+              "text": "Enmanuel Valdez  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794446175
             }
           ]
         }
@@ -20410,7 +20423,7 @@
           "num": 5,
           "half": "top",
           "label": "Alta 5ta",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -20602,20 +20615,20 @@
       "currentInningNum": 6,
       "lastPlayByPlay": "Gustavo Nuñez Base por Bolas ",
       "counts": {
-        "balls": 2,
-        "strikes": 0,
+        "balls": 3,
+        "strikes": 2,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
