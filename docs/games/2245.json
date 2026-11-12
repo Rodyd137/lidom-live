@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2245",
-    "scraped_at": "2026-11-12T02:28:19.228Z",
+    "scraped_at": "2026-11-12T02:29:24.882Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-11-11 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Oscar Gonzalez  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -1011,10 +1011,17 @@
         "plays": [
           {
             "reference_id": "20453-2-71",
-            "text": "Oscar Gonzalez al bate",
+            "text": "Oscar Gonzalez  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1794450379
+            "ts": 1794450555
+          },
+          {
+            "reference_id": "20453-2-72",
+            "text": "Aaron Schunk al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794450559
           }
         ]
       }
@@ -1115,7 +1122,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1214,7 +1221,7 @@
       {
         "id": 2244,
         "date": "2026-11-11 19:30:00",
-        "status": 2,
+        "status": 6,
         "roundText": "Alta 9na",
         "awayTeam": {
           "id": 1,
