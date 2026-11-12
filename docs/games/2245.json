@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2245",
-    "scraped_at": "2026-11-12T02:03:20.059Z",
+    "scraped_at": "2026-11-12T02:04:25.626Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-11 19:30:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Carlos Jorge  Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "balls": 1,
+      "strikes": 2,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 6
         },
         "probables": {
-          "pitcher": "Joel Cesar",
+          "pitcher": "Yunior Tur",
           "era": "",
           "record": "",
           "debut": false
@@ -926,6 +926,20 @@
             "ts": 1794448862
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "20452-2-61",
+            "text": "Euribiel Ángeles  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794449001
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1005,6 +1019,13 @@
         "label": "Alta 6ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1045,7 +1066,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
