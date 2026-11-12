@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-12T02:01:06.543Z",
+    "scraped_at": "2026-11-12T02:02:11.785Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,10 +533,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/213b0b7c214520b5dc994fabeee9ae2b.png",
-          "text": "Problema Eléctrico"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -571,7 +568,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2244,
@@ -585,8 +582,8 @@
         "status": 2,
         "date": "2026-11-11 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "A. Ortiz",
+        "lastPlayByPlay": "A. Ortiz Out: Línea al Campo Corto",
+        "atBat": "Emilio Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -630,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2245,
@@ -13890,10 +13887,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/213b0b7c214520b5dc994fabeee9ae2b.png",
-          "text": "Problema Eléctrico"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -13928,7 +13922,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2244,
@@ -13942,8 +13936,8 @@
         "status": 2,
         "date": "2026-11-11 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "A. Ortiz",
+        "lastPlayByPlay": "A. Ortiz Out: Línea al Campo Corto",
+        "atBat": "Emilio Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13987,9 +13981,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2245,
@@ -19479,7 +19473,7 @@
     "mode": "recent",
     "days_window": 14,
     "concurrency": 4,
-    "count": 35,
+    "count": 38,
     "files": {
       "2210": "games/2210.json",
       "2211": "games/2211.json",
@@ -19505,7 +19499,10 @@
       "2231": "games/2231.json",
       "2232": "games/2232.json",
       "2233": "games/2233.json",
+      "2234": "games/2234.json",
+      "2235": "games/2235.json",
       "2236": "games/2236.json",
+      "2237": "games/2237.json",
       "2238": "games/2238.json",
       "2239": "games/2239.json",
       "2240": "games/2240.json",
@@ -19529,7 +19526,7 @@
       "lastPlayByPlay": "Orlando Calixte Ponche (K) ",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 2,
         "outs": 1
       },
       "base_state": {
@@ -20813,11 +20810,11 @@
       "date": "2026-11-11 19:30:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "A. Ortiz Out: Línea al Campo Corto",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21722,10 +21719,17 @@
           "plays": [
             {
               "reference_id": "20445-1-54",
-              "text": "A. Ortiz al bate",
+              "text": "A. Ortiz Out: Línea al Campo Corto",
               "scored": false,
               "is_primary": true,
-              "ts": 1794448846
+              "ts": 1794448919
+            },
+            {
+              "reference_id": "20445-1-55",
+              "text": "Emilio Bonifacio al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794448922
             }
           ]
         }
@@ -21833,7 +21837,7 @@
           "num": 8,
           "half": "top",
           "label": "Alta 8va",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
