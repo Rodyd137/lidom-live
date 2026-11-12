@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-12T01:56:45.426Z",
+    "scraped_at": "2026-11-12T01:57:50.662Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,7 +578,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 1,
         "status": 2,
         "date": "2026-11-11 19:30:00",
         "part": 2,
@@ -594,10 +594,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -631,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -646,8 +643,8 @@
         "status": 2,
         "date": "2026-11-11 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Jack Pineda Ponche (K) ",
+        "atBat": "Ferreras",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "Luis Velasquez",
@@ -691,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -13935,7 +13932,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 1,
         "status": 2,
         "date": "2026-11-11 19:30:00",
         "part": 2,
@@ -13951,10 +13948,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -13988,7 +13982,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -14003,8 +13997,8 @@
         "status": 2,
         "date": "2026-11-11 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Jack Pineda",
+        "lastPlayByPlay": "Jack Pineda Ponche (K) ",
+        "atBat": "Ferreras",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "Luis Velasquez",
@@ -14048,9 +14042,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 1
       }
     ],
     "2026-11-13": [
@@ -20792,18 +20786,18 @@
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 5
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": true,
+        "on1B": false,
+        "on2B": false,
         "on3B": false,
-        "runners": 2,
-        "mask": 5
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -21676,7 +21670,7 @@
             },
             {
               "reference_id": "20444-2-53",
-              "text": "Steward Berroa al bate",
+              "text": "Steward Berroa Quedo al bate",
               "scored": false,
               "is_primary": true,
               "ts": 1794448450
@@ -21970,11 +21964,11 @@
       "date": "2026-11-11 19:30:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Jack Pineda Ponche (K) ",
       "counts": {
-        "balls": 3,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 1,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22865,10 +22859,17 @@
           "plays": [
             {
               "reference_id": "20452-1-58",
-              "text": "Jack Pineda al bate",
+              "text": "Jack Pineda Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794448601
+              "ts": 1794448622
+            },
+            {
+              "reference_id": "20452-1-59",
+              "text": "Ferreras al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794448629
             }
           ]
         }
@@ -22948,7 +22949,7 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
