@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2245",
-    "scraped_at": "2026-11-12T01:35:07.196Z",
+    "scraped_at": "2026-11-12T01:36:12.205Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-11 19:30:00",
     "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Edgar Quero Doble! Jardinero Izquierdo",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 6,
-          "H": 7,
+          "H": 8,
           "E": 1,
           "H2": 6
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 6,
-          "H": 7,
+          "H": 8,
           "E": 1
         }
       },
@@ -843,10 +843,17 @@
         "plays": [
           {
             "reference_id": "20451-2-50",
-            "text": "Edgar Quero al bate",
+            "text": "Edgar Quero Doble! Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1794447177
+            "ts": 1794447362
+          },
+          {
+            "reference_id": "20451-2-51",
+            "text": "Josh Lester  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794447368
           }
         ]
       }
@@ -919,7 +926,7 @@
         "num": 5,
         "half": "bottom",
         "label": "Baja 5ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
