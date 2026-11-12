@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-12T02:14:08.890Z",
+    "scraped_at": "2026-11-12T02:15:13.580Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-11 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Yairo Muñoz",
+        "lastPlayByPlay": "Yairo Muñoz  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Pedro Severino",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-11 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Steward Berroa Sencillo ",
-        "atBat": "Luis Liberato",
+        "lastPlayByPlay": "Luis Liberato Out: Línea al Campo Corto",
+        "atBat": "Jasson Dominguez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,8 +628,8 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 0,
-        "strikes": 1
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2245,
@@ -13878,8 +13878,8 @@
         "status": 2,
         "date": "2026-11-11 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Yairo Muñoz",
+        "lastPlayByPlay": "Yairo Muñoz  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Pedro Severino",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -13924,7 +13924,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -13939,8 +13939,8 @@
         "status": 2,
         "date": "2026-11-11 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Steward Berroa Sencillo ",
-        "atBat": "Luis Liberato",
+        "lastPlayByPlay": "Luis Liberato Out: Línea al Campo Corto",
+        "atBat": "Jasson Dominguez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13985,8 +13985,8 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 0,
-        "strikes": 1
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2245,
@@ -19529,11 +19529,11 @@
       "date": "2026-11-11 19:15:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Yairo Muñoz  Out: Rodado al Campo Corto - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -20564,10 +20564,17 @@
           "plays": [
             {
               "reference_id": "20436-1-69",
-              "text": "Yairo Muñoz al bate",
+              "text": "Yairo Muñoz  Out: Rodado al Campo Corto - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794449607
+              "ts": 1794449675
+            },
+            {
+              "reference_id": "20436-1-70",
+              "text": "Pedro Severino al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794449680
             }
           ]
         }
@@ -20675,7 +20682,7 @@
           "num": 8,
           "half": "top",
           "label": "Alta 8va",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -20865,11 +20872,11 @@
       "date": "2026-11-11 19:30:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Steward Berroa Sencillo ",
+      "lastPlayByPlay": "Luis Liberato Out: Línea al Campo Corto",
       "counts": {
         "balls": 1,
-        "strikes": 1,
-        "outs": 0
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21816,10 +21823,17 @@
             },
             {
               "reference_id": "20445-2-59",
-              "text": "Luis Liberato al bate",
+              "text": "Luis Liberato Out: Línea al Campo Corto",
               "scored": false,
               "is_primary": true,
-              "ts": 1794449584
+              "ts": 1794449682
+            },
+            {
+              "reference_id": "20445-2-60",
+              "text": "Jasson Dominguez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794449686
             }
           ]
         }
@@ -21934,7 +21948,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
