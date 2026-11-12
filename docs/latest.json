@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-12T01:36:09.117Z",
+    "scraped_at": "2026-11-12T01:37:14.258Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-11 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Ramon Laureano",
+        "lastPlayByPlay": "Ramon Laureano Out: Elevado al Segunda Base",
+        "atBat": "Junior Lake",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -567,8 +567,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 2
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2244,
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-11 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Mel Rojas",
+        "lastPlayByPlay": "Mel Rojas  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Francisco Mejia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 0
+        "balls": 0,
+        "outs": 1,
+        "strikes": 1
       },
       {
         "id": 2245,
@@ -644,7 +644,7 @@
         "date": "2026-11-11 19:30:00",
         "part": 2,
         "lastPlayByPlay": "Edgar Quero Doble! Jardinero Izquierdo",
-        "atBat": null,
+        "atBat": "Josh Lester ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13875,8 +13875,8 @@
         "status": 2,
         "date": "2026-11-11 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Ramon Laureano",
+        "lastPlayByPlay": "Junior Lake  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Joshua Báez ",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -13921,8 +13921,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 2
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2244,
@@ -13936,8 +13936,8 @@
         "status": 2,
         "date": "2026-11-11 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Mel Rojas",
+        "lastPlayByPlay": "Mel Rojas  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Francisco Mejia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13981,9 +13981,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 0
+        "balls": 0,
+        "outs": 1,
+        "strikes": 1
       },
       {
         "id": 2245,
@@ -19523,11 +19523,11 @@
       "date": "2026-11-11 19:15:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Junior Lake  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
         "balls": 0,
-        "strikes": 2,
-        "outs": 0
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20432,10 +20432,24 @@
           "plays": [
             {
               "reference_id": "20434-2-55",
-              "text": "Ramon Laureano al bate",
+              "text": "Ramon Laureano Out: Elevado al Segunda Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794447235
+              "ts": 1794447385
+            },
+            {
+              "reference_id": "20434-2-56",
+              "text": "Junior Lake  Out: Rodado al Segunda Base - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794447430
+            },
+            {
+              "reference_id": "20434-2-57",
+              "text": "Joshua Báez  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794447433
             }
           ]
         }
@@ -20522,7 +20536,7 @@
           "num": 6,
           "half": "bottom",
           "label": "Baja 6ta",
-          "total_plays": 1,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -20712,11 +20726,11 @@
       "date": "2026-11-11 19:30:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Mel Rojas  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
-        "balls": 1,
-        "strikes": 0,
-        "outs": 0
+        "balls": 0,
+        "strikes": 1,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21537,10 +21551,17 @@
           "plays": [
             {
               "reference_id": "20444-1-45",
-              "text": "Mel Rojas al bate",
+              "text": "Mel Rojas  Out: Rodado al Segunda Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794447350
+              "ts": 1794447392
+            },
+            {
+              "reference_id": "20444-1-46",
+              "text": "Francisco Mejia al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794447396
             }
           ]
         }
@@ -21634,7 +21655,7 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
