@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-12T02:23:55.087Z",
+    "scraped_at": "2026-11-12T02:24:59.991Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-11 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Junior Lake Ponche (K) ",
-        "atBat": "Joshua Báez ",
+        "lastPlayByPlay": "Joshua Báez   Out: Rodado al Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/344328d644485325998a132db1f0cc6a.png",
+          "text": "Lesión"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -566,9 +569,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2244,
@@ -629,7 +632,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2245,
@@ -639,7 +642,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 1,
         "status": 2,
         "date": "2026-11-11 19:30:00",
         "part": 1,
@@ -689,8 +692,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
-        "strikes": 2
+        "outs": 3,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -13875,8 +13878,8 @@
         "status": 2,
         "date": "2026-11-11 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Junior Lake Ponche (K) ",
-        "atBat": "Joshua Báez ",
+        "lastPlayByPlay": "Joshua Báez   Out: Rodado al Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -13887,7 +13890,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/344328d644485325998a132db1f0cc6a.png",
+          "text": "Lesión"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -13920,9 +13926,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2244,
@@ -13937,7 +13943,7 @@
         "date": "2026-11-11 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Ronny Mauricio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13983,7 +13989,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2245,
@@ -13993,7 +13999,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 1,
         "status": 2,
         "date": "2026-11-11 19:30:00",
         "part": 1,
@@ -14043,8 +14049,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
-        "strikes": 2
+        "outs": 3,
+        "strikes": 0
       }
     ],
     "2026-11-13": [
@@ -19523,11 +19529,11 @@
       "date": "2026-11-11 19:15:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Junior Lake Ponche (K) ",
+      "lastPlayByPlay": "Joshua Báez   Out: Rodado al Primera Base",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 1
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20593,10 +20599,10 @@
             },
             {
               "reference_id": "20436-2-73",
-              "text": "Joshua Báez  al bate",
+              "text": "Joshua Báez   Out: Rodado al Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794450101
+              "ts": 1794450262
             }
           ]
         }
@@ -20904,7 +20910,7 @@
       "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -21886,6 +21892,20 @@
               "ts": 1794450116
             }
           ]
+        },
+        {
+          "num": 9,
+          "half": "top",
+          "label": "Alta 9na",
+          "plays": [
+            {
+              "reference_id": "20446-1-63",
+              "text": "Ronny Mauricio al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794450299
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21999,6 +22019,13 @@
           "half": "bottom",
           "label": "Baja 8va",
           "total_plays": 6,
+          "scoring_plays": 0
+        },
+        {
+          "num": 9,
+          "half": "top",
+          "label": "Alta 9na",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -22191,19 +22218,19 @@
       "lastPlayByPlay": "Marcell Ozuna  Ponche (K) ",
       "counts": {
         "balls": 0,
-        "strikes": 2,
-        "outs": 2
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
+        "on1B": false,
         "on2B": false,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
