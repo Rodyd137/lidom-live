@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2245",
-    "scraped_at": "2026-11-12T02:26:08.450Z",
+    "scraped_at": "2026-11-12T02:27:13.478Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-11 19:30:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Carlos Franco  Out: Rodado al Segunda Base - Campo Corto",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -1003,6 +1003,20 @@
             "ts": 1794450333
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "20453-2-71",
+            "text": "Oscar Gonzalez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794450379
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1096,6 +1110,13 @@
         "label": "Alta 7ma",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1143,7 +1164,7 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
