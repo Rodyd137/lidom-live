@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-12T01:11:15.755Z",
+    "scraped_at": "2026-11-12T01:12:20.647Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -583,7 +586,7 @@
         "date": "2026-11-11 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Emilio Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -642,16 +645,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-11 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Nomar Mazara al bate",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Harold Andres Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "currentInningNum": 4,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -689,7 +692,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -13887,7 +13890,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -13937,7 +13943,7 @@
         "date": "2026-11-11 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Emilio Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13996,16 +14002,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-11 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Nomar Mazara al bate",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Harold Andres Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "currentInningNum": 4,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -14043,7 +14049,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -20510,7 +20516,7 @@
           "id": 2245,
           "date": "2026-11-11 19:30:00",
           "status": 2,
-          "roundText": "Alta 4ta",
+          "roundText": "Baja 4ta",
           "awayTeam": {
             "id": 5,
             "name": "Gigantes",
@@ -21340,6 +21346,20 @@
               "ts": 1794445767
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "plays": [
+            {
+              "reference_id": "20443-1-37",
+              "text": "Emilio Bonifacio al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794445936
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21411,6 +21431,13 @@
           "half": "bottom",
           "label": "Baja 5ta",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -21510,7 +21537,7 @@
           "id": 2245,
           "date": "2026-11-11 19:30:00",
           "status": 2,
-          "roundText": "Alta 4ta",
+          "roundText": "Baja 4ta",
           "awayTeam": {
             "id": 5,
             "name": "Gigantes",
@@ -21598,16 +21625,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-11 19:30:00",
-      "roundText": "Alta 4ta",
+      "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Nomar Mazara al bate",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -22361,6 +22388,20 @@
               "ts": 1794445839
             }
           ]
+        },
+        {
+          "num": 4,
+          "half": "bottom",
+          "label": "Baja 4ta",
+          "plays": [
+            {
+              "reference_id": "20450-2-43",
+              "text": "Harold Andres Ramirez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794445928
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22412,6 +22453,13 @@
           "label": "Alta 4ta",
           "total_plays": 3,
           "scoring_plays": 0
+        },
+        {
+          "num": 4,
+          "half": "bottom",
+          "label": "Baja 4ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -22438,7 +22486,7 @@
         },
         {
           "num": 4,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
