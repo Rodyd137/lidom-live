@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-12T02:45:36.060Z",
+    "scraped_at": "2026-11-12T02:46:41.066Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-11 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jose Tena",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "Luis Velasquez",
@@ -621,7 +621,7 @@
           "runs": 8,
           "runs_half": 8,
           "errors": 1,
-          "hits": 10,
+          "hits": 11,
           "pitcher": "Hancel Rincon",
           "era": "",
           "debut": 0,
@@ -13932,12 +13932,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-11 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jose Tena",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "Luis Velasquez",
@@ -13975,7 +13975,7 @@
           "runs": 8,
           "runs_half": 8,
           "errors": 1,
-          "hits": 10,
+          "hits": 11,
           "pitcher": "Hancel Rincon",
           "era": "",
           "debut": 0,
@@ -20891,7 +20891,7 @@
             "abbr": "EO",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
             "runs": 8,
-            "hits": 10,
+            "hits": 11,
             "errors": 1,
             "permalink": "/equipo/estrellas-orientales"
           }
@@ -22213,7 +22213,7 @@
             "abbr": "EO",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
             "runs": 8,
-            "hits": 10,
+            "hits": 11,
             "errors": 1,
             "permalink": "/equipo/estrellas-orientales"
           }
@@ -22294,14 +22294,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -22450,7 +22450,7 @@
           "permalink": "/equipo/estrellas-orientales",
           "totals": {
             "R": 8,
-            "H": 10,
+            "H": 11,
             "E": 1,
             "H2": 8
           },
@@ -22621,7 +22621,7 @@
           },
           "home": {
             "R": 8,
-            "H": 10,
+            "H": 11,
             "E": 1
           }
         },
@@ -23334,6 +23334,20 @@
               "ts": 1794451371
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "bottom",
+          "label": "Baja 8va",
+          "plays": [
+            {
+              "reference_id": "20454-2-77",
+              "text": "Jose Tena al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794451552
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23440,6 +23454,13 @@
           "half": "top",
           "label": "Alta 8va",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 8,
+          "half": "bottom",
+          "label": "Baja 8va",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
