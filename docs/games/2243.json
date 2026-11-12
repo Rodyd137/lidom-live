@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2243",
-    "scraped_at": "2026-11-12T01:31:51.949Z",
+    "scraped_at": "2026-11-12T01:32:56.867Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-11 19:15:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Ronny Simon Out! Rodado de Selección.  Primera Base - Primera Base - Campo Corto - se embasa por Error del - Lanzador - Carrera Empujada",
+    "lastPlayByPlay": "Juan Brito Out: Elevado al Campo Corto",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -899,10 +899,17 @@
           },
           {
             "reference_id": "20434-1-53",
-            "text": "Gilberto Celestino  al bate",
+            "text": "Gilberto Celestino   Out: Rodado al Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1794447099
+            "ts": 1794447136
+          },
+          {
+            "reference_id": "20434-1-54",
+            "text": "Juan Brito Out: Elevado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794447153
           }
         ]
       }
@@ -982,7 +989,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 4,
+        "total_plays": 5,
         "scoring_plays": 1
       }
     ],
@@ -1082,7 +1089,7 @@
         "id": 2245,
         "date": "2026-11-11 19:30:00",
         "status": 2,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
