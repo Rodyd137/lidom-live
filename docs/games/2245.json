@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2245",
-    "scraped_at": "2026-11-12T02:54:18.108Z",
+    "scraped_at": "2026-11-12T02:55:22.773Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-11-11 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ferreras  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -66,10 +66,10 @@
         },
         "players": [
           {
-            "id": 5989,
+            "id": 5993,
             "team_id": 5,
-            "name": "Carlos Jorge ",
-            "abbreviation": "C. Jorge",
+            "name": "Hendry Mendez",
+            "abbreviation": "H. Mendez",
             "number": null,
             "dob": null,
             "height": "",
@@ -1095,10 +1095,17 @@
         "plays": [
           {
             "reference_id": "20455-1-80",
-            "text": "Ferreras al bate",
+            "text": "Ferreras  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1794452005
+            "ts": 1794452068
+          },
+          {
+            "reference_id": "20455-1-82",
+            "text": "Hendry Mendez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794452104
           }
         ]
       }
@@ -1220,7 +1227,7 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
