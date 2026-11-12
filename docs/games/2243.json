@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2243",
-    "scraped_at": "2026-11-12T02:48:53.120Z",
+    "scraped_at": "2026-11-12T02:49:57.941Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-11 19:15:00",
-    "roundText": "Alta 9na",
+    "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Wilmer Difo  Out: Rodado al Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "strikes": 2,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -264,10 +264,10 @@
             "position": ""
           },
           {
-            "id": 6040,
+            "id": 6286,
             "team_id": 4,
-            "name": "Jason Schiavone",
-            "abbreviation": "Schiavone",
+            "name": "Gregory Polanco",
+            "abbreviation": "Gregory Polanco",
             "number": null,
             "dob": null,
             "height": "",
@@ -1143,6 +1143,20 @@
             "ts": 1794451527
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "20437-2-80",
+            "text": "Gregory Polanco al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794451772
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1264,6 +1278,13 @@
         "label": "Alta 9na",
         "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1325,7 +1346,7 @@
       },
       {
         "num": 9,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 2,
         "homeTeamRuns": 0
