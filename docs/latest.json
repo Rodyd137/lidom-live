@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-12T02:09:48.505Z",
+    "scraped_at": "2026-11-12T02:10:53.326Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -586,7 +586,7 @@
         "date": "2026-11-11 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Steward Berroa",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -630,9 +630,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2245,
@@ -642,12 +642,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-11 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Marco Luciano  Ponche (K) ",
-        "atBat": "Edgar Quero",
+        "lastPlayByPlay": "Euribiel Ángeles  Out Robando Base! Segunda Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "Luis Velasquez",
@@ -691,7 +691,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 1,
         "strikes": 0
       }
@@ -13943,7 +13943,7 @@
         "date": "2026-11-11 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Steward Berroa",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -13987,9 +13987,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2245,
@@ -13999,12 +13999,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-11 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Marco Luciano  Ponche (K) ",
-        "atBat": "Edgar Quero",
+        "lastPlayByPlay": "Euribiel Ángeles  Out Robando Base! Segunda Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "Luis Velasquez",
@@ -14048,7 +14048,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 1,
         "strikes": 0
       }
@@ -20846,8 +20846,8 @@
       "currentInningNum": 8,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -21780,6 +21780,20 @@
               "ts": 1794449248
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "bottom",
+          "label": "Baja 8va",
+          "plays": [
+            {
+              "reference_id": "20445-2-58",
+              "text": "Steward Berroa al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794449421
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21886,6 +21900,13 @@
           "half": "top",
           "label": "Alta 8va",
           "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 8,
+          "half": "bottom",
+          "label": "Baja 8va",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -22075,22 +22096,22 @@
       "date": "2026-11-11 19:30:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Marco Luciano  Ponche (K) ",
+      "lastPlayByPlay": "Euribiel Ángeles  Out Robando Base! Segunda Base",
       "counts": {
-        "balls": 0,
+        "balls": 2,
         "strikes": 0,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -23016,6 +23037,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1794449368
+            },
+            {
+              "reference_id": "20452-2-62-296783",
+              "text": "Euribiel Ángeles  Out Robando Base! Segunda Base",
+              "scored": false,
+              "is_primary": false,
+              "ts": 1794449409
             }
           ]
         }
@@ -23102,7 +23130,7 @@
           "num": 6,
           "half": "bottom",
           "label": "Baja 6ta",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
