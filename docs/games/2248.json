@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2248",
-    "scraped_at": "2026-11-13T23:45:07.428Z",
+    "scraped_at": "2026-11-13T23:46:12.435Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-11-13 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jose Tena Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -465,10 +465,17 @@
         "plays": [
           {
             "reference_id": "20474-2-5",
-            "text": "Jose Tena al bate",
+            "text": "Jose Tena Out: Elevado al Jardinero Izquierdo",
             "scored": false,
             "is_primary": true,
-            "ts": 1794613477
+            "ts": 1794613532
+          },
+          {
+            "reference_id": "20474-2-6",
+            "text": "Harold Andres Ramirez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794613534
           }
         ]
       }
@@ -485,7 +492,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -575,8 +582,8 @@
           "name": "Gigantes",
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-          "runs": 0,
-          "hits": 2,
+          "runs": 2,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
