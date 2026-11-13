@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2248",
-    "scraped_at": "2026-11-13T23:58:08.923Z",
+    "scraped_at": "2026-11-13T23:59:14.435Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-13 19:30:00",
-    "roundText": "Baja 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "Josh Lester  Ponche (K) ",
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -99,10 +99,10 @@
             "position": ""
           },
           {
-            "id": 6008,
+            "id": 6268,
             "team_id": 6,
-            "name": "Jesús Sanchez ",
-            "abbreviation": "J. Sanchez",
+            "name": "Bryan de la Cruz",
+            "abbreviation": "Bryan de la Cruz",
             "number": null,
             "dob": null,
             "height": "",
@@ -513,6 +513,20 @@
             "ts": 1794614227
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "20475-1-12",
+            "text": "Bryan de la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794614353
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -529,20 +543,27 @@
         "label": "Baja 1ra",
         "total_plays": 7,
         "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
       {
         "num": 1,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
