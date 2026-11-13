@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-13T23:57:00.948Z",
+    "scraped_at": "2026-11-13T23:58:06.104Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Miguel Andujar Base por Bolas ",
-        "atBat": "Mel Rojas",
+        "lastPlayByPlay": "Mel Rojas Sencillo y 1 Carrera Impulsada ",
+        "atBat": "K. Alcantara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -639,12 +642,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 8,
+        "base": 1,
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Leonardo Bernal  Ponche (K) ",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Josh Lester  Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +691,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 2,
-        "strikes": 2
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -14245,8 +14248,8 @@
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Miguel Andujar Base por Bolas ",
-        "atBat": "Mel Rojas",
+        "lastPlayByPlay": "Mel Rojas Sencillo y 1 Carrera Impulsada ",
+        "atBat": "K. Alcantara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14257,7 +14260,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -14302,12 +14308,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 8,
+        "base": 1,
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Leonardo Bernal  Ponche (K) ",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Josh Lester  Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14351,9 +14357,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 2,
-        "strikes": 2
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       }
     ],
     "2026-11-14": [
@@ -20318,7 +20324,7 @@
       "date": "2026-11-13 19:30:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Miguel Andujar Base por Bolas ",
+      "lastPlayByPlay": "Mel Rojas Sencillo y 1 Carrera Impulsada ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -20814,10 +20820,17 @@
             },
             {
               "reference_id": "20465-2-9",
-              "text": "Mel Rojas al bate",
+              "text": "Mel Rojas Sencillo y 1 Carrera Impulsada ",
+              "scored": true,
+              "is_primary": true,
+              "ts": 1794614231
+            },
+            {
+              "reference_id": "20465-2-10",
+              "text": "K. Alcantara al bate",
               "scored": false,
               "is_primary": true,
-              "ts": 1794614025
+              "ts": 1794614236
             }
           ]
         }
@@ -20834,8 +20847,8 @@
           "num": 1,
           "half": "bottom",
           "label": "Baja 1ra",
-          "total_plays": 5,
-          "scoring_plays": 0
+          "total_plays": 6,
+          "scoring_plays": 1
         }
       ],
       "innings_raw": [
@@ -21024,22 +21037,22 @@
       "date": "2026-11-13 19:30:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Leonardo Bernal  Ponche (K) ",
+      "lastPlayByPlay": "Josh Lester  Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 2
+        "balls": 0,
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 8
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": true,
-        "on3B": true,
-        "runners": 3,
-        "mask": 8
+        "on1B": false,
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -21520,10 +21533,10 @@
             },
             {
               "reference_id": "20474-2-11",
-              "text": "Josh Lester  al bate",
+              "text": "Josh Lester  Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794614133
+              "ts": 1794614227
             }
           ]
         }
