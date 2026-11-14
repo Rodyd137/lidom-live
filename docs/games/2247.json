@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2247",
-    "scraped_at": "2026-11-14T02:46:40.946Z",
+    "scraped_at": "2026-11-14T02:47:45.931Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-11-13 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "M. De la Cruz Doble! Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/leones-del-escogido",
         "totals": {
           "R": 4,
-          "H": 5,
+          "H": 6,
           "E": 0,
           "H2": 3
         },
@@ -330,7 +330,7 @@
       "totals": {
         "away": {
           "R": 4,
-          "H": 5,
+          "H": 6,
           "E": 0
         },
         "home": {
@@ -1028,10 +1028,17 @@
         "plays": [
           {
             "reference_id": "20473-1-69",
-            "text": "M. De la Cruz al bate",
+            "text": "M. De la Cruz Doble! Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1794624380
+            "ts": 1794624412
+          },
+          {
+            "reference_id": "20473-1-70",
+            "text": "Jonathan Guzman al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794624419
           }
         ]
       }
@@ -1153,7 +1160,7 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
