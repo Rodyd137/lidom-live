@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2249",
-    "scraped_at": "2026-11-14T21:58:20.539Z",
+    "scraped_at": "2026-11-14T21:59:25.452Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-14 16:00:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Miguel Bleis Out: Elevado al Segunda Base",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Enny Romero",
+          "pitcher": "Jeffry Yan",
           "era": "",
           "record": "",
           "debut": false
@@ -898,6 +898,20 @@
             "ts": 1794693362
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "20489-2-54",
+            "text": "Andy Ibanez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794693511
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -991,6 +1005,13 @@
         "label": "Alta 7ma",
         "total_plays": 9,
         "scoring_plays": 1
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1038,7 +1059,7 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 3,
         "homeTeamRuns": 0
@@ -1080,7 +1101,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 1,
-          "hits": 2,
+          "hits": 3,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         }
