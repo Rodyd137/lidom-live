@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2246",
-    "scraped_at": "2026-11-14T00:24:13.879Z",
+    "scraped_at": "2026-11-14T00:25:19.024Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-13 19:00:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Jasson Dominguez Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "balls": 2,
+      "strikes": 2,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -632,6 +632,20 @@
             "ts": 1794615679
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "20458-2-25",
+            "text": "Nomar Mazara al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794615887
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -669,6 +683,13 @@
         "label": "Alta 3ra",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -688,7 +709,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
@@ -767,7 +788,7 @@
         "id": 2248,
         "date": "2026-11-13 19:30:00",
         "status": 2,
-        "roundText": "Alta 3ra",
+        "roundText": "Baja 3ra",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
