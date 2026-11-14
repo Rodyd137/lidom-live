@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T02:13:59.277Z",
+    "scraped_at": "2026-11-14T02:15:04.578Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-11-13 19:00:00",
         "part": 2,
         "lastPlayByPlay": "Agustin Ramirez Sencillo ",
-        "atBat": null,
+        "atBat": "Deyvinson de los Santos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -581,16 +581,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-13 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Carlos Santana  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "C. Adames",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "currentInningNum": 7,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -628,8 +628,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
-        "strikes": 0
+        "outs": 0,
+        "strikes": 2
       },
       {
         "id": 2248,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Josh Lester  se embasa por Error del Tercera Base - Carrera Empujada",
-        "atBat": "Oscar Gonzalez",
+        "lastPlayByPlay": "Oscar Gonzalez Out: Elevado al Jardinero Izquierdo",
+        "atBat": null,
         "comment": "",
         "winningPitcher": "Phillips Valdez",
         "losingPitcher": "Eddy Yean",
@@ -14244,16 +14244,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-13 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Carlos Santana  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "C. Adames",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "currentInningNum": 7,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -14291,8 +14291,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
-        "strikes": 0
+        "outs": 0,
+        "strikes": 2
       },
       {
         "id": 2248,
@@ -20789,7 +20789,7 @@
           "id": 2247,
           "date": "2026-11-13 19:30:00",
           "status": 2,
-          "roundText": "Alta 7ma",
+          "roundText": "Baja 7ma",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -20903,16 +20903,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-13 19:30:00",
-      "roundText": "Alta 7ma",
+      "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Carlos Santana  Out: Rodado al Segunda Base - Primera Base",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
-        "strikes": 0,
-        "outs": 3
+        "strikes": 2,
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -21823,6 +21823,20 @@
               "ts": 1794622283
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "plays": [
+            {
+              "reference_id": "20471-2-59",
+              "text": "C. Adames al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794622448
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21916,6 +21930,13 @@
           "label": "Alta 7ma",
           "total_plays": 7,
           "scoring_plays": 1
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -21963,7 +21984,7 @@
         },
         {
           "num": 7,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 1,
           "homeTeamRuns": 0
@@ -23287,7 +23308,7 @@
           "id": 2247,
           "date": "2026-11-13 19:30:00",
           "status": 2,
-          "roundText": "Alta 7ma",
+          "roundText": "Baja 7ma",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
