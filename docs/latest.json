@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T00:49:08.661Z",
+    "scraped_at": "2026-11-14T00:50:13.732Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Mel Rojas",
+        "lastPlayByPlay": "Mel Rojas Out: Elevado al Receptor",
+        "atBat": "K. Alcantara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "David Villar Ponche (K) ",
-        "atBat": "Junior Perez",
+        "lastPlayByPlay": "Junior Perez Sencillo Tercera Base",
+        "atBat": "Jose Tena",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -682,7 +682,7 @@
           "runs": 1,
           "runs_half": 1,
           "errors": 0,
-          "hits": 4,
+          "hits": 5,
           "pitcher": "Oscar de la Cruz ",
           "era": "",
           "debut": 0,
@@ -14245,8 +14245,8 @@
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Mel Rojas",
+        "lastPlayByPlay": "K. Alcantara Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14291,7 +14291,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -14302,12 +14302,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "David Villar Ponche (K) ",
-        "atBat": "Junior Perez",
+        "lastPlayByPlay": "Junior Perez Sencillo Tercera Base",
+        "atBat": "Jose Tena",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14345,7 +14345,7 @@
           "runs": 1,
           "runs_half": 1,
           "errors": 0,
-          "hits": 4,
+          "hits": 5,
           "pitcher": "Oscar de la Cruz ",
           "era": "",
           "debut": 0,
@@ -20517,7 +20517,7 @@
             "abbr": "EO",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
             "runs": 1,
-            "hits": 4,
+            "hits": 5,
             "errors": 0,
             "permalink": "/equipo/estrellas-orientales"
           }
@@ -20590,11 +20590,11 @@
       "date": "2026-11-13 19:30:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "K. Alcantara Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21254,10 +21254,17 @@
           "plays": [
             {
               "reference_id": "20468-2-27",
-              "text": "Mel Rojas al bate",
+              "text": "Mel Rojas Out: Elevado al Receptor",
               "scored": false,
               "is_primary": true,
-              "ts": 1794617273
+              "ts": 1794617367
+            },
+            {
+              "reference_id": "20468-2-28",
+              "text": "K. Alcantara Ponche (K) ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794617413
             }
           ]
         }
@@ -21316,7 +21323,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21433,7 +21440,7 @@
             "abbr": "EO",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
             "runs": 1,
-            "hits": 4,
+            "hits": 5,
             "errors": 0,
             "permalink": "/equipo/estrellas-orientales"
           }
@@ -21506,7 +21513,7 @@
       "date": "2026-11-13 19:30:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "David Villar Ponche (K) ",
+      "lastPlayByPlay": "Junior Perez Sencillo Tercera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21514,14 +21521,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -21670,7 +21677,7 @@
           "permalink": "/equipo/estrellas-orientales",
           "totals": {
             "R": 1,
-            "H": 4,
+            "H": 5,
             "E": 0,
             "H2": 1
           },
@@ -21841,7 +21848,7 @@
           },
           "home": {
             "R": 1,
-            "H": 4,
+            "H": 5,
             "E": 0
           }
         },
@@ -22205,10 +22212,17 @@
             },
             {
               "reference_id": "20477-2-34",
-              "text": "Junior Perez al bate",
+              "text": "Junior Perez Sencillo Tercera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794617325
+              "ts": 1794617388
+            },
+            {
+              "reference_id": "20477-2-35",
+              "text": "Jose Tena al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794617390
             }
           ]
         }
@@ -22267,7 +22281,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
