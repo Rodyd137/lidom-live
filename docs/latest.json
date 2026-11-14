@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T01:21:46.201Z",
+    "scraped_at": "2026-11-14T01:22:51.524Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -639,12 +642,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Marco Luciano   Out: Rodado al Campo Corto - Primera Base",
-        "atBat": null,
+        "lastPlayByPlay": "Leonardo Bernal  Sencillo Jardinero Central",
+        "atBat": "Josh Lester ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -682,14 +685,14 @@
           "runs": 1,
           "runs_half": 1,
           "errors": 1,
-          "hits": 6,
+          "hits": 7,
           "pitcher": "Oddy Nuñez",
           "era": "",
           "debut": 0,
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -14257,7 +14260,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -14302,12 +14308,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Marco Luciano   Out: Rodado al Campo Corto - Primera Base",
-        "atBat": null,
+        "lastPlayByPlay": "Leonardo Bernal  Sencillo Jardinero Central",
+        "atBat": "Josh Lester ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14345,14 +14351,14 @@
           "runs": 1,
           "runs_half": 1,
           "errors": 1,
-          "hits": 6,
+          "hits": 7,
           "pitcher": "Oddy Nuñez",
           "era": "",
           "debut": 0,
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -20643,7 +20649,7 @@
             "abbr": "EO",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
             "runs": 1,
-            "hits": 6,
+            "hits": 7,
             "errors": 1,
             "permalink": "/equipo/estrellas-orientales"
           }
@@ -21692,7 +21698,7 @@
             "abbr": "EO",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
             "runs": 1,
-            "hits": 6,
+            "hits": 7,
             "errors": 1,
             "permalink": "/equipo/estrellas-orientales"
           }
@@ -21765,22 +21771,22 @@
       "date": "2026-11-13 19:30:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Marco Luciano   Out: Rodado al Campo Corto - Primera Base",
+      "lastPlayByPlay": "Leonardo Bernal  Sencillo Jardinero Central",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -21929,7 +21935,7 @@
           "permalink": "/equipo/estrellas-orientales",
           "totals": {
             "R": 1,
-            "H": 6,
+            "H": 7,
             "E": 1,
             "H2": 1
           },
@@ -22100,7 +22106,7 @@
           },
           "home": {
             "R": 1,
-            "H": 6,
+            "H": 7,
             "E": 1
           }
         },
@@ -22552,6 +22558,20 @@
               "scored": false,
               "is_primary": true,
               "ts": 1794619299
+            },
+            {
+              "reference_id": "20478-2-44",
+              "text": "Leonardo Bernal  Sencillo Jardinero Central",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794619359
+            },
+            {
+              "reference_id": "20478-2-45",
+              "text": "Josh Lester  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794619368
             }
           ]
         }
@@ -22624,7 +22644,7 @@
           "num": 5,
           "half": "bottom",
           "label": "Baja 5ta",
-          "total_plays": 1,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
