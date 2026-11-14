@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2251",
-    "scraped_at": "2026-11-14T23:42:23.412Z",
+    "scraped_at": "2026-11-14T23:43:28.723Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-11-14 19:30:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ronny Simon  Out: Rodado al Lanzador - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -119,7 +119,30 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 6170,
+            "team_id": 6,
+            "name": "Ronny Simon",
+            "abbreviation": "Ronny Simon",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6006,
+            "team_id": 6,
+            "name": "Gilberto Celestino ",
+            "abbreviation": "G. Celestino",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       }
     },
     "comment": "",
@@ -291,6 +314,20 @@
             "ts": 1794699579
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "20501-2-4",
+            "text": "Ronny Simon  Out: Rodado al Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794699771
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -299,6 +336,13 @@
         "half": "top",
         "label": "Alta 1ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],

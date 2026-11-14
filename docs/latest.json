@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T23:42:20.396Z",
+    "scraped_at": "2026-11-14T23:43:25.763Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -643,7 +643,7 @@
         "status": 2,
         "date": "2026-11-14 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Ronny Simon  Out: Rodado al Lanzador - Primera Base",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -14369,8 +14369,8 @@
         "status": 2,
         "date": "2026-11-14 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Ronny Simon  Out: Rodado al Lanzador - Primera Base",
+        "atBat": "Gilberto Celestino ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14415,7 +14415,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -22149,11 +22149,11 @@
       "date": "2026-11-14 19:30:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Ronny Simon  Out: Rodado al Lanzador - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -22257,7 +22257,30 @@
             "record": "",
             "debut": false
           },
-          "players": []
+          "players": [
+            {
+              "id": 6170,
+              "team_id": 6,
+              "name": "Ronny Simon",
+              "abbreviation": "Ronny Simon",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6006,
+              "team_id": 6,
+              "name": "Gilberto Celestino ",
+              "abbreviation": "G. Celestino",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            }
+          ]
         }
       },
       "comment": "",
@@ -22429,6 +22452,20 @@
               "ts": 1794699579
             }
           ]
+        },
+        {
+          "num": 1,
+          "half": "bottom",
+          "label": "Baja 1ra",
+          "plays": [
+            {
+              "reference_id": "20501-2-4",
+              "text": "Ronny Simon  Out: Rodado al Lanzador - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794699771
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22437,6 +22474,13 @@
           "half": "top",
           "label": "Alta 1ra",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 1,
+          "half": "bottom",
+          "label": "Baja 1ra",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
