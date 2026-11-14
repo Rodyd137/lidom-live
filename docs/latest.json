@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T23:30:23.750Z",
+    "scraped_at": "2026-11-14T23:31:28.954Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,19 +578,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-14 17:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Mel Rojas Ponche (K) ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "Carlos Jorge  Sencillo Jardinero Central",
+        "atBat": "Noelvi Marte ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "currentInningNum": 7,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -621,14 +621,14 @@
           "runs": 4,
           "runs_half": 3,
           "errors": 1,
-          "hits": 5,
+          "hits": 6,
           "pitcher": "Enmanuel Mejia",
           "era": "",
           "debut": 0,
           "record": "2-0"
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -14304,19 +14304,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-14 17:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Mel Rojas Ponche (K) ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "Carlos Jorge  Sencillo Jardinero Central",
+        "atBat": "Noelvi Marte ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "currentInningNum": 7,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -14347,14 +14347,14 @@
           "runs": 4,
           "runs_half": 3,
           "errors": 1,
-          "hits": 5,
+          "hits": 6,
           "pitcher": "Enmanuel Mejia",
           "era": "",
           "debut": 0,
           "record": "2-0"
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -20778,7 +20778,7 @@
           "id": 2250,
           "date": "2026-11-14 17:00:00",
           "status": 2,
-          "roundText": "Alta 7ma",
+          "roundText": "Baja 7ma",
           "awayTeam": {
             "id": 1,
             "name": "Tigres",
@@ -20795,7 +20795,7 @@
             "abbr": "GC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 4,
-            "hits": 5,
+            "hits": 6,
             "errors": 1,
             "permalink": "/equipo/gigantes-del-cibao"
           }
@@ -20892,24 +20892,24 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-14 17:00:00",
-      "roundText": "Alta 7ma",
+      "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Mel Rojas Ponche (K) ",
+      "lastPlayByPlay": "Carlos Jorge  Sencillo Jardinero Central",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
-        "base": 1
+        "battingTeam": "homeTeam",
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -21047,7 +21047,7 @@
           "permalink": "/equipo/gigantes-del-cibao",
           "totals": {
             "R": 4,
-            "H": 5,
+            "H": 6,
             "E": 1,
             "H2": 3
           },
@@ -21218,7 +21218,7 @@
           },
           "home": {
             "R": 4,
-            "H": 5,
+            "H": 6,
             "E": 1
           }
         },
@@ -21819,6 +21819,27 @@
               "ts": 1794698874
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "plays": [
+            {
+              "reference_id": "20498-2-58",
+              "text": "Carlos Jorge  Sencillo Jardinero Central",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794699065
+            },
+            {
+              "reference_id": "20498-2-59",
+              "text": "Noelvi Marte  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794699067
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21912,6 +21933,13 @@
           "label": "Alta 7ma",
           "total_plays": 8,
           "scoring_plays": 4
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "total_plays": 2,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -21959,7 +21987,7 @@
         },
         {
           "num": 7,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 4,
           "homeTeamRuns": 0
@@ -22416,7 +22444,7 @@
           "id": 2250,
           "date": "2026-11-14 17:00:00",
           "status": 2,
-          "roundText": "Alta 7ma",
+          "roundText": "Baja 7ma",
           "awayTeam": {
             "id": 1,
             "name": "Tigres",
@@ -22433,7 +22461,7 @@
             "abbr": "GC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 4,
-            "hits": 5,
+            "hits": 6,
             "errors": 1,
             "permalink": "/equipo/gigantes-del-cibao"
           }
