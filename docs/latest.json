@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T00:37:11.486Z",
+    "scraped_at": "2026-11-14T00:38:17.303Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -582,8 +585,8 @@
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Erik Gonzales",
+        "lastPlayByPlay": "Erik Gonzales  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Marmolejos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,7 +631,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -14196,7 +14199,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -14245,8 +14251,8 @@
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Erik Gonzales",
+        "lastPlayByPlay": "Erik Gonzales  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Marmolejos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14291,7 +14297,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -20569,7 +20575,7 @@
       "date": "2026-11-13 19:30:00",
       "roundText": "Alta 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Erik Gonzales  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21198,10 +21204,17 @@
           "plays": [
             {
               "reference_id": "20468-1-23",
-              "text": "Erik Gonzales al bate",
+              "text": "Erik Gonzales  Out: Rodado al Segunda Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794616519
+              "ts": 1794616635
+            },
+            {
+              "reference_id": "20468-1-24",
+              "text": "Marmolejos al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794616636
             }
           ]
         }
@@ -21253,7 +21266,7 @@
           "num": 4,
           "half": "top",
           "label": "Alta 4ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
