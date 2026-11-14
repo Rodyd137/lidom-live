@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2248",
-    "scraped_at": "2026-11-14T03:11:43.429Z",
+    "scraped_at": "2026-11-14T03:12:48.692Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -180,7 +180,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Luis Garcias",
+          "pitcher": "Hancel Rincon",
           "era": "",
           "record": "",
           "debut": false
@@ -1210,6 +1210,13 @@
             "scored": true,
             "is_primary": true,
             "ts": 1794625847
+          },
+          {
+            "reference_id": "21401-1-93",
+            "text": "Juan Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794625965
           }
         ]
       }
@@ -1345,7 +1352,7 @@
         "num": 10,
         "half": "top",
         "label": "Alta 10ma",
-        "total_plays": 6,
+        "total_plays": 7,
         "scoring_plays": 3
       }
     ],
