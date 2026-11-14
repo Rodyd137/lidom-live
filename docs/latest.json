@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T21:31:11.137Z",
+    "scraped_at": "2026-11-14T21:32:16.246Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-14 16:00:00",
         "part": 1,
-        "lastPlayByPlay": "Miguel Bleis  Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "Jose Tena",
+        "lastPlayByPlay": "Jose Tena Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 7,
         "status": 2,
         "date": "2026-11-14 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
-        "atBat": "Nomar Mazara",
+        "lastPlayByPlay": "Nomar Mazara Ponche (K) ",
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -14247,8 +14247,8 @@
         "status": 2,
         "date": "2026-11-14 16:00:00",
         "part": 1,
-        "lastPlayByPlay": "Miguel Bleis  Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "Jose Tena",
+        "lastPlayByPlay": "Jose Tena Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14293,7 +14293,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -14304,12 +14304,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 7,
         "status": 2,
         "date": "2026-11-14 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
-        "atBat": "Nomar Mazara",
+        "lastPlayByPlay": "Nomar Mazara Ponche (K) ",
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14354,8 +14354,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 0
+        "outs": 2,
+        "strikes": 1
       },
       {
         "id": 2251,
@@ -19523,11 +19523,11 @@
       "date": "2026-11-14 16:00:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Miguel Bleis  Out: Rodado al Tercera Base - Primera Base",
+      "lastPlayByPlay": "Jose Tena Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -20306,10 +20306,10 @@
             },
             {
               "reference_id": "20488-1-41",
-              "text": "Jose Tena al bate",
+              "text": "Jose Tena Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794691863
+              "ts": 1794691924
             }
           ]
         }
@@ -20579,22 +20579,22 @@
       "date": "2026-11-14 17:00:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
+      "lastPlayByPlay": "Nomar Mazara Ponche (K) ",
       "counts": {
         "balls": 0,
-        "strikes": 0,
-        "outs": 1
+        "strikes": 1,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 5
+        "base": 7
       },
       "base_runners": {
-        "on1B": true,
+        "on1B": false,
         "on2B": true,
-        "on3B": false,
+        "on3B": true,
         "runners": 2,
-        "mask": 5
+        "mask": 7
       },
       "betting": {
         "moneyline": {
@@ -21048,11 +21048,25 @@
               "ts": 1794691779
             },
             {
+              "reference_id": "20492-2-9-297648",
+              "text": "Carlos Jorge  Robo de Base Tercera Base",
+              "scored": false,
+              "is_primary": false,
+              "ts": 1794691883
+            },
+            {
               "reference_id": "20492-2-10",
-              "text": "Nomar Mazara al bate",
+              "text": "Nomar Mazara Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794691782
+              "ts": 1794691915
+            },
+            {
+              "reference_id": "20492-2-11",
+              "text": "Agustin Ramirez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794691918
             }
           ]
         }
@@ -21069,7 +21083,7 @@
           "num": 1,
           "half": "bottom",
           "label": "Baja 1ra",
-          "total_plays": 5,
+          "total_plays": 7,
           "scoring_plays": 0
         }
       ],
