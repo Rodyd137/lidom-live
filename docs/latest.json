@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T21:34:26.305Z",
+    "scraped_at": "2026-11-14T21:35:31.072Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,19 +517,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-14 16:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Jose Tena Ponche (K) ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "Ramon Laureano Sencillo Jardinero Central",
+        "atBat": "Ramon Laureano",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "currentInningNum": 6,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -560,14 +560,14 @@
           "runs": 2,
           "runs_half": 2,
           "errors": 1,
-          "hits": 6,
+          "hits": 7,
           "pitcher": "Angel Sanchez",
           "era": "",
           "debut": 0,
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -14246,19 +14246,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-14 16:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Jose Tena Ponche (K) ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "Ramon Laureano Sencillo Jardinero Central",
+        "atBat": "Yamaico Navarro",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "currentInningNum": 6,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -14289,14 +14289,14 @@
           "runs": 2,
           "runs_half": 2,
           "errors": 1,
-          "hits": 6,
+          "hits": 7,
           "pitcher": "Angel Sanchez",
           "era": "",
           "debut": 0,
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -19527,24 +19527,24 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-14 16:00:00",
-      "roundText": "Alta 6ta",
+      "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Jose Tena Ponche (K) ",
+      "lastPlayByPlay": "Ramon Laureano Sencillo Jardinero Central",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
-        "base": 1
+        "battingTeam": "homeTeam",
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -19693,7 +19693,7 @@
           "permalink": "/equipo/leones-del-escogido",
           "totals": {
             "R": 2,
-            "H": 6,
+            "H": 7,
             "E": 1,
             "H2": 2
           },
@@ -19864,7 +19864,7 @@
           },
           "home": {
             "R": 2,
-            "H": 6,
+            "H": 7,
             "E": 1
           }
         },
@@ -20318,6 +20318,27 @@
               "ts": 1794691924
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "bottom",
+          "label": "Baja 6ta",
+          "plays": [
+            {
+              "reference_id": "20488-2-42",
+              "text": "Ramon Laureano Sencillo Jardinero Central",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794692119
+            },
+            {
+              "reference_id": "20488-2-44",
+              "text": "Yamaico Navarro al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794692129
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20397,6 +20418,13 @@
           "label": "Alta 6ta",
           "total_plays": 3,
           "scoring_plays": 0
+        },
+        {
+          "num": 6,
+          "half": "bottom",
+          "label": "Baja 6ta",
+          "total_plays": 2,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20437,7 +20465,7 @@
         },
         {
           "num": 6,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
@@ -20783,10 +20811,10 @@
               "position": ""
             },
             {
-              "id": 5992,
+              "id": 6139,
               "team_id": 5,
-              "name": "Deyvinson de los Santos",
-              "abbreviation": "D. de los Santos",
+              "name": "Carlos Franco",
+              "abbreviation": "C. Franco",
               "number": null,
               "dob": null,
               "height": "",
@@ -21170,7 +21198,7 @@
           "id": 2249,
           "date": "2026-11-14 16:00:00",
           "status": 2,
-          "roundText": "Alta 6ta",
+          "roundText": "Baja 6ta",
           "awayTeam": {
             "id": 7,
             "name": "Estrellas",
@@ -21187,7 +21215,7 @@
             "abbr": "LE",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
             "runs": 2,
-            "hits": 6,
+            "hits": 7,
             "errors": 1,
             "permalink": "/equipo/leones-del-escogido"
           }
@@ -21576,7 +21604,7 @@
           "id": 2249,
           "date": "2026-11-14 16:00:00",
           "status": 2,
-          "roundText": "Alta 6ta",
+          "roundText": "Baja 6ta",
           "awayTeam": {
             "id": 7,
             "name": "Estrellas",
@@ -21593,7 +21621,7 @@
             "abbr": "LE",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
             "runs": 2,
-            "hits": 6,
+            "hits": 7,
             "errors": 1,
             "permalink": "/equipo/leones-del-escogido"
           }
