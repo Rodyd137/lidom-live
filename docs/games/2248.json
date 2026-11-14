@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2248",
-    "scraped_at": "2026-11-14T02:37:57.861Z",
+    "scraped_at": "2026-11-14T02:39:03.650Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-11-13 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Rafael Lantigua   Out: Rodado al Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -136,28 +136,6 @@
             "team_id": 6,
             "name": "Juan Brito",
             "abbreviation": "Juan Brito",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 6070,
-            "team_id": 6,
-            "name": "Yairo Muñoz",
-            "abbreviation": "Yairo Muñoz",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
-          {
-            "id": 6012,
-            "team_id": 6,
-            "name": "Pedro Severino",
-            "abbreviation": "P. Severino",
             "number": null,
             "dob": null,
             "height": "",
@@ -1073,6 +1051,27 @@
             "ts": 1794623725
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "20482-1-77",
+            "text": "Rafael Lantigua   Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794623918
+          },
+          {
+            "reference_id": "20482-1-78",
+            "text": "Gilberto Celestino  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794623919
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1187,6 +1186,13 @@
         "label": "Baja 8va",
         "total_plays": 5,
         "scoring_plays": 2
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
