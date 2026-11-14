@@ -2,9 +2,91 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T16:54:17.826Z",
+    "scraped_at": "2026-11-14T21:12:42.941Z",
     "tz": "America/Santo_Domingo"
   },
-  "tracked_ids": [],
-  "live": []
+  "tracked_ids": [
+    2249,
+    2250
+  ],
+  "live": [
+    {
+      "id": 2249,
+      "status": 2,
+      "roundText": "Alta 5ta",
+      "currentInningNum": 5,
+      "atBat": null,
+      "lastPlayByPlay": null,
+      "counts": {
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0
+      },
+      "base": {
+        "on1B": false,
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
+      },
+      "battingTeam": "awayTeam",
+      "score": {
+        "away": {
+          "name": "Estrellas",
+          "abbr": "EO",
+          "R": 1,
+          "H": 2,
+          "E": 0
+        },
+        "home": {
+          "name": "Leones",
+          "abbr": "LE",
+          "R": 1,
+          "H": 3,
+          "E": 1
+        }
+      },
+      "threat": 22,
+      "updated_at": "2026-11-14T21:12:42.941Z"
+    },
+    {
+      "id": 2250,
+      "status": 2,
+      "roundText": "Alta 1ra",
+      "currentInningNum": 1,
+      "atBat": null,
+      "lastPlayByPlay": "Miguel Andujar Elevado de Sacrificio Carrera Empujada",
+      "counts": {
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
+      },
+      "base": {
+        "on1B": true,
+        "on2B": false,
+        "on3B": false,
+        "runners": 1,
+        "mask": 2
+      },
+      "battingTeam": "awayTeam",
+      "score": {
+        "away": {
+          "name": "Tigres",
+          "abbr": "TL",
+          "R": 1,
+          "H": 2,
+          "E": 0
+        },
+        "home": {
+          "name": "Gigantes",
+          "abbr": "GC",
+          "R": 0,
+          "H": 0,
+          "E": 0
+        }
+      },
+      "threat": 11,
+      "updated_at": "2026-11-14T21:12:42.941Z"
+    }
+  ]
 }
