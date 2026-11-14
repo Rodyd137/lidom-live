@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2247",
-    "scraped_at": "2026-11-14T01:43:33.015Z",
+    "scraped_at": "2026-11-14T01:44:38.295Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-13 19:30:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "K. Alcantara  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 3,
-          "H": 6,
+          "H": 7,
           "E": 0,
           "H2": 3
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 3,
-          "H": 6,
+          "H": 7,
           "E": 0
         }
       },
@@ -850,10 +850,17 @@
         "plays": [
           {
             "reference_id": "20470-2-47",
-            "text": "K. Alcantara al bate",
+            "text": "K. Alcantara  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1794620577
+            "ts": 1794620624
+          },
+          {
+            "reference_id": "20470-2-48",
+            "text": "Francisco Mejia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794620628
           }
         ]
       }
@@ -940,7 +947,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
