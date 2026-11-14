@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2249",
-    "scraped_at": "2026-11-14T21:55:05.419Z",
+    "scraped_at": "2026-11-14T21:56:10.579Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-14 16:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Leonardo Bernal   Out: Rodado al Segunda Base - Campo Corto - Carrera Empujada",
+    "lastPlayByPlay": "Miguel Bleis Out: Elevado al Segunda Base",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 2
+      "strikes": 0,
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 6
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
-      "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "on3B": false,
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -879,16 +879,23 @@
           {
             "reference_id": "20489-1-52",
             "text": "Leonardo Bernal   Out: Rodado al Segunda Base - Campo Corto - Carrera Empujada",
-            "scored": true,
+            "scored": false,
             "is_primary": true,
             "ts": 1794693244
           },
           {
+            "reference_id": "20489-1-52-297691",
+            "text": "Leonardo Bernal  Robo de Base Segunda Base",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1794693344
+          },
+          {
             "reference_id": "20489-1-53",
-            "text": "Miguel Bleis al bate",
+            "text": "Miguel Bleis Out: Elevado al Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1794693246
+            "ts": 1794693362
           }
         ]
       }
@@ -982,8 +989,8 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 8,
-        "scoring_plays": 2
+        "total_plays": 9,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
