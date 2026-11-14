@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2248",
-    "scraped_at": "2026-11-14T02:04:12.377Z",
+    "scraped_at": "2026-11-14T02:05:19.610Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-13 19:30:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Ronny Simon Out Robando Base! Receptor - Segunda Base",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Julian Fernandez",
+          "pitcher": "Ronaldo Alesandro",
           "era": "",
           "record": "",
           "debut": false
@@ -954,6 +954,20 @@
             "ts": 1794621705
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "20480-2-63",
+            "text": "Aaron Schunk al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794621910
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1047,6 +1061,13 @@
         "label": "Alta 7ma",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1094,7 +1115,7 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
