@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T23:40:09.988Z",
+    "scraped_at": "2026-11-14T23:41:15.368Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-11-14 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Marcell Ozuna  Doble! Jardinero Izquierdo",
-        "atBat": "Nomar Mazara",
+        "lastPlayByPlay": "Nomar Mazara Base por Bolas ",
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": "2-0"
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 2,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2251,
@@ -14304,12 +14304,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-11-14 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Marcell Ozuna  Doble! Jardinero Izquierdo",
-        "atBat": "Nomar Mazara",
+        "lastPlayByPlay": "Nomar Mazara Base por Bolas ",
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14353,7 +14353,7 @@
           "debut": 0,
           "record": "2-0"
         },
-        "balls": 3,
+        "balls": 1,
         "outs": 2,
         "strikes": 1
       },
@@ -20894,22 +20894,22 @@
       "date": "2026-11-14 17:00:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Marcell Ozuna  Doble! Jardinero Izquierdo",
+      "lastPlayByPlay": "Nomar Mazara Base por Bolas ",
       "counts": {
-        "balls": 3,
-        "strikes": 1,
+        "balls": 0,
+        "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 3
+        "base": 5
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -21848,10 +21848,17 @@
             },
             {
               "reference_id": "20498-2-61",
-              "text": "Nomar Mazara al bate",
+              "text": "Nomar Mazara Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794699324
+              "ts": 1794699615
+            },
+            {
+              "reference_id": "20498-2-62",
+              "text": "Agustin Ramirez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794699618
             }
           ]
         }
@@ -21952,7 +21959,7 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
