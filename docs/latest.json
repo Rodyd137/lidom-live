@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T21:46:22.568Z",
+    "scraped_at": "2026-11-14T21:47:27.618Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -582,8 +585,8 @@
         "status": 2,
         "date": "2026-11-14 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Michel de Leon Ponche (K) ",
-        "atBat": "Y. Encarnación",
+        "lastPlayByPlay": "Y. Encarnación Ponche (K) ",
+        "atBat": "Gustavo Nuñez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,7 +631,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -14259,7 +14262,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -14308,8 +14314,8 @@
         "status": 2,
         "date": "2026-11-14 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Michel de Leon Ponche (K) ",
-        "atBat": "Y. Encarnación",
+        "lastPlayByPlay": "Y. Encarnación Ponche (K) ",
+        "atBat": "Gustavo Nuñez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14354,7 +14360,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -20663,11 +20669,11 @@
       "date": "2026-11-14 17:00:00",
       "roundText": "Alta 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "Michel de Leon Ponche (K) ",
+      "lastPlayByPlay": "Y. Encarnación Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21222,10 +21228,17 @@
             },
             {
               "reference_id": "20493-1-15",
-              "text": "Y. Encarnación al bate",
+              "text": "Y. Encarnación Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794692744
+              "ts": 1794692811
+            },
+            {
+              "reference_id": "20493-1-16",
+              "text": "Gustavo Nuñez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794692813
             }
           ]
         }
@@ -21249,7 +21262,7 @@
           "num": 2,
           "half": "top",
           "label": "Alta 2da",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
