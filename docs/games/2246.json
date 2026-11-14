@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2246",
-    "scraped_at": "2026-11-14T02:24:54.893Z",
+    "scraped_at": "2026-11-14T02:26:00.314Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-11-13 19:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Adael Amador Out: Elevado al Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -996,6 +996,27 @@
             "ts": 1794622954
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "20463-1-68",
+            "text": "Adael Amador Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794623155
+          },
+          {
+            "reference_id": "20463-1-69",
+            "text": "Ryan Ritter al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794623158
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1096,6 +1117,13 @@
         "label": "Baja 7ma",
         "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1194,7 +1222,7 @@
         "id": 2248,
         "date": "2026-11-13 19:30:00",
         "status": 2,
-        "roundText": "Alta 8va",
+        "roundText": "Baja 8va",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -1210,8 +1238,8 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 2,
-          "hits": 9,
+          "runs": 3,
+          "hits": 10,
           "errors": 2,
           "permalink": "/equipo/estrellas-orientales"
         }

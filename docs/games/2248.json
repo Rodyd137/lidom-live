@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2248",
-    "scraped_at": "2026-11-14T02:24:54.898Z",
+    "scraped_at": "2026-11-14T02:26:00.470Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-13 19:30:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Juan Brito Ponche (K) ",
+    "lastPlayByPlay": "David Villar Cuadrangular! Jardinero Derecho ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
-          "R": 2,
-          "H": 9,
+          "R": 3,
+          "H": 10,
           "E": 2,
           "H2": 1
         },
@@ -329,7 +329,7 @@
         {
           "num": 8,
           "away": 1,
-          "home": 0
+          "home": 1
         },
         {
           "num": 9,
@@ -345,8 +345,8 @@
           "E": 1
         },
         "home": {
-          "R": 2,
-          "H": 9,
+          "R": 3,
+          "H": 10,
           "E": 2
         }
       },
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 2
+            "R": 3
           },
           {
             "num": 9,
-            "R": 2
+            "R": 3
           }
         ]
       }
@@ -1031,6 +1031,27 @@
             "ts": 1794622949
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "20481-2-72",
+            "text": "David Villar Cuadrangular! Jardinero Derecho ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1794623141
+          },
+          {
+            "reference_id": "20481-2-73",
+            "text": "Junior Perez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794623146
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1138,6 +1159,13 @@
         "label": "Alta 8va",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 2,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1192,10 +1220,10 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 9,
