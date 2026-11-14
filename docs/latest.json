@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T21:41:58.926Z",
+    "scraped_at": "2026-11-14T21:43:04.337Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-14 16:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Aaron Schunk",
+        "lastPlayByPlay": "Aaron Schunk  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Raimel Tapia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 0,
-        "strikes": 2
+        "balls": 2,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2250,
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-14 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Ramon Hernandez",
+        "lastPlayByPlay": "Ramon Hernandez Base por Bolas ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2251,
@@ -14247,8 +14247,8 @@
         "status": 2,
         "date": "2026-11-14 16:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Aaron Schunk",
+        "lastPlayByPlay": "Aaron Schunk  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Raimel Tapia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14292,7 +14292,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 1,
         "strikes": 0
       },
@@ -14304,12 +14304,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-14 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Ramon Hernandez",
+        "lastPlayByPlay": "Ramon Hernandez Base por Bolas ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14353,9 +14353,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2251,
@@ -19523,9 +19523,9 @@
       "date": "2026-11-14 16:00:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Aaron Schunk  Out: Rodado al Campo Corto - Primera Base",
       "counts": {
-        "balls": 0,
+        "balls": 2,
         "strikes": 0,
         "outs": 1
       },
@@ -20348,10 +20348,17 @@
           "plays": [
             {
               "reference_id": "20489-1-46",
-              "text": "Aaron Schunk al bate",
+              "text": "Aaron Schunk  Out: Rodado al Campo Corto - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794692435
+              "ts": 1794692523
+            },
+            {
+              "reference_id": "20489-1-47",
+              "text": "Raimel Tapia al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794692526
             }
           ]
         }
@@ -20445,7 +20452,7 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -20635,22 +20642,22 @@
       "date": "2026-11-14 17:00:00",
       "roundText": "Alta 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Ramon Hernandez Base por Bolas ",
       "counts": {
-        "balls": 3,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -21158,10 +21165,10 @@
           "plays": [
             {
               "reference_id": "20493-1-13",
-              "text": "Ramon Hernandez al bate",
+              "text": "Ramon Hernandez Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794692458
+              "ts": 1794692544
             }
           ]
         }
