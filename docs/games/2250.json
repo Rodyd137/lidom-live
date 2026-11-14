@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2250",
-    "scraped_at": "2026-11-14T22:13:31.512Z",
+    "scraped_at": "2026-11-14T22:14:36.793Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-14 17:00:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Ronny Mauricio Out: Línea al Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -661,10 +661,24 @@
           },
           {
             "reference_id": "20494-1-25",
-            "text": "Miguel Andujar al bate",
+            "text": "Miguel Andujar Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1794694323
+            "ts": 1794694418
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "20494-2-26",
+            "text": "Agustin Ramirez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794694464
           }
         ]
       }
@@ -704,6 +718,13 @@
         "label": "Alta 3ra",
         "total_plays": 2,
         "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -723,7 +744,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -776,7 +797,7 @@
         "id": 2249,
         "date": "2026-11-14 16:00:00",
         "status": 2,
-        "roundText": "Alta 8va",
+        "roundText": "Baja 8va",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
