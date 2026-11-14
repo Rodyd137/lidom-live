@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2246",
-    "scraped_at": "2026-11-14T01:22:54.381Z",
+    "scraped_at": "2026-11-14T01:23:59.501Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -821,6 +821,20 @@
             "ts": 1794619212
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "20461-1-47",
+            "text": "Jorge Bonifacio al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794619429
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -893,6 +907,13 @@
         "label": "Baja 5ta",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1008,7 +1029,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 1,
-          "hits": 7,
+          "hits": 8,
           "errors": 1,
           "permalink": "/equipo/estrellas-orientales"
         }

@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T01:22:51.524Z",
+    "scraped_at": "2026-11-14T01:23:56.661Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-13 19:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jorge Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -642,12 +642,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 6,
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Leonardo Bernal  Sencillo Jardinero Central",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Oscar Gonzalez Sencillo Jardinero Derecho ",
+        "atBat": "David Villar",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -685,7 +685,7 @@
           "runs": 1,
           "runs_half": 1,
           "errors": 1,
-          "hits": 7,
+          "hits": 8,
           "pitcher": "Oddy Nuñez",
           "era": "",
           "debut": 0,
@@ -14183,12 +14183,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-13 19:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jorge Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14308,12 +14308,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 6,
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Leonardo Bernal  Sencillo Jardinero Central",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Oscar Gonzalez Sencillo Jardinero Derecho ",
+        "atBat": "David Villar",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14351,7 +14351,7 @@
           "runs": 1,
           "runs_half": 1,
           "errors": 1,
-          "hits": 7,
+          "hits": 8,
           "pitcher": "Oddy Nuñez",
           "era": "",
           "debut": 0,
@@ -19660,14 +19660,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20462,6 +20462,20 @@
               "ts": 1794619212
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "plays": [
+            {
+              "reference_id": "20461-1-47",
+              "text": "Jorge Bonifacio al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794619429
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20534,6 +20548,13 @@
           "label": "Baja 5ta",
           "total_plays": 6,
           "scoring_plays": 1
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20649,7 +20670,7 @@
             "abbr": "EO",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
             "runs": 1,
-            "hits": 7,
+            "hits": 8,
             "errors": 1,
             "permalink": "/equipo/estrellas-orientales"
           }
@@ -21698,7 +21719,7 @@
             "abbr": "EO",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
             "runs": 1,
-            "hits": 7,
+            "hits": 8,
             "errors": 1,
             "permalink": "/equipo/estrellas-orientales"
           }
@@ -21771,7 +21792,7 @@
       "date": "2026-11-13 19:30:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Leonardo Bernal  Sencillo Jardinero Central",
+      "lastPlayByPlay": "Oscar Gonzalez Sencillo Jardinero Derecho ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21779,14 +21800,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 6
       },
       "base_runners": {
         "on1B": true,
         "on2B": false,
-        "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "on3B": true,
+        "runners": 2,
+        "mask": 6
       },
       "betting": {
         "moneyline": {
@@ -21935,7 +21956,7 @@
           "permalink": "/equipo/estrellas-orientales",
           "totals": {
             "R": 1,
-            "H": 7,
+            "H": 8,
             "E": 1,
             "H2": 1
           },
@@ -22106,7 +22127,7 @@
           },
           "home": {
             "R": 1,
-            "H": 7,
+            "H": 8,
             "E": 1
           }
         },
@@ -22568,10 +22589,24 @@
             },
             {
               "reference_id": "20478-2-45",
-              "text": "Josh Lester  al bate",
+              "text": "Josh Lester  Sencillo Jardinero Central",
               "scored": false,
               "is_primary": true,
-              "ts": 1794619368
+              "ts": 1794619372
+            },
+            {
+              "reference_id": "20478-2-46",
+              "text": "Oscar Gonzalez Sencillo Jardinero Derecho ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794619405
+            },
+            {
+              "reference_id": "20478-2-47",
+              "text": "David Villar al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794619408
             }
           ]
         }
@@ -22644,7 +22679,7 @@
           "num": 5,
           "half": "bottom",
           "label": "Baja 5ta",
-          "total_plays": 3,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
