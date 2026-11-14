@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T21:25:45.268Z",
+    "scraped_at": "2026-11-14T21:26:50.105Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -582,8 +585,8 @@
         "status": 2,
         "date": "2026-11-14 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Carlos Jorge  Robo de Base Segunda Base",
-        "atBat": null,
+        "lastPlayByPlay": "Noelvi Marte   Out: Rodado al Tercera Base - Primera Base",
+        "atBat": "Marcell Ozuna ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +630,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2251,
@@ -14259,7 +14262,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -14308,8 +14314,8 @@
         "status": 2,
         "date": "2026-11-14 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Carlos Jorge  Robo de Base Segunda Base",
-        "atBat": null,
+        "lastPlayByPlay": "Noelvi Marte   Out: Rodado al Tercera Base - Primera Base",
+        "atBat": "Marcell Ozuna ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14353,9 +14359,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2251,
@@ -20544,11 +20550,11 @@
       "date": "2026-11-14 17:00:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Carlos Jorge  Robo de Base Segunda Base",
+      "lastPlayByPlay": "Noelvi Marte   Out: Rodado al Tercera Base - Primera Base",
       "counts": {
-        "balls": 2,
-        "strikes": 1,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20992,18 +20998,25 @@
               "ts": 1794691382
             },
             {
-              "reference_id": "20492-2-8",
-              "text": "Noelvi Marte  al bate",
-              "scored": false,
-              "is_primary": true,
-              "ts": 1794691384
-            },
-            {
               "reference_id": "20492-2-7-297637",
               "text": "Carlos Jorge  Robo de Base Segunda Base",
               "scored": false,
               "is_primary": false,
               "ts": 1794691536
+            },
+            {
+              "reference_id": "20492-2-8",
+              "text": "Noelvi Marte   Out: Rodado al Tercera Base - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794691601
+            },
+            {
+              "reference_id": "20492-2-9",
+              "text": "Marcell Ozuna  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794691603
             }
           ]
         }
@@ -21020,7 +21033,7 @@
           "num": 1,
           "half": "bottom",
           "label": "Baja 1ra",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
