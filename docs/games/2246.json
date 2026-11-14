@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2246",
-    "scraped_at": "2026-11-14T02:47:45.928Z",
+    "scraped_at": "2026-11-14T02:48:51.703Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 9,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -1080,6 +1080,20 @@
             "ts": 1794624335
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "20464-1-78",
+            "text": "D. Frias al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794624515
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1194,6 +1208,13 @@
         "label": "Baja 8va",
         "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1273,7 +1294,7 @@
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
           "runs": 4,
-          "hits": 6,
+          "hits": 7,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
