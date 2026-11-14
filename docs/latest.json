@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T22:21:04.092Z",
+    "scraped_at": "2026-11-14T22:22:09.121Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-14 16:00:00",
         "part": 2,
-        "lastPlayByPlay": "Erik Gonzales  Out: Rodado al Segunda Base - Campo Corto - Primera Base - Doble Play!",
-        "atBat": "Joshua Báez ",
+        "lastPlayByPlay": "Joshua Báez  Golpeado por Pelota ",
+        "atBat": "Ramon Laureano",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -568,7 +568,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2250,
@@ -583,7 +583,7 @@
         "date": "2026-11-14 17:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Bryan Lavastida",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14243,12 +14243,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-14 16:00:00",
         "part": 2,
-        "lastPlayByPlay": "Erik Gonzales  Out: Rodado al Segunda Base - Campo Corto - Primera Base - Doble Play!",
-        "atBat": "Joshua Báez ",
+        "lastPlayByPlay": "Joshua Báez  Golpeado por Pelota ",
+        "atBat": "Ramon Laureano",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14294,7 +14294,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2250,
@@ -19523,22 +19523,22 @@
       "date": "2026-11-14 16:00:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Erik Gonzales  Out: Rodado al Segunda Base - Campo Corto - Primera Base - Doble Play!",
+      "lastPlayByPlay": "Joshua Báez  Golpeado por Pelota ",
       "counts": {
         "balls": 0,
-        "strikes": 2,
+        "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20495,10 +20495,17 @@
             },
             {
               "reference_id": "20490-2-63",
-              "text": "Joshua Báez  al bate",
+              "text": "Joshua Báez  Golpeado por Pelota ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794694754
+              "ts": 1794694900
+            },
+            {
+              "reference_id": "20490-2-64",
+              "text": "Ramon Laureano al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794694906
             }
           ]
         }
@@ -20613,7 +20620,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
