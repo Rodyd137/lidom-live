@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2248",
-    "scraped_at": "2026-11-14T00:19:52.460Z",
+    "scraped_at": "2026-11-14T00:20:57.688Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-13 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Yairo Muñoz Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "Pedro Severino Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -598,10 +598,17 @@
           },
           {
             "reference_id": "20476-1-21",
-            "text": "Pedro Severino al bate",
+            "text": "Pedro Severino Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1794615488
+            "ts": 1794615622
+          },
+          {
+            "reference_id": "20476-1-22",
+            "text": "Ellis al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794615624
           }
         ]
       }
@@ -639,7 +646,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
