@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2251",
-    "scraped_at": "2026-11-14T23:46:42.641Z",
+    "scraped_at": "2026-11-14T23:47:47.520Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,7 +14,7 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -92,6 +92,17 @@
             "team_id": 3,
             "name": "Jasson Dominguez",
             "abbreviation": "J. Dominguez",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6270,
+            "team_id": 3,
+            "name": "Adael Amador",
+            "abbreviation": "A. Amador",
             "number": null,
             "dob": null,
             "height": "",
@@ -353,6 +364,20 @@
             "ts": 1794699876
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "20502-1-7",
+            "text": "Adael Amador al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794700022
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -368,6 +393,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],

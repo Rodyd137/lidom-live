@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2250",
-    "scraped_at": "2026-11-14T23:46:42.593Z",
+    "scraped_at": "2026-11-14T23:47:47.458Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-11-14 17:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Bryan Lavastida Out: Elevado al Jardinero Central",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -114,6 +114,17 @@
             "team_id": 1,
             "name": "Bryan Lavastida",
             "abbreviation": "B. Lavastida",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6022,
+            "team_id": 1,
+            "name": "E. Florial",
+            "abbreviation": "E. Florial",
             "number": null,
             "dob": null,
             "height": "",
@@ -986,10 +997,17 @@
         "plays": [
           {
             "reference_id": "20499-1-63",
-            "text": "Bryan Lavastida al bate",
+            "text": "Bryan Lavastida Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1794699844
+            "ts": 1794700026
+          },
+          {
+            "reference_id": "20499-1-64",
+            "text": "E. Florial al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794700033
           }
         ]
       }
@@ -1097,7 +1115,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
