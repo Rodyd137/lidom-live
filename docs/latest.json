@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T01:11:57.841Z",
+    "scraped_at": "2026-11-14T01:13:03.812Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -655,10 +658,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
-          "text": "Revisión Jugada"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -693,7 +693,7 @@
         },
         "balls": 3,
         "outs": 2,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -14199,7 +14199,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -14305,7 +14308,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 4,
+        "base": 2,
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 1,
@@ -14321,10 +14324,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
-          "text": "Revisión Jugada"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -14332,8 +14332,8 @@
           "color": "ef7722",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "permalink": "/equipo/toros-del-este",
-          "runs": 0,
-          "runs_half": 0,
+          "runs": 1,
+          "runs_half": 1,
           "errors": 0,
           "hits": 3,
           "pitcher": "Phillips Valdez",
@@ -14357,9 +14357,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 2,
-        "strikes": 1
+        "strikes": 0
       }
     ],
     "2026-11-14": [
@@ -20624,7 +20624,7 @@
             "name": "Toros",
             "abbr": "TE",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-            "runs": 0,
+            "runs": 1,
             "hits": 3,
             "errors": 0,
             "permalink": "/equipo/toros-del-este"
@@ -21638,7 +21638,7 @@
             "name": "Toros",
             "abbr": "TE",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-            "runs": 0,
+            "runs": 1,
             "hits": 3,
             "errors": 0,
             "permalink": "/equipo/toros-del-este"
@@ -21724,20 +21724,20 @@
       "currentInningNum": 5,
       "lastPlayByPlay": "Yairo Muñoz Out Robando Base! Receptor - Segunda Base",
       "counts": {
-        "balls": 3,
-        "strikes": 1,
+        "balls": 0,
+        "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 4
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
-        "on3B": true,
+        "on3B": false,
         "runners": 1,
-        "mask": 4
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -21764,10 +21764,10 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "permalink": "/equipo/toros-del-este",
           "totals": {
-            "R": 0,
+            "R": 1,
             "H": 3,
             "E": 0,
-            "H2": 0
+            "H2": 1
           },
           "probables": {
             "pitcher": "Phillips Valdez",
@@ -22024,7 +22024,7 @@
           },
           {
             "num": 5,
-            "away": 0,
+            "away": 1,
             "home": 0
           },
           {
@@ -22051,7 +22051,7 @@
         "extras": false,
         "totals": {
           "away": {
-            "R": 0,
+            "R": 1,
             "H": 3,
             "E": 0
           },
@@ -22081,23 +22081,23 @@
             },
             {
               "num": 5,
-              "R": 0
+              "R": 1
             },
             {
               "num": 6,
-              "R": 0
+              "R": 1
             },
             {
               "num": 7,
-              "R": 0
+              "R": 1
             },
             {
               "num": 8,
-              "R": 0
+              "R": 1
             },
             {
               "num": 9,
-              "R": 0
+              "R": 1
             }
           ],
           "home": [
@@ -22590,7 +22590,7 @@
           "num": 5,
           "part": 1,
           "is_last": 1,
-          "awayTeamRuns": 0,
+          "awayTeamRuns": 1,
           "homeTeamRuns": 0
         },
         {
