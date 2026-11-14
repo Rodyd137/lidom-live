@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T01:04:20.810Z",
+    "scraped_at": "2026-11-14T01:05:26.143Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-13 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Noelvi Marte  Golpeado por Pelota ",
+        "atBat": "Marcell Ozuna ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -644,7 +647,7 @@
         "date": "2026-11-13 19:30:00",
         "part": 1,
         "lastPlayByPlay": "Felix Reyes Doble! Jardinero Derecho ",
-        "atBat": null,
+        "atBat": "Juan Brito",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +691,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -14180,12 +14183,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-13 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Noelvi Marte  Golpeado por Pelota ",
+        "atBat": "Marcell Ozuna ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14257,7 +14260,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -14307,7 +14313,7 @@
         "date": "2026-11-13 19:30:00",
         "part": 1,
         "lastPlayByPlay": "Felix Reyes Doble! Jardinero Derecho ",
-        "atBat": null,
+        "atBat": "Juan Brito",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14351,9 +14357,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "2026-11-14": [
@@ -19646,7 +19652,7 @@
       "date": "2026-11-13 19:00:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Noelvi Marte  Golpeado por Pelota ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -19654,14 +19660,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20407,6 +20413,27 @@
               "ts": 1794618096
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "plays": [
+            {
+              "reference_id": "20460-2-41",
+              "text": "Noelvi Marte  Golpeado por Pelota ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794618308
+            },
+            {
+              "reference_id": "20460-2-42",
+              "text": "Marcell Ozuna  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794618311
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20471,6 +20498,13 @@
           "half": "top",
           "label": "Alta 5ta",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21641,8 +21675,8 @@
       "currentInningNum": 5,
       "lastPlayByPlay": "Felix Reyes Doble! Jardinero Derecho ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -22377,6 +22411,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1794618255
+            },
+            {
+              "reference_id": "20478-1-39",
+              "text": "Juan Brito al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794618261
             }
           ]
         }
@@ -22442,7 +22483,7 @@
           "num": 5,
           "half": "top",
           "label": "Alta 5ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
