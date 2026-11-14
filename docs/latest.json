@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T22:19:58.837Z",
+    "scraped_at": "2026-11-14T22:21:04.092Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -568,7 +568,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2250,
@@ -581,16 +581,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-14 17:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Carlos Franco  Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "Roly Brito",
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 3ra",
-        "currentInningNum": 3,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 4ta",
+        "currentInningNum": 4,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -14294,7 +14294,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2250,
@@ -14307,16 +14307,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-14 17:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Carlos Franco  Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "Roly Brito",
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Bryan Lavastida",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 3ra",
-        "currentInningNum": 3,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 4ta",
+        "currentInningNum": 4,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -14354,7 +14354,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -19526,7 +19526,7 @@
       "lastPlayByPlay": "Erik Gonzales  Out: Rodado al Segunda Base - Campo Corto - Primera Base - Doble Play!",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 2,
         "outs": 2
       },
       "base_state": {
@@ -20687,7 +20687,7 @@
           "id": 2250,
           "date": "2026-11-14 17:00:00",
           "status": 2,
-          "roundText": "Baja 3ra",
+          "roundText": "Alta 4ta",
           "awayTeam": {
             "id": 1,
             "name": "Tigres",
@@ -20801,16 +20801,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-14 17:00:00",
-      "roundText": "Baja 3ra",
-      "currentInningNum": 3,
-      "lastPlayByPlay": "Carlos Franco  Out: Rodado al Tercera Base - Primera Base",
+      "roundText": "Alta 4ta",
+      "currentInningNum": 4,
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
+        "battingTeam": "awayTeam",
         "base": 1
       },
       "base_runners": {
@@ -21481,10 +21481,24 @@
             },
             {
               "reference_id": "20494-2-28",
-              "text": "Roly Brito al bate",
+              "text": "Roly Brito Out: Elevado al Receptor",
               "scored": false,
               "is_primary": true,
-              "ts": 1794694776
+              "ts": 1794694800
+            }
+          ]
+        },
+        {
+          "num": 4,
+          "half": "top",
+          "label": "Alta 4ta",
+          "plays": [
+            {
+              "reference_id": "20495-1-29",
+              "text": "Bryan Lavastida al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794694863
             }
           ]
         }
@@ -21531,6 +21545,13 @@
           "label": "Baja 3ra",
           "total_plays": 3,
           "scoring_plays": 0
+        },
+        {
+          "num": 4,
+          "half": "top",
+          "label": "Alta 4ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -21551,14 +21572,14 @@
         {
           "num": 3,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
         {
           "num": 4,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
@@ -22035,7 +22056,7 @@
           "id": 2250,
           "date": "2026-11-14 17:00:00",
           "status": 2,
-          "roundText": "Baja 3ra",
+          "roundText": "Alta 4ta",
           "awayTeam": {
             "id": 1,
             "name": "Tigres",
