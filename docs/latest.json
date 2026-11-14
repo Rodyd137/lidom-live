@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T02:12:54.190Z",
+    "scraped_at": "2026-11-14T02:13:59.277Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-11-13 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Nomar Mazara Sencillo ",
-        "atBat": "Agustin Ramirez",
+        "lastPlayByPlay": "Agustin Ramirez Sencillo ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -560,7 +560,7 @@
           "runs": 7,
           "runs_half": 7,
           "errors": 1,
-          "hits": 9,
+          "hits": 10,
           "pitcher": "",
           "era": "",
           "debut": 0,
@@ -639,7 +639,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 1,
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 2,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 2,
-        "strikes": 1
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -14180,12 +14180,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-11-13 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Nomar Mazara Sencillo ",
-        "atBat": "Agustin Ramirez",
+        "lastPlayByPlay": "Agustin Ramirez Sencillo ",
+        "atBat": "Deyvinson de los Santos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14223,7 +14223,7 @@
           "runs": 7,
           "runs_half": 7,
           "errors": 1,
-          "hits": 9,
+          "hits": 10,
           "pitcher": "",
           "era": "",
           "debut": 0,
@@ -14302,12 +14302,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 1,
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Josh Lester  se embasa por Error del Tercera Base - Carrera Empujada",
-        "atBat": "Oscar Gonzalez",
+        "lastPlayByPlay": "Oscar Gonzalez Out: Elevado al Jardinero Izquierdo",
+        "atBat": null,
         "comment": "",
         "winningPitcher": "Phillips Valdez",
         "losingPitcher": "Eddy Yean",
@@ -14351,9 +14351,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 2,
-        "strikes": 1
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       }
     ],
     "2026-11-14": [
@@ -19646,7 +19646,7 @@
       "date": "2026-11-13 19:00:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Nomar Mazara Sencillo ",
+      "lastPlayByPlay": "Agustin Ramirez Sencillo ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -19654,14 +19654,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 5
       },
       "base_runners": {
         "on1B": true,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -19810,7 +19810,7 @@
           "permalink": "/equipo/gigantes-del-cibao",
           "totals": {
             "R": 7,
-            "H": 9,
+            "H": 10,
             "E": 1,
             "H2": 7
           },
@@ -19981,7 +19981,7 @@
           },
           "home": {
             "R": 7,
-            "H": 9,
+            "H": 10,
             "E": 1
           }
         },
@@ -20604,10 +20604,17 @@
             },
             {
               "reference_id": "20462-2-64",
-              "text": "Agustin Ramirez al bate",
+              "text": "Agustin Ramirez Sencillo ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794622358
+              "ts": 1794622422
+            },
+            {
+              "reference_id": "20462-2-65",
+              "text": "Deyvinson de los Santos al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794622435
             }
           ]
         }
@@ -20708,7 +20715,7 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21998,7 +22005,7 @@
             "abbr": "GC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 7,
-            "hits": 9,
+            "hits": 10,
             "errors": 1,
             "permalink": "/equipo/gigantes-del-cibao"
           }
@@ -22097,22 +22104,22 @@
       "date": "2026-11-13 19:30:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Josh Lester  se embasa por Error del Tercera Base - Carrera Empujada",
+      "lastPlayByPlay": "Oscar Gonzalez Out: Elevado al Jardinero Izquierdo",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
-        "outs": 2
+        "balls": 0,
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
+        "on1B": false,
         "on2B": false,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -23076,10 +23083,10 @@
             },
             {
               "reference_id": "20480-2-67",
-              "text": "Oscar Gonzalez al bate",
+              "text": "Oscar Gonzalez Out: Elevado al Jardinero Izquierdo",
               "scored": false,
               "is_primary": true,
-              "ts": 1794622298
+              "ts": 1794622435
             }
           ]
         }
@@ -23271,7 +23278,7 @@
             "abbr": "GC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 7,
-            "hits": 9,
+            "hits": 10,
             "errors": 1,
             "permalink": "/equipo/gigantes-del-cibao"
           }
