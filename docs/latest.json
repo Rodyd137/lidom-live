@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T22:03:43.290Z",
+    "scraped_at": "2026-11-14T22:04:48.450Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 6,
         "status": 2,
         "date": "2026-11-14 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Noelvi Marte   Out: Rodado al Campo Corto - Segunda Base - 2 Carreras Empujadas ",
-        "atBat": "Marcell Ozuna ",
+        "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
+        "atBat": "Nomar Mazara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 2,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2251,
@@ -14304,12 +14304,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 6,
         "status": 2,
         "date": "2026-11-14 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Noelvi Marte   Out: Rodado al Campo Corto - Segunda Base - 2 Carreras Empujadas ",
-        "atBat": "Marcell Ozuna ",
+        "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
+        "atBat": "Nomar Mazara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14353,9 +14353,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 2,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2251,
@@ -20726,22 +20726,22 @@
       "date": "2026-11-14 17:00:00",
       "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "Noelvi Marte   Out: Rodado al Campo Corto - Segunda Base - 2 Carreras Empujadas ",
+      "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 3
+        "base": 6
       },
       "base_runners": {
-        "on1B": false,
-        "on2B": true,
-        "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "on1B": true,
+        "on2B": false,
+        "on3B": true,
+        "runners": 2,
+        "mask": 6
       },
       "betting": {
         "moneyline": {
@@ -21335,16 +21335,30 @@
             {
               "reference_id": "20493-2-21",
               "text": "Noelvi Marte   Out: Rodado al Campo Corto - Segunda Base - 2 Carreras Empujadas ",
-              "scored": true,
+              "scored": false,
               "is_primary": true,
               "ts": 1794693724
             },
             {
+              "reference_id": "20493-2-21-297705",
+              "text": "Noelvi Marte  Robo de Base Segunda Base",
+              "scored": false,
+              "is_primary": false,
+              "ts": 1794693851
+            },
+            {
               "reference_id": "20493-2-22",
-              "text": "Marcell Ozuna  al bate",
+              "text": "Marcell Ozuna  Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794693802
+              "ts": 1794693873
+            },
+            {
+              "reference_id": "20493-2-23",
+              "text": "Nomar Mazara al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794693875
             }
           ]
         }
@@ -21375,8 +21389,8 @@
           "num": 2,
           "half": "bottom",
           "label": "Baja 2da",
-          "total_plays": 6,
-          "scoring_plays": 1
+          "total_plays": 8,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
