@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2250",
-    "scraped_at": "2026-11-14T22:08:05.883Z",
+    "scraped_at": "2026-11-14T22:09:11.050Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-14 17:00:00",
-    "roundText": "Baja 2da",
-    "currentInningNum": 2,
-    "lastPlayByPlay": "Nomar Mazara Out: Elevado al Jardinero Izquierdo",
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "strikes": 2,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -646,6 +646,20 @@
             "ts": 1794693940
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "20494-1-24",
+            "text": "Ronny Mauricio al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794694108
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -676,6 +690,13 @@
         "label": "Baja 2da",
         "total_plays": 8,
         "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -689,14 +710,14 @@
       {
         "num": 2,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 2
       },
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
