@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T00:04:36.910Z",
+    "scraped_at": "2026-11-14T00:05:42.113Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -629,7 +629,7 @@
         },
         "balls": 3,
         "outs": 2,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2248,
@@ -642,16 +642,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-13 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Felix Reyes  Out: Rodado al Campo Corto - Primera Base",
+        "part": 2,
+        "lastPlayByPlay": "",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 2da",
+        "roundText": "Baja 2da",
         "currentInningNum": 2,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -14292,7 +14292,7 @@
         },
         "balls": 3,
         "outs": 2,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2248,
@@ -14305,16 +14305,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-13 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Felix Reyes  Out: Rodado al Campo Corto - Primera Base",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Oscar Gonzalez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 2da",
+        "roundText": "Baja 2da",
         "currentInningNum": 2,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -14352,7 +14352,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -20296,7 +20296,7 @@
           "id": 2248,
           "date": "2026-11-13 19:30:00",
           "status": 2,
-          "roundText": "Alta 2da",
+          "roundText": "Baja 2da",
           "awayTeam": {
             "id": 6,
             "name": "Toros",
@@ -20389,7 +20389,7 @@
       "lastPlayByPlay": "K. Alcantara Sencillo Tercera Base",
       "counts": {
         "balls": 3,
-        "strikes": 1,
+        "strikes": 2,
         "outs": 2
       },
       "base_state": {
@@ -21016,7 +21016,7 @@
           "id": 2248,
           "date": "2026-11-13 19:30:00",
           "status": 2,
-          "roundText": "Alta 2da",
+          "roundText": "Baja 2da",
           "awayTeam": {
             "id": 6,
             "name": "Toros",
@@ -21104,16 +21104,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-13 19:30:00",
-      "roundText": "Alta 2da",
+      "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "Felix Reyes  Out: Rodado al Campo Corto - Primera Base",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -21636,6 +21636,20 @@
               "ts": 1794614641
             }
           ]
+        },
+        {
+          "num": 2,
+          "half": "bottom",
+          "label": "Baja 2da",
+          "plays": [
+            {
+              "reference_id": "20475-2-15",
+              "text": "Oscar Gonzalez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794614739
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21659,6 +21673,13 @@
           "label": "Alta 2da",
           "total_plays": 3,
           "scoring_plays": 0
+        },
+        {
+          "num": 2,
+          "half": "bottom",
+          "label": "Baja 2da",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -21671,7 +21692,7 @@
         },
         {
           "num": 2,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
