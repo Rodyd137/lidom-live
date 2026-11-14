@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2249",
-    "scraped_at": "2026-11-14T21:39:51.704Z",
+    "scraped_at": "2026-11-14T21:40:56.591Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-14 16:00:00",
-    "roundText": "Baja 6ta",
-    "currentInningNum": 6,
-    "lastPlayByPlay": "Carlos Santana Out: Elevado al Primera Base",
+    "roundText": "Alta 7ma",
+    "currentInningNum": 7,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -828,6 +828,20 @@
             "ts": 1794692268
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "20489-1-46",
+            "text": "Aaron Schunk al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794692435
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -914,6 +928,13 @@
         "label": "Baja 6ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -955,14 +976,14 @@
       {
         "num": 6,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 7,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -986,7 +1007,7 @@
         "id": 2250,
         "date": "2026-11-14 17:00:00",
         "status": 2,
-        "roundText": "Baja 1ra",
+        "roundText": "Alta 2da",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
