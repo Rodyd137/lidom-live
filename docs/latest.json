@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T23:55:20.988Z",
+    "scraped_at": "2026-11-14T23:56:26.235Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -583,7 +583,7 @@
         "date": "2026-11-14 17:00:00",
         "part": 2,
         "lastPlayByPlay": "Roly Brito Sencillo Jardinero Derecho ",
-        "atBat": null,
+        "atBat": "Pablo Reyes",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -644,7 +644,7 @@
         "date": "2026-11-14 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jesús Sanchez ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,7 +688,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
         "strikes": 1
       }
@@ -14308,8 +14308,8 @@
         "status": 2,
         "date": "2026-11-14 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Roly Brito Sencillo Jardinero Derecho ",
-        "atBat": "Pablo Reyes",
+        "lastPlayByPlay": "Roly Brito Robo de Base Segunda Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14370,7 +14370,7 @@
         "date": "2026-11-14 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jesús Sanchez ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14414,7 +14414,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
         "strikes": 1
       }
@@ -21926,6 +21926,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1794700517
+            },
+            {
+              "reference_id": "20499-2-68",
+              "text": "Pablo Reyes al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794700520
             }
           ]
         }
@@ -22040,7 +22047,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -22232,7 +22239,7 @@
       "currentInningNum": 2,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
+        "balls": 1,
         "strikes": 1,
         "outs": 0
       },
@@ -22399,6 +22406,17 @@
               "team_id": 6,
               "name": "Bryan de la Cruz",
               "abbreviation": "Bryan de la Cruz",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6008,
+              "team_id": 6,
+              "name": "Jesús Sanchez ",
+              "abbreviation": "J. Sanchez",
               "number": null,
               "dob": null,
               "height": "",
@@ -22633,6 +22651,20 @@
               "ts": 1794700345
             }
           ]
+        },
+        {
+          "num": 2,
+          "half": "bottom",
+          "label": "Baja 2da",
+          "plays": [
+            {
+              "reference_id": "20502-2-10",
+              "text": "Jesús Sanchez  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794700526
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22655,6 +22687,13 @@
           "half": "top",
           "label": "Alta 2da",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 2,
+          "half": "bottom",
+          "label": "Baja 2da",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
