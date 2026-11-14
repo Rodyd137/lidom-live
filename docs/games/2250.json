@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2250",
-    "scraped_at": "2026-11-14T22:41:40.787Z",
+    "scraped_at": "2026-11-14T22:42:46.087Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-14 17:00:00",
-    "roundText": "Baja 4ta",
-    "currentInningNum": 4,
-    "lastPlayByPlay": "Noelvi Marte  Out: Línea al Jardinero Central",
+    "roundText": "Alta 5ta",
+    "currentInningNum": 5,
+    "lastPlayByPlay": "Y. Encarnación Sencillo Tercera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 1
+      "battingTeam": "awayTeam",
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 1,
-          "H": 3,
+          "H": 4,
           "E": 3,
           "H2": 1
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 1,
-          "H": 3,
+          "H": 4,
           "E": 3
         },
         "home": {
@@ -758,6 +758,34 @@
             "ts": 1794695842
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "plays": [
+          {
+            "reference_id": "20496-1-36",
+            "text": "Michel de Leon Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794696129
+          },
+          {
+            "reference_id": "20496-1-37",
+            "text": "Y. Encarnación Sencillo Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794696148
+          },
+          {
+            "reference_id": "20496-1-38",
+            "text": "Gustavo Nuñez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794696149
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -816,6 +844,13 @@
         "label": "Baja 4ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "top",
+        "label": "Alta 5ta",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -843,14 +878,14 @@
       {
         "num": 4,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 5,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -887,7 +922,7 @@
       {
         "id": 2249,
         "date": "2026-11-14 16:00:00",
-        "status": 2,
+        "status": 6,
         "roundText": "Baja 9na",
         "awayTeam": {
           "id": 7,
