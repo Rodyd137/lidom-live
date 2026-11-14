@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T00:11:09.220Z",
+    "scraped_at": "2026-11-14T00:12:14.823Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-11-13 19:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Chritopher Morel",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -568,7 +568,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2247,
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Ramon Laureano  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Junior Lake",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -14185,7 +14185,7 @@
         "date": "2026-11-13 19:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Chritopher Morel",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14231,7 +14231,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2247,
@@ -14245,8 +14245,8 @@
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Ramon Laureano",
+        "lastPlayByPlay": "Ramon Laureano  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Junior Lake",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14291,7 +14291,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -14351,9 +14351,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "2026-11-14": [
@@ -19649,7 +19649,7 @@
       "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -19771,6 +19771,17 @@
               "team_id": 3,
               "name": "Ryan Ritter",
               "abbreviation": "R. Ritter",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6028,
+              "team_id": 3,
+              "name": "Chritopher Morel",
+              "abbreviation": "C. Morel",
               "number": null,
               "dob": null,
               "height": "",
@@ -20203,6 +20214,20 @@
               "ts": 1794614899
             }
           ]
+        },
+        {
+          "num": 3,
+          "half": "top",
+          "label": "Alta 3ra",
+          "plays": [
+            {
+              "reference_id": "20458-1-20",
+              "text": "Chritopher Morel al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794615102
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20232,6 +20257,13 @@
           "half": "bottom",
           "label": "Baja 2da",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 3,
+          "half": "top",
+          "label": "Alta 3ra",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -20421,11 +20453,11 @@
       "date": "2026-11-13 19:30:00",
       "roundText": "Alta 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Ramon Laureano  Out: Rodado al Campo Corto - Primera Base",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -20945,10 +20977,17 @@
           "plays": [
             {
               "reference_id": "20466-1-12",
-              "text": "Ramon Laureano al bate",
+              "text": "Ramon Laureano  Out: Rodado al Campo Corto - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794615065
+              "ts": 1794615107
+            },
+            {
+              "reference_id": "20466-1-13",
+              "text": "Junior Lake al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794615110
             }
           ]
         }
@@ -20972,7 +21011,7 @@
           "num": 2,
           "half": "top",
           "label": "Alta 2da",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21164,8 +21203,8 @@
       "currentInningNum": 2,
       "lastPlayByPlay": "Junior Perez  Out: Rodado al Tercera Base - Primera Base",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 3,
+        "strikes": 1,
         "outs": 2
       },
       "base_state": {

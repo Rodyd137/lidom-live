@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2246",
-    "scraped_at": "2026-11-14T00:11:12.220Z",
+    "scraped_at": "2026-11-14T00:12:17.424Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,7 +14,7 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -136,6 +136,17 @@
             "team_id": 3,
             "name": "Ryan Ritter",
             "abbreviation": "R. Ritter",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6028,
+            "team_id": 3,
+            "name": "Chritopher Morel",
+            "abbreviation": "C. Morel",
             "number": null,
             "dob": null,
             "height": "",
@@ -568,6 +579,20 @@
             "ts": 1794614899
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "20458-1-20",
+            "text": "Chritopher Morel al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794615102
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -597,6 +622,13 @@
         "half": "bottom",
         "label": "Baja 2da",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
