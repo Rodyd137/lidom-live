@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T00:10:03.857Z",
+    "scraped_at": "2026-11-14T00:11:09.220Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -581,16 +581,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-13 19:30:00",
-        "part": 2,
-        "lastPlayByPlay": "Francisco Mejia Out: Línea al Jardinero Derecho ",
+        "part": 1,
+        "lastPlayByPlay": "",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 1ra",
-        "currentInningNum": 1,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 2da",
+        "currentInningNum": 2,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Oscar Gonzalez Base por Bolas ",
-        "atBat": "David Villar",
+        "lastPlayByPlay": "Junior Perez  Out: Rodado al Tercera Base - Primera Base",
+        "atBat": "Jose Tena",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -14244,16 +14244,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-13 19:30:00",
-        "part": 2,
-        "lastPlayByPlay": "Francisco Mejia Out: Línea al Jardinero Derecho ",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Ramon Laureano",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 1ra",
-        "currentInningNum": 1,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 2da",
+        "currentInningNum": 2,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -14291,7 +14291,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -14302,12 +14302,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Oscar Gonzalez Base por Bolas ",
-        "atBat": "David Villar",
+        "lastPlayByPlay": "Junior Perez  Out: Rodado al Tercera Base - Primera Base",
+        "atBat": "Jose Tena",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14352,7 +14352,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -20305,7 +20305,7 @@
           "id": 2247,
           "date": "2026-11-13 19:30:00",
           "status": 2,
-          "roundText": "Baja 1ra",
+          "roundText": "Alta 2da",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -20419,16 +20419,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-13 19:30:00",
-      "roundText": "Baja 1ra",
-      "currentInningNum": 1,
-      "lastPlayByPlay": "Francisco Mejia Out: Línea al Jardinero Derecho ",
+      "roundText": "Alta 2da",
+      "currentInningNum": 2,
+      "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
-        "outs": 3
+        "balls": 1,
+        "strikes": 2,
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
+        "battingTeam": "awayTeam",
         "base": 1
       },
       "base_runners": {
@@ -20937,6 +20937,20 @@
               "ts": 1794614850
             }
           ]
+        },
+        {
+          "num": 2,
+          "half": "top",
+          "label": "Alta 2da",
+          "plays": [
+            {
+              "reference_id": "20466-1-12",
+              "text": "Ramon Laureano al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794615065
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20953,20 +20967,27 @@
           "label": "Baja 1ra",
           "total_plays": 7,
           "scoring_plays": 1
+        },
+        {
+          "num": 2,
+          "half": "top",
+          "label": "Alta 2da",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
         {
           "num": 1,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 0,
           "homeTeamRuns": 1
         },
         {
           "num": 2,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
@@ -21141,22 +21162,22 @@
       "date": "2026-11-13 19:30:00",
       "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "David Villar Out: Elevado al Jardinero Central",
+      "lastPlayByPlay": "Junior Perez  Out: Rodado al Tercera Base - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -21690,6 +21711,20 @@
               "scored": false,
               "is_primary": true,
               "ts": 1794615004
+            },
+            {
+              "reference_id": "20475-2-17",
+              "text": "Junior Perez  Out: Rodado al Tercera Base - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794615041
+            },
+            {
+              "reference_id": "20475-2-18",
+              "text": "Jose Tena al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794615046
             }
           ]
         }
@@ -21720,7 +21755,7 @@
           "num": 2,
           "half": "bottom",
           "label": "Baja 2da",
-          "total_plays": 2,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -21820,7 +21855,7 @@
           "id": 2247,
           "date": "2026-11-13 19:30:00",
           "status": 2,
-          "roundText": "Baja 1ra",
+          "roundText": "Alta 2da",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
