@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2247",
-    "scraped_at": "2026-11-14T02:17:17.990Z",
+    "scraped_at": "2026-11-14T02:18:23.540Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-11-13 19:30:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "C. Adames Ponche (K) ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -937,10 +937,17 @@
         "plays": [
           {
             "reference_id": "20471-2-59",
-            "text": "C. Adames al bate",
+            "text": "C. Adames Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1794622448
+            "ts": 1794622695
+          },
+          {
+            "reference_id": "20471-2-60",
+            "text": "Ronny Mauricio al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794622697
           }
         ]
       }
@@ -1041,7 +1048,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1147,8 +1154,8 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 5,
-          "hits": 7,
+          "runs": 6,
+          "hits": 8,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
         },
