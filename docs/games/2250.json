@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2250",
-    "scraped_at": "2026-11-14T23:00:04.794Z",
+    "scraped_at": "2026-11-14T23:01:09.872Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-14 17:00:00",
-    "roundText": "Alta 6ta",
+    "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Bryan Lavastida  Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "balls": 2,
+      "strikes": 1,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -849,6 +849,20 @@
             "ts": 1794697062
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "20497-2-46",
+            "text": "Carlos Franco al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794697225
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -928,6 +942,13 @@
         "label": "Alta 6ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -968,7 +989,7 @@
       },
       {
         "num": 6,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -1025,7 +1046,7 @@
       {
         "id": 2251,
         "date": "2026-11-14 19:30:00",
-        "status": 1,
+        "status": 3,
         "roundText": "Alta 1ra",
         "awayTeam": {
           "id": 3,
