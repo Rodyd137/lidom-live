@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T00:31:45.638Z",
+    "scraped_at": "2026-11-14T00:32:51.034Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -520,16 +520,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-13 19:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Eddison Paulino   Out: Rodado al Lanzador - Primera Base",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Jorge Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 3ra",
-        "currentInningNum": 3,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 4ta",
+        "currentInningNum": 4,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -561,14 +561,14 @@
           "runs_half": 4,
           "errors": 0,
           "hits": 6,
-          "pitcher": "Jake Eder",
+          "pitcher": "",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
-        "strikes": 0
+        "balls": 1,
+        "outs": 0,
+        "strikes": 2
       },
       {
         "id": 2247,
@@ -583,7 +583,7 @@
         "date": "2026-11-13 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "C. Adames",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,8 +628,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 1
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2248,
@@ -14186,16 +14186,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-13 19:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Eddison Paulino   Out: Rodado al Lanzador - Primera Base",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Jorge Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 3ra",
-        "currentInningNum": 3,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 4ta",
+        "currentInningNum": 4,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -14227,14 +14227,14 @@
           "runs_half": 4,
           "errors": 0,
           "hits": 6,
-          "pitcher": "Jake Eder",
+          "pitcher": "",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
-        "strikes": 0
+        "balls": 1,
+        "outs": 0,
+        "strikes": 2
       },
       {
         "id": 2247,
@@ -14248,7 +14248,7 @@
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "C. Adames Out: Línea al Tercera Base",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -14294,8 +14294,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 1
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2248,
@@ -19650,16 +19650,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-13 19:00:00",
-      "roundText": "Baja 3ra",
-      "currentInningNum": 3,
-      "lastPlayByPlay": "Eddison Paulino   Out: Rodado al Lanzador - Primera Base",
+      "roundText": "Alta 4ta",
+      "currentInningNum": 4,
+      "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
-        "outs": 3
+        "balls": 1,
+        "strikes": 2,
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
+        "battingTeam": "awayTeam",
         "base": 1
       },
       "base_runners": {
@@ -19821,7 +19821,7 @@
             "H2": 4
           },
           "probables": {
-            "pitcher": "Jake Eder",
+            "pitcher": "",
             "era": "",
             "record": "",
             "debut": false
@@ -20308,6 +20308,20 @@
               "ts": 1794616170
             }
           ]
+        },
+        {
+          "num": 4,
+          "half": "top",
+          "label": "Alta 4ta",
+          "plays": [
+            {
+              "reference_id": "20459-1-29",
+              "text": "Jorge Bonifacio al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794616315
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20352,6 +20366,13 @@
           "label": "Baja 3ra",
           "total_plays": 4,
           "scoring_plays": 0
+        },
+        {
+          "num": 4,
+          "half": "top",
+          "label": "Alta 4ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20372,14 +20393,14 @@
         {
           "num": 3,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 1,
           "homeTeamRuns": 0
         },
         {
           "num": 4,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
@@ -20543,8 +20564,8 @@
       "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
-        "strikes": 1,
-        "outs": 0
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21140,6 +21161,20 @@
               "ts": 1794616094
             }
           ]
+        },
+        {
+          "num": 3,
+          "half": "bottom",
+          "label": "Baja 3ra",
+          "plays": [
+            {
+              "reference_id": "20467-2-21",
+              "text": "C. Adames Out: Línea al Tercera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794616369
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21176,6 +21211,13 @@
           "half": "top",
           "label": "Alta 3ra",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 3,
+          "half": "bottom",
+          "label": "Baja 3ra",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -21249,7 +21291,7 @@
           "id": 2246,
           "date": "2026-11-13 19:00:00",
           "status": 2,
-          "roundText": "Baja 3ra",
+          "roundText": "Alta 4ta",
           "awayTeam": {
             "id": 3,
             "name": "Aguilas",
@@ -22123,7 +22165,7 @@
           "id": 2246,
           "date": "2026-11-13 19:00:00",
           "status": 2,
-          "roundText": "Baja 3ra",
+          "roundText": "Alta 4ta",
           "awayTeam": {
             "id": 3,
             "name": "Aguilas",

@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2247",
-    "scraped_at": "2026-11-14T00:31:48.721Z",
+    "scraped_at": "2026-11-14T00:32:53.822Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,8 +14,8 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -611,6 +611,20 @@
             "ts": 1794616094
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "20467-2-21",
+            "text": "C. Adames Out: Línea al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794616369
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -647,6 +661,13 @@
         "half": "top",
         "label": "Alta 3ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -720,7 +741,7 @@
         "id": 2246,
         "date": "2026-11-13 19:00:00",
         "status": 2,
-        "roundText": "Baja 3ra",
+        "roundText": "Alta 4ta",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
