@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2250",
-    "scraped_at": "2026-11-14T21:35:33.728Z",
+    "scraped_at": "2026-11-14T21:36:38.489Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-14 17:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Agustin Ramirez Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Agustin Ramirez Robo de Base Segunda Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 3,
+      "strikes": 2,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 6
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": true,
       "runners": 2,
-      "mask": 6
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -496,7 +496,7 @@
           {
             "reference_id": "20492-2-11",
             "text": "Agustin Ramirez Sencillo y 1 Carrera Impulsada ",
-            "scored": true,
+            "scored": false,
             "is_primary": true,
             "ts": 1794692005
           },
@@ -506,6 +506,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1794692008
+          },
+          {
+            "reference_id": "20492-2-11-297658",
+            "text": "Agustin Ramirez Robo de Base Segunda Base",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1794692180
           }
         ]
       }
@@ -522,8 +529,8 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 8,
-        "scoring_plays": 1
+        "total_plays": 9,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
