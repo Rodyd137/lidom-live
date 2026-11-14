@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T21:18:08.656Z",
+    "scraped_at": "2026-11-14T21:19:13.914Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -520,16 +520,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-14 16:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Josh Lester  Ponche (K) ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Andy Ibanez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 5ta",
+        "roundText": "Baja 5ta",
         "currentInningNum": 5,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 3,
-        "strikes": 0
+        "balls": 1,
+        "outs": 0,
+        "strikes": 2
       },
       {
         "id": 2250,
@@ -14248,7 +14248,7 @@
         "date": "2026-11-14 16:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Andy Ibanez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14292,9 +14292,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2250,
@@ -19525,8 +19525,8 @@
       "currentInningNum": 5,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -20235,6 +20235,20 @@
               "ts": 1794690954
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "plays": [
+            {
+              "reference_id": "20487-2-33",
+              "text": "Andy Ibanez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794691093
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20299,6 +20313,13 @@
           "half": "top",
           "label": "Alta 5ta",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
