@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T23:57:31.224Z",
+    "scraped_at": "2026-11-14T23:58:36.459Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 4,
         "status": 2,
         "date": "2026-11-14 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Roly Brito Robo de Base Segunda Base",
-        "atBat": null,
+        "lastPlayByPlay": "Pablo Reyes  Out: Rodado al Primera Base",
+        "atBat": "Yonatan Henriquez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,7 +628,7 @@
           "record": "2-0"
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -644,7 +644,7 @@
         "date": "2026-11-14 19:30:00",
         "part": 2,
         "lastPlayByPlay": "Jesús Sanchez   Out: Rodado al Campo Corto - Primera Base",
-        "atBat": null,
+        "atBat": "Felix Reyes",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -14304,12 +14304,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 4,
         "status": 2,
         "date": "2026-11-14 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Roly Brito Robo de Base Segunda Base",
-        "atBat": null,
+        "lastPlayByPlay": "Pablo Reyes  Out: Rodado al Primera Base",
+        "atBat": "Yonatan Henriquez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14354,7 +14354,7 @@
           "record": "2-0"
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -14370,7 +14370,7 @@
         "date": "2026-11-14 19:30:00",
         "part": 2,
         "lastPlayByPlay": "Jesús Sanchez   Out: Rodado al Campo Corto - Primera Base",
-        "atBat": null,
+        "atBat": "Felix Reyes",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14414,9 +14414,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "2026-11-15": [
@@ -20894,22 +20894,22 @@
       "date": "2026-11-14 17:00:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Roly Brito Robo de Base Segunda Base",
+      "lastPlayByPlay": "Pablo Reyes  Out: Rodado al Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 3
+        "base": 4
       },
       "base_runners": {
         "on1B": false,
-        "on2B": true,
-        "on3B": false,
+        "on2B": false,
+        "on3B": true,
         "runners": 1,
-        "mask": 3
+        "mask": 4
       },
       "betting": {
         "moneyline": {
@@ -21928,18 +21928,25 @@
               "ts": 1794700517
             },
             {
-              "reference_id": "20499-2-68",
-              "text": "Pablo Reyes al bate",
-              "scored": false,
-              "is_primary": true,
-              "ts": 1794700520
-            },
-            {
               "reference_id": "20499-2-67-297854",
               "text": "Roly Brito Robo de Base Segunda Base",
               "scored": false,
               "is_primary": false,
               "ts": 1794700585
+            },
+            {
+              "reference_id": "20499-2-68",
+              "text": "Pablo Reyes  Out: Rodado al Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794700706
+            },
+            {
+              "reference_id": "20499-2-69",
+              "text": "Yonatan Henriquez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794700713
             }
           ]
         }
@@ -22054,7 +22061,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
@@ -22246,8 +22253,8 @@
       "currentInningNum": 2,
       "lastPlayByPlay": "Jesús Sanchez   Out: Rodado al Campo Corto - Primera Base",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 2,
         "outs": 1
       },
       "base_state": {
@@ -22424,6 +22431,17 @@
               "team_id": 6,
               "name": "Jesús Sanchez ",
               "abbreviation": "J. Sanchez",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6239,
+              "team_id": 6,
+              "name": "Felix Reyes",
+              "abbreviation": "Felix Reyes",
               "number": null,
               "dob": null,
               "height": "",
@@ -22670,6 +22688,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1794700645
+            },
+            {
+              "reference_id": "20502-2-11",
+              "text": "Felix Reyes al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794700678
             }
           ]
         }
@@ -22700,7 +22725,7 @@
           "num": 2,
           "half": "bottom",
           "label": "Baja 2da",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
