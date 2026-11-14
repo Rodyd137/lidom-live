@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2246",
-    "scraped_at": "2026-11-14T00:33:58.566Z",
+    "scraped_at": "2026-11-14T00:35:03.965Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-13 19:00:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Jorge Bonifacio Ponche (K) ",
+    "lastPlayByPlay": "J. C. Escarra Doble! ",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 1,
-          "H": 3,
+          "H": 4,
           "E": 2,
           "H2": 1
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 1,
-          "H": 3,
+          "H": 4,
           "E": 2
         },
         "home": {
@@ -682,10 +682,17 @@
           },
           {
             "reference_id": "20459-1-30",
-            "text": "J. C. Escarra al bate",
+            "text": "J. C. Escarra Doble! ",
             "scored": false,
             "is_primary": true,
-            "ts": 1794616413
+            "ts": 1794616445
+          },
+          {
+            "reference_id": "20459-1-31",
+            "text": "Adael Amador al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794616447
           }
         ]
       }
@@ -737,7 +744,7 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -853,8 +860,8 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 0,
-          "hits": 3,
+          "runs": 1,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
