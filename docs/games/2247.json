@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2247",
-    "scraped_at": "2026-11-14T02:56:29.412Z",
+    "scraped_at": "2026-11-14T02:57:35.439Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,7 +13,7 @@
     "currentInningNum": 9,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
+      "balls": 1,
       "strikes": 0,
       "outs": 0
     },
@@ -59,7 +59,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Héctor Neris",
+          "pitcher": "Robinson Martinez",
           "era": "",
           "record": "",
           "debut": false
@@ -268,6 +268,17 @@
             "team_id": 1,
             "name": "Y. Encarnación",
             "abbreviation": "Y. Encarnación",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6305,
+            "team_id": 1,
+            "name": "Ward",
+            "abbreviation": "Ward",
             "number": null,
             "dob": null,
             "height": "",
@@ -1055,18 +1066,32 @@
             "ts": 1794624747
           },
           {
-            "reference_id": "20473-1-73",
-            "text": "Marmolejos Out: Elevado al Campo Corto",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1794624789
-          },
-          {
             "reference_id": "20473-1-74",
             "text": "Carlos Santana Out: Elevado al Campo Corto",
             "scored": false,
             "is_primary": true,
             "ts": 1794624950
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "20473-2-75",
+            "text": "Ramon Laureano Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794625010
+          },
+          {
+            "reference_id": "20473-2-76",
+            "text": "Ward al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794625040
           }
         ]
       }
@@ -1188,8 +1213,15 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 6,
+        "total_plays": 5,
         "scoring_plays": 1
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
