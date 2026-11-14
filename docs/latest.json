@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T03:17:05.942Z",
+    "scraped_at": "2026-11-14T03:18:09.447Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,19 +578,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-11-13 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Ellis Out: Elevado al Jardinero Central",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Junior Perez",
         "comment": "",
         "winningPitcher": "Yaramil Hiraldo",
         "losingPitcher": "Luis Garcias",
         "savingPitcher": "",
-        "roundText": "Alta 10ma",
+        "roundText": "Baja 10ma",
         "currentInningNum": 10,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -606,7 +606,7 @@
           "runs_half": 1,
           "errors": 1,
           "hits": 10,
-          "pitcher": "Yaramil Hiraldo",
+          "pitcher": "Lucas Sims",
           "era": "",
           "debut": 0,
           "record": ""
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -14241,19 +14241,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-11-13 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Ellis Out: Elevado al Jardinero Central",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Junior Perez",
         "comment": "",
         "winningPitcher": "Yaramil Hiraldo",
         "losingPitcher": "Luis Garcias",
         "savingPitcher": "",
-        "roundText": "Alta 10ma",
+        "roundText": "Baja 10ma",
         "currentInningNum": 10,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -14269,7 +14269,7 @@
           "runs_half": 1,
           "errors": 1,
           "hits": 10,
-          "pitcher": "Yaramil Hiraldo",
+          "pitcher": "Lucas Sims",
           "era": "",
           "debut": 0,
           "record": ""
@@ -14291,7 +14291,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -20962,7 +20962,7 @@
           "id": 2248,
           "date": "2026-11-13 19:30:00",
           "status": 2,
-          "roundText": "Alta 10ma",
+          "roundText": "Baja 10ma",
           "awayTeam": {
             "id": 6,
             "name": "Toros",
@@ -22382,7 +22382,7 @@
           "id": 2248,
           "date": "2026-11-13 19:30:00",
           "status": 2,
-          "roundText": "Alta 10ma",
+          "roundText": "Baja 10ma",
           "awayTeam": {
             "id": 6,
             "name": "Toros",
@@ -22470,24 +22470,24 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-13 19:30:00",
-      "roundText": "Alta 10ma",
+      "roundText": "Baja 10ma",
       "currentInningNum": 10,
-      "lastPlayByPlay": "Ellis Out: Elevado al Jardinero Central",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
-        "base": 1
+        "battingTeam": "homeTeam",
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -22520,7 +22520,7 @@
             "H2": 1
           },
           "probables": {
-            "pitcher": "Yaramil Hiraldo",
+            "pitcher": "Lucas Sims",
             "era": "",
             "record": "",
             "debut": false
@@ -23701,6 +23701,20 @@
               "ts": 1794626159
             }
           ]
+        },
+        {
+          "num": 10,
+          "half": "bottom",
+          "label": "Baja 10ma",
+          "plays": [
+            {
+              "reference_id": "21401-2-97",
+              "text": "Junior Perez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794626282
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23836,6 +23850,13 @@
           "label": "Alta 10ma",
           "total_plays": 10,
           "scoring_plays": 3
+        },
+        {
+          "num": 10,
+          "half": "bottom",
+          "label": "Baja 10ma",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -23904,7 +23925,7 @@
         },
         {
           "num": 10,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 6,
           "homeTeamRuns": 0
