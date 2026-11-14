@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2246",
-    "scraped_at": "2026-11-14T01:55:30.795Z",
+    "scraped_at": "2026-11-14T01:56:35.945Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-13 19:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "D. Frias Ponche (K) ",
+    "lastPlayByPlay": "Steward Berroa Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -920,10 +920,17 @@
           },
           {
             "reference_id": "20462-1-58",
-            "text": "Steward Berroa al bate",
+            "text": "Steward Berroa Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1794621240
+            "ts": 1794621366
+          },
+          {
+            "reference_id": "20462-1-59",
+            "text": "Luis Liberato al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794621368
           }
         ]
       }
@@ -1017,7 +1024,7 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -1117,7 +1124,7 @@
         "id": 2248,
         "date": "2026-11-13 19:30:00",
         "status": 2,
-        "roundText": "Baja 6ta",
+        "roundText": "Alta 7ma",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
