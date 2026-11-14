@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T21:29:00.385Z",
+    "scraped_at": "2026-11-14T21:30:05.865Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -520,16 +520,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-14 16:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Joshua Báez  Out: Elevado al Receptor",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "Leonardo Bernal  Out: Elevado al Campo Corto",
+        "atBat": "Miguel Bleis",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 5ta",
-        "currentInningNum": 5,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 6ta",
+        "currentInningNum": 6,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-11-14 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Noelvi Marte   Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "Marcell Ozuna ",
+        "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
+        "atBat": "Nomar Mazara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,7 +627,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 1,
         "strikes": 0
       },
@@ -14246,16 +14246,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-14 16:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Joshua Báez  Out: Elevado al Receptor",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "Leonardo Bernal  Out: Elevado al Campo Corto",
+        "atBat": "Miguel Bleis",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 5ta",
-        "currentInningNum": 5,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 6ta",
+        "currentInningNum": 6,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -14293,7 +14293,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -14304,12 +14304,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-11-14 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Noelvi Marte   Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "Marcell Ozuna ",
+        "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
+        "atBat": "Nomar Mazara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14353,7 +14353,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 1,
         "strikes": 0
       },
@@ -19521,16 +19521,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-14 16:00:00",
-      "roundText": "Baja 5ta",
-      "currentInningNum": 5,
-      "lastPlayByPlay": "Joshua Báez  Out: Elevado al Receptor",
+      "roundText": "Alta 6ta",
+      "currentInningNum": 6,
+      "lastPlayByPlay": "Leonardo Bernal  Out: Elevado al Campo Corto",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 1
       },
       "base_state": {
-        "battingTeam": "homeTeam",
+        "battingTeam": "awayTeam",
         "base": 1
       },
       "base_runners": {
@@ -20284,6 +20284,27 @@
               "ts": 1794691628
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "plays": [
+            {
+              "reference_id": "20488-1-39",
+              "text": "Leonardo Bernal  Out: Elevado al Campo Corto",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794691801
+            },
+            {
+              "reference_id": "20488-1-40",
+              "text": "Miguel Bleis al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794691804
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20356,6 +20377,13 @@
           "label": "Baja 5ta",
           "total_plays": 6,
           "scoring_plays": 1
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "total_plays": 2,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20390,14 +20418,14 @@
         {
           "num": 5,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 0,
           "homeTeamRuns": 1
         },
         {
           "num": 6,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
@@ -20544,22 +20572,22 @@
       "date": "2026-11-14 17:00:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Noelvi Marte   Out: Rodado al Tercera Base - Primera Base",
+      "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
       "counts": {
-        "balls": 3,
+        "balls": 0,
         "strikes": 0,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 3
+        "base": 5
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -21007,10 +21035,17 @@
             },
             {
               "reference_id": "20492-2-9",
-              "text": "Marcell Ozuna  al bate",
+              "text": "Marcell Ozuna  Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794691603
+              "ts": 1794691779
+            },
+            {
+              "reference_id": "20492-2-10",
+              "text": "Nomar Mazara al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794691782
             }
           ]
         }
@@ -21027,7 +21062,7 @@
           "num": 1,
           "half": "bottom",
           "label": "Baja 1ra",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
@@ -21101,7 +21136,7 @@
           "id": 2249,
           "date": "2026-11-14 16:00:00",
           "status": 2,
-          "roundText": "Baja 5ta",
+          "roundText": "Alta 6ta",
           "awayTeam": {
             "id": 7,
             "name": "Estrellas",
@@ -21507,7 +21542,7 @@
           "id": 2249,
           "date": "2026-11-14 16:00:00",
           "status": 2,
-          "roundText": "Baja 5ta",
+          "roundText": "Alta 6ta",
           "awayTeam": {
             "id": 7,
             "name": "Estrellas",
