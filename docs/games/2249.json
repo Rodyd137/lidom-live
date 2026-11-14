@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2249",
-    "scraped_at": "2026-11-14T22:00:30.472Z",
+    "scraped_at": "2026-11-14T22:01:35.549Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-11-14 16:00:00",
     "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Andy Ibanez  Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "M. De la Cruz se embasa por Error del Campo Corto",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 4,
           "H": 6,
-          "E": 0,
+          "E": 1,
           "H2": 1
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 4,
           "H": 6,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 2,
@@ -913,10 +913,17 @@
           },
           {
             "reference_id": "20489-2-55",
-            "text": "M. De la Cruz al bate",
+            "text": "M. De la Cruz se embasa por Error del Campo Corto",
             "scored": false,
             "is_primary": true,
-            "ts": 1794693609
+            "ts": 1794693646
+          },
+          {
+            "reference_id": "20489-2-56",
+            "text": "Jonathan Guzman al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794693658
           }
         ]
       }
@@ -1017,7 +1024,7 @@
         "num": 7,
         "half": "bottom",
         "label": "Baja 7ma",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
