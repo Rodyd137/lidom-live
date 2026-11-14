@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-14T03:20:19.407Z",
+    "scraped_at": "2026-11-14T03:21:24.716Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Junior Perez  Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "Jose Tena",
+        "lastPlayByPlay": "Jose Tena Base por Bolas ",
+        "atBat": "Harold Andres Ramirez",
         "comment": "",
         "winningPitcher": "Yaramil Hiraldo",
         "losingPitcher": "Luis Garcias",
@@ -594,10 +594,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
-          "text": "Revisión Jugada"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -14244,12 +14241,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-11-13 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Junior Perez  Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "Jose Tena",
+        "lastPlayByPlay": "Jose Tena Base por Bolas ",
+        "atBat": "Harold Andres Ramirez",
         "comment": "",
         "winningPitcher": "Yaramil Hiraldo",
         "losingPitcher": "Luis Garcias",
@@ -14293,9 +14290,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2247,
@@ -22475,22 +22472,22 @@
       "date": "2026-11-13 19:30:00",
       "roundText": "Baja 10ma",
       "currentInningNum": 10,
-      "lastPlayByPlay": "Junior Perez  Out: Rodado al Tercera Base - Primera Base",
+      "lastPlayByPlay": "Jose Tena Base por Bolas ",
       "counts": {
-        "balls": 1,
-        "strikes": 0,
+        "balls": 0,
+        "strikes": 1,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 3
+        "base": 5
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -23719,10 +23716,17 @@
             },
             {
               "reference_id": "21401-2-98",
-              "text": "Jose Tena al bate",
+              "text": "Jose Tena Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794626343
+              "ts": 1794626468
+            },
+            {
+              "reference_id": "21401-2-99",
+              "text": "Harold Andres Ramirez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794626471
             }
           ]
         }
@@ -23865,7 +23869,7 @@
           "num": 10,
           "half": "bottom",
           "label": "Baja 10ma",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
