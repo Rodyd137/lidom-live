@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2248",
-    "scraped_at": "2026-11-14T02:58:41.363Z",
+    "scraped_at": "2026-11-14T02:59:47.163Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-11-13 19:30:00",
     "roundText": "Alta 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gilberto Celestino  Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 5
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -1171,10 +1171,17 @@
         "plays": [
           {
             "reference_id": "21401-1-86",
-            "text": "Gilberto Celestino  al bate",
+            "text": "Gilberto Celestino  Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1794625066
+            "ts": 1794625147
+          },
+          {
+            "reference_id": "21401-1-87",
+            "text": "Ronny Simon al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794625149
           }
         ]
       }
@@ -1310,7 +1317,7 @@
         "num": 10,
         "half": "top",
         "label": "Alta 10ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
