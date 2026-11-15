@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-15T01:57:41.653Z",
+    "scraped_at": "2026-11-15T01:58:46.972Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-14 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Juan Brito",
+        "lastPlayByPlay": "Juan Brito Base por Bolas ",
+        "atBat": "Eloy Jimenez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -14365,12 +14365,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-14 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Juan Brito",
+        "lastPlayByPlay": "Juan Brito Base por Bolas ",
+        "atBat": "Eloy Jimenez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14414,9 +14414,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "2026-11-15": [
@@ -22328,22 +22328,22 @@
       "date": "2026-11-14 19:30:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Juan Brito Base por Bolas ",
       "counts": {
-        "balls": 2,
-        "strikes": 1,
+        "balls": 0,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -23202,10 +23202,17 @@
           "plays": [
             {
               "reference_id": "20507-2-52",
-              "text": "Juan Brito al bate",
+              "text": "Juan Brito Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794707829
+              "ts": 1794707897
+            },
+            {
+              "reference_id": "20507-2-53",
+              "text": "Eloy Jimenez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794707906
             }
           ]
         }
@@ -23299,7 +23306,7 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
