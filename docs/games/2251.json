@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2251",
-    "scraped_at": "2026-11-15T00:07:20.080Z",
+    "scraped_at": "2026-11-15T00:08:25.296Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-11-14 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ryan Ritter  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
@@ -136,6 +136,17 @@
             "team_id": 3,
             "name": "Ryan Ritter",
             "abbreviation": "R. Ritter",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6046,
+            "team_id": 3,
+            "name": "Webster Rivas",
+            "abbreviation": "W. Rivas",
             "number": null,
             "dob": null,
             "height": "",
@@ -548,10 +559,17 @@
         "plays": [
           {
             "reference_id": "20503-1-16",
-            "text": "Ryan Ritter al bate",
+            "text": "Ryan Ritter  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1794701215
+            "ts": 1794701238
+          },
+          {
+            "reference_id": "20503-1-17",
+            "text": "Webster Rivas al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794701262
           }
         ]
       }
@@ -589,7 +607,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -695,8 +713,8 @@
           "name": "Tigres",
           "abbr": "TL",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
-          "runs": 5,
-          "hits": 5,
+          "runs": 7,
+          "hits": 7,
           "errors": 4,
           "permalink": "/equipo/tigres-del-licey"
         },
