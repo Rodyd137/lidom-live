@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2251",
-    "scraped_at": "2026-11-15T01:19:29.832Z",
+    "scraped_at": "2026-11-15T01:20:35.315Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-11-14 19:30:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "D. Frias  Out: Rodado al Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -65,17 +65,6 @@
           "debut": false
         },
         "players": [
-          {
-            "id": 6121,
-            "team_id": 3,
-            "name": "Steward Berroa",
-            "abbreviation": "S. Berroa",
-            "number": null,
-            "dob": null,
-            "height": "",
-            "image": null,
-            "position": ""
-          },
           {
             "id": 6213,
             "team_id": 3,
@@ -766,10 +755,17 @@
         "plays": [
           {
             "reference_id": "20506-1-38",
-            "text": "D. Frias al bate",
+            "text": "D. Frias  Out: Rodado al Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1794705539
+            "ts": 1794705572
+          },
+          {
+            "reference_id": "20506-1-39",
+            "text": "Steward Berroa al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794705575
           }
         ]
       }
@@ -842,7 +838,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
