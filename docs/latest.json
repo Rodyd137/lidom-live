@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-15T00:02:57.219Z",
+    "scraped_at": "2026-11-15T00:04:02.570Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 1,
         "status": 2,
         "date": "2026-11-14 19:30:00",
         "part": 2,
         "lastPlayByPlay": "Rafael Lantigua  Sencillo y 1 Carrera Impulsada ",
-        "atBat": null,
+        "atBat": "Onil Perez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       }
     ],
@@ -14365,11 +14365,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 1,
         "status": 2,
         "date": "2026-11-14 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Rafael Lantigua  Sencillo y 1 Carrera Impulsada ",
+        "lastPlayByPlay": "Onil Perez Out: Elevado al Jardinero Central",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -14415,7 +14415,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       }
     ],
@@ -20897,7 +20897,7 @@
       "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -22272,22 +22272,22 @@
       "date": "2026-11-14 19:30:00",
       "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "Rafael Lantigua  Sencillo y 1 Carrera Impulsada ",
+      "lastPlayByPlay": "Onil Perez Out: Elevado al Jardinero Central",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 5
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": true,
+        "on1B": false,
+        "on2B": false,
         "on3B": false,
-        "runners": 2,
-        "mask": 5
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -22496,6 +22496,17 @@
               "team_id": 6,
               "name": "Rafael Lantigua ",
               "abbreviation": "R. Lantigua",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6247,
+              "team_id": 6,
+              "name": "Onil Perez",
+              "abbreviation": "O. Perez",
               "number": null,
               "dob": null,
               "height": "",
@@ -22770,6 +22781,13 @@
               "scored": true,
               "is_primary": true,
               "ts": 1794700960
+            },
+            {
+              "reference_id": "20502-2-15",
+              "text": "Onil Perez Out: Elevado al Jardinero Central",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794701040
             }
           ]
         }
@@ -22800,7 +22818,7 @@
           "num": 2,
           "half": "bottom",
           "label": "Baja 2da",
-          "total_plays": 5,
+          "total_plays": 6,
           "scoring_plays": 1
         }
       ],
