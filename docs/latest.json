@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-15T03:03:12.007Z",
+    "scraped_at": "2026-11-15T03:04:17.921Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-14 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "D. Frias Out: Elevado al Jardinero Izquierdo",
+        "atBat": "Jorge Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -14369,8 +14369,8 @@
         "status": 2,
         "date": "2026-11-14 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "D. Frias Out: Elevado al Jardinero Izquierdo",
+        "atBat": "Jorge Bonifacio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14415,7 +14415,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -22328,11 +22328,11 @@
       "date": "2026-11-14 19:30:00",
       "roundText": "Alta 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "D. Frias Out: Elevado al Jardinero Izquierdo",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -23313,6 +23313,27 @@
               "ts": 1794711625
             }
           ]
+        },
+        {
+          "num": 9,
+          "half": "top",
+          "label": "Alta 9na",
+          "plays": [
+            {
+              "reference_id": "20509-1-65",
+              "text": "D. Frias Out: Elevado al Jardinero Izquierdo",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794711834
+            },
+            {
+              "reference_id": "20509-1-66",
+              "text": "Jorge Bonifacio al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794711837
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23419,6 +23440,13 @@
           "half": "bottom",
           "label": "Baja 8va",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 9,
+          "half": "top",
+          "label": "Alta 9na",
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
