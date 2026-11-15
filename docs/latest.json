@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-15T00:38:40.098Z",
+    "scraped_at": "2026-11-15T00:39:45.269Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-14 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Jesús Sanchez   Out: Rodado al Tercera Base - Primera Base",
-        "atBat": null,
+        "lastPlayByPlay": "Steward Berroa Base por Bolas ",
+        "atBat": "Luis Liberato",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -655,10 +655,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -14368,12 +14365,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-14 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Jesús Sanchez   Out: Rodado al Tercera Base - Primera Base",
-        "atBat": null,
+        "lastPlayByPlay": "Steward Berroa Base por Bolas ",
+        "atBat": "Luis Liberato",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14384,10 +14381,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -22334,7 +22328,7 @@
       "date": "2026-11-14 19:30:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Jesús Sanchez   Out: Rodado al Tercera Base - Primera Base",
+      "lastPlayByPlay": "Steward Berroa Base por Bolas ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -22342,14 +22336,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -22955,6 +22949,27 @@
               "ts": 1794702228
             }
           ]
+        },
+        {
+          "num": 4,
+          "half": "bottom",
+          "label": "Baja 4ta",
+          "plays": [
+            {
+              "reference_id": "20504-2-23",
+              "text": "Steward Berroa Base por Bolas ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794703162
+            },
+            {
+              "reference_id": "20504-2-24",
+              "text": "Luis Liberato al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794703164
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22998,6 +23013,13 @@
           "half": "bottom",
           "label": "Baja 3ra",
           "total_plays": 5,
+          "scoring_plays": 0
+        },
+        {
+          "num": 4,
+          "half": "bottom",
+          "label": "Baja 4ta",
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
