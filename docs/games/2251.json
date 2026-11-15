@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2251",
-    "scraped_at": "2026-11-15T03:15:16.061Z",
+    "scraped_at": "2026-11-15T03:16:21.427Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-11-14 19:30:00",
     "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Bryan de la Cruz Out: Elevado al Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -59,7 +59,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Leandro Lopez",
+          "pitcher": "Jonathan Aro",
           "era": "",
           "record": "",
           "debut": false
@@ -1031,6 +1031,27 @@
             "ts": 1794712385
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "20509-2-69",
+            "text": "Bryan de la Cruz Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794712564
+          },
+          {
+            "reference_id": "20509-2-70",
+            "text": "Jesús Sanchez  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794712567
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1144,6 +1165,13 @@
         "half": "top",
         "label": "Alta 9na",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
