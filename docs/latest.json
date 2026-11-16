@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-16T00:27:33.430Z",
+    "scraped_at": "2026-11-16T00:28:39.327Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,7 +578,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-11-15 17:00:00",
         "part": 2,
@@ -627,7 +627,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 2,
         "strikes": 0
       },
@@ -14428,12 +14428,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-11-15 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Enmanuel Valdez  Out: Elevado al Jardinero Central",
-        "atBat": "Pedro Severino",
+        "lastPlayByPlay": "Pedro Severino Base por Bolas ",
+        "atBat": "Ellis",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -14477,7 +14477,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 2,
         "strikes": 0
       },
@@ -21508,22 +21508,22 @@
       "date": "2026-11-15 17:00:00",
       "roundText": "Baja 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "Enmanuel Valdez  Out: Elevado al Jardinero Central",
+      "lastPlayByPlay": "Pedro Severino Base por Bolas ",
       "counts": {
-        "balls": 2,
+        "balls": 0,
         "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 3
+        "base": 5
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -22606,10 +22606,17 @@
             },
             {
               "reference_id": "20536-2-78",
-              "text": "Pedro Severino al bate",
+              "text": "Pedro Severino Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794788804
+              "ts": 1794788916
+            },
+            {
+              "reference_id": "20536-2-79",
+              "text": "Ellis al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794788919
             }
           ]
         }
@@ -22738,7 +22745,7 @@
           "num": 9,
           "half": "bottom",
           "label": "Baja 9na",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
