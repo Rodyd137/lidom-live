@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-17T01:20:59.232Z",
+    "scraped_at": "2026-11-17T01:22:04.093Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-11-16 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Luis Liberato",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -560,7 +560,7 @@
           "runs": 2,
           "runs_half": 0,
           "errors": 0,
-          "hits": 5,
+          "hits": 6,
           "pitcher": "",
           "era": "",
           "debut": 0,
@@ -14735,12 +14735,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-11-16 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Luis Liberato",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14778,7 +14778,7 @@
           "runs": 2,
           "runs_half": 0,
           "errors": 0,
-          "hits": 5,
+          "hits": 6,
           "pitcher": "",
           "era": "",
           "debut": 0,
@@ -19655,14 +19655,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -19811,7 +19811,7 @@
           "permalink": "/equipo/aguilas-cibaenas",
           "totals": {
             "R": 2,
-            "H": 5,
+            "H": 6,
             "E": 0,
             "H2": 0
           },
@@ -19982,7 +19982,7 @@
           },
           "home": {
             "R": 2,
-            "H": 5,
+            "H": 6,
             "E": 0
           }
         },
@@ -20443,6 +20443,20 @@
               "ts": 1794878338
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "plays": [
+            {
+              "reference_id": "21408-2-44",
+              "text": "Luis Liberato al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794878506
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20514,6 +20528,13 @@
           "half": "top",
           "label": "Alta 7ma",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
