@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2348",
-    "scraped_at": "2026-11-17T00:56:54.488Z",
+    "scraped_at": "2026-11-17T00:58:00.304Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-16 19:30:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Jorge Bonifacio Doble! ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 0,
-          "H": 2,
+          "H": 3,
           "E": 0,
           "H2": 0
         },
@@ -186,6 +186,17 @@
           "debut": false
         },
         "players": [
+          {
+            "id": 6073,
+            "team_id": 3,
+            "name": "Jorge Bonifacio",
+            "abbreviation": "Jorge Bonifacio",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
           {
             "id": 6213,
             "team_id": 3,
@@ -335,7 +346,7 @@
         },
         "home": {
           "R": 0,
-          "H": 2,
+          "H": 3,
           "E": 0
         }
       },
@@ -712,6 +723,20 @@
             "ts": 1794876822
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "21407-2-34",
+            "text": "Jorge Bonifacio Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794877035
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -769,6 +794,13 @@
         "half": "top",
         "label": "Alta 6ta",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],

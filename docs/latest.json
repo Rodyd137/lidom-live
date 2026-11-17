@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-17T00:56:51.256Z",
+    "scraped_at": "2026-11-17T00:57:57.070Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,11 +517,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-11-16 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Jorge Bonifacio Doble! ",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -560,7 +560,7 @@
           "runs": 0,
           "runs_half": 0,
           "errors": 0,
-          "hits": 2,
+          "hits": 3,
           "pitcher": "",
           "era": "",
           "debut": 0,
@@ -568,7 +568,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -14735,11 +14735,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-11-16 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Jorge Bonifacio Doble! ",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -14778,7 +14778,7 @@
           "runs": 0,
           "runs_half": 0,
           "errors": 0,
-          "hits": 2,
+          "hits": 3,
           "pitcher": "",
           "era": "",
           "debut": 0,
@@ -14786,7 +14786,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "2026-11-17": [
@@ -19647,22 +19647,22 @@
       "date": "2026-11-16 19:30:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Jorge Bonifacio Doble! ",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -19811,7 +19811,7 @@
           "permalink": "/equipo/aguilas-cibaenas",
           "totals": {
             "R": 0,
-            "H": 2,
+            "H": 3,
             "E": 0,
             "H2": 0
           },
@@ -19822,6 +19822,17 @@
             "debut": false
           },
           "players": [
+            {
+              "id": 6073,
+              "team_id": 3,
+              "name": "Jorge Bonifacio",
+              "abbreviation": "Jorge Bonifacio",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
             {
               "id": 6213,
               "team_id": 3,
@@ -19971,7 +19982,7 @@
           },
           "home": {
             "R": 0,
-            "H": 2,
+            "H": 3,
             "E": 0
           }
         },
@@ -20348,6 +20359,20 @@
               "ts": 1794876822
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "bottom",
+          "label": "Baja 6ta",
+          "plays": [
+            {
+              "reference_id": "21407-2-34",
+              "text": "Jorge Bonifacio Doble! ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794877035
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20405,6 +20430,13 @@
           "half": "top",
           "label": "Alta 6ta",
           "total_plays": 5,
+          "scoring_plays": 0
+        },
+        {
+          "num": 6,
+          "half": "bottom",
+          "label": "Baja 6ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
