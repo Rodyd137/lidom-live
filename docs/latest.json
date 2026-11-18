@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T03:07:10.836Z",
+    "scraped_at": "2026-11-18T03:08:17.816Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 3,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2256,
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 1,
         "status": 2,
         "date": "2026-11-17 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Felix Reyes Ponche (K) ",
-        "atBat": "Juan Brito",
+        "lastPlayByPlay": "Juan Brito Out: Línea al Jardinero Derecho ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-11-17 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "David Villar",
+        "lastPlayByPlay": "David Villar Out: Línea al Tercera Base",
+        "atBat": "Raimel Tapia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -667,7 +667,7 @@
           "runs_half": 0,
           "errors": 2,
           "hits": 4,
-          "pitcher": "Jean Carlos Mejia",
+          "pitcher": "Michel Otañez",
           "era": "",
           "debut": 0,
           "record": ""
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -14908,9 +14908,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 3,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2256,
@@ -14981,12 +14981,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-11-17 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "David Villar",
+        "lastPlayByPlay": "Raimel Tapia Base por Bolas y Carrera Impulsada ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15009,7 +15009,7 @@
           "runs_half": 0,
           "errors": 2,
           "hits": 4,
-          "pitcher": "Jean Carlos Mejia",
+          "pitcher": "Michel Otañez",
           "era": "",
           "debut": 0,
           "record": ""
@@ -15031,7 +15031,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -21111,7 +21111,7 @@
             "name": "Gigantes",
             "abbr": "GC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
-            "runs": 7,
+            "runs": 8,
             "hits": 11,
             "errors": 1,
             "permalink": "/equipo/gigantes-del-cibao"
@@ -21185,22 +21185,22 @@
       "date": "2026-11-17 19:30:00",
       "roundText": "Baja 10ma",
       "currentInningNum": 10,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Raimel Tapia Base por Bolas y Carrera Impulsada ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 3
+        "base": 5
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -21233,7 +21233,7 @@
             "H2": 0
           },
           "probables": {
-            "pitcher": "Jean Carlos Mejia",
+            "pitcher": "Michel Otañez",
             "era": "",
             "record": "",
             "debut": false
@@ -22296,10 +22296,17 @@
           "plays": [
             {
               "reference_id": "21412-2-76",
-              "text": "David Villar al bate",
+              "text": "David Villar Out: Línea al Tercera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794971147
+              "ts": 1794971245
+            },
+            {
+              "reference_id": "21412-2-77",
+              "text": "Raimel Tapia Base por Bolas y Carrera Impulsada ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794971294
             }
           ]
         }
@@ -22442,7 +22449,7 @@
           "num": 10,
           "half": "bottom",
           "label": "Baja 10ma",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -22641,8 +22648,8 @@
       "currentInningNum": 10,
       "lastPlayByPlay": "Hendry Mendez al bate",
       "counts": {
-        "balls": 2,
-        "strikes": 0,
+        "balls": 3,
+        "strikes": 1,
         "outs": 1
       },
       "base_state": {
