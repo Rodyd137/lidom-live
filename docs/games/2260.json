@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2260",
-    "scraped_at": "2026-11-18T23:50:49.314Z",
+    "scraped_at": "2026-11-18T23:51:55.024Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -92,6 +92,17 @@
             "team_id": 3,
             "name": "Adael Amador",
             "abbreviation": "A. Amador",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6119,
+            "team_id": 3,
+            "name": "J. C. Escarra",
+            "abbreviation": "J. C. Escarra",
             "number": null,
             "dob": null,
             "height": "",
@@ -353,6 +364,20 @@
             "ts": 1795045732
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "20583-1-7",
+            "text": "J. C. Escarra al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795045886
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -368,6 +393,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
