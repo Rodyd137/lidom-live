@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T23:44:12.163Z",
+    "scraped_at": "2026-11-18T23:45:17.860Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-18 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Deyvinson de los Santos",
+        "lastPlayByPlay": "Roly Brito Out: Elevado al Jardinero Izquierdo",
+        "atBat": "Pablo Reyes",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Gilberto Celestino   Out: Rodado al Segunda Base - Primera Base",
-        "atBat": "Ronny Simon",
+        "lastPlayByPlay": "Ronny Simon Sencillo Primera Base",
+        "atBat": "Bryan de la Cruz",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -690,7 +690,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -14926,8 +14926,8 @@
         "status": 2,
         "date": "2026-11-18 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Deyvinson de los Santos",
+        "lastPlayByPlay": "Roly Brito Out: Elevado al Jardinero Izquierdo",
+        "atBat": "Pablo Reyes",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14972,7 +14972,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -15048,8 +15048,8 @@
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Gilberto Celestino   Out: Rodado al Segunda Base - Primera Base",
-        "atBat": "Ronny Simon",
+        "lastPlayByPlay": "Ronny Simon Sencillo Primera Base",
+        "atBat": "Bryan de la Cruz",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15095,7 +15095,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "2026-11-20": [
@@ -19649,11 +19649,11 @@
       "date": "2026-11-18 19:00:00",
       "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "Deyvinson de los Santos  Out: Rodado al Tercera Base - Primera Base",
+      "lastPlayByPlay": "Roly Brito Out: Elevado al Jardinero Izquierdo",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20212,6 +20212,20 @@
               "scored": false,
               "is_primary": true,
               "ts": 1795045452
+            },
+            {
+              "reference_id": "20574-2-18",
+              "text": "Roly Brito Out: Elevado al Jardinero Izquierdo",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795045492
+            },
+            {
+              "reference_id": "20574-2-19",
+              "text": "Pablo Reyes al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795045495
             }
           ]
         }
@@ -20242,7 +20256,7 @@
           "num": 2,
           "half": "bottom",
           "label": "Baja 2da",
-          "total_plays": 1,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -20909,10 +20923,10 @@
       "date": "2026-11-18 19:30:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Gilberto Celestino   Out: Rodado al Segunda Base - Primera Base",
+      "lastPlayByPlay": "Ronny Simon Sencillo Primera Base",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 1
       },
       "base_state": {
@@ -21370,10 +21384,17 @@
             },
             {
               "reference_id": "20591-2-5",
-              "text": "Ronny Simon al bate",
+              "text": "Ronny Simon Sencillo Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1795045383
+              "ts": 1795045481
+            },
+            {
+              "reference_id": "20591-2-6",
+              "text": "Bryan de la Cruz al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795045505
             }
           ]
         }
@@ -21390,7 +21411,7 @@
           "num": 1,
           "half": "bottom",
           "label": "Baja 1ra",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
