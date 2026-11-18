@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T03:15:48.303Z",
+    "scraped_at": "2026-11-18T03:16:52.581Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -566,7 +566,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 0,
         "strikes": 2
       },
@@ -583,7 +583,7 @@
         "date": "2026-11-17 19:15:00",
         "part": 2,
         "lastPlayByPlay": "Ramon Laureano Robo de Base Tercera Base",
-        "atBat": null,
+        "atBat": "I . Castillo",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/344328d644485325998a132db1f0cc6a.png",
+          "text": "Lesión"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -14908,9 +14911,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2256,
@@ -14925,7 +14928,7 @@
         "date": "2026-11-17 19:15:00",
         "part": 2,
         "lastPlayByPlay": "Ramon Laureano Robo de Base Tercera Base",
-        "atBat": null,
+        "atBat": "I . Castillo",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -14936,7 +14939,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/344328d644485325998a132db1f0cc6a.png",
+          "text": "Lesión"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -20025,6 +20031,17 @@
               "position": ""
             },
             {
+              "id": 6324,
+              "team_id": 4,
+              "name": "I . Castillo",
+              "abbreviation": "I . Castillo",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
               "id": 6043,
               "team_id": 4,
               "name": "M. Hernandez",
@@ -20907,18 +20924,18 @@
               "ts": 1794971679
             },
             {
-              "reference_id": "20553-2-88",
-              "text": "Gregory Polanco al bate",
-              "scored": false,
-              "is_primary": true,
-              "ts": 1794971709
-            },
-            {
               "reference_id": "20553-2-87-299051",
               "text": "Ramon Laureano Robo de Base Tercera Base",
               "scored": false,
               "is_primary": false,
               "ts": 1794971744
+            },
+            {
+              "reference_id": "20553-2-89",
+              "text": "I . Castillo al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794971785
             }
           ]
         }
@@ -22693,9 +22710,9 @@
       "currentInningNum": 11,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
