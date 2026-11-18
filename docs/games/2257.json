@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2257",
-    "scraped_at": "2026-11-18T03:01:45.265Z",
+    "scraped_at": "2026-11-18T03:02:50.756Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-17 19:30:00",
     "roundText": "Alta 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "A. Cordero  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
-      "balls": 2,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 3
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -1094,10 +1094,17 @@
         "plays": [
           {
             "reference_id": "21412-1-73",
-            "text": "Mel Rojas al bate",
+            "text": "Mel Rojas Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1794970697
+            "ts": 1794970952
+          },
+          {
+            "reference_id": "21412-1-74",
+            "text": "A. Cordero  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794970963
           }
         ]
       }
@@ -1233,7 +1240,7 @@
         "num": 10,
         "half": "top",
         "label": "Alta 10ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1321,7 +1328,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 9,
-          "hits": 9,
+          "hits": 10,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
         },
