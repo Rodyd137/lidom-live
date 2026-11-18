@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2258",
-    "scraped_at": "2026-11-18T02:34:26.824Z",
+    "scraped_at": "2026-11-18T02:35:32.103Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 9,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -1122,6 +1122,20 @@
             "ts": 1794969114
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "20572-2-81",
+            "text": "Eddison Paulino  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794969300
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1243,6 +1257,13 @@
         "label": "Alta 9na",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1322,7 +1343,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 9,
-          "hits": 8,
+          "hits": 9,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
         },
