@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T23:45:17.860Z",
+    "scraped_at": "2026-11-18T23:46:23.101Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -583,7 +583,7 @@
         "date": "2026-11-18 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Gustavo Nuñez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -690,7 +690,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -14926,8 +14926,8 @@
         "status": 2,
         "date": "2026-11-18 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Roly Brito Out: Elevado al Jardinero Izquierdo",
-        "atBat": "Pablo Reyes",
+        "lastPlayByPlay": "Pablo Reyes Out: Elevado al Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14972,7 +14972,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -14988,7 +14988,7 @@
         "date": "2026-11-18 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Gustavo Nuñez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15095,7 +15095,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "2026-11-20": [
@@ -19649,11 +19649,11 @@
       "date": "2026-11-18 19:00:00",
       "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "Roly Brito Out: Elevado al Jardinero Izquierdo",
+      "lastPlayByPlay": "Pablo Reyes Out: Elevado al Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20222,10 +20222,10 @@
             },
             {
               "reference_id": "20574-2-19",
-              "text": "Pablo Reyes al bate",
+              "text": "Pablo Reyes Out: Elevado al Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1795045495
+              "ts": 1795045582
             }
           ]
         }
@@ -20554,7 +20554,19 @@
             "record": "",
             "debut": false
           },
-          "players": []
+          "players": [
+            {
+              "id": 6016,
+              "team_id": 1,
+              "name": "Gustavo Nuñez",
+              "abbreviation": "Gustavo Nuñez",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            }
+          ]
         }
       },
       "comment": "",
@@ -20726,6 +20738,20 @@
               "ts": 1795045417
             }
           ]
+        },
+        {
+          "num": 1,
+          "half": "bottom",
+          "label": "Baja 1ra",
+          "plays": [
+            {
+              "reference_id": "20582-2-4",
+              "text": "Gustavo Nuñez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795045552
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20734,6 +20760,13 @@
           "half": "top",
           "label": "Alta 1ra",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 1,
+          "half": "bottom",
+          "label": "Baja 1ra",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -20926,7 +20959,7 @@
       "lastPlayByPlay": "Ronny Simon Sencillo Primera Base",
       "counts": {
         "balls": 0,
-        "strikes": 1,
+        "strikes": 2,
         "outs": 1
       },
       "base_state": {
