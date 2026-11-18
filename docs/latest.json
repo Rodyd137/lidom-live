@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T03:13:40.032Z",
+    "scraped_at": "2026-11-18T03:14:44.102Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-11-17 19:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Luis Liberato",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2256,
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-17 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Ramon Laureano Base por Bolas ",
-        "atBat": "Joshua Báez ",
+        "lastPlayByPlay": "M. De la Cruz Out: Elevado al Jardinero Central",
+        "atBat": null,
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -14859,12 +14859,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-11-17 19:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Luis Liberato",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14908,9 +14908,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2256,
@@ -14924,8 +14924,8 @@
         "status": 2,
         "date": "2026-11-17 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Ramon Laureano Base por Bolas ",
-        "atBat": "Joshua Báez ",
+        "lastPlayByPlay": "M. De la Cruz Out: Elevado al Jardinero Central",
+        "atBat": null,
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -14970,7 +14970,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -19772,11 +19772,11 @@
       "date": "2026-11-17 19:15:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Ramon Laureano Base por Bolas ",
+      "lastPlayByPlay": "M. De la Cruz Out: Elevado al Jardinero Central",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20905,10 +20905,17 @@
             },
             {
               "reference_id": "20553-2-86",
-              "text": "Joshua Báez  al bate",
+              "text": "Socrates Brito Ponche (K) Robo de Base - Segunda Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794971455
+              "ts": 1794971629
+            },
+            {
+              "reference_id": "20553-2-87",
+              "text": "M. De la Cruz Out: Elevado al Jardinero Central",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794971679
             }
           ]
         }
@@ -21023,7 +21030,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -22683,20 +22690,20 @@
       "currentInningNum": 11,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -23944,6 +23951,20 @@
               "ts": 1794971477
             }
           ]
+        },
+        {
+          "num": 11,
+          "half": "top",
+          "label": "Alta 11ra",
+          "plays": [
+            {
+              "reference_id": "21413-1-95",
+              "text": "Luis Liberato al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794971649
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -24086,6 +24107,13 @@
           "label": "Baja 10ma",
           "total_plays": 7,
           "scoring_plays": 1
+        },
+        {
+          "num": 11,
+          "half": "top",
+          "label": "Alta 11ra",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
