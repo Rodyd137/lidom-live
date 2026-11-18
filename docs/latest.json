@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T02:44:12.240Z",
+    "scraped_at": "2026-11-18T02:45:17.189Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-17 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "M. Hernandez Out: Elevado al Campo Corto",
-        "atBat": "Junior Lake",
+        "lastPlayByPlay": "Junior Lake Ponche (K) ",
+        "atBat": "Jonathan Guzman",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -627,8 +627,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 1,
+        "balls": 1,
+        "outs": 2,
         "strikes": 2
       },
       {
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-17 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Oscar Gonzalez",
+        "lastPlayByPlay": "Oscar Gonzalez Out: Elevado al Segunda Base",
+        "atBat": "Rodolfo Castro",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,8 +689,8 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -14924,8 +14924,8 @@
         "status": 2,
         "date": "2026-11-17 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "M. Hernandez Out: Elevado al Campo Corto",
-        "atBat": "Junior Lake",
+        "lastPlayByPlay": "Junior Lake Ponche (K) ",
+        "atBat": "Jonathan Guzman",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -14969,8 +14969,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 1,
+        "balls": 1,
+        "outs": 2,
         "strikes": 2
       },
       {
@@ -14985,8 +14985,8 @@
         "status": 2,
         "date": "2026-11-17 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Oscar Gonzalez",
+        "lastPlayByPlay": "Oscar Gonzalez Out: Elevado al Segunda Base",
+        "atBat": "Rodolfo Castro",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15031,8 +15031,8 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "2026-11-18": [
@@ -19772,11 +19772,11 @@
       "date": "2026-11-17 19:15:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "M. Hernandez Out: Elevado al Campo Corto",
+      "lastPlayByPlay": "Junior Lake Ponche (K) ",
       "counts": {
-        "balls": 0,
+        "balls": 1,
         "strikes": 2,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20821,10 +20821,17 @@
             },
             {
               "reference_id": "20552-2-75",
-              "text": "Junior Lake al bate",
+              "text": "Junior Lake Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794969839
+              "ts": 1794969859
+            },
+            {
+              "reference_id": "20552-2-76",
+              "text": "Jonathan Guzman al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794969891
             }
           ]
         }
@@ -20925,7 +20932,7 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21115,11 +21122,11 @@
       "date": "2026-11-17 19:30:00",
       "roundText": "Baja 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Oscar Gonzalez Out: Elevado al Segunda Base",
       "counts": {
         "balls": 1,
-        "strikes": 2,
-        "outs": 0
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -22143,10 +22150,17 @@
           "plays": [
             {
               "reference_id": "20563-2-68",
-              "text": "Oscar Gonzalez al bate",
+              "text": "Oscar Gonzalez Out: Elevado al Segunda Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794969752
+              "ts": 1794969882
+            },
+            {
+              "reference_id": "20563-2-69",
+              "text": "Rodolfo Castro al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794969886
             }
           ]
         }
@@ -22275,7 +22289,7 @@
           "num": 9,
           "half": "bottom",
           "label": "Baja 9na",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
