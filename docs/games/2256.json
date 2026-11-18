@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2256",
-    "scraped_at": "2026-11-18T00:18:00.114Z",
+    "scraped_at": "2026-11-18T00:19:05.006Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-11-17 19:15:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Yamaico Navarro Base por Bolas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -626,10 +626,17 @@
         "plays": [
           {
             "reference_id": "20548-2-24",
-            "text": "Marmolejos al bate",
+            "text": "Marmolejos Out: Elevado al Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1794960971
+            "ts": 1794961079
+          },
+          {
+            "reference_id": "20548-2-25",
+            "text": "Yamaico Navarro Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794961126
           }
         ]
       }
@@ -674,7 +681,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -781,7 +788,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 6,
-          "hits": 7,
+          "hits": 8,
           "errors": 1,
           "permalink": "/equipo/aguilas-cibaenas"
         },
