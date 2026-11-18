@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T00:38:29.775Z",
+    "scraped_at": "2026-11-18T00:39:34.802Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-17 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "Raynel Delgado Out: Elevado al Jardinero Central",
-        "atBat": "Ryan Ritter",
+        "lastPlayByPlay": "Ryan Ritter Ponche (K) ",
+        "atBat": "Mason Mccoy",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2256,
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-17 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Bryan de la Cruz Doble! Jardinero Derecho ",
-        "atBat": "Jesús Sanchez ",
+        "lastPlayByPlay": "Jesús Sanchez  Out: Elevado al Jardinero Izquierdo",
+        "atBat": "Felix Reyes",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -655,7 +655,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -14863,8 +14866,8 @@
         "status": 2,
         "date": "2026-11-17 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "Raynel Delgado Out: Elevado al Jardinero Central",
-        "atBat": "Ryan Ritter",
+        "lastPlayByPlay": "Ryan Ritter Ponche (K) ",
+        "atBat": "Mason Mccoy",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14908,9 +14911,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2256,
@@ -14925,7 +14928,7 @@
         "date": "2026-11-17 19:15:00",
         "part": 1,
         "lastPlayByPlay": "Jesús Sanchez  Out: Elevado al Jardinero Izquierdo",
-        "atBat": null,
+        "atBat": "Felix Reyes",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -14997,7 +15000,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -20449,7 +20455,14 @@
               "text": "Jesús Sanchez  Out: Elevado al Jardinero Izquierdo",
               "scored": false,
               "is_primary": true,
-              "ts": 1794962309
+              "ts": 1794962329
+            },
+            {
+              "reference_id": "20549-1-33",
+              "text": "Felix Reyes al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794962356
             }
           ]
         }
@@ -20501,7 +20514,7 @@
           "num": 4,
           "half": "top",
           "label": "Alta 4ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21565,11 +21578,11 @@
       "date": "2026-11-17 19:00:00",
       "roundText": "Alta 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Raynel Delgado Out: Elevado al Jardinero Central",
+      "lastPlayByPlay": "Ryan Ritter Ponche (K) ",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
-        "outs": 1
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22334,10 +22347,17 @@
             },
             {
               "reference_id": "20568-1-42",
-              "text": "Ryan Ritter al bate",
+              "text": "Ryan Ritter Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794962190
+              "ts": 1794962355
+            },
+            {
+              "reference_id": "20568-1-43",
+              "text": "Mason Mccoy al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794962360
             }
           ]
         }
@@ -22403,7 +22423,7 @@
           "num": 5,
           "half": "top",
           "label": "Alta 5ta",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
