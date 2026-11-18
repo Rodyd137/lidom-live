@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T01:43:26.086Z",
+    "scraped_at": "2026-11-18T01:44:30.793Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-17 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Marcell Ozuna ",
+        "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
+        "atBat": "Nomar Mazara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2256,
@@ -642,12 +642,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-11-17 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Gustavo Nuñez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -685,8 +685,8 @@
           "runs": 1,
           "runs_half": 1,
           "errors": 1,
-          "hits": 2,
-          "pitcher": "Geronimo Franzua",
+          "hits": 3,
+          "pitcher": "Domingo Tapia",
           "era": "",
           "debut": 0,
           "record": ""
@@ -14862,12 +14862,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-17 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Marcell Ozuna ",
+        "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
+        "atBat": "Nomar Mazara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14911,9 +14911,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2256,
@@ -14987,11 +14987,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-11-17 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Gustavo Nuñez Doble! Jardinero Central",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -15030,8 +15030,8 @@
           "runs": 1,
           "runs_half": 1,
           "errors": 1,
-          "hits": 2,
-          "pitcher": "Geronimo Franzua",
+          "hits": 3,
+          "pitcher": "Domingo Tapia",
           "era": "",
           "debut": 0,
           "record": ""
@@ -20819,7 +20819,7 @@
             "abbr": "EO",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
             "runs": 1,
-            "hits": 2,
+            "hits": 3,
             "errors": 1,
             "permalink": "/equipo/estrellas-orientales"
           }
@@ -20918,7 +20918,7 @@
       "date": "2026-11-17 19:30:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Gustavo Nuñez Doble! Jardinero Central",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -20926,14 +20926,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -21082,12 +21082,12 @@
           "permalink": "/equipo/estrellas-orientales",
           "totals": {
             "R": 1,
-            "H": 2,
+            "H": 3,
             "E": 1,
             "H2": 1
           },
           "probables": {
-            "pitcher": "Geronimo Franzua",
+            "pitcher": "Domingo Tapia",
             "era": "",
             "record": "",
             "debut": false
@@ -21253,7 +21253,7 @@
           },
           "home": {
             "R": 1,
-            "H": 2,
+            "H": 3,
             "E": 1
           }
         },
@@ -21735,6 +21735,27 @@
               "ts": 1794966004
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "top",
+          "label": "Alta 7ma",
+          "plays": [
+            {
+              "reference_id": "20561-1-45",
+              "text": "Gustavo Nuñez Doble! Jardinero Central",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794966269
+            },
+            {
+              "reference_id": "20561-1-46",
+              "text": "Miguel Andujar al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794966271
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21820,6 +21841,13 @@
           "half": "bottom",
           "label": "Baja 6ta",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 7,
+          "half": "top",
+          "label": "Alta 7ma",
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -22009,22 +22037,22 @@
       "date": "2026-11-17 19:00:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
       "counts": {
-        "balls": 3,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -22974,10 +23002,17 @@
           "plays": [
             {
               "reference_id": "20570-2-65",
-              "text": "Marcell Ozuna  al bate",
+              "text": "Marcell Ozuna  Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794966132
+              "ts": 1794966246
+            },
+            {
+              "reference_id": "20570-2-66",
+              "text": "Nomar Mazara al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794966250
             }
           ]
         }
@@ -23078,7 +23113,7 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -23195,7 +23230,7 @@
             "abbr": "EO",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
             "runs": 1,
-            "hits": 2,
+            "hits": 3,
             "errors": 1,
             "permalink": "/equipo/estrellas-orientales"
           }
