@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T01:51:00.597Z",
+    "scraped_at": "2026-11-18T01:52:05.251Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,7 +517,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 2,
         "status": 2,
         "date": "2026-11-17 19:00:00",
         "part": 2,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 1,
-        "strikes": 1
+        "balls": 1,
+        "outs": 2,
+        "strikes": 2
       },
       {
         "id": 2256,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 3,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2257,
@@ -644,7 +644,7 @@
         "date": "2026-11-17 19:30:00",
         "part": 1,
         "lastPlayByPlay": "Domingo Leyba Out: Elevado al Campo Corto",
-        "atBat": null,
+        "atBat": "Oscar Gonzalez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14859,7 +14859,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 2,
         "status": 2,
         "date": "2026-11-17 19:00:00",
         "part": 2,
@@ -14908,9 +14908,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 1,
-        "strikes": 1
+        "balls": 1,
+        "outs": 2,
+        "strikes": 2
       },
       {
         "id": 2256,
@@ -14969,9 +14969,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 3,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2257,
@@ -14986,7 +14986,7 @@
         "date": "2026-11-17 19:30:00",
         "part": 1,
         "lastPlayByPlay": "Domingo Leyba Out: Elevado al Campo Corto",
-        "atBat": null,
+        "atBat": "Oscar Gonzalez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -19774,8 +19774,8 @@
       "currentInningNum": 6,
       "lastPlayByPlay": "Juan Brito se embasa por Error del Segunda Base",
       "counts": {
-        "balls": 1,
-        "strikes": 0,
+        "balls": 3,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -21799,6 +21799,20 @@
               "ts": 1794966612
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "plays": [
+            {
+              "reference_id": "20561-2-48",
+              "text": "Oscar Gonzalez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794966683
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21891,6 +21905,13 @@
           "half": "top",
           "label": "Alta 7ma",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -22082,20 +22103,20 @@
       "currentInningNum": 7,
       "lastPlayByPlay": "Agustin Ramirez Ponche (K) ",
       "counts": {
-        "balls": 0,
-        "strikes": 1,
-        "outs": 1
+        "balls": 1,
+        "strikes": 2,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 5
+        "base": 2
       },
       "base_runners": {
         "on1B": true,
-        "on2B": true,
+        "on2B": false,
         "on3B": false,
-        "runners": 2,
-        "mask": 5
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -22271,17 +22292,6 @@
               "team_id": 5,
               "name": "Noelvi Marte ",
               "abbreviation": "N. Marte",
-              "number": null,
-              "dob": null,
-              "height": "",
-              "image": null,
-              "position": ""
-            },
-            {
-              "id": 5991,
-              "team_id": 5,
-              "name": "Marcell Ozuna ",
-              "abbreviation": "M. Ozuna",
               "number": null,
               "dob": null,
               "height": "",
