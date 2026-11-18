@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2258",
-    "scraped_at": "2026-11-18T02:43:09.678Z",
+    "scraped_at": "2026-11-18T02:44:15.145Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,20 +13,20 @@
     "currentInningNum": 10,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -1170,6 +1170,20 @@
             "ts": 1794969638
           }
         ]
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "plays": [
+          {
+            "reference_id": "21411-1-85",
+            "text": "Raynel Delgado al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794969837
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1297,6 +1311,13 @@
         "half": "bottom",
         "label": "Baja 9na",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 10,
+        "half": "top",
+        "label": "Alta 10ma",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
