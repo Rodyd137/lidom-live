@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T01:01:11.414Z",
+    "scraped_at": "2026-11-18T01:02:16.678Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 7,
+        "base": 8,
         "status": 2,
         "date": "2026-11-17 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Nomar Mazara Base por Bolas ",
-        "atBat": "Agustin Ramirez",
+        "lastPlayByPlay": "Agustin Ramirez Base por Bolas ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -566,7 +569,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 1,
         "strikes": 0
       },
@@ -583,7 +586,7 @@
         "date": "2026-11-17 19:15:00",
         "part": 2,
         "lastPlayByPlay": "Jonathan Guzman Sencillo Jardinero Central",
-        "atBat": null,
+        "atBat": "Marmolejos",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -628,7 +631,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -14863,8 +14866,8 @@
         "status": 2,
         "date": "2026-11-17 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Nomar Mazara Base por Bolas ",
-        "atBat": "Agustin Ramirez",
+        "lastPlayByPlay": "Agustin Ramirez Base por Bolas ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14875,7 +14878,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -14925,7 +14931,7 @@
         "date": "2026-11-17 19:15:00",
         "part": 2,
         "lastPlayByPlay": "Jonathan Guzman Sencillo Jardinero Central",
-        "atBat": null,
+        "atBat": "Marmolejos",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -14970,7 +14976,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -19776,7 +19782,7 @@
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20513,6 +20519,20 @@
               "scored": false,
               "is_primary": true,
               "ts": 1794963648
+            },
+            {
+              "reference_id": "20549-2-41",
+              "text": "Marmolejos al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794963734
+            },
+            {
+              "reference_id": "20549-2-42",
+              "text": "Marmolejos Out: Elevado al Jardinero Izquierdo",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794963735
             }
           ]
         }
@@ -20571,7 +20591,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 2,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -21698,7 +21718,7 @@
       "date": "2026-11-17 19:00:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Nomar Mazara Base por Bolas ",
+      "lastPlayByPlay": "Agustin Ramirez Base por Bolas ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -22530,10 +22550,10 @@
             },
             {
               "reference_id": "20568-2-50",
-              "text": "Agustin Ramirez al bate",
+              "text": "Agustin Ramirez Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794963527
+              "ts": 1794963685
             }
           ]
         }
