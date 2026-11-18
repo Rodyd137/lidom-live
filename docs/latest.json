@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T02:24:38.473Z",
+    "scraped_at": "2026-11-18T02:25:43.640Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,19 +639,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 1,
         "status": 2,
         "date": "2026-11-17 19:30:00",
-        "part": 2,
-        "lastPlayByPlay": "Marco Luciano   Out: Rodado al Campo Corto - Segunda Base - Primera Base - Doble Play!",
+        "part": 1,
+        "lastPlayByPlay": "Ward Ponche (K) ",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 8va",
-        "currentInningNum": 8,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 9na",
+        "currentInningNum": 9,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -14981,19 +14981,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 1,
         "status": 2,
         "date": "2026-11-17 19:30:00",
-        "part": 2,
-        "lastPlayByPlay": "Marco Luciano   Out: Rodado al Campo Corto - Segunda Base - Primera Base - Doble Play!",
+        "part": 1,
+        "lastPlayByPlay": "Ward Ponche (K) ",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 8va",
-        "currentInningNum": 8,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 9na",
+        "currentInningNum": 9,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -15031,7 +15031,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -20894,7 +20894,7 @@
           "id": 2257,
           "date": "2026-11-17 19:30:00",
           "status": 2,
-          "roundText": "Baja 8va",
+          "roundText": "Alta 9na",
           "awayTeam": {
             "id": 1,
             "name": "Tigres",
@@ -21008,24 +21008,24 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-17 19:30:00",
-      "roundText": "Baja 8va",
-      "currentInningNum": 8,
-      "lastPlayByPlay": "Marco Luciano   Out: Rodado al Campo Corto - Segunda Base - Primera Base - Doble Play!",
+      "roundText": "Alta 9na",
+      "currentInningNum": 9,
+      "lastPlayByPlay": "Ward Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
-        "battingTeam": "homeTeam",
-        "base": 5
+        "battingTeam": "awayTeam",
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": true,
+        "on1B": false,
+        "on2B": false,
         "on3B": false,
-        "runners": 2,
-        "mask": 5
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -21958,6 +21958,27 @@
               "scored": false,
               "is_primary": true,
               "ts": 1794968618
+            },
+            {
+              "reference_id": "20562-2-60",
+              "text": "Robinson Cano Out: Elevado al Jardinero Derecho ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794968691
+            }
+          ]
+        },
+        {
+          "num": 9,
+          "half": "top",
+          "label": "Alta 9na",
+          "plays": [
+            {
+              "reference_id": "20563-1-61",
+              "text": "Ward Ponche (K) ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794968738
             }
           ]
         }
@@ -22072,7 +22093,14 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 3,
+          "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 9,
+          "half": "top",
+          "label": "Alta 9na",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -22129,14 +22157,14 @@
         {
           "num": 8,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
         {
           "num": 9,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         }
@@ -23557,7 +23585,7 @@
           "id": 2257,
           "date": "2026-11-17 19:30:00",
           "status": 2,
-          "roundText": "Baja 8va",
+          "roundText": "Alta 9na",
           "awayTeam": {
             "id": 1,
             "name": "Tigres",
