@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2257",
-    "scraped_at": "2026-11-18T00:25:34.336Z",
+    "scraped_at": "2026-11-18T00:26:39.205Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-11-17 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Rodolfo Castro Ponche (K) ",
+    "lastPlayByPlay": "Miguel Bleis Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -268,6 +268,17 @@
             "team_id": 7,
             "name": "Leonardo Bernal ",
             "abbreviation": "L. Bernal",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6211,
+            "team_id": 7,
+            "name": "Miguel Bleis",
+            "abbreviation": "Miguel Bleis",
             "number": null,
             "dob": null,
             "height": "",
@@ -580,10 +591,24 @@
           },
           {
             "reference_id": "20557-2-18",
-            "text": "Leonardo Bernal  al bate",
+            "text": "Leonardo Bernal  Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1794961368
+            "ts": 1794961534
+          },
+          {
+            "reference_id": "20557-2-19",
+            "text": "Miguel Bleis Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794961561
+          },
+          {
+            "reference_id": "20557-2-20",
+            "text": "Jorge Mateo al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794961565
           }
         ]
       }
@@ -628,7 +653,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 2,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
