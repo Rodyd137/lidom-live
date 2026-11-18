@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2257",
-    "scraped_at": "2026-11-18T01:08:50.611Z",
+    "scraped_at": "2026-11-18T01:09:55.644Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-17 19:30:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Mel Rojas Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 2
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -724,10 +724,24 @@
           },
           {
             "reference_id": "20559-1-33",
-            "text": "A. Cordero al bate",
+            "text": "A. Cordero Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1794964097
+            "ts": 1794964134
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "20559-2-34",
+            "text": "Rodolfo Castro al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794964160
           }
         ]
       }
@@ -795,6 +809,13 @@
         "label": "Alta 5ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -828,7 +849,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
