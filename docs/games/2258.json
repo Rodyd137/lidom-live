@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2258",
-    "scraped_at": "2026-11-18T01:59:43.281Z",
+    "scraped_at": "2026-11-18T02:00:48.708Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,10 +11,10 @@
     "date": "2026-11-17 19:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Mason Mccoy Sencillo ",
+    "lastPlayByPlay": "Leody Taveras Cuadrangular! ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 6,
-          "H": 13,
+          "R": 7,
+          "H": 14,
           "E": 1,
           "H2": 6
         },
@@ -328,7 +328,7 @@
         },
         {
           "num": 8,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 6,
-          "H": 13,
+          "R": 7,
+          "H": 14,
           "E": 1
         },
         "home": {
@@ -382,11 +382,11 @@
           },
           {
             "num": 8,
-            "R": 6
+            "R": 7
           },
           {
             "num": 9,
-            "R": 6
+            "R": 7
           }
         ],
         "home": [
@@ -1024,11 +1024,25 @@
             "ts": 1794967002
           },
           {
+            "reference_id": "20571-1-69-298875",
+            "text": "Mason Mccoy Out Robando Base! ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1794967183
+          },
+          {
             "reference_id": "20571-1-70",
-            "text": "Leody Taveras al bate",
+            "text": "Leody Taveras Cuadrangular! ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1794967227
+          },
+          {
+            "reference_id": "20571-1-71",
+            "text": "Luis Liberato al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1794967005
+            "ts": 1794967238
           }
         ]
       }
@@ -1136,8 +1150,8 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 2,
-        "scoring_plays": 0
+        "total_plays": 4,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1194,7 +1208,7 @@
         "num": 8,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
@@ -1216,8 +1230,8 @@
           "name": "Toros",
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
-          "runs": 5,
-          "hits": 5,
+          "runs": 6,
+          "hits": 6,
           "errors": 1,
           "permalink": "/equipo/toros-del-este"
         },
@@ -1253,7 +1267,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 1,
-          "hits": 3,
+          "hits": 4,
           "errors": 1,
           "permalink": "/equipo/estrellas-orientales"
         }
