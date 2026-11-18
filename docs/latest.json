@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T23:35:27.085Z",
+    "scraped_at": "2026-11-18T23:36:32.867Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-11-18 19:00:00",
         "part": 1,
         "lastPlayByPlay": "Edgar Quero  Out: Rodado al Campo Corto - Primera Base",
-        "atBat": null,
+        "atBat": "Rodolfo Castro",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Vidal Brujan",
+        "lastPlayByPlay": "Vidal Brujan Out: Elevado al Jardinero Central",
+        "atBat": "Jonathan Guzman",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2260,
@@ -14987,8 +14987,8 @@
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Vidal Brujan",
+        "lastPlayByPlay": "Vidal Brujan Out: Elevado al Jardinero Central",
+        "atBat": "Jonathan Guzman",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15032,9 +15032,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2260,
@@ -20450,7 +20450,30 @@
             "record": "",
             "debut": false
           },
-          "players": []
+          "players": [
+            {
+              "id": 6312,
+              "team_id": 3,
+              "name": "Leody Taveras",
+              "abbreviation": "L. Taveras",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6269,
+              "team_id": 3,
+              "name": "Jasson Dominguez",
+              "abbreviation": "J. Dominguez",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            }
+          ]
         },
         "home": {
           "id": 1,
@@ -20803,11 +20826,11 @@
       "date": "2026-11-18 19:30:00",
       "roundText": "Alta 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Vidal Brujan Out: Elevado al Jardinero Central",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21229,10 +21252,17 @@
           "plays": [
             {
               "reference_id": "20591-1-1",
-              "text": "Vidal Brujan al bate",
+              "text": "Vidal Brujan Out: Elevado al Jardinero Central",
               "scored": false,
               "is_primary": true,
-              "ts": 1795044900
+              "ts": 1795044937
+            },
+            {
+              "reference_id": "20591-1-2",
+              "text": "Jonathan Guzman al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795044939
             }
           ]
         }
@@ -21242,7 +21272,7 @@
           "num": 1,
           "half": "top",
           "label": "Alta 1ra",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
