@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T02:04:01.026Z",
+    "scraped_at": "2026-11-18T02:05:06.224Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-11-17 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Gilberto Celestino  Sencillo y 1 Carrera Impulsada ",
-        "atBat": "Ronny Simon",
+        "lastPlayByPlay": "Ronny Simon Base por Bolas ",
+        "atBat": "Bryan de la Cruz",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -627,9 +630,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 2,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2257,
@@ -643,8 +646,8 @@
         "status": 2,
         "date": "2026-11-17 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Leonardo Bernal  Base por Bolas Intencional ",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Josh Lester  Ponche (K) ",
+        "atBat": "Jorge Mateo",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,8 +692,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 2
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -14920,12 +14923,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-11-17 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Gilberto Celestino  Sencillo y 1 Carrera Impulsada ",
-        "atBat": "Ronny Simon",
+        "lastPlayByPlay": "Ronny Simon Base por Bolas ",
+        "atBat": "Bryan de la Cruz",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -14936,7 +14939,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -14969,9 +14975,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 2,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2257,
@@ -14985,8 +14991,8 @@
         "status": 2,
         "date": "2026-11-17 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Leonardo Bernal  Base por Bolas Intencional ",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Josh Lester  Ponche (K) ",
+        "atBat": "Jorge Mateo",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15031,8 +15037,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 2
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "2026-11-18": [
@@ -19772,22 +19778,22 @@
       "date": "2026-11-17 19:15:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Gilberto Celestino  Sencillo y 1 Carrera Impulsada ",
+      "lastPlayByPlay": "Ronny Simon Base por Bolas ",
       "counts": {
-        "balls": 3,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 3
+        "base": 5
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -20709,10 +20715,17 @@
             },
             {
               "reference_id": "20551-1-62",
-              "text": "Ronny Simon al bate",
+              "text": "Ronny Simon Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794967304
+              "ts": 1794967485
+            },
+            {
+              "reference_id": "20551-1-63",
+              "text": "Bryan de la Cruz al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794967492
             }
           ]
         }
@@ -20792,7 +20805,7 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 6,
+          "total_plays": 7,
           "scoring_plays": 2
         }
       ],
@@ -20982,11 +20995,11 @@
       "date": "2026-11-17 19:30:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Leonardo Bernal  Base por Bolas Intencional ",
+      "lastPlayByPlay": "Josh Lester  Ponche (K) ",
       "counts": {
         "balls": 0,
-        "strikes": 2,
-        "outs": 1
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21856,10 +21869,17 @@
             },
             {
               "reference_id": "20561-2-52",
-              "text": "Josh Lester  al bate",
+              "text": "Josh Lester  Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794967278
+              "ts": 1794967444
+            },
+            {
+              "reference_id": "20561-2-53",
+              "text": "Jorge Mateo al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794967447
             }
           ]
         }
@@ -21960,7 +21980,7 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
