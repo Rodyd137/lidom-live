@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2258",
-    "scraped_at": "2026-11-18T03:05:02.041Z",
+    "scraped_at": "2026-11-18T03:07:15.792Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-17 19:00:00",
     "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Pablo Reyes Ponche (K) ",
+    "lastPlayByPlay": "Hendry Mendez al bate",
     "counts": {
       "balls": 2,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 6
+      "base": 8
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": true,
-      "runners": 2,
-      "mask": 6
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -187,10 +187,10 @@
         },
         "players": [
           {
-            "id": 5989,
+            "id": 5993,
             "team_id": 5,
-            "name": "Carlos Jorge ",
-            "abbreviation": "C. Jorge",
+            "name": "Hendry Mendez",
+            "abbreviation": "H. Mendez",
             "number": null,
             "dob": null,
             "height": "",
@@ -1226,11 +1226,25 @@
             "ts": 1794970916
           },
           {
+            "reference_id": "21411-2-90-299024",
+            "text": "Roly Brito Robo de Base ",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1794971128
+          },
+          {
             "reference_id": "21411-2-91",
-            "text": "Carlos Peguero al bate",
+            "text": "Carlos Peguero Base por Bolas Intencional ",
             "scored": false,
             "is_primary": true,
-            "ts": 1794970926
+            "ts": 1794971173
+          },
+          {
+            "reference_id": "21411-2-92",
+            "text": "Hendry Mendez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794971212
           }
         ]
       }
@@ -1373,7 +1387,7 @@
         "num": 10,
         "half": "bottom",
         "label": "Baja 10ma",
-        "total_plays": 3,
+        "total_plays": 5,
         "scoring_plays": 0
       }
     ],
@@ -1480,7 +1494,7 @@
         "id": 2257,
         "date": "2026-11-17 19:30:00",
         "status": 2,
-        "roundText": "Alta 10ma",
+        "roundText": "Baja 10ma",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
