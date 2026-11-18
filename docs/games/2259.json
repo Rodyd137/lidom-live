@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2259",
-    "scraped_at": "2026-11-18T23:58:29.438Z",
+    "scraped_at": "2026-11-18T23:59:35.172Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-11-18 19:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ferreras  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
-      "strikes": 1,
-      "outs": 0
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -626,10 +626,17 @@
         "plays": [
           {
             "reference_id": "20575-2-23",
-            "text": "Ferreras al bate",
+            "text": "Ferreras  Out: Rodado al Campo Corto - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1795046188
+            "ts": 1795046365
+          },
+          {
+            "reference_id": "20575-2-24",
+            "text": "Carlos Jorge  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795046367
           }
         ]
       }
@@ -674,7 +681,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -748,7 +755,7 @@
         "id": 2260,
         "date": "2026-11-18 19:30:00",
         "status": 2,
-        "roundText": "Alta 2da",
+        "roundText": "Baja 2da",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -791,7 +798,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 0,
-          "hits": 0,
+          "hits": 1,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         }
