@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T23:42:00.432Z",
+    "scraped_at": "2026-11-18T23:43:06.391Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -583,7 +583,7 @@
         "date": "2026-11-18 19:30:00",
         "part": 1,
         "lastPlayByPlay": "Jasson Dominguez  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": null,
+        "atBat": "Adael Amador",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2261,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Gilberto Celestino ",
+        "lastPlayByPlay": "Gilberto Celestino   Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Ronny Simon",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,8 +688,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
+        "balls": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -14988,7 +14988,7 @@
         "date": "2026-11-18 19:30:00",
         "part": 1,
         "lastPlayByPlay": "Jasson Dominguez  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": null,
+        "atBat": "Adael Amador",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15032,9 +15032,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2261,
@@ -15048,8 +15048,8 @@
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Gilberto Celestino ",
+        "lastPlayByPlay": "Gilberto Celestino   Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Ronny Simon",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15093,8 +15093,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
+        "balls": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -20413,8 +20413,8 @@
       "currentInningNum": 1,
       "lastPlayByPlay": "Jasson Dominguez  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 2,
+        "strikes": 1,
         "outs": 2
       },
       "base_state": {
@@ -20481,6 +20481,17 @@
               "team_id": 3,
               "name": "Jasson Dominguez",
               "abbreviation": "J. Dominguez",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6270,
+              "team_id": 3,
+              "name": "Adael Amador",
+              "abbreviation": "A. Amador",
               "number": null,
               "dob": null,
               "height": "",
@@ -20671,6 +20682,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1795045301
+            },
+            {
+              "reference_id": "20582-1-3",
+              "text": "Adael Amador al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795045377
             }
           ]
         }
@@ -20680,7 +20698,7 @@
           "num": 1,
           "half": "top",
           "label": "Alta 1ra",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -20870,11 +20888,11 @@
       "date": "2026-11-18 19:30:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Gilberto Celestino   Out: Rodado al Segunda Base - Primera Base",
       "counts": {
-        "balls": 2,
+        "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21324,10 +21342,17 @@
           "plays": [
             {
               "reference_id": "20591-2-4",
-              "text": "Gilberto Celestino  al bate",
+              "text": "Gilberto Celestino   Out: Rodado al Segunda Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1795045291
+              "ts": 1795045381
+            },
+            {
+              "reference_id": "20591-2-5",
+              "text": "Ronny Simon al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795045383
             }
           ]
         }
@@ -21344,7 +21369,7 @@
           "num": 1,
           "half": "bottom",
           "label": "Baja 1ra",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
