@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2258",
-    "scraped_at": "2026-11-18T03:23:19.699Z",
+    "scraped_at": "2026-11-18T03:24:23.915Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-17 19:00:00",
     "roundText": "Baja 11ra",
     "currentInningNum": 11,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Yonatan Henriquez Sencillo ",
     "counts": {
       "balls": 0,
-      "strikes": 1,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 6
     },
     "base_runners": {
-      "on1B": false,
-      "on2B": true,
-      "on3B": false,
-      "runners": 1,
-      "mask": 3
+      "on1B": true,
+      "on2B": false,
+      "on3B": true,
+      "runners": 2,
+      "mask": 6
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/gigantes-del-cibao",
         "totals": {
           "R": 8,
-          "H": 11,
+          "H": 12,
           "E": 1,
           "H2": 6
         },
@@ -220,10 +220,10 @@
             "position": ""
           },
           {
-            "id": 6131,
+            "id": 6181,
             "team_id": 5,
-            "name": "Nomar Mazara",
-            "abbreviation": "N. Mazara",
+            "name": "Yonatan Henriquez",
+            "abbreviation": "Y. Henriquez",
             "number": null,
             "dob": null,
             "height": "",
@@ -356,7 +356,7 @@
         },
         "home": {
           "R": 8,
-          "H": 11,
+          "H": 12,
           "E": 1
         }
       },
@@ -1302,6 +1302,20 @@
             "ts": 1794972002
           }
         ]
+      },
+      {
+        "num": 11,
+        "half": "bottom",
+        "label": "Baja 11ra",
+        "plays": [
+          {
+            "reference_id": "21413-2-98",
+            "text": "Yonatan Henriquez Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794972245
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1450,6 +1464,13 @@
         "half": "top",
         "label": "Alta 11ra",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 11,
+        "half": "bottom",
+        "label": "Baja 11ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
