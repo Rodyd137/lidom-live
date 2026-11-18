@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T01:20:42.248Z",
+    "scraped_at": "2026-11-18T01:21:47.107Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-11-17 19:00:00",
         "part": 1,
         "lastPlayByPlay": "Jasson Dominguez Sencillo ",
-        "atBat": null,
+        "atBat": "Adael Amador",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -568,7 +568,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2256,
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-17 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Ronny Simon",
+        "lastPlayByPlay": "Ronny Simon Base por Bolas ",
+        "atBat": "Bryan de la Cruz",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -629,7 +629,7 @@
         },
         "balls": 3,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2257,
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 7,
+        "base": 1,
         "status": 2,
         "date": "2026-11-17 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Jorge Mateo se embasa por Error del Campo Corto - Robo de Base - Segunda Base",
-        "atBat": "David Villar",
+        "lastPlayByPlay": "David Villar Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,8 +689,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
-        "strikes": 1
+        "outs": 3,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -14910,7 +14910,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2256,
@@ -14920,12 +14920,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-17 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Ronny Simon",
+        "lastPlayByPlay": "Ronny Simon Base por Bolas ",
+        "atBat": "Bryan de la Cruz",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -14971,7 +14971,7 @@
         },
         "balls": 3,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2257,
@@ -14981,12 +14981,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 7,
+        "base": 1,
         "status": 2,
         "date": "2026-11-17 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Jorge Mateo se embasa por Error del Campo Corto - Robo de Base - Segunda Base",
-        "atBat": "David Villar",
+        "lastPlayByPlay": "David Villar Ponche (K) ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15031,8 +15031,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
-        "strikes": 1
+        "outs": 3,
+        "strikes": 0
       }
     ],
     "2026-11-18": [
@@ -19772,22 +19772,22 @@
       "date": "2026-11-17 19:15:00",
       "roundText": "Alta 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Ronny Simon Base por Bolas ",
       "counts": {
         "balls": 3,
-        "strikes": 1,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20558,10 +20558,17 @@
           "plays": [
             {
               "reference_id": "20550-1-46",
-              "text": "Ronny Simon al bate",
+              "text": "Ronny Simon Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794964533
+              "ts": 1794964897
+            },
+            {
+              "reference_id": "20550-1-47",
+              "text": "Bryan de la Cruz al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794964900
             }
           ]
         }
@@ -20627,7 +20634,7 @@
           "num": 5,
           "half": "top",
           "label": "Alta 5ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -20817,22 +20824,22 @@
       "date": "2026-11-17 19:30:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Jorge Mateo se embasa por Error del Campo Corto - Robo de Base - Segunda Base",
+      "lastPlayByPlay": "David Villar Ponche (K) ",
       "counts": {
         "balls": 0,
-        "strikes": 1,
-        "outs": 2
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 7
+        "base": 1
       },
       "base_runners": {
         "on1B": false,
-        "on2B": true,
-        "on3B": true,
-        "runners": 2,
-        "mask": 7
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -21572,10 +21579,10 @@
             },
             {
               "reference_id": "20559-2-38",
-              "text": "David Villar al bate",
+              "text": "David Villar Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794964712
+              "ts": 1794964872
             }
           ]
         }
@@ -21841,7 +21848,7 @@
       "lastPlayByPlay": "Jasson Dominguez Sencillo ",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 2
       },
       "base_state": {
@@ -22723,6 +22730,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1794964816
+            },
+            {
+              "reference_id": "20569-1-57",
+              "text": "Adael Amador al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794964842
             }
           ]
         }
@@ -22802,7 +22816,7 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
