@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2257",
-    "scraped_at": "2026-11-18T02:42:04.480Z",
+    "scraped_at": "2026-11-18T02:43:09.796Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-17 19:30:00",
-    "roundText": "Alta 9na",
+    "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Bryan Lavastida Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Carlos Vargas",
+          "pitcher": "Wander Suero",
           "era": "",
           "record": "",
           "debut": false
@@ -1031,6 +1031,20 @@
             "ts": 1794969589
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "20563-2-68",
+            "text": "Oscar Gonzalez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794969752
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1152,6 +1166,13 @@
         "label": "Alta 9na",
         "total_plays": 8,
         "scoring_plays": 1
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1213,7 +1234,7 @@
       },
       {
         "num": 9,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
@@ -1224,7 +1245,7 @@
         "id": 2256,
         "date": "2026-11-17 19:15:00",
         "status": 2,
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
