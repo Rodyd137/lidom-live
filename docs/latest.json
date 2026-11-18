@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T23:46:23.101Z",
+    "scraped_at": "2026-11-18T23:47:29.267Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-18 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Roly Brito Out: Elevado al Jardinero Izquierdo",
-        "atBat": "Pablo Reyes",
+        "lastPlayByPlay": "Pablo Reyes Out: Elevado al Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Gustavo Nuñez",
+        "lastPlayByPlay": "Gustavo Nuñez Out: Elevado al Jardinero Central",
+        "atBat": "Y. Encarnación",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,8 +628,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 0
+        "outs": 1,
+        "strikes": 2
       },
       {
         "id": 2261,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Ronny Simon Sencillo Primera Base",
-        "atBat": "Bryan de la Cruz",
+        "lastPlayByPlay": "Bryan de la Cruz Ponche (K) ",
+        "atBat": "Felix Reyes",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,8 +689,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 2
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -14987,8 +14987,8 @@
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Gustavo Nuñez",
+        "lastPlayByPlay": "Gustavo Nuñez Out: Elevado al Jardinero Central",
+        "atBat": "Y. Encarnación",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15033,8 +15033,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 0
+        "outs": 1,
+        "strikes": 2
       },
       {
         "id": 2261,
@@ -15048,8 +15048,8 @@
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Ronny Simon Sencillo Primera Base",
-        "atBat": "Bryan de la Cruz",
+        "lastPlayByPlay": "Bryan de la Cruz Ponche (K) ",
+        "atBat": "Felix Reyes",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15094,8 +15094,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 2
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "2026-11-20": [
@@ -20446,11 +20446,11 @@
       "date": "2026-11-18 19:30:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Gustavo Nuñez Out: Elevado al Jardinero Central",
       "counts": {
         "balls": 0,
-        "strikes": 0,
-        "outs": 0
+        "strikes": 2,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20560,6 +20560,17 @@
               "team_id": 1,
               "name": "Gustavo Nuñez",
               "abbreviation": "Gustavo Nuñez",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6253,
+              "team_id": 1,
+              "name": "Y. Encarnación",
+              "abbreviation": "Y. Encarnación",
               "number": null,
               "dob": null,
               "height": "",
@@ -20746,10 +20757,17 @@
           "plays": [
             {
               "reference_id": "20582-2-4",
-              "text": "Gustavo Nuñez al bate",
+              "text": "Gustavo Nuñez Out: Elevado al Jardinero Central",
               "scored": false,
               "is_primary": true,
-              "ts": 1795045552
+              "ts": 1795045595
+            },
+            {
+              "reference_id": "20582-2-5",
+              "text": "Y. Encarnación al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795045634
             }
           ]
         }
@@ -20766,7 +20784,7 @@
           "num": 1,
           "half": "bottom",
           "label": "Baja 1ra",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -20956,11 +20974,11 @@
       "date": "2026-11-18 19:30:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Ronny Simon Sencillo Primera Base",
+      "lastPlayByPlay": "Bryan de la Cruz Ponche (K) ",
       "counts": {
         "balls": 0,
-        "strikes": 2,
-        "outs": 1
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21424,10 +21442,17 @@
             },
             {
               "reference_id": "20591-2-6",
-              "text": "Bryan de la Cruz al bate",
+              "text": "Bryan de la Cruz Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795045505
+              "ts": 1795045616
+            },
+            {
+              "reference_id": "20591-2-7",
+              "text": "Felix Reyes al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795045620
             }
           ]
         }
@@ -21444,7 +21469,7 @@
           "num": 1,
           "half": "bottom",
           "label": "Baja 1ra",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
