@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T00:08:13.761Z",
+    "scraped_at": "2026-11-18T00:09:18.495Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-17 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Junior Lake Ponche (K) ",
-        "atBat": "Jonathan Guzman",
+        "lastPlayByPlay": "Jonathan Guzman  Out: Rodado al Tercera Base - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 2,
-        "strikes": 1
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2257,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-17 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Mel Rojas",
+        "lastPlayByPlay": "A. Cordero  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Ward",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -14924,8 +14924,8 @@
         "status": 2,
         "date": "2026-11-17 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Junior Lake Ponche (K) ",
-        "atBat": "Jonathan Guzman",
+        "lastPlayByPlay": "Jonathan Guzman  Out: Rodado al Tercera Base - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -14969,9 +14969,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 2,
-        "strikes": 1
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2257,
@@ -14985,8 +14985,8 @@
         "status": 2,
         "date": "2026-11-17 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Mel Rojas",
+        "lastPlayByPlay": "A. Cordero  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Ward",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15030,9 +15030,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "2026-11-18": [
@@ -19772,11 +19772,11 @@
       "date": "2026-11-17 19:15:00",
       "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "Junior Lake Ponche (K) ",
+      "lastPlayByPlay": "Jonathan Guzman  Out: Rodado al Tercera Base - Primera Base",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
-        "outs": 2
+        "balls": 0,
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20352,10 +20352,10 @@
             },
             {
               "reference_id": "20547-2-21",
-              "text": "Jonathan Guzman al bate",
+              "text": "Jonathan Guzman  Out: Rodado al Tercera Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794960438
+              "ts": 1794960518
             }
           ]
         }
@@ -20576,11 +20576,11 @@
       "date": "2026-11-17 19:30:00",
       "roundText": "Alta 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "A. Cordero  Out: Rodado al Campo Corto - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -20701,6 +20701,17 @@
               "team_id": 1,
               "name": "Mel Rojas",
               "abbreviation": "Mel Rojas",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6315,
+              "team_id": 1,
+              "name": "A. Cordero",
+              "abbreviation": "Cordero",
               "number": null,
               "dob": null,
               "height": "",
@@ -21070,10 +21081,24 @@
           "plays": [
             {
               "reference_id": "20557-1-13",
-              "text": "Mel Rojas al bate",
+              "text": "Mel Rojas Out: Elevado al Tercera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794960416
+              "ts": 1794960498
+            },
+            {
+              "reference_id": "20557-1-14",
+              "text": "A. Cordero  Out: Rodado al Campo Corto - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794960542
+            },
+            {
+              "reference_id": "20557-1-15",
+              "text": "Ward al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794960546
             }
           ]
         }
@@ -21111,7 +21136,7 @@
           "num": 3,
           "half": "top",
           "label": "Alta 3ra",
-          "total_plays": 1,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
