@@ -2,13 +2,12 @@
   "source": {
     "mode": "scraper",
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T03:12:37.968Z",
+    "scraped_at": "2026-11-18T03:13:42.059Z",
     "tz": "America/Santo_Domingo"
   },
   "tracked_ids": [
     2258,
-    2256,
-    2257
+    2256
   ],
   "live": [
     {
@@ -48,7 +47,7 @@
         }
       },
       "threat": 22,
-      "updated_at": "2026-11-18T03:12:37.968Z"
+      "updated_at": "2026-11-18T03:13:42.059Z"
     },
     {
       "id": 2256,
@@ -60,14 +59,14 @@
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "battingTeam": "homeTeam",
       "score": {
@@ -86,47 +85,8 @@
           "E": 2
         }
       },
-      "threat": 38,
-      "updated_at": "2026-11-18T03:12:37.968Z"
-    },
-    {
-      "id": 2257,
-      "status": 2,
-      "roundText": "Baja 10ma",
-      "currentInningNum": 10,
-      "atBat": null,
-      "lastPlayByPlay": "Jose Tena Sencillo y 1 Carrera Impulsada ",
-      "counts": {
-        "balls": 0,
-        "strikes": 0,
-        "outs": 1
-      },
-      "base": {
-        "on1B": false,
-        "on2B": false,
-        "on3B": false,
-        "runners": 0,
-        "mask": 1
-      },
-      "battingTeam": "homeTeam",
-      "score": {
-        "away": {
-          "name": "Tigres",
-          "abbr": "TL",
-          "R": 1,
-          "H": 4,
-          "E": 2
-        },
-        "home": {
-          "name": "Estrellas",
-          "abbr": "EO",
-          "R": 2,
-          "H": 6,
-          "E": 1
-        }
-      },
-      "threat": 12,
-      "updated_at": "2026-11-18T03:12:37.968Z"
+      "threat": 31,
+      "updated_at": "2026-11-18T03:13:42.059Z"
     }
   ]
 }
