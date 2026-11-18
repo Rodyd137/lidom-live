@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T02:38:46.393Z",
+    "scraped_at": "2026-11-18T02:39:51.780Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-17 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Nomar Mazara Doble! ",
-        "atBat": "Agustin Ramirez",
+        "lastPlayByPlay": "Agustin Ramirez Ponche (K) ",
+        "atBat": "Deyvinson de los Santos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 8,
+        "base": 1,
         "status": 2,
         "date": "2026-11-17 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "C. Adames Base por Bolas y Carrera Impulsada ",
-        "atBat": "Bryan Lavastida",
+        "lastPlayByPlay": "Bryan Lavastida Out: Elevado al Jardinero Derecho ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       }
     ],
@@ -14863,8 +14863,8 @@
         "status": 2,
         "date": "2026-11-17 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Nomar Mazara Doble! ",
-        "atBat": "Agustin Ramirez",
+        "lastPlayByPlay": "Agustin Ramirez Ponche (K) ",
+        "atBat": "Deyvinson de los Santos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14981,12 +14981,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 8,
+        "base": 1,
         "status": 2,
         "date": "2026-11-17 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "C. Adames Base por Bolas y Carrera Impulsada ",
-        "atBat": "Bryan Lavastida",
+        "lastPlayByPlay": "Bryan Lavastida Out: Elevado al Jardinero Derecho ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15031,7 +15031,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       }
     ],
@@ -21087,22 +21087,22 @@
       "date": "2026-11-17 19:30:00",
       "roundText": "Alta 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "C. Adames Base por Bolas y Carrera Impulsada ",
+      "lastPlayByPlay": "Bryan Lavastida Out: Elevado al Jardinero Derecho ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 8
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": true,
-        "on3B": true,
-        "runners": 3,
-        "mask": 8
+        "on1B": false,
+        "on2B": false,
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -22101,10 +22101,10 @@
             },
             {
               "reference_id": "20563-1-67",
-              "text": "Bryan Lavastida al bate",
+              "text": "Bryan Lavastida Out: Elevado al Jardinero Derecho ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794969502
+              "ts": 1794969589
             }
           ]
         }
@@ -22416,7 +22416,7 @@
       "date": "2026-11-17 19:00:00",
       "roundText": "Baja 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "Nomar Mazara Doble! ",
+      "lastPlayByPlay": "Agustin Ramirez Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -23549,10 +23549,17 @@
             },
             {
               "reference_id": "20572-2-83",
-              "text": "Agustin Ramirez al bate",
+              "text": "Agustin Ramirez Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794969401
+              "ts": 1794969528
+            },
+            {
+              "reference_id": "20572-2-84",
+              "text": "Deyvinson de los Santos al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794969531
             }
           ]
         }
@@ -23681,7 +23688,7 @@
           "num": 9,
           "half": "bottom",
           "label": "Baja 9na",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
