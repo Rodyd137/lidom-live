@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T01:41:15.738Z",
+    "scraped_at": "2026-11-18T01:42:20.939Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-11-17 19:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Marcell Ozuna ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,7 +566,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
         "strikes": 0
       },
@@ -582,7 +582,7 @@
         "status": 2,
         "date": "2026-11-17 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Junior Lake Robo de Base Segunda Base",
+        "lastPlayByPlay": "Jonathan Guzman se embasa por Error del Lanzador - Carrera Empujada",
         "atBat": null,
         "comment": "",
         "winningPitcher": "",
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -14864,7 +14867,7 @@
         "date": "2026-11-17 19:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Marcell Ozuna ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14908,9 +14911,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2256,
@@ -14924,7 +14927,7 @@
         "status": 2,
         "date": "2026-11-17 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Junior Lake Robo de Base Segunda Base",
+        "lastPlayByPlay": "Jonathan Guzman se embasa por Error del Lanzador - Carrera Empujada",
         "atBat": null,
         "comment": "",
         "winningPitcher": "",
@@ -14936,7 +14939,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -19772,7 +19778,7 @@
       "date": "2026-11-17 19:15:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Junior Lake Robo de Base Segunda Base",
+      "lastPlayByPlay": "Jonathan Guzman se embasa por Error del Lanzador - Carrera Empujada",
       "counts": {
         "balls": 1,
         "strikes": 2,
@@ -20638,18 +20644,18 @@
               "ts": 1794965892
             },
             {
-              "reference_id": "20550-2-54",
-              "text": "Jonathan Guzman al bate",
-              "scored": false,
-              "is_primary": true,
-              "ts": 1794965900
-            },
-            {
               "reference_id": "20550-2-53-298836",
               "text": "Junior Lake Robo de Base Segunda Base",
               "scored": false,
               "is_primary": false,
               "ts": 1794966026
+            },
+            {
+              "reference_id": "20550-2-54",
+              "text": "Jonathan Guzman se embasa por Error del Lanzador - Carrera Empujada",
+              "scored": true,
+              "is_primary": true,
+              "ts": 1794966105
             }
           ]
         }
@@ -20723,7 +20729,7 @@
           "half": "bottom",
           "label": "Baja 5ta",
           "total_plays": 7,
-          "scoring_plays": 1
+          "scoring_plays": 2
         }
       ],
       "innings_raw": [
@@ -22005,8 +22011,8 @@
       "currentInningNum": 7,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -22960,6 +22966,20 @@
               "ts": 1794965948
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "plays": [
+            {
+              "reference_id": "20570-2-65",
+              "text": "Marcell Ozuna  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794966132
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23052,6 +23072,13 @@
           "half": "top",
           "label": "Alta 7ma",
           "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
