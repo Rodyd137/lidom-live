@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T02:08:21.375Z",
+    "scraped_at": "2026-11-18T02:09:26.625Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2256,
@@ -594,10 +594,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -625,14 +622,14 @@
           "runs_half": 7,
           "errors": 1,
           "hits": 7,
-          "pitcher": "Reid Vanscoter",
+          "pitcher": "Brian McKenna",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2257,
@@ -646,8 +643,8 @@
         "status": 2,
         "date": "2026-11-17 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Bryan Lavastida  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Mel Rojas",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -692,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -14911,9 +14908,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2256,
@@ -14939,10 +14936,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -14970,14 +14964,14 @@
           "runs_half": 7,
           "errors": 1,
           "hits": 7,
-          "pitcher": "Reid Vanscoter",
+          "pitcher": "Brian McKenna",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2257,
@@ -14991,8 +14985,8 @@
         "status": 2,
         "date": "2026-11-17 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Bryan Lavastida  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Mel Rojas",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15037,7 +15031,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -19780,8 +19774,8 @@
       "currentInningNum": 6,
       "lastPlayByPlay": "Ronny Simon Base por Bolas ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 2,
         "outs": 2
       },
       "base_state": {
@@ -19947,7 +19941,7 @@
             "H2": 7
           },
           "probables": {
-            "pitcher": "Reid Vanscoter",
+            "pitcher": "Brian McKenna",
             "era": "",
             "record": "",
             "debut": false
@@ -20995,11 +20989,11 @@
       "date": "2026-11-17 19:30:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Bryan Lavastida  Out: Rodado al Campo Corto - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21889,6 +21883,27 @@
               "ts": 1794967550
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "plays": [
+            {
+              "reference_id": "20562-1-54",
+              "text": "Bryan Lavastida  Out: Rodado al Campo Corto - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794967758
+            },
+            {
+              "reference_id": "20562-1-55",
+              "text": "Mel Rojas al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794967762
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21988,6 +22003,13 @@
           "half": "bottom",
           "label": "Baja 7ma",
           "total_plays": 6,
+          "scoring_plays": 0
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -22179,8 +22201,8 @@
       "currentInningNum": 8,
       "lastPlayByPlay": "Pablo Reyes Ponche (K) ",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 2
       },
       "base_state": {
