@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2258",
-    "scraped_at": "2026-11-18T01:25:02.879Z",
+    "scraped_at": "2026-11-18T01:26:07.748Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-11-17 19:00:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ferreras Out: Elevado al Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -905,6 +905,27 @@
             "ts": 1794964926
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "plays": [
+          {
+            "reference_id": "20569-2-58",
+            "text": "Ferreras Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794965125
+          },
+          {
+            "reference_id": "20569-2-59",
+            "text": "Carlos Jorge  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794965127
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -983,6 +1004,13 @@
         "half": "top",
         "label": "Alta 6ta",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "bottom",
+        "label": "Baja 6ta",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -1082,7 +1110,7 @@
         "id": 2257,
         "date": "2026-11-17 19:30:00",
         "status": 2,
-        "roundText": "Baja 5ta",
+        "roundText": "Alta 6ta",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
