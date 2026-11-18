@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T03:29:42.918Z",
+    "scraped_at": "2026-11-18T03:30:47.105Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,11 +578,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-17 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Ellis  Out: Rodado al Campo Corto - Segunda Base - luego de reto de jugada",
+        "lastPlayByPlay": "Ellis Robo de Base Segunda Base",
         "atBat": null,
         "comment": "",
         "winningPitcher": "",
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -627,7 +630,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
         "strikes": 0
       },
@@ -14920,11 +14923,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-17 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Ellis  Out: Rodado al Campo Corto - Segunda Base - luego de reto de jugada",
+        "lastPlayByPlay": "Ellis Robo de Base Segunda Base",
         "atBat": null,
         "comment": "",
         "winningPitcher": "",
@@ -14936,7 +14939,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -14969,7 +14975,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
         "strikes": 0
       },
@@ -19772,22 +19778,22 @@
       "date": "2026-11-17 19:15:00",
       "roundText": "Alta 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "Ellis  Out: Rodado al Campo Corto - Segunda Base - luego de reto de jugada",
+      "lastPlayByPlay": "Ellis Robo de Base Segunda Base",
       "counts": {
-        "balls": 0,
+        "balls": 1,
         "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -20958,6 +20964,20 @@
               "scored": false,
               "is_primary": true,
               "ts": 1794972405
+            },
+            {
+              "reference_id": "20554-1-93",
+              "text": "Gilberto Celestino  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794972593
+            },
+            {
+              "reference_id": "20554-1-92-299072",
+              "text": "Ellis Robo de Base Segunda Base",
+              "scored": false,
+              "is_primary": false,
+              "ts": 1794972615
             }
           ]
         }
@@ -21079,7 +21099,7 @@
           "num": 9,
           "half": "top",
           "label": "Alta 9na",
-          "total_plays": 3,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
