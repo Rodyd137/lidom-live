@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T01:14:12.929Z",
+    "scraped_at": "2026-11-18T01:15:17.620Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-11-17 19:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Leody Taveras",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -581,16 +581,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-17 19:15:00",
-        "part": 2,
-        "lastPlayByPlay": "Joshua Báez   Out: Rodado al Tercera Base - Primera Base",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Ronny Simon",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
         "savingPitcher": "",
-        "roundText": "Baja 4ta",
-        "currentInningNum": 4,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 5ta",
+        "currentInningNum": 5,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -14864,7 +14864,7 @@
         "date": "2026-11-17 19:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Leody Taveras",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14909,7 +14909,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -14923,16 +14923,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-17 19:15:00",
-        "part": 2,
-        "lastPlayByPlay": "Joshua Báez   Out: Rodado al Tercera Base - Primera Base",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Ronny Simon",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
         "savingPitcher": "",
-        "roundText": "Baja 4ta",
-        "currentInningNum": 4,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 5ta",
+        "currentInningNum": 5,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -14970,7 +14970,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -15030,9 +15030,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "2026-11-18": [
@@ -19770,16 +19770,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-17 19:15:00",
-      "roundText": "Baja 4ta",
-      "currentInningNum": 4,
-      "lastPlayByPlay": "Joshua Báez   Out: Rodado al Tercera Base - Primera Base",
+      "roundText": "Alta 5ta",
+      "currentInningNum": 5,
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
+        "battingTeam": "awayTeam",
         "base": 1
       },
       "base_runners": {
@@ -20543,18 +20543,25 @@
               "ts": 1794964267
             },
             {
-              "reference_id": "20549-2-46",
-              "text": "Joshua Báez  al bate",
-              "scored": false,
-              "is_primary": true,
-              "ts": 1794964337
-            },
-            {
               "reference_id": "20549-2-45",
               "text": "Joshua Báez   Out: Rodado al Tercera Base - Primera Base",
               "scored": false,
               "is_primary": true,
               "ts": 1794964374
+            }
+          ]
+        },
+        {
+          "num": 5,
+          "half": "top",
+          "label": "Alta 5ta",
+          "plays": [
+            {
+              "reference_id": "20550-1-46",
+              "text": "Ronny Simon al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794964509
             }
           ]
         }
@@ -20613,7 +20620,14 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 8,
+          "total_plays": 7,
+          "scoring_plays": 0
+        },
+        {
+          "num": 5,
+          "half": "top",
+          "label": "Alta 5ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -20642,14 +20656,14 @@
         {
           "num": 4,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 4,
           "homeTeamRuns": 0
         },
         {
           "num": 5,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
@@ -20805,8 +20819,8 @@
       "currentInningNum": 5,
       "lastPlayByPlay": "Leonardo Bernal  Out: Línea al Jardinero Central",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 2
       },
       "base_state": {
@@ -21694,7 +21708,7 @@
           "id": 2256,
           "date": "2026-11-17 19:15:00",
           "status": 2,
-          "roundText": "Baja 4ta",
+          "roundText": "Alta 5ta",
           "awayTeam": {
             "id": 6,
             "name": "Toros",
@@ -21814,7 +21828,7 @@
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22669,6 +22683,20 @@
               "ts": 1794964283
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "plays": [
+            {
+              "reference_id": "20569-1-54",
+              "text": "Leody Taveras al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794964454
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22741,6 +22769,13 @@
           "label": "Baja 5ta",
           "total_plays": 10,
           "scoring_plays": 2
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -22813,7 +22848,7 @@
           "id": 2256,
           "date": "2026-11-17 19:15:00",
           "status": 2,
-          "roundText": "Baja 4ta",
+          "roundText": "Alta 5ta",
           "awayTeam": {
             "id": 6,
             "name": "Toros",
