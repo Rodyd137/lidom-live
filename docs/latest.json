@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T00:22:17.114Z",
+    "scraped_at": "2026-11-18T00:23:22.145Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-11-17 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "Luis Liberato Sencillo ",
-        "atBat": "Jasson Dominguez",
+        "lastPlayByPlay": "Jasson Dominguez Sencillo ",
+        "atBat": "Adael Amador",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 2,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2256,
@@ -629,7 +629,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2257,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-17 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Rodolfo Castro",
+        "lastPlayByPlay": "Rodolfo Castro Ponche (K) ",
+        "atBat": "Leonardo Bernal ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -14859,12 +14859,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-11-17 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "Luis Liberato Sencillo ",
-        "atBat": "Jasson Dominguez",
+        "lastPlayByPlay": "Jasson Dominguez Sencillo ",
+        "atBat": "Adael Amador",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14908,9 +14908,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 2,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2256,
@@ -14969,9 +14969,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2257,
@@ -14985,8 +14985,8 @@
         "status": 2,
         "date": "2026-11-17 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Rodolfo Castro",
+        "lastPlayByPlay": "Rodolfo Castro Ponche (K) ",
+        "atBat": "Leonardo Bernal ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15030,9 +15030,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "2026-11-18": [
@@ -19775,7 +19775,7 @@
       "lastPlayByPlay": "Ramon Laureano Base por Bolas ",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 1
       },
       "base_state": {
@@ -20646,11 +20646,11 @@
       "date": "2026-11-17 19:30:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Rodolfo Castro Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20892,6 +20892,17 @@
               "team_id": 7,
               "name": "Rodolfo Castro",
               "abbreviation": "Rodolfo Castro",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6001,
+              "team_id": 7,
+              "name": "Leonardo Bernal ",
+              "abbreviation": "L. Bernal",
               "number": null,
               "dob": null,
               "height": "",
@@ -21197,10 +21208,17 @@
           "plays": [
             {
               "reference_id": "20557-2-17",
-              "text": "Rodolfo Castro al bate",
+              "text": "Rodolfo Castro Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794961216
+              "ts": 1794961361
+            },
+            {
+              "reference_id": "20557-2-18",
+              "text": "Leonardo Bernal  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794961368
             }
           ]
         }
@@ -21245,7 +21263,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21435,22 +21453,22 @@
       "date": "2026-11-17 19:00:00",
       "roundText": "Alta 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Luis Liberato Sencillo ",
+      "lastPlayByPlay": "Jasson Dominguez Sencillo ",
       "counts": {
-        "balls": 2,
-        "strikes": 1,
+        "balls": 0,
+        "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 5
       },
       "base_runners": {
         "on1B": true,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -22134,10 +22152,17 @@
             },
             {
               "reference_id": "20567-1-34",
-              "text": "Jasson Dominguez al bate",
+              "text": "Jasson Dominguez Sencillo ",
               "scored": false,
               "is_primary": true,
-              "ts": 1794961107
+              "ts": 1794961371
+            },
+            {
+              "reference_id": "20567-1-35",
+              "text": "Adael Amador al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794961378
             }
           ]
         }
@@ -22189,7 +22214,7 @@
           "num": 4,
           "half": "top",
           "label": "Alta 4ta",
-          "total_plays": 7,
+          "total_plays": 8,
           "scoring_plays": 1
         }
       ],
