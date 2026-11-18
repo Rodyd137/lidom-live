@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2260",
-    "scraped_at": "2026-11-18T23:48:38.469Z",
+    "scraped_at": "2026-11-18T23:49:44.142Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-18 19:30:00",
-    "roundText": "Baja 1ra",
-    "currentInningNum": 1,
-    "lastPlayByPlay": "Y. Encarnación Ponche (K) ",
+    "roundText": "Alta 2da",
+    "currentInningNum": 2,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -136,6 +136,17 @@
             "team_id": 1,
             "name": "Y. Encarnación",
             "abbreviation": "Y. Encarnación",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6290,
+            "team_id": 1,
+            "name": "Miguel Andujar",
+            "abbreviation": "M. Andujar",
             "number": null,
             "dob": null,
             "height": "",
@@ -333,6 +344,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1795045690
+          },
+          {
+            "reference_id": "20582-2-6",
+            "text": "Miguel Andujar  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795045732
           }
         ]
       }
@@ -349,7 +367,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -357,14 +375,14 @@
       {
         "num": 1,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 2,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -449,7 +467,7 @@
         "id": 2261,
         "date": "2026-11-18 19:30:00",
         "status": 2,
-        "roundText": "Baja 1ra",
+        "roundText": "Alta 2da",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
