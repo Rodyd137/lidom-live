@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T23:49:40.730Z",
+    "scraped_at": "2026-11-18T23:50:46.093Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/344328d644485325998a132db1f0cc6a.png",
+          "text": "Lesión"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -566,9 +569,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2260,
@@ -643,8 +646,8 @@
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Junior Lake",
+        "lastPlayByPlay": "Junior Lake Out: Elevado al Jardinero Derecho ",
+        "atBat": "Gregory Polanco",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +692,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -14938,7 +14941,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/344328d644485325998a132db1f0cc6a.png",
+          "text": "Lesión"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -14971,9 +14977,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2260,
@@ -15048,8 +15054,8 @@
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Junior Lake",
+        "lastPlayByPlay": "Junior Lake Out: Elevado al Jardinero Derecho ",
+        "atBat": "Gregory Polanco",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15094,7 +15100,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -19651,8 +19657,8 @@
       "currentInningNum": 3,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -21013,11 +21019,11 @@
       "date": "2026-11-18 19:30:00",
       "roundText": "Alta 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Junior Lake Out: Elevado al Jardinero Derecho ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21502,10 +21508,17 @@
           "plays": [
             {
               "reference_id": "20592-1-8",
-              "text": "Junior Lake al bate",
+              "text": "Junior Lake Out: Elevado al Jardinero Derecho ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795045749
+              "ts": 1795045818
+            },
+            {
+              "reference_id": "20592-1-9",
+              "text": "Gregory Polanco al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795045821
             }
           ]
         }
@@ -21529,7 +21542,7 @@
           "num": 2,
           "half": "top",
           "label": "Alta 2da",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
