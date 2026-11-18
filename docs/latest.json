@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-18T02:05:06.224Z",
+    "scraped_at": "2026-11-18T02:06:11.388Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-11-17 19:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Roly Brito",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -568,7 +568,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2256,
@@ -642,12 +642,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 1,
         "status": 2,
         "date": "2026-11-17 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Josh Lester  Ponche (K) ",
-        "atBat": "Jorge Mateo",
+        "lastPlayByPlay": "Jorge Mateo  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -692,7 +692,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       }
     ],
@@ -14867,7 +14867,7 @@
         "date": "2026-11-17 19:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Roly Brito",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14913,7 +14913,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2256,
@@ -14987,12 +14987,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 1,
         "status": 2,
         "date": "2026-11-17 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Josh Lester  Ponche (K) ",
-        "atBat": "Jorge Mateo",
+        "lastPlayByPlay": "Jorge Mateo  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15037,7 +15037,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       }
     ],
@@ -20995,22 +20995,22 @@
       "date": "2026-11-17 19:30:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Josh Lester  Ponche (K) ",
+      "lastPlayByPlay": "Jorge Mateo  Out: Rodado al Campo Corto - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 5
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": true,
+        "on1B": false,
+        "on2B": false,
         "on3B": false,
-        "runners": 2,
-        "mask": 5
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -21875,11 +21875,18 @@
               "ts": 1794967444
             },
             {
+              "reference_id": "20561-2-52-298891",
+              "text": "Leonardo Bernal  Wild Pitch Segunda Base - Tercera Base",
+              "scored": false,
+              "is_primary": false,
+              "ts": 1794967519
+            },
+            {
               "reference_id": "20561-2-53",
-              "text": "Jorge Mateo al bate",
+              "text": "Jorge Mateo  Out: Rodado al Campo Corto - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1794967447
+              "ts": 1794967550
             }
           ]
         }
@@ -21980,7 +21987,7 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 5,
+          "total_plays": 6,
           "scoring_plays": 0
         }
       ],
@@ -22173,7 +22180,7 @@
       "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -23211,6 +23218,20 @@
               "ts": 1794967335
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "bottom",
+          "label": "Baja 8va",
+          "plays": [
+            {
+              "reference_id": "20571-2-73",
+              "text": "Roly Brito al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1794967540
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23318,6 +23339,13 @@
           "label": "Alta 8va",
           "total_plays": 5,
           "scoring_plays": 1
+        },
+        {
+          "num": 8,
+          "half": "bottom",
+          "label": "Baja 8va",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
