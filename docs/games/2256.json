@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2256",
-    "scraped_at": "2026-11-18T00:30:58.444Z",
+    "scraped_at": "2026-11-18T00:32:03.232Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-17 19:15:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "De la Cruz Ponche (K) ",
+    "lastPlayByPlay": "Orlando Calixte Base por Bolas ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 7
+      "base": 8
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": true,
       "on3B": true,
-      "runners": 2,
-      "mask": 7
+      "runners": 3,
+      "mask": 8
     },
     "betting": {
       "moneyline": {
@@ -644,16 +644,23 @@
           {
             "reference_id": "20548-2-28",
             "text": "De la Cruz Ponche (K) ",
-            "scored": false,
+            "scored": true,
             "is_primary": true,
             "ts": 1794961757
           },
           {
+            "reference_id": "20548-2-28-298669",
+            "text": "Yamaico Navarro Carrera Empujada  Pasbol",
+            "scored": true,
+            "is_primary": false,
+            "ts": 1794961885
+          },
+          {
             "reference_id": "20548-2-29",
-            "text": "Orlando Calixte al bate",
+            "text": "Orlando Calixte Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1794961773
+            "ts": 1794961898
           }
         ]
       }
@@ -698,8 +705,8 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 6,
-        "scoring_plays": 0
+        "total_plays": 7,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
