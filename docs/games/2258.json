@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2258",
-    "scraped_at": "2026-11-18T02:57:20.764Z",
+    "scraped_at": "2026-11-18T02:58:28.538Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,19 +14,19 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -1205,6 +1205,20 @@
             "ts": 1794970496
           }
         ]
+      },
+      {
+        "num": 10,
+        "half": "bottom",
+        "label": "Baja 10ma",
+        "plays": [
+          {
+            "reference_id": "21411-2-89",
+            "text": "Roly Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1794970657
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1340,6 +1354,13 @@
         "label": "Alta 10ma",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 10,
+        "half": "bottom",
+        "label": "Baja 10ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1445,7 +1466,7 @@
         "id": 2257,
         "date": "2026-11-17 19:30:00",
         "status": 2,
-        "roundText": "Baja 9na",
+        "roundText": "Alta 10ma",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
