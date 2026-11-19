@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2260",
-    "scraped_at": "2026-11-19T02:13:38.970Z",
+    "scraped_at": "2026-11-19T02:14:44.730Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-11-18 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Victor Roble Sencillo ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 3,
-          "H": 7,
+          "H": 8,
           "E": 0,
           "H2": 3
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 3,
-          "H": 7,
+          "H": 8,
           "E": 0
         },
         "home": {
@@ -947,6 +947,27 @@
             "ts": 1795054273
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "20589-1-61",
+            "text": "Victor Roble Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795054464
+          },
+          {
+            "reference_id": "20589-1-62",
+            "text": "Yeison Morrobel al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795054478
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1046,6 +1067,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
