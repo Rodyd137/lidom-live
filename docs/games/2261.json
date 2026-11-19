@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2261",
-    "scraped_at": "2026-11-19T00:24:47.874Z",
+    "scraped_at": "2026-11-19T00:25:53.608Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-18 19:30:00",
-    "roundText": "Baja 3ra",
-    "currentInningNum": 3,
-    "lastPlayByPlay": "Bryan de la Cruz Out: Elevado al Jardinero Central",
+    "roundText": "Alta 4ta",
+    "currentInningNum": 4,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -639,6 +639,20 @@
             "ts": 1795047797
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "plays": [
+          {
+            "reference_id": "20594-1-25",
+            "text": "Junior Lake al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795047908
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -683,6 +697,13 @@
         "label": "Baja 3ra",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "top",
+        "label": "Alta 4ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -703,14 +724,14 @@
       {
         "num": 3,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
         "num": 4,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
