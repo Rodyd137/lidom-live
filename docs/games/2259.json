@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2259",
-    "scraped_at": "2026-11-19T01:25:20.102Z",
+    "scraped_at": "2026-11-19T01:26:25.807Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-18 19:00:00",
-    "roundText": "Alta 7ma",
+    "roundText": "Baja 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Josh Lester  Out: Elevado al Jardinero Central",
+    "lastPlayByPlay": "Deyvinson de los Santos Out: Elevado al Receptor",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 2
         },
         "probables": {
-          "pitcher": "Patrick Weigel",
+          "pitcher": "Melkis Hernandez",
           "era": "",
           "record": "",
           "debut": false
@@ -905,6 +905,27 @@
             "ts": 1795051362
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "plays": [
+          {
+            "reference_id": "20579-2-55",
+            "text": "Deyvinson de los Santos Out: Elevado al Receptor",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795051570
+          },
+          {
+            "reference_id": "20579-2-56",
+            "text": "Roly Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795051574
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -998,6 +1019,13 @@
         "label": "Alta 7ma",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "bottom",
+        "label": "Baja 7ma",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1045,7 +1073,7 @@
       },
       {
         "num": 7,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
