@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-19T00:15:56.830Z",
+    "scraped_at": "2026-11-19T00:17:02.994Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -520,16 +520,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-18 19:00:00",
-        "part": 1,
-        "lastPlayByPlay": "E. Angeles Ponche (K) ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Nomar Mazara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "currentInningNum": 4,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2261,
@@ -639,11 +639,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 1,
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Jonathan Guzman Sencillo y 1 Carrera Impulsada ",
+        "lastPlayByPlay": "Marmolejos Out: Elevado al Jardinero Izquierdo",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       }
     ],
@@ -14925,16 +14925,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-18 19:00:00",
-        "part": 1,
-        "lastPlayByPlay": "E. Angeles Ponche (K) ",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Nomar Mazara",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "currentInningNum": 4,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -14972,7 +14972,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -15032,9 +15032,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 3,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2261,
@@ -15044,11 +15044,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 1,
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Jonathan Guzman Sencillo y 1 Carrera Impulsada ",
+        "lastPlayByPlay": "Marmolejos Out: Elevado al Jardinero Izquierdo",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -15094,7 +15094,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       }
     ],
@@ -19647,16 +19647,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-18 19:00:00",
-      "roundText": "Alta 4ta",
+      "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "E. Angeles Ponche (K) ",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -20340,6 +20340,20 @@
               "ts": 1795047242
             }
           ]
+        },
+        {
+          "num": 4,
+          "half": "bottom",
+          "label": "Baja 4ta",
+          "plays": [
+            {
+              "reference_id": "20576-2-32",
+              "text": "Nomar Mazara al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795047389
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20391,6 +20405,13 @@
           "label": "Alta 4ta",
           "total_plays": 5,
           "scoring_plays": 0
+        },
+        {
+          "num": 4,
+          "half": "bottom",
+          "label": "Baja 4ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20417,7 +20438,7 @@
         },
         {
           "num": 4,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
@@ -20581,8 +20602,8 @@
       "currentInningNum": 3,
       "lastPlayByPlay": "Ryan Ritter Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 0,
+        "balls": 3,
+        "strikes": 1,
         "outs": 2
       },
       "base_state": {
@@ -21238,7 +21259,7 @@
           "id": 2259,
           "date": "2026-11-18 19:00:00",
           "status": 2,
-          "roundText": "Alta 4ta",
+          "roundText": "Baja 4ta",
           "awayTeam": {
             "id": 7,
             "name": "Estrellas",
@@ -21354,22 +21375,22 @@
       "date": "2026-11-18 19:30:00",
       "roundText": "Alta 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "Jonathan Guzman Sencillo y 1 Carrera Impulsada ",
+      "lastPlayByPlay": "Marmolejos Out: Elevado al Jardinero Izquierdo",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
+        "on1B": false,
         "on2B": false,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -21934,8 +21955,8 @@
             },
             {
               "reference_id": "20593-1-19",
-              "text": "Vidal Brujan Sencillo y 1 Carrera Impulsada ",
-              "scored": true,
+              "text": "Vidal Brujan Rodado al lanzador- primera base",
+              "scored": false,
               "is_primary": true,
               "ts": 1795047296
             },
@@ -21945,6 +21966,13 @@
               "scored": true,
               "is_primary": true,
               "ts": 1795047333
+            },
+            {
+              "reference_id": "20593-1-21",
+              "text": "Marmolejos Out: Elevado al Jardinero Izquierdo",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795047408
             }
           ]
         }
@@ -21982,8 +22010,8 @@
           "num": 3,
           "half": "top",
           "label": "Alta 3ra",
-          "total_plays": 4,
-          "scoring_plays": 2
+          "total_plays": 5,
+          "scoring_plays": 1
         }
       ],
       "innings_raw": [
@@ -22056,7 +22084,7 @@
           "id": 2259,
           "date": "2026-11-18 19:00:00",
           "status": 2,
-          "roundText": "Alta 4ta",
+          "roundText": "Baja 4ta",
           "awayTeam": {
             "id": 7,
             "name": "Estrellas",

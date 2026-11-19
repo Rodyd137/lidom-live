@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2261",
-    "scraped_at": "2026-11-19T00:16:00.465Z",
+    "scraped_at": "2026-11-19T00:17:06.225Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-18 19:30:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Jonathan Guzman Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Marmolejos Out: Elevado al Jardinero Izquierdo",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -591,8 +591,8 @@
           },
           {
             "reference_id": "20593-1-19",
-            "text": "Vidal Brujan Sencillo y 1 Carrera Impulsada ",
-            "scored": true,
+            "text": "Vidal Brujan Rodado al lanzador- primera base",
+            "scored": false,
             "is_primary": true,
             "ts": 1795047296
           },
@@ -602,6 +602,13 @@
             "scored": true,
             "is_primary": true,
             "ts": 1795047333
+          },
+          {
+            "reference_id": "20593-1-21",
+            "text": "Marmolejos Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795047408
           }
         ]
       }
@@ -639,8 +646,8 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 4,
-        "scoring_plays": 2
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -713,7 +720,7 @@
         "id": 2259,
         "date": "2026-11-18 19:00:00",
         "status": 2,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
