@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2261",
-    "scraped_at": "2026-11-19T00:46:54.907Z",
+    "scraped_at": "2026-11-19T00:48:00.727Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-18 19:30:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Felix Reyes Doble! Jardinero Central",
+    "lastPlayByPlay": "George Valera   Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 3
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 3
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -710,10 +710,17 @@
           },
           {
             "reference_id": "20594-2-32",
-            "text": "George Valera  al bate",
+            "text": "George Valera   Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1795049209
+            "ts": 1795049244
+          },
+          {
+            "reference_id": "20594-2-33",
+            "text": "Yairo Muñoz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795049249
           }
         ]
       }
@@ -772,7 +779,7 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -872,7 +879,7 @@
         "id": 2260,
         "date": "2026-11-18 19:30:00",
         "status": 2,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
