@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2261",
-    "scraped_at": "2026-11-19T00:45:48.811Z",
+    "scraped_at": "2026-11-19T00:46:54.907Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-11-18 19:30:00",
     "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Felix Reyes Doble! Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 1,
-          "H": 2,
+          "H": 3,
           "E": 1,
           "H2": 1
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 1,
-          "H": 2,
+          "H": 3,
           "E": 1
         }
       },
@@ -703,10 +703,17 @@
         "plays": [
           {
             "reference_id": "20594-2-31",
-            "text": "Felix Reyes al bate",
+            "text": "Felix Reyes Doble! Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1795049131
+            "ts": 1795049203
+          },
+          {
+            "reference_id": "20594-2-32",
+            "text": "George Valera  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795049209
           }
         ]
       }
@@ -765,7 +772,7 @@
         "num": 4,
         "half": "bottom",
         "label": "Baja 4ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -856,7 +863,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 1,
-          "hits": 5,
+          "hits": 6,
           "errors": 1,
           "permalink": "/equipo/gigantes-del-cibao"
         }
