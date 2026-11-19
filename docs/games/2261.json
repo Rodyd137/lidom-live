@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2261",
-    "scraped_at": "2026-11-19T00:26:59.551Z",
+    "scraped_at": "2026-11-19T00:28:06.839Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-18 19:30:00",
     "roundText": "Alta 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Junior Lake Base por Bolas ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -647,10 +647,17 @@
         "plays": [
           {
             "reference_id": "20594-1-25",
-            "text": "Junior Lake al bate",
+            "text": "Junior Lake Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1795047908
+            "ts": 1795048058
+          },
+          {
+            "reference_id": "20594-1-26",
+            "text": "Gregory Polanco al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795048061
           }
         ]
       }
@@ -702,7 +709,7 @@
         "num": 4,
         "half": "top",
         "label": "Alta 4ta",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
