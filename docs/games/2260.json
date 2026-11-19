@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2260",
-    "scraped_at": "2026-11-19T00:01:46.329Z",
+    "scraped_at": "2026-11-19T00:02:52.071Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -14,7 +14,7 @@
     "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -191,6 +191,17 @@
             "team_id": 1,
             "name": "Miguel Andujar",
             "abbreviation": "M. Andujar",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6023,
+            "team_id": 1,
+            "name": "Francisco Mejia",
+            "abbreviation": "Francisco Mejia",
             "number": null,
             "dob": null,
             "height": "",
@@ -432,6 +443,20 @@
             "ts": 1795046332
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "20583-2-11",
+            "text": "Francisco Mejia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795046565
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -454,6 +479,13 @@
         "half": "top",
         "label": "Alta 2da",
         "total_plays": 4,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
@@ -544,7 +576,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 1,
-          "hits": 2,
+          "hits": 3,
           "errors": 1,
           "permalink": "/equipo/gigantes-del-cibao"
         }
