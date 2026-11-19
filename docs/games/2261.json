@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2261",
-    "scraped_at": "2026-11-19T02:07:02.604Z",
+    "scraped_at": "2026-11-19T02:08:08.868Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-11-18 19:30:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Bryan de la Cruz Sencillo y 2 Carreras Impulsadas ",
+    "lastPlayByPlay": "Felix Reyes Cuadrangular! 3 Carreras Impulsadas ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 5
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 4,
-          "H": 6,
+          "R": 7,
+          "H": 7,
           "E": 1,
           "H2": 1
         },
@@ -329,7 +329,7 @@
         {
           "num": 8,
           "away": 0,
-          "home": 3
+          "home": 6
         },
         {
           "num": 9,
@@ -345,8 +345,8 @@
           "E": 2
         },
         "home": {
-          "R": 4,
-          "H": 6,
+          "R": 7,
+          "H": 7,
           "E": 1
         }
       },
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 4
+            "R": 7
           },
           {
             "num": 9,
-            "R": 4
+            "R": 7
           }
         ]
       }
@@ -990,10 +990,17 @@
           },
           {
             "reference_id": "20598-2-62",
-            "text": "Felix Reyes al bate",
+            "text": "Felix Reyes Cuadrangular! 3 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1795054078
+          },
+          {
+            "reference_id": "20598-2-63",
+            "text": "George Valera  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1795053998
+            "ts": 1795054082
           }
         ]
       }
@@ -1108,8 +1115,8 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 7,
-        "scoring_plays": 2
+        "total_plays": 8,
+        "scoring_plays": 3
       }
     ],
     "innings_raw": [
@@ -1167,7 +1174,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 3
+        "homeTeamRuns": 6
       },
       {
         "num": 9,
