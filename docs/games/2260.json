@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2260",
-    "scraped_at": "2026-11-19T02:16:56.699Z",
+    "scraped_at": "2026-11-19T02:18:02.871Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-18 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Victor Roble Sencillo ",
+    "lastPlayByPlay": "Yeison Morrobel Ponche (K) ",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 3
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
-      "on3B": false,
+      "on2B": false,
+      "on3B": true,
       "runners": 1,
-      "mask": 3
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -955,17 +955,24 @@
         "plays": [
           {
             "reference_id": "20589-1-61",
-            "text": "Victor Roble Sencillo ",
+            "text": "Victor Roble Sencillo, Avanza por error en tiro",
             "scored": false,
             "is_primary": true,
             "ts": 1795054464
           },
           {
             "reference_id": "20589-1-62",
-            "text": "Yeison Morrobel al bate",
+            "text": "Yeison Morrobel Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1795054478
+            "ts": 1795054673
+          },
+          {
+            "reference_id": "20589-1-63",
+            "text": "Ryan Ritter al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795054679
           }
         ]
       }
@@ -1073,7 +1080,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],

@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2261",
-    "scraped_at": "2026-11-19T02:16:56.752Z",
+    "scraped_at": "2026-11-19T02:18:02.874Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-18 19:30:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Yairo Muñoz Sencillo Jardinero Izquierdo",
+    "lastPlayByPlay": "Ellis Out: Elevado al Jardinero Izquierdo",
     "counts": {
-      "balls": 3,
+      "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 2
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -264,10 +264,10 @@
             "position": ""
           },
           {
-            "id": 6014,
+            "id": 6306,
             "team_id": 6,
-            "name": "Rafael Lantigua ",
-            "abbreviation": "R. Lantigua",
+            "name": "Ellis",
+            "abbreviation": "Ellis",
             "number": null,
             "dob": null,
             "height": "",
@@ -1011,10 +1011,24 @@
           },
           {
             "reference_id": "20598-2-65",
-            "text": "Jeimer Candelario al bate",
+            "text": "Jeimer Candelario Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1795054355
+            "ts": 1795054642
+          },
+          {
+            "reference_id": "20598-2-66",
+            "text": "Ellis Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795054671
+          },
+          {
+            "reference_id": "20598-2-67",
+            "text": "Juan Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795054675
           }
         ]
       }
@@ -1129,7 +1143,7 @@
         "num": 8,
         "half": "bottom",
         "label": "Baja 8va",
-        "total_plays": 10,
+        "total_plays": 12,
         "scoring_plays": 3
       }
     ],
