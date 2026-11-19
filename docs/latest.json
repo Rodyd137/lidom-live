@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-19T00:31:21.569Z",
+    "scraped_at": "2026-11-19T00:32:26.803Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -642,11 +642,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 7,
+        "base": 4,
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Junior Lake Robo de Base Tercera Base - se embasa por Error del - Receptor",
+        "lastPlayByPlay": "Gregory Polanco  Out: Rodado al Campo Corto - Primera Base",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -691,9 +691,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -15050,12 +15050,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 7,
+        "base": 4,
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Junior Lake Robo de Base Tercera Base - se embasa por Error del - Receptor",
-        "atBat": null,
+        "lastPlayByPlay": "Gregory Polanco  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Ramon Laureano",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15099,9 +15099,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "2026-11-20": [
@@ -21522,22 +21522,22 @@
       "date": "2026-11-18 19:30:00",
       "roundText": "Alta 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Junior Lake Robo de Base Tercera Base - se embasa por Error del - Receptor",
+      "lastPlayByPlay": "Gregory Polanco  Out: Rodado al Campo Corto - Primera Base",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 7
+        "base": 4
       },
       "base_runners": {
         "on1B": false,
-        "on2B": true,
+        "on2B": false,
         "on3B": true,
-        "runners": 2,
-        "mask": 7
+        "runners": 1,
+        "mask": 4
       },
       "betting": {
         "moneyline": {
@@ -22164,18 +22164,25 @@
               "ts": 1795048058
             },
             {
-              "reference_id": "20594-1-26",
-              "text": "Gregory Polanco al bate",
-              "scored": false,
-              "is_primary": true,
-              "ts": 1795048061
-            },
-            {
               "reference_id": "20594-1-25-299262",
               "text": "Junior Lake Robo de Base Tercera Base - se embasa por Error del - Receptor",
               "scored": false,
               "is_primary": false,
               "ts": 1795048220
+            },
+            {
+              "reference_id": "20594-1-26",
+              "text": "Gregory Polanco  Out: Rodado al Campo Corto - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795048340
+            },
+            {
+              "reference_id": "20594-1-27",
+              "text": "Ramon Laureano al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795048345
             }
           ]
         }
@@ -22227,7 +22234,7 @@
           "num": 4,
           "half": "top",
           "label": "Alta 4ta",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
