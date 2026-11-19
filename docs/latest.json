@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-19T00:55:39.519Z",
+    "scraped_at": "2026-11-19T00:56:45.093Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -520,23 +520,20 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-18 19:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Noelvi Marte   Out: Rodado al Campo Corto - Segunda Base - Primera Base - Doble Play!",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Edgar Quero",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 5ta",
-        "currentInningNum": 5,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 6ta",
+        "currentInningNum": 6,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
-          "text": "Revisión Jugada"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -570,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -646,8 +643,8 @@
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Vidal Brujan Out: Elevado al Jardinero Izquierdo",
-        "atBat": "Jonathan Guzman",
+        "lastPlayByPlay": "Jonathan Guzman  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Marmolejos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -691,8 +688,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 1,
+        "balls": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -14930,7 +14927,7 @@
         "date": "2026-11-18 19:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Edgar Quero",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15051,8 +15048,8 @@
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Vidal Brujan Out: Elevado al Jardinero Izquierdo",
-        "atBat": "Jonathan Guzman",
+        "lastPlayByPlay": "Jonathan Guzman  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Marmolejos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15096,8 +15093,8 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 1,
+        "balls": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -20462,6 +20459,20 @@
               "ts": 1795049420
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "plays": [
+            {
+              "reference_id": "20578-1-46",
+              "text": "Edgar Quero al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795049745
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20533,6 +20544,13 @@
           "half": "bottom",
           "label": "Baja 5ta",
           "total_plays": 5,
+          "scoring_plays": 0
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -21659,11 +21677,11 @@
       "date": "2026-11-18 19:30:00",
       "roundText": "Alta 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Vidal Brujan Out: Elevado al Jardinero Izquierdo",
+      "lastPlayByPlay": "Jonathan Guzman  Out: Rodado al Campo Corto - Primera Base",
       "counts": {
-        "balls": 0,
+        "balls": 1,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22393,10 +22411,17 @@
             },
             {
               "reference_id": "20595-1-36",
-              "text": "Jonathan Guzman al bate",
+              "text": "Jonathan Guzman  Out: Rodado al Campo Corto - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1795049712
+              "ts": 1795049760
+            },
+            {
+              "reference_id": "20595-1-37",
+              "text": "Marmolejos al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795049764
             }
           ]
         }
@@ -22462,7 +22487,7 @@
           "num": 5,
           "half": "top",
           "label": "Alta 5ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
