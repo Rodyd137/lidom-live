@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-19T00:02:48.685Z",
+    "scraped_at": "2026-11-19T00:03:54.058Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -568,7 +568,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2260,
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Francisco Mejia Golpeado por Pelota ",
+        "atBat": "Ronny Mauricio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 1,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -14973,7 +14973,7 @@
         },
         "balls": 0,
         "outs": 2,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2260,
@@ -14983,12 +14983,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Francisco Mejia",
+        "lastPlayByPlay": "Francisco Mejia Golpeado por Pelota ",
+        "atBat": "Ronny Mauricio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15034,7 +15034,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 1
       },
       {
         "id": 2261,
@@ -15093,9 +15093,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 1,
-        "strikes": 1
+        "strikes": 2
       }
     ],
     "2026-11-20": [
@@ -19652,7 +19652,7 @@
       "lastPlayByPlay": "Noelvi Marte  Sencillo Jardinero Izquierdo",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 2,
         "outs": 2
       },
       "base_state": {
@@ -20523,22 +20523,22 @@
       "date": "2026-11-18 19:30:00",
       "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Francisco Mejia Golpeado por Pelota ",
       "counts": {
         "balls": 0,
-        "strikes": 2,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20714,6 +20714,39 @@
               "team_id": 1,
               "name": "Francisco Mejia",
               "abbreviation": "Francisco Mejia",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6271,
+              "team_id": 1,
+              "name": "Ronny Mauricio",
+              "abbreviation": "R. Mauricio",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6034,
+              "team_id": 1,
+              "name": "C. Adames",
+              "abbreviation": "C. Adames",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6063,
+              "team_id": 1,
+              "name": "E. Hernandez",
+              "abbreviation": "E. Hernandez",
               "number": null,
               "dob": null,
               "height": "",
@@ -20963,10 +20996,17 @@
           "plays": [
             {
               "reference_id": "20583-2-11",
-              "text": "Francisco Mejia al bate",
+              "text": "Francisco Mejia Golpeado por Pelota ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795046565
+              "ts": 1795046600
+            },
+            {
+              "reference_id": "20583-2-12",
+              "text": "Ronny Mauricio al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795046612
             }
           ]
         }
@@ -20997,7 +21037,7 @@
           "num": 2,
           "half": "bottom",
           "label": "Baja 2da",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21189,8 +21229,8 @@
       "currentInningNum": 2,
       "lastPlayByPlay": "Jeimer Candelario Sencillo y 1 Carrera Impulsada ",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
+        "balls": 2,
+        "strikes": 2,
         "outs": 1
       },
       "base_state": {

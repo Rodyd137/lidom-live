@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2260",
-    "scraped_at": "2026-11-19T00:02:52.071Z",
+    "scraped_at": "2026-11-19T00:03:57.526Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-18 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Francisco Mejia Golpeado por Pelota ",
     "counts": {
       "balls": 0,
-      "strikes": 2,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -202,6 +202,39 @@
             "team_id": 1,
             "name": "Francisco Mejia",
             "abbreviation": "Francisco Mejia",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6271,
+            "team_id": 1,
+            "name": "Ronny Mauricio",
+            "abbreviation": "R. Mauricio",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6034,
+            "team_id": 1,
+            "name": "C. Adames",
+            "abbreviation": "C. Adames",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6063,
+            "team_id": 1,
+            "name": "E. Hernandez",
+            "abbreviation": "E. Hernandez",
             "number": null,
             "dob": null,
             "height": "",
@@ -451,10 +484,17 @@
         "plays": [
           {
             "reference_id": "20583-2-11",
-            "text": "Francisco Mejia al bate",
+            "text": "Francisco Mejia Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1795046565
+            "ts": 1795046600
+          },
+          {
+            "reference_id": "20583-2-12",
+            "text": "Ronny Mauricio al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795046612
           }
         ]
       }
@@ -485,7 +525,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
