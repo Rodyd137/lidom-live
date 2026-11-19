@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-19T01:28:33.632Z",
+    "scraped_at": "2026-11-19T01:29:38.946Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Ryan Ritter Out: Elevado al Jardinero Izquierdo",
-        "atBat": "Leody Taveras",
+        "lastPlayByPlay": "Leody Taveras Base por Bolas ",
+        "atBat": "Jasson Dominguez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -627,9 +630,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 1,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2261,
@@ -690,7 +693,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -14983,12 +14986,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Ryan Ritter Out: Elevado al Jardinero Izquierdo",
-        "atBat": "Leody Taveras",
+        "lastPlayByPlay": "Leody Taveras Base por Bolas ",
+        "atBat": "Jasson Dominguez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -14999,7 +15002,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -15032,9 +15038,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 1,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2261,
@@ -15095,7 +15101,7 @@
         },
         "balls": 0,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "2026-11-20": [
@@ -20859,22 +20865,22 @@
       "date": "2026-11-18 19:30:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Ryan Ritter Out: Elevado al Jardinero Izquierdo",
+      "lastPlayByPlay": "Leody Taveras Base por Bolas ",
       "counts": {
-        "balls": 3,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 5
       },
       "base_runners": {
         "on1B": true,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -21663,10 +21669,17 @@
             },
             {
               "reference_id": "20587-1-45",
-              "text": "Leody Taveras al bate",
+              "text": "Leody Taveras Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795051571
+              "ts": 1795051741
+            },
+            {
+              "reference_id": "20587-1-46",
+              "text": "Jasson Dominguez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795051744
             }
           ]
         }
@@ -21746,7 +21759,7 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -21939,7 +21952,7 @@
       "lastPlayByPlay": "M. Hernandez Out: Elevado al Tercera Base",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 1
       },
       "base_state": {
