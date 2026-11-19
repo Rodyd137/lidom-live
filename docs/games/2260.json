@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2260",
-    "scraped_at": "2026-11-19T02:46:32.535Z",
+    "scraped_at": "2026-11-19T02:47:38.872Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 9,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 1,
       "outs": 0
     },
     "base_state": {
@@ -59,9 +59,9 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Randy Vasquez",
-          "era": "",
-          "record": "",
+          "pitcher": "Jonathan Aro",
+          "era": "2-0",
+          "record": "0.00",
           "debut": false
         },
         "players": [
@@ -1073,6 +1073,20 @@
             "ts": 1795056287
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "20590-2-76",
+            "text": "C. Adames al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795056433
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1193,6 +1207,13 @@
         "half": "top",
         "label": "Alta 9na",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
