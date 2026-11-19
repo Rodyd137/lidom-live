@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2261",
-    "scraped_at": "2026-11-19T02:22:26.088Z",
+    "scraped_at": "2026-11-19T02:23:31.883Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-18 19:30:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Ramon Laureano Golpeado por Pelota ",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -180,7 +180,7 @@
           "H2": 1
         },
         "probables": {
-          "pitcher": "Yaramil Hiraldo",
+          "pitcher": "Cam Robinson",
           "era": "",
           "record": "",
           "debut": false
@@ -1039,10 +1039,24 @@
         "plays": [
           {
             "reference_id": "20599-1-68",
-            "text": "Gregory Polanco al bate",
+            "text": "Gregory Polanco  Out: Rodado al Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1795054896
+            "ts": 1795054958
+          },
+          {
+            "reference_id": "20599-1-69",
+            "text": "Ramon Laureano Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795054990
+          },
+          {
+            "reference_id": "20599-1-70",
+            "text": "Esmerlyn Valdez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795054998
           }
         ]
       }
@@ -1164,7 +1178,7 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
