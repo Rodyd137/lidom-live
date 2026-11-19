@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-19T00:51:14.639Z",
+    "scraped_at": "2026-11-19T00:52:20.865Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -582,8 +585,8 @@
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Y. Encarnación",
+        "lastPlayByPlay": "Y. Encarnación  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Miguel Andujar",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +630,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2261,
@@ -639,12 +642,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 4,
+        "base": 1,
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Yairo Muñoz Out: Línea al Campo Corto",
-        "atBat": "Jeimer Candelario",
+        "lastPlayByPlay": "Jeimer Candelario Out: Elevado al Jardinero Central",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,9 +691,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 2,
-        "strikes": 2
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -14938,7 +14941,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
+          "text": "Revisión Jugada"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -14988,7 +14994,7 @@
         "date": "2026-11-18 19:30:00",
         "part": 2,
         "lastPlayByPlay": "Y. Encarnación  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": null,
+        "atBat": "Miguel Andujar",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15032,9 +15038,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2261,
@@ -15044,12 +15050,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 4,
+        "base": 1,
         "status": 2,
         "date": "2026-11-18 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Yairo Muñoz Out: Línea al Campo Corto",
-        "atBat": "Jeimer Candelario",
+        "lastPlayByPlay": "Jeimer Candelario Out: Elevado al Jardinero Central",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15093,9 +15099,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 2,
-        "strikes": 2
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       }
     ],
     "2026-11-20": [
@@ -20721,8 +20727,8 @@
       "currentInningNum": 4,
       "lastPlayByPlay": "Y. Encarnación  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 2,
+        "strikes": 2,
         "outs": 1
       },
       "base_state": {
@@ -21394,6 +21400,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1795049470
+            },
+            {
+              "reference_id": "20585-2-30",
+              "text": "Miguel Andujar al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795049480
             }
           ]
         }
@@ -21452,7 +21465,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -21642,22 +21655,22 @@
       "date": "2026-11-18 19:30:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Yairo Muñoz Out: Línea al Campo Corto",
+      "lastPlayByPlay": "Jeimer Candelario Out: Elevado al Jardinero Central",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
-        "outs": 2
+        "balls": 0,
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 4
+        "base": 1
       },
       "base_runners": {
         "on1B": false,
         "on2B": false,
-        "on3B": true,
-        "runners": 1,
-        "mask": 4
+        "on3B": false,
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -22355,10 +22368,10 @@
             },
             {
               "reference_id": "20594-2-34",
-              "text": "Jeimer Candelario al bate",
+              "text": "Jeimer Candelario Out: Elevado al Jardinero Central",
               "scored": false,
               "is_primary": true,
-              "ts": 1795049292
+              "ts": 1795049488
             }
           ]
         }
