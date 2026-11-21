@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-21T02:32:04.664Z",
+    "scraped_at": "2026-11-21T02:33:10.499Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 8,
         "status": 2,
         "date": "2026-11-20 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Miguel Bleis Base por Bolas ",
-        "atBat": "Jose Tena",
+        "lastPlayByPlay": "Jose Tena Base por Bolas ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -627,9 +630,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 1,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2264,
@@ -639,12 +642,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-11-20 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Ronny Simon se embasa por Error del Segunda Base",
-        "atBat": "Felix Reyes",
+        "lastPlayByPlay": "George Valera  Golpeado por Pelota ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -655,10 +658,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
-          "text": "Revisión Jugada"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -692,7 +692,7 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 1,
+        "outs": 2,
         "strikes": 1
       }
     ],
@@ -15293,12 +15293,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 8,
         "status": 2,
         "date": "2026-11-20 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Miguel Bleis Base por Bolas ",
-        "atBat": "Jose Tena",
+        "lastPlayByPlay": "Jose Tena Base por Bolas ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15309,7 +15309,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 7,
           "name": "Estrellas",
@@ -15342,9 +15345,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 1,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2264,
@@ -15354,12 +15357,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 5,
         "status": 2,
         "date": "2026-11-20 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Ronny Simon se embasa por Error del Segunda Base",
-        "atBat": "Felix Reyes",
+        "lastPlayByPlay": "George Valera  Golpeado por Pelota ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -15370,10 +15373,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/62805e34fcdf70fbf980df29eb65c92a.png",
-          "text": "Revisión Jugada"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -15407,7 +15407,7 @@
           "record": ""
         },
         "balls": 1,
-        "outs": 1,
+        "outs": 2,
         "strikes": 1
       }
     ],
@@ -21149,22 +21149,22 @@
       "date": "2026-11-20 19:30:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Miguel Bleis Base por Bolas ",
+      "lastPlayByPlay": "Jose Tena Base por Bolas ",
       "counts": {
-        "balls": 3,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 5
+        "base": 8
       },
       "base_runners": {
         "on1B": true,
         "on2B": true,
-        "on3B": false,
-        "runners": 2,
-        "mask": 5
+        "on3B": true,
+        "runners": 3,
+        "mask": 8
       },
       "betting": {
         "moneyline": {
@@ -22177,10 +22177,10 @@
             },
             {
               "reference_id": "20616-1-69",
-              "text": "Jose Tena al bate",
+              "text": "Jose Tena Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795228214
+              "ts": 1795228365
             }
           ]
         }
@@ -22478,7 +22478,7 @@
       "date": "2026-11-20 19:30:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Ronny Simon se embasa por Error del Segunda Base",
+      "lastPlayByPlay": "George Valera  Golpeado por Pelota ",
       "counts": {
         "balls": 1,
         "strikes": 1,
@@ -22486,14 +22486,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 5
       },
       "base_runners": {
         "on1B": true,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -23429,10 +23429,17 @@
             },
             {
               "reference_id": "20623-2-62",
-              "text": "Felix Reyes al bate",
+              "text": "Felix Reyes  Out: Rodado al Campo Corto - Segunda Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1795228204
+              "ts": 1795228367
+            },
+            {
+              "reference_id": "20623-2-63",
+              "text": "George Valera  Golpeado por Pelota ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795228382
             }
           ]
         }
@@ -23519,7 +23526,7 @@
           "num": 6,
           "half": "bottom",
           "label": "Baja 6ta",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
