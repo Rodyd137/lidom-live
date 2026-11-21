@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-21T22:42:14.934Z",
+    "scraped_at": "2026-11-21T22:43:18.634Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -581,12 +581,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Hendry Mendez",
+        "lastPlayByPlay": "Hendry Mendez Base por Bolas ",
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -609,7 +609,7 @@
           "runs_half": 0,
           "errors": 1,
           "hits": 4,
-          "pitcher": "Luis Guerrero",
+          "pitcher": "Hector Perez",
           "era": "",
           "debut": 0,
           "record": ""
@@ -630,9 +630,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 1
       },
       {
         "id": 2267,
@@ -15359,12 +15359,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Hendry Mendez",
+        "lastPlayByPlay": "Hendry Mendez Base por Bolas ",
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15387,7 +15387,7 @@
           "runs_half": 0,
           "errors": 1,
           "hits": 4,
-          "pitcher": "Luis Guerrero",
+          "pitcher": "Hector Perez",
           "era": "",
           "debut": 0,
           "record": ""
@@ -15408,9 +15408,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 0,
-        "strikes": 2
+        "strikes": 1
       },
       {
         "id": 2267,
@@ -20592,22 +20592,22 @@
       "date": "2026-11-21 17:00:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Hendry Mendez Base por Bolas ",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20640,7 +20640,7 @@
             "H2": 0
           },
           "probables": {
-            "pitcher": "Luis Guerrero",
+            "pitcher": "Hector Perez",
             "era": "",
             "record": "",
             "debut": false
@@ -21403,10 +21403,17 @@
           "plays": [
             {
               "reference_id": "20640-2-42",
-              "text": "Hendry Mendez al bate",
+              "text": "Hendry Mendez Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795300829
+              "ts": 1795300970
+            },
+            {
+              "reference_id": "20640-2-43",
+              "text": "Agustin Ramirez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795300983
             }
           ]
         }
@@ -21479,7 +21486,7 @@
           "num": 5,
           "half": "bottom",
           "label": "Baja 5ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
