@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2266",
-    "scraped_at": "2026-11-21T21:33:04.196Z",
+    "scraped_at": "2026-11-21T21:34:08.251Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-21 17:00:00",
-    "roundText": "Alta 2da",
+    "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Joshua Báez   Out: Rodado al Tercera Base - Segunda Base - Primera Base - Doble Play!",
+    "lastPlayByPlay": "Eddison Paulino  Out: Elevado al Campo Corto",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -541,6 +541,27 @@
             "ts": 1795296631
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "20637-2-14",
+            "text": "Eddison Paulino  Out: Elevado al Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795296838
+          },
+          {
+            "reference_id": "20637-2-15",
+            "text": "Pablo Reyes al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795296842
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -564,6 +585,13 @@
         "label": "Alta 2da",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -576,7 +604,7 @@
       },
       {
         "num": 2,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
