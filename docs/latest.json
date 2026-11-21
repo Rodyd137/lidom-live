@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-21T23:21:36.691Z",
+    "scraped_at": "2026-11-21T23:22:40.644Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,11 +517,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 1,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Jesús Sanchez   Out: Rodado al Lanzador - Primera Base",
+        "lastPlayByPlay": "Felix Reyes  Out: Rodado al Primera Base - Lanzador",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Pablo Reyes Base por Bolas ",
-        "atBat": "Ferreras",
+        "lastPlayByPlay": "Ferreras  Out: Rodado al Primera Base",
+        "atBat": "Carlos Jorge ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -15292,11 +15292,11 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 1,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Jesús Sanchez   Out: Rodado al Lanzador - Primera Base",
+        "lastPlayByPlay": "Felix Reyes  Out: Rodado al Primera Base - Lanzador",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -15342,7 +15342,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -15353,12 +15353,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Pablo Reyes Base por Bolas ",
-        "atBat": "Ferreras",
+        "lastPlayByPlay": "Ferreras  Out: Rodado al Primera Base",
+        "atBat": "Carlos Jorge ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15403,7 +15403,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -19649,22 +19649,22 @@
       "date": "2026-11-21 17:00:00",
       "roundText": "Alta 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Jesús Sanchez   Out: Rodado al Lanzador - Primera Base",
+      "lastPlayByPlay": "Felix Reyes  Out: Rodado al Primera Base - Lanzador",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 5
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": true,
+        "on1B": false,
+        "on2B": false,
         "on3B": false,
-        "runners": 2,
-        "mask": 5
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -20436,6 +20436,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1795303294
+            },
+            {
+              "reference_id": "20631-1-45",
+              "text": "Felix Reyes  Out: Rodado al Primera Base - Lanzador",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795303333
             }
           ]
         }
@@ -20501,7 +20508,7 @@
           "num": 5,
           "half": "top",
           "label": "Alta 5ta",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
@@ -20691,22 +20698,22 @@
       "date": "2026-11-21 17:00:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Pablo Reyes Base por Bolas ",
+      "lastPlayByPlay": "Ferreras  Out: Rodado al Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -21593,10 +21600,17 @@
             },
             {
               "reference_id": "20641-2-54",
-              "text": "Ferreras al bate",
+              "text": "Ferreras  Out: Rodado al Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1795303281
+              "ts": 1795303321
+            },
+            {
+              "reference_id": "20641-2-55",
+              "text": "Carlos Jorge  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795303340
             }
           ]
         }
@@ -21683,7 +21697,7 @@
           "num": 6,
           "half": "bottom",
           "label": "Baja 6ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
