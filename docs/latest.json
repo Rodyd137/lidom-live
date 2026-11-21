@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-21T02:09:05.968Z",
+    "scraped_at": "2026-11-21T02:10:11.882Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -524,9 +524,9 @@
         "lastPlayByPlay": "Erik Gonzales Out: Elevado al Primera Base",
         "atBat": null,
         "comment": "",
-        "winningPitcher": null,
-        "losingPitcher": null,
-        "savingPitcher": null,
+        "winningPitcher": "",
+        "losingPitcher": "Aneurys Zabala",
+        "savingPitcher": "Anderson Pilar",
         "roundText": "Baja 9na",
         "currentInningNum": 9,
         "battingTeam": "homeTeam",
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 4,
+        "base": 6,
         "status": 2,
         "date": "2026-11-20 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Raimel Tapia  Out: Rodado al Primera Base",
-        "atBat": "Marco Luciano ",
+        "lastPlayByPlay": "Marco Luciano  Base por Bolas ",
+        "atBat": "Cesar Prieto ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 1,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2264,
@@ -688,7 +688,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 3,
         "outs": 2,
         "strikes": 0
       }
@@ -15236,9 +15236,9 @@
         "lastPlayByPlay": "Erik Gonzales Out: Elevado al Primera Base",
         "atBat": null,
         "comment": "",
-        "winningPitcher": null,
-        "losingPitcher": null,
-        "savingPitcher": null,
+        "winningPitcher": "",
+        "losingPitcher": "Aneurys Zabala",
+        "savingPitcher": "Anderson Pilar",
         "roundText": "Baja 9na",
         "currentInningNum": 9,
         "battingTeam": "homeTeam",
@@ -15290,12 +15290,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 4,
+        "base": 6,
         "status": 2,
         "date": "2026-11-20 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Raimel Tapia  Out: Rodado al Primera Base",
-        "atBat": "Marco Luciano ",
+        "lastPlayByPlay": "Marco Luciano  Base por Bolas ",
+        "atBat": "Cesar Prieto ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15339,9 +15339,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 1,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2264,
@@ -15400,7 +15400,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 3,
         "outs": 2,
         "strikes": 0
       }
@@ -19801,9 +19801,9 @@
         "over_under": null
       },
       "pitchers": {
-        "winning": null,
-        "losing": null,
-        "save": null
+        "winning": "",
+        "losing": "Aneurys Zabala",
+        "save": "Anderson Pilar"
       },
       "teams": {
         "away": {
@@ -21143,22 +21143,22 @@
       "date": "2026-11-20 19:30:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Raimel Tapia  Out: Rodado al Primera Base",
+      "lastPlayByPlay": "Marco Luciano  Base por Bolas ",
       "counts": {
-        "balls": 2,
-        "strikes": 1,
+        "balls": 0,
+        "strikes": 0,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 4
+        "base": 6
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": true,
-        "runners": 1,
-        "mask": 4
+        "runners": 2,
+        "mask": 6
       },
       "betting": {
         "moneyline": {
@@ -22094,10 +22094,17 @@
             },
             {
               "reference_id": "20615-1-60",
-              "text": "Marco Luciano  al bate",
+              "text": "Marco Luciano  Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795226881
+              "ts": 1795227002
+            },
+            {
+              "reference_id": "20615-1-61",
+              "text": "Cesar Prieto  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795227007
             }
           ]
         }
@@ -22191,7 +22198,7 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -22383,7 +22390,7 @@
       "currentInningNum": 5,
       "lastPlayByPlay": "Jeimer Candelario  Out: Rodado al Tercera Base - Primera Base",
       "counts": {
-        "balls": 2,
+        "balls": 3,
         "strikes": 0,
         "outs": 2
       },
