@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-21T22:32:41.677Z",
+    "scraped_at": "2026-11-21T22:33:45.588Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/874270c2a6112adca2a2af54cd9588c4.png",
+          "text": "Discusión Arbitral"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -578,12 +581,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Socrates Brito Out: Elevado al Jardinero Central",
-        "atBat": null,
+        "lastPlayByPlay": "M. De la Cruz Doble! Jardinero Central",
+        "atBat": "M. Hernandez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -605,7 +608,7 @@
           "runs": 0,
           "runs_half": 0,
           "errors": 1,
-          "hits": 3,
+          "hits": 4,
           "pitcher": "Luis Guerrero",
           "era": "",
           "debut": 0,
@@ -15308,7 +15311,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/874270c2a6112adca2a2af54cd9588c4.png",
+          "text": "Discusión Arbitral"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -15353,12 +15359,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Socrates Brito Out: Elevado al Jardinero Central",
-        "atBat": null,
+        "lastPlayByPlay": "M. De la Cruz Doble! Jardinero Central",
+        "atBat": "M. Hernandez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15380,7 +15386,7 @@
           "runs": 0,
           "runs_half": 0,
           "errors": 1,
-          "hits": 3,
+          "hits": 4,
           "pitcher": "Luis Guerrero",
           "era": "",
           "debut": 0,
@@ -20477,7 +20483,7 @@
             "abbr": "LE",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
             "runs": 0,
-            "hits": 3,
+            "hits": 4,
             "errors": 1,
             "permalink": "/equipo/leones-del-escogido"
           },
@@ -20586,7 +20592,7 @@
       "date": "2026-11-21 17:00:00",
       "roundText": "Alta 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Socrates Brito Out: Elevado al Jardinero Central",
+      "lastPlayByPlay": "M. De la Cruz Doble! Jardinero Central",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -20594,14 +20600,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -20629,7 +20635,7 @@
           "permalink": "/equipo/leones-del-escogido",
           "totals": {
             "R": 0,
-            "H": 3,
+            "H": 4,
             "E": 1,
             "H2": 0
           },
@@ -20916,7 +20922,7 @@
         "totals": {
           "away": {
             "R": 0,
-            "H": 3,
+            "H": 4,
             "E": 1
           },
           "home": {
@@ -21366,6 +21372,20 @@
               "scored": false,
               "is_primary": true,
               "ts": 1795300345
+            },
+            {
+              "reference_id": "20640-1-39",
+              "text": "M. De la Cruz Doble! Jardinero Central",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795300408
+            },
+            {
+              "reference_id": "20640-1-40",
+              "text": "M. Hernandez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795300410
             }
           ]
         }
@@ -21431,7 +21451,7 @@
           "num": 5,
           "half": "top",
           "label": "Alta 5ta",
-          "total_plays": 3,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
@@ -21944,7 +21964,7 @@
             "abbr": "LE",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
             "runs": 0,
-            "hits": 3,
+            "hits": 4,
             "errors": 1,
             "permalink": "/equipo/leones-del-escogido"
           },
