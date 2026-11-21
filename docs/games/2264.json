@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2264",
-    "scraped_at": "2026-11-21T03:12:37.671Z",
+    "scraped_at": "2026-11-21T03:13:43.071Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-20 19:30:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Miguel Andujar  Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 6
         },
         "probables": {
-          "pitcher": "Michel Otañez",
+          "pitcher": "Carlos Vargas",
           "era": "",
           "record": "",
           "debut": false
@@ -1108,6 +1108,20 @@
             "ts": 1795230636
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "20625-2-80",
+            "text": "Onil Perez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795230755
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1215,6 +1229,13 @@
         "label": "Alta 8va",
         "total_plays": 6,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1269,7 +1290,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
@@ -1330,7 +1351,7 @@
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
           "runs": 2,
-          "hits": 3,
+          "hits": 4,
           "errors": 4,
           "permalink": "/equipo/aguilas-cibaenas"
         }
