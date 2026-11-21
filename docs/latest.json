@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-21T22:19:53.815Z",
+    "scraped_at": "2026-11-21T22:20:57.956Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2266,
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Pablo Reyes Out: Elevado al Receptor",
-        "atBat": "Ferreras",
+        "lastPlayByPlay": "Ferreras Base por Bolas ",
+        "atBat": "Carlos Jorge ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 1,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2267,
@@ -15292,7 +15292,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 1,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 1,
@@ -15341,9 +15341,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 2,
-        "strikes": 1
+        "balls": 0,
+        "outs": 3,
+        "strikes": 0
       },
       {
         "id": 2266,
@@ -15353,12 +15353,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Pablo Reyes Out: Elevado al Receptor",
-        "atBat": "Ferreras",
+        "lastPlayByPlay": "Ferreras Base por Bolas ",
+        "atBat": "Carlos Jorge ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15402,9 +15402,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 1,
-        "strikes": 1
+        "strikes": 0
       },
       {
         "id": 2267,
@@ -19651,20 +19651,20 @@
       "currentInningNum": 3,
       "lastPlayByPlay": "Jesús Sanchez  Sencillo Jardinero Izquierdo",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
-        "outs": 2
+        "balls": 0,
+        "strikes": 0,
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 5
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": true,
+        "on1B": false,
+        "on2B": false,
         "on3B": false,
-        "runners": 2,
-        "mask": 5
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -20530,22 +20530,22 @@
       "date": "2026-11-21 17:00:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Pablo Reyes Out: Elevado al Receptor",
+      "lastPlayByPlay": "Ferreras Base por Bolas ",
       "counts": {
-        "balls": 3,
-        "strikes": 1,
+        "balls": 0,
+        "strikes": 0,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -21250,10 +21250,17 @@
             },
             {
               "reference_id": "20639-2-34",
-              "text": "Ferreras al bate",
+              "text": "Ferreras Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795299521
+              "ts": 1795299640
+            },
+            {
+              "reference_id": "20639-2-35",
+              "text": "Carlos Jorge  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795299642
             }
           ]
         }
@@ -21312,7 +21319,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
