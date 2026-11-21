@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2264",
-    "scraped_at": "2026-11-21T01:09:54.755Z",
+    "scraped_at": "2026-11-21T01:11:00.781Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-20 19:30:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Ronny Mauricio Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "strikes": 2,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 5
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -681,6 +681,20 @@
             "ts": 1795223244
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "plays": [
+          {
+            "reference_id": "20620-2-31",
+            "text": "Juan Brito al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795223449
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -718,6 +732,13 @@
         "label": "Alta 3ra",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 3,
+        "half": "bottom",
+        "label": "Baja 3ra",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -737,7 +758,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
         "homeTeamRuns": 0
@@ -790,7 +811,7 @@
         "id": 2262,
         "date": "2026-11-20 19:15:00",
         "status": 2,
-        "roundText": "Baja 6ta",
+        "roundText": "Alta 7ma",
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",

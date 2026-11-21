@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2262",
-    "scraped_at": "2026-11-21T01:09:54.664Z",
+    "scraped_at": "2026-11-21T01:11:00.640Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-20 19:15:00",
-    "roundText": "Baja 6ta",
-    "currentInningNum": 6,
-    "lastPlayByPlay": "Erik Gonzales Out: Elevado al Jardinero Derecho ",
+    "roundText": "Alta 7ma",
+    "currentInningNum": 7,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "strikes": 2,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -180,7 +180,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Winston Santos",
+          "pitcher": "Aneurys Zabala",
           "era": "",
           "record": "",
           "debut": false
@@ -856,6 +856,20 @@
             "ts": 1795223269
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "20606-1-46",
+            "text": "Agustin Ramirez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795223435
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -942,6 +956,13 @@
         "label": "Baja 6ta",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -983,14 +1004,14 @@
       {
         "num": 6,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 7,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -1040,7 +1061,7 @@
         "id": 2264,
         "date": "2026-11-20 19:30:00",
         "status": 2,
-        "roundText": "Alta 3ra",
+        "roundText": "Baja 3ra",
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
