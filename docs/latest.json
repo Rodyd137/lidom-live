@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-21T01:43:52.749Z",
+    "scraped_at": "2026-11-21T01:44:58.383Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2264,
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-11-20 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Felix Reyes Sencillo Campo Corto",
-        "atBat": "George Valera ",
+        "lastPlayByPlay": "George Valera  Base por Bolas Intencional ",
+        "atBat": "Francisco Urbaez",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -15339,9 +15339,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 2,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2264,
@@ -15351,12 +15351,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 5,
         "status": 2,
         "date": "2026-11-20 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Felix Reyes Sencillo Campo Corto",
-        "atBat": "George Valera ",
+        "lastPlayByPlay": "George Valera  Base por Bolas Intencional ",
+        "atBat": "Francisco Urbaez",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -21033,8 +21033,8 @@
       "currentInningNum": 6,
       "lastPlayByPlay": "Marco Luciano  Sencillo ",
       "counts": {
-        "balls": 1,
-        "strikes": 1,
+        "balls": 2,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -22164,7 +22164,7 @@
       "date": "2026-11-20 19:30:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Felix Reyes Sencillo Campo Corto",
+      "lastPlayByPlay": "George Valera  Base por Bolas Intencional ",
       "counts": {
         "balls": 1,
         "strikes": 0,
@@ -22172,14 +22172,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 3
+        "base": 5
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": true,
         "on3B": false,
-        "runners": 1,
-        "mask": 3
+        "runners": 2,
+        "mask": 5
       },
       "betting": {
         "moneyline": {
@@ -22941,16 +22941,30 @@
             {
               "reference_id": "20621-2-43",
               "text": "Felix Reyes Sencillo Campo Corto",
-              "scored": false,
+              "scored": true,
               "is_primary": true,
               "ts": 1795225296
             },
             {
+              "reference_id": "20621-2-43-299845",
+              "text": "Onil Perez Carrera Empujada Wild Pitch",
+              "scored": true,
+              "is_primary": false,
+              "ts": 1795225469
+            },
+            {
               "reference_id": "20621-2-44",
-              "text": "George Valera  al bate",
+              "text": "George Valera  Base por Bolas Intencional ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795225300
+              "ts": 1795225477
+            },
+            {
+              "reference_id": "20621-2-45",
+              "text": "Francisco Urbaez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795225480
             }
           ]
         }
@@ -23009,8 +23023,8 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 5,
-          "scoring_plays": 0
+          "total_plays": 7,
+          "scoring_plays": 2
         }
       ],
       "innings_raw": [
