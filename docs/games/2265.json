@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2265",
-    "scraped_at": "2026-11-21T22:14:35.904Z",
+    "scraped_at": "2026-11-21T22:15:39.736Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-21 17:00:00",
     "roundText": "Alta 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Ronny Simon se embasa por Error del Segunda Base",
+    "lastPlayByPlay": "Gilberto Celestino   Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 1,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 5
+      "base": 7
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": true,
-      "on3B": false,
+      "on3B": true,
       "runners": 2,
-      "mask": 5
+      "mask": 7
     },
     "betting": {
       "moneyline": {
@@ -640,10 +640,17 @@
           },
           {
             "reference_id": "20629-1-27",
-            "text": "Gilberto Celestino  al bate",
+            "text": "Gilberto Celestino   Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1795299254
+            "ts": 1795299304
+          },
+          {
+            "reference_id": "20629-1-28",
+            "text": "Bryan de la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795299324
           }
         ]
       }
@@ -681,7 +688,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
