@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2264",
-    "scraped_at": "2026-11-21T02:43:04.598Z",
+    "scraped_at": "2026-11-21T02:44:10.230Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-11-20 19:30:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "Ronny Mauricio Base por Bolas ",
+    "lastPlayByPlay": "C. Adames Doble! 1 Carrera Impulsada ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -53,8 +53,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/9888ecc384811ab5781b0310ae9401a9.png",
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
-          "R": 6,
-          "H": 8,
+          "R": 7,
+          "H": 9,
           "E": 3,
           "H2": 6
         },
@@ -323,7 +323,7 @@
         },
         {
           "num": 7,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -340,8 +340,8 @@
       "extras": false,
       "totals": {
         "away": {
-          "R": 6,
-          "H": 8,
+          "R": 7,
+          "H": 9,
           "E": 3
         },
         "home": {
@@ -378,15 +378,15 @@
           },
           {
             "num": 7,
-            "R": 6
+            "R": 7
           },
           {
             "num": 8,
-            "R": 6
+            "R": 7
           },
           {
             "num": 9,
-            "R": 6
+            "R": 7
           }
         ],
         "home": [
@@ -1003,11 +1003,25 @@
             "ts": 1795228967
           },
           {
+            "reference_id": "20624-1-68-299963",
+            "text": "Ronny Mauricio Out Robando Base! Segunda Base",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1795228992
+          },
+          {
             "reference_id": "20624-1-69",
-            "text": "C. Adames al bate",
+            "text": "C. Adames Doble! 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1795229032
+          },
+          {
+            "reference_id": "20624-1-70",
+            "text": "Elier Hernandez al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1795228970
+            "ts": 1795229035
           }
         ]
       }
@@ -1101,8 +1115,8 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 3,
-        "scoring_plays": 0
+        "total_plays": 5,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1152,7 +1166,7 @@
         "num": 7,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       },
       {
