@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-21T02:58:21.088Z",
+    "scraped_at": "2026-11-21T02:59:26.582Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 7,
         "status": 2,
         "date": "2026-11-20 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "John Garcia Sencillo ",
-        "atBat": null,
+        "lastPlayByPlay": "Fernando Peguero Sencillo ",
+        "atBat": "Luis Liberato",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,7 +628,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -15290,12 +15290,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 7,
         "status": 2,
         "date": "2026-11-20 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "John Garcia Sencillo ",
-        "atBat": null,
+        "lastPlayByPlay": "Fernando Peguero Sencillo ",
+        "atBat": "Luis Liberato",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15340,7 +15340,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -21143,22 +21143,22 @@
       "date": "2026-11-20 19:30:00",
       "roundText": "Baja 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "John Garcia Sencillo ",
+      "lastPlayByPlay": "Fernando Peguero Sencillo ",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 5
+        "base": 7
       },
       "base_runners": {
-        "on1B": true,
+        "on1B": false,
         "on2B": true,
-        "on3B": false,
+        "on3B": true,
         "runners": 2,
-        "mask": 5
+        "mask": 7
       },
       "betting": {
         "moneyline": {
@@ -21318,6 +21318,17 @@
             "debut": false
           },
           "players": [
+            {
+              "id": 6337,
+              "team_id": 3,
+              "name": "Fernando Peguero",
+              "abbreviation": "F. Peguero",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
             {
               "id": 6213,
               "team_id": 3,
@@ -22213,6 +22224,20 @@
               "scored": false,
               "is_primary": true,
               "ts": 1795229614
+            },
+            {
+              "reference_id": "20616-2-76",
+              "text": "Fernando Peguero Sencillo ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795229917
+            },
+            {
+              "reference_id": "20616-2-77",
+              "text": "Luis Liberato al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795229925
             }
           ]
         }
@@ -22327,7 +22352,7 @@
           "num": 8,
           "half": "bottom",
           "label": "Baja 8va",
-          "total_plays": 4,
+          "total_plays": 6,
           "scoring_plays": 1
         }
       ],
