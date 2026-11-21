@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2263",
-    "scraped_at": "2026-11-21T02:26:39.103Z",
+    "scraped_at": "2026-11-21T02:27:44.854Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-11-20 19:30:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Leonardo Bernal   Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "Jorge Mateo Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -1025,10 +1025,17 @@
           },
           {
             "reference_id": "20616-1-67",
-            "text": "Jorge Mateo al bate",
+            "text": "Jorge Mateo Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1795227922
+            "ts": 1795228039
+          },
+          {
+            "reference_id": "20616-1-68",
+            "text": "Miguel Bleis al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795228059
           }
         ]
       }
@@ -1136,7 +1143,7 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
