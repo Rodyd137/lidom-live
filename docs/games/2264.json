@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2264",
-    "scraped_at": "2026-11-21T00:56:43.974Z",
+    "scraped_at": "2026-11-21T00:57:49.882Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-20 19:30:00",
-    "roundText": "Baja 2da",
-    "currentInningNum": 2,
-    "lastPlayByPlay": "Francisco Urbaez Ponche (K) ",
+    "roundText": "Alta 3ra",
+    "currentInningNum": 3,
+    "lastPlayByPlay": "Jose Barrero Robo de Base Tercera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 1
+      "battingTeam": "awayTeam",
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/tigres-del-licey",
         "totals": {
           "R": 1,
-          "H": 2,
+          "H": 3,
           "E": 0,
           "H2": 1
         },
@@ -154,10 +154,10 @@
             "position": ""
           },
           {
-            "id": 6314,
+            "id": 6024,
             "team_id": 1,
-            "name": "Domingo Leyba",
-            "abbreviation": "Domingo Leyba",
+            "name": "Jose Barrero",
+            "abbreviation": "Jose Barrero",
             "number": null,
             "dob": null,
             "height": "",
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 1,
-          "H": 2,
+          "H": 3,
           "E": 0
         },
         "home": {
@@ -632,6 +632,27 @@
             "ts": 1795222366
           }
         ]
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "plays": [
+          {
+            "reference_id": "20620-1-25",
+            "text": "Jose Barrero Doble! Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795222649
+          },
+          {
+            "reference_id": "20620-1-26",
+            "text": "Jose Barrero Robo de Base Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795222666
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -662,6 +683,13 @@
         "label": "Baja 2da",
         "total_plays": 7,
         "scoring_plays": 1
+      },
+      {
+        "num": 3,
+        "half": "top",
+        "label": "Alta 3ra",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -675,14 +703,14 @@
       {
         "num": 2,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 1
       },
       {
         "num": 3,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
