@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2266",
-    "scraped_at": "2026-11-21T22:15:39.744Z",
+    "scraped_at": "2026-11-21T22:16:43.903Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-21 17:00:00",
-    "roundText": "Alta 4ta",
+    "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Joshua Báez   Out: Rodado al Lanzador - Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -716,6 +716,20 @@
             "ts": 1795299320
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "20639-2-33",
+            "text": "Pablo Reyes al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795299391
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -767,6 +781,13 @@
         "label": "Alta 4ta",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -793,7 +814,7 @@
       },
       {
         "num": 4,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -847,7 +868,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 0,
           "hits": 2,
-          "errors": 2,
+          "errors": 1,
           "permalink": "/equipo/toros-del-este"
         },
         "homeTeam": {
