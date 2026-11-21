@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-21T00:50:07.967Z",
+    "scraped_at": "2026-11-21T00:51:13.689Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -583,7 +583,7 @@
         "date": "2026-11-20 19:30:00",
         "part": 1,
         "lastPlayByPlay": "Miguel Bleis Base por Bolas ",
-        "atBat": null,
+        "atBat": "Jose Tena",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -646,8 +646,8 @@
         "status": 2,
         "date": "2026-11-20 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Felix Reyes Ponche (K) ",
-        "atBat": "George Valera ",
+        "lastPlayByPlay": "George Valera  Base por Bolas ",
+        "atBat": "Francisco Urbaez",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -658,7 +658,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -15236,8 +15239,8 @@
         "status": 2,
         "date": "2026-11-20 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Carlos Jorge ",
+        "lastPlayByPlay": "Carlos Jorge   Out: Rodado al Campo Corto - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15282,7 +15285,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -15298,7 +15301,7 @@
         "date": "2026-11-20 19:30:00",
         "part": 1,
         "lastPlayByPlay": "Miguel Bleis Base por Bolas ",
-        "atBat": null,
+        "atBat": "Jose Tena",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15361,8 +15364,8 @@
         "status": 2,
         "date": "2026-11-20 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Felix Reyes Ponche (K) ",
-        "atBat": "George Valera ",
+        "lastPlayByPlay": "George Valera  Base por Bolas ",
+        "atBat": "Francisco Urbaez",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -15373,7 +15376,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 1,
           "name": "Tigres",
@@ -19782,7 +19788,7 @@
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -21523,6 +21529,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1795222038
+            },
+            {
+              "reference_id": "20612-1-30",
+              "text": "Jose Tena al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795222217
             }
           ]
         }
@@ -21574,7 +21587,7 @@
           "num": 4,
           "half": "top",
           "label": "Alta 4ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21764,7 +21777,7 @@
       "date": "2026-11-20 19:30:00",
       "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "Felix Reyes Ponche (K) ",
+      "lastPlayByPlay": "George Valera  Base por Bolas ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -22372,10 +22385,17 @@
             },
             {
               "reference_id": "20619-2-23",
-              "text": "George Valera  al bate",
+              "text": "George Valera  Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795222031
+              "ts": 1795222208
+            },
+            {
+              "reference_id": "20619-2-24",
+              "text": "Francisco Urbaez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795222212
             }
           ]
         }
@@ -22406,7 +22426,7 @@
           "num": 2,
           "half": "bottom",
           "label": "Baja 2da",
-          "total_plays": 6,
+          "total_plays": 7,
           "scoring_plays": 1
         }
       ],
