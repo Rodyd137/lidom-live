@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2263",
-    "scraped_at": "2026-11-21T00:31:32.615Z",
+    "scraped_at": "2026-11-21T00:32:38.396Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-20 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Mason Mccoy Base por Bolas ",
     "counts": {
-      "balls": 3,
-      "strikes": 2,
+      "balls": 0,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -647,10 +647,17 @@
         "plays": [
           {
             "reference_id": "20611-2-25",
-            "text": "Mason Mccoy al bate",
+            "text": "Mason Mccoy Base por Bolas ",
             "scored": false,
             "is_primary": true,
-            "ts": 1795221011
+            "ts": 1795221142
+          },
+          {
+            "reference_id": "20611-2-26",
+            "text": "Leody Taveras al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795221146
           }
         ]
       }
@@ -695,7 +702,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
