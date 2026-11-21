@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-21T21:52:13.613Z",
+    "scraped_at": "2026-11-21T21:53:17.555Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Elier Hernandez",
+        "lastPlayByPlay": "Elier Hernandez Base por Bolas ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Carlos Jorge  Base por Bolas ",
-        "atBat": "Noelvi Marte ",
+        "lastPlayByPlay": "Carlos Jorge  Robo de Base Segunda Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,7 +627,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 1,
         "strikes": 0
       },
@@ -15292,12 +15292,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Elier Hernandez",
+        "lastPlayByPlay": "Elier Hernandez Base por Bolas ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15353,12 +15353,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Carlos Jorge  Base por Bolas ",
-        "atBat": "Noelvi Marte ",
+        "lastPlayByPlay": "Carlos Jorge  Robo de Base Segunda Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15402,7 +15402,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 1,
         "strikes": 0
       },
@@ -19649,7 +19649,7 @@
       "date": "2026-11-21 17:00:00",
       "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Elier Hernandez Base por Bolas ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -19657,14 +19657,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20222,10 +20222,17 @@
           "plays": [
             {
               "reference_id": "20628-2-19",
-              "text": "Elier Hernandez al bate",
+              "text": "Elier Hernandez Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795297849
+              "ts": 1795297990
+            },
+            {
+              "reference_id": "20628-2-20",
+              "text": "Y. Encarnación al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795297997
             }
           ]
         }
@@ -20256,7 +20263,7 @@
           "num": 2,
           "half": "bottom",
           "label": "Baja 2da",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -20446,22 +20453,22 @@
       "date": "2026-11-21 17:00:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "Carlos Jorge  Base por Bolas ",
+      "lastPlayByPlay": "Carlos Jorge  Robo de Base Segunda Base",
       "counts": {
-        "balls": 0,
+        "balls": 2,
         "strikes": 0,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -21061,10 +21068,24 @@
             },
             {
               "reference_id": "20638-2-22",
-              "text": "Noelvi Marte  al bate",
+              "text": "Noelvi Marte  Out: Elevado al Segunda Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1795297709
+              "ts": 1795297936
+            },
+            {
+              "reference_id": "20638-2-23",
+              "text": "Marcell Ozuna  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795297938
+            },
+            {
+              "reference_id": "20638-2-22-300120",
+              "text": "Carlos Jorge  Robo de Base Segunda Base",
+              "scored": false,
+              "is_primary": false,
+              "ts": 1795297970
             }
           ]
         }
@@ -21109,7 +21130,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 2,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],

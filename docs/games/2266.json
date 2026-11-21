@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2266",
-    "scraped_at": "2026-11-21T21:52:15.730Z",
+    "scraped_at": "2026-11-21T21:53:19.864Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-21 17:00:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Carlos Jorge  Base por Bolas ",
+    "lastPlayByPlay": "Carlos Jorge  Robo de Base Segunda Base",
     "counts": {
-      "balls": 0,
+      "balls": 2,
       "strikes": 0,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -626,10 +626,24 @@
           },
           {
             "reference_id": "20638-2-22",
-            "text": "Noelvi Marte  al bate",
+            "text": "Noelvi Marte  Out: Elevado al Segunda Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1795297709
+            "ts": 1795297936
+          },
+          {
+            "reference_id": "20638-2-23",
+            "text": "Marcell Ozuna  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795297938
+          },
+          {
+            "reference_id": "20638-2-22-300120",
+            "text": "Carlos Jorge  Robo de Base Segunda Base",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1795297970
           }
         ]
       }
@@ -674,7 +688,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 2,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
