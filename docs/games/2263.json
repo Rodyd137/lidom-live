@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2263",
-    "scraped_at": "2026-11-21T00:34:50.462Z",
+    "scraped_at": "2026-11-21T00:35:56.244Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-20 19:30:00",
     "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Mason Mccoy Out Robando Base! ",
+    "lastPlayByPlay": "Luis Liberato Doble Play! Out: Línea al - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 1
+      "outs": 3
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 2,
           "H": 4,
-          "E": 0,
+          "E": 1,
           "H2": 2
         },
         "probables": {
@@ -342,7 +342,7 @@
         "away": {
           "R": 2,
           "H": 4,
-          "E": 0
+          "E": 1
         },
         "home": {
           "R": 0,
@@ -653,18 +653,25 @@
             "ts": 1795221142
           },
           {
-            "reference_id": "20611-2-26",
-            "text": "Leody Taveras al bate",
-            "scored": false,
-            "is_primary": true,
-            "ts": 1795221146
-          },
-          {
             "reference_id": "20611-2-25-299684",
             "text": "Mason Mccoy Out Robando Base! ",
             "scored": false,
             "is_primary": false,
             "ts": 1795221229
+          },
+          {
+            "reference_id": "20611-2-26",
+            "text": "Leody Taveras se embasa por Error del Campo Corto",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795221303
+          },
+          {
+            "reference_id": "20611-2-27",
+            "text": "Luis Liberato Doble Play! Out: Línea al - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795221343
           }
         ]
       }
@@ -709,7 +716,7 @@
         "num": 3,
         "half": "bottom",
         "label": "Baja 3ra",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -790,7 +797,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 0,
-          "hits": 3,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         },
@@ -826,7 +833,7 @@
           "abbr": "TE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
           "runs": 3,
-          "hits": 3,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/toros-del-este"
         }

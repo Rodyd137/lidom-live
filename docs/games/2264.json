@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2264",
-    "scraped_at": "2026-11-21T00:34:50.539Z",
+    "scraped_at": "2026-11-21T00:35:56.294Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-11-20 19:30:00",
     "roundText": "Baja 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "Enmanuel Valdez  Cuadrangular! Jardinero Central",
+    "lastPlayByPlay": "Onil Perez Sencillo Jardinero Central",
     "counts": {
       "balls": 0,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -175,7 +175,7 @@
         "permalink": "/equipo/toros-del-este",
         "totals": {
           "R": 3,
-          "H": 3,
+          "H": 4,
           "E": 0,
           "H2": 3
         },
@@ -346,7 +346,7 @@
         },
         "home": {
           "R": 3,
-          "H": 3,
+          "H": 4,
           "E": 0
         }
       },
@@ -591,10 +591,17 @@
           },
           {
             "reference_id": "20619-2-19",
-            "text": "Onil Perez al bate",
+            "text": "Onil Perez Sencillo Jardinero Central",
             "scored": false,
             "is_primary": true,
-            "ts": 1795221273
+            "ts": 1795221330
+          },
+          {
+            "reference_id": "20619-2-20",
+            "text": "Gilberto Celestino  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795221335
           }
         ]
       }
@@ -625,7 +632,7 @@
         "num": 2,
         "half": "bottom",
         "label": "Baja 2da",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 1
       }
     ],
@@ -706,7 +713,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 0,
-          "hits": 3,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         },
@@ -733,7 +740,7 @@
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 2,
           "hits": 4,
-          "errors": 0,
+          "errors": 1,
           "permalink": "/equipo/estrellas-orientales"
         },
         "homeTeam": {
