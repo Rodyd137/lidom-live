@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-21T23:08:49.348Z",
+    "scraped_at": "2026-11-21T23:09:53.317Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Ramon Hernandez  Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "Elier Hernandez",
+        "lastPlayByPlay": "Y. Encarnación  Out: Rodado al Lanzador - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -583,7 +583,7 @@
         "date": "2026-11-21 17:00:00",
         "part": 1,
         "lastPlayByPlay": "Gregory Polanco Ponche (Llega a primera por error) Carrera Empujada",
-        "atBat": null,
+        "atBat": "Joshua Báez ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -15296,8 +15299,8 @@
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Ramon Hernandez  Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "Elier Hernandez",
+        "lastPlayByPlay": "Y. Encarnación  Out: Rodado al Lanzador - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15342,7 +15345,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -15358,7 +15361,7 @@
         "date": "2026-11-21 17:00:00",
         "part": 1,
         "lastPlayByPlay": "Gregory Polanco Ponche (Llega a primera por error) Carrera Empujada",
-        "atBat": null,
+        "atBat": "Joshua Báez ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15369,7 +15372,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -19649,11 +19655,11 @@
       "date": "2026-11-21 17:00:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Ramon Hernandez  Out: Rodado al Tercera Base - Primera Base",
+      "lastPlayByPlay": "Y. Encarnación  Out: Rodado al Lanzador - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20390,10 +20396,17 @@
             },
             {
               "reference_id": "20630-2-39",
-              "text": "Elier Hernandez al bate",
+              "text": "Elier Hernandez  Out: Rodado al Tercera Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1795302402
+              "ts": 1795302563
+            },
+            {
+              "reference_id": "20630-2-40",
+              "text": "Y. Encarnación  Out: Rodado al Lanzador - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795302587
             }
           ]
         }
@@ -20452,7 +20465,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21520,6 +21533,13 @@
               "scored": true,
               "is_primary": true,
               "ts": 1795302505
+            },
+            {
+              "reference_id": "20641-1-51",
+              "text": "Joshua Báez  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795302537
             }
           ]
         }
@@ -21599,7 +21619,7 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 5,
+          "total_plays": 6,
           "scoring_plays": 1
         }
       ],
