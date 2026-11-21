@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-21T01:13:08.519Z",
+    "scraped_at": "2026-11-21T01:14:14.197Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-20 19:15:00",
         "part": 1,
-        "lastPlayByPlay": "Agustin Ramirez Ponche (K) ",
-        "atBat": "Deyvinson de los Santos",
+        "lastPlayByPlay": "Deyvinson de los Santos Ponche (K) ",
+        "atBat": "Roly Brito",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -583,7 +583,7 @@
         "date": "2026-11-20 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Marco Luciano ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2264,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-20 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Juan Brito Out: Elevado al Jardinero Derecho ",
-        "atBat": "Jeimer Candelario",
+        "lastPlayByPlay": "Jeimer Candelario Out: Elevado al Primera Base",
+        "atBat": "Enmanuel Valdez ",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -15234,7 +15234,7 @@
         "date": "2026-11-20 19:15:00",
         "part": 1,
         "lastPlayByPlay": "Deyvinson de los Santos Ponche (K) ",
-        "atBat": null,
+        "atBat": "Roly Brito",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15295,7 +15295,7 @@
         "date": "2026-11-20 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Marco Luciano ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15339,9 +15339,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2264,
@@ -15355,8 +15355,8 @@
         "status": 2,
         "date": "2026-11-20 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Juan Brito Out: Elevado al Jardinero Derecho ",
-        "atBat": "Jeimer Candelario",
+        "lastPlayByPlay": "Jeimer Candelario Out: Elevado al Primera Base",
+        "atBat": "Enmanuel Valdez ",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -15401,7 +15401,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       }
     ],
@@ -19772,7 +19772,7 @@
       "date": "2026-11-20 19:15:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Agustin Ramirez Ponche (K) ",
+      "lastPlayByPlay": "Deyvinson de los Santos Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -20632,10 +20632,17 @@
             },
             {
               "reference_id": "20606-1-47",
-              "text": "Deyvinson de los Santos al bate",
+              "text": "Deyvinson de los Santos Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795223487
+              "ts": 1795223588
+            },
+            {
+              "reference_id": "20606-1-48",
+              "text": "Roly Brito al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795223597
             }
           ]
         }
@@ -20729,7 +20736,7 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -20921,8 +20928,8 @@
       "currentInningNum": 5,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 2,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -21666,6 +21673,20 @@
               "ts": 1795223467
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "top",
+          "label": "Alta 5ta",
+          "plays": [
+            {
+              "reference_id": "20613-1-36",
+              "text": "Marco Luciano  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795223619
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21723,6 +21744,13 @@
           "half": "bottom",
           "label": "Baja 4ta",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 5,
+          "half": "top",
+          "label": "Alta 5ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -21912,11 +21940,11 @@
       "date": "2026-11-20 19:30:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "Juan Brito Out: Elevado al Jardinero Derecho ",
+      "lastPlayByPlay": "Jeimer Candelario Out: Elevado al Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -22597,10 +22625,17 @@
             },
             {
               "reference_id": "20620-2-32",
-              "text": "Jeimer Candelario al bate",
+              "text": "Jeimer Candelario Out: Elevado al Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1795223558
+              "ts": 1795223606
+            },
+            {
+              "reference_id": "20620-2-33",
+              "text": "Enmanuel Valdez  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795223609
             }
           ]
         }
@@ -22645,7 +22680,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
