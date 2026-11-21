@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2265",
-    "scraped_at": "2026-11-21T23:05:39.844Z",
+    "scraped_at": "2026-11-21T23:06:43.827Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-21 17:00:00",
-    "roundText": "Alta 4ta",
+    "roundText": "Baja 4ta",
     "currentInningNum": 4,
-    "lastPlayByPlay": "Onil Perez Ponche (K) ",
+    "lastPlayByPlay": "Ramon Hernandez  Out: Rodado al Tercera Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -737,6 +737,20 @@
             "ts": 1795302232
           }
         ]
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "plays": [
+          {
+            "reference_id": "20630-2-38",
+            "text": "Ramon Hernandez  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795302399
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -788,6 +802,13 @@
         "label": "Alta 4ta",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 4,
+        "half": "bottom",
+        "label": "Baja 4ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -814,7 +835,7 @@
       },
       {
         "num": 4,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
