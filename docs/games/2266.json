@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2266",
-    "scraped_at": "2026-11-21T22:40:09.495Z",
+    "scraped_at": "2026-11-21T22:41:13.185Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-21 17:00:00",
-    "roundText": "Alta 5ta",
+    "roundText": "Baja 5ta",
     "currentInningNum": 5,
-    "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "balls": 1,
+      "strikes": 2,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -814,6 +814,20 @@
             "ts": 1795300640
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "20640-2-42",
+            "text": "Hendry Mendez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795300829
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -879,6 +893,13 @@
         "label": "Alta 5ta",
         "total_plays": 6,
         "scoring_plays": 0
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -912,7 +933,7 @@
       },
       {
         "num": 5,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
