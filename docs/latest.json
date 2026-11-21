@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-21T02:11:17.676Z",
+    "scraped_at": "2026-11-21T02:12:23.343Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-20 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Marco Luciano  Base por Bolas ",
-        "atBat": "Cesar Prieto ",
+        "lastPlayByPlay": "Cesar Prieto  Elevado de Sacrificio Carrera Empujada",
+        "atBat": "Harold Andres Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,7 +627,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 2,
         "strikes": 0
       },
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-20 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Jeimer Candelario  Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "Enmanuel Valdez ",
+        "lastPlayByPlay": "Enmanuel Valdez  Base por Bolas ",
+        "atBat": "Onil Perez",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 1,
         "outs": 2,
-        "strikes": 2
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -15294,8 +15294,8 @@
         "status": 2,
         "date": "2026-11-20 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Marco Luciano  Base por Bolas ",
-        "atBat": "Cesar Prieto ",
+        "lastPlayByPlay": "Cesar Prieto  Elevado de Sacrificio Carrera Empujada",
+        "atBat": "Harold Andres Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15339,7 +15339,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 2,
         "strikes": 0
       },
@@ -15351,12 +15351,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-20 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Jeimer Candelario  Out: Rodado al Tercera Base - Primera Base",
-        "atBat": "Enmanuel Valdez ",
+        "lastPlayByPlay": "Enmanuel Valdez  Base por Bolas ",
+        "atBat": "Onil Perez",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -15400,9 +15400,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 1,
         "outs": 2,
-        "strikes": 2
+        "strikes": 1
       }
     ],
     "2026-11-21": [
@@ -21143,9 +21143,9 @@
       "date": "2026-11-20 19:30:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Marco Luciano  Base por Bolas ",
+      "lastPlayByPlay": "Cesar Prieto  Elevado de Sacrificio Carrera Empujada",
       "counts": {
-        "balls": 0,
+        "balls": 2,
         "strikes": 0,
         "outs": 2
       },
@@ -22101,10 +22101,17 @@
             },
             {
               "reference_id": "20615-1-61",
-              "text": "Cesar Prieto  al bate",
+              "text": "Cesar Prieto  Elevado de Sacrificio Carrera Empujada",
+              "scored": true,
+              "is_primary": true,
+              "ts": 1795227083
+            },
+            {
+              "reference_id": "20615-1-62",
+              "text": "Harold Andres Ramirez al bate",
               "scored": false,
               "is_primary": true,
-              "ts": 1795227007
+              "ts": 1795227090
             }
           ]
         }
@@ -22198,8 +22205,8 @@
           "num": 7,
           "half": "top",
           "label": "Alta 7ma",
-          "total_plays": 4,
-          "scoring_plays": 0
+          "total_plays": 5,
+          "scoring_plays": 1
         }
       ],
       "innings_raw": [
@@ -22388,22 +22395,22 @@
       "date": "2026-11-20 19:30:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Jeimer Candelario  Out: Rodado al Tercera Base - Primera Base",
+      "lastPlayByPlay": "Enmanuel Valdez  Base por Bolas ",
       "counts": {
-        "balls": 3,
-        "strikes": 2,
+        "balls": 1,
+        "strikes": 1,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -23262,10 +23269,17 @@
             },
             {
               "reference_id": "20622-2-54",
-              "text": "Enmanuel Valdez  al bate",
+              "text": "Enmanuel Valdez  Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795226899
+              "ts": 1795227085
+            },
+            {
+              "reference_id": "20622-2-55",
+              "text": "Onil Perez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795227087
             }
           ]
         }
@@ -23338,7 +23352,7 @@
           "num": 5,
           "half": "bottom",
           "label": "Baja 5ta",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
