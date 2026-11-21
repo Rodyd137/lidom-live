@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-21T23:48:18.822Z",
+    "scraped_at": "2026-11-21T23:49:22.879Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,7 +533,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/344328d644485325998a132db1f0cc6a.png",
+          "text": "Lesión"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -568,7 +571,7 @@
         },
         "balls": 1,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2266,
@@ -581,16 +584,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-21 17:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Eddison Paulino   Out: Rodado al Segunda Base - Primera Base",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Erik Gonzales",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 7ma",
-        "currentInningNum": 7,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 8va",
+        "currentInningNum": 8,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -628,7 +631,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -644,7 +647,7 @@
         "date": "2026-11-21 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jose Tena",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15308,7 +15311,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/344328d644485325998a132db1f0cc6a.png",
+          "text": "Lesión"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -15343,7 +15349,7 @@
         },
         "balls": 1,
         "outs": 1,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2266,
@@ -15356,16 +15362,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-21 17:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Eddison Paulino   Out: Rodado al Segunda Base - Primera Base",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Erik Gonzales",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 7ma",
-        "currentInningNum": 7,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 8va",
+        "currentInningNum": 8,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -15403,7 +15409,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -15419,7 +15425,7 @@
         "date": "2026-11-21 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jose Tena",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -19652,7 +19658,7 @@
       "lastPlayByPlay": "Juan Brito Sencillo Jardinero Izquierdo",
       "counts": {
         "balls": 1,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 1
       },
       "base_state": {
@@ -20694,7 +20700,7 @@
           "id": 2266,
           "date": "2026-11-21 17:00:00",
           "status": 2,
-          "roundText": "Baja 7ma",
+          "roundText": "Alta 8va",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -20808,16 +20814,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-21 17:00:00",
-      "roundText": "Baja 7ma",
-      "currentInningNum": 7,
-      "lastPlayByPlay": "Eddison Paulino   Out: Rodado al Segunda Base - Primera Base",
+      "roundText": "Alta 8va",
+      "currentInningNum": 8,
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
+        "battingTeam": "awayTeam",
         "base": 1
       },
       "base_runners": {
@@ -21809,6 +21815,20 @@
               "ts": 1795304857
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "plays": [
+            {
+              "reference_id": "20643-1-65",
+              "text": "Erik Gonzales al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795304934
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21909,6 +21929,13 @@
           "label": "Baja 7ma",
           "total_plays": 6,
           "scoring_plays": 1
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -21957,14 +21984,14 @@
         {
           "num": 7,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 0,
           "homeTeamRuns": 1
         },
         {
           "num": 8,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
@@ -22249,7 +22276,41 @@
             "record": "",
             "debut": false
           },
-          "players": []
+          "players": [
+            {
+              "id": 6267,
+              "team_id": 7,
+              "name": "Jose Tena",
+              "abbreviation": "Jose Tena",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6303,
+              "team_id": 7,
+              "name": "David Villar",
+              "abbreviation": "David Villar",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6000,
+              "team_id": 7,
+              "name": "Raimel Tapia",
+              "abbreviation": "R. Tapia",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            }
+          ]
         }
       },
       "comment": "",
@@ -22428,6 +22489,20 @@
               "ts": 1795304793
             }
           ]
+        },
+        {
+          "num": 1,
+          "half": "bottom",
+          "label": "Baja 1ra",
+          "plays": [
+            {
+              "reference_id": "20645-2-5",
+              "text": "Jose Tena al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795304958
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22436,6 +22511,13 @@
           "half": "top",
           "label": "Alta 1ra",
           "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 1,
+          "half": "bottom",
+          "label": "Baja 1ra",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -22535,7 +22617,7 @@
           "id": 2266,
           "date": "2026-11-21 17:00:00",
           "status": 2,
-          "roundText": "Baja 7ma",
+          "roundText": "Alta 8va",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
