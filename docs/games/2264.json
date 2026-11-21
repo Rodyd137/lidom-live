@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2264",
-    "scraped_at": "2026-11-21T02:16:47.722Z",
+    "scraped_at": "2026-11-21T02:17:53.522Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-20 19:30:00",
-    "roundText": "Baja 5ta",
-    "currentInningNum": 5,
-    "lastPlayByPlay": "Onil Perez Ponche (K) ",
+    "roundText": "Alta 6ta",
+    "currentInningNum": 6,
+    "lastPlayByPlay": "Jose Barrero Out: Elevado al Segunda Base",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "balls": 1,
+      "strikes": 1,
+      "outs": 2
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -898,6 +898,34 @@
             "ts": 1795227179
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "20623-1-56",
+            "text": "Domingo Leyba Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795227434
+          },
+          {
+            "reference_id": "20623-1-57",
+            "text": "Jose Barrero Out: Elevado al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795227470
+          },
+          {
+            "reference_id": "20623-1-58",
+            "text": "Y. Encarnación al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795227472
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -970,6 +998,13 @@
         "label": "Baja 5ta",
         "total_plays": 4,
         "scoring_plays": 0
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 3,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1004,14 +1039,14 @@
       {
         "num": 5,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 2,
         "homeTeamRuns": 0
       },
       {
         "num": 6,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
