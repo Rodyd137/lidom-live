@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-21T21:47:57.747Z",
+    "scraped_at": "2026-11-21T21:49:01.560Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 1,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Juan Brito  Out: Rodado al Segunda Base - Campo Corto",
-        "atBat": "Rafael Lantigua ",
+        "lastPlayByPlay": "Rafael Lantigua   Out: Rodado al Campo Corto - Segunda Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Carlos Jorge ",
+        "lastPlayByPlay": "Carlos Jorge  Base por Bolas ",
+        "atBat": "Noelvi Marte ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,7 +627,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 0,
         "strikes": 0
       },
@@ -15292,12 +15292,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 1,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Juan Brito  Out: Rodado al Segunda Base - Campo Corto",
-        "atBat": "Rafael Lantigua ",
+        "lastPlayByPlay": "Rafael Lantigua   Out: Rodado al Campo Corto - Segunda Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15342,7 +15342,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -15353,12 +15353,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Carlos Jorge ",
+        "lastPlayByPlay": "Carlos Jorge  Base por Bolas ",
+        "atBat": "Noelvi Marte ",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15402,7 +15402,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 0,
         "strikes": 0
       },
@@ -19649,22 +19649,22 @@
       "date": "2026-11-21 17:00:00",
       "roundText": "Alta 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "Juan Brito  Out: Rodado al Segunda Base - Campo Corto",
+      "lastPlayByPlay": "Rafael Lantigua   Out: Rodado al Campo Corto - Segunda Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
+        "on1B": false,
         "on2B": false,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -20208,10 +20208,10 @@
             },
             {
               "reference_id": "20628-1-18",
-              "text": "Rafael Lantigua  al bate",
+              "text": "Rafael Lantigua   Out: Rodado al Campo Corto - Segunda Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1795297666
+              "ts": 1795297731
             }
           ]
         }
@@ -20425,22 +20425,22 @@
       "date": "2026-11-21 17:00:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Carlos Jorge  Base por Bolas ",
       "counts": {
-        "balls": 1,
+        "balls": 0,
         "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -21033,10 +21033,17 @@
           "plays": [
             {
               "reference_id": "20638-2-21",
-              "text": "Carlos Jorge  al bate",
+              "text": "Carlos Jorge  Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795297587
+              "ts": 1795297707
+            },
+            {
+              "reference_id": "20638-2-22",
+              "text": "Noelvi Marte  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795297709
             }
           ]
         }
@@ -21081,7 +21088,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
