@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2263",
-    "scraped_at": "2026-11-21T02:06:57.393Z",
+    "scraped_at": "2026-11-21T02:08:03.375Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-20 19:30:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Raimel Tapia  Out: Rodado al Primera Base",
     "counts": {
-      "balls": 2,
+      "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
       "on2B": false,
-      "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "on3B": true,
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/estrellas-orientales",
         "totals": {
           "R": 7,
-          "H": 14,
+          "H": 15,
           "E": 1,
           "H2": 5
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 7,
-          "H": 14,
+          "H": 15,
           "E": 1
         },
         "home": {
@@ -948,10 +948,24 @@
         "plays": [
           {
             "reference_id": "20615-1-58",
-            "text": "David Villar al bate",
+            "text": "David Villar Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1795226767
+            "ts": 1795226824
+          },
+          {
+            "reference_id": "20615-1-59",
+            "text": "Raimel Tapia  Out: Rodado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795226878
+          },
+          {
+            "reference_id": "20615-1-60",
+            "text": "Marco Luciano  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795226881
           }
         ]
       }
@@ -1045,7 +1059,7 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 1,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -1118,7 +1132,7 @@
       {
         "id": 2262,
         "date": "2026-11-20 19:15:00",
-        "status": 2,
+        "status": 6,
         "roundText": "Baja 9na",
         "awayTeam": {
           "id": 5,
