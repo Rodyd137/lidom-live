@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-21T02:04:42.618Z",
+    "scraped_at": "2026-11-21T02:05:48.553Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-20 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Jonathan Guzman Ponche (K) ",
-        "atBat": "Vidal Brujan",
+        "lastPlayByPlay": "Vidal Brujan  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Erik Gonzales",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
-        "outs": 1,
-        "strikes": 0
+        "balls": 1,
+        "outs": 2,
+        "strikes": 1
       },
       {
         "id": 2263,
@@ -644,7 +644,7 @@
         "date": "2026-11-20 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jeimer Candelario",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -688,9 +688,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -15233,8 +15233,8 @@
         "status": 2,
         "date": "2026-11-20 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "Jonathan Guzman Ponche (K) ",
-        "atBat": "Vidal Brujan",
+        "lastPlayByPlay": "Vidal Brujan  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": "Erik Gonzales",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15278,9 +15278,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 2,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2263,
@@ -15356,7 +15356,7 @@
         "date": "2026-11-20 19:30:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jeimer Candelario",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
@@ -15400,9 +15400,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 2
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "2026-11-21": [
@@ -19772,10 +19772,10 @@
       "date": "2026-11-20 19:15:00",
       "roundText": "Baja 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "Jonathan Guzman Ponche (K) ",
+      "lastPlayByPlay": "Vidal Brujan  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 2
       },
       "base_state": {
@@ -20814,10 +20814,17 @@
             },
             {
               "reference_id": "20608-2-68",
-              "text": "Vidal Brujan al bate",
+              "text": "Vidal Brujan  Out: Rodado al Segunda Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1795226623
+              "ts": 1795226684
+            },
+            {
+              "reference_id": "20608-2-69",
+              "text": "Erik Gonzales al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795226686
             }
           ]
         }
@@ -20946,7 +20953,7 @@
           "num": 9,
           "half": "bottom",
           "label": "Baja 9na",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -22341,9 +22348,9 @@
       "currentInningNum": 5,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -23191,6 +23198,27 @@
               "ts": 1795226432
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "plays": [
+            {
+              "reference_id": "20622-2-52",
+              "text": "Juan Brito Ponche (K) ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795226702
+            },
+            {
+              "reference_id": "20622-2-53",
+              "text": "Jeimer Candelario al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795226706
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23256,6 +23284,13 @@
           "label": "Alta 5ta",
           "total_plays": 6,
           "scoring_plays": 2
+        },
+        {
+          "num": 5,
+          "half": "bottom",
+          "label": "Baja 5ta",
+          "total_plays": 2,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [

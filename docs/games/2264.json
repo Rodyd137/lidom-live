@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2264",
-    "scraped_at": "2026-11-21T02:04:46.065Z",
+    "scraped_at": "2026-11-21T02:05:52.031Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,9 +13,9 @@
     "currentInningNum": 5,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -863,6 +863,27 @@
             "ts": 1795226432
           }
         ]
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "plays": [
+          {
+            "reference_id": "20622-2-52",
+            "text": "Juan Brito Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795226702
+          },
+          {
+            "reference_id": "20622-2-53",
+            "text": "Jeimer Candelario al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795226706
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -928,6 +949,13 @@
         "label": "Alta 5ta",
         "total_plays": 6,
         "scoring_plays": 2
+      },
+      {
+        "num": 5,
+        "half": "bottom",
+        "label": "Baja 5ta",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
