@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2264",
-    "scraped_at": "2026-11-21T02:28:50.751Z",
+    "scraped_at": "2026-11-21T02:29:56.525Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-20 19:30:00",
     "roundText": "Baja 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Gilberto Celestino  se embasa por Error del Campo Corto",
+    "lastPlayByPlay": "Gilberto Celestino  Out Robando Base! Lanzador - Primera Base",
     "counts": {
       "balls": 1,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -55,7 +55,7 @@
         "totals": {
           "R": 6,
           "H": 8,
-          "E": 1,
+          "E": 3,
           "H2": 6
         },
         "probables": {
@@ -176,7 +176,7 @@
         "totals": {
           "R": 4,
           "H": 7,
-          "E": 2,
+          "E": 1,
           "H2": 4
         },
         "probables": {
@@ -342,12 +342,12 @@
         "away": {
           "R": 6,
           "H": 8,
-          "E": 1
+          "E": 3
         },
         "home": {
           "R": 4,
           "H": 7,
-          "E": 2
+          "E": 1
         }
       },
       "cumulative": {
@@ -952,6 +952,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1795227910
+          },
+          {
+            "reference_id": "20623-2-60-299940",
+            "text": "Gilberto Celestino  Out Robando Base! Lanzador - Primera Base",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1795228160
           }
         ]
       }
@@ -1038,7 +1045,7 @@
         "num": 6,
         "half": "bottom",
         "label": "Baja 6ta",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
