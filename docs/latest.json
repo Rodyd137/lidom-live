@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-21T01:47:09.944Z",
+    "scraped_at": "2026-11-21T01:48:15.664Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-20 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Ramon Laureano",
+        "lastPlayByPlay": "Ramon Laureano Out: Elevado al Jardinero Izquierdo",
+        "atBat": "Carlos Santana",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,8 +628,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 1
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2264,
@@ -642,16 +642,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-20 19:30:00",
-        "part": 2,
-        "lastPlayByPlay": "Francisco Urbaez Out: Línea al Jardinero Central",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Miguel Andujar",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
         "savingPitcher": "",
-        "roundText": "Baja 4ta",
-        "currentInningNum": 4,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 5ta",
+        "currentInningNum": 5,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -15234,7 +15234,7 @@
         "date": "2026-11-20 19:15:00",
         "part": 2,
         "lastPlayByPlay": "Ramon Laureano Out: Elevado al Jardinero Izquierdo",
-        "atBat": null,
+        "atBat": "Carlos Santana",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15340,8 +15340,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 2
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2264,
@@ -15354,16 +15354,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-20 19:30:00",
-        "part": 2,
-        "lastPlayByPlay": "Francisco Urbaez Out: Línea al Jardinero Central",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Miguel Andujar",
         "comment": "",
         "winningPitcher": "",
         "losingPitcher": "",
         "savingPitcher": "",
-        "roundText": "Baja 4ta",
-        "currentInningNum": 4,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 5ta",
+        "currentInningNum": 5,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -15401,7 +15401,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -20969,7 +20969,7 @@
           "id": 2264,
           "date": "2026-11-20 19:30:00",
           "status": 2,
-          "roundText": "Baja 4ta",
+          "roundText": "Alta 5ta",
           "awayTeam": {
             "id": 1,
             "name": "Tigres",
@@ -21062,8 +21062,8 @@
       "lastPlayByPlay": "Harold Andres Ramirez Sencillo y 1 Carrera Impulsada ",
       "counts": {
         "balls": 0,
-        "strikes": 2,
-        "outs": 0
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22116,7 +22116,7 @@
           "id": 2264,
           "date": "2026-11-20 19:30:00",
           "status": 2,
-          "roundText": "Baja 4ta",
+          "roundText": "Alta 5ta",
           "awayTeam": {
             "id": 1,
             "name": "Tigres",
@@ -22204,16 +22204,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-20 19:30:00",
-      "roundText": "Baja 4ta",
-      "currentInningNum": 4,
-      "lastPlayByPlay": "Francisco Urbaez Out: Línea al Jardinero Central",
+      "roundText": "Alta 5ta",
+      "currentInningNum": 5,
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
+        "battingTeam": "awayTeam",
         "base": 1
       },
       "base_runners": {
@@ -23009,6 +23009,20 @@
               "ts": 1795225503
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "top",
+          "label": "Alta 5ta",
+          "plays": [
+            {
+              "reference_id": "20622-1-46",
+              "text": "Miguel Andujar al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795225649
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23067,6 +23081,13 @@
           "label": "Baja 4ta",
           "total_plays": 7,
           "scoring_plays": 2
+        },
+        {
+          "num": 5,
+          "half": "top",
+          "label": "Alta 5ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -23094,14 +23115,14 @@
         {
           "num": 4,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 2,
           "homeTeamRuns": 1
         },
         {
           "num": 5,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
