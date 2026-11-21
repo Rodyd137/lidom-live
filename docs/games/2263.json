@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2263",
-    "scraped_at": "2026-11-21T02:47:27.226Z",
+    "scraped_at": "2026-11-21T02:48:32.753Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-20 19:30:00",
     "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Santiago Espinal Base por Bolas ",
     "counts": {
       "balls": 0,
-      "strikes": 2,
+      "strikes": 0,
       "outs": 0
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 2
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
+      "on1B": false,
       "on2B": false,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -174,7 +174,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 0,
+          "R": 2,
           "H": 1,
           "E": 4,
           "H2": 0
@@ -253,10 +253,10 @@
             "position": ""
           },
           {
-            "id": 6313,
+            "id": 6120,
             "team_id": 3,
-            "name": "Victor Roble",
-            "abbreviation": "V. Roble",
+            "name": "Aderlin Rodríguez",
+            "abbreviation": "A. Rodriguez",
             "number": null,
             "dob": null,
             "height": "",
@@ -329,7 +329,7 @@
         {
           "num": 8,
           "away": 1,
-          "home": 0
+          "home": 2
         },
         {
           "num": 9,
@@ -345,7 +345,7 @@
           "E": 1
         },
         "home": {
-          "R": 0,
+          "R": 2,
           "H": 1,
           "E": 4
         }
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 0
+            "R": 2
           },
           {
             "num": 9,
-            "R": 0
+            "R": 2
           }
         ]
       }
@@ -1059,6 +1059,20 @@
             "ts": 1795228962
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "20616-2-72",
+            "text": "Santiago Espinal Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795229281
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1166,6 +1180,13 @@
         "label": "Alta 8va",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1223,7 +1244,7 @@
         "part": 2,
         "is_last": 1,
         "awayTeamRuns": 1,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 2
       },
       {
         "num": 9,
