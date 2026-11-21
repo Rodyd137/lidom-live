@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2262",
-    "scraped_at": "2026-11-21T01:46:07.365Z",
+    "scraped_at": "2026-11-21T01:47:13.126Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-20 19:15:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Agustin Ramirez Ponche (K) ",
+    "lastPlayByPlay": "Ramon Laureano Out: Elevado al Jardinero Izquierdo",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
-      "outs": 3
+      "balls": 1,
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Enmanuel Mejia",
+          "pitcher": "Hanzel Robles",
           "era": "",
           "record": "",
           "debut": false
@@ -975,6 +975,27 @@
             "ts": 1795225400
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "20607-2-60",
+            "text": "Ramon Laureano Out: Elevado al Jardinero Izquierdo",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795225627
+          },
+          {
+            "reference_id": "20607-2-61",
+            "text": "Carlos Santana al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795225631
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1082,6 +1103,13 @@
         "label": "Alta 8va",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1136,7 +1164,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -1160,8 +1188,8 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 5,
-          "hits": 12,
+          "runs": 6,
+          "hits": 13,
           "errors": 1,
           "permalink": "/equipo/estrellas-orientales"
         },
