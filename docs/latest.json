@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-21T21:18:07.837Z",
+    "scraped_at": "2026-11-21T21:19:11.895Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -566,9 +566,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2266,
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Noelvi Marte  Cuadrangular! Jardinero Central",
-        "atBat": "Marcell Ozuna ",
+        "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
+        "atBat": "Hendry Mendez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 1,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2267,
@@ -15341,9 +15341,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2266,
@@ -15353,12 +15353,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Noelvi Marte  Cuadrangular! Jardinero Central",
-        "atBat": "Marcell Ozuna ",
+        "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
+        "atBat": "Hendry Mendez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15402,9 +15402,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 1,
-        "strikes": 2
+        "strikes": 0
       },
       {
         "id": 2267,
@@ -19651,8 +19651,8 @@
       "currentInningNum": 1,
       "lastPlayByPlay": "Y. Encarnación Sencillo Jardinero Izquierdo",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -20327,22 +20327,22 @@
       "date": "2026-11-21 17:00:00",
       "roundText": "Baja 1ra",
       "currentInningNum": 1,
-      "lastPlayByPlay": "Noelvi Marte  Cuadrangular! Jardinero Central",
+      "lastPlayByPlay": "Marcell Ozuna  Base por Bolas ",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -20795,10 +20795,17 @@
             },
             {
               "reference_id": "20636-2-6",
-              "text": "Marcell Ozuna  al bate",
+              "text": "Marcell Ozuna  Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795295810
+              "ts": 1795295930
+            },
+            {
+              "reference_id": "20636-2-7",
+              "text": "Hendry Mendez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795295933
             }
           ]
         }
@@ -20815,7 +20822,7 @@
           "num": 1,
           "half": "bottom",
           "label": "Baja 1ra",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 1
         }
       ],
