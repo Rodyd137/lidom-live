@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-21T00:40:16.346Z",
+    "scraped_at": "2026-11-21T00:41:22.080Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-20 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Yamaico Navarro",
+        "lastPlayByPlay": "Yamaico Navarro se embasa por Error del Campo Corto",
+        "atBat": "Ramon Laureano",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -543,7 +543,7 @@
           "permalink": "/equipo/gigantes-del-cibao",
           "runs": 0,
           "runs_half": 0,
-          "errors": 0,
+          "errors": 1,
           "hits": 4,
           "pitcher": "Jake Eder",
           "era": "",
@@ -566,7 +566,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 0,
         "strikes": 0
       },
@@ -578,7 +578,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-20 19:30:00",
         "part": 1,
@@ -629,7 +629,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2264,
@@ -15232,12 +15232,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-20 19:15:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Yamaico Navarro",
+        "lastPlayByPlay": "Yamaico Navarro se embasa por Error del Campo Corto",
+        "atBat": "Ramon Laureano",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15258,7 +15258,7 @@
           "permalink": "/equipo/gigantes-del-cibao",
           "runs": 0,
           "runs_half": 0,
-          "errors": 0,
+          "errors": 1,
           "hits": 4,
           "pitcher": "Jake Eder",
           "era": "",
@@ -15281,7 +15281,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
+        "balls": 0,
         "outs": 0,
         "strikes": 0
       },
@@ -15293,7 +15293,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-20 19:30:00",
         "part": 1,
@@ -15342,9 +15342,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2264,
@@ -19778,22 +19778,22 @@
       "date": "2026-11-20 19:15:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Yamaico Navarro se embasa por Error del Campo Corto",
       "counts": {
-        "balls": 1,
+        "balls": 0,
         "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -19822,7 +19822,7 @@
           "totals": {
             "R": 0,
             "H": 4,
-            "E": 0,
+            "E": 1,
             "H2": 0
           },
           "probables": {
@@ -20109,7 +20109,7 @@
           "away": {
             "R": 0,
             "H": 4,
-            "E": 0
+            "E": 1
           },
           "home": {
             "R": 0,
@@ -20526,10 +20526,17 @@
           "plays": [
             {
               "reference_id": "20604-2-34",
-              "text": "Yamaico Navarro al bate",
+              "text": "Yamaico Navarro se embasa por Error del Campo Corto",
               "scored": false,
               "is_primary": true,
-              "ts": 1795221571
+              "ts": 1795221673
+            },
+            {
+              "reference_id": "20604-2-35",
+              "text": "Ramon Laureano al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795221676
             }
           ]
         }
@@ -20602,7 +20609,7 @@
           "num": 5,
           "half": "bottom",
           "label": "Baja 5ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -20795,19 +20802,19 @@
       "lastPlayByPlay": "Jorge Mateo Sencillo ",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -21607,7 +21614,7 @@
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 0,
             "hits": 4,
-            "errors": 0,
+            "errors": 1,
             "permalink": "/equipo/gigantes-del-cibao"
           },
           "homeTeam": {
@@ -22425,7 +22432,7 @@
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
             "runs": 0,
             "hits": 4,
-            "errors": 0,
+            "errors": 1,
             "permalink": "/equipo/gigantes-del-cibao"
           },
           "homeTeam": {
