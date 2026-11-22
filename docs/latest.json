@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-22T00:30:01.086Z",
+    "scraped_at": "2026-11-22T00:31:05.917Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -522,7 +522,7 @@
         "date": "2026-11-21 17:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Felix Reyes",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -566,7 +566,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
         "strikes": 0
       },
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-21 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Jose Tena Doble! 1 Carrera Impulsada ",
-        "atBat": "David Villar",
+        "lastPlayByPlay": "David Villar Out: Elevado al Jardinero Central",
+        "atBat": "Raimel Tapia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,8 +689,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 2
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -15297,7 +15297,7 @@
         "date": "2026-11-21 17:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Felix Reyes",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15336,12 +15336,12 @@
           "runs_half": 9,
           "errors": 2,
           "hits": 11,
-          "pitcher": "Alexander Cornielle",
+          "pitcher": "Nico Tellache",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
         "strikes": 0
       },
@@ -15418,8 +15418,8 @@
         "status": 2,
         "date": "2026-11-21 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "Jose Tena Doble! 1 Carrera Impulsada ",
-        "atBat": "David Villar",
+        "lastPlayByPlay": "David Villar Out: Elevado al Jardinero Central",
+        "atBat": "Raimel Tapia",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15464,8 +15464,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 2
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "2026-11-22": [
@@ -19651,7 +19651,7 @@
       "currentInningNum": 8,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
+        "balls": 1,
         "strikes": 0,
         "outs": 0
       },
@@ -19818,7 +19818,7 @@
             "H2": 9
           },
           "probables": {
-            "pitcher": "Alexander Cornielle",
+            "pitcher": "Nico Tellache",
             "era": "",
             "record": "",
             "debut": false
@@ -20669,6 +20669,20 @@
               "ts": 1795307280
             }
           ]
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "plays": [
+            {
+              "reference_id": "20634-1-75",
+              "text": "Felix Reyes al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795307401
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20768,6 +20782,13 @@
           "half": "bottom",
           "label": "Baja 7ma",
           "total_plays": 3,
+          "scoring_plays": 0
+        },
+        {
+          "num": 8,
+          "half": "top",
+          "label": "Alta 8va",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
@@ -22405,11 +22426,11 @@
       "date": "2026-11-21 19:30:00",
       "roundText": "Baja 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "Jose Tena Doble! 1 Carrera Impulsada ",
+      "lastPlayByPlay": "David Villar Out: Elevado al Jardinero Central",
       "counts": {
         "balls": 0,
-        "strikes": 2,
-        "outs": 0
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -23006,10 +23027,17 @@
             },
             {
               "reference_id": "20647-2-21",
-              "text": "David Villar al bate",
+              "text": "David Villar Out: Elevado al Jardinero Central",
               "scored": false,
               "is_primary": true,
-              "ts": 1795307169
+              "ts": 1795307443
+            },
+            {
+              "reference_id": "20647-2-22",
+              "text": "Raimel Tapia al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795307452
             }
           ]
         }
@@ -23054,7 +23082,7 @@
           "num": 3,
           "half": "bottom",
           "label": "Baja 3ra",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 1
         }
       ],
