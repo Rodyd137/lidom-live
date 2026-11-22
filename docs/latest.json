@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-22T22:41:31.521Z",
+    "scraped_at": "2026-11-22T22:42:36.417Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Erik Gonzales Ponche (K) ",
-        "atBat": "Marmolejos",
+        "lastPlayByPlay": "Marmolejos  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -628,7 +628,7 @@
           "record": "1 - 0"
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Josh Lester  Ponche (K) ",
-        "atBat": "Dairon Blanco",
+        "lastPlayByPlay": "Dairon Blanco Out: Elevado al Segunda Base",
+        "atBat": "Rodolfo Castro",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 2,
         "strikes": 0
       },
       {
@@ -705,7 +705,7 @@
         "date": "2026-11-22 19:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Luis Liberato",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -749,9 +749,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -15664,8 +15664,8 @@
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Erik Gonzales Ponche (K) ",
-        "atBat": "Marmolejos",
+        "lastPlayByPlay": "Marmolejos  Out: Rodado al Segunda Base - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15710,7 +15710,7 @@
           "record": "1 - 0"
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -15725,8 +15725,8 @@
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Josh Lester  Ponche (K) ",
-        "atBat": "Dairon Blanco",
+        "lastPlayByPlay": "Dairon Blanco Out: Elevado al Segunda Base",
+        "atBat": "Rodolfo Castro",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15771,8 +15771,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
-        "strikes": 2
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2349,
@@ -15831,9 +15831,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       }
     ],
     "2026-11-23": [
@@ -19897,11 +19897,11 @@
       "date": "2026-11-22 17:00:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Erik Gonzales Ponche (K) ",
+      "lastPlayByPlay": "Marmolejos  Out: Rodado al Segunda Base - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -20673,10 +20673,10 @@
             },
             {
               "reference_id": "20659-1-39",
-              "text": "Marmolejos al bate",
+              "text": "Marmolejos  Out: Rodado al Segunda Base - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1795387246
+              "ts": 1795387308
             }
           ]
         }
@@ -20972,11 +20972,11 @@
       "date": "2026-11-22 17:00:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Josh Lester  Ponche (K) ",
+      "lastPlayByPlay": "Dairon Blanco Out: Elevado al Segunda Base",
       "counts": {
         "balls": 0,
-        "strikes": 2,
-        "outs": 1
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21692,10 +21692,17 @@
             },
             {
               "reference_id": "20675-2-35",
-              "text": "Dairon Blanco al bate",
+              "text": "Dairon Blanco Out: Elevado al Segunda Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1795387252
+              "ts": 1795387319
+            },
+            {
+              "reference_id": "20675-2-36",
+              "text": "Rodolfo Castro al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795387321
             }
           ]
         }
@@ -21754,7 +21761,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21972,8 +21979,8 @@
       "currentInningNum": 1,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
