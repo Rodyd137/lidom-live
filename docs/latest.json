@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-22T22:51:14.580Z",
+    "scraped_at": "2026-11-22T22:52:19.749Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -622,14 +622,14 @@
           "runs_half": 2,
           "errors": 0,
           "hits": 4,
-          "pitcher": "Luis Frias",
+          "pitcher": "Michael Arias",
           "era": "",
           "debut": 0,
           "record": "1 - 0"
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2270,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Jeimer Candelario Base por Bolas ",
-        "atBat": "Pedro Severino",
+        "lastPlayByPlay": "Pedro Severino  Out: Rodado al Campo Corto",
+        "atBat": "Ronny Simon",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -703,16 +703,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-22 19:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Leody Taveras Ponche (K) ",
-        "atBat": "Cris Suero",
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 1ra",
-        "currentInningNum": 1,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 2da",
+        "currentInningNum": 2,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -750,7 +750,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -15704,14 +15704,14 @@
           "runs_half": 2,
           "errors": 0,
           "hits": 4,
-          "pitcher": "Luis Frias",
+          "pitcher": "Michael Arias",
           "era": "",
           "debut": 0,
           "record": "1 - 0"
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 1
       },
       {
         "id": 2270,
@@ -15726,7 +15726,7 @@
         "date": "2026-11-22 17:00:00",
         "part": 1,
         "lastPlayByPlay": "Pedro Severino  Out: Rodado al Campo Corto",
-        "atBat": null,
+        "atBat": "Ronny Simon",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15785,16 +15785,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-22 19:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Leody Taveras Ponche (K) ",
-        "atBat": "Cris Suero",
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Baja 1ra",
-        "currentInningNum": 1,
-        "battingTeam": "homeTeam",
+        "roundText": "Alta 2da",
+        "currentInningNum": 2,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -15832,7 +15832,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -19899,8 +19899,8 @@
       "currentInningNum": 7,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 0
       },
       "base_state": {
@@ -20066,7 +20066,7 @@
             "H2": 2
           },
           "probables": {
-            "pitcher": "Luis Frias",
+            "pitcher": "Michael Arias",
             "era": "",
             "record": "1 - 0",
             "debut": false
@@ -20891,7 +20891,7 @@
           "id": 2349,
           "date": "2026-11-22 19:00:00",
           "status": 2,
-          "roundText": "Baja 1ra",
+          "roundText": "Alta 2da",
           "awayTeam": {
             "id": 5,
             "name": "Gigantes",
@@ -21007,7 +21007,7 @@
       "date": "2026-11-22 17:00:00",
       "roundText": "Alta 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Jeimer Candelario Base por Bolas ",
+      "lastPlayByPlay": "Pedro Severino  Out: Rodado al Campo Corto",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21762,10 +21762,17 @@
             },
             {
               "reference_id": "20676-1-39",
-              "text": "Pedro Severino al bate",
+              "text": "Pedro Severino  Out: Rodado al Campo Corto",
               "scored": false,
               "is_primary": true,
-              "ts": 1795387844
+              "ts": 1795387873
+            },
+            {
+              "reference_id": "20676-1-40",
+              "text": "Ronny Simon al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795387875
             }
           ]
         }
@@ -21831,7 +21838,7 @@
           "num": 5,
           "half": "top",
           "label": "Alta 5ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -21931,7 +21938,7 @@
           "id": 2349,
           "date": "2026-11-22 19:00:00",
           "status": 2,
-          "roundText": "Baja 1ra",
+          "roundText": "Alta 2da",
           "awayTeam": {
             "id": 5,
             "name": "Gigantes",
@@ -22045,16 +22052,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-22 19:00:00",
-      "roundText": "Baja 1ra",
-      "currentInningNum": 1,
-      "lastPlayByPlay": "Leody Taveras Ponche (K) ",
+      "roundText": "Alta 2da",
+      "currentInningNum": 2,
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "homeTeam",
+        "battingTeam": "awayTeam",
         "base": 1
       },
       "base_runners": {
@@ -22473,10 +22480,10 @@
             },
             {
               "reference_id": "21414-2-11",
-              "text": "Cris Suero al bate",
+              "text": "Cris Suero  Out: Rodado al Campo Corto - Segunda Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1795387802
+              "ts": 1795387877
             }
           ]
         }
@@ -22501,14 +22508,14 @@
         {
           "num": 1,
           "part": 2,
-          "is_last": 1,
+          "is_last": 0,
           "awayTeamRuns": 0,
           "homeTeamRuns": 1
         },
         {
           "num": 2,
           "part": 1,
-          "is_last": 0,
+          "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
         },
@@ -23806,7 +23813,7 @@
           "id": 2349,
           "date": "2026-11-22 19:00:00",
           "status": 2,
-          "roundText": "Baja 1ra",
+          "roundText": "Alta 2da",
           "awayTeam": {
             "id": 5,
             "name": "Gigantes",
