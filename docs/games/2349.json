@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2349",
-    "scraped_at": "2026-11-22T23:41:03.014Z",
+    "scraped_at": "2026-11-22T23:42:07.849Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-22 19:00:00",
-    "roundText": "Baja 3ra",
-    "currentInningNum": 3,
-    "lastPlayByPlay": "Cris Suero Base por Bolas ",
+    "roundText": "Alta 4ta",
+    "currentInningNum": 4,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 5
+      "battingTeam": "awayTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -703,10 +703,10 @@
           },
           {
             "reference_id": "21416-2-34",
-            "text": "J. C. Escarra al bate",
+            "text": "J. C. Escarra  Out: Rodado al Primera Base - Lanzador",
             "scored": false,
             "is_primary": true,
-            "ts": 1795390854
+            "ts": 1795390900
           }
         ]
       }
@@ -773,14 +773,14 @@
       {
         "num": 3,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 1
       },
       {
         "num": 4,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -831,8 +831,8 @@
           "name": "Leones",
           "abbr": "LE",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/3657a463e594aec7d83697355ad2e541.png",
-          "runs": 1,
-          "hits": 3,
+          "runs": 2,
+          "hits": 4,
           "errors": 0,
           "permalink": "/equipo/leones-del-escogido"
         },
@@ -868,7 +868,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 9,
-          "hits": 10,
+          "hits": 11,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
