@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2265",
-    "scraped_at": "2026-11-22T00:15:04.682Z",
+    "scraped_at": "2026-11-22T00:16:08.672Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-11-21 17:00:00",
     "roundText": "Alta 7ma",
     "currentInningNum": 7,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gilberto Celestino   Out: Rodado al Lanzador - Primera Base",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -70,6 +70,17 @@
             "team_id": 6,
             "name": "Ronny Simon",
             "abbreviation": "Ronny Simon",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6006,
+            "team_id": 6,
+            "name": "Gilberto Celestino ",
+            "abbreviation": "G. Celestino",
             "number": null,
             "dob": null,
             "height": "",
@@ -972,10 +983,17 @@
         "plays": [
           {
             "reference_id": "20633-1-67",
-            "text": "Gilberto Celestino  al bate",
+            "text": "Gilberto Celestino   Out: Rodado al Lanzador - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1795306404
+            "ts": 1795306525
+          },
+          {
+            "reference_id": "20633-1-68",
+            "text": "Bryan de la Cruz al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795306526
           }
         ]
       }
@@ -1069,7 +1087,7 @@
         "num": 7,
         "half": "top",
         "label": "Alta 7ma",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
