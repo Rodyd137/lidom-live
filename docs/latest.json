@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-22T23:24:47.274Z",
+    "scraped_at": "2026-11-22T23:25:52.401Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -645,16 +645,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-22 17:00:00",
-        "part": 2,
-        "lastPlayByPlay": "Jorge Mateo Out: Línea al Tercera Base",
-        "atBat": null,
+        "part": 1,
+        "lastPlayByPlay": "",
+        "atBat": "Eloy Jimenez",
         "comment": "",
-        "winningPitcher": null,
-        "losingPitcher": null,
-        "savingPitcher": null,
-        "roundText": "Baja 5ta",
-        "currentInningNum": 5,
-        "battingTeam": "homeTeam",
+        "winningPitcher": "Spencer Bivens",
+        "losingPitcher": "Evan Grills",
+        "savingPitcher": "",
+        "roundText": "Alta 6ta",
+        "currentInningNum": 6,
+        "battingTeam": "awayTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -686,13 +686,13 @@
           "runs_half": 9,
           "errors": 0,
           "hits": 9,
-          "pitcher": "Spencer Bivens",
+          "pitcher": "Luis Moreno",
           "era": "",
           "debut": 0,
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -703,12 +703,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 1,
         "status": 2,
         "date": "2026-11-22 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "Yonatan Henriquez Sencillo ",
-        "atBat": "Julio Carreras",
+        "lastPlayByPlay": "Julio Carreras  Out: Rodado al Tercera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -753,7 +753,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       }
     ],
@@ -15732,11 +15732,11 @@
         "date": "2026-11-22 17:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Eloy Jimenez",
         "comment": "",
-        "winningPitcher": null,
-        "losingPitcher": null,
-        "savingPitcher": null,
+        "winningPitcher": "Spencer Bivens",
+        "losingPitcher": "Evan Grills",
+        "savingPitcher": "",
         "roundText": "Alta 6ta",
         "currentInningNum": 6,
         "battingTeam": "awayTeam",
@@ -15771,7 +15771,7 @@
           "runs_half": 9,
           "errors": 0,
           "hits": 9,
-          "pitcher": "Spencer Bivens",
+          "pitcher": "Luis Moreno",
           "era": "",
           "debut": 0,
           "record": ""
@@ -15788,12 +15788,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 1,
         "status": 2,
         "date": "2026-11-22 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "Yonatan Henriquez Sencillo ",
-        "atBat": "Julio Carreras",
+        "lastPlayByPlay": "Julio Carreras  Out: Rodado al Tercera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15838,7 +15838,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       }
     ],
@@ -21161,9 +21161,9 @@
         "over_under": null
       },
       "pitchers": {
-        "winning": null,
-        "losing": null,
-        "save": null
+        "winning": "Spencer Bivens",
+        "losing": "Evan Grills",
+        "save": ""
       },
       "teams": {
         "away": {
@@ -21301,7 +21301,7 @@
             "H2": 9
           },
           "probables": {
-            "pitcher": "Spencer Bivens",
+            "pitcher": "Luis Moreno",
             "era": "",
             "record": "",
             "debut": false
@@ -21991,6 +21991,20 @@
               "ts": 1795389788
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "plays": [
+            {
+              "reference_id": "20677-1-52",
+              "text": "Eloy Jimenez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795389939
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22063,6 +22077,13 @@
           "label": "Baja 5ta",
           "total_plays": 10,
           "scoring_plays": 2
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -22277,22 +22298,22 @@
       "date": "2026-11-22 19:00:00",
       "roundText": "Alta 3ra",
       "currentInningNum": 3,
-      "lastPlayByPlay": "Yonatan Henriquez Sencillo ",
+      "lastPlayByPlay": "Julio Carreras  Out: Rodado al Tercera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 5
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": true,
+        "on1B": false,
+        "on2B": false,
         "on3B": false,
-        "runners": 2,
-        "mask": 5
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -22920,10 +22941,10 @@
             },
             {
               "reference_id": "21416-1-28",
-              "text": "Julio Carreras al bate",
+              "text": "Julio Carreras  Out: Rodado al Tercera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1795389871
+              "ts": 1795389932
             }
           ]
         }
