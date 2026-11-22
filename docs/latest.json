@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-22T23:42:05.029Z",
+    "scraped_at": "2026-11-22T23:43:09.999Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,12 +578,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Erik Gonzales Sencillo y 1 Carrera Impulsada ",
-        "atBat": "Marmolejos",
+        "lastPlayByPlay": "Erik Gonzales Robo de Base Segunda Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 8,
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Marco Luciano  Out: Elevado al Primera Base",
-        "atBat": "Robinson Cano",
+        "lastPlayByPlay": "Edgar Quero Sencillo Jardinero Derecho ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": "Spencer Bivens",
         "losingPitcher": "Evan Grills",
@@ -682,7 +682,7 @@
           "runs": 9,
           "runs_half": 9,
           "errors": 0,
-          "hits": 11,
+          "hits": 12,
           "pitcher": "Luis Moreno",
           "era": "",
           "debut": 0,
@@ -15660,12 +15660,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 3,
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Erik Gonzales Sencillo y 1 Carrera Impulsada ",
-        "atBat": "Marmolejos",
+        "lastPlayByPlay": "Erik Gonzales Robo de Base Segunda Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15721,12 +15721,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 8,
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Marco Luciano  Out: Elevado al Primera Base",
-        "atBat": "Robinson Cano",
+        "lastPlayByPlay": "Edgar Quero Sencillo Jardinero Derecho ",
+        "atBat": "Josh Lester ",
         "comment": "",
         "winningPitcher": "Spencer Bivens",
         "losingPitcher": "Evan Grills",
@@ -15764,7 +15764,7 @@
           "runs": 9,
           "runs_half": 9,
           "errors": 0,
-          "hits": 11,
+          "hits": 12,
           "pitcher": "Luis Moreno",
           "era": "",
           "debut": 0,
@@ -19897,7 +19897,7 @@
       "date": "2026-11-22 17:00:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "Erik Gonzales Sencillo y 1 Carrera Impulsada ",
+      "lastPlayByPlay": "Erik Gonzales Robo de Base Segunda Base",
       "counts": {
         "balls": 1,
         "strikes": 0,
@@ -19905,14 +19905,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 3
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": false,
+        "on1B": false,
+        "on2B": true,
         "on3B": false,
         "runners": 1,
-        "mask": 2
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -20807,7 +20807,7 @@
             {
               "reference_id": "20661-1-54",
               "text": "Erik Gonzales Sencillo y 1 Carrera Impulsada ",
-              "scored": true,
+              "scored": false,
               "is_primary": true,
               "ts": 1795390887
             },
@@ -20817,6 +20817,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1795390888
+            },
+            {
+              "reference_id": "20661-1-54-300949",
+              "text": "Erik Gonzales Robo de Base Segunda Base",
+              "scored": false,
+              "is_primary": false,
+              "ts": 1795390964
             }
           ]
         }
@@ -20924,8 +20931,8 @@
           "num": 8,
           "half": "top",
           "label": "Alta 8va",
-          "total_plays": 4,
-          "scoring_plays": 1
+          "total_plays": 5,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -21015,7 +21022,7 @@
             "abbr": "EO",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
             "runs": 9,
-            "hits": 11,
+            "hits": 12,
             "errors": 0,
             "permalink": "/equipo/estrellas-orientales"
           }
@@ -21140,7 +21147,7 @@
       "date": "2026-11-22 17:00:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Marco Luciano  Out: Elevado al Primera Base",
+      "lastPlayByPlay": "Edgar Quero Sencillo Jardinero Derecho ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21148,14 +21155,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 5
+        "base": 8
       },
       "base_runners": {
         "on1B": true,
         "on2B": true,
-        "on3B": false,
-        "runners": 2,
-        "mask": 5
+        "on3B": true,
+        "runners": 3,
+        "mask": 8
       },
       "betting": {
         "moneyline": {
@@ -21304,7 +21311,7 @@
           "permalink": "/equipo/estrellas-orientales",
           "totals": {
             "R": 9,
-            "H": 11,
+            "H": 12,
             "E": 0,
             "H2": 9
           },
@@ -21475,7 +21482,7 @@
           },
           "home": {
             "R": 9,
-            "H": 11,
+            "H": 12,
             "E": 0
           }
         },
@@ -22077,10 +22084,24 @@
             },
             {
               "reference_id": "20677-2-61",
-              "text": "Robinson Cano al bate",
+              "text": "Robinson Cano Sencillo Jardinero Central",
               "scored": false,
               "is_primary": true,
-              "ts": 1795390894
+              "ts": 1795390928
+            },
+            {
+              "reference_id": "20677-2-62",
+              "text": "Edgar Quero Sencillo Jardinero Derecho ",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795390985
+            },
+            {
+              "reference_id": "20677-2-63",
+              "text": "Josh Lester  al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795390988
             }
           ]
         }
@@ -22167,7 +22188,7 @@
           "num": 6,
           "half": "bottom",
           "label": "Baja 6ta",
-          "total_plays": 4,
+          "total_plays": 6,
           "scoring_plays": 0
         }
       ],
@@ -23240,7 +23261,7 @@
             "abbr": "EO",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
             "runs": 9,
-            "hits": 11,
+            "hits": 12,
             "errors": 0,
             "permalink": "/equipo/estrellas-orientales"
           }
@@ -24427,7 +24448,7 @@
             "abbr": "EO",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
             "runs": 9,
-            "hits": 11,
+            "hits": 12,
             "errors": 0,
             "permalink": "/equipo/estrellas-orientales"
           }

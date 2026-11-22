@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2268",
-    "scraped_at": "2026-11-22T23:42:07.782Z",
+    "scraped_at": "2026-11-22T23:43:12.742Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,7 +11,7 @@
     "date": "2026-11-22 17:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Erik Gonzales Sencillo y 1 Carrera Impulsada ",
+    "lastPlayByPlay": "Erik Gonzales Robo de Base Segunda Base",
     "counts": {
       "balls": 1,
       "strikes": 0,
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 3
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": false,
+      "on1B": false,
+      "on2B": true,
       "on3B": false,
       "runners": 1,
-      "mask": 2
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -921,7 +921,7 @@
           {
             "reference_id": "20661-1-54",
             "text": "Erik Gonzales Sencillo y 1 Carrera Impulsada ",
-            "scored": true,
+            "scored": false,
             "is_primary": true,
             "ts": 1795390887
           },
@@ -931,6 +931,13 @@
             "scored": false,
             "is_primary": true,
             "ts": 1795390888
+          },
+          {
+            "reference_id": "20661-1-54-300949",
+            "text": "Erik Gonzales Robo de Base Segunda Base",
+            "scored": false,
+            "is_primary": false,
+            "ts": 1795390964
           }
         ]
       }
@@ -1038,8 +1045,8 @@
         "num": 8,
         "half": "top",
         "label": "Alta 8va",
-        "total_plays": 4,
-        "scoring_plays": 1
+        "total_plays": 5,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1129,7 +1136,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 9,
-          "hits": 11,
+          "hits": 12,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
