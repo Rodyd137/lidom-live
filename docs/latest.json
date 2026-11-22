@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-22T23:09:38.358Z",
+    "scraped_at": "2026-11-22T23:10:43.304Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -583,7 +583,7 @@
         "date": "2026-11-22 17:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jonathan Guzman",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -688,7 +688,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
         "strikes": 1
       },
@@ -700,12 +700,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 1,
         "status": 2,
         "date": "2026-11-22 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "J. C. Escarra Base por Bolas ",
-        "atBat": "Ryan Ritter",
+        "lastPlayByPlay": "Ryan Ritter Doble Play!  Out: Rodado al - Lanzador - Segunda Base",
+        "atBat": "Mason Mccoy",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -750,8 +750,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 2
+        "outs": 2,
+        "strikes": 1
       }
     ],
     "upcoming": [
@@ -15770,7 +15770,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 2,
         "outs": 0,
         "strikes": 1
       },
@@ -15782,12 +15782,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 1,
         "status": 2,
         "date": "2026-11-22 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "J. C. Escarra Base por Bolas ",
-        "atBat": "Ryan Ritter",
+        "lastPlayByPlay": "Ryan Ritter Doble Play!  Out: Rodado al - Lanzador - Segunda Base",
+        "atBat": "Mason Mccoy",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15832,8 +15832,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 2
+        "outs": 2,
+        "strikes": 1
       }
     ],
     "2026-11-23": [
@@ -21121,7 +21121,7 @@
       "currentInningNum": 5,
       "lastPlayByPlay": "Robinson Cano Doble! 2 Carreras Impulsadas ",
       "counts": {
-        "balls": 0,
+        "balls": 2,
         "strikes": 1,
         "outs": 0
       },
@@ -22236,22 +22236,22 @@
       "date": "2026-11-22 19:00:00",
       "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "J. C. Escarra Base por Bolas ",
+      "lastPlayByPlay": "Ryan Ritter Doble Play!  Out: Rodado al - Lanzador - Segunda Base",
       "counts": {
         "balls": 0,
-        "strikes": 2,
-        "outs": 0
+        "strikes": 1,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 2
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
+        "on1B": false,
         "on2B": false,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -22493,6 +22493,17 @@
               "team_id": 3,
               "name": "Ryan Ritter",
               "abbreviation": "R. Ritter",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            },
+            {
+              "id": 6072,
+              "team_id": 3,
+              "name": "Mason Mccoy",
+              "abbreviation": "Mason Mccoy",
               "number": null,
               "dob": null,
               "height": "",
@@ -22812,10 +22823,17 @@
             },
             {
               "reference_id": "21415-2-21",
-              "text": "Ryan Ritter al bate",
+              "text": "Ryan Ritter Doble Play!  Out: Rodado al - Lanzador - Segunda Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1795388910
+              "ts": 1795388998
+            },
+            {
+              "reference_id": "21415-2-22",
+              "text": "Mason Mccoy al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795389004
             }
           ]
         }
@@ -22846,7 +22864,7 @@
           "num": 2,
           "half": "bottom",
           "label": "Baja 2da",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
