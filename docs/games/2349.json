@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2349",
-    "scraped_at": "2026-11-22T22:43:43.607Z",
+    "scraped_at": "2026-11-22T22:44:48.270Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-22 19:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "Luis Liberato  Out: Rodado al Lanzador - Primera Base",
+    "lastPlayByPlay": "Santiago Espinal Sencillo ",
     "counts": {
       "balls": 0,
-      "strikes": 0,
+      "strikes": 2,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
-      "base": 1
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -131,7 +131,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0,
           "H2": 0
         },
@@ -158,6 +158,17 @@
             "team_id": 3,
             "name": "Santiago Espinal",
             "abbreviation": "S. Espinal",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6269,
+            "team_id": 3,
+            "name": "Jasson Dominguez",
+            "abbreviation": "J. Dominguez",
             "number": null,
             "dob": null,
             "height": "",
@@ -225,7 +236,7 @@
         },
         "home": {
           "R": 0,
-          "H": 0,
+          "H": 1,
           "E": 0
         }
       },
@@ -365,10 +376,17 @@
           },
           {
             "reference_id": "21414-2-7",
-            "text": "Santiago Espinal al bate",
+            "text": "Santiago Espinal Sencillo ",
             "scored": false,
             "is_primary": true,
-            "ts": 1795387383
+            "ts": 1795387426
+          },
+          {
+            "reference_id": "21414-2-8",
+            "text": "Jasson Dominguez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795387450
           }
         ]
       }
@@ -385,7 +403,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -459,7 +477,7 @@
         "id": 2268,
         "date": "2026-11-22 17:00:00",
         "status": 2,
-        "roundText": "Alta 6ta",
+        "roundText": "Baja 6ta",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
