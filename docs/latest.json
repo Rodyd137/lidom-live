@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-22T00:50:21.380Z",
+    "scraped_at": "2026-11-22T00:51:25.596Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 6,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Pedro Severino Golpeado por Pelota ",
-        "atBat": "Gilberto Celestino ",
+        "lastPlayByPlay": "Pedro Severino Tercera Base Wild Pitch",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -642,16 +642,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-21 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "J. C. Escarra Ponche (K) ",
-        "atBat": "Adael Amador",
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "currentInningNum": 4,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -15292,12 +15292,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 6,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Pedro Severino Golpeado por Pelota ",
-        "atBat": "Gilberto Celestino ",
+        "lastPlayByPlay": "Ismael Alcantara Base por Bolas ",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15417,16 +15417,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-21 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "J. C. Escarra Ponche (K) ",
-        "atBat": "Adael Amador",
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 4ta",
+        "roundText": "Baja 4ta",
         "currentInningNum": 4,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -15464,7 +15464,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       }
     ],
@@ -19649,7 +19649,7 @@
       "date": "2026-11-21 17:00:00",
       "roundText": "Alta 9na",
       "currentInningNum": 9,
-      "lastPlayByPlay": "Pedro Severino Golpeado por Pelota ",
+      "lastPlayByPlay": "Ismael Alcantara Base por Bolas ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -19657,14 +19657,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 6
       },
       "base_runners": {
         "on1B": true,
         "on2B": false,
-        "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "on3B": true,
+        "runners": 2,
+        "mask": 6
       },
       "betting": {
         "moneyline": {
@@ -19715,10 +19715,10 @@
               "position": ""
             },
             {
-              "id": 6006,
+              "id": 6097,
               "team_id": 6,
-              "name": "Gilberto Celestino ",
-              "abbreviation": "G. Celestino",
+              "name": "Ismael Alcantara",
+              "abbreviation": "I. Alcantara",
               "number": null,
               "dob": null,
               "height": "",
@@ -20767,11 +20767,25 @@
               "ts": 1795308551
             },
             {
-              "reference_id": "20635-1-86",
-              "text": "Gilberto Celestino  al bate",
+              "reference_id": "20635-1-86-300435",
+              "text": "Pedro Severino Wild Pitch Segunda Base",
+              "scored": false,
+              "is_primary": false,
+              "ts": 1795308648
+            },
+            {
+              "reference_id": "20635-1-86-300436",
+              "text": "Pedro Severino Tercera Base Wild Pitch",
+              "scored": false,
+              "is_primary": false,
+              "ts": 1795308663
+            },
+            {
+              "reference_id": "20635-1-87",
+              "text": "Ismael Alcantara Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795308553
+              "ts": 1795308683
             }
           ]
         }
@@ -20893,7 +20907,7 @@
           "num": 9,
           "half": "top",
           "label": "Alta 9na",
-          "total_plays": 2,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
@@ -20993,7 +21007,7 @@
           "id": 2267,
           "date": "2026-11-21 19:30:00",
           "status": 2,
-          "roundText": "Alta 4ta",
+          "roundText": "Baja 4ta",
           "awayTeam": {
             "id": 3,
             "name": "Aguilas",
@@ -22441,7 +22455,7 @@
           "id": 2267,
           "date": "2026-11-21 19:30:00",
           "status": 2,
-          "roundText": "Alta 4ta",
+          "roundText": "Baja 4ta",
           "awayTeam": {
             "id": 3,
             "name": "Aguilas",
@@ -22529,16 +22543,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-21 19:30:00",
-      "roundText": "Alta 4ta",
+      "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "J. C. Escarra Ponche (K) ",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -23195,10 +23209,10 @@
             },
             {
               "reference_id": "20648-1-29",
-              "text": "Adael Amador al bate",
+              "text": "Adael Amador Out: Elevado al Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1795308540
+              "ts": 1795308630
             }
           ]
         }
@@ -23278,7 +23292,7 @@
         },
         {
           "num": 4,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
