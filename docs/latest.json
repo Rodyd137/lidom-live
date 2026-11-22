@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-22T02:11:27.984Z",
+    "scraped_at": "2026-11-22T02:12:31.591Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -643,7 +643,7 @@
         "status": 2,
         "date": "2026-11-21 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
+        "lastPlayByPlay": "Jose Tena  Out: Rodado al Tercera Base - Primera Base",
         "atBat": null,
         "comment": "",
         "winningPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -15418,8 +15418,8 @@
         "status": 2,
         "date": "2026-11-21 19:30:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Jose Tena  Out: Rodado al Tercera Base - Primera Base",
+        "atBat": "David Villar",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15464,7 +15464,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -22587,11 +22587,11 @@
       "date": "2026-11-21 19:30:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Jose Tena  Out: Rodado al Tercera Base - Primera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -23467,6 +23467,27 @@
               "ts": 1795313245
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "plays": [
+            {
+              "reference_id": "20651-2-54",
+              "text": "Jose Tena  Out: Rodado al Tercera Base - Primera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795313544
+            },
+            {
+              "reference_id": "20651-2-55",
+              "text": "David Villar al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795313549
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23559,6 +23580,13 @@
           "half": "top",
           "label": "Alta 7ma",
           "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
