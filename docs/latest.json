@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-22T02:22:13.979Z",
+    "scraped_at": "2026-11-22T02:23:18.774Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 2,
         "status": 2,
         "date": "2026-11-21 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Mason Mccoy",
+        "lastPlayByPlay": "Mason Mccoy  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Luis Liberato",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -681,16 +681,16 @@
           "permalink": "/equipo/estrellas-orientales",
           "runs": 3,
           "runs_half": 3,
-          "errors": 0,
+          "errors": 1,
           "hits": 5,
           "pitcher": "Trevor Bauer",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
+        "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -15414,12 +15414,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-11-21 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": "Mason Mccoy",
+        "lastPlayByPlay": "Mason Mccoy  Out: Rodado al Campo Corto - Primera Base",
+        "atBat": "Luis Liberato",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15456,16 +15456,16 @@
           "permalink": "/equipo/estrellas-orientales",
           "runs": 3,
           "runs_half": 3,
-          "errors": 0,
+          "errors": 1,
           "hits": 5,
           "pitcher": "Trevor Bauer",
           "era": "",
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "2026-11-22": [
@@ -21067,7 +21067,7 @@
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
             "runs": 3,
             "hits": 5,
-            "errors": 0,
+            "errors": 1,
             "permalink": "/equipo/estrellas-orientales"
           }
         }
@@ -22515,7 +22515,7 @@
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
             "runs": 3,
             "hits": 5,
-            "errors": 0,
+            "errors": 1,
             "permalink": "/equipo/estrellas-orientales"
           }
         }
@@ -22587,22 +22587,22 @@
       "date": "2026-11-21 19:30:00",
       "roundText": "Alta 8va",
       "currentInningNum": 8,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Mason Mccoy  Out: Rodado al Campo Corto - Primera Base",
       "counts": {
-        "balls": 2,
-        "strikes": 1,
+        "balls": 0,
+        "strikes": 0,
         "outs": 0
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 2
       },
       "base_runners": {
-        "on1B": false,
+        "on1B": true,
         "on2B": false,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 2
       },
       "betting": {
         "moneyline": {
@@ -22752,7 +22752,7 @@
           "totals": {
             "R": 3,
             "H": 5,
-            "E": 0,
+            "E": 1,
             "H2": 3
           },
           "probables": {
@@ -22923,7 +22923,7 @@
           "home": {
             "R": 3,
             "H": 5,
-            "E": 0
+            "E": 1
           }
         },
         "cumulative": {
@@ -23503,10 +23503,17 @@
           "plays": [
             {
               "reference_id": "20652-1-57",
-              "text": "Mason Mccoy al bate",
+              "text": "Mason Mccoy  Out: Rodado al Campo Corto - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1795314081
+              "ts": 1795314160
+            },
+            {
+              "reference_id": "20652-1-58",
+              "text": "Luis Liberato al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795314163
             }
           ]
         }
@@ -23614,7 +23621,7 @@
           "num": 8,
           "half": "top",
           "label": "Alta 8va",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
