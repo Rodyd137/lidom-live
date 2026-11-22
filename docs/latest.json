@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-22T22:31:47.053Z",
+    "scraped_at": "2026-11-22T22:32:52.237Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -594,10 +594,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -609,7 +606,7 @@
           "runs_half": 1,
           "errors": 0,
           "hits": 1,
-          "pitcher": "Stephen Nogosek",
+          "pitcher": "Hansel Marcelino",
           "era": "",
           "debut": 0,
           "record": ""
@@ -708,7 +705,7 @@
         "date": "2026-11-22 19:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Hendry Mendez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -754,7 +751,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -15679,10 +15676,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
-          "text": "Cambio de Lanzador"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -15694,7 +15688,7 @@
           "runs_half": 1,
           "errors": 0,
           "hits": 1,
-          "pitcher": "Stephen Nogosek",
+          "pitcher": "Hansel Marcelino",
           "era": "",
           "debut": 0,
           "record": ""
@@ -15793,7 +15787,7 @@
         "date": "2026-11-22 19:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Hendry Mendez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15839,7 +15833,7 @@
         },
         "balls": 0,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "2026-11-23": [
@@ -19951,7 +19945,7 @@
             "H2": 1
           },
           "probables": {
-            "pitcher": "Stephen Nogosek",
+            "pitcher": "Hansel Marcelino",
             "era": "",
             "record": "",
             "debut": false
@@ -21902,7 +21896,7 @@
       "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
-        "strikes": 0,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -21952,7 +21946,19 @@
             "record": "",
             "debut": false
           },
-          "players": []
+          "players": [
+            {
+              "id": 5993,
+              "team_id": 5,
+              "name": "Hendry Mendez",
+              "abbreviation": "H. Mendez",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            }
+          ]
         },
         "home": {
           "id": 3,
@@ -22117,8 +22123,31 @@
           ]
         }
       },
-      "plays_by_inning": [],
-      "plays_summary_by_inning": [],
+      "plays_by_inning": [
+        {
+          "num": 1,
+          "half": "top",
+          "label": "Alta 1ra",
+          "plays": [
+            {
+              "reference_id": "21414-1-1",
+              "text": "Hendry Mendez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795386731
+            }
+          ]
+        }
+      ],
+      "plays_summary_by_inning": [
+        {
+          "num": 1,
+          "half": "top",
+          "label": "Alta 1ra",
+          "total_plays": 1,
+          "scoring_plays": 0
+        }
+      ],
       "innings_raw": [
         {
           "num": 1,
