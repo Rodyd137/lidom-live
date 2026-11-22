@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-22T00:46:04.725Z",
+    "scraped_at": "2026-11-22T00:47:09.299Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -517,12 +517,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 1,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "K. Huff Sencillo Jardinero Central",
-        "atBat": "A. Ortiz",
+        "lastPlayByPlay": "E. Florial Out: Elevado al Jardinero Izquierdo",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -567,7 +567,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-21 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Leody Taveras Sencillo ",
-        "atBat": "Jasson Dominguez",
+        "lastPlayByPlay": "Jasson Dominguez Out: Elevado al Jardinero Derecho ",
+        "atBat": "J. C. Escarra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 1
       }
     ],
@@ -15292,12 +15292,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 1,
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "K. Huff Sencillo Jardinero Central",
-        "atBat": "A. Ortiz",
+        "lastPlayByPlay": "E. Florial Out: Elevado al Jardinero Izquierdo",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15342,7 +15342,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -15418,8 +15418,8 @@
         "status": 2,
         "date": "2026-11-21 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Leody Taveras Sencillo ",
-        "atBat": "Jasson Dominguez",
+        "lastPlayByPlay": "Jasson Dominguez Out: Elevado al Jardinero Derecho ",
+        "atBat": "J. C. Escarra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15464,7 +15464,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 1
       }
     ],
@@ -19653,18 +19653,18 @@
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 2
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 5
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
-        "on2B": true,
+        "on1B": false,
+        "on2B": false,
         "on3B": false,
-        "runners": 2,
-        "mask": 5
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -22503,11 +22503,11 @@
       "date": "2026-11-21 19:30:00",
       "roundText": "Alta 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "Leody Taveras Sencillo ",
+      "lastPlayByPlay": "Jasson Dominguez Out: Elevado al Jardinero Derecho ",
       "counts": {
         "balls": 0,
         "strikes": 1,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -23153,10 +23153,17 @@
             },
             {
               "reference_id": "20648-1-27",
-              "text": "Jasson Dominguez al bate",
+              "text": "Jasson Dominguez Out: Elevado al Jardinero Derecho ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795308312
+              "ts": 1795308383
+            },
+            {
+              "reference_id": "20648-1-28",
+              "text": "J. C. Escarra al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795308387
             }
           ]
         }
@@ -23208,7 +23215,7 @@
           "num": 4,
           "half": "top",
           "label": "Alta 4ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
