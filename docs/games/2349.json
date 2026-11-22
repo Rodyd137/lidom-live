@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2349",
-    "scraped_at": "2026-11-22T22:42:39.026Z",
+    "scraped_at": "2026-11-22T22:43:43.607Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-11-22 19:00:00",
     "roundText": "Baja 1ra",
     "currentInningNum": 1,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Luis Liberato  Out: Rodado al Lanzador - Primera Base",
     "counts": {
-      "balls": 1,
-      "strikes": 1,
-      "outs": 0
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "homeTeam",
@@ -147,6 +147,17 @@
             "team_id": 3,
             "name": "Luis Liberato",
             "abbreviation": "Luis Liberato",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6334,
+            "team_id": 3,
+            "name": "Santiago Espinal",
+            "abbreviation": "S. Espinal",
             "number": null,
             "dob": null,
             "height": "",
@@ -347,10 +358,17 @@
         "plays": [
           {
             "reference_id": "21414-2-6",
-            "text": "Luis Liberato al bate",
+            "text": "Luis Liberato  Out: Rodado al Lanzador - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1795387290
+            "ts": 1795387375
+          },
+          {
+            "reference_id": "21414-2-7",
+            "text": "Santiago Espinal al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795387383
           }
         ]
       }
@@ -367,7 +385,7 @@
         "num": 1,
         "half": "bottom",
         "label": "Baja 1ra",
-        "total_plays": 1,
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
@@ -484,7 +502,7 @@
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
           "runs": 5,
-          "hits": 5,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
