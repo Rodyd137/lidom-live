@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2349",
-    "scraped_at": "2026-11-22T23:06:25.883Z",
+    "scraped_at": "2026-11-22T23:07:30.961Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -13,8 +13,8 @@
     "currentInningNum": 2,
     "lastPlayByPlay": "",
     "counts": {
-      "balls": 0,
-      "strikes": 0,
+      "balls": 2,
+      "strikes": 2,
       "outs": 0
     },
     "base_state": {
@@ -246,6 +246,17 @@
             "team_id": 3,
             "name": "Cris Suero",
             "abbreviation": "C. Suero",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          },
+          {
+            "id": 6119,
+            "team_id": 3,
+            "name": "J. C. Escarra",
+            "abbreviation": "J. C. Escarra",
             "number": null,
             "dob": null,
             "height": "",
@@ -550,6 +561,20 @@
             "ts": 1795388608
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "plays": [
+          {
+            "reference_id": "21415-2-20",
+            "text": "J. C. Escarra al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795388791
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -573,6 +598,13 @@
         "label": "Alta 2da",
         "total_plays": 8,
         "scoring_plays": 3
+      },
+      {
+        "num": 2,
+        "half": "bottom",
+        "label": "Baja 2da",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
