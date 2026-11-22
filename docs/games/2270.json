@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2270",
-    "scraped_at": "2026-11-22T23:30:14.817Z",
+    "scraped_at": "2026-11-22T23:31:19.641Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-22 17:00:00",
     "roundText": "Alta 6ta",
     "currentInningNum": 6,
-    "lastPlayByPlay": "Juan Brito Out: Elevado al Jardinero Izquierdo",
+    "lastPlayByPlay": "Felix Reyes Golpeado por Pelota ",
     "counts": {
-      "balls": 1,
-      "strikes": 0,
+      "balls": 0,
+      "strikes": 1,
       "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 2
+      "base": 5
     },
     "base_runners": {
       "on1B": true,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 1,
-      "mask": 2
+      "runners": 2,
+      "mask": 5
     },
     "betting": {
       "moneyline": {
@@ -892,10 +892,17 @@
           },
           {
             "reference_id": "20677-1-54",
-            "text": "Felix Reyes al bate",
+            "text": "Felix Reyes Golpeado por Pelota ",
             "scored": false,
             "is_primary": true,
-            "ts": 1795390114
+            "ts": 1795390225
+          },
+          {
+            "reference_id": "20677-1-55",
+            "text": "Gilberto Celestino  al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795390230
           }
         ]
       }
@@ -975,7 +982,7 @@
         "num": 6,
         "half": "top",
         "label": "Alta 6ta",
-        "total_plays": 3,
+        "total_plays": 4,
         "scoring_plays": 0
       }
     ],
@@ -1091,8 +1098,8 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 1,
-          "hits": 5,
+          "runs": 2,
+          "hits": 6,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }
