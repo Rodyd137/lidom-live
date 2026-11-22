@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-22T22:40:26.612Z",
+    "scraped_at": "2026-11-22T22:41:31.521Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -582,8 +582,8 @@
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
-        "atBat": "Erik Gonzales",
+        "lastPlayByPlay": "Erik Gonzales Ponche (K) ",
+        "atBat": "Marmolejos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -627,9 +627,9 @@
           "debut": 0,
           "record": "1 - 0"
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2270,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Josh Lester  Ponche (K) ",
+        "atBat": "Dairon Blanco",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,8 +689,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 2
+        "outs": 1,
+        "strikes": 0
       },
       {
         "id": 2349,
@@ -15664,8 +15664,8 @@
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
-        "atBat": "Erik Gonzales",
+        "lastPlayByPlay": "Erik Gonzales Ponche (K) ",
+        "atBat": "Marmolejos",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15709,9 +15709,9 @@
           "debut": 0,
           "record": "1 - 0"
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       },
       {
         "id": 2270,
@@ -15725,8 +15725,8 @@
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Josh Lester ",
+        "lastPlayByPlay": "Josh Lester  Ponche (K) ",
+        "atBat": "Dairon Blanco",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15771,7 +15771,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 2
       },
       {
@@ -15787,7 +15787,7 @@
         "date": "2026-11-22 19:00:00",
         "part": 2,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Luis Liberato",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -19897,11 +19897,11 @@
       "date": "2026-11-22 17:00:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Vidal Brujan Ponche (K) ",
+      "lastPlayByPlay": "Erik Gonzales Ponche (K) ",
       "counts": {
-        "balls": 2,
-        "strikes": 2,
-        "outs": 1
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -20666,10 +20666,17 @@
             },
             {
               "reference_id": "20659-1-38",
-              "text": "Erik Gonzales al bate",
+              "text": "Erik Gonzales Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795387113
+              "ts": 1795387244
+            },
+            {
+              "reference_id": "20659-1-39",
+              "text": "Marmolejos al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795387246
             }
           ]
         }
@@ -20749,7 +20756,7 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -20965,11 +20972,11 @@
       "date": "2026-11-22 17:00:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Josh Lester  Ponche (K) ",
       "counts": {
         "balls": 0,
         "strikes": 2,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -21678,10 +21685,17 @@
           "plays": [
             {
               "reference_id": "20675-2-34",
-              "text": "Josh Lester  al bate",
+              "text": "Josh Lester  Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795387042
+              "ts": 1795387236
+            },
+            {
+              "reference_id": "20675-2-35",
+              "text": "Dairon Blanco al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795387252
             }
           ]
         }
@@ -21740,7 +21754,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
@@ -22086,7 +22100,19 @@
             "record": "",
             "debut": false
           },
-          "players": []
+          "players": [
+            {
+              "id": 6213,
+              "team_id": 3,
+              "name": "Luis Liberato",
+              "abbreviation": "Luis Liberato",
+              "number": null,
+              "dob": null,
+              "height": "",
+              "image": null,
+              "position": ""
+            }
+          ]
         }
       },
       "comment": "",
@@ -22272,6 +22298,20 @@
               "ts": 1795387172
             }
           ]
+        },
+        {
+          "num": 1,
+          "half": "bottom",
+          "label": "Baja 1ra",
+          "plays": [
+            {
+              "reference_id": "21414-2-6",
+              "text": "Luis Liberato al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795387290
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22280,6 +22320,13 @@
           "half": "top",
           "label": "Alta 1ra",
           "total_plays": 5,
+          "scoring_plays": 0
+        },
+        {
+          "num": 1,
+          "half": "bottom",
+          "label": "Baja 1ra",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],

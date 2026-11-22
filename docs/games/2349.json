@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2349",
-    "scraped_at": "2026-11-22T22:40:29.426Z",
+    "scraped_at": "2026-11-22T22:41:34.359Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -141,7 +141,19 @@
           "record": "",
           "debut": false
         },
-        "players": []
+        "players": [
+          {
+            "id": 6213,
+            "team_id": 3,
+            "name": "Luis Liberato",
+            "abbreviation": "Luis Liberato",
+            "number": null,
+            "dob": null,
+            "height": "",
+            "image": null,
+            "position": ""
+          }
+        ]
       }
     },
     "comment": "",
@@ -327,6 +339,20 @@
             "ts": 1795387172
           }
         ]
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "plays": [
+          {
+            "reference_id": "21414-2-6",
+            "text": "Luis Liberato al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795387290
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -335,6 +361,13 @@
         "half": "top",
         "label": "Alta 1ra",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 1,
+        "half": "bottom",
+        "label": "Baja 1ra",
+        "total_plays": 1,
         "scoring_plays": 0
       }
     ],
