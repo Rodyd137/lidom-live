@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-22T23:05:18.081Z",
+    "scraped_at": "2026-11-22T23:06:23.100Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -581,16 +581,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-22 17:00:00",
-        "part": 1,
-        "lastPlayByPlay": "M. De la Cruz  Out: Rodado al Segunda Base - Primera Base",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "Francisco Mejia Out: Elevado al Tercera Base",
+        "atBat": "Ronny Mauricio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 7ma",
+        "roundText": "Baja 7ma",
         "currentInningNum": 7,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -628,7 +628,7 @@
           "record": "1 - 0"
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Marco Luciano  Base por Bolas ",
-        "atBat": "Harold Andres Ramirez",
+        "lastPlayByPlay": "Harold Andres Ramirez se embasa por Error del Lanzador",
+        "atBat": "Robinson Cano",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -655,7 +655,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -665,7 +668,7 @@
           "permalink": "/equipo/toros-del-este",
           "runs": 2,
           "runs_half": 2,
-          "errors": 1,
+          "errors": 2,
           "hits": 3,
           "pitcher": "Roansy Contreras",
           "era": "",
@@ -15664,8 +15667,8 @@
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Francisco Mejia Out: Elevado al Tercera Base",
+        "atBat": "Ronny Mauricio",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15710,7 +15713,7 @@
           "record": "1 - 0"
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       },
       {
@@ -15725,8 +15728,8 @@
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Marco Luciano  Base por Bolas ",
-        "atBat": "Harold Andres Ramirez",
+        "lastPlayByPlay": "Harold Andres Ramirez se embasa por Error del Lanzador",
+        "atBat": "Robinson Cano",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15737,7 +15740,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -15747,7 +15753,7 @@
           "permalink": "/equipo/toros-del-este",
           "runs": 2,
           "runs_half": 2,
-          "errors": 1,
+          "errors": 2,
           "hits": 3,
           "pitcher": "Roansy Contreras",
           "era": "",
@@ -19897,11 +19903,11 @@
       "date": "2026-11-22 17:00:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Francisco Mejia Out: Elevado al Tercera Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -20756,6 +20762,27 @@
               "ts": 1795388660
             }
           ]
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "plays": [
+            {
+              "reference_id": "20660-2-49",
+              "text": "Francisco Mejia Out: Elevado al Tercera Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795388774
+            },
+            {
+              "reference_id": "20660-2-50",
+              "text": "Ronny Mauricio al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795388777
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -20849,6 +20876,13 @@
           "label": "Alta 7ma",
           "total_plays": 6,
           "scoring_plays": 0
+        },
+        {
+          "num": 7,
+          "half": "bottom",
+          "label": "Baja 7ma",
+          "total_plays": 2,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -20929,7 +20963,7 @@
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
             "runs": 2,
             "hits": 3,
-            "errors": 1,
+            "errors": 2,
             "permalink": "/equipo/toros-del-este"
           },
           "homeTeam": {
@@ -21063,7 +21097,7 @@
       "date": "2026-11-22 17:00:00",
       "roundText": "Baja 5ta",
       "currentInningNum": 5,
-      "lastPlayByPlay": "Marco Luciano  Base por Bolas ",
+      "lastPlayByPlay": "Harold Andres Ramirez se embasa por Error del Lanzador",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -21107,7 +21141,7 @@
           "totals": {
             "R": 2,
             "H": 3,
-            "E": 1,
+            "E": 2,
             "H2": 2
           },
           "probables": {
@@ -21394,7 +21428,7 @@
           "away": {
             "R": 2,
             "H": 3,
-            "E": 1
+            "E": 2
           },
           "home": {
             "R": 5,
@@ -21874,10 +21908,17 @@
             },
             {
               "reference_id": "20676-2-45",
-              "text": "Harold Andres Ramirez al bate",
+              "text": "Harold Andres Ramirez se embasa por Error del Lanzador",
               "scored": false,
               "is_primary": true,
-              "ts": 1795388680
+              "ts": 1795388731
+            },
+            {
+              "reference_id": "20676-2-46",
+              "text": "Robinson Cano al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795388736
             }
           ]
         }
@@ -21950,7 +21991,7 @@
           "num": 5,
           "half": "bottom",
           "label": "Baja 5ta",
-          "total_plays": 4,
+          "total_plays": 5,
           "scoring_plays": 0
         }
       ],
@@ -22834,7 +22875,7 @@
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
             "runs": 2,
             "hits": 3,
-            "errors": 1,
+            "errors": 2,
             "permalink": "/equipo/toros-del-este"
           },
           "homeTeam": {
@@ -24021,7 +24062,7 @@
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
             "runs": 2,
             "hits": 3,
-            "errors": 1,
+            "errors": 2,
             "permalink": "/equipo/toros-del-este"
           },
           "homeTeam": {
