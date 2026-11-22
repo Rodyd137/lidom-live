@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2265",
-    "scraped_at": "2026-11-22T00:40:45.808Z",
+    "scraped_at": "2026-11-22T00:41:50.033Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-21 17:00:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "Onil Perez Ponche (K) ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 5
+      "battingTeam": "homeTeam",
+      "base": 1
     },
     "base_runners": {
-      "on1B": true,
-      "on2B": true,
+      "on1B": false,
+      "on2B": false,
       "on3B": false,
-      "runners": 2,
-      "mask": 5
+      "runners": 0,
+      "mask": 1
     },
     "betting": {
       "moneyline": {
@@ -1073,6 +1073,20 @@
             "ts": 1795307921
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "20634-2-80",
+            "text": "Player al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795308106
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1180,6 +1194,13 @@
         "label": "Alta 8va",
         "total_plays": 5,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1234,7 +1255,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -1278,7 +1299,7 @@
         "id": 2267,
         "date": "2026-11-21 19:30:00",
         "status": 2,
-        "roundText": "Baja 3ra",
+        "roundText": "Alta 4ta",
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
