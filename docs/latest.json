@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-22T23:15:02.616Z",
+    "scraped_at": "2026-11-22T23:16:07.654Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/dca71d5eef2bb019e24c8b28d9d53f61.png",
+          "text": "Detenido por Lluvia"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -629,7 +632,7 @@
         },
         "balls": 1,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2270,
@@ -708,7 +711,7 @@
         "date": "2026-11-22 19:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jain Camargo",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -752,9 +755,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -15679,7 +15682,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/dca71d5eef2bb019e24c8b28d9d53f61.png",
+          "text": "Detenido por Lluvia"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -15714,7 +15720,7 @@
         },
         "balls": 1,
         "outs": 0,
-        "strikes": 1
+        "strikes": 2
       },
       {
         "id": 2270,
@@ -15793,7 +15799,7 @@
         "date": "2026-11-22 19:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jain Camargo",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15837,9 +15843,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "2026-11-23": [
@@ -19906,7 +19912,7 @@
       "lastPlayByPlay": "Jonathan Guzman Sencillo Jardinero Derecho ",
       "counts": {
         "balls": 1,
-        "strikes": 1,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -22258,8 +22264,8 @@
       "currentInningNum": 3,
       "lastPlayByPlay": "",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -22863,6 +22869,20 @@
               "ts": 1795389175
             }
           ]
+        },
+        {
+          "num": 3,
+          "half": "top",
+          "label": "Alta 3ra",
+          "plays": [
+            {
+              "reference_id": "21416-1-24",
+              "text": "Jain Camargo al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795389340
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22892,6 +22912,13 @@
           "half": "bottom",
           "label": "Baja 2da",
           "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 3,
+          "half": "top",
+          "label": "Alta 3ra",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
