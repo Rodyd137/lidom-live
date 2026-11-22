@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-22T01:35:58.422Z",
+    "scraped_at": "2026-11-22T01:37:03.135Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 4,
         "status": 2,
         "date": "2026-11-21 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Leody Taveras Ponche (K) ",
-        "atBat": "Jasson Dominguez",
+        "lastPlayByPlay": "Jasson Dominguez Ponche (K) ",
+        "atBat": "J. C. Escarra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -655,7 +655,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -688,9 +691,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -15414,12 +15417,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 3,
+        "base": 4,
         "status": 2,
         "date": "2026-11-21 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Leody Taveras Ponche (K) ",
-        "atBat": "Jasson Dominguez",
+        "lastPlayByPlay": "Jasson Dominguez Ponche (K) ",
+        "atBat": "J. C. Escarra",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15430,7 +15433,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 3,
           "name": "Aguilas",
@@ -15463,9 +15469,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 1,
-        "outs": 1,
-        "strikes": 2
+        "balls": 0,
+        "outs": 2,
+        "strikes": 0
       }
     ],
     "2026-11-22": [
@@ -22587,22 +22593,22 @@
       "date": "2026-11-21 19:30:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Leody Taveras Ponche (K) ",
+      "lastPlayByPlay": "Jasson Dominguez Ponche (K) ",
       "counts": {
-        "balls": 1,
-        "strikes": 2,
-        "outs": 1
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 3
+        "base": 4
       },
       "base_runners": {
         "on1B": false,
-        "on2B": true,
-        "on3B": false,
+        "on2B": false,
+        "on3B": true,
         "runners": 1,
-        "mask": 3
+        "mask": 4
       },
       "betting": {
         "moneyline": {
@@ -23391,10 +23397,17 @@
             },
             {
               "reference_id": "20650-1-45",
-              "text": "Jasson Dominguez al bate",
+              "text": "Jasson Dominguez Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795311256
+              "ts": 1795311366
+            },
+            {
+              "reference_id": "20650-1-46",
+              "text": "J. C. Escarra al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795311380
             }
           ]
         }
@@ -23474,7 +23487,7 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
