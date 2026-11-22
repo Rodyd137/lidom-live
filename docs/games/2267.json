@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2267",
-    "scraped_at": "2026-11-22T00:20:25.671Z",
+    "scraped_at": "2026-11-22T00:21:30.034Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-21 19:30:00",
-    "roundText": "Alta 3ra",
+    "roundText": "Baja 3ra",
     "currentInningNum": 3,
-    "lastPlayByPlay": "Victor Roble Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 2
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -566,10 +566,17 @@
           },
           {
             "reference_id": "20647-1-17",
-            "text": "Mason Mccoy al bate",
+            "text": "Mason Mccoy  Out: Rodado al Segunda Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1795306775
+            "ts": 1795306829
+          },
+          {
+            "reference_id": "20647-1-18",
+            "text": "Luis Liberato  Out: Rodado al Tercera Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795306849
           }
         ]
       }
@@ -607,7 +614,7 @@
         "num": 3,
         "half": "top",
         "label": "Alta 3ra",
-        "total_plays": 2,
+        "total_plays": 3,
         "scoring_plays": 0
       }
     ],
@@ -628,7 +635,7 @@
       },
       {
         "num": 3,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
