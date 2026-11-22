@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2267",
-    "scraped_at": "2026-11-22T00:00:06.668Z",
+    "scraped_at": "2026-11-22T00:01:10.769Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-11-21 19:30:00",
     "roundText": "Alta 2da",
     "currentInningNum": 2,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Adael Amador Out: Elevado al Segunda Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -440,6 +440,27 @@
             "ts": 1795305476
           }
         ]
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "plays": [
+          {
+            "reference_id": "20646-1-10",
+            "text": "Adael Amador Out: Elevado al Segunda Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795305653
+          },
+          {
+            "reference_id": "20646-1-11",
+            "text": "Raynel Delgado al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795305656
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -455,6 +476,13 @@
         "half": "bottom",
         "label": "Baja 1ra",
         "total_plays": 5,
+        "scoring_plays": 0
+      },
+      {
+        "num": 2,
+        "half": "top",
+        "label": "Alta 2da",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],

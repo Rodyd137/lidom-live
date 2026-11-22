@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-22T00:00:04.003Z",
+    "scraped_at": "2026-11-22T00:01:08.620Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -533,10 +533,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/344328d644485325998a132db1f0cc6a.png",
-          "text": "Lesión"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -569,7 +566,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
         "strikes": 0
       },
@@ -586,7 +583,7 @@
         "date": "2026-11-21 17:00:00",
         "part": 2,
         "lastPlayByPlay": "Pablo Reyes Out: Elevado al Tercera Base",
-        "atBat": null,
+        "atBat": "Ferreras",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -631,8 +628,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 0
+        "outs": 1,
+        "strikes": 2
       },
       {
         "id": 2267,
@@ -646,8 +643,8 @@
         "status": 2,
         "date": "2026-11-21 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Adael Amador Out: Elevado al Segunda Base",
+        "atBat": "Raynel Delgado",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -692,7 +689,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -15311,10 +15308,7 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": {
-          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/344328d644485325998a132db1f0cc6a.png",
-          "text": "Lesión"
-        },
+        "gameAlert": "",
         "awayTeam": {
           "id": 6,
           "name": "Toros",
@@ -15347,7 +15341,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 0,
         "strikes": 0
       },
@@ -15364,7 +15358,7 @@
         "date": "2026-11-21 17:00:00",
         "part": 2,
         "lastPlayByPlay": "Pablo Reyes Out: Elevado al Tercera Base",
-        "atBat": null,
+        "atBat": "Ferreras",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15409,8 +15403,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 0
+        "outs": 1,
+        "strikes": 2
       },
       {
         "id": 2267,
@@ -15424,8 +15418,8 @@
         "status": 2,
         "date": "2026-11-21 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "",
-        "atBat": null,
+        "lastPlayByPlay": "Adael Amador Out: Elevado al Segunda Base",
+        "atBat": "Raynel Delgado",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15470,7 +15464,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -19657,7 +19651,7 @@
       "currentInningNum": 6,
       "lastPlayByPlay": "Miguel Andujar Sencillo ",
       "counts": {
-        "balls": 0,
+        "balls": 1,
         "strikes": 0,
         "outs": 0
       },
@@ -20868,8 +20862,8 @@
       "lastPlayByPlay": "Pablo Reyes Out: Elevado al Tercera Base",
       "counts": {
         "balls": 0,
-        "strikes": 0,
-        "outs": 0
+        "strikes": 2,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -22229,11 +22223,11 @@
       "date": "2026-11-21 19:30:00",
       "roundText": "Alta 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Adael Amador Out: Elevado al Segunda Base",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -22658,6 +22652,27 @@
               "ts": 1795305476
             }
           ]
+        },
+        {
+          "num": 2,
+          "half": "top",
+          "label": "Alta 2da",
+          "plays": [
+            {
+              "reference_id": "20646-1-10",
+              "text": "Adael Amador Out: Elevado al Segunda Base",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795305653
+            },
+            {
+              "reference_id": "20646-1-11",
+              "text": "Raynel Delgado al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795305656
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -22673,6 +22688,13 @@
           "half": "bottom",
           "label": "Baja 1ra",
           "total_plays": 5,
+          "scoring_plays": 0
+        },
+        {
+          "num": 2,
+          "half": "top",
+          "label": "Alta 2da",
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
