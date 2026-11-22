@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2268",
-    "scraped_at": "2026-11-22T23:08:36.171Z",
+    "scraped_at": "2026-11-22T23:09:41.302Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-22 17:00:00",
-    "roundText": "Baja 7ma",
-    "currentInningNum": 7,
-    "lastPlayByPlay": "Ronny Mauricio  Out: Rodado al Segunda Base - Primera Base",
+    "roundText": "Alta 8va",
+    "currentInningNum": 8,
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 2,
-      "strikes": 2,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -892,10 +892,24 @@
           },
           {
             "reference_id": "20660-2-51",
-            "text": "K. Huff al bate",
+            "text": "K. Huff Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1795388819
+            "ts": 1795388930
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "20661-1-52",
+            "text": "Jonathan Guzman al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795388976
           }
         ]
       }
@@ -998,6 +1012,13 @@
         "label": "Baja 7ma",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1046,14 +1067,14 @@
       {
         "num": 7,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 8,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -1086,8 +1107,8 @@
           "name": "Estrellas",
           "abbr": "EO",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/bc83c5669a23ea41ef5f755bfbd50ebd.png",
-          "runs": 5,
-          "hits": 6,
+          "runs": 7,
+          "hits": 8,
           "errors": 0,
           "permalink": "/equipo/estrellas-orientales"
         }
