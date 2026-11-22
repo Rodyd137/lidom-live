@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2270",
-    "scraped_at": "2026-11-22T23:47:32.551Z",
+    "scraped_at": "2026-11-22T23:48:37.364Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-22 17:00:00",
-    "roundText": "Baja 6ta",
-    "currentInningNum": 6,
-    "lastPlayByPlay": "Josh Lester   Out: Rodado al Primera Base",
+    "roundText": "Alta 7ma",
+    "currentInningNum": 7,
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
+      "battingTeam": "awayTeam",
       "base": 1
     },
     "base_runners": {
@@ -968,6 +968,20 @@
             "ts": 1795391107
           }
         ]
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "plays": [
+          {
+            "reference_id": "20678-1-64",
+            "text": "Ronny Simon al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795391258
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1054,6 +1068,13 @@
         "label": "Baja 6ta",
         "total_plays": 6,
         "scoring_plays": 0
+      },
+      {
+        "num": 7,
+        "half": "top",
+        "label": "Alta 7ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1095,14 +1116,14 @@
       {
         "num": 6,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
       {
         "num": 7,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       },
@@ -1159,7 +1180,7 @@
           "abbr": "GC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/d8b8a0a312b685f33e63d453b0d2db83.png",
           "runs": 4,
-          "hits": 8,
+          "hits": 9,
           "errors": 0,
           "permalink": "/equipo/gigantes-del-cibao"
         },
