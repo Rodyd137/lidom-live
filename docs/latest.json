@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-22T23:53:59.684Z",
+    "scraped_at": "2026-11-22T23:55:04.544Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -639,12 +642,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 1,
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Bryan de la Cruz  Out: Rodado al Campo Corto - Segunda Base",
-        "atBat": "Eloy Jimenez",
+        "lastPlayByPlay": "Eloy Jimenez  Out: Rodado al Campo Corto - Segunda Base - Primera Base - Doble Play!",
+        "atBat": null,
         "comment": "",
         "winningPitcher": "Spencer Bivens",
         "losingPitcher": "Evan Grills",
@@ -689,7 +692,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -704,8 +707,8 @@
         "status": 2,
         "date": "2026-11-22 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Ryan Ritter",
+        "lastPlayByPlay": "Ryan Ritter Ponche (K) ",
+        "atBat": "Mason Mccoy",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -749,9 +752,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -15676,7 +15679,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -15721,12 +15727,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 2,
+        "base": 1,
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 1,
-        "lastPlayByPlay": "Bryan de la Cruz  Out: Rodado al Campo Corto - Segunda Base",
-        "atBat": "Eloy Jimenez",
+        "lastPlayByPlay": "Eloy Jimenez  Out: Rodado al Campo Corto - Segunda Base - Primera Base - Doble Play!",
+        "atBat": null,
         "comment": "",
         "winningPitcher": "Spencer Bivens",
         "losingPitcher": "Evan Grills",
@@ -15771,7 +15777,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 1,
+        "outs": 3,
         "strikes": 0
       },
       {
@@ -15786,8 +15792,8 @@
         "status": 2,
         "date": "2026-11-22 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Ryan Ritter",
+        "lastPlayByPlay": "Ryan Ritter Ponche (K) ",
+        "atBat": "Mason Mccoy",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15831,9 +15837,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 2,
-        "outs": 0,
-        "strikes": 1
+        "balls": 0,
+        "outs": 1,
+        "strikes": 0
       }
     ],
     "2026-11-23": [
@@ -21196,22 +21202,22 @@
       "date": "2026-11-22 17:00:00",
       "roundText": "Alta 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "Bryan de la Cruz  Out: Rodado al Campo Corto - Segunda Base",
+      "lastPlayByPlay": "Eloy Jimenez  Out: Rodado al Campo Corto - Segunda Base - Primera Base - Doble Play!",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 1
+        "outs": 3
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 2
+        "base": 1
       },
       "base_runners": {
-        "on1B": true,
+        "on1B": false,
         "on2B": false,
         "on3B": false,
-        "runners": 1,
-        "mask": 2
+        "runners": 0,
+        "mask": 1
       },
       "betting": {
         "moneyline": {
@@ -22189,10 +22195,10 @@
             },
             {
               "reference_id": "20678-1-67",
-              "text": "Eloy Jimenez al bate",
+              "text": "Eloy Jimenez  Out: Rodado al Campo Corto - Segunda Base - Primera Base - Doble Play!",
               "scored": false,
               "is_primary": true,
-              "ts": 1795391632
+              "ts": 1795391685
             }
           ]
         }
@@ -22502,11 +22508,11 @@
       "date": "2026-11-22 19:00:00",
       "roundText": "Baja 4ta",
       "currentInningNum": 4,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Ryan Ritter Ponche (K) ",
       "counts": {
-        "balls": 2,
-        "strikes": 1,
-        "outs": 0
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -23243,10 +23249,17 @@
           "plays": [
             {
               "reference_id": "21417-2-39",
-              "text": "Ryan Ritter al bate",
+              "text": "Ryan Ritter Ponche (K) ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795391587
+              "ts": 1795391698
+            },
+            {
+              "reference_id": "21417-2-40",
+              "text": "Mason Mccoy al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795391701
             }
           ]
         }
@@ -23305,7 +23318,7 @@
           "num": 4,
           "half": "bottom",
           "label": "Baja 4ta",
-          "total_plays": 1,
+          "total_plays": 2,
           "scoring_plays": 0
         }
       ],
