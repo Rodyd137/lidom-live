@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-22T01:30:33.076Z",
+    "scraped_at": "2026-11-22T01:31:38.317Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -639,12 +639,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-11-21 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Luis Liberato",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -666,7 +666,7 @@
           "runs": 0,
           "runs_half": 0,
           "errors": 0,
-          "hits": 2,
+          "hits": 3,
           "pitcher": "",
           "era": "",
           "debut": 0,
@@ -15414,12 +15414,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-11-21 19:30:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Luis Liberato",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15441,7 +15441,7 @@
           "runs": 0,
           "runs_half": 0,
           "errors": 0,
-          "hits": 2,
+          "hits": 3,
           "pitcher": "",
           "era": "",
           "debut": 0,
@@ -21056,7 +21056,7 @@
             "abbr": "AC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
             "runs": 0,
-            "hits": 2,
+            "hits": 3,
             "errors": 0,
             "permalink": "/equipo/aguilas-cibaenas"
           },
@@ -22504,7 +22504,7 @@
             "abbr": "AC",
             "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
             "runs": 0,
-            "hits": 2,
+            "hits": 3,
             "errors": 0,
             "permalink": "/equipo/aguilas-cibaenas"
           },
@@ -22595,14 +22595,14 @@
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 1
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -22630,7 +22630,7 @@
           "permalink": "/equipo/aguilas-cibaenas",
           "totals": {
             "R": 0,
-            "H": 2,
+            "H": 3,
             "E": 0,
             "H2": 0
           },
@@ -22917,7 +22917,7 @@
         "totals": {
           "away": {
             "R": 0,
-            "H": 2,
+            "H": 3,
             "E": 0
           },
           "home": {
@@ -23369,6 +23369,20 @@
               "ts": 1795310855
             }
           ]
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "plays": [
+            {
+              "reference_id": "20650-1-43",
+              "text": "Luis Liberato al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795311050
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23441,6 +23455,13 @@
           "label": "Baja 5ta",
           "total_plays": 6,
           "scoring_plays": 1
+        },
+        {
+          "num": 6,
+          "half": "top",
+          "label": "Alta 6ta",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [

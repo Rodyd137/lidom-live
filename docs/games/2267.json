@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2267",
-    "scraped_at": "2026-11-22T01:30:35.740Z",
+    "scraped_at": "2026-11-22T01:31:41.012Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -19,14 +19,14 @@
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 1
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -54,7 +54,7 @@
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
           "R": 0,
-          "H": 2,
+          "H": 3,
           "E": 0,
           "H2": 0
         },
@@ -341,7 +341,7 @@
       "totals": {
         "away": {
           "R": 0,
-          "H": 2,
+          "H": 3,
           "E": 0
         },
         "home": {
@@ -793,6 +793,20 @@
             "ts": 1795310855
           }
         ]
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "plays": [
+          {
+            "reference_id": "20650-1-43",
+            "text": "Luis Liberato al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795311050
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -865,6 +879,13 @@
         "label": "Baja 5ta",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 6,
+        "half": "top",
+        "label": "Alta 6ta",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
