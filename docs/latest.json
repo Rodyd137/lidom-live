@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-22T00:04:21.118Z",
+    "scraped_at": "2026-11-22T00:05:24.961Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -521,8 +521,8 @@
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Miguel Andujar Sencillo ",
-        "atBat": "Ronny Mauricio",
+        "lastPlayByPlay": "Ronny Mauricio  Out: Rodado al Campo Corto - Carrera Empujada",
+        "atBat": "Bryan Lavastida",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -643,8 +643,8 @@
         "status": 2,
         "date": "2026-11-21 19:30:00",
         "part": 1,
-        "lastPlayByPlay": "Raynel Delgado Ponche (K) ",
-        "atBat": "Santiago Espinal",
+        "lastPlayByPlay": "Santiago Espinal  Out: Rodado al Lanzador - Primera Base",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -689,8 +689,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
-        "strikes": 1
+        "outs": 3,
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -15296,8 +15296,8 @@
         "status": 2,
         "date": "2026-11-21 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "Miguel Andujar Sencillo ",
-        "atBat": "Ronny Mauricio",
+        "lastPlayByPlay": "Ronny Mauricio  Out: Rodado al Campo Corto - Carrera Empujada",
+        "atBat": "Bryan Lavastida",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15341,9 +15341,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 3,
         "outs": 0,
-        "strikes": 0
+        "strikes": 2
       },
       {
         "id": 2266,
@@ -15417,16 +15417,16 @@
         "base": 1,
         "status": 2,
         "date": "2026-11-21 19:30:00",
-        "part": 1,
-        "lastPlayByPlay": "Raynel Delgado Ponche (K) ",
-        "atBat": "Santiago Espinal",
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": null,
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 2da",
+        "roundText": "Baja 2da",
         "currentInningNum": 2,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -15464,8 +15464,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 2,
-        "strikes": 1
+        "outs": 0,
+        "strikes": 0
       }
     ],
     "2026-11-22": [
@@ -19649,10 +19649,10 @@
       "date": "2026-11-21 17:00:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Miguel Andujar Sencillo ",
+      "lastPlayByPlay": "Ronny Mauricio  Out: Rodado al Campo Corto - Carrera Empujada",
       "counts": {
-        "balls": 0,
-        "strikes": 0,
+        "balls": 3,
+        "strikes": 2,
         "outs": 0
       },
       "base_state": {
@@ -20579,10 +20579,17 @@
             },
             {
               "reference_id": "20632-2-62",
-              "text": "Ronny Mauricio al bate",
+              "text": "Ronny Mauricio  Out: Rodado al Campo Corto - Carrera Empujada",
+              "scored": true,
+              "is_primary": true,
+              "ts": 1795305877
+            },
+            {
+              "reference_id": "20632-2-63",
+              "text": "Bryan Lavastida al bate",
               "scored": false,
               "is_primary": true,
-              "ts": 1795305550
+              "ts": 1795305882
             }
           ]
         }
@@ -20669,8 +20676,8 @@
           "num": 6,
           "half": "bottom",
           "label": "Baja 6ta",
-          "total_plays": 3,
-          "scoring_plays": 0
+          "total_plays": 4,
+          "scoring_plays": 1
         }
       ],
       "innings_raw": [
@@ -20769,7 +20776,7 @@
           "id": 2267,
           "date": "2026-11-21 19:30:00",
           "status": 2,
-          "roundText": "Alta 2da",
+          "roundText": "Baja 2da",
           "awayTeam": {
             "id": 3,
             "name": "Aguilas",
@@ -22147,7 +22154,7 @@
           "id": 2267,
           "date": "2026-11-21 19:30:00",
           "status": 2,
-          "roundText": "Alta 2da",
+          "roundText": "Baja 2da",
           "awayTeam": {
             "id": 3,
             "name": "Aguilas",
@@ -22235,16 +22242,16 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-21 19:30:00",
-      "roundText": "Alta 2da",
+      "roundText": "Baja 2da",
       "currentInningNum": 2,
-      "lastPlayByPlay": "Raynel Delgado Ponche (K) ",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
-        "strikes": 1,
-        "outs": 2
+        "strikes": 0,
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "base": 1
       },
       "base_runners": {
@@ -22688,10 +22695,10 @@
             },
             {
               "reference_id": "20646-1-12",
-              "text": "Santiago Espinal al bate",
+              "text": "Santiago Espinal  Out: Rodado al Lanzador - Primera Base",
               "scored": false,
               "is_primary": true,
-              "ts": 1795305818
+              "ts": 1795305897
             }
           ]
         }
@@ -22729,7 +22736,7 @@
         },
         {
           "num": 2,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
