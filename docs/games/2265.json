@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2265",
-    "scraped_at": "2026-11-22T00:52:32.109Z",
+    "scraped_at": "2026-11-22T00:53:36.283Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,22 +11,22 @@
     "date": "2026-11-21 17:00:00",
     "roundText": "Alta 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Ismael Alcantara Base por Bolas ",
+    "lastPlayByPlay": "George Valera   Out: Rodado al Primera Base - Lanzador - Carrera Empujada",
     "counts": {
       "balls": 0,
-      "strikes": 2,
-      "outs": 0
+      "strikes": 1,
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
-      "base": 7
+      "base": 4
     },
     "base_runners": {
       "on1B": false,
-      "on2B": true,
+      "on2B": false,
       "on3B": true,
-      "runners": 2,
-      "mask": 7
+      "runners": 1,
+      "mask": 4
     },
     "betting": {
       "moneyline": {
@@ -53,7 +53,7 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/0d180431331e93a791f23a77d4b94122.png",
         "permalink": "/equipo/toros-del-este",
         "totals": {
-          "R": 1,
+          "R": 2,
           "H": 7,
           "E": 3,
           "H2": 1
@@ -333,14 +333,14 @@
         },
         {
           "num": 9,
-          "away": 0,
+          "away": 1,
           "home": 0
         }
       ],
       "extras": false,
       "totals": {
         "away": {
-          "R": 1,
+          "R": 2,
           "H": 7,
           "E": 3
         },
@@ -386,7 +386,7 @@
           },
           {
             "num": 9,
-            "R": 1
+            "R": 2
           }
         ],
         "home": [
@@ -1151,10 +1151,17 @@
           },
           {
             "reference_id": "20635-1-88",
-            "text": "George Valera  al bate",
+            "text": "George Valera   Out: Rodado al Primera Base - Lanzador - Carrera Empujada",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1795308770
+          },
+          {
+            "reference_id": "20635-1-89",
+            "text": "Jesús Sanchez  al bate",
             "scored": false,
             "is_primary": true,
-            "ts": 1795308702
+            "ts": 1795308776
           }
         ]
       }
@@ -1276,8 +1283,8 @@
         "num": 9,
         "half": "top",
         "label": "Alta 9na",
-        "total_plays": 5,
-        "scoring_plays": 0
+        "total_plays": 6,
+        "scoring_plays": 1
       }
     ],
     "innings_raw": [
@@ -1341,7 +1348,7 @@
         "num": 9,
         "part": 1,
         "is_last": 1,
-        "awayTeamRuns": 0,
+        "awayTeamRuns": 1,
         "homeTeamRuns": 0
       }
     ],
