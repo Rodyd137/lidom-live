@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-23T00:28:41.271Z",
+    "scraped_at": "2026-11-23T00:29:46.514Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,7 +578,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 6,
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 2,
@@ -594,7 +594,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -688,7 +691,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 1,
         "strikes": 1
       },
@@ -705,7 +708,7 @@
         "date": "2026-11-22 19:00:00",
         "part": 1,
         "lastPlayByPlay": "Eddison Paulino  Toque de Sacrificio ",
-        "atBat": null,
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -751,7 +754,7 @@
         },
         "balls": 1,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "upcoming": [
@@ -15660,7 +15663,7 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 6,
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 2,
@@ -15676,7 +15679,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/7736146c2cbfd3ee22e555aada3db41e.png",
+          "text": "Reunión Lomita"
+        },
         "awayTeam": {
           "id": 4,
           "name": "Leones",
@@ -15770,7 +15776,7 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 0,
+        "balls": 1,
         "outs": 1,
         "strikes": 1
       },
@@ -15787,7 +15793,7 @@
         "date": "2026-11-22 19:00:00",
         "part": 1,
         "lastPlayByPlay": "Eddison Paulino  Toque de Sacrificio ",
-        "atBat": null,
+        "atBat": "Agustin Ramirez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15833,7 +15839,7 @@
         },
         "balls": 1,
         "outs": 1,
-        "strikes": 0
+        "strikes": 2
       }
     ],
     "2026-11-23": [
@@ -19905,14 +19911,14 @@
       },
       "base_state": {
         "battingTeam": "homeTeam",
-        "base": 5
+        "base": 6
       },
       "base_runners": {
         "on1B": true,
-        "on2B": true,
-        "on3B": false,
+        "on2B": false,
+        "on3B": true,
         "runners": 2,
-        "mask": 5
+        "mask": 6
       },
       "betting": {
         "moneyline": {
@@ -21317,7 +21323,7 @@
       "currentInningNum": 9,
       "lastPlayByPlay": "Pedro Severino Out: Elevado al Jardinero Central",
       "counts": {
-        "balls": 0,
+        "balls": 1,
         "strikes": 1,
         "outs": 1
       },
@@ -22778,7 +22784,7 @@
       "lastPlayByPlay": "Eddison Paulino  Toque de Sacrificio ",
       "counts": {
         "balls": 1,
-        "strikes": 0,
+        "strikes": 2,
         "outs": 1
       },
       "base_state": {
@@ -23639,6 +23645,13 @@
               "scored": false,
               "is_primary": true,
               "ts": 1795393661
+            },
+            {
+              "reference_id": "21419-1-54",
+              "text": "Agustin Ramirez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795393733
             }
           ]
         }
@@ -23718,7 +23731,7 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 2,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
