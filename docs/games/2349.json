@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2349",
-    "scraped_at": "2026-11-23T01:52:58.942Z",
+    "scraped_at": "2026-11-23T01:54:03.631Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -11,11 +11,11 @@
     "date": "2026-11-22 19:00:00",
     "roundText": "Alta 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "",
+    "lastPlayByPlay": "Gilberto Jimenez  Out: Rodado al Segunda Base - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 0
+      "outs": 1
     },
     "base_state": {
       "battingTeam": "awayTeam",
@@ -1066,6 +1066,27 @@
             "ts": 1795398611
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "plays": [
+          {
+            "reference_id": "21421-1-78",
+            "text": "Gilberto Jimenez  Out: Rodado al Segunda Base - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795398825
+          },
+          {
+            "reference_id": "21421-1-79",
+            "text": "Kelvin Gutierrez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795398828
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1165,6 +1186,13 @@
         "half": "bottom",
         "label": "Baja 7ma",
         "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "top",
+        "label": "Alta 8va",
+        "total_plays": 2,
         "scoring_plays": 0
       }
     ],
