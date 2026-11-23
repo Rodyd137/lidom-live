@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2268",
-    "scraped_at": "2026-11-23T00:12:27.234Z",
+    "scraped_at": "2026-11-23T00:13:32.285Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-22 17:00:00",
-    "roundText": "Alta 9na",
+    "roundText": "Baja 9na",
     "currentInningNum": 9,
-    "lastPlayByPlay": "Socrates Brito Out: Elevado al Jardinero Derecho ",
+    "lastPlayByPlay": "",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -1039,10 +1039,24 @@
           },
           {
             "reference_id": "20662-1-66",
-            "text": "M. De la Cruz al bate",
+            "text": "M. De la Cruz  Out: Rodado al Tercera Base - Primera Base",
             "scored": false,
             "is_primary": true,
-            "ts": 1795392691
+            "ts": 1795392753
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "20662-2-67",
+            "text": "Francisco Mejia al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795392773
           }
         ]
       }
@@ -1166,6 +1180,13 @@
         "label": "Alta 9na",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1227,7 +1248,7 @@
       },
       {
         "num": 9,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
@@ -1280,8 +1301,8 @@
           "name": "Aguilas",
           "abbr": "AC",
           "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
-          "runs": 2,
-          "hits": 7,
+          "runs": 3,
+          "hits": 8,
           "errors": 0,
           "permalink": "/equipo/aguilas-cibaenas"
         }
