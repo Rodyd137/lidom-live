@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-23T00:00:29.295Z",
+    "scraped_at": "2026-11-23T00:01:34.207Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -646,8 +646,8 @@
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Dairon Blanco",
+        "lastPlayByPlay": "Rodolfo Castro Out: Línea al Jardinero Central",
+        "atBat": "Jorge Mateo",
         "comment": "",
         "winningPitcher": "Spencer Bivens",
         "losingPitcher": "Evan Grills",
@@ -692,8 +692,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 0
+        "outs": 1,
+        "strikes": 1
       },
       {
         "id": 2349,
@@ -708,7 +708,7 @@
         "date": "2026-11-22 19:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jain Camargo",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -753,7 +753,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -15731,8 +15731,8 @@
         "status": 2,
         "date": "2026-11-22 17:00:00",
         "part": 2,
-        "lastPlayByPlay": "",
-        "atBat": "Dairon Blanco",
+        "lastPlayByPlay": "Rodolfo Castro Out: Línea al Jardinero Central",
+        "atBat": "Jorge Mateo",
         "comment": "",
         "winningPitcher": "Spencer Bivens",
         "losingPitcher": "Evan Grills",
@@ -15777,8 +15777,8 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
-        "strikes": 0
+        "outs": 1,
+        "strikes": 1
       },
       {
         "id": 2349,
@@ -15793,7 +15793,7 @@
         "date": "2026-11-22 19:00:00",
         "part": 1,
         "lastPlayByPlay": "",
-        "atBat": null,
+        "atBat": "Jain Camargo",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15838,7 +15838,7 @@
           "record": ""
         },
         "balls": 0,
-        "outs": 0,
+        "outs": 1,
         "strikes": 0
       }
     ],
@@ -21216,11 +21216,11 @@
       "date": "2026-11-22 17:00:00",
       "roundText": "Baja 7ma",
       "currentInningNum": 7,
-      "lastPlayByPlay": "",
+      "lastPlayByPlay": "Rodolfo Castro Out: Línea al Jardinero Central",
       "counts": {
         "balls": 0,
-        "strikes": 0,
-        "outs": 0
+        "strikes": 1,
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "homeTeam",
@@ -22223,10 +22223,24 @@
           "plays": [
             {
               "reference_id": "20678-2-68",
-              "text": "Dairon Blanco al bate",
+              "text": "Dairon Blanco Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795391802
+              "ts": 1795392059
+            },
+            {
+              "reference_id": "20678-2-69",
+              "text": "Rodolfo Castro Out: Línea al Jardinero Central",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795392070
+            },
+            {
+              "reference_id": "20678-2-70",
+              "text": "Jorge Mateo al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795392073
             }
           ]
         }
@@ -22327,7 +22341,7 @@
           "num": 7,
           "half": "bottom",
           "label": "Baja 7ma",
-          "total_plays": 1,
+          "total_plays": 3,
           "scoring_plays": 0
         }
       ],
@@ -22547,7 +22561,7 @@
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 0
+        "outs": 1
       },
       "base_state": {
         "battingTeam": "awayTeam",
@@ -23311,6 +23325,20 @@
               "ts": 1795391900
             }
           ]
+        },
+        {
+          "num": 5,
+          "half": "top",
+          "label": "Alta 5ta",
+          "plays": [
+            {
+              "reference_id": "21418-1-43",
+              "text": "Jain Camargo al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795392061
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -23368,6 +23396,13 @@
           "half": "bottom",
           "label": "Baja 4ta",
           "total_plays": 4,
+          "scoring_plays": 0
+        },
+        {
+          "num": 5,
+          "half": "top",
+          "label": "Alta 5ta",
+          "total_plays": 1,
           "scoring_plays": 0
         }
       ],
