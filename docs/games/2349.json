@@ -1,24 +1,24 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2349",
-    "scraped_at": "2026-11-23T01:57:18.053Z",
+    "scraped_at": "2026-11-23T02:47:14.757Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
     "id": 2349,
     "season_id": 23,
-    "status": 2,
+    "status": 6,
     "date": "2026-11-22 19:00:00",
-    "roundText": "Alta 8va",
-    "currentInningNum": 8,
-    "lastPlayByPlay": "Kelvin Gutierrez  Out: Rodado al Tercera Base - Primera Base",
+    "roundText": "Baja 9na",
+    "currentInningNum": 9,
+    "lastPlayByPlay": "Aderlin Rodríguez Sencillo y 2 Carreras Impulsadas ",
     "counts": {
-      "balls": 1,
-      "strikes": 2,
-      "outs": 2
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -40,9 +40,9 @@
       "over_under": null
     },
     "pitchers": {
-      "winning": null,
-      "losing": null,
-      "save": null
+      "winning": "Jonathan Aro",
+      "losing": "Brent Honeywell",
+      "save": ""
     },
     "teams": {
       "away": {
@@ -174,8 +174,8 @@
         "logo": "https://s3.amazonaws.com/cdn.baseball-new.com/f0fb0b8bc2a38afca24fa01fd5f74635.png",
         "permalink": "/equipo/aguilas-cibaenas",
         "totals": {
-          "R": 7,
-          "H": 9,
+          "R": 11,
+          "H": 16,
           "E": 0,
           "H2": 3
         },
@@ -242,10 +242,10 @@
             "position": ""
           },
           {
-            "id": 6311,
+            "id": 6313,
             "team_id": 3,
-            "name": "Cris Suero",
-            "abbreviation": "C. Suero",
+            "name": "Victor Roble",
+            "abbreviation": "V. Roble",
             "number": null,
             "dob": null,
             "height": "",
@@ -264,10 +264,10 @@
             "position": ""
           },
           {
-            "id": 6073,
+            "id": 6270,
             "team_id": 3,
-            "name": "Jorge Bonifacio",
-            "abbreviation": "Jorge Bonifacio",
+            "name": "Adael Amador",
+            "abbreviation": "A. Amador",
             "number": null,
             "dob": null,
             "height": "",
@@ -329,12 +329,12 @@
         {
           "num": 8,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 9,
           "away": 0,
-          "home": 0
+          "home": 3
         }
       ],
       "extras": false,
@@ -345,8 +345,8 @@
           "E": 0
         },
         "home": {
-          "R": 7,
-          "H": 9,
+          "R": 11,
+          "H": 16,
           "E": 0
         }
       },
@@ -420,11 +420,11 @@
           },
           {
             "num": 8,
-            "R": 7
+            "R": 8
           },
           {
             "num": 9,
-            "R": 7
+            "R": 11
           }
         ]
       }
@@ -1088,10 +1088,143 @@
           },
           {
             "reference_id": "21421-1-80",
-            "text": "Yonatan Henriquez al bate",
+            "text": "Yonatan Henriquez Ponche (K) ",
             "scored": false,
             "is_primary": true,
-            "ts": 1795398939
+            "ts": 1795399057
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "21421-2-81",
+            "text": "Luis Liberato Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795399360
+          },
+          {
+            "reference_id": "21421-2-82",
+            "text": "Santiago Espinal Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795399414
+          },
+          {
+            "reference_id": "21421-2-83",
+            "text": "Jasson Dominguez Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1795399538
+          },
+          {
+            "reference_id": "21421-2-84",
+            "text": "Aderlin Rodríguez Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795399626
+          },
+          {
+            "reference_id": "21421-2-85",
+            "text": "Leody Taveras Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795399934
+          },
+          {
+            "reference_id": "21421-2-86",
+            "text": "Victor Roble Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795400025
+          },
+          {
+            "reference_id": "21421-2-87",
+            "text": "J. C. Escarra Out: Línea al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795400131
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "21422-1-88",
+            "text": "Julio Carreras Out: Elevado al Jardinero Central",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795400342
+          },
+          {
+            "reference_id": "21422-1-89",
+            "text": "Eddison Paulino  Ponche (K) ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795400475
+          },
+          {
+            "reference_id": "21422-1-90",
+            "text": "Agustin Ramirez Out: Elevado al Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795400580
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "plays": [
+          {
+            "reference_id": "21422-2-91",
+            "text": "Adael Amador Out: Elevado al Tercera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795400843
+          },
+          {
+            "reference_id": "21422-2-92",
+            "text": "Mason Mccoy Doble! ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795400958
+          },
+          {
+            "reference_id": "21422-2-93",
+            "text": "Luis Liberato Sencillo ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795401037
+          },
+          {
+            "reference_id": "21422-2-94",
+            "text": "Santiago Espinal Sencillo y 1 Carrera Impulsada ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1795401159
+          },
+          {
+            "reference_id": "21422-2-95",
+            "text": "Jasson Dominguez Base por Bolas ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795401320
+          },
+          {
+            "reference_id": "21422-2-96",
+            "text": "Aderlin Rodríguez Sencillo y 2 Carreras Impulsadas ",
+            "scored": true,
+            "is_primary": true,
+            "ts": 1795401392
           }
         ]
       }
@@ -1201,6 +1334,27 @@
         "label": "Alta 8va",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 7,
+        "scoring_plays": 1
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 3,
+        "scoring_plays": 0
+      },
+      {
+        "num": 9,
+        "half": "bottom",
+        "label": "Baja 9na",
+        "total_plays": 6,
+        "scoring_plays": 2
       }
     ],
     "innings_raw": [
@@ -1255,17 +1409,17 @@
       },
       {
         "num": 8,
-        "part": 1,
-        "is_last": 1,
+        "part": 2,
+        "is_last": 0,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 1
       },
       {
         "num": 9,
-        "part": 1,
-        "is_last": 0,
+        "part": 2,
+        "is_last": 1,
         "awayTeamRuns": 0,
-        "homeTeamRuns": 0
+        "homeTeamRuns": 3
       }
     ],
     "siblingGames": [
