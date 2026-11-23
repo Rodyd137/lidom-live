@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2268",
-    "scraped_at": "2026-11-23T00:43:59.245Z",
+    "scraped_at": "2026-11-23T00:45:04.316Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-22 17:00:00",
-    "roundText": "Alta 10ma",
+    "roundText": "Baja 10ma",
     "currentInningNum": 10,
-    "lastPlayByPlay": "Erik Gonzales  Out: Rodado al Campo Corto - Primera Base",
+    "lastPlayByPlay": "",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "awayTeam",
-      "base": 1
+      "battingTeam": "homeTeam",
+      "base": 3
     },
     "base_runners": {
       "on1B": false,
-      "on2B": false,
+      "on2B": true,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 3
     },
     "betting": {
       "moneyline": {
@@ -1135,6 +1135,20 @@
             "ts": 1795394571
           }
         ]
+      },
+      {
+        "num": 10,
+        "half": "bottom",
+        "label": "Baja 10ma",
+        "plays": [
+          {
+            "reference_id": "21432-2-76",
+            "text": "Y. Encarnación al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795394698
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1270,6 +1284,13 @@
         "label": "Alta 10ma",
         "total_plays": 3,
         "scoring_plays": 0
+      },
+      {
+        "num": 10,
+        "half": "bottom",
+        "label": "Baja 10ma",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1338,7 +1359,7 @@
       },
       {
         "num": 10,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0

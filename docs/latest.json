@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-23T00:43:56.382Z",
+    "scraped_at": "2026-11-23T00:45:01.385Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -578,19 +578,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-11-22 17:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Erik Gonzales  Out: Rodado al Campo Corto - Primera Base",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Y. Encarnación",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 10ma",
+        "roundText": "Baja 10ma",
         "currentInningNum": 10,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -628,7 +628,7 @@
           "record": "1 - 0"
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -700,12 +700,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 6,
+        "base": 8,
         "status": 2,
         "date": "2026-11-22 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "Carlos Peguero Ponche (K) ",
-        "atBat": "Jain Camargo",
+        "lastPlayByPlay": "Jain Camargo Base por Bolas ",
+        "atBat": "Gilberto Jimenez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -749,9 +749,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 2,
-        "strikes": 2
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -15660,19 +15660,19 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 1,
+        "base": 3,
         "status": 2,
         "date": "2026-11-22 17:00:00",
-        "part": 1,
-        "lastPlayByPlay": "Erik Gonzales  Out: Rodado al Campo Corto - Primera Base",
-        "atBat": null,
+        "part": 2,
+        "lastPlayByPlay": "",
+        "atBat": "Y. Encarnación",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
         "savingPitcher": null,
-        "roundText": "Alta 10ma",
+        "roundText": "Baja 10ma",
         "currentInningNum": 10,
-        "battingTeam": "awayTeam",
+        "battingTeam": "homeTeam",
         "adImage": null,
         "adLink": "",
         "banner": "",
@@ -15710,7 +15710,7 @@
           "record": "1 - 0"
         },
         "balls": 0,
-        "outs": 3,
+        "outs": 0,
         "strikes": 0
       },
       {
@@ -15782,12 +15782,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 6,
+        "base": 8,
         "status": 2,
         "date": "2026-11-22 19:00:00",
         "part": 1,
-        "lastPlayByPlay": "Carlos Peguero Ponche (K) ",
-        "atBat": "Jain Camargo",
+        "lastPlayByPlay": "Jain Camargo Base por Bolas ",
+        "atBat": "Gilberto Jimenez",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15831,9 +15831,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 2,
-        "strikes": 2
+        "strikes": 0
       }
     ],
     "2026-11-23": [
@@ -19895,24 +19895,24 @@
       "season_id": 23,
       "status": 2,
       "date": "2026-11-22 17:00:00",
-      "roundText": "Alta 10ma",
+      "roundText": "Baja 10ma",
       "currentInningNum": 10,
-      "lastPlayByPlay": "Erik Gonzales  Out: Rodado al Campo Corto - Primera Base",
+      "lastPlayByPlay": "",
       "counts": {
         "balls": 0,
         "strikes": 0,
-        "outs": 3
+        "outs": 0
       },
       "base_state": {
-        "battingTeam": "awayTeam",
-        "base": 1
+        "battingTeam": "homeTeam",
+        "base": 3
       },
       "base_runners": {
         "on1B": false,
-        "on2B": false,
+        "on2B": true,
         "on3B": false,
-        "runners": 0,
-        "mask": 1
+        "runners": 1,
+        "mask": 3
       },
       "betting": {
         "moneyline": {
@@ -21021,6 +21021,20 @@
               "ts": 1795394571
             }
           ]
+        },
+        {
+          "num": 10,
+          "half": "bottom",
+          "label": "Baja 10ma",
+          "plays": [
+            {
+              "reference_id": "21432-2-76",
+              "text": "Y. Encarnación al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795394698
+            }
+          ]
         }
       ],
       "plays_summary_by_inning": [
@@ -21156,6 +21170,13 @@
           "label": "Alta 10ma",
           "total_plays": 3,
           "scoring_plays": 0
+        },
+        {
+          "num": 10,
+          "half": "bottom",
+          "label": "Baja 10ma",
+          "total_plays": 1,
+          "scoring_plays": 0
         }
       ],
       "innings_raw": [
@@ -21224,7 +21245,7 @@
         },
         {
           "num": 10,
-          "part": 1,
+          "part": 2,
           "is_last": 1,
           "awayTeamRuns": 0,
           "homeTeamRuns": 0
@@ -22702,7 +22723,7 @@
           "id": 2268,
           "date": "2026-11-22 17:00:00",
           "status": 2,
-          "roundText": "Alta 10ma",
+          "roundText": "Baja 10ma",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -22844,22 +22865,22 @@
       "date": "2026-11-22 19:00:00",
       "roundText": "Alta 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Carlos Peguero Ponche (K) ",
+      "lastPlayByPlay": "Jain Camargo Base por Bolas ",
       "counts": {
-        "balls": 3,
-        "strikes": 2,
+        "balls": 0,
+        "strikes": 0,
         "outs": 2
       },
       "base_state": {
         "battingTeam": "awayTeam",
-        "base": 6
+        "base": 8
       },
       "base_runners": {
         "on1B": true,
-        "on2B": false,
+        "on2B": true,
         "on3B": true,
-        "runners": 2,
-        "mask": 6
+        "runners": 3,
+        "mask": 8
       },
       "betting": {
         "moneyline": {
@@ -23732,10 +23753,17 @@
             },
             {
               "reference_id": "21419-1-57",
-              "text": "Jain Camargo al bate",
+              "text": "Jain Camargo Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795394543
+              "ts": 1795394674
+            },
+            {
+              "reference_id": "21419-1-58",
+              "text": "Gilberto Jimenez al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795394681
             }
           ]
         }
@@ -23815,7 +23843,7 @@
           "num": 6,
           "half": "top",
           "label": "Alta 6ta",
-          "total_plays": 6,
+          "total_plays": 7,
           "scoring_plays": 1
         }
       ],
@@ -23889,7 +23917,7 @@
           "id": 2268,
           "date": "2026-11-22 17:00:00",
           "status": 2,
-          "roundText": "Alta 10ma",
+          "roundText": "Baja 10ma",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
@@ -25076,7 +25104,7 @@
           "id": 2268,
           "date": "2026-11-22 17:00:00",
           "status": 2,
-          "roundText": "Alta 10ma",
+          "roundText": "Baja 10ma",
           "awayTeam": {
             "id": 4,
             "name": "Leones",
