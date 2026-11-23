@@ -1,7 +1,7 @@
 {
   "source": {
     "homepage": "https://pelotainvernal.com/",
-    "scraped_at": "2026-11-23T01:00:13.628Z",
+    "scraped_at": "2026-11-23T01:01:17.817Z",
     "tz": "America/Santo_Domingo"
   },
   "league": {
@@ -700,12 +700,12 @@
         "handicap_g": null,
         "handicap_h": null,
         "over_under": null,
-        "base": 5,
+        "base": 8,
         "status": 2,
         "date": "2026-11-22 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Mason Mccoy Base por Bolas ",
-        "atBat": "Luis Liberato",
+        "lastPlayByPlay": "Luis Liberato Base por Bolas ",
+        "atBat": "Santiago Espinal",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -716,7 +716,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -749,9 +752,9 @@
           "debut": 0,
           "record": ""
         },
-        "balls": 3,
+        "balls": 0,
         "outs": 0,
-        "strikes": 1
+        "strikes": 0
       }
     ],
     "upcoming": [
@@ -15786,8 +15789,8 @@
         "status": 2,
         "date": "2026-11-22 19:00:00",
         "part": 2,
-        "lastPlayByPlay": "Mason Mccoy Base por Bolas ",
-        "atBat": "Luis Liberato",
+        "lastPlayByPlay": "Luis Liberato Base por Bolas ",
+        "atBat": "Santiago Espinal",
         "comment": "",
         "winningPitcher": null,
         "losingPitcher": null,
@@ -15798,7 +15801,10 @@
         "adImage": null,
         "adLink": "",
         "banner": "",
-        "gameAlert": "",
+        "gameAlert": {
+          "icon": "https://s3.amazonaws.com/cdn.baseball-new.com/5a81ade1bc235d3d3edaf9081cba9bdd.png",
+          "text": "Cambio de Lanzador"
+        },
         "awayTeam": {
           "id": 5,
           "name": "Gigantes",
@@ -21355,7 +21361,7 @@
       "stats_tables": [
         {
           "title": "Leones vs Tigres",
-          "round": "Temporada Regular (5 Juegos)",
+          "round": "Temporada Regular (6 Juegos)",
           "columns": [
             "G",
             "P",
@@ -21366,23 +21372,23 @@
           "teams": {
             "Leones LE": {
               "G": 2,
-              "P": 3,
-              "C": 3.8,
-              "H": 7.4,
-              "E": 0.4
+              "P": 4,
+              "C": 3.5,
+              "H": 7,
+              "E": 0.3
             },
             "Tigres TL": {
-              "G": 3,
+              "G": 4,
               "P": 2,
-              "C": 5.4,
-              "H": 10.2,
+              "C": 5,
+              "H": 9.3,
               "E": 1.2
             }
           }
         },
         {
           "title": "Estadísticas Generales",
-          "round": "Temporada Regular (28 Juegos)",
+          "round": "Temporada Regular (29 Juegos)",
           "columns": [
             "G",
             "P",
@@ -21394,18 +21400,18 @@
           "teams": {
             "Leones LE": {
               "G": 17,
-              "P": 11,
-              "CA": 5.3,
+              "P": 12,
+              "CA": 5.2,
               "CP": 4.8,
-              "H": 8.8,
+              "H": 8.7,
               "E": 0.9
             },
             "Tigres TL": {
-              "G": 17,
+              "G": 18,
               "P": 11,
-              "CA": 5.3,
+              "CA": 5.2,
               "CP": 4,
-              "H": 9,
+              "H": 8.9,
               "E": 1.4
             }
           }
@@ -22886,7 +22892,7 @@
       "date": "2026-11-22 19:00:00",
       "roundText": "Baja 6ta",
       "currentInningNum": 6,
-      "lastPlayByPlay": "Mason Mccoy Base por Bolas ",
+      "lastPlayByPlay": "Luis Liberato Base por Bolas ",
       "counts": {
         "balls": 0,
         "strikes": 0,
@@ -23809,10 +23815,17 @@
             },
             {
               "reference_id": "21419-2-61",
-              "text": "Luis Liberato al bate",
+              "text": "Luis Liberato Base por Bolas ",
               "scored": false,
               "is_primary": true,
-              "ts": 1795395392
+              "ts": 1795395624
+            },
+            {
+              "reference_id": "21419-2-62",
+              "text": "Santiago Espinal al bate",
+              "scored": false,
+              "is_primary": true,
+              "ts": 1795395630
             }
           ]
         }
@@ -23899,7 +23912,7 @@
           "num": 6,
           "half": "bottom",
           "label": "Baja 6ta",
-          "total_plays": 3,
+          "total_plays": 4,
           "scoring_plays": 0
         }
       ],
