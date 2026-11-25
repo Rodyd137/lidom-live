@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2271",
-    "scraped_at": "2026-11-25T02:58:57.343Z",
+    "scraped_at": "2026-11-25T03:00:03.817Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,24 +9,24 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-24 19:30:00",
-    "roundText": "Baja 8va",
-    "currentInningNum": 8,
-    "lastPlayByPlay": "Bryan Lavastida  Out: Rodado al Tercera Base - Primera Base",
+    "roundText": "Alta 9na",
+    "currentInningNum": 9,
+    "lastPlayByPlay": "Robinson Cano Golpeado por Pelota ",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 0
     },
     "base_state": {
-      "battingTeam": "homeTeam",
-      "base": 1
+      "battingTeam": "awayTeam",
+      "base": 2
     },
     "base_runners": {
-      "on1B": false,
+      "on1B": true,
       "on2B": false,
       "on3B": false,
-      "runners": 0,
-      "mask": 1
+      "runners": 1,
+      "mask": 2
     },
     "betting": {
       "moneyline": {
@@ -180,7 +180,7 @@
           "H2": 3
         },
         "probables": {
-          "pitcher": "Luis Frias",
+          "pitcher": "Wander Suero",
           "era": "",
           "record": "",
           "debut": false
@@ -1094,6 +1094,27 @@
             "ts": 1795575351
           }
         ]
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "plays": [
+          {
+            "reference_id": "20689-1-82",
+            "text": "Robinson Cano Golpeado por Pelota ",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795575568
+          },
+          {
+            "reference_id": "20689-1-83",
+            "text": "Harold Andres Ramirez al bate",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795575570
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1208,6 +1229,13 @@
         "label": "Baja 8va",
         "total_plays": 4,
         "scoring_plays": 1
+      },
+      {
+        "num": 9,
+        "half": "top",
+        "label": "Alta 9na",
+        "total_plays": 2,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1263,14 +1291,14 @@
       {
         "num": 8,
         "part": 2,
-        "is_last": 1,
+        "is_last": 0,
         "awayTeamRuns": 0,
         "homeTeamRuns": 1
       },
       {
         "num": 9,
         "part": 1,
-        "is_last": 0,
+        "is_last": 1,
         "awayTeamRuns": 0,
         "homeTeamRuns": 0
       }
