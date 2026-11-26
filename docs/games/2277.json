@@ -1,7 +1,7 @@
 {
   "source": {
     "url": "https://pelotainvernal.com/2277",
-    "scraped_at": "2026-11-26T03:23:36.282Z",
+    "scraped_at": "2026-11-26T03:24:42.350Z",
     "tz": "America/Santo_Domingo"
   },
   "game": {
@@ -9,16 +9,16 @@
     "season_id": 23,
     "status": 2,
     "date": "2026-11-25 19:30:00",
-    "roundText": "Alta 8va",
+    "roundText": "Baja 8va",
     "currentInningNum": 8,
-    "lastPlayByPlay": "K. Huff  Out: Rodado al Tercera Base - Primera Base",
+    "lastPlayByPlay": "Jorge Mateo  Out: Rodado al Campo Corto - Primera Base",
     "counts": {
       "balls": 0,
       "strikes": 0,
-      "outs": 3
+      "outs": 1
     },
     "base_state": {
-      "battingTeam": "awayTeam",
+      "battingTeam": "homeTeam",
       "base": 1
     },
     "base_runners": {
@@ -59,7 +59,7 @@
           "H2": 0
         },
         "probables": {
-          "pitcher": "Koh Nakagawa",
+          "pitcher": "Michel Otañez",
           "era": "",
           "record": "",
           "debut": false
@@ -1129,6 +1129,20 @@
             "ts": 1795663294
           }
         ]
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "plays": [
+          {
+            "reference_id": "20742-2-82",
+            "text": "Jorge Mateo  Out: Rodado al Campo Corto - Primera Base",
+            "scored": false,
+            "is_primary": true,
+            "ts": 1795663481
+          }
+        ]
       }
     ],
     "plays_summary_by_inning": [
@@ -1236,6 +1250,13 @@
         "label": "Alta 8va",
         "total_plays": 6,
         "scoring_plays": 1
+      },
+      {
+        "num": 8,
+        "half": "bottom",
+        "label": "Baja 8va",
+        "total_plays": 1,
+        "scoring_plays": 0
       }
     ],
     "innings_raw": [
@@ -1290,7 +1311,7 @@
       },
       {
         "num": 8,
-        "part": 1,
+        "part": 2,
         "is_last": 1,
         "awayTeamRuns": 2,
         "homeTeamRuns": 0
